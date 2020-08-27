@@ -1,0 +1,7155 @@
+1
+00:00:00,845 --> 00:00:03,220
+WANITA: Konten berikut diberikan
+di bawah lisensi
+
+2
+00:00:03,220 --> 00:00:04,610
+Creative Commons.
+
+3
+00:00:04,610 --> 00:00:06,820
+Dukungan Anda akan membantu
+MIT OpenCourseWare
+
+4
+00:00:06,820 --> 00:00:10,910
+untuk terus menyediakan bahan edukasi
+berkualitas tinggi secara gratis
+
+5
+00:00:10,910 --> 00:00:13,480
+Untuk berdonasi, atau
+melihat materi tambahan
+
+6
+00:00:13,480 --> 00:00:15,970
+dari ratusan kuliah MIT,
+kunjungi MIT OpenCourseWare
+
+7
+00:00:15,970 --> 00:00:17,820
+mitopencourseware@ocw.mit.edu.
+
+8
+00:00:22,780 --> 00:00:24,850
+NEHA NARULA: OK, mari kita mulai.
+
+9
+00:00:24,850 --> 00:00:25,430
+OK?
+
+10
+00:00:25,430 --> 00:00:26,630
+OK baik.
+
+11
+00:00:26,630 --> 00:00:28,700
+Kita di sini akan berbicara
+tentang pembangunan dan desain
+
+12
+00:00:28,700 --> 00:00:30,009
+mata uang kripto (cryptocurrency).
+
+13
+00:00:30,009 --> 00:00:32,509
+Saya rasa pertanyaan yang pertama
+muncul tentu saja
+
+14
+00:00:32,509 --> 00:00:34,940
+adalah apa itu cryptocurrency?
+
+15
+00:00:34,940 --> 00:00:39,892
+Jadi kata ini diciptakan kurang lebih
+10 tahun lalu saat--
+
+16
+00:00:39,892 --> 00:00:42,350
+Saya tidak tahu berapa banyak dari kalian
+tahu asal mula ceritanya dari mana
+
+17
+00:00:42,350 --> 00:00:45,800
+bitcoin muncul, tetapi pada dasarnya
+sebuah nama samaran (pseudonym) muncul di internet
+
+18
+00:00:45,800 --> 00:00:49,700
+meninggalkan sebuah paper ilmiah dan
+kode terbuka (open source)
+
+19
+00:00:49,700 --> 00:00:52,530
+di sebuah forum dan milis,
+dan berkata, hei,
+
+20
+00:00:52,530 --> 00:00:55,040
+saya punya ide ini yang
+dinamakan bitcoin.
+
+21
+00:00:55,040 --> 00:00:57,055
+Ini seperti
+uang elektronik.
+
+22
+00:00:57,055 --> 00:00:58,430
+Ini menurut saya
+bagaimana itu bisa bekerja,
+
+23
+00:00:58,430 --> 00:01:01,100
+dan ini adalah kode jika Anda
+ingin menjalankannya dan menjadi bagian
+
+24
+00:01:01,100 --> 00:01:02,820
+dari jaringan peer-to-peer.
+
+25
+00:01:02,820 --> 00:01:04,220
+Kita tidak tahu siapa
+orang ini.
+
+26
+00:01:04,220 --> 00:01:06,710
+Orang ini pada dasarnya
+menghilang begitu saja
+
+27
+00:01:06,710 --> 00:01:09,350
+dari internet dan
+dari dunia ini.
+
+28
+00:01:09,350 --> 00:01:12,470
+Tetapi itu membuat sesuatu
+yang menangkap
+
+29
+00:01:12,470 --> 00:01:16,160
+imajinasi banyak orang
+dan sudah, bergantung
+
+30
+00:01:16,160 --> 00:01:18,200
+bagaimana Anda mengukurnya,
+membuat nilai ekonomi
+
+31
+00:01:18,200 --> 00:01:20,690
+senilai milyaran dan
+milyaran dolar
+
+32
+00:01:20,690 --> 00:01:24,320
+dan menginsipirasi banyak
+orang untuk berpikir tentang bagaimana
+
+33
+00:01:24,320 --> 00:01:27,710
+menggunakan teknologi ini untuk
+memecahkan banyak sekali masalah 
+
+34
+00:01:27,710 --> 00:01:30,080
+di luar pembayaran elektronik.
+
+35
+00:01:30,080 --> 00:01:34,160
+Jadi cryptocurrency dan
+teknologi di belakangnya
+
+36
+00:01:34,160 --> 00:01:39,440
+menginsipirasi orang untuk berpikir tentang bagaimana
+membantu orang yang tidak terjamah bank formal
+
+37
+00:01:39,440 --> 00:01:43,430
+membuat banyak hal lebih mudah
+diaudit dan ditelusuri
+
+38
+00:01:43,430 --> 00:01:46,730
+menghilangkan perantara
+terpercaya dan institusi
+
+39
+00:01:46,730 --> 00:01:51,260
+pada situasi tertentu,
+dan pada dasarnya menyelesaikan
+
+40
+00:01:51,260 --> 00:01:54,770
+semua masalah, jika Anda membaca
+tentang apa yang bisa
+
+41
+00:01:54,770 --> 00:01:56,180
+dilakukan blockhain di internet.
+
+42
+00:01:56,180 --> 00:01:58,790
+Tapi kelas ini bukan
+tentang hal tersebut.
+
+43
+00:01:58,790 --> 00:02:01,670
+Kelas ini bukan berupa
+tentang aplikasi.
+
+44
+00:02:01,670 --> 00:02:04,970
+Kelas ini adalah tentang
+teknologi dan infrastruktur.
+
+45
+00:02:04,970 --> 00:02:08,120
+Anda akan mempelajari bagaimana
+membuat cryptocurrency, apa
+
+46
+00:02:08,120 --> 00:02:10,190
+yang ada di dalam cryptocurrency,
+apa yang penting,
+
+47
+00:02:10,190 --> 00:02:12,050
+apa saja teknik-tekniknya.
+
+48
+00:02:12,050 --> 00:02:16,408
+Dan aplikasi apa yang Anda pilih
+untuk menerapkannya,
+
+49
+00:02:16,408 --> 00:02:17,450
+itu terserah Anda.
+
+50
+00:02:17,450 --> 00:02:20,630
+Kita tidak akan membahas hal tentang
+identitas dijital atau catatan
+
+51
+00:02:20,630 --> 00:02:22,250
+kesehatan atau sejenisnya.
+
+52
+00:02:22,250 --> 00:02:25,070
+Kita akan bicara tentang
+teknologinya.
+
+53
+00:02:25,070 --> 00:02:28,340
+Jadi pertanyaan besarnya adalah
+bagaimana cryptocurrency
+
+54
+00:02:28,340 --> 00:02:30,560
+berbeda dari
+mata uang biasa?
+
+55
+00:02:30,560 --> 00:02:33,020
+Dan hal lain yang
+ingin saya tekankan
+
+56
+00:02:33,020 --> 00:02:36,870
+adalah terminologi-terminologi
+pada bidang ini masih berkembang
+
+57
+00:02:36,870 --> 00:02:38,660
+Jadi Anda akan mendengar
+orang-orang mengatakan
+
+58
+00:02:38,660 --> 00:02:42,140
+terminologi yang bermacam-macam--
+cryptocurrency, blockhain,
+
+59
+00:02:42,140 --> 00:02:43,000
+consensus.
+
+60
+00:02:43,000 --> 00:02:47,060
+Dan definisi kata-kata ini masih
+melayang-layang dan berevolusi
+
+61
+00:02:47,060 --> 00:02:47,870
+saat ini.
+
+62
+00:02:47,870 --> 00:02:51,590
+Sebagian alasannya adalah karena bitcoin,
+cryptocurrency pertama,
+
+63
+00:02:51,590 --> 00:02:54,200
+tidak datang dari akademia,
+sejauh yang kita ketahui.
+
+64
+00:02:54,200 --> 00:02:57,590
+Dia datang dari komunitas
+entustiatik di internet.
+
+65
+00:02:57,590 --> 00:03:01,070
+Jadi itu tidak memiliki basis
+dan ketelitian yang sama
+
+66
+00:03:01,070 --> 00:03:03,590
+dengan apa yang kita harapkan
+dari bidang akademis
+
+67
+00:03:03,590 --> 00:03:04,340
+yang kita pelajari.
+
+68
+00:03:04,340 --> 00:03:05,840
+Itu OK-OK saja.
+
+69
+00:03:05,840 --> 00:03:08,360
+Kita akan melihatnya
+sembari kita membahasnya.
+
+70
+00:03:08,360 --> 00:03:11,750
+Dan akademia benar-benar
+merangkul topik ini.
+
+71
+00:03:11,750 --> 00:03:13,730
+Jadi jika di antara ada adalah
+mahasiswa magister/doktor yang
+
+72
+00:03:13,730 --> 00:03:16,220
+sedang mencari area yang tepat
+untuk riset,
+
+73
+00:03:16,220 --> 00:03:19,148
+Saya rasa dasarnya,
+banyaknya paper akademis
+
+74
+00:03:19,148 --> 00:03:21,440
+yang dipublikasikan terkait cryptocurrency
+dan teknologi blockchain
+
+75
+00:03:21,440 --> 00:03:24,630
+yang dihargai di jurnal akademis
+berlipat ganda setiap tahunnya.
+
+76
+00:03:24,630 --> 00:03:27,610
+Jadi ada kesempatan
+besar di sini.
+
+77
+00:03:27,610 --> 00:03:31,390
+Jadi cryptocurrency bukanlah
+mata uang biasa.
+
+78
+00:03:31,390 --> 00:03:33,880
+Dia bukan 1 dolar atau
+1 pound atau 1 euro,
+
+79
+00:03:33,880 --> 00:03:35,473
+seperti yang kita pikirkan
+sebagai sebuah mata uang.
+
+80
+00:03:35,473 --> 00:03:36,640
+Dia adalah sesuatu yang berbeda.
+
+81
+00:03:36,640 --> 00:03:40,600
+Bitcoin diciptakan tidak
+dari apapun.
+
+82
+00:03:40,600 --> 00:03:44,290
+Dan apakah artinya untuk
+menciptakan sebuah cryptocurrency?
+
+83
+00:03:44,290 --> 00:03:46,240
+Siapa yang bilang Anda dapat
+membuat cryptocurrency?
+
+84
+00:03:46,240 --> 00:03:47,860
+Apa yang berada di
+belakang cryptocurrency?
+
+85
+00:03:47,860 --> 00:03:49,840
+Mengapa dia bernilai?
+
+86
+00:03:49,840 --> 00:03:53,663
+Yah, pertama-tama, sebelum
+kita menjawab pertanyaan berikut,
+
+87
+00:03:53,663 --> 00:03:55,330
+Saya ingin menegaskan
+kembali bahwa
+
+88
+00:03:55,330 --> 00:03:58,250
+kuliah ini bukanlah tentang, OK?
+
+89
+00:03:58,250 --> 00:04:00,520
+Kami tidak akan membantu Anda untuk ICO (Initial Coin Offering:
+menawarkan koin-koin pertama cryptocurrency buatan sendiri)
+
+90
+00:04:00,520 --> 00:04:04,240
+Jika Anda tertarik untuk
+ICO, pergilah.
+
+91
+00:04:04,240 --> 00:04:07,210
+Itu bukan hal yang dibahas
+pada kelas ini.
+
+92
+00:04:07,210 --> 00:04:09,910
+Kami tidak akan memberikan
+saran-saran trading.
+
+93
+00:04:09,910 --> 00:04:13,600
+Kami punya nol opini tentang
+apakah Anda harus membeli bitcoin
+
+94
+00:04:13,600 --> 00:04:16,394
+sekarang atau menjual
+atau apapun, atau zen cash,
+
+95
+00:04:16,394 --> 00:04:17,769
+atau apapun itu.
+
+96
+00:04:17,769 --> 00:04:19,029
+Jadi tidak ada tentang itu.
+
+97
+00:04:19,029 --> 00:04:20,050
+Jangan bertanya kepada kami.
+
+98
+00:04:20,050 --> 00:04:21,203
+Kami tidak tertarik.
+
+99
+00:04:21,203 --> 00:04:22,620
+Dan kelas ini juga
+tidak membahas tentang
+
+100
+00:04:22,620 --> 00:04:24,670
+blockchain privat
+(permissioned blockchain)
+
+101
+00:04:24,670 --> 00:04:27,310
+Anda mungkin tidak mengerti
+maksud terminologi ini sekarang,
+
+102
+00:04:27,310 --> 00:04:29,770
+dan itu OK-OK saja,
+tetapi saya hanya
+
+103
+00:04:29,770 --> 00:04:32,410
+ingin menegaskan bahwa yang
+akan kita bicarakan di sini
+
+104
+00:04:32,410 --> 00:04:33,940
+adalah cryptocurrency.
+
+105
+00:04:33,940 --> 00:04:36,640
+Mereka adalah sistem
+terbuka di mana ada
+
+106
+00:04:36,640 --> 00:04:39,920
+token yang memiliki nilai tertentu.
+
+107
+00:04:39,920 --> 00:04:43,030
+Jadi itu yang tidak akan kita
+lakukan di kelas ini.
+
+108
+00:04:43,030 --> 00:04:44,780
+Jadi kembali ke--
+
+109
+00:04:44,780 --> 00:04:46,810
+dan izinkan saya
+berhenti sebentar.
+
+110
+00:04:46,810 --> 00:04:50,405
+Saya ingin bertanya kepada Anda
+apakah ada pertanyaan sejauh ini
+
+111
+00:04:50,405 --> 00:04:51,280
+tentang segala hal yang saya katakan.
+
+112
+00:04:54,930 --> 00:04:55,887
+Ya.
+
+113
+00:04:55,887 --> 00:04:57,720
+AUDIENS: Apakah mereka harus selalu
+memiliki nilai?
+
+114
+00:04:57,720 --> 00:04:58,530
+NEHA NARULA: Tidak, tidak sama sekali.
+
+115
+00:04:58,530 --> 00:04:59,910
+Dan marilah kita mulai
+membahasnya ke arah sana.
+
+116
+00:04:59,910 --> 00:05:02,243
+Jadi pertanyaannya adalah apakan
+token harus memiliki nilai?
+
+117
+00:05:02,243 --> 00:05:04,830
+Jadi saya rasa, sebenarnya,
+untuk memahami
+
+118
+00:05:04,830 --> 00:05:07,680
+apa itu cryptocurrency, apa itu token,
+apa artinya mereka,
+
+119
+00:05:07,680 --> 00:05:10,410
+kita harus bicara soal uang.
+
+120
+00:05:10,410 --> 00:05:14,970
+Dan kita harus bicara tentang
+apa itu uang dan apa maknanya.
+
+121
+00:05:14,970 --> 00:05:17,730
+Jadi ini akan menjadi
+sangat disederhanakan
+
+122
+00:05:17,730 --> 00:05:21,480
+dan saya rasa tidak akan memuaskan
+bagi ekonom moneter.
+
+123
+00:05:21,480 --> 00:05:24,420
+Tapi uang dikembangkan-- ada
+beberapa teori berbeda
+
+124
+00:05:24,420 --> 00:05:26,670
+tentang bagaiaman uang dikembangkan.
+
+125
+00:05:26,670 --> 00:05:29,640
+Ada hal ini yang dinamakan keinginan
+yang kebetulan (coincident of wants).
+
+126
+00:05:29,640 --> 00:05:33,440
+Jadi misalkan saya punya domba
+dan Tadge (rekan ybs) punya gandum.
+
+127
+00:05:33,440 --> 00:05:35,490
+Saya lapar dan ingin
+membuat roti.
+
+128
+00:05:35,490 --> 00:05:38,460
+Tadge ingin sekali
+membuat baju hangat.
+
+129
+00:05:38,460 --> 00:05:41,170
+Jadi kami dapat melakukan
+barter, kami dapat bertukar.
+
+130
+00:05:41,170 --> 00:05:44,060
+Saya punya suatu barang
+yang berguna bagi Tadge.
+
+131
+00:05:44,060 --> 00:05:46,380
+Tadge punya barang lain yang
+berguna untuk saya.
+
+132
+00:05:46,380 --> 00:05:49,020
+Kami bisa bertemu dan
+membuat pertukaran.
+
+133
+00:05:49,020 --> 00:05:50,130
+Jadi itu fantastis.
+
+134
+00:05:50,130 --> 00:05:51,540
+Barter sangat penting.
+
+135
+00:05:51,540 --> 00:05:53,890
+Barter sudah ada
+sejak lama.
+
+136
+00:05:53,890 --> 00:05:59,673
+Tapi bagaimana jika Tadge tidak punya
+gandum, Tadge punya sayur,
+
+137
+00:05:59,673 --> 00:06:00,840
+dan saya tidak mau sayur.
+
+138
+00:06:00,840 --> 00:06:01,440
+Saya mau gandum.
+
+139
+00:06:01,440 --> 00:06:04,200
+Tapi Tadge tetap ingin
+kain wol dari domba.
+
+140
+00:06:04,200 --> 00:06:05,640
+Bagaimana kami melakukan pertukaran ini?
+
+141
+00:06:05,640 --> 00:06:08,010
+Kami tidak memiliki
+coincidence of wants.
+
+142
+00:06:08,010 --> 00:06:11,050
+Kami menginginkan barang yang
+tidak tepat sama satu sama lain.
+
+143
+00:06:11,050 --> 00:06:16,050
+Jadi beberapa teori mengatakan bahwa
+uang tercipta dari masalah ini.
+
+144
+00:06:16,050 --> 00:06:21,540
+Dan uang dapat direpresentasikan
+dalam banyak sekali hal.
+
+145
+00:06:21,540 --> 00:06:25,830
+Uang, saya rasa muncul pertama
+kali sekitar tahun 5000 SM,
+
+146
+00:06:25,830 --> 00:06:28,680
+Jadi itu sangat,
+sangat, sangat tua.
+
+147
+00:06:28,680 --> 00:06:30,420
+Hal-hal yang direpresentasikan
+oleh uang biasanya
+
+148
+00:06:30,420 --> 00:06:32,250
+memiliki properti tertentu.
+
+149
+00:06:32,250 --> 00:06:33,930
+Mereka relatif langka.
+
+150
+00:06:33,930 --> 00:06:37,800
+Dan tidak mudah
+untuk dibuat kembali.
+
+151
+00:06:37,800 --> 00:06:42,330
+Orang-orang, dalam beberapa kasus, menggunakan
+barang-barang seperti kerang atau mutiara untuk uang.
+
+152
+00:06:42,330 --> 00:06:45,180
+Koin-koin pertama-- ini adalah
+koin yang sangat menarik
+
+153
+00:06:45,180 --> 00:06:46,320
+yang pernah dikembangkan.
+
+154
+00:06:46,320 --> 00:06:48,720
+Precious metals were
+often used for money.
+
+155
+00:06:48,720 --> 00:06:50,700
+And then eventually
+we sort of evolved
+
+156
+00:06:50,700 --> 00:06:52,920
+into what we think
+of as money now,
+
+157
+00:06:52,920 --> 00:06:56,790
+which is paper bills, currency.
+
+158
+00:06:56,790 --> 00:06:59,340
+Another theory of
+how money came about
+
+159
+00:06:59,340 --> 00:07:03,840
+is this idea of receipts,
+debt and credit.
+
+160
+00:07:03,840 --> 00:07:08,400
+So maybe I have a sheep,
+and I shear all of my sheep
+
+161
+00:07:08,400 --> 00:07:09,990
+and collect a lot of wool.
+
+162
+00:07:09,990 --> 00:07:12,810
+What I can do is I can
+store that wool somewhere.
+
+163
+00:07:12,810 --> 00:07:14,850
+And I can get a
+receipt from someone
+
+164
+00:07:14,850 --> 00:07:19,440
+from having stored that wool,
+and that receipt is of value.
+
+165
+00:07:19,440 --> 00:07:23,460
+It entitles the person who holds
+the receipt to the good that
+
+166
+00:07:23,460 --> 00:07:24,580
+is being stored.
+
+167
+00:07:24,580 --> 00:07:27,150
+And so another
+theory of money is
+
+168
+00:07:27,150 --> 00:07:28,950
+that money evolved
+out of these receipts,
+
+169
+00:07:28,950 --> 00:07:30,602
+trading these receipts
+back and forth.
+
+170
+00:07:30,602 --> 00:07:32,310
+Instead of taking all
+that wool with you,
+
+171
+00:07:32,310 --> 00:07:34,860
+you leave it in one
+place in a depository,
+
+172
+00:07:34,860 --> 00:07:37,050
+and the receipt acts
+as a bearer instrument.
+
+173
+00:07:37,050 --> 00:07:42,030
+Whoever owns it has access to
+the wool in the depository.
+
+174
+00:07:42,030 --> 00:07:44,340
+And so you can kind of
+see two different ideas
+
+175
+00:07:44,340 --> 00:07:46,560
+about what money is
+develop from this.
+
+176
+00:07:46,560 --> 00:07:50,160
+One is, well, it's
+a bead or a coin,
+
+177
+00:07:50,160 --> 00:07:52,050
+or something that
+I hold, something
+
+178
+00:07:52,050 --> 00:07:55,980
+physical that we've
+decided to assign value to
+
+179
+00:07:55,980 --> 00:07:57,180
+in and of itself.
+
+180
+00:07:57,180 --> 00:08:01,380
+And another idea is I'm going
+to use a trusted institution.
+
+181
+00:08:01,380 --> 00:08:04,110
+I'm going to deposit something
+with that institution,
+
+182
+00:08:04,110 --> 00:08:08,010
+and they are going to ensure
+the validity of that deposit
+
+183
+00:08:08,010 --> 00:08:10,440
+and manage who has
+access to that deposit.
+
+184
+00:08:13,720 --> 00:08:17,050
+So this doesn't really
+get at the question
+
+185
+00:08:17,050 --> 00:08:21,550
+that was originally asked, which
+is why do tokens have value.
+
+186
+00:08:21,550 --> 00:08:25,467
+But one thing I want
+to point out is--
+
+187
+00:08:25,467 --> 00:08:27,550
+well, a question I want
+to ask you guys, actually,
+
+188
+00:08:27,550 --> 00:08:29,350
+is why do these
+things have value?
+
+189
+00:08:29,350 --> 00:08:30,475
+Does anyone have any ideas?
+
+190
+00:08:33,679 --> 00:08:34,302
+Yes.
+
+191
+00:08:34,302 --> 00:08:36,260
+AUDIENCE: Because everyone
+agrees that they do.
+
+192
+00:08:36,260 --> 00:08:38,343
+NEHA NARULA: Because
+everyone agrees that they do.
+
+193
+00:08:38,343 --> 00:08:40,770
+Any other thoughts on why
+those things have value?
+
+194
+00:08:40,770 --> 00:08:41,270
+Yeah.
+
+195
+00:08:41,270 --> 00:08:43,145
+AUDIENCE: They're also
+backed by institutions
+
+196
+00:08:43,145 --> 00:08:44,147
+like the government.
+
+197
+00:08:44,147 --> 00:08:45,980
+NEHA NARULA: They're
+backed by institutions.
+
+198
+00:08:45,980 --> 00:08:47,355
+Say a little bit
+more about that.
+
+199
+00:08:47,355 --> 00:08:48,360
+What does that mean?
+
+200
+00:08:48,360 --> 00:08:49,777
+AUDIENCE: So the
+government's kind
+
+201
+00:08:49,777 --> 00:08:52,873
+of promising you to
+respect the value of that.
+
+202
+00:08:52,873 --> 00:08:53,540
+NEHA NARULA: OK.
+
+203
+00:08:53,540 --> 00:08:56,168
+The government's promising
+to respect the value of that.
+
+204
+00:08:56,168 --> 00:08:58,460
+Does anyone want to add to
+that or have another reason?
+
+205
+00:08:58,460 --> 00:08:59,600
+Yes.
+
+206
+00:08:59,600 --> 00:09:00,350
+And say your name.
+
+207
+00:09:00,350 --> 00:09:01,760
+I'm sorry, yeah.
+
+208
+00:09:01,760 --> 00:09:03,230
+AUDIENCE: Jared Thompson.
+
+209
+00:09:03,230 --> 00:09:05,690
+In the example of the
+dollar, the government
+
+210
+00:09:05,690 --> 00:09:08,118
+is willing to accept it
+as payment for taxes.
+
+211
+00:09:08,118 --> 00:09:09,410
+NEHA NARULA: Payment for taxes.
+
+212
+00:09:09,410 --> 00:09:09,910
+OK.
+
+213
+00:09:09,910 --> 00:09:12,678
+So that kind of connects
+the government thing.
+
+214
+00:09:12,678 --> 00:09:14,845
+AUDIENCE: Even if it had
+no value of any other sort,
+
+215
+00:09:14,845 --> 00:09:16,490
+it has value in that sense.
+
+216
+00:09:16,490 --> 00:09:19,820
+It's the last thing
+that holds up its value.
+
+217
+00:09:19,820 --> 00:09:21,380
+NEHA NARULA: OK, great.
+
+218
+00:09:21,380 --> 00:09:22,850
+Anybody else?
+
+219
+00:09:22,850 --> 00:09:23,420
+Yes.
+
+220
+00:09:23,420 --> 00:09:24,380
+AUDIENCE: I'm Paul.
+
+221
+00:09:24,380 --> 00:09:28,080
+I think those the three on
+the front of the dollar,
+
+222
+00:09:28,080 --> 00:09:29,870
+those have inherent
+value because they
+
+223
+00:09:29,870 --> 00:09:31,610
+might be more rare.
+
+224
+00:09:31,610 --> 00:09:33,900
+NEHA NARULA: They have
+value because they're rare.
+
+225
+00:09:33,900 --> 00:09:34,400
+OK.
+
+226
+00:09:34,400 --> 00:09:35,180
+Interesting.
+
+227
+00:09:35,180 --> 00:09:37,310
+All right.
+
+228
+00:09:37,310 --> 00:09:39,975
+So those are all really
+interesting ideas.
+
+229
+00:09:39,975 --> 00:09:41,850
+I think that those are
+all sort of properties
+
+230
+00:09:41,850 --> 00:09:45,153
+of what makes things valuable.
+
+231
+00:09:45,153 --> 00:09:47,820
+There are definitely things that
+are rare that are not valuable,
+
+232
+00:09:47,820 --> 00:09:49,830
+right?
+
+233
+00:09:49,830 --> 00:09:53,800
+I can think of some things that
+might be extraordinarily rare.
+
+234
+00:09:53,800 --> 00:09:55,800
+There's only one or two
+of them in the universe,
+
+235
+00:09:55,800 --> 00:09:58,410
+and you would have no interest
+in owning them whatsoever.
+
+236
+00:09:58,410 --> 00:10:00,750
+You wouldn't assign
+value to them.
+
+237
+00:10:00,750 --> 00:10:03,720
+Certainly it's really important
+that you can pay taxes
+
+238
+00:10:03,720 --> 00:10:06,870
+with this stuff because taxes
+is pretty much a requirement
+
+239
+00:10:06,870 --> 00:10:08,942
+of living in any country.
+
+240
+00:10:08,942 --> 00:10:11,400
+There are things that have
+value that you don't necessarily
+
+241
+00:10:11,400 --> 00:10:12,310
+use for taxes.
+
+242
+00:10:12,310 --> 00:10:14,280
+So that's a little confusing.
+
+243
+00:10:14,280 --> 00:10:16,980
+And then there's this
+idea that it's backed,
+
+244
+00:10:16,980 --> 00:10:20,100
+that it's backed by something.
+
+245
+00:10:20,100 --> 00:10:25,482
+And the dollar used to
+be backed by something.
+
+246
+00:10:25,482 --> 00:10:26,940
+And actually, if
+you look at $1.00,
+
+247
+00:10:26,940 --> 00:10:28,357
+I think it still
+says this, right?
+
+248
+00:10:28,357 --> 00:10:31,020
+It's backed by the full faith
+and credit of the United States
+
+249
+00:10:31,020 --> 00:10:31,742
+government.
+
+250
+00:10:31,742 --> 00:10:33,450
+TADGE DRYJA: They
+don't say that anymore.
+
+251
+00:10:33,450 --> 00:10:34,200
+NEHA NARULA: They
+don't say that anymore?
+
+252
+00:10:34,200 --> 00:10:35,117
+They used to say that.
+
+253
+00:10:35,117 --> 00:10:37,718
+But that's what a lot of
+people say about money.
+
+254
+00:10:37,718 --> 00:10:40,260
+It's backed by the full faith
+and credit of the United States
+
+255
+00:10:40,260 --> 00:10:41,895
+government.
+
+256
+00:10:41,895 --> 00:10:43,020
+What does that really mean?
+
+257
+00:10:43,020 --> 00:10:45,420
+I think what it
+all goes back to is
+
+258
+00:10:45,420 --> 00:10:46,920
+these things are
+valuable because we
+
+259
+00:10:46,920 --> 00:10:47,940
+think they're valuable.
+
+260
+00:10:47,940 --> 00:10:49,710
+We've all decided
+they're valuable.
+
+261
+00:10:49,710 --> 00:10:53,430
+And you know that if you have a
+$1.00 bill and you want to buy
+
+262
+00:10:53,430 --> 00:10:56,370
+something from someone,
+they're going to take it,
+
+263
+00:10:56,370 --> 00:10:58,077
+that you can make that exchange.
+
+264
+00:10:58,077 --> 00:10:59,910
+And the reason that
+they're going to take it
+
+265
+00:10:59,910 --> 00:11:01,920
+is because they know
+that someone else is
+
+266
+00:11:01,920 --> 00:11:03,450
+going to take it.
+
+267
+00:11:03,450 --> 00:11:06,660
+These things hold value because
+we think that they hold value.
+
+268
+00:11:06,660 --> 00:11:12,150
+It's a collective
+story that we all tell.
+
+269
+00:11:12,150 --> 00:11:14,880
+So I think once you
+look at money that way,
+
+270
+00:11:14,880 --> 00:11:18,360
+then when you start to look at
+tokens, which are essentially
+
+271
+00:11:18,360 --> 00:11:20,970
+digital representations
+of these things, things
+
+272
+00:11:20,970 --> 00:11:24,300
+that are rare and a
+little bit special, then
+
+273
+00:11:24,300 --> 00:11:27,580
+when you ask, well, why
+does this token have value,
+
+274
+00:11:27,580 --> 00:11:30,760
+because we think it has value.
+
+275
+00:11:30,760 --> 00:11:34,040
+So what makes a token
+inherently valuable?
+
+276
+00:11:34,040 --> 00:11:36,272
+The fact that we
+think it's valuable.
+
+277
+00:11:36,272 --> 00:11:38,230
+And a lot of different
+things can go into that.
+
+278
+00:11:38,230 --> 00:11:43,660
+Maybe we think it's valuable
+because it's very rare.
+
+279
+00:11:43,660 --> 00:11:47,260
+Or maybe we think it's
+valuable because someone's
+
+280
+00:11:47,260 --> 00:11:49,240
+promised that you
+can use it to pay
+
+281
+00:11:49,240 --> 00:11:51,130
+for storage, like with Dropbox.
+
+282
+00:11:51,130 --> 00:11:53,890
+Or maybe we think it's valuable
+for a completely different
+
+283
+00:11:53,890 --> 00:11:55,300
+reason, because
+we like the name,
+
+284
+00:11:55,300 --> 00:11:57,383
+or we like the people who
+are running the network.
+
+285
+00:11:57,383 --> 00:11:59,200
+But ultimately
+tokens are valuable.
+
+286
+00:11:59,200 --> 00:12:00,880
+These digital
+representations are
+
+287
+00:12:00,880 --> 00:12:03,500
+valuable because we
+think they're valuable.
+
+288
+00:12:03,500 --> 00:12:04,420
+Yes.
+
+289
+00:12:04,420 --> 00:12:05,820
+AUDIENCE: And also because
+they're a limited amount.
+
+290
+00:12:05,820 --> 00:12:06,790
+NEHA NARULA: Name.
+
+291
+00:12:06,790 --> 00:12:07,760
+AUDIENCE: [INAUDIBLE].
+
+292
+00:12:07,760 --> 00:12:09,630
+Because they're
+a limited amount.
+
+293
+00:12:09,630 --> 00:12:11,038
+NEHA NARULA: Well,
+so my argument
+
+294
+00:12:11,038 --> 00:12:12,580
+is that the fact
+that they're limited
+
+295
+00:12:12,580 --> 00:12:14,590
+is something that goes
+into our perception that
+
+296
+00:12:14,590 --> 00:12:15,340
+makes it valuable.
+
+297
+00:12:18,100 --> 00:12:18,610
+Great.
+
+298
+00:12:18,610 --> 00:12:19,120
+OK.
+
+299
+00:12:19,120 --> 00:12:22,630
+So now that we've learned
+a little bit about money,
+
+300
+00:12:22,630 --> 00:12:24,820
+talked a little
+bit about money, I
+
+301
+00:12:24,820 --> 00:12:28,665
+want to go into how payments
+work because ultimately, we're
+
+302
+00:12:28,665 --> 00:12:30,040
+going to get to
+cryptocurrencies.
+
+303
+00:12:30,040 --> 00:12:34,090
+And cryptocurrencies
+are electronic cash.
+
+304
+00:12:34,090 --> 00:12:38,420
+So here's the way that digital
+payments kind of work right
+
+305
+00:12:38,420 --> 00:12:38,920
+now.
+
+306
+00:12:38,920 --> 00:12:42,070
+You have an institution
+called a bank.
+
+307
+00:12:42,070 --> 00:12:45,340
+You have Alice and you
+have Bob, and Alice and Bob
+
+308
+00:12:45,340 --> 00:12:47,800
+have accounts at this bank.
+
+309
+00:12:47,800 --> 00:12:51,840
+And so the bank is keeping
+track of who owns what.
+
+310
+00:12:51,840 --> 00:12:53,228
+And these are these are records.
+
+311
+00:12:53,228 --> 00:12:54,520
+These might be digital records.
+
+312
+00:12:54,520 --> 00:12:57,190
+They might be paper
+records, whatever
+
+313
+00:12:57,190 --> 00:12:59,440
+the bank is using
+to keep track of who
+
+314
+00:12:59,440 --> 00:13:00,778
+has what in their account.
+
+315
+00:13:00,778 --> 00:13:03,070
+And so the way that I've set
+up this example right now,
+
+316
+00:13:03,070 --> 00:13:04,990
+Alice and Bob both
+have bank accounts.
+
+317
+00:13:04,990 --> 00:13:07,810
+Alice has $10.00 with the bank
+and Bob does not have any money
+
+318
+00:13:07,810 --> 00:13:09,850
+with the bank.
+
+319
+00:13:09,850 --> 00:13:12,340
+So let's say that
+Alice wants to pay Bob.
+
+320
+00:13:12,340 --> 00:13:15,250
+Let's say that Alice and
+Bob have gotten together.
+
+321
+00:13:15,250 --> 00:13:17,560
+Maybe they're in the
+same coffee shop.
+
+322
+00:13:17,560 --> 00:13:20,260
+And Alice wants to buy
+a sandwich from Bob.
+
+323
+00:13:20,260 --> 00:13:23,680
+And Bob says, OK, you
+need to pay me $1.00.
+
+324
+00:13:23,680 --> 00:13:26,690
+If you give me $1.00, then
+I'll give you the sandwich.
+
+325
+00:13:26,690 --> 00:13:28,460
+So how can Alice do this?
+
+326
+00:13:28,460 --> 00:13:31,130
+How can she transfer
+$1.00 to Bob?
+
+327
+00:13:31,130 --> 00:13:34,220
+Well, if she had a paper
+dollar, she could just do that.
+
+328
+00:13:34,220 --> 00:13:37,970
+But let's say that she
+doesn't have a paper dollar.
+
+329
+00:13:37,970 --> 00:13:43,100
+So Alice can ask the bank to
+make this transfer for her--or
+
+330
+00:13:43,100 --> 00:13:44,450
+$5.00.
+
+331
+00:13:44,450 --> 00:13:46,220
+So Alice sends a
+message to the bank
+
+332
+00:13:46,220 --> 00:13:48,783
+and authenticates with
+the bank to show the bank
+
+333
+00:13:48,783 --> 00:13:50,450
+that she is, in fact,
+Alice, but I'm not
+
+334
+00:13:50,450 --> 00:13:52,650
+going to go into the
+details on how that works.
+
+335
+00:13:52,650 --> 00:13:57,230
+And then the bank confirms
+that, makes the transfer in its
+
+336
+00:13:57,230 --> 00:14:02,510
+ledger, says Alice now has
+$5.00 and Bob now has $5.00.
+
+337
+00:14:02,510 --> 00:14:04,995
+Alice tells Bob,
+hey, I did this.
+
+338
+00:14:04,995 --> 00:14:05,870
+I talked to the bank.
+
+339
+00:14:05,870 --> 00:14:06,410
+Go check.
+
+340
+00:14:06,410 --> 00:14:08,960
+You can verify it for yourself.
+
+341
+00:14:08,960 --> 00:14:12,140
+Bob checks with the bank
+and sees, yes, in fact,
+
+342
+00:14:12,140 --> 00:14:14,090
+the bank is saying
+that he has $5.00 now,
+
+343
+00:14:14,090 --> 00:14:16,250
+whereas before he had zero.
+
+344
+00:14:16,250 --> 00:14:19,280
+And then Bob gives Alice the
+sandwich because he believes
+
+345
+00:14:19,280 --> 00:14:20,980
+that he now has $5.00.
+
+346
+00:14:20,980 --> 00:14:24,580
+And the bank sort of
+preserved the property
+
+347
+00:14:24,580 --> 00:14:27,880
+that money was not created out
+of nowhere, that the balance
+
+348
+00:14:27,880 --> 00:14:29,680
+was ultimately maintained.
+
+349
+00:14:29,680 --> 00:14:32,260
+So the bank is very
+important in this scenario.
+
+350
+00:14:32,260 --> 00:14:33,830
+The bank is critical.
+
+351
+00:14:33,830 --> 00:14:35,500
+This is how digital
+payments work.
+
+352
+00:14:35,500 --> 00:14:39,003
+Credit cards, Venmo,
+banks, kind of all sort
+
+353
+00:14:39,003 --> 00:14:41,170
+of based on the same idea,
+that there's some trusted
+
+354
+00:14:41,170 --> 00:14:44,230
+institution that is
+handling that payment for us
+
+355
+00:14:44,230 --> 00:14:47,110
+and that is keeping
+track of everything.
+
+356
+00:14:47,110 --> 00:14:51,700
+Now what are the pros and
+cons of this scenario?
+
+357
+00:14:51,700 --> 00:14:54,560
+Anyone want to
+throw a couple out?
+
+358
+00:14:54,560 --> 00:14:55,440
+Yeah.
+
+359
+00:14:55,440 --> 00:14:56,980
+AUDIENCE: The bank
+can get hacked
+
+360
+00:14:56,980 --> 00:14:59,608
+and people could move money
+around between the accounts.
+
+361
+00:14:59,608 --> 00:15:00,400
+NEHA NARULA: Right.
+
+362
+00:15:00,400 --> 00:15:02,290
+So we're putting a lot
+of trust in this bank.
+
+363
+00:15:02,290 --> 00:15:04,360
+And maybe should
+we trust the bank?
+
+364
+00:15:04,360 --> 00:15:06,490
+Banks fail sometimes.
+
+365
+00:15:06,490 --> 00:15:07,780
+Banks are hacked.
+
+366
+00:15:07,780 --> 00:15:10,198
+Banks have humans
+who are running them
+
+367
+00:15:10,198 --> 00:15:11,740
+who occasionally
+might want to change
+
+368
+00:15:11,740 --> 00:15:14,440
+those balances in their favor.
+
+369
+00:15:14,440 --> 00:15:15,550
+This has all happened.
+
+370
+00:15:15,550 --> 00:15:17,910
+Anything else?
+
+371
+00:15:17,910 --> 00:15:18,450
+Yeah.
+
+372
+00:15:18,450 --> 00:15:19,390
+And say your name.
+
+373
+00:15:19,390 --> 00:15:21,330
+AUDIENCE: Brittany.
+
+374
+00:15:21,330 --> 00:15:24,160
+If it's urgent, sometimes
+you might run into a delay
+
+375
+00:15:24,160 --> 00:15:26,730
+or it might take time
+with the process.
+
+376
+00:15:26,730 --> 00:15:27,480
+NEHA NARULA: Yeah.
+
+377
+00:15:27,480 --> 00:15:30,490
+Alice has to talk to the banks,
+and that's kind of annoying.
+
+378
+00:15:30,490 --> 00:15:33,150
+So there's that.
+
+379
+00:15:33,150 --> 00:15:33,880
+Anything else?
+
+380
+00:15:33,880 --> 00:15:34,447
+Yeah.
+
+381
+00:15:34,447 --> 00:15:36,030
+AUDIENCE: And if
+everyone can actually
+
+382
+00:15:36,030 --> 00:15:38,238
+withdraw at the same time,
+then the bank can actually
+
+383
+00:15:38,238 --> 00:15:40,590
+get money into the system.
+
+384
+00:15:40,590 --> 00:15:41,430
+NEHA NARULA: So OK.
+
+385
+00:15:41,430 --> 00:15:43,590
+So this is getting a little
+bit more advanced here.
+
+386
+00:15:43,590 --> 00:15:47,790
+What if everyone takes their
+balances out at the same time?
+
+387
+00:15:47,790 --> 00:15:51,030
+Well, we need to make sure
+that the bank actually
+
+388
+00:15:51,030 --> 00:15:53,262
+has that money, so to speak.
+
+389
+00:15:53,262 --> 00:15:55,720
+We're not going to be talking
+about that problem right now.
+
+390
+00:15:55,720 --> 00:15:57,900
+But very good problem.
+
+391
+00:15:57,900 --> 00:15:59,730
+So to kind of talk
+through some of the pros
+
+392
+00:15:59,730 --> 00:16:03,600
+and cons of this situation,
+one of the big pros, I think,
+
+393
+00:16:03,600 --> 00:16:06,210
+is, that even if
+Alice and Bob are not
+
+394
+00:16:06,210 --> 00:16:09,480
+in the same physical location,
+Alice can still pay Bob
+
+395
+00:16:09,480 --> 00:16:10,688
+if they can talk to the bank.
+
+396
+00:16:10,688 --> 00:16:12,397
+So it's pretty cool,
+and that's something
+
+397
+00:16:12,397 --> 00:16:15,000
+you can't do with dollar bills
+or with coins or with bars
+
+398
+00:16:15,000 --> 00:16:16,180
+of gold.
+
+399
+00:16:16,180 --> 00:16:18,480
+So having this
+trusted institution
+
+400
+00:16:18,480 --> 00:16:20,670
+that you can communicate
+with electronically
+
+401
+00:16:20,670 --> 00:16:22,378
+means that Alice and
+Bob could be halfway
+
+402
+00:16:22,378 --> 00:16:24,503
+around the world from each
+other and they can still
+
+403
+00:16:24,503 --> 00:16:25,200
+pay each other.
+
+404
+00:16:25,200 --> 00:16:27,870
+So that's pretty awesome, and
+that is definitely a property
+
+405
+00:16:27,870 --> 00:16:29,940
+that we want to have.
+
+406
+00:16:29,940 --> 00:16:33,330
+In terms of cons, I think we
+covered quite a few of them,
+
+407
+00:16:33,330 --> 00:16:37,020
+which is we're really
+putting this bank
+
+408
+00:16:37,020 --> 00:16:38,760
+kind of in the middle
+of everything here.
+
+409
+00:16:38,760 --> 00:16:42,600
+And there are a few different
+ways that can cause us trouble.
+
+410
+00:16:42,600 --> 00:16:46,142
+So the bank needs to be online
+during every transaction.
+
+411
+00:16:46,142 --> 00:16:47,850
+If the bank is offline,
+then how does Bob
+
+412
+00:16:47,850 --> 00:16:50,250
+know whether he got paid or not?
+
+413
+00:16:50,250 --> 00:16:52,710
+The bank could fail at
+some point in time, which
+
+414
+00:16:52,710 --> 00:16:54,060
+is kind of related to that.
+
+415
+00:16:54,060 --> 00:16:56,610
+The bank could simply
+decide that they
+
+416
+00:16:56,610 --> 00:16:59,010
+don't want to do this anymore
+and can block transactions.
+
+417
+00:16:59,010 --> 00:17:00,180
+And then privacy.
+
+418
+00:17:00,180 --> 00:17:03,000
+The bank has kind of
+insight into everyone
+
+419
+00:17:03,000 --> 00:17:03,970
+and their payments.
+
+420
+00:17:03,970 --> 00:17:05,849
+And this is incredibly
+sensitive information.
+
+421
+00:17:05,849 --> 00:17:08,618
+Payments are quite important.
+
+422
+00:17:08,618 --> 00:17:10,410
+And we're going to be
+talking about privacy
+
+423
+00:17:10,410 --> 00:17:13,119
+a lot in this class, during
+the second half of this class.
+
+424
+00:17:13,119 --> 00:17:16,050
+So just an example, a couple
+of visual examples of that.
+
+425
+00:17:16,050 --> 00:17:17,880
+The bank could just
+totally go away,
+
+426
+00:17:17,880 --> 00:17:20,099
+and then what happens
+to that ledger?
+
+427
+00:17:20,099 --> 00:17:21,240
+Who knows, right?
+
+428
+00:17:21,240 --> 00:17:23,579
+I mean, literally, it
+could just disappear.
+
+429
+00:17:23,579 --> 00:17:25,079
+Maybe it's paper
+and it gets burnt,
+
+430
+00:17:25,079 --> 00:17:29,598
+or maybe it's bits on a computer
+and it wasn't replicated.
+
+431
+00:17:29,598 --> 00:17:31,140
+The bank could decide
+that they don't
+
+432
+00:17:31,140 --> 00:17:33,090
+like Alice for some
+reason, and that they
+
+433
+00:17:33,090 --> 00:17:35,880
+don't feel like processing
+Alice's transactions.
+
+434
+00:17:35,880 --> 00:17:39,940
+This happens all the
+time in the real world.
+
+435
+00:17:39,940 --> 00:17:44,830
+So there have been designs
+for electronic cash
+
+436
+00:17:44,830 --> 00:17:46,320
+that work a little
+bit differently.
+
+437
+00:17:46,320 --> 00:17:47,737
+And we're going
+to kind of step up
+
+438
+00:17:47,737 --> 00:17:53,245
+to the design that came
+right before bitcoin,
+
+439
+00:17:53,245 --> 00:17:54,870
+and we're going to
+do that iteratively.
+
+440
+00:17:54,870 --> 00:17:57,810
+So let's talk about e-cash
+and how e-cash works.
+
+441
+00:17:57,810 --> 00:18:01,980
+So the way that
+e-cash works is Alice
+
+442
+00:18:01,980 --> 00:18:03,450
+tells the bank--
+instead of saying,
+
+443
+00:18:03,450 --> 00:18:05,040
+hey, bank, do this
+transfer for me,
+
+444
+00:18:05,040 --> 00:18:08,370
+Alice says, hey, I would
+like a digital representation
+
+445
+00:18:08,370 --> 00:18:09,540
+of a coin.
+
+446
+00:18:09,540 --> 00:18:12,607
+Can you give me
+something that is digital
+
+447
+00:18:12,607 --> 00:18:14,940
+so I don't have to be in the
+same physical place as you,
+
+448
+00:18:14,940 --> 00:18:19,920
+and that I can use in such a
+way that I can prove to someone
+
+449
+00:18:19,920 --> 00:18:22,950
+else that I have this thing and
+that I haven't double spent it,
+
+450
+00:18:22,950 --> 00:18:25,380
+because that's the problem
+with digital representations
+
+451
+00:18:25,380 --> 00:18:26,220
+of coins.
+
+452
+00:18:26,220 --> 00:18:29,370
+A fundamental problem is
+that bits can be copied.
+
+453
+00:18:29,370 --> 00:18:33,450
+So whatever system you use to
+design your electronic cash,
+
+454
+00:18:33,450 --> 00:18:35,820
+you need to make sure
+that people can't just
+
+455
+00:18:35,820 --> 00:18:41,825
+copy coins and give what is the
+same coin to multiple people.
+
+456
+00:18:41,825 --> 00:18:43,200
+In the previous
+example, the bank
+
+457
+00:18:43,200 --> 00:18:44,450
+was making sure this happened.
+
+458
+00:18:44,450 --> 00:18:46,650
+The bank was
+maintaining balances
+
+459
+00:18:46,650 --> 00:18:51,500
+and debiting Alice's account
+and crediting Bob's account.
+
+460
+00:18:51,500 --> 00:18:54,000
+But if we want to think about
+something that doesn't involve
+
+461
+00:18:54,000 --> 00:18:56,100
+the bank, and we're
+starting to get there,
+
+462
+00:18:56,100 --> 00:18:59,520
+then we need to think about how
+to ensure that a coin can't be
+
+463
+00:18:59,520 --> 00:19:02,210
+what is known as double spent.
+
+464
+00:19:02,210 --> 00:19:03,800
+So Alice asks the bank for coin.
+
+465
+00:19:03,800 --> 00:19:07,040
+And maybe she has an account
+with a bank like before.
+
+466
+00:19:07,040 --> 00:19:10,400
+Or maybe she gives the bank
+teller actual physical money
+
+467
+00:19:10,400 --> 00:19:13,310
+in order to get
+one of these coins.
+
+468
+00:19:13,310 --> 00:19:17,030
+So the bank generates
+a unique number--
+
+469
+00:19:17,030 --> 00:19:19,430
+SN stands for serial number--
+
+470
+00:19:19,430 --> 00:19:22,880
+and decides that this is
+the digital representation
+
+471
+00:19:22,880 --> 00:19:24,620
+of the coin.
+
+472
+00:19:24,620 --> 00:19:28,430
+The bank then gives that
+coin to Alice in a way
+
+473
+00:19:28,430 --> 00:19:31,175
+that it's clear that
+the bank did this.
+
+474
+00:19:31,175 --> 00:19:33,050
+Usually this is done
+using a technique called
+
+475
+00:19:33,050 --> 00:19:34,490
+digital signatures.
+
+476
+00:19:34,490 --> 00:19:37,550
+We're going to get to
+that as class progresses,
+
+477
+00:19:37,550 --> 00:19:40,070
+but not right now.
+
+478
+00:19:40,070 --> 00:19:44,270
+Once Alice has this coin,
+then she can give it to Bob.
+
+479
+00:19:44,270 --> 00:19:46,633
+And Bob can take a
+look at this coin,
+
+480
+00:19:46,633 --> 00:19:48,800
+and hopefully there's enough
+going on with this coin
+
+481
+00:19:48,800 --> 00:19:52,280
+that Bob can be convinced
+that this is a real coin.
+
+482
+00:19:52,280 --> 00:19:54,360
+Alice didn't make it
+up out of nowhere.
+
+483
+00:19:54,360 --> 00:19:58,670
+She actually had the funds,
+so to speak, to give to Bob,
+
+484
+00:19:58,670 --> 00:20:00,530
+and that it hasn't
+been double spent.
+
+485
+00:20:03,610 --> 00:20:05,270
+And once Bob is
+convinced of that,
+
+486
+00:20:05,270 --> 00:20:06,883
+he can give Alice the sandwich.
+
+487
+00:20:06,883 --> 00:20:09,050
+Now in traditional e-cash,
+the way that this is done
+
+488
+00:20:09,050 --> 00:20:11,450
+is Bob actually goes
+back to the bank
+
+489
+00:20:11,450 --> 00:20:13,580
+and says, here's this coin.
+
+490
+00:20:13,580 --> 00:20:15,850
+Alice just gave me this coin.
+
+491
+00:20:15,850 --> 00:20:17,870
+Is this an OK coin?
+
+492
+00:20:17,870 --> 00:20:21,170
+But the fact of the matter is
+that the bank, in this case,
+
+493
+00:20:21,170 --> 00:20:23,210
+has a serial number
+and knows that it
+
+494
+00:20:23,210 --> 00:20:25,430
+gave that unique
+serial number to Alice,
+
+495
+00:20:25,430 --> 00:20:28,040
+and then Bob is showing
+up with a coin that
+
+496
+00:20:28,040 --> 00:20:30,050
+is that serial number.
+
+497
+00:20:30,050 --> 00:20:32,390
+And what the bank is doing
+here, in this example,
+
+498
+00:20:32,390 --> 00:20:36,532
+is the way that the
+bank checks to make sure
+
+499
+00:20:36,532 --> 00:20:38,990
+that this coin is correct is
+it looks at the serial number,
+
+500
+00:20:38,990 --> 00:20:42,110
+and it makes sure that it
+hasn't been spent before.
+
+501
+00:20:42,110 --> 00:20:46,100
+So the bank can link the
+coin between Alice and Bob,
+
+502
+00:20:46,100 --> 00:20:47,570
+which is unfortunate.
+
+503
+00:20:47,570 --> 00:20:51,410
+The also still sort
+of has to be online,
+
+504
+00:20:51,410 --> 00:20:53,780
+not to do the actual payment
+between Alice and Bob,
+
+505
+00:20:53,780 --> 00:20:56,270
+but in order for Bob
+to have confidence
+
+506
+00:20:56,270 --> 00:20:58,850
+that this coin is real.
+
+507
+00:20:58,850 --> 00:21:03,678
+And later on Bob can say, I
+would like $1.00 for this coin
+
+508
+00:21:03,678 --> 00:21:05,720
+that I've just given you,
+or something like that.
+
+509
+00:21:05,720 --> 00:21:07,940
+Or Bob can have an
+account with the bank
+
+510
+00:21:07,940 --> 00:21:09,320
+and can maintain
+a balance there.
+
+511
+00:21:11,940 --> 00:21:17,720
+So just to go through some
+of the pros and cons here,
+
+512
+00:21:17,720 --> 00:21:21,020
+OK, we've kind of done
+something where the bank's not
+
+513
+00:21:21,020 --> 00:21:23,600
+in the middle, except the bank
+is still really in the middle.
+
+514
+00:21:23,600 --> 00:21:28,850
+We're getting a step
+closer, but we're not there.
+
+515
+00:21:28,850 --> 00:21:33,080
+Alice can technically give
+Bob this electronic thing that
+
+516
+00:21:33,080 --> 00:21:35,530
+represents value,
+but Bob still needs
+
+517
+00:21:35,530 --> 00:21:37,280
+to talk to the bank
+to make sure it's real
+
+518
+00:21:37,280 --> 00:21:38,660
+and it hasn't been double spent.
+
+519
+00:21:38,660 --> 00:21:41,330
+And we still have this problem
+where the bank is the one who's
+
+520
+00:21:41,330 --> 00:21:42,740
+minting these things.
+
+521
+00:21:42,740 --> 00:21:44,600
+The bank can decide
+not to give Alice
+
+522
+00:21:44,600 --> 00:21:46,490
+a coin if it feels like it.
+
+523
+00:21:46,490 --> 00:21:48,080
+And we still have
+this privacy problem
+
+524
+00:21:48,080 --> 00:21:51,500
+because the secret number,
+the serial number that we
+
+525
+00:21:51,500 --> 00:21:54,410
+invent for the coin, can be
+linked across these payments.
+
+526
+00:21:57,660 --> 00:22:00,530
+So there's this
+notion of something
+
+527
+00:22:00,530 --> 00:22:01,870
+called Chaumian e-cash.
+
+528
+00:22:01,870 --> 00:22:04,070
+So David Chaumian
+is a cryptographer,
+
+529
+00:22:04,070 --> 00:22:06,590
+and he developed
+this system which
+
+530
+00:22:06,590 --> 00:22:12,170
+has slightly nicer properties
+than previous forms of e-cash.
+
+531
+00:22:12,170 --> 00:22:15,290
+So the idea here,
+which is really key,
+
+532
+00:22:15,290 --> 00:22:18,770
+is instead of the bank
+choosing the secret number,
+
+533
+00:22:18,770 --> 00:22:20,990
+Alice chooses the secret number.
+
+534
+00:22:20,990 --> 00:22:23,780
+And we have ways of
+generating random numbers
+
+535
+00:22:23,780 --> 00:22:26,070
+that we can be fairly
+sure are unique.
+
+536
+00:22:26,070 --> 00:22:29,700
+So we can let everybody generate
+their own random numbers.
+
+537
+00:22:29,700 --> 00:22:33,140
+So in Chaumian e-cash, Alice
+chooses the secret number
+
+538
+00:22:33,140 --> 00:22:34,760
+that represents a coin.
+
+539
+00:22:34,760 --> 00:22:37,880
+And then Alice
+blinds her message.
+
+540
+00:22:37,880 --> 00:22:42,020
+So Alice adds some randomness
+to the secret number such
+
+541
+00:22:42,020 --> 00:22:45,230
+that the bank doesn't know
+what that number actually is.
+
+542
+00:22:45,230 --> 00:22:48,140
+And we'll get into more detail
+about exactly what that means.
+
+543
+00:22:48,140 --> 00:22:50,150
+It's all in the paper
+that was assigned
+
+544
+00:22:50,150 --> 00:22:51,710
+reading for this
+class, so make sure
+
+545
+00:22:51,710 --> 00:22:54,450
+that you take a look at it.
+
+546
+00:22:54,450 --> 00:22:58,640
+So when the bank verifies that
+the secret number is a real
+
+547
+00:22:58,640 --> 00:23:00,260
+secret number and
+it's really a coin,
+
+548
+00:23:00,260 --> 00:23:03,530
+and Alice gave the bank
+$1.00 or something like that,
+
+549
+00:23:03,530 --> 00:23:06,500
+the bank does so on the
+blinded secret number.
+
+550
+00:23:06,500 --> 00:23:08,180
+And Alice actually
+has the ability
+
+551
+00:23:08,180 --> 00:23:11,330
+to remove that randomness,
+or that blinding, later
+
+552
+00:23:11,330 --> 00:23:16,760
+and end up with a valid
+signature on a secret number.
+
+553
+00:23:16,760 --> 00:23:19,040
+So Alice does the same
+thing that she did before.
+
+554
+00:23:19,040 --> 00:23:22,400
+She gives Bob a representation
+of that electronic coin.
+
+555
+00:23:22,400 --> 00:23:25,820
+And when Bob redeems it,
+note that the bank never
+
+556
+00:23:25,820 --> 00:23:28,340
+sees what the number is,
+so when Bob redeems it,
+
+557
+00:23:28,340 --> 00:23:31,490
+the bank has no way of linking
+the payment between Alice
+
+558
+00:23:31,490 --> 00:23:33,250
+and Bob.
+
+559
+00:23:33,250 --> 00:23:36,220
+So just to get into how
+this works visually,
+
+560
+00:23:36,220 --> 00:23:39,700
+Alice will talk to
+the bank, and Alice
+
+561
+00:23:39,700 --> 00:23:43,660
+will use a blinding factor
+on the secret number.
+
+562
+00:23:43,660 --> 00:23:45,430
+And so when Alice
+talked to the bank,
+
+563
+00:23:45,430 --> 00:23:47,763
+the bank doesn't actually see
+what the secret number is.
+
+564
+00:23:47,763 --> 00:23:49,000
+They can't decode it.
+
+565
+00:23:49,000 --> 00:23:52,810
+Again, Alice gives $1.00 or
+something like that to get this
+
+566
+00:23:52,810 --> 00:23:54,640
+coin from the bank.
+
+567
+00:23:54,640 --> 00:23:57,040
+And the bank signs this.
+
+568
+00:23:57,040 --> 00:24:00,940
+Alice can remove the
+blinding factor later.
+
+569
+00:24:00,940 --> 00:24:02,560
+And this is what the coin is.
+
+570
+00:24:02,560 --> 00:24:05,110
+The coin is a valid
+bank signature
+
+571
+00:24:05,110 --> 00:24:08,440
+on the secret number, and
+also the number itself,
+
+572
+00:24:08,440 --> 00:24:11,500
+which Alice can
+then send to Bob.
+
+573
+00:24:11,500 --> 00:24:14,740
+Bob can check and make sure
+that this is a valid signature
+
+574
+00:24:14,740 --> 00:24:16,690
+from the bank.
+
+575
+00:24:16,690 --> 00:24:22,360
+And if that's correct, then
+Bob can give Alice a sandwich.
+
+576
+00:24:22,360 --> 00:24:26,650
+In order to redeem this, Bob
+gives this coin to the bank.
+
+577
+00:24:26,650 --> 00:24:33,190
+The bank says, OK, I've never
+seen the secret number before,
+
+578
+00:24:33,190 --> 00:24:35,000
+and you have my signature on it.
+
+579
+00:24:35,000 --> 00:24:37,292
+So I'm going to assume that
+I went through this process
+
+580
+00:24:37,292 --> 00:24:39,700
+with somebody and
+signed something.
+
+581
+00:24:39,700 --> 00:24:42,370
+And now I'm going to
+record that secret number.
+
+582
+00:24:42,370 --> 00:24:43,870
+Once that happens,
+Bob can be sure
+
+583
+00:24:43,870 --> 00:24:46,060
+that this coin hasn't
+been spent before.
+
+584
+00:24:46,060 --> 00:24:48,620
+The bank keeps a running list
+of all the secret numbers
+
+585
+00:24:48,620 --> 00:24:53,050
+it's seen, and it makes sure
+that if it ever sees one again,
+
+586
+00:24:53,050 --> 00:24:56,260
+it can say no, this
+is not correct.
+
+587
+00:24:56,260 --> 00:24:59,260
+I should never see a secret
+number more than once.
+
+588
+00:24:59,260 --> 00:25:00,190
+Now, OK.
+
+589
+00:25:00,190 --> 00:25:04,900
+But know what about Alice
+could give one version of that
+
+590
+00:25:04,900 --> 00:25:05,470
+to Bob.
+
+591
+00:25:05,470 --> 00:25:08,230
+Alice could also give a
+version of that to Charlie.
+
+592
+00:25:08,230 --> 00:25:10,870
+And how are Charlie
+and Bob supposed
+
+593
+00:25:10,870 --> 00:25:15,010
+to know whose coin is correct?
+
+594
+00:25:15,010 --> 00:25:17,260
+Because remember, we wanted
+to try to get the bank out
+
+595
+00:25:17,260 --> 00:25:19,210
+of the way when doing this.
+
+596
+00:25:19,210 --> 00:25:21,250
+And so in Chaumian
+e-cash, the way
+
+597
+00:25:21,250 --> 00:25:22,990
+that this works is
+the bank actually
+
+598
+00:25:22,990 --> 00:25:26,150
+keeps a bit more information.
+
+599
+00:25:26,150 --> 00:25:29,920
+And the information
+that the bank is keeping
+
+600
+00:25:29,920 --> 00:25:33,370
+won't let the bank link
+these transactions together
+
+601
+00:25:33,370 --> 00:25:37,570
+unless Alice happens to
+give this to two people.
+
+602
+00:25:37,570 --> 00:25:41,260
+And so if Alice gives the same
+coin to two different people,
+
+603
+00:25:41,260 --> 00:25:43,330
+the bank will be
+able to detect it
+
+604
+00:25:43,330 --> 00:25:46,060
+and the bank will be able
+to know it was Alice.
+
+605
+00:25:46,060 --> 00:25:50,200
+And so this is kind of
+a motivator for Alice
+
+606
+00:25:50,200 --> 00:25:51,740
+not to do that.
+
+607
+00:25:51,740 --> 00:25:55,180
+So the idea being here is that
+the way that we get around
+
+608
+00:25:55,180 --> 00:25:59,860
+the fact that we don't know if
+a coin has been double spent
+
+609
+00:25:59,860 --> 00:26:05,140
+or not is we add punishment
+if the coin is double spent.
+
+610
+00:26:05,140 --> 00:26:08,050
+So Bob doesn't know for sure
+that this coin he receives
+
+611
+00:26:08,050 --> 00:26:11,590
+hasn't been double spent, but
+he does know that if it was,
+
+612
+00:26:11,590 --> 00:26:13,480
+someone's going to
+know it was Alice,
+
+613
+00:26:13,480 --> 00:26:17,480
+and they're going to punish her.
+
+614
+00:26:17,480 --> 00:26:19,460
+So this is a pretty
+clever scheme.
+
+615
+00:26:19,460 --> 00:26:24,820
+And this actually gets us
+around a lot of problems.
+
+616
+00:26:24,820 --> 00:26:26,260
+We have digital payments.
+
+617
+00:26:26,260 --> 00:26:30,340
+We can make the actual transfer
+without the bank in the middle.
+
+618
+00:26:30,340 --> 00:26:33,250
+We have some privacy now
+because the bank can't
+
+619
+00:26:33,250 --> 00:26:36,160
+link transactions together.
+
+620
+00:26:36,160 --> 00:26:39,010
+And we have this way of
+doing double spend detection.
+
+621
+00:26:39,010 --> 00:26:41,050
+We have a way of
+motivating people
+
+622
+00:26:41,050 --> 00:26:43,780
+not to double spend their coins,
+which means that you probably
+
+623
+00:26:43,780 --> 00:26:46,120
+don't have to check
+at the time you
+
+624
+00:26:46,120 --> 00:26:49,420
+receive a coin whether or
+not it's been double spent.
+
+625
+00:26:49,420 --> 00:26:53,990
+Of course, this still suffers
+from a really big problem,
+
+626
+00:26:53,990 --> 00:26:56,950
+which is that a bank can
+still decide that they just
+
+627
+00:26:56,950 --> 00:26:58,242
+don't want to do this with you.
+
+628
+00:26:58,242 --> 00:26:59,950
+They can just decide
+that they don't want
+
+629
+00:26:59,950 --> 00:27:01,090
+to play this game with you.
+
+630
+00:27:01,090 --> 00:27:03,755
+They don't want to issue coins.
+
+631
+00:27:03,755 --> 00:27:05,380
+Maybe they don't like
+you specifically.
+
+632
+00:27:05,380 --> 00:27:07,870
+Maybe they don't want to take
+your coins and exchange them.
+
+633
+00:27:07,870 --> 00:27:12,310
+So this scheme, Chaumian e-cash,
+solves quite a bit of problems
+
+634
+00:27:12,310 --> 00:27:15,820
+when it comes to how do
+we have electronic money
+
+635
+00:27:15,820 --> 00:27:20,110
+with some nice features,
+but it doesn't quite
+
+636
+00:27:20,110 --> 00:27:22,240
+get to all of them.
+
+637
+00:27:22,240 --> 00:27:25,080
+And so the real
+question in this class
+
+638
+00:27:25,080 --> 00:27:28,350
+is how do we do
+electronic money, really,
+
+639
+00:27:28,350 --> 00:27:29,970
+in a peer-to-peer
+way, where there's
+
+640
+00:27:29,970 --> 00:27:31,680
+no institution in the way.
+
+641
+00:27:31,680 --> 00:27:35,768
+There's no sort of
+entity that can say no.
+
+642
+00:27:35,768 --> 00:27:38,060
+TADGE DRYJA: So e-cash, the
+math is really interesting.
+
+643
+00:27:38,060 --> 00:27:42,050
+It kept relying on these
+banks and so it never quite
+
+644
+00:27:42,050 --> 00:27:43,190
+got off the ground.
+
+645
+00:27:43,190 --> 00:27:47,240
+So I'm willing to talk about
+somewhat more abstract and low
+
+646
+00:27:47,240 --> 00:27:49,400
+level primitives.
+
+647
+00:27:49,400 --> 00:27:55,490
+I'm not going to quite get into
+cash or tokens or transfers
+
+648
+00:27:55,490 --> 00:27:57,530
+or anything this lecture.
+
+649
+00:27:57,530 --> 00:27:59,960
+But I'm going to talk about
+the really basic primitives
+
+650
+00:27:59,960 --> 00:28:02,990
+that you need that we
+already sort of mentioned,
+
+651
+00:28:02,990 --> 00:28:04,880
+hash functions and signatures.
+
+652
+00:28:04,880 --> 00:28:07,790
+Signatures, obviously, we
+talked about a little bit,
+
+653
+00:28:07,790 --> 00:28:10,070
+what you need to be able
+to sign messages in order
+
+654
+00:28:10,070 --> 00:28:11,510
+to send these tokens around.
+
+655
+00:28:11,510 --> 00:28:14,900
+But first I'll talk about hash
+functions, which are basically
+
+656
+00:28:14,900 --> 00:28:18,980
+the most fundamental basic
+thing we use in these systems.
+
+657
+00:28:18,980 --> 00:28:21,345
+And I think if you've
+used computers,
+
+658
+00:28:21,345 --> 00:28:22,720
+or if you've
+programmed a little,
+
+659
+00:28:22,720 --> 00:28:24,590
+you probably have
+some familiarity
+
+660
+00:28:24,590 --> 00:28:26,540
+with hash functions.
+
+661
+00:28:26,540 --> 00:28:29,460
+They're simple, but they're
+actually extremely powerful.
+
+662
+00:28:29,460 --> 00:28:31,160
+The hash function
+is basically you
+
+663
+00:28:31,160 --> 00:28:32,990
+have some data,
+a bunch of bytes,
+
+664
+00:28:32,990 --> 00:28:34,333
+a bunch of ones and zeros.
+
+665
+00:28:34,333 --> 00:28:35,750
+You run it through
+a hash function
+
+666
+00:28:35,750 --> 00:28:38,930
+and you get an output that's
+also a bunch of ones and zeros.
+
+667
+00:28:38,930 --> 00:28:42,120
+Generally, the input
+data can be of any size.
+
+668
+00:28:42,120 --> 00:28:43,460
+You can hash something--
+
+669
+00:28:43,460 --> 00:28:45,290
+put in a megabyte,
+put in a gigabyte,
+
+670
+00:28:45,290 --> 00:28:47,900
+or put in a single byte,
+and generally the output
+
+671
+00:28:47,900 --> 00:28:49,500
+is of a fixed size.
+
+672
+00:28:49,500 --> 00:28:52,730
+So in the case of
+bitcoin, we use Sha-256.
+
+673
+00:28:52,730 --> 00:28:58,280
+The output size is 32 bytes
+long, or 256 bits long.
+
+674
+00:28:58,280 --> 00:29:03,050
+And this is used for lots
+of things in computers.
+
+675
+00:29:03,050 --> 00:29:05,300
+I guess the reason they call
+it a hash is because it's
+
+676
+00:29:05,300 --> 00:29:07,580
+like when you take the
+potatoes and chop them up
+
+677
+00:29:07,580 --> 00:29:11,630
+into little squares and
+grill them for breakfast,
+
+678
+00:29:11,630 --> 00:29:14,180
+it's sort of that idea,
+that we're taking this data.
+
+679
+00:29:14,180 --> 00:29:17,780
+And the data going in gets
+chopped up and smushed around
+
+680
+00:29:17,780 --> 00:29:21,260
+and then comes out
+into an output.
+
+681
+00:29:21,260 --> 00:29:24,290
+So this is not a sufficient
+different definition.
+
+682
+00:29:24,290 --> 00:29:27,320
+But I will say that you
+can sort of do everything
+
+683
+00:29:27,320 --> 00:29:28,660
+with hash functions.
+
+684
+00:29:28,660 --> 00:29:30,410
+There's some fun things
+that you can't do,
+
+685
+00:29:30,410 --> 00:29:33,110
+but you could make a
+cryptocurrency only using
+
+686
+00:29:33,110 --> 00:29:34,940
+a single hash function.
+
+687
+00:29:34,940 --> 00:29:38,720
+And I think people have, sort
+of for experimental reasons.
+
+688
+00:29:38,720 --> 00:29:43,460
+You limit the fun stuff you can
+do, but you can do signatures.
+
+689
+00:29:43,460 --> 00:29:45,070
+You can do encryption.
+
+690
+00:29:45,070 --> 00:29:47,460
+You can do all sorts
+of things like that.
+
+691
+00:29:47,460 --> 00:29:47,960
+OK.
+
+692
+00:29:47,960 --> 00:29:50,960
+So this is not a
+sufficient definition,
+
+693
+00:29:50,960 --> 00:29:55,310
+that there's any size
+input, a fixed size output,
+
+694
+00:29:55,310 --> 00:29:57,580
+and the output is
+random-looking.
+
+695
+00:29:57,580 --> 00:29:58,940
+That's sort of wishy-washy.
+
+696
+00:29:58,940 --> 00:30:02,540
+But what does
+random-looking mean?
+
+697
+00:30:02,540 --> 00:30:03,890
+It's not actually random.
+
+698
+00:30:03,890 --> 00:30:06,328
+If you put in the
+same input, everyone
+
+699
+00:30:06,328 --> 00:30:07,370
+will get the same output.
+
+700
+00:30:07,370 --> 00:30:10,010
+So if you say, OK, well,
+what's the hash of one,
+
+701
+00:30:10,010 --> 00:30:11,280
+you'll get some output.
+
+702
+00:30:11,280 --> 00:30:13,640
+And if someone else says,
+OK, what's the hash of one,
+
+703
+00:30:13,640 --> 00:30:15,810
+you'll get the same thing.
+
+704
+00:30:15,810 --> 00:30:19,820
+However, the output,
+while it is deterministic,
+
+705
+00:30:19,820 --> 00:30:23,270
+it's sort of high
+entropy in that
+
+706
+00:30:23,270 --> 00:30:26,840
+the output should have about as
+many as one bits as zero bits.
+
+707
+00:30:26,840 --> 00:30:28,400
+If you take the
+hash of one, it's
+
+708
+00:30:28,400 --> 00:30:30,233
+just going to look like
+a big random number.
+
+709
+00:30:30,233 --> 00:30:32,690
+And the hash of two will look
+like a completely unrelated
+
+710
+00:30:32,690 --> 00:30:34,643
+random number.
+
+711
+00:30:34,643 --> 00:30:35,810
+The outputs look like noise.
+
+712
+00:30:35,810 --> 00:30:37,760
+So if you've ever
+seen hash functions,
+
+713
+00:30:37,760 --> 00:30:39,810
+you can run it on your computer.
+
+714
+00:30:39,810 --> 00:30:41,280
+You say echo.
+
+715
+00:30:41,280 --> 00:30:44,180
+Hello, pipe Sha-256
+sum, and you'll just
+
+716
+00:30:44,180 --> 00:30:46,580
+get some kind of
+crazy, random thing.
+
+717
+00:30:46,580 --> 00:30:50,680
+There doesn't seem to be
+any order to the outputs.
+
+718
+00:30:50,680 --> 00:30:52,368
+A little bit more well-defined.
+
+719
+00:30:52,368 --> 00:30:54,160
+We usually talk about
+the avalanche effect,
+
+720
+00:30:54,160 --> 00:30:57,250
+in that changing a
+single bit in the input
+
+721
+00:30:57,250 --> 00:31:00,250
+should change about half
+the bits of the output.
+
+722
+00:31:00,250 --> 00:31:04,440
+So even though you have
+extremely similar inputs,
+
+723
+00:31:04,440 --> 00:31:07,090
+they should be completely
+dissimilar outputs--
+
+724
+00:31:07,090 --> 00:31:08,980
+well, completely
+dissimilar, as in about half
+
+725
+00:31:08,980 --> 00:31:09,910
+the output changed.
+
+726
+00:31:09,910 --> 00:31:11,770
+If every bit
+changes, then it just
+
+727
+00:31:11,770 --> 00:31:15,910
+is the inverse of what you had,
+and so it's easily correlated.
+
+728
+00:31:15,910 --> 00:31:18,040
+But the avalanche
+effect is sort of how
+
+729
+00:31:18,040 --> 00:31:20,950
+hash functions are constructed,
+where generally they're
+
+730
+00:31:20,950 --> 00:31:22,137
+iterative rounds.
+
+731
+00:31:22,137 --> 00:31:24,220
+And so you say, OK, I'm
+going to swap these things
+
+732
+00:31:24,220 --> 00:31:27,340
+and multiply these things and
+shift these bits around such
+
+733
+00:31:27,340 --> 00:31:30,280
+that if any change
+in the beginning
+
+734
+00:31:30,280 --> 00:31:32,230
+will sort of propagate
+an avalanche, too,
+
+735
+00:31:32,230 --> 00:31:35,940
+so that all the output bits
+have been affected by it.
+
+736
+00:31:35,940 --> 00:31:36,440
+OK.
+
+737
+00:31:36,440 --> 00:31:38,602
+And a little bit
+more well-defined.
+
+738
+00:31:38,602 --> 00:31:40,310
+Generally, the hash
+functions are defined
+
+739
+00:31:40,310 --> 00:31:42,080
+by what they should not do.
+
+740
+00:31:42,080 --> 00:31:44,420
+So the three main things
+they should have--
+
+741
+00:31:44,420 --> 00:31:47,390
+preimage resistance,
+second preimage resistance,
+
+742
+00:31:47,390 --> 00:31:50,900
+which I'll sort of skip over,
+and collision resistance.
+
+743
+00:31:50,900 --> 00:31:54,020
+And we can define
+what these things are.
+
+744
+00:31:54,020 --> 00:31:59,600
+So a preimage is the thing
+that came before the output.
+
+745
+00:31:59,600 --> 00:32:00,890
+So it's sort of a math-y term.
+
+746
+00:32:00,890 --> 00:32:06,410
+But the idea is OK, if you know
+y, you can't find any x such
+
+747
+00:32:06,410 --> 00:32:08,870
+that the hash of
+x is equal to y.
+
+748
+00:32:08,870 --> 00:32:13,640
+So if I give you a hash output,
+and that's all I give you,
+
+749
+00:32:13,640 --> 00:32:16,610
+you should not be able
+to find an input that
+
+750
+00:32:16,610 --> 00:32:18,017
+leads to that output.
+
+751
+00:32:18,017 --> 00:32:19,850
+So if I just say, hey,
+here's a hash output.
+
+752
+00:32:19,850 --> 00:32:25,250
+It's 35021FF-- whatever,
+some long string,
+
+753
+00:32:25,250 --> 00:32:26,750
+you won't be able
+to figure out what
+
+754
+00:32:26,750 --> 00:32:30,650
+I used to put in to get that.
+
+755
+00:32:30,650 --> 00:32:32,810
+Of course, you can
+find it eventually.
+
+756
+00:32:32,810 --> 00:32:37,100
+For any given y,
+there's probably some x.
+
+757
+00:32:37,100 --> 00:32:38,990
+In fact, there's probably
+a lot of x's that
+
+758
+00:32:38,990 --> 00:32:40,460
+will lead to that y.
+
+759
+00:32:40,460 --> 00:32:43,290
+Since y is a fixed
+length and there's
+
+760
+00:32:43,290 --> 00:32:47,900
+two to the 256 possible
+y's, but there's
+
+761
+00:32:47,900 --> 00:32:50,210
+an infinite number of
+x's because x is not
+
+762
+00:32:50,210 --> 00:32:51,200
+bounded in length.
+
+763
+00:32:51,200 --> 00:32:56,000
+You can have a megabyte or a
+gigabyte or a terabyte size x.
+
+764
+00:32:56,000 --> 00:32:58,700
+So since there are sort of
+infinite numbers of x's,
+
+765
+00:32:58,700 --> 00:33:03,290
+and a fixed, though very
+large number of y's, as long
+
+766
+00:33:03,290 --> 00:33:05,300
+as it is a random
+mapping, there will
+
+767
+00:33:05,300 --> 00:33:08,300
+be lots of different x's
+that can lead to this y.
+
+768
+00:33:08,300 --> 00:33:11,030
+And so you should
+be able to find it.
+
+769
+00:33:11,030 --> 00:33:12,647
+It's just impractical.
+
+770
+00:33:12,647 --> 00:33:14,480
+It's like, yeah, you
+may be able to find it,
+
+771
+00:33:14,480 --> 00:33:17,680
+but it's going to take
+you two to the 256 tries
+
+772
+00:33:17,680 --> 00:33:20,560
+to find any specific y value.
+
+773
+00:33:20,560 --> 00:33:23,140
+And that's about
+10 to the 78, which
+
+774
+00:33:23,140 --> 00:33:25,930
+is a number that's big enough
+that you can sort of round it
+
+775
+00:33:25,930 --> 00:33:27,240
+up to infinity.
+
+776
+00:33:27,240 --> 00:33:30,468
+Well, I mean, not
+quite, but big enough
+
+777
+00:33:30,468 --> 00:33:32,260
+that you're not going
+to be able to compute
+
+778
+00:33:32,260 --> 00:33:34,920
+that, the sun'll burnout
+and the universe'll die
+
+779
+00:33:34,920 --> 00:33:37,520
+and stuff like that.
+
+780
+00:33:37,520 --> 00:33:38,770
+So that's preimage resistance.
+
+781
+00:33:38,770 --> 00:33:41,170
+You can't go backwards.
+
+782
+00:33:41,170 --> 00:33:43,970
+Given the hash, you can't
+find what led to that.
+
+783
+00:33:43,970 --> 00:33:44,470
+OK.
+
+784
+00:33:44,470 --> 00:33:48,770
+Any questions about
+preimage resistance?
+
+785
+00:33:48,770 --> 00:33:50,780
+Seems reasonable?
+
+786
+00:33:50,780 --> 00:33:55,713
+It's a little interesting
+in that given y is
+
+787
+00:33:55,713 --> 00:33:57,630
+a little tricky, and
+that it's like, OK, well,
+
+788
+00:33:57,630 --> 00:34:03,420
+someone might know x in order
+for them to have computed y.
+
+789
+00:34:03,420 --> 00:34:05,550
+Or maybe it's just
+completely random,
+
+790
+00:34:05,550 --> 00:34:08,820
+and no one actually
+knows what the x is.
+
+791
+00:34:08,820 --> 00:34:11,340
+So there's a sort of
+loss of information
+
+792
+00:34:11,340 --> 00:34:13,139
+in the idea of a preimage stack.
+
+793
+00:34:13,139 --> 00:34:13,770
+OK.
+
+794
+00:34:13,770 --> 00:34:15,270
+Second preimage resistance.
+
+795
+00:34:15,270 --> 00:34:19,650
+This one's a little
+trickier and can get messy.
+
+796
+00:34:19,650 --> 00:34:22,290
+So I'll define it, but we
+won't go into it too much.
+
+797
+00:34:22,290 --> 00:34:25,739
+The idea is given x and
+y such that the hash of x
+
+798
+00:34:25,739 --> 00:34:30,000
+is equal to y, you can't find
+x prime where x prime is not
+
+799
+00:34:30,000 --> 00:34:31,080
+equal to x.
+
+800
+00:34:31,080 --> 00:34:33,780
+And the hash of x
+prime is equal to y.
+
+801
+00:34:33,780 --> 00:34:35,429
+So we're sort of
+giving you a preimage.
+
+802
+00:34:35,429 --> 00:34:38,159
+We're saying, hey, here's
+this number x and here's
+
+803
+00:34:38,159 --> 00:34:39,199
+this result y.
+
+804
+00:34:41,760 --> 00:34:47,250
+I bet you can't find
+another x that leads to it.
+
+805
+00:34:47,250 --> 00:34:49,929
+This one is actually poorly
+defined in the literature.
+
+806
+00:34:49,929 --> 00:34:52,650
+And so it's a little
+like, well, who
+
+807
+00:34:52,650 --> 00:34:56,225
+made x, and who gets to
+choose, and is it any x prime
+
+808
+00:34:56,225 --> 00:34:57,100
+and things like that.
+
+809
+00:34:57,100 --> 00:34:59,830
+So it's not actually
+that useful.
+
+810
+00:34:59,830 --> 00:35:02,580
+So we can just sort of
+gloss over that one,
+
+811
+00:35:02,580 --> 00:35:04,540
+just sort of mentioning it.
+
+812
+00:35:04,540 --> 00:35:08,310
+And then the other one that's
+very important is collision
+
+813
+00:35:08,310 --> 00:35:13,050
+resistance, where the idea is
+that nobody can find any x,z
+
+814
+00:35:13,050 --> 00:35:16,170
+pair such that x
+is not equal to z,
+
+815
+00:35:16,170 --> 00:35:19,940
+but the hash of x is
+equal to the hash of z.
+
+816
+00:35:19,940 --> 00:35:22,160
+And this one's a
+lot cleaner in that
+
+817
+00:35:22,160 --> 00:35:24,480
+there's no lack of information.
+
+818
+00:35:24,480 --> 00:35:26,130
+There's no secrets or anything.
+
+819
+00:35:26,130 --> 00:35:29,060
+It's just like, look,
+no one can find this.
+
+820
+00:35:29,060 --> 00:35:31,587
+And so it's really
+easy to disprove.
+
+821
+00:35:31,587 --> 00:35:33,920
+You can just say, hey, look,
+here's an x and here's a z.
+
+822
+00:35:33,920 --> 00:35:34,910
+Try hashing them.
+
+823
+00:35:34,910 --> 00:35:37,643
+Oh, shoot, the hashes are equal.
+
+824
+00:35:37,643 --> 00:35:39,560
+And it doesn't really
+matter how you got these
+
+825
+00:35:39,560 --> 00:35:40,880
+or who's doing it.
+
+826
+00:35:40,880 --> 00:35:45,030
+So that's a really nice,
+easy, clear property.
+
+827
+00:35:45,030 --> 00:35:47,490
+And again, you can
+find this eventually.
+
+828
+00:35:47,490 --> 00:35:50,830
+So if your output
+size is 256 bits long,
+
+829
+00:35:50,830 --> 00:35:52,650
+you'll be able to
+find two inputs that
+
+830
+00:35:52,650 --> 00:35:55,110
+map to the same output.
+
+831
+00:35:55,110 --> 00:35:59,860
+In fact, you do not
+need to try 256 times.
+
+832
+00:35:59,860 --> 00:36:01,740
+I'm not going to go
+into the details,
+
+833
+00:36:01,740 --> 00:36:05,970
+but you actually only
+have to try 128 times.
+
+834
+00:36:05,970 --> 00:36:07,320
+Sorry, two to the 128.
+
+835
+00:36:07,320 --> 00:36:10,740
+So you need to take the square
+root of the number of attempts
+
+836
+00:36:10,740 --> 00:36:14,880
+in order to find this collision
+because the intuitive reason
+
+837
+00:36:14,880 --> 00:36:17,790
+is, well, you just start
+trying things and keeping
+
+838
+00:36:17,790 --> 00:36:19,680
+track of all their hashes.
+
+839
+00:36:19,680 --> 00:36:23,340
+And there's what's called
+the birthday attack, which,
+
+840
+00:36:23,340 --> 00:36:26,310
+as you keep trying them,
+there's more possibilities.
+
+841
+00:36:26,310 --> 00:36:28,110
+The next thing you
+try, you can collide
+
+842
+00:36:28,110 --> 00:36:30,248
+with any of these things
+you've tried before.
+
+843
+00:36:30,248 --> 00:36:32,415
+And so you actually only
+have to do the square root.
+
+844
+00:36:32,415 --> 00:36:33,873
+And it's called
+the birthday attack
+
+845
+00:36:33,873 --> 00:36:37,050
+because there's the birthday
+paradox, which is not really
+
+846
+00:36:37,050 --> 00:36:40,290
+a paradox, but the idea
+is so in this room,
+
+847
+00:36:40,290 --> 00:36:42,540
+there's people that
+have the same birthday.
+
+848
+00:36:42,540 --> 00:36:44,910
+It's almost certain,
+which seems kind of weird
+
+849
+00:36:44,910 --> 00:36:47,760
+because the intuitive thing is,
+like, well, there's 365 days
+
+850
+00:36:47,760 --> 00:36:48,420
+a year.
+
+851
+00:36:48,420 --> 00:36:52,878
+Maybe once you get 160,
+170 people in a room,
+
+852
+00:36:52,878 --> 00:36:55,170
+you're going to have two
+people with the same birthday.
+
+853
+00:36:55,170 --> 00:36:58,870
+But actually, it's
+like 22 or something--
+
+854
+00:36:58,870 --> 00:37:01,320
+anyway, that it becomes
+likely that people
+
+855
+00:37:01,320 --> 00:37:02,550
+have the same birthday.
+
+856
+00:37:02,550 --> 00:37:03,990
+So it's kind of
+counterintuitive,
+
+857
+00:37:03,990 --> 00:37:05,740
+and it applies in
+this case as well.
+
+858
+00:37:05,740 --> 00:37:08,190
+So to find a collision,
+you need the square root
+
+859
+00:37:08,190 --> 00:37:10,860
+of the output space.
+
+860
+00:37:10,860 --> 00:37:14,070
+But a hash function should
+not have collisions.
+
+861
+00:37:14,070 --> 00:37:16,170
+If you can find a
+collision, if any collision
+
+862
+00:37:16,170 --> 00:37:18,180
+exists for this
+hash function, you
+
+863
+00:37:18,180 --> 00:37:20,753
+can consider the
+hash function broken.
+
+864
+00:37:20,753 --> 00:37:22,920
+It's a little bit different
+than preimage resistance
+
+865
+00:37:22,920 --> 00:37:25,800
+because it's hard to
+definitively prove
+
+866
+00:37:25,800 --> 00:37:27,180
+that you've broken preimages.
+
+867
+00:37:27,180 --> 00:37:29,190
+That's something of an
+interactive process where
+
+868
+00:37:29,190 --> 00:37:31,722
+you say, hey, here's a y,
+and then someone comes back
+
+869
+00:37:31,722 --> 00:37:33,180
+with an x, and
+you're like, oh, OK,
+
+870
+00:37:33,180 --> 00:37:36,120
+you prove to me that
+you can find preimages.
+
+871
+00:37:36,120 --> 00:37:38,130
+But that's hard to tell
+to the rest of the world
+
+872
+00:37:38,130 --> 00:37:40,230
+because it was sort
+of interactive,
+
+873
+00:37:40,230 --> 00:37:43,290
+whereas collisions are very
+clear and non-interactive.
+
+874
+00:37:43,290 --> 00:37:45,990
+You can just say, hey,
+here's an x and here's a z.
+
+875
+00:37:45,990 --> 00:37:47,320
+Anyone can verify these.
+
+876
+00:37:47,320 --> 00:37:49,450
+Didn't really matter
+how you got it.
+
+877
+00:37:49,450 --> 00:37:49,950
+OK.
+
+878
+00:37:49,950 --> 00:37:55,360
+So some practical, how
+do these functions work.
+
+879
+00:37:55,360 --> 00:37:57,850
+Practically speaking,
+the collision resistance
+
+880
+00:37:57,850 --> 00:37:59,830
+is a harder property.
+
+881
+00:37:59,830 --> 00:38:03,130
+So there are many functions
+where the collision resistance
+
+882
+00:38:03,130 --> 00:38:06,670
+has been broken where the
+preimage resistance has not
+
+883
+00:38:06,670 --> 00:38:07,510
+been broken.
+
+884
+00:38:07,510 --> 00:38:10,270
+So examples are Sha-1 and MD5.
+
+885
+00:38:10,270 --> 00:38:15,250
+MD5's a fairly old one written
+by Ron Rivest over at--
+
+886
+00:38:15,250 --> 00:38:17,350
+well, I guess it wasn't
+at the Stata Center
+
+887
+00:38:17,350 --> 00:38:18,880
+because it was in the '80s.
+
+888
+00:38:18,880 --> 00:38:21,100
+But this was message digest 5.
+
+889
+00:38:21,100 --> 00:38:23,500
+I guess there were
+several before that.
+
+890
+00:38:23,500 --> 00:38:25,780
+And that is quite broken.
+
+891
+00:38:25,780 --> 00:38:26,680
+You shouldn't use it.
+
+892
+00:38:26,680 --> 00:38:30,790
+Its collision resistance
+is trivially broken.
+
+893
+00:38:30,790 --> 00:38:34,710
+You can find collisions in under
+a second on a modern computer.
+
+894
+00:38:34,710 --> 00:38:39,910
+Sha-1 happened later, in
+the late '90s, I think,
+
+895
+00:38:39,910 --> 00:38:41,290
+and NSA made it.
+
+896
+00:38:41,290 --> 00:38:43,220
+And there have been
+collisions found.
+
+897
+00:38:43,220 --> 00:38:45,220
+I think there's really
+only one collision that's
+
+898
+00:38:45,220 --> 00:38:48,250
+been found, basically,
+by a team at Google
+
+899
+00:38:48,250 --> 00:38:51,730
+and some Italian
+university last year.
+
+900
+00:38:51,730 --> 00:38:55,390
+And they spent a lot of computer
+time to find this collision.
+
+901
+00:38:55,390 --> 00:38:56,530
+But they did find it.
+
+902
+00:38:56,530 --> 00:38:58,210
+And then once you find one,
+it's sort of like, oh, yeah,
+
+903
+00:38:58,210 --> 00:39:00,100
+we really shouldn't
+use this anymore.
+
+904
+00:39:00,100 --> 00:39:03,100
+But in both of these
+cases, sha-1 and MD5,
+
+905
+00:39:03,100 --> 00:39:05,620
+there's no feasible
+preimage attack.
+
+906
+00:39:05,620 --> 00:39:07,812
+So given a hash output
+for either of these,
+
+907
+00:39:07,812 --> 00:39:09,520
+you can't find what
+the input was, or you
+
+908
+00:39:09,520 --> 00:39:11,260
+can't find a different input.
+
+909
+00:39:11,260 --> 00:39:14,410
+So generally, it's a lot
+easier to make a function
+
+910
+00:39:14,410 --> 00:39:16,240
+strong against preimages.
+
+911
+00:39:16,240 --> 00:39:20,800
+Collisions is sort of
+harder to deal with.
+
+912
+00:39:20,800 --> 00:39:24,260
+Also, practically speaking, how
+do these hash functions work?
+
+913
+00:39:24,260 --> 00:39:26,690
+It's a little bit
+of black magic.
+
+914
+00:39:26,690 --> 00:39:31,450
+There's no proofs that a
+hash function can even exist.
+
+915
+00:39:31,450 --> 00:39:35,050
+So if you could prove that
+there is a one-way function,
+
+916
+00:39:35,050 --> 00:39:37,150
+you get the Fields Medal, right?
+
+917
+00:39:37,150 --> 00:39:38,890
+It's like a million
+dollar prize.
+
+918
+00:39:38,890 --> 00:39:40,390
+So if you can prove
+it there is such
+
+919
+00:39:40,390 --> 00:39:42,310
+a thing as a hash
+function, you will be
+
+920
+00:39:42,310 --> 00:39:44,410
+a super famous mathematician.
+
+921
+00:39:44,410 --> 00:39:47,250
+We have no idea that this is
+even mathematically possible.
+
+922
+00:39:47,250 --> 00:39:49,520
+Or maybe the universe
+doesn't work this way.
+
+923
+00:39:49,520 --> 00:39:50,980
+It seems to, though.
+
+924
+00:39:50,980 --> 00:39:53,110
+It seems like there
+are these things that
+
+925
+00:39:53,110 --> 00:39:55,780
+work like hash functions, that
+work like one-way functions,
+
+926
+00:39:55,780 --> 00:39:57,300
+but we have no proof of that.
+
+927
+00:39:57,300 --> 00:40:02,517
+So even the most fundamental
+part that everything hinges on,
+
+928
+00:40:02,517 --> 00:40:03,850
+we don't even know if it exists.
+
+929
+00:40:03,850 --> 00:40:06,670
+And then this is sort
+of closely related,
+
+930
+00:40:06,670 --> 00:40:08,530
+if you're in the
+computer science-y stuff,
+
+931
+00:40:08,530 --> 00:40:11,670
+like p and mp--
+
+932
+00:40:11,670 --> 00:40:15,400
+anyway, so we don't know
+that these actually work.
+
+933
+00:40:15,400 --> 00:40:18,190
+And also, in practice,
+hash functions
+
+934
+00:40:18,190 --> 00:40:21,610
+are not nice math, cool
+things like elliptic curves
+
+935
+00:40:21,610 --> 00:40:24,370
+and RSA, prime numbers
+and stuff like that.
+
+936
+00:40:24,370 --> 00:40:27,700
+They're really, if you look at
+the code, it's sort of like,
+
+937
+00:40:27,700 --> 00:40:29,260
+well, I'm going to
+take these bytes
+
+938
+00:40:29,260 --> 00:40:30,397
+and I'm going to swap them.
+
+939
+00:40:30,397 --> 00:40:32,230
+And then I'm going to
+add these two numbers,
+
+940
+00:40:32,230 --> 00:40:34,900
+and then I'm going to
+rotate the bits over here,
+
+941
+00:40:34,900 --> 00:40:36,880
+and then I'm going to
+x over these things.
+
+942
+00:40:36,880 --> 00:40:39,100
+And then I'm going
+to do that 50 times.
+
+943
+00:40:39,100 --> 00:40:39,820
+And why 50?
+
+944
+00:40:39,820 --> 00:40:42,290
+Well, it seems like
+50 is a good number.
+
+945
+00:40:42,290 --> 00:40:43,810
+It's not too slow.
+
+946
+00:40:43,810 --> 00:40:44,650
+No, really.
+
+947
+00:40:44,650 --> 00:40:50,180
+It's sort of black magic,
+Sha-256 uses 64 rounds.
+
+948
+00:40:50,180 --> 00:40:52,120
+Nice even number.
+
+949
+00:40:52,120 --> 00:40:55,222
+Different functions like
+Blake 2B uses 20 rounds.
+
+950
+00:40:55,222 --> 00:40:56,930
+But then there's also
+a version that uses
+
+951
+00:40:56,930 --> 00:40:58,510
+12 rounds, which is faster.
+
+952
+00:40:58,510 --> 00:41:02,710
+And people think, well, it's
+still seems quite secure.
+
+953
+00:41:02,710 --> 00:41:04,370
+But if you want to
+be really secure,
+
+954
+00:41:04,370 --> 00:41:05,440
+use the 20-round variant.
+
+955
+00:41:05,440 --> 00:41:07,148
+If you want to be
+probably secure enough,
+
+956
+00:41:07,148 --> 00:41:08,300
+use the 12-round variant.
+
+957
+00:41:08,300 --> 00:41:11,830
+So there's no proofs.
+
+958
+00:41:11,830 --> 00:41:15,460
+There's heuristics and things
+like that, and best practices.
+
+959
+00:41:15,460 --> 00:41:20,440
+But this kind of cryptography
+is a little bit of black magic.
+
+960
+00:41:20,440 --> 00:41:24,580
+And it's not based on any cool
+mathematical number theory
+
+961
+00:41:24,580 --> 00:41:27,130
+stuff, either, the way
+that elliptic curve
+
+962
+00:41:27,130 --> 00:41:29,800
+cryptography or RSA stuff is.
+
+963
+00:41:29,800 --> 00:41:31,330
+So if you break
+RSA, you can say,
+
+964
+00:41:31,330 --> 00:41:34,960
+hey, I can now factor
+these composite numbers
+
+965
+00:41:34,960 --> 00:41:37,300
+very quickly, that's,
+in and of itself,
+
+966
+00:41:37,300 --> 00:41:39,040
+a cool mathematical discovery.
+
+967
+00:41:39,040 --> 00:41:43,000
+The breaking of Sha-1,
+there's not really
+
+968
+00:41:43,000 --> 00:41:44,530
+any cool math insight.
+
+969
+00:41:44,530 --> 00:41:47,020
+It was just like, yeah, we
+found this fairly specific,
+
+970
+00:41:47,020 --> 00:41:50,080
+weird path that we were
+able to break Sha-1
+
+971
+00:41:50,080 --> 00:41:52,830
+after a couple of
+years of computer.
+
+972
+00:41:52,830 --> 00:41:56,900
+So it's cool, and some
+people are super into it.
+
+973
+00:41:56,900 --> 00:41:59,960
+But it's something of a niche to
+actually build hash functions.
+
+974
+00:41:59,960 --> 00:42:02,630
+I would recommend not building
+your own hash function.
+
+975
+00:42:02,630 --> 00:42:03,170
+Yes.
+
+976
+00:42:03,170 --> 00:42:04,670
+AUDIENCE: I'm Wayne,
+and my question
+
+977
+00:42:04,670 --> 00:42:08,020
+is, is breaking a hash function
+literally just guess and check,
+
+978
+00:42:08,020 --> 00:42:10,118
+or is there more
+of a method to it?
+
+979
+00:42:10,118 --> 00:42:10,910
+TADGE DRYJA: So no.
+
+980
+00:42:10,910 --> 00:42:16,490
+If you say, hey, I
+found a collision
+
+981
+00:42:16,490 --> 00:42:19,700
+by doing two to
+the 128 attempts.
+
+982
+00:42:19,700 --> 00:42:21,980
+One, nobody's done two
+to the 128 attempts.
+
+983
+00:42:21,980 --> 00:42:25,162
+That's still seen as like
+beyond technology today.
+
+984
+00:42:25,162 --> 00:42:27,620
+But if that's how you break
+the function, that's not really
+
+985
+00:42:27,620 --> 00:42:29,995
+considered a break because
+that's sort of the definition,
+
+986
+00:42:29,995 --> 00:42:33,260
+is yeah, well, we know
+this is 256 bits long.
+
+987
+00:42:33,260 --> 00:42:36,950
+So to find a preimage, if you
+do two to the 256 attempts,
+
+988
+00:42:36,950 --> 00:42:37,700
+you'll find it.
+
+989
+00:42:37,700 --> 00:42:39,170
+So that's not
+considered a break.
+
+990
+00:42:39,170 --> 00:42:43,310
+A break is considered, hey,
+I found a preimage in two
+
+991
+00:42:43,310 --> 00:42:45,560
+to the 240 attempts.
+
+992
+00:42:45,560 --> 00:42:49,040
+Or I have a proof
+that you will be
+
+993
+00:42:49,040 --> 00:42:51,950
+able to find a preimage in
+two to the 240 attempts,
+
+994
+00:42:51,950 --> 00:42:53,150
+and here's how to do it.
+
+995
+00:42:53,150 --> 00:42:55,070
+And that's considered a break.
+
+996
+00:42:55,070 --> 00:42:56,210
+It's still impractical.
+
+997
+00:42:56,210 --> 00:42:58,580
+Two to the 240's still
+impossible in today's
+
+998
+00:42:58,580 --> 00:43:00,020
+technology.
+
+999
+00:43:00,020 --> 00:43:01,985
+But if you had a paper
+and people looked at it,
+
+1000
+00:43:01,985 --> 00:43:04,610
+like, oh, yeah, that would work,
+you wouldn't be able to do it.
+
+1001
+00:43:04,610 --> 00:43:07,190
+But that's still
+considered broken.
+
+1002
+00:43:07,190 --> 00:43:13,480
+And so something like
+MD5, MD5 output size
+
+1003
+00:43:13,480 --> 00:43:15,810
+was 16 bytes or 128 bits.
+
+1004
+00:43:15,810 --> 00:43:19,790
+So collisions, even
+if it were strong,
+
+1005
+00:43:19,790 --> 00:43:22,370
+it would still be
+too short today
+
+1006
+00:43:22,370 --> 00:43:26,390
+that collisions would be able
+to be found in two to the 64
+
+1007
+00:43:26,390 --> 00:43:29,540
+iterations, which is doable
+on today's computers.
+
+1008
+00:43:29,540 --> 00:43:33,230
+If you run a bunch of stuff on
+AWS, you can do two to the 64
+
+1009
+00:43:33,230 --> 00:43:35,840
+in a couple of days.
+
+1010
+00:43:35,840 --> 00:43:37,700
+But that's the
+different definitions
+
+1011
+00:43:37,700 --> 00:43:40,690
+of breaking the function.
+
+1012
+00:43:40,690 --> 00:43:41,900
+Sort of fun.
+
+1013
+00:43:41,900 --> 00:43:44,120
+Ethan Hellman,
+who's at BU and we
+
+1014
+00:43:44,120 --> 00:43:49,070
+work with, he-- and we all broke
+the IOTA wrote their own hash
+
+1015
+00:43:49,070 --> 00:43:51,050
+function, which is like
+some cryptocurrency.
+
+1016
+00:43:51,050 --> 00:43:52,980
+And we found collisions in it.
+
+1017
+00:43:52,980 --> 00:43:55,180
+And it was kind of fun.
+
+1018
+00:43:55,180 --> 00:43:57,072
+But yeah, it was weird.
+
+1019
+00:43:57,072 --> 00:43:58,280
+It wasn't like number theory.
+
+1020
+00:43:58,280 --> 00:44:00,650
+It was just like, oh, well,
+I wrote this Python script
+
+1021
+00:44:00,650 --> 00:44:03,740
+and we have this go script,
+and we tried this thing
+
+1022
+00:44:03,740 --> 00:44:05,153
+and we got a collision.
+
+1023
+00:44:05,153 --> 00:44:06,070
+So it was kind of fun.
+
+1024
+00:44:06,070 --> 00:44:07,400
+So usages.
+
+1025
+00:44:07,400 --> 00:44:10,070
+What do you use
+these hashes for?
+
+1026
+00:44:10,070 --> 00:44:12,230
+There's lots of cool things
+you can use them for.
+
+1027
+00:44:12,230 --> 00:44:14,870
+use them sort of as
+names or references,
+
+1028
+00:44:14,870 --> 00:44:19,850
+where instead of naming
+a file, you can just
+
+1029
+00:44:19,850 --> 00:44:21,620
+take the hash of a file.
+
+1030
+00:44:21,620 --> 00:44:27,770
+And that is a good, compact
+representation so you can point
+
+1031
+00:44:27,770 --> 00:44:29,450
+to what you're talking about .
+
+1032
+00:44:29,450 --> 00:44:32,660
+So the hash of a file is
+a unique representation.
+
+1033
+00:44:32,660 --> 00:44:35,360
+And if you change
+any bit in that file,
+
+1034
+00:44:35,360 --> 00:44:36,770
+the hash will change.
+
+1035
+00:44:36,770 --> 00:44:41,180
+And so you know that, OK, here's
+this way to point to a file.
+
+1036
+00:44:41,180 --> 00:44:43,520
+You can also use it as sort
+of a reference or pointer
+
+1037
+00:44:43,520 --> 00:44:46,320
+in different algorithms.
+
+1038
+00:44:46,320 --> 00:44:50,420
+So you can say, anything
+you're using pointers for,
+
+1039
+00:44:50,420 --> 00:44:53,760
+linked lists or maps and
+stuff like that, you can say,
+
+1040
+00:44:53,760 --> 00:44:56,900
+well, I'm going to use
+a hash as a pointer
+
+1041
+00:44:56,900 --> 00:45:00,540
+and then be able to sort
+through it that way.
+
+1042
+00:45:00,540 --> 00:45:05,690
+So anytime you think of pointers
+and graph theory and stuff
+
+1043
+00:45:05,690 --> 00:45:08,330
+like that in computer
+science, think, well,
+
+1044
+00:45:08,330 --> 00:45:11,170
+could I use a hash function
+here instead of just
+
+1045
+00:45:11,170 --> 00:45:12,740
+like regular memory pointer?
+
+1046
+00:45:12,740 --> 00:45:14,390
+And in many cases, you can.
+
+1047
+00:45:14,390 --> 00:45:15,710
+In some cases, you can't.
+
+1048
+00:45:15,710 --> 00:45:17,920
+So you can't have cycles.
+
+1049
+00:45:17,920 --> 00:45:20,270
+So the idea is you
+can't find preimages,
+
+1050
+00:45:20,270 --> 00:45:22,340
+you won't be able to find a--
+
+1051
+00:45:22,340 --> 00:45:26,930
+whereas you could make a cycle
+of pointers in a computer,
+
+1052
+00:45:26,930 --> 00:45:28,595
+where A points to
+B, B points to C,
+
+1053
+00:45:28,595 --> 00:45:31,460
+C points back to
+A. You shouldn't
+
+1054
+00:45:31,460 --> 00:45:34,010
+be able to produce that
+with hash functions
+
+1055
+00:45:34,010 --> 00:45:37,130
+because having that cycle
+means, OK, well, somehow you
+
+1056
+00:45:37,130 --> 00:45:38,330
+found this preimage.
+
+1057
+00:45:41,230 --> 00:45:43,350
+But in many cases,
+you can do this.
+
+1058
+00:45:43,350 --> 00:45:46,290
+And another way to look at it
+is the hash is a commitment.
+
+1059
+00:45:46,290 --> 00:45:48,960
+You can say, well, I'm not
+going to tell you what x is,
+
+1060
+00:45:48,960 --> 00:45:53,400
+but I'll tell you what y is,
+and I can reveal x later.
+
+1061
+00:45:53,400 --> 00:45:55,590
+And then, since
+everyone remembers y,
+
+1062
+00:45:55,590 --> 00:45:59,042
+they can be sure that yeah,
+he's revealing the right thing.
+
+1063
+00:45:59,042 --> 00:46:00,750
+There are no collisions
+in this function,
+
+1064
+00:46:00,750 --> 00:46:02,310
+so we can be sure,
+if we're presented
+
+1065
+00:46:02,310 --> 00:46:06,680
+with x, that this was the x
+that was committed to yesterday.
+
+1066
+00:46:06,680 --> 00:46:11,280
+So I'll give a little example
+of that, of commit and reveal.
+
+1067
+00:46:11,280 --> 00:46:13,640
+So you can commit to some
+kind of secret or something
+
+1068
+00:46:13,640 --> 00:46:15,910
+you want to reveal later
+and reveal the preimage.
+
+1069
+00:46:15,910 --> 00:46:18,260
+So here's my commitment.
+
+1070
+00:46:18,260 --> 00:46:21,950
+This is an actual hash, Sha-256.
+
+1071
+00:46:21,950 --> 00:46:23,780
+I just made it on my computer.
+
+1072
+00:46:23,780 --> 00:46:25,220
+And there is a string.
+
+1073
+00:46:25,220 --> 00:46:28,550
+There's an Ascii string
+that maps into this,
+
+1074
+00:46:28,550 --> 00:46:31,490
+and it is a prediction
+about the weather,
+
+1075
+00:46:31,490 --> 00:46:32,510
+but that's all I'll say.
+
+1076
+00:46:32,510 --> 00:46:35,330
+And given that information
+and given this hash,
+
+1077
+00:46:35,330 --> 00:46:38,060
+you probably can't
+find my prediction.
+
+1078
+00:46:38,060 --> 00:46:40,610
+You can try to try all these
+different Ascii strings
+
+1079
+00:46:40,610 --> 00:46:44,930
+about the weather today,
+but I'll reveal it.
+
+1080
+00:46:44,930 --> 00:46:47,550
+So I think it won't
+snow Wednesday.
+
+1081
+00:46:47,550 --> 00:46:49,370
+But I think it
+actually-- anyway,
+
+1082
+00:46:49,370 --> 00:46:50,630
+and then I put this number in.
+
+1083
+00:46:50,630 --> 00:46:53,900
+And so if you put this in
+your computer in Linux--
+
+1084
+00:46:53,900 --> 00:46:56,450
+I think in Mac it's a
+slightly different command.
+
+1085
+00:46:56,450 --> 00:46:59,993
+It's like Sha-2 or something.
+
+1086
+00:46:59,993 --> 00:47:01,910
+But in Linux, this will
+work, and you can say,
+
+1087
+00:47:01,910 --> 00:47:03,860
+I think it won't snow Wednesday.
+
+1088
+00:47:03,860 --> 00:47:06,860
+And then I put some
+random numbers here
+
+1089
+00:47:06,860 --> 00:47:10,100
+because if I had committed
+to just the phrase,
+
+1090
+00:47:10,100 --> 00:47:12,380
+I think it won't
+snow Wednesday, you
+
+1091
+00:47:12,380 --> 00:47:14,330
+might have been
+able to guess that.
+
+1092
+00:47:14,330 --> 00:47:16,580
+You could say, well, he said
+it was about the weather.
+
+1093
+00:47:16,580 --> 00:47:19,760
+I'm going to take
+all sorts of millions
+
+1094
+00:47:19,760 --> 00:47:21,770
+of different strings
+related to days
+
+1095
+00:47:21,770 --> 00:47:23,725
+and weather and
+common English words,
+
+1096
+00:47:23,725 --> 00:47:25,100
+and I'm going to
+try hashing them
+
+1097
+00:47:25,100 --> 00:47:26,720
+and see if I find a collision.
+
+1098
+00:47:26,720 --> 00:47:28,340
+And you might be able to.
+
+1099
+00:47:28,340 --> 00:47:30,920
+But I added this four
+bytes of randomness
+
+1100
+00:47:30,920 --> 00:47:33,390
+at the end to make
+that difficult.
+
+1101
+00:47:33,390 --> 00:47:35,600
+It doesn't really
+contribute to my commitment.
+
+1102
+00:47:35,600 --> 00:47:38,480
+And you know this doesn't
+really mean anything.
+
+1103
+00:47:38,480 --> 00:47:43,610
+But it makes it harder to
+guess what my input was
+
+1104
+00:47:43,610 --> 00:47:45,410
+because I've already
+revealed that it's not
+
+1105
+00:47:45,410 --> 00:47:46,910
+a fully random input.
+
+1106
+00:47:46,910 --> 00:47:48,920
+So you might be able
+to guess things.
+
+1107
+00:47:48,920 --> 00:47:50,810
+So I could say, hey,
+I'm going to make
+
+1108
+00:47:50,810 --> 00:47:55,160
+a prediction about the
+weather, commit to it,
+
+1109
+00:47:55,160 --> 00:47:57,260
+and then reveal my
+prediction tomorrow.
+
+1110
+00:47:57,260 --> 00:47:59,990
+And we'll see if I was right.
+
+1111
+00:47:59,990 --> 00:48:03,747
+This can be useful
+in the case where--
+
+1112
+00:48:03,747 --> 00:48:05,330
+not the weather, but
+in other things--
+
+1113
+00:48:05,330 --> 00:48:10,130
+if knowing my prediction could
+influence the actual events,
+
+1114
+00:48:10,130 --> 00:48:13,422
+this would be a nice way to
+commit to what my prediction is
+
+1115
+00:48:13,422 --> 00:48:15,380
+without everyone knowing
+what the prediction is
+
+1116
+00:48:15,380 --> 00:48:17,260
+and then revealing
+it the next day.
+
+1117
+00:48:17,260 --> 00:48:17,760
+Yes.
+
+1118
+00:48:17,760 --> 00:48:19,927
+AUDIENCE: What are the use
+cases for double hashing,
+
+1119
+00:48:19,927 --> 00:48:22,000
+like where you would
+hash that hash?
+
+1120
+00:48:22,000 --> 00:48:24,840
+TADGE DRYJA: Hashing this again?
+
+1121
+00:48:24,840 --> 00:48:29,210
+Well, so in bitcoin they
+hash everything twice.
+
+1122
+00:48:33,330 --> 00:48:36,180
+Generally, you don't need to.
+
+1123
+00:48:36,180 --> 00:48:39,870
+There's no explanation for
+why they do that in bitcoin.
+
+1124
+00:48:39,870 --> 00:48:40,950
+You could.
+
+1125
+00:48:40,950 --> 00:48:42,780
+But there are things
+you can construct
+
+1126
+00:48:42,780 --> 00:48:45,908
+where you can, say,
+append some extra data
+
+1127
+00:48:45,908 --> 00:48:46,950
+and then hash this again.
+
+1128
+00:48:46,950 --> 00:48:51,180
+So you can say, here's my
+prediction for next week.
+
+1129
+00:48:51,180 --> 00:48:54,180
+And this is the hash,
+and then hash it again.
+
+1130
+00:48:54,180 --> 00:48:56,850
+So you can make
+chains of commitments
+
+1131
+00:48:56,850 --> 00:49:00,150
+and then reveal
+iterations of it.
+
+1132
+00:49:00,150 --> 00:49:01,530
+Actually, I had
+some slides where
+
+1133
+00:49:01,530 --> 00:49:05,280
+you can sort of hash
+something again and again,
+
+1134
+00:49:05,280 --> 00:49:09,190
+and start revealing
+it incrementally.
+
+1135
+00:49:09,190 --> 00:49:10,390
+That might be useful.
+
+1136
+00:49:10,390 --> 00:49:12,350
+I actually have stuff
+like that in software.
+
+1137
+00:49:12,350 --> 00:49:16,200
+I've written where you
+want to reveal secrets.
+
+1138
+00:49:16,200 --> 00:49:18,520
+But let's say I want
+to reveal secrets,
+
+1139
+00:49:18,520 --> 00:49:21,310
+but I don't want everyone to
+have to store all of them.
+
+1140
+00:49:21,310 --> 00:49:26,080
+So I can make a chain of
+hashes, commit to the last one,
+
+1141
+00:49:26,080 --> 00:49:28,870
+and then as I reveal
+successive preimages,
+
+1142
+00:49:28,870 --> 00:49:30,370
+you don't have to
+store all of them.
+
+1143
+00:49:30,370 --> 00:49:34,210
+You can just store
+the latest preimage,
+
+1144
+00:49:34,210 --> 00:49:37,150
+and you can reconstruct
+all the hashes from that.
+
+1145
+00:49:37,150 --> 00:49:38,850
+Yes.
+
+1146
+00:49:38,850 --> 00:49:40,308
+AUDIENCE: But is
+it computationally
+
+1147
+00:49:40,308 --> 00:49:42,730
+difficult to run double hashes?
+
+1148
+00:49:42,730 --> 00:49:44,110
+TADGE DRYJA: So to evaluate--
+
+1149
+00:49:44,110 --> 00:49:46,720
+if you want to try this,
+it's imperceptible.
+
+1150
+00:49:46,720 --> 00:49:50,798
+To perform one
+Sha-256 hash is, I
+
+1151
+00:49:50,798 --> 00:49:52,840
+don't know, a billionth
+of a second or something.
+
+1152
+00:49:52,840 --> 00:49:57,850
+You can generally do,
+like, 100 megabytes
+
+1153
+00:49:57,850 --> 00:50:01,455
+to a gigabyte of hash
+output on a regular CPU.
+
+1154
+00:50:01,455 --> 00:50:02,830
+NEHA NARULA: I
+think she's asking
+
+1155
+00:50:02,830 --> 00:50:05,830
+does it make it harder to find
+a preimage if you hash twice,
+
+1156
+00:50:05,830 --> 00:50:06,838
+and the answer's no.
+
+1157
+00:50:06,838 --> 00:50:08,380
+TADGE DRYJA: The
+answer's sort of no.
+
+1158
+00:50:08,380 --> 00:50:10,480
+It might.
+
+1159
+00:50:10,480 --> 00:50:14,410
+So I don't know, chained MD5,
+can you still find collisions?
+
+1160
+00:50:14,410 --> 00:50:15,640
+I'm not sure.
+
+1161
+00:50:15,640 --> 00:50:19,540
+But generally the thinking is,
+if the hash function is broken,
+
+1162
+00:50:19,540 --> 00:50:22,160
+and you can either find
+collisions or preimages, yeah,
+
+1163
+00:50:22,160 --> 00:50:25,450
+maybe it gets a little
+harder by iterating it.
+
+1164
+00:50:25,450 --> 00:50:27,040
+But you should
+just stop using it
+
+1165
+00:50:27,040 --> 00:50:29,640
+and use something that's secure.
+
+1166
+00:50:29,640 --> 00:50:32,937
+But yeah, it seems
+that finding preimages
+
+1167
+00:50:32,937 --> 00:50:35,020
+would be harder since it's
+essentially adding more
+
+1168
+00:50:35,020 --> 00:50:38,290
+rounds by hashing it twice.
+
+1169
+00:50:38,290 --> 00:50:41,290
+And then there are some attacks,
+so it's fairly out there.
+
+1170
+00:50:41,290 --> 00:50:43,870
+But it's called length
+extension attacks
+
+1171
+00:50:43,870 --> 00:50:46,150
+due to how hash functions
+are constructed,
+
+1172
+00:50:46,150 --> 00:50:48,280
+where if you do say, OK,
+I'm going to take the hash
+
+1173
+00:50:48,280 --> 00:50:50,410
+and then take the
+hash of that, you
+
+1174
+00:50:50,410 --> 00:50:54,970
+do prevent certain types of
+attacks that are fairly niche.
+
+1175
+00:50:54,970 --> 00:50:57,150
+But a length
+extinction attack in
+
+1176
+00:50:57,150 --> 00:51:00,640
+a Merkle-Damgard construction
+will be prevented by this.
+
+1177
+00:51:00,640 --> 00:51:01,838
+So generally, no.
+
+1178
+00:51:01,838 --> 00:51:03,380
+Generally, you don't
+need to do this.
+
+1179
+00:51:03,380 --> 00:51:05,170
+But there are different
+constructions where you're
+
+1180
+00:51:05,170 --> 00:51:06,610
+going to hash a bunch of times.
+
+1181
+00:51:06,610 --> 00:51:09,250
+I don't have the slides
+here but, like a Merkle tree
+
+1182
+00:51:09,250 --> 00:51:11,745
+is a binary tree of
+hashes where you're
+
+1183
+00:51:11,745 --> 00:51:13,120
+taking the hashes
+of these things
+
+1184
+00:51:13,120 --> 00:51:14,680
+and then hashing
+it again and again,
+
+1185
+00:51:14,680 --> 00:51:16,540
+and that's a really
+useful data structure.
+
+1186
+00:51:16,540 --> 00:51:20,950
+And a blockchain is
+essentially a chain of hashes.
+
+1187
+00:51:20,950 --> 00:51:24,460
+And that's what we'll
+talk about next week.
+
+1188
+00:51:24,460 --> 00:51:24,980
+But yeah.
+
+1189
+00:51:24,980 --> 00:51:25,480
+OK.
+
+1190
+00:51:25,480 --> 00:51:27,040
+So I'm going to go
+a little faster.
+
+1191
+00:51:27,040 --> 00:51:28,810
+So that's an interesting
+use case where
+
+1192
+00:51:28,810 --> 00:51:30,160
+you can commit and reveal.
+
+1193
+00:51:30,160 --> 00:51:34,950
+And yeah, adding randomness so
+you can't guess the preimage.
+
+1194
+00:51:34,950 --> 00:51:38,880
+This is called a hash-based
+message authentication
+
+1195
+00:51:38,880 --> 00:51:43,380
+code where part of it is
+secret and part of it is not.
+
+1196
+00:51:43,380 --> 00:51:47,640
+And this is getting towards a
+signature, where I've committed
+
+1197
+00:51:47,640 --> 00:51:49,350
+to something, and
+then I reveal it,
+
+1198
+00:51:49,350 --> 00:51:51,270
+and everyone knows,
+yeah, that must be what
+
+1199
+00:51:51,270 --> 00:51:53,220
+he committed to the day before.
+
+1200
+00:51:53,220 --> 00:51:57,760
+It's not quite a signature, but
+it's getting to that direction.
+
+1201
+00:51:57,760 --> 00:52:01,440
+And so next I'm going to
+talk about signatures.
+
+1202
+00:52:01,440 --> 00:52:03,510
+What is a signature?
+
+1203
+00:52:03,510 --> 00:52:07,410
+It's useful, and it's a
+message signed by someone.
+
+1204
+00:52:07,410 --> 00:52:09,370
+And so I'll define
+what a signature
+
+1205
+00:52:09,370 --> 00:52:12,753
+is through the
+functions that it uses.
+
+1206
+00:52:12,753 --> 00:52:14,170
+There's three
+functions will allow
+
+1207
+00:52:14,170 --> 00:52:16,480
+you to create a
+signature scheme,
+
+1208
+00:52:16,480 --> 00:52:20,050
+generate keys, sign, and verify.
+
+1209
+00:52:20,050 --> 00:52:22,060
+And these different things.
+
+1210
+00:52:22,060 --> 00:52:26,230
+Generate keys, you make a
+secret key and a public key.
+
+1211
+00:52:26,230 --> 00:52:28,720
+And so the idea is there's
+some public key which is
+
+1212
+00:52:28,720 --> 00:52:33,160
+your identity , and there's
+some secret key which you only
+
+1213
+00:52:33,160 --> 00:52:33,700
+control.
+
+1214
+00:52:33,700 --> 00:52:36,670
+And you use that to
+prove your identity
+
+1215
+00:52:36,670 --> 00:52:40,480
+and prove that these
+messages are signed by you.
+
+1216
+00:52:40,480 --> 00:52:43,210
+So yeah, you
+generate a key pair.
+
+1217
+00:52:43,210 --> 00:52:46,960
+The holder of the secret
+key can sign a message.
+
+1218
+00:52:46,960 --> 00:52:49,930
+And then anyone
+possessing a public key
+
+1219
+00:52:49,930 --> 00:52:53,230
+can verify a message
+signature pair.
+
+1220
+00:52:53,230 --> 00:52:57,500
+So I'll go into detail
+on these three functions.
+
+1221
+00:52:57,500 --> 00:52:58,930
+And this applies generally.
+
+1222
+00:52:58,930 --> 00:53:03,160
+So I'm going to talk about a
+hash-based signature in detail,
+
+1223
+00:53:03,160 --> 00:53:05,980
+but there are many
+different signature schemes.
+
+1224
+00:53:05,980 --> 00:53:11,860
+DSA, ElGamal, RSA signatures,
+elliptic curve signatures.
+
+1225
+00:53:11,860 --> 00:53:16,120
+There's tons of different
+cool math systems that
+
+1226
+00:53:16,120 --> 00:53:19,450
+allow these kinds of functions.
+
+1227
+00:53:19,450 --> 00:53:20,950
+And I'll talk
+about in some ways,
+
+1228
+00:53:20,950 --> 00:53:23,445
+this is one of
+the simplest ones.
+
+1229
+00:53:23,445 --> 00:53:25,070
+So yeah, there's
+these three functions.
+
+1230
+00:53:25,070 --> 00:53:26,690
+The first one is generate keys.
+
+1231
+00:53:26,690 --> 00:53:29,860
+And it returns a private
+key public key pair.
+
+1232
+00:53:29,860 --> 00:53:32,500
+And it generally doesn't
+take any arguments,
+
+1233
+00:53:32,500 --> 00:53:34,030
+but it takes in randomness.
+
+1234
+00:53:34,030 --> 00:53:35,020
+You need to flip coins.
+
+1235
+00:53:35,020 --> 00:53:38,200
+You need to find random
+one and zero bits.
+
+1236
+00:53:38,200 --> 00:53:40,300
+And it has to be long
+enough that no one else can
+
+1237
+00:53:40,300 --> 00:53:42,040
+guess what your private key is.
+
+1238
+00:53:44,737 --> 00:53:46,320
+So you have a private
+key, public key.
+
+1239
+00:53:46,320 --> 00:53:47,220
+Public key is public.
+
+1240
+00:53:47,220 --> 00:53:48,080
+You tell everyone.
+
+1241
+00:53:48,080 --> 00:53:50,868
+Private key is more secret key.
+
+1242
+00:53:50,868 --> 00:53:53,160
+Actually, I think in the
+code, I always say secret key.
+
+1243
+00:53:53,160 --> 00:53:55,290
+It's usually better to say
+secret key because at least it
+
+1244
+00:53:55,290 --> 00:53:56,707
+starts with a
+letter that's not p.
+
+1245
+00:53:59,200 --> 00:53:59,700
+OK.
+
+1246
+00:53:59,700 --> 00:54:01,440
+And then the signing
+function, where
+
+1247
+00:54:01,440 --> 00:54:03,360
+you take your secret
+key and your message,
+
+1248
+00:54:03,360 --> 00:54:08,160
+and it signs a message
+and returns a signature.
+
+1249
+00:54:08,160 --> 00:54:10,890
+All these things are just
+strings of ones and zeros.
+
+1250
+00:54:10,890 --> 00:54:12,720
+It's just a bunch of bytes.
+
+1251
+00:54:12,720 --> 00:54:15,780
+Public key, a private key,
+a signature, a message.
+
+1252
+00:54:15,780 --> 00:54:17,950
+These are all just bytes.
+
+1253
+00:54:17,950 --> 00:54:20,780
+And then the verify function,
+which is the most complex.
+
+1254
+00:54:20,780 --> 00:54:24,550
+A verify function takes a
+public key that you've seen,
+
+1255
+00:54:24,550 --> 00:54:26,920
+a message, and a signature.
+
+1256
+00:54:26,920 --> 00:54:31,000
+And it returns a Boolean
+whether this was valid or not.
+
+1257
+00:54:31,000 --> 00:54:32,455
+So it returns a single bit.
+
+1258
+00:54:32,455 --> 00:54:34,330
+If it's zero, it says,
+yeah, these two things
+
+1259
+00:54:34,330 --> 00:54:36,820
+don't match up.
+
+1260
+00:54:36,820 --> 00:54:39,300
+Maybe the message just
+changed, or maybe the signature
+
+1261
+00:54:39,300 --> 00:54:41,550
+has changed, or maybe it's
+from a different public key
+
+1262
+00:54:41,550 --> 00:54:42,100
+or something.
+
+1263
+00:54:42,100 --> 00:54:44,830
+But if all three of
+these are correct,
+
+1264
+00:54:44,830 --> 00:54:47,780
+and the signing function
+was the private key--
+
+1265
+00:54:47,780 --> 00:54:50,050
+the secret key associated
+with this public key--
+
+1266
+00:54:50,050 --> 00:54:52,860
+was signed to this message
+and produce this signature,
+
+1267
+00:54:52,860 --> 00:54:55,810
+then it will return true.
+
+1268
+00:54:55,810 --> 00:54:58,120
+And so you get into
+the math properties
+
+1269
+00:54:58,120 --> 00:55:01,090
+of what does it mean
+to forge a signature,
+
+1270
+00:55:01,090 --> 00:55:04,480
+and can they be forgeable
+computationally?
+
+1271
+00:55:04,480 --> 00:55:07,330
+Eventually a lot of these
+things, since it's bits,
+
+1272
+00:55:07,330 --> 00:55:09,190
+you could eventually
+guess the forgery.
+
+1273
+00:55:09,190 --> 00:55:12,780
+But maybe that takes two to
+the 256 attempts or something.
+
+1274
+00:55:12,780 --> 00:55:13,280
+OK.
+
+1275
+00:55:13,280 --> 00:55:17,108
+So any questions about the
+basic structure of what
+
+1276
+00:55:17,108 --> 00:55:18,400
+constitutes a signature scheme?
+
+1277
+00:55:21,430 --> 00:55:22,780
+Mostly make sense?
+
+1278
+00:55:22,780 --> 00:55:25,480
+And you can see
+how this is useful.
+
+1279
+00:55:25,480 --> 00:55:27,730
+You can publish a public
+key and say, hey, I'm Tadge.
+
+1280
+00:55:27,730 --> 00:55:28,840
+This is my public key.
+
+1281
+00:55:28,840 --> 00:55:33,630
+And in fact, on my business
+card, I have a RSA public key.
+
+1282
+00:55:33,630 --> 00:55:36,477
+And so if people get my business
+card and then I sign a message
+
+1283
+00:55:36,477 --> 00:55:38,560
+and email it to them, they
+could be sure that, oh,
+
+1284
+00:55:38,560 --> 00:55:40,660
+this is probably the same guy.
+
+1285
+00:55:40,660 --> 00:55:42,440
+Nobody ever cares.
+
+1286
+00:55:42,440 --> 00:55:49,810
+But it's useful for the
+stuff we were talking about
+
+1287
+00:55:49,810 --> 00:55:53,740
+before with Chaumian cash, where
+Alice needs to authenticate
+
+1288
+00:55:53,740 --> 00:55:56,290
+to the bank, and one way to
+do it is to sign a message
+
+1289
+00:55:56,290 --> 00:55:59,590
+and say, hey, I'm
+Alice, give me a coin.
+
+1290
+00:55:59,590 --> 00:56:03,070
+And then Alice can sign a
+message to Bob and so on.
+
+1291
+00:56:03,070 --> 00:56:05,620
+So this is really useful as a
+basic building block for all
+
+1292
+00:56:05,620 --> 00:56:08,090
+these kinds of messages.
+
+1293
+00:56:08,090 --> 00:56:11,710
+So I'll talk in
+the last 14 minutes
+
+1294
+00:56:11,710 --> 00:56:13,600
+about signatures from hashes.
+
+1295
+00:56:13,600 --> 00:56:14,440
+This is doable.
+
+1296
+00:56:14,440 --> 00:56:18,550
+Using just hash functions, you
+can construct a signatures key.
+
+1297
+00:56:18,550 --> 00:56:21,760
+And in fact, that's
+the first problem set.
+
+1298
+00:56:21,760 --> 00:56:25,390
+And you implement a signature
+system using only hashes.
+
+1299
+00:56:25,390 --> 00:56:27,700
+And the hash function is
+already defined for you.
+
+1300
+00:56:27,700 --> 00:56:28,990
+It's in the standard library.
+
+1301
+00:56:28,990 --> 00:56:32,000
+It's just Sha-256, the
+same thing bitcoin uses.
+
+1302
+00:56:32,000 --> 00:56:33,850
+And this is called
+Lamport signatures.
+
+1303
+00:56:33,850 --> 00:56:37,090
+Leslie Lamport wrote
+about this late '70s.
+
+1304
+00:56:37,090 --> 00:56:39,850
+I forget exactly when
+the paper came out.
+
+1305
+00:56:39,850 --> 00:56:43,420
+But this was one of the
+earliest cryptographic signature
+
+1306
+00:56:43,420 --> 00:56:45,260
+schemes.
+
+1307
+00:56:45,260 --> 00:56:47,150
+And it's kind of cool.
+
+1308
+00:56:47,150 --> 00:56:51,280
+And another fun thing is
+it's quantum resistant.
+
+1309
+00:56:51,280 --> 00:56:53,410
+So if you know about
+quantum computers,
+
+1310
+00:56:53,410 --> 00:56:55,960
+quantum computers kind
+of ruin all the fun
+
+1311
+00:56:55,960 --> 00:56:57,880
+in terms of cryptography.
+
+1312
+00:56:57,880 --> 00:57:00,335
+All the cool things we can do
+with cryptography-- not all,
+
+1313
+00:57:00,335 --> 00:57:01,960
+but most of them get
+ruined by quantum.
+
+1314
+00:57:01,960 --> 00:57:04,960
+Computers but hash
+functions are quite
+
+1315
+00:57:04,960 --> 00:57:07,720
+resistant to quantum
+computers because they're not
+
+1316
+00:57:07,720 --> 00:57:08,715
+based on any fun math.
+
+1317
+00:57:08,715 --> 00:57:10,090
+They're based on
+this black magic
+
+1318
+00:57:10,090 --> 00:57:14,740
+of just XORing and
+shifting numbers around.
+
+1319
+00:57:14,740 --> 00:57:18,495
+That's a huge
+oversimplification.
+
+1320
+00:57:18,495 --> 00:57:19,870
+But yeah, so those
+hash functions
+
+1321
+00:57:19,870 --> 00:57:21,590
+are generally seen to
+be quantum-resistance.
+
+1322
+00:57:21,590 --> 00:57:23,230
+So if you have a
+signature scheme that
+
+1323
+00:57:23,230 --> 00:57:25,120
+only uses hash
+functions, well, it still
+
+1324
+00:57:25,120 --> 00:57:27,238
+works, even if someone
+invents a quantum computer
+
+1325
+00:57:27,238 --> 00:57:28,780
+and can break all
+these other things,
+
+1326
+00:57:28,780 --> 00:57:31,690
+like RSA and elliptic curves.
+
+1327
+00:57:31,690 --> 00:57:33,250
+So there's actually
+renewed interest
+
+1328
+00:57:33,250 --> 00:57:36,200
+in these kinds of
+systems recently.
+
+1329
+00:57:36,200 --> 00:57:36,700
+OK.
+
+1330
+00:57:36,700 --> 00:57:41,570
+So how do you make a signature
+scene with just hash functions?
+
+1331
+00:57:41,570 --> 00:57:43,960
+So how do you generate
+a key, in this case?
+
+1332
+00:57:43,960 --> 00:57:47,740
+So a public key and a private
+key you want to generate.
+
+1333
+00:57:47,740 --> 00:57:49,390
+So first we generate
+our private key.
+
+1334
+00:57:49,390 --> 00:57:55,910
+Now these squares
+are 32 bytes each,
+
+1335
+00:57:55,910 --> 00:57:59,130
+and you generate 256
+of them on this row,
+
+1336
+00:57:59,130 --> 00:58:00,990
+256 of them on that row.
+
+1337
+00:58:00,990 --> 00:58:08,220
+So you're generating 256 times
+two, or 512 32-byte blocks.
+
+1338
+00:58:08,220 --> 00:58:11,550
+And these blocks are each
+256 bits or 32 bytes.
+
+1339
+00:58:11,550 --> 00:58:13,890
+So in total, that's what, 8K?
+
+1340
+00:58:13,890 --> 00:58:15,480
+Eight kilobytes, I think.
+
+1341
+00:58:15,480 --> 00:58:16,400
+Pretty big.
+
+1342
+00:58:16,400 --> 00:58:18,810
+But anyway, you're saying,
+OK, here's my private key.
+
+1343
+00:58:18,810 --> 00:58:20,310
+It's all completely random.
+
+1344
+00:58:20,310 --> 00:58:24,060
+I just take slash dev
+slash urandom or whatever,
+
+1345
+00:58:24,060 --> 00:58:29,610
+just flip coins 8,000 times,
+or however many this is total,
+
+1346
+00:58:29,610 --> 00:58:31,320
+and generate all
+these different blocks
+
+1347
+00:58:31,320 --> 00:58:34,460
+and store them on my hard
+drive and keep it secret.
+
+1348
+00:58:34,460 --> 00:58:37,150
+Then I want to generate
+the public key.
+
+1349
+00:58:37,150 --> 00:58:39,810
+So for each of these
+32-byte blocks,
+
+1350
+00:58:39,810 --> 00:58:42,290
+I take the hash of it,
+which will also be 32 bytes.
+
+1351
+00:58:45,570 --> 00:58:52,020
+So there's now 512 hashes, 256
+on this row, 256 on this row.
+
+1352
+00:58:52,020 --> 00:58:55,740
+The green will be my public key.
+
+1353
+00:58:55,740 --> 00:58:58,410
+And the gray one
+is my secret key.
+
+1354
+00:58:58,410 --> 00:58:59,910
+So they all look the same.
+
+1355
+00:58:59,910 --> 00:59:03,000
+They all look like just a
+bunch of random ones and zeros.
+
+1356
+00:59:03,000 --> 00:59:06,300
+The gray ones actually are a
+bunch of random ones and zeros.
+
+1357
+00:59:06,300 --> 00:59:08,700
+The green ones are
+actually hashes, though,
+
+1358
+00:59:08,700 --> 00:59:10,260
+of all the gray ones.
+
+1359
+00:59:10,260 --> 00:59:12,830
+And I publish the green ones.
+
+1360
+00:59:12,830 --> 00:59:15,270
+Just to serialize it,
+I just put in a row.
+
+1361
+00:59:15,270 --> 00:59:18,210
+I say, OK, here's this first
+32-bit, second, third, fourth,
+
+1362
+00:59:18,210 --> 00:59:22,660
+and then go to this row or
+whatever scheme you want.
+
+1363
+00:59:22,660 --> 00:59:24,190
+So how is this useful?
+
+1364
+00:59:24,190 --> 00:59:27,670
+Now everyone knows
+a bunch of hashes,
+
+1365
+00:59:27,670 --> 00:59:31,480
+and I know a bunch
+of the preimages.
+
+1366
+00:59:31,480 --> 00:59:34,120
+So now it's sort of this
+commit reveal thing, where
+
+1367
+00:59:34,120 --> 00:59:38,590
+if I reveal to you this,
+you can verify that, oh,
+
+1368
+00:59:38,590 --> 00:59:43,450
+yeah, that mapped to
+this one later on.
+
+1369
+00:59:43,450 --> 00:59:46,910
+Any questions so far
+about this process?
+
+1370
+00:59:46,910 --> 00:59:49,550
+Seems sort of useless but
+fairly straightforward.
+
+1371
+00:59:49,550 --> 00:59:50,100
+OK.
+
+1372
+00:59:50,100 --> 00:59:51,390
+Then I want to sign.
+
+1373
+00:59:51,390 --> 00:59:54,830
+So first, to sign a
+message, I'm going
+
+1374
+00:59:54,830 --> 00:59:57,220
+to take the hash of
+the message to sign.
+
+1375
+00:59:57,220 --> 00:59:58,940
+And this is often done.
+
+1376
+00:59:58,940 --> 00:59:59,870
+It's done in bitcoin.
+
+1377
+00:59:59,870 --> 01:00:02,870
+It's done in most signature
+schemes, where I want
+
+1378
+01:00:02,870 --> 01:00:05,780
+a fixed length number to sign.
+
+1379
+01:00:05,780 --> 01:00:07,410
+It's annoying to
+have to say, well,
+
+1380
+01:00:07,410 --> 01:00:09,380
+what if I want to sign
+a megabyte long file,
+
+1381
+01:00:09,380 --> 01:00:13,145
+or what if I want to sign
+of 10-byte long string?
+
+1382
+01:00:13,145 --> 01:00:14,270
+You want to standardize it.
+
+1383
+01:00:14,270 --> 01:00:18,950
+So whatever I'm signing,
+it's always 256 bits long.
+
+1384
+01:00:18,950 --> 01:00:22,100
+So if I want to just sign
+the message hi, first
+
+1385
+01:00:22,100 --> 01:00:25,460
+I take the hash of the message
+hi, which in Sha-256, this
+
+1386
+01:00:25,460 --> 01:00:29,180
+is the hash of hi.
+
+1387
+01:00:29,180 --> 01:00:32,630
+And so I look at this
+as 256 bits, and I say,
+
+1388
+01:00:32,630 --> 01:00:35,510
+OK, I'm going to pick the
+private key blocks to reveal
+
+1389
+01:00:35,510 --> 01:00:37,740
+based on the bits here.
+
+1390
+01:00:37,740 --> 01:00:44,550
+So the first bit here is
+a one, because it's an 8.
+
+1391
+01:00:44,550 --> 01:00:46,380
+And so I'll reveal.
+
+1392
+01:00:46,380 --> 01:00:49,170
+And I indicated
+before that there's
+
+1393
+01:00:49,170 --> 01:00:52,080
+this zero row and this one row.
+
+1394
+01:00:52,080 --> 01:00:54,990
+And now what that means
+is, well, the first bit
+
+1395
+01:00:54,990 --> 01:00:57,520
+of my message to sign is a one.
+
+1396
+01:00:57,520 --> 01:01:00,750
+So I'm going to reveal
+this gray square.
+
+1397
+01:01:00,750 --> 01:01:03,970
+And the next bit, the
+next four bits, actually,
+
+1398
+01:01:03,970 --> 01:01:05,720
+since it's an eight,
+are going to be zero.
+
+1399
+01:01:05,720 --> 01:01:07,760
+So I'll reveal
+this and then I'll
+
+1400
+01:01:07,760 --> 01:01:11,030
+reveal this, this, and this.
+
+1401
+01:01:11,030 --> 01:01:12,090
+And I just made it up.
+
+1402
+01:01:12,090 --> 01:01:13,100
+But yeah.
+
+1403
+01:01:13,100 --> 01:01:18,650
+So for example, if I'm signing,
+and it starts with 01101110,
+
+1404
+01:01:18,650 --> 01:01:21,200
+I reveal this preimage, this
+preimage, this preimage,
+
+1405
+01:01:21,200 --> 01:01:23,060
+this preimage, these
+three, this one.
+
+1406
+01:01:23,060 --> 01:01:27,710
+And so I reveal preimages
+based on the bit representation
+
+1407
+01:01:27,710 --> 01:01:32,230
+of the message I'm
+trying to sign, and then
+
+1408
+01:01:32,230 --> 01:01:34,060
+give everyone these.
+
+1409
+01:01:34,060 --> 01:01:38,030
+So my signature will
+just be this sequence.
+
+1410
+01:01:38,030 --> 01:01:40,125
+I can go in row order here.
+
+1411
+01:01:40,125 --> 01:01:41,500
+Yeah, it's probably
+a lot easier.
+
+1412
+01:01:41,500 --> 01:01:42,340
+So I go in sequence.
+
+1413
+01:01:42,340 --> 01:01:44,997
+I say, OK, here's the first
+32 bytes of my signature.
+
+1414
+01:01:44,997 --> 01:01:47,080
+Here's the next, here's
+the next, here's the next.
+
+1415
+01:01:47,080 --> 01:01:51,970
+And so my signature ends
+up being 256 blocks long,
+
+1416
+01:01:51,970 --> 01:01:54,580
+each of which are 256 bits.
+
+1417
+01:01:54,580 --> 01:01:56,850
+So it's like 8K.
+
+1418
+01:01:56,850 --> 01:01:59,520
+The keys are 16K and
+this is 8K or something.
+
+1419
+01:01:59,520 --> 01:02:02,580
+Fairly big but totally
+doable on a computer today.
+
+1420
+01:02:02,580 --> 01:02:05,300
+Eight kilobytes is no big deal.
+
+1421
+01:02:05,300 --> 01:02:05,800
+OK.
+
+1422
+01:02:05,800 --> 01:02:10,500
+Now to verify,
+take the signature,
+
+1423
+01:02:10,500 --> 01:02:13,140
+hash each block
+of the signature,
+
+1424
+01:02:13,140 --> 01:02:16,290
+and see that it maps into
+that part of the public key.
+
+1425
+01:02:16,290 --> 01:02:18,327
+So the people who are
+verifying the signature,
+
+1426
+01:02:18,327 --> 01:02:19,410
+they have your public key.
+
+1427
+01:02:19,410 --> 01:02:21,450
+They have all the green squares.
+
+1428
+01:02:21,450 --> 01:02:23,730
+And now they have been
+given a signature, which
+
+1429
+01:02:23,730 --> 01:02:25,470
+is these gray squares,
+and they say, OK,
+
+1430
+01:02:25,470 --> 01:02:26,595
+well, let me hash this one.
+
+1431
+01:02:26,595 --> 01:02:29,338
+Oh, it maps to that,
+so it maps to a zero.
+
+1432
+01:02:29,338 --> 01:02:31,130
+Oh, this maps to a one,
+this maps to a one,
+
+1433
+01:02:31,130 --> 01:02:32,430
+this maps to a zero.
+
+1434
+01:02:32,430 --> 01:02:34,020
+And they can go
+through and say yeah,
+
+1435
+01:02:34,020 --> 01:02:38,513
+this is a signature
+on that message.
+
+1436
+01:02:38,513 --> 01:02:39,930
+In the case of
+Lamport signatures,
+
+1437
+01:02:39,930 --> 01:02:43,290
+you can actually determine
+what the message is just
+
+1438
+01:02:43,290 --> 01:02:46,932
+from the signature
+in the public key.
+
+1439
+01:02:46,932 --> 01:02:48,390
+If you're given
+this and you're not
+
+1440
+01:02:48,390 --> 01:02:51,690
+told whether it's a one or
+a zero, well, just compare.
+
+1441
+01:02:51,690 --> 01:02:54,420
+Hash it and compare to
+these two green ones.
+
+1442
+01:02:54,420 --> 01:02:57,270
+You'll be able to see.
+
+1443
+01:02:57,270 --> 01:03:01,840
+And that's a useful
+signature because no one
+
+1444
+01:03:01,840 --> 01:03:04,870
+can forge that
+because no one knows
+
+1445
+01:03:04,870 --> 01:03:06,760
+these preimages except
+for the person who
+
+1446
+01:03:06,760 --> 01:03:09,120
+holds the secret key.
+
+1447
+01:03:09,120 --> 01:03:12,180
+So given your public key,
+I can't forge a signature
+
+1448
+01:03:12,180 --> 01:03:13,560
+from you.
+
+1449
+01:03:13,560 --> 01:03:17,130
+Once the signature is issued,
+I also can't forge a signature.
+
+1450
+01:03:17,130 --> 01:03:21,510
+The only bit sequence I know
+is the one that you revealed.
+
+1451
+01:03:21,510 --> 01:03:24,270
+And so I know part
+of your private key.
+
+1452
+01:03:24,270 --> 01:03:25,650
+I know half of it.
+
+1453
+01:03:25,650 --> 01:03:31,170
+But that half only lets me sign
+the message you just signed.
+
+1454
+01:03:31,170 --> 01:03:34,110
+So I can't really do
+anything extra with this.
+
+1455
+01:03:34,110 --> 01:03:36,660
+So this is a usable
+signature scheme.
+
+1456
+01:03:39,480 --> 01:03:40,830
+I think I just showed it.
+
+1457
+01:03:40,830 --> 01:03:44,146
+But any downsides that you
+can think of with this?
+
+1458
+01:03:44,146 --> 01:03:45,505
+AUDIENCE: You can only sign one.
+
+1459
+01:03:45,505 --> 01:03:46,080
+TADGE DRYJA: Yeah,
+you can only sign one.
+
+1460
+01:03:46,080 --> 01:03:47,111
+Is that what you were--
+
+1461
+01:03:47,111 --> 01:03:49,028
+AUDIENCE: You could also
+send the same message
+
+1462
+01:03:49,028 --> 01:03:51,540
+on to someone else with
+different signatures.
+
+1463
+01:03:51,540 --> 01:03:54,350
+TADGE DRYJA: Yeah, but
+signatures are sort of public.
+
+1464
+01:03:54,350 --> 01:03:56,670
+So yes, you're
+saying that you can
+
+1465
+01:03:56,670 --> 01:04:00,690
+sign a message once and give
+it to a bunch of people.
+
+1466
+01:04:00,690 --> 01:04:02,880
+And that's sort of a
+feature, not a bug, I guess.
+
+1467
+01:04:02,880 --> 01:04:05,760
+There are different signature
+schemes where you want,
+
+1468
+01:04:05,760 --> 01:04:09,785
+I only want this signature
+to be valid to this person.
+
+1469
+01:04:09,785 --> 01:04:11,160
+There's different
+ways to do that
+
+1470
+01:04:11,160 --> 01:04:12,952
+with Diffie-Hellman
+key exchange and stuff.
+
+1471
+01:04:12,952 --> 01:04:15,770
+But the signature scheme
+we've talked about here
+
+1472
+01:04:15,770 --> 01:04:18,270
+with these three functions, the
+public key is really public,
+
+1473
+01:04:18,270 --> 01:04:19,740
+and anyone can verify.
+
+1474
+01:04:19,740 --> 01:04:21,810
+And that's something we want.
+
+1475
+01:04:21,810 --> 01:04:24,360
+If you don't want that,
+there's other ways to do it.
+
+1476
+01:04:24,360 --> 01:04:29,190
+But yeah, the big one is,
+wait, you can only sign once.
+
+1477
+01:04:29,190 --> 01:04:32,070
+Once you generate a key
+pair, your private key,
+
+1478
+01:04:32,070 --> 01:04:34,680
+your public key, and you tell
+everyone these green squares,
+
+1479
+01:04:34,680 --> 01:04:40,050
+if you're try to sign again,
+you will reveal more pieces
+
+1480
+01:04:40,050 --> 01:04:42,060
+of your private key.
+
+1481
+01:04:42,060 --> 01:04:43,850
+So if I sign two
+different messages,
+
+1482
+01:04:43,850 --> 01:04:45,960
+sometimes it's the same bit.
+
+1483
+01:04:45,960 --> 01:04:47,340
+Sometimes it's different bits.
+
+1484
+01:04:47,340 --> 01:04:51,220
+And now I start revealing
+more pieces of my private key.
+
+1485
+01:04:51,220 --> 01:04:53,430
+And now people can start
+to forge signatures
+
+1486
+01:04:53,430 --> 01:04:58,500
+because I can say, OK,
+well, the first bit,
+
+1487
+01:04:58,500 --> 01:05:00,660
+I can sign anything
+on the first bit.
+
+1488
+01:05:00,660 --> 01:05:04,980
+I'm still constrained
+here and here and here.
+
+1489
+01:05:04,980 --> 01:05:11,470
+But in several locations, I
+can sign whichever bit I want.
+
+1490
+01:05:11,470 --> 01:05:15,750
+And so the basic thing is,
+if there's one signature,
+
+1491
+01:05:15,750 --> 01:05:16,920
+I can't forge anything.
+
+1492
+01:05:16,920 --> 01:05:20,400
+If you give me two signatures,
+since it's generally random,
+
+1493
+01:05:20,400 --> 01:05:22,860
+on average, half of the
+bits of the signature
+
+1494
+01:05:22,860 --> 01:05:23,700
+will be constrained.
+
+1495
+01:05:23,700 --> 01:05:27,240
+So in this case, if it's 256
+bits long and you sign twice,
+
+1496
+01:05:27,240 --> 01:05:32,670
+I probably still can't forge
+anything because 128 bits,
+
+1497
+01:05:32,670 --> 01:05:34,510
+I have the freedom
+to pick either.
+
+1498
+01:05:34,510 --> 01:05:39,810
+And the other 128 bits, I'm
+stuck with the one or the zero
+
+1499
+01:05:39,810 --> 01:05:41,160
+and I don't get to choose.
+
+1500
+01:05:41,160 --> 01:05:45,060
+So that means most
+messages I want to sign,
+
+1501
+01:05:45,060 --> 01:05:50,100
+I won't be able to because if I
+tried two to the 128 attempts,
+
+1502
+01:05:50,100 --> 01:05:52,480
+I'll be able to find
+a forged signature.
+
+1503
+01:05:52,480 --> 01:05:53,550
+But that's a lot.
+
+1504
+01:05:53,550 --> 01:05:55,830
+And so maybe you can sign twice.
+
+1505
+01:05:55,830 --> 01:05:57,450
+But again, it's probabilistic.
+
+1506
+01:05:57,450 --> 01:06:00,390
+You might get unlucky
+and reveal quite a bit
+
+1507
+01:06:00,390 --> 01:06:05,010
+more than 128 bits,
+where you get both.
+
+1508
+01:06:05,010 --> 01:06:08,790
+But on average-- and then once
+you have three signatures, OK,
+
+1509
+01:06:08,790 --> 01:06:14,320
+now I've probably revealed
+3/4 of the locations
+
+1510
+01:06:14,320 --> 01:06:16,540
+you're going to have both
+the one and zero row.
+
+1511
+01:06:16,540 --> 01:06:18,250
+And you can start--
+and this starts
+
+1512
+01:06:18,250 --> 01:06:23,140
+to be practical
+because in this case,
+
+1513
+01:06:23,140 --> 01:06:27,280
+you'd need a 2 two the 64
+attempts to forge a signature.
+
+1514
+01:06:27,280 --> 01:06:31,250
+And that's doable on
+today's computers.
