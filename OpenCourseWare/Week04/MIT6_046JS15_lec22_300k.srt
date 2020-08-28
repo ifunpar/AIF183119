@@ -734,8 +734,8 @@ permutasi terbalik.
 
 155
 00:08:25,060 --> 00:08:27,660
-So clearly, this is a
-reversible operation.
+Jadi jelas saja, ini adalah
+opersai yang dapat dikembalikan.
 
 156
 00:08:27,660 --> 00:08:30,330
