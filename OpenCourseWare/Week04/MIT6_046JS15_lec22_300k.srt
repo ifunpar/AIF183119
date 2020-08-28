@@ -734,13 +734,13 @@ permutasi terbalik.
 
 155
 00:08:25,060 --> 00:08:27,660
-So clearly, this is a
-reversible operation.
+Jadi jelas saja, ini adalah
+opersai yang dapat dikembalikan.
 
 156
 00:08:27,660 --> 00:08:30,330
-But there are other operations
-that are reversible as well.
+Tetapi ada operasi-operasi lain
+yang dapat dikembalikan juga.
 
 157
 00:08:30,330 --> 00:08:35,840
