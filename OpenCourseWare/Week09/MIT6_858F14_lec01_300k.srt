@@ -723,60 +723,60 @@ berpikir tentang sistem yang aman.
 
 154
 00:06:04,550 --> 00:06:06,890
-So security, in
-general, is all about
+Jadi keamanan, secara
+umum, adalah tentang
 
 155
 00:06:06,890 --> 00:06:10,755
-achieving some goal when
-there is an adversary present.
+mencapai beberapa tujuan ketika
+ada musuh yang hadir.
 
 156
 00:06:13,410 --> 00:06:16,510
-So think of it as there's some
-bad guy out there that wants
+Jadi anggap saja seperti ada beberapa
+orang jahat di luar sana yang ingin
 
 157
 00:06:16,510 --> 00:06:18,520
-to make sure you don't succeed.
+meyakinkan bahwa Anda tidak berhasil.
 
 158
 00:06:18,520 --> 00:06:19,770
-They want to steal your files.
+Mereka ingin mencuri berkas Anda.
 
 159
 00:06:19,770 --> 00:06:22,450
-They want to delete your
-entire hard drive contents.
+Mereka ingin membuang keseluruhan
+isi dari hard drive Anda.
 
 160
 00:06:22,450 --> 00:06:24,710
-They want to make
-sure nothing works
+Mereka ingin memastikan bahwa
+tidak ada yang berhasil
 
 161
 00:06:24,710 --> 00:06:27,770
-and your phone doesn't connect,
-all these things, right?
+dan telepon Anda tidak tersambung,
+semua hal ini, benar kan?
 
 162
 00:06:27,770 --> 00:06:30,130
-And a secure system is
-one that can actually
+Dan sebuah sistem yang aman adalah
+sebuah sistem yang benar-benar dapat
 
 163
 00:06:30,130 --> 00:06:32,650
-do something, regardless
-of what the bad guy is
+melakukan sesuatu, terlepas dari
+apa yang orang jahat tersebut
 
 164
 00:06:32,650 --> 00:06:33,492
-trying to do to you.
+sedang coba lakukan terhadap Anda.
 
 165
 00:06:33,492 --> 00:06:35,950
-So it's kind of cool that we
-can actually potentially build
+Jadi cukup keren ketika kita sebenarnya
+berpotensi untuk membuat
 
 166
 00:06:35,950 --> 00:06:39,000
