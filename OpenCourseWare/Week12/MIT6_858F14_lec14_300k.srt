@@ -882,56 +882,56 @@ figure out whether we
 
 187
 00:08:35,880 --> 00:08:40,419
-can establish secure
-communication if you just know
+dapat membangun keamanan
+komunikasi jika anda mengetahui
 
 188
 00:08:40,419 --> 00:08:41,669
-some other party's public key.
+public key yang dimiliki pihak lain.
 
 189
 00:08:41,669 --> 00:08:43,710
-And then we'll
-see how we plug-in
+Dan kemudian kita akan
+melihat bagaimana kita memasang
 
 190
 00:08:43,710 --> 00:08:46,840
-a public key version of a
-KDC to authenticate parties
+sebuah versi public key dari sebuah
+KDC untuk mengotentikasi pihak
 
 191
 00:08:46,840 --> 00:08:50,080
-in this protocol.
+dalam protokol ini.
 
 192
 00:08:50,080 --> 00:08:54,194
-If you don't want
-to use a KDC, what
+Jika anda tidak mau
+menggunakan KDC, apa
 
 193
 00:08:54,194 --> 00:08:55,652
-you could do with
+yang bisa anda lakukan dengan
 public key crypto
 
 194
 00:08:55,652 --> 00:08:58,190
-is maybe you can somehow
-learn the public key
+adalah mungkin anda bisa
+pelajari public key tersebut
 
 195
 00:08:58,190 --> 00:08:59,440
-of the public key of the
-other value on a connector.
+dari public key dari
+nilai lain pada connector.
 
 196
 00:08:59,440 --> 00:09:01,690
-So in Kerberos, if I want
-to connect to a file server,
+Jadi di Kerberos, jika saya mau
+terhubung ke file server,
 
 197
 00:09:01,690 --> 00:09:04,330
-maybe I just know the
-file server's public key
+mungkin saya hanya mengetahui
+public key dari file server
 
 198
 00:09:04,330 --> 00:09:05,190
