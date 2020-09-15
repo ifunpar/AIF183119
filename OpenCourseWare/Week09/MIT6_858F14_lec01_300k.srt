@@ -790,7 +790,7 @@ musuh, penyerang,
 
 168
 00:06:41,400 --> 00:06:43,440
-apapun panggilan anda untuk mereka.
+apapun panggilan Anda untuk mereka.
 
 169
 00:06:43,440 --> 00:06:45,720
@@ -804,7 +804,7 @@ memudahkan kita dalam menyelesaikan tugas kita.
 171
 00:06:48,010 --> 00:06:53,430
 Dan cara umum untuk
-berpikir mengenai keamanan
+berpikir tentang keamanan
 
 172
 00:06:53,430 --> 00:06:55,880
@@ -813,12 +813,12 @@ menjadi tiga bagian.
 
 173
 00:06:55,880 --> 00:07:00,064
-Satu bagian secara kasar
+Secara kasar, satu bagian
 adalah kebijakan yang
 
 174
 00:07:00,064 --> 00:07:01,230
-ingin Anda terapkan pada sistem anda.
+ingin Anda terapkan pada sistem Anda.
 
 175
 00:07:01,230 --> 00:07:03,313
@@ -833,7 +833,7 @@ hanya saya yang seharusnya
 177
 00:07:05,430 --> 00:07:09,190
 dapat membaca
-file nilai untuk 6.858.
+berkas nilai untuk 6.858.
 
 178
 00:07:09,190 --> 00:07:11,330
@@ -855,7 +855,7 @@ dapat lakukan.
 
 182
 00:07:16,210 --> 00:07:18,466
-Dan kemudian,jika Anda 
+Dan kemudian, jika Anda 
 ingin berpikir
 
 183
@@ -865,17 +865,17 @@ yang mungkin Anda tuliskan,
 
 184
 00:07:20,340 --> 00:07:26,850
-yang khas berkaitan dengan
+kebijakan-kebijakan umum harus berkaitan dengan
 kerahasiaan data,
 
 185
 00:07:26,850 --> 00:07:31,040
-jadi file nilai hanya dapat
+jadi berkas nilai hanya dapat
 diakses oleh
 
 186
 00:07:31,040 --> 00:07:32,330
-staf kursus 6.858.
+staf dari kursus 6.858.
 
 187
 00:07:32,330 --> 00:07:33,890
@@ -885,12 +885,12 @@ kebijakan keamanan
 188
 00:07:33,890 --> 00:07:35,744
 memiliki hubungan 
-dengan integritas
+dengan integritas.
 
 189
 00:07:35,744 --> 00:07:37,160
 Sebagai contoh, hanya
-staff kursus
+staf kursus
 
 190
 00:07:37,160 --> 00:07:38,604
