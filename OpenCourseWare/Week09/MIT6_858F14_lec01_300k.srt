@@ -780,7 +780,7 @@ berpotensi untuk membuat
 
 166
 00:06:35,950 --> 00:06:39,000
-sistem yang tangguh
+sistem yang fleksibel
 dari seluruh jangkauan
 
 167
@@ -790,7 +790,7 @@ musuh, penyerang,
 
 168
 00:06:41,400 --> 00:06:43,440
-apapun panggilan yang Anda inginkan.
+apapun panggilan anda untuk mereka.
 
 169
 00:06:43,440 --> 00:06:45,720
@@ -799,36 +799,36 @@ sistem komputer yang
 
 170
 00:06:45,720 --> 00:06:48,010
-memudahkan kita menyelesaikan
-tugas kita.
+memudahkan kita dalam menyelesaikan tugas kita.
 
 171
 00:06:48,010 --> 00:06:53,430
-Dan secara umum untuk
-berpikir tentang keamanan
+Dan cara umum untuk
+berpikir mengenai keamanan
 
 172
 00:06:53,430 --> 00:06:55,880
-terbagi menjadi tiga bagian.
+dapat kita pecahkan
+menjadi tiga bagian.
 
 173
 00:06:55,880 --> 00:07:00,064
 Satu bagian secara kasar
-adalah kebijakan yang
+adalah aturan yang
 
 174
 00:07:00,064 --> 00:07:01,230
-Anda ingin sistem Anda terapkan.
+ingin anda terapkan pada sistem anda .
 
 175
 00:07:01,230 --> 00:07:03,313
-Ini kira-kira tujuan
-yang Anda ingin capai.
+Ini adalah tujuan 
+yang anda ingin capai.
 
 176
 00:07:03,313 --> 00:07:05,430
 Yah, mungkin,
-hanya Saya yang seharusnya
+hanya saya yang seharusnya
 
 177
 00:07:05,430 --> 00:07:09,190
@@ -847,20 +847,21 @@ dan sebagainya.
 180
 00:07:11,979 --> 00:07:14,270
 Tapi ada beberapa ketentuan
-tentang apa yang Saya ingin
+mengenai apa yang sistem saya 
 
 181
 00:07:14,270 --> 00:07:16,210
-sistem Saya dapat lakukan.
+dapat lakukan.
 
 182
 00:07:16,210 --> 00:07:18,466
-Dan lalu jika Anda ingin berpikir
+Dan kemudian,jika anda 
+ingin berpikir
 
 183
 00:07:18,466 --> 00:07:20,340
-tentang kebijakan seperti apa
-yang mungkin Anda tuliskan,
+tentang aturan seperti apa
+yang mungkin anda tuliskan,
 
 184
 00:07:20,340 --> 00:07:26,850
@@ -879,11 +880,12 @@ staf kursus 6.858.
 187
 00:07:32,330 --> 00:07:33,890
 Contoh lain dari
-kebijakann keamanan.
+aturan keamanan
 
 188
 00:07:33,890 --> 00:07:35,744
-berkaitan dengan integritas.
+memiliki hubungan 
+dengan integritas
 
 189
 00:07:35,744 --> 00:07:37,160
