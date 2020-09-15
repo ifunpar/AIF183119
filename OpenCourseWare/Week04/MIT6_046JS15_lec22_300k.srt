@@ -744,41 +744,41 @@ yang dapat dikembalikan juga.
 
 157
 00:08:30,330 --> 00:08:35,840
-Plus can be reversed
-by a negation.
+Tanda tambah dapat dibalik
+dengan negasi.
 
 158
 00:08:35,840 --> 00:08:39,580
-And exclusive OR is
-simply exclusive OR.
+Dan eksklusif OR
+hanyalah eksklusif OR.
 
 159
 00:08:39,580 --> 00:08:45,905
-Because if you do A exclusive
-OR B, then you get C.
+Karena jika Anda melakukan A 
+eksklusif OR B, maka Anda mendapatkan C.
 
 160
 00:08:45,905 --> 00:08:50,590
-And imagine if you did B
-again to that, you get A back.
+Dan bayangkan jika anda melakukan B
+lagi untuk itu, Anda mendapatkan kembali A.
 
 161
 00:08:50,590 --> 00:08:52,230
-That's what I mean by reversal.
+Itulah yang saya maksud dengan pembalikan.
 
 162
 00:08:52,230 --> 00:08:56,240
-Because you have, essentially,
-A exclusive OR A cancels out.
+Karena pada dasarnya Anda memiliki A
+eksklusif OR A dibatalkan.
 
 163
 00:08:56,240 --> 00:09:00,780
-And so it's something like a
-exclusive OR B exclusive OR B
+Jadi itu seperti sebuah eksklusif OR B
+eksklusif OR B
 
 164
 00:09:00,780 --> 00:09:04,330
-again would give you A.
+lagi akan memberikan A.
 
 165
 00:09:04,330 --> 00:09:09,110
