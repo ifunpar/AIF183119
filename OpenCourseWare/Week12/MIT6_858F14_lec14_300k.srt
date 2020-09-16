@@ -784,6 +784,7 @@ bahkan, juga,
 00:07:45,790 --> 00:07:48,100
 sepertinya anda harus pergi ke
 beberapa kantor akun
+
 167
 00:07:48,100 --> 00:07:49,050
 dan dapatkan sebuah akun.
