@@ -768,26 +768,25 @@ HADIRIN : [TIDAK TERDENGAR]
 
 163
 00:07:36,277 --> 00:07:38,110
-PROFESSOR: This is
-actually not so scalable.
+PROFESSOR: ini
+sebenernya tidak terlalu terukur.
 
 164
 00:07:40,815 --> 00:07:41,440
-Yeah, recovery.
+Yeah, perbaiki.
 
 165
 00:07:44,240 --> 00:07:45,790
-Maybe registration
-even, as well,
+Mungkin pendafataranya
+bahkan, juga,
 
 166
 00:07:45,790 --> 00:07:48,100
-like you have to go to
-some accounts office
-
+sepertinya anda harus pergi ke
+beberapa kantor akun
 167
 00:07:48,100 --> 00:07:49,050
-and get an account.
+dan dapatkan sebuah akun.
 
 168
 00:07:49,050 --> 00:07:50,406
@@ -795,90 +794,90 @@ Yeah?
 
 169
 00:07:50,406 --> 00:07:52,160
-AUDIENCE: [INAUDIBLE]
-needs to be online.
+HADIRIN: [TIDAK TERDENGAR]
+harus online.
 
 170
 00:07:52,160 --> 00:07:54,120
-PROFESSOR: Yeah, so
-that's another problem.
+PROFESSOR: Yeah, jadi
+itu merupakan masalah lain.
 
 171
 00:07:54,120 --> 00:07:55,620
-These are sort of
-management issues,
+Ini adalah semacam
+masalah manajemen,
 
 172
 00:07:55,620 --> 00:07:59,794
-but at the protocol
-level, the KDC
+Tetapi berada di level
+protokil, KDC
 
 173
 00:07:59,794 --> 00:08:01,460
-has to be online
-because it has actually
+harus online
+karena itu pada hakekatnya
 
 174
 00:08:01,460 --> 00:08:03,635
-mediate every interaction
-you have with the service.
+renungkan setiap interaksi
+yang kamu miliki dengan servis.
 
 175
 00:08:05,289 --> 00:08:07,830
-It means that in the web, every
-time you go to a new website,
+Artinya, di web, setiap 
+kali Anda membuka situs web baru,
 
 176
 00:08:07,830 --> 00:08:10,130
-you'd have to talk to
-some KDC first, which
+Anda harus berbicara
+terlebih dahulu dengan KDC, yang mana
 
 177
 00:08:10,130 --> 00:08:11,940
-would be a bit of a
-performance bottleneck.
+akan terjadi sedikit 
+penghambatan kinerja.
 
 178
 00:08:11,940 --> 00:08:13,520
-So like another
-kind of scalability,
+Jadi seperti 
+jenis skalabilitas lainnya,
 
 179
 00:08:13,520 --> 00:08:15,680
-this is like
-performance scalability.
+ini seperti
+kinerja skalabilitas.
 
 180
 00:08:15,680 --> 00:08:18,900
-This is more management
-scalability kind of stuff.
+Ini lebih merupakan 
+seperti jenis skalabilitas manajemen.
 
 181
 00:08:18,900 --> 00:08:19,470
-Make sense?
+Masuk akal?
 
 182
 00:08:22,030 --> 00:08:24,040
-So, how can we
-solve this problem
+Jadi, bagaimana kita
+menyelesaikan masalah ini
 
 183
 00:08:24,040 --> 00:08:27,160
-with these better primitives?
+dengan primitif yang lebih baik ini?
 
 184
 00:08:27,160 --> 00:08:31,330
-Well, the idea is to use
-public key cryptography to give
+Nah, idenya adalah menggunakan 
+kunci publik kriptografi untuk memberi
 
 185
 00:08:31,330 --> 00:08:33,980
-this KDC out of the loop.
+KDC ini keluar dari loop.
 
 186
 00:08:33,980 --> 00:08:35,880
-So let's first
-figure out whether we
+Jadi mari kita 
+cari tahu dulu apakah kita
 
 187
 00:08:35,880 --> 00:08:40,419
