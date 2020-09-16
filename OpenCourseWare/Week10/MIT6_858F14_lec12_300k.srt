@@ -713,51 +713,51 @@ menurut paper ini.
 
 151
 00:05:51,970 --> 00:05:55,160
-And in particular,
-attackers can inject
+Dan Khususnya,
+penyerang dapat menginjeksi
 
 152
 00:05:55,160 --> 00:05:58,860
-packets that can pretend to
-be from any other sender.
+paket yang berpura-pura 
+berasal dari pengirim lain.
 
 153
 00:05:58,860 --> 00:06:02,295
-Because the way this works in
-IP is that the IP packet itself
+karena cara hal tersebut bekerja dalam 
+IP adalah dengan IP tersebut
 
 154
 00:06:02,295 --> 00:06:04,420
-has a header that contains
-the source of the packet
+memiliki header yang mengandung
+sumber paket
 
 155
 00:06:04,420 --> 00:06:06,080
-and the destination.
+dan tempat tujuan.
 
 156
 00:06:06,080 --> 00:06:08,830
-And it's up to whoever
-creates the packet
+dan dengan kebebasan siapapun yang
+membuat paket
 
 157
 00:06:08,830 --> 00:06:11,750
-to fill in the right values
-for the source and destination.
+untuk mengisi nilai yang tepat 
+untuk sumber dan tempat tujuan
 
 158
 00:06:11,750 --> 00:06:14,100
-And no one checks that
-the source is necessarily
+dan tidak seorangpun memeriksa 
+apakah sumbernya merupakan
 
 159
 00:06:14,100 --> 00:06:16,100
-the correct.
+yang tepat.
 
 160
 00:06:16,100 --> 00:06:18,050
-There's some filtering
-going on these days.
+Ada berapa peyaringan 
+yang terjadi belakngan ini.
 
 161
 00:06:18,050 --> 00:06:21,430
