@@ -747,7 +747,7 @@ Mereka ingin mencuri berkas Anda.
 159
 00:06:19,770 --> 00:06:22,450
 Mereka ingin membuang keseluruhan
-isi dari hard drive Anda.
+isi dari <i>hard drive</i> Anda.
 
 160
 00:06:22,450 --> 00:06:24,710
