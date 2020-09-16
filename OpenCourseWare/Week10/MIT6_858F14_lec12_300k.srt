@@ -809,50 +809,49 @@ we looked at, to a large extent,
 implementation bugs, like,
 
 171
-00:06:46,110 --> 00:06:48,440
-how could you exploit
-a buffer overflow?
+00: 06: 46,110 - & gt; 00: 06: 48,440
+bagaimana Anda bisa mengeksploitasi
+buffer overflow?
 
 172
-00:06:48,440 --> 00:06:50,420
-And interestingly, the
-author of this paper
+00: 06: 48,440 - & gt; 00: 06: 50,420
+Dan yang menarik,
+penulis makalah ini
 
 173
-00:06:50,420 --> 00:06:53,010
-is actually not at all
-interested in implementation
+00: 06: 50,420 - & gt; 00: 06: 53,010
+sebenarnya sama sekali tidak
+tertarik pada implementasi
 
 174
-00:06:53,010 --> 00:06:53,510
-bugs.
+00: 06: 53,010 - & gt; 00: 06: 53,510
+bug.
 
 175
-00:06:53,510 --> 00:06:56,770
-He's really interested in
-protocol errors or protocol
+00: 06: 53,510 - & gt; 00: 06: 56,770
+Dia sangat tertarik dengan
+kesalahan protokol atau protokol
 
 176
-00:06:56,770 --> 00:06:57,562
-mistakes.
+00: 06: 56,770 - & gt; 00: 06: 57,562
+kesalahan.
 
 177
-00:06:57,562 --> 00:06:58,520
-So what's the big deal?
+00: 06: 57,562 - & gt; 00: 06: 58,520
+Jadi apa masalahnya?
 
 178
-00:06:58,520 --> 00:07:00,580
-Why is he down on
-implementation bugs,
+00: 06: 58,520 - & gt; 00: 07: 00,580
+Mengapa dia mengimplementasi bug,
 
 179
-00:07:00,580 --> 00:07:02,705
-even though we spent several
-weeks looking at them?
+00: 07: 00,580 - & gt; 00: 07: 02,705
+meskipun kami menghabiskan beberapa
+minggu untuk memeriksanya?
 
 180
-00:07:02,705 --> 00:07:03,510
-Why does it matter?
+00: 07: 02,705 - & gt; 00: 07: 03,510
+Mengapa itu penting?
 
 181
 00:07:03,510 --> 00:07:04,010
