@@ -810,7 +810,7 @@ masalah manajemen,
 172
 00:07:55,620 --> 00:07:59,794
 Tetapi berada di level
-protokil, KDC
+protokol, KDC
 
 173
 00:07:59,794 --> 00:08:01,460
@@ -934,56 +934,52 @@ public key dari file server
 
 198
 00:09:04,330 --> 00:09:05,190
-from somewhere.
+dari suatu tempat.
 
 199
 00:09:05,190 --> 00:09:07,510
-Like me as a freshman I get
-a printout saying the file
+Contohnya saya yang merupakan mahasiswa baru mendapatkan
+sebuah hasil cetak yang menyatakan bahwa file
 
 200
 00:09:07,510 --> 00:09:09,260
-server's public key is this.
+server memiliki public key sebagai berikut.
 
 201
 00:09:09,260 --> 00:09:12,450
-And then you can go
-ahead and connect it.
+Anda kemudian dapat pergi
+dan memulai koneksi.
 
 202
 00:09:12,450 --> 00:09:14,760
-And the way you might
-actually do this is you
+Cara yang mungkin bagi anda
+untuk melakukan ini adalah anda
 
 203
 00:09:14,760 --> 00:09:18,552
-could just encrypt a message
-for the public key of the file
+dapat melakukan enkripsi sebuah pesan
+untuk public key dari file 
 
 204
 00:09:18,552 --> 00:09:20,010
-server that you
-want to connect to.
+server yang ingin anda hubungi.
 
 205
 00:09:20,010 --> 00:09:22,460
-But it turns out
-that in practice,
+Namun ternyata dalam praktiknya, 
 
 206
 00:09:22,460 --> 00:09:24,541
-these public key
-operations are pretty slow.
+public key beroperasi sangat lambat.
 
 207
 00:09:24,541 --> 00:09:26,040
-They are several
-orders of magnitude
+Mereka beberapa tingkatan besaran
 
 208
 00:09:26,040 --> 00:09:29,260
-slower than symmetric
-key cryptography.
+lebih lambat dari kriptografi dengan
+kunci simetris (symmetric key cryptography).
 
 209
 00:09:29,260 --> 00:09:33,520
