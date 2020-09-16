@@ -712,59 +712,59 @@ di SSL.
 
 151
 00:07:01,407 --> 00:07:03,490
-But the key there is that
-the solution is actually
+Tapi kuncinya adalah
+solusinya sama dengan
 
 152
 00:07:03,490 --> 00:07:06,170
-exactly the same as what
-you would do Kerberos,
+solusi yang di lakukan
+pada Kerberos,
 
 153
 00:07:06,170 --> 00:07:09,514
-and what you would do in SSL
-or TLS to address those guys.
+dan yang dilakukan pada SSL
+atau TSL untuk menamai hal-hal tersebut.
 
 154
 00:07:09,514 --> 00:07:10,680
-But you're absolutely right.
+Tapi anda benar.
 
 155
 00:07:10,680 --> 00:07:12,840
-There Kerberos deep
-protocols we read about
+deep protokol Keberos
+yang kita baca 
 
 156
 00:07:12,840 --> 00:07:16,150
-in the paper is pretty dated.
+pada paper sudah cukup lama.
 
 157
 00:07:16,150 --> 00:07:18,250
-So, even if you were
-using it for the web,
+Jadi, jika kalian ingin
+menggunakannya untuk webnya,
 
 158
 00:07:18,250 --> 00:07:21,860
-you would want to apply
-some changes to it.
+kalian harus melakukan
+beberapa perubahan pada deep protokol tersebut
 
 159
 00:07:21,860 --> 00:07:26,190
-Those are not huge though,
-at the [INAUDIBLE] level.
+Tapi sebeneranya,perubahan dilakukan 
+bukan perubahan yang besar.
 
 160
 00:07:26,190 --> 00:07:28,280
-Any other thoughts on why
-we should use Kerberos?
+adakah pendapat lain mengapa
+kita harus menggunakan Kerberos?
 
 161
 00:07:28,280 --> 00:07:29,095
-Yeah?
+Ya ?
 
 162
 00:07:29,095 --> 00:07:30,580
-AUDIENCE: [INAUDIBLE]
+HADIRIN : [TIDAK TERDENGAR]
 
 163
 00:07:36,277 --> 00:07:38,110
