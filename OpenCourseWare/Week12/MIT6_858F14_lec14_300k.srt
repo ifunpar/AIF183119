@@ -962,19 +962,23 @@ untuk public key dari file
 
 204
 00:09:18,552 --> 00:09:20,010
-server yang ingin anda hubungi.
+server yang anda 
+ingin hubungi.
 
 205
 00:09:20,010 --> 00:09:22,460
-Namun ternyata dalam praktiknya, 
+Tapi ternyata
+dalam praktiknya, 
 
 206
 00:09:22,460 --> 00:09:24,541
-public key beroperasi sangat lambat.
+public key ini
+beroperasi sangat lambat.
 
 207
 00:09:24,541 --> 00:09:26,040
-Mereka beberapa tingkatan besaran
+Mereka beberapa
+tingkatan besaran
 
 208
 00:09:26,040 --> 00:09:29,260
