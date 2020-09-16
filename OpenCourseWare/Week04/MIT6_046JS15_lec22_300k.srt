@@ -782,78 +782,69 @@ lagi akan memberikan A.
 
 165
 00:09:04,330 --> 00:09:09,110
-So if you go look at AES, for
-example, which is the Advanced
+Jadi jika kamu melihat pada AES, contohnya, yang dimana lebih Advance
 
 166
 00:09:09,110 --> 00:09:12,430
-Encryption Standard, is really
-only about four lines of code,
+Enkripsi Standar (AES), adalah benar-benar hanya 4 baris kode,
 
 167
 00:09:12,430 --> 00:09:14,380
-maybe it's eight lines of code.
+mungkin hanya delapan baris code.
 
 168
 00:09:14,380 --> 00:09:18,520
-But this is a well
-used, it has been around
+Tapi ini digunakan sangat baik, yang sudah ada
+
 
 169
 00:09:18,520 --> 00:09:22,670
-for a while, symmetric
-key cipher that
+sejak lama, symmetric key cipher yang
 
 170
 00:09:22,670 --> 00:09:27,020
-runs in 128-bit mode as
-well as 256-bit mode.
+berjalan di mode 128 bit juga berjalan di mode 256bit.
 
 171
 00:09:27,020 --> 00:09:30,410
-And it's, like I said,
-a few lines of code.
+dan itu seperti yang saya bilang. beberapa baris kode.
 
 172
 00:09:30,410 --> 00:09:34,370
-And you'll see operations
-like this, permutations.
+dan anda akan melihat operasi seperti ini, yaitu permutasi.
 
 173
 00:09:34,370 --> 00:09:37,720
 And you'll see hat symbols
 if you see a C program, which
+dan anda akan melihat simbol topi jika anda melihat C program, yang dimana
 
 174
 00:09:37,720 --> 00:09:39,140
-is exclusive OR.
+adalah OR eksklusif.
 
 175
 00:09:39,140 --> 00:09:42,260
-And you can see the
-encryption and the decryption
+Dan anda bisa melihat enskripsi dan deskripsi
 
 176
 00:09:42,260 --> 00:09:43,840
-are identical in implementation.
+merupakan identik di dalam implementasi.
 
 177
 00:09:43,840 --> 00:09:46,500
-You're just going to run it
-one way, and you run it again.
-
+anda akan menjalankan itu satu cara dan akan menjalankannya terus menerus.
 178
 00:09:46,500 --> 00:09:49,040
-And you get back the result.
-Because these permutations
-
+dan anda akan mendapatkan hasilnya, karena permutasi ini
 179
 00:09:49,040 --> 00:09:50,060
-are reversible.
+bisa di dikembalikan (bolak-balik).
 
 180
 00:09:50,060 --> 00:09:52,080
 And the hats are reversible.
+dan topi juga bisa di kembalikan (bolak balik)
 
 181
 00:09:52,080 --> 00:09:54,880
