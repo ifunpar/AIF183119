@@ -815,12 +815,12 @@ protokol, KDC
 173
 00:07:59,794 --> 00:08:01,460
 harus online
-karena itu pada hakekatnya
+karena sebenernya
 
 174
 00:08:01,460 --> 00:08:03,635
-renungkan setiap interaksi
-yang kamu miliki dengan servis.
+memediasi setiap interaksi 
+yang Anda lakukan dengan layanan.
 
 175
 00:08:05,289 --> 00:08:07,830
