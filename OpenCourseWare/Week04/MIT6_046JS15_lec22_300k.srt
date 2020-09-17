@@ -831,7 +831,8 @@ merupakan identik di dalam implementasi.
 
 177
 00:09:43,840 --> 00:09:46,500
-anda akan menjalankan itu satu cara dan akan menjalankannya terus menerus.
+anda akan menjalankan itu satu cara 
+dan akan menjalankannya terus menerus.
 
 178
 00:09:46,500 --> 00:09:49,040
