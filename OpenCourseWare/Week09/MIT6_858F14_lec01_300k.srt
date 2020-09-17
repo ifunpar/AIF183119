@@ -954,46 +954,46 @@ what are we thinking
 
 203
 00:08:06,680 --> 00:08:07,980
-the bad guy is going to do?
+Apa yang akan dilakukan orang jahat itu?
 
 204
 00:08:07,980 --> 00:08:10,190
-And this is typically what
-we call a threat model.
+Dan inilah yang biasanya
+kita sebut sebagai model threat.
 
 205
 00:08:13,090 --> 00:08:15,130
-And this is basically
-just a set of assumptions
+Dan ini pada dasarnya
+Hanyalah sebuah kumpulan asumsi
 
 206
 00:08:15,130 --> 00:08:23,090
-about the bad guy or adversary.
+Tentang orang jahat atau musuh.
 
 207
 00:08:23,090 --> 00:08:25,710
-And it's important to have
-some sort of assumptions
+Dan oleh sebab itu penting untuk memiliki
+Beberapa asumsi
 
 208
 00:08:25,710 --> 00:08:29,310
-about the bad guy because,
-if the bad guy is omnipresent
+tentang pria jahat karena,
+jika orang jahat ada di mana-mana
 
 209
 00:08:29,310 --> 00:08:32,700
-and is everywhere at once and
-you can do anything they want,
+dan di setiap tempat pada satu waktu
+dan kalian dapat melakukan apapun yang mereka inginkan,
 
 210
 00:08:32,700 --> 00:08:36,030
-it's going to be hard to achieve
-some semblance of security.
+Akan sulit untuk mendapatkan
+keamanan yang serupa.
 
 211
 00:08:36,030 --> 00:08:37,630
-So for example,
-you probably want
+Jadi sebagai contoh,
+mungkin kalian ingin
 
 212
 00:08:37,630 --> 00:08:40,750
