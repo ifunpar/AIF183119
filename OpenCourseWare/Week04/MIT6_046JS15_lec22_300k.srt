@@ -934,76 +934,76 @@ fungsi hash, yang
 
 199
 00:10:36,020 --> 00:10:39,560
-have a whole lot of more
-interesting properties
+mempunyai banyak sekali
+properti-properti yang menarik
 
 200
 00:10:39,560 --> 00:10:43,260
-and hard to obtain properties
-like collusion resistance.
+dan sulit untuk mendapatkan properti
+seperti pertahanan dari kolusi.
 
 201
 00:10:43,260 --> 00:10:48,470
-But the question really
-is how do Alice and Bob
+tetapi pertanyaanya adalah
+bagaimana cara Alice dan Bob
 
 202
 00:10:48,470 --> 00:10:50,950
-share the secret key, k?
+berbagi kunci rahasia, k?
 
 203
 00:10:50,950 --> 00:10:52,040
-So you need that.
+Jadi kamu membutuhkannya.
 
 204
 00:10:52,040 --> 00:10:54,770
-You need this 128-bit
-number in order
+Kamu membutuhkan angka 128-bit 
+ini agar 
 
 205
 00:10:54,770 --> 00:10:58,750
-for there to be a channel,
-a secure channel, that Alice
+terdapat sebuah saluran,
+saluran aman, dimana Alice
 
 206
 00:10:58,750 --> 00:11:02,570
-can communicate to Bob
-with and vice verse.
+dapat berkomunikasi dengan Bob
+dan sebaliknya.
 
 207
 00:11:02,570 --> 00:11:05,320
-And so now you could say
-Alice sends Bob a letter.
+Jadi sekarang kamu dapat berkata
+Alice mengirimkan Bob sebuah pesan.
 
 208
 00:11:05,320 --> 00:11:09,000
-But you know, mal could
-intercept that letter.
+Tetapi sekarang kamu tahu, mal dapat
+mecegat pesan tersebut.
 
 209
 00:11:09,000 --> 00:11:12,930
-And even worse, what wants
-to do is look at the letter,
+dan yang lebih buruk lagi, adalah 
+melihat surat tersebut,
 
 210
 00:11:12,930 --> 00:11:15,290
-actually deliver
-the letter, which
+sebetulnya mengirim
+pesan, yang
 
 211
 00:11:15,290 --> 00:11:20,920
-is the best thing for
-him, and Alice and Bob
+adalah hal terbaik untuk
+dia, kemudian Alice dan Bob
 
 212
 00:11:20,920 --> 00:11:22,750
-think that they have
-a secure channel.
+berpikir bahwa mereka telah
+memiliki saluran aman.
 
 213
 00:11:22,750 --> 00:11:25,360
-That's sort of best case
-scenario for mal, right?
+Hal tersebut adalah semacam kasus
+skenario terbaik untuk mal, bernar?
 
 214
 00:11:25,360 --> 00:11:29,320
