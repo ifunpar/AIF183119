@@ -760,26 +760,26 @@ there but let's draw it
 
 160
 00:07:05,470 --> 00:07:07,300
-in a slightly bigger scale.
+Untuk skala yang sedikit lebih besar
 
 161
 00:07:07,300 --> 00:07:10,540
-So this is the Kerberos server.
+Ini adalah Kerberos server
 
 162
 00:07:10,540 --> 00:07:16,650
-And today, it's typically called
+Dan sekarang, ini biasanya dipanggil
 KDC-- Key Distribution Center.
 
 163
 00:07:16,650 --> 00:07:22,430
-And there's all these users
-out here somewhere and also
+Dan ada semua pengguna 
+diluar sana dan juga
 
 164
 00:07:22,430 --> 00:07:26,840
-services that you might
-want to connect to.
+Layanan yang mungkin anda
+inginkan untuk terhubung.
 
 165
 00:07:26,840 --> 00:07:30,860
