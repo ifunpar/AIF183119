@@ -954,26 +954,26 @@ what are we thinking
 
 203
 00:08:06,680 --> 00:08:07,980
-Apa yang akan dilakukan orang jahat itu?
+apa yang akan dilakukan orang jahat itu?
 
 204
 00:08:07,980 --> 00:08:10,190
 Dan inilah yang biasanya
-kita sebut sebagai model threat.
+kita sebut sebagai model <i>threat</i>.
 
 205
 00:08:13,090 --> 00:08:15,130
 Dan ini pada dasarnya
-Hanyalah sebuah kumpulan asumsi
+hanyalah sebuah kumpulan asumsi
 
 206
 00:08:15,130 --> 00:08:23,090
-Tentang orang jahat atau musuh.
+tentang orang jahat atau musuh.
 
 207
 00:08:23,090 --> 00:08:25,710
 Dan oleh sebab itu penting untuk memiliki
-Beberapa asumsi
+beberapa asumsi
 
 208
 00:08:25,710 --> 00:08:29,310
@@ -987,7 +987,7 @@ dan kalian dapat melakukan apapun yang mereka inginkan,
 
 210
 00:08:32,700 --> 00:08:36,030
-Akan sulit untuk mendapatkan
+akan sulit untuk mendapatkan
 keamanan yang serupa.
 
 211
