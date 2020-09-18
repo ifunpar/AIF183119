@@ -894,67 +894,67 @@ staf kursus
 
 190
 00:07:37,160 --> 00:07:38,604
-can also modify the grades file.
+yang dapat mengubah nilai file.
 
 191
 00:07:38,604 --> 00:07:40,770
-Or only the course staff
-can upload the final grades
+Atau hanya staf kursus
+yang dapat mengupload nilai akhir
 
 192
 00:07:40,770 --> 00:07:41,853
-to the registrar's office.
+ke bagian registrar(Bagian penyimpanan data).
 
 193
 00:07:41,853 --> 00:07:43,290
-That'll be great.
+Itu akan bagus.
 
 194
 00:07:43,290 --> 00:07:47,770
-Then you can also think about
-things like availability.
+Lalu kalian juga dapat memikirkan tentang  
+sesuatu seperti availability(ketersediaan).
 
 195
 00:07:47,770 --> 00:07:51,770
-So for example, a website
-should be available,
+Jadi misalnya, sebuah website
+harus tetap tersedia
 
 196
 00:07:51,770 --> 00:07:54,040
-even if the bad guys try
-to take it down and mount
+meskipun ada orang jahat yang mencoba
+untuk menghapus dan memasang 
 
 197
 00:07:54,040 --> 00:07:57,972
-some sort of a DOS-- Denial
-of Service-- attack on it.
+serangan semacam DOS-- Denial of Service--
+terhadap website.
 
 198
 00:07:57,972 --> 00:07:59,180
-So this is all well and good.
+Berarti website ini baik dan bagus.
 
 199
 00:07:59,180 --> 00:08:01,180
-So these are the policies
-that we might actually
+Jadi ini merupakan beberapa kebijakan
+yang kita seharusnya 
 
 200
 00:08:01,180 --> 00:08:02,860
-care about from a system.
+pedulikan dari suatu sistem.
 
 201
 00:08:02,860 --> 00:08:05,220
-But because it's security,
-there's a bad guy involved.
+tetapi karena ini tentang keamanan,
+maka ada orang jahat yang terlibat di dalamnya.
 
 202
 00:08:05,220 --> 00:08:06,680
-We need to understand,
-what are we thinking
+Kita harus mengetahui,
+Apa yang kita pikirkan
 
 203
 00:08:06,680 --> 00:08:07,980
-apa yang akan dilakukan orang jahat itu?
+terhadap apa yang orang jahat itu akan lakukan?
 
 204
 00:08:07,980 --> 00:08:10,190
