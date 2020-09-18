@@ -783,32 +783,32 @@ inginkan untuk terhubung.
 
 165
 00:07:26,840 --> 00:07:30,860
-And the plan is that
-the Kerberos server
+Dan rencananya adalah,
+Kerberos server ...
 
 166
 00:07:30,860 --> 00:07:34,650
-is going to be responsible
-for storing a shared
+akan bertanggung jawab 
+untuk menyimpan
 
 167
 00:07:34,650 --> 00:07:39,070
-key between the Kerberos server
-and every entity in the world,
+<i>shared key</i> antara Kerberos server
+dengan seluruh entitas di muka bumi,
 
 168
 00:07:39,070 --> 00:07:41,080
-or in this realm at least.
+atau setidaknya di subjek ini.
 
 169
 00:07:41,080 --> 00:07:45,885
-So if the user has some
-sort of a key KC for client,
+Jadi, jika pengguna memiliki
+kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-than the Kerberos
-server is going
+Lalu, Kerberos server
+akan...
 
 171
 00:07:47,260 --> 00:07:49,720
