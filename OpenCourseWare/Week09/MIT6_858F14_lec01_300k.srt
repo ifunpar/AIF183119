@@ -899,11 +899,11 @@ yang dapat mengubah nilai file.
 191
 00:07:38,604 --> 00:07:40,770
 Atau hanya staf kursus
-yang dapat mengupload nilai akhir
+yang dapat mengunggah nilai akhir
 
 192
 00:07:40,770 --> 00:07:41,853
-ke bagian registrar(Bagian penyimpanan data).
+ke bagian <i>registrar</i> (bagian penyimpanan data).
 
 193
 00:07:41,853 --> 00:07:43,290
@@ -912,11 +912,11 @@ Itu akan bagus.
 194
 00:07:43,290 --> 00:07:47,770
 Lalu kalian juga dapat memikirkan tentang  
-sesuatu seperti availability(ketersediaan).
+sesuatu seperti <i>availability</i> (ketersediaan).
 
 195
 00:07:47,770 --> 00:07:51,770
-Jadi misalnya, sebuah website
+Jadi misalnya, sebuah situs web
 harus tetap tersedia
 
 196
@@ -926,12 +926,12 @@ untuk menghapus dan memasang
 
 197
 00:07:54,040 --> 00:07:57,972
-serangan semacam DOS-- Denial of Service--
-terhadap website.
+serangan semacam DOS-- <i>Denial of Service</i>--
+terhadap situs web.
 
 198
 00:07:57,972 --> 00:07:59,180
-Berarti website ini baik dan bagus.
+Berarti situs web ini baik dan bagus.
 
 199
 00:07:59,180 --> 00:08:01,180
@@ -944,13 +944,13 @@ pedulikan dari suatu sistem.
 
 201
 00:08:02,860 --> 00:08:05,220
-tetapi karena ini tentang keamanan,
+Tetapi karena ini tentang keamanan,
 maka ada orang jahat yang terlibat di dalamnya.
 
 202
 00:08:05,220 --> 00:08:06,680
 Kita harus mengetahui,
-Apa yang kita pikirkan
+apa yang kita pikirkan
 
 203
 00:08:06,680 --> 00:08:07,980
