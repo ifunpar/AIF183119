@@ -901,52 +901,53 @@ and now it's also secure.
 
 191
 00:07:22,461 --> 00:07:23,510
-So that's great.
+Jadi itu sangat bagus.
 
 192
 00:07:23,510 --> 00:07:25,995
-But if you have some bug in
-the protocol specification,
+Tetapi jika terdapat bug di
+spesifikasi protokol,
 
 193
 00:07:25,995 --> 00:07:29,140
-in how the protocol has
-to work, then fixing a bug
+dibagian bagaimana protokol 
+seharusnya bekerja,
+maka memperbaiki bug
 
 194
 00:07:29,140 --> 00:07:31,190
-is going to require
-fixing a protocol, which
+akan membutuhkan juga untuk 
+memperbaiki protokolnya, yang
 
 195
 00:07:31,190 --> 00:07:33,820
-means potentially affecting
-all the systems that
+artinya berpotensi mempengaruhi
+semua sistem 
 
 196
 00:07:33,820 --> 00:07:35,460
-are out there speaking
-this protocol.
+diluar sana yang menggunakan 
+protokol ini.
 
 197
 00:07:35,460 --> 00:07:37,340
-So if we find some
-problem in TCP,
+Jadi jika kita menemukan beberapa
+masalah di TCP,
 
 198
 00:07:37,340 --> 00:07:38,910
-it's potentially
-quite devastating.
+hal tersebut cukup berpotensi
+mengalami kerusakan.
 
 199
 00:07:38,910 --> 00:07:42,229
-Because every machine that uses
-TCP is going to have to change.
+Karena setiap mesin yang menggunakan
+TCP harus berubah.
 
 200
 00:07:42,229 --> 00:07:43,770
-Because it's going
-to be hard to make
+Karena akan sulit
+untuk membuat
 
 201
 00:07:43,770 --> 00:07:45,790
