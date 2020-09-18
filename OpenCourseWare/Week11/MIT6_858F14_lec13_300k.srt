@@ -735,28 +735,28 @@ ke data mereka atau tidak.
 
 155
 00:06:51,460 --> 00:06:53,600
-All right, so let's look
-at how does Kerberos work
+Mari kita lihat bagaimana
+Kerberos bekerja
 
 156
 00:06:53,600 --> 00:06:57,340
-or what's the overall
-architecture, at least.
+atau setidaknya, seperti
+apa arsitekturnya.
 
 157
 00:06:57,340 --> 00:07:01,200
-So the plan that
-these guys had in mind
+Jadi rencana mereka
+pikirkan adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-is that there would be
-this Kerberos server.
+akan terdapat server
+Kerberos ini.
 
 159
 00:07:03,500 --> 00:07:05,470
-We have drawn it up
-there but let's draw it
+Sudah kita gambar, tetapi
+mari kita buat lagi
 
 160
 00:07:05,470 --> 00:07:07,300
