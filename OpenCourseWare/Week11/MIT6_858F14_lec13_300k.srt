@@ -949,28 +949,28 @@ to the same machine.
 
 200
 00:09:06,660 --> 00:09:11,560
-One of them is called Kerberos
-in the paper and one of them
+Salah satunya disebut Kerberos
+di koran dan salah satunya
 
 201
 00:09:11,560 --> 00:09:15,460
-is called TGS for
+disebut TGS untuk
 Ticket Granting Service.
 
 202
 00:09:15,460 --> 00:09:16,980
-And really, these
-are just two ways
+Dan sungguh, ini
+hanya dua cara
 
 203
 00:09:16,980 --> 00:09:20,130
-of talking to the same
-thing in the back end.
+berbicara dengan hal yang sama
+di bagian belakang.
 
 204
 00:09:20,130 --> 00:09:24,340
-And the protocol is a little
-different for these things.
+Dan protokolnya sedikit
+berbeda untuk hal ini.
 
 205
 00:09:24,340 --> 00:09:26,570
