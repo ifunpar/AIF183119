@@ -906,7 +906,7 @@ Tapi di sini, kami menginginkan simetri.
 193
 00:10:21,770 --> 00:10:23,560
 Pertanyaan besar
-yang seharunya kamu tanyakan
+yang seharusnya kamu tanyakan
 
 194
 00:10:23,560 --> 00:10:26,590
@@ -924,7 +924,7 @@ algoritma enkripsi
 
 197
 00:10:30,810 --> 00:10:32,790
-Merekea sebenarnya, saya seharusnya
+Mereka sebenarnya, saya seharusnya
 berkata, sedikit lebih mudah
 
 198
