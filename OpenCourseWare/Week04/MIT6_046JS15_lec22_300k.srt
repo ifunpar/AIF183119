@@ -896,41 +896,41 @@ memotong fungsi, dan sebagainya.
 
 191
 00:10:14,720 --> 00:10:18,500
-That was a different situation
-where we had no secrecy.
+Itu merupakan sebuah situasi yang berbeda
+di mana kami tidak memiliki kerahasiaan.
 
 192
 00:10:18,500 --> 00:10:21,770
-But here, we wanted symmetry.
+Tapi di sini, kami menginginkan simetri.
 
 193
 00:10:21,770 --> 00:10:23,560
-The big question
-that you would ask
+Pertanyaan besar
+yang seharunya kamu tanyakan
 
 194
 00:10:23,560 --> 00:10:26,590
-and you should ask yourself
-when you see this, you say,
+dan kamu akan bertanya pada dirimu sendiri
+ketika kamu melihat ini, kamu berkata,
 
 195
 00:10:26,590 --> 00:10:27,470
-OK great.
+Oke bagus.
 
 196
 00:10:27,470 --> 00:10:30,810
-I can build symmetric key
-encryption algorithms.
+Saya dapat membuat kunci simetri
+algoritma enkripsi
 
 197
 00:10:30,810 --> 00:10:32,790
-They're actually, I would
-say, somewhat easier
+Merekea sebenarnya, saya seharusnya
+berkata, sedikit lebih mudah
 
 198
 00:10:32,790 --> 00:10:36,020
-to do than to build
-hash functions, which
+untuk melakukan daripada membangun
+fungsi hash, yang
 
 199
 00:10:36,020 --> 00:10:39,560
