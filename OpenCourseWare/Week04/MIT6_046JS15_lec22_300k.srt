@@ -848,51 +848,51 @@ dan topi juga bisa di kembalikan (bolak balik)
 
 181
 00:09:52,080 --> 00:09:54,880
-And they're all signed
-integers, so you're just
+Dan mereka semua ditandai dengan
+integers, jadi kamu
 
 182
 00:09:54,880 --> 00:09:55,940
-sort of adding them up.
+hanya menambahkan mereka.
 
 183
 00:09:55,940 --> 00:09:58,220
-And it's just
-complement arithmetic,
+Dan ini hanya
+penambahan aritmatika,
 
 184
 00:09:58,220 --> 00:10:00,140
-so that looks the same as well.
+yang terlihat sama.
 
 185
 00:10:00,140 --> 00:10:02,440
-So I encourage you to
-go take a look at AES.
+Jadi aku meminta kamu untuk
+pergi melihat AES.
 
 186
 00:10:02,440 --> 00:10:04,500
-I'm not going to
-spend more time on it.
+Aku tidak akan menghabiskan
+banyak waktu untuk itu.
 
 187
 00:10:04,500 --> 00:10:09,390
-The key idea here is of
-symmetry and reversibility.
+Kunci dari ide ini terletak pada
+simetri dan reversibiltas.
 
 188
 00:10:09,390 --> 00:10:10,944
-We're going to move
-away from that.
+Kita bergerak maju
+dari itu.
 
 189
 00:10:10,944 --> 00:10:12,360
-Clearly, we didn't
-talk about that
+Jelasnya, kita tidak
+berbicara tentang itu
 
 190
 00:10:12,360 --> 00:10:14,720
-when we talked about one way
-hash functions, et cetera.
+ketika kita berbicara tentang cara
+memotong fungsi, dan sebagainya.
 
 191
 00:10:14,720 --> 00:10:18,500
