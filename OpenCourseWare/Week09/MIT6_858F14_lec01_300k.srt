@@ -846,7 +846,7 @@ dan sebagainya.
 
 180
 00:07:11,979 --> 00:07:14,270
-Tapi ada beberapa ketentuan
+Namun ada beberapa ketentuan
 mengenai apa yang sistem saya 
 
 181
@@ -894,7 +894,7 @@ staf kursus
 
 190
 00:07:37,160 --> 00:07:38,604
-yang dapat mengubah nilai file.
+yang dapat mengubah berkas nilai.
 
 191
 00:07:38,604 --> 00:07:40,770
@@ -912,7 +912,7 @@ Itu akan bagus.
 194
 00:07:43,290 --> 00:07:47,770
 Lalu kalian juga dapat memikirkan tentang  
-sesuatu seperti <i>availability</i> (ketersediaan).
+sesuatu seperti ketersediaan.
 
 195
 00:07:47,770 --> 00:07:51,770
@@ -944,17 +944,17 @@ pedulikan dari suatu sistem.
 
 201
 00:08:02,860 --> 00:08:05,220
-Tetapi karena ini tentang keamanan,
+Namun karena ini tentang keamanan,
 maka ada orang jahat yang terlibat di dalamnya.
 
 202
 00:08:05,220 --> 00:08:06,680
-Kita harus mengetahui,
-apa yang kita pikirkan
+Kita harus mengerti,
+menurut kita
 
 203
 00:08:06,680 --> 00:08:07,980
-terhadap apa yang orang jahat itu akan lakukan?
+apa yang orang jahat itu akan lakukan?
 
 204
 00:08:07,980 --> 00:08:10,190
@@ -964,15 +964,15 @@ kita sebut sebagai model <i>threat</i>.
 205
 00:08:13,090 --> 00:08:15,130
 Dan ini pada dasarnya
-hanyalah sebuah kumpulan asumsi
+hanyalah sekumpulan asumsi
 
 206
 00:08:15,130 --> 00:08:23,090
-tentang orang jahat atau musuh.
+tentang orang jahat atau musuh itu.
 
 207
 00:08:23,090 --> 00:08:25,710
-Dan oleh sebab itu penting untuk memiliki
+Dan penting untuk memiliki
 beberapa asumsi
 
 208
@@ -982,7 +982,7 @@ jika orang jahat ada di mana-mana
 
 209
 00:08:29,310 --> 00:08:32,700
-dan di setiap tempat pada satu waktu
+dan di setiap tempat pada satu waktu yang sama
 dan kalian dapat melakukan apapun yang mereka inginkan,
 
 210
