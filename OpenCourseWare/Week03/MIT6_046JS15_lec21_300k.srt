@@ -1006,7 +1006,7 @@ Kita ingin sebuah peramal acak.
 
 215
 00:11:19,440 --> 00:11:23,790
-Pada dasarnya, kami ingin
+We want to essentially
 build something
 
 216
