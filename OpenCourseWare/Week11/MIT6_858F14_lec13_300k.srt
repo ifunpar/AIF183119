@@ -760,7 +760,7 @@ mari kita buat lagi
 
 160
 00:07:05,470 --> 00:07:07,300
-Untuk skala yang sedikit lebih besar
+dengan skala yang sedikit lebih besar.
 
 161
 00:07:07,300 --> 00:07:10,540
@@ -769,7 +769,7 @@ Ini adalah Kerberos server
 162
 00:07:10,540 --> 00:07:16,650
 Dan sekarang, ini biasanya dipanggil
-KDC-- Key Distribution Center.
+KDC--Key Distribution Center.
 
 163
 00:07:16,650 --> 00:07:22,430
@@ -860,12 +860,12 @@ Iya, Saya orang yang tepat.
 
 181
 00:08:10,130 --> 00:08:13,000
-I know this password
-and no one else does.
+Saya tahu password ini,
+sedangkan orang lain tidak.
 
 182
 00:08:13,000 --> 00:08:14,150
-Makes sense?
+Bisa dimengerti?
 
 183
 00:08:14,150 --> 00:08:17,982
