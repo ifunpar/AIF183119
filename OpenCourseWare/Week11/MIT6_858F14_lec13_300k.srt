@@ -126,7 +126,7 @@ yang ingin didukung
 
 27
 00:01:16,580 --> 00:01:19,360
-oleh Kerbereos?
+oleh Kerberos?
 
 28
 00:01:19,360 --> 00:01:21,900
@@ -832,31 +832,33 @@ tapi semoga tidak ada orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
-So you can think of it as like
-a generalization of passwords,
+Jadi kamu bisa menganggapnya sebagai
+suatu generalisasi dari password,
 
 176
 00:08:02,020 --> 00:08:02,520
-right?
+betul?
 
 177
 00:08:02,520 --> 00:08:04,440
-So you know a password
-and the Kerberos server
+Jadi kamu mengetahui password tersebut
+dan server Kerberos juga
 
 178
 00:08:04,440 --> 00:08:05,940
-knows your password
-but no one else.
+mengetahui password kamu
+Tetapi orang lain tidak.
 
 179
 00:08:05,940 --> 00:08:08,790
 And this is how you guys are
 going to prove to each other,
+Dan ini adalah bagaimana kalian
+akan membuktikan satu sama yang lain.
 
 180
 00:08:08,790 --> 00:08:10,130
-yeah, I'm the right guy.
+Iya, Saya orang yang tepat.
 
 181
 00:08:10,130 --> 00:08:13,000
