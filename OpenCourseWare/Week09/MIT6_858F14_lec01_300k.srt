@@ -936,11 +936,11 @@ Berarti situs web ini baik dan bagus.
 199
 00:07:59,180 --> 00:08:01,180
 Jadi ini merupakan beberapa kebijakan
-yang kita seharusnya 
+yang harus kita
 
 200
 00:08:01,180 --> 00:08:02,860
-pedulikan dari suatu sistem.
+perhatikan dari suatu sistem.
 
 201
 00:08:02,860 --> 00:08:05,220
@@ -977,7 +977,7 @@ beberapa asumsi
 
 208
 00:08:25,710 --> 00:08:29,310
-tentang pria jahat karena,
+tentang orang jahat karena,
 jika orang jahat ada di mana-mana
 
 209
