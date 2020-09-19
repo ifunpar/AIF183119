@@ -782,11 +782,13 @@ lagi akan memberikan A.
 
 165
 00:09:04,330 --> 00:09:09,110
-Jadi jika kamu melihat pada AES, contohnya, yang dimana lebih Advance
+Jadi jika kamu melihat pada AES, 
+contohnya, yang dimana lebih Advance
 
 166
 00:09:09,110 --> 00:09:12,430
-Enkripsi Standar (AES), adalah benar-benar hanya 4 baris kode,
+Enkripsi Standar (AES), adalah 
+benar-benar hanya 4 baris kode,
 
 167
 00:09:12,430 --> 00:09:14,380
@@ -794,23 +796,28 @@ mungkin hanya delapan baris code.
 
 168
 00:09:14,380 --> 00:09:18,520
-Tapi ini digunakan sangat baik, yang sudah ada
+Tapi ini digunakan sangat 
+baik, yang sudah ada
 
 169
 00:09:18,520 --> 00:09:22,670
-sejak lama, symmetric key cipher yang
+sejak lama, symmetric 
+key cipher yang
 
 170
 00:09:22,670 --> 00:09:27,020
-berjalan di mode 128 bit juga berjalan di mode 256bit.
+berjalan di mode 128 bit 
+juga berjalan di mode 256bit.
 
 171
 00:09:27,020 --> 00:09:30,410
-dan itu seperti yang saya bilang. beberapa baris kode.
+dan itu seperti yang saya 
+bilang, beberapa baris kode.
 
 172
 00:09:30,410 --> 00:09:34,370
-dan anda akan melihat operasi seperti ini, yaitu permutasi.
+dan anda akan melihat operasi 
+seperti ini, yaitu permutasi.
 
 173
 00:09:34,370 --> 00:09:37,720
@@ -823,7 +830,8 @@ adalah OR eksklusif.
 
 175
 00:09:39,140 --> 00:09:42,260
-Dan anda bisa melihat enskripsi dan deskripsi
+Dan anda bisa melihat 
+enkripsi dan deskripsi
 
 176
 00:09:42,260 --> 00:09:43,840
@@ -836,7 +844,8 @@ dan akan menjalankannya terus menerus.
 
 178
 00:09:46,500 --> 00:09:49,040
-dan anda akan mendapatkan hasilnya, karena permutasi ini
+dan anda akan mendapatkan 
+hasilnya, karena permutasi ini
 
 179
 00:09:49,040 --> 00:09:50,060
