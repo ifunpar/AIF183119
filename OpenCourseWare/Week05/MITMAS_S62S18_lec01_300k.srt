@@ -153,7 +153,7 @@ orang untuk berpikir tentang bagaimana
 33
 00:01:24,320 --> 00:01:27,710
 menggunakan teknologi ini untuk
-memecahkan banyak sekali masalah 
+memecahkan banyak sekali masalah
 
 34
 00:01:27,710 --> 00:01:30,080
@@ -792,7 +792,7 @@ lainnya adalah
 
 168
 00:07:27,150 --> 00:07:28,950
-uang akan berevolusi keluar 
+uang akan berevolusi keluar
 dari kwitnasi bersangkutan,
 
 169
@@ -802,8 +802,8 @@ bolak balik.
 
 170
 00:07:30,602 --> 00:07:32,310
-Kamu tidak langsung 
-mengambil semua wol, 
+Kamu tidak langsung
+mengambil semua wol,
 
 171
 00:07:32,310 --> 00:07:34,860
@@ -812,7 +812,7 @@ di dalam sebuah gudang,
 
 172
 00:07:34,860 --> 00:07:37,050
-sehingga kwitansi berfungsi 
+sehingga kwitansi berfungsi
 sebagai alat bukti untuk produk.
 
 173
@@ -827,62 +827,62 @@ melihat dua ide yang berbeda
 
 175
 00:07:44,340 --> 00:07:46,560
-tentang apa itu uang 
+tentang apa itu uang
 dari perkembangan ide ini.
 
 176
 00:07:46,560 --> 00:07:50,160
-One is, well, it's
-a bead or a coin,
+Yang pertama, baiklah, ini adalah
+sebuah manik atau koin,
 
 177
 00:07:50,160 --> 00:07:52,050
-or something that
-I hold, something
+atau sesuatu yang dapat
+aku genggam, sesuatu
 
 178
 00:07:52,050 --> 00:07:55,980
-physical that we've
-decided to assign value to
+bersifat fisik yang harus kita
+putuskan untuk memberikan nilai ke
 
 179
 00:07:55,980 --> 00:07:57,180
-in and of itself.
+dalam dan dari dirinya sendiri.
 
 180
 00:07:57,180 --> 00:08:01,380
-And another idea is I'm going
-to use a trusted institution.
+Lalu ide lainnya adalah aku akan
+menggunakan institusi yang terpercaya.
 
 181
 00:08:01,380 --> 00:08:04,110
-I'm going to deposit something
-with that institution,
+Aku akan memberikan suatu deposit
+dengan institusi itu,
 
 182
 00:08:04,110 --> 00:08:08,010
-and they are going to ensure
-the validity of that deposit
+dan mereka akan memastikan keaslian
+deposit tersebut,
 
 183
 00:08:08,010 --> 00:08:10,440
-and manage who has
-access to that deposit.
+lalu mengatur siapa yang
+dapat mengakses deposit itu.
 
 184
 00:08:13,720 --> 00:08:17,050
-So this doesn't really
-get at the question
+Jadi ini benar-benar tidak
+dapat dipertanyakan
 
 185
 00:08:17,050 --> 00:08:21,550
-that was originally asked, which
-is why do tokens have value.
+seperti pada pertanyaan awal, yaitu
+mengapa token memiliki nilai.
 
 186
 00:08:21,550 --> 00:08:25,467
-But one thing I want
-to point out is--
+Tapi satu hal yang ingin
+saya tunjukkan adalah
 
 187
 00:08:25,467 --> 00:08:27,550
@@ -946,7 +946,7 @@ Apa maksudnya?
 
 200
 00:08:48,360 --> 00:08:49,777
-AUDIENCE: Pemerintah semacam 
+AUDIENCE: Pemerintah semacam
 
 201
 00:08:49,777 --> 00:08:52,873
@@ -964,7 +964,7 @@ anda untuk menghargai nilai itu
 
 204
 00:08:56,168 --> 00:08:58,460
-Apakah ada lagi yang ingin 
+Apakah ada lagi yang ingin
 menambahkan alasan lain?
 
 205
@@ -985,7 +985,7 @@ AUDIENCE: Jared Thompson.
 
 209
 00:09:03,230 --> 00:09:05,690
-Dalam contoh untuk kasus 
+Dalam contoh untuk kasus
 dollar, pemerintah
 
 210
