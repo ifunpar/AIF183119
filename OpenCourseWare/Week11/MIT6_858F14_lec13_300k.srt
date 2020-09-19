@@ -812,23 +812,23 @@ akan...
 
 171
 00:07:47,260 --> 00:07:49,720
-to remember this
-key somewhere here.
+untuk mengingat ini
+key di suatu tempat di sini.
 
 172
 00:07:49,720 --> 00:07:53,680
-And similarly for the
-server, the key KS
+Begitu pula untuk
+server, key KS
 
 173
 00:07:53,680 --> 00:07:56,080
-is going to be known
-to the service itself
+akan diketahui
+ke layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-and to the Kerberos server
-but hopefully no one else.
+dan ke server Kerberos
+tapi semoga tidak ada orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
