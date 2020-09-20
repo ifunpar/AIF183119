@@ -857,63 +857,63 @@ Saya mengetahui byte terakhir adalah 0.
 
 188
 00:08:45,970 --> 00:08:47,950
-But that doesn't
-help because I don't
+Tapi itu tidak
+membantu karena bukan aku
 
 189
 00:08:47,950 --> 00:08:51,160
-know all the bytes before that.
+tahu semua bytes sebelum itu.
 
 190
 00:08:51,160 --> 00:08:54,130
-So I can't really do--
+Jadi aku sungguh tidak bisa melakukannya--
 
 191
 00:08:54,130 --> 00:08:56,770
-I can't sign because I
-need to be able to reveal
+Aku tidak bisa masuk karena aku
+harus mampu mengungkapkan
 
 192
 00:08:56,770 --> 00:08:57,945
-all these things.
+semua hal ini.
 
 193
 00:08:57,945 --> 00:09:00,070
-And the way the hash
-functions, if it's a good hash
+Dan cara hash
+functions, jika itu adalah hash yang baik
 
 194
 00:09:00,070 --> 00:09:03,722
-function, the fact that you
-know some part of the preimage
+function, faktanya bahwa kamu
+tahu beberapa bagian dari preimage
 
 195
 00:09:03,722 --> 00:09:05,680
-shouldn't give you insight
-into the other parts
+tidak seharusnya memberikan kamu penglihatan
+ke bagian yang lain
 
 196
 00:09:05,680 --> 00:09:07,270
-of the preimage.
+dari preimage
 
 197
 00:09:07,270 --> 00:09:08,930
-Because it looks really random.
+Karena sangat kelihatan acak
 
 198
 00:09:08,930 --> 00:09:14,380
-And adding stuff to the end
-here shouldn't reveal anything.
+Dan menambahkan bahan sampai akhir 
+di sini seharusnya tidak mengungkapkan apa-apa.
 
 199
 00:09:14,380 --> 00:09:16,660
-There are hash functions
-where this can be dangerous,
+Ada hash functions
+dimana ini bisa sangat membahayakan
 
 200
 00:09:16,660 --> 00:09:19,840
-and you can consider those like
-broken hash functions, where
+dan kamu bisa mempertimbangkannya itu yang seperti apa.
+hash function yang rusak, di mana
 
 201
 00:09:19,840 --> 00:09:22,690
