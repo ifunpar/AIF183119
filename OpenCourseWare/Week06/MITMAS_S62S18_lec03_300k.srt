@@ -699,168 +699,161 @@ mungkin keberatan?
 
 153
 00:07:02,345 --> 00:07:04,970
-HADIRIN: Saya berpikir jika
-seseorang tau fungsi hash
+AUDIENCE: I was thinking that if
+someone knew the hash function
 
 154
 00:07:04,970 --> 00:07:06,763
-anda sedang menggunakannya, tidak akan
-mereka hanya mendefinisikan
+you're using, wouldn't
+they only define
 
 155
 00:07:06,763 --> 00:07:09,180
-x karena mereka tahu bahwa
-itu tidak akan membantu [TIDAK TEDENGAR] x.
+x because they know that it
+won't help with [INAUDIBLE] x.
 
 156
 00:07:09,180 --> 00:07:09,700
-[TIDAK TERDENGAR]
+[INAUDIBLE]
 
 157
 00:07:09,700 --> 00:07:10,420
-TADGE DRYJA: Ya.
+TADGE DRYJA: Yes.
 
 158
 00:07:10,420 --> 00:07:11,110
-Ya.
+Yes.
 
 159
 00:07:11,110 --> 00:07:19,140
-Jadi tidak ada entropi yang asli
-atau rahasia antara 0 dan 1.
+So there's no real entropy
+or secrets in this 0 and 1.
 
 160
 00:07:19,140 --> 00:07:22,420
-Tetapi itu murni
-memakai x, kan?
+But it's purely
+riding on x, right?
 
 161
 00:07:22,420 --> 00:07:26,140
-Tapi idenya adalah,
-baik, jika saya melakukan ini,
+But the idea is,
+well, if I do this,
 
 162
 00:07:26,140 --> 00:07:30,880
-dan saya katakan, OK, baik
-pub2 adalah hash
+and I say, OK, well
+pub2 is the hash
 
 163
 00:07:30,880 --> 00:07:34,890
-dari rahasia2 digabungkan dengan
-0, ya, jika anda tahu rahasia2,
+of secret2 concatenated with
+0, yeah, if you know secret2,
 
 164
 00:07:34,890 --> 00:07:36,290
-anda bisa kembali.
+you can go back.
 
 165
 00:07:36,290 --> 00:07:37,330
-Karena pengaruh 0 sudah jelas.
+Because 0 is obvious.
 
 166
 00:07:37,330 --> 00:07:40,210
-Namun idenya adalah bila kamu tidak 
-tahu nilai "secret2", maka pengetahuan yang kamu
+But the idea is if you don't
+know secret2, the fact that you
 
 167
 00:07:40,210 --> 00:07:45,040
-miliki mengenai byte terakhir dari masukan 
-fungsi hash tidak akan membantumu.
+know the last byte of the hash
+input doesn't really help you.
 
 168
 00:07:45,040 --> 00:07:48,400
-Karena terdapat sekumpulan data ini
-yang kamu tidak ketahui.
+Because there's all this
+data that you don't know.
 
 169
 00:07:48,400 --> 00:07:50,650
-Dan kamu tidak akan mampu 
-menemukan "preimage" fungsi tersebut.
+And so you're not going to
+be able to find a preimage.
 
 170
 00:07:50,650 --> 00:07:52,540
-Kamu akan berpikir, oke, saya
-tahu "preimage" dari
+You're like, OK, I
+know the preimage
 
 171
 00:07:52,540 --> 00:07:55,540
-"public2" berakhir dengan sebuah byte 0
+to public2 ends with a 0 byte.
 
 172
 00:07:55,540 --> 00:07:59,080
-Apa nilai 32 bytes lainnya
-yang berada dibelakangnya ?
+What are the other 32 bytes
+that come before that?
 
 173
 00:07:59,080 --> 00:08:01,404
-Kamu masih tidak bisa  kembali
-membuat sebuah "preimage"
+You still can't go back
+to make a preimage.
 
 174
 00:08:01,404 --> 00:08:05,615
-PESERTA: Namun hal ini terasa
-seperti terdapat sebuah--
+AUDIENCE: But it feels
+like there's some sort of--
 
 175
 00:08:05,615 --> 00:08:08,470
-Apa ya kalimatnya-- anda akan membuat sebuah
-pernyataan yang mirip isinya dengan, oh
+what's the word-- you'd make a
+similar statement saying, oh,
 
 176
 00:08:08,470 --> 00:08:10,360
-if the last byte
-is not important,
+Jika byte terakhir tidak penting
 
 177
 00:08:10,360 --> 00:08:13,600
-then the second-to-last byte is
-not important, either, right?
+lalu byte kedua terakhir juga tidak penting kan ?
 
 178
 00:08:17,950 --> 00:08:20,620
-TADGE DRYJA: So the
-attack is I've got pub2,
+TADGE DRYJA: Jadi serangannya adalah saya mendapatkan pub2
 
 179
 00:08:20,620 --> 00:08:23,320
-which is a 32 byte hash output.
+yang dimana adalah 32 byte output hash
 
 180
 00:08:23,320 --> 00:08:27,820
-I want to find
-what this thing is.
+Saya ingin mengetahui apakah ini.
 
 181
 00:08:27,820 --> 00:08:29,800
 Now, I do know what the
-last byte is, right?
+last byte is, right? Sekarang, saya mengetahui byte yang terakhir.
 
 182
 00:08:29,800 --> 00:08:32,320
-It's going to be,
-let's say, 33 bytes,
+akan menjadi, contoh, 33 byte,
 
 183
 00:08:32,320 --> 00:08:34,780
-and the last byte is a 0.
+dan byte terakhir adalah 0.
 
 184
 00:08:34,780 --> 00:08:37,570
-And this is going to
-be some random numbers
+Dan ini akan menjadi beberapa angka acak.
 
 185
 00:08:37,570 --> 00:08:38,500
-all the way back.
+Seperti semula.
 
 186
 00:08:38,500 --> 00:08:43,539
-So I have some insight
-into what the preimage is.
+Saya mendapatkan informasi mengenai gambar awal.
 
 187
 00:08:43,539 --> 00:08:45,970
-I know the last byte is a 0.
+Saya mengetahui byte terakhir adalah 0.
 
 188
 00:08:45,970 --> 00:08:47,950
