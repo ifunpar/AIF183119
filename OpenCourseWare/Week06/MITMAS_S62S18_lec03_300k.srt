@@ -755,56 +755,56 @@ you can go back.
 
 165
 00:07:36,290 --> 00:07:37,330
-Because 0 is obvious.
+Karena pengaruh 0 sudah jelas.
 
 166
 00:07:37,330 --> 00:07:40,210
-But the idea is if you don't
-know secret2, the fact that you
+Namun idenya adalah bila kamu tidak 
+tahu nilai "secret2", maka pengetahuan yang kamu
 
 167
 00:07:40,210 --> 00:07:45,040
-know the last byte of the hash
-input doesn't really help you.
+miliki mengenai byte terakhir dari masukan 
+fungsi hash tidak akan membantumu.
 
 168
 00:07:45,040 --> 00:07:48,400
-Because there's all this
-data that you don't know.
+Karena terdapat sekumpulan data ini
+yang kamu tidak ketahui.
 
 169
 00:07:48,400 --> 00:07:50,650
-And so you're not going to
-be able to find a preimage.
+Dan kamu tidak akan mampu 
+menemukan "preimage" fungsi tersebut.
 
 170
 00:07:50,650 --> 00:07:52,540
-You're like, OK, I
-know the preimage
+Kamu akan berpikir, oke, saya
+tahu "preimage" dari
 
 171
 00:07:52,540 --> 00:07:55,540
-to public2 ends with a 0 byte.
+"public2" berakhir dengan sebuah byte 0
 
 172
 00:07:55,540 --> 00:07:59,080
-What are the other 32 bytes
-that come before that?
+Apa nilai 32 bytes lainnya
+yang berada dibelakangnya ?
 
 173
 00:07:59,080 --> 00:08:01,404
-You still can't go back
-to make a preimage.
+Kamu masih tidak bisa  kembali
+membuat sebuah "preimage"
 
 174
 00:08:01,404 --> 00:08:05,615
-AUDIENCE: But it feels
-like there's some sort of--
+PESERTA: Namun hal ini terasa
+seperti terdapat sebuah--
 
 175
 00:08:05,615 --> 00:08:08,470
-what's the word-- you'd make a
-similar statement saying, oh,
+Apa ya kalimatnya-- anda akan membuat sebuah
+pernyataan yang mirip isinya dengan, oh
 
 176
 00:08:08,470 --> 00:08:10,360
