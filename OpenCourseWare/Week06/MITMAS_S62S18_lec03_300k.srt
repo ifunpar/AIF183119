@@ -699,59 +699,59 @@ mungkin keberatan?
 
 153
 00:07:02,345 --> 00:07:04,970
-AUDIENCE: I was thinking that if
-someone knew the hash function
+HADIRIN: Saya berpikir jika
+seseorang tau fungsi hash
 
 154
 00:07:04,970 --> 00:07:06,763
-you're using, wouldn't
-they only define
+anda sedang menggunakannya, tidak akan
+mereka hanya mendefinisikan
 
 155
 00:07:06,763 --> 00:07:09,180
-x because they know that it
-won't help with [INAUDIBLE] x.
+x karena mereka tahu bahwa
+itu tidak akan membantu [TIDAK TEDENGAR] x.
 
 156
 00:07:09,180 --> 00:07:09,700
-[INAUDIBLE]
+[TIDAK TERDENGAR]
 
 157
 00:07:09,700 --> 00:07:10,420
-TADGE DRYJA: Yes.
+TADGE DRYJA: Ya.
 
 158
 00:07:10,420 --> 00:07:11,110
-Yes.
+Ya.
 
 159
 00:07:11,110 --> 00:07:19,140
-So there's no real entropy
-or secrets in this 0 and 1.
+Jadi tidak ada entropi yang asli
+atau rahasia antara 0 dan 1.
 
 160
 00:07:19,140 --> 00:07:22,420
-But it's purely
-riding on x, right?
+Tetapi itu murni
+memakai x, kan?
 
 161
 00:07:22,420 --> 00:07:26,140
-But the idea is,
-well, if I do this,
+Tapi idenya adalah,
+baik, jika saya melakukan ini,
 
 162
 00:07:26,140 --> 00:07:30,880
-and I say, OK, well
-pub2 is the hash
+dan saya katakan, OK, baik
+pub2 adalah hash
 
 163
 00:07:30,880 --> 00:07:34,890
-of secret2 concatenated with
-0, yeah, if you know secret2,
+dari rahasia2 digabungkan dengan
+0, ya, jika anda tahu rahasia2,
 
 164
 00:07:34,890 --> 00:07:36,290
-you can go back.
+anda bisa kembali.
 
 165
 00:07:36,290 --> 00:07:37,330
@@ -920,59 +920,59 @@ where this can be dangerous,
 200
 00:09:16,660 --> 00:09:19,840
 and you can consider those like
-fungsi - fungsi hash rusak, dimana
+broken hash functions, where
 
 201
-00: 09: 19,840 - & gt; 00: 09: 22,690
-jika saya gabungkan banyak
-data yang telah diketahui di akhir,
+00:09:19,840 --> 00:09:22,690
+if I concatenate a lot
+of known data at the end,
 
 202
-00: 09: 22,690 - & gt; 00: 09: 27,110
-itu mungkin memberi saya sifat - sifat
-kunci publik yang dapat saya temukan.
+00:09:22,690 --> 00:09:27,110
+it might give me properties of
+the public key that I can find.
 
 203
-00: 09: 27,110 - & gt; 00: 09: 30,070
-[TIDAK TERDENGAR] ,, sejauh ini
-kami tahu ini berfungsi dengan baik.
+00:09:27,110 --> 00:09:30,070
+[INAUDIBLE],, as far as
+we know, it works fine.
 
 204
-00: 09: 30,070 - & gt; 00: 09: 32,440
-Sebagian besar fungsi hash
-bekerja dengan baik dengan cara ini.
+00:09:30,070 --> 00:09:32,440
+Most of the hash functions
+work fine this way.
 
 205
-00: 09: 32,440 - & gt; 00: 09: 34,750
-Jadi, Anda dapat melakukannya.
+00:09:32,440 --> 00:09:34,750
+So yeah, you can do this.
 
 206
-00: 09: 34,750 - & gt; 00: 09: 36,370
-Dan kemudian Anda dapat
-berkata Oke, saya
+00:09:34,750 --> 00:09:36,370
+And then you can
+say, OK, well, I'm
 
 207
-00: 09: 36,370 - & gt; 00: 09: 42,710
-akan menggunakan fungsi hash
-0 untuk membuat pubkey 0, bukan?
+00:09:36,370 --> 00:09:42,710
+going to use hash function
+0 to make pubkey 0, right?
 
 208
-00: 09: 42,710 - & gt; 00: 09: 44,020
-Ini adalah pubkey 0.
+00:09:42,710 --> 00:09:44,020
+This is pubkey 0.
 
 209
-00: 09: 44,020 - & gt; 00: 09: 50,470
-Dan jika saya menggunakan fungsi hash
-1, saya membuat pubkey 1.
+00:09:44,020 --> 00:09:50,470
+And if I use hash function
+1, I make pubkey 1.
 
 210
-00: 09: 50,470 - & gt; 00: 09: 55,910
-Sekarang saya memiliki 16 kilobyte--
-Saya hapus ini--
+00:09:50,470 --> 00:09:55,910
+Now I have a 16 kilobyte--
+let me erase this--
 
 211
-00: 09: 58,152 - & gt; 00: 09: 59,985
-Jadi sekarang, yang bisa saya lakukan
+00:09:58,152 --> 00:09:59,985
+so now what I can do
 is I can say, OK, well,
 
 212
