@@ -744,7 +744,7 @@ dari fungsi hash ini
 159
 00:08:19,170 --> 00:08:21,820
 Dan untuk kalian yang
-sudah meminati keamanan komputer
+sudah tertarik ke bidang keamanan komputer
 
 160
 00:08:21,820 --> 00:08:24,890
@@ -761,7 +761,7 @@ Ini adalah versi.
 
 163
 00:08:30,260 --> 00:08:32,309
-MD singkatan dari message digest.
+MD singkatan dari Message Digest.
 
 164
 00:08:32,309 --> 00:08:35,610
@@ -775,7 +775,7 @@ Dan mereka memiliki d sama dengan
 
 166
 00:08:42,970 --> 00:08:45,830
-kalau saya ingat-ingat-- ketika
+kalau saya tidak salah-- ketika
 mereka pertama kali diusulkan.
 
 167
@@ -836,8 +836,8 @@ Ini adalah 160-bits.
 
 179
 00:09:31,770 --> 00:09:36,330
-Dan ini tidak cukup
-rusak pada saat ini.
+Dan belum cukup 
+rusak saat ini.
 
 180
 00:09:36,330 --> 00:09:41,920
@@ -931,7 +931,7 @@ Jadi sudah pasti bukan orde 1.
 199
 00:10:38,850 --> 00:10:43,270
 Jadi seperti yang saya katakan sedikit
-konteks dengan hormat
+tentang konteks masing-masing
 
 200
 00:10:43,270 --> 00:10:45,355
