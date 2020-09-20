@@ -808,59 +808,52 @@ pernyataan yang mirip isinya dengan, oh
 
 176
 00:08:08,470 --> 00:08:10,360
-if the last byte
-is not important,
+Jika byte terakhir tidak penting
 
 177
 00:08:10,360 --> 00:08:13,600
-then the second-to-last byte is
-not important, either, right?
+lalu byte kedua terakhir juga tidak penting kan ?
 
 178
 00:08:17,950 --> 00:08:20,620
-TADGE DRYJA: So the
-attack is I've got pub2,
+TADGE DRYJA: Jadi serangannya adalah saya mendapatkan pub2
 
 179
 00:08:20,620 --> 00:08:23,320
-which is a 32 byte hash output.
+yang dimana adalah 32 byte output hash
 
 180
 00:08:23,320 --> 00:08:27,820
-I want to find
-what this thing is.
+Saya ingin mengetahui apakah ini.
 
 181
 00:08:27,820 --> 00:08:29,800
 Now, I do know what the
-last byte is, right?
+last byte is, right? Sekarang, saya mengetahui byte yang terakhir.
 
 182
 00:08:29,800 --> 00:08:32,320
-It's going to be,
-let's say, 33 bytes,
+akan menjadi, contoh, 33 byte,
 
 183
 00:08:32,320 --> 00:08:34,780
-and the last byte is a 0.
+dan byte terakhir adalah 0.
 
 184
 00:08:34,780 --> 00:08:37,570
-And this is going to
-be some random numbers
+Dan ini akan menjadi beberapa angka acak.
 
 185
 00:08:37,570 --> 00:08:38,500
-all the way back.
+Seperti semula.
 
 186
 00:08:38,500 --> 00:08:43,539
-So I have some insight
-into what the preimage is.
+Saya mendapatkan informasi mengenai gambar awal.
 
 187
 00:08:43,539 --> 00:08:45,970
-I know the last byte is a 0.
+Saya mengetahui byte terakhir adalah 0.
 
 188
 00:08:45,970 --> 00:08:47,950
