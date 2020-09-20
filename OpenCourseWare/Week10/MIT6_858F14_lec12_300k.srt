@@ -951,36 +951,36 @@ untuk membuat
 
 201
 00:07:43,770 --> 00:07:45,790
-it potentially
-backwards compatible.
+hal itu berpotensi
+kompatibel ke belakang.
 
 202
 00:07:45,790 --> 00:07:48,530
-We'll see exactly
-what these bugs are.
+Kita akan lihat dengan tepat
+Bug macam apakah ini.
 
 203
 00:07:48,530 --> 00:07:51,640
-But this is the real reason
-he's so excited about looking
+Tetapi ini juga menjadi sebab alasan
+dia bergembira tentang melihat
 
 204
 00:07:51,640 --> 00:07:52,460
-at protocol bugs.
+protokol bug.
 
 205
 00:07:52,460 --> 00:07:56,555
-Because they're fairly
-fundamental to the TCP protocol
+Karena mereka secara adil
+mendasar terhadap protokol TCP
 
 206
 00:07:56,555 --> 00:07:58,982
-that everyone agrees to speak.
+bahwa setiap orang setuju untuk berbicara.
 
 207
 00:07:58,982 --> 00:08:00,440
-So let's look at
-one of these guys.
+Jadi mari kita tengok
+salah satu dari orang-orang ini.
 
 208
 00:08:00,440 --> 00:08:03,950
