@@ -916,56 +916,56 @@ dan kamu bisa mempertimbangkannya itu yang seperti apa.
 hash function yang rusak, di mana
 
 201
-00:09:19,840 --> 00:09:22,690
-if I concatenate a lot
-of known data at the end,
+00: 09: 19,840 - & gt; 00: 09: 22,690
+jika saya gabungkan banyak
+data yang telah diketahui di akhir,
 
 202
-00:09:22,690 --> 00:09:27,110
-it might give me properties of
-the public key that I can find.
+00: 09: 22,690 - & gt; 00: 09: 27,110
+itu mungkin memberi saya sifat - sifat
+kunci publik yang dapat saya temukan.
 
 203
-00:09:27,110 --> 00:09:30,070
-[INAUDIBLE],, as far as
-we know, it works fine.
+00: 09: 27,110 - & gt; 00: 09: 30,070
+[TIDAK TERDENGAR] ,, sejauh ini
+kami tahu ini berfungsi dengan baik.
 
 204
-00:09:30,070 --> 00:09:32,440
-Most of the hash functions
-work fine this way.
+00: 09: 30,070 - & gt; 00: 09: 32,440
+Sebagian besar fungsi hash
+bekerja dengan baik dengan cara ini.
 
 205
-00:09:32,440 --> 00:09:34,750
-So yeah, you can do this.
+00: 09: 32,440 - & gt; 00: 09: 34,750
+Jadi, Anda dapat melakukannya.
 
 206
-00:09:34,750 --> 00:09:36,370
-And then you can
-say, OK, well, I'm
+00: 09: 34,750 - & gt; 00: 09: 36,370
+Dan kemudian Anda dapat
+berkata Oke, saya
 
 207
-00:09:36,370 --> 00:09:42,710
-going to use hash function
-0 to make pubkey 0, right?
+00: 09: 36,370 - & gt; 00: 09: 42,710
+akan menggunakan fungsi hash
+0 untuk membuat pubkey 0, bukan?
 
 208
-00:09:42,710 --> 00:09:44,020
-This is pubkey 0.
+00: 09: 42,710 - & gt; 00: 09: 44,020
+Ini adalah pubkey 0.
 
 209
-00:09:44,020 --> 00:09:50,470
-And if I use hash function
-1, I make pubkey 1.
+00: 09: 44,020 - & gt; 00: 09: 50,470
+Dan jika saya menggunakan fungsi hash
+1, saya membuat pubkey 1.
 
 210
-00:09:50,470 --> 00:09:55,910
-Now I have a 16 kilobyte--
-let me erase this--
+00: 09: 50,470 - & gt; 00: 09: 55,910
+Sekarang saya memiliki 16 kilobyte--
+Saya hapus ini--
 
 211
-00:09:58,152 --> 00:09:59,985
-so now what I can do
+00: 09: 58,152 - & gt; 00: 09: 59,985
+Jadi sekarang, yang bisa saya lakukan
 is I can say, OK, well,
 
 212
