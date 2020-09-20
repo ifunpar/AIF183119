@@ -855,49 +855,49 @@ Mengapa itu penting?
 
 181
 00:07:03,510 --> 00:07:04,010
-Yeah.
+Ya.
 
 182
 00:07:04,010 --> 00:07:06,828
-AUDIENCE: Because we have to
-keep those bugs [INAUDIBLE].
+AUDIENS: Karena kita harus
+membiarkan bug tersebut [INAUDIBLE].
 
 183
 00:07:06,828 --> 00:07:09,800
-PROFESSOR: Yeah, so this is the
-really big bummer about a bug
+PROFESOR: Ya, jadi ini adalah
+yang sangat disayangkan dari sebuah bug
 
 184
 00:07:09,800 --> 00:07:11,550
-in your protocol design.
+dalam desain protokol anda.
 
 185
 00:07:11,550 --> 00:07:13,589
-Because it's hard to change.
+Karena sulit untuk diubah.
 
 186
 00:07:13,589 --> 00:07:15,130
-So if you have an
-implementation bug,
+Jadi jika anda memiliki
+bug implementasi,
 
 187
 00:07:15,130 --> 00:07:17,350
-well, you had a
-memcpy or a print-out
+anda memiliki sebuah
+memcpy atau sebuah print-out
 
 188
 00:07:17,350 --> 00:07:19,254
-out of some sort that
-didn't check the range.
+dalam bentuk tertentu yang
+tidak memeriksa jangkauan.
 
 189
 00:07:19,254 --> 00:07:21,420
-OK, well, you had a range
-check, and it still works,
+OK, anda sudah memeriksa
+jangkauan, dan masih berfungsi,
 
 190
 00:07:21,420 --> 00:07:22,461
-and now it's also secure.
+dan sekarang juga sudah aman.
 
 191
 00:07:22,461 --> 00:07:23,510
