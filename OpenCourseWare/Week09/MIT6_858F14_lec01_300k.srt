@@ -1212,115 +1212,115 @@ Can you access the grades file?
 
 257
 00:10:41,411 --> 00:10:43,600
-And if they all can
-access it, done.
+Dan jika mereka semua 
+dapat mengaksesnya,selesai.
 
 258
 00:10:43,600 --> 00:10:45,340
-The system works.
+Sistem dapat bekerja.
 
 259
 00:10:45,340 --> 00:10:48,070
-But if I want to say that
-no one other than the TAs
+Tapi jika saya ingin mengatakan bahwa
+tidak ada yang lain selain TAs
 
 260
 00:10:48,070 --> 00:10:50,640
-can access the grades file,
-this is a much harder problem
+yang dapat mengakses berkas nilai,
+ini adalah masalah yang lebih sulit
 
 261
 00:10:50,640 --> 00:10:52,820
-to solve, because now
-I have to figure out
+untuk diselesaikan, karena sekarang
+saya harus mencari tahu
 
 262
 00:10:52,820 --> 00:10:56,010
-what could all these non TA
-people in the world to try
+apa bisa semua orang non TA
+di seluruh dunia mencoba
 
 263
 00:10:56,010 --> 00:10:57,460
-to get my grades file, right?
+untuk mendapatkan berkas file saya, benar?
 
 264
 00:10:57,460 --> 00:11:01,110
-They could try to just
-open it and read it.
+Mereka bisa mencobanya hanya untuk
+membuka dan melihatnya.
 
 265
 00:11:01,110 --> 00:11:02,960
-Maybe my file system
-will disallow it.
+Mungkin sistem berkas saya
+akan melarangnya.
 
 266
 00:11:02,960 --> 00:11:04,900
-But they might try all
-kinds of other attacks,
+Tapi mereka mungkin dapat mencoba semua
+jenis serangan yang lain,
 
 267
 00:11:04,900 --> 00:11:07,060
-like guessing the
-password for the TAs
+seperti menebak
+password untuk TAs
 
 268
 00:11:07,060 --> 00:11:10,670
-or stealing the TAs laptops
-or breaking into the room
+atau mencuri laptop milik TA 
+atau membobol ruangan
 
 269
 00:11:10,670 --> 00:11:11,960
-or who knows, right?
+atau siapa yang tahu, benar?
 
 270
 00:11:11,960 --> 00:11:14,010
-This is all stuff that
-we have to really put
+Ini adalah semua hal yang
+kita harus benar-benar tempatkan
 
 271
 00:11:14,010 --> 00:11:15,050
-into our threat model.
+ke dalam threat model kita.
 
 272
 00:11:15,050 --> 00:11:17,650
-Probably for this class,
-I'm not that concerned about
+Mungkin untuk kelas ini,
+saya tidak perlu terlalu khawatir tentang
 
 273
 00:11:17,650 --> 00:11:21,280
-the grades file to worry about
-these guys' laptops being
+berkas nilai, untuk khawatir tentang
+laptop orang-orang ini yang
 
 274
 00:11:21,280 --> 00:11:22,880
-stolen from their dorm room.
+dicuri dari kamar asrama mereka.
 
 275
 00:11:22,880 --> 00:11:23,460
-Although maybe I should be.
+Meskipun mungkin saya harus(khawatir).
 
 276
 00:11:23,460 --> 00:11:24,001
-I don't know.
+Saya tidak tahu.
 
 277
 00:11:24,001 --> 00:11:25,140
-It's hard to tell, right?
+Sulit untuk mengatakannya, benar?
 
 278
 00:11:25,140 --> 00:11:27,700
-And as a result,
-this security game
+Dan akibatnya,
+permainan keamanan ini
 
 279
 00:11:27,700 --> 00:11:30,030
-is often not so
-clear cut as to what
+seringkali tidak begitu
+jelas tentang
 
 280
 00:11:30,030 --> 00:11:32,884
-the right set of
-assumptions to make is.
+asumsi yang tepat
+untuk dibuat.
 
 281
 00:11:32,884 --> 00:11:35,050
