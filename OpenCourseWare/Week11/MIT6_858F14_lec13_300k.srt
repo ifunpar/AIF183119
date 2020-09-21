@@ -126,7 +126,7 @@ yang ingin didukung
 
 27
 00:01:16,580 --> 00:01:19,360
-oleh Kerbereos?
+oleh Kerberos?
 
 28
 00:01:19,360 --> 00:01:21,900
@@ -735,137 +735,137 @@ ke data mereka atau tidak.
 
 155
 00:06:51,460 --> 00:06:53,600
-All right, so let's look
-at how does Kerberos work
+Baiklah, mari kita lihat
+bagaimana Kerberos bekerja
 
 156
 00:06:53,600 --> 00:06:57,340
-or what's the overall
-architecture, at least.
+atau setidaknya, bagaimana
+arsitetktur keseluruhannya.
 
 157
 00:06:57,340 --> 00:07:01,200
-So the plan that
-these guys had in mind
+Jadi rencana yang orang-orang
+ini punya dalam pikiram mereka adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-is that there would be
-this Kerberos server.
+akan akan ada server
+Kerberos ini.
 
 159
 00:07:03,500 --> 00:07:05,470
-We have drawn it up
-there but let's draw it
+Sudah kita gambar di sana, tetapi
+mari kita gambarkan lagi
 
 160
 00:07:05,470 --> 00:07:07,300
-in a slightly bigger scale.
+dengan skala yang sedikit lebih besar.
 
 161
 00:07:07,300 --> 00:07:10,540
-So this is the Kerberos server.
+Jadi ini adalah server Kerberos.
 
 162
 00:07:10,540 --> 00:07:16,650
-And today, it's typically called
+Dan sekarang, ini biasanya disebu dengan
 KDC-- Key Distribution Center.
 
 163
 00:07:16,650 --> 00:07:22,430
-And there's all these users
-out here somewhere and also
+Dan ada semua pengguna 
+di luar sana dan juga
 
 164
 00:07:22,430 --> 00:07:26,840
-services that you might
-want to connect to.
+layanan-layanan yang mungkin ingin
+Anda hubungi.
 
 165
 00:07:26,840 --> 00:07:30,860
-And the plan is that
-the Kerberos server
+Dan rencananya adalah,
+server Kerberos server
 
 166
 00:07:30,860 --> 00:07:34,650
-is going to be responsible
-for storing a shared
+akan bertanggung jawab 
+untuk menyimpan sebuah kunci
 
 167
 00:07:34,650 --> 00:07:39,070
-key between the Kerberos server
-and every entity in the world,
+bersama antara server Kerberos
+dengan seluruh entitas di dunia,
 
 168
 00:07:39,070 --> 00:07:41,080
-or in this realm at least.
+atau setidaknya di dalam realm ini.
 
 169
 00:07:41,080 --> 00:07:45,885
-So if the user has some
-sort of a key KC for client,
+Jadi, jika pengguna memiliki
+kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-than the Kerberos
-server is going
+Lalu, server Kerberos
+akan
 
 171
 00:07:47,260 --> 00:07:49,720
-to remember this
-key somewhere here.
+mengingat kunci ini
+di suatu tempat di sini.
 
 172
 00:07:49,720 --> 00:07:53,680
-And similarly for the
-server, the key KS
+Begitu pula untuk
+server, kunci KS
 
 173
 00:07:53,680 --> 00:07:56,080
-is going to be known
-to the service itself
+akan diketahui
+oleh layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-and to the Kerberos server
-but hopefully no one else.
+dan oleh server Kerberos
+tapi semoga bukan orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
-So you can think of it as like
-a generalization of passwords,
+Jadi Anda bisa menganggapnya sebagai
+bentuk yang lebih umum dari password,
 
 176
 00:08:02,020 --> 00:08:02,520
-right?
+betul?
 
 177
 00:08:02,520 --> 00:08:04,440
-So you know a password
-and the Kerberos server
+Jadi Anda mengetahui sebuah password
+dan server Kerberos juga
 
 178
 00:08:04,440 --> 00:08:05,940
-knows your password
-but no one else.
+mengetahui password Anda
+tetapi orang lain tidak.
 
 179
 00:08:05,940 --> 00:08:08,790
-And this is how you guys are
-going to prove to each other,
+Dan ini adalah bagaimana kalian
+akan membuktikan satu dengan yang lain.
 
 180
 00:08:08,790 --> 00:08:10,130
-yeah, I'm the right guy.
+Ya, saya orang yang tepat.
 
 181
 00:08:10,130 --> 00:08:13,000
-I know this password
-and no one else does.
+Saya tahu password ini,
+sedangkan orang lain tidak.
 
 182
 00:08:13,000 --> 00:08:14,150
-Makes sense?
+Masuk akal?
 
 183
 00:08:14,150 --> 00:08:17,982
@@ -949,28 +949,28 @@ to the same machine.
 
 200
 00:09:06,660 --> 00:09:11,560
-One of them is called Kerberos
-in the paper and one of them
+Salah satunya disebut Kerberos
+di koran dan salah satunya
 
 201
 00:09:11,560 --> 00:09:15,460
-is called TGS for
+disebut TGS untuk
 Ticket Granting Service.
 
 202
 00:09:15,460 --> 00:09:16,980
-And really, these
-are just two ways
+Dan sungguh, ini
+hanya dua cara
 
 203
 00:09:16,980 --> 00:09:20,130
-of talking to the same
-thing in the back end.
+berbicara dengan hal yang sama
+di bagian belakang.
 
 204
 00:09:20,130 --> 00:09:24,340
-And the protocol is a little
-different for these things.
+Dan protokolnya sedikit
+berbeda untuk hal ini.
 
 205
 00:09:24,340 --> 00:09:26,570
