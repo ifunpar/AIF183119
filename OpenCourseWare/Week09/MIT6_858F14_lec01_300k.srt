@@ -1433,111 +1433,110 @@ going to come up
 
 304
 00:12:25,210 --> 00:12:26,585
-or you're going
-to think this way
-
+atau kamu akan
+berpikir seperti ini
 305
 00:12:26,585 --> 00:12:28,060
-is because,
-throughout this class,
+karena,
+sepanjang kelas ini,
 
 306
 00:12:28,060 --> 00:12:29,850
-we're going to look at all
-these different systems,
+kita akan melihat pada semua
+sistem yang berbeda ini,
 
 307
 00:12:29,850 --> 00:12:31,270
-and we're going to sort
-of push them to the edge.
+dan nampaknya
+kita akan menguji sistem-sistem ini hingga maksimal.
 
 308
 00:12:31,270 --> 00:12:33,100
-We're going to see, OK,
-well, what if we do this?
+Mari kita lihat, Ok,
+Baiklah, bagaimana jika kita melakukan ini?
 
 309
 00:12:33,100 --> 00:12:33,690
-Is it going to break?
+Apakah ini akan hancur?
 
 310
 00:12:33,690 --> 00:12:34,320
-What if we do that?
+Bagaimana jika kita melakukan itu?
 
 311
 00:12:34,320 --> 00:12:35,519
-Is it going to break then?
+Apakah akan hancur juga?
 
 312
 00:12:35,519 --> 00:12:37,060
-And inevitably,
-every system is going
+dan pasti,
+semua sistem akan
 
 313
 00:12:37,060 --> 00:12:38,643
-to have some sort
-of a breaking point.
+memiliki beberapa
+titik kehancuran.
 
 314
 00:12:38,643 --> 00:12:39,860
-And we'll figure out, oh hey.
+Dan akan kita pecahkan, oh halo.
 
 315
 00:12:39,860 --> 00:12:42,420
-This system, we can break
-it in if we push this way.
+Sistem ini, dapat kita susupi
+jika kita melakukan dengan cara ini.
 
 316
 00:12:42,420 --> 00:12:46,260
-And this system doesn't work
-under these set of assumptions.
+Dan sistem ini tidak bekerja
+di bawah beberapa asumsi ini.
 
 317
 00:12:46,260 --> 00:12:48,195
-And it's inevitable
-that every system
+Dan ini tidak bisa dihindari
+bahwa setiap sistem
 
 318
 00:12:48,195 --> 00:12:49,320
-will have a breaking point.
+akan memiliki titik kehancuran.
 
 319
 00:12:49,320 --> 00:12:51,380
-But that doesn't mean that
-every system is worthless.
+Namun itu bukan berarti
+setiap sistem tidak berguna.
 
 320
 00:12:51,380 --> 00:12:52,920
-It just means you
-have to know when
+Ini berarti kalian
+harus tau kapan
 
 321
 00:12:52,920 --> 00:12:54,980
-to use every system design.
+harus menggunakan setiap desain sistem.
 
 322
 00:12:54,980 --> 00:12:57,360
-And it's sort of useful to
-do this pushing exercise
+Dan ini nampak berguna
+untuk melakukan pengujian
 
 323
 00:12:57,360 --> 00:12:59,130
-to find the
-weaknesses so that you
+untuk mencari
+kelemahan sehingga kalian
 
 324
 00:12:59,130 --> 00:13:03,530
-know when certain ideas work,
-when certain ideas are not
+tau kapan ide tertentu berguna,
+kapan ide tertentu tidak 
 
 325
 00:13:03,530 --> 00:13:04,940
-applicable.
+tidak dapat dipakai.
 
 326
 00:13:04,940 --> 00:13:09,190
-And in reality, this is a little
-more fuzzy boundary, right?
+dalam kenyataan, ini 
+batasan yang agak membingungkan, betul?
 
 327
 00:13:09,190 --> 00:13:11,660
