@@ -744,23 +744,23 @@ yang dapat dikembalikan juga.
 
 157
 00:08:30,330 --> 00:08:35,840
-Tanda tambah dapat dibalik
+Plus dapat dibalik
 dengan negasi.
 
 158
 00:08:35,840 --> 00:08:39,580
-Dan eksklusif OR
-hanyalah eksklusif OR.
+Dan XOR bisa dibalik
+dengan XOR juga.
 
 159
 00:08:39,580 --> 00:08:45,905
 Karena jika Anda melakukan A 
-eksklusif OR B, maka Anda mendapatkan C.
+XOR B, maka Anda mendapatkan C.
 
 160
 00:08:45,905 --> 00:08:50,590
-Dan bayangkan jika anda melakukan B
-lagi untuk itu, Anda mendapatkan kembali A.
+Dan bayangkan jika anda melakukan XOR B
+lagi, Anda mendapatkan kembali A.
 
 161
 00:08:50,590 --> 00:08:52,230
@@ -769,12 +769,12 @@ Itulah yang saya maksud dengan pembalikan.
 162
 00:08:52,230 --> 00:08:56,240
 Karena pada dasarnya Anda memiliki A
-eksklusif OR A dibatalkan.
+XOR A akan dibatalkan.
 
 163
 00:08:56,240 --> 00:09:00,780
-Jadi itu seperti sebuah eksklusif OR B
-eksklusif OR B
+Jadi itu seperti XOR B
+XOR B
 
 164
 00:09:00,780 --> 00:09:04,330
@@ -782,13 +782,13 @@ lagi akan memberikan A.
 
 165
 00:09:04,330 --> 00:09:09,110
-Jadi jika kamu melihat pada AES, 
-contohnya, yang dimana lebih Advance
+Jadi jika Anda melihat pada AES, 
+contohnya, atau Advance
 
 166
 00:09:09,110 --> 00:09:12,430
-Enkripsi Standar (AES), adalah 
-benar-benar hanya 4 baris kode,
+Encryption Standard (AES), adalah 
+benar-benar hanya empat baris kode,
 
 167
 00:09:12,430 --> 00:09:14,380
@@ -796,37 +796,37 @@ mungkin hanya delapan baris code.
 
 168
 00:09:14,380 --> 00:09:18,520
-Tapi ini digunakan sangat 
-baik, yang sudah ada
+Tapi ini banyak sekali
+digunakan, sudah ada
 
 169
 00:09:18,520 --> 00:09:22,670
-sejak lama, symmetric 
-key cipher yang
+sejak lama, enkripsi 
+kunci simetri yang
 
 170
 00:09:22,670 --> 00:09:27,020
-berjalan di mode 128 bit 
+berjalan di mode 128 bit dan
 juga berjalan di mode 256bit.
 
 171
 00:09:27,020 --> 00:09:30,410
-dan itu seperti yang saya 
-bilang, beberapa baris kode.
+dan itu, seperti yang saya 
+katakakn, beberapa baris kode.
 
 172
 00:09:30,410 --> 00:09:34,370
-dan anda akan melihat operasi 
+dan Anda akan melihat operasi 
 seperti ini, yaitu permutasi.
 
 173
 00:09:34,370 --> 00:09:37,720
-dan anda akan melihat simbol topi 
-jika anda melihat C program, yang dimana
+dan anda akan melihat simbol topi (^)
+jika anda melihat program berbahasa C, di mana
 
 174
 00:09:37,720 --> 00:09:39,140
-adalah OR eksklusif.
+adalah XOR.
 
 175
 00:09:39,140 --> 00:09:42,260
@@ -835,21 +835,21 @@ enkripsi dan deskripsi
 
 176
 00:09:42,260 --> 00:09:43,840
-merupakan identik di dalam implementasi.
+merupakan hal yang identik di dalam implementasinya.
 
 177
 00:09:43,840 --> 00:09:46,500
-anda akan menjalankan itu satu cara 
-dan akan menjalankannya terus menerus.
+Anda hanya akan menjalankannya satu arah,
+dan Anda menjalankannya lagi.
 
 178
 00:09:46,500 --> 00:09:49,040
-dan anda akan mendapatkan 
-hasilnya, karena permutasi ini
+dan Anda mendapatkan hasilnya.
+Karena permutasi ini
 
 179
 00:09:49,040 --> 00:09:50,060
-bisa di dikembalikan (bolak-balik).
+bisa di dikembalikan.
 
 180
 00:09:50,060 --> 00:09:52,080
@@ -857,70 +857,70 @@ dan topi juga bisa di kembalikan (bolak balik)
 
 181
 00:09:52,080 --> 00:09:54,880
-Dan mereka semua ditandai dengan
-integers, jadi kamu
+Dan itu semua bilangan bulat bertanda
+(positif & negatif), jadi Anda
 
 182
 00:09:54,880 --> 00:09:55,940
-hanya menambahkan mereka.
+hanya menjumlahkan mereka.
 
 183
 00:09:55,940 --> 00:09:58,220
 Dan ini hanya
-penambahan aritmatika,
+komplemen aritmatika,
 
 184
 00:09:58,220 --> 00:10:00,140
-yang terlihat sama.
+jadi akan terlihat sama juga.
 
 185
 00:10:00,140 --> 00:10:02,440
-Jadi aku meminta kamu untuk
-pergi melihat AES.
+Jadi saya menyarankan Anda untuk
+melihat lebih dalam AES.
 
 186
 00:10:02,440 --> 00:10:04,500
-Aku tidak akan menghabiskan
+Saya tidak akan menghabiskan
 banyak waktu untuk itu.
 
 187
 00:10:04,500 --> 00:10:09,390
 Kunci dari ide ini terletak pada
-simetri dan reversibiltas.
+simetri dan kemampuan untuk dibalik (reversibility).
 
 188
 00:10:09,390 --> 00:10:10,944
-Kita bergerak maju
-dari itu.
+Kita meninggalkan
+hal tersebut.
 
 189
 00:10:10,944 --> 00:10:12,360
-Jelasnya, kita tidak
-berbicara tentang itu
+Jelas, kita tidak
+berbicara tentang hal tersebut
 
 190
 00:10:12,360 --> 00:10:14,720
-ketika kita berbicara tentang cara
-memotong fungsi, dan sebagainya.
+saat kita berbicara tentang fungsi hash
+satu arah, dan sebagainya.
 
 191
 00:10:14,720 --> 00:10:18,500
 Itu merupakan sebuah situasi yang berbeda
-di mana kami tidak memiliki kerahasiaan.
+di mana kita tidak memiliki kerahasiaan.
 
 192
 00:10:18,500 --> 00:10:21,770
-Tapi di sini, kami menginginkan simetri.
+Tapi di sini, kita menginginkan simetri.
 
 193
 00:10:21,770 --> 00:10:23,560
 Pertanyaan besar
-yang seharusnya kamu tanyakan
+Anda akan tanyakan
 
 194
 00:10:23,560 --> 00:10:26,590
-dan kamu akan bertanya pada dirimu sendiri
-ketika kamu melihat ini, kamu berkata,
+dan Anda baiknya bertanya pada diri sendiri
+saat Anda melihat ini, Anda berkata,
 
 195
 00:10:26,590 --> 00:10:27,470
@@ -928,17 +928,17 @@ Oke bagus.
 
 196
 00:10:27,470 --> 00:10:30,810
-Saya dapat membuat kunci simetri
-algoritma enkripsi
+Saya dapat membangun algoritme
+enkripsi kunci simetri
 
 197
 00:10:30,810 --> 00:10:32,790
-Mereka sebenarnya, saya seharusnya
-berkata, sedikit lebih mudah
+Mereka sebenarnya, menurut
+saya, lebih mudah
 
 198
 00:10:32,790 --> 00:10:36,020
-untuk melakukan daripada membangun
+untuk dilakukan daripada membangun
 fungsi hash, yang
 
 199
@@ -949,7 +949,7 @@ properti-properti yang menarik
 200
 00:10:39,560 --> 00:10:43,260
 dan sulit untuk mendapatkan properti
-seperti pertahanan dari kolusi.
+seperti (collision) resistance
 
 201
 00:10:43,260 --> 00:10:48,470
@@ -962,17 +962,17 @@ berbagi kunci rahasia, k?
 
 203
 00:10:50,950 --> 00:10:52,040
-Jadi kamu membutuhkannya.
+Jadi Anda membutuhkannya.
 
 204
 00:10:52,040 --> 00:10:54,770
-Kamu membutuhkan angka 128-bit 
+Anda membutuhkan angka 128-bit 
 ini agar 
 
 205
 00:10:54,770 --> 00:10:58,750
 terdapat sebuah saluran,
-saluran aman, dimana Alice
+saluran aman, di mana Alice
 
 206
 00:10:58,750 --> 00:11:02,570
@@ -981,12 +981,12 @@ dan sebaliknya.
 
 207
 00:11:02,570 --> 00:11:05,320
-Jadi sekarang kamu dapat berkata
-Alice mengirimkan Bob sebuah pesan.
+Jadi sekarang Anda dapat berkata
+Alice mengirimkan Bob sebuah surat.
 
 208
 00:11:05,320 --> 00:11:09,000
-Tetapi sekarang kamu tahu, mal dapat
+Tetapi Anda tahu, Mal dapat
 mecegat pesan tersebut.
 
 209
@@ -996,13 +996,13 @@ melihat surat tersebut,
 
 210
 00:11:12,930 --> 00:11:15,290
-sebetulnya mengirim
-pesan, yang
+mengirimkan pesan
+yang sama, yang
 
 211
 00:11:15,290 --> 00:11:20,920
 adalah hal terbaik untuk
-dia, kemudian Alice dan Bob
+nya, dan Alice dan Bob
 
 212
 00:11:20,920 --> 00:11:22,750
@@ -1011,7 +1011,7 @@ memiliki saluran aman.
 
 213
 00:11:22,750 --> 00:11:25,360
-Hal tersebut adalah semacam kasus
+Hal tersebut adalah semacam
 skenario terbaik untuk mal, benar?
 
 214
