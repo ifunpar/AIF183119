@@ -997,106 +997,106 @@ mungkin kalian ingin
 
 212
 00:08:37,630 --> 00:08:40,750
-to assume the bad guy doesn't
-exactly know your password,
+menganggap bahwa orang jahat tersebut
+tidak mengetahui password Anda,
 
 213
 00:08:40,750 --> 00:08:43,159
-or they don't actually have
-physical access to your phone
+atau mereka sebenarnya tidak memiliki
+akses secara fisik ke telepon Anda
 
 214
 00:08:43,159 --> 00:08:45,050
-and your keys and your laptop.
+dan kunci Anda dan laptop Anda.
 
 215
 00:08:45,050 --> 00:08:47,990
-Otherwise, it's going to be hard
-to make some sort of progress
+Jika tidak, akan sulit
+untuk membuat kemajuan
 
 216
 00:08:47,990 --> 00:08:50,510
-in this game.
+dalam permainan ini.
 
 217
 00:08:50,510 --> 00:08:52,940
-And turns out that while
-this is actually quite tricky
+Dan ternyata ketika permainan ini
+cukup rumit
 
 218
 00:08:52,940 --> 00:08:56,470
-to come up with, but I guess
-one general rule is it's
+untuk dipikirkan, tapi saya kira
+satu aturan utamanya adalah
 
 219
 00:08:56,470 --> 00:08:59,390
-much better err on
-the side of caution
+akan lebih baik jika Anda
+berhati-hati dan
 
 220
 00:08:59,390 --> 00:09:01,800
-and being conservative in
-picking your threat model,
+konservatif dalam memilih
+model ancaman Anda,
 
 221
 00:09:01,800 --> 00:09:03,920
-because bad guy might
-always surprise you
+karena orang jahat mungkin
+selalu mengejutkan Anda
 
 222
 00:09:03,920 --> 00:09:07,290
-in terms of what they might
-be able to do in practice.
+dalam hal apa yang mereka mungkin
+dapat lakukan dalam praktiknya.
 
 223
 00:09:07,290 --> 00:09:10,190
-And finally, in order to
-achieve security, in order
+Dan pada akhirnya, untuk
+mencapai keamanan, untuk
 
 224
 00:09:10,190 --> 00:09:12,980
-to achieve our goal under
-the set of assumptions,
+mencapai tujuan kita dengan
+sekumpulan asumsi tersebut,
 
 225
 00:09:12,980 --> 00:09:14,580
-we're going to look
-at some mechanism.
+kita akan melihat
+beberapa mekanisme.
 
 226
 00:09:17,400 --> 00:09:21,720
-And this is the, basically,
-software or hardware
+Dan ini adalah, pada dasarnya,
+perangkat lunak atau perangkat keras
 
 227
 00:09:21,720 --> 00:09:24,590
-or whatever part
-of system design,
+atau bagian apapun
+dari rancangan sistem,
 
 228
 00:09:24,590 --> 00:09:26,280
-implementation,
-et cetera, that's
+implementasi,
+dan lain-lain, itu
 
 229
 00:09:26,280 --> 00:09:30,470
-going to try to make sure
-our policy is followed
+akan mencoba meyakinkan bahwa
+kebijakan kita diikuti
 
 230
 00:09:30,470 --> 00:09:34,430
-as long as the bad guy
-follows the threat model.
+selama orang jahat
+mengikuti model ancaman.
 
 231
 00:09:34,430 --> 00:09:36,970
-So the end result
-is that, as long
+Jadi hasil akhirnya
+adalah bahwa, selama
 
 232
 00:09:36,970 --> 00:09:39,700
-as our threat model was
-correct, hopefully we'll
+model ancaman kita tepat,
+semoga kita akan
 
 233
 00:09:39,700 --> 00:09:40,810
