@@ -1012,7 +1012,7 @@ dan kunci Anda dan laptop Anda.
 215
 00:08:45,050 --> 00:08:47,990
 Jika tidak, akan sulit
-untuk membuat kemajuan
+untuk maju
 
 216
 00:08:47,990 --> 00:08:50,510
@@ -1045,7 +1045,7 @@ selalu mengejutkan Anda
 
 222
 00:09:03,920 --> 00:09:07,290
-dalam hal apa yang mereka mungkin
+dengan apa yang mereka mungkin
 dapat lakukan dalam praktiknya.
 
 223
@@ -1076,12 +1076,12 @@ dari rancangan sistem,
 228
 00:09:24,590 --> 00:09:26,280
 implementasi,
-dan lain-lain, itu
+dan lain-lain, hal itu
 
 229
 00:09:26,280 --> 00:09:30,470
-akan mencoba meyakinkan bahwa
-kebijakan kita diikuti
+akan mencoba memastikan bahwa
+kebijakan kita dipatuhi
 
 230
 00:09:30,470 --> 00:09:34,430
@@ -1104,7 +1104,7 @@ memenuhi kebijakan kita.
 
 234
 00:09:40,810 --> 00:09:44,100
-Dan itu harus menjadi kasus dimana
+Dan hal itu harus menjadi kasus di mana
 mekanismenya tidak gagal.
 
 235
@@ -1127,7 +1127,7 @@ Jadi kenapa ini sangat sulit, bukan?
 
 239
 00:09:52,410 --> 00:09:53,644
-Ini terlihat seperti rencana yang sederhana.
+Ini terlihat seperti sebuah rencana yang sederhana.
 
 240
 00:09:53,644 --> 00:09:55,060
@@ -1140,7 +1140,7 @@ dan Anda telah memulai dan membuat kemajuan.
 
 242
 00:09:57,180 --> 00:10:02,180
-Tetapi secara praktek, seperti Anda, Saya
+Tetapi secara praktek, seperti Anda, saya
 yakin, pernah melihat di dunia ini,
 
 243
@@ -1203,7 +1203,7 @@ file nilai, itu sangat mudah.
 
 255
 00:10:37,790 --> 00:10:40,120
-Anda hanya perlu menanyakan mereka, hei, bisakah
+Saya hanya perlu menanyakan mereka, hei, bisakah
 kalian menguji dan melihat?
 
 256
