@@ -712,279 +712,279 @@ di SSL.
 
 151
 00:07:01,407 --> 00:07:03,490
-But the key there is that
-the solution is actually
+Tapi kuncinya adalah bahwa
+solusinya sama dengan
 
 152
 00:07:03,490 --> 00:07:06,170
-exactly the same as what
-you would do Kerberos,
+solusi yang dilakukan
+pada Kerberos,
 
 153
 00:07:06,170 --> 00:07:09,514
-and what you would do in SSL
-or TLS to address those guys.
+dan yang dilakukan pada SSL
+atau TLS untuk mengatasi hal-hal tersebut.
 
 154
 00:07:09,514 --> 00:07:10,680
-But you're absolutely right.
+Tapi Anda benar.
 
 155
 00:07:10,680 --> 00:07:12,840
-There Kerberos deep
-protocols we read about
+Protokol Keberos
+yang kita baca dan dalami
 
 156
 00:07:12,840 --> 00:07:16,150
-in the paper is pretty dated.
+pada paper tersebut sudah cukup lama.
 
 157
 00:07:16,150 --> 00:07:18,250
-So, even if you were
-using it for the web,
+Jadi, bahkan jika kalian ingin
+menggunakannya untuk web,
 
 158
 00:07:18,250 --> 00:07:21,860
-you would want to apply
-some changes to it.
+kalian harus melakukan
+beberapa perubahan pada protokol tersebut
 
 159
 00:07:21,860 --> 00:07:26,190
-Those are not huge though,
-at the [INAUDIBLE] level.
+Perubahannya tidak besar,
+pada tingkatan [TIDAK TERDENGAR].
 
 160
 00:07:26,190 --> 00:07:28,280
-Any other thoughts on why
-we should use Kerberos?
+Adakah pendapat lain mengapa
+kita harus menggunakan Kerberos?
 
 161
 00:07:28,280 --> 00:07:29,095
-Yeah?
+Ya?
 
 162
 00:07:29,095 --> 00:07:30,580
-AUDIENCE: [INAUDIBLE]
+HADIRIN : [TIDAK TERDENGAR]
 
 163
 00:07:36,277 --> 00:07:38,110
-PROFESSOR: This is
-actually not so scalable.
+PROFESSOR: Ini
+sebenernya tidak terlalu skalabel.
 
 164
 00:07:40,815 --> 00:07:41,440
-Yeah, recovery.
+Yeah, perbaikan.
 
 165
 00:07:44,240 --> 00:07:45,790
-Maybe registration
-even, as well,
+Mungkin pendafataranya
+bahkan, juga,
 
 166
 00:07:45,790 --> 00:07:48,100
-like you have to go to
-some accounts office
+sepertinya Anda harus mendatangi
+kantor tertentu
 
 167
 00:07:48,100 --> 00:07:49,050
-and get an account.
+untuk mendapatkan sebuah akun.
 
 168
 00:07:49,050 --> 00:07:50,406
-Yeah?
+Ya?
 
 169
 00:07:50,406 --> 00:07:52,160
-AUDIENCE: [INAUDIBLE]
-needs to be online.
+AUDIENS: [TIDAK TERDENGAR]
+harus online.
 
 170
 00:07:52,160 --> 00:07:54,120
-PROFESSOR: Yeah, so
-that's another problem.
+PROFESSOR: Ya, jadi
+itu merupakan masalah lain.
 
 171
 00:07:54,120 --> 00:07:55,620
-These are sort of
-management issues,
+Hal-hal ini adalah semacam
+masalah manajemen,
 
 172
 00:07:55,620 --> 00:07:59,794
-but at the protocol
-level, the KDC
+tetapi pada tingkat
+protokol, KDC
 
 173
 00:07:59,794 --> 00:08:01,460
-has to be online
-because it has actually
+harus online
+karena sebenarnya dia
 
 174
 00:08:01,460 --> 00:08:03,635
-mediate every interaction
-you have with the service.
+memediasi setiap interaksi 
+yang Anda lakukan dengan layanan.
 
 175
 00:08:05,289 --> 00:08:07,830
-It means that in the web, every
-time you go to a new website,
+Artinya, di web, setiap 
+kali Anda membuka situs web baru,
 
 176
 00:08:07,830 --> 00:08:10,130
-you'd have to talk to
-some KDC first, which
+Anda harus berbicara
+terlebih dahulu dengan KDC, yang mana
 
 177
 00:08:10,130 --> 00:08:11,940
-would be a bit of a
-performance bottleneck.
+akan terjadi sedikit 
+penghambatan kinerja.
 
 178
 00:08:11,940 --> 00:08:13,520
-So like another
-kind of scalability,
+Jadi seperti 
+jenis skalabilitas lainnya,
 
 179
 00:08:13,520 --> 00:08:15,680
-this is like
-performance scalability.
+ini seperti
+skalabilitas kinerja.
 
 180
 00:08:15,680 --> 00:08:18,900
-This is more management
-scalability kind of stuff.
+Ini lebih merupakan 
+seperti jenis skalabilitas manajemen.
 
 181
 00:08:18,900 --> 00:08:19,470
-Make sense?
+Masuk akal?
 
 182
 00:08:22,030 --> 00:08:24,040
-So, how can we
-solve this problem
+Jadi, bagaimana kita
+menyelesaikan masalah ini
 
 183
 00:08:24,040 --> 00:08:27,160
-with these better primitives?
+dengan primitif yang lebih baik ini?
 
 184
 00:08:27,160 --> 00:08:31,330
-Well, the idea is to use
-public key cryptography to give
+Nah, idenya adalah menggunakan 
+kunci publik kriptografi untuk
 
 185
 00:08:31,330 --> 00:08:33,980
-this KDC out of the loop.
+mengesampingkan KDC ini.
 
 186
 00:08:33,980 --> 00:08:35,880
-So let's first
-figure out whether we
+Jadi mari kita 
+cari tahu dulu apakah kita
 
 187
 00:08:35,880 --> 00:08:40,419
-can establish secure
-communication if you just know
+dapat membangun keamanan
+komunikasi jika Anda mengetahui
 
 188
 00:08:40,419 --> 00:08:41,669
-some other party's public key.
+kunci publik yang dimiliki oleh pihak lain.
 
 189
 00:08:41,669 --> 00:08:43,710
-And then we'll
-see how we plug-in
+Dan kemudian kita akan
+melihat bagaimana kita memasang
 
 190
 00:08:43,710 --> 00:08:46,840
-a public key version of a
-KDC to authenticate parties
+sebuah versi kunci publik dari sebuah
+KDC untuk mengautentikasi pihak-pihak
 
 191
 00:08:46,840 --> 00:08:50,080
-in this protocol.
+dalam protokol ini.
 
 192
 00:08:50,080 --> 00:08:54,194
-If you don't want
-to use a KDC, what
+Jika Anda tidak mau
+menggunakan KDC, apa
 
 193
 00:08:54,194 --> 00:08:55,652
-you could do with
-public key crypto
+yang bisa Anda lakukan dengan
+kriptografi kunci publik
 
 194
 00:08:55,652 --> 00:08:58,190
-is maybe you can somehow
-learn the public key
+adalah mungkin Anda bisa
+pelajari kunci publik tersebut
 
 195
 00:08:58,190 --> 00:08:59,440
-of the public key of the
-other value on a connector.
+dari kunci publik dari
+nilai lain pada sebuah penghubung.
 
 196
 00:08:59,440 --> 00:09:01,690
-So in Kerberos, if I want
-to connect to a file server,
+Jadi di Kerberos, jika saya mau
+terhubung ke server berkas,
 
 197
 00:09:01,690 --> 00:09:04,330
-maybe I just know the
-file server's public key
+mungkin saya hanya mengetahui
+kunci publik dari file server
 
 198
 00:09:04,330 --> 00:09:05,190
-from somewhere.
+dari suatu tempat.
 
 199
 00:09:05,190 --> 00:09:07,510
-Like me as a freshman I get
-a printout saying the file
+Seperti saya sebagai orang baru mendapatkan
+sebuah hasil cetak yang menyatakan bahwa server
 
 200
 00:09:07,510 --> 00:09:09,260
-server's public key is this.
+berkas memiliki kunci publik sebagai ini.
 
 201
 00:09:09,260 --> 00:09:12,450
-And then you can go
-ahead and connect it.
+Anda kemudian dapat melanjutkan
+dan memulai koneksi.
 
 202
 00:09:12,450 --> 00:09:14,760
-And the way you might
-actually do this is you
+Cara yang mungkin bagi Anda
+untuk melakukan hal ini adalah Anda
 
 203
 00:09:14,760 --> 00:09:18,552
-could just encrypt a message
-for the public key of the file
+dapat mengenkripsi sebuah pesan
+untuk kunci publik dari server
 
 204
 00:09:18,552 --> 00:09:20,010
-server that you
-want to connect to.
+berkas yang Anda 
+ingin hubungi.
 
 205
 00:09:20,010 --> 00:09:22,460
-But it turns out
-that in practice,
+Tapi ternyata
+dalam praktiknya, 
 
 206
 00:09:22,460 --> 00:09:24,541
-these public key
-operations are pretty slow.
+operasi kunci publik ini
+beroperasi sangat lambat.
 
 207
 00:09:24,541 --> 00:09:26,040
-They are several
-orders of magnitude
+Operasi kunci publik
+beberapa kali
 
 208
 00:09:26,040 --> 00:09:29,260
-slower than symmetric
-key cryptography.
+lebih lambat dari kriptografi
+kunci simetris.
 
 209
 00:09:29,260 --> 00:09:33,520
