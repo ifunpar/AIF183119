@@ -1100,115 +1100,115 @@ semoga kita akan
 
 233
 00:09:39,700 --> 00:09:40,810
-satisfy our policy.
+memenuhi kebijakan kita.
 
 234
 00:09:40,810 --> 00:09:44,100
-And it has to be the case that
-the mechanism doesn't screw up.
+Dan itu harus menjadi kasus dimana
+mekanismenya tidak gagal.
 
 235
 00:09:44,100 --> 00:09:45,420
-Make sense?
+Masuk akal?
 
 236
 00:09:45,420 --> 00:09:48,220
-Fairly high level
-story about how
+Cerita yang
+cukup rumit
 
 237
 00:09:48,220 --> 00:09:50,470
-to think about
-this kind of stuff.
+untuk memikirkan
+hal semacam ini.
 
 238
 00:09:50,470 --> 00:09:52,410
-So why is this so hard, right?
+Jadi kenapa ini sangat sulit, bukan?
 
 239
 00:09:52,410 --> 00:09:53,644
-It seems like a simple plan.
+Ini terlihat seperti rencana yang sederhana.
 
 240
 00:09:53,644 --> 00:09:55,060
-You write down
-these three things,
+Anda menuliskan
+tiga hal ini,
 
 241
 00:09:55,060 --> 00:09:57,180
-and you're off and running.
+dan Anda telah memulai dan membuat kemajuan.
 
 242
 00:09:57,180 --> 00:10:02,180
-But in practice, as you, I'm
-sure, have seen in the world,
+Tetapi secara praktek, seperti Anda, Saya
+yakin, pernah melihat di dunia ini,
 
 243
 00:10:02,180 --> 00:10:04,490
-computer systems are
-almost always compromised
+sistem komputer
+hampir selalu membahayakan
 
 244
 00:10:04,490 --> 00:10:05,730
-in some way or another.
+dalam beberapa cara atau lainnya.
 
 245
 00:10:05,730 --> 00:10:08,300
-And break ins are
-pretty commonplace.
+Dan pembobolan
+cukup lumrah.
 
 246
 00:10:08,300 --> 00:10:12,210
-And the big reason
-why security tends
+Dan alasan utama
+mengapa mendirikan keamanan
 
 247
 00:10:12,210 --> 00:10:14,800
-to be a difficult problem
-is because what we have here
+menjadi masalah yang sulit
+karena apa yang Anda miliki di sini
 
 248
 00:10:14,800 --> 00:10:17,260
-is sort of, this will be
-familiar to those of you
+adalah semacam, ini akan
+terdengar tidak asing bagi Anda
 
 249
 00:10:17,260 --> 00:10:19,400
-took 6.033, this
-is a negative goal,
+yang sudah mengambil 6.033, ini
+adalah tujuan negatif,
 
 250
 00:10:19,400 --> 00:10:23,270
-meaning that we have to make
-sure our security policy is
+artinya Anda harus memastikan
+kebijakan keamanan Anda
 
 251
 00:10:23,270 --> 00:10:27,360
-followed regardless of
-what the attacker can do.
+diikuti apapun
+yang dapat dilakukan penyerang.
 
 252
 00:10:27,360 --> 00:10:30,730
-So just by contrast, if you
-want to build a file system,
+Jadi sebaliknya, jika Anda
+ingin membangun sebuah sistem file,
 
 253
 00:10:30,730 --> 00:10:36,310
-and you want to make sure that
-my TAs can access the grades
+dan Anda ingin memastikan bahwa
+TA Anda dapat mengakses
 
 254
 00:10:36,310 --> 00:10:37,790
-file, that's pretty easy.
+file nilai, itu sangat mudah.
 
 255
 00:10:37,790 --> 00:10:40,120
-I just ask them, hey, can
-you guys test and see?
+Anda hanya perlu menanyakan mereka, hei, bisakah
+kalian menguji dan melihat?
 
 256
 00:10:40,120 --> 00:10:41,411
-Can you access the grades file?
+Dapatkah Anda mengakses file nilai?
 
 257
 00:10:41,411 --> 00:10:43,600
