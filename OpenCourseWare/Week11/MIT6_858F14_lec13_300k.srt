@@ -735,28 +735,28 @@ ke data mereka atau tidak.
 
 155
 00:06:51,460 --> 00:06:53,600
-Mari kita lihat bagaimana
-Kerberos bekerja
+Baiklah, mari kita lihat
+bagaimana Kerberos bekerja
 
 156
 00:06:53,600 --> 00:06:57,340
-atau setidaknya, seperti
-apa arsitekturnya.
+atau setidaknya, bagaimana
+arsitetktur keseluruhannya.
 
 157
 00:06:57,340 --> 00:07:01,200
-Jadi rencana yang mereka
-pikirkan adalah
+Jadi rencana yang orang-orang
+ini punya dalam pikiram mereka adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-akan terdapat server
+akan akan ada server
 Kerberos ini.
 
 159
 00:07:03,500 --> 00:07:05,470
-Sudah kita gambar, tetapi
-mari kita buat lagi
+Sudah kita gambar di sana, tetapi
+mari kita gambarkan lagi
 
 160
 00:07:05,470 --> 00:07:07,300
@@ -764,41 +764,41 @@ dengan skala yang sedikit lebih besar.
 
 161
 00:07:07,300 --> 00:07:10,540
-Ini adalah Kerberos server
+Jadi ini adalah server Kerberos.
 
 162
 00:07:10,540 --> 00:07:16,650
-Dan sekarang, ini biasanya dipanggil
-KDC--Key Distribution Center.
+Dan sekarang, ini biasanya disebu dengan
+KDC-- Key Distribution Center.
 
 163
 00:07:16,650 --> 00:07:22,430
 Dan ada semua pengguna 
-diluar sana dan juga
+di luar sana dan juga
 
 164
 00:07:22,430 --> 00:07:26,840
-Layanan yang mungkin anda
-inginkan untuk terhubung.
+layanan-layanan yang mungkin ingin
+Anda hubungi.
 
 165
 00:07:26,840 --> 00:07:30,860
 Dan rencananya adalah,
-Kerberos server ...
+server Kerberos server
 
 166
 00:07:30,860 --> 00:07:34,650
 akan bertanggung jawab 
-untuk menyimpan
+untuk menyimpan sebuah kunci
 
 167
 00:07:34,650 --> 00:07:39,070
-<i>shared key</i> antara Kerberos server
-dengan seluruh entitas di muka bumi,
+bersama antara server Kerberos
+dengan seluruh entitas di dunia,
 
 168
 00:07:39,070 --> 00:07:41,080
-atau setidaknya di subjek ini.
+atau setidaknya di dalam realm ini.
 
 169
 00:07:41,080 --> 00:07:45,885
@@ -807,33 +807,33 @@ kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-Lalu, Kerberos server
-akan...
+Lalu, server Kerberos
+akan
 
 171
 00:07:47,260 --> 00:07:49,720
-untuk mengingat ini
-key di suatu tempat di sini.
+mengingat kunci ini
+di suatu tempat di sini.
 
 172
 00:07:49,720 --> 00:07:53,680
 Begitu pula untuk
-server, key KS
+server, kunci KS
 
 173
 00:07:53,680 --> 00:07:56,080
 akan diketahui
-ke layanan itu sendiri
+oleh layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-dan ke server Kerberos
-tapi semoga tidak ada orang lain.
+dan oleh server Kerberos
+tapi semoga bukan orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
-Jadi kamu bisa menganggapnya sebagai
-suatu generalisasi dari password,
+Jadi Anda bisa menganggapnya sebagai
+bentuk yang lebih umum dari password,
 
 176
 00:08:02,020 --> 00:08:02,520
@@ -841,22 +841,22 @@ betul?
 
 177
 00:08:02,520 --> 00:08:04,440
-Jadi kamu mengetahui password tersebut
+Jadi Anda mengetahui sebuah password
 dan server Kerberos juga
 
 178
 00:08:04,440 --> 00:08:05,940
-mengetahui password kamu
-Tetapi orang lain tidak.
+mengetahui password Anda
+tetapi orang lain tidak.
 
 179
 00:08:05,940 --> 00:08:08,790
 Dan ini adalah bagaimana kalian
-akan membuktikan satu sama yang lain.
+akan membuktikan satu dengan yang lain.
 
 180
 00:08:08,790 --> 00:08:10,130
-Iya, Saya orang yang tepat.
+Ya, saya orang yang tepat.
 
 181
 00:08:10,130 --> 00:08:13,000
@@ -865,7 +865,7 @@ sedangkan orang lain tidak.
 
 182
 00:08:13,000 --> 00:08:14,150
-Bisa dimengerti?
+Masuk akal?
 
 183
 00:08:14,150 --> 00:08:17,982
