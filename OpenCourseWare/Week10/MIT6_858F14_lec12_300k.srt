@@ -713,18 +713,18 @@ menurut paper ini.
 
 151
 00:05:51,970 --> 00:05:55,160
-Dan Khususnya,
+Dan khususnya,
 penyerang dapat menginjeksi
 
 152
 00:05:55,160 --> 00:05:58,860
-paket yang berpura-pura 
+paket-paket yang berpura-pura 
 berasal dari pengirim lain.
 
 153
 00:05:58,860 --> 00:06:02,295
-karena cara hal tersebut bekerja dalam 
-IP adalah dengan IP tersebut
+Karena cara kerjanya
+adalah paket IP tersebut
 
 154
 00:06:02,295 --> 00:06:04,420
@@ -733,46 +733,46 @@ sumber paket
 
 155
 00:06:04,420 --> 00:06:06,080
-dan tempat tujuan.
+dan tujuannya.
 
 156
 00:06:06,080 --> 00:06:08,830
-dan dengan kebebasan siapapun yang
-membuat paket
+Dan terserah kepada siapapun
+yang membuat paket
 
 157
 00:06:08,830 --> 00:06:11,750
 untuk mengisi nilai yang tepat 
-untuk sumber dan tempat tujuan
+untuk sumber dan tujuan
 
 158
 00:06:11,750 --> 00:06:14,100
-dan tidak seorangpun memeriksa 
+dan tidak seorang pun memeriksa 
 apakah sumbernya merupakan
 
 159
 00:06:14,100 --> 00:06:16,100
-yang tepat.
+sumber yang tepat.
 
 160
 00:06:16,100 --> 00:06:18,050
 Ada berapa peyaringan 
-yang terjadi belakngan ini.
+yang terjadi belakangan ini.
 
 161
 00:06:18,050 --> 00:06:21,430
-Tapi itu agak kurang bagus,
+Tapi biasanya kurang bagus,
 dan sulit untuk diandalkan.
 
 162
 00:06:21,430 --> 00:06:23,115
-Jadi untuk yang pertama
-perkiraan, penyerang
+Jadi untuk perkiraan
+pertama, seorang penyerang
 
 163
 00:06:23,115 --> 00:06:25,340
-dapat mengisi IP apa pun
-alamat sebagai sumber,
+dapat mengisi alamat IP
+apa pun sebagai sumber,
 
 164
 00:06:25,340 --> 00:06:29,180
@@ -781,76 +781,77 @@ tujuan dengan benar.
 
 165
 00:06:29,180 --> 00:06:32,070
-Dan itu menarik
+Dan menarik
 untuk mencoba mencari tahu
 
 166
 00:06:32,070 --> 00:06:35,540
 apa yang bisa dilakukan penyerang
-kemampuan pengiriman seperti itu
+dengan kemampuan pengiriman
 
 167
 00:06:35,540 --> 00:06:37,670
-paket sewenang-wenang.
+paket acak.
 
 168
 00:06:37,670 --> 00:06:41,771
 Sekarang, di beberapa
-minggu sampai ini,
+minggu sampai minggu ini,
 
 169
 00:06:41,771 --> 00:06:43,520
-seperti di buffer overflows
+seperti di buffer overflow
 dan keamanan web,
 
 170
 00:06:43,520 --> 00:06:46,110
-kami melihat, secara luas,
+kita sudah melihat, secara umum,
 bug implementasi, seperti,
 
 171
-00: 06: 46,110 - & gt; 00: 06: 48,440
+00:06:46,110 --> 00:06:48,440
 bagaimana Anda bisa mengeksploitasi
-buffer overflow?
+sebuah buffer overflow?
 
 172
-00: 06: 48,440 - & gt; 00: 06: 50,420
+00:06:48,440 --> 00:06:50,420
 Dan yang menarik,
-penulis makalah ini
+penulis paper ini
 
 173
-00: 06: 50,420 - & gt; 00: 06: 53,010
+00:06:50,420 --> 00:06:53,010
 sebenarnya sama sekali tidak
-tertarik pada implementasi
+tertarik pada bug
 
 174
-00: 06: 53,010 - & gt; 00: 06: 53,510
-bug.
+00:06:53,010 --> 00:06:53,510
+implementasi.
 
 175
-00: 06: 53,510 - & gt; 00: 06: 56,770
+00:06:53,510 --> 00:06:56,770
 Dia sangat tertarik dengan
-kesalahan protokol atau protokol
+kesalahan pada
 
 176
-00: 06: 56,770 - & gt; 00: 06: 57,562
-kesalahan.
+00:06:56,770 --> 00:06:57,562
+protokol.
 
 177
-00: 06: 57,562 - & gt; 00: 06: 58,520
+00:06:57,562 --> 00:06:58,520
 Jadi apa masalahnya?
 
 178
-00: 06: 58,520 - & gt; 00: 07: 00,580
-Mengapa dia mengimplementasi bug,
+00:06:58,520 --> 00:07:00,580
+Mengapa dia mengabaikan
+bug implementasi,
 
 179
-00: 07: 00,580 - & gt; 00: 07: 02,705
-meskipun kami menghabiskan beberapa
-minggu untuk memeriksanya?
+00:07:00,580 --> 00:07:02,705
+meskipun kita menghabiskan beberapa
+minggu untuk melihatnya?
 
 180
-00: 07: 02,705 - & gt; 00: 07: 03,510
+00:07:02,705 --> 00:07:03,510
 Mengapa itu penting?
 
 181
@@ -860,7 +861,7 @@ Ya.
 182
 00:07:04,010 --> 00:07:06,828
 AUDIENS: Karena kita harus
-membiarkan bug tersebut [TIDAK TERDENGAR].
+menjaga bug-bug tersebut [TIDAK TERDENGAR].
 
 183
 00:07:06,828 --> 00:07:09,800
@@ -883,17 +884,17 @@ bug implementasi,
 187
 00:07:15,130 --> 00:07:17,350
 anda memiliki sebuah
-memcpy atau sebuah print-out
+memcpy (memory copy) atau sebuah print-out
 
 188
 00:07:17,350 --> 00:07:19,254
 dalam bentuk tertentu yang
-tidak memeriksa jangkauan.
+tidak memeriksa batas-batas.
 
 189
 00:07:19,254 --> 00:07:21,420
-OK, anda sudah memeriksa
-jangkauan, dan masih berfungsi,
+OK, Anda bisa terapkan pemeriksaan
+batas-batas, dan masih berfungsi,
 
 190
 00:07:21,420 --> 00:07:22,461
@@ -910,23 +911,22 @@ spesifikasi protokol,
 
 193
 00:07:25,995 --> 00:07:29,140
-dibagian bagaimana protokol 
-seharusnya bekerja,
-maka memperbaiki bug
+di bagian bagaimana protokol seharusnya
+bekerja, maka memperbaiki bug
 
 194
 00:07:29,140 --> 00:07:31,190
-akan membutuhkan juga untuk 
-memperbaiki protokolnya, yang
+akan memerlukan juga
+perbaikan protokolnya, yang
 
 195
 00:07:31,190 --> 00:07:33,820
 artinya berpotensi mempengaruhi
-semua sistem 
+semua sistem yang
 
 196
 00:07:33,820 --> 00:07:35,460
-diluar sana yang menggunakan 
+ada di luar sana yang menggunakan 
 protokol ini.
 
 197
@@ -937,7 +937,7 @@ masalah di TCP,
 198
 00:07:37,340 --> 00:07:38,910
 hal tersebut cukup berpotensi
-mengalami kerusakan.
+memberikan efek yang parah.
 
 199
 00:07:38,910 --> 00:07:42,229
@@ -951,35 +951,35 @@ untuk membuat
 
 201
 00:07:43,770 --> 00:07:45,790
-hal itu berpotensi
-kompatibel ke belakang.
+hal itu kompatibel dengan
+versi sebelumnya.
 
 202
 00:07:45,790 --> 00:07:48,530
-Kita akan lihat dengan tepat
-Bug macam apakah ini.
+Kita akan lihat sebenarnya
+bug macam apakah ini.
 
 203
 00:07:48,530 --> 00:07:51,640
-Tetapi ini juga menjadi sebab alasan
-dia bergembira tentang melihat
+Tetapi ini juga menjadi alasan sebenarnya
+dia sangat bersemangat melihat
 
 204
 00:07:51,640 --> 00:07:52,460
-protokol bug.
+bug protokol.
 
 205
 00:07:52,460 --> 00:07:56,555
-Karena mereka secara adil
-mendasar terhadap protokol TCP
+Karena hal tersebut cukup
+mendasar bagi protokol TCP
 
 206
 00:07:56,555 --> 00:07:58,982
-bahwa setiap orang setuju untuk berbicara.
+bahwa setiap orang setuju untuk berkomunikasi.
 
 207
 00:07:58,982 --> 00:08:00,440
-Jadi mari kita tengok
+Jadi mari kita lihat
 salah satu dari orang-orang ini.
 
 208
