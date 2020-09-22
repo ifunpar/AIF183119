@@ -1092,59 +1092,59 @@ communication channel where
 
 231
 00:10:30,930 --> 00:10:32,890
-all the messages
-are just encrypted
+semua pesan 
+dienkripsikan hanya
 
 232
 00:10:32,890 --> 00:10:37,560
-under this secret key s.
+dengan kunci rahasia s ini.
 
 233
 00:10:37,560 --> 00:10:38,971
-Does this Make sense?
+Apakah hal ini dapat dimengerti?
 
 234
 00:10:38,971 --> 00:10:41,220
-So there are some nice
-properties about this protocol.
+Jadi ada beberapa karakteristik yang bagus 
+dari protokol ini.
 
 235
 00:10:41,220 --> 00:10:43,280
-One is that we got
-rid of having to have
+Salah satunya adalah
+kita dapat menghilangkan syarat
 
 236
 00:10:43,280 --> 00:10:47,339
-a KDC be online and generate
-our session key for us.
+sebuah KDC harus online dan menghasilkan
+kunci sesi untuk kita.
 
 237
 00:10:47,339 --> 00:10:48,880
-We could just have
-one of the parties
+Kita hanya perlu
+salah satu pihak
 
 238
 00:10:48,880 --> 00:10:51,670
-generate it and then
-encrypt it for another party
+untuk menghasilkan kunci sesi dan kemudian
+mengenkripsikan kunci tersebut untuk pihak lain
 
 239
 00:10:51,670 --> 00:10:54,040
-without the use of the KDC.
+tanpa menggunakan KDC.
 
 240
 00:10:54,040 --> 00:10:56,070
-Another nice thing
-is we're probably
+Keuntungan lainnya
+adalah kita mungkin
 
 241
 00:10:56,070 --> 00:10:59,480
-pretty confident that
-messages sent by a to b
+cukup percaya diri bahwa
+pesan yang dikirim oleh a kepada b
 
 242
 00:10:59,480 --> 00:11:01,190
-will only be read by b.
+hanya akan di baca oleh b.
 
 243
 00:11:01,190 --> 00:11:04,670
