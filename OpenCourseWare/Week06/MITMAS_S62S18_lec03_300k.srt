@@ -699,281 +699,281 @@ mungkin keberatan?
 
 153
 00:07:02,345 --> 00:07:04,970
-AUDIENCE: I was thinking that if
-someone knew the hash function
+AUDIENS: Saya berpikir jika
+seseorang tahu fungsi hash
 
 154
 00:07:04,970 --> 00:07:06,763
-you're using, wouldn't
-they only define
+yang Anda gunakan, bukankah
+mereka hanya mendefinisikan
 
 155
 00:07:06,763 --> 00:07:09,180
-x because they know that it
-won't help with [INAUDIBLE] x.
+x karena mereka tahu bahwa
+itu tidak akan membantu [TIDAK TEDENGAR] x.
 
 156
 00:07:09,180 --> 00:07:09,700
-[INAUDIBLE]
+[TIDAK TERDENGAR]
 
 157
 00:07:09,700 --> 00:07:10,420
-TADGE DRYJA: Yes.
+TADGE DRYJA: Ya.
 
 158
 00:07:10,420 --> 00:07:11,110
-Yes.
+Ya.
 
 159
 00:07:11,110 --> 00:07:19,140
-So there's no real entropy
-or secrets in this 0 and 1.
+Jadi tidak benar-benar ada entropi
+atau rahasia antara 0 dan 1 ini.
 
 160
 00:07:19,140 --> 00:07:22,420
-But it's purely
-riding on x, right?
+Tetapi itu murni
+berdasarkan pada x, ya?
 
 161
 00:07:22,420 --> 00:07:26,140
-But the idea is,
-well, if I do this,
+Tapi idenya adalah,
+yah, jika saya melakukan ini,
 
 162
 00:07:26,140 --> 00:07:30,880
-and I say, OK, well
-pub2 is the hash
+dan saya katakan, OK, yah
+pub2 adalah hashnya
 
 163
 00:07:30,880 --> 00:07:34,890
-of secret2 concatenated with
-0, yeah, if you know secret2,
+dari secret2 digabungkan dengan
+0, yah, jika anda tahu secret2,
 
 164
 00:07:34,890 --> 00:07:36,290
-you can go back.
+Anda bisa kembali.
 
 165
 00:07:36,290 --> 00:07:37,330
-Because 0 is obvious.
+Karena pengaruh 0 sudah jelas.
 
 166
 00:07:37,330 --> 00:07:40,210
-But the idea is if you don't
-know secret2, the fact that you
+Namun idenya adalah jika Anda tidak 
+tahu nilai secret2, maka fakta bahwa Anda
 
 167
 00:07:40,210 --> 00:07:45,040
-know the last byte of the hash
-input doesn't really help you.
+mengetahui byte terakhir dari masukan 
+hash tidak akan terlalu membantu Anda.
 
 168
 00:07:45,040 --> 00:07:48,400
-Because there's all this
-data that you don't know.
+Karena ada sekumpulan data ini
+yang tidak Anda ketahui.
 
 169
 00:07:48,400 --> 00:07:50,650
-And so you're not going to
-be able to find a preimage.
+Dan Anda tidak akan mampu 
+menemukan sebuah preimage.
 
 170
 00:07:50,650 --> 00:07:52,540
-You're like, OK, I
-know the preimage
+Kamu akan berpikir, oke, saya
+tahu preimage
 
 171
 00:07:52,540 --> 00:07:55,540
-to public2 ends with a 0 byte.
+untuk public2 berakhir dengan sebuah byte 0
 
 172
 00:07:55,540 --> 00:07:59,080
-What are the other 32 bytes
-that come before that?
+Apakah nilai 32 byte lainnya
+yang muncul sebelumnya?
 
 173
 00:07:59,080 --> 00:08:01,404
-You still can't go back
-to make a preimage.
+Anda tetap tidak bisa kembali
+untuk membuat sebuah preimage
 
 174
 00:08:01,404 --> 00:08:05,615
-AUDIENCE: But it feels
-like there's some sort of--
+AUDIENS: Namun sepertinya
+ada semacam--
 
 175
 00:08:05,615 --> 00:08:08,470
-what's the word-- you'd make a
-similar statement saying, oh,
+Apa ya-- Anda akan membuat sebuah
+pernyataan serupa yang mengatkaan, oh
 
 176
 00:08:08,470 --> 00:08:10,360
-if the last byte
-is not important,
+Jika byte terakhir
+tidak penting,
 
 177
 00:08:10,360 --> 00:08:13,600
-then the second-to-last byte is
-not important, either, right?
+lalu byte kedua terakhir
+juga tidak penting, kan?
 
 178
 00:08:17,950 --> 00:08:20,620
-TADGE DRYJA: So the
-attack is I've got pub2,
+TADGE DRYJA: Jadi serangannya
+adalah saya punya pub2
 
 179
 00:08:20,620 --> 00:08:23,320
-which is a 32 byte hash output.
+yang adalah keluaran hash 32 byte.
 
 180
 00:08:23,320 --> 00:08:27,820
-I want to find
-what this thing is.
+Saya ingin tahu
+benda apakah ini.
 
 181
 00:08:27,820 --> 00:08:29,800
-Now, I do know what the
-last byte is, right?
+Sekarang, saya ingin mengetahui apa
+isi byte yang terakhir, yah?
 
 182
 00:08:29,800 --> 00:08:32,320
-It's going to be,
-let's say, 33 bytes,
+Itu akan menjadi,
+misalnya, 33 byte,
 
 183
 00:08:32,320 --> 00:08:34,780
-and the last byte is a 0.
+dan byte terakhir itu adalah sebuah 0.
 
 184
 00:08:34,780 --> 00:08:37,570
-And this is going to
-be some random numbers
+Dan ini akan menjadi
+beberapa angka acak
 
 185
 00:08:37,570 --> 00:08:38,500
-all the way back.
+Jadi saya memiliki beberapa petunjuk
+tentang bagaimana preimage nya.
 
 186
 00:08:38,500 --> 00:08:43,539
-So I have some insight
-into what the preimage is.
+Saya mendapatkan informasi mengenai gambar awal.
 
 187
 00:08:43,539 --> 00:08:45,970
-I know the last byte is a 0.
+Saya tahu byte terakhirnya adalah sebuah 0.
 
 188
 00:08:45,970 --> 00:08:47,950
-But that doesn't
-help because I don't
+Tapi itu tidak
+membantu karena saya tidak
 
 189
 00:08:47,950 --> 00:08:51,160
-know all the bytes before that.
+tahu semua byte sebelum itu.
 
 190
 00:08:51,160 --> 00:08:54,130
-So I can't really do--
+Jadi saya tidak bisa benar-benar melakukan--
 
 191
 00:08:54,130 --> 00:08:56,770
-I can't sign because I
-need to be able to reveal
+Saya tidak bisa menandai karena saya
+harus mampu mengungkapkan
 
 192
 00:08:56,770 --> 00:08:57,945
-all these things.
+semua hal ini.
 
 193
 00:08:57,945 --> 00:09:00,070
-And the way the hash
-functions, if it's a good hash
+Dan cara fungsi hash bekerja,
+jika itu adalah fungsi hash yang baik
 
 194
 00:09:00,070 --> 00:09:03,722
-function, the fact that you
-know some part of the preimage
+function, faktanya bahwa Anda
+tahu beberapa bagian dari preimage
 
 195
 00:09:03,722 --> 00:09:05,680
-shouldn't give you insight
-into the other parts
+tidak seharusnya memberikan Anda
+petunjuk ke bagian-bagian lain
 
 196
 00:09:05,680 --> 00:09:07,270
-of the preimage.
+dari preimage.
 
 197
 00:09:07,270 --> 00:09:08,930
-Because it looks really random.
+Karena itu terlihat sangat acak.
 
 198
 00:09:08,930 --> 00:09:14,380
-And adding stuff to the end
-here shouldn't reveal anything.
+Dan menambahkan sesuatu di akhir
+ini seharusnya tidak mengungkapkan apapun.
 
 199
 00:09:14,380 --> 00:09:16,660
-There are hash functions
-where this can be dangerous,
+Ada fungsi-fungsi hash
+di mana ini bisa sangat membahayakan,
 
 200
 00:09:16,660 --> 00:09:19,840
-and you can consider those like
-broken hash functions, where
+dan Anda bisa mempertimbangkannya seperti
+fungsi hash yang rusak, di mana
 
 201
 00:09:19,840 --> 00:09:22,690
-if I concatenate a lot
-of known data at the end,
+jika saya tambahkan banyak
+data yang telah diketahui di akhir,
 
 202
 00:09:22,690 --> 00:09:27,110
-it might give me properties of
-the public key that I can find.
+itu mungkin memberi saya sifat-sifat dari
+kunci publik yang dapat saya temukan.
 
 203
 00:09:27,110 --> 00:09:30,070
-[INAUDIBLE],, as far as
-we know, it works fine.
+[TIDAK TERDENGAR],, sejauh yang
+kami tahu, ini berfungsi dengan baik.
 
 204
 00:09:30,070 --> 00:09:32,440
-Most of the hash functions
-work fine this way.
+Sebagian besar fungsi hash
+bekerja dengan baik dengan cara ini.
 
 205
 00:09:32,440 --> 00:09:34,750
-So yeah, you can do this.
+Jadi yah, Anda dapat melakukannya.
 
 206
 00:09:34,750 --> 00:09:36,370
-And then you can
-say, OK, well, I'm
+Dan kemudian Anda dapat
+berkata, oke, yah, saya
 
 207
 00:09:36,370 --> 00:09:42,710
-going to use hash function
-0 to make pubkey 0, right?
+akan menggunakan fungsi hash
+0 untuk membuat pubkey 0, bukan?
 
 208
 00:09:42,710 --> 00:09:44,020
-This is pubkey 0.
+Ini adalah pubkey 0.
 
 209
 00:09:44,020 --> 00:09:50,470
-And if I use hash function
-1, I make pubkey 1.
+Dan jika saya menggunakan fungsi hash
+1, saya membuat pubkey 1.
 
 210
 00:09:50,470 --> 00:09:55,910
-Now I have a 16 kilobyte--
-let me erase this--
+Sekarang saya memiliki sebuah 16 kilobyte--
+Saya hapus ini--
 
 211
 00:09:58,152 --> 00:09:59,985
-so now what I can do
-is I can say, OK, well,
+Jadi sekarang, yang bisa saya lakukan
+adalah saya bisa berkata, oke, yah,
 
 212
 00:09:59,985 --> 00:10:03,990
