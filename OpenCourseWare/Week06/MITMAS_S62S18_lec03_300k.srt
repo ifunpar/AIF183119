@@ -987,8 +987,8 @@ kilobyte pubkey
 
 214
 00:10:10,050 --> 00:10:11,927
-itu bisa saya gunakan 2 kali
-dan itu mempunyai 2 subkey
+yang bisa saya gunakan 2 kali
+dan mempunyai 2 subkey
 
 215
 00:10:11,927 --> 00:10:14,260
@@ -1015,8 +1015,8 @@ untuk menyimpan private key
 
 220
 00:10:24,260 --> 00:10:27,480
-Anda sebenarnya bisa mendapatkan
-itu sangat efisien 
+Anda sebenarnya bisa membuatnya
+sangat efisien 
 
 221
 00:10:27,480 --> 00:10:30,408
@@ -1045,16 +1045,16 @@ Ini sangat berguna, bukan?
 227
 00:10:44,000 --> 00:10:46,190
 Idenya adalah, 
-bahkan kalau anda tahu
+bahkan jika anda tahu
 
 228
 00:10:46,190 --> 00:10:49,550
-sufiksnya seperti apa
+seperti apa sufiks
 dari semua hal ini
 
 229
 00:10:49,550 --> 00:10:51,290
-kalau anda tidak 
+jika anda tidak 
 tahu x, anda tidak
 
 230
