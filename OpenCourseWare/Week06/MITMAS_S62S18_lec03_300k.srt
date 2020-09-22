@@ -977,121 +977,121 @@ adalah saya bisa berkata, oke, yah,
 
 212
 00:09:59,985 --> 00:10:03,990
-I have a 16 kilobyte
+Saya punya 16 kilobyte
 secret key, private key,
 
 213
 00:10:03,990 --> 00:10:10,050
-but I have a 32
-kilobyte public key
+tapi saya punya 32 
+kilobyte pubkey
 
 214
 00:10:10,050 --> 00:10:11,927
-that I can use twice
-that has two subkeys
+itu bisa saya gunakan 2 kali
+dan itu mempunyai 2 subkey
 
 215
 00:10:11,927 --> 00:10:14,260
-so I don't have to store as
-much of my private key data.
+jadi Saya tidak harus menyimpan
+sebanyak data private key milik saya.
 
 216
 00:10:14,260 --> 00:10:15,250
-So that's cool.
+Jadi itu keren.
 
 217
 00:10:15,250 --> 00:10:18,228
-That makes it quite
-a bit more efficient.
+itu membuatnya cukup 
+sedikit lebih efisien. 
 
 218
 00:10:18,228 --> 00:10:20,770
-Does anyone have an idea of how
-to get it even more efficient
+Apakah ada yang mempunyai ide 
+bagaimana membuatnya lebih efisien
 
 219
 00:10:20,770 --> 00:10:21,770
-for private key storage?
+untuk menyimpan private key
 
 220
 00:10:24,260 --> 00:10:27,480
-You can actually get
-it very efficient
+Anda sebenarnya bisa mendapatkan
+itu sangat efisien 
 
 221
 00:10:27,480 --> 00:10:30,408
-using this kind of idea.
+dengan menggunakan ide ini.
 
 222
 00:10:30,408 --> 00:10:31,360
-Any ideas?
+Ada ide?
 
 223
 00:10:35,644 --> 00:10:36,600
-Yeah.
+Ya.
 
 224
 00:10:36,600 --> 00:10:37,310
-Well, you--
+Baik, anda--
 
 225
 00:10:40,220 --> 00:10:42,380
-So some hints.
+Jadi beberapa petunjuk.
 
 226
 00:10:42,380 --> 00:10:44,000
-This is pretty useful, right?
+Ini sangat berguna, bukan?
 
 227
 00:10:44,000 --> 00:10:46,190
-The idea is, well,
-even if you know
+Idenya adalah, 
+bahkan kalau anda tahu
 
 228
 00:10:46,190 --> 00:10:49,550
-what the sort of suffix
-of all these things
+sufiksnya seperti apa
+dari semua hal ini
 
 229
 00:10:49,550 --> 00:10:51,290
-are, if you don't
-know x, you're not
+kalau anda tidak 
+tahu x, anda tidak
 
 230
 00:10:51,290 --> 00:10:54,740
-going to be able to find
-the preimage, right?
+akan mampu menemukan 
+preimagenya, bukan?
 
 231
 00:10:54,740 --> 00:10:57,540
-So maybe add some
-more stuff here.
+Jadi mungkin tambahkan
+beberapa hal di sini.
 
 232
 00:10:57,540 --> 00:10:58,040
-Any idea?
+Ada ide?
 
 233
 00:11:01,640 --> 00:11:02,600
-Oh, yeah?
+Oh, ya?
 
 234
 00:11:02,600 --> 00:11:04,560
-AUDIENCE: Could
-you hash the index?
+HADIRIN : Bisakah 
+anda hash indeksnya?
 
 235
 00:11:04,560 --> 00:11:05,610
-TADGE DRYJA: Right.
+TADGE DRYJA: Benar.
 
 236
 00:11:05,610 --> 00:11:06,110
-Right.
+Betul.
 
 237
 00:11:06,110 --> 00:11:10,210
-So instead of just
-saying 0 and 1,
+Jadi daripada hanya
+mengatakan 0 dan 1
 
 238
 00:11:10,210 --> 00:11:14,650
