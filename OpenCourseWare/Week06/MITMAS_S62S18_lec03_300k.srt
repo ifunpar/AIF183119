@@ -1095,25 +1095,25 @@ mengatakan 0 dan 1
 
 238
 00:11:10,210 --> 00:11:14,650
-we can say here, well, why
-not just have one chunk?
+dapat kita katakan, nah, mengapa
+tidak hanya memiliki satu bagian?
 
 239
 00:11:14,650 --> 00:11:25,510
-And there's one chunk, and
-it's got random number x.
+Ada satu bagian, dan
+memiliki angka x yang acak.
 
 240
 00:11:25,510 --> 00:11:27,880
-Well, this is hash x comma 0.
+Nah, ini merupakan hash x koma 0
 
 241
 00:11:27,880 --> 00:11:31,840
-This is hash x comma 1.
+Ini adalah hash x koma 1.
 
 242
 00:11:31,840 --> 00:11:35,330
-This is hash x comma 2.
+Ini adalah hash x koma 2.
 
 243
 00:11:35,330 --> 00:11:35,830
@@ -1121,7 +1121,7 @@ OK.
 
 244
 00:11:35,830 --> 00:11:36,330
-So yeah.
+Jadi, ya.
 
 245
 00:11:36,330 --> 00:11:40,600
