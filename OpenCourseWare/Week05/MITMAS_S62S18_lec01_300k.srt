@@ -153,7 +153,7 @@ orang untuk berpikir tentang bagaimana
 33
 00:01:24,320 --> 00:01:27,710
 menggunakan teknologi ini untuk
-memecahkan banyak sekali masalah 
+memecahkan banyak sekali masalah
 
 34
 00:01:27,710 --> 00:01:30,080
@@ -725,234 +725,234 @@ yang pernah dikembangkan.
 
 154
 00:06:46,320 --> 00:06:48,720
-Precious metals were
-often used for money.
+Logam berharga dahulu
+sering digunakan untuk uang.
 
 155
 00:06:48,720 --> 00:06:50,700
-And then eventually
-we sort of evolved
+Dan akhirnya
+kita kurang lebih berevolusi
 
 156
 00:06:50,700 --> 00:06:52,920
-into what we think
-of as money now,
+menuju apa yang kita kenal
+sebagai uang saat ini,
 
 157
 00:06:52,920 --> 00:06:56,790
-which is paper bills, currency.
+yaitu uang kertas, mata uang.
 
 158
 00:06:56,790 --> 00:06:59,340
-Another theory of
-how money came about
+Teori lain tentang
+bagaimana uang muncul
 
 159
 00:06:59,340 --> 00:07:03,840
-is this idea of receipts,
-debt and credit.
+adalah gagasan tentang kuintansi,
+hutang dan piutang.
 
 160
 00:07:03,840 --> 00:07:08,400
-So maybe I have a sheep,
-and I shear all of my sheep
+Jadi mungkin saya punya seekor domba,
+dan saya mencukur semua domba saya
 
 161
 00:07:08,400 --> 00:07:09,990
-and collect a lot of wool.
+dan mengumpulkan banyak wol.
 
 162
 00:07:09,990 --> 00:07:12,810
-What I can do is I can
-store that wool somewhere.
+Yang bisa saya lakukan adalah saya bisa
+menyimpan wol tersebut di suatu tempat.
 
 163
 00:07:12,810 --> 00:07:14,850
-And I can get a
-receipt from someone
+Dan saya bisa mendapatkan
+kuintansi dari seseorang
 
 164
 00:07:14,850 --> 00:07:19,440
-from having stored that wool,
-and that receipt is of value.
+dari menyimpan wol tersebut,
+dan kuitansi tersebut memiliki nilai.
 
 165
 00:07:19,440 --> 00:07:23,460
-It entitles the person who holds
-the receipt to the good that
+Kuitansi tersebut memberikan orang yang
+memilikinya, hak terhadap barang yang
 
 166
 00:07:23,460 --> 00:07:24,580
-is being stored.
+sedang disimpan.
 
 167
 00:07:24,580 --> 00:07:27,150
-And so another
-theory of money is
+Dan teori tentang uang
+lainnya adalah
 
 168
 00:07:27,150 --> 00:07:28,950
-that money evolved
-out of these receipts,
+bahwa uang berevolusi
+dari kuitansi tadi,
 
 169
 00:07:28,950 --> 00:07:30,602
-trading these receipts
-back and forth.
+menukarkan kuitansi-kuitansi ini
+satu dengan lainnya.
 
 170
 00:07:30,602 --> 00:07:32,310
-Instead of taking all
-that wool with you,
+Alih-alih mengambil semua
+wol yang ada pada Anda,
 
 171
 00:07:32,310 --> 00:07:34,860
-you leave it in one
-place in a depository,
+Anda menyimpannya di
+suatu tempat penyimpanan,
 
 172
 00:07:34,860 --> 00:07:37,050
-and the receipt acts
-as a bearer instrument.
+dan kuitansi-kuitansi berfungsi
+sebagai instrumen untuk pembawanya.
 
 173
 00:07:37,050 --> 00:07:42,030
-Whoever owns it has access to
-the wool in the depository.
+Siapapun yang memiliki kuitansi itu
+memiliki akses ke wol di dalam penyimpanan.
 
 174
 00:07:42,030 --> 00:07:44,340
-And so you can kind of
-see two different ideas
+Jadi sekarang Anda mulai bisa
+melihat dua ide yang berbeda
 
 175
 00:07:44,340 --> 00:07:46,560
-about what money is
-develop from this.
+tentang apa bagaimana uang
+berkembang dari sini.
 
 176
 00:07:46,560 --> 00:07:50,160
-One is, well, it's
-a bead or a coin,
+Yang pertama, yah, itu adalah
+sebuah manik atau koin,
 
 177
 00:07:50,160 --> 00:07:52,050
-or something that
-I hold, something
+atau sesuatu yang dapat
+saya genggam, sesuatu
 
 178
 00:07:52,050 --> 00:07:55,980
-physical that we've
-decided to assign value to
+yang bersifat fisik di mana kita
+putuskan untuk memberikan nilai ke
 
 179
 00:07:55,980 --> 00:07:57,180
-in and of itself.
+dalam dan terhadap dirinya sendiri.
 
 180
 00:07:57,180 --> 00:08:01,380
-And another idea is I'm going
-to use a trusted institution.
+Lalu ide lainnya adalah saya akan
+menggunakan institusi yang terpercaya.
 
 181
 00:08:01,380 --> 00:08:04,110
-I'm going to deposit something
-with that institution,
+Saya akan menyimpan sesuatu
+di dalam institusi itu,
 
 182
 00:08:04,110 --> 00:08:08,010
-and they are going to ensure
-the validity of that deposit
+dan mereka akan memastikan validitas
+simpanan tersebut,
 
 183
 00:08:08,010 --> 00:08:10,440
-and manage who has
-access to that deposit.
+dan mengatur siapa yang
+memiliki akses terhadap simpanan itu.
 
 184
 00:08:13,720 --> 00:08:17,050
-So this doesn't really
-get at the question
+Jadi ini tidak benar-benar
+menjawab pertanyaan
 
 185
 00:08:17,050 --> 00:08:21,550
-that was originally asked, which
-is why do tokens have value.
+yang diajukan di awal, yaitu
+mengapa token-token memiliki nilai.
 
 186
 00:08:21,550 --> 00:08:25,467
-But one thing I want
-to point out is--
+Tapi satu hal yang ingin
+saya tunjukkan adalah--
 
 187
 00:08:25,467 --> 00:08:27,550
-well, a question I want
-to ask you guys, actually,
+yah, pertanyaan yang ingin
+saya tanyakan kepada kalian, sebenarnya,
 
 188
 00:08:27,550 --> 00:08:29,350
-is why do these
-things have value?
+adalah mengapa benda-benda ini
+memiliki nilai?
 
 189
 00:08:29,350 --> 00:08:30,475
-Does anyone have any ideas?
+Apakah ada yang memiliki pendapat?
 
 190
 00:08:33,679 --> 00:08:34,302
-Yes.
+Ya.
 
 191
 00:08:34,302 --> 00:08:36,260
-AUDIENCE: Because everyone
-agrees that they do.
+AUDIENS: Karena semua orang setuju
+benda tersebut memiliki nilai.
 
 192
 00:08:36,260 --> 00:08:38,343
-NEHA NARULA: Because
-everyone agrees that they do.
+NEHA NARULA: Karena semua orang setuju
+benda tersebut memiliki nilai.
 
 193
 00:08:38,343 --> 00:08:40,770
-Any other thoughts on why
-those things have value?
+Adakah pendapat lain mengapa
+benda-benda tersebut memiliki nilai?
 
 194
 00:08:40,770 --> 00:08:41,270
-Yeah.
+Ya.
 
 195
 00:08:41,270 --> 00:08:43,145
-AUDIENCE: They're also
-backed by institutions
+AUDIENS: Benda-benda tersebut juga
+disokong oleh institusi
 
 196
 00:08:43,145 --> 00:08:44,147
-like the government.
+seperti pemerintah.
 
 197
 00:08:44,147 --> 00:08:45,980
-NEHA NARULA: They're
-backed by institutions.
+NEHA NARULA: Benda tersebut
+disokong oleh institusi.
 
 198
 00:08:45,980 --> 00:08:47,355
-Say a little bit
-more about that.
+Ceritakan lebih banyak
+mengenai hal tersebut.
 
 199
 00:08:47,355 --> 00:08:48,360
-What does that mean?
+Apa maksudnya?
 
 200
 00:08:48,360 --> 00:08:49,777
-AUDIENCE: So the
-government's kind
+AUDIENS: Jadi pemerintah
+semacam
 
 201
 00:08:49,777 --> 00:08:52,873
-of promising you to
-respect the value of that.
+menjanjikan Anda untuk
+menghargai nilainya
 
 202
 00:08:52,873 --> 00:08:53,540
@@ -960,25 +960,25 @@ NEHA NARULA: OK.
 
 203
 00:08:53,540 --> 00:08:56,168
-The government's promising
-to respect the value of that.
+Pemerintah menjanjikan
+Anda untuk menghargai nilai itu
 
 204
 00:08:56,168 --> 00:08:58,460
-Does anyone want to add to
-that or have another reason?
+Apakah ada lagi yang ingin
+menambahkan atau punya alasan lain?
 
 205
 00:08:58,460 --> 00:08:59,600
-Yes.
+Ya.
 
 206
 00:08:59,600 --> 00:09:00,350
-And say your name.
+Dan sebutkan nama anda
 
 207
 00:09:00,350 --> 00:09:01,760
-I'm sorry, yeah.
+Maaf, yah.
 
 208
 00:09:01,760 --> 00:09:03,230
@@ -986,13 +986,13 @@ AUDIENCE: Jared Thompson.
 
 209
 00:09:03,230 --> 00:09:05,690
-In the example of the
-dollar, the government
+Dalam contoh untuk kasus
+mata uang dolar, pemerintah
 
 210
 00:09:05,690 --> 00:09:08,118
-is willing to accept it
-as payment for taxes.
+menyetujui untuk menjadikan itu
+alat pembayaran untuk pajak
 
 211
 00:09:08,118 --> 00:09:09,410
