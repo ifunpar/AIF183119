@@ -725,18 +725,18 @@ yang pernah dikembangkan.
 
 154
 00:06:46,320 --> 00:06:48,720
-logam mulia dahulu
+Logam berharga dahulu
 sering digunakan untuk uang.
 
 155
 00:06:48,720 --> 00:06:50,700
-dan akhirnya
-kami seperti berevolusi
+Dan akhirnya
+kita kurang lebih berevolusi
 
 156
 00:06:50,700 --> 00:06:52,920
-kedalam apa yang kami pikirkan
-sebagai uang sekarang,
+menuju apa yang kita kenal
+sebagai uang saat ini,
 
 157
 00:06:52,920 --> 00:06:56,790
@@ -744,17 +744,17 @@ yaitu uang kertas, mata uang.
 
 158
 00:06:56,790 --> 00:06:59,340
-teori lain dari
+Teori lain tentang
 bagaimana uang muncul
 
 159
 00:06:59,340 --> 00:07:03,840
-adalah gagasan tentang kwintansi,
-hutang dan kredit.
+adalah gagasan tentang kuintansi,
+hutang dan piutang.
 
 160
 00:07:03,840 --> 00:07:08,400
-jadi mungkin saya punya domba,
+Jadi mungkin saya punya seekor domba,
 dan saya mencukur semua domba saya
 
 161
@@ -764,22 +764,22 @@ dan mengumpulkan banyak wol.
 162
 00:07:09,990 --> 00:07:12,810
 Yang bisa saya lakukan adalah saya bisa
-menyimpan wol tersebut disuatu tempat.
+menyimpan wol tersebut di suatu tempat.
 
 163
 00:07:12,810 --> 00:07:14,850
 Dan saya bisa mendapatkan
-kwintansi dari seseorang
+kuintansi dari seseorang
 
 164
 00:07:14,850 --> 00:07:19,440
-dari penyimpanan wol tersebut,
-dan kwitansi tersebut sangat berharga.
+dari menyimpan wol tersebut,
+dan kuitansi tersebut memiliki nilai.
 
 165
 00:07:19,440 --> 00:07:23,460
-Seorang yang memegang kwitansi
-dapat menerima produk yang
+Kuitansi tersebut memberikan orang yang
+memilikinya, hak terhadap barang yang
 
 166
 00:07:23,460 --> 00:07:24,580
@@ -787,111 +787,111 @@ sedang disimpan.
 
 167
 00:07:24,580 --> 00:07:27,150
-Teori uang
+Dan teori tentang uang
 lainnya adalah
 
 168
 00:07:27,150 --> 00:07:28,950
-uang akan berevolusi keluar
-dari kwitnasi bersangkutan,
+bahwa uang berevolusi
+dari kuitansi tadi,
 
 169
 00:07:28,950 --> 00:07:30,602
-menukarkan kwitansi ini
-bolak balik.
+menukarkan kuitansi-kuitansi ini
+satu dengan lainnya.
 
 170
 00:07:30,602 --> 00:07:32,310
-Kamu tidak langsung
-mengambil semua wol,
+Alih-alih mengambil semua
+wol yang ada pada Anda,
 
 171
 00:07:32,310 --> 00:07:34,860
-namun kamu menyimpannya
-di dalam sebuah gudang,
+Anda menyimpannya di
+suatu tempat penyimpanan,
 
 172
 00:07:34,860 --> 00:07:37,050
-sehingga kwitansi berfungsi
-sebagai alat bukti untuk produk.
+dan kuitansi-kuitansi berfungsi
+sebagai instrumen untuk pembawanya.
 
 173
 00:07:37,050 --> 00:07:42,030
-Siapapun yang memiliki kwitansi itu
-bisa mengakses wol pada gudang.
+Siapapun yang memiliki kuitansi itu
+memiliki akses ke wol di dalam penyimpanan.
 
 174
 00:07:42,030 --> 00:07:44,340
-Jadi sekarang kau sudah mulai
+Jadi sekarang Anda mulai bisa
 melihat dua ide yang berbeda
 
 175
 00:07:44,340 --> 00:07:46,560
-tentang apa itu uang
-dari perkembangan ide ini.
+tentang apa bagaimana uang
+berkembang dari sini.
 
 176
 00:07:46,560 --> 00:07:50,160
-Yang pertama, baiklah, ini adalah
+Yang pertama, yah, itu adalah
 sebuah manik atau koin,
 
 177
 00:07:50,160 --> 00:07:52,050
 atau sesuatu yang dapat
-aku genggam, sesuatu
+saya genggam, sesuatu
 
 178
 00:07:52,050 --> 00:07:55,980
-bersifat fisik yang harus kita
+yang bersifat fisik di mana kita
 putuskan untuk memberikan nilai ke
 
 179
 00:07:55,980 --> 00:07:57,180
-dalam dan dari dirinya sendiri.
+dalam dan terhadap dirinya sendiri.
 
 180
 00:07:57,180 --> 00:08:01,380
-Lalu ide lainnya adalah aku akan
+Lalu ide lainnya adalah saya akan
 menggunakan institusi yang terpercaya.
 
 181
 00:08:01,380 --> 00:08:04,110
-Aku akan memberikan suatu deposit
-dengan institusi itu,
+Saya akan menyimpan sesuatu
+di dalam institusi itu,
 
 182
 00:08:04,110 --> 00:08:08,010
-dan mereka akan memastikan keaslian
-deposit tersebut,
+dan mereka akan memastikan validitas
+simpanan tersebut,
 
 183
 00:08:08,010 --> 00:08:10,440
-lalu mengatur siapa yang
-dapat mengakses deposit itu.
+dan mengatur siapa yang
+memiliki akses terhadap simpanan itu.
 
 184
 00:08:13,720 --> 00:08:17,050
-Jadi ini benar-benar tidak
-dapat dipertanyakan
+Jadi ini tidak benar-benar
+menjawab pertanyaan
 
 185
 00:08:17,050 --> 00:08:21,550
-seperti pada pertanyaan awal, yaitu
-mengapa token memiliki nilai.
+yang diajukan di awal, yaitu
+mengapa token-token memiliki nilai.
 
 186
 00:08:21,550 --> 00:08:25,467
 Tapi satu hal yang ingin
-saya tunjukkan adalah
+saya tunjukkan adalah--
 
 187
 00:08:25,467 --> 00:08:27,550
-sebenarnya, pertanyaan yang ingin
-saya tanyakan kepada kalian adalah
+yah, pertanyaan yang ingin
+saya tanyakan kepada kalian, sebenarnya,
 
 188
 00:08:27,550 --> 00:08:29,350
-mengapa benda-benda ini
+adalah mengapa benda-benda ini
 memiliki nilai?
 
 189
@@ -904,7 +904,7 @@ Ya.
 
 191
 00:08:34,302 --> 00:08:36,260
-AUDIENCE: Karena semua orang setuju
+AUDIENS: Karena semua orang setuju
 benda tersebut memiliki nilai.
 
 192
@@ -914,7 +914,7 @@ benda tersebut memiliki nilai.
 
 193
 00:08:38,343 --> 00:08:40,770
-Apakah ada pendapat lain mengapa
+Adakah pendapat lain mengapa
 benda-benda tersebut memiliki nilai?
 
 194
@@ -923,12 +923,12 @@ Ya.
 
 195
 00:08:41,270 --> 00:08:43,145
-AUDIENCE: Benda tersebut juga
+AUDIENS: Benda-benda tersebut juga
 disokong oleh institusi
 
 196
 00:08:43,145 --> 00:08:44,147
-seperti institusi pemerintah.
+seperti pemerintah.
 
 197
 00:08:44,147 --> 00:08:45,980
@@ -937,7 +937,7 @@ disokong oleh institusi.
 
 198
 00:08:45,980 --> 00:08:47,355
-Katakan sedikit lebih banyak
+Ceritakan lebih banyak
 mengenai hal tersebut.
 
 199
@@ -946,12 +946,13 @@ Apa maksudnya?
 
 200
 00:08:48,360 --> 00:08:49,777
-AUDIENCE: Pemerintah semacam
+AUDIENS: Jadi pemerintah
+semacam
 
 201
 00:08:49,777 --> 00:08:52,873
-menjanjikan anda untuk
-menghargai nilai tersebut
+menjanjikan Anda untuk
+menghargai nilainya
 
 202
 00:08:52,873 --> 00:08:53,540
@@ -959,13 +960,13 @@ NEHA NARULA: OK.
 
 203
 00:08:53,540 --> 00:08:56,168
-Pemerintah semacam menjanjikan
-anda untuk menghargai nilai itu
+Pemerintah menjanjikan
+Anda untuk menghargai nilai itu
 
 204
 00:08:56,168 --> 00:08:58,460
 Apakah ada lagi yang ingin
-menambahkan alasan lain?
+menambahkan atau punya alasan lain?
 
 205
 00:08:58,460 --> 00:08:59,600
@@ -973,11 +974,11 @@ Ya.
 
 206
 00:08:59,600 --> 00:09:00,350
-Katakan nama anda
+Dan sebutkan nama anda
 
 207
 00:09:00,350 --> 00:09:01,760
-Oke maaf
+Maaf, yah.
 
 208
 00:09:01,760 --> 00:09:03,230
@@ -986,7 +987,7 @@ AUDIENCE: Jared Thompson.
 209
 00:09:03,230 --> 00:09:05,690
 Dalam contoh untuk kasus
-dollar, pemerintah
+mata uang dolar, pemerintah
 
 210
 00:09:05,690 --> 00:09:08,118
