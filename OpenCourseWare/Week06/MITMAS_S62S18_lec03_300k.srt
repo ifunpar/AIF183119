@@ -1040,8 +1040,7 @@ Jadi beberapa petunjuk.
 
 226
 00:10:42,380 --> 00:10:44,000
-Ini sangat berguna , bukan?
-
+Ini sangat berguna, bukan?
 
 227
 00:10:44,000 --> 00:10:46,190
