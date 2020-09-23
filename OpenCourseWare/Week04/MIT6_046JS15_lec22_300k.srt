@@ -1016,43 +1016,43 @@ skenario terbaik untuk mal, benar?
 
 214
 00:11:25,360 --> 00:11:29,320
-So you could have mal
-in the middle here.
+Jadi Anda bisa memiliki
+mal di tengah sini.
 
 215
 00:11:29,320 --> 00:11:33,050
-And you've got to worry
-about stuff like that.
+Dan anda harus khawatir
+tentang hal-hal seperti itu.
 
 216
 00:11:33,050 --> 00:11:39,050
-So key exchange, let's move
-on to talk about key exchange.
+Jadi pertukaran kunci, mari kita lanjutkan 
+pembicaraan tentang pertukaran kunci.
 
 217
 00:11:46,445 --> 00:12:00,060
-And how does the secret
-key k get shared?
+Dan bagaimana kunci 
+rahasia k dapat dibagikan.
 
 218
 00:12:00,060 --> 00:12:03,980
-You can't put this out
-on a website, right?
+Anda tidak bisa meletakkan
+ini di situs web, bukan?
 
 219
 00:12:03,980 --> 00:12:06,750
-So it has to be
-the case, sharing
+Jadi seharusnya, 
+berbagi
 
 220
 00:12:06,750 --> 00:12:12,200
-is something that has to
-be secure in the sense
+adalah sesuatu yang harus
+aman dalam artian
 
 221
 00:12:12,200 --> 00:12:14,730
-that there can't be
-any eavesdroppers.
+bahwa tidak boleh
+ada penyadap.
 
 222
 00:12:14,730 --> 00:12:20,195
