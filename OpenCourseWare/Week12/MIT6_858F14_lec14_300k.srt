@@ -1148,58 +1148,58 @@ hanya akan di baca oleh b.
 
 243
 00:11:01,190 --> 00:11:04,670
-Because only b could have
-decrypted this message.
+Karena hanya b yang bisa
+mendekripsi pesan ini.
 
 244
 00:11:04,670 --> 00:11:06,565
-And therefore,
-only b should have
+Dan oleh karena itu,
+hanya b yang seharusnya memiliki
 
 245
 00:11:06,565 --> 00:11:09,640
-that corresponding secret key s.
+kunci rahasia yang sesuai s.
 
 246
 00:11:09,640 --> 00:11:11,030
-But this is pretty nicely.
+Tapi ini cukup bagus.
 
 247
 00:11:11,030 --> 00:11:12,700
-Any questions about
-this protocol?
+Ada pertanyaan mengenai
+protokol ini?
 
 248
 00:11:12,700 --> 00:11:13,260
-Yeah?
+Ya?
 
 249
 00:11:13,260 --> 00:11:16,146
-AUDIENCE: Does it matter
-whether the user or the server
+AUDIENS: Apakah itu penting 
+kalau pengguna atau server yang
 
 250
 00:11:16,146 --> 00:11:18,560
-generates the pass code?
+menghasilkan kode sandi?
 
 251
 00:11:18,560 --> 00:11:20,150
-PROFESSOR: Well, maybe.
+PROFESSOR: Ya, mungkin.
 
 252
 00:11:20,150 --> 00:11:25,760
-I think it depends on
-exactly the considerations,
+Saya pikir itu tergantung 
+pertimbangn tepatnya,
 
 253
 00:11:25,760 --> 00:11:28,080
-or the properties you
-want out of this protocol.
+atau properti yang Anda
+ingin keluar dari protokol ini.
 
 254
 00:11:28,080 --> 00:11:35,320
-So here, certainly if a is
-buggy or picks bad randomness,
+Jadi di sini, tentu jika a adalah
+kesalahan atau mengambil keacakan yang buruk,
 
 255
 00:11:35,320 --> 00:11:38,420
