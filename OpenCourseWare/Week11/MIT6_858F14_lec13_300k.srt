@@ -869,31 +869,31 @@ Masuk akal?
 
 183
 00:08:14,150 --> 00:08:17,982
-And the other thing the Kerberos
-server is going to have to do
+Dan hal lain yang server Kerberos
+akan perlu lakukan
 
 184
 00:08:17,982 --> 00:08:20,070
-is, of course, keep
-track of who is
+adalah, tentu saja, melacak
+siapa yang
 
 185
 00:08:20,070 --> 00:08:22,370
-it that owns this key, right?
+memiliki key ini, benar?
 
 186
 00:08:22,370 --> 00:08:27,080
-So it's going to have this table
-mapping some sort of a name.
+Jadi akan terdapat tabel ini,
+memetakan semacam nama.
 
 187
 00:08:27,080 --> 00:08:29,080
-So this is some sort of a user.
+Jadi ini semacam pengguna.
 
 188
 00:08:29,080 --> 00:08:35,630
-This is maybe service maybe
-AFS or something like this.
+Ini mungkin service, mungkin
+AFS atau semacamnya.
 
 189
 00:08:35,630 --> 00:08:38,530
