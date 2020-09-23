@@ -1221,7 +1221,7 @@ Sistem tersebut bekerja.
 
 259
 00:10:45,340 --> 00:10:48,070
-Tapi jika saya ingin mengatakan bahwa
+Namun jika saya ingin mengatakan bahwa
 tidak ada orang lain selain TA
 
 260
