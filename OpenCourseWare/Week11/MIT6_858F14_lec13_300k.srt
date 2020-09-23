@@ -750,7 +750,7 @@ ini punya dalam pikiram mereka adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-akan akan ada server
+akan ada server
 Kerberos ini.
 
 159
@@ -768,7 +768,7 @@ Jadi ini adalah server Kerberos.
 
 162
 00:07:10,540 --> 00:07:16,650
-Dan sekarang, ini biasanya disebu dengan
+Dan sekarang, ini biasanya disebut dengan
 KDC-- Key Distribution Center.
 
 163
