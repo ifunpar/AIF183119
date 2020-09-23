@@ -1032,7 +1032,7 @@ pembicaraan tentang pertukaran kunci.
 217
 00:11:46,445 --> 00:12:00,060
 Dan bagaimana kunci 
-rahasia k dapat dibagikan.
+rahasia k dapat dibagikan?
 
 218
 00:12:00,060 --> 00:12:03,980
