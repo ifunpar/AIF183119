@@ -1094,54 +1094,54 @@ more secure in some way.
 
 231
 00:09:08,590 --> 00:09:10,370
-But it is a big problem.
+Tapi ini masalah besar.
 
 232
 00:09:10,370 --> 00:09:14,030
-If it's some security issue
-that's deeply ingrained in TCP,
+Jika ini masalah keamanan
+yang tertanam dalam di TCP,
 
 233
 00:09:14,030 --> 00:09:17,750
-then it's going to be a pretty
-humongous issue for everyone
+maka ini akan menjadi masalah yang 
+sangat besar bagi semua orang
 
 234
 00:09:17,750 --> 00:09:23,930
-to just pack up and move onto a
-TCP version whatever, n plus 1.
+untuk hanya berkemas dan pindah ke 
+versi TCP apa pun, n tambah 1.
 
 235
 00:09:23,930 --> 00:09:27,296
-And you can look at IPv6 as one
-example of this not happening.
+Dan Anda dapat melihat IPv6 sebagai 
+salah satu contoh bahwa hal ini tidak terjadi.
 
 236
 00:09:27,296 --> 00:09:29,170
-We've known this problem
-was going to come up
+Kami tahu masalah ini 
+akan muncul
 
 237
 00:09:29,170 --> 00:09:31,025
-for like 15 years or 20 years.
+selama 15 tahun atau 20 tahun.
 
 238
 00:09:31,025 --> 00:09:34,759
-IPv6 has been around for
-well over 10 years now.
+IPv6 telah ada selama 
+lebih dari 10 tahun sekarang.
 
 239
 00:09:34,759 --> 00:09:37,300
-And it's just hard to convince
-people to move away from IPv4.
+Dan sulit untuk meyakinkan orang 
+untuk menjauh dari IPv4.
 
 240
 00:09:37,300 --> 00:09:38,060
-It's good enough.
+Cukup bagus.
 
 241
 00:09:38,060 --> 00:09:39,040
-It sort of works.
+Ini semacam berhasil.
 
 242
 00:09:39,040 --> 00:09:41,465
