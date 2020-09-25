@@ -1044,53 +1044,53 @@ struggle a lot with that.
 
 221
 00:08:32,530 --> 00:08:36,165
-And in many ways, if
-you could redesign TCP,
+Dan dalam banyak hal,
+jika Anda dapat mendesain ulang TCP
 
 222
 00:08:36,165 --> 00:08:37,539
-many of these bugs
-are relatively
+banyak dari bug ini
+relatif
 
 223
 00:08:37,539 --> 00:08:41,620
-easy to fix if you knew what
-to look for ahead of time.
+mudah diperbaiki jika Anda tahu apa
+yang harus dicari sebelumnya.
 
 224
 00:08:41,620 --> 00:08:46,410
-But because TCP is
-sort of relatively hard
+Tetapi karena TCP
+agak sulit
 
 225
 00:08:46,410 --> 00:08:51,350
-to fix or change,
-what ends up happening
+untuk diperbaiki atau diubah,
+yang akhirnya terjadi
 
 226
 00:08:51,350 --> 00:08:54,457
-is that people or
-designers try to look
+adalah bahwa orang atau
+desainer mencoba mencari
 
 227
 00:08:54,457 --> 00:08:58,135
-for backwards compatible
-tweaks that either allow
+penyesuaian yang 
+kompatibel ke belakang
 
 228
 00:08:58,135 --> 00:09:01,170
-old implementations to coexist
-with the new implementation
+yang memungkinkan implementasi lama
+untuk hidup berdampingan dengan implementasi baru
 
 229
 00:09:01,170 --> 00:09:04,970
-or to add some optional field
-that if it's there, then
+atau untuk menambahkan beberapa bidang opsional
+yang jika ada di sana, maka
 
 230
 00:09:04,970 --> 00:09:08,590
-the communication is
-more secure in some way.
+komunikasi dalam beberapa hal
+menjadi lebih aman.
 
 231
 00:09:08,590 --> 00:09:10,370
@@ -1099,7 +1099,7 @@ Tapi ini masalah besar.
 232
 00:09:10,370 --> 00:09:14,030
 Jika ini masalah keamanan
-yang tertanam dalam di TCP,
+yang tertanam di dalam TCP,
 
 233
 00:09:14,030 --> 00:09:17,750
