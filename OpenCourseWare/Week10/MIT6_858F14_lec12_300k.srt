@@ -984,63 +984,63 @@ salah satu dari orang-orang ini.
 
 208
 00:08:00,440 --> 00:08:03,950
-So the first example
-he points out
+Jadi contoh pertama yang
+dia tunjukan
 
 209
 00:08:03,950 --> 00:08:07,140
-has to do with how TCP
-sequence numbers work.
+berkaitan dengan bagaimana
+nomor urut TCP bekerja.
 
 210
 00:08:09,720 --> 00:08:13,169
-So just to re-explain--
-yeah, question.
+Jadi hanya untuk menjelaskan ulang--
+Ya, pertanyaan.
 
 211
 00:08:13,169 --> 00:08:14,294
-AUDIENCE: I'm just curious.
+PENONTON: Saya hanya penasaran.
 
 212
 00:08:14,294 --> 00:08:15,502
-This is a tiny bit off topic.
+Ini sedikit keluar dari topik pembahasan.
 
 213
 00:08:15,502 --> 00:08:17,606
-But let's say you do
-find a bug in TCP.
+Tetapi, misalnya kamu
+menemukan bug di TCP.
 
 214
 00:08:17,606 --> 00:08:19,976
-How do you make
-the change to it?
+Bagaimana kamu membuat
+perubahan di TCP tersebut?
 
 215
 00:08:19,976 --> 00:08:21,398
-How do you tell
-all the computers
+Bagaimana kamu memberi tahu
+semua komputer
 
 216
 00:08:21,398 --> 00:08:23,736
-in the world to change that?
+di dunia untuk merubah itu?
 
 217
 00:08:23,736 --> 00:08:25,610
-PROFESSOR: Yeah, I think
-it's a huge problem.
+PROFESOR: Iya, saya pikir
+hal tersebut merupakan masalah yang besar.
 
 218
 00:08:25,610 --> 00:08:26,900
-What if you find a bug in TCP?
+Bagaimana jika kamu menemukan bug di TCP?
 
 219
 00:08:26,900 --> 00:08:29,280
-Well, it's unclear what to do.
+Sebenarnya, belum jelas apa yang harus dilakukan.
 
 220
 00:08:29,280 --> 00:08:32,530
-And I think the authors here
-struggle a lot with that.
+dan saya pikir penulis disini
+kesulitan dengan masalah tersebut.
 
 221
 00:08:32,530 --> 00:08:36,165
