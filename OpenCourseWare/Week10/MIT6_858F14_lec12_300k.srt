@@ -1145,62 +1145,62 @@ Ini semacam berhasil.
 
 242
 00:09:39,040 --> 00:09:41,465
-It's a lot of
-overhead to move over.
+Diperlukan banyak
+biaya untuk berpindah.
 
 243
 00:09:41,465 --> 00:09:43,019
-And no one else is
-speaking IPv6, so
+Dan tidak ada orang lain
+yang menggunakan IPv6, jadi
 
 244
 00:09:43,019 --> 00:09:45,060
-why should I start speaking
-this bizarre protocol
+kenapa saya harus mulai menggunakan
+protokol aneh ini
 
 245
 00:09:45,060 --> 00:09:47,220
-that no one else is
-going to speak to me in?
+yang tidak akan digunakan orang lain
+untuk berbicara dengan saya?
 
 246
 00:09:47,220 --> 00:09:48,520
-So it's sort of moving along.
+Jadi hal ini terus berlalu.
 
 247
 00:09:48,520 --> 00:09:49,895
-But I think it
-takes a long time.
+Tetapi saya pikir akan
+membutuhkan banyak waktu.
 
 248
 00:09:49,895 --> 00:09:53,290
-And there's going to be really
-some motivation to migrate.
+Dan dibutuhkan motivasi
+yang kuat untuk berpindah.
 
 249
 00:09:53,290 --> 00:09:56,940
-And backwards
-compatibility helps a lot.
+Kompatibilitas mundur
+juga sangat membantu.
 
 250
 00:09:56,940 --> 00:09:58,700
-Not good enough for,
-I guess, IPv6-- IPv6
+Tidak cukup baik untuk,
+misalnya, IPv6-- IPv6
 
 251
 00:09:58,700 --> 00:10:01,205
-has lots of backwards
-compatibility plans in it.
+memiliki banyak rencana kompatibilitas
+mundur di dalamnya.
 
 252
 00:10:01,205 --> 00:10:04,720
-You can talk to an
-IPv4 host from IPv6.
+Anda bisa berbicara dengan
+host IPv4 dari IPv6.
 
 253
 00:10:04,720 --> 00:10:07,770
-So they try to engineer
-all this support.
+Jadi mereka telah mencoba membuat
+seluruh dukungan ini.
 
 254
 00:10:07,770 --> 00:10:11,840
