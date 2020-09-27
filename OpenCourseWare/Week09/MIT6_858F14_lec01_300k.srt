@@ -1324,112 +1324,112 @@ yang tepat.
 
 281
 00:11:32,884 --> 00:11:35,050
-And it's only after the
-fact that you often realize,
+Dan itu hanya setelah
+fakta yang anda sering sadari,
 
 282
 00:11:35,050 --> 00:11:37,000
-well should have
-thought of that.
+Sebaiknya memikirkan
+tentang itu.
 
 283
 00:11:39,520 --> 00:11:40,720
-All right.
+Baiklah.
 
 284
 00:11:40,720 --> 00:11:42,700
-And sort of, as a
-result, this is very much
+dan semacamnya, sebagai
+hasil, ini sangat banyak
 
 285
 00:11:42,700 --> 00:11:44,170
-an iterative process.
+proses pengulangan.
 
 286
 00:11:44,170 --> 00:11:46,960
-And the thing you end up
-realizing at every iteration
+Dan hal yang anda akhirnya
+menyadari di setiap iterasi
 
 287
 00:11:46,960 --> 00:11:49,132
-is, well, here's the
-weakest link into my system.
+adalah
+tautan terlemah ke sistem saya.
 
 288
 00:11:49,132 --> 00:11:50,590
-Maybe I got the
-threat model wrong.
+mungkin saya mendapatkan
+model threat yang salah.
 
 289
 00:11:50,590 --> 00:11:53,290
-Maybe my mechanism had some bugs
-in it because it's a software
+mungkin mekanismenya memiliki beberapa bugs
+di dalamnya karena itu adalah software
 
 290
 00:11:53,290 --> 00:11:55,120
-and it's going to
-be large systems.
+dan itu akan menjadi
+sistem yang besar.
 
 291
 00:11:55,120 --> 00:11:57,010
-They'll have lots of bugs.
+mereka akan mempunyai banyak bugs.
 
 292
 00:11:57,010 --> 00:11:58,490
-And you sort of fix them up.
+dan anda semacam memperbaikinya.
 
 293
 00:11:58,490 --> 00:11:59,950
-You change your
-threat model a bit.
+kalian mengganti 
+threat model kalian sedikit.
 
 294
 00:11:59,950 --> 00:12:02,900
-And you iterate and try
-to design a new system,
+dan kalian mengulang dan mencoba
+mendesign sebuah sistem baru,
 
 295
 00:12:02,900 --> 00:12:06,720
-and hopefully,
-make things better.
+dan harapannya,
+membuat segalanya menjadi lebih baik.
 
 296
 00:12:06,720 --> 00:12:10,640
-So one possible interpretation
-of this class-- well,
+Jadi satu kemungkinan interpretasi 
+dari kelas ini,
 
 297
 00:12:10,640 --> 00:12:14,360
-one danger-- is that you come
-away thinking, man, everything
+salah satu bahayanya adalah bahwa Anda 
+berpikir semuanya
 
 298
 00:12:14,360 --> 00:12:15,070
-is just broken.
+rusak.
 
 299
 00:12:15,070 --> 00:12:15,780
-Nothing works.
+Tidak ada yang berhasil.
 
 300
 00:12:15,780 --> 00:12:18,390
-We should just give up
-and stop using computers.
+Kita harus menyerah saja
+dan berhenti menggunakan komputer.
 
 301
 00:12:18,390 --> 00:12:21,460
-And this is one
-possible interpretation.
+Dan ini adalah salah satu
+kemungkinan interpretasi.
 
 302
 00:12:21,460 --> 00:12:23,752
-But it's probably not
-quite the right one.
+tapi mungkin tidak
+cukup benar.
 
 303
 00:12:23,752 --> 00:12:25,210
-The reason this is
-going to come up
+Alasannya hal begini
+akan muncul
 
 304
 00:12:25,210 --> 00:12:26,585
