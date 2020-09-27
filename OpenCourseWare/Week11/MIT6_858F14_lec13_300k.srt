@@ -807,18 +807,18 @@ kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-Lalu, server Kerberos
-akan
+Lalu, Kerberos server
+akan...
 
 171
 00:07:47,260 --> 00:07:49,720
-mengingat kunci ini
-di suatu tempat di sini.
+untuk mengingat ini
+key di suatu tempat di sini
 
 172
 00:07:49,720 --> 00:07:53,680
 Begitu pula untuk
-server, kunci KS
+server, key KS
 
 173
 00:07:53,680 --> 00:07:56,080
@@ -827,8 +827,8 @@ oleh layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-dan oleh server Kerberos
-tapi semoga bukan orang lain.
+dan ke server Kerberos
+tapi semoga tidak ada orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
