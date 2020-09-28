@@ -1006,563 +1006,563 @@ Kita ingin sebuah pembangkit nilai acak.
 
 215
 00:11:19,440 --> 00:11:23,790
-We want to essentially
-build something
+Kami pada dasarnya ingin
+membangun sesuatu
 
 216
 00:11:23,790 --> 00:11:27,960
-that looks like that,
-deterministic, public, random.
+yang terlihat seperti itu,
+deterministik, umum, acak.
 
 217
 00:11:27,960 --> 00:11:31,390
-And we're going to
-claim that what we want
+Dan kita akan 
+menyatakan bahwa hal yang kita inginkan
 
 218
 00:11:31,390 --> 00:11:33,135
-is this random
-oracle which has all
+adalah sebuah
+pembangkit nilai acak yang memiliki semua
 
 219
 00:11:33,135 --> 00:11:35,892
-of these wonderful properties
-that I'm going to describe.
+properti mengagumkan
+yang akan saya deskripsikan.
 
 220
 00:11:35,892 --> 00:11:37,850
-I'm going to describe
-the random oracle to you,
+Saya akan mendeskripsikan
+pembangkit nilai acak tersebut kepada Anda,
 
 221
 00:11:37,850 --> 00:11:40,391
-and then I'm going to tell you
-about what the properties are.
+lalu saya akan memberitahu Anda
+apa saja properti-propertinya.
 
 222
 00:11:40,391 --> 00:11:44,420
-And then unfortunately
-this is an ideal world
+Dan sayangnya,
+ini adalah dunia yang ideal
 
 223
 00:11:44,420 --> 00:11:47,890
-and we can't build
-this in the real world.
+dan kita tidak dapat membangun
+hal ini di dunia nyata.
 
 224
 00:11:47,890 --> 00:11:49,919
-And so we're going to
-have to approximate it.
+Jadi kita akan
+harus memperkirakannya.
 
 225
 00:11:49,919 --> 00:11:52,460
-And that's where the MD4's and
-the MD5's and the SHA-1's came
+Dan di situlah di mana MD4,
+MD5, dan SHA-1 berfungsi,
 
 226
 00:11:52,460 --> 00:11:55,200
-in, OK?
+OK?
 
 227
 00:11:55,200 --> 00:11:56,885
-So this is not
-achievable in practice.
+Jadi ini tidak dapat
+dicapai secara praktik.
 
 228
 00:12:05,560 --> 00:12:09,300
-So what is this oracle?
+Jadi apa pembangkit nilai ini?
 
 229
 00:12:09,300 --> 00:12:17,170
-This oracle is on input
-x, belonging to 0,1 star.
+Pembangkit nilai ini menerima input
+x, dimiliki oleh bintang 0,1.
 
 230
 00:12:17,170 --> 00:12:20,740
-So that could be an
-arbitrary string.
+Jadi hal tersebut bisa merupakan
+sebuah string acak.
 
 231
 00:12:20,740 --> 00:12:26,100
-If x not in the book--
-so there's this the book,
+Jika x tidak ada di buku--
+jadi ada sebuah buku,
 
 232
 00:12:26,100 --> 00:12:26,840
-all right?
+baik?
 
 233
 00:12:26,840 --> 00:12:29,720
-And there's this
-infinite capacity book
+Dan ada sebuah buku 
+dengan kapasitas tak terhingga
 
 234
 00:12:29,720 --> 00:12:35,170
-that has all of the computations
-that were ever done prior.
+yang mengandung semua komputasi
+yang pernah dilakukan sebelumnya.
 
 235
 00:12:35,170 --> 00:12:36,770
-And they're always
-stored in the book.
+Dan komputasi-komputasi tersebut selalu 
+disimpan di buku tersebut.
 
 236
 00:12:36,770 --> 00:12:38,770
-And that's how we're
-going to get determinism.
+Dan itulah bagaimana kita akan
+mendapatkan determinisme.
 
 237
 00:12:38,770 --> 00:12:42,100
-Because this book
-initially gets filled in.
+Karena buku ini
+sudah terisi dari awal.
 
 238
 00:12:42,100 --> 00:12:44,380
-All of the entries in
-the book are filled
+Semua catatan di dalam 
+buku tersebut dipenuhi
 
 239
 00:12:44,380 --> 00:12:47,000
-in using pure randomness.
+dengan menggunakan keacakan murni.
 
 240
 00:12:47,000 --> 00:12:55,610
-So you flip a coin d
-times to determine h of x.
+Jadi Anda melempar koin sebanyak d
+kali untuk menentukan h dari x.
 
 241
 00:12:55,610 --> 00:12:57,760
-So that's basically it.
+Jadi pada dasarnya begitu saja.
 
 242
 00:12:57,760 --> 00:12:59,420
-And you just keep flipping.
+Dan Anda terus-menerus melempar koinnya.
 
 243
 00:12:59,420 --> 00:13:00,950
-You have to flip d times.
+Anda harus melempar sebanyak d kali.
 
 244
 00:13:00,950 --> 00:13:05,320
-And so if x was 0, you
-flip d times, d was 160.
+Jadi jika x adalah 0, Anda
+melempar koinnya sebanyak d kali, d adalah 160.
 
 245
 00:13:05,320 --> 00:13:08,300
-You flipped a coin 160
-times and got a string.
+Anda melempar koin 160
+kali dan mendapatkan sebuah string.
 
 246
 00:13:08,300 --> 00:13:13,430
-If x were 1, flip 160 times,
-you get a different string
+Jika x adalah 1, lempar 160 kali,
+Anda mendapatkan string yang berbeda
 
 247
 00:13:13,430 --> 00:13:15,530
-with very high
-probability, obviously.
+dengan kemungkinan
+yang sangat tinggi, jelas.
 
 248
 00:13:15,530 --> 00:13:16,890
-And so on and so forth.
+Dan seterusnya.
 
 249
 00:13:16,890 --> 00:13:19,280
-But what you do is
-you have this book.
+Tapi hal yang Anda lakukan adalah
+Anda mempunyai buku ini.
 
 250
 00:13:19,280 --> 00:13:29,870
-So you're going to record
-x h of x in the book, OK?
+Jadi Anda akan mencatat
+x h dari x di dalam buku tersebut, OK?
 
 251
 00:13:29,870 --> 00:13:31,770
-So at some level
-your hash function
+Jadi pada tingkat tertentu
+fungsi hash Anda
 
 252
 00:13:31,770 --> 00:13:35,220
-is this giant look-up
-table in the sky, right?
+merupakan tabel pencari raksasa
+di langit, benar?
 
 253
 00:13:35,220 --> 00:13:37,480
-Actually not giant, infinite
-capacity look-up table
+Sebenarnya bukan raksasa, tapi
+tabel pencari dengan kapasitas tak terhingga
 
 254
 00:13:37,480 --> 00:13:38,510
-in the sky.
+di langit.
 
 255
 00:13:38,510 --> 00:13:42,230
-Because you can put
-arbitrary strings into this.
+Karena Anda bisa menaruh
+string-string acak ke dalamnya.
 
 256
 00:13:42,230 --> 00:13:47,910
-And if it's in the book-- this
-is obviously the important part
+Dan jika ada di buku tersebut-- 
+jelas ini adalah bagian penting
 
 257
 00:13:47,910 --> 00:13:52,740
-that gives you determinism--
-then you return y,
+yang memberikan Anda determinisme--
+maka Anda keluarkan y,
 
 258
 00:13:52,740 --> 00:13:58,700
-where x and y are
-in the book, OK?
+di mana x dan y ada 
+di dalam buku tersebut, OK?
 
 259
 00:14:01,350 --> 00:14:05,040
-So you get a random
-answer every time,
+Jadi Anda mendapatkan sebuah
+jawaban acak setiap kali,
 
 260
 00:14:05,040 --> 00:14:08,380
-except as required
-for consistency
+kecuali sesuai yang dibutuhkan
+untuk konsistensi
 
 261
 00:14:08,380 --> 00:14:10,180
-with previous answers.
+dengan jawaban-jawaban sebelumnya.
 
 262
 00:14:10,180 --> 00:14:11,930
-So the very first
-time you see a string,
+Jadi, pertama kali
+Anda melihat sebuah string,
 
 263
 00:14:11,930 --> 00:14:16,730
-or-- and the whole world
-can create this book.
+atau-- dan seluruh dunia
+dapat membuat buku ini.
 
 264
 00:14:16,730 --> 00:14:17,740
-It's public.
+Ini umum.
 
 265
 00:14:17,740 --> 00:14:22,430
-So if I created the book at
-first with a particular string,
+Jadi, jika saya membuat buku tersebut saat
+pertama kali dengan sebuah string tertentu,
 
 266
 00:14:22,430 --> 00:14:23,710
-let's say Eric.
+katakanlah Eric.
 
 267
 00:14:23,710 --> 00:14:25,120
-I was the string.
+Saya adalah string tersebut.
 
 268
 00:14:25,120 --> 00:14:29,960
-And I'm the one who put
-the entry-- x equals Eric,
+Dan saya adalah orang yang menaruh
+masukan tersebut-- x sama dengan Eric
 
 269
 00:14:29,960 --> 00:14:34,040
-and h of x, h of Eric equals
-some random 160-bit string--
+dan h dari x, h dari Eric setara dengan
+suatu 160-bit string acak--
 
 270
 00:14:34,040 --> 00:14:36,640
-into the book, I get
-credit for that, right?
+ke dalam buku tersebut, saya mendapatkan
+penghargaan untuk hal itu, benar?
 
 271
 00:14:36,640 --> 00:14:43,650
-But if you come a nanosecond
-later and ask for h of Eric,
+Tetapi jika Anda datang satu nanodetik
+kemudian dan meminta h dari Eric,
 
 272
 00:14:43,650 --> 00:14:46,090
-you should get exactly
-what got put into the book
+Anda seharusnya mendapatkan tepat
+apa yang telah ditaruh ke dalam buku tersebut
 
 273
 00:14:46,090 --> 00:14:49,850
-when I asked for h of Eric.
+ketika saya meminta h dari Eric.
 
 274
 00:14:49,850 --> 00:14:51,290
-And so on and so forth.
+Dan seterusnya.
 
 275
 00:14:51,290 --> 00:14:53,050
-So this is true for everybody.
+Jadi ini benar untuk semua orang.
 
 276
 00:14:53,050 --> 00:14:56,810
-So this is like-- I mean
-basically impossible to get.
+Jadi ini seperti-- maksud saya
+intinya mustahil untuk didapatkan.
 
 277
 00:14:56,810 --> 00:15:01,770
-Because not only can
-anybody and everybody query,
+Karena tidak hanya 
+setiap orang dan semua orang bisa bertanya,
 
 278
 00:15:01,770 --> 00:15:05,190
-you have to have this
-ordering associated
+Anda harus membuat
+urutan ini terasosiasikan
 
 279
 00:15:05,190 --> 00:15:09,450
-with people querying the book.
+dengan orang-orang yang menanyakan buku tersebut.
 
 280
 00:15:09,450 --> 00:15:11,330
-And you have to
-have consistency.
+Dan Anda harus
+mempunyai konsistensi.
 
 281
 00:15:11,330 --> 00:15:11,990
-All right.
+Baik.
 
 282
 00:15:11,990 --> 00:15:15,990
-So everyone convinced
-that we can't build this?
+Jadi semua orang sudah yakin
+bahwa kita tidak dapat membangun ini?
 
 283
 00:15:15,990 --> 00:15:16,710
-All right.
+Baik.
 
 284
 00:15:16,710 --> 00:15:18,660
-If you took anything
-out of this lecture,
+Jika Anda mengambil apapun
+dari perkuliahan ini,
 
 285
 00:15:18,660 --> 00:15:20,011
-that's what you should take.
+hal itu yang seharusnya Anda ambil.
 
 286
 00:15:20,011 --> 00:15:20,510
-No, no.
+Tidak, tidak.
 
 287
 00:15:20,510 --> 00:15:22,290
-There's a lot more.
+Ada lebih banyak hal.
 
 288
 00:15:22,290 --> 00:15:26,750
-So we want to approximate
-the random oracle.
+Jadi kita ingin memperkirakan
+pembangkit nilai acak tersebut.
 
 289
 00:15:26,750 --> 00:15:28,840
-And we're going to get to that.
+Dan kita akan membahas hal itu.
 
 290
 00:15:28,840 --> 00:15:34,767
-Obviously we're going to have to
-do this in poly-space as well.
+Jelas bahwa kita harus melakukan ini
+dalam ruang polinomial juga.
 
 291
 00:15:34,767 --> 00:15:35,850
-So what's wrong with this?
+Jadi apa yang salah dengan hal ini?
 
 292
 00:15:35,850 --> 00:15:38,810
-Of course this picture is
-I didn't actually say this,
+Tentu saja gambaran ini 
+Sebenarnya saya tidak mengatakan hal ini,
 
 293
 00:15:38,810 --> 00:15:42,320
-but you'd like things to be
-poly-time in terms of space.
+tetapi Anda ingin hal-hal menjadi
+waktu polinomial dalam istilah ruang.
 
 294
 00:15:42,320 --> 00:15:46,210
-You don't want to store
-an infinite number-- this
+Anda tidak ingin menyimpan
+angka tak terhingga-- hal ini 
 
 295
 00:15:46,210 --> 00:15:48,649
-is worse than poly-time,
-worse than exponential time,
+lebih buruk dari waktu polinomial,
+lebih buruk dari waktu eksponensial,
 
 296
 00:15:48,649 --> 00:15:51,190
-because it's arbitrary strings
-that we're talking about here,
+karena ini string-string acak
+yang sedang kita bicarakan di sini,
 
 297
 00:15:51,190 --> 00:15:51,920
-right?
+benar?
 
 298
 00:15:51,920 --> 00:15:53,940
-So you can't possibly do that.
+Jadi Anda tidak mungkin melakukan itu.
 
 299
 00:15:53,940 --> 00:15:56,350
-So we have to do
-something better.
+Jadi kita harus melakukan
+sesuatu yang lebih baik.
 
 300
 00:15:56,350 --> 00:16:00,180
-But before I get into how we'd
-actually build this, and give
+Tapi sebelum saya masuk ke bagaimana sebenarnya kita
+akan membangun ini, dan memberikan 
 
 301
 00:16:00,180 --> 00:16:04,346
-you a sense of how SHA-1
-and MD5 were built--
+Anda gambaran tentang bagaimana SHA-1 
+dan MD5 dibangun--
 
 302
 00:16:04,346 --> 00:16:06,220
-and that's going to come
-a little bit later--
+dan itu akan tiba
+sebentar lagi--
 
 303
 00:16:06,220 --> 00:16:11,910
-I want to spend a lot of time
-on the what is interesting,
+Saya ingin menghabiskan banyak waktu
+dalam hal yang menarik,
 
 304
 00:16:11,910 --> 00:16:13,630
-which are the
-desirable properties.
+yaitu properti-properti
+yang diinginkan.
 
 305
 00:16:13,630 --> 00:16:16,640
-Which you can kind of see
-using the random oracle.
+Yang dapat Anda lihat dengan
+menggunakan pembangkit nilai acak.
 
 306
 00:16:16,640 --> 00:16:18,690
-So what is cool about
-the random oracle
+Jadi hal yang mengagumkan tentang
+pembangkit nilai acak adalah
 
 307
 00:16:18,690 --> 00:16:21,140
-is that it's a simple algorithm.
+ini merupakan algoritme yang sederhana.
 
 308
 00:16:21,140 --> 00:16:23,060
-You can understand it.
+Anda dapat memahaminya.
 
 309
 00:16:23,060 --> 00:16:24,410
-You can't implement it.
+Anda tidak dapat mengimplementasikannya.
 
 310
 00:16:24,410 --> 00:16:27,130
-But now you can see what
-wonderful properties
+Namun sekarang Anda dapat melihat
+properti-properti mengagumkan yang 
 
 311
 00:16:27,130 --> 00:16:28,230
-it gives you.
+diberikan kepada Anda.
 
 312
 00:16:28,230 --> 00:16:30,350
-And these properties are
-going to be important
+Dan properti-properti ini 
+akan menjadi penting
 
 313
 00:16:30,350 --> 00:16:32,490
-for our applications, OK?
+untuk aplikasi milik kita, OK?
 
 314
 00:16:32,490 --> 00:16:36,146
-And so let's get started with a
-bunch of different properties.
+Jadi mari kita mulai dengan
+berbagai properti yang berbeda.
 
 315
 00:16:36,146 --> 00:16:37,520
-And these are all
-properties that
+Dan ini semua merupakan
+properti yang
 
 316
 00:16:37,520 --> 00:16:43,030
-are going to be useful for
-verification or computer
+akan berguna untuk
+verifikasi atau aplikasi
 
 317
 00:16:43,030 --> 00:16:44,850
-security applications.
+keamanan komputer.
 
 318
 00:16:44,850 --> 00:16:51,100
-The first one, it's not ow,
-it's O, W. It's one-wayness,
+Yang pertama, bukan ow,
+ini adalah O.W. Ini adalah one-wayness(kesatu-arahan),
 
 319
 00:16:51,100 --> 00:16:51,780
-all right?
+baik?
 
 320
 00:16:51,780 --> 00:16:53,930
-So one-way, or one-wayness.
+Jadi satu arah atau kesatu-arahan.
 
 321
 00:16:53,930 --> 00:17:03,230
-And it's also called-- you're
-not going to call it this--
+Dan hal tersebut juga disebut-- Anda
+tidak akan menyebutnya ini--
 
 322
 00:17:03,230 --> 00:17:09,390
-but perhaps this is a more
-technical term, a more precise
+tetapi mungkin ini merupakan 
+istilah yang lebih teknis, istilah yang lebih
 
 323
 00:17:09,390 --> 00:17:11,150
-term, pre-image resistance.
+tepat, pre-image resistance(resistansi pra-gambar).
 
 324
 00:17:11,150 --> 00:17:13,060
-And so what does this mean?
+Jadi apa arti dari ini?
 
 325
 00:17:13,060 --> 00:17:15,167
-Well this is a very
-strong requirement.
+Jadi ini adalah persyaratan 
+yang sangat kuat.
 
 326
 00:17:15,167 --> 00:17:16,750
-I mean a couple of
-other ones are also
+Maksud saya beberapa 
+hal yang lain juga
 
 327
 00:17:16,750 --> 00:17:18,990
-going to be perhaps stronger.
+mungkin akan lebih kuat.
 
 328
 00:17:18,990 --> 00:17:21,270
-But this is a pretty
-strong requirement
+Tetapi ini adalah 
+persyaratan yang cukup kuat
 
 329
 00:17:21,270 --> 00:17:28,710
-which says it's
-infeasible, given y,
+yang mengatakan ini
+tidak layak, diberikan y,
 
 330
 00:17:28,710 --> 00:17:45,170
-which is in the-- it's basically
-a d-bit vector, to find any x
+yang ada di dalam-- pada dasarnya
+sebuah vektor d-bit, untuk menemukan x manapun
 
 331
 00:17:45,170 --> 00:17:50,950
-such that h of x equals y.
+sehingga h dari x sama dengan y.
 
 332
 00:17:50,950 --> 00:18:00,120
-And so this is x is
-the pre-image of y.
+Jadi x ini adalah
+gambaran awal dari y.
 
 333
 00:18:00,120 --> 00:18:01,580
-So what does this say?
+Jadi hal ini menyatakan apa?
 
 334
 00:18:01,580 --> 00:18:04,400
-It says that I want to
+Hal ini menyatakan bahwa saya ingin
 create a hash function such
 
 335
