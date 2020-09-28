@@ -1039,56 +1039,57 @@ the session s for b's key.
 
 220
 00:10:01,840 --> 00:10:03,860
-And remember in Kerberos,
-in order to do this,
+Dan ingat di Kerberos,
+untuk melakukan ini,
 
 221
 00:10:03,860 --> 00:10:05,590
-we have to have the
-KDC do this for us
+Kita harus memiliki
+KDC untuk mengerjakan ini untuk kita
 
 222
 00:10:05,590 --> 00:10:08,095
-because a didn't
-know the key for b,
+karena tidak
+tahu kunci untuk b,
 
 223
 00:10:08,095 --> 00:10:10,720
-or couldn't have been allowed to
-know because that is a secret.
+atau tidak bisa diizinkan
+tahu karena itu rahasia.
+
 
 224
 00:10:10,720 --> 00:10:12,197
-But only b should've known.
+Tapi seharusnya hanya b yang tahu.
 
 225
 00:10:12,197 --> 00:10:14,280
-With public key cyrptor
-you can actually this now.
+Dengan kunci publik cyrptor 
+Anda sebenarnya bisa melakukannya sekarang.
 
 226
 00:10:14,280 --> 00:10:21,730
-We can just encrypt the secret
-s using these public keys.
+Kami bisa saja mengenkripsi rahasianya
+s menggunakan kunci publik ini.
 
 227
 00:10:21,730 --> 00:10:23,555
-And we send this
-message over to b.
+Dan kami mengirimkan 
+pesan ini ke b.
 
 228
 00:10:23,555 --> 00:10:25,500
-B can now decrypt this
-message, and say I
+B sekarang dapat mendekripsi 
+pesan ini, dan berkata Saya
 
 229
 00:10:25,500 --> 00:10:27,500
-should be using this secret key.
+harus menggunakan kunci rahasia ini.
 
 230
 00:10:27,500 --> 00:10:30,930
-And now we can have a
-communication channel where
+Dan sekarang kita bisa punya 
+saluran komunikasi dimana
 
 231
 00:10:30,930 --> 00:10:32,890
