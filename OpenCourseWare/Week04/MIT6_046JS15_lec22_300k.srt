@@ -1102,49 +1102,49 @@ pada solusi untuk teka-teki ini.
 
 232
 00:12:44,080 --> 00:12:45,930
-That will be interesting to you.
+Itu akan menarik bagi Anda.
 
 233
 00:12:45,930 --> 00:12:47,980
-But the puzzle is
-a pirate puzzle.
+Tetapi teka-teki itu adalah
+teka-teki bajak laut.
 
 234
 00:12:47,980 --> 00:12:50,050
-So you've got Alice and Bob.
+Jadi Anda punya Alice dan Bob.
 
 235
 00:12:50,050 --> 00:12:51,900
-Let's call it the
-Caribbean, because that's
+Sebut saja itu
+Karibia, karena itu adalah
 
 236
 00:12:51,900 --> 00:12:53,740
-my favorite ocean.
+lautan favoritku.
 
 237
 00:12:53,740 --> 00:12:56,896
-And Alice and Bob are in
-two different islands.
+Dan Alice dan Bob berada di
+dua pulau yang berbeda.
 
 238
 00:12:56,896 --> 00:12:59,020
-And we all know there are
-pirates in the Caribbean,
+Dan kita semua tahu ada beberapa
+bajak laut di Karibia,
 
 239
 00:12:59,020 --> 00:13:01,600
-right?
+benar?
 
 240
 00:13:01,600 --> 00:13:06,140
-And so Alice and Bob want to
-communicate with each other.
+Jadi Alice dan Bob ingin
+berkomunikasi satu sama lain.
 
 241
 00:13:06,140 --> 00:13:12,090
-And what Alice has are a bunch
-of boxes and locks and keys.
+Dan yang dimiliki Alice adalah sekumpulan
+kotak dan gembok serta kunci.
 
 242
 00:13:14,930 --> 00:13:19,150
