@@ -1056,49 +1056,49 @@ ada penyadap.
 
 222
 00:12:14,730 --> 00:12:20,195
-So here's my favorite example
-of a puzzle that most of you
+Ini adalah contoh kesukaan saya
+dari teka-teki yang kebanyakan dari anda
 
 223
 00:12:20,195 --> 00:12:23,170
-have probably heard about.
+mungkin pernah mendengarnya.
 
 224
 00:12:23,170 --> 00:12:26,800
-But those of you who haven't,
-it's really pretty cool.
+Tapi bagi anda yang belum,
+ini sungguh bagus.
 
 225
 00:12:26,800 --> 00:12:32,700
-And those of you who have, it's
-still pretty cool and worth
+dan diantara anda yang sudah, ini
+masih terlihat sangat bagus dan bernilai.
 
 226
 00:12:32,700 --> 00:12:33,790
-recalling.
+untuk diulang.
 
 227
 00:12:33,790 --> 00:12:36,300
-And there's actually
-something that you probably
+Dan sebenarnya
+sesuatu yang anda pasti
 
 228
 00:12:36,300 --> 00:12:38,250
-haven't thought about
-very much even if you've
+tidak pernah
+sangat terpikirkan oleh anda
 
 229
 00:12:38,250 --> 00:12:39,450
-heard about this puzzle.
+bagi yang pernah mendengar puzzle ini.
 
 230
 00:12:39,450 --> 00:12:42,480
-That's the mathematical
-assumption made
+Itu metode matematika
+yang dibuat
 
 231
 00:12:42,480 --> 00:12:44,080
-in the solution of this puzzle.
+pada solusi untuk teka-teki ini.
 
 232
 00:12:44,080 --> 00:12:45,930
