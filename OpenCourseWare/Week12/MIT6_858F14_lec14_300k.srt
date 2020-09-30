@@ -988,54 +988,54 @@ kunci simetris.
 
 209
 00:09:29,260 --> 00:09:33,520
-So almost always you want to get
-out of the use of public crypto
+Jadi hampir selalu Anda ingin
+keluar dari penggunaan kripto publik
 
 210
 00:09:33,520 --> 00:09:35,440
-as soon as practical.
+secepat mungkin.
 
 211
 00:09:35,440 --> 00:09:37,320
-So a typical protocol
-might look like this
+Jadi protokol yang khas
+mungkin terlihat seperti ini
 
 212
 00:09:37,320 --> 00:09:40,020
-where you have a and b, and
-they want to communicate.
+Jika anda memiliki a dan b, dan
+mereka ingin berkomunikasi.
 
 213
 00:09:40,020 --> 00:09:41,990
-And a knows b's public key.
+Dan a mengetahui kunci publik b.
 
 214
 00:09:41,990 --> 00:09:44,480
-So what might happen is
-that a might generate
+Jadi apa yang dapat terjadi adalah
+a dapat membangun
 
 215
 00:09:44,480 --> 00:09:46,445
-some sort of session s.
+semacam sesi s.
 
 216
 00:09:49,840 --> 00:09:51,380
-Just pick a random number.
+Pilih suatu angka acak.
 
 217
 00:09:51,380 --> 00:09:56,210
-And then it's going to send
-to b the session key s.
+Lalu kunci sesi s
+akan dikirimkan ke b.
 
 218
 00:09:56,210 --> 00:09:58,550
-So this is kind of
-looking like Kerberos.
+Jadi ini semacam
+terlihat seperti Kerberos.
 
 219
 00:09:58,550 --> 00:10:01,840
-And we're going to encrypt
-the session s for b's key.
+Dan kita akan mengenkripsi
+sesi s untuk kuncinya b.
 
 220
 00:10:01,840 --> 00:10:03,860
@@ -1056,7 +1056,6 @@ tahu kunci untuk b,
 00:10:08,095 --> 00:10:10,720
 atau tidak bisa diizinkan
 tahu karena itu rahasia.
-
 
 224
 00:10:10,720 --> 00:10:12,197
