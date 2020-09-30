@@ -1081,7 +1081,7 @@ dan lain-lain, hal tersebut
 229
 00:09:26,280 --> 00:09:30,470
 akan mencoba memastikan bahwa
-kebijakan kita dipatuhi
+kebijakan kita diikuti
 
 230
 00:09:30,470 --> 00:09:34,430
@@ -1160,11 +1160,11 @@ cukup lumrah.
 246
 00:10:08,300 --> 00:10:12,210
 Dan alasan utama
-mengapa mendirikan keamanan
+mengapa keamanan
 
 247
 00:10:12,210 --> 00:10:14,800
-menjadi masalah yang sulit
+menjadi masalah yang sulit adalah
 karena apa yang kita miliki di sini
 
 248
@@ -1184,7 +1184,7 @@ kebijakan keamanan kita
 
 251
 00:10:23,270 --> 00:10:27,360
-diikuti apapun yang
+diikuti terlepas dari apa yang
 dapat dilakukan oleh penyerang.
 
 252
@@ -1236,12 +1236,12 @@ saya harus mencari tahu
 
 262
 00:10:52,820 --> 00:10:56,010
-apa bisa semua orang non TA
-di seluruh dunia mencoba
+apa yang bisa dilakukan semua orang non TA
+di seluruh dunia untuk mencoba
 
 263
 00:10:56,010 --> 00:10:57,460
-untuk mendapatkan berkas nilai saya, benar?
+mendapatkan berkas nilai saya, benar?
 
 264
 00:10:57,460 --> 00:11:01,110
@@ -1261,7 +1261,7 @@ jenis serangan yang lain,
 267
 00:11:04,900 --> 00:11:07,060
 seperti menebak
-password untuk TA
+password untuk para TA
 
 268
 00:11:07,060 --> 00:11:10,670
@@ -1324,13 +1324,13 @@ yang tepat.
 
 281
 00:11:32,884 --> 00:11:35,050
-Dan itu hanya setelah
-fakta yang anda sering sadari,
+Dan berdasarkan fakta yang
+sering Anda sering sadari,
 
 282
 00:11:35,050 --> 00:11:37,000
-Sebaiknya memikirkan
-tentang itu.
+sebaiknya Anda berpikir
+tentang hal itu.
 
 283
 00:11:39,520 --> 00:11:40,720
@@ -1338,32 +1338,32 @@ Baiklah.
 
 284
 00:11:40,720 --> 00:11:42,700
-dan semacamnya, sebagai
-hasil, ini sangat banyak
+Dan semacamnya, sebagai
+hasilnya, ini adalah
 
 285
 00:11:42,700 --> 00:11:44,170
-proses pengulangan.
+sebuah proses yang berulang.
 
 286
 00:11:44,170 --> 00:11:46,960
-Dan hal yang anda akhirnya
-menyadari di setiap iterasi
+Dan hal yang Anda akhirnya
+sadari di setiap iterasi
 
 287
 00:11:46,960 --> 00:11:49,132
-adalah
-tautan terlemah ke sistem saya.
+adalah, baiklah, inilah
+tautan terlemah ke dalam sistem saya.
 
 288
 00:11:49,132 --> 00:11:50,590
-mungkin saya mendapatkan
-model threat yang salah.
+Mungkin saya mendapatkan
+model ancaman yang salah.
 
 289
 00:11:50,590 --> 00:11:53,290
-mungkin mekanismenya memiliki beberapa bugs
-di dalamnya karena itu adalah software
+Mungkin mekanisme saya memiliki beberapa bug
+di dalamnya karena itu adalah sebuah perangkat lunak
 
 290
 00:11:53,290 --> 00:11:55,120
@@ -1372,36 +1372,36 @@ sistem yang besar.
 
 291
 00:11:55,120 --> 00:11:57,010
-mereka akan mempunyai banyak bugs.
+Mereka akan mempunyai banyak bug.
 
 292
 00:11:57,010 --> 00:11:58,490
-dan anda semacam memperbaikinya.
+Dan Anda memperbaikinya.
 
 293
 00:11:58,490 --> 00:11:59,950
-kalian mengganti 
-threat model kalian sedikit.
+Kalian mengganti sedikit
+model ancaman kalian.
 
 294
 00:11:59,950 --> 00:12:02,900
-dan kalian mengulang dan mencoba
-mendesign sebuah sistem baru,
+Dan kalian mengulangi hal tersebut dan
+mencoba merancang sebuah sistem baru,
 
 295
 00:12:02,900 --> 00:12:06,720
-dan harapannya,
+dan semoga,
 membuat segalanya menjadi lebih baik.
 
 296
 00:12:06,720 --> 00:12:10,640
 Jadi satu kemungkinan interpretasi 
-dari kelas ini,
+dari kelas ini-- baik,
 
 297
 00:12:10,640 --> 00:12:14,360
-salah satu bahayanya adalah bahwa Anda 
-berpikir semuanya
+satu bahayanya-- adalah bahwa Anda 
+berpikir, tidak, semuanya
 
 298
 00:12:14,360 --> 00:12:15,070
@@ -1423,22 +1423,22 @@ kemungkinan interpretasi.
 
 302
 00:12:21,460 --> 00:12:23,752
-tapi mungkin tidak
+Namun hal ini mungkin tidak
 cukup benar.
 
 303
 00:12:23,752 --> 00:12:25,210
-Alasannya hal begini
-akan muncul
+Alasan hal-hal
+tersebut akan muncul
 
 304
 00:12:25,210 --> 00:12:26,585
-atau kamu akan
+atau Anda akan
 berpikir seperti ini
 
 305
 00:12:26,585 --> 00:12:28,060
-karena,
+adalah karena,
 sepanjang kelas ini,
 
 306
@@ -1475,12 +1475,12 @@ semua sistem akan
 
 313
 00:12:37,060 --> 00:12:38,643
-memiliki beberapa
+memiliki sebuah
 titik puncak (breaking point).
 
 314
 00:12:38,643 --> 00:12:39,860
-Dan akan kita pecahkan, oh halo.
+Dan akan kita pecahkan, oh hei.
 
 315
 00:12:39,860 --> 00:12:42,420
@@ -1508,8 +1508,8 @@ setiap sistem tidak berguna.
 
 320
 00:12:51,380 --> 00:12:52,920
-Itu berarti kalian
-harus tahu kapan
+Itu hanya berarti bahwa
+kalian harus tahu kapan
 
 321
 00:12:52,920 --> 00:12:54,980
