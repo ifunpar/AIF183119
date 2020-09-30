@@ -985,7 +985,7 @@ salah satu dari orang-orang ini.
 208
 00:08:00,440 --> 00:08:03,950
 Jadi contoh pertama yang
-dia tunjukan
+dia tunjukkan
 
 209
 00:08:03,950 --> 00:08:07,140
@@ -999,7 +999,7 @@ Ya, pertanyaan.
 
 211
 00:08:13,169 --> 00:08:14,294
-PENONTON: Saya hanya penasaran.
+AUDIENS: Saya hanya penasaran.
 
 212
 00:08:14,294 --> 00:08:15,502
@@ -1007,17 +1007,17 @@ Ini sedikit keluar dari topik pembahasan.
 
 213
 00:08:15,502 --> 00:08:17,606
-Tetapi, misalnya kamu
+Tetapi, misalnya Anda
 menemukan bug di TCP.
 
 214
 00:08:17,606 --> 00:08:19,976
-Bagaimana kamu membuat
+Bagaimana Anda membuat
 perubahan di TCP tersebut?
 
 215
 00:08:19,976 --> 00:08:21,398
-Bagaimana kamu memberi tahu
+Bagaimana Anda memberi tahu
 semua komputer
 
 216
@@ -1026,12 +1026,12 @@ di dunia untuk merubah itu?
 
 217
 00:08:23,736 --> 00:08:25,610
-PROFESOR: Iya, saya pikir
+PROFESOR: Ya, saya pikir
 hal tersebut merupakan masalah yang besar.
 
 218
 00:08:25,610 --> 00:08:26,900
-Bagaimana jika kamu menemukan bug di TCP?
+Bagaimana jika Anda menemukan bug di TCP?
 
 219
 00:08:26,900 --> 00:08:29,280
@@ -1049,13 +1049,13 @@ jika Anda dapat mendesain ulang TCP
 
 222
 00:08:36,165 --> 00:08:37,539
-banyak dari bug ini
+sebagian besar dari bug ini
 relatif
 
 223
 00:08:37,539 --> 00:08:41,620
 mudah diperbaiki jika Anda tahu apa
-yang harus dicari sebelumnya.
+yang harus diperbaiki dari awal.
 
 224
 00:08:41,620 --> 00:08:46,410
@@ -1074,23 +1074,23 @@ desainer mencoba mencari
 
 227
 00:08:54,457 --> 00:08:58,135
-penyesuaian yang 
+penyesuaian-penyesuaian yang 
 kompatibel ke belakang
 
 228
 00:08:58,135 --> 00:09:01,170
 yang memungkinkan implementasi lama
-untuk hidup berdampingan dengan implementasi baru
+untuk berjalan bersamaan dengan implementasi baru
 
 229
 00:09:01,170 --> 00:09:04,970
-atau untuk menambahkan beberapa bidang opsional
+atau untuk menambahkan beberapa kolom nilai opsional
 yang jika ada di sana, maka
 
 230
 00:09:04,970 --> 00:09:08,590
-komunikasi dalam beberapa hal
-menjadi lebih aman.
+komunikasi menjadi lebih aman
+dalam beberapa hal.
 
 231
 00:09:08,590 --> 00:09:10,370
@@ -1099,7 +1099,7 @@ Tapi ini masalah besar.
 232
 00:09:10,370 --> 00:09:14,030
 Jika ini masalah keamanan
-yang tertanam di dalam TCP,
+yang tertanam dalam di TCP,
 
 233
 00:09:14,030 --> 00:09:17,750
@@ -1108,13 +1108,13 @@ sangat besar bagi semua orang
 
 234
 00:09:17,750 --> 00:09:23,930
-untuk hanya berkemas dan pindah ke 
+untuk pindah ke 
 versi TCP apa pun, n tambah 1.
 
 235
 00:09:23,930 --> 00:09:27,296
 Dan Anda dapat melihat IPv6 sebagai 
-salah satu contoh bahwa hal ini tidak terjadi.
+salah satu contoh bahwa hal ini gagal terjadi.
 
 236
 00:09:27,296 --> 00:09:29,170
@@ -1133,20 +1133,20 @@ lebih dari 10 tahun sekarang.
 239
 00:09:34,759 --> 00:09:37,300
 Dan sulit untuk meyakinkan orang 
-untuk menjauh dari IPv4.
+untuk berpindah dari IPv4.
 
 240
 00:09:37,300 --> 00:09:38,060
-Cukup bagus.
+IPv4 sudah cukup bagus.
 
 241
 00:09:38,060 --> 00:09:39,040
-Ini semacam berhasil.
+Dia bekerja dengan baik.
 
 242
 00:09:39,040 --> 00:09:41,465
 Diperlukan banyak
-biaya untuk berpindah.
+usaha untuk berpindah.
 
 243
 00:09:41,465 --> 00:09:43,019
@@ -1165,7 +1165,7 @@ untuk berbicara dengan saya?
 
 246
 00:09:47,220 --> 00:09:48,520
-Jadi hal ini terus berlalu.
+Jadi hal ini terus berlaku.
 
 247
 00:09:48,520 --> 00:09:49,895
@@ -1179,27 +1179,27 @@ yang kuat untuk berpindah.
 
 249
 00:09:53,290 --> 00:09:56,940
-Kompatibilitas mundur
+Kompatibilitas ke belakang
 juga sangat membantu.
 
 250
 00:09:56,940 --> 00:09:58,700
 Tidak cukup baik untuk,
-misalnya, IPv6-- IPv6
+saya rasa, IPv6-- IPv6
 
 251
 00:09:58,700 --> 00:10:01,205
 memiliki banyak rencana kompatibilitas
-mundur di dalamnya.
+ke belakang di dalamnya.
 
 252
 00:10:01,205 --> 00:10:04,720
-Anda bisa berbicara dengan
+Anda bisa berkomunikasi dengan
 host IPv4 dari IPv6.
 
 253
 00:10:04,720 --> 00:10:07,770
-Jadi mereka telah mencoba membuat
+Jadi mereka mencoba membuat
 seluruh dukungan ini.
 
 254
