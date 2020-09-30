@@ -713,494 +713,494 @@ menurut paper ini.
 
 151
 00:05:51,970 --> 00:05:55,160
-And in particular,
-attackers can inject
+Dan khususnya,
+penyerang dapat menginjeksi
 
 152
 00:05:55,160 --> 00:05:58,860
-packets that can pretend to
-be from any other sender.
+paket-paket yang berpura-pura 
+berasal dari pengirim lain.
 
 153
 00:05:58,860 --> 00:06:02,295
-Because the way this works in
-IP is that the IP packet itself
+Karena cara kerjanya
+adalah paket IP tersebut
 
 154
 00:06:02,295 --> 00:06:04,420
-has a header that contains
-the source of the packet
+memiliki header yang mengandung
+sumber paket
 
 155
 00:06:04,420 --> 00:06:06,080
-and the destination.
+dan tujuannya.
 
 156
 00:06:06,080 --> 00:06:08,830
-And it's up to whoever
-creates the packet
+Dan terserah kepada siapapun
+yang membuat paket
 
 157
 00:06:08,830 --> 00:06:11,750
-to fill in the right values
-for the source and destination.
+untuk mengisi nilai yang tepat 
+untuk sumber dan tujuan
 
 158
 00:06:11,750 --> 00:06:14,100
-And no one checks that
-the source is necessarily
+dan tidak seorang pun memeriksa 
+apakah sumbernya merupakan
 
 159
 00:06:14,100 --> 00:06:16,100
-the correct.
+sumber yang tepat.
 
 160
 00:06:16,100 --> 00:06:18,050
-There's some filtering
-going on these days.
+Ada berapa peyaringan 
+yang terjadi belakangan ini.
 
 161
 00:06:18,050 --> 00:06:21,430
-But it's sort of fairly spotty,
-and it's hard to rely on.
+Tapi biasanya kurang bagus,
+dan sulit untuk diandalkan.
 
 162
 00:06:21,430 --> 00:06:23,115
-So to a first
-approximation, an attacker
+Jadi untuk perkiraan
+pertama, seorang penyerang
 
 163
 00:06:23,115 --> 00:06:25,340
-could fill in any IP
-address as the source,
+dapat mengisi alamat IP
+apa pun sebagai sumber,
 
 164
 00:06:25,340 --> 00:06:29,180
-and it will get to the
-destination correctly.
+dan itu akan sampai ke
+tujuan dengan benar.
 
 165
 00:06:29,180 --> 00:06:32,070
-And it's interesting
-to try to figure out
+Dan menarik
+untuk mencoba mencari tahu
 
 166
 00:06:32,070 --> 00:06:35,540
-what could an attacker do with
-such a capability of sending
+apa yang bisa dilakukan penyerang
+dengan kemampuan pengiriman
 
 167
 00:06:35,540 --> 00:06:37,670
-arbitrary packets.
+paket acak.
 
 168
 00:06:37,670 --> 00:06:41,771
-Now, in the several
-weeks up to this,
+Sekarang, di beberapa
+minggu sampai minggu ini,
 
 169
 00:06:41,771 --> 00:06:43,520
-like in buffer overflows
-and web security,
+seperti di buffer overflow
+dan keamanan web,
 
 170
 00:06:43,520 --> 00:06:46,110
-we looked at, to a large extent,
-implementation bugs, like,
+kita sudah melihat, secara umum,
+bug implementasi, seperti,
 
 171
 00:06:46,110 --> 00:06:48,440
-how could you exploit
-a buffer overflow?
+bagaimana Anda bisa mengeksploitasi
+sebuah buffer overflow?
 
 172
 00:06:48,440 --> 00:06:50,420
-And interestingly, the
-author of this paper
+Dan yang menarik,
+penulis paper ini
 
 173
 00:06:50,420 --> 00:06:53,010
-is actually not at all
-interested in implementation
+sebenarnya sama sekali tidak
+tertarik pada bug
 
 174
 00:06:53,010 --> 00:06:53,510
-bugs.
+implementasi.
 
 175
 00:06:53,510 --> 00:06:56,770
-He's really interested in
-protocol errors or protocol
+Dia sangat tertarik dengan
+kesalahan pada
 
 176
 00:06:56,770 --> 00:06:57,562
-mistakes.
+protokol.
 
 177
 00:06:57,562 --> 00:06:58,520
-So what's the big deal?
+Jadi apa masalahnya?
 
 178
 00:06:58,520 --> 00:07:00,580
-Why is he down on
-implementation bugs,
+Mengapa dia mengabaikan
+bug implementasi,
 
 179
 00:07:00,580 --> 00:07:02,705
-even though we spent several
-weeks looking at them?
+meskipun kita menghabiskan beberapa
+minggu untuk melihatnya?
 
 180
 00:07:02,705 --> 00:07:03,510
-Why does it matter?
+Mengapa itu penting?
 
 181
 00:07:03,510 --> 00:07:04,010
-Yeah.
+Ya.
 
 182
 00:07:04,010 --> 00:07:06,828
-AUDIENCE: Because we have to
-keep those bugs [INAUDIBLE].
+AUDIENS: Karena kita harus
+menjaga bug-bug tersebut [TIDAK TERDENGAR].
 
 183
 00:07:06,828 --> 00:07:09,800
-PROFESSOR: Yeah, so this is the
-really big bummer about a bug
+PROFESOR: Ya, jadi ini adalah
+yang sangat disayangkan dari sebuah bug
 
 184
 00:07:09,800 --> 00:07:11,550
-in your protocol design.
+dalam desain protokol anda.
 
 185
 00:07:11,550 --> 00:07:13,589
-Because it's hard to change.
+Karena sulit untuk diubah.
 
 186
 00:07:13,589 --> 00:07:15,130
-So if you have an
-implementation bug,
+Jadi jika anda memiliki
+bug implementasi,
 
 187
 00:07:15,130 --> 00:07:17,350
-well, you had a
-memcpy or a print-out
+anda memiliki sebuah
+memcpy (memory copy) atau sebuah print-out
 
 188
 00:07:17,350 --> 00:07:19,254
-out of some sort that
-didn't check the range.
+dalam bentuk tertentu yang
+tidak memeriksa batas-batas.
 
 189
 00:07:19,254 --> 00:07:21,420
-OK, well, you had a range
-check, and it still works,
+OK, Anda bisa terapkan pemeriksaan
+batas-batas, dan masih berfungsi,
 
 190
 00:07:21,420 --> 00:07:22,461
-and now it's also secure.
+dan sekarang juga sudah aman.
 
 191
 00:07:22,461 --> 00:07:23,510
-So that's great.
+Jadi itu sangat bagus.
 
 192
 00:07:23,510 --> 00:07:25,995
-But if you have some bug in
-the protocol specification,
+Tetapi jika terdapat bug di
+spesifikasi protokol,
 
 193
 00:07:25,995 --> 00:07:29,140
-in how the protocol has
-to work, then fixing a bug
+di bagian bagaimana protokol seharusnya
+bekerja, maka memperbaiki bug
 
 194
 00:07:29,140 --> 00:07:31,190
-is going to require
-fixing a protocol, which
+akan memerlukan juga
+perbaikan protokolnya, yang
 
 195
 00:07:31,190 --> 00:07:33,820
-means potentially affecting
-all the systems that
+artinya berpotensi mempengaruhi
+semua sistem yang
 
 196
 00:07:33,820 --> 00:07:35,460
-are out there speaking
-this protocol.
+ada di luar sana yang menggunakan 
+protokol ini.
 
 197
 00:07:35,460 --> 00:07:37,340
-So if we find some
-problem in TCP,
+Jadi jika kita menemukan beberapa
+masalah di TCP,
 
 198
 00:07:37,340 --> 00:07:38,910
-it's potentially
-quite devastating.
+hal tersebut cukup berpotensi
+memberikan efek yang parah.
 
 199
 00:07:38,910 --> 00:07:42,229
-Because every machine that uses
-TCP is going to have to change.
+Karena setiap mesin yang menggunakan
+TCP harus berubah.
 
 200
 00:07:42,229 --> 00:07:43,770
-Because it's going
-to be hard to make
+Karena akan sulit
+untuk membuat
 
 201
 00:07:43,770 --> 00:07:45,790
-it potentially
-backwards compatible.
+hal itu kompatibel dengan
+versi sebelumnya.
 
 202
 00:07:45,790 --> 00:07:48,530
-We'll see exactly
-what these bugs are.
+Kita akan lihat sebenarnya
+bug macam apakah ini.
 
 203
 00:07:48,530 --> 00:07:51,640
-But this is the real reason
-he's so excited about looking
+Tetapi ini juga menjadi alasan sebenarnya
+dia sangat bersemangat melihat
 
 204
 00:07:51,640 --> 00:07:52,460
-at protocol bugs.
+bug protokol.
 
 205
 00:07:52,460 --> 00:07:56,555
-Because they're fairly
-fundamental to the TCP protocol
+Karena hal tersebut cukup
+mendasar bagi protokol TCP
 
 206
 00:07:56,555 --> 00:07:58,982
-that everyone agrees to speak.
+bahwa setiap orang setuju untuk berkomunikasi.
 
 207
 00:07:58,982 --> 00:08:00,440
-So let's look at
-one of these guys.
+Jadi mari kita lihat
+salah satu dari orang-orang ini.
 
 208
 00:08:00,440 --> 00:08:03,950
-So the first example
-he points out
+Jadi contoh pertama yang
+dia tunjukkan
 
 209
 00:08:03,950 --> 00:08:07,140
-has to do with how TCP
-sequence numbers work.
+berkaitan dengan bagaimana
+nomor urut TCP bekerja.
 
 210
 00:08:09,720 --> 00:08:13,169
-So just to re-explain--
-yeah, question.
+Jadi hanya untuk menjelaskan ulang--
+Ya, pertanyaan.
 
 211
 00:08:13,169 --> 00:08:14,294
-AUDIENCE: I'm just curious.
+AUDIENS: Saya hanya penasaran.
 
 212
 00:08:14,294 --> 00:08:15,502
-This is a tiny bit off topic.
+Ini sedikit keluar dari topik pembahasan.
 
 213
 00:08:15,502 --> 00:08:17,606
-But let's say you do
-find a bug in TCP.
+Tetapi, misalnya Anda
+menemukan bug di TCP.
 
 214
 00:08:17,606 --> 00:08:19,976
-How do you make
-the change to it?
+Bagaimana Anda membuat
+perubahan di TCP tersebut?
 
 215
 00:08:19,976 --> 00:08:21,398
-How do you tell
-all the computers
+Bagaimana Anda memberi tahu
+semua komputer
 
 216
 00:08:21,398 --> 00:08:23,736
-in the world to change that?
+di dunia untuk merubah itu?
 
 217
 00:08:23,736 --> 00:08:25,610
-PROFESSOR: Yeah, I think
-it's a huge problem.
+PROFESOR: Ya, saya pikir
+hal tersebut merupakan masalah yang besar.
 
 218
 00:08:25,610 --> 00:08:26,900
-What if you find a bug in TCP?
+Bagaimana jika Anda menemukan bug di TCP?
 
 219
 00:08:26,900 --> 00:08:29,280
-Well, it's unclear what to do.
+Sebenarnya, belum jelas apa yang harus dilakukan.
 
 220
 00:08:29,280 --> 00:08:32,530
-And I think the authors here
-struggle a lot with that.
+dan saya pikir penulis disini
+kesulitan dengan masalah tersebut.
 
 221
 00:08:32,530 --> 00:08:36,165
-And in many ways, if
-you could redesign TCP,
+Dan dalam banyak hal,
+jika Anda dapat mendesain ulang TCP
 
 222
 00:08:36,165 --> 00:08:37,539
-many of these bugs
-are relatively
+sebagian besar dari bug ini
+relatif
 
 223
 00:08:37,539 --> 00:08:41,620
-easy to fix if you knew what
-to look for ahead of time.
+mudah diperbaiki jika Anda tahu apa
+yang harus diperbaiki dari awal.
 
 224
 00:08:41,620 --> 00:08:46,410
-But because TCP is
-sort of relatively hard
+Tetapi karena TCP
+agak sulit
 
 225
 00:08:46,410 --> 00:08:51,350
-to fix or change,
-what ends up happening
+untuk diperbaiki atau diubah,
+yang akhirnya terjadi
 
 226
 00:08:51,350 --> 00:08:54,457
-is that people or
-designers try to look
+adalah bahwa orang atau
+desainer mencoba mencari
 
 227
 00:08:54,457 --> 00:08:58,135
-for backwards compatible
-tweaks that either allow
+penyesuaian-penyesuaian yang 
+kompatibel ke belakang
 
 228
 00:08:58,135 --> 00:09:01,170
-old implementations to coexist
-with the new implementation
+yang memungkinkan implementasi lama
+untuk berjalan bersamaan dengan implementasi baru
 
 229
 00:09:01,170 --> 00:09:04,970
-or to add some optional field
-that if it's there, then
+atau untuk menambahkan beberapa kolom nilai opsional
+yang jika ada di sana, maka
 
 230
 00:09:04,970 --> 00:09:08,590
-the communication is
-more secure in some way.
+komunikasi menjadi lebih aman
+dalam beberapa hal.
 
 231
 00:09:08,590 --> 00:09:10,370
-But it is a big problem.
+Tapi ini masalah besar.
 
 232
 00:09:10,370 --> 00:09:14,030
-If it's some security issue
-that's deeply ingrained in TCP,
+Jika ini masalah keamanan
+yang tertanam dalam di TCP,
 
 233
 00:09:14,030 --> 00:09:17,750
-then it's going to be a pretty
-humongous issue for everyone
+maka ini akan menjadi masalah yang 
+sangat besar bagi semua orang
 
 234
 00:09:17,750 --> 00:09:23,930
-to just pack up and move onto a
-TCP version whatever, n plus 1.
+untuk pindah ke 
+versi TCP apa pun, n tambah 1.
 
 235
 00:09:23,930 --> 00:09:27,296
-And you can look at IPv6 as one
-example of this not happening.
+Dan Anda dapat melihat IPv6 sebagai 
+salah satu contoh bahwa hal ini gagal terjadi.
 
 236
 00:09:27,296 --> 00:09:29,170
-We've known this problem
-was going to come up
+Kami tahu masalah ini 
+akan muncul
 
 237
 00:09:29,170 --> 00:09:31,025
-for like 15 years or 20 years.
+selama 15 tahun atau 20 tahun.
 
 238
 00:09:31,025 --> 00:09:34,759
-IPv6 has been around for
-well over 10 years now.
+IPv6 telah ada selama 
+lebih dari 10 tahun sekarang.
 
 239
 00:09:34,759 --> 00:09:37,300
-And it's just hard to convince
-people to move away from IPv4.
+Dan sulit untuk meyakinkan orang 
+untuk berpindah dari IPv4.
 
 240
 00:09:37,300 --> 00:09:38,060
-It's good enough.
+IPv4 sudah cukup bagus.
 
 241
 00:09:38,060 --> 00:09:39,040
-It sort of works.
+Dia bekerja dengan baik.
 
 242
 00:09:39,040 --> 00:09:41,465
-It's a lot of
-overhead to move over.
+Diperlukan banyak
+usaha untuk berpindah.
 
 243
 00:09:41,465 --> 00:09:43,019
-And no one else is
-speaking IPv6, so
+Dan tidak ada orang lain
+yang menggunakan IPv6, jadi
 
 244
 00:09:43,019 --> 00:09:45,060
-why should I start speaking
-this bizarre protocol
+kenapa saya harus mulai menggunakan
+protokol aneh ini
 
 245
 00:09:45,060 --> 00:09:47,220
-that no one else is
-going to speak to me in?
+yang tidak akan digunakan orang lain
+untuk berbicara dengan saya?
 
 246
 00:09:47,220 --> 00:09:48,520
-So it's sort of moving along.
+Jadi hal ini terus berlaku.
 
 247
 00:09:48,520 --> 00:09:49,895
-But I think it
-takes a long time.
+Tetapi saya pikir akan
+membutuhkan banyak waktu.
 
 248
 00:09:49,895 --> 00:09:53,290
-And there's going to be really
-some motivation to migrate.
+Dan dibutuhkan motivasi
+yang kuat untuk berpindah.
 
 249
 00:09:53,290 --> 00:09:56,940
-And backwards
-compatibility helps a lot.
+Kompatibilitas ke belakang
+juga sangat membantu.
 
 250
 00:09:56,940 --> 00:09:58,700
-Not good enough for,
-I guess, IPv6-- IPv6
+Tidak cukup baik untuk,
+saya rasa, IPv6-- IPv6
 
 251
 00:09:58,700 --> 00:10:01,205
-has lots of backwards
-compatibility plans in it.
+memiliki banyak rencana kompatibilitas
+ke belakang di dalamnya.
 
 252
 00:10:01,205 --> 00:10:04,720
-You can talk to an
-IPv4 host from IPv6.
+Anda bisa berkomunikasi dengan
+host IPv4 dari IPv6.
 
 253
 00:10:04,720 --> 00:10:07,770
-So they try to engineer
-all this support.
+Jadi mereka mencoba membuat
+seluruh dukungan ini.
 
 254
 00:10:07,770 --> 00:10:11,840
