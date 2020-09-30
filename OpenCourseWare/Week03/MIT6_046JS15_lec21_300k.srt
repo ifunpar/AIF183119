@@ -1415,13 +1415,13 @@ dan MD5 dibangun--
 
 302
 00:16:04,346 --> 00:16:06,220
-dan itu akan tiba
-sebentar lagi--
+dan itu akan kita
+bahas nanti--
 
 303
 00:16:06,220 --> 00:16:11,910
 Saya ingin menghabiskan banyak waktu
-dalam hal yang menarik,
+pada hal yang menarik,
 
 304
 00:16:11,910 --> 00:16:13,630
@@ -1440,7 +1440,7 @@ pembangkit nilai acak adalah
 
 307
 00:16:18,690 --> 00:16:21,140
-ini merupakan algoritme yang sederhana.
+itu merupakan algoritme yang sederhana.
 
 308
 00:16:21,140 --> 00:16:23,060
@@ -1453,7 +1453,7 @@ Anda tidak dapat mengimplementasikannya.
 310
 00:16:24,410 --> 00:16:27,130
 Namun sekarang Anda dapat melihat
-properti-properti mengagumkan yang 
+properti-properti mengagumkan apa yang 
 
 311
 00:16:27,130 --> 00:16:28,230
@@ -1466,12 +1466,12 @@ akan menjadi penting
 
 313
 00:16:30,350 --> 00:16:32,490
-untuk aplikasi milik kita, OK?
+untuk aplikasi kita, OK?
 
 314
 00:16:32,490 --> 00:16:36,146
 Jadi mari kita mulai dengan
-berbagai properti yang berbeda.
+berbagai properti-properti yang berbeda.
 
 315
 00:16:36,146 --> 00:16:37,520
@@ -1490,7 +1490,7 @@ keamanan komputer.
 318
 00:16:44,850 --> 00:16:51,100
 Yang pertama, bukan ow,
-ini adalah O.W. Ini adalah one-wayness(kesatu-arahan),
+ini adalah O, W. Ini adalah one-wayness (ke-satu-arah-an),
 
 319
 00:16:51,100 --> 00:16:51,780
@@ -1498,7 +1498,7 @@ baik?
 
 320
 00:16:51,780 --> 00:16:53,930
-Jadi satu arah atau kesatu-arahan.
+Jadi satu arah atau ke-satu-arah-an.
 
 321
 00:16:53,930 --> 00:17:03,230
@@ -1512,7 +1512,7 @@ istilah yang lebih teknis, istilah yang lebih
 
 323
 00:17:09,390 --> 00:17:11,150
-tepat, pre-image resistance(resistansi pra-gambar).
+tepat, pre-image resistance (ketahanan pre-image).
 
 324
 00:17:11,150 --> 00:17:13,060
@@ -1520,7 +1520,7 @@ Jadi apa arti dari ini?
 
 325
 00:17:13,060 --> 00:17:15,167
-Jadi ini adalah persyaratan 
+Jadi ini adalah kebutuhan 
 yang sangat kuat.
 
 326
@@ -1535,17 +1535,17 @@ mungkin akan lebih kuat.
 328
 00:17:18,990 --> 00:17:21,270
 Tetapi ini adalah 
-persyaratan yang cukup kuat
+kebutuhan yang cukup kuat
 
 329
 00:17:21,270 --> 00:17:28,710
 yang mengatakan ini
-tidak layak, diberikan y,
+tidak memungkinkan, diberikan y,
 
 330
 00:17:28,710 --> 00:17:45,170
 yang ada di dalam-- pada dasarnya
-sebuah vektor d-bit, untuk menemukan x manapun
+sebuah vektor d-bit, untuk menemukan x apapun
 
 331
 00:17:45,170 --> 00:17:50,950
@@ -1554,15 +1554,15 @@ sehingga h dari x sama dengan y.
 332
 00:17:50,950 --> 00:18:00,120
 Jadi x ini adalah
-gambaran awal dari y.
+pre-image dari y.
 
 333
 00:18:00,120 --> 00:18:01,580
-Jadi hal ini menyatakan apa?
+Jadi hal ini mengatakan apa?
 
 334
 00:18:01,580 --> 00:18:04,400
-Hal ini menyatakan bahwa saya ingin
+Hal ini mengatakan bahwa saya ingin
 create a hash function such
 
 335
