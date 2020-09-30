@@ -1148,73 +1148,73 @@ kotak dan gembok serta kunci.
 
 242
 00:13:14,930 --> 00:13:19,150
-She's got the keys for
-her locks and nothing else
+Dia mendapat kunci untuk
+kunci milik dia dan tidak ada yang lain
 
 243
 00:13:19,150 --> 00:13:22,980
-and the same thing with Bob.
+dan hal yang sama terjadi pada Bob.
 
 244
 00:13:22,980 --> 00:13:30,460
-So Bob has boxes, locks,
-keys for his locks
+Jadi Bob memiliki kotak, gembok,
+kunci untuk gembok miliknya
 
 245
 00:13:30,460 --> 00:13:32,360
-that he can put on his boxes.
+sehingga dia dapat menyimpan dalam kotak miliknya.
 
 246
 00:13:32,360 --> 00:13:36,690
-And in this case, Alice wants
-to send a message to Bob.
+Dan dalam kasus ini, Alice ingin
+mengirim pesan kepada Bob.
 
 247
 00:13:36,690 --> 00:13:39,110
-And Alice wants to
-exchange a key with Bob,
+Dan Alice ingin 
+bertukar kunci dengan Bob,
 
 248
 00:13:39,110 --> 00:13:43,770
-so they can eventually
-communicate in a secure way
+sehingga mereka akhirnya dapat
+berkomunikasi secara aman
 
 249
 00:13:43,770 --> 00:13:47,050
-regardless of the pirates or
-whoever else is listening.
+tanpa peduli bajak laut atau
+siapapun yang mendengar.
 
 250
 00:13:47,050 --> 00:13:49,852
-So the problem here, of
-course, is that if you just
+Jadi masalahnya disini adalah,
+tentu saja, hanya jika anda ingin
 
 251
 00:13:49,852 --> 00:13:52,310
-send a message on a boat-- so
-the pirates are kind of nice,
+mengirim sebuah pesan melalui perahu-- sehingga
+bajak laut akan terlihat baik,
 
 252
 00:13:52,310 --> 00:13:58,260
-in a way, that they
-will deliver messages.
+dalam satu hal, mereka akan
+mengirimkan pesan.
 
 253
 00:13:58,260 --> 00:14:01,730
-But they are curious, right?
+Tetapi mereka akan penasaran, benar?
 
 254
 00:14:01,730 --> 00:14:03,000
-So they're very curious.
+Jadi mereka akan sangat pensaran.
 
 255
 00:14:03,000 --> 00:14:04,654
-And they will open up boxes.
+Dan mereka akan membuka kotak tersebut.
 
 256
 00:14:04,654 --> 00:14:06,820
-And so that's supposed to
-be a boat, by the way, not
+Dan jadi itu seharusnya adalah
+perahu, ngomong - ngomong, bukan 
 
 257
 00:14:06,820 --> 00:14:10,880
