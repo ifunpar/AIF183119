@@ -1006,18 +1006,18 @@ Kita ingin sebuah pembangkit nilai acak.
 
 215
 00:11:19,440 --> 00:11:23,790
-Kami pada dasarnya ingin
+Kita pada dasarnya ingin
 membangun sesuatu
 
 216
 00:11:23,790 --> 00:11:27,960
 yang terlihat seperti itu,
-deterministik, umum, acak.
+deterministik, publik, acak.
 
 217
 00:11:27,960 --> 00:11:31,390
 Dan kita akan 
-menyatakan bahwa hal yang kita inginkan
+mengklaim bahwa hal yang kita inginkan
 
 218
 00:11:31,390 --> 00:11:33,135
@@ -1066,7 +1066,7 @@ OK?
 227
 00:11:55,200 --> 00:11:56,885
 Jadi ini tidak dapat
-dicapai secara praktik.
+dicapai secara praktis.
 
 228
 00:12:05,560 --> 00:12:09,300
@@ -1075,7 +1075,7 @@ Jadi apa pembangkit nilai ini?
 229
 00:12:09,300 --> 00:12:17,170
 Pembangkit nilai ini menerima input
-x, dimiliki oleh bintang 0,1.
+x, dimiliki oleh 0,1 bintang.
 
 230
 00:12:17,170 --> 00:12:20,740
@@ -1085,25 +1085,25 @@ sebuah string acak.
 231
 00:12:20,740 --> 00:12:26,100
 Jika x tidak ada di buku--
-jadi ada sebuah buku,
+jadi ada sebuah buku ini,
 
 232
 00:12:26,100 --> 00:12:26,840
-baik?
+oke?
 
 233
 00:12:26,840 --> 00:12:29,720
-Dan ada sebuah buku 
+Dan ada sebuah buku ini
 dengan kapasitas tak terhingga
 
 234
 00:12:29,720 --> 00:12:35,170
-yang mengandung semua komputasi
+yang berisi semua komputasi
 yang pernah dilakukan sebelumnya.
 
 235
 00:12:35,170 --> 00:12:36,770
-Dan komputasi-komputasi tersebut selalu 
+Dan komputasi-komputasi itu selalu 
 disimpan di buku tersebut.
 
 236
@@ -1202,7 +1202,7 @@ string-string acak ke dalamnya.
 
 256
 00:13:42,230 --> 00:13:47,910
-Dan jika ada di buku tersebut-- 
+Dan jika itu ada di buku tersebut-- 
 jelas ini adalah bagian penting
 
 257
@@ -1241,7 +1241,7 @@ dapat membuat buku ini.
 
 264
 00:14:16,730 --> 00:14:17,740
-Ini umum.
+Ini publik.
 
 265
 00:14:17,740 --> 00:14:22,430
@@ -1263,7 +1263,7 @@ masukan tersebut-- x sama dengan Eric
 
 269
 00:14:29,960 --> 00:14:34,040
-dan h dari x, h dari Eric setara dengan
+dan h dari x, h dari Eric sama dengan
 suatu 160-bit string acak--
 
 270
@@ -1296,12 +1296,12 @@ Jadi ini benar untuk semua orang.
 276
 00:14:53,050 --> 00:14:56,810
 Jadi ini seperti-- maksud saya
-intinya mustahil untuk didapatkan.
+pada dasarnya mustahil untuk didapatkan.
 
 277
 00:14:56,810 --> 00:15:01,770
 Karena tidak hanya 
-setiap orang dan semua orang bisa bertanya,
+setiap orang dan semua orang bertanya,
 
 278
 00:15:01,770 --> 00:15:05,190
@@ -1310,7 +1310,7 @@ urutan ini terasosiasikan
 
 279
 00:15:05,190 --> 00:15:09,450
-dengan orang-orang yang menanyakan buku tersebut.
+dengan orang-orang yang bertanya ke buku tersebut.
 
 280
 00:15:09,450 --> 00:15:11,330
@@ -1332,12 +1332,12 @@ Baik.
 
 284
 00:15:16,710 --> 00:15:18,660
-Jika Anda mengambil apapun
+Jika Anda mendapatkan apapun
 dari perkuliahan ini,
 
 285
 00:15:18,660 --> 00:15:20,011
-hal itu yang seharusnya Anda ambil.
+hal itu yang seharusnya Anda dapatkan.
 
 286
 00:15:20,011 --> 00:15:20,510
@@ -1368,12 +1368,12 @@ Jadi apa yang salah dengan hal ini?
 292
 00:15:35,850 --> 00:15:38,810
 Tentu saja gambaran ini 
-Sebenarnya saya tidak mengatakan hal ini,
+Saya tidak benar-benar mengatakan ini,
 
 293
 00:15:38,810 --> 00:15:42,320
 tetapi Anda ingin hal-hal menjadi
-waktu polinomial dalam istilah ruang.
+waktu polinomial dalam hal ruang.
 
 294
 00:15:42,320 --> 00:15:46,210
