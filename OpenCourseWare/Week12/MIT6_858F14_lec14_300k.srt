@@ -1189,7 +1189,7 @@ PROFESSOR: Ya, mungkin.
 252
 00:11:20,150 --> 00:11:25,760
 Saya pikir itu tergantung 
-pertimbangn tepatnya,
+pertimbangan tepatnya,
 
 253
 00:11:25,760 --> 00:11:28,080
@@ -1203,27 +1203,28 @@ kesalahan atau mengambil keacakan yang buruk,
 
 255
 00:11:35,320 --> 00:11:38,420
-the server then sends some
-data back to a, thinking,
+server kemudian mengirimkan beberapa
+data kembali ke a, berpikir,
 
 256
 00:11:38,420 --> 00:11:40,970
-oh, this is now the only data
-that is going to be seen by a.
+oh, saat ini hanya data ini
+yang akan terlihat oleh a.
 
 257
 00:11:40,970 --> 00:11:43,320
-Well, maybe that's not
-going to be quite right.
+Baik, mungkin itu tidak
+menjadi sesuatu yang tepat.
 
 258
 00:11:43,320 --> 00:11:45,020
 So you might care a little bit.
+Jadi, anda mungkin harus sedikit memperhatikan.
 
 259
 00:11:45,020 --> 00:11:47,270
-There's a couple of other
-problems with this protocol,
+Terdapat sejumlah lain
+masalah dengan protokol ini,
 
 260
 00:11:47,270 --> 00:11:48,030
@@ -1231,40 +1232,40 @@ as well.
 
 261
 00:11:48,030 --> 00:11:49,226
-Question?
+Pertanyaan?
 
 262
 00:11:49,226 --> 00:11:52,810
-AUDIENCE: I was gonna say
-that in this protocol,
+HADIRIN: Saya akan mengatakan
+bahwa dalam protokol ini,
 
 263
 00:11:52,810 --> 00:11:55,060
-a you could just do [INAUDIBLE].
+anda dapat langsung melakukan [TIDAK TERDENGAR]
 
 264
 00:11:58,021 --> 00:11:59,770
-PROFESSOR: Yes, that's
-actually not great.
+PROFESSOR: Betul, hal itu
+sebenarnya tidak bagus.
 
 265
 00:11:59,770 --> 00:12:01,728
-So there's actually
-several problems with this.
+Jadi sebenarnya ada
+beberapa masalah dengan hal ini.
 
 266
 00:12:01,728 --> 00:12:05,660
-One is the replay.
+Salah satunya adalah tayangan ulang.
 
 267
 00:12:05,660 --> 00:12:09,436
-So the problem here
-is that I can just
+Jai masalahnya disini
+adalah bahwa saya bisa saja
 
 268
 00:12:09,436 --> 00:12:10,810
-send these messages
-again, and it
+mengirim pesan-pesan ini
+lagi dan itu
 
 269
 00:12:10,810 --> 00:12:14,060
