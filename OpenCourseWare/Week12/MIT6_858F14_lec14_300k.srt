@@ -1218,7 +1218,6 @@ menjadi sesuatu yang tepat.
 
 258
 00:11:43,320 --> 00:11:45,020
-So you might care a little bit.
 Jadi, anda mungkin harus sedikit memperhatikan.
 
 259
@@ -1228,7 +1227,7 @@ masalah dengan protokol ini,
 
 260
 00:11:47,270 --> 00:11:48,030
-as well.
+juga.
 
 261
 00:11:48,030 --> 00:11:49,226
