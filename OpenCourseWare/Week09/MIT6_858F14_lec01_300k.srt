@@ -997,547 +997,547 @@ mungkin kalian ingin
 
 212
 00:08:37,630 --> 00:08:40,750
-to assume the bad guy doesn't
-exactly know your password,
+menganggap bahwa orang jahat tersebut
+tidak mengetahui password Anda,
 
 213
 00:08:40,750 --> 00:08:43,159
-or they don't actually have
-physical access to your phone
+atau mereka sebenarnya tidak memiliki
+akses secara fisik ke telepon Anda
 
 214
 00:08:43,159 --> 00:08:45,050
-and your keys and your laptop.
+dan kunci Anda dan laptop Anda.
 
 215
 00:08:45,050 --> 00:08:47,990
-Otherwise, it's going to be hard
-to make some sort of progress
+Jika tidak, akan sulit
+untuk membuat semacam kemajuan
 
 216
 00:08:47,990 --> 00:08:50,510
-in this game.
+dalam permainan ini.
 
 217
 00:08:50,510 --> 00:08:52,940
-And turns out that while
-this is actually quite tricky
+Dan ternyata walaupun hal ini
+sebenarnya cukup sulit
 
 218
 00:08:52,940 --> 00:08:56,470
-to come up with, but I guess
-one general rule is it's
+untuk diselesaikan, tapi saya kira
+sebuah aturan umum itu
 
 219
 00:08:56,470 --> 00:08:59,390
-much better err on
-the side of caution
+akan lebih baik jika berada di
+sisi yang lebih aman dan
 
 220
 00:08:59,390 --> 00:09:01,800
-and being conservative in
-picking your threat model,
+konservatif dalam memilih
+model ancaman Anda,
 
 221
 00:09:01,800 --> 00:09:03,920
-because bad guy might
-always surprise you
+karena orang jahat mungkin
+selalu mengejutkan Anda
 
 222
 00:09:03,920 --> 00:09:07,290
-in terms of what they might
-be able to do in practice.
+dengan apa yang mereka mungkin
+dapat lakukan dalam praktiknya.
 
 223
 00:09:07,290 --> 00:09:10,190
-And finally, in order to
-achieve security, in order
+Dan akhirnya, untuk
+mencapai keamanan, untuk
 
 224
 00:09:10,190 --> 00:09:12,980
-to achieve our goal under
-the set of assumptions,
+mencapai tujuan kita dengan
+sekumpulan asumsi tersebut,
 
 225
 00:09:12,980 --> 00:09:14,580
-we're going to look
-at some mechanism.
+kita akan melihat
+beberapa mekanisme.
 
 226
 00:09:17,400 --> 00:09:21,720
-And this is the, basically,
-software or hardware
+Dan ini adalah, pada dasarnya,
+perangkat lunak atau perangkat keras
 
 227
 00:09:21,720 --> 00:09:24,590
-or whatever part
-of system design,
+atau bagian apapun
+dari rancangan sistem,
 
 228
 00:09:24,590 --> 00:09:26,280
-implementation,
-et cetera, that's
+implementasi,
+dan lain-lain, hal tersebut
 
 229
 00:09:26,280 --> 00:09:30,470
-going to try to make sure
-our policy is followed
+akan mencoba memastikan bahwa
+kebijakan kita diikuti
 
 230
 00:09:30,470 --> 00:09:34,430
-as long as the bad guy
-follows the threat model.
+selama orang jahat
+mengikuti model ancamannya.
 
 231
 00:09:34,430 --> 00:09:36,970
-So the end result
-is that, as long
+Jadi hasil akhirnya
+adalah bahwa, selama
 
 232
 00:09:36,970 --> 00:09:39,700
-as our threat model was
-correct, hopefully we'll
+model ancaman kita tepat,
+semoga kita akan
 
 233
 00:09:39,700 --> 00:09:40,810
-satisfy our policy.
+memenuhi kebijakan kita.
 
 234
 00:09:40,810 --> 00:09:44,100
-And it has to be the case that
-the mechanism doesn't screw up.
+Dan hal itu harus menjadi kasus di mana
+mekanismenya tidak gagal.
 
 235
 00:09:44,100 --> 00:09:45,420
-Make sense?
+Masuk akal?
 
 236
 00:09:45,420 --> 00:09:48,220
-Fairly high level
-story about how
+Cerita yang cukup umum
+tentang bagaimana
 
 237
 00:09:48,220 --> 00:09:50,470
-to think about
-this kind of stuff.
+untuk memikirkan
+hal semacam ini.
 
 238
 00:09:50,470 --> 00:09:52,410
-So why is this so hard, right?
+Jadi kenapa ini sangat sulit, yah?
 
 239
 00:09:52,410 --> 00:09:53,644
-It seems like a simple plan.
+Ini terlihat seperti sebuah rencana yang sederhana.
 
 240
 00:09:53,644 --> 00:09:55,060
-You write down
-these three things,
+Anda menuliskan
+tiga hal ini,
 
 241
 00:09:55,060 --> 00:09:57,180
-and you're off and running.
+dan Anda bisa memulainya.
 
 242
 00:09:57,180 --> 00:10:02,180
-But in practice, as you, I'm
-sure, have seen in the world,
+Namun praktiknya, seperti Anda, saya
+yakin, pernah melihat di dunia ini,
 
 243
 00:10:02,180 --> 00:10:04,490
-computer systems are
-almost always compromised
+sistem komputer hampir
+selalu bisa diserang
 
 244
 00:10:04,490 --> 00:10:05,730
-in some way or another.
+dalam satu cara atau lainnya.
 
 245
 00:10:05,730 --> 00:10:08,300
-And break ins are
-pretty commonplace.
+Dan pembobolan
+cukup lumrah.
 
 246
 00:10:08,300 --> 00:10:12,210
-And the big reason
-why security tends
+Dan alasan utama
+mengapa keamanan
 
 247
 00:10:12,210 --> 00:10:14,800
-to be a difficult problem
-is because what we have here
+menjadi masalah yang sulit adalah
+karena apa yang kita miliki di sini
 
 248
 00:10:14,800 --> 00:10:17,260
-is sort of, this will be
-familiar to those of you
+adalah semacam, ini akan
+terdengar tidak asing bagi Anda
 
 249
 00:10:17,260 --> 00:10:19,400
-took 6.033, this
-is a negative goal,
+yang sudah mengambil kuliah 6.033, ini
+adalah tujuan negatif,
 
 250
 00:10:19,400 --> 00:10:23,270
-meaning that we have to make
-sure our security policy is
+artinya kita harus memastikan
+kebijakan keamanan kita
 
 251
 00:10:23,270 --> 00:10:27,360
-followed regardless of
-what the attacker can do.
+dipatuhi terlepas dari apa yang
+dapat dilakukan oleh penyerang.
 
 252
 00:10:27,360 --> 00:10:30,730
-So just by contrast, if you
-want to build a file system,
+Jadi sebaliknya, jika Anda
+ingin membangun sebuah berkas sistem,
 
 253
 00:10:30,730 --> 00:10:36,310
-and you want to make sure that
-my TAs can access the grades
+dan Anda ingin memastikan bahwa
+asisten-asisten saya dapat mengakses
 
 254
 00:10:36,310 --> 00:10:37,790
-file, that's pretty easy.
+berkas nilai, itu sangat mudah.
 
 255
 00:10:37,790 --> 00:10:40,120
-I just ask them, hey, can
-you guys test and see?
+Saya hanya perlu menanyakan mereka, hei, bisakah
+kalian menguji dan melihat?
 
 256
 00:10:40,120 --> 00:10:41,411
-Can you access the grades file?
+Dapatkah Anda mengakses berkas nilai?
 
 257
 00:10:41,411 --> 00:10:43,600
-And if they all can
-access it, done.
+Dan jika mereka semua 
+dapat mengaksesnya, selesai.
 
 258
 00:10:43,600 --> 00:10:45,340
-The system works.
+Sistem tersebut bekerja.
 
 259
 00:10:45,340 --> 00:10:48,070
-But if I want to say that
-no one other than the TAs
+Namun jika saya ingin mengatakan bahwa
+tidak ada orang lain selain asisten-asisten
 
 260
 00:10:48,070 --> 00:10:50,640
-can access the grades file,
-this is a much harder problem
+yang dapat mengakses berkas nilai,
+ini adalah masalah yang lebih sulit
 
 261
 00:10:50,640 --> 00:10:52,820
-to solve, because now
-I have to figure out
+untuk diselesaikan, karena sekarang
+saya harus mencari tahu
 
 262
 00:10:52,820 --> 00:10:56,010
-what could all these non TA
-people in the world to try
+apa yang bisa dilakukan semua orang selain asisten
+di seluruh dunia untuk mencoba
 
 263
 00:10:56,010 --> 00:10:57,460
-to get my grades file, right?
+mendapatkan berkas nilai saya, benar?
 
 264
 00:10:57,460 --> 00:11:01,110
-They could try to just
-open it and read it.
+Mereka bisa mencoba untuk
+membuka dan melihatnya.
 
 265
 00:11:01,110 --> 00:11:02,960
-Maybe my file system
-will disallow it.
+Mungkin sistem berkas saya
+akan melarangnya.
 
 266
 00:11:02,960 --> 00:11:04,900
-But they might try all
-kinds of other attacks,
+Namun mereka mungkin mencoba semua
+jenis serangan yang lain,
 
 267
 00:11:04,900 --> 00:11:07,060
-like guessing the
-password for the TAs
+seperti menebak
+password untuk para asisten
 
 268
 00:11:07,060 --> 00:11:10,670
-or stealing the TAs laptops
-or breaking into the room
+atau mencuri laptop milik asisten
+atau membobol ruangan
 
 269
 00:11:10,670 --> 00:11:11,960
-or who knows, right?
+atau siapa yang tahu, benar?
 
 270
 00:11:11,960 --> 00:11:14,010
-This is all stuff that
-we have to really put
+Ini adalah semua hal yang
+kita harus benar-benar tempatkan
 
 271
 00:11:14,010 --> 00:11:15,050
-into our threat model.
+ke dalam model ancaman kita.
 
 272
 00:11:15,050 --> 00:11:17,650
-Probably for this class,
-I'm not that concerned about
+Mungkin untuk kelas ini,
+saya tidak perlu terlalu khawatir tentang
 
 273
 00:11:17,650 --> 00:11:21,280
-the grades file to worry about
-these guys' laptops being
+berkas nilai, untuk khawatir tentang
+laptop orang-orang ini yang
 
 274
 00:11:21,280 --> 00:11:22,880
-stolen from their dorm room.
+dicuri dari kamar asrama mereka.
 
 275
 00:11:22,880 --> 00:11:23,460
-Although maybe I should be.
+Meskipun mungkin saya perlu khawatir.
 
 276
 00:11:23,460 --> 00:11:24,001
-I don't know.
+Saya tidak tahu.
 
 277
 00:11:24,001 --> 00:11:25,140
-It's hard to tell, right?
+Sulit untuk mengatakannya, benar?
 
 278
 00:11:25,140 --> 00:11:27,700
-And as a result,
-this security game
+Dan akibatnya,
+permainan keamanan ini
 
 279
 00:11:27,700 --> 00:11:30,030
-is often not so
-clear cut as to what
+seringkali tidak begitu
+jelas seperti halnya
 
 280
 00:11:30,030 --> 00:11:32,884
-the right set of
-assumptions to make is.
+membuat sekumpulan asumsi
+yang tepat.
 
 281
 00:11:32,884 --> 00:11:35,050
-And it's only after the
-fact that you often realize,
+Dan berdasarkan fakta yang
+sering Anda sering sadari,
 
 282
 00:11:35,050 --> 00:11:37,000
-well should have
-thought of that.
+sebaiknya Anda berpikir
+tentang hal itu.
 
 283
 00:11:39,520 --> 00:11:40,720
-All right.
+Baiklah.
 
 284
 00:11:40,720 --> 00:11:42,700
-And sort of, as a
-result, this is very much
+Dan semacamnya, sebagai
+konsekuensinya, ini adalah
 
 285
 00:11:42,700 --> 00:11:44,170
-an iterative process.
+sebuah proses yang iteratif.
 
 286
 00:11:44,170 --> 00:11:46,960
-And the thing you end up
-realizing at every iteration
+Dan hal yang Anda akhirnya
+sadari di setiap iterasi
 
 287
 00:11:46,960 --> 00:11:49,132
-is, well, here's the
-weakest link into my system.
+adalah, baiklah, inilah
+celah terlemah ke dalam sistem saya.
 
 288
 00:11:49,132 --> 00:11:50,590
-Maybe I got the
-threat model wrong.
+Mungkin saya mendapatkan
+model ancaman yang salah.
 
 289
 00:11:50,590 --> 00:11:53,290
-Maybe my mechanism had some bugs
-in it because it's a software
+Mungkin mekanisme saya memiliki beberapa bug
+di dalamnya karena itu adalah sebuah perangkat lunak
 
 290
 00:11:53,290 --> 00:11:55,120
-and it's going to
-be large systems.
+dan itu akan menjadi
+sistem yang besar.
 
 291
 00:11:55,120 --> 00:11:57,010
-They'll have lots of bugs.
+Mereka akan memiliki banyak bug.
 
 292
 00:11:57,010 --> 00:11:58,490
-And you sort of fix them up.
+Dan Anda memperbaikinya.
 
 293
 00:11:58,490 --> 00:11:59,950
-You change your
-threat model a bit.
+Kalian mengganti sedikit
+model ancaman kalian.
 
 294
 00:11:59,950 --> 00:12:02,900
-And you iterate and try
-to design a new system,
+Dan kalian mengiterasi hal tersebut dan
+mencoba merancang sebuah sistem baru,
 
 295
 00:12:02,900 --> 00:12:06,720
-and hopefully,
-make things better.
+dan semoga membuat segalanya
+menjadi lebih baik.
 
 296
 00:12:06,720 --> 00:12:10,640
-So one possible interpretation
-of this class-- well,
+Jadi satu kemungkinan interpretasi 
+dari kelas ini-- baik,
 
 297
 00:12:10,640 --> 00:12:14,360
-one danger-- is that you come
-away thinking, man, everything
+satu bahayanya-- adalah bahwa Anda 
+berpikir, wah, semuanya
 
 298
 00:12:14,360 --> 00:12:15,070
-is just broken.
+rusak.
 
 299
 00:12:15,070 --> 00:12:15,780
-Nothing works.
+Tidak ada yang berhasil.
 
 300
 00:12:15,780 --> 00:12:18,390
-We should just give up
-and stop using computers.
+Kita menyerah saja
+dan berhenti menggunakan komputer.
 
 301
 00:12:18,390 --> 00:12:21,460
-And this is one
-possible interpretation.
+Dan ini adalah salah satu
+kemungkinan interpretasi.
 
 302
 00:12:21,460 --> 00:12:23,752
-But it's probably not
-quite the right one.
+Namun hal ini mungkin tidak
+cukup benar.
 
 303
 00:12:23,752 --> 00:12:25,210
-The reason this is
-going to come up
+Alasan hal-hal
+tersebut akan muncul
 
 304
 00:12:25,210 --> 00:12:26,585
-or you're going
-to think this way
+atau Anda akan
+berpikir seperti ini
 
 305
 00:12:26,585 --> 00:12:28,060
-is because,
-throughout this class,
+adalah karena,
+sepanjang kelas ini,
 
 306
 00:12:28,060 --> 00:12:29,850
-we're going to look at all
-these different systems,
+kita akan melihat semua
+sistem yang berbeda ini,
 
 307
 00:12:29,850 --> 00:12:31,270
-and we're going to sort
-of push them to the edge.
+dan nampaknya kita akan
+menguji sistem-sistem ini hingga batasnya.
 
 308
 00:12:31,270 --> 00:12:33,100
-We're going to see, OK,
-well, what if we do this?
+Mari kita lihat, OK,
+baiklah, bagaimana jika kita melakukan ini?
 
 309
 00:12:33,100 --> 00:12:33,690
-Is it going to break?
+Apakah ini akan hancur?
 
 310
 00:12:33,690 --> 00:12:34,320
-What if we do that?
+Bagaimana jika kita melakukan itu?
 
 311
 00:12:34,320 --> 00:12:35,519
-Is it going to break then?
+Apakah akan hancur juga?
 
 312
 00:12:35,519 --> 00:12:37,060
-And inevitably,
-every system is going
+Dan pastinya,
+semua sistem akan
 
 313
 00:12:37,060 --> 00:12:38,643
-to have some sort
-of a breaking point.
+memiliki sebuah
+batas kekuatan.
 
 314
 00:12:38,643 --> 00:12:39,860
-And we'll figure out, oh hey.
+Dan akan kita pecahkan, oh hei.
 
 315
 00:12:39,860 --> 00:12:42,420
-This system, we can break
-it in if we push this way.
+Sistem ini, dapat kita rusak
+jika kita melakukan dengan cara ini.
 
 316
 00:12:42,420 --> 00:12:46,260
-And this system doesn't work
-under these set of assumptions.
+Dan sistem ini tidak bekerja
+dalam beberapa asumsi ini.
 
 317
 00:12:46,260 --> 00:12:48,195
-And it's inevitable
-that every system
+Dan tidak bisa dihindari
+bahwa setiap sistem
 
 318
 00:12:48,195 --> 00:12:49,320
-will have a breaking point.
+akan memiliki batas kekuatan.
 
 319
 00:12:49,320 --> 00:12:51,380
-But that doesn't mean that
-every system is worthless.
+Namun bukan berarti
+setiap sistem tidak berguna.
 
 320
 00:12:51,380 --> 00:12:52,920
-It just means you
-have to know when
+Itu hanya berarti bahwa
+kalian harus tahu kapan
 
 321
 00:12:52,920 --> 00:12:54,980
-to use every system design.
+kita menggunakan setiap rancangan sistem.
 
 322
 00:12:54,980 --> 00:12:57,360
-And it's sort of useful to
-do this pushing exercise
+Dan ini nampak berguna
+untuk melakukan pengujian
 
 323
 00:12:57,360 --> 00:12:59,130
-to find the
-weaknesses so that you
+untuk mencari
+kelemahannya sehingga Anda
 
 324
 00:12:59,130 --> 00:13:03,530
-know when certain ideas work,
-when certain ideas are not
+tahu kapan ide-ide tertentu dapat dipakai,
+kapan ide tertentu tidak 
 
 325
 00:13:03,530 --> 00:13:04,940
-applicable.
+tidak dapat dipakai.
 
 326
 00:13:04,940 --> 00:13:09,190
-And in reality, this is a little
-more fuzzy boundary, right?
+Dalam kenyataannya, ini 
+batasan yang agak membingungkan, benar?
 
 327
 00:13:09,190 --> 00:13:11,660
