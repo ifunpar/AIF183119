@@ -4278,119 +4278,123 @@ is a little unfortunate.
 
 900
 00:38:06,540 --> 00:38:07,560
-But now they don't.
+Tetapi sekarang mereka tidak.
 
 901
 00:38:07,560 --> 00:38:08,530
-So that's good.
+Jadi itu bagus.
 
 902
 00:38:08,530 --> 00:38:12,860
-Your principal is secure at
-least from this kind of attack.
+Principalmu setidaknya aman
+dari serangan ini.
 
 903
 00:38:12,860 --> 00:38:14,680
-All right, so does
-that make sense?
+Ok, jadi apakah
+ini masuk akal?
+
 
 904
 00:38:14,680 --> 00:38:16,350
-This is the initial
-way you'd get
+Ini adalah awalan 
+yang kamu dapat
 
 905
 00:38:16,350 --> 00:38:18,210
-any ticket at all in Kerberos.
+untuk semua tiket di Kerberos.
 
 906
 00:38:18,210 --> 00:38:20,810
-And typically, you'd get this
-ticket from this TGS service.
+Dan biasanya, kamu akan dapat
+tiket ini dari TGS service.
 
 907
 00:38:20,810 --> 00:38:24,090
-So now let's look at what's
-going on in this TGS service.
+Sekarang mari lihat apa
+yang terjadi di TGS service ini.
 
 908
 00:38:24,090 --> 00:38:27,700
-So here, the interaction
-with the TGS service
+Jadi ini, interaksi
+dengan TGS service
 
 909
 00:38:27,700 --> 00:38:29,350
-is going to be a
-little different.
+akan 
+sedikit berbeda.
 
 910
 00:38:29,350 --> 00:38:32,150
-On one hand, you're
-going to-- as a client,
+Di satu sisi, kamu 
+akan--  sebagai client,
 
 911
 00:38:32,150 --> 00:38:33,900
-you're going to have
-to speak to it as
+Kamu harus 
+berbicara dengannya seperti
 
 912
 00:38:33,900 --> 00:38:37,910
-if you're speaking to any
-other Kerberos enabled service.
+jika kamu berbicara dengan 
+Kerberos enabled service lainnya.
 
 913
 00:38:37,910 --> 00:38:39,660
-So we'll see how you
-authenticate yourself
+Jadi kita akan lihat bagaimana 
+kamu autentikasi dirimu
 
 914
 00:38:39,660 --> 00:38:41,714
-with a ticket to some machine.
+dengan tiket ke sebuah mesin.
+
 
 915
 00:38:41,714 --> 00:38:43,630
-But then the response
-you're going to get back
+Tetapi respon
+yang akan kamu dapatkan
 
 916
 00:38:43,630 --> 00:38:46,071
-is just a ticket for
-some other principle
+hanya sebuah tiket untuk
+principle lainnya
+
 
 917
 00:38:46,071 --> 00:38:48,570
-that you're going to want to
-communicate with like your file
+yang akan kamu gunakan untuk
+berkomunikasi seperti dengan file
+
 
 918
 00:38:48,570 --> 00:38:50,230
-server.
+servermu.
 
 919
 00:38:50,230 --> 00:38:54,210
-So the protocol level messages
-that show up here kind of
+Jadi pesan protocol level
+yang muncul disini akan
 
 920
 00:38:54,210 --> 00:38:54,910
-look like this.
+terlihat seperti ini.
 
 921
 00:38:54,910 --> 00:38:57,050
-So here's your TGS service.
+Jadi ini TGS service mu.
 
 922
 00:38:57,050 --> 00:38:59,230
-And here's a client.
+Dan disini ada client
 
 923
 00:38:59,230 --> 00:39:02,750
-The client already
-got a ticket for TGS
+Client telah mendapatkan
+tiket untuk TGS
 
 924
 00:39:02,750 --> 00:39:04,090
-using this protocol above.
+Menggunakan protocol diatas ini.
 
 925
 00:39:04,090 --> 00:39:06,580
