@@ -4531,120 +4531,120 @@ here's a little bit different.
 
 953
 00:40:25,040 --> 00:40:27,550
-Instead of encrypting with KC,
-which the client has probably
+sebagai ganti nya di enkripsi oleh KC,
+yang mungkin dimiliki klien
 
 954
 00:40:27,550 --> 00:40:29,280
-forgotten since
-then, now we're going
+dilupakan sejak
+lalu,sekarang kita pergi
 
 955
 00:40:29,280 --> 00:40:31,800
-to encrypt it with this
-shared key between the client
+untuk mengenkripsi ini
+dengan shared key antara client
 
 956
 00:40:31,800 --> 00:40:35,510
-and the TGS service.
+dan layanan TGS.
 
 957
 00:40:35,510 --> 00:40:38,030
-Makes sense?
+masuk akal ?
 
 958
 00:40:38,030 --> 00:40:44,850
-All right, so in this-- how does
-the server actually figure out
+baiklah,jadi untuk ini-- bagaimana
+sebenarnya server mengetahui
 
 959
 00:40:44,850 --> 00:40:46,590
-what the client wants to do?
+apa yang di lakukan client ?
 
 960
 00:40:46,590 --> 00:40:49,120
-Or, how does server
-authenticate the client?
+atau,bagaimana server
+mengotentikasi client ?
 
 961
 00:40:49,120 --> 00:40:52,650
-Well, in this case, it's
-going to-- TGS server actually
+nah, dalam kasus ini, ini
+akan ke -- TGS server sebenarnya
 
 962
 00:40:52,650 --> 00:40:54,840
-knows its own key, KTGS.
+mengetahui kuncinya sendiri,KTGS
 
 963
 00:40:54,840 --> 00:40:57,390
-So it's going to first
-decrypt this blob
+jadi yang akan di lakukan pertama kali
+mendekripsi gumpalan nya
 
 964
 00:40:57,390 --> 00:41:00,090
-and look inside the ticket and
-figure out what's going on.
+dan liat kedalama tiket dan
+juga mencari tahu apa yang terjadi.
 
 965
 00:41:00,090 --> 00:41:03,190
-And there's all those
-nice fields in the ticket.
+dan itu semua
+field yang bagus di tiket
 
 966
 00:41:03,190 --> 00:41:04,400
-So let's just double check.
+jadi mari kita mengecek 2 kali
 
 967
 00:41:04,400 --> 00:41:07,100
-Why do we need all those
-fields in the ticket?
+mengapa kita membutuhkan semua
+field yang berada di tiket
 
 968
 00:41:07,100 --> 00:41:12,687
-So is it important to have the
-server name S in the ticket?
+jadi ini penting untuk memiliki 
+server dengan nama S di ticket ?
 
 969
 00:41:12,687 --> 00:41:14,770
-What would go wrong if you
-didn't have S in there?
+apa yang salah jika anda
+tidak memasukan S disana ?
 
 970
 00:41:17,722 --> 00:41:19,682
-Anything?
+apa saja ?
 
 971
 00:41:19,682 --> 00:41:20,182
-Yeah.
+Ya.
 
 972
 00:41:20,182 --> 00:41:21,640
-STUDENT: They could
-potentially get
+MURID: mereka dapat
+berpotensi mendapatkan
 
 973
 00:41:21,640 --> 00:41:24,610
-authorized to use any server.
+izin untuk menggunakan semua server.
 
 974
 00:41:24,610 --> 00:41:27,370
-PROFESSOR: Yeah, so it's
-in general a good idea
+PROFESSOR: ya, jadi begitu
+secara umum ide yang bagus
 
 975
 00:41:27,370 --> 00:41:29,300
-to be very explicit
-in network protocols
+menjadi sangat explicit
+dalam protocol jaringan
 
 976
 00:41:29,300 --> 00:41:31,580
-and to say exactly
-what a message means.
+dan untuk tepat nya bisa di bilang
+apa arti dari pesan.
 
 977
 00:41:31,580 --> 00:41:33,910
-So in this case,
-if you omit an S,
+jadi untuk kasus ini,
+jika anda menghilangkan S,
 
 978
 00:41:33,910 --> 00:41:37,189
