@@ -984,7 +984,7 @@ salah satu dari orang-orang ini.
 
 208
 00:08:00,440 --> 00:08:03,950
-Jadi contoh pertama yang
+Jadi contoh awal yang
 dia tunjukkan
 
 209
@@ -999,7 +999,7 @@ Ya, pertanyaan.
 
 211
 00:08:13,169 --> 00:08:14,294
-AUDIENS: Saya hanya penasaran.
+AUDIENS: Saya penasaran.
 
 212
 00:08:14,294 --> 00:08:15,502
@@ -1007,12 +1007,12 @@ Ini sedikit keluar dari topik pembahasan.
 
 213
 00:08:15,502 --> 00:08:17,606
-Tetapi, misalnya Anda
+Tetapi, andaikan Anda
 menemukan bug di TCP.
 
 214
 00:08:17,606 --> 00:08:19,976
-Bagaimana Anda membuat
+Bagaimana caranya Anda membuat
 perubahan di TCP tersebut?
 
 215
@@ -1022,7 +1022,7 @@ semua komputer
 
 216
 00:08:21,398 --> 00:08:23,736
-di dunia untuk merubah itu?
+di dunia untuk merubahnya?
 
 217
 00:08:23,736 --> 00:08:25,610
@@ -1039,12 +1039,12 @@ Sebenarnya, belum jelas apa yang harus dilakukan.
 
 220
 00:08:29,280 --> 00:08:32,530
-dan saya pikir penulis disini
+dan saya pikir para penulis disini juga
 kesulitan dengan masalah tersebut.
 
 221
 00:08:32,530 --> 00:08:36,165
-Dan dalam banyak hal,
+Dan dengan banyak cara,
 jika Anda dapat mendesain ulang TCP
 
 222
@@ -1054,47 +1054,47 @@ relatif
 
 223
 00:08:37,539 --> 00:08:41,620
-mudah diperbaiki jika Anda tahu apa
+mudah untuk diperbaiki jika Anda tahu apa
 yang harus diperbaiki dari awal.
 
 224
 00:08:41,620 --> 00:08:46,410
-Tetapi karena TCP
+Tetapi karena secara relatif TCP
 agak sulit
 
 225
 00:08:46,410 --> 00:08:51,350
 untuk diperbaiki atau diubah,
-yang akhirnya terjadi
+yanng akhirnya terjadi
 
 226
 00:08:51,350 --> 00:08:54,457
 adalah bahwa orang atau
-desainer mencoba mencari
+para desainer mencoba mencari
 
 227
 00:08:54,457 --> 00:08:58,135
-penyesuaian-penyesuaian yang 
-kompatibel ke belakang
+penyesuaian-penyesuaian kompatibel ke belakang
+yang membolehkan
 
 228
 00:08:58,135 --> 00:09:01,170
-yang memungkinkan implementasi lama
-untuk berjalan bersamaan dengan implementasi baru
+implementasi lama untuk berdampingan
+bersama dengan implementasi baru
 
 229
 00:09:01,170 --> 00:09:04,970
-atau untuk menambahkan beberapa kolom nilai opsional
-yang jika ada di sana, maka
+atau untuk penambahanya beberapa kolom nilai opsional
+jika ada di sana, maka
 
 230
 00:09:04,970 --> 00:09:08,590
-komunikasi menjadi lebih aman
+komunikasi tersebut menjadi lebih aman
 dalam beberapa hal.
 
 231
 00:09:08,590 --> 00:09:10,370
-Tapi ini masalah besar.
+Tapi ini merupakan masalah yang besar.
 
 232
 00:09:10,370 --> 00:09:14,030
@@ -1103,7 +1103,7 @@ yang tertanam dalam di TCP,
 
 233
 00:09:14,030 --> 00:09:17,750
-maka ini akan menjadi masalah yang 
+maka hal ini akan menjadi masalah yang 
 sangat besar bagi semua orang
 
 234
@@ -1113,8 +1113,8 @@ versi TCP apa pun, n tambah 1.
 
 235
 00:09:23,930 --> 00:09:27,296
-Dan Anda dapat melihat IPv6 sebagai 
-salah satu contoh bahwa hal ini gagal terjadi.
+Dan Anda dapat melihat di IPv6 sebagai 
+satu contoh bahwa hal ini gagal terjadi.
 
 236
 00:09:27,296 --> 00:09:29,170
@@ -1132,8 +1132,8 @@ lebih dari 10 tahun sekarang.
 
 239
 00:09:34,759 --> 00:09:37,300
-Dan sulit untuk meyakinkan orang 
-untuk berpindah dari IPv4.
+Dan tidaklah mudah untuk meyakinkan orang 
+untuk pindah dari IPv4.
 
 240
 00:09:37,300 --> 00:09:38,060
@@ -1141,12 +1141,12 @@ IPv4 sudah cukup bagus.
 
 241
 00:09:38,060 --> 00:09:39,040
-Dia bekerja dengan baik.
+IPv4 bekerja dengan baik.
 
 242
 00:09:39,040 --> 00:09:41,465
-Diperlukan banyak
-usaha untuk berpindah.
+Diperlukannya banyak
+tenaga untuk berpindah.
 
 243
 00:09:41,465 --> 00:09:43,019
@@ -1155,7 +1155,7 @@ yang menggunakan IPv6, jadi
 
 244
 00:09:43,019 --> 00:09:45,060
-kenapa saya harus mulai menggunakan
+mengapa saya harus mulai menggunakan
 protokol aneh ini
 
 245
@@ -1180,7 +1180,7 @@ yang kuat untuk berpindah.
 249
 00:09:53,290 --> 00:09:56,940
 Kompatibilitas ke belakang
-juga sangat membantu.
+sangat membantu.
 
 250
 00:09:56,940 --> 00:09:58,700
@@ -1199,52 +1199,52 @@ host IPv4 dari IPv6.
 
 253
 00:10:04,720 --> 00:10:07,770
-Jadi mereka mencoba membuat
+Jadi mereka mencoba membangun
 seluruh dukungan ini.
 
 254
 00:10:07,770 --> 00:10:11,840
-But still, it's hard to
-convince people to upgrade.
+Namun tetap, sangantlah susah untuk
+meyakinkan orang untuk memperbarui.
 
 255
 00:10:11,840 --> 00:10:15,194
-All right, but yeah, looking
-back at the TCP sequence
+Baiklah, namun iya, lihat kembali
+ke nomor urut TCP,
 
 256
 00:10:15,194 --> 00:10:17,610
-numbers, we're going to look
-at actually two problems that
+kita akan melihat
+sebenarnya dua masalah yang
 
 257
 00:10:17,610 --> 00:10:20,990
-have to do with how the
-TCP handshake works.
+memiliki hubungan dengan cara
+TCP handshake berkerja.
 
 258
 00:10:20,990 --> 00:10:24,260
-So let's just spend a little
-bit of time working out
+Jadi mari kita habiskan sedikit
+waktu memikirkan
 
 259
 00:10:24,260 --> 00:10:27,060
-what are the details of how a
-TCP connection gets initially
+detail cara apa saja 
+Koneksi TCP pada awalnya
 
 260
 00:10:27,060 --> 00:10:28,510
-established.
+ditetapkan.
 
 261
 00:10:28,510 --> 00:10:30,650
-So there's actually
-three packets
+Jadi sebenarnya ada
+tiga paket
 
 262
 00:10:30,650 --> 00:10:33,900
-that have to get sent in
-order for a new TCP connection
+yang harus dikirim agar
+koneksi TCP baru---------
 
 263
 00:10:33,900 --> 00:10:34,690
