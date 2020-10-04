@@ -897,27 +897,27 @@ AFS atau semacamnya.
 
 189
 00:08:35,630 --> 00:08:38,530
-And the KDC is responsible for
-storing the gigantic table--
+Dan KDC bertanggun jawab untuk
+menyimpan si tabel besar--
 
 190
 00:08:38,530 --> 00:08:41,659
-well, not very large in
-terms of the number of bytes,
+Yah, tidak terlalu besar dalam
+hal jumlah bytes,
 
 191
 00:08:41,659 --> 00:08:45,640
-necessarily, but
-one entry per entity
+tentu, tapi
+satu entri per entitas
 
 192
 00:08:45,640 --> 00:08:50,310
-at MIT that the Kerberos
-server knows about.
+pada MIT yang diketahui
+server Kerberos.
 
 193
 00:08:50,310 --> 00:08:52,510
-Makes sense?
+Masuk akal?
 
 194
 00:08:52,510 --> 00:08:56,634
