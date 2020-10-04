@@ -1252,7 +1252,6 @@ atau mereka mungkin membuangnya.
 Jadi jelas sekali, sebuah 
 kunci rahasia bisa ditukar
 
-
 265
 00:14:32,550 --> 00:14:36,150
 dengan hanya meletakkan kotak 
