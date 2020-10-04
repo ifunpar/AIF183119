@@ -1222,11 +1222,12 @@ suatu kotak, sedikit tiang kapal disana
 
 258
 00:14:10,880 --> 00:14:14,150
-jadi saya bukan lah seorang pelaut.
+Jadi saya bukan seorang pelaut.
 
 259
 00:14:14,150 --> 00:14:18,830
-tetapi, kalian memiliki kotak-kotak ini yang akan di antar.
+tetapi, kalian memiliki kotak-kotak ini 
+yang akan di antar.
 
 260
 00:14:18,830 --> 00:14:20,740
@@ -1234,13 +1235,13 @@ dan ini adalah kesepakatannya.
 
 261
 00:14:20,740 --> 00:14:23,376
-If there's an open box, the
-pirate's will open the box.
-jika ada satu kotak yang terbuka, bajak laut yang akan membuka kotaknya.
+jika ada satu kotak yang terbuka, 
+bajak laut yang akan membuka kotaknya.
 
 262
 00:14:23,376 --> 00:14:25,584
-dan jika ada pesan di dalam kotak itu, mereka mungkin akan membacanya,
+dan jika ada pesan di dalam kotak 
+itu, mereka mungkin akan membacanya,
 
 263
 00:14:25,584 --> 00:14:26,760
@@ -1248,12 +1249,14 @@ atau mereka mungkin membuangnya.
 
 264
 00:14:26,760 --> 00:14:32,550
-Jelas sekali, sebuah kunci rahasia bisa ditukar
+Jadi jelas sekali, sebuah 
+kunci rahasia bisa ditukar
 
 
 265
 00:14:32,550 --> 00:14:36,150
-dengan hanya meletakkan kotak yang didalamnya ada pesan
+dengan hanya meletakkan kotak 
+yang didalamnya ada pesan
 
 266
 00:14:36,150 --> 00:14:38,350
@@ -1261,11 +1264,13 @@ jika anda tidak menguncinya.
 
 267
 00:14:38,350 --> 00:14:43,220
-mereka tidak akan bisa membukanya, apalagi menyentuh
+mereka tidak akan bisa 
+membukanya, apalagi menyentuh
 
 268
 00:14:43,220 --> 00:14:47,040
-dan mereka akan mengirimkan kotak yang terkunci.
+dan mereka akan 
+mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
