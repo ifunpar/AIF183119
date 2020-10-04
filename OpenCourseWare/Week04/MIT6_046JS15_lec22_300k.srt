@@ -1218,58 +1218,54 @@ perahu, ngomong - ngomong, bukan
 
 257
 00:14:06,820 --> 00:14:10,880
-a box, a little mast there.
+suatu kotak, sedikit tiang kapal disana
 
 258
 00:14:10,880 --> 00:14:14,150
-So I'm not a sailor.
+jadi saya bukan lah seorang pelaut.
 
 259
 00:14:14,150 --> 00:14:18,830
-But you have these boxes that
-are going to get delivered.
+tetapi, kalian memiliki kotak-kotak ini yang akan di antar.
 
 260
 00:14:18,830 --> 00:14:20,740
-And the deal is this.
+dan ini adalah kesepakatannya.
 
 261
 00:14:20,740 --> 00:14:23,376
 If there's an open box, the
 pirate's will open the box.
+jika ada satu kotak yang terbuka, bajak laut yang akan membuka kotaknya.
 
 262
 00:14:23,376 --> 00:14:25,584
-And if there's any message
-in it, they might read it,
+dan jika ada pesan di dalam kotak itu, mereka mungkin akan membacanya,
 
 263
 00:14:25,584 --> 00:14:26,760
-they might throw it away.
+atau mereka mungkin membuangnya.
 
 264
 00:14:26,760 --> 00:14:32,550
-So clearly, a secret
-key can be exchanged
+Jelas sekali, sebuah kunci rahasia bisa ditukar
+
 
 265
 00:14:32,550 --> 00:14:36,150
-by just putting a box
-with a message in it
+dengan hanya meletakkan kotak yang didalamnya ada pesan
 
 266
 00:14:36,150 --> 00:14:38,350
-if you don't lock it.
+jika anda tidak menguncinya.
 
 267
 00:14:38,350 --> 00:14:43,220
-They will not be able to
-open, they'll not touch,
+mereka tidak akan bisa membukanya, apalagi menyentuh
 
 268
 00:14:43,220 --> 00:14:47,040
-and they will
-deliver a locked box.
+dan mereka akan mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
