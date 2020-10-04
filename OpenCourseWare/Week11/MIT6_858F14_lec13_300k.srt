@@ -4648,100 +4648,97 @@ if you omit an S,
 
 978
 00:41:33,910 --> 00:41:37,189
-Anda mungkin mengandalkan
-pada fakta bahwa, yah,
+you might be relying
+on the fact that, well,
 
 979
 00:41:37,189 --> 00:41:39,730
-jika itu bukan S yang anda
-berencana untuk menggunakan tiket tersebut,
+if it's the wrong S that you're
+trying to use the ticket for,
 
 980
 00:41:39,730 --> 00:41:42,320
-maka mungkin Anda akan memiliki file
-kunci yang berbeda di sini
+then maybe you'll have a
+different key over here
 
 981
 00:41:42,320 --> 00:41:44,490
 and then it wouldn't decrypt
 or something like this.
 
-dan kemudian itu tidak akan mendekripsinya
-atau sesuatu seperti ini.
-
 982
 00:41:44,490 --> 00:41:46,823
-Tapi sepertinya itu ide yang bagus
-untuk memasukkannya untuk memastikan
+But it seems like a good idea
+to include it to make sure
 
 983
 00:41:46,823 --> 00:41:48,630
-bahwa server itu
-menerima tiket ini
+that the server that
+receives this tickets
 
 984
 00:41:48,630 --> 00:41:49,960
-mendekripsi dan memeriksanya.
+decrypts and checks.
 
 985
 00:41:49,960 --> 00:41:52,470
-Apakah itu tiket untuk
-saya atau untuk orang lain?
+Is that a ticket for
+me or for someone else?
 
 986
 00:41:52,470 --> 00:41:52,970
-Ya.
+Yeah.
 
 987
 00:41:52,970 --> 00:41:55,522
-SISWA: Dalam hal apa 
-klien mendapatkan KTGS?
+STUDENT: What does the
+client get KTGS on?
 
 988
 00:41:55,522 --> 00:41:56,730
-PROFESOR: Ah, pertanyaan yang bagus.
+PROFESSOR: Ah, good question.
 
 989
 00:41:56,730 --> 00:41:58,230
-Klien itu tidak memiliki
-ide apa ini.
+The client has no
+idea what this is.
 
 990
 00:41:58,230 --> 00:42:00,060
-Karena ini seperti
-kunci super rahasia.
+Because this is like
+a super secret key.
 
 991
 00:42:00,060 --> 00:42:01,770
-Jika Anda tahu ini,
-Anda mungkin saja
+If you knew this,
+you'd probably be
 
 992
 00:42:01,770 --> 00:42:03,480
-mampu untuk menghancurkan semua Kerberos.
+able to break all of Kerberos.
 
 993
 00:42:03,480 --> 00:42:06,461
-Jadi klien tidak punya
-ide apa itu KTGS.
+So the client has no
+idea what KTGS is.
 
 994
 00:42:06,461 --> 00:42:07,294
-SISWA: [TIDAK TERDENGAR]
+STUDENT: [INAUDIBLE]
 
 995
 00:42:07,294 --> 00:42:08,110
-PROFESOR: Ah, ya, ya.
+PROFESSOR: Ah, yeah, yeah.
 
 996
 00:42:08,110 --> 00:42:09,335
-Lalu kemana
-Anda mendapatkannya dari
+And then the where
+you get it from
 
 997
 00:42:09,335 --> 00:42:11,209
-sebenarnya-- adalah
-Server Kerberos itu sendiri
+is actually-- it's the
+Kerberos server itself
 
 998
 00:42:11,209 --> 00:42:14,830
