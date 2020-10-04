@@ -975,27 +975,27 @@ berbeda untuk hal ini.
 205
 00:09:24,340 --> 00:09:26,570
 So initially, when
-the user logs in,
+pengguna login,
 
 206
 00:09:26,570 --> 00:09:28,680
-they're going to talk
-to this guy over here.
+mereka akan berbicara
+untuk orang ini di sini.
 
 207
 00:09:28,680 --> 00:09:32,110
-And they're going to
-send their client name,
+Dan mereka akan
+mengirim nama klien mereka,
 
 208
 00:09:32,110 --> 00:09:35,160
-C. So this might be
-your Athena username.
+C. Jadi ini mungkin
+nama pengguna Athena Anda.
 
 209
 00:09:35,160 --> 00:09:36,810
-And the server is
-going to respond
+Dan servernya
+akan menanggapi
 
 210
 00:09:36,810 --> 00:09:43,804
