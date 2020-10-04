@@ -974,8 +974,8 @@ berbeda untuk hal ini.
 
 205
 00:09:24,340 --> 00:09:26,570
-So initially, when
-pengguna login,
+pada awal nya, pada
+saat pengguna login,
 
 206
 00:09:26,570 --> 00:09:28,680
