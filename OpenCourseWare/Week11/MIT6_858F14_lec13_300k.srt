@@ -1008,27 +1008,27 @@ semacam tiket.
 
 212
 00:09:44,720 --> 00:09:46,540
-We'll look at the
-details in a bit.
+Kita akan lihat
+detailnya sedikit lagi.
 
 213
 00:09:46,540 --> 00:09:51,130
-And then when you want to
-talk to some server down here,
+Dan ketika kalian mau bicara dengan
+suatu server di bawah sini,
 
 214
 00:09:51,130 --> 00:09:54,040
-KS, then you're going to
-talk to this TGS first
+KS, maka kalian akan
+bicara dengan TGS ini dulu
 
 215
 00:09:54,040 --> 00:09:56,530
-and say, oh, hey,
-I already logged in
+dan bilang, oh, hey,
+Saya sudah masuk
 
 216
 00:09:56,530 --> 00:09:58,560
-through the Kerberos interface.
+melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
