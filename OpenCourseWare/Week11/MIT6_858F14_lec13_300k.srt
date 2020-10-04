@@ -999,12 +999,12 @@ akan menanggapi
 
 210
 00:09:36,810 --> 00:09:43,804
-to back with a ticket,
-a TGS or-- well,
+ke belakang dengan sebuah tiket,
+sebuah TGS atau-- Yah,
 
 211
 00:09:43,804 --> 00:09:44,720
-some sort of a ticket.
+semacam tiket.
 
 212
 00:09:44,720 --> 00:09:46,540
