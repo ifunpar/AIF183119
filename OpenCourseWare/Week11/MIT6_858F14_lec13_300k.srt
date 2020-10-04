@@ -921,31 +921,31 @@ Makes sense?
 
 194
 00:08:52,510 --> 00:08:56,634
-All right, and then we're
-going to have sort of provide
+Oke, lalu kita akan
+melakukan suatu hal semacam menyediakan
 
 195
 00:08:56,634 --> 00:08:57,550
-two interfaces, right?
+dua antarmuka, benar?
 
 196
 00:08:57,550 --> 00:09:00,200
-The paper is a little
-fuzzy above this
+Makalah diatas ini nampak
+sedikit membingungkan
 
 197
 00:09:00,200 --> 00:09:02,200
-or it pretends like there's
-really two services.
+atau ini memang berlaku seperti
+benar benar dua anatarmuka
 
 198
 00:09:02,200 --> 00:09:05,260
-But really, what's going on
-is that there's two interfaces
+Tapi sungguh, apa yang terjadi
+adalah itu benar enar dua antarmuka
 
 199
 00:09:05,260 --> 00:09:06,660
-to the same machine.
+ke mesin yang sama
 
 200
 00:09:06,660 --> 00:09:11,560
