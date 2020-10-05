@@ -988,21 +988,21 @@ kunci simetris.
 
 209
 00:09:29,260 --> 00:09:33,520
-Jadi hampir selalu Anda ingin
-keluar dari penggunaan kripto publik
+Jadi hampir selalu Anda ingin menggunakan
+alternatif lain dari  penggunaan kripto publik
 
 210
 00:09:33,520 --> 00:09:35,440
-secepat mungkin.
+secepat mungkin itu bisa dilakukan secara praktis.
 
 211
 00:09:35,440 --> 00:09:37,320
-Jadi protokol yang khas
+Jadi protokol yang tipikal
 mungkin terlihat seperti ini
 
 212
 00:09:37,320 --> 00:09:40,020
-Jika anda memiliki a dan b, dan
+di mana Anda memiliki a dan b, dan
 mereka ingin berkomunikasi.
 
 213
@@ -1012,7 +1012,7 @@ Dan a mengetahui kunci publik b.
 214
 00:09:41,990 --> 00:09:44,480
 Jadi apa yang dapat terjadi adalah
-a dapat membangun
+a dapat membangkitkan
 
 215
 00:09:44,480 --> 00:09:46,445
@@ -1020,12 +1020,12 @@ semacam sesi s.
 
 216
 00:09:49,840 --> 00:09:51,380
-Pilih suatu angka acak.
+Cukup memilih suatu angka acak.
 
 217
 00:09:51,380 --> 00:09:56,210
-Lalu kunci sesi s
-akan dikirimkan ke b.
+Dan dia akan mengirimkan
+ke b kunci sesi s tersebut.
 
 218
 00:09:56,210 --> 00:09:58,550
@@ -1049,13 +1049,13 @@ KDC untuk mengerjakan ini untuk kita
 
 222
 00:10:05,590 --> 00:10:08,095
-karena tidak
+karena a tidak
 tahu kunci untuk b,
 
 223
 00:10:08,095 --> 00:10:10,720
-atau tidak bisa diizinkan
-tahu karena itu rahasia.
+atau tidak diperbolehkan untuk
+tahu karena itu adalah sebuah rahasia.
 
 224
 00:10:10,720 --> 00:10:12,197
@@ -1063,37 +1063,37 @@ Tapi seharusnya hanya b yang tahu.
 
 225
 00:10:12,197 --> 00:10:14,280
-Dengan kunci publik cyrptor 
+Dengan kriptografi kunci publik
 Anda sebenarnya bisa melakukannya sekarang.
 
 226
 00:10:14,280 --> 00:10:21,730
-Kami bisa saja mengenkripsi rahasianya
+Kita bisa cukup mengenkripsi
 s menggunakan kunci publik ini.
 
 227
 00:10:21,730 --> 00:10:23,555
-Dan kami mengirimkan 
+Dan kita kirimkan 
 pesan ini ke b.
 
 228
 00:10:23,555 --> 00:10:25,500
 B sekarang dapat mendekripsi 
-pesan ini, dan berkata Saya
+pesan ini, dan berkata saya
 
 229
 00:10:25,500 --> 00:10:27,500
-harus menggunakan kunci rahasia ini.
+sebaiknya menggunakan kunci rahasia ini.
 
 230
 00:10:27,500 --> 00:10:30,930
 Dan sekarang kita bisa punya 
-saluran komunikasi dimana
+saluran komunikasi di mana
 
 231
 00:10:30,930 --> 00:10:32,890
 semua pesan 
-dienkripsikan hanya
+cukup dienkripsikan
 
 232
 00:10:32,890 --> 00:10:37,560
@@ -1101,21 +1101,21 @@ dengan kunci rahasia s ini.
 
 233
 00:10:37,560 --> 00:10:38,971
-Apakah hal ini dapat dimengerti?
+Apakah hal ini masuk akal?
 
 234
 00:10:38,971 --> 00:10:41,220
-Jadi ada beberapa karakteristik yang bagus 
+Jadi ada beberapa properti bagus
 dari protokol ini.
 
 235
 00:10:41,220 --> 00:10:43,280
-Salah satunya adalah
-kita dapat menghilangkan syarat
+Salah satunya adalah kita dapat
+menghilangkan syarat memiliki
 
 236
 00:10:43,280 --> 00:10:47,339
-sebuah KDC harus online dan menghasilkan
+sebuah KDC yang online untuk membangkitkan
 kunci sesi untuk kita.
 
 237
@@ -1125,12 +1125,12 @@ salah satu pihak
 
 238
 00:10:48,880 --> 00:10:51,670
-untuk menghasilkan kunci sesi dan kemudian
+untuk membangkitkan kunci sesi dan kemudian
 mengenkripsikan kunci tersebut untuk pihak lain
 
 239
 00:10:51,670 --> 00:10:54,040
-tanpa menggunakan KDC.
+tanpa melibatkan KDC.
 
 240
 00:10:54,040 --> 00:10:56,070
@@ -1144,7 +1144,7 @@ pesan yang dikirim oleh a kepada b
 
 242
 00:10:59,480 --> 00:11:01,190
-hanya akan di baca oleh b.
+hanya akan dibaca oleh b.
 
 243
 00:11:01,190 --> 00:11:04,670
@@ -1158,7 +1158,7 @@ hanya b yang seharusnya memiliki
 
 245
 00:11:06,565 --> 00:11:09,640
-kunci rahasia yang sesuai s.
+kunci rahasia s yang berkaitan tersebut.
 
 246
 00:11:09,640 --> 00:11:11,030
@@ -1175,12 +1175,12 @@ Ya?
 
 249
 00:11:13,260 --> 00:11:16,146
-AUDIENS: Apakah itu penting 
-kalau pengguna atau server yang
+AUDIENS: Apakah ada pengaruhnya,
+terkait siapa yang membangkitkan
 
 250
 00:11:16,146 --> 00:11:18,560
-menghasilkan kode sandi?
+kode sandi, klien atau server?
 
 251
 00:11:18,560 --> 00:11:20,150
@@ -1189,41 +1189,41 @@ PROFESSOR: Ya, mungkin.
 252
 00:11:20,150 --> 00:11:25,760
 Saya pikir itu tergantung 
-pertimbangan tepatnya,
+tepatnya pertimbangan,
 
 253
 00:11:25,760 --> 00:11:28,080
 atau properti yang Anda
-ingin keluar dari protokol ini.
+inginkan dari protokol ini.
 
 254
 00:11:28,080 --> 00:11:35,320
-Jadi di sini, tentu jika a adalah
-kesalahan atau mengambil keacakan yang buruk,
+Jadi di sini, tentu jika implementasi a banyak mengandung
+kesalahan atau memilih nilai acak yang buruk,
 
 255
 00:11:35,320 --> 00:11:38,420
-server kemudian mengirimkan beberapa
+server kemudian mengirimkan
 data kembali ke a, berpikir,
 
 256
 00:11:38,420 --> 00:11:40,970
-oh, saat ini hanya data ini
+oh, saat ini hanya data inilah
 yang akan terlihat oleh a.
 
 257
 00:11:40,970 --> 00:11:43,320
 Baik, mungkin itu tidak
-menjadi sesuatu yang tepat.
+terlalu benar.
 
 258
 00:11:43,320 --> 00:11:45,020
-Jadi, anda mungkin harus sedikit memperhatikan.
+Jadi Anda mungkin harus sedikit berhati-hati.
 
 259
 00:11:45,020 --> 00:11:47,270
-Terdapat sejumlah lain
-masalah dengan protokol ini,
+Ada beberapa masalah
+lain pada protokol ini,
 
 260
 00:11:47,270 --> 00:11:48,030
@@ -1235,7 +1235,7 @@ Pertanyaan?
 
 262
 00:11:49,226 --> 00:11:52,810
-HADIRIN: Saya akan mengatakan
+AUDIENS: Saya tadinya akan mengatakan
 bahwa dalam protokol ini,
 
 263
@@ -1250,15 +1250,15 @@ sebenarnya tidak bagus.
 265
 00:11:59,770 --> 00:12:01,728
 Jadi sebenarnya ada
-beberapa masalah dengan hal ini.
+beberapa masalah dengan protokol ini.
 
 266
 00:12:01,728 --> 00:12:05,660
-Salah satunya adalah tayangan ulang.
+Salah satunya adalah pengiriman ulang (replay).
 
 267
 00:12:05,660 --> 00:12:09,436
-Jai masalahnya disini
+Jadi masalahnya disini
 adalah bahwa saya bisa saja
 
 268
