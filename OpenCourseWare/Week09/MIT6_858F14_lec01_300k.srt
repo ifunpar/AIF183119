@@ -1647,114 +1647,114 @@ allows us to do this securely.
 
 349
 00:14:08,200 --> 00:14:11,127
-And before, in order to run some
-native game on your machine,
+Dan sebelumnya, untuk menjalankan beberapa 
+game asli di komputer Anda,
 
 350
 00:14:11,127 --> 00:14:13,710
-you'd have download and install
-it, click on lot's of dialogue
+Anda telah mengunduh dan menginstalnya, 
+mengklik banyak kotak
 
 351
 00:14:13,710 --> 00:14:15,671
-boxes, say yes, I allow this.
+dialog, mengatakan ya, Saya mengizinkan ini.
 
 352
 00:14:15,671 --> 00:14:17,420
-But now, you can just
-run it in a browser,
+Tapi sekarang, Anda bisa
+menjalankannya di browser,
 
 353
 00:14:17,420 --> 00:14:18,600
-no clicking required.
+tidak perlu mengklik.
 
 354
 00:14:18,600 --> 00:14:19,510
-It just runs.
+langsung jalan.
 
 355
 00:14:19,510 --> 00:14:22,200
-And the reason it's
-so easy and powerful
+Dan alasan mengapa
+sangat mudah dan kuat
 
 356
 00:14:22,200 --> 00:14:25,990
-is that our security mechanism
-can sandbox this program
+adalah karena mekanisme keamanan kita
+dapat meng-sandbox program ini
 
 357
 00:14:25,990 --> 00:14:29,590
-and not have to assume anything
-about the user choosing
+dan tidak perlu memikirkan apapun
+tentang pemilihan pengguna
 
 358
 00:14:29,590 --> 00:14:31,730
-the right game and not
-some malicious game to play
+game yang benar dan bukan
+game berbahaya untuk dimainkan
 
 359
 00:14:31,730 --> 00:14:34,460
-in their computer, or
-some other program to run.
+pada komputer mereka, atau
+program lain untuk dijalankan.
 
 360
 00:14:34,460 --> 00:14:36,270
-So in many ways, good
-security mechanisms
+Jadi dalam banyak hal, mekanisme
+keamanan yang baik
 
 361
 00:14:36,270 --> 00:14:40,610
-are going to enable constructing
-cool new systems that weren't
+akan memungkinkan pembangunan sistem
+baru yang keren yang sebenarnya tidak
 
 362
 00:14:40,610 --> 00:14:43,551
-possible to construct before.
+mungkin dibuat sebelumnya.
 
 363
 00:14:43,551 --> 00:14:44,050
-All right.
+Baiklah.
 
 364
 00:14:44,050 --> 00:14:45,420
-Make sense?
+Masuk akal?
 
 365
 00:14:45,420 --> 00:14:50,485
-Any questions about this story?
+Ada pertanyaan tentang ceria ini?
 
 366
 00:14:50,485 --> 00:14:51,890
-All right.
+Baiklah.
 
 367
 00:14:51,890 --> 00:14:54,150
-So I guess in the
-rest of the lecture,
+Jadi saya kira pada
+sisa kuliah ini,
 
 368
 00:14:54,150 --> 00:14:58,320
-I want to go through a bunch
-of different examples of how
+Saya ingin melihat sekumpulan
+contoh berbeda tentang bagaimana
 
 369
 00:14:58,320 --> 00:15:00,000
-security goes wrong.
+keamanan menjadi salah.
 
 370
 00:15:00,000 --> 00:15:02,680
-So, so far, we've seen
-how you can think of it.
+Jadi, sejauh ini, kita telah melihat
+bagaimana Anda memikirkannya.
 
 371
 00:15:02,680 --> 00:15:05,790
-But inevitably, it's
-useful to see examples
+Tapi mau tidak mau, ada
+baiknya melihat contoh
 
 372
 00:15:05,790 --> 00:15:10,230
-of what not to do so that you
-can have a better mindset when
+tentang apa yang tidak boleh dilakukan agar Anda 
+bisa memiliki pola pikir yang lebih baik ketika
 
 373
 00:15:10,230 --> 00:15:12,470
