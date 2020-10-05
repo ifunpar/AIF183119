@@ -988,283 +988,283 @@ kunci simetris.
 
 209
 00:09:29,260 --> 00:09:33,520
-So almost always you want to get
-out of the use of public crypto
+Jadi hampir selalu Anda ingin menggunakan
+alternatif lain dari  penggunaan kripto publik
 
 210
 00:09:33,520 --> 00:09:35,440
-as soon as practical.
+secepat mungkin itu bisa dilakukan secara praktis.
 
 211
 00:09:35,440 --> 00:09:37,320
-So a typical protocol
-might look like this
+Jadi protokol yang tipikal
+mungkin terlihat seperti ini
 
 212
 00:09:37,320 --> 00:09:40,020
-where you have a and b, and
-they want to communicate.
+di mana Anda memiliki a dan b, dan
+mereka ingin berkomunikasi.
 
 213
 00:09:40,020 --> 00:09:41,990
-And a knows b's public key.
+Dan a mengetahui kunci publik b.
 
 214
 00:09:41,990 --> 00:09:44,480
-So what might happen is
-that a might generate
+Jadi apa yang dapat terjadi adalah
+a dapat membangkitkan
 
 215
 00:09:44,480 --> 00:09:46,445
-some sort of session s.
+semacam sesi s.
 
 216
 00:09:49,840 --> 00:09:51,380
-Just pick a random number.
+Cukup memilih suatu angka acak.
 
 217
 00:09:51,380 --> 00:09:56,210
-And then it's going to send
-to b the session key s.
+Dan dia akan mengirimkan
+ke b kunci sesi s tersebut.
 
 218
 00:09:56,210 --> 00:09:58,550
-So this is kind of
-looking like Kerberos.
+Jadi ini semacam
+terlihat seperti Kerberos.
 
 219
 00:09:58,550 --> 00:10:01,840
-And we're going to encrypt
-the session s for b's key.
+Dan kita akan mengenkripsi
+sesi s untuk kuncinya b.
 
 220
 00:10:01,840 --> 00:10:03,860
-And remember in Kerberos,
-in order to do this,
+Dan ingat di Kerberos,
+untuk melakukan ini,
 
 221
 00:10:03,860 --> 00:10:05,590
-we have to have the
-KDC do this for us
+Kita harus memiliki
+KDC untuk mengerjakan ini untuk kita
 
 222
 00:10:05,590 --> 00:10:08,095
-because a didn't
-know the key for b,
+karena a tidak
+tahu kunci untuk b,
 
 223
 00:10:08,095 --> 00:10:10,720
-or couldn't have been allowed to
-know because that is a secret.
+atau tidak diperbolehkan untuk
+tahu karena itu adalah sebuah rahasia.
 
 224
 00:10:10,720 --> 00:10:12,197
-But only b should've known.
+Tapi seharusnya hanya b yang tahu.
 
 225
 00:10:12,197 --> 00:10:14,280
-With public key cyrptor
-you can actually this now.
+Dengan kriptografi kunci publik
+Anda sebenarnya bisa melakukannya sekarang.
 
 226
 00:10:14,280 --> 00:10:21,730
-We can just encrypt the secret
-s using these public keys.
+Kita bisa cukup mengenkripsi
+s menggunakan kunci publik ini.
 
 227
 00:10:21,730 --> 00:10:23,555
-And we send this
-message over to b.
+Dan kita kirimkan 
+pesan ini ke b.
 
 228
 00:10:23,555 --> 00:10:25,500
-B can now decrypt this
-message, and say I
+B sekarang dapat mendekripsi 
+pesan ini, dan berkata saya
 
 229
 00:10:25,500 --> 00:10:27,500
-should be using this secret key.
+sebaiknya menggunakan kunci rahasia ini.
 
 230
 00:10:27,500 --> 00:10:30,930
-And now we can have a
-communication channel where
+Dan sekarang kita bisa punya 
+saluran komunikasi di mana
 
 231
 00:10:30,930 --> 00:10:32,890
-all the messages
-are just encrypted
+semua pesan 
+cukup dienkripsikan
 
 232
 00:10:32,890 --> 00:10:37,560
-under this secret key s.
+dengan kunci rahasia s ini.
 
 233
 00:10:37,560 --> 00:10:38,971
-Does this Make sense?
+Apakah hal ini masuk akal?
 
 234
 00:10:38,971 --> 00:10:41,220
-So there are some nice
-properties about this protocol.
+Jadi ada beberapa properti bagus
+dari protokol ini.
 
 235
 00:10:41,220 --> 00:10:43,280
-One is that we got
-rid of having to have
+Salah satunya adalah kita dapat
+menghilangkan syarat memiliki
 
 236
 00:10:43,280 --> 00:10:47,339
-a KDC be online and generate
-our session key for us.
+sebuah KDC yang online untuk membangkitkan
+kunci sesi untuk kita.
 
 237
 00:10:47,339 --> 00:10:48,880
-We could just have
-one of the parties
+Kita hanya perlu
+salah satu pihak
 
 238
 00:10:48,880 --> 00:10:51,670
-generate it and then
-encrypt it for another party
+untuk membangkitkan kunci sesi dan kemudian
+mengenkripsikan kunci tersebut untuk pihak lain
 
 239
 00:10:51,670 --> 00:10:54,040
-without the use of the KDC.
+tanpa melibatkan KDC.
 
 240
 00:10:54,040 --> 00:10:56,070
-Another nice thing
-is we're probably
+Keuntungan lainnya
+adalah kita mungkin
 
 241
 00:10:56,070 --> 00:10:59,480
-pretty confident that
-messages sent by a to b
+cukup percaya diri bahwa
+pesan yang dikirim oleh a kepada b
 
 242
 00:10:59,480 --> 00:11:01,190
-will only be read by b.
+hanya akan dibaca oleh b.
 
 243
 00:11:01,190 --> 00:11:04,670
-Because only b could have
-decrypted this message.
+Karena hanya b yang bisa
+mendekripsi pesan ini.
 
 244
 00:11:04,670 --> 00:11:06,565
-And therefore,
-only b should have
+Dan oleh karena itu,
+hanya b yang seharusnya memiliki
 
 245
 00:11:06,565 --> 00:11:09,640
-that corresponding secret key s.
+kunci rahasia s yang berkaitan tersebut.
 
 246
 00:11:09,640 --> 00:11:11,030
-But this is pretty nicely.
+Tapi ini cukup bagus.
 
 247
 00:11:11,030 --> 00:11:12,700
-Any questions about
-this protocol?
+Ada pertanyaan mengenai
+protokol ini?
 
 248
 00:11:12,700 --> 00:11:13,260
-Yeah?
+Ya?
 
 249
 00:11:13,260 --> 00:11:16,146
-AUDIENCE: Does it matter
-whether the user or the server
+AUDIENS: Apakah ada pengaruhnya,
+terkait siapa yang membangkitkan
 
 250
 00:11:16,146 --> 00:11:18,560
-generates the pass code?
+kode sandi, klien atau server?
 
 251
 00:11:18,560 --> 00:11:20,150
-PROFESSOR: Well, maybe.
+PROFESSOR: Ya, mungkin.
 
 252
 00:11:20,150 --> 00:11:25,760
-I think it depends on
-exactly the considerations,
+Saya pikir itu tergantung 
+tepatnya pertimbangan,
 
 253
 00:11:25,760 --> 00:11:28,080
-or the properties you
-want out of this protocol.
+atau properti yang Anda
+inginkan dari protokol ini.
 
 254
 00:11:28,080 --> 00:11:35,320
-So here, certainly if a is
-buggy or picks bad randomness,
+Jadi di sini, tentu jika implementasi a banyak mengandung
+kesalahan atau memilih nilai acak yang buruk,
 
 255
 00:11:35,320 --> 00:11:38,420
-the server then sends some
-data back to a, thinking,
+server kemudian mengirimkan
+data kembali ke a, berpikir,
 
 256
 00:11:38,420 --> 00:11:40,970
-oh, this is now the only data
-that is going to be seen by a.
+oh, saat ini hanya data inilah
+yang akan terlihat oleh a.
 
 257
 00:11:40,970 --> 00:11:43,320
-Well, maybe that's not
-going to be quite right.
+Baik, mungkin itu tidak
+terlalu benar.
 
 258
 00:11:43,320 --> 00:11:45,020
-So you might care a little bit.
+Jadi Anda mungkin harus sedikit berhati-hati.
 
 259
 00:11:45,020 --> 00:11:47,270
-There's a couple of other
-problems with this protocol,
+Ada beberapa masalah
+lain pada protokol ini,
 
 260
 00:11:47,270 --> 00:11:48,030
-as well.
+juga.
 
 261
 00:11:48,030 --> 00:11:49,226
-Question?
+Pertanyaan?
 
 262
 00:11:49,226 --> 00:11:52,810
-AUDIENCE: I was gonna say
-that in this protocol,
+AUDIENS: Saya tadinya akan mengatakan
+bahwa dalam protokol ini,
 
 263
 00:11:52,810 --> 00:11:55,060
-a you could just do [INAUDIBLE].
+anda dapat langsung melakukan [TIDAK TERDENGAR]
 
 264
 00:11:58,021 --> 00:11:59,770
-PROFESSOR: Yes, that's
-actually not great.
+PROFESSOR: Betul, hal itu
+sebenarnya tidak bagus.
 
 265
 00:11:59,770 --> 00:12:01,728
-So there's actually
-several problems with this.
+Jadi sebenarnya ada
+beberapa masalah dengan protokol ini.
 
 266
 00:12:01,728 --> 00:12:05,660
-One is the replay.
+Salah satunya adalah pengiriman ulang (replay).
 
 267
 00:12:05,660 --> 00:12:09,436
-So the problem here
-is that I can just
+Jadi masalahnya disini
+adalah bahwa saya bisa saja
 
 268
 00:12:09,436 --> 00:12:10,810
-send these messages
-again, and it
+mengirim pesan-pesan ini
+lagi dan itu
 
 269
 00:12:10,810 --> 00:12:14,060
