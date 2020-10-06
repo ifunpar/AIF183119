@@ -1758,106 +1758,106 @@ bisa memiliki pola pikir yang lebih baik ketika
 
 373
 00:15:10,230 --> 00:15:12,470
-you're approaching
-security problems.
+Anda mendekati
+masalah keamanan.
 
 374
 00:15:12,470 --> 00:15:16,586
-And in this sort of breakdown
-of a security system,
+Dan dalam kerusakan semacam ini
+tentang sistem keamanan,
 
 375
 00:15:16,586 --> 00:15:18,942
-pretty much every one of
-these three things goes wrong.
+kurang lebih setiap satu dari
+tiga hal ini berjalan salah.
 
 376
 00:15:18,942 --> 00:15:20,650
-In practice, people
-get the policy wrong,
+Dalam prakteknya, orang
+salah dalam mengambil kebijakan,
 
 377
 00:15:20,650 --> 00:15:22,066
-people get the
-threat model wrong,
+orang salah
+dalam menentukan model ancaman,
 
 378
 00:15:22,066 --> 00:15:23,580
-and people get the
-mechanism wrong.
+dan orang salah
+dalam memahami sebuah mekanisme.
 
 379
 00:15:23,580 --> 00:15:27,280
-And let's, I guess, start
-with policies and examples
+Dan mari, saya kira, mulai
+dari kebijakan dan beberapa contoh
 
 380
 00:15:27,280 --> 00:15:31,420
-of how you can screw
-up a system's policy.
+tentang bagaimana Anda dapat 
+mengacaukan kebijakan sistem.
 
 381
 00:15:31,420 --> 00:15:35,220
-Maybe the cleanest or sort
-of simplest example of this
+Mungkin contoh yang paling bersih
+atau paling sederhana dari ini
 
 382
 00:15:35,220 --> 00:15:38,350
-are account recovery questions.
+adalah pertanyaan pemulihan akun.
 
 383
 00:15:41,810 --> 00:15:46,282
-So typically, when you
-sign into a website,
+Jadi biasanya, saat Anda
+masuk ke sebuah situs web,
 
 384
 00:15:46,282 --> 00:15:47,240
-you provide a password.
+Anda akan memasukkan password.
 
 385
 00:15:47,240 --> 00:15:49,640
-But what happens if
-you lose your password?
+Tapi apa yang terjadi jika
+Anda kehilangan password Anda?
 
 386
 00:15:49,640 --> 00:15:52,570
-Some sites will send
-you email if you
+Beberapa situs akan mengirimkan
+Anda email jika Anda
 
 387
 00:15:52,570 --> 00:15:55,190
-lose your password with a
-link to reset your password.
+kehilangan password Anda dengan sebuah 
+tautan untuk mengatur ulang kata sandi Anda.
 
 388
 00:15:55,190 --> 00:15:57,481
-So it's easy enough, if you
-have another email address.
+Jadi cukup mudah, jika Anda
+memiliki alamat email yang lain.
 
 389
 00:15:57,481 --> 00:15:59,400
-But what if this is
-your email provider?
+Tapi bagaimana jika ini adalah
+penyedia alamat email Anda?
 
 390
 00:15:59,400 --> 00:16:03,700
-So at least, several
-years ago, Yahoo
+Jadi setidaknya, beberapa 
+tahun lalu, Yahoo
 
 391
 00:16:03,700 --> 00:16:06,660
-hosted email, webmail, for
-anyone on the internet.
+meng-host email, webmail, untuk
+siapapun di internet.
 
 392
 00:16:06,660 --> 00:16:08,572
-And when you forgot
-your Yahoo password,
+Dan ketika Anda lupa
+password Yahoo Anda,
 
 393
 00:16:08,572 --> 00:16:10,030
-they couldn't really
-send you email
+mereka tidak benar-benar bisa
+mengirimi Anda email
 
 394
 00:16:10,030 --> 00:16:11,610
