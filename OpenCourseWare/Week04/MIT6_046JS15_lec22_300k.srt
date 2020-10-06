@@ -1016,260 +1016,260 @@ skenario terbaik untuk mal, benar?
 
 214
 00:11:25,360 --> 00:11:29,320
-So you could have mal
-in the middle here.
+Jadi Anda bisa memiliki
+mal di tengah sini.
 
 215
 00:11:29,320 --> 00:11:33,050
-And you've got to worry
-about stuff like that.
+Dan anda harus khawatir
+tentang hal seperti itu.
 
 216
 00:11:33,050 --> 00:11:39,050
-So key exchange, let's move
-on to talk about key exchange.
+Jadi pertukaran kunci, mari kita lanjutkan 
+pembicaraan tentang pertukaran kunci.
 
 217
 00:11:46,445 --> 00:12:00,060
-And how does the secret
-key k get shared?
+Dan bagaimana kunci 
+rahasia k dapat dibagikan?
 
 218
 00:12:00,060 --> 00:12:03,980
-You can't put this out
-on a website, right?
+Anda tidak bisa meletakkan
+ini di situs web, bukan?
 
 219
 00:12:03,980 --> 00:12:06,750
-So it has to be
-the case, sharing
+Jadi seharusnya, 
+berbagi
 
 220
 00:12:06,750 --> 00:12:12,200
-is something that has to
-be secure in the sense
+adalah sesuatu yang harus
+aman dalam artian
 
 221
 00:12:12,200 --> 00:12:14,730
-that there can't be
-any eavesdroppers.
+bahwa tidak boleh
+ada penyadap.
 
 222
 00:12:14,730 --> 00:12:20,195
-So here's my favorite example
-of a puzzle that most of you
+Ini adalah contoh favorit saya
+dari teka-teki yang kebanyakan dari Anda
 
 223
 00:12:20,195 --> 00:12:23,170
-have probably heard about.
+mungkin pernah mendengarnya.
 
 224
 00:12:23,170 --> 00:12:26,800
-But those of you who haven't,
-it's really pretty cool.
+Tapi bagi Anda yang belum,
+ini sangat keren.
 
 225
 00:12:26,800 --> 00:12:32,700
-And those of you who have, it's
-still pretty cool and worth
+Dan di antara Anda yang sudah, ini
+masih terlihat sangat bagus dan bermakna
 
 226
 00:12:32,700 --> 00:12:33,790
-recalling.
+untuk diingat.
 
 227
 00:12:33,790 --> 00:12:36,300
-And there's actually
-something that you probably
+Dan sebenarnya
+sesuatu yang Anda mungkin
 
 228
 00:12:36,300 --> 00:12:38,250
-haven't thought about
-very much even if you've
+belum pernah memikirkannya
+secara mendalam bahkan jika Anda pernah
 
 229
 00:12:38,250 --> 00:12:39,450
-heard about this puzzle.
+mendengar teka-teki ini.
 
 230
 00:12:39,450 --> 00:12:42,480
-That's the mathematical
-assumption made
+Itu adalah asumsi
+matematika yang dibuat
 
 231
 00:12:42,480 --> 00:12:44,080
-in the solution of this puzzle.
+di dalam solusi untuk teka-teki ini.
 
 232
 00:12:44,080 --> 00:12:45,930
-That will be interesting to you.
+Itu akan menarik bagi Anda.
 
 233
 00:12:45,930 --> 00:12:47,980
-But the puzzle is
-a pirate puzzle.
+Tetapi teka-teki itu adalah
+teka-teki tentang bajak laut.
 
 234
 00:12:47,980 --> 00:12:50,050
-So you've got Alice and Bob.
+Jadi Anda punya Alice dan Bob.
 
 235
 00:12:50,050 --> 00:12:51,900
-Let's call it the
-Caribbean, because that's
+Sebut saja itu
+Karibia, karena itu adalah
 
 236
 00:12:51,900 --> 00:12:53,740
-my favorite ocean.
+lautan favorit saya.
 
 237
 00:12:53,740 --> 00:12:56,896
-And Alice and Bob are in
-two different islands.
+Dan Alice dan Bob berada di
+dua pulau yang berbeda.
 
 238
 00:12:56,896 --> 00:12:59,020
-And we all know there are
-pirates in the Caribbean,
+Dan kita semua tahu ada beberapa
+bajak laut di Karibia,
 
 239
 00:12:59,020 --> 00:13:01,600
-right?
+benar?
 
 240
 00:13:01,600 --> 00:13:06,140
-And so Alice and Bob want to
-communicate with each other.
+Jadi Alice dan Bob ingin
+berkomunikasi satu sama lain.
 
 241
 00:13:06,140 --> 00:13:12,090
-And what Alice has are a bunch
-of boxes and locks and keys.
+Dan yang dimiliki Alice adalah sekumpulan
+kotak dan gembok serta kunci.
 
 242
 00:13:14,930 --> 00:13:19,150
-She's got the keys for
-her locks and nothing else
+Dia memiliki kunci untuk
+gembok milik dia saja
 
 243
 00:13:19,150 --> 00:13:22,980
-and the same thing with Bob.
+dan sama halnya dengan Bob.
 
 244
 00:13:22,980 --> 00:13:30,460
-So Bob has boxes, locks,
-keys for his locks
+Jadi Bob memiliki kotak, gembok,
+kunci untuk gembok miliknya
 
 245
 00:13:30,460 --> 00:13:32,360
-that he can put on his boxes.
+sehingga dia dapat menyimpan dalam kotak miliknya.
 
 246
 00:13:32,360 --> 00:13:36,690
-And in this case, Alice wants
-to send a message to Bob.
+Dan dalam kasus ini, Alice ingin
+mengirim pesan kepada Bob.
 
 247
 00:13:36,690 --> 00:13:39,110
-And Alice wants to
-exchange a key with Bob,
+Dan Alice ingin 
+bertukar kunci dengan Bob,
 
 248
 00:13:39,110 --> 00:13:43,770
-so they can eventually
-communicate in a secure way
+sehingga mereka akhirnya dapat
+berkomunikasi secara aman
 
 249
 00:13:43,770 --> 00:13:47,050
-regardless of the pirates or
-whoever else is listening.
+tanpa peduli bajak laut atau
+siapapun mendengarnya.
 
 250
 00:13:47,050 --> 00:13:49,852
-So the problem here, of
-course, is that if you just
+Jadi masalahnya di sini adalah,
+tentu saja, hanya jika Anda ingin
 
 251
 00:13:49,852 --> 00:13:52,310
-send a message on a boat-- so
-the pirates are kind of nice,
+mengirim sebuah pesan pada perahu-- jadi
+para bajak laut sebenarnya baik,
 
 252
 00:13:52,310 --> 00:13:58,260
-in a way, that they
-will deliver messages.
+dalam satu hal, mereka akan
+mengirimkan pesan.
 
 253
 00:13:58,260 --> 00:14:01,730
-But they are curious, right?
+Tetapi mereka akan penasaran, benar?
 
 254
 00:14:01,730 --> 00:14:03,000
-So they're very curious.
+Jadi mereka akan sangat pensaran.
 
 255
 00:14:03,000 --> 00:14:04,654
-And they will open up boxes.
+Dan mereka akan membuka kotak tersebut.
 
 256
 00:14:04,654 --> 00:14:06,820
-And so that's supposed to
-be a boat, by the way, not
+Dan jadi itu seharusnya adalah
+perahu, ngomong - ngomong, bukan 
 
 257
 00:14:06,820 --> 00:14:10,880
-a box, a little mast there.
+suatu kotak, sedikit tiang kapal disana
 
 258
 00:14:10,880 --> 00:14:14,150
-So I'm not a sailor.
+Jadi saya bukan seorang pelaut.
 
 259
 00:14:14,150 --> 00:14:18,830
-But you have these boxes that
-are going to get delivered.
+Tetapi, kalian memiliki kotak-kotak ini 
+yang akan diantar.
 
 260
 00:14:18,830 --> 00:14:20,740
-And the deal is this.
+dan ini adalah kesepakatannya.
 
 261
 00:14:20,740 --> 00:14:23,376
-If there's an open box, the
-pirate's will open the box.
+jika ada satu kotak yang terbuka, 
+bajak laut yang akan membuka kotaknya.
 
 262
 00:14:23,376 --> 00:14:25,584
-And if there's any message
-in it, they might read it,
+dan jika ada pesan di dalam kotak 
+itu, mereka mungkin akan membacanya,
 
 263
 00:14:25,584 --> 00:14:26,760
-they might throw it away.
+atau mereka mungkin membuangnya.
 
 264
 00:14:26,760 --> 00:14:32,550
-So clearly, a secret
-key can be exchanged
+Jadi jelas sekali, sebuah 
+kunci rahasia bisa ditukar
 
 265
 00:14:32,550 --> 00:14:36,150
-by just putting a box
-with a message in it
+hanya dengan hanya meletakkan kotak 
+yang didalamnya ada pesan
 
 266
 00:14:36,150 --> 00:14:38,350
-if you don't lock it.
+jika anda tidak menguncinya.
 
 267
 00:14:38,350 --> 00:14:43,220
-They will not be able to
-open, they'll not touch,
+Mereka tidak akan bisa 
+membukanya, tidak bisa menyentuh,
 
 268
 00:14:43,220 --> 00:14:47,040
-and they will
-deliver a locked box.
+dan mereka akan 
+mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
