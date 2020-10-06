@@ -808,17 +808,17 @@ kunci KC untuk klien,
 170
 00:07:45,885 --> 00:07:47,260
 Lalu, Kerberos server
-akan...
+akan
 
 171
 00:07:47,260 --> 00:07:49,720
-untuk mengingat ini
-key di suatu tempat di sini
+mengingat kunci ini
+di suatu tempat di sini
 
 172
 00:07:49,720 --> 00:07:53,680
 Begitu pula untuk
-server, key KS
+server, kunci KS
 
 173
 00:07:53,680 --> 00:07:56,080
@@ -874,7 +874,7 @@ akan perlu lakukan
 
 184
 00:08:17,982 --> 00:08:20,070
-adalah, tentu saja, melacak
+adalah, tentu saja, mencatat
 siapa yang
 
 185
@@ -892,18 +892,18 @@ Jadi ini semacam pengguna.
 
 188
 00:08:29,080 --> 00:08:35,630
-Ini mungkin service, mungkin
-AFS atau semacamnya.
+Ini mungkin layanan, mungkin AFS (Andrew File System,
+sistem penyimpanan terdistribusi) atau semacamnya.
 
 189
 00:08:35,630 --> 00:08:38,530
-Dan KDC bertanggun jawab untuk
-menyimpan si tabel besar--
+Dan KDC bertanggung jawab untuk
+menyimpan tabel besar itu--
 
 190
 00:08:38,530 --> 00:08:41,659
 Yah, tidak terlalu besar dalam
-hal jumlah bytes,
+hal jumlah byte,
 
 191
 00:08:41,659 --> 00:08:45,640
@@ -921,8 +921,8 @@ Masuk akal?
 
 194
 00:08:52,510 --> 00:08:56,634
-Oke, lalu kita akan
-melakukan suatu hal semacam menyediakan
+Baiklah, lalu kita akan
+semacam menyediakan
 
 195
 00:08:56,634 --> 00:08:57,550
@@ -930,18 +930,18 @@ dua antarmuka, benar?
 
 196
 00:08:57,550 --> 00:09:00,200
-Makalah diatas ini nampak
-sedikit membingungkan
+Paper tersebut agak
+membingungkan di atas sini
 
 197
 00:09:00,200 --> 00:09:02,200
-atau ini memang berlaku seperti
-benar benar dua anatarmuka
+atau itu memang berlaku seperti
+benar benar dua layanan
 
 198
 00:09:02,200 --> 00:09:05,260
-Tapi sungguh, apa yang terjadi
-adalah itu benar enar dua antarmuka
+Tetapi sebenarnya, apa yang terjadi
+adalah ada dua antarmuka
 
 199
 00:09:05,260 --> 00:09:06,660
@@ -950,7 +950,7 @@ ke mesin yang sama
 200
 00:09:06,660 --> 00:09:11,560
 Salah satunya disebut Kerberos
-di koran dan salah satunya
+di dalam paper dan salah satunya
 
 201
 00:09:11,560 --> 00:09:15,460
@@ -960,27 +960,27 @@ Ticket Granting Service.
 202
 00:09:15,460 --> 00:09:16,980
 Dan sungguh, ini
-hanya dua cara
+hanyalah dua cara
 
 203
 00:09:16,980 --> 00:09:20,130
-berbicara dengan hal yang sama
+untuk berbicara ke hal yang sama
 di bagian belakang.
 
 204
 00:09:20,130 --> 00:09:24,340
 Dan protokolnya sedikit
-berbeda untuk hal ini.
+berbeda untuk benda-benda ini.
 
 205
 00:09:24,340 --> 00:09:26,570
-pada awal nya, pada
+Jadi pada awalnya, pada
 saat pengguna login,
 
 206
 00:09:26,570 --> 00:09:28,680
 mereka akan berbicara
-untuk orang ini di sini.
+kepada orang ini di sini.
 
 207
 00:09:28,680 --> 00:09:32,110
@@ -990,7 +990,7 @@ mengirim nama klien mereka,
 208
 00:09:32,110 --> 00:09:35,160
 C. Jadi ini mungkin
-nama pengguna Athena Anda.
+username Athena Anda.
 
 209
 00:09:35,160 --> 00:09:36,810
@@ -999,8 +999,8 @@ akan menanggapi
 
 210
 00:09:36,810 --> 00:09:43,804
-ke belakang dengan sebuah tiket,
-sebuah TGS atau-- Yah,
+kembali dengan sebuah tiket,
+sebuah TGS atau-- yah,
 
 211
 00:09:43,804 --> 00:09:44,720
@@ -1018,13 +1018,13 @@ suatu server di bawah sini,
 
 214
 00:09:51,130 --> 00:09:54,040
-KS, maka kalian akan
-bicara dengan TGS ini dulu
+KS, maka Anda akan
+bicara dengan TGS ini terlebih dahulu
 
 215
 00:09:54,040 --> 00:09:56,530
-dan bilang, oh, hey,
-Saya sudah masuk
+dan mengatakan, oh, hei,
+saya sudah masuk
 
 216
 00:09:56,530 --> 00:09:58,560
