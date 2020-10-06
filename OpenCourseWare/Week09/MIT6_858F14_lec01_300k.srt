@@ -1561,7 +1561,7 @@ dari jutaan orang.
 
 331
 00:13:21,460 --> 00:13:26,770
-Dan kemudian Anda membayar lebih sedikit
+Dan kemudian Anda bayar lebih sedikit
 untuk pulih dari bencana tersebut.
 
 332
@@ -1586,7 +1586,7 @@ kita untuk berlindung
 
 336
 00:13:40,170 --> 00:13:43,140
-dari kelas serangan tertentu,
+dari beberapa kelas serangan,
 cukup kuat.
 
 337
@@ -1596,7 +1596,7 @@ cukup membosankan dalam hal
 
 338
 00:13:46,512 --> 00:13:47,720
-apa yang bisa Anda lakukan dengannya
+apa yang bisa Anda lakukan dengannya.
 
 339
 00:13:47,720 --> 00:13:49,270
@@ -1620,7 +1620,7 @@ dalam beberapa minggu
 343
 00:13:54,420 --> 00:13:57,810
 yang memungkinkan Anda untuk menjalankan
-kewenangan x86 native code dalam penjelajah
+kewenangan bahasa mesin (native code) x86 dalam penjelajah
 
 344
 00:13:57,810 --> 00:13:59,530
@@ -1629,7 +1629,7 @@ penjelajah web tersebut tidak melakukan
 
 345
 00:13:59,530 --> 00:14:01,260
-hal-hal lucu terhadap mesin Anda.
+hal-hal lucu terhadap komputer Anda.
 
 346
 00:14:01,260 --> 00:14:04,154
@@ -1652,29 +1652,29 @@ game asli di komputer Anda,
 
 350
 00:14:11,127 --> 00:14:13,710
-Anda telah mengunduh dan menginstalnya, 
+Anda harus mengunduh dan menginstalnya,
 mengklik banyak kotak
 
 351
 00:14:13,710 --> 00:14:15,671
-dialog, mengatakan ya, Saya mengizinkan ini.
+dialog, mengatakan ya, saya mengizinkan ini.
 
 352
 00:14:15,671 --> 00:14:17,420
-Tapi sekarang, Anda bisa
+Namun sekarang, Anda bisa
 menjalankannya di browser,
 
 353
 00:14:17,420 --> 00:14:18,600
-tidak perlu mengklik.
+tanpa perlu mengklik apapun.
 
 354
 00:14:18,600 --> 00:14:19,510
-langsung jalan.
+Gim tersebut langsung jalan.
 
 355
 00:14:19,510 --> 00:14:22,200
-Dan alasan mengapa
+Dan alasan mengapa hal itu
 sangat mudah dan kuat
 
 356
@@ -1705,7 +1705,7 @@ keamanan yang baik
 361
 00:14:36,270 --> 00:14:40,610
 akan memungkinkan pembangunan sistem
-baru yang keren yang sebenarnya tidak
+baru yang keren yang tidak
 
 362
 00:14:40,610 --> 00:14:43,551
@@ -1721,7 +1721,7 @@ Masuk akal?
 
 365
 00:14:45,420 --> 00:14:50,485
-Ada pertanyaan tentang ceria ini?
+Ada pertanyaan tentang cerita ini?
 
 366
 00:14:50,485 --> 00:14:51,890
@@ -1734,7 +1734,7 @@ sisa kuliah ini,
 
 368
 00:14:54,150 --> 00:14:58,320
-Saya ingin melihat sekumpulan
+saya ingin melihat sekumpulan
 contoh berbeda tentang bagaimana
 
 369
@@ -1748,7 +1748,7 @@ bagaimana Anda memikirkannya.
 
 371
 00:15:02,680 --> 00:15:05,790
-Tapi mau tidak mau, ada
+Namun mau tidak mau, ada
 baiknya melihat contoh
 
 372
@@ -1769,22 +1769,22 @@ tentang sistem keamanan,
 375
 00:15:16,586 --> 00:15:18,942
 kurang lebih setiap satu dari
-tiga hal ini berjalan salah.
+tiga hal ini salah.
 
 376
 00:15:18,942 --> 00:15:20,650
-Dalam prakteknya, orang
+Dalam praktiknya, orang-orang
 salah dalam mengambil kebijakan,
 
 377
 00:15:20,650 --> 00:15:22,066
-orang salah
+orang-orang salah
 dalam menentukan model ancaman,
 
 378
 00:15:22,066 --> 00:15:23,580
-dan orang salah
-dalam memahami sebuah mekanisme.
+dan orang-orang salah
+dalam memahami mekanisme.
 
 379
 00:15:23,580 --> 00:15:27,280
@@ -1812,11 +1812,11 @@ masuk ke sebuah situs web,
 
 384
 00:15:46,282 --> 00:15:47,240
-Anda akan memasukkan password.
+Anda akan memasukkan sebuah password.
 
 385
 00:15:47,240 --> 00:15:49,640
-Tapi apa yang terjadi jika
+Namun apa yang terjadi jika
 Anda kehilangan password Anda?
 
 386
@@ -1842,7 +1842,7 @@ penyedia alamat email Anda?
 390
 00:15:59,400 --> 00:16:03,700
 Jadi setidaknya, beberapa 
-tahun lalu, Yahoo
+tahun yang lalu, Yahoo
 
 391
 00:16:03,700 --> 00:16:06,660
@@ -1857,7 +1857,7 @@ password Yahoo Anda,
 393
 00:16:08,572 --> 00:16:10,030
 mereka tidak benar-benar bisa
-mengirimi Anda email
+mengirimkan Anda email
 
 394
 00:16:10,030 --> 00:16:11,610
