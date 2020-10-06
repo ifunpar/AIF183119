@@ -1022,7 +1022,7 @@ mal di tengah sini.
 215
 00:11:29,320 --> 00:11:33,050
 Dan anda harus khawatir
-tentang hal-hal seperti itu.
+tentang hal seperti itu.
 
 216
 00:11:33,050 --> 00:11:39,050
@@ -1056,8 +1056,8 @@ ada penyadap.
 
 222
 00:12:14,730 --> 00:12:20,195
-Ini adalah contoh kesukaan saya
-dari teka-teki yang kebanyakan dari anda
+Ini adalah contoh favorit saya
+dari teka-teki yang kebanyakan dari Anda
 
 223
 00:12:20,195 --> 00:12:23,170
@@ -1065,40 +1065,40 @@ mungkin pernah mendengarnya.
 
 224
 00:12:23,170 --> 00:12:26,800
-Tapi bagi anda yang belum,
-ini sungguh bagus.
+Tapi bagi Anda yang belum,
+ini sangat keren.
 
 225
 00:12:26,800 --> 00:12:32,700
-dan diantara anda yang sudah, ini
-masih terlihat sangat bagus dan bernilai.
+Dan di antara Anda yang sudah, ini
+masih terlihat sangat bagus dan bermakna
 
 226
 00:12:32,700 --> 00:12:33,790
-untuk diulang.
+untuk diingat.
 
 227
 00:12:33,790 --> 00:12:36,300
 Dan sebenarnya
-sesuatu yang anda pasti
+sesuatu yang Anda mungkin
 
 228
 00:12:36,300 --> 00:12:38,250
-tidak pernah
-sangat terpikirkan oleh anda
+belum pernah memikirkannya
+secara mendalam bahkan jika Anda pernah
 
 229
 00:12:38,250 --> 00:12:39,450
-bagi yang pernah mendengar puzzle ini.
+mendengar teka-teki ini.
 
 230
 00:12:39,450 --> 00:12:42,480
-Itu metode matematika
-yang dibuat
+Itu adalah asumsi
+matematika yang dibuat
 
 231
 00:12:42,480 --> 00:12:44,080
-pada solusi untuk teka-teki ini.
+di dalam solusi untuk teka-teki ini.
 
 232
 00:12:44,080 --> 00:12:45,930
@@ -1107,7 +1107,7 @@ Itu akan menarik bagi Anda.
 233
 00:12:45,930 --> 00:12:47,980
 Tetapi teka-teki itu adalah
-teka-teki bajak laut.
+teka-teki tentang bajak laut.
 
 234
 00:12:47,980 --> 00:12:50,050
@@ -1120,7 +1120,7 @@ Karibia, karena itu adalah
 
 236
 00:12:51,900 --> 00:12:53,740
-lautan favoritku.
+lautan favorit saya.
 
 237
 00:12:53,740 --> 00:12:56,896
@@ -1148,12 +1148,12 @@ kotak dan gembok serta kunci.
 
 242
 00:13:14,930 --> 00:13:19,150
-Dia mendapat kunci untuk
-kunci milik dia dan tidak ada yang lain
+Dia memiliki kunci untuk
+gembok milik dia saja
 
 243
 00:13:19,150 --> 00:13:22,980
-dan hal yang sama terjadi pada Bob.
+dan sama halnya dengan Bob.
 
 244
 00:13:22,980 --> 00:13:30,460
@@ -1182,17 +1182,17 @@ berkomunikasi secara aman
 249
 00:13:43,770 --> 00:13:47,050
 tanpa peduli bajak laut atau
-siapapun yang mendengar.
+siapapun mendengarnya.
 
 250
 00:13:47,050 --> 00:13:49,852
-Jadi masalahnya disini adalah,
-tentu saja, hanya jika anda ingin
+Jadi masalahnya di sini adalah,
+tentu saja, hanya jika Anda ingin
 
 251
 00:13:49,852 --> 00:13:52,310
-mengirim sebuah pesan melalui perahu-- sehingga
-bajak laut akan terlihat baik,
+mengirim sebuah pesan pada perahu-- jadi
+para bajak laut sebenarnya baik,
 
 252
 00:13:52,310 --> 00:13:58,260
@@ -1226,8 +1226,8 @@ Jadi saya bukan seorang pelaut.
 
 259
 00:14:14,150 --> 00:14:18,830
-tetapi, kalian memiliki kotak-kotak ini 
-yang akan di antar.
+Tetapi, kalian memiliki kotak-kotak ini 
+yang akan diantar.
 
 260
 00:14:18,830 --> 00:14:20,740
@@ -1254,7 +1254,7 @@ kunci rahasia bisa ditukar
 
 265
 00:14:32,550 --> 00:14:36,150
-dengan hanya meletakkan kotak 
+hanya dengan hanya meletakkan kotak 
 yang didalamnya ada pesan
 
 266
@@ -1263,8 +1263,8 @@ jika anda tidak menguncinya.
 
 267
 00:14:38,350 --> 00:14:43,220
-mereka tidak akan bisa 
-membukanya, apalagi menyentuh
+Mereka tidak akan bisa 
+membukanya, tidak bisa menyentuh,
 
 268
 00:14:43,220 --> 00:14:47,040
