@@ -1283,56 +1283,56 @@ sedikit istimewa, kemudian
 
 273
 00:11:24,300 --> 00:11:27,580
-when you ask, well, why
-does this token have value,
+kalau kamu tanya kenapa
+token ini memiliki nilai
 
 274
 00:11:27,580 --> 00:11:30,760
-because we think it has value.
+itu karena kita pikir ada nilai.
 
 275
 00:11:30,760 --> 00:11:34,040
-So what makes a token
-inherently valuable?
+Jadi sebenarnya apa yang membuat 
+sebuah token dari sananya berharga?
 
 276
 00:11:34,040 --> 00:11:36,272
-The fact that we
-think it's valuable.
+Sebuah fakta bahwa kita
+pikir itu berharga.
 
 277
 00:11:36,272 --> 00:11:38,230
-And a lot of different
-things can go into that.
+Serta banyak hal lain
+yang bisa masuk kesitu.
 
 278
 00:11:38,230 --> 00:11:43,660
-Maybe we think it's valuable
-because it's very rare.
+Mungkin kita pikir itu berharga 
+karena itu sangat langka.
 
 279
 00:11:43,660 --> 00:11:47,260
-Or maybe we think it's
-valuable because someone's
+Atau mungkin kita pikir 
+itu berharga karena ada orang
 
 280
 00:11:47,260 --> 00:11:49,240
-promised that you
-can use it to pay
+yang bilang kepada mu 
+kalau itu bisa dipakai untuk membayar
 
 281
 00:11:49,240 --> 00:11:51,130
-for storage, like with Dropbox.
+untuk ruang, seperti dengan Dropbox.
 
 282
 00:11:51,130 --> 00:11:53,890
-Or maybe we think it's valuable
-for a completely different
+Atau mungkin kita pikir itu berharga 
+untuk alasan yang sangat
 
 283
 00:11:53,890 --> 00:11:55,300
-reason, because
-we like the name,
+berbeda, karena
+kita menyukai namanya,
 
 284
 00:11:55,300 --> 00:11:57,383
