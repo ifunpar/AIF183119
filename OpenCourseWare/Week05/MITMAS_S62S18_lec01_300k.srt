@@ -1004,17 +1004,17 @@ OK.
 
 213
 00:09:09,910 --> 00:09:12,678
-Jadi hal ini seperti terhubung
-dengan pemerintah.
+Jadi hal-hal tersebut yang
+menghubungkan dengan pemerintah.
 
 214
 00:09:12,678 --> 00:09:14,845
-AUDIENCE: Bahkan jika hal tersebut
+AUDIENS: Bahkan jika hal tersebut
 tidak memiliki nilai sama sekali,
 
 215
 00:09:14,845 --> 00:09:16,490
-dalam konteks itu hal tersebut memiliki nilai.
+dalam konteks itu ada nilainya.
 
 216
 00:09:16,490 --> 00:09:19,820
@@ -1035,12 +1035,12 @@ Iya.
 
 220
 00:09:23,420 --> 00:09:24,380
-AUDIENCE: Saya Paul.
+AUDIENS: Saya Paul.
 
 221
 00:09:24,380 --> 00:09:28,080
 Saya pikir ketiga hal yang berada
-di depan sebuah dollar,
+di depan selembar uang dolar,
 
 222
 00:09:28,080 --> 00:09:29,870
@@ -1053,7 +1053,7 @@ mungkin lebih langka.
 
 224
 00:09:31,610 --> 00:09:33,900
-NEHA NARULA: They have Mereka bernilai
+NEHA NARULA: Mereka bernilai
 karena mereka memang langka.
 
 225
@@ -1071,26 +1071,26 @@ Baiklah.
 228
 00:09:37,310 --> 00:09:39,975
 Jadi itu semua merupakan
-ide yang menarik.
+ide yang sangat menarik.
 
 229
 00:09:39,975 --> 00:09:41,850
-Saya rasa itu adalah semua
-jenis properti
+Saya rasa itu adalah
+bermacam jenis properti
 
 230
 00:09:41,850 --> 00:09:45,153
-yang membuat sebuah
-benda bernilai
+yang membuat
+benda-benda bernilai.
 
 231
 00:09:45,153 --> 00:09:47,820
-Tapi ada juga benda yang langka
+Ada juga benda yang langkap
 tapi tidak bernilai,
 
 232
 00:09:47,820 --> 00:09:49,830
-ya kan?
+betul?
 
 233
 00:09:49,830 --> 00:09:53,800
@@ -1109,12 +1109,12 @@ untuk memilikinya.
 
 236
 00:09:58,410 --> 00:10:00,750
-Kalian tidak akan membuat
-benda itu bernilai
+Kalian tidak akan memberikan
+nilai ke dalam benda itu.
 
 237
 00:10:00,750 --> 00:10:03,720
-Tentunya, akan sangat penting
+Tentunya, sangat penting
 bahwa kalian bisa membayar pajak
 
 238
@@ -1129,7 +1129,7 @@ untuk dilakukan di setiap negara.
 240
 00:10:08,942 --> 00:10:11,400
 Ada hal-hal yang memiliki
-Nilai yang belum tentu anda
+nilai yang belum tentu Anda
 
 241
 00:10:11,400 --> 00:10:12,310
@@ -1156,12 +1156,12 @@ didukung oleh sesuatu.
 246
 00:10:25,482 --> 00:10:26,940
 Dan sebenarnya, jika
-kamu melihat 1 dolar,
+kamu melihat uang 1 dolar,
 
 247
 00:10:26,940 --> 00:10:28,357
 Saya pikir itu masih
-mengatakannya 1 dolar, benar?
+tertulis di sana, benar?
 
 248
 00:10:28,357 --> 00:10:31,020
@@ -1180,7 +1180,7 @@ tidak mengatakan itu lagi.
 251
 00:10:33,450 --> 00:10:34,200
 NEHA NARULA: Mereka tidak
-mengatakan itu lagi ?
+mengatakan itu lagi?
 
 252
 00:10:34,200 --> 00:10:35,117
@@ -1202,29 +1202,31 @@ Amerika Serikat
 
 256
 00:10:41,895 --> 00:10:43,020
-Apa maksud sebenarnya ?
+Apa maksud sebenarnya?
 
 257
 00:10:43,020 --> 00:10:45,420
-Aku pikir itu semua kembali ke
+Saya rasa semuanya itu
+kembali ke fakta bahwa
 
 258
 00:10:45,420 --> 00:10:46,920
-hal yang berharga ini karena kita
+hal-hal ini berharga
+karena kita
 
 259
 00:10:46,920 --> 00:10:47,940
-pikir mereka memang berharga
+pikir mereka memang berharga.
 
 260
 00:10:47,940 --> 00:10:49,710
-Kami semua sudah memutuskan
-mereka berharga
+Kita semua sudah memutuskan
+bahwa mereka berharga
 
 261
 00:10:49,710 --> 00:10:53,430
-Dan kamu tau bahwa kamu mempunyai bill
-sebesar $1.00 dan kamu ingin membeli
+Dan Anda tahu bahwa jika Anda memiliki
+selembar $1.00 dan Anda ingin membeli
 
 262
 00:10:53,430 --> 00:10:56,370
@@ -1237,7 +1239,7 @@ sehingga anda dapat melakukan pertukaran tersebut.
 
 264
 00:10:58,077 --> 00:10:59,910
-Dan alasan bahwa
+Dan alasan mengapa
 mereka akan menerimanya
 
 265
@@ -1257,11 +1259,11 @@ kita berpikir bahwa benda tersebut memiliki nilai.
 268
 00:11:06,660 --> 00:11:12,150
 Ini adalah sebuah cerita
-bersama yang kita semua ketahui.
+kolektif yang kita semua ceritakan.
 
 269
 00:11:12,150 --> 00:11:14,880
-Jadi saya berpikir begitu anda
+Jadi saya berpikir begitu Anda
 melihat uang dengan cara seperti itu,
 
 270
@@ -1271,8 +1273,8 @@ token-token, yang pada dasarnya adalah--
 
 271
 00:11:18,360 --> 00:11:20,970
-representasi digital
-dari benda-benda ini, sesuatu--
+representasi dijital
+dari benda-benda ini, sesuatu
 
 272
 00:11:20,970 --> 00:11:24,300
