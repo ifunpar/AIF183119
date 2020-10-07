@@ -1032,33 +1032,33 @@ melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
-Now, I want to talk
-to the server S.
+Sekarang, Saya ingin berbicara
+dengan server S.
 
 218
 00:10:00,770 --> 00:10:03,560
-So you'd tell the TGS about
-the server you want to talk to.
+Jadi kalian akan memberi tahu TGS mengenai
+server yang ingin kalian ajak berbicara.
 
 219
 00:10:03,560 --> 00:10:08,330
-And then it returns you
-back some sort of a ticket
+Dan kemudian akan dikembalikan
+kepada kalian semacam tiket
 
 220
 00:10:08,330 --> 00:10:12,780
-for talking to the server
-S. And then you can finally
+untuk berbicara dengan server
+S. Dan akhirnya kalian bisa
 
 221
 00:10:12,780 --> 00:10:15,600
-start talking to
-the server over here
+berbicara dengan
+server di sebelah sini
 
 222
 00:10:15,600 --> 00:10:22,230
-by initially passing
-it this ticket for S.
+dengan memberikan tiket ini
+kepada S terlebih dahulu.
 
 223
 00:10:22,230 --> 00:10:23,902
