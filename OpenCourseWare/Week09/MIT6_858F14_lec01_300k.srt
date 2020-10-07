@@ -1689,13 +1689,13 @@ tentang pemilihan pengguna
 
 358
 00:14:29,590 --> 00:14:31,730
-game yang benar dan bukan
-game berbahaya untuk dimainkan
+permainan yang benar dan bukan
+permainan berbahaya untuk dimainkan
 
 359
 00:14:31,730 --> 00:14:34,460
 pada komputer mereka, atau
-program lain untuk dijalankan.
+beberapa program lain untuk dijalankan.
 
 360
 00:14:34,460 --> 00:14:36,270
@@ -1763,7 +1763,7 @@ masalah keamanan.
 
 374
 00:15:12,470 --> 00:15:16,586
-Dan dalam kerusakan semacam ini
+Dan dalam masalah semacam ini
 tentang sistem keamanan,
 
 375
