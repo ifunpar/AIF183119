@@ -1273,61 +1273,61 @@ mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
-But if they ever see a
-key, they'll keep it.
+Tetapi jika mereka melihat 
+kunci, mereka akan menyimpannya.
 
 270
 00:14:51,390 --> 00:14:53,435
-If they ever see kind
-of a key on the boat,
+Jika mereka pernah melihat 
+semacam kunci di kapal,
 
 271
 00:14:53,435 --> 00:14:54,810
-they'll just grab
-it and keep it.
+mereka akan langsung 
+mengambilnya dan menyimpannya.
 
 272
 00:14:54,810 --> 00:14:57,018
-And then the next time
-around, they see a locked box,
+Dan kemudian pada waktu berikutnya, 
+mereka melihat kotak terkunci,
 
 273
 00:14:57,018 --> 00:15:00,140
-they'll stick the key
-in and try and open it.
+mereka akan memasukkan kunci 
+dan mencoba membukanya.
 
 274
 00:15:00,140 --> 00:15:01,970
-All right.
+Baiklah.
 
 275
 00:15:01,970 --> 00:15:06,340
-So how do Alice and Bob
-securely exchange a secret
+Jadi bagaimana Alice dan Bob 
+dengan aman bertukar rahasia
 
 276
 00:15:06,340 --> 00:15:09,600
-where security is based
-on this notion of piracy,
+di mana keamanan didasarkan 
+pada gagasan pembajakan ini,
 
 277
 00:15:09,600 --> 00:15:16,980
-I guess, with the pirates having
-a certain amount of capability
+Saya kira, dengan bajak laut 
+memiliki sejumlah kemampuan
 
 278
 00:15:16,980 --> 00:15:20,610
-in terms of storing keys,
-and opening up the locks,
+dalam hal menyimpan kunci, 
+dan membuka kunci,
 
 279
 00:15:20,610 --> 00:15:23,460
-but they will not
-touch a locked box?
+tetapi mereka tidak akan 
+menyentuh kotak yang terkunci?
 
 280
 00:15:23,460 --> 00:15:24,635
-All right.
+Baiklah.
 
 281
 00:15:24,635 --> 00:15:25,510
