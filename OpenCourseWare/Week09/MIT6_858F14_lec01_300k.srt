@@ -1547,7 +1547,7 @@ Anda bangun, semakin tidak mungkin
 328
 00:13:11,660 --> 00:13:14,910
 bagi Anda untuk muncul dalam cerita
-memalukan di halaman depan dari New
+memalukan di halaman depan New
 
 329
 00:13:14,910 --> 00:13:17,000
@@ -1662,7 +1662,7 @@ dialog, mengatakan ya, saya mengizinkan ini.
 352
 00:14:15,671 --> 00:14:17,420
 Namun sekarang, Anda bisa
-menjalankannya di browser,
+menjalankannya dalam sebuah penjelajah web,
 
 353
 00:14:17,420 --> 00:14:18,600
@@ -1670,7 +1670,7 @@ tanpa perlu mengklik apapun.
 
 354
 00:14:18,600 --> 00:14:19,510
-Gim tersebut langsung jalan.
+Permainan tersebut langsung jalan.
 
 355
 00:14:19,510 --> 00:14:22,200
@@ -1684,17 +1684,17 @@ dapat meng-sandbox program ini
 
 357
 00:14:25,990 --> 00:14:29,590
-dan tidak perlu memikirkan apapun
-tentang pemilihan pengguna
+dan tidak perlu beranggapan apapun
+tentang pengguna yang memilih
 
 358
 00:14:29,590 --> 00:14:31,730
-permainan yang benar dan bukan
+permainan yang benar dan tidak memilih
 permainan berbahaya untuk dimainkan
 
 359
 00:14:31,730 --> 00:14:34,460
-pada komputer mereka, atau
+pada komputer mereka, atau memilih
 beberapa program lain untuk dijalankan.
 
 360
@@ -1729,7 +1729,7 @@ Baiklah.
 
 367
 00:14:51,890 --> 00:14:54,150
-Jadi saya kira pada
+Jadi saya kira selama
 sisa kuliah ini,
 
 368
@@ -1744,7 +1744,7 @@ keamanan menjadi salah.
 370
 00:15:00,000 --> 00:15:02,680
 Jadi, sejauh ini, kita telah melihat
-bagaimana Anda memikirkannya.
+bagaimana Anda dapat memikirkannya.
 
 371
 00:15:02,680 --> 00:15:05,790
@@ -1763,8 +1763,8 @@ masalah keamanan.
 
 374
 00:15:12,470 --> 00:15:16,586
-Dan dalam masalah semacam ini
-tentang sistem keamanan,
+Dan dalam masalah tentang sistem
+keamanan semacam ini,
 
 375
 00:15:16,586 --> 00:15:18,942
@@ -1789,7 +1789,7 @@ dalam memahami mekanisme.
 379
 00:15:23,580 --> 00:15:27,280
 Dan mari, saya kira, mulai
-dari kebijakan dan beberapa contoh
+dari beberapa kebijakan dan contoh
 
 380
 00:15:27,280 --> 00:15:31,420
@@ -1799,7 +1799,7 @@ mengacaukan kebijakan sistem.
 381
 00:15:31,420 --> 00:15:35,220
 Mungkin contoh yang paling bersih
-atau paling sederhana dari ini
+atau paling sederhana dari hal ini
 
 382
 00:15:35,220 --> 00:15:38,350
@@ -1808,7 +1808,7 @@ adalah pertanyaan pemulihan akun.
 383
 00:15:41,810 --> 00:15:46,282
 Jadi biasanya, saat Anda
-masuk ke sebuah situs web,
+masuk ke dalam sebuah situs web,
 
 384
 00:15:46,282 --> 00:15:47,240
@@ -1836,7 +1836,7 @@ memiliki alamat email yang lain.
 
 389
 00:15:57,481 --> 00:15:59,400
-Tapi bagaimana jika ini adalah
+Tapi bagaimana jika masalahnya datang dari
 penyedia alamat email Anda?
 
 390
