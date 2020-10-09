@@ -1319,58 +1319,60 @@ typically called a non.
 279
 00:12:39,417 --> 00:12:40,000
 But, whatever.
+Tapi, apa pun.
 
 280
 00:12:40,000 --> 00:12:41,630
-There's two numbers.
+Ada dua angka.
 
 281
 00:12:41,630 --> 00:12:43,877
-And then the key they
-agreed to use in the thing
+Dan kemudian kunci yang mereka 
+setujui untuk digunakan dalam hal 
 
 282
 00:12:43,877 --> 00:12:45,460
-that one party picked,
-but actually is
+yang dipilih satu pihak,
+tetapi sebenarnya adalah
 
 283
 00:12:45,460 --> 00:12:48,610
-the hash of the things
-that both of them picked.
+hash dari hal-hal 
+yang mereka berdua pilih. 
 
 284
 00:12:48,610 --> 00:12:49,890
-So you could do that.
+Jadi Anda bisa melakukan itu.
 
 285
 00:12:49,890 --> 00:12:52,509
-You could also do
-[? DP Helmond ?] kind of stuff
+Anda juga bisa melakukan 
+[? DP Helmond?] hal-hal 
 
 286
 00:12:52,509 --> 00:12:54,050
-like we looked at
-in the last lecture
+seperti yang kami lihat
+di kuliah terakhir
+
 
 287
 00:12:54,050 --> 00:12:55,650
-where you get forward secrecy.
+di mana Anda mengedepankan kerahasiaan.
 
 288
 00:12:55,650 --> 00:12:58,220
-It was a little bit more
-complicated math rather than
+Itu adalah matematika yang sedikit 
+lebih rumit daripada
 
 289
 00:12:58,220 --> 00:13:01,117
-just hashing two random numbers
-that two parties picked.
+hanya mencirikan dua angka acak 
+yang dipilih dua pihak.
 
 290
 00:13:01,117 --> 00:13:02,700
-But then you get
-some nice properties,
+Tapi kemudian Anda mendapatkan
+beberapa properti bagus,
 
 291
 00:13:02,700 --> 00:13:05,610
