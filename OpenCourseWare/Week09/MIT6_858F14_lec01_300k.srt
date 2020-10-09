@@ -2049,7 +2049,7 @@ dan melakukan banyak hal buruk.
 
 434
 00:17:52,340 --> 00:17:53,590
-Namun bagaiman mereka melakukannya, betul?
+Namun bagaimana mereka melakukannya, betul?
 
 435
 00:17:53,590 --> 00:17:54,870
@@ -2080,7 +2080,7 @@ mengatur ulang password Anda
 
 441
 00:18:06,580 --> 00:18:09,700
-jika Anda lupa, seperti pada
+jika Anda lupa password Anda, seperti pada
 sistem-sistem lainnya.
 
 442
