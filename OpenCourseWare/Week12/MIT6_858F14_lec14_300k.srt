@@ -1353,7 +1353,6 @@ Anda juga bisa melakukan
 seperti yang kami lihat
 di kuliah terakhir
 
-
 287
 00:12:54,050 --> 00:12:55,650
 di mana Anda mengedepankan kerahasiaan.
@@ -1431,56 +1430,56 @@ pada a di sini, iyakan?
 
 303
 00:13:40,990 --> 00:13:43,610
-So a knows who b
-is, or at least a
+Jadi a tahu siapa b,
+atau setidaknya a
 
 304
 00:13:43,610 --> 00:13:46,700
-knows who will be able
-to decrypt the data.
+mengetahui siapa yang bisa
+mendekripsikan data tersebut.
 
 305
 00:13:46,700 --> 00:13:50,390
-But b has no idea who
-is on the other side,
+Tapi b tidak tahu siapa yang
+ada di sisi lain,
 
 306
 00:13:50,390 --> 00:13:54,630
-whether it's a or some adversary
-impersonating a, et cetera.
+apakah itu a atau musuh yang
+menyamar sebagai a, dan sebagainya.
 
 307
 00:13:54,630 --> 00:13:58,741
-So how would we fix it
-int his public key world?
+Jadi bagaiman kita memperbaikinya
+di dunia kunci publik ini?
 
 308
 00:13:58,741 --> 00:13:59,240
-Yeah?
+Ya?
 
 309
 00:13:59,240 --> 00:14:01,854
-AUDIENCE: You have been assigned
-something and [INAUDIBLE].
+AUDIENS: Anda telah ditugaskan
+sesuatu dan [TIDAK TERDENGAR].
 
 310
 00:14:01,854 --> 00:14:02,520
-PROFESSOR: Yeah.
+PROFESOR: Ya.
 
 311
 00:14:02,520 --> 00:14:05,390
-There's a couple of ways
-you could go about this.
+Terdapat beberapa cara
+Anda bisa melakukan ini.
 
 312
 00:14:05,390 --> 00:14:07,510
-One possibility
-is a maybe should
+Satu kemungkinan
+adalah b mungkin harus 
 
 313
 00:14:07,510 --> 00:14:09,630
-sign this message
-initially, because we
+menandai pesan ini
+awalnya, karena kami
 
 314
 00:14:09,630 --> 00:14:11,160
