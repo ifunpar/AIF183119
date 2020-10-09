@@ -1861,116 +1861,116 @@ mengirimkan Anda email
 
 394
 00:16:10,030 --> 00:16:11,610
-because you couldn't get it.
+Karena anda tidak bisa mendapatkannya.
 
 395
 00:16:11,610 --> 00:16:13,420
-So instead, they
-had you register
+jadi sebagai gantinya, mereka
+menyuruh anda mendaftarkan
 
 396
 00:16:13,420 --> 00:16:16,317
-a couple of questions with them
-that hopefully only you know.
+beberapa pertanyaan ke mereka
+yang harapannya hanya anda saja yang tau.
 
 397
 00:16:16,317 --> 00:16:18,650
-And if you forget your password,
-you can click on a link
+dan jika anda melupakan password anda,
+anda dapat click terhadap sebuah link
 
 398
 00:16:18,650 --> 00:16:21,130
-and say, well, here's the
-answers to my questions.
+dan berkata, baiklah, ini adalah
+jawaban untuk menjawab pertanyaan saya.
 
 399
 00:16:21,130 --> 00:16:23,480
-Let me have my password again.
+Biarkan saya mendapatkan password saya lagi.
 
 400
 00:16:23,480 --> 00:16:26,360
-And what turns out to
-be the case is-- well,
+dan ternyata yang
+menjadi masalahnya adalah,
 
 401
 00:16:26,360 --> 00:16:30,430
-some people failed to realize is
-that this changes your policy,
+beberapa orang gagal menyadari 
+bahwa hal ini merubah peraturan anda,
 
 402
 00:16:30,430 --> 00:16:32,800
-because before, the
-policy of the system
+karena sebelumnya, 
+peraturan dari sebuah sistem
 
 403
 00:16:32,800 --> 00:16:35,280
-is people that can log
-in are the people that
+adalah orang-orang yang bisa log in
+adalah orang-orang yang
 
 404
 00:16:35,280 --> 00:16:36,931
-know the password.
+mengetahui passwordnya.
 
 405
 00:16:36,931 --> 00:16:38,930
-And when you introduce
-these recovery questions,
+dan saat anda memperkenalkan 
+pertanyaan pemuilihan ini,
 
 406
 00:16:38,930 --> 00:16:40,596
-the policy becomes,
-well, you can log in
+kebijakan menjadi,
+well, kalian dapat log in
 
 407
 00:16:40,596 --> 00:16:44,380
-if you know either the password
-or those security questions.
+jika anda mengetahui passwordnya
+atau pertanyaan keamanannya.
 
 408
 00:16:44,380 --> 00:16:47,001
-So it strictly weakens the
-security of your system.
+jadi itu sangat melemahkan
+sistem kemamanan anda.
 
 409
 00:16:47,001 --> 00:16:49,250
-And many people have actually
-taken advantage of this.
+dan banyak orang telah
+mengambil banyak keuntungan dari sini.
 
 410
 00:16:49,250 --> 00:16:53,410
-One sort of well known example
-is, I think a couple years ago,
+salah satu contoh terkenal
+adalah, saya pikir beberapa tahun lalu,
 
 411
 00:16:53,410 --> 00:16:55,820
-Sarah Palin had an
-email account at Yahoo.
+Sarah Pailin pernah memiliki
+akun email di yahoo.
 
 412
 00:16:55,820 --> 00:16:59,390
-And her recovery questions
-were things like, well,
+dan pertanyaan keamanan dia
+hal-hal semacam,yaa,
 
 413
 00:16:59,390 --> 00:17:00,660
-where'd you go to school?
+kemana anda pergi bersekolah?
 
 414
 00:17:00,660 --> 00:17:03,406
-What was your friend's name?
+siapa nama teman anda?
 
 415
 00:17:03,406 --> 00:17:04,280
-What's your birthday?
+apa hari tanggal lahir mu?
 
 416
 00:17:04,280 --> 00:17:04,960
-Et cetera.
+dan lain-lain.
 
 417
 00:17:04,960 --> 00:17:07,430
-These were all things written
-on her Wikipedia page.
+hal-hal ini merupakan hal yang telah tertulis 
+di Wikipedia nya.
 
 418
 00:17:07,430 --> 00:17:09,690
