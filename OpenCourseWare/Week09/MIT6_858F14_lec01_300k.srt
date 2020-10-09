@@ -1861,50 +1861,50 @@ mengirimkan Anda email
 
 394
 00:16:10,030 --> 00:16:11,610
-Karena anda tidak bisa mendapatkannya.
+karena Anda tidak bisa mengaksesnya.
 
 395
 00:16:11,610 --> 00:16:13,420
-jadi sebagai gantinya, mereka
-menyuruh anda mendaftarkan
+Jadi sebagai gantinya, mereka
+meminta Anda untuk mengajukan
 
 396
 00:16:13,420 --> 00:16:16,317
-beberapa pertanyaan ke mereka
-yang harapannya hanya anda saja yang tau.
+beberapa pertanyaan dengan
+harapan bahwa hanya Anda saja yang mengetahuinya.
 
 397
 00:16:16,317 --> 00:16:18,650
-dan jika anda melupakan password anda,
-anda dapat click terhadap sebuah link
+Dan jika Anda lupa password Anda,
+Anda dapat mengklik sebuah tautan
 
 398
 00:16:18,650 --> 00:16:21,130
 dan berkata, baiklah, ini adalah
-jawaban untuk menjawab pertanyaan saya.
+jawaban untuk pertanyaan-pertanyaan saya.
 
 399
 00:16:21,130 --> 00:16:23,480
-Biarkan saya mendapatkan password saya lagi.
+Biarkan saya mendapatkan password saya kembali.
 
 400
 00:16:23,480 --> 00:16:26,360
-dan ternyata yang
-menjadi masalahnya adalah,
+Dan ternyata yang
+menjadi masalah adalah-- baiklah,
 
 401
 00:16:26,360 --> 00:16:30,430
-beberapa orang gagal menyadari 
-bahwa hal ini merubah peraturan anda,
+beberapa orang tidak menyadari 
+bahwa hal ini mengubah kebijakan Anda,
 
 402
 00:16:30,430 --> 00:16:32,800
 karena sebelumnya, 
-peraturan dari sebuah sistem
+kebijakan dari sebuah sistem
 
 403
 00:16:32,800 --> 00:16:35,280
-adalah orang-orang yang bisa log in
+adalah orang-orang yang dapat masuk
 adalah orang-orang yang
 
 404
@@ -1913,64 +1913,64 @@ mengetahui passwordnya.
 
 405
 00:16:36,931 --> 00:16:38,930
-dan saat anda memperkenalkan 
-pertanyaan pemuilihan ini,
+Dan saat Anda mengajukan
+pertanyaan-pertanyaan pemulihan ini,
 
 406
 00:16:38,930 --> 00:16:40,596
-kebijakan menjadi,
-well, kalian dapat log in
+kebijakannya menjadi,
+baiklah, kalian dapat masuk
 
 407
 00:16:40,596 --> 00:16:44,380
-jika anda mengetahui passwordnya
+jika Anda mengetahui password
 atau pertanyaan keamanannya.
 
 408
 00:16:44,380 --> 00:16:47,001
-jadi itu sangat melemahkan
-sistem kemamanan anda.
+Jadi hal itu sangat melemahkan
+sistem kemamanan Anda.
 
 409
 00:16:47,001 --> 00:16:49,250
-dan banyak orang telah
-mengambil banyak keuntungan dari sini.
+Dan banyak orang telah
+mengambil keuntungan dari hal ini.
 
 410
 00:16:49,250 --> 00:16:53,410
-salah satu contoh terkenal
+Salah satu contoh yang terkenal
 adalah, saya pikir beberapa tahun lalu,
 
 411
 00:16:53,410 --> 00:16:55,820
 Sarah Pailin pernah memiliki
-akun email di yahoo.
+akun email di Yahoo.
 
 412
 00:16:55,820 --> 00:16:59,390
-dan pertanyaan keamanan dia
-hal-hal semacam,yaa,
+dan pertanyaan-pertanyaan keamanan dia
+adalah pertanyaan tentang hal-hal semacam, yah,
 
 413
 00:16:59,390 --> 00:17:00,660
-kemana anda pergi bersekolah?
+di mana Anda bersekolah?
 
 414
 00:17:00,660 --> 00:17:03,406
-siapa nama teman anda?
+Siapa nama teman Anda?
 
 415
 00:17:03,406 --> 00:17:04,280
-apa hari tanggal lahir mu?
+Kapan hari tanggal lahirmu?
 
 416
 00:17:04,280 --> 00:17:04,960
-dan lain-lain.
+Dan lain-lain.
 
 417
 00:17:04,960 --> 00:17:07,430
-hal-hal ini merupakan hal yang telah tertulis 
-di Wikipedia nya.
+Hal-hal tersebut merupakan hal-hal yang
+telah tertulis di halaman Wikipedia tentangnya.
 
 418
 00:17:07,430 --> 00:17:09,690
