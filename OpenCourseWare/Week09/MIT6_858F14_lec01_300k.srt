@@ -1974,22 +1974,22 @@ on her Wikipedia page.
 
 418
 00:17:07,430 --> 00:17:09,690
-Dan sebagai hasilnya,
-seseorang dengan cukup mudah,
+Dan sebagai konsekuensinya,
+seseorang dapat dengan cukup mudah,
 
 419
 00:17:09,690 --> 00:17:12,839
-dan seseorang melakukannya, tentunya masuk
-ke dalam akun email Yahoo nya.
+dan seseorang telah melakukannya, tentunya,
+masuk ke dalam akun email Yahoo dia
 
 420
 00:17:12,839 --> 00:17:15,319
-Hanya dengan melihat di Wikipedia
-Di mana dia sekolah saat SMA
+hanya dengan melihat di Wikipedia tentang
+di mana dia bersekolah saat SMA
 
 421
 00:17:15,319 --> 00:17:17,379
-Dan kapan ulang tahunnya.
+dan kapan hari ulang tahunnya.
 
 422
 00:17:17,379 --> 00:17:18,920
@@ -1998,22 +1998,22 @@ berpikir dengan hati-hati
 
 423
 00:17:18,920 --> 00:17:21,890
-Tentang implikasi
-dari keamanan yang berbeda
+tentang implikasi
+dari perbedaan kebijakan
 
 424
 00:17:21,890 --> 00:17:24,819
-kebijakan yang Anda buat di sini.
+keamanan yang Anda buat di sini.
 
 425
 00:17:24,819 --> 00:17:29,220
 Mungkin, contoh yang lebih rumit,
-mungkin, lebih mnearik,
+mungkin, lebih menarik,
 
 426
 00:17:29,220 --> 00:17:32,720
-adalah apa yang terjadi ketika anda memiliki
-banyak sistem yang mulai
+adalah apa yang terjadi ketika Anda
+memiliki banyak sistem yang mulai
 
 427
 00:17:32,720 --> 00:17:34,750
@@ -2037,6 +2037,7 @@ majalah wired.com.
 431
 00:17:45,900 --> 00:17:48,150
 Dan memiliki sedikit masalah.
+
 432
 00:17:48,150 --> 00:17:50,550
 Sederhananya, seseorang berhasil
@@ -2052,16 +2053,16 @@ Namun bagaiman mereka melakukannya, betul?
 
 435
 00:17:53,590 --> 00:17:54,870
-Maka ini cukup menarik.
+Maka hal ini cukup menarik.
 
 436
 00:17:54,870 --> 00:17:57,640
 Jadi semua pihak dalam
-cerita ini nampak
+cerita ini terlihat
 
 437
 00:17:57,640 --> 00:17:58,890
-ingin melakukan hal-hal yang masuk akal.
+melakukan hal-hal yang masuk akal.
 
 438
 00:17:58,890 --> 00:18:01,181
@@ -2074,12 +2075,12 @@ Jadi kita punya akun Gmail.
 
 440
 00:18:02,530 --> 00:18:06,580
-Dan Gmail memungkinkan anda untuk
-mereset password Anda
+Dan Gmail memungkinkan Anda untuk
+mengatur ulang password Anda
 
 441
 00:18:06,580 --> 00:18:09,700
-jika Anda lupat, seperti pada
+jika Anda lupa, seperti pada
 sistem-sistem lainnya.
 
 442
