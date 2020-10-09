@@ -1974,114 +1974,113 @@ on her Wikipedia page.
 
 418
 00:17:07,430 --> 00:17:09,690
-And as a result, someone
-can quite easily,
+Dan sebagai hasilnya,
+seseorang dengan cukup mudah,
 
 419
 00:17:09,690 --> 00:17:12,839
-and someone did, actually, get
-into her Yahoo email account
+dan seseorang melakukannya, tentunya masuk
+ke dalam akun email Yahoo nya.
 
 420
 00:17:12,839 --> 00:17:15,319
-just by looking up on Wikipedia
-what her high school was
+Hanya dengan melihat di Wikipedia
+Di mana dia sekolah saat SMA
 
 421
 00:17:15,319 --> 00:17:17,379
-and what her birthday was.
+Dan kapan ulang tahunnya.
 
 422
 00:17:17,379 --> 00:17:18,920
-So you really have
-to think carefully
+Maka Anda harus
+berpikir dengan hati-hati
 
 423
 00:17:18,920 --> 00:17:21,890
-about the implications
-of different security
+Tentang implikasi
+dari keamanan yang berbeda
 
 424
 00:17:21,890 --> 00:17:24,819
-policies you're making here.
+kebijakan yang Anda buat di sini.
 
 425
 00:17:24,819 --> 00:17:29,220
-Perhaps a more intricate and,
-maybe, interesting example,
+Mungkin, contoh yang lebih rumit,
+mungkin, lebih mnearik,
 
 426
 00:17:29,220 --> 00:17:32,720
-is what happens when you have
-multiple systems that start
+adalah apa yang terjadi ketika anda memiliki
+banyak sistem yang mulai
 
 427
 00:17:32,720 --> 00:17:34,750
-interacting with one another.
+berinteraksi satu sama lain.
 
 428
 00:17:34,750 --> 00:17:39,340
-So there's this nice story
-about a guy called Mat Honan.
+Jadi ada cerita bagus
+tentang seorang pria bernama Mat Honan.
 
 429
 00:17:39,340 --> 00:17:42,660
-Maybe you read this
-story a year or two ago.
+Mungkin Anda membaca
+cerita ini satu atau dua tahun lalu.
 
 430
 00:17:42,660 --> 00:17:45,900
-He's a editor at this
-wired.com magazine.
+Dia adalah seorang editor di
+majalah wired.com.
 
 431
 00:17:45,900 --> 00:17:48,150
-And had a bit of a problem.
-
+Dan memiliki sedikit masalah.
 432
 00:17:48,150 --> 00:17:50,550
-Someone basically got
-into his Gmail account
+Sederhananya, seseorang berhasil
+masuk ke akun Gmail miliknya
 
 433
 00:17:50,550 --> 00:17:52,340
-and did lots of bad things.
+dan melakukan banyak hal buruk.
 
 434
 00:17:52,340 --> 00:17:53,590
-But how did they do it, right?
+Namun bagaiman mereka melakukannya, betul?
 
 435
 00:17:53,590 --> 00:17:54,870
-So it's kind of interesting.
+Maka ini cukup menarik.
 
 436
 00:17:54,870 --> 00:17:57,640
-So all parties in
-this story seem
+Jadi semua pihak dalam
+cerita ini nampak
 
 437
 00:17:57,640 --> 00:17:58,890
-to be doing reasonable things.
+ingin melakukan hal-hal yang masuk akal.
 
 438
 00:17:58,890 --> 00:18:01,181
-But we'll see how they add
-up to something unfortunate.
+Namun akan kita lihat bagaimana mereka melakukan
+sesuatu yang merugikan.
 
 439
 00:18:01,181 --> 00:18:02,530
-So we have Gmail.
+Jadi kita punya akun Gmail.
 
 440
 00:18:02,530 --> 00:18:06,580
-And Gmail lets you
-reset your password
+Dan Gmail memungkinkan anda untuk
+mereset password Anda
 
 441
 00:18:06,580 --> 00:18:09,700
-if you forget, as do pretty
-much every other system.
+jika Anda lupat, seperti pada
+sistem-sistem lainnya.
 
 442
 00:18:09,700 --> 00:18:13,670
