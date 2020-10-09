@@ -1375,59 +1375,59 @@ beberapa properti bagus,
 
 291
 00:13:02,700 --> 00:13:05,610
-like forward secrecy.
+seperti kerahasiaan pengiriman.
 
 292
 00:13:05,610 --> 00:13:07,600
-So replay attacks
-you typically fixed
+Jadi ulangi serangan 
+yang anda biasa perbaiki
 
 293
 00:13:07,600 --> 00:13:14,350
-by having b generate some nons.
+dengan memiliki b untuk memgbangkitkan beberapa nons.
 
 294
 00:13:14,350 --> 00:13:16,850
-And then you set
-the real secret key
+Dan setelah itu anda menentukan
+kunci rahasia yang sebenarnya
 
 295
 00:13:16,850 --> 00:13:19,900
-that you're going to use
-to hash of the secret key
+yang akan anda gunakan
+untuk mengacak kunci rahasia
 
 296
 00:13:19,900 --> 00:13:24,267
-from one guy concatenated
-with this non.
+dari seseorang yang tersambung
+dengan non ini.
 
 297
 00:13:24,267 --> 00:13:26,350
-And, of course, b would
-have to send the nons back
+Dan tentu saja b akan
+harus mengirim non kembali
 
 298
 00:13:26,350 --> 00:13:29,220
-to a in order to
-figure out what's
+ke a untuk dapat
+mencari tahu apa
 
 299
 00:13:29,220 --> 00:13:32,850
-going on for both of
-them to agree on a key.
+yang sedang terjadi sehingga mereka
+berdua dapat menyetujui sebuah kunci.
 
 300
 00:13:32,850 --> 00:13:33,670
-All right.
+Baiklah.
 
 301
 00:13:33,670 --> 00:13:40,060
-So another problem here is that
-there's no real authentication
+Jadi masalah lain di sini adalah
+tidak ada otentikasi yang nyata
 
 302
 00:13:40,060 --> 00:13:40,990
-of a here, all right?
+pada a di sini, iyakan?
 
 303
 00:13:40,990 --> 00:13:43,610
