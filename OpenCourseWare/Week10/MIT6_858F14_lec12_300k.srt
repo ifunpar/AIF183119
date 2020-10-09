@@ -1516,109 +1516,109 @@ connection.
 
 319
 00:13:04,520 --> 00:13:08,180
-So typically, the server
-assumes-- implicitly,
+Biasanya, server 
+mengasumsikan-- secara implisit,
 
 320
 00:13:08,180 --> 00:13:12,480
-you might imagine-- that this
-connection is established
+Anda mungkin membayangkan-- 
+bahwa koneksi ini dibuat
 
 321
 00:13:12,480 --> 00:13:17,195
-with the right client at
-this IP address C. It seems
+dengan klien yang tepat di 
+alamat IP C. Tampaknya
 
 322
 00:13:17,195 --> 00:13:18,650
-like a natural thing to assume.
+seperti hal yang wajar untuk diasumsikan.
 
 323
 00:13:18,650 --> 00:13:20,990
-Is there any basis for
-making this assumption?
+Apakah ada dasar untuk membuat 
+asumsi ini?
 
 324
 00:13:20,990 --> 00:13:24,780
-If a server gets this
-message saying, here's
+Jika server mendapatkan pesan 
+ini, inilah
 
 325
 00:13:24,780 --> 00:13:27,500
-some data on this connection
-from a client to a server,
+beberapa data pada koneksi ini 
+dari klien ke server,
 
 326
 00:13:27,500 --> 00:13:32,950
-and it has sequence number
-C, why might the server
+dan memiliki nomor urut C, 
+mengapa mungkin server
 
 327
 00:13:32,950 --> 00:13:35,759
-conclude that this was actually
-the real client sending this?
+menyimpulkan bahwa ini sebenarnya 
+klien sebenarnya yang mengirimkan ini?
 
 328
 00:13:35,759 --> 00:13:38,050
-AUDIENCE: Because the sequence
-number is hard to guess.
+AUDIENS: Karena nomor urut 
+sulit ditebak.
 
 329
 00:13:38,050 --> 00:13:39,940
-PROFESSOR: Right, so that's sort
-of the implicit thing going on,
+PROFESSOR: Benar, jadi hal implisit 
+semacam itu sedang terjadi,
 
 330
 00:13:39,940 --> 00:13:42,640
-that it has to have the
-right sequence number C here.
+bahwa itu harus memiliki nomor 
+urut C yang benar di sini.
 
 331
 00:13:42,640 --> 00:13:46,430
-And in order for this
-connection to get established,
+Dan agar koneksi 
+ini terjalin,
 
 332
 00:13:46,430 --> 00:13:49,870
-the client must have
-acknowledged the server
+klien harus mengakui 
+server
 
 333
 00:13:49,870 --> 00:13:51,570
-sequence number S here.
+nomor urut S di sini.
 
 334
 00:13:51,570 --> 00:13:55,520
-And the server sequence number
-S was only sent by the server
+Dan nomor urut server S hanya 
+dikirim oleh server
 
 335
 00:13:55,520 --> 00:13:59,386
-to the intended
-client IP address.
+ke alamat IP klien 
+yang dituju.
 
 336
 00:13:59,386 --> 00:13:59,886
-Yeah.
+Ya.
 
 337
 00:13:59,886 --> 00:14:01,362
-AUDIENCE: How many bits are
-available for the sequence
+AUDIENS: Berapa banyak bit yang 
+tersedia untuk urutan 
 
 338
 00:14:01,362 --> 00:14:01,862
-number?
+angka?
 
 339
 00:14:01,862 --> 00:14:05,831
-PROFESSOR: So sequence numbers
-in TCP are 32 bits long.
+PROFESSOR: Jadi nomor urut 
+dalam TCP adalah 32 bit.
 
 340
 00:14:05,831 --> 00:14:10,359
-That's not entirely
-easy to guess.
+Itu tidak sepenuhnya 
+mudah ditebak.
 
 341
 00:14:10,359 --> 00:14:12,025
