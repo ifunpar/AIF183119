@@ -1331,59 +1331,59 @@ Baiklah.
 
 281
 00:15:24,635 --> 00:15:25,510
-So that's the puzzle.
+Jadi itulah teka-teki.
 
 282
 00:15:25,510 --> 00:15:27,790
-How many of you have heard
-of this puzzle before?
+Berapa banyak dari kalian yang sudah mendengar
+tentang teka-teki ini sebelumnya?
 
 283
 00:15:27,790 --> 00:15:30,090
-So all of you keep quiet.
+Jadi semuanya tetap diam.
 
 284
 00:15:30,090 --> 00:15:34,350
-Someone who hasn't heard
-of this puzzle before,
+Seseorang yang belum pernah mendengar
+tentang teka-teki ini sebelumnya,
 
 285
 00:15:34,350 --> 00:15:39,770
-think for a few seconds here and
-see if a solution occurs to you
+coba pikirkan sejenak dan
+lihat apakah ada sebuah solusi datang kepada Anda
 
 286
 00:15:39,770 --> 00:15:43,490
-with respect to going back and
-forth-- so that's the hint,
+Dalam hal bolak-balik--
+jadi itulah petunjuknya,
 
 287
 00:15:43,490 --> 00:15:47,980
-going back and forth-- and
-being able to securely exchange
+bolak-balik-- dan
+dapat bertukar dengan aman
 
 288
 00:15:47,980 --> 00:15:51,660
-a message, which could be a
-128-bit secret key written
+sebuah pesan, yang bisa berupa
+kunci rahasia 128-bit tertulis
 
 289
 00:15:51,660 --> 00:15:55,060
-on a little note
-between Alice and Bob.
+pada catatan kecil
+antara Alice dan Bob.
 
 290
 00:15:55,060 --> 00:15:55,560
-Yeah?
+Ya?
 
 291
 00:15:55,560 --> 00:15:56,578
-Back there.
+Di belakang sana.
 
 292
 00:15:56,578 --> 00:16:00,780
-AUDIENCE: Are they allowed
-to pass locks such that--
+PENONTON: Apakah mereka diizinkan
+untuk membuka kunci seperti itu--
 
 293
 00:16:00,780 --> 00:16:02,530
