@@ -1062,36 +1062,36 @@ kepada S terlebih dahulu.
 
 223
 00:10:22,230 --> 00:10:23,902
-Does this all make sense?
+Apakah ini semua masuk akal?
 
 224
 00:10:23,902 --> 00:10:27,270
-This is the sort
-of high level plan.
+Ini adalah seperti 
+rencana tingkat tinggi.
 
 225
 00:10:27,270 --> 00:10:30,335
-So why do these guys
-have two interfaces?
+Jadi mengapa mereka 
+memiliki dua antarmuka?
 
 226
 00:10:32,967 --> 00:10:34,550
-Well, I guess I
-wanted to actually ask
+Sebenarnya, saya
+ingin menanyakan
 
 227
 00:10:34,550 --> 00:10:35,425
-a bunch of questions.
+banyak pertanyaan.
 
 228
 00:10:35,425 --> 00:10:38,080
-Like, in the case of a
-service, this service
+Seperti, dalam kasus
+layanan, layanan ini
 
 229
 00:10:38,080 --> 00:10:39,770
-is probably going to
-be stored on disk.
+kemungkinan akan disimpan 
+di dalam disk.
 
 230
 00:10:39,770 --> 00:10:42,330
