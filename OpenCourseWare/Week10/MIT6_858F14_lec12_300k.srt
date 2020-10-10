@@ -1299,42 +1299,42 @@ in the initial syn packet.
 
 274
 00:11:00,680 --> 00:11:02,370
-Then when the server
-receives this,
+Lalu saat server 
+menerimanya,
 
 275
 00:11:02,370 --> 00:11:04,167
-the server is going
-to look and say,
+server tersebut akan
+melihat dan berkata,
 
 276
 00:11:04,167 --> 00:11:05,750
-well, a client wants
-to connect to me,
+Ada client yang
+ingin terhubung kepada saya,
 
 277
 00:11:05,750 --> 00:11:07,459
-so I'll send a packet
-back to whatever
+Jadi saya akan mengirim
+balik paket ini ke
 
 278
 00:11:07,459 --> 00:11:09,000
-this address is,
-whoever said they're
+apa pun alamatnya,
+siapapun yang mengatakan mereka
 
 279
 00:11:09,000 --> 00:11:10,060
-trying to connect to me.
+yang mencoba untuk terhubung kepada saya.
 
 280
 00:11:10,060 --> 00:11:13,740
-So it'll send a packet from
-the server to the client
+Jadi paket akan dikirim dari
+server ke client
 
 281
 00:11:13,740 --> 00:11:17,170
-and include its own
-synchronization number, SN
+termasuk nomor singkronisasi
+paket tersebut, SN
 
 282
 00:11:17,170 --> 00:11:18,080
@@ -1342,72 +1342,72 @@ server.
 
 283
 00:11:18,080 --> 00:11:19,910
-And it'll acknowledge
-the client's number.
+dan paket akan mengetahui
+nomor client.
 
 284
 00:11:23,750 --> 00:11:28,040
-And finally, the
-client replies back,
+dan akhirnya,
+client membalasnya,
 
 285
 00:11:28,040 --> 00:11:30,260
-acknowledging the
-server synchronization
+menyatakan nomor
+singkronisasi server
 
 286
 00:11:30,260 --> 00:11:37,070
-number-- acknowledge SNS.
+-- atau yang disebut SNS.
 
 287
 00:11:37,070 --> 00:11:40,110
-And now the client can
-actually start sending data.
+dan sekarang client dapat
+memulai mengirimkan data.
 
 288
 00:11:40,110 --> 00:11:42,290
-So in order to send
-data, the client
+Jadi untuk mengirim
+data, client
 
 289
 00:11:42,290 --> 00:11:46,770
-has to include some
-data in the packet,
+harus memasukan beberapa
+data di dalam paket,
 
 290
 00:11:46,770 --> 00:11:51,780
-and also put in the sequence
-number of the client
+dan juga memasukan nomor
+urut client
 
 291
 00:11:51,780 --> 00:11:53,275
-to indicate that
-this is actually
+untuk mengindikasikan bahwa
+bahwa sebenarnya ini adalah
 
 292
 00:11:53,275 --> 00:11:55,858
-sort of legitimate client data
-at the start of the connection.
+data client yang sah atau asli
+saat pertama kali terhubung.
 
 293
 00:11:55,858 --> 00:11:57,650
-It's not some data
-from later on,
+Data tersebut bukan data
+dari yang selanjutnya
 
 294
 00:11:57,650 --> 00:12:00,168
-for example, that just
-happens to arrive now
+Contoh, sebuah data baru
+saja sampai
 
 295
 00:12:00,168 --> 00:12:02,542
-because the server missed some
-initial parts of the data.
+karena server kehilangan
+bagian awal dari data.
 
 296
 00:12:02,542 --> 00:12:04,735
-So generally, all
-these sequence numbers
+Jadi umumnya, semua
+nomor urut ini
 
 297
 00:12:04,735 --> 00:12:08,240
