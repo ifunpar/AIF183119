@@ -1130,129 +1130,129 @@ Jadi yang bisa Anda lakukan adalah Anda dapat--
 246
 00:11:40,600 --> 00:11:43,690
 ini sebelumnya, benar,
-where I said, OK, yeah,
+saat saya berkata, OK, yeah,
 
 247
 00:11:43,690 --> 00:11:48,700
-but this is basically how to
-do a 32 byte private key where
+tapi pada dasarnya adalah cara
+melakukan kunci privat 32 byte dimana
 
 248
 00:11:48,700 --> 00:11:51,040
-your private key is
-actually quite small,
+kunci privat Anda adalah
+sebenarnya cukup kecil,
 
 249
 00:11:51,040 --> 00:11:55,330
-and you just derive
-all of the public keys
+dan Anda hanya mendapatkan
+semua kunci publik
 
 250
 00:11:55,330 --> 00:11:59,110
-by adding numbers at the
-end, concatenating them
+dengan menambahkan angka di
+akhir, menggabungkannya
 
 251
 00:11:59,110 --> 00:11:59,990
-into your hash.
+menjadi hash Anda.
 
 252
 00:11:59,990 --> 00:12:01,240
-And now you're like, OK, cool.
+Dan sekarang Anda seperti, OK, keren.
 
 253
 00:12:01,240 --> 00:12:04,420
-I have a 32 byte
-private key, and I
+Saya mempunyai 32 byte
+kunci privat, dan Saya
 
 254
 00:12:04,420 --> 00:12:06,640
-can make enormous
-public keys from them,
+dapat membuat sangat besar
+kunci publik yang dari mereka,
 
 255
 00:12:06,640 --> 00:12:08,260
-and it's still secure, right?
+dan itu masih aman, bukan?
 
 256
 00:12:08,260 --> 00:12:11,410
-Because I can add whatever
-number I want here.
+Karena Saya dapat menambahkan apapun
+nomor yang Saya inginkan disini.
 
 257
 00:12:11,410 --> 00:12:13,488
-And I can do this
-a million times,
+Dan Saya bisa melakukan ini
+jutaan kali,
 
 258
 00:12:13,488 --> 00:12:16,030
-and no one will be able to find
-the preimage, even though I'm
+dan tidak ada yang bisa menemukan
+preimage, meskipun Saya
 
 259
 00:12:16,030 --> 00:12:18,580
-giving you all these
-related hashes, right?
+memberi Anda semua ini
+terkait hash, bukan?
 
 260
 00:12:18,580 --> 00:12:21,900
-It's x comma 0, x comma
-1, x comma a million.
+Ini x koma 0, x koma
+1, x koma satu juta.
 
 261
 00:12:21,900 --> 00:12:23,340
-I can give you millions of them.
+Saya bisa memberi Anda jutaan dari mereka.
 
 262
 00:12:23,340 --> 00:12:25,390
-And each time I do it,
-it doesn't give you
+Dan setiap kali Saya melakukannya,
+itu tidak memberi Anda
 
 263
 00:12:25,390 --> 00:12:27,880
-any insight into how
-to find what x is--
+wawasan tentang bagaimana
+menemukan apa x itu--
 
 264
 00:12:27,880 --> 00:12:29,597
-if it's a good hash function.
+jika itu adalah fungsi hash yang baik.
 
 265
 00:12:29,597 --> 00:12:30,680
-So that's really powerful.
+Jadi itu sangat kuat.
 
 266
 00:12:30,680 --> 00:12:33,520
-And now I can say, OK, the
-private key problem is solved.
+Dan sekarang Saya bisa katakan, OK,
+masalah kunci privat sudah terpecahkan.
 
 267
 00:12:33,520 --> 00:12:37,420
-I have 0 of 1 growth
-in my private key.
+Saya memiliki 0 dari 1 pertumbuhan
+di kunci pribadi Saya
 
 268
 00:12:37,420 --> 00:12:39,670
-I can make as many public
-keys as I want, never
+Saya dapat membuat publik sebanyak
+kunci yang Saya inginkan, tidak pernah
 
 269
 00:12:39,670 --> 00:12:40,570
-gets any bigger.
+bertambah besar.
 
 270
 00:12:40,570 --> 00:12:42,112
-Cool.
+Keren.
 
 271
 00:12:42,112 --> 00:12:44,320
-Still have this problem with
-the public keys, though.
+Namun masih ada masalah dengan
+kunci publik ini.
 
 272
 00:12:44,320 --> 00:12:46,820
-Let's say I want
-to sign four times.
+Katakanlah Saya ingin
+menandatangani empat kali.
 
 273
 00:12:46,820 --> 00:12:47,320
@@ -1260,16 +1260,16 @@ OK.
 
 274
 00:12:47,320 --> 00:12:50,957
-Well, I make a 64
-kilobyte pubkey.
+Baik, Saya akan membuat 64
+kilobyte kunci public.
 
 275
 00:12:54,640 --> 00:12:56,270
-Now I can sign four times.
+Sekarang Saya bisa menandatangani empat kali.
 
 276
 00:12:56,270 --> 00:12:56,770
-Great.
+Bagus.
 
 277
 00:12:56,770 --> 00:13:00,820
