@@ -1503,52 +1503,52 @@ Alice wants to pay Bob.
 
 320
 00:13:12,340 --> 00:13:15,250
-Let's say that Alice and
-Bob have gotten together.
+Katakanlah jika Alice dan
+Bob sudah berkumpul.
 
 321
 00:13:15,250 --> 00:13:17,560
-Maybe they're in the
-same coffee shop.
+Mungkin mereka berada di
+kedai kopi yang sama.
 
 322
 00:13:17,560 --> 00:13:20,260
-And Alice wants to buy
-a sandwich from Bob.
+Dan Alice ingin membeli
+sebuah sandwich dari Bob.
 
 323
 00:13:20,260 --> 00:13:23,680
-And Bob says, OK, you
-need to pay me $1.00.
+Dan Bob mengatakan, OK, Anda
+perlu membayar kepada saya $1.00.
 
 324
 00:13:23,680 --> 00:13:26,690
-If you give me $1.00, then
-I'll give you the sandwich.
+Jika Anda memberi saya $1.00, maka
+saya akan memberi Anda sebuah sandwich.
 
 325
 00:13:26,690 --> 00:13:28,460
-So how can Alice do this?
+Jadi bagaimana Alice bisa melakukan ini?
 
 326
 00:13:28,460 --> 00:13:31,130
-How can she transfer
-$1.00 to Bob?
+Bagaimana dia bisa menyerahkan
+$1.00 kepada Bob?
 
 327
 00:13:31,130 --> 00:13:34,220
-Well, if she had a paper
-dollar, she could just do that.
+Yah, jika dia memiliki selembar
+dollar, dia bisa melakukannya.
 
 328
 00:13:34,220 --> 00:13:37,970
-But let's say that she
-doesn't have a paper dollar.
+Tapi katakanlah bahwa dia
+tidak memiliki selembar dollar.
 
 329
 00:13:37,970 --> 00:13:43,100
-So Alice can ask the bank to
-make this transfer for her--or
+Jadi Alice bisa meminta bank untuk
+melakukan penyerahan ini untuknya--atau
 
 330
 00:13:43,100 --> 00:13:44,450
