@@ -1648,7 +1648,7 @@ memungkinkan kita untuk melakukan hal ini dengan aman.
 349
 00:14:08,200 --> 00:14:11,127
 Dan sebelumnya, untuk menjalankan beberapa 
-game asli di komputer Anda,
+permainan di komputer Anda,
 
 350
 00:14:11,127 --> 00:14:13,710
