@@ -1817,26 +1817,26 @@ monoton dari waktu ke waktu secara kasar,
 
 382
 00:15:55,210 --> 00:15:56,900
-bahkan secara lintas koneksi.
+even across connections.
 
 383
 00:15:56,900 --> 00:15:58,580
-Jika saya membuka satu
-koneksi, mungkin koneksi itu
+If I opened one
+connection, it might
 
 384
 00:15:58,580 --> 00:16:01,060
-akan memiliki kesamaan pada sumber dan
-destinasi, nomor port,
+have the same source and
+destination, port numbers,
 
 385
 00:16:01,060 --> 00:16:02,610
-Alamat IP, dan lain-lain.
+IP addresses, et cetera.
 
 386
 00:16:02,610 --> 00:16:04,920
-Tetapi karena saya menetapkan
-koneksi ini sekarang sebagai gantinya
+But because I established
+this connection now instead
 
 387
 00:16:04,920 --> 00:16:07,640
