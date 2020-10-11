@@ -1419,7 +1419,7 @@ Tidak-- ini adalah teka-teki yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
-Benarkah?
+Ya?
 
 301
 00:16:26,246 --> 00:16:29,107
@@ -1531,9 +1531,11 @@ SRINIVAS DEVADAS: itu milik dia.
 325
 00:17:18,690 --> 00:17:19,380
 Penonton: Ia bisa membuka kucinya.
+
 326
 00:17:19,380 --> 00:17:21,046
-SRINIVAS DEVADAS: Ia bisa membuka kuncinya
+SRINIVAS DEVADAS: Ia 
+bisa membuka kuncinya
 
 327
 00:17:21,046 --> 00:17:23,540
@@ -1577,7 +1579,7 @@ Jadi itu akan memberi anda Frisbee,
 
 336
 00:17:45,110 --> 00:17:46,930
-Whoops, maaf.
+Ups, maaf.
 
 337
 00:17:46,930 --> 00:17:48,710
@@ -1585,7 +1587,7 @@ Kami membutuhkan pertukaran yang aman di sana.
  
 338
 00:17:48,710 --> 00:17:50,730
-Yeah, itu baik.
+Ya, itu baik.
 
 339
 00:17:50,730 --> 00:17:54,250
@@ -1598,7 +1600,8 @@ kotak kunci dengan KA,
 
 341
 00:18:05,610 --> 00:18:09,980
-Dan itu lah kunci untuk membukanya, dan mengirim ke bob.
+Dan itu lah kunci untuk 
+membukanya, dan mengirim ke bob.
 
 342
 00:18:09,980 --> 00:18:18,320
