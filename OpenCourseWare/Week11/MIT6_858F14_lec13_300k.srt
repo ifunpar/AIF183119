@@ -1152,33 +1152,33 @@ jadi itu sebenarnya
 
 242
 00:11:03,405 --> 00:11:05,930
-have this sort of cute plan
-where the KC is actually
+semacam rencana lucu
+dimana KC sebenarnya
 
 243
 00:11:05,930 --> 00:11:09,100
-going to be derived by
-hashing the user's password
+akan diperoleh dengan
+melakukan hash pada kata sandi pengguna
 
 244
 00:11:09,100 --> 00:11:11,320
-or really some sort of
-key duration function.
+atau semacam
+fungsi key duration
 
 245
 00:11:11,320 --> 00:11:14,444
-And there's several different
-ones of perverse uses.
+dan terdapat beberapa 
+kegunaan yang berbeda.
 
 246
 00:11:14,444 --> 00:11:16,360
-But you're basically
-going to take a password,
+Namun, pada dasarnya Anda
+akan mengambil sebuah kata sandi,
 
 247
 00:11:16,360 --> 00:11:20,676
-transform it in some
-way, and get this key KC.
+mengubahnya menggunakan cara
+tertentu, dan mendapatkan KC nya.
 
 248
 00:11:20,676 --> 00:11:25,180
