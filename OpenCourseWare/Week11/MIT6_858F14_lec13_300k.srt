@@ -1123,32 +1123,32 @@ Dan itu benar sekali.
 
 236
 00:10:53,860 --> 00:10:55,420
-It's sits on this
-giant database.
+itu duduk di
+data base raksasa.
 
 237
 00:10:55,420 --> 00:10:57,280
-But it also has to
-be known to the user
+tetapi itu juga harus 
+di ketahui pengguna
 
 238
 00:10:57,280 --> 00:10:59,610
-because the user has to
-prove that they are the user.
+karena pengguna harus
+membuktikan bahwa mereka adalah penggunanya
 
 239
 00:10:59,610 --> 00:11:00,326
-Yeah.
+Ya.
 
 240
 00:11:00,326 --> 00:11:02,030
-STUDENT: Is that a one way
-function and then the password?
+SISWA : apakah itu salah satu cara
+fungsi dan kata sandi
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Yeah,
-so they actually
+PROFESSOR: Ya,
+jadi itu sebenarnya
 
 242
 00:11:03,405 --> 00:11:05,930
