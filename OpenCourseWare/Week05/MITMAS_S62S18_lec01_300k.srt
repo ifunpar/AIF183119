@@ -1292,7 +1292,7 @@ itu karena kita pikir ada nilai.
 
 275
 00:11:30,760 --> 00:11:34,040
-Jadi sebenarnya apa yang membuat 
+Jadi sebenarnya apa yang membuat
 sebuah token dari sananya berharga?
 
 276
@@ -1307,17 +1307,17 @@ yang bisa masuk kesitu.
 
 278
 00:11:38,230 --> 00:11:43,660
-Mungkin kita pikir itu berharga 
+Mungkin kita pikir itu berharga
 karena itu sangat langka.
 
 279
 00:11:43,660 --> 00:11:47,260
-Atau mungkin kita pikir 
+Atau mungkin kita pikir
 itu berharga karena ada orang
 
 280
 00:11:47,260 --> 00:11:49,240
-yang bilang kepada mu 
+yang bilang kepada mu
 kalau itu bisa dipakai untuk membayar
 
 281
@@ -1326,7 +1326,7 @@ untuk ruang, seperti dengan Dropbox.
 
 282
 00:11:51,130 --> 00:11:53,890
-Atau mungkin kita pikir itu berharga 
+Atau mungkin kita pikir itu berharga
 untuk alasan yang sangat
 
 283
@@ -1350,7 +1350,7 @@ Representasi dijital ini
 
 287
 00:12:00,880 --> 00:12:03,500
-menjadi berharga karena kita 
+menjadi berharga karena kita
 menganggap mereka berharga
 
 288
@@ -1377,12 +1377,12 @@ jumlah yang terbatas.
 
 293
 00:12:09,630 --> 00:12:11,038
-NEHA NARULA: Jadi, 
+NEHA NARULA: Jadi,
 pendapat saya
 
 294
 00:12:11,038 --> 00:12:12,580
-adalah bahwa fakta yang 
+adalah bahwa fakta yang
 menunjukkan bahwa mereka terbatas
 
 295
@@ -1443,63 +1443,63 @@ called a bank.
 
 307
 00:12:42,070 --> 00:12:45,340
-You have Alice and you
-have Bob, and Alice and Bob
+Kamu memiliki Alice dan kamu
+memiliki Bob, dan Alice dan Bob
 
 308
 00:12:45,340 --> 00:12:47,800
-have accounts at this bank.
+memiliki rekening di bank ini.
 
 309
 00:12:47,800 --> 00:12:51,840
-And so the bank is keeping
-track of who owns what.
+Dan bank terus melacak siapa
+yang memiliki apa.
 
 310
 00:12:51,840 --> 00:12:53,228
-And these are these are records.
+Dan ini adalah catatan.
 
 311
 00:12:53,228 --> 00:12:54,520
-These might be digital records.
+Ini mungkin menjadi rekaman digital.
 
 312
 00:12:54,520 --> 00:12:57,190
-They might be paper
-records, whatever
+Mungkin catatan kertas, apa pun
 
 313
 00:12:57,190 --> 00:12:59,440
-the bank is using
-to keep track of who
+yang digunakan bank untuk melacak
+siapa
 
 314
 00:12:59,440 --> 00:13:00,778
-has what in their account.
+siapa yang memiliki apa di akun
+mereka.
 
 315
 00:13:00,778 --> 00:13:03,070
-And so the way that I've set
-up this example right now,
+Dan cara yang telah aku tetapkan
+atas contoh ini sekarang,
 
 316
 00:13:03,070 --> 00:13:04,990
-Alice and Bob both
-have bank accounts.
+Alice dan Bob keduanya
+memiliki rekening bank.
 
 317
 00:13:04,990 --> 00:13:07,810
-Alice has $10.00 with the bank
-and Bob does not have any money
+Alice memiliki $10,00 di bank
+dan Bob tidak punya uang
 
 318
 00:13:07,810 --> 00:13:09,850
-with the bank.
+di bank.
 
 319
 00:13:09,850 --> 00:13:12,340
-So let's say that
-Alice wants to pay Bob.
+Jadi katakanlah bahwa
+Alice ingin membayar Bob.
 
 320
 00:13:12,340 --> 00:13:15,250
