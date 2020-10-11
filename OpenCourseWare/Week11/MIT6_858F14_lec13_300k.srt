@@ -1095,31 +1095,31 @@ di dalam disk.
 
 230
 00:10:39,770 --> 00:10:42,330
-What's going on with
-this KC on the user side?
+Apa yang terjadi dengan
+KC ini di sisi pengguna?
 
 231
 00:10:42,330 --> 00:10:46,240
-Where does KC come
-from in Kerberos?
+Dari mana KC datang
+dari dalam Kerberos?
 
 232
 00:10:46,240 --> 00:10:47,574
-Yeah.
+Ya.
 
 233
 00:10:47,574 --> 00:10:50,740
-STUDENT: KDMS
-[INAUDIBLE] the database.
+SISWA: KDMS
+[TIDAK TERDENGAR] database.
 
 234
 00:10:50,740 --> 00:10:52,736
-PROFESSOR: Yeah, well,
-the key C sits here.
+PROFESOR: Ya, baiklah,
+kunci C ada di sini.
 
 235
 00:10:52,736 --> 00:10:53,860
-And that's absolutely true.
+Dan itu benar sekali.
 
 236
 00:10:53,860 --> 00:10:55,420
