@@ -1467,7 +1467,7 @@ Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-Penonton: Kemudian
+PENONTON: Kemudian
 jika Bob mengirim--
 
 312
@@ -1477,7 +1477,7 @@ sekarang ada 2 gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-Penonton: Ya.
+PENONTON: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
@@ -1496,7 +1496,7 @@ untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-Penonton: Mengirimkan kembali kepada Alice.
+PENONTON: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
@@ -1522,7 +1522,7 @@ Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-Penonton: Dia(Alice).
+PENONTON: Dia(Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
