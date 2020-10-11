@@ -1734,86 +1734,86 @@ unit, ditambah 250,000, per detik.
 
 365
 00:15:12,350 --> 00:15:14,920
-And the reason that it
-wasn't entirely random
+dan alasan mengapa sebelumnya tidak
+sepenuhnya dibuat acak
 
 366
 00:15:14,920 --> 00:15:17,060
-is that these sequence
-numbers are actually
+karena nomor
+urut ini sebenarnya
 
 367
 00:15:17,060 --> 00:15:20,690
-used to prevent out of
-order packets, or packets
+digunakan untuk mencegah salahnya
+penempatan paket, atau paket
 
 368
 00:15:20,690 --> 00:15:22,534
-from previous connections,
-from interfering
+dari koneksi sebelumnya,
+dari mengganggu
 
 369
 00:15:22,534 --> 00:15:23,917
-with new connections.
+koneksi baru.
 
 370
 00:15:23,917 --> 00:15:26,870
-So if every time you
-established a new connection
+jadi jika setiap waktu anda
+memampakan sebuah koneksi baru
 
 371
 00:15:26,870 --> 00:15:29,740
-you chose a completely
-random sequence number,
+anda memilih
+nomor urut secara acak,
 
 372
 00:15:29,740 --> 00:15:32,590
-then there's some chance if you
-establish lots of connections
+setelah itu ada kemungkinan jika anda
+memampakan banyak koneksi
 
 373
 00:15:32,590 --> 00:15:35,510
-over and over that some packet
-from a previous connection
+berulang-ulang beberapa paket
+dari koneksi sebelumnya
 
 374
 00:15:35,510 --> 00:15:37,290
-is going to have a
-similar enough sequence
+akan mendapatkan
+urutan nomor yang cukup mirip
 
 375
 00:15:37,290 --> 00:15:38,790
-number to your new
-connection and is
+dengan koneksi baru
+anda dan akan
 
 376
 00:15:38,790 --> 00:15:41,490
-going to be accepted as
-a valid piece of data
+dapat diterima sebagai
+potongan data yang valid
 
 377
 00:15:41,490 --> 00:15:42,602
-on that new connection.
+pada koneksi baru tersebut.
 
 378
 00:15:42,602 --> 00:15:45,000
-So this is something that the
-TCP designers worried a lot
+Jadi ini adalah sesuatu yang
+sangat dikhawatirkan oleh para perancang TCP 
 
 379
 00:15:45,000 --> 00:15:48,916
-about-- these out of order
-packets or delayed packets.
+tentang-- yakni paket-paket rusak
+atau yang tertunda.
 
 380
 00:15:48,916 --> 00:15:51,290
-So as a result, they really
-wanted these sequence numbers
+Jadi sebagai hasilnya, mereka benar-benar
+menginginkan nomor urut ini
 
 381
 00:15:51,290 --> 00:15:55,210
-to progress in a roughly
-monotonic matter over time,
+untuk berkembang secara 
+monoton dari waktu ke waktu secara kasar,
 
 382
 00:15:55,210 --> 00:15:56,900
