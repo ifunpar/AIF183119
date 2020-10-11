@@ -1387,16 +1387,16 @@ menunjukkan bahwa mereka terbatas
 
 295
 00:12:12,580 --> 00:12:14,590
-is something that goes
-into our perception that
+adalah sesuatu yang
+masuk ke dalam persepsi kita
 
 296
 00:12:14,590 --> 00:12:15,340
-makes it valuable.
+membuatnya berharga.
 
 297
 00:12:18,100 --> 00:12:18,610
-Great.
+Bagus.
 
 298
 00:12:18,610 --> 00:12:19,120
@@ -1404,42 +1404,42 @@ OK.
 
 299
 00:12:19,120 --> 00:12:22,630
-So now that we've learned
-a little bit about money,
+Jadi kita sudah belajar
+sedikit tentang uang,
 
 300
 00:12:22,630 --> 00:12:24,820
-talked a little
-bit about money, I
+berbicara sedikit
+tentang uang, Saya
 
 301
 00:12:24,820 --> 00:12:28,665
-want to go into how payments
-work because ultimately, we're
+ingin membahas bagaimana cara
+kerja pembayaran karena pada akhirnya, kita
 
 302
 00:12:28,665 --> 00:12:30,040
-going to get to
-cryptocurrencies.
+akan pergi ke
+cryptocurrency
 
 303
 00:12:30,040 --> 00:12:34,090
-And cryptocurrencies
-are electronic cash.
+Dan cryptocurrency
+adalah uang tunai elektronik.
 
 304
 00:12:34,090 --> 00:12:38,420
-So here's the way that digital
-payments kind of work right
+Jadi inilah cara pembayaran
+digital bekerja dengan benar
 
 305
 00:12:38,420 --> 00:12:38,920
-now.
+sekarang.
 
 306
 00:12:38,920 --> 00:12:42,070
-You have an institution
-called a bank.
+Anda memiliki institusi
+yang disebut bank.
 
 307
 00:12:42,070 --> 00:12:45,340
