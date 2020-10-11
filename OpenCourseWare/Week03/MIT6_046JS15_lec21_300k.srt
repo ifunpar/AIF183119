@@ -1563,554 +1563,554 @@ Jadi hal ini mengatakan apa?
 334
 00:18:01,580 --> 00:18:04,400
 Hal ini mengatakan bahwa saya ingin
-create a hash function such
+membuat sebuah fungsi hash sehingga
 
 335
 00:18:04,400 --> 00:18:08,030
-that if I give you
-a specific-- we call
+jika saya memberikan Anda 
+sebuah spesifikasi-- kita menyebutnya
 
 336
 00:18:08,030 --> 00:18:12,870
-it a 160-bit string, because
-we're talking SHA-1 here,
+string 160-bit, karena
+kita berbicara mengenai SHA-1 disini,
 
 337
 00:18:12,870 --> 00:18:16,792
-and that's the hash--
-I'm going to have,
+dan itu adalah hashnya--
+yang akan saya miliki,
 
 338
 00:18:16,792 --> 00:18:18,250
-it's going to have
-to be impossible
+ini akan menjadi
+tidak mungkin
 
 339
 00:18:18,250 --> 00:18:25,430
-for me to discover an x that
-produced that 160-bit string,
+untuk saya menemukan sebuah x yang
+memproduksi string 160-bit tersebut,
 
 340
 00:18:25,430 --> 00:18:26,390
-OK?
+OK? 
 
 341
 00:18:26,390 --> 00:18:29,100
-Now if you go look
-at our random oracle,
+Sekarang jika Anda melihat
+pada pembangkit nilai acak kita,
 
 342
 00:18:29,100 --> 00:18:32,750
-you realize that if you
-had a 160-bit string,
+Anda menyadari jika Anda
+mempunyai sebuah string 160-bit,
 
 343
 00:18:32,750 --> 00:18:36,970
-and perhaps you
-have the entire book
+dan mungkin Anda
+mempunyai seluruh buku
 
 344
 00:18:36,970 --> 00:18:39,290
-and you can read
-the entire book.
+dan Anda bisa membaca
+seluruh buku tersebut.
 
 345
 00:18:39,290 --> 00:18:41,940
-It's an infinite capacity book.
+Itu adalah buku dengan kapasitas tidak terbatas.
 
 346
 00:18:41,940 --> 00:18:44,750
-It's got a bunch of stuff in it.
+Buku itu mempunyai banyak hal di dalamnya.
 
 347
 00:18:44,750 --> 00:18:49,800
-And know that any time anyone
-queried the book the first time
+Dan ketahuilah bahwa setiap kali siapapun
+bertanya ke buku untuk pertama kali
 
 348
 00:18:49,800 --> 00:18:53,580
-for a given x, that there was
-this random 160-bit number that
+untuk sebuah x tertentu, ada
+angka 160-bit acak yang
 
 349
 00:18:53,580 --> 00:18:55,700
-was generated and
-put into the book.
+dihasilkan dan
+ditaruh ke dalam buku tersebut.
 
 350
 00:18:55,700 --> 00:18:58,100
-And there's a whole lot
-of these numbers, right?
+Dan ada banyak sekali
+angka tersebut, benar?
 
 351
 00:18:58,100 --> 00:18:59,954
-So what's going to
-happen is, you're
+Jadi hal yang akan
+terjadi adalah, Anda
 
 352
 00:18:59,954 --> 00:19:01,870
-going to have to look
-through the entire book,
+harus memeriksa 
+keseluruhan buku,
 
 353
 00:19:01,870 --> 00:19:04,710
-this entire potentially
-infinite capacity book,
+keseluruhan buku yang berpotensi
+berkapasitas tidak terbatas ini,
 
 354
 00:19:04,710 --> 00:19:13,500
-in order to figure out if this
-particular y is in the book
+untuk mengetahui apakah
+y tertentu ada di dalam buku
 
 355
 00:19:13,500 --> 00:19:14,660
-or not.
+atau tidak.
 
 356
 00:19:14,660 --> 00:19:18,310
-And that's going to take a long
-time to do, potentially, OK?
+Dan itu akan membutuhkan waktu 
+yang lama, mungkin sekali, OK?
 
 357
 00:19:18,310 --> 00:19:23,290
-So in the case where you
-have a random oracle you'd
+Jadi di suatu kasus di mana Anda
+memiliki sebuah pembangkit nilai acak Anda
 
 358
 00:19:23,290 --> 00:19:27,660
-have to go through and find--
-looking at the output hash
+harus menelusuri dan menemukan--
+memeriksa keluaran hash 
 
 359
 00:19:27,660 --> 00:19:30,502
-corresponding to each of the
-entries in the random oracle,
+yang sesuai dengan tiap
+masukan dalam pembangkit nilai acak,
 
 360
 00:19:30,502 --> 00:19:32,960
-you're going to start matching,
-match, match, match, match,
+Anda akan mulai mencocokkan,
+cocokkan, cocokkan, cocokkan, cocokkan,
 
 361
 00:19:32,960 --> 00:19:35,290
-it's going to take
-you exponential time.
+hal itu akan membutuhkan
+waktu eksponensial.
 
 362
 00:19:35,290 --> 00:19:37,760
-Well actually worse than that,
-given the infinite capacity
+Sebenarnya lebih buruk dari itu,
+mempertimbangkan kapasitas tak terhingga
 
 363
 00:19:37,760 --> 00:19:38,930
-of the book.
+dari buku tersebut.
 
 364
 00:19:38,930 --> 00:19:40,970
-So this clearly gives you that.
+Jadi hal ini dengan jelas memberikan Anda hal itu.
 
 365
 00:19:40,970 --> 00:19:44,070
-Now you may not be a completely
-satisfied with that answer
+Sekarang Anda mungkin tidak sepenuhnya
+puas dengan jawaban itu
 
 366
 00:19:44,070 --> 00:19:46,620
-because you say well,
-you can't implement that.
+karena Anda mengatakan,
+Anda tidak dapat mengimplementasikan hal itu.
 
 367
 00:19:46,620 --> 00:19:48,410
-But we'll talk a
-little bit, as I said,
+Tapi kita akan membahasnya
+sedikit, seperti yang saya katakan,
 
 368
 00:19:48,410 --> 00:19:50,410
-about how you could
-actually get this.
+tentang bagaimana Anda dapat
+memperoleh ini sesungguhnya.
 
 369
 00:19:50,410 --> 00:19:54,510
-But what's-- I should be
-clear-- is that the simple hash
+Tapi apa yang-- saya harus 
+menjelaskan-- adalah hal itu fungsi hash
 
 370
 00:19:54,510 --> 00:19:59,180
-functions that we've looked
-at in the past just to build
+sederhana yang telah kita lihat
+sebelumnya hanya untuk membangun
 
 371
 00:19:59,180 --> 00:20:02,570
-dictionaries do not
-satisfy this, right?
+kamus tidak
+memadai hal ini, benar?
 
 372
 00:20:02,570 --> 00:20:11,860
-So suppose I had h of x
-equals x square mod p.
+Jadi misalkan saya mempunyai h dari x
+sama dengan x kuadrat modulo p.
 
 373
 00:20:11,860 --> 00:20:18,050
-Is this one-way,
-given a public p?
+Apakah ini satu arah,
+mempertimbangkan sebuah p publik?
 
 374
 00:20:18,050 --> 00:20:19,210
-No of course not, right?
+Tidak tentu saja bukan, benar?
 
 375
 00:20:19,210 --> 00:20:22,310
-Because I'm going to be--
-it's going to be easy
+Karena saya akan menjadi--
+hal ini akan menjadi mudah
 
 376
 00:20:22,310 --> 00:20:24,730
-for me to do something.
+bagi saya untuk melakukan sesuatu.
 
 377
 00:20:24,730 --> 00:20:29,320
-Even though this is discrete
-arithmetic I could do something
+Walaupun hal ini adalah aritmatika
+diskret saya dapat melakukan sesuatu
 
 378
 00:20:29,320 --> 00:20:32,670
-like, well, I know that what
-I have here-- actually let's
+seperti, ya, saya tahu bahwa apa yang
+saya punya di sini-- sebenarnya, mari
 
 379
 00:20:32,670 --> 00:20:34,170
-do it with something
-that's simpler,
+kita lakukan dengan sesuatu 
+yang lebih sederhana,
 
 380
 00:20:34,170 --> 00:20:36,580
-and then I'll talk
-about the x squared.
+lalu saya akan membahas
+tentang x kuadrat.
 
 381
 00:20:36,580 --> 00:20:38,650
-If I had something
-as simple as x mod p,
+Jika saya memiliki sesuatu
+se-sederhana x modulo p,
 
 382
 00:20:38,650 --> 00:20:42,100
-I mean that's trivially broken
-in terms of one-wayness.
+maksud saya itu secara sepele rusak
+dipandang dari ke-satu-arah-an.
 
 383
 00:20:42,100 --> 00:20:45,900
-Because I know that h of x could
-be viewed as the remainder.
+Karena saya tahu bahwa h dari x bisa
+dilihat sebagai sisa.
 
 384
 00:20:45,900 --> 00:20:51,870
-So anything-- if this
-is h of x, and let's
+Jadi apapun-- jika ini 
+adalah h dari x, dan mari
 
 385
 00:20:51,870 --> 00:20:54,310
-just call that y for a
-second, because that's
+sebut saja hal itu y 
+sebentar, karena hal itu 
 
 386
 00:20:54,310 --> 00:20:56,280
-what we had it out there.
+apa yang kita punya di sana.
 
 387
 00:20:56,280 --> 00:21:00,340
-Something that's a multiple
-of y plus the remainder-- so I
+Sesuatu yang merupakan kelipatan
+dari y ditambah sisanya-- jadi saya
 
 388
 00:21:00,340 --> 00:21:02,777
-could have a-- is that right?
+bisa memiliki a-- apakah itu benar?
 
 389
 00:21:02,777 --> 00:21:03,610
-Is that what I want?
+Apakah itu yang saya inginkan?
 
 390
 00:21:03,610 --> 00:21:04,109
-Yeah.
+Iya.
 
 391
 00:21:04,109 --> 00:21:05,050
-No, plus y.
+Tidak, tambah y.
 
 392
 00:21:05,050 --> 00:21:13,760
-So I want a of-- well since
-I can't figure it out,
+Jadi saya ingin a dari-- jadi karena
+saya tidak bisa mengetahui hal itu,
 
 393
 00:21:13,760 --> 00:21:16,250
-why can't you?
+kenapa Anda tidak bisa?
 
 394
 00:21:16,250 --> 00:21:17,970
-What do I need to
-put in there in order
+Apa yang harus saya
+taruh di sana agar 
 
 395
 00:21:17,970 --> 00:21:24,170
-to discover an x that
-would produce a y?
+bisa menemukan sebuah x yang
+akan menghasilkan sebuah y?
 
 396
 00:21:24,170 --> 00:21:25,290
-Can I write an equation?
+Apakah saya bisa menulis sebuah persamaan?
 
 397
 00:21:25,290 --> 00:21:26,192
-Yeah?
+Iya?
 
 398
 00:21:26,192 --> 00:21:27,967
-AUDIENCE: Could you
-just write y itself?
+PENONTON: Bisakah Anda
+menulis y-nya saja?
 
 399
 00:21:27,967 --> 00:21:29,300
-SRINIVAS DEVADAS: Just y itself.
+SRINIVAS DEVADAS: Hanya y-nya saja.
 
 400
 00:21:29,300 --> 00:21:29,960
-That's right.
+Itu benar.
 
 401
 00:21:29,960 --> 00:21:30,900
-Good point.
+Poin yang baik.
 
 402
 00:21:30,900 --> 00:21:32,635
-Just y itself in this case.
+Hanya y-nya saja dalam kasus ini.
 
 403
 00:21:32,635 --> 00:21:33,820
-Good.
+Bagus.
 
 404
 00:21:33,820 --> 00:21:35,650
-I knew you guys were
-smarter than me.
+Saya tahu kalian lebih
+pintar dari saya.
 
 405
 00:21:35,650 --> 00:21:38,060
-This proves it.
+Hal ini membuktikannya.
 
 406
 00:21:38,060 --> 00:21:41,500
-So if you just take
-y-- and y remember
+Jadi, jika Anda hanya mengambil
+y-- dan ingat y
 
 407
 00:21:41,500 --> 00:21:46,190
-is going to be something
-that's 0 to p minus 1, right?
+akan menjadi sesuatu
+yang bernilai dari 0 sampai p kurang 1, benar?
 
 408
 00:21:46,190 --> 00:21:47,520
-And that's it.
+Dan begitu saja.
 
 409
 00:21:47,520 --> 00:21:49,170
-It just goes through, right?
+Hal itu hanya akan berlalu saja, benar?
 
 410
 00:21:49,170 --> 00:21:51,150
-So that's a trivial
-example, right?
+Jadi itu adalah contoh yang
+sepele, benar?
 
 411
 00:21:51,150 --> 00:21:55,780
-Now if I put x squared in
-here, obviously it's not y,
+Sekarang jika saya memasukkan x kuadrat
+di sini, jelas ini bukan y,
 
 412
 00:21:55,780 --> 00:22:03,050
-but I could start looking
-at-- what I have here is
+tetapi saya bisa mulai 
+melihat-- hal yang saya miliki di sini
 
 413
 00:22:03,050 --> 00:22:05,280
-I'm going to get y that
-looks like x squared.
+saya akan mendapatkan y yang
+terlihat seperti x kuadrat.
 
 414
 00:22:05,280 --> 00:22:07,220
-But I could take
-the y that I have,
+Tapi saya bisa mengambil
+y yang saya miliki,
 
 415
 00:22:07,220 --> 00:22:09,240
-take the square root
-of that, and then start
+mengambil akar kuadrat
+dari y tersebut, lalu mulai
 
 416
 00:22:09,240 --> 00:22:13,570
-looking for x's that give
-me the y that I have.
+mencari nilai-nilai x yang memberikan
+saya y yang saya miliki.
 
 417
 00:22:13,570 --> 00:22:18,020
-Actually it's not a complicated
-process to try and figure out,
+Sebenarnya ini bukan proses 
+yang rumit untuk dicoba dan dipelajari,
 
 418
 00:22:18,020 --> 00:22:20,230
-through trial and
-error potentially,
+melalui percobaan dan
+potensi kesalahan,
 
 419
 00:22:20,230 --> 00:22:23,250
-what an x is that
-produces a particular y
+apa x itu adalah hal yang
+menghasilkan sebuah y tertentu
 
 420
 00:22:23,250 --> 00:22:25,360
-for the kinds of hash
-functions that we've
+untuk jenis-jenis fungsi
+hash yang telah kita
 
 421
 00:22:25,360 --> 00:22:26,900
-looked at, all right?
+lihat, OK?
 
 422
 00:22:26,900 --> 00:22:32,050
-Now as you complicate this
-equation it gets harder.
+Sekarang seiring Anda memperumit
+persamaan ini, persamaan ini semakin sulit.
 
 423
 00:22:32,050 --> 00:22:34,626
-Because you have to invert
-this set of equations.
+Karena Anda harus membalikkan
+kumpulan persamaan ini.
 
 424
 00:22:34,626 --> 00:22:36,000
-And that's what
-the game is going
+Dan hal itulah yang
+akan menjadi permainan
 
 425
 00:22:36,000 --> 00:22:38,620
-to be when you go create
-one-way hash functions.
+pada saat Anda membuat
+fungsi hash satu arah.
 
 426
 00:22:38,620 --> 00:22:41,520
-The amount of computation
-that you do in order
+Jumlah komputasi
+yang Anda lakukan untuk
 
 427
 00:22:41,520 --> 00:22:44,770
-to compute the y is going
-to increase to the point
+menghitung nilai y yang
+akan meningkat sampai ke titik
 
 428
 00:22:44,770 --> 00:22:47,770
-where, as I mentioned, you have
-80, 100 rounds of computation,
+di mana, seperti yang saya katakan, Anda mempunyai
+80, 100 ronde komputasi,
 
 429
 00:22:47,770 --> 00:22:49,400
-things getting mixed in.
+hal-hal mulai bercampur aduk.
 
 430
 00:22:49,400 --> 00:22:53,210
-And the hope is that you create
-this circuit, if you will,
+Dan harapannya adalah Anda menciptakan
+sirkuit ini, jika Anda bersedia,
 
 431
 00:22:53,210 --> 00:22:54,970
-that has all this
-computation in that.
+yang memiliki semua
+komputasi ini di dalamnya.
 
 432
 00:22:54,970 --> 00:22:57,170
-Going forwards is
-easy, because you've
+Maju ke depan
+itu mudah, karena Anda telah
 
 433
 00:22:57,170 --> 00:22:59,350
-specified the
-multiplications and the mods
+menspesifikasikan
+perkalian-perkaliannya dan modulo-modulonya
 
 434
 00:22:59,350 --> 00:23:00,700
-and so on and so forth.
+dan sebagainya.
 
 435
 00:23:00,700 --> 00:23:04,830
-But not all of these operations
-have simple inverses.
+Tapi tidak semua operasi-operasi ini
+memiliki invers-invers sederhana.
 
 436
 00:23:04,830 --> 00:23:07,790
-And going backwards,
-which is what
+Dan mundur kembali,
+yang merupakan hal apa yang
 
 437
 00:23:07,790 --> 00:23:11,010
-you need to do in order
-to break one-wayness,
+harus Anda lakukan untuk
+mematahkan ke-satu-arah-an,
 
 438
 00:23:11,010 --> 00:23:14,890
-or discover the x
-given a y, is going
+atau menemukan x
+dari suatu y, akan
 
 439
 00:23:14,890 --> 00:23:17,100
-to be harder and harder
-as the computations get
+menjadi semakin sulit
+seiring dengan komputasi-komputasi yang
 
 440
 00:23:17,100 --> 00:23:18,890
-more complex, OK?
+semakin rumit, OK?
 
 441
 00:23:18,890 --> 00:23:20,905
-So everyone have a sense
-of what one-wayness is?
+Jadi semua orang memiliki gambaran
+tentang apa itu ke-satu-arah-an?
 
 442
 00:23:24,810 --> 00:23:26,990
-So that's one-wayness.
+Jadi itulah ke-satu-arah-an.
 
 443
 00:23:26,990 --> 00:23:30,930
-There's four other properties,
-two of which are very related.
+Ada empat properti-properti lain,
+dua dari mereka sangat berhubungan.
 
 444
 00:23:30,930 --> 00:23:33,700
-CR and TCR.
+CR dan TCR.
 
 445
 00:23:33,700 --> 00:23:35,550
-So CR is collision resistance.
+Jadi CR adalah ketahanan terhadap kesamaan (collision resistance).
 
 446
 00:23:42,970 --> 00:23:54,290
-It's infeasible to find x and
-x prime such that x not equal
+Hal ini tidak memungkinkan untuk menemukan x dan
+x prima, agar x tidak sama
 
 447
 00:23:54,290 --> 00:24:02,269
-to x prime, and h of
-x equals h of x prime,
+dengan x prima, dan h dari
+x sama dengan h dari x prima,
 
 448
 00:24:02,269 --> 00:24:03,560
-which is of course a collision.
+yang tentu saja merupakan sebuah collision.
 
 449
 00:24:08,300 --> 00:24:09,690
-OK?
+OK? 
 
 450
 00:24:09,690 --> 00:24:14,790
-And that just says you have
-this crazy hash function where
+Dan itu hanya menyatakan Anda memiliki
+fungsi hash gila ini di mana
 
 451
 00:24:14,790 --> 00:24:16,650
