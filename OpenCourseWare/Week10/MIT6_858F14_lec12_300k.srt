@@ -1622,115 +1622,115 @@ mudah ditebak.
 
 341
 00:14:10,359 --> 00:14:12,025
-If it was really a
-random 32 bit number,
+Jika sebetulnya hanya
+angka 32 bit acak,
 
 342
 00:14:12,025 --> 00:14:14,040
-it would be hard to just guess.
+akan sulit untuk ditebak.
 
 343
 00:14:14,040 --> 00:14:16,699
-And you'd probably
-waste a lot of bandwidth
+Dan kemungkinan anda akan
+menghabiskan banyak bandwidth
 
 344
 00:14:16,699 --> 00:14:17,637
-trying to guess this.
+untuk mencoba menebaknya.
 
 345
 00:14:17,637 --> 00:14:19,044
-Yeah, question.
+Ya, pertanyaan.
 
 346
 00:14:19,044 --> 00:14:20,607
-AUDIENCE: The data
+AUDIENS: Data
 frequency number
 
 347
 00:14:20,607 --> 00:14:23,150
-is higher than the
+lebih tinggi dibandingkan
 initial sequence number?
 
 348
 00:14:23,150 --> 00:14:25,650
-PROFESSOR: Yeah, so basically,
-these things get incremented.
+PROFESOR: Ya, pada dasarnya,
+hal-hal ini bertambah.
 
 349
 00:14:25,650 --> 00:14:27,500
-So every time you
-send a syn, that
+Jadi setiap kali anda
+mengirim sebuah syn,
 
 350
 00:14:27,500 --> 00:14:29,660
-counts as one byte against
-your sequence number.
+maka akan dihitung sebagai satu byte
+pada sequence number anda.
 
 351
 00:14:29,660 --> 00:14:31,010
-So this is SNC.
+Jadi inilah SNC.
 
 352
 00:14:31,010 --> 00:14:34,670
-I think actually what happens
-is this is SNC plus 1.
+Saya pikir yang sebenarnya terjadi
+adalah bahwa ini merupakan SNC plus 1.
 
 353
 00:14:34,670 --> 00:14:36,140
-And then it goes on from there.
+Dan terus berlaku dari sana.
 
 354
 00:14:36,140 --> 00:14:40,117
-So if you send 5 bytes, then the
-next one is SNC initial plus 6.
+Jadi jika anda mengirim 5 byte,
+maka yang berikutnya adalah SNC plus 6.
 
 355
 00:14:40,117 --> 00:14:42,200
-So this just counts the
-bytes that you're sending.
+Jadi hanya menghitung jumlah
+byte yang anda kirim.
 
 356
 00:14:42,200 --> 00:14:44,920
-SYNs count as 1 byte each.
+setiap SYN terhitung sebagai 1 byte.
 
 357
 00:14:44,920 --> 00:14:45,720
-Make sense?
+Masuk akal?
 
 358
 00:14:45,720 --> 00:14:48,050
-Other questions about this?
+Ada pertanyaan lain tentang ini?
 
 359
 00:14:48,050 --> 00:14:54,650
-All right, so typically,
-or at least the way
+Baiklah, jadi pada umumnya,
+atau setidaknya cara
 
 360
 00:14:54,650 --> 00:14:56,370
-the TCP specification
-recommended
+spesifikasi TCP
+merekomendasikan
 
 361
 00:14:56,370 --> 00:14:58,550
-that people choose
-these sequence numbers,
+agar kira memilih
+sequence number ini,
 
 362
 00:14:58,550 --> 00:15:02,750
-was to increment them at
-some roughly fixed rate.
+adalah dengan meningkatkannya
+dengan kecepatan yang kurang lebih tetap.
 
 363
 00:15:02,750 --> 00:15:06,300
-So the initial RFCs suggested
-that you increment these things
+Jadi RFC mulanya menganjurkan
+untuk meningkatkannya
 
 364
 00:15:06,300 --> 00:15:12,350
-at something like 250,000
-units, plus 250,000, per second.
+pada sekitar 250,000
+unit, ditambah 250,000, per detik.
 
 365
 00:15:12,350 --> 00:15:14,920
