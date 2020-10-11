@@ -1415,7 +1415,7 @@ maka mereka akan menyimpan kuncinya.
 
 299
 00:16:21,990 --> 00:16:24,270
-tida-- ini adalah teka-teki yang sulit.
+Tidak-- ini adalah teka-teki yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
