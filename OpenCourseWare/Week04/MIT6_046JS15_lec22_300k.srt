@@ -1407,7 +1407,7 @@ mereka akan mengirim kotak itu.
 297
 00:16:10,340 --> 00:16:12,610
 Tetapi jika kunci berada
-diluar kotak itu,
+di luar kotak itu,
 
 298
 00:16:12,610 --> 00:16:13,960
@@ -1415,7 +1415,7 @@ maka mereka akan menyimpan kuncinya.
 
 299
 00:16:21,990 --> 00:16:24,270
-tida-- ini puzzle yang sulit.
+tida-- ini adalah teka-teki yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
@@ -1423,7 +1423,7 @@ Benarkah?
 
 301
 00:16:26,246 --> 00:16:29,107
-AUDIENCE: Alice dapat mengunci
+Penonton: Alice dapat mengunci
 kotak dan mengirimkannya kepada Bob.
 
 302
@@ -1432,7 +1432,7 @@ SRINIVAS DEVADAS: Ya.
 
 303
 00:16:30,065 --> 00:16:34,572
-AUDIENCE: Dan kemudian Bob
+Penonton: Dan kemudian Bob
 juga dapat mengunci kotaknya.
 
 304
@@ -1445,8 +1445,8 @@ Kemudian?
 
 306
 00:16:37,090 --> 00:16:40,801
-Pada point itu-- tidak,
-anda berada pada jalur yang tepat.
+Pada poin itu-- tidak,
+Anda berada pada jalur yang tepat.
 
 307
 00:16:40,801 --> 00:16:41,300
@@ -1459,7 +1459,7 @@ Lanjutkanlah sedikit lagi.
 309
 00:16:43,740 --> 00:16:46,492
 Naik perahu beberapa lagi
-dan kita selesai.
+dan kita akan selesai.
 
 310
 00:16:46,492 --> 00:16:48,456
@@ -1467,9 +1467,8 @@ Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-AUDIENCE: Kemudian
+Penonton: Kemudian
 jika Bob mengirim--
-
 
 312
 00:16:52,501 --> 00:16:54,750
@@ -1478,7 +1477,7 @@ sekarang ada 2 gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-AUDIENCE: Ya.
+Penonton: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
@@ -1497,12 +1496,12 @@ untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-AUDIENCE: Mengirimkan kembali kepada Alice.
+Penonton: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
 SRINIVAS DEVADAS:
-Mengirimkan kembali kepada Alice.
+Mengirimkan kembali Alice.
 
 319
 00:17:06,630 --> 00:17:10,300
@@ -1523,7 +1522,7 @@ Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-AUDIENCE: Dia(Alice).
+Penonton: Dia(Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
