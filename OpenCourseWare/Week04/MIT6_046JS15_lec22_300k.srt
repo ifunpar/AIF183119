@@ -1387,142 +1387,143 @@ untuk membuka kunci seperti itu--
 
 293
 00:16:00,780 --> 00:16:02,530
-SRINIVAS DEVADAS: So
-if you see it locked,
+SRINIVAS DEVADAS: Jadi
+jika anda lihat itu terkunci,
 
 294
 00:16:02,530 --> 00:16:04,510
-they'll throw away
-the lock, too.
+Mereka akan membuang
+gemboknya juga.
 
 295
 00:16:04,510 --> 00:16:08,370
-If the lock is on
-the box, then sure,
+Jika gembok berada
+pada kotak, tentu saja,
 
 296
 00:16:08,370 --> 00:16:10,340
-they will deliver that box.
+mereka akan mengirim kotak itu.
 
 297
 00:16:10,340 --> 00:16:12,610
-But if the key is
-outside of that box,
+Tetapi jika kunci berada
+diluar kotak itu,
 
 298
 00:16:12,610 --> 00:16:13,960
-then they'll keep the key.
+maka mereka akan menyimpan kuncinya.
 
 299
 00:16:21,990 --> 00:16:24,270
-No-- this is a difficult puzzle.
+tida-- ini puzzle yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
-Yeah?
+Benarkah?
 
 301
 00:16:26,246 --> 00:16:29,107
-AUDIENCE: Alice could lock
-the box and send it to Bob.
+AUDIENCE: Alice dapat mengunci
+kotak dan mengirimkannya kepada Bob.
 
 302
 00:16:29,107 --> 00:16:30,065
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 303
 00:16:30,065 --> 00:16:34,572
-AUDIENCE: And then Bob
-could also lock the box.
+AUDIENCE: Dan kemudian Bob
+juga dapat mengunci kotaknya.
 
 304
 00:16:34,572 --> 00:16:35,900
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 305
 00:16:35,900 --> 00:16:37,090
-And then?
+Kemudian?
 
 306
 00:16:37,090 --> 00:16:40,801
-At that point-- no,
-you're on the right track.
+Pada point itu-- tidak,
+anda berada pada jalur yang tepat.
 
 307
 00:16:40,801 --> 00:16:41,300
-Keep going.
+Lanjutkan.
 
 308
 00:16:41,300 --> 00:16:43,740
-Just push it a little more.
+Lanjutkanlah sedikit lagi.
 
 309
 00:16:43,740 --> 00:16:46,492
-Couple of more boat
-rides and we're done.
+Naik perahu beberapa lagi
+dan kita selesai.
 
 310
 00:16:46,492 --> 00:16:48,456
-Yeah.
+Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-AUDIENCE: And then
-if Bob sends--
+AUDIENCE: Kemudian
+jika Bob mengirim--
+
 
 312
 00:16:52,501 --> 00:16:54,750
-SRINIVAS DEVADAS: So there's
-now two locks on the box.
+SRINIVAS DEVADAS: Jadi 
+sekarang ada 2 gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-AUDIENCE: Yes.
+AUDIENCE: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
-SRINIVAS DEVADAS: And Bob
-has two locks on the box.
+SRINIVAS DEVADAS: Dan Bob
+memiliki 2 gembok pada kotak.
 
 315
 00:16:58,562 --> 00:17:00,020
-And so what's Bob
-going to do next?
+Dan jadi apa yang Bob
+akan lakukan selanjutnya?
 
 316
 00:17:00,020 --> 00:17:03,742
-What's the logical thing
-for Bob to do next?
+Apa hal yang logis 
+untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-AUDIENCE: Send it back to Alice.
+AUDIENCE: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
 SRINIVAS DEVADAS:
-Send it back Alice.
+Mengirimkan kembali kepada Alice.
 
 319
 00:17:06,630 --> 00:17:10,300
-And now the key's inside.
+Dan sekarang kuncinya berada didalam.
 
 320
 00:17:10,300 --> 00:17:14,170
-Alice now sees two
-locks on the box.
+Alice sekarang melihat 2
+gembok pada kotak.
 
 321
 00:17:14,170 --> 00:17:16,420
-And one of the locks is Bobs.
+Dan salah satu gembok adalah milik Bob.
 
 322
 00:17:16,420 --> 00:17:17,180
-And other is?
+Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-AUDIENCE: Hers.
+AUDIENCE: Dia(Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
