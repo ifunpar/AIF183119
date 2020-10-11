@@ -1411,108 +1411,108 @@ nomor urut ini
 
 297
 00:12:04,735 --> 00:12:08,240
-were meant for ensuring in
-order delivery of packets.
+dimaksudkan untuk memastikan
+pengiriman paket sudah teratur.
 
 298
 00:12:08,240 --> 00:12:11,225
-So if the client sends
-two packets, the one that
+Jadi jika klien mengirim
+dua paket, paket yang
 
 299
 00:12:11,225 --> 00:12:14,370
-has the initial sequence number,
-that's the first chunk of data.
+memiliki nomor urut pertama,
+itu adalah potongan data pertama.
 
 300
 00:12:14,370 --> 00:12:16,078
-And the one with the
-next sequence number
+Dan yang memiliki 
+nomor urut berikutnya
 
 301
 00:12:16,078 --> 00:12:17,410
-is the next chunk of data.
+adalah bagian data berikutnya.
 
 302
 00:12:17,410 --> 00:12:20,790
-But it turns out to also
-be useful for providing
+Namun ternyata 
+berguna juga untuk menyediakan
 
 303
 00:12:20,790 --> 00:12:22,424
-some security properties.
+beberapa properti keamanan.
 
 304
 00:12:22,424 --> 00:12:24,465
-Here's an example of these
-requirements changing.
+Berikut contoh
+perubahan persyaratan ini.
 
 305
 00:12:24,465 --> 00:12:25,840
-So initially, no
-one was thinking
+Jadi pada awalnya, tidak
+ada yang mengira
 
 306
 00:12:25,840 --> 00:12:27,465
-TCP provides any
-security properties.
+TCP menyediakan 
+properti keamanan apa pun.
 
 307
 00:12:27,465 --> 00:12:29,940
-But then applications
-started using TCP and sort
+Tapi kemudian aplikasi
+mulai menggunakan TCP dan mengandalkan 
 
 308
 00:12:29,940 --> 00:12:32,470
-of relying on these
-TCP connections
+semacam
+koneksi TCP
 
 309
 00:12:32,470 --> 00:12:35,800
-not being able to be broken
-by some arbitrary attacker,
+agar tidak dapat diputus
+oleh beberapa penyerang yang seenaknya,
 
 310
 00:12:35,800 --> 00:12:39,150
-or an attacker not being able to
-inject data into your existing
+atau penyerang tidak dapat
+memasukan data ke dalam
 
 311
 00:12:39,150 --> 00:12:40,360
-TCP connection.
+koneksi TCP Anda yang sudah ada.
 
 312
 00:12:40,360 --> 00:12:43,060
-And all of a sudden, this
-mechanism that was initially
+Dan tiba-tiba, mekanisme ini
+yang pada awalnya hanya
 
 313
 00:12:43,060 --> 00:12:46,240
-meant for just
-packet ordering now
+dimaksudkan untuk
+pemesanan paket, tetapi sekarang
 
 314
 00:12:46,240 --> 00:12:49,160
-gets used to guarantee
-some semblance of security
+digunakan untuk menjamin
+beberapa kemiripan keamanan
 
 315
 00:12:49,160 --> 00:12:52,110
-for these connections.
+untuk koneksi ini.
 
 316
 00:12:52,110 --> 00:12:59,810
-So in this case, I
-guess the problem
+Jadi dalam kasus ini, saya
+kira masalahnya
 
 317
 00:12:59,810 --> 00:13:03,710
-stems from what could a
-server assume about this TCP
+berasal dari apa yang
+dapat diasumsikan server tentang
 
 318
 00:13:03,710 --> 00:13:04,520
-connection.
+koneksi TCP ini.
 
 319
 00:13:04,520 --> 00:13:08,180
