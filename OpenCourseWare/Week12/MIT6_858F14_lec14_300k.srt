@@ -1450,7 +1450,7 @@ menyamar sebagai a, dan sebagainya.
 
 307
 00:13:54,630 --> 00:13:58,741
-Jadi bagaiman kita memperbaikinya
+Jadi bagaimana kita memperbaikinya
 di dunia kunci publik ini?
 
 308
@@ -1474,72 +1474,72 @@ Anda bisa melakukan ini.
 312
 00:14:05,390 --> 00:14:07,510
 Satu kemungkinan
-adalah b mungkin harus 
+adalah a mungkin harus 
 
 313
 00:14:07,510 --> 00:14:09,630
 menandai pesan ini
-awalnya, karena kami
+awalnya, karena kita
 
 314
 00:14:09,630 --> 00:14:11,160
-have this nice sign primitive.
+memiliki penanda primitif yang bagus ini.
 
 315
 00:14:11,160 --> 00:14:19,040
-So we could maybe have a sign
-this thing with a's secret key.
+Jadi, kita dapat menandai
+pesan ini dengan sebuah kunci rahasia.
 
 316
 00:14:19,040 --> 00:14:20,829
-And that sign just
-provides the signature,
+Dan penanda itu saja
+menyediakan tanda tangan,
 
 317
 00:14:20,829 --> 00:14:22,370
-but presumably you
-assign it and also
+tapi anggap saja anda
+menandainya dan juga
 
 318
 00:14:22,370 --> 00:14:24,400
-provide the message, as well.
+memberikan pesannya juga.
 
 319
 00:14:24,400 --> 00:14:27,750
-And then b would have to
-know a is public key in order
+Dan kemudian b harus
+mengetahui kunci publik milik a agar
 
 320
 00:14:27,750 --> 00:14:29,370
-to verify the signature.
+dapat memverifikasi tanda ini.
 
 321
 00:14:29,370 --> 00:14:32,229
-But if b knows a is
-public key, then b's
+Jika b mengetahui 
+kunci publik milik a, maka b
 
 322
 00:14:32,229 --> 00:14:34,520
-going to be reasonably
-confident that a is the one that
+dapat memiliki alasan 
+untuk percaya bahwa a adalah seseorang
 
 323
 00:14:34,520 --> 00:14:36,430
-sent this message over.
+yang mengirimkan pesan ini.
 
 324
 00:14:36,430 --> 00:14:37,470
-Make sense?
+Masuk akal?
 
 325
 00:14:37,470 --> 00:14:40,050
-Another thing you could
-do is rely on encryption.
+Hal lain yang dapat Anda 
+lakukan adalah mengandalkan enkripsi.
 
 326
 00:14:40,050 --> 00:14:44,120
-So maybe b could send the
-nons back to a encrypted
+Jadi mungkin b dapat mengirimkan
+nonce kembali ke a sudah terenkripsi
 
 327
 00:14:44,120 --> 00:14:46,029
