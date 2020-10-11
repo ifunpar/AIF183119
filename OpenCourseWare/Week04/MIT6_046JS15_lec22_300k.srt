@@ -1616,45 +1616,45 @@ Alice menyimpan pesan di dalam box.
 
 345
 00:18:32,590 --> 00:18:36,630
-And that message has the
-secret key inside of it.
+Dan pesan itu mempunyai
+kunci rahasia di dalamnya.
 
 346
 00:18:36,630 --> 00:18:45,840
-Alice unlocks KA and
-sends box to Bob.
+Alice membuka KA dan
+mengirim box kepada Bob.
 
 347
 00:18:45,840 --> 00:18:56,130
-And then Bob unlocks
-KB and reads message.
+Dan selanjutnya Bob membuka
+KB dan membaca pesan.
 
 348
 00:18:56,130 --> 00:18:57,470
-So that's good.
+Itu bagus.
 
 349
 00:18:57,470 --> 00:18:59,870
-That's all good.
+Itu semua bagus.
 
 350
 00:18:59,870 --> 00:19:03,480
-Let's look at it a
-little more deeply
+Ayo lihat ini
+lebih dalam lagi
 
 351
 00:19:03,480 --> 00:19:08,170
-and think about it from a
-mathematical standpoint, not
+dan berpikir tentang ini dari
+sudut pandang matematika, bukan
 
 352
 00:19:08,170 --> 00:19:09,330
-a physical standpoint.
+dari sudut pandang fisika.
 
 353
 00:19:09,330 --> 00:19:11,990
-You could think about it from
-a physical standpoint as well.
+Anda bisa memikirkan tentang ini
+dari sudut pandang fisika juga.
 
 354
 00:19:11,990 --> 00:19:18,050
