@@ -2085,108 +2085,108 @@ sistem-sistem lainnya.
 
 442
 00:18:09,700 --> 00:18:13,670
-And the way you do
-a reset at Gmail
+Dan cara untuk mengatur ulang
+password di Gmail
 
 443
 00:18:13,670 --> 00:18:16,090
-is you send them
-a reset request.
+adalah dengan mengirimkan
+permohonan pengaturan ulang.
 
 444
 00:18:16,090 --> 00:18:19,030
-And what they say
-is, well, you weren't
+Dan apa yang mereka bilang
+adalah, yah, Anda tidak akan
 
 445
 00:18:19,030 --> 00:18:21,420
-going to do this recovery
-questions, at least
+menjawab pertanyaan
+pemulihan ini, setidaknya
 
 446
 00:18:21,420 --> 00:18:22,306
-not for this guy.
+tidak untuk pria ini.
 
 447
 00:18:22,306 --> 00:18:24,930
-What they do is they send you a
-recovery link to a backup email
+Apa yang mereka lakukan adalah mengirimkan
+sebuah tautan ke alamat email
 
 448
 00:18:24,930 --> 00:18:27,130
-address, or some other
-email address that you have.
+cadangan, atau beberapa alamat
+email lain yang Anda miliki.
 
 449
 00:18:27,130 --> 00:18:29,588
-And helpful, they actually
-print the email address for you.
+Dan untuk membantu, mereka
+mencetak alamat email tersebut untuk Anda.
 
 450
 00:18:29,588 --> 00:18:31,139
-So for this guy's
-account, someone
+Jadi untuk akun milik pria itu,
+seseorang
 
 451
 00:18:31,139 --> 00:18:32,930
-went and asked Gmail
-to reset the password.
+meminta Gmail untuk mengatur ulang
+password Gmail tersebut.
 
 452
 00:18:32,930 --> 00:18:33,830
-And they said, well, yeah.
+Dan mereka bilang, yah, baiklah.
 
 453
 00:18:33,830 --> 00:18:34,330
-Sure.
+Tentu.
 
 454
 00:18:34,330 --> 00:18:37,080
-We just sent the recovery
-link to this email,
+Kita baru saja mengirimkan tautan
+pemulihan ke email ini,
 
 455
 00:18:37,080 --> 00:18:42,089
-foo@me.com, which was
-some Apple email service.
+foo@me.com, yang merupakan
+layanan email dari Apple.
 
 456
 00:18:42,089 --> 00:18:44,505
-OK, but the bad guy doesn't
-have access to me.com, either.
+OK, tapi orang jahat tersebut tidak
+memiliki akses ke me.com, juga.
 
 457
 00:18:44,505 --> 00:18:46,860
-But they want to get
-this password reset
+Namun mereka ingin mendapatkan
+tautan untuk mengatur ulang password ini
 
 458
 00:18:46,860 --> 00:18:48,790
-link to get access to Gmail.
+untuk mendapatkan akses ke Gmail.
 
 459
 00:18:48,790 --> 00:18:50,860
-Well, the way things
-worked was that,
+Baiklah, cara hal-hal tersebut
+jalan adalah bahwa,
 
 460
 00:18:50,860 --> 00:18:55,980
-in Apple's case,
-this me.com site,
+dalam kasus Apple,
+situs me.com ini
 
 461
 00:18:55,980 --> 00:19:00,830
-allowed you to actually reset
-your password if you know
+memungkinkan Anda untuk mengatur
+ulang password Anda jika Anda mengetahui
 
 462
 00:19:00,830 --> 00:19:03,580
-your billing address and the
-last four digits of your credit
+alamat penagihan Anda dan empat
+angka terakhir dari nomor
 
 463
 00:19:03,580 --> 00:19:05,112
-card number.
+kartu kredit Anda.
 
 464
 00:19:05,112 --> 00:19:07,300
