@@ -1542,7 +1542,7 @@ batasan yang agak membingungkan, benar?
 327
 00:13:09,190 --> 00:13:11,660
 Semakin aman sistem yang
-Anda bangun, semakin tidak mungkin
+Anda bangun, semakin kecil kemungkinan
 
 328
 00:13:11,660 --> 00:13:14,910
@@ -1557,7 +1557,7 @@ perusahaan baru Anda
 330
 00:13:17,000 --> 00:13:21,460
 membocorkan nomor keamanan
-dari jutaan orang.
+dari satu juta orang.
 
 331
 00:13:21,460 --> 00:13:26,770
@@ -1586,12 +1586,12 @@ kita untuk berlindung
 
 336
 00:13:40,170 --> 00:13:43,140
-dari beberapa kelas serangan,
+dari beberapa jenis serangan,
 cukup kuat.
 
 337
 00:13:43,140 --> 00:13:46,512
-Sebagai contoh, penjelajah web (web browser) sebelumnya
+Sebagai contoh, peramban (web browser) sebelumnya
 cukup membosankan dalam hal
 
 338
@@ -1620,7 +1620,7 @@ dalam beberapa minggu
 343
 00:13:54,420 --> 00:13:57,810
 yang memungkinkan Anda untuk menjalankan
-kewenangan bahasa mesin (native code) x86 dalam penjelajah
+kode asli x86 (native code) dalam peramban
 
 344
 00:13:57,810 --> 00:13:59,530
@@ -1633,7 +1633,7 @@ hal-hal lucu terhadap komputer Anda.
 
 346
 00:14:01,260 --> 00:14:04,154
-Dan penjelajah web bisa mengirimkan-- dan
+Dan peramban bisa mengirimkan-- dan
 ada sebuah teknik atau sistem
 
 347
@@ -1662,7 +1662,7 @@ dialog, mengatakan ya, saya mengizinkan ini.
 352
 00:14:15,671 --> 00:14:17,420
 Namun sekarang, Anda bisa
-menjalankannya dalam sebuah penjelajah web,
+menjalankannya dalam sebuah peramban,
 
 353
 00:14:17,420 --> 00:14:18,600
@@ -1680,11 +1680,11 @@ sangat mudah dan kuat
 356
 00:14:22,200 --> 00:14:25,990
 adalah karena mekanisme keamanan kita
-dapat meng-sandbox program ini
+dapat memasukkan program ini ke dalam kotak pasir (sandbox)
 
 357
 00:14:25,990 --> 00:14:29,590
-dan tidak perlu beranggapan apapun
+dan tidak perlu berasumsi apapun
 tentang pengguna yang memilih
 
 358
@@ -1739,7 +1739,7 @@ contoh berbeda tentang bagaimana
 
 369
 00:14:58,320 --> 00:15:00,000
-keamanan menjadi salah.
+keamanan menjadi tidak semestinya.
 
 370
 00:15:00,000 --> 00:15:02,680
@@ -1763,13 +1763,13 @@ masalah keamanan.
 
 374
 00:15:12,470 --> 00:15:16,586
-Dan dalam masalah tentang sistem
-keamanan semacam ini,
+Dan dalam masalah tentang
+bobolnya sistem keamanan,
 
 375
 00:15:16,586 --> 00:15:18,942
 kurang lebih setiap satu dari
-tiga hal ini salah.
+tiga hal ini menjadi tidak semestinya.
 
 376
 00:15:18,942 --> 00:15:20,650
@@ -1827,7 +1827,7 @@ Anda email jika Anda
 387
 00:15:52,570 --> 00:15:55,190
 kehilangan password Anda dengan sebuah 
-tautan untuk mengatur ulang kata sandi Anda.
+tautan untuk mengatur ulang password Anda.
 
 388
 00:15:55,190 --> 00:15:57,481
@@ -1846,7 +1846,7 @@ tahun yang lalu, Yahoo
 
 391
 00:16:03,700 --> 00:16:06,660
-meng-host email, webmail, untuk
+memiliki layanan email, webmail, untuk
 siapapun di internet.
 
 392
@@ -1866,7 +1866,7 @@ karena Anda tidak bisa mengaksesnya.
 395
 00:16:11,610 --> 00:16:13,420
 Jadi sebagai gantinya, mereka
-meminta Anda untuk mengajukan
+meminta Anda untuk mendaftarkan
 
 396
 00:16:13,420 --> 00:16:16,317
@@ -1928,7 +1928,7 @@ atau pertanyaan keamanannya.
 
 408
 00:16:44,380 --> 00:16:47,001
-Jadi hal itu sangat melemahkan
+Jadi hal itu melemahkan
 sistem kemamanan Anda.
 
 409
@@ -1999,7 +1999,7 @@ berpikir dengan hati-hati
 423
 00:17:18,920 --> 00:17:21,890
 tentang implikasi
-dari perbedaan kebijakan
+dari bermacam kebijakan
 
 424
 00:17:21,890 --> 00:17:24,819
@@ -2007,7 +2007,7 @@ keamanan yang Anda buat di sini.
 
 425
 00:17:24,819 --> 00:17:29,220
-Mungkin, contoh yang lebih rumit,
+Mungkin, contoh yang lebih rumit, dan
 mungkin, lebih menarik,
 
 426
@@ -2071,7 +2071,7 @@ sesuatu yang merugikan.
 
 439
 00:18:01,181 --> 00:18:02,530
-Jadi kita punya akun Gmail.
+Jadi kita punya Gmail.
 
 440
 00:18:02,530 --> 00:18:06,580
@@ -2080,7 +2080,7 @@ mengatur ulang password Anda
 
 441
 00:18:06,580 --> 00:18:09,700
-jika Anda lupa password Anda, seperti pada
+jika Anda lupa, seperti pada
 sistem-sistem lainnya.
 
 442
