@@ -750,7 +750,7 @@ ini punya dalam pikiram mereka adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-akan akan ada server
+akan ada server
 Kerberos ini.
 
 159
@@ -768,7 +768,7 @@ Jadi ini adalah server Kerberos.
 
 162
 00:07:10,540 --> 00:07:16,650
-Dan sekarang, ini biasanya disebu dengan
+Dan sekarang, ini biasanya disebut dengan
 KDC-- Key Distribution Center.
 
 163
@@ -807,13 +807,13 @@ kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-Lalu, server Kerberos
+Lalu, Kerberos server
 akan
 
 171
 00:07:47,260 --> 00:07:49,720
 mengingat kunci ini
-di suatu tempat di sini.
+di suatu tempat di sini
 
 172
 00:07:49,720 --> 00:07:53,680
@@ -827,8 +827,8 @@ oleh layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-dan oleh server Kerberos
-tapi semoga bukan orang lain.
+dan ke server Kerberos
+tapi semoga tidak ada orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
@@ -869,88 +869,88 @@ Masuk akal?
 
 183
 00:08:14,150 --> 00:08:17,982
-And the other thing the Kerberos
-server is going to have to do
+Dan hal lain yang server Kerberos
+akan perlu lakukan
 
 184
 00:08:17,982 --> 00:08:20,070
-is, of course, keep
-track of who is
+adalah, tentu saja, mencatat
+siapa yang
 
 185
 00:08:20,070 --> 00:08:22,370
-it that owns this key, right?
+memiliki key ini, benar?
 
 186
 00:08:22,370 --> 00:08:27,080
-So it's going to have this table
-mapping some sort of a name.
+Jadi akan terdapat tabel ini,
+memetakan semacam nama.
 
 187
 00:08:27,080 --> 00:08:29,080
-So this is some sort of a user.
+Jadi ini semacam pengguna.
 
 188
 00:08:29,080 --> 00:08:35,630
-This is maybe service maybe
-AFS or something like this.
+Ini mungkin layanan, mungkin AFS (Andrew File System,
+sistem penyimpanan terdistribusi) atau semacamnya.
 
 189
 00:08:35,630 --> 00:08:38,530
-And the KDC is responsible for
-storing the gigantic table--
+Dan KDC bertanggung jawab untuk
+menyimpan tabel besar itu--
 
 190
 00:08:38,530 --> 00:08:41,659
-well, not very large in
-terms of the number of bytes,
+Yah, tidak terlalu besar dalam
+hal jumlah byte,
 
 191
 00:08:41,659 --> 00:08:45,640
-necessarily, but
-one entry per entity
+tentu, tapi
+satu entri per entitas
 
 192
 00:08:45,640 --> 00:08:50,310
-at MIT that the Kerberos
-server knows about.
+pada MIT yang diketahui
+server Kerberos.
 
 193
 00:08:50,310 --> 00:08:52,510
-Makes sense?
+Masuk akal?
 
 194
 00:08:52,510 --> 00:08:56,634
-All right, and then we're
-going to have sort of provide
+Baiklah, lalu kita akan
+semacam menyediakan
 
 195
 00:08:56,634 --> 00:08:57,550
-two interfaces, right?
+dua antarmuka, benar?
 
 196
 00:08:57,550 --> 00:09:00,200
-The paper is a little
-fuzzy above this
+Paper tersebut agak
+membingungkan di atas sini
 
 197
 00:09:00,200 --> 00:09:02,200
-or it pretends like there's
-really two services.
+atau itu memang berlaku seperti
+benar benar dua layanan
 
 198
 00:09:02,200 --> 00:09:05,260
-But really, what's going on
-is that there's two interfaces
+Tetapi sebenarnya, apa yang terjadi
+adalah ada dua antarmuka
 
 199
 00:09:05,260 --> 00:09:06,660
-to the same machine.
+ke mesin yang sama
 
 200
 00:09:06,660 --> 00:09:11,560
 Salah satunya disebut Kerberos
-di koran dan salah satunya
+di dalam paper dan salah satunya
 
 201
 00:09:11,560 --> 00:09:15,460
@@ -960,75 +960,75 @@ Ticket Granting Service.
 202
 00:09:15,460 --> 00:09:16,980
 Dan sungguh, ini
-hanya dua cara
+hanyalah dua cara
 
 203
 00:09:16,980 --> 00:09:20,130
-berbicara dengan hal yang sama
+untuk berbicara ke hal yang sama
 di bagian belakang.
 
 204
 00:09:20,130 --> 00:09:24,340
 Dan protokolnya sedikit
-berbeda untuk hal ini.
+berbeda untuk benda-benda ini.
 
 205
 00:09:24,340 --> 00:09:26,570
-So initially, when
-the user logs in,
+Jadi pada awalnya, pada
+saat pengguna login,
 
 206
 00:09:26,570 --> 00:09:28,680
-they're going to talk
-to this guy over here.
+mereka akan berbicara
+kepada orang ini di sini.
 
 207
 00:09:28,680 --> 00:09:32,110
-And they're going to
-send their client name,
+Dan mereka akan
+mengirim nama klien mereka,
 
 208
 00:09:32,110 --> 00:09:35,160
-C. So this might be
-your Athena username.
+C. Jadi ini mungkin
+username Athena Anda.
 
 209
 00:09:35,160 --> 00:09:36,810
-And the server is
-going to respond
+Dan servernya
+akan menanggapi
 
 210
 00:09:36,810 --> 00:09:43,804
-to back with a ticket,
-a TGS or-- well,
+kembali dengan sebuah tiket,
+sebuah TGS atau-- yah,
 
 211
 00:09:43,804 --> 00:09:44,720
-some sort of a ticket.
+semacam tiket.
 
 212
 00:09:44,720 --> 00:09:46,540
-We'll look at the
-details in a bit.
+Kita akan lihat
+detailnya sedikit lagi.
 
 213
 00:09:46,540 --> 00:09:51,130
-And then when you want to
-talk to some server down here,
+Dan ketika kalian mau bicara dengan
+suatu server di bawah sini,
 
 214
 00:09:51,130 --> 00:09:54,040
-KS, then you're going to
-talk to this TGS first
+KS, maka Anda akan
+bicara dengan TGS ini terlebih dahulu
 
 215
 00:09:54,040 --> 00:09:56,530
-and say, oh, hey,
-I already logged in
+dan mengatakan, oh, hei,
+saya sudah masuk
 
 216
 00:09:56,530 --> 00:09:58,560
-through the Kerberos interface.
+melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
