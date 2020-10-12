@@ -1274,12 +1274,12 @@ mengirimkan kotak yang terkunci.
 269
 00:14:47,040 --> 00:14:51,390
 Tetapi jika mereka melihat 
-kunci, mereka akan menyimpannya.
+sebuah kunci, mereka akan menyimpannya.
 
 270
 00:14:51,390 --> 00:14:53,435
 Jika mereka pernah melihat 
-semacam kunci di kapal,
+semacam sebuah kunci di kapal,
 
 271
 00:14:53,435 --> 00:14:54,810
@@ -1289,7 +1289,7 @@ mengambilnya dan menyimpannya.
 272
 00:14:54,810 --> 00:14:57,018
 Dan kemudian pada waktu berikutnya, 
-mereka melihat kotak terkunci,
+mereka melihat sebuah kotak terkunci,
 
 273
 00:14:57,018 --> 00:15:00,140
@@ -1312,12 +1312,12 @@ pada gagasan pembajakan ini,
 
 277
 00:15:09,600 --> 00:15:16,980
-Saya kira, dengan bajak laut 
+Saya kira, dengan bajak laut
 memiliki sejumlah kemampuan
 
 278
 00:15:16,980 --> 00:15:20,610
-dalam hal menyimpan kunci, 
+dalam hal menyimpan kunci,
 dan membuka kunci,
 
 279
@@ -1331,7 +1331,7 @@ Baiklah.
 
 281
 00:15:24,635 --> 00:15:25,510
-Jadi itulah teka-teki.
+Jadi itulah teka-tekinya.
 
 282
 00:15:25,510 --> 00:15:27,790
@@ -1340,7 +1340,7 @@ tentang teka-teki ini sebelumnya?
 
 283
 00:15:27,790 --> 00:15:30,090
-Jadi semuanya tetap diam.
+Jadi Anda semua tetap diam.
 
 284
 00:15:30,090 --> 00:15:34,350
@@ -1350,7 +1350,7 @@ tentang teka-teki ini sebelumnya,
 285
 00:15:34,350 --> 00:15:39,770
 coba pikirkan sejenak dan
-lihat apakah ada sebuah solusi datang kepada Anda
+lihat apakah ada sebuah solusi terpikirkan oleh Anda
 
 286
 00:15:39,770 --> 00:15:43,490
@@ -1360,7 +1360,7 @@ jadi itulah petunjuknya,
 287
 00:15:43,490 --> 00:15:47,980
 bolak-balik-- dan
-dapat bertukar dengan aman
+dapat secara aman menukarkan
 
 288
 00:15:47,980 --> 00:15:51,660
@@ -1382,13 +1382,13 @@ Di belakang sana.
 
 292
 00:15:56,578 --> 00:16:00,780
-PENONTON: Apakah mereka diizinkan
-untuk membuka kunci seperti itu--
+AUDIENS: Apakah mereka diizinkan
+untuk melewatkan kunci-kuncinya sedemikian--
 
 293
 00:16:00,780 --> 00:16:02,530
 SRINIVAS DEVADAS: Jadi
-jika anda lihat itu terkunci,
+jika Anda lihat itu terkunci,
 
 294
 00:16:02,530 --> 00:16:04,510
@@ -1397,7 +1397,7 @@ gemboknya juga.
 
 295
 00:16:04,510 --> 00:16:08,370
-Jika gembok berada
+Jika gemboknya berada
 pada kotak, tentu saja,
 
 296
@@ -1423,7 +1423,7 @@ Ya?
 
 301
 00:16:26,246 --> 00:16:29,107
-Penonton: Alice dapat mengunci
+AUDIENS: Alice dapat mengunci
 kotak dan mengirimkannya kepada Bob.
 
 302
@@ -1467,17 +1467,17 @@ Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-PENONTON: Kemudian
+AUDIENS: Kemudian
 jika Bob mengirim--
 
 312
 00:16:52,501 --> 00:16:54,750
 SRINIVAS DEVADAS: Jadi 
-sekarang ada 2 gembok pada kotak.
+sekarang ada dua gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-PENONTON: Ya.
+AUDIENS: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
@@ -1496,7 +1496,7 @@ untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-PENONTON: Mengirimkan kembali kepada Alice.
+AUDIENS: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
@@ -1505,11 +1505,11 @@ Mengirimkan kembali Alice.
 
 319
 00:17:06,630 --> 00:17:10,300
-Dan sekarang kuncinya berada didalam.
+Dan sekarang kuncinya berada di dalam.
 
 320
 00:17:10,300 --> 00:17:14,170
-Alice sekarang melihat 2
+Alice sekarang melihat dua
 gembok pada kotak.
 
 321
@@ -1522,15 +1522,15 @@ Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-PENONTON: Dia(Alice).
+AUDIENS: Miliknya (Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
-SRINIVAS DEVADAS: itu milik dia.
+SRINIVAS DEVADAS: itu miliknya.
 
 325
 00:17:18,690 --> 00:17:19,380
-Penonton: Ia bisa membuka kucinya.
+AUDIENS: Dia bisa membuka kucinya.
 
 326
 00:17:19,380 --> 00:17:21,046
@@ -1544,7 +1544,7 @@ dan mengirimkannya kembali ke Bob.
 328
 00:17:23,540 --> 00:17:27,650
 Dan selama ini, satu-satunya
-hal yang hilang saat transit
+hal yang hilang di perjalanan
 
 329
 00:17:27,650 --> 00:17:29,750
@@ -1571,11 +1571,11 @@ Jadi itu bagus.
 
 334
 00:17:39,410 --> 00:17:40,550
-Kamu sangat benar
+Anda tepat sekali.
 
 335
 00:17:40,550 --> 00:17:45,110
-Jadi itu akan memberi anda Frisbee,
+Jadi itu akan memberi Anda sebuah Frisbee.
 
 336
 00:17:45,110 --> 00:17:46,930
@@ -1583,30 +1583,30 @@ Ups, maaf.
 
 337
 00:17:46,930 --> 00:17:48,710
-Kami membutuhkan pertukaran yang aman di sana.
- 
+Kita membutuhkan pertukaran yang aman di sana.
+
 338
 00:17:48,710 --> 00:17:50,730
-Ya, itu baik.
+Ya, itu bagus.
 
 339
 00:17:50,730 --> 00:17:54,250
-Jadi itu memanglah benar.
+Jadi itu sangat tepat.
 
 340
 00:17:54,250 --> 00:18:05,610
-Sekadar rekap, Alice
-kotak kunci dengan KA,
+Untuk merekap, Alice
+mengunci kotak dengan KA,
 
 341
 00:18:05,610 --> 00:18:09,980
-Dan itu lah kunci untuk 
-membukanya, dan mengirim ke bob.
+Dan itulah kunci untuk 
+gemboknya, mengirimkannya ke Bob.
 
 342
 00:18:09,980 --> 00:18:18,320
 Bob mengunci kotak dengan
-KB, yang akan dikirimkan ke Alice.
+KB, mengirimkannya ke Alice.
 
 343
 00:18:18,320 --> 00:18:24,220
@@ -1615,7 +1615,7 @@ oh, seharusnya saya katakan
 
 344
 00:18:24,220 --> 00:18:27,100
-Alice menyimpan pesan di dalam box.
+Alice menyimpan pesan di dalam kotak.
 
 345
 00:18:32,590 --> 00:18:36,630
@@ -1625,7 +1625,7 @@ kunci rahasia di dalamnya.
 346
 00:18:36,630 --> 00:18:45,840
 Alice membuka KA dan
-mengirim box kepada Bob.
+mengirim kotak kepada Bob.
 
 347
 00:18:45,840 --> 00:18:56,130
@@ -1634,7 +1634,7 @@ KB dan membaca pesan.
 
 348
 00:18:56,130 --> 00:18:57,470
-Itu bagus.
+Jadi itu bagus.
 
 349
 00:18:57,470 --> 00:18:59,870
@@ -1642,8 +1642,8 @@ Itu semua bagus.
 
 350
 00:18:59,870 --> 00:19:03,480
-Ayo lihat ini
-lebih dalam lagi
+Mari kita lihat ini
+sedikit lebih dalam lagi
 
 351
 00:19:03,480 --> 00:19:08,170
