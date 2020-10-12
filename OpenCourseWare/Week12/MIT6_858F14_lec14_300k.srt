@@ -1268,278 +1268,279 @@ lagi dan itu
 
 269
 00:12:10,810 --> 00:12:14,060
-looks like a is sending these
-messages to b, and so on.
+terlihat seperti a sedang mengirimkan
+pesan-pesan ini kepada b, dan seterusnya.
 
 270
 00:12:14,060 --> 00:12:16,160
-So typically the
-solution to this
+Jadi biasanya
+solusi untuk ini
 
 271
 00:12:16,160 --> 00:12:18,640
-is to have both
-parties participate
+adalah membuat kedua
+pihak berpartisipasi
 
 272
 00:12:18,640 --> 00:12:22,470
-in the generation of
-s, and that ensures
+pada pembangkitan
+s, dan memastikan
 
 273
 00:12:22,470 --> 00:12:25,230
-that the key we're
-using is now fresh.
+bahwa kunci yang kita
+gunakan sekarang baru.
 
 274
 00:12:25,230 --> 00:12:27,840
-Because here, because b didn't
-actually generating anything,
+Karena disini, karena b sebenarnya
+tidak membangkitkan apapun,
 
 275
 00:12:27,840 --> 00:12:30,310
-these protocol messages look
-exactly the same every time.
+pesan-pesan protokol ini terlihat
+persis sama setiap saat.
 
 276
 00:12:30,310 --> 00:12:33,410
-So typically, what happens
-is that, one party picks
+Jadi biasanya, yang terjadi
+adalah, salah satu pihak memilih
 
 277
 00:12:33,410 --> 00:12:36,630
-a random number like s, and
-then another party b also
+sebuah angka acak seperti s, 
+lalu pihak lain b juga
 
 278
 00:12:36,630 --> 00:12:39,417
-picks some random number,
-typically called a non.
+memilih beberapa angka acak,
+secara khusus disebut nonce.
 
 279
 00:12:39,417 --> 00:12:40,000
-But, whatever.
+Tapi, bagaimanapun.
 
 280
 00:12:40,000 --> 00:12:41,630
-There's two numbers.
+Ada dua angka.
 
 281
 00:12:41,630 --> 00:12:43,877
-And then the key they
-agreed to use in the thing
+Dan kemudian kunci yang mereka 
+setujui untuk digunakan dalam hal
 
 282
 00:12:43,877 --> 00:12:45,460
-that one party picked,
-but actually is
+yang dipilih salah satu pihak,
+tetapi sebenarnya adalah
 
 283
 00:12:45,460 --> 00:12:48,610
-the hash of the things
-that both of them picked.
+hash dari hal-hal 
+yang mereka berdua pilih.
 
 284
 00:12:48,610 --> 00:12:49,890
-So you could do that.
+Jadi Anda bisa melakukan itu.
 
 285
 00:12:49,890 --> 00:12:52,509
-You could also do
-[? DP Helmond ?] kind of stuff
+Anda juga bisa melakukan 
+hal-hal Diffie-Hellman (key exhcange)
 
 286
 00:12:52,509 --> 00:12:54,050
-like we looked at
-in the last lecture
+seperti yang kita lihat
+di kuliah sebelum ini
 
 287
 00:12:54,050 --> 00:12:55,650
-where you get forward secrecy.
+di mana Anda mendapatkan forward secrecy.
+(kerahasiaan di masa mendatang)
 
 288
 00:12:55,650 --> 00:12:58,220
-It was a little bit more
-complicated math rather than
+Matematikanya sedikit 
+lebih rumit daripada
 
 289
 00:12:58,220 --> 00:13:01,117
-just hashing two random numbers
-that two parties picked.
+hanya melakukan hash dari dua angka acak 
+yang dipilih dua pihak.
 
 290
 00:13:01,117 --> 00:13:02,700
-But then you get
-some nice properties,
+Tapi kemudian Anda mendapatkan
+beberapa properti bagus,
 
 291
 00:13:02,700 --> 00:13:05,610
-like forward secrecy.
+seperti kerahasiaan pengiriman.
 
 292
 00:13:05,610 --> 00:13:07,600
-So replay attacks
-you typically fixed
+Jadi replay attacks (serangan berbasis pengulangan)
+yang Anda biasanya perbaiki
 
 293
 00:13:07,600 --> 00:13:14,350
-by having b generate some nons.
+dengan meminta b untuk memgbangkitkan beberapa nonce.
 
 294
 00:13:14,350 --> 00:13:16,850
-And then you set
-the real secret key
+Dan setelah itu Anda menentukan
+kunci rahasia yang sebenarnya
 
 295
 00:13:16,850 --> 00:13:19,900
-that you're going to use
-to hash of the secret key
+yang akan Anda gunakan
+untuk melakukan hash dari kunci rahasia
 
 296
 00:13:19,900 --> 00:13:24,267
-from one guy concatenated
-with this non.
+dari sesuatu yang tersambung (concatenated)
+dengan nonce ini.
 
 297
 00:13:24,267 --> 00:13:26,350
-And, of course, b would
-have to send the nons back
+Dan tentu saja b akan
+harus mengirim kembali nonce
 
 298
 00:13:26,350 --> 00:13:29,220
-to a in order to
-figure out what's
+ke a untuk dapat
+mengetahui tahu apa
 
 299
 00:13:29,220 --> 00:13:32,850
-going on for both of
-them to agree on a key.
+yang sedang terjadi sehingga mereka
+berdua dapat sepakat pada sebuah kunci.
 
 300
 00:13:32,850 --> 00:13:33,670
-All right.
+Baiklah.
 
 301
 00:13:33,670 --> 00:13:40,060
-So another problem here is that
-there's no real authentication
+Jadi masalah lain di sini adalah
+tidak benar-benar ada autentikasi
 
 302
 00:13:40,060 --> 00:13:40,990
-of a here, all right?
+pada a di sini, ya kan?
 
 303
 00:13:40,990 --> 00:13:43,610
-So a knows who b
-is, or at least a
+Jadi a tahu siapa b,
+atau setidaknya a
 
 304
 00:13:43,610 --> 00:13:46,700
-knows who will be able
-to decrypt the data.
+mengetahui siapa yang bisa
+mendekripsikan data tersebut.
 
 305
 00:13:46,700 --> 00:13:50,390
-But b has no idea who
-is on the other side,
+Tapi b tidak tahu siapa yang
+ada di sisi satunya,
 
 306
 00:13:50,390 --> 00:13:54,630
-whether it's a or some adversary
-impersonating a, et cetera.
+apakah itu a atau seorang jahat yang
+menyamar sebagai a, dan sebagainya.
 
 307
 00:13:54,630 --> 00:13:58,741
-So how would we fix it
-int his public key world?
+Jadi bagaimana kita memperbaikinya
+di dunia kunci publik ini?
 
 308
 00:13:58,741 --> 00:13:59,240
-Yeah?
+Ya?
 
 309
 00:13:59,240 --> 00:14:01,854
-AUDIENCE: You have been assigned
-something and [INAUDIBLE].
+AUDIENS: Anda telah ditandai
+sesuatu dan [TIDAK TERDENGAR].
 
 310
 00:14:01,854 --> 00:14:02,520
-PROFESSOR: Yeah.
+PROFESOR: Ya.
 
 311
 00:14:02,520 --> 00:14:05,390
-There's a couple of ways
-you could go about this.
+Terdapat beberapa cara
+Anda bisa melakukan ini.
 
 312
 00:14:05,390 --> 00:14:07,510
-One possibility
-is a maybe should
+Satu kemungkinan
+adalah a mungkin harus 
 
 313
 00:14:07,510 --> 00:14:09,630
-sign this message
-initially, because we
+menandai pesan ini
+awalnya, karena kita
 
 314
 00:14:09,630 --> 00:14:11,160
-have this nice sign primitive.
+memiliki primitif penanda yang bagus ini.
 
 315
 00:14:11,160 --> 00:14:19,040
-So we could maybe have a sign
-this thing with a's secret key.
+Jadi, kita dapat menandai
+pesan ini dengan kunci rahasia milik a.
 
 316
 00:14:19,040 --> 00:14:20,829
-And that sign just
-provides the signature,
+Dan penanda itu hanya
+menyediakan tanda tangan,
 
 317
 00:14:20,829 --> 00:14:22,370
-but presumably you
-assign it and also
+tapi anggap saja Anda
+menandainya dan juga
 
 318
 00:14:22,370 --> 00:14:24,400
-provide the message, as well.
+memberikan pesannya juga.
 
 319
 00:14:24,400 --> 00:14:27,750
-And then b would have to
-know a is public key in order
+Dan kemudian b harus
+mengetahui kunci publik milik a agar
 
 320
 00:14:27,750 --> 00:14:29,370
-to verify the signature.
+dapat memverifikasi tanda tangan ini.
 
 321
 00:14:29,370 --> 00:14:32,229
-But if b knows a is
-public key, then b's
+Jika b mengetahui 
+kunci publik milik a, maka b
 
 322
 00:14:32,229 --> 00:14:34,520
-going to be reasonably
-confident that a is the one that
+dapat memiliki alasan 
+untuk percaya bahwa a adalah seseorang
 
 323
 00:14:34,520 --> 00:14:36,430
-sent this message over.
+yang mengirimkan pesan ini.
 
 324
 00:14:36,430 --> 00:14:37,470
-Make sense?
+Masuk akal?
 
 325
 00:14:37,470 --> 00:14:40,050
-Another thing you could
-do is rely on encryption.
+Hal lain yang dapat Anda 
+lakukan adalah mengandalkan enkripsi.
 
 326
 00:14:40,050 --> 00:14:44,120
-So maybe b could send the
-nons back to a encrypted
+Jadi mungkin b dapat mengirimkan
+nonce kembali ke a sudah terenkripsi
 
 327
 00:14:44,120 --> 00:14:46,029
