@@ -1134,12 +1134,12 @@ saat saya berkata, OK, yeah,
 
 247
 00:11:43,690 --> 00:11:48,700
-tapi pada dasarnya adalah cara
-melakukan kunci privat 32 byte dimana
+tapi ini pada dasarnya bagaimana cara
+melakukan kunci private sebesar 32 byte dimana
 
 248
 00:11:48,700 --> 00:11:51,040
-kunci privat Anda adalah
+kunci private Anda
 sebenarnya cukup kecil,
 
 249
@@ -1162,13 +1162,13 @@ Dan sekarang Anda seperti, OK, keren.
 
 253
 00:12:01,240 --> 00:12:04,420
-Saya mempunyai 32 byte
-kunci privat, dan Saya
+Saya mempunyai sebuah kunci private
+sebesar 32 byte, dan saya
 
 254
 00:12:04,420 --> 00:12:06,640
-dapat membuat sangat besar
-kunci publik yang dari mereka,
+dapat membuat kunci publik yang
+sangat besar dari mereka,
 
 255
 00:12:06,640 --> 00:12:08,260
@@ -1176,23 +1176,23 @@ dan itu masih aman, bukan?
 
 256
 00:12:08,260 --> 00:12:11,410
-Karena Saya dapat menambahkan apapun
-nomor yang Saya inginkan disini.
+Karena saya dapat menambahkan angka
+apapun yang saya inginkan disini.
 
 257
 00:12:11,410 --> 00:12:13,488
-Dan Saya bisa melakukan ini
+Dan saya bisa melakukan ini
 jutaan kali,
 
 258
 00:12:13,488 --> 00:12:16,030
 dan tidak ada yang bisa menemukan
-preimage, meskipun Saya
+preimage, meskipun saya
 
 259
 00:12:16,030 --> 00:12:18,580
-memberi Anda semua ini
-terkait hash, bukan?
+memberikan Anda semua hash
+yang berkaitan, bukan?
 
 260
 00:12:18,580 --> 00:12:21,900
@@ -1205,13 +1205,13 @@ Saya bisa memberi Anda jutaan dari mereka.
 
 262
 00:12:23,340 --> 00:12:25,390
-Dan setiap kali Saya melakukannya,
+Dan setiap kali saya melakukannya,
 itu tidak memberi Anda
 
 263
 00:12:25,390 --> 00:12:27,880
 wawasan tentang bagaimana
-menemukan apa x itu--
+menemukan x itu apa--
 
 264
 00:12:27,880 --> 00:12:29,597
@@ -1223,18 +1223,18 @@ Jadi itu sangat kuat.
 
 266
 00:12:30,680 --> 00:12:33,520
-Dan sekarang Saya bisa katakan, OK,
-masalah kunci privat sudah terpecahkan.
+Dan sekarang saya bisa katakan, OK,
+masalah kunci private sudah terpecahkan.
 
 267
 00:12:33,520 --> 00:12:37,420
 Saya memiliki 0 dari 1 pertumbuhan
-di kunci pribadi Saya
+di kunci private saya
 
 268
 00:12:37,420 --> 00:12:39,670
-Saya dapat membuat publik sebanyak
-kunci yang Saya inginkan, tidak pernah
+Saya dapat membuat kunci publik
+sebanyak yang saya inginkan, tidak pernah
 
 269
 00:12:39,670 --> 00:12:40,570
@@ -1251,7 +1251,7 @@ kunci publik ini.
 
 272
 00:12:44,320 --> 00:12:46,820
-Katakanlah Saya ingin
+Katakanlah saya ingin
 menandatangani empat kali.
 
 273
@@ -1260,12 +1260,12 @@ OK.
 
 274
 00:12:47,320 --> 00:12:50,957
-Baik, Saya akan membuat 64
-kilobyte kunci public.
+Baik, saya akan membuat kunci
+publik sebesar 64 kilobyte.
 
 275
 00:12:54,640 --> 00:12:56,270
-Sekarang Saya bisa menandatangani empat kali.
+Sekarang saya bisa menandatangani empat kali.
 
 276
 00:12:56,270 --> 00:12:56,770
