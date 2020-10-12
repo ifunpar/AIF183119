@@ -1283,12 +1283,12 @@ sedikit istimewa, kemudian
 
 273
 00:11:24,300 --> 00:11:27,580
-kalau kamu tanya kenapa
-token ini memiliki nilai
+kalau Anda bertanya kenapa
+token ini memiliki nilai,
 
 274
 00:11:27,580 --> 00:11:30,760
-itu karena kita pikir ada nilai.
+itu karena kita pikir itu ada nilainya.
 
 275
 00:11:30,760 --> 00:11:34,040
@@ -1303,7 +1303,7 @@ pikir itu berharga.
 277
 00:11:36,272 --> 00:11:38,230
 Serta banyak hal lain
-yang bisa masuk kesitu.
+yang bisa masuk ke dalamnya.
 
 278
 00:11:38,230 --> 00:11:43,660
@@ -1313,16 +1313,16 @@ karena itu sangat langka.
 279
 00:11:43,660 --> 00:11:47,260
 Atau mungkin kita pikir
-itu berharga karena ada orang
+itu berharga karena seseorang
 
 280
 00:11:47,260 --> 00:11:49,240
-yang bilang kepada mu
-kalau itu bisa dipakai untuk membayar
+menjanjikan bahwa Anda
+bisa menggunakannya untuk membayar
 
 281
 00:11:49,240 --> 00:11:51,130
-untuk ruang, seperti dengan Dropbox.
+untuk ruang penyimpanan, seperti dengan Dropbox.
 
 282
 00:11:51,130 --> 00:11:53,890
@@ -1337,16 +1337,17 @@ kita menyukai namanya,
 284
 00:11:55,300 --> 00:11:57,383
 atau kita menyukai orang yang
-menjalankan seluruh sistem ini
+menjalankan jaringannya.
 
 285
 00:11:57,383 --> 00:11:59,200
-Tapi, pada intinya
+Tapi pada akhirnya
 token adalah benda berharga.
 
 286
 00:11:59,200 --> 00:12:00,880
-Representasi dijital ini
+Representasi-representasi
+dijital ini
 
 287
 00:12:00,880 --> 00:12:03,500
@@ -1368,7 +1369,7 @@ NEHA NARULA: Nama.
 
 291
 00:12:06,790 --> 00:12:07,760
-AUDIENCE: [Suara tak jelas].
+AUDIENCE: [TIDAK TERDENGAR].
 
 292
 00:12:07,760 --> 00:12:09,630
@@ -1377,13 +1378,13 @@ jumlah yang terbatas.
 
 293
 00:12:09,630 --> 00:12:11,038
-NEHA NARULA: Jadi,
-pendapat saya
+NEHA NARULA: Yah,
+jadi argumen saya
 
 294
 00:12:11,038 --> 00:12:12,580
-adalah bahwa fakta yang
-menunjukkan bahwa mereka terbatas
+adalah fakta bahwa
+mereka terbatas
 
 295
 00:12:12,580 --> 00:12:14,590
@@ -1392,7 +1393,7 @@ masuk ke dalam persepsi kita
 
 296
 00:12:14,590 --> 00:12:15,340
-membuatnya berharga.
+yang membuatnya berharga.
 
 297
 00:12:18,100 --> 00:12:18,610
@@ -1410,27 +1411,27 @@ sedikit tentang uang,
 300
 00:12:22,630 --> 00:12:24,820
 berbicara sedikit
-tentang uang, Saya
+tentang uang, saya
 
 301
 00:12:24,820 --> 00:12:28,665
-ingin membahas bagaimana cara
-kerja pembayaran karena pada akhirnya, kita
+ingin membahas bagaimana sistem pembayaran
+bekerja karena pada akhirnya, kita
 
 302
 00:12:28,665 --> 00:12:30,040
-akan pergi ke
-cryptocurrency
+akan membahas ke
+mata uang kripto (cryptocurrency)
 
 303
 00:12:30,040 --> 00:12:34,090
-Dan cryptocurrency
+Dan mata uang kripto
 adalah uang tunai elektronik.
 
 304
 00:12:34,090 --> 00:12:38,420
-Jadi inilah cara pembayaran
-digital bekerja dengan benar
+Jadi beginilah cara pembayaran
+dijital bekerja
 
 305
 00:12:38,420 --> 00:12:38,920
@@ -1443,7 +1444,7 @@ yang disebut bank.
 
 307
 00:12:42,070 --> 00:12:45,340
-Kamu memiliki Alice dan kamu
+Anda memiliki Alice dan Anda
 memiliki Bob, dan Alice dan Bob
 
 308
@@ -1453,34 +1454,34 @@ memiliki rekening di bank ini.
 309
 00:12:47,800 --> 00:12:51,840
 Dan bank terus melacak siapa
-yang memiliki apa.
+memiliki apa.
 
 310
 00:12:51,840 --> 00:12:53,228
-Dan ini adalah catatan.
+Dan ini adalah rekaman-rekaman.
 
 311
 00:12:53,228 --> 00:12:54,520
-Ini mungkin menjadi rekaman digital.
+Ini mungkin menjadi rekaman dijital.
 
 312
 00:12:54,520 --> 00:12:57,190
-Mungkin catatan kertas, apa pun
+Mereka mungkin berupa
+catatan kertas, apapun
 
 313
 00:12:57,190 --> 00:12:59,440
-yang digunakan bank untuk melacak
-siapa
+yang digunakan bank
+untuk melacak siapa
 
 314
 00:12:59,440 --> 00:13:00,778
-siapa yang memiliki apa di akun
-mereka.
+siapa memiliki apa di akun mereka.
 
 315
 00:13:00,778 --> 00:13:03,070
-Dan cara yang telah aku tetapkan
-atas contoh ini sekarang,
+Dan cara yang telah saya buatkan
+untuk contoh ini sekarang,
 
 316
 00:13:03,070 --> 00:13:04,990
@@ -1504,7 +1505,7 @@ Alice ingin membayar Bob.
 320
 00:13:12,340 --> 00:13:15,250
 Katakanlah jika Alice dan
-Bob sudah berkumpul.
+Bob sudah bertemu.
 
 321
 00:13:15,250 --> 00:13:17,560
@@ -1514,17 +1515,17 @@ kedai kopi yang sama.
 322
 00:13:17,560 --> 00:13:20,260
 Dan Alice ingin membeli
-sebuah sandwich dari Bob.
+sebuah roti lapis dari Bob.
 
 323
 00:13:20,260 --> 00:13:23,680
 Dan Bob mengatakan, OK, Anda
-perlu membayar kepada saya $1.00.
+perlu membayar kepada saya $1,00.
 
 324
 00:13:23,680 --> 00:13:26,690
-Jika Anda memberi saya $1.00, maka
-saya akan memberi Anda sebuah sandwich.
+Jika Anda memberi saya $1,00, maka
+saya akan memberi Anda sebuah roti lapis.
 
 325
 00:13:26,690 --> 00:13:28,460
@@ -1533,17 +1534,17 @@ Jadi bagaimana Alice bisa melakukan ini?
 326
 00:13:28,460 --> 00:13:31,130
 Bagaimana dia bisa menyerahkan
-$1.00 kepada Bob?
+$1,00 kepada Bob?
 
 327
 00:13:31,130 --> 00:13:34,220
 Yah, jika dia memiliki selembar
-dollar, dia bisa melakukannya.
+uang kertas dolar, dia bisa melakukannya.
 
 328
 00:13:34,220 --> 00:13:37,970
 Tapi katakanlah bahwa dia
-tidak memiliki selembar dollar.
+tidak memiliki selembar dolar.
 
 329
 00:13:37,970 --> 00:13:43,100
