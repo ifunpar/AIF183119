@@ -1674,50 +1674,51 @@ pembayaran itu untuk kita
 
 355
 00:14:44,230 --> 00:14:47,110
-and that is keeping
-track of everything.
+dan itu melacak
+segalanya.
+
 
 356
 00:14:47,110 --> 00:14:51,700
-Now what are the pros and
-cons of this scenario?
+Sekarang apa pro dan
+kontra dari skenario ini?
 
 357
 00:14:51,700 --> 00:14:54,560
-Anyone want to
-throw a couple out?
+Adakah yang ingin
+membuang pasangan?
 
 358
 00:14:54,560 --> 00:14:55,440
-Yeah.
+Ya.
 
 359
 00:14:55,440 --> 00:14:56,980
-AUDIENCE: The bank
-can get hacked
+AUDIENCE: Bank
+bisa diretas
 
 360
 00:14:56,980 --> 00:14:59,608
-and people could move money
-around between the accounts.
+dan orang-orang dapat memindahkan uang
+antar rekening.
 
 361
 00:14:59,608 --> 00:15:00,400
-NEHA NARULA: Right.
+NEHA NARULA: Benar.
 
 362
 00:15:00,400 --> 00:15:02,290
-So we're putting a lot
-of trust in this bank.
+Jadi kita menaruh banyak
+kepercayaan di bank ini.
 
 363
 00:15:02,290 --> 00:15:04,360
-And maybe should
-we trust the bank?
+Dan mungkin haruskah
+kita mempercayai bank?
 
 364
 00:15:04,360 --> 00:15:06,490
-Banks fail sometimes.
+Bank terkadang gagal.
 
 365
 00:15:06,490 --> 00:15:07,780
