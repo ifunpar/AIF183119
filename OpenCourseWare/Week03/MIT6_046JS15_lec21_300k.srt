@@ -1568,7 +1568,7 @@ membuat sebuah fungsi hash sehingga
 335
 00:18:04,400 --> 00:18:08,030
 jika saya memberikan Anda 
-sebuah spesifikasi-- kita menyebutnya
+sebuah spesifik-- kita menyebutnya
 
 336
 00:18:08,030 --> 00:18:12,870
@@ -1578,7 +1578,7 @@ kita berbicara mengenai SHA-1 disini,
 337
 00:18:12,870 --> 00:18:16,792
 dan itu adalah hashnya--
-yang akan saya miliki,
+Saya akan memiliki,
 
 338
 00:18:16,792 --> 00:18:18,250
@@ -1592,7 +1592,7 @@ memproduksi string 160-bit tersebut,
 
 340
 00:18:25,430 --> 00:18:26,390
-OK? 
+OK?
 
 341
 00:18:26,390 --> 00:18:29,100
@@ -1634,7 +1634,7 @@ angka 160-bit acak yang
 
 349
 00:18:53,580 --> 00:18:55,700
-dihasilkan dan
+dibangkitkan dan
 ditaruh ke dalam buku tersebut.
 
 350
@@ -1668,23 +1668,23 @@ atau tidak.
 
 356
 00:19:14,660 --> 00:19:18,310
-Dan itu akan membutuhkan waktu 
-yang lama, mungkin sekali, OK?
+Dan itu mungkin akan membutuhkan waktu 
+yang sangat lama, OK?
 
 357
 00:19:18,310 --> 00:19:23,290
-Jadi di suatu kasus di mana Anda
+Jadi pada kasus di mana Anda
 memiliki sebuah pembangkit nilai acak Anda
 
 358
 00:19:23,290 --> 00:19:27,660
 harus menelusuri dan menemukan--
-memeriksa keluaran hash 
+memeriksa keluaran hash
 
 359
 00:19:27,660 --> 00:19:30,502
 yang sesuai dengan tiap
-masukan dalam pembangkit nilai acak,
+entri dalam pembangkit nilai acak,
 
 360
 00:19:30,502 --> 00:19:32,960
@@ -1731,8 +1731,8 @@ memperoleh ini sesungguhnya.
 
 369
 00:19:50,410 --> 00:19:54,510
-Tapi apa yang-- saya harus 
-menjelaskan-- adalah hal itu fungsi hash
+Tapi apa yang-- saya harus
+jelas-- adalah fungsi hash
 
 370
 00:19:54,510 --> 00:19:59,180
@@ -1742,7 +1742,7 @@ sebelumnya hanya untuk membangun
 371
 00:19:59,180 --> 00:20:02,570
 kamus tidak
-memadai hal ini, benar?
+memmuaskan hal ini, benar?
 
 372
 00:20:02,570 --> 00:20:11,860
@@ -1752,7 +1752,7 @@ sama dengan x kuadrat modulo p.
 373
 00:20:11,860 --> 00:20:18,050
 Apakah ini satu arah,
-mempertimbangkan sebuah p publik?
+diberikan sebuah p publik?
 
 374
 00:20:18,050 --> 00:20:19,210
@@ -1761,7 +1761,7 @@ Tidak tentu saja bukan, benar?
 375
 00:20:19,210 --> 00:20:22,310
 Karena saya akan menjadi--
-hal ini akan menjadi mudah
+hal ini akan mudah
 
 376
 00:20:22,310 --> 00:20:24,730
@@ -1774,7 +1774,7 @@ diskret saya dapat melakukan sesuatu
 
 378
 00:20:29,320 --> 00:20:32,670
-seperti, ya, saya tahu bahwa apa yang
+seperti, yah, saya tahu bahwa apa yang
 saya punya di sini-- sebenarnya, mari
 
 379
@@ -1804,12 +1804,12 @@ dilihat sebagai sisa.
 
 384
 00:20:45,900 --> 00:20:51,870
-Jadi apapun-- jika ini 
+Jadi apapun-- jika ini
 adalah h dari x, dan mari
 
 385
 00:20:51,870 --> 00:20:54,310
-sebut saja hal itu y 
+sebut saja hal itu y
 sebentar, karena hal itu 
 
 386
@@ -1849,7 +1849,7 @@ kenapa Anda tidak bisa?
 394
 00:21:16,250 --> 00:21:17,970
 Apa yang harus saya
-taruh di sana agar 
+taruh di sana agar
 
 395
 00:21:17,970 --> 00:21:24,170
@@ -1866,12 +1866,12 @@ Iya?
 
 398
 00:21:26,192 --> 00:21:27,967
-PENONTON: Bisakah Anda
-menulis y-nya saja?
+AUDIENS: Bisakah Anda
+menulis y nya saja?
 
 399
 00:21:27,967 --> 00:21:29,300
-SRINIVAS DEVADAS: Hanya y-nya saja.
+SRINIVAS DEVADAS: Hanya y nya saja.
 
 400
 00:21:29,300 --> 00:21:29,960
@@ -1883,7 +1883,7 @@ Poin yang baik.
 
 402
 00:21:30,900 --> 00:21:32,635
-Hanya y-nya saja dalam kasus ini.
+Hanya y nya saja dalam kasus ini.
 
 403
 00:21:32,635 --> 00:21:33,820
@@ -1906,7 +1906,7 @@ y-- dan ingat y
 407
 00:21:41,500 --> 00:21:46,190
 akan menjadi sesuatu
-yang bernilai dari 0 sampai p kurang 1, benar?
+yang bernilai dari 0 sampai p dikurangi 1, benar?
 
 408
 00:21:46,190 --> 00:21:47,520
@@ -1919,7 +1919,7 @@ Hal itu hanya akan berlalu saja, benar?
 410
 00:21:49,170 --> 00:21:51,150
 Jadi itu adalah contoh yang
-sepele, benar?
+mudah dipahami, benar?
 
 411
 00:21:51,150 --> 00:21:55,780
@@ -1929,7 +1929,7 @@ di sini, jelas ini bukan y,
 412
 00:21:55,780 --> 00:22:03,050
 tetapi saya bisa mulai 
-melihat-- hal yang saya miliki di sini
+melihat pada-- hal yang saya miliki di sini
 
 413
 00:22:03,050 --> 00:22:05,280
@@ -1958,12 +1958,12 @@ yang rumit untuk dicoba dan dipelajari,
 
 418
 00:22:18,020 --> 00:22:20,230
-melalui percobaan dan
-potensi kesalahan,
+melalui coba-coba
+(trial and error),
 
 419
 00:22:20,230 --> 00:22:23,250
-apa x itu adalah hal yang
+x apakah yang
 menghasilkan sebuah y tertentu
 
 420
@@ -1977,7 +1977,7 @@ lihat, OK?
 
 422
 00:22:26,900 --> 00:22:32,050
-Sekarang seiring Anda memperumit
+Sekarang semakin Anda membuat rumit
 persamaan ini, persamaan ini semakin sulit.
 
 423
@@ -1987,8 +1987,8 @@ kumpulan persamaan ini.
 
 424
 00:22:34,626 --> 00:22:36,000
-Dan hal itulah yang
-akan menjadi permainan
+Dan seperti itulah
+permainan ini akan berbentuk
 
 425
 00:22:36,000 --> 00:22:38,620
@@ -2012,12 +2012,12 @@ di mana, seperti yang saya katakan, Anda mempunyai
 
 429
 00:22:47,770 --> 00:22:49,400
-hal-hal mulai bercampur aduk.
+hal-hal dicampur aduk.
 
 430
 00:22:49,400 --> 00:22:53,210
 Dan harapannya adalah Anda menciptakan
-sirkuit ini, jika Anda bersedia,
+sirkuit ini,
 
 431
 00:22:53,210 --> 00:22:54,970
@@ -2026,8 +2026,8 @@ komputasi ini di dalamnya.
 
 432
 00:22:54,970 --> 00:22:57,170
-Maju ke depan
-itu mudah, karena Anda telah
+Ke depannya akan semakin
+mudah, karena Anda telah
 
 433
 00:22:57,170 --> 00:22:59,350
@@ -2045,8 +2045,8 @@ memiliki invers-invers sederhana.
 
 436
 00:23:04,830 --> 00:23:07,790
-Dan mundur kembali,
-yang merupakan hal apa yang
+Dan kembali ke belakang,
+apa yang
 
 437
 00:23:07,790 --> 00:23:11,010
@@ -2065,7 +2065,7 @@ seiring dengan komputasi-komputasi yang
 
 440
 00:23:17,100 --> 00:23:18,890
-semakin rumit, OK?
+semakin kompleks, OK?
 
 441
 00:23:18,890 --> 00:23:20,905
@@ -2078,7 +2078,7 @@ Jadi itulah ke-satu-arah-an.
 
 443
 00:23:26,990 --> 00:23:30,930
-Ada empat properti-properti lain,
+Ada empat properti lain,
 dua dari mereka sangat berhubungan.
 
 444
@@ -2087,25 +2087,25 @@ CR dan TCR.
 
 445
 00:23:33,700 --> 00:23:35,550
-Jadi CR adalah ketahanan terhadap kesamaan (collision resistance).
+Jadi CR adalah ketahanan terhadap tabrakan (collision resistance).
 
 446
 00:23:42,970 --> 00:23:54,290
 Hal ini tidak memungkinkan untuk menemukan x dan
-x prima, agar x tidak sama
+x aksen, agar x tidak sama
 
 447
 00:23:54,290 --> 00:24:02,269
-dengan x prima, dan h dari
-x sama dengan h dari x prima,
+dengan x aksen, dan h dari
+x sama dengan h dari x aksen,
 
 448
 00:24:02,269 --> 00:24:03,560
-yang tentu saja merupakan sebuah collision.
+yang tentu saja merupakan sebuah tabrakan.
 
 449
 00:24:08,300 --> 00:24:09,690
-OK? 
+OK?
 
 450
 00:24:09,690 --> 00:24:14,790
