@@ -1609,64 +1609,68 @@ melihat, bahwa iya faktanya,
 
 342
 00:14:12,140 --> 00:14:14,090
-the bank is saying
-that he has $5.00 now,
+banknya mengatakan bahwa
+dia memiliki $5.00 sekarang,
 
 343
 00:14:14,090 --> 00:14:16,250
-whereas before he had zero.
+padahal sebelumnya dia 
+memiliki 0 dolar.
 
 344
 00:14:16,250 --> 00:14:19,280
-And then Bob gives Alice the
-sandwich because he believes
+Dan kemudian Bob memberikan 
+Alice sandwichnya karena dia 
+mengetahui
 
 345
 00:14:19,280 --> 00:14:20,980
-that he now has $5.00.
+bahwa sekarang dia 
+memiliki $5.00.
 
 346
 00:14:20,980 --> 00:14:24,580
-And the bank sort of
-preserved the property
+Dan banknya semacam 
+mempertahankan properti
 
 347
 00:14:24,580 --> 00:14:27,880
-that money was not created out
-of nowhere, that the balance
+yang menyatakan bahwa uangnya
+tidak diketahui berasal darimana,
 
 348
 00:14:27,880 --> 00:14:29,680
-was ultimately maintained.
+padahal saldonya selalu 
+diurus dengan maksimal.
 
 349
 00:14:29,680 --> 00:14:32,260
-So the bank is very
-important in this scenario.
+Maka di skenario ini
+bank menjadi sangat penting.
 
 350
 00:14:32,260 --> 00:14:33,830
-The bank is critical.
+Banknya penting.
 
 351
 00:14:33,830 --> 00:14:35,500
-This is how digital
-payments work.
+Seperti itulah cara kerja
+pembayaran digital.
 
 352
 00:14:35,500 --> 00:14:39,003
-Credit cards, Venmo,
-banks, kind of all sort
+Kartu kredit, Venmo, 
+para bank, jenis dari semua
 
 353
 00:14:39,003 --> 00:14:41,170
-of based on the same idea,
-that there's some trusted
+yang berdasarkan ide yang sama,
+bahwa ada beberapa institusi
 
 354
 00:14:41,170 --> 00:14:44,230
-institution that is
-handling that payment for us
+yang terpercaya yang mengatur
+pembayaran itu untuk kita
 
 355
 00:14:44,230 --> 00:14:47,110
