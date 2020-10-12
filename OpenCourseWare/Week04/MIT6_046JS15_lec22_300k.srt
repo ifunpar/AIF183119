@@ -1273,391 +1273,391 @@ mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
-But if they ever see a
-key, they'll keep it.
+Tetapi jika mereka melihat 
+sebuah kunci, mereka akan menyimpannya.
 
 270
 00:14:51,390 --> 00:14:53,435
-If they ever see kind
-of a key on the boat,
+Jika mereka pernah melihat 
+semacam sebuah kunci di kapal,
 
 271
 00:14:53,435 --> 00:14:54,810
-they'll just grab
-it and keep it.
+mereka akan langsung 
+mengambilnya dan menyimpannya.
 
 272
 00:14:54,810 --> 00:14:57,018
-And then the next time
-around, they see a locked box,
+Dan kemudian pada waktu berikutnya, 
+mereka melihat sebuah kotak terkunci,
 
 273
 00:14:57,018 --> 00:15:00,140
-they'll stick the key
-in and try and open it.
+mereka akan memasukkan kunci 
+dan mencoba membukanya.
 
 274
 00:15:00,140 --> 00:15:01,970
-All right.
+Baiklah.
 
 275
 00:15:01,970 --> 00:15:06,340
-So how do Alice and Bob
-securely exchange a secret
+Jadi bagaimana Alice dan Bob 
+dengan aman bertukar rahasia
 
 276
 00:15:06,340 --> 00:15:09,600
-where security is based
-on this notion of piracy,
+di mana keamanan didasarkan 
+pada gagasan pembajakan ini,
 
 277
 00:15:09,600 --> 00:15:16,980
-I guess, with the pirates having
-a certain amount of capability
+Saya kira, dengan bajak laut
+memiliki sejumlah kemampuan
 
 278
 00:15:16,980 --> 00:15:20,610
-in terms of storing keys,
-and opening up the locks,
+dalam hal menyimpan kunci,
+dan membuka kunci,
 
 279
 00:15:20,610 --> 00:15:23,460
-but they will not
-touch a locked box?
+tetapi mereka tidak akan 
+menyentuh kotak yang terkunci?
 
 280
 00:15:23,460 --> 00:15:24,635
-All right.
+Baiklah.
 
 281
 00:15:24,635 --> 00:15:25,510
-So that's the puzzle.
+Jadi itulah teka-tekinya.
 
 282
 00:15:25,510 --> 00:15:27,790
-How many of you have heard
-of this puzzle before?
+Berapa banyak dari kalian yang sudah mendengar
+tentang teka-teki ini sebelumnya?
 
 283
 00:15:27,790 --> 00:15:30,090
-So all of you keep quiet.
+Jadi Anda semua tetap diam.
 
 284
 00:15:30,090 --> 00:15:34,350
-Someone who hasn't heard
-of this puzzle before,
+Seseorang yang belum pernah mendengar
+tentang teka-teki ini sebelumnya,
 
 285
 00:15:34,350 --> 00:15:39,770
-think for a few seconds here and
-see if a solution occurs to you
+coba pikirkan sejenak dan
+lihat apakah ada sebuah solusi terpikirkan oleh Anda
 
 286
 00:15:39,770 --> 00:15:43,490
-with respect to going back and
-forth-- so that's the hint,
+Dalam hal bolak-balik--
+jadi itulah petunjuknya,
 
 287
 00:15:43,490 --> 00:15:47,980
-going back and forth-- and
-being able to securely exchange
+bolak-balik-- dan
+dapat secara aman menukarkan
 
 288
 00:15:47,980 --> 00:15:51,660
-a message, which could be a
-128-bit secret key written
+sebuah pesan, yang bisa berupa
+kunci rahasia 128-bit tertulis
 
 289
 00:15:51,660 --> 00:15:55,060
-on a little note
-between Alice and Bob.
+pada catatan kecil
+antara Alice dan Bob.
 
 290
 00:15:55,060 --> 00:15:55,560
-Yeah?
+Ya?
 
 291
 00:15:55,560 --> 00:15:56,578
-Back there.
+Di belakang sana.
 
 292
 00:15:56,578 --> 00:16:00,780
-AUDIENCE: Are they allowed
-to pass locks such that--
+AUDIENS: Apakah mereka diizinkan
+untuk melewatkan kunci-kuncinya sedemikian--
 
 293
 00:16:00,780 --> 00:16:02,530
-SRINIVAS DEVADAS: So
-if you see it locked,
+SRINIVAS DEVADAS: Jadi
+jika Anda lihat itu terkunci,
 
 294
 00:16:02,530 --> 00:16:04,510
-they'll throw away
-the lock, too.
+Mereka akan membuang
+gemboknya juga.
 
 295
 00:16:04,510 --> 00:16:08,370
-If the lock is on
-the box, then sure,
+Jika gemboknya berada
+pada kotak, tentu saja,
 
 296
 00:16:08,370 --> 00:16:10,340
-they will deliver that box.
+mereka akan mengirim kotak itu.
 
 297
 00:16:10,340 --> 00:16:12,610
-But if the key is
-outside of that box,
+Tetapi jika kunci berada
+di luar kotak itu,
 
 298
 00:16:12,610 --> 00:16:13,960
-then they'll keep the key.
+maka mereka akan menyimpan kuncinya.
 
 299
 00:16:21,990 --> 00:16:24,270
-No-- this is a difficult puzzle.
+Tidak-- ini adalah teka-teki yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
-Yeah?
+Ya?
 
 301
 00:16:26,246 --> 00:16:29,107
-AUDIENCE: Alice could lock
-the box and send it to Bob.
+AUDIENS: Alice dapat mengunci
+kotak dan mengirimkannya kepada Bob.
 
 302
 00:16:29,107 --> 00:16:30,065
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 303
 00:16:30,065 --> 00:16:34,572
-AUDIENCE: And then Bob
-could also lock the box.
+Penonton: Dan kemudian Bob
+juga dapat mengunci kotaknya.
 
 304
 00:16:34,572 --> 00:16:35,900
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 305
 00:16:35,900 --> 00:16:37,090
-And then?
+Kemudian?
 
 306
 00:16:37,090 --> 00:16:40,801
-At that point-- no,
-you're on the right track.
+Pada poin itu-- tidak,
+Anda berada pada jalur yang tepat.
 
 307
 00:16:40,801 --> 00:16:41,300
-Keep going.
+Lanjutkan.
 
 308
 00:16:41,300 --> 00:16:43,740
-Just push it a little more.
+Lanjutkanlah sedikit lagi.
 
 309
 00:16:43,740 --> 00:16:46,492
-Couple of more boat
-rides and we're done.
+Naik perahu beberapa lagi
+dan kita akan selesai.
 
 310
 00:16:46,492 --> 00:16:48,456
-Yeah.
+Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-AUDIENCE: And then
-if Bob sends--
+AUDIENS: Kemudian
+jika Bob mengirim--
 
 312
 00:16:52,501 --> 00:16:54,750
-SRINIVAS DEVADAS: So there's
-now two locks on the box.
+SRINIVAS DEVADAS: Jadi 
+sekarang ada dua gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-AUDIENCE: Yes.
+AUDIENS: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
-SRINIVAS DEVADAS: And Bob
-has two locks on the box.
+SRINIVAS DEVADAS: Dan Bob
+memiliki 2 gembok pada kotak.
 
 315
 00:16:58,562 --> 00:17:00,020
-And so what's Bob
-going to do next?
+Dan jadi apa yang Bob
+akan lakukan selanjutnya?
 
 316
 00:17:00,020 --> 00:17:03,742
-What's the logical thing
-for Bob to do next?
+Apa hal yang logis 
+untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-AUDIENCE: Send it back to Alice.
+AUDIENS: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
 SRINIVAS DEVADAS:
-Send it back Alice.
+Mengirimkan kembali Alice.
 
 319
 00:17:06,630 --> 00:17:10,300
-And now the key's inside.
+Dan sekarang kuncinya berada di dalam.
 
 320
 00:17:10,300 --> 00:17:14,170
-Alice now sees two
-locks on the box.
+Alice sekarang melihat dua
+gembok pada kotak.
 
 321
 00:17:14,170 --> 00:17:16,420
-And one of the locks is Bobs.
+Dan salah satu gembok adalah milik Bob.
 
 322
 00:17:16,420 --> 00:17:17,180
-And other is?
+Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-AUDIENCE: Hers.
+AUDIENS: Miliknya (Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
-SRINIVAS DEVADAS: Is hers.
+SRINIVAS DEVADAS: itu miliknya.
 
 325
 00:17:18,690 --> 00:17:19,380
-AUDIENCE: She can unlock it.
+AUDIENS: Dia bisa membuka kucinya.
 
 326
 00:17:19,380 --> 00:17:21,046
-SRINIVAS DEVADAS: She
-can unlock the box
+SRINIVAS DEVADAS: Ia 
+bisa membuka kuncinya
 
 327
 00:17:21,046 --> 00:17:23,540
-and send it back to Bob.
+dan mengirimkannya kembali ke Bob.
 
 328
 00:17:23,540 --> 00:17:27,650
-And all of this time, the only
-thing that's gone in transit
+Dan selama ini, satu-satunya
+hal yang hilang di perjalanan
 
 329
 00:17:27,650 --> 00:17:29,750
-is a locked box.
+adalah kotak yang terkunci
 
 330
 00:17:29,750 --> 00:17:32,050
-No keys have gone
-into in transit,
+Tidak ada kunci yang hilang
+dalam transit,
 
 331
 00:17:32,050 --> 00:17:34,400
-whether they're inside
-the box or wherever.
+apakah mereka ada di dalam
+kotak atau dimanapun.
 
 332
 00:17:34,400 --> 00:17:38,720
-But the only thing that's
-moved is a locked box.
+Tapi satu-satunya hal yang
+dipindahkan adalah kotak yang terkunci.
 
 333
 00:17:38,720 --> 00:17:39,410
-So that's good.
+Jadi itu bagus.
 
 334
 00:17:39,410 --> 00:17:40,550
-You're exactly right.
+Anda tepat sekali.
 
 335
 00:17:40,550 --> 00:17:45,110
-So that gets you a Frisbee.
+Jadi itu akan memberi Anda sebuah Frisbee.
 
 336
 00:17:45,110 --> 00:17:46,930
-Whoops, sorry.
+Ups, maaf.
 
 337
 00:17:46,930 --> 00:17:48,710
-We need a secure exchange there.
+Kita membutuhkan pertukaran yang aman di sana.
 
 338
 00:17:48,710 --> 00:17:50,730
-Yeah, that's good.
+Ya, itu bagus.
 
 339
 00:17:50,730 --> 00:17:54,250
-So that is exactly right.
+Jadi itu sangat tepat.
 
 340
 00:17:54,250 --> 00:18:05,610
-So just to recap, Alice
-locks box with KA,
+Untuk merekap, Alice
+mengunci kotak dengan KA,
 
 341
 00:18:05,610 --> 00:18:09,980
-and that's the key for
-the lock, sends it to Bob.
+Dan itulah kunci untuk 
+gemboknya, mengirimkannya ke Bob.
 
 342
 00:18:09,980 --> 00:18:18,320
-Bob locks box with
-KB, sends it to Alice.
+Bob mengunci kotak dengan
+KB, mengirimkannya ke Alice.
 
 343
 00:18:18,320 --> 00:18:24,220
-And Alice unlocks--
-oh, I should've said
+Dan Alice membuka--
+oh, seharusnya saya katakan
 
 344
 00:18:24,220 --> 00:18:27,100
-that Alice puts message in box.
+Alice menyimpan pesan di dalam kotak.
 
 345
 00:18:32,590 --> 00:18:36,630
-And that message has the
-secret key inside of it.
+Dan pesan itu mempunyai
+kunci rahasia di dalamnya.
 
 346
 00:18:36,630 --> 00:18:45,840
-Alice unlocks KA and
-sends box to Bob.
+Alice membuka KA dan
+mengirim kotak kepada Bob.
 
 347
 00:18:45,840 --> 00:18:56,130
-And then Bob unlocks
-KB and reads message.
+Dan selanjutnya Bob membuka
+KB dan membaca pesan.
 
 348
 00:18:56,130 --> 00:18:57,470
-So that's good.
+Jadi itu bagus.
 
 349
 00:18:57,470 --> 00:18:59,870
-That's all good.
+Itu semua bagus.
 
 350
 00:18:59,870 --> 00:19:03,480
-Let's look at it a
-little more deeply
+Mari kita lihat ini
+sedikit lebih dalam lagi
 
 351
 00:19:03,480 --> 00:19:08,170
-and think about it from a
-mathematical standpoint, not
+dan berpikir tentang ini dari
+sudut pandang matematika, bukan
 
 352
 00:19:08,170 --> 00:19:09,330
-a physical standpoint.
+dari sudut pandang fisika.
 
 353
 00:19:09,330 --> 00:19:11,990
-You could think about it from
-a physical standpoint as well.
+Anda bisa memikirkan tentang ini
+dari sudut pandang fisika juga.
 
 354
 00:19:11,990 --> 00:19:18,050
