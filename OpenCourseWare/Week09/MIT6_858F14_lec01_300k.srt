@@ -1541,547 +1541,547 @@ batasan yang agak membingungkan, benar?
 
 327
 00:13:09,190 --> 00:13:11,660
-The more secure you make
-your system, the less likely
+Semakin aman sistem yang
+Anda bangun, semakin kecil kemungkinan
 
 328
 00:13:11,660 --> 00:13:14,910
-you'll have some embarrassing
-story on the front page of New
+bagi Anda untuk muncul dalam cerita
+memalukan di halaman depan New
 
 329
 00:13:14,910 --> 00:13:17,000
-York Times saying,
-your start up company
+York Times yang mengatakan,
+perusahaan baru Anda
 
 330
 00:13:17,000 --> 00:13:21,460
-leaked a million people's
-social security numbers.
+membocorkan nomor keamanan
+dari satu juta orang.
 
 331
 00:13:21,460 --> 00:13:26,770
-And then you pay less money
-to recover from that disaster.
+Dan kemudian Anda bayar lebih sedikit
+untuk pulih dari bencana tersebut.
 
 332
 00:13:26,770 --> 00:13:29,650
-And I guess one sort of actually
-positive note on security
+Dan saya kira satu catatan yang
+benar-benar positif tentang keamanan
 
 333
 00:13:29,650 --> 00:13:33,230
-is that, in many ways, security
-enables cool things that you
+adalah bahwa, dalam banyak hal, keamanan memungkinkan
+Anda untuk melakukan hal-hal keren yang Anda
 
 334
 00:13:33,230 --> 00:13:36,450
-couldn't do before, because
-security, especially
+tidak bisa lakukan sebelumnya, karena
+keamanan, terutama
 
 335
 00:13:36,450 --> 00:13:40,170
-mechanisms, that
-allow us to protect
+mekanisme, yang memungkinkan
+kita untuk berlindung
 
 336
 00:13:40,170 --> 00:13:43,140
-against certain classes of
-attacks, are pretty powerful.
+dari beberapa jenis serangan,
+cukup kuat.
 
 337
 00:13:43,140 --> 00:13:46,512
-As one example, the browser used
-to be fairly boring in terms
+Sebagai contoh, peramban (web browser) sebelumnya
+cukup membosankan dalam hal
 
 338
 00:13:46,512 --> 00:13:47,720
-of what you could do with it.
+apa yang bisa Anda lakukan dengannya.
 
 339
 00:13:47,720 --> 00:13:49,270
-You could just view
-web pages, maybe
+Anda hanya bisa melihat
+halaman web, mungkin
 
 340
 00:13:49,270 --> 00:13:50,930
-run some JavaScript code in it.
+menjalankan beberapa kode JavaScript di dalamnya.
 
 341
 00:13:50,930 --> 00:13:52,710
-But now there's all
-these cool mechanisms
+Namun sekarang ada semua
+mekanisme keren ini
 
 342
 00:13:52,710 --> 00:13:54,420
-we'll learn about
-in a couple of weeks
+yang akan kita pelajari
+dalam beberapa minggu
 
 343
 00:13:54,420 --> 00:13:57,810
-that allow you to run arbitrary
-x86 native code in the web
+yang memungkinkan Anda untuk menjalankan
+kode asli x86 (native code) dalam peramban
 
 344
 00:13:57,810 --> 00:13:59,530
-browser and make
-sure it doesn't do
+web dan memastikan bahwa
+penjelajah web tersebut tidak melakukan
 
 345
 00:13:59,530 --> 00:14:01,260
-anything funny to your machine.
+hal-hal lucu terhadap komputer Anda.
 
 346
 00:14:01,260 --> 00:14:04,154
-And it can send-- and
-there's a technique or system
+Dan peramban bisa mengirimkan-- dan
+ada sebuah teknik atau sistem
 
 347
 00:14:04,154 --> 00:14:06,070
-called Native Client
-from Google that actually
+yang disebut dengan Native Client
+dari Google yang sebenarnya
 
 348
 00:14:06,070 --> 00:14:08,200
-allows us to do this securely.
+memungkinkan kita untuk melakukan hal ini dengan aman.
 
 349
 00:14:08,200 --> 00:14:11,127
-And before, in order to run some
-native game on your machine,
+Dan sebelumnya, untuk menjalankan beberapa 
+permainan di komputer Anda,
 
 350
 00:14:11,127 --> 00:14:13,710
-you'd have download and install
-it, click on lot's of dialogue
+Anda harus mengunduh dan menginstalnya,
+mengklik banyak kotak
 
 351
 00:14:13,710 --> 00:14:15,671
-boxes, say yes, I allow this.
+dialog, mengatakan ya, saya mengizinkan ini.
 
 352
 00:14:15,671 --> 00:14:17,420
-But now, you can just
-run it in a browser,
+Namun sekarang, Anda bisa
+menjalankannya dalam sebuah peramban,
 
 353
 00:14:17,420 --> 00:14:18,600
-no clicking required.
+tanpa perlu mengklik apapun.
 
 354
 00:14:18,600 --> 00:14:19,510
-It just runs.
+Permainan tersebut langsung jalan.
 
 355
 00:14:19,510 --> 00:14:22,200
-And the reason it's
-so easy and powerful
+Dan alasan mengapa hal itu
+sangat mudah dan kuat
 
 356
 00:14:22,200 --> 00:14:25,990
-is that our security mechanism
-can sandbox this program
+adalah karena mekanisme keamanan kita
+dapat memasukkan program ini ke dalam kotak pasir (sandbox)
 
 357
 00:14:25,990 --> 00:14:29,590
-and not have to assume anything
-about the user choosing
+dan tidak perlu berasumsi apapun
+tentang pengguna yang memilih
 
 358
 00:14:29,590 --> 00:14:31,730
-the right game and not
-some malicious game to play
+permainan yang benar dan tidak memilih
+permainan berbahaya untuk dimainkan
 
 359
 00:14:31,730 --> 00:14:34,460
-in their computer, or
-some other program to run.
+pada komputer mereka, atau memilih
+beberapa program lain untuk dijalankan.
 
 360
 00:14:34,460 --> 00:14:36,270
-So in many ways, good
-security mechanisms
+Jadi dalam banyak hal, mekanisme
+keamanan yang baik
 
 361
 00:14:36,270 --> 00:14:40,610
-are going to enable constructing
-cool new systems that weren't
+akan memungkinkan pembangunan sistem
+baru yang keren yang tidak
 
 362
 00:14:40,610 --> 00:14:43,551
-possible to construct before.
+mungkin dibuat sebelumnya.
 
 363
 00:14:43,551 --> 00:14:44,050
-All right.
+Baiklah.
 
 364
 00:14:44,050 --> 00:14:45,420
-Make sense?
+Masuk akal?
 
 365
 00:14:45,420 --> 00:14:50,485
-Any questions about this story?
+Ada pertanyaan tentang cerita ini?
 
 366
 00:14:50,485 --> 00:14:51,890
-All right.
+Baiklah.
 
 367
 00:14:51,890 --> 00:14:54,150
-So I guess in the
-rest of the lecture,
+Jadi saya kira selama
+sisa kuliah ini,
 
 368
 00:14:54,150 --> 00:14:58,320
-I want to go through a bunch
-of different examples of how
+saya ingin melihat sekumpulan
+contoh berbeda tentang bagaimana
 
 369
 00:14:58,320 --> 00:15:00,000
-security goes wrong.
+keamanan menjadi tidak semestinya.
 
 370
 00:15:00,000 --> 00:15:02,680
-So, so far, we've seen
-how you can think of it.
+Jadi, sejauh ini, kita telah melihat
+bagaimana Anda dapat memikirkannya.
 
 371
 00:15:02,680 --> 00:15:05,790
-But inevitably, it's
-useful to see examples
+Namun mau tidak mau, ada
+baiknya melihat contoh
 
 372
 00:15:05,790 --> 00:15:10,230
-of what not to do so that you
-can have a better mindset when
+tentang apa yang tidak boleh dilakukan agar Anda 
+bisa memiliki pola pikir yang lebih baik ketika
 
 373
 00:15:10,230 --> 00:15:12,470
-you're approaching
-security problems.
+Anda mendekati
+masalah keamanan.
 
 374
 00:15:12,470 --> 00:15:16,586
-And in this sort of breakdown
-of a security system,
+Dan dalam masalah tentang
+bobolnya sistem keamanan,
 
 375
 00:15:16,586 --> 00:15:18,942
-pretty much every one of
-these three things goes wrong.
+kurang lebih setiap satu dari
+tiga hal ini menjadi tidak semestinya.
 
 376
 00:15:18,942 --> 00:15:20,650
-In practice, people
-get the policy wrong,
+Dalam praktiknya, orang-orang
+salah dalam mengambil kebijakan,
 
 377
 00:15:20,650 --> 00:15:22,066
-people get the
-threat model wrong,
+orang-orang salah
+dalam menentukan model ancaman,
 
 378
 00:15:22,066 --> 00:15:23,580
-and people get the
-mechanism wrong.
+dan orang-orang salah
+dalam memahami mekanisme.
 
 379
 00:15:23,580 --> 00:15:27,280
-And let's, I guess, start
-with policies and examples
+Dan mari, saya kira, mulai
+dari beberapa kebijakan dan contoh
 
 380
 00:15:27,280 --> 00:15:31,420
-of how you can screw
-up a system's policy.
+tentang bagaimana Anda dapat 
+mengacaukan kebijakan sistem.
 
 381
 00:15:31,420 --> 00:15:35,220
-Maybe the cleanest or sort
-of simplest example of this
+Mungkin contoh yang paling bersih
+atau paling sederhana dari hal ini
 
 382
 00:15:35,220 --> 00:15:38,350
-are account recovery questions.
+adalah pertanyaan pemulihan akun.
 
 383
 00:15:41,810 --> 00:15:46,282
-So typically, when you
-sign into a website,
+Jadi biasanya, saat Anda
+masuk ke dalam sebuah situs web,
 
 384
 00:15:46,282 --> 00:15:47,240
-you provide a password.
+Anda akan memasukkan sebuah password.
 
 385
 00:15:47,240 --> 00:15:49,640
-But what happens if
-you lose your password?
+Namun apa yang terjadi jika
+Anda kehilangan password Anda?
 
 386
 00:15:49,640 --> 00:15:52,570
-Some sites will send
-you email if you
+Beberapa situs akan mengirimkan
+Anda email jika Anda
 
 387
 00:15:52,570 --> 00:15:55,190
-lose your password with a
-link to reset your password.
+kehilangan password Anda dengan sebuah 
+tautan untuk mengatur ulang password Anda.
 
 388
 00:15:55,190 --> 00:15:57,481
-So it's easy enough, if you
-have another email address.
+Jadi cukup mudah, jika Anda
+memiliki alamat email yang lain.
 
 389
 00:15:57,481 --> 00:15:59,400
-But what if this is
-your email provider?
+Tapi bagaimana jika masalahnya datang dari
+penyedia alamat email Anda?
 
 390
 00:15:59,400 --> 00:16:03,700
-So at least, several
-years ago, Yahoo
+Jadi setidaknya, beberapa 
+tahun yang lalu, Yahoo
 
 391
 00:16:03,700 --> 00:16:06,660
-hosted email, webmail, for
-anyone on the internet.
+memiliki layanan email, webmail, untuk
+siapapun di internet.
 
 392
 00:16:06,660 --> 00:16:08,572
-And when you forgot
-your Yahoo password,
+Dan ketika Anda lupa
+password Yahoo Anda,
 
 393
 00:16:08,572 --> 00:16:10,030
-they couldn't really
-send you email
+mereka tidak benar-benar bisa
+mengirimkan Anda email
 
 394
 00:16:10,030 --> 00:16:11,610
-because you couldn't get it.
+karena Anda tidak bisa mengaksesnya.
 
 395
 00:16:11,610 --> 00:16:13,420
-So instead, they
-had you register
+Jadi sebagai gantinya, mereka
+meminta Anda untuk mendaftarkan
 
 396
 00:16:13,420 --> 00:16:16,317
-a couple of questions with them
-that hopefully only you know.
+beberapa pertanyaan dengan
+harapan bahwa hanya Anda saja yang mengetahuinya.
 
 397
 00:16:16,317 --> 00:16:18,650
-And if you forget your password,
-you can click on a link
+Dan jika Anda lupa password Anda,
+Anda dapat mengklik sebuah tautan
 
 398
 00:16:18,650 --> 00:16:21,130
-and say, well, here's the
-answers to my questions.
+dan berkata, baiklah, ini adalah
+jawaban untuk pertanyaan-pertanyaan saya.
 
 399
 00:16:21,130 --> 00:16:23,480
-Let me have my password again.
+Biarkan saya mendapatkan password saya kembali.
 
 400
 00:16:23,480 --> 00:16:26,360
-And what turns out to
-be the case is-- well,
+Dan ternyata yang
+menjadi masalah adalah-- baiklah,
 
 401
 00:16:26,360 --> 00:16:30,430
-some people failed to realize is
-that this changes your policy,
+beberapa orang tidak menyadari 
+bahwa hal ini mengubah kebijakan Anda,
 
 402
 00:16:30,430 --> 00:16:32,800
-because before, the
-policy of the system
+karena sebelumnya, 
+kebijakan dari sebuah sistem
 
 403
 00:16:32,800 --> 00:16:35,280
-is people that can log
-in are the people that
+adalah orang-orang yang dapat masuk
+adalah orang-orang yang
 
 404
 00:16:35,280 --> 00:16:36,931
-know the password.
+mengetahui passwordnya.
 
 405
 00:16:36,931 --> 00:16:38,930
-And when you introduce
-these recovery questions,
+Dan saat Anda mengajukan
+pertanyaan-pertanyaan pemulihan ini,
 
 406
 00:16:38,930 --> 00:16:40,596
-the policy becomes,
-well, you can log in
+kebijakannya menjadi,
+baiklah, kalian dapat masuk
 
 407
 00:16:40,596 --> 00:16:44,380
-if you know either the password
-or those security questions.
+jika Anda mengetahui password
+atau pertanyaan keamanannya.
 
 408
 00:16:44,380 --> 00:16:47,001
-So it strictly weakens the
-security of your system.
+Jadi hal itu melemahkan
+sistem kemamanan Anda.
 
 409
 00:16:47,001 --> 00:16:49,250
-And many people have actually
-taken advantage of this.
+Dan banyak orang telah
+mengambil keuntungan dari hal ini.
 
 410
 00:16:49,250 --> 00:16:53,410
-One sort of well known example
-is, I think a couple years ago,
+Salah satu contoh yang terkenal
+adalah, saya pikir beberapa tahun lalu,
 
 411
 00:16:53,410 --> 00:16:55,820
-Sarah Palin had an
-email account at Yahoo.
+Sarah Pailin pernah memiliki
+akun email di Yahoo.
 
 412
 00:16:55,820 --> 00:16:59,390
-And her recovery questions
-were things like, well,
+dan pertanyaan-pertanyaan keamanan dia
+adalah pertanyaan tentang hal-hal semacam, yah,
 
 413
 00:16:59,390 --> 00:17:00,660
-where'd you go to school?
+di mana Anda bersekolah?
 
 414
 00:17:00,660 --> 00:17:03,406
-What was your friend's name?
+Siapa nama teman Anda?
 
 415
 00:17:03,406 --> 00:17:04,280
-What's your birthday?
+Kapan hari tanggal lahirmu?
 
 416
 00:17:04,280 --> 00:17:04,960
-Et cetera.
+Dan lain-lain.
 
 417
 00:17:04,960 --> 00:17:07,430
-These were all things written
-on her Wikipedia page.
+Hal-hal tersebut merupakan hal-hal yang
+telah tertulis di halaman Wikipedia tentangnya.
 
 418
 00:17:07,430 --> 00:17:09,690
-And as a result, someone
-can quite easily,
+Dan sebagai konsekuensinya,
+seseorang dapat dengan cukup mudah,
 
 419
 00:17:09,690 --> 00:17:12,839
-and someone did, actually, get
-into her Yahoo email account
+dan seseorang telah melakukannya, tentunya,
+masuk ke dalam akun email Yahoo dia
 
 420
 00:17:12,839 --> 00:17:15,319
-just by looking up on Wikipedia
-what her high school was
+hanya dengan melihat di Wikipedia tentang
+di mana dia bersekolah saat SMA
 
 421
 00:17:15,319 --> 00:17:17,379
-and what her birthday was.
+dan kapan hari ulang tahunnya.
 
 422
 00:17:17,379 --> 00:17:18,920
-So you really have
-to think carefully
+Maka Anda harus
+berpikir dengan hati-hati
 
 423
 00:17:18,920 --> 00:17:21,890
-about the implications
-of different security
+tentang implikasi
+dari bermacam kebijakan
 
 424
 00:17:21,890 --> 00:17:24,819
-policies you're making here.
+keamanan yang Anda buat di sini.
 
 425
 00:17:24,819 --> 00:17:29,220
-Perhaps a more intricate and,
-maybe, interesting example,
+Mungkin, contoh yang lebih rumit, dan
+mungkin, lebih menarik,
 
 426
 00:17:29,220 --> 00:17:32,720
-is what happens when you have
-multiple systems that start
+adalah apa yang terjadi ketika Anda
+memiliki banyak sistem yang mulai
 
 427
 00:17:32,720 --> 00:17:34,750
-interacting with one another.
+berinteraksi satu sama lain.
 
 428
 00:17:34,750 --> 00:17:39,340
-So there's this nice story
-about a guy called Mat Honan.
+Jadi ada cerita bagus
+tentang seorang pria bernama Mat Honan.
 
 429
 00:17:39,340 --> 00:17:42,660
-Maybe you read this
-story a year or two ago.
+Mungkin Anda membaca
+cerita ini satu atau dua tahun lalu.
 
 430
 00:17:42,660 --> 00:17:45,900
-He's a editor at this
-wired.com magazine.
+Dia adalah seorang editor di
+majalah wired.com.
 
 431
 00:17:45,900 --> 00:17:48,150
-And had a bit of a problem.
+Dan memiliki sedikit masalah.
 
 432
 00:17:48,150 --> 00:17:50,550
-Someone basically got
-into his Gmail account
+Sederhananya, seseorang berhasil
+masuk ke akun Gmail miliknya
 
 433
 00:17:50,550 --> 00:17:52,340
-and did lots of bad things.
+dan melakukan banyak hal buruk.
 
 434
 00:17:52,340 --> 00:17:53,590
-But how did they do it, right?
+Namun bagaimana mereka melakukannya, betul?
 
 435
 00:17:53,590 --> 00:17:54,870
-So it's kind of interesting.
+Maka hal ini cukup menarik.
 
 436
 00:17:54,870 --> 00:17:57,640
-So all parties in
-this story seem
+Jadi semua pihak dalam
+cerita ini terlihat
 
 437
 00:17:57,640 --> 00:17:58,890
-to be doing reasonable things.
+melakukan hal-hal yang masuk akal.
 
 438
 00:17:58,890 --> 00:18:01,181
-But we'll see how they add
-up to something unfortunate.
+Namun akan kita lihat bagaimana mereka melakukan
+sesuatu yang merugikan.
 
 439
 00:18:01,181 --> 00:18:02,530
-So we have Gmail.
+Jadi kita punya Gmail.
 
 440
 00:18:02,530 --> 00:18:06,580
-And Gmail lets you
-reset your password
+Dan Gmail memungkinkan Anda untuk
+mengatur ulang password Anda
 
 441
 00:18:06,580 --> 00:18:09,700
-if you forget, as do pretty
-much every other system.
+jika Anda lupa, seperti pada
+sistem-sistem lainnya.
 
 442
 00:18:09,700 --> 00:18:13,670
