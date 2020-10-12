@@ -1283,121 +1283,121 @@ sedikit istimewa, kemudian
 
 273
 00:11:24,300 --> 00:11:27,580
-when you ask, well, why
-does this token have value,
+kalau Anda bertanya kenapa
+token ini memiliki nilai,
 
 274
 00:11:27,580 --> 00:11:30,760
-because we think it has value.
+itu karena kita pikir itu ada nilainya.
 
 275
 00:11:30,760 --> 00:11:34,040
-So what makes a token
-inherently valuable?
+Jadi sebenarnya apa yang membuat
+sebuah token dari sananya berharga?
 
 276
 00:11:34,040 --> 00:11:36,272
-The fact that we
-think it's valuable.
+Sebuah fakta bahwa kita
+pikir itu berharga.
 
 277
 00:11:36,272 --> 00:11:38,230
-And a lot of different
-things can go into that.
+Serta banyak hal lain
+yang bisa masuk ke dalamnya.
 
 278
 00:11:38,230 --> 00:11:43,660
-Maybe we think it's valuable
-because it's very rare.
+Mungkin kita pikir itu berharga
+karena itu sangat langka.
 
 279
 00:11:43,660 --> 00:11:47,260
-Or maybe we think it's
-valuable because someone's
+Atau mungkin kita pikir
+itu berharga karena seseorang
 
 280
 00:11:47,260 --> 00:11:49,240
-promised that you
-can use it to pay
+menjanjikan bahwa Anda
+bisa menggunakannya untuk membayar
 
 281
 00:11:49,240 --> 00:11:51,130
-for storage, like with Dropbox.
+untuk ruang penyimpanan, seperti dengan Dropbox.
 
 282
 00:11:51,130 --> 00:11:53,890
-Or maybe we think it's valuable
-for a completely different
+Atau mungkin kita pikir itu berharga
+untuk alasan yang sangat
 
 283
 00:11:53,890 --> 00:11:55,300
-reason, because
-we like the name,
+berbeda, karena
+kita menyukai namanya,
 
 284
 00:11:55,300 --> 00:11:57,383
-or we like the people who
-are running the network.
+atau kita menyukai orang yang
+menjalankan jaringannya.
 
 285
 00:11:57,383 --> 00:11:59,200
-But ultimately
-tokens are valuable.
+Tapi pada akhirnya
+token adalah benda berharga.
 
 286
 00:11:59,200 --> 00:12:00,880
-These digital
-representations are
+Representasi-representasi
+dijital ini
 
 287
 00:12:00,880 --> 00:12:03,500
-valuable because we
-think they're valuable.
+menjadi berharga karena kita
+menganggap mereka berharga
 
 288
 00:12:03,500 --> 00:12:04,420
-Yes.
+Ya.
 
 289
 00:12:04,420 --> 00:12:05,820
-AUDIENCE: And also because
-they're a limited amount.
+AUDIENS: Juga karena mereka
+memiliki jumlah terbatas.
 
 290
 00:12:05,820 --> 00:12:06,790
-NEHA NARULA: Name.
+NEHA NARULA: Nama.
 
 291
 00:12:06,790 --> 00:12:07,760
-AUDIENCE: [INAUDIBLE].
+AUDIENCE: [TIDAK TERDENGAR].
 
 292
 00:12:07,760 --> 00:12:09,630
-Because they're
-a limited amount.
+Karena mereka memiliki
+jumlah yang terbatas.
 
 293
 00:12:09,630 --> 00:12:11,038
-NEHA NARULA: Well,
-so my argument
+NEHA NARULA: Yah,
+jadi argumen saya
 
 294
 00:12:11,038 --> 00:12:12,580
-is that the fact
-that they're limited
+adalah fakta bahwa
+mereka terbatas
 
 295
 00:12:12,580 --> 00:12:14,590
-is something that goes
-into our perception that
+adalah sesuatu yang
+masuk ke dalam persepsi kita
 
 296
 00:12:14,590 --> 00:12:15,340
-makes it valuable.
+yang membuatnya berharga.
 
 297
 00:12:18,100 --> 00:12:18,610
-Great.
+Bagus.
 
 298
 00:12:18,610 --> 00:12:19,120
@@ -1405,151 +1405,151 @@ OK.
 
 299
 00:12:19,120 --> 00:12:22,630
-So now that we've learned
-a little bit about money,
+Jadi kita sudah belajar
+sedikit tentang uang,
 
 300
 00:12:22,630 --> 00:12:24,820
-talked a little
-bit about money, I
+berbicara sedikit
+tentang uang, saya
 
 301
 00:12:24,820 --> 00:12:28,665
-want to go into how payments
-work because ultimately, we're
+ingin membahas bagaimana sistem pembayaran
+bekerja karena pada akhirnya, kita
 
 302
 00:12:28,665 --> 00:12:30,040
-going to get to
-cryptocurrencies.
+akan membahas ke
+mata uang kripto (cryptocurrency)
 
 303
 00:12:30,040 --> 00:12:34,090
-And cryptocurrencies
-are electronic cash.
+Dan mata uang kripto
+adalah uang tunai elektronik.
 
 304
 00:12:34,090 --> 00:12:38,420
-So here's the way that digital
-payments kind of work right
+Jadi beginilah cara pembayaran
+dijital bekerja
 
 305
 00:12:38,420 --> 00:12:38,920
-now.
+sekarang.
 
 306
 00:12:38,920 --> 00:12:42,070
-You have an institution
-called a bank.
+Anda memiliki institusi
+yang disebut bank.
 
 307
 00:12:42,070 --> 00:12:45,340
-You have Alice and you
-have Bob, and Alice and Bob
+Anda memiliki Alice dan Anda
+memiliki Bob, dan Alice dan Bob
 
 308
 00:12:45,340 --> 00:12:47,800
-have accounts at this bank.
+memiliki rekening di bank ini.
 
 309
 00:12:47,800 --> 00:12:51,840
-And so the bank is keeping
-track of who owns what.
+Dan bank terus melacak siapa
+memiliki apa.
 
 310
 00:12:51,840 --> 00:12:53,228
-And these are these are records.
+Dan ini adalah rekaman-rekaman.
 
 311
 00:12:53,228 --> 00:12:54,520
-These might be digital records.
+Ini mungkin menjadi rekaman dijital.
 
 312
 00:12:54,520 --> 00:12:57,190
-They might be paper
-records, whatever
+Mereka mungkin berupa
+catatan kertas, apapun
 
 313
 00:12:57,190 --> 00:12:59,440
-the bank is using
-to keep track of who
+yang digunakan bank
+untuk melacak siapa
 
 314
 00:12:59,440 --> 00:13:00,778
-has what in their account.
+siapa memiliki apa di akun mereka.
 
 315
 00:13:00,778 --> 00:13:03,070
-And so the way that I've set
-up this example right now,
+Dan cara yang telah saya buatkan
+untuk contoh ini sekarang,
 
 316
 00:13:03,070 --> 00:13:04,990
-Alice and Bob both
-have bank accounts.
+Alice dan Bob keduanya
+memiliki rekening bank.
 
 317
 00:13:04,990 --> 00:13:07,810
-Alice has $10.00 with the bank
-and Bob does not have any money
+Alice memiliki $10,00 di bank
+dan Bob tidak punya uang
 
 318
 00:13:07,810 --> 00:13:09,850
-with the bank.
+di bank.
 
 319
 00:13:09,850 --> 00:13:12,340
-So let's say that
-Alice wants to pay Bob.
+Jadi katakanlah bahwa
+Alice ingin membayar Bob.
 
 320
 00:13:12,340 --> 00:13:15,250
-Let's say that Alice and
-Bob have gotten together.
+Katakanlah jika Alice dan
+Bob sudah bertemu.
 
 321
 00:13:15,250 --> 00:13:17,560
-Maybe they're in the
-same coffee shop.
+Mungkin mereka berada di
+kedai kopi yang sama.
 
 322
 00:13:17,560 --> 00:13:20,260
-And Alice wants to buy
-a sandwich from Bob.
+Dan Alice ingin membeli
+sebuah roti lapis dari Bob.
 
 323
 00:13:20,260 --> 00:13:23,680
-And Bob says, OK, you
-need to pay me $1.00.
+Dan Bob mengatakan, OK, Anda
+perlu membayar kepada saya $1,00.
 
 324
 00:13:23,680 --> 00:13:26,690
-If you give me $1.00, then
-I'll give you the sandwich.
+Jika Anda memberi saya $1,00, maka
+saya akan memberi Anda sebuah roti lapis.
 
 325
 00:13:26,690 --> 00:13:28,460
-So how can Alice do this?
+Jadi bagaimana Alice bisa melakukan ini?
 
 326
 00:13:28,460 --> 00:13:31,130
-How can she transfer
-$1.00 to Bob?
+Bagaimana dia bisa menyerahkan
+$1,00 kepada Bob?
 
 327
 00:13:31,130 --> 00:13:34,220
-Well, if she had a paper
-dollar, she could just do that.
+Yah, jika dia memiliki selembar
+uang kertas dolar, dia bisa melakukannya.
 
 328
 00:13:34,220 --> 00:13:37,970
-But let's say that she
-doesn't have a paper dollar.
+Tapi katakanlah bahwa dia
+tidak memiliki selembar dolar.
 
 329
 00:13:37,970 --> 00:13:43,100
-So Alice can ask the bank to
-make this transfer for her--or
+Jadi Alice bisa meminta bank untuk
+melakukan penyerahan ini untuknya--atau
 
 330
 00:13:43,100 --> 00:13:44,450
