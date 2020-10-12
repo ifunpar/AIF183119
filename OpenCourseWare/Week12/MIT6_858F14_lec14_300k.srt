@@ -1283,22 +1283,22 @@ pihak berpartisipasi
 
 272
 00:12:18,640 --> 00:12:22,470
-di generasi
+pada pembangkitan
 s, dan memastikan
 
 273
 00:12:22,470 --> 00:12:25,230
 bahwa kunci yang kita
-gunakan sekarang segar.
+gunakan sekarang baru.
 
 274
 00:12:25,230 --> 00:12:27,840
 Karena disini, karena b sebenarnya
-tidak membangun apapun,
+tidak membangkitkan apapun,
 
 275
 00:12:27,840 --> 00:12:30,310
-pesan protokol ini terlihat
+pesan-pesan protokol ini terlihat
 persis sama setiap saat.
 
 276
@@ -1314,11 +1314,11 @@ lalu pihak lain b juga
 278
 00:12:36,630 --> 00:12:39,417
 memilih beberapa angka acak,
-secara khusus disebut non.
+secara khusus disebut nonce.
 
 279
 00:12:39,417 --> 00:12:40,000
-Tapi, apa pun.
+Tapi, bagaimanapun.
 
 280
 00:12:40,000 --> 00:12:41,630
@@ -1327,17 +1327,17 @@ Ada dua angka.
 281
 00:12:41,630 --> 00:12:43,877
 Dan kemudian kunci yang mereka 
-setujui untuk digunakan dalam hal 
+setujui untuk digunakan dalam hal
 
 282
 00:12:43,877 --> 00:12:45,460
-yang dipilih satu pihak,
+yang dipilih salah satu pihak,
 tetapi sebenarnya adalah
 
 283
 00:12:45,460 --> 00:12:48,610
 hash dari hal-hal 
-yang mereka berdua pilih. 
+yang mereka berdua pilih.
 
 284
 00:12:48,610 --> 00:12:49,890
@@ -1346,25 +1346,26 @@ Jadi Anda bisa melakukan itu.
 285
 00:12:49,890 --> 00:12:52,509
 Anda juga bisa melakukan 
-[? DP Helmond?] hal-hal 
+hal-hal Diffie-Hellman (key exhcange)
 
 286
 00:12:52,509 --> 00:12:54,050
-seperti yang kami lihat
-di kuliah terakhir
+seperti yang kita lihat
+di kuliah sebelum ini
 
 287
 00:12:54,050 --> 00:12:55,650
-di mana Anda mengedepankan kerahasiaan.
+di mana Anda mendapatkan forward secrecy.
+(kerahasiaan di masa mendatang)
 
 288
 00:12:55,650 --> 00:12:58,220
-Itu adalah matematika yang sedikit 
+Matematikanya sedikit 
 lebih rumit daripada
 
 289
 00:12:58,220 --> 00:13:01,117
-hanya mencirikan dua angka acak 
+hanya melakukan hash dari dua angka acak 
 yang dipilih dua pihak.
 
 290
@@ -1378,42 +1379,42 @@ seperti kerahasiaan pengiriman.
 
 292
 00:13:05,610 --> 00:13:07,600
-Jadi ulangi serangan 
-yang anda biasa perbaiki
+Jadi replay attacks (serangan berbasis pengulangan)
+yang Anda biasanya perbaiki
 
 293
 00:13:07,600 --> 00:13:14,350
-dengan memiliki b untuk memgbangkitkan beberapa nons.
+dengan meminta b untuk memgbangkitkan beberapa nonce.
 
 294
 00:13:14,350 --> 00:13:16,850
-Dan setelah itu anda menentukan
+Dan setelah itu Anda menentukan
 kunci rahasia yang sebenarnya
 
 295
 00:13:16,850 --> 00:13:19,900
-yang akan anda gunakan
-untuk mengacak kunci rahasia
+yang akan Anda gunakan
+untuk melakukan hash dari kunci rahasia
 
 296
 00:13:19,900 --> 00:13:24,267
-dari seseorang yang tersambung
-dengan non ini.
+dari sesuatu yang tersambung (concatenated)
+dengan nonce ini.
 
 297
 00:13:24,267 --> 00:13:26,350
 Dan tentu saja b akan
-harus mengirim non kembali
+harus mengirim kembali nonce
 
 298
 00:13:26,350 --> 00:13:29,220
 ke a untuk dapat
-mencari tahu apa
+mengetahui tahu apa
 
 299
 00:13:29,220 --> 00:13:32,850
 yang sedang terjadi sehingga mereka
-berdua dapat menyetujui sebuah kunci.
+berdua dapat sepakat pada sebuah kunci.
 
 300
 00:13:32,850 --> 00:13:33,670
@@ -1422,11 +1423,11 @@ Baiklah.
 301
 00:13:33,670 --> 00:13:40,060
 Jadi masalah lain di sini adalah
-tidak ada otentikasi yang nyata
+tidak benar-benar ada autentikasi
 
 302
 00:13:40,060 --> 00:13:40,990
-pada a di sini, iyakan?
+pada a di sini, ya kan?
 
 303
 00:13:40,990 --> 00:13:43,610
@@ -1441,11 +1442,11 @@ mendekripsikan data tersebut.
 305
 00:13:46,700 --> 00:13:50,390
 Tapi b tidak tahu siapa yang
-ada di sisi lain,
+ada di sisi satunya,
 
 306
 00:13:50,390 --> 00:13:54,630
-apakah itu a atau musuh yang
+apakah itu a atau seorang jahat yang
 menyamar sebagai a, dan sebagainya.
 
 307
@@ -1459,7 +1460,7 @@ Ya?
 
 309
 00:13:59,240 --> 00:14:01,854
-AUDIENS: Anda telah ditugaskan
+AUDIENS: Anda telah ditandai
 sesuatu dan [TIDAK TERDENGAR].
 
 310
@@ -1483,21 +1484,21 @@ awalnya, karena kita
 
 314
 00:14:09,630 --> 00:14:11,160
-memiliki penanda primitif yang bagus ini.
+memiliki primitif penanda yang bagus ini.
 
 315
 00:14:11,160 --> 00:14:19,040
 Jadi, kita dapat menandai
-pesan ini dengan sebuah kunci rahasia.
+pesan ini dengan kunci rahasia milik a.
 
 316
 00:14:19,040 --> 00:14:20,829
-Dan penanda itu saja
+Dan penanda itu hanya
 menyediakan tanda tangan,
 
 317
 00:14:20,829 --> 00:14:22,370
-tapi anggap saja anda
+tapi anggap saja Anda
 menandainya dan juga
 
 318
@@ -1511,7 +1512,7 @@ mengetahui kunci publik milik a agar
 
 320
 00:14:27,750 --> 00:14:29,370
-dapat memverifikasi tanda ini.
+dapat memverifikasi tanda tangan ini.
 
 321
 00:14:29,370 --> 00:14:32,229
