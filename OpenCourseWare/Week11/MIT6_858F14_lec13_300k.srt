@@ -1032,153 +1032,153 @@ melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
-Now, I want to talk
-to the server S.
+Sekarang, saya ingin berbicara
+dengan server S.
 
 218
 00:10:00,770 --> 00:10:03,560
-So you'd tell the TGS about
-the server you want to talk to.
+Jadi Anda akan memberi tahu TGS mengenai
+server yang ingin Anda ajak berbicara.
 
 219
 00:10:03,560 --> 00:10:08,330
-And then it returns you
-back some sort of a ticket
+Dan kemudian dia akan mengembalikan
+kepada Anda semacam tiket
 
 220
 00:10:08,330 --> 00:10:12,780
-for talking to the server
-S. And then you can finally
+untuk berbicara dengan server
+S. Dan akhirnya Anda bisa
 
 221
 00:10:12,780 --> 00:10:15,600
-start talking to
-the server over here
+berbicara dengan
+server di sebelah sini
 
 222
 00:10:15,600 --> 00:10:22,230
-by initially passing
-it this ticket for S.
+dengan memberikan tiket ini
+kepada S terlebih dahulu.
 
 223
 00:10:22,230 --> 00:10:23,902
-Does this all make sense?
+Apakah ini semua masuk akal?
 
 224
 00:10:23,902 --> 00:10:27,270
-This is the sort
-of high level plan.
+Ini adalah seperti 
+rencana secara umum.
 
 225
 00:10:27,270 --> 00:10:30,335
-So why do these guys
-have two interfaces?
+Jadi mengapa mereka 
+memiliki dua antarmuka?
 
 226
 00:10:32,967 --> 00:10:34,550
-Well, I guess I
-wanted to actually ask
+Sebenarnya, saya
+ingin menanyakan
 
 227
 00:10:34,550 --> 00:10:35,425
-a bunch of questions.
+banyak pertanyaan.
 
 228
 00:10:35,425 --> 00:10:38,080
-Like, in the case of a
-service, this service
+Seperti, dalam kasus
+sebuah layanan, layanan ini
 
 229
 00:10:38,080 --> 00:10:39,770
-is probably going to
-be stored on disk.
+kemungkinan akan disimpan 
+di dalam disk.
 
 230
 00:10:39,770 --> 00:10:42,330
-What's going on with
-this KC on the user side?
+Apa yang terjadi dengan
+KC ini di sisi pengguna?
 
 231
 00:10:42,330 --> 00:10:46,240
-Where does KC come
-from in Kerberos?
+Dari mana KC datang
+dari dalam Kerberos?
 
 232
 00:10:46,240 --> 00:10:47,574
-Yeah.
+Yah.
 
 233
 00:10:47,574 --> 00:10:50,740
-STUDENT: KDMS
-[INAUDIBLE] the database.
+MAHASISWA: KDMS
+basis data [TIDAK TERDENGAR].
 
 234
 00:10:50,740 --> 00:10:52,736
-PROFESSOR: Yeah, well,
-the key C sits here.
+PROFESOR: Ya, baiklah,
+kunci C ada di sini.
 
 235
 00:10:52,736 --> 00:10:53,860
-And that's absolutely true.
+Dan itu benar sekali.
 
 236
 00:10:53,860 --> 00:10:55,420
-It's sits on this
-giant database.
+itu ada di
+basis data raksasa.
 
 237
 00:10:55,420 --> 00:10:57,280
-But it also has to
-be known to the user
+tetapi itu juga harus 
+diketahui pengguna
 
 238
 00:10:57,280 --> 00:10:59,610
-because the user has to
-prove that they are the user.
+karena pengguna harus
+membuktikan bahwa mereka adalah sang pengguna.
 
 239
 00:10:59,610 --> 00:11:00,326
-Yeah.
+Yah.
 
 240
 00:11:00,326 --> 00:11:02,030
-STUDENT: Is that a one way
-function and then the password?
+MAHASISWA: apakah itu fungsi satu arah
+dan kemudian kata sandinya?
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Yeah,
-so they actually
+PROFESSOR: Yah,
+jadi itu sebenarnya
 
 242
 00:11:03,405 --> 00:11:05,930
-have this sort of cute plan
-where the KC is actually
+semacam rencana imut
+dimana KC sebenarnya
 
 243
 00:11:05,930 --> 00:11:09,100
-going to be derived by
-hashing the user's password
+akan diperoleh dengan
+melakukan hash pada kata sandi pengguna
 
 244
 00:11:09,100 --> 00:11:11,320
-or really some sort of
-key duration function.
+atau semacam
+fungsi durasi kunci
 
 245
 00:11:11,320 --> 00:11:14,444
-And there's several different
-ones of perverse uses.
+dan terdapat beberapa 
+kegunaan yang berbeda.
 
 246
 00:11:14,444 --> 00:11:16,360
-But you're basically
-going to take a password,
+Namun, pada dasarnya Anda
+akan mengambil sebuah kata sandi,
 
 247
 00:11:16,360 --> 00:11:20,676
-transform it in some
-way, and get this key KC.
+mengubahnya dengan cara
+tertentu, dan mendapatkan KC nya.
 
 248
 00:11:20,676 --> 00:11:25,180
