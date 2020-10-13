@@ -2519,60 +2519,60 @@ and be careful.
 
 533
 00:21:50,630 --> 00:21:54,330
-I guess the one general plan
-is, be conservative in terms
+Tebakan saya, langkah umumnya
+adalah, menjadi konservatif dalam rangka
 
 534
 00:21:54,330 --> 00:21:57,960
-of what you set
-your policy to be,
+mengatur kebijakan Anda
+akan seperti apa,
 
 535
 00:21:57,960 --> 00:22:01,540
-to maybe not depend on things
-other sites might reveal.
+untuk mungkin tidak bergantung pada hal-hal
+yang mungkin diungkap situs lain.
 
 536
 00:22:01,540 --> 00:22:05,645
-So well, I'm not sure if any
-really great advice would
+Jadi ya, saya tidak yakin jika ada
+nasihat yang sangat bagus yang akan
 
 537
 00:22:05,645 --> 00:22:06,942
-have prevented this problem.
+mencegah masalah ini.
 
 538
 00:22:06,942 --> 00:22:07,650
-But now you know.
+Namun sekarang Anda tahu.
 
 539
 00:22:07,650 --> 00:22:11,180
-And now you'll make
-other mistakes.
+Dan sekarang anda akan membuat
+kesalahan lain.
 
 540
 00:22:11,180 --> 00:22:13,970
-There's many other
-examples of policies
+Ada sangat banyak
+contoh kebijakan lain
 
 541
 00:22:13,970 --> 00:22:18,577
-going wrong and allowing a
-system to be compromised.
+yang salah dan memungkinkan untuk
+membahayakan suatu sistem.
 
 542
 00:22:18,577 --> 00:22:19,660
-That's interesting enough.
+Itu cukup menarik.
 
 543
 00:22:19,660 --> 00:22:22,550
-But let's look at how people
-might screw up threat models.
+Namun mari kita lihat bagaimana orang-orang
+mungkin mengacaukan threat model.
 
 544
 00:22:22,550 --> 00:22:28,020
-So let me turn off
-this blue square.
+Jadi saya akan matikan
+kotak biru ini.
 
 545
 00:22:28,020 --> 00:22:28,520
@@ -2580,43 +2580,43 @@ OK.
 
 546
 00:22:28,520 --> 00:22:36,060
-So what are examples of
-threat models that go wrong?
+Jadi apa contoh
+threat model yang menjadi salah?
 
 547
 00:22:36,060 --> 00:22:42,410
-Well, probably a big one in
-practice is human factors.
+Baik, mungkin hal besar dalam
+kebiasaan adalah faktor manusia.
 
 548
 00:22:42,410 --> 00:22:45,970
-So we often make
-assumptions about what
+Jadi kita sering membuat
+asumsi tentang apa
 
 549
 00:22:45,970 --> 00:22:49,040
-people will do in
-a system, like they
+yang akan orang lakukan dalam
+sebuah sistem, seperti mereka akan
 
 550
 00:22:49,040 --> 00:22:51,150
-will pick a good,
-strong password,
+memilih kata sandi,
+yang bagus dan kuat,
 
 551
 00:22:51,150 --> 00:22:53,920
-or they will not click
-on random websites
+atau mereka tidak akan mengklik
+situs-situs sembarangan
 
 552
 00:22:53,920 --> 00:22:56,800
-that they get through email
-and enter their password there.
+yang mereka terima melalui surat elektronik
+dan memasukkan kata sandi mereka di sana.
 
 553
 00:22:56,800 --> 00:22:59,594
-So these are-- well, as
-you probably suspect,
+Jadi itu tadi adalah-- ya,
+seperti yang mungkin Anda curiga,
 
 554
 00:22:59,594 --> 00:23:01,260
