@@ -1717,59 +1717,59 @@ mapping from string principal
 
 363
 00:16:29,350 --> 00:16:32,340
-names to cryptographic keys
-of the Kerberos previously
+nama ke kunci kriptografi
+dari Kerberos sebelumnya
 
 364
 00:16:32,340 --> 00:16:33,512
-provided to us.
+yang diberikan kepada kami.
 
 365
 00:16:33,512 --> 00:16:34,970
-And the way that
-is going to happen
+Dan cara itu
+akan terjadi
 
 366
 00:16:34,970 --> 00:16:42,200
-in this the https world,
-this protocol called TLC,
+di dunia https ini,
+protokol ini disebut TLC,
 
 367
 00:16:42,200 --> 00:16:45,200
-is that we're going to
-still rely on some parties
+kita akan
+tetap mengandalkan beberapa pihak
 
 368
 00:16:45,200 --> 00:16:47,740
-to maintain, of to
-a least logically
+untuk mempertahankan, dari untuk
+setidaknya secara logis
 
 369
 00:16:47,740 --> 00:16:50,920
-maintain those giant tables
-mapping principal names
+pertahankan tabel besar itu
+memetakan nama-nama prinsipil
 
 370
 00:16:50,920 --> 00:16:53,420
-onto cryptographic keys.
+ke kunci kriptografi.
 
 371
 00:16:53,420 --> 00:16:56,174
-And the plan is, we're
-going to have something
+Dan rencananya adalah, kami 
+akan memiliki sesuatu
 
 372
 00:16:56,174 --> 00:16:57,465
-called a certificate authority.
+disebut sebagai otoritas sertifikat.
 
 373
 00:17:02,470 --> 00:17:05,380
-This is often abbreviated
-as CA in all kinds
+Ini sering disingkat
+sebagai CA dalam semua jenis
 
 374
 00:17:05,380 --> 00:17:07,609
-of security literature.
+literatur keamanan.
 
 375
 00:17:07,609 --> 00:17:10,400
