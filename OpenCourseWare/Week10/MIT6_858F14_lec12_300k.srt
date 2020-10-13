@@ -1146,7 +1146,7 @@ Dia bekerja dengan baik.
 242
 00:09:39,040 --> 00:09:41,465
 Diperlukan banyak
-tenaga untuk berpindah.
+usaha untuk berpindah.
 
 243
 00:09:41,465 --> 00:09:43,019
@@ -1204,13 +1204,13 @@ seluruh dukungan ini.
 
 254
 00:10:07,770 --> 00:10:11,840
-Namun tetap, sangantlah susah untuk
+Namun tetap saja, sangatlah sulit untuk
 meyakinkan orang untuk memperbarui.
 
 255
 00:10:11,840 --> 00:10:15,194
-Baiklah, namun iya, lihat kembali
-ke nomor urut TCP,
+Baiklah, namun yah, melihat kembali
+ke nomor urut TCP
 
 256
 00:10:15,194 --> 00:10:17,610
@@ -1229,12 +1229,12 @@ waktu memikirkan
 
 259
 00:10:24,260 --> 00:10:27,060
-detail cara apa saja 
-Koneksi TCP pada awalnya
+detail-detail bagaimana
+koneksi TCP pada awalnya
 
 260
 00:10:27,060 --> 00:10:28,510
-ditetapkan.
+dibangun.
 
 261
 00:10:28,510 --> 00:10:30,650
@@ -1244,58 +1244,58 @@ tiga paket
 262
 00:10:30,650 --> 00:10:33,900
 yang harus dikirim agar
-koneksi TCP baru---------
+koneksi TCP baru
 
 263
 00:10:33,900 --> 00:10:34,690
-to be established.
+bisa terbangun.
 
 264
 00:10:34,690 --> 00:10:37,960
-So our client generates a
-packet to connect to a server.
+Jadi klien kita membangkitkan
+sebuah paket untuk terkoneksi ke sebuah server.
 
 265
 00:10:37,960 --> 00:10:41,140
-And it says, well, here's
-my IP address, C, client.
+Dan itu mengatakan, yah, ini adalah
+alamat IP saya, C, client.
 
 266
 00:10:41,140 --> 00:10:42,940
-I'm sending this to the server.
+Saya mengirimkan ini ke server.
 
 267
 00:10:42,940 --> 00:10:44,534
-And there's various fields.
+Dan ada berbagai kolom nilai.
 
 268
 00:10:44,534 --> 00:10:46,575
-But the ones that are
-interesting for the purpose
+Tetapi yang menarik
+untuk tujuan
 
 269
 00:10:46,575 --> 00:10:49,590
-of this discussion is going
-to be a sequence number.
+diskusi ini adalah
+nomor urut.
 
 270
 00:10:49,590 --> 00:10:51,610
-So there's going to
-be a syn flag saying,
+Jadi akan ada flag
+syn yang mengatakan,
 
 271
 00:10:51,610 --> 00:10:54,350
-I want to synchronize state
-and establish a new connection.
+saya ingin mensinkronisiasi keadaan
+dan membangun koneksi baru.
 
 272
 00:10:54,350 --> 00:10:57,480
-And you include a
-client sequence number
+Dan Anda mencantumkan sebuah
+nomor sekuens klien
 
 273
 00:10:57,480 --> 00:11:00,680
-in the initial syn packet.
+pada paket syn aslinya.
 
 274
 00:11:00,680 --> 00:11:02,370
