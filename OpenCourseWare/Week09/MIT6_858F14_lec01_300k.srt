@@ -2195,7 +2195,7 @@ Anda mendapatkan
 
 465
 00:19:07,300 --> 00:19:10,591
-orang ini-- yah, alamat rumah,
+alamat rumah-- yah, milik pria ini,
 mungkin Anda bisa mencarinya
 
 466
@@ -2204,12 +2204,12 @@ di suatu tempat.
 
 467
 00:19:11,090 --> 00:19:12,981
-Orang ini adalah
-orang yang terkenal saat itu.
+Pria ini adalah orang
+yang terkenal saat itu.
 
 468
 00:19:12,981 --> 00:19:15,480
-Tetapi dari mana Anda mendapatkan
+Namun dari mana Anda mendapatkan
 empat angka terakhir dari
 
 469
@@ -2223,7 +2223,7 @@ mari kita lanjutkan.
 
 471
 00:19:21,177 --> 00:19:23,510
-Jadi Anda perlu mengirimkan semua
+Jadi Anda perlu mengirimkan seluruh hal
 ini ke me.com untuk mendapatkan akses
 
 472
@@ -2232,7 +2232,7 @@ ke akun emailnya di sana.
 
 473
 00:19:25,652 --> 00:19:28,110
-Yah, ternyata orang ini
+Yah, ternyata pria ini
 memiliki akun di Amazon, yang merupakan
 
 474
@@ -2242,12 +2242,12 @@ pihak lain dalam cerita ini.
 475
 00:19:31,250 --> 00:19:34,460
 Amazon benar-benar ingin
-anda membeli sesuatu.
+Anda membeli sesuatu.
 
 476
 00:19:34,460 --> 00:19:38,030
-Dan hasilnya, mereka sebenarnya
-memiliki sistem pengelolaan akun
+Dan sebagai konsekuensinya, mereka
+sebenarnya memiliki sistem pengelolaan akun
 
 477
 00:19:38,030 --> 00:19:39,770
@@ -2271,36 +2271,36 @@ dengan kartu kredit.
 481
 00:19:47,670 --> 00:19:50,710
 Jadi saya dapat membuka Amazon,
-paling tidak saat itu,
+atau paling tidak saat itu,
 
 482
 00:19:50,710 --> 00:19:53,400
-Saya bisa pergi ke Amazon
-dan berkata, ya, saya penggunanya.
+saya bisa mengunjungi Amazon
+dan berkata, yah, saya penggunanya.
 
 483
 00:19:53,400 --> 00:19:57,490
 Dan saya ingin membeli
-sikat gigi.
+satu pak sikat gigi ini.
 
 484
 00:19:57,490 --> 00:20:00,140
-Dan jika saya mau menggunakan
+Dan jika saya ingin menggunakan
 nomor kartu kredit yang disimpan
 
 485
 00:20:00,140 --> 00:20:02,640
-di akun orang itu, saya seharusnya
+di akun pria itu, saya seharusnya
 tidak dapat melakukan ini.
 
 486
 00:20:02,640 --> 00:20:05,740
-Tetapi jika saya ingin memberikan
+Namun jika saya mendaftarkan
 kartu kredit baru, apa yang Amazon
 
 487
 00:20:05,740 --> 00:20:08,280
-dapat lakukan adalah, mereka sebenarnya
+akan lakukan adalah, mereka sebenarnya
 dapat menambah sebuah kartu kredit
 
 488
@@ -2314,7 +2314,7 @@ terlalu buruk, bukan?
 
 490
 00:20:15,500 --> 00:20:17,060
-Pada dasarnya sya
+Pada dasarnya saya
 memesan sikat gigi
 
 491
@@ -2324,7 +2324,7 @@ Amazon milik Anda.
 
 492
 00:20:18,839 --> 00:20:20,380
-Tetapi bagaimana pun juga
+Namun bagaimana pun juga
 itu bukan kartu kredit Anda.
 
 493
@@ -2334,37 +2334,37 @@ kredit saya yang sedang digunakan.
 
 494
 00:20:22,380 --> 00:20:24,220
-Jadi tidak jelas bagaimana
-sesuatu berjalan salah.
+Jadi masih belum jelas bagaimana
+hal menjadi tidak semestinya.
 
 495
 00:20:24,220 --> 00:20:26,630
-Tetapi Amazon memiliki
+Namun Amazon memiliki
 tampilan antarmuka lain.
 
 496
 00:20:26,630 --> 00:20:28,430
-Semua ini adalah
+Semua hal ini adalah
 sistem yang rumit.
 
 497
 00:20:28,430 --> 00:20:31,700
-Dan Amazon memiliki sebuah tampilan antarmuka
-untuk mengatur ulang kata sandi.
+Dan Amazon memiliki sebuah antarmuka
+untuk mengatur ulang password.
 
 498
 00:20:31,700 --> 00:20:34,550
 Dan untuk mengatur ulang
-sebuah kata sandi di Amazon,
+password di Amazon,
 
 499
 00:20:34,550 --> 00:20:38,230
 apa yang harus Anda siapkan hanyalah
-satu nomer kartu kredit 
+nomor kartu kredit dari 
 
 500
 00:20:38,230 --> 00:20:39,560
-pengguna.
+seorang pengguna.
 
 501
 00:20:39,560 --> 00:20:42,424
@@ -2377,8 +2377,8 @@ ke akun Anda.
 
 503
 00:20:43,090 --> 00:20:45,298
-Dan kemudian saya dapat mengatakan, hey, Saya
-ingin mengatur ulang kata sandi saya.
+Dan kemudian saya dapat mengatakan, hei, saya
+ingin mengatur ulang password saya.
 
 504
 00:20:45,298 --> 00:20:46,920
@@ -2387,25 +2387,25 @@ nomer kartu kredit saya.
 
 505
 00:20:46,920 --> 00:20:48,900
-Dan ini, faktanya, bekerja.
+Dan hal ini, faktanya, jalan.
 
 506
 00:20:48,900 --> 00:20:53,590
-Jadi ini adalah saat dimana orang jahat
-menangkap orang ini, Mat,
+Jadi ini adalah ketika si orang jahat
+mendapatkan akun Amazon milik
 
 507
 00:20:53,590 --> 00:20:54,920
-akun Amazon.
+pria ini, Mat.
 
 508
 00:20:54,920 --> 00:20:55,420
-Tetapi baiklah.
+Namun baiklah.
 
 509
 00:20:55,420 --> 00:20:57,260
-Bagaimana anda memancing keluar
-nomer kartu kredit
+Bagaimana Anda memancing keluar
+nomor kartu kredit
 
 510
 00:20:57,260 --> 00:20:59,350
@@ -2520,7 +2520,7 @@ and be careful.
 533
 00:21:50,630 --> 00:21:54,330
 Tebakan saya, langkah umumnya
-adalah, menjadi konservatif dalam rangka
+adalah, jadilah konservatif dalam hal
 
 534
 00:21:54,330 --> 00:21:57,960
@@ -2534,7 +2534,7 @@ yang mungkin diungkap situs lain.
 
 536
 00:22:01,540 --> 00:22:05,645
-Jadi ya, saya tidak yakin jika ada
+Jadi yah, saya tidak yakin jika ada
 nasihat yang sangat bagus yang akan
 
 537
@@ -2547,7 +2547,7 @@ Namun sekarang Anda tahu.
 
 539
 00:22:07,650 --> 00:22:11,180
-Dan sekarang anda akan membuat
+Dan sekarang Anda akan membuat
 kesalahan lain.
 
 540
@@ -2557,17 +2557,17 @@ contoh kebijakan lain
 
 541
 00:22:13,970 --> 00:22:18,577
-yang salah dan memungkinkan untuk
+yang salah dan dapat
 membahayakan suatu sistem.
 
 542
 00:22:18,577 --> 00:22:19,660
-Itu cukup menarik.
+Hal itu cukup menarik.
 
 543
 00:22:19,660 --> 00:22:22,550
 Namun mari kita lihat bagaimana orang-orang
-mungkin mengacaukan threat model.
+mungkin mengacaukan model-model ancaman.
 
 544
 00:22:22,550 --> 00:22:28,020
@@ -2580,13 +2580,13 @@ OK.
 
 546
 00:22:28,520 --> 00:22:36,060
-Jadi apa contoh
-threat model yang menjadi salah?
+Jadi apa contoh model ancaman
+yang salah?
 
 547
 00:22:36,060 --> 00:22:42,410
-Baik, mungkin hal besar dalam
-kebiasaan adalah faktor manusia.
+Baik, mungkin satu contoh besar yang ada
+dalam praktiknya adalah faktor manusia.
 
 548
 00:22:42,410 --> 00:22:45,970
@@ -2600,7 +2600,7 @@ sebuah sistem, seperti mereka akan
 
 550
 00:22:49,040 --> 00:22:51,150
-memilih kata sandi,
+memilih password
 yang bagus dan kuat,
 
 551
@@ -2610,12 +2610,12 @@ situs-situs sembarangan
 
 552
 00:22:53,920 --> 00:22:56,800
-yang mereka terima melalui surat elektronik
-dan memasukkan kata sandi mereka di sana.
+yang mereka terima melalui email
+dan memasukkan password mereka di sana.
 
 553
 00:22:56,800 --> 00:22:59,594
-Jadi itu tadi adalah-- ya,
+Jadi itu tadi adalah-- yah,
 seperti yang mungkin Anda curiga,
 
 554
