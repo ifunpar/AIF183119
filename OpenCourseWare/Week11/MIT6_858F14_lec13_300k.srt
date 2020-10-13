@@ -1032,23 +1032,23 @@ melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
-Sekarang, Saya ingin berbicara
+Sekarang, saya ingin berbicara
 dengan server S.
 
 218
 00:10:00,770 --> 00:10:03,560
-Jadi kalian akan memberi tahu TGS mengenai
-server yang ingin kalian ajak berbicara.
+Jadi Anda akan memberi tahu TGS mengenai
+server yang ingin Anda ajak berbicara.
 
 219
 00:10:03,560 --> 00:10:08,330
-Dan kemudian akan dikembalikan
-kepada kalian semacam tiket
+Dan kemudian dia akan mengembalikan
+kepada Anda semacam tiket
 
 220
 00:10:08,330 --> 00:10:12,780
 untuk berbicara dengan server
-S. Dan akhirnya kalian bisa
+S. Dan akhirnya Anda bisa
 
 221
 00:10:12,780 --> 00:10:15,600
@@ -1067,7 +1067,7 @@ Apakah ini semua masuk akal?
 224
 00:10:23,902 --> 00:10:27,270
 Ini adalah seperti 
-rencana tingkat tinggi.
+rencana secara umum.
 
 225
 00:10:27,270 --> 00:10:30,335
@@ -1086,7 +1086,7 @@ banyak pertanyaan.
 228
 00:10:35,425 --> 00:10:38,080
 Seperti, dalam kasus
-layanan, layanan ini
+sebuah layanan, layanan ini
 
 229
 00:10:38,080 --> 00:10:39,770
@@ -1105,12 +1105,12 @@ dari dalam Kerberos?
 
 232
 00:10:46,240 --> 00:10:47,574
-Ya.
+Yah.
 
 233
 00:10:47,574 --> 00:10:50,740
-SISWA: KDMS
-[TIDAK TERDENGAR] database.
+MAHASISWA: KDMS
+basis data [TIDAK TERDENGAR].
 
 234
 00:10:50,740 --> 00:10:52,736
@@ -1123,36 +1123,36 @@ Dan itu benar sekali.
 
 236
 00:10:53,860 --> 00:10:55,420
-itu duduk di
-data base raksasa.
+itu ada di
+basis data raksasa.
 
 237
 00:10:55,420 --> 00:10:57,280
 tetapi itu juga harus 
-di ketahui pengguna
+diketahui pengguna
 
 238
 00:10:57,280 --> 00:10:59,610
 karena pengguna harus
-membuktikan bahwa mereka adalah penggunanya
+membuktikan bahwa mereka adalah sang pengguna.
 
 239
 00:10:59,610 --> 00:11:00,326
-Ya.
+Yah.
 
 240
 00:11:00,326 --> 00:11:02,030
-SISWA : apakah itu salah satu cara
-fungsi dan kata sandi
+MAHASISWA: apakah itu fungsi satu arah
+dan kemudian kata sandinya?
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Ya,
+PROFESSOR: Yah,
 jadi itu sebenarnya
 
 242
 00:11:03,405 --> 00:11:05,930
-semacam rencana lucu
+semacam rencana imut
 dimana KC sebenarnya
 
 243
@@ -1163,7 +1163,7 @@ melakukan hash pada kata sandi pengguna
 244
 00:11:09,100 --> 00:11:11,320
 atau semacam
-fungsi key duration
+fungsi durasi kunci
 
 245
 00:11:11,320 --> 00:11:14,444
@@ -1177,7 +1177,7 @@ akan mengambil sebuah kata sandi,
 
 247
 00:11:16,360 --> 00:11:20,676
-mengubahnya menggunakan cara
+mengubahnya dengan cara
 tertentu, dan mendapatkan KC nya.
 
 248
