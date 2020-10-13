@@ -1130,27 +1130,27 @@ Jadi yang bisa Anda lakukan adalah Anda dapat--
 246
 00:11:40,600 --> 00:11:43,690
 ini sebelumnya, benar,
-saat saya berkata, OK, yeah,
+saat saya berkata, OK, yah,
 
 247
 00:11:43,690 --> 00:11:48,700
 tapi ini pada dasarnya bagaimana cara
-melakukan kunci private sebesar 32 byte dimana
+melakukan kunci privat sebesar 32 byte di mana
 
 248
 00:11:48,700 --> 00:11:51,040
-kunci private Anda
+kunci privat Anda
 sebenarnya cukup kecil,
 
 249
 00:11:51,040 --> 00:11:55,330
-dan Anda hanya mendapatkan
+dan Anda hanya menurunkan
 semua kunci publik
 
 250
 00:11:55,330 --> 00:11:59,110
-dengan menambahkan angka di
-akhir, menggabungkannya
+dengan menambahkan angka-angka di
+belakang, menggabungkannya
 
 251
 00:11:59,110 --> 00:11:59,990
@@ -1162,7 +1162,7 @@ Dan sekarang Anda seperti, OK, keren.
 
 253
 00:12:01,240 --> 00:12:04,420
-Saya mempunyai sebuah kunci private
+Saya mempunyai sebuah kunci privat
 sebesar 32 byte, dan saya
 
 254
@@ -1187,16 +1187,16 @@ jutaan kali,
 258
 00:12:13,488 --> 00:12:16,030
 dan tidak ada yang bisa menemukan
-preimage, meskipun saya
+preimage nya, meskipun saya
 
 259
 00:12:16,030 --> 00:12:18,580
 memberikan Anda semua hash
-yang berkaitan, bukan?
+yang berkaitan ini, bukan?
 
 260
 00:12:18,580 --> 00:12:21,900
-Ini x koma 0, x koma
+Itu x koma 0, x koma
 1, x koma satu juta.
 
 261
@@ -1211,7 +1211,7 @@ itu tidak memberi Anda
 263
 00:12:25,390 --> 00:12:27,880
 wawasan tentang bagaimana
-menemukan x itu apa--
+menemukan nilai dari x--
 
 264
 00:12:27,880 --> 00:12:29,597
@@ -1224,12 +1224,12 @@ Jadi itu sangat kuat.
 266
 00:12:30,680 --> 00:12:33,520
 Dan sekarang saya bisa katakan, OK,
-masalah kunci private sudah terpecahkan.
+masalah kunci privat sudah terpecahkan.
 
 267
 00:12:33,520 --> 00:12:37,420
 Saya memiliki 0 dari 1 pertumbuhan
-di kunci private saya
+di kunci privat saya
 
 268
 00:12:37,420 --> 00:12:39,670
@@ -1246,7 +1246,7 @@ Keren.
 
 271
 00:12:42,112 --> 00:12:44,320
-Namun masih ada masalah dengan
+Namun masih punya masalah dengan
 kunci publik ini.
 
 272
@@ -1260,7 +1260,7 @@ OK.
 
 274
 00:12:47,320 --> 00:12:50,957
-Baik, saya akan membuat kunci
+Yah, saya akan membuat kunci
 publik sebesar 64 kilobyte.
 
 275
