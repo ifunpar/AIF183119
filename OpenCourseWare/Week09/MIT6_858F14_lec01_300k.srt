@@ -2190,113 +2190,113 @@ kartu kredit Anda.
 
 464
 00:19:05,112 --> 00:19:07,300
-So it's still not clear how
-you're going to get this
+Jadi masih belum jelas bagaimana
+Anda mendapatkan
 
 465
 00:19:07,300 --> 00:19:10,591
-guy's-- well, home address,
-maybe you could look it up
+orang ini-- yah, alamat rumah,
+mungkin Anda bisa mencarinya
 
 466
 00:19:10,591 --> 00:19:11,090
-somewhere.
+di suatu tempat.
 
 467
 00:19:11,090 --> 00:19:12,981
-This guy was a well
-known person at the time.
+Orang ini adalah
+orang yang terkenal saat itu.
 
 468
 00:19:12,981 --> 00:19:15,480
-But where do you get the last
-four digits of his credit card
+Tetapi dari mana Anda mendapatkan
+empat angka terakhir dari
 
 469
 00:19:15,480 --> 00:19:16,640
-number?
+kartu kreditnya?
 
 470
 00:19:16,640 --> 00:19:21,177
-Well, not clear, but
-let's keep going further.
+Yah, tidak jelas, tapi
+mari kita lanjutkan.
 
 471
 00:19:21,177 --> 00:19:23,510
-So you need to send these
-things to me.com to get access
+Jadi Anda perlu mengirimkan semua
+ini ke me.com untuk mendapatkan akses
 
 472
 00:19:23,510 --> 00:19:25,652
-to his email account there.
+ke akun emailnya di sana.
 
 473
 00:19:25,652 --> 00:19:28,110
-Well, it turns out this guy
-had an account at Amazon, which
+Yah, ternyata orang ini
+memiliki akun di Amazon, yang merupakan
 
 474
 00:19:28,110 --> 00:19:31,250
-is another party in this story.
+pihak lain dalam cerita ini.
 
 475
 00:19:31,250 --> 00:19:34,460
-Amazon really wants
-you to buy things.
+Amazon benar-benar ingin
+anda membeli sesuatu.
 
 476
 00:19:34,460 --> 00:19:38,030
-And as a result, they actually
-have a fairly elaborate account
+Dan hasilnya, mereka sebenarnya
+memiliki sistem pengelolaan akun
 
 477
 00:19:38,030 --> 00:19:39,770
-management system.
+yang cukup rumit.
 
 478
 00:19:39,770 --> 00:19:42,950
-And in particular, because they
-really want you to buy stuff,
+Dan khususnya, karena mereka
+sangat ingin Anda membeli barang,
 
 479
 00:19:42,950 --> 00:19:44,490
-they don't require
-you to sign in
+mereka tidak meminta
+Anda untuk mendaftar
 
 480
 00:19:44,490 --> 00:19:47,670
-in order to purchase some
-item with a credit card.
+untuk membeli beberapa barang
+dengan kartu kredit.
 
 481
 00:19:47,670 --> 00:19:50,710
-So I can actually go on Amazon,
-or at least at the time,
+Jadi saya dapat membuka Amazon,
+paling tidak saat itu,
 
 482
 00:19:50,710 --> 00:19:53,400
-I was able to go on Amazon
-and say, well, I'm this user.
+Saya bisa pergi ke Amazon
+dan berkata, ya, saya penggunanya.
 
 483
 00:19:53,400 --> 00:19:57,490
-And I want to buy this
-pack of toothbrushes.
+Dan saya ingin membeli
+sikat gigi.
 
 484
 00:19:57,490 --> 00:20:00,140
-And if I wanted to use
-the saved credit card
+Dan jika saya mau menggunakan
+nomor kartu kredit yang disimpan
 
 485
 00:20:00,140 --> 00:20:02,640
-number in the guy's account, I
-shouldn't be able to do this.
+di akun orang itu, saya seharusnya
+tidak dapat melakukan ini.
 
 486
 00:20:02,640 --> 00:20:05,740
-But if I just was providing a
-new credit card, what Amazon
+Tetapi jika saya ingin memberikan
+kartu kredit baru, apa yang Amazon
 
 487
 00:20:05,740 --> 00:20:08,280
