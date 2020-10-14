@@ -1661,18 +1661,18 @@ dari sudut pandang fisika juga.
 
 354
 00:19:11,990 --> 00:19:18,050
-What is the relationship between
-this locking, this sequence,
+Apa hubungan antara 
+penguncian ini, urutan ini, 
 
 355
 00:19:18,050 --> 00:19:22,550
-in this case a pair of
-locks, that we require here
+dalam hal ini sepasang 
+kunci, yang kita butuhkan di sini
 
 356
 00:19:22,550 --> 00:19:25,310
-in order for this to
-physically make sense?
+agar secara 
+fisik masuk akal?
 
 357
 00:19:25,310 --> 00:19:25,810
@@ -1680,30 +1680,30 @@ s
 
 358
 00:19:25,810 --> 00:19:27,435
-I mean, there's
-different ways that you
+Maksud saya, ada 
+cara berbeda untuk Anda
 
 359
 00:19:27,435 --> 00:19:29,890
-could add two locks to a box.
+menambahkan dua kunci ke kotak.
 
 360
 00:19:29,890 --> 00:19:32,120
-There's many different ways.
+Ada banyak cara berbeda.
 
 361
 00:19:32,120 --> 00:19:37,440
-One way is to have a box that is
-locked if I look it over here.
+Salah satu caranya adalah memiliki kotak 
+yang terkunci jika saya lihat di sini.
 
 362
 00:19:37,440 --> 00:19:39,630
-And it doesn't open, because
-the lid doesn't open.
+Dan itu tidak terbuka, karena 
+tutupnya tidak terbuka.
 
 363
 00:19:39,630 --> 00:19:41,310
-I've got suitcases like that.
+Saya punya koper seperti itu.
 
 364
 00:19:41,310 --> 00:19:43,549
