@@ -2409,113 +2409,113 @@ nomor kartu kredit
 
 510
 00:20:57,260 --> 00:20:59,350
-for resetting Apple's site?
+untuk mengatur ulang situs apple?
 
 511
 00:20:59,350 --> 00:21:01,010
-Well, Amazon was
-actually very careful.
+Well, Amazon dulu
+sangat berhati-hati.
 
 512
 00:21:01,010 --> 00:21:03,010
-Even if you break into
-someone's Amazon account,
+Bahkan jika Anda membobol
+akun Amazon seseorang,
 
 513
 00:21:03,010 --> 00:21:05,620
-it will not print you
-the saved credit card
+Amazon tidak akan mencetak Anda
+kartu kredit yang disimpan
 
 514
 00:21:05,620 --> 00:21:07,700
-numbers from that person.
+nomor dari orang itu.
 
 515
 00:21:07,700 --> 00:21:09,284
-But it will show the
-last four digits.
+tetapi dia akan menunjukkan
+4 digit terakhir.
 
 516
 00:21:09,284 --> 00:21:11,616
-Just so you know which credit
-card you're talking about.
+Jadi anda tahu kartu 
+kredit mana yang dibicarakan.
 
 517
 00:21:11,616 --> 00:21:14,220
-So you can list all the credit
-cards, other than the one
+Jadi anda dapat mencantumkan semua kartu  
+kredit, selain yang dari 
 
 518
 00:21:14,220 --> 00:21:14,930
-you added.
+anda sudah tambahkan.
 
 519
 00:21:14,930 --> 00:21:16,770
-You can then go and
-break into me.com.
+Anda kemudian dapat pergi dan
+masuk ke me.com.
 
 520
 00:21:16,770 --> 00:21:19,620
-You can click on this
-link and get access
+kalian dapat mengklik link
+ini dan mendapatkan akses
 
 521
 00:21:19,620 --> 00:21:21,281
-to the guy's Gmail account.
+ke akun Gmail pria itu.
 
 522
 00:21:21,281 --> 00:21:22,530
-This is all very subtle stuff.
+hal ini merupakan hal yang tidak ketara .
 
 523
 00:21:22,530 --> 00:21:24,380
-And in isolation,
-each system seems
+dan di isolasi,
+setiap sistem tampaknya
 
 524
 00:21:24,380 --> 00:21:26,880
-to be doing somewhat
-sensible things.
+untuk melakukan sesuatu
+hal-hal yang masuk akal.
 
 525
 00:21:26,880 --> 00:21:28,590
-But it's actually
-quite hard to reason
+Tapi itu sebenarnya
+cukup sulit untuk dipikirkan
 
 526
 00:21:28,590 --> 00:21:31,560
-about these vulnerabilities
-and weaknesses
+tentang kerentanan ini
+dan kelemahan
 
 527
 00:21:31,560 --> 00:21:34,480
-unless you have this whole
-picture explained to you
+kecuali Anda memiliki keseluruhan 
+gambaran yang menjelaskan kepada Anda
 
 528
 00:21:34,480 --> 00:21:37,380
-and you've sort of put
-all the pieces together.
+dan Anda telah memasukkan
+semua bagian menjadi satu.
 
 529
 00:21:37,380 --> 00:21:41,310
-So this is actually
-fairly tricky stuff.
+Jadi ini sebenarnya
+hal yang cukup rumit.
 
 530
 00:21:41,310 --> 00:21:45,012
-And unfortunately, well,
-much like for every one
+Dan sayangnya, yah,
+sepertinya untuk setiap orang
 
 531
 00:21:45,012 --> 00:21:47,470
-of these three categories, the
-answer for how to avoid this
+dari tiga kategori ini,
+jawaban untuk bagaimana menghindari ini
 
 532
 00:21:47,470 --> 00:21:50,630
-is often think hard
-and be careful.
+sering berpikir keras
+dan hati-hati.
 
 533
 00:21:50,630 --> 00:21:54,330
