@@ -2195,7 +2195,7 @@ Anda mendapatkan
 
 465
 00:19:07,300 --> 00:19:10,591
-alamat rumah-- yah, milik pria ini,
+milik pria ini --seperti, alamat rumah,
 mungkin Anda bisa mencarinya
 
 466
@@ -2281,7 +2281,7 @@ dan berkata, yah, saya penggunanya.
 483
 00:19:53,400 --> 00:19:57,490
 Dan saya ingin membeli
-satu pak sikat gigi ini.
+satu bungkus sikat gigi ini.
 
 484
 00:19:57,490 --> 00:20:00,140
@@ -2335,7 +2335,7 @@ kredit saya yang sedang digunakan.
 494
 00:20:22,380 --> 00:20:24,220
 Jadi masih belum jelas bagaimana
-hal menjadi tidak semestinya.
+hal ini menjadi tidak semestinya.
 
 495
 00:20:24,220 --> 00:20:26,630
