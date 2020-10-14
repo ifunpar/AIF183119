@@ -2329,7 +2329,7 @@ itu bukan kartu kredit Anda.
 
 493
 00:20:20,380 --> 00:20:22,380
-Itu hanya nomer kartu
+Itu hanya nomor kartu
 kredit saya yang sedang digunakan.
 
 494
@@ -2340,7 +2340,7 @@ hal menjadi tidak semestinya.
 495
 00:20:24,220 --> 00:20:26,630
 Namun Amazon memiliki
-tampilan antarmuka lain.
+antarmuka yang lain.
 
 496
 00:20:26,630 --> 00:20:28,430
