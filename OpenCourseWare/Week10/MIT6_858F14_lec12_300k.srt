@@ -1299,7 +1299,7 @@ pada paket syn aslinya.
 
 274
 00:11:00,680 --> 00:11:02,370
-Lalu saat server 
+Lalu saat server
 menerimanya,
 
 275
@@ -1309,32 +1309,32 @@ melihat dan berkata,
 
 276
 00:11:04,167 --> 00:11:05,750
-Ada client yang
-ingin terhubung kepada saya,
+Yah, sebuah client ingin
+terhubung dengan saya,
 
 277
 00:11:05,750 --> 00:11:07,459
-Jadi saya akan mengirim
-balik paket ini ke
+Jadi saya akan mengirim sebuah paket
+kembali ke apapun
 
 278
 00:11:07,459 --> 00:11:09,000
-apa pun alamatnya,
-siapapun yang mengatakan mereka
+alamat ini,
+siapapun yang mengaku bahwa dia
 
 279
 00:11:09,000 --> 00:11:10,060
-yang mencoba untuk terhubung kepada saya.
+mencoba untuk terhubung dengan saya.
 
 280
 00:11:10,060 --> 00:11:13,740
-Jadi paket akan dikirim dari
+Jadi dia akan mengirim paket dari
 server ke client
 
 281
 00:11:13,740 --> 00:11:17,170
-termasuk nomor singkronisasi
-paket tersebut, SN
+dan menyertakan nomor sinkronisasi, SN
+miliknya sendiri
 
 282
 00:11:17,170 --> 00:11:18,080
@@ -1342,27 +1342,27 @@ server.
 
 283
 00:11:18,080 --> 00:11:19,910
-dan paket akan mengetahui
+Dan dia akan mengakui
 nomor client.
 
 284
 00:11:23,750 --> 00:11:28,040
-dan akhirnya,
+Dan akhirnya,
 client membalasnya,
 
 285
 00:11:28,040 --> 00:11:30,260
-menyatakan nomor
-singkronisasi server
+mengakui nomor
+sinkronisasi server
 
 286
 00:11:30,260 --> 00:11:37,070
--- atau yang disebut SNS.
+-- mengakui SNS.
 
 287
 00:11:37,070 --> 00:11:40,110
 dan sekarang client dapat
-memulai mengirimkan data.
+mulai mengirimkan data.
 
 288
 00:11:40,110 --> 00:11:42,290
@@ -1377,7 +1377,7 @@ data di dalam paket,
 290
 00:11:46,770 --> 00:11:51,780
 dan juga memasukan nomor
-urut client
+sekuens client
 
 291
 00:11:51,780 --> 00:11:53,275
@@ -1386,18 +1386,18 @@ bahwa sebenarnya ini adalah
 
 292
 00:11:53,275 --> 00:11:55,858
-data client yang sah atau asli
+semacam data client yang sah
 saat pertama kali terhubung.
 
 293
 00:11:55,858 --> 00:11:57,650
 Data tersebut bukan data
-dari yang selanjutnya
+dari yang belakangan dikirimkan,
 
 294
 00:11:57,650 --> 00:12:00,168
-Contoh, sebuah data baru
-saja sampai
+sebagai contoh, yang
+baru saja sampai
 
 295
 00:12:00,168 --> 00:12:02,542
@@ -1444,8 +1444,8 @@ beberapa properti keamanan.
 
 304
 00:12:22,424 --> 00:12:24,465
-Berikut contoh
-perubahan persyaratan ini.
+Berikut contoh bahwa
+kebutuhan-kebutuhan ini berubah
 
 305
 00:12:24,465 --> 00:12:25,840
@@ -1460,26 +1460,26 @@ properti keamanan apa pun.
 307
 00:12:27,465 --> 00:12:29,940
 Tapi kemudian aplikasi
-mulai menggunakan TCP dan mengandalkan 
+mulai menggunakan TCP dan semacam
 
 308
 00:12:29,940 --> 00:12:32,470
-semacam
-koneksi TCP
+mengandalkan fakta bahwa
+koneksi TCP ini
 
 309
 00:12:32,470 --> 00:12:35,800
-agar tidak dapat diputus
-oleh beberapa penyerang yang seenaknya,
+tidak dapat dipatahkan
+oleh penyerang acak,
 
 310
 00:12:35,800 --> 00:12:39,150
 atau penyerang tidak dapat
-memasukan data ke dalam
+menyisipkan data ke dalam
 
 311
 00:12:39,150 --> 00:12:40,360
-koneksi TCP Anda yang sudah ada.
+koneksi TCP yang sudah Anda miliki.
 
 312
 00:12:40,360 --> 00:12:43,060
@@ -1489,12 +1489,12 @@ yang pada awalnya hanya
 313
 00:12:43,060 --> 00:12:46,240
 dimaksudkan untuk
-pemesanan paket, tetapi sekarang
+pengurutan paket, tetapi sekarang
 
 314
 00:12:46,240 --> 00:12:49,160
 digunakan untuk menjamin
-beberapa kemiripan keamanan
+keamanan
 
 315
 00:12:49,160 --> 00:12:52,110
@@ -1516,7 +1516,7 @@ koneksi TCP ini.
 
 319
 00:13:04,520 --> 00:13:08,180
-Biasanya, server 
+Jadi biasanya, server 
 mengasumsikan-- secara implisit,
 
 320
@@ -1526,7 +1526,7 @@ bahwa koneksi ini dibuat
 
 321
 00:13:12,480 --> 00:13:17,195
-dengan klien yang tepat di 
+dengan klien yang tepat di
 alamat IP C. Tampaknya
 
 322
@@ -1540,23 +1540,23 @@ asumsi ini?
 
 324
 00:13:20,990 --> 00:13:24,780
-Jika server mendapatkan pesan 
+Jika sebuah server mendapatkan pesan 
 ini, inilah
 
 325
 00:13:24,780 --> 00:13:27,500
 beberapa data pada koneksi ini 
-dari klien ke server,
+dari client ke server,
 
 326
 00:13:27,500 --> 00:13:32,950
-dan memiliki nomor urut C, 
-mengapa mungkin server
+dan dia memiliki nomor urut C, 
+mengapa server mungkin saja
 
 327
 00:13:32,950 --> 00:13:35,759
-menyimpulkan bahwa ini sebenarnya 
-klien sebenarnya yang mengirimkan ini?
+menyimpulkan bahwa ini sebenarnya
+klien yang benar yang mengirimkan ini?
 
 328
 00:13:35,759 --> 00:13:38,050
@@ -1565,22 +1565,22 @@ sulit ditebak.
 
 329
 00:13:38,050 --> 00:13:39,940
-PROFESSOR: Benar, jadi hal implisit 
-semacam itu sedang terjadi,
+PROFESOR: Benar, itulah hal implisit 
+yang sedang terjadi,
 
 330
 00:13:39,940 --> 00:13:42,640
-bahwa itu harus memiliki nomor 
+bahwa dia harus memiliki nomor 
 urut C yang benar di sini.
 
 331
 00:13:42,640 --> 00:13:46,430
 Dan agar koneksi 
-ini terjalin,
+ini terbangun,
 
 332
 00:13:46,430 --> 00:13:49,870
-klien harus mengakui 
+klien harus mengakui
 server
 
 333
@@ -1613,7 +1613,7 @@ angka?
 339
 00:14:01,862 --> 00:14:05,831
 PROFESSOR: Jadi nomor urut 
-dalam TCP adalah 32 bit.
+dalam TCP adalah 32 bit panjangnya.
 
 340
 00:14:05,831 --> 00:14:10,359
@@ -1622,7 +1622,7 @@ mudah ditebak.
 
 341
 00:14:10,359 --> 00:14:12,025
-Jika sebetulnya hanya
+Jika itu benar-benar
 angka 32 bit acak,
 
 342
@@ -1631,7 +1631,7 @@ akan sulit untuk ditebak.
 
 343
 00:14:14,040 --> 00:14:16,699
-Dan kemungkinan anda akan
+Dan kemungkinan Anda akan
 menghabiskan banyak bandwidth
 
 344
@@ -1640,21 +1640,21 @@ untuk mencoba menebaknya.
 
 345
 00:14:17,637 --> 00:14:19,044
-Ya, pertanyaan.
+Yah, pertanyaan.
 
 346
 00:14:19,044 --> 00:14:20,607
 AUDIENS: Data
-frequency number
+bilangan frekuensi
 
 347
 00:14:20,607 --> 00:14:23,150
 lebih tinggi dibandingkan
-initial sequence number?
+Nomor uruta awalnya?
 
 348
 00:14:23,150 --> 00:14:25,650
-PROFESOR: Ya, pada dasarnya,
+PROFESOR: Yah, pada dasarnya,
 hal-hal ini bertambah.
 
 349
@@ -1665,7 +1665,7 @@ mengirim sebuah syn,
 350
 00:14:27,500 --> 00:14:29,660
 maka akan dihitung sebagai satu byte
-pada sequence number anda.
+pada nomor urut Anda.
 
 351
 00:14:29,660 --> 00:14:31,010
@@ -1682,12 +1682,12 @@ Dan terus berlaku dari sana.
 
 354
 00:14:36,140 --> 00:14:40,117
-Jadi jika anda mengirim 5 byte,
+Jadi jika Anda mengirim 5 byte,
 maka yang berikutnya adalah SNC plus 6.
 
 355
 00:14:40,117 --> 00:14:42,200
-Jadi hanya menghitung jumlah
+Jadi ini hanya menghitung jumlah
 byte yang anda kirim.
 
 356
@@ -1700,7 +1700,7 @@ Masuk akal?
 
 358
 00:14:45,720 --> 00:14:48,050
-Ada pertanyaan lain tentang ini?
+Pertanyaan lain tentang ini?
 
 359
 00:14:48,050 --> 00:14:54,650
@@ -1714,8 +1714,8 @@ merekomendasikan
 
 361
 00:14:56,370 --> 00:14:58,550
-agar kira memilih
-sequence number ini,
+bagaimana memilih
+number urut ini,
 
 362
 00:14:58,550 --> 00:15:02,750
@@ -1724,7 +1724,7 @@ dengan kecepatan yang kurang lebih tetap.
 
 363
 00:15:02,750 --> 00:15:06,300
-Jadi RFC mulanya menganjurkan
+Jadi RFC (Request For Comments) mulanya menganjurkan
 untuk meningkatkannya
 
 364
@@ -1735,7 +1735,7 @@ unit, ditambah 250,000, per detik.
 365
 00:15:12,350 --> 00:15:14,920
 dan alasan mengapa sebelumnya tidak
-sepenuhnya dibuat acak
+sepenuhnya acak
 
 366
 00:15:14,920 --> 00:15:17,060
@@ -1758,33 +1758,33 @@ koneksi baru.
 
 370
 00:15:23,917 --> 00:15:26,870
-jadi jika setiap waktu anda
-memampakan sebuah koneksi baru
+jadi jika setiap saat Anda
+membangun sebuah koneksi baru
 
 371
 00:15:26,870 --> 00:15:29,740
-anda memilih
-nomor urut secara acak,
+Anda memilih nomor urut
+yang benar-benar acak,
 
 372
 00:15:29,740 --> 00:15:32,590
-setelah itu ada kemungkinan jika anda
-memampakan banyak koneksi
+setelah itu ada kemungkinan jika Anda
+membangun banyak koneksi
 
 373
 00:15:32,590 --> 00:15:35,510
-berulang-ulang beberapa paket
+berulang-ulang hingga beberapa paket
 dari koneksi sebelumnya
 
 374
 00:15:35,510 --> 00:15:37,290
 akan mendapatkan
-urutan nomor yang cukup mirip
+nomor urut yang cukup mirip
 
 375
 00:15:37,290 --> 00:15:38,790
 dengan koneksi baru
-anda dan akan
+Anda dan akan
 
 376
 00:15:38,790 --> 00:15:41,490
@@ -1802,7 +1802,7 @@ sangat dikhawatirkan oleh para perancang TCP
 
 379
 00:15:45,000 --> 00:15:48,916
-tentang-- yakni paket-paket rusak
+-- yakni paket-paket tidak berurutan
 atau yang tertunda.
 
 380
