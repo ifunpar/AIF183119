@@ -2110,7 +2110,7 @@ tidak untuk pria ini.
 447
 00:18:22,306 --> 00:18:24,930
 Apa yang mereka lakukan adalah mengirimkan
-sebuah tautan ke alamat email
+sebuah pemulihan tautan ke alamat email
 
 448
 00:18:24,930 --> 00:18:27,130
@@ -2124,7 +2124,7 @@ mencetak alamat email tersebut untuk Anda.
 
 450
 00:18:29,588 --> 00:18:31,139
-Jadi untuk akun milik pria itu,
+Jadi untuk akun milik pria ini,
 seseorang
 
 451
@@ -2195,7 +2195,7 @@ Anda mendapatkan
 
 465
 00:19:07,300 --> 00:19:10,591
-milik pria ini --seperti, alamat rumah,
+alamat rumah --yah, milik pria ini,
 mungkin Anda bisa mencarinya
 
 466
