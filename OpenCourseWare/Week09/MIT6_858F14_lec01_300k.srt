@@ -2085,494 +2085,494 @@ sistem-sistem lainnya.
 
 442
 00:18:09,700 --> 00:18:13,670
-And the way you do
-a reset at Gmail
+Dan cara Anda mengatur ulang
+password di Gmail
 
 443
 00:18:13,670 --> 00:18:16,090
-is you send them
-a reset request.
+adalah Anda mengirimkan
+permohonan pengaturan ulang.
 
 444
 00:18:16,090 --> 00:18:19,030
-And what they say
-is, well, you weren't
+Dan apa yang mereka katakan
+adalah, yah, Anda tidak akan
 
 445
 00:18:19,030 --> 00:18:21,420
-going to do this recovery
-questions, at least
+menjawab pertanyaan
+pemulihan ini, setidaknya
 
 446
 00:18:21,420 --> 00:18:22,306
-not for this guy.
+tidak untuk orang ini.
 
 447
 00:18:22,306 --> 00:18:24,930
-What they do is they send you a
-recovery link to a backup email
+Apa yang mereka lakukan adalah mengirimkan
+sebuah tautan pemulihan ke alamat email
 
 448
 00:18:24,930 --> 00:18:27,130
-address, or some other
-email address that you have.
+cadangan, atau beberapa alamat
+email lain yang Anda miliki.
 
 449
 00:18:27,130 --> 00:18:29,588
-And helpful, they actually
-print the email address for you.
+Dan untuk membantu, mereka
+mencetak alamat email tersebut untuk Anda.
 
 450
 00:18:29,588 --> 00:18:31,139
-So for this guy's
-account, someone
+Jadi untuk akun milik orang ini,
+seseorang
 
 451
 00:18:31,139 --> 00:18:32,930
-went and asked Gmail
-to reset the password.
+meminta Gmail untuk mengatur ulang
+password Gmail tersebut.
 
 452
 00:18:32,930 --> 00:18:33,830
-And they said, well, yeah.
+Dan mereka bilang, yah, baiklah.
 
 453
 00:18:33,830 --> 00:18:34,330
-Sure.
+Tentu.
 
 454
 00:18:34,330 --> 00:18:37,080
-We just sent the recovery
-link to this email,
+Kita baru saja mengirimkan tautan
+pemulihan ke email ini,
 
 455
 00:18:37,080 --> 00:18:42,089
-foo@me.com, which was
-some Apple email service.
+foo@me.com, yang merupakan
+layanan email dari Apple.
 
 456
 00:18:42,089 --> 00:18:44,505
-OK, but the bad guy doesn't
-have access to me.com, either.
+OK, tapi orang jahat tersebut tidak
+memiliki akses ke me.com, juga.
 
 457
 00:18:44,505 --> 00:18:46,860
-But they want to get
-this password reset
+Namun mereka ingin mendapatkan
+tautan untuk mengatur ulang password ini
 
 458
 00:18:46,860 --> 00:18:48,790
-link to get access to Gmail.
+untuk mendapatkan akses ke Gmail.
 
 459
 00:18:48,790 --> 00:18:50,860
-Well, the way things
-worked was that,
+Baiklah, bagaimana hal-hal tersebut
+bekerja adalah bahwa,
 
 460
 00:18:50,860 --> 00:18:55,980
-in Apple's case,
-this me.com site,
+dalam kasus Apple,
+situs me.com ini
 
 461
 00:18:55,980 --> 00:19:00,830
-allowed you to actually reset
-your password if you know
+memungkinkan Anda untuk mengatur
+ulang password Anda jika Anda mengetahui
 
 462
 00:19:00,830 --> 00:19:03,580
-your billing address and the
-last four digits of your credit
+alamat penagihan Anda dan empat
+dijit terakhir dari nomor
 
 463
 00:19:03,580 --> 00:19:05,112
-card number.
+kartu kredit Anda.
 
 464
 00:19:05,112 --> 00:19:07,300
-So it's still not clear how
-you're going to get this
+Jadi masih belum jelas bagaimana
+Anda akan mendapatkan
 
 465
 00:19:07,300 --> 00:19:10,591
-guy's-- well, home address,
-maybe you could look it up
+alamat rumah-- yah, milik orang ini,
+mungkin Anda bisa mencarinya
 
 466
 00:19:10,591 --> 00:19:11,090
-somewhere.
+di suatu tempat.
 
 467
 00:19:11,090 --> 00:19:12,981
-This guy was a well
-known person at the time.
+Pria ini adalah orang
+yang terkenal saat itu.
 
 468
 00:19:12,981 --> 00:19:15,480
-But where do you get the last
-four digits of his credit card
+Namun dari mana Anda mendapatkan
+empat angka terakhir dari
 
 469
 00:19:15,480 --> 00:19:16,640
-number?
+kartu kreditnya?
 
 470
 00:19:16,640 --> 00:19:21,177
-Well, not clear, but
-let's keep going further.
+Yah, tidak jelas, tapi
+mari kita lanjutkan.
 
 471
 00:19:21,177 --> 00:19:23,510
-So you need to send these
-things to me.com to get access
+Jadi Anda perlu mengirimkan seluruh hal
+ini ke me.com untuk mendapatkan akses
 
 472
 00:19:23,510 --> 00:19:25,652
-to his email account there.
+ke akun emailnya di sana.
 
 473
 00:19:25,652 --> 00:19:28,110
-Well, it turns out this guy
-had an account at Amazon, which
+Yah, ternyata pria ini
+memiliki akun di Amazon, yang merupakan
 
 474
 00:19:28,110 --> 00:19:31,250
-is another party in this story.
+pihak lain dalam cerita ini.
 
 475
 00:19:31,250 --> 00:19:34,460
-Amazon really wants
-you to buy things.
+Amazon benar-benar ingin
+Anda membeli sesuatu.
 
 476
 00:19:34,460 --> 00:19:38,030
-And as a result, they actually
-have a fairly elaborate account
+Dan sebagai konsekuensinya, mereka
+sebenarnya memiliki sistem pengelolaan akun
 
 477
 00:19:38,030 --> 00:19:39,770
-management system.
+yang cukup rumit.
 
 478
 00:19:39,770 --> 00:19:42,950
-And in particular, because they
-really want you to buy stuff,
+Dan khususnya, karena mereka
+sangat ingin Anda membeli barang,
 
 479
 00:19:42,950 --> 00:19:44,490
-they don't require
-you to sign in
+mereka tidak meminta
+Anda untuk mendaftar
 
 480
 00:19:44,490 --> 00:19:47,670
-in order to purchase some
-item with a credit card.
+untuk membeli beberapa barang
+dengan kartu kredit.
 
 481
 00:19:47,670 --> 00:19:50,710
-So I can actually go on Amazon,
-or at least at the time,
+Jadi saya dapat membuka Amazon,
+atau paling tidak saat itu,
 
 482
 00:19:50,710 --> 00:19:53,400
-I was able to go on Amazon
-and say, well, I'm this user.
+saya bisa mengunjungi Amazon
+dan berkata, yah, saya penggunanya.
 
 483
 00:19:53,400 --> 00:19:57,490
-And I want to buy this
-pack of toothbrushes.
+Dan saya ingin membeli
+satu bungkus sikat gigi ini.
 
 484
 00:19:57,490 --> 00:20:00,140
-And if I wanted to use
-the saved credit card
+Dan jika saya ingin menggunakan
+nomor kartu kredit yang disimpan
 
 485
 00:20:00,140 --> 00:20:02,640
-number in the guy's account, I
-shouldn't be able to do this.
+di akun pria itu, saya seharusnya
+tidak dapat melakukan ini.
 
 486
 00:20:02,640 --> 00:20:05,740
-But if I just was providing a
-new credit card, what Amazon
+Namun jika saya mendaftarkan
+kartu kredit baru, apa yang Amazon
 
 487
 00:20:05,740 --> 00:20:08,280
-would do is, they can
-actually add a new credit
+akan lakukan adalah, mereka sebenarnya
+dapat menambah sebuah kartu kredit
 
 488
 00:20:08,280 --> 00:20:13,500
-card to some guy's account.
+baru ke akun milik seseorang.
 
 489
 00:20:13,500 --> 00:20:15,500
-So that seems not
-too bad, right?
+Jadi sepertinya tidak 
+terlalu buruk, bukan?
 
 490
 00:20:15,500 --> 00:20:17,060
-I'm basically
-ordering toothbrushes
+Pada dasarnya saya
+memesan sikat gigi
 
 491
 00:20:17,060 --> 00:20:18,839
-through one of your
-Amazon accounts.
+melalui salah satu akun
+Amazon milik Anda.
 
 492
 00:20:18,839 --> 00:20:20,380
-But it's not your
-credit card anyway.
+Namun bagaimana pun juga
+itu bukan kartu kredit Anda.
 
 493
 00:20:20,380 --> 00:20:22,380
-It's just my credit
-card number being used.
+Itu hanya nomor kartu
+kredit saya yang sedang digunakan.
 
 494
 00:20:22,380 --> 00:20:24,220
-So it's not clear how
-things go wrong yet.
+Jadi masih belum jelas bagaimana
+hal ini menjadi tidak semestinya.
 
 495
 00:20:24,220 --> 00:20:26,630
-But Amazon had
-another interface.
+Namun Amazon memiliki
+antarmuka yang lain.
 
 496
 00:20:26,630 --> 00:20:28,430
-All these are
-complicated systems.
+Semua hal ini adalah
+sistem yang rumit.
 
 497
 00:20:28,430 --> 00:20:31,700
-And Amazon had an interface
-for password reset.
+Dan Amazon memiliki sebuah antarmuka
+untuk mengatur ulang password.
 
 498
 00:20:31,700 --> 00:20:34,550
-And in order to reset
-a password in Amazon,
+Dan untuk mengatur ulang
+password di Amazon,
 
 499
 00:20:34,550 --> 00:20:38,230
-what you had to provide is just
-one of the user's credit card
+apa yang harus Anda siapkan hanyalah
+nomor kartu kredit dari
 
 500
 00:20:38,230 --> 00:20:39,560
-numbers.
+seorang pengguna.
 
 501
 00:20:39,560 --> 00:20:42,424
-So I can order stuff and
-add a credit card number
+Jadi saya dapat memesan barang dan
+menambah sebuah nomor kartu kredit
 
 502
 00:20:42,424 --> 00:20:43,090
-to your account.
+ke akun Anda.
 
 503
 00:20:43,090 --> 00:20:45,298
-And then I can say, hey, I
-want to reset my password.
+Dan kemudian saya dapat mengatakan, hei, saya
+ingin mengatur ulang password saya.
 
 504
 00:20:45,298 --> 00:20:46,920
-This is one of my
-credit card numbers.
+Ini adalah salah satu 
+nomer kartu kredit saya.
 
 505
 00:20:46,920 --> 00:20:48,900
-And this, in fact, worked.
+Dan hal ini, faktanya, berhasil.
 
 506
 00:20:48,900 --> 00:20:53,590
-So this is where the bad guy
-got a hold of this guy's, Mat's,
+Jadi ini adalah titik di mana si orang jahat
+mendapatkan akun Amazon milik
 
 507
 00:20:53,590 --> 00:20:54,920
-Amazon account.
+orang ini, Mat.
 
 508
 00:20:54,920 --> 00:20:55,420
-But OK.
+Namun baiklah.
 
 509
 00:20:55,420 --> 00:20:57,260
-How do you fish out
-the credit card number
+Bagaimana Anda memancing keluar
+nomor kartu kredit
 
 510
 00:20:57,260 --> 00:20:59,350
-for resetting Apple's site?
+untuk mengatur ulang situs Apple?
 
 511
 00:20:59,350 --> 00:21:01,010
-Well, Amazon was
-actually very careful.
+Yah, Amazon dulunya
+sangat berhati-hati.
 
 512
 00:21:01,010 --> 00:21:03,010
-Even if you break into
-someone's Amazon account,
+Bahkan jika Anda membobol
+akun Amazon seseorang,
 
 513
 00:21:03,010 --> 00:21:05,620
-it will not print you
-the saved credit card
+Amazon tidak akan mencetak nomor
+kartu kredit yang tersimpan
 
 514
 00:21:05,620 --> 00:21:07,700
-numbers from that person.
+milik orang tersebut.
 
 515
 00:21:07,700 --> 00:21:09,284
-But it will show the
-last four digits.
+Namun Amazon akan menunjukkan
+empat angka terakhirnya.
 
 516
 00:21:09,284 --> 00:21:11,616
-Just so you know which credit
-card you're talking about.
+Sehingga Anda tahu kartu 
+kredit mana yang dimaksud.
 
 517
 00:21:11,616 --> 00:21:14,220
-So you can list all the credit
-cards, other than the one
+Jadi anda dapat melihat daftar semua kartu  
+kredit, selain kartu kredit yang 
 
 518
 00:21:14,220 --> 00:21:14,930
-you added.
+sudah Anda tambahkan.
 
 519
 00:21:14,930 --> 00:21:16,770
-You can then go and
-break into me.com.
+Kemudian Anda dapat mengunjungi dan
+masuk ke me.com.
 
 520
 00:21:16,770 --> 00:21:19,620
-You can click on this
-link and get access
+Anda dapat mengklik tautan
+ini dan mendapatkan akses
 
 521
 00:21:19,620 --> 00:21:21,281
-to the guy's Gmail account.
+ke akun Gmail pria itu.
 
 522
 00:21:21,281 --> 00:21:22,530
-This is all very subtle stuff.
+Semua hal ini sangatlah rumit.
 
 523
 00:21:22,530 --> 00:21:24,380
-And in isolation,
-each system seems
+Dan jika terisolasi,
+setiap sistem tampak
 
 524
 00:21:24,380 --> 00:21:26,880
-to be doing somewhat
-sensible things.
+melakukan hal-hal
+yang masuk akal.
 
 525
 00:21:26,880 --> 00:21:28,590
-But it's actually
-quite hard to reason
+Namun sebenarnya
+cukup sulit untuk memikirkan
 
 526
 00:21:28,590 --> 00:21:31,560
-about these vulnerabilities
-and weaknesses
+tentang segala kerentanan
+dan kelemahan ini
 
 527
 00:21:31,560 --> 00:21:34,480
-unless you have this whole
-picture explained to you
+kecuali Anda memiliki gambaran
+keseluruhan ini dijelaskan kepada Anda
 
 528
 00:21:34,480 --> 00:21:37,380
-and you've sort of put
-all the pieces together.
+dan Anda harus mengumpulkan
+potongan-potongan ini menjadi satu.
 
 529
 00:21:37,380 --> 00:21:41,310
-So this is actually
-fairly tricky stuff.
+Jadi hal ini sebenarnya
+cukup rumit.
 
 530
 00:21:41,310 --> 00:21:45,012
-And unfortunately, well,
-much like for every one
+Dan sayangnya, yah,
+sepertinya untuk masing-masing
 
 531
 00:21:45,012 --> 00:21:47,470
-of these three categories, the
-answer for how to avoid this
+kategori ini, jawaban untuk
+bagaimana menghindari hal ini
 
 532
 00:21:47,470 --> 00:21:50,630
-is often think hard
-and be careful.
+adalah seringkali dengan berpikir keras
+dan berhati-hati.
 
 533
 00:21:50,630 --> 00:21:54,330
-I guess the one general plan
-is, be conservative in terms
+Saya rasa rencana umumnya
+adalah, dengan bersikap konservatif dalam hal
 
 534
 00:21:54,330 --> 00:21:57,960
-of what you set
-your policy to be,
+mengatur kebijakan Anda
+akan seperti apa,
 
 535
 00:21:57,960 --> 00:22:01,540
-to maybe not depend on things
-other sites might reveal.
+untuk mungkin tidak bergantung pada hal-hal
+yang mungkin diungkap situs lain.
 
 536
 00:22:01,540 --> 00:22:05,645
-So well, I'm not sure if any
-really great advice would
+Jadi yah, saya tidak yakin jika ada
+nasihat yang sangat bagus yang dapat
 
 537
 00:22:05,645 --> 00:22:06,942
-have prevented this problem.
+mencegah masalah ini.
 
 538
 00:22:06,942 --> 00:22:07,650
-But now you know.
+Namun sekarang Anda tahu.
 
 539
 00:22:07,650 --> 00:22:11,180
-And now you'll make
-other mistakes.
+Dan sekarang Anda akan membuat
+kesalahan lain.
 
 540
 00:22:11,180 --> 00:22:13,970
-There's many other
-examples of policies
+Ada sangat banyak
+contoh kebijakan lain
 
 541
 00:22:13,970 --> 00:22:18,577
-going wrong and allowing a
-system to be compromised.
+yang salah dan dapat
+membahayakan suatu sistem.
 
 542
 00:22:18,577 --> 00:22:19,660
-That's interesting enough.
+Hal itu cukup menarik.
 
 543
 00:22:19,660 --> 00:22:22,550
-But let's look at how people
-might screw up threat models.
+Namun mari kita lihat bagaimana orang-orang
+mungkin mengacaukan model-model ancaman.
 
 544
 00:22:22,550 --> 00:22:28,020
-So let me turn off
-this blue square.
+Jadi saya akan matikan
+kotak biru ini.
 
 545
 00:22:28,020 --> 00:22:28,520
@@ -2580,43 +2580,43 @@ OK.
 
 546
 00:22:28,520 --> 00:22:36,060
-So what are examples of
-threat models that go wrong?
+Jadi apa contoh model ancaman
+yang salah?
 
 547
 00:22:36,060 --> 00:22:42,410
-Well, probably a big one in
-practice is human factors.
+Baik, mungkin satu contoh besar yang ada
+dalam praktiknya adalah faktor manusia.
 
 548
 00:22:42,410 --> 00:22:45,970
-So we often make
-assumptions about what
+Jadi kita sering membuat
+asumsi tentang apa
 
 549
 00:22:45,970 --> 00:22:49,040
-people will do in
-a system, like they
+yang akan orang lakukan dalam
+sebuah sistem, seperti mereka akan
 
 550
 00:22:49,040 --> 00:22:51,150
-will pick a good,
-strong password,
+memilih password
+yang bagus dan kuat,
 
 551
 00:22:51,150 --> 00:22:53,920
-or they will not click
-on random websites
+atau mereka tidak akan mengklik
+situs-situs sembarangan
 
 552
 00:22:53,920 --> 00:22:56,800
-that they get through email
-and enter their password there.
+yang mereka terima melalui email
+dan memasukkan password mereka di sana.
 
 553
 00:22:56,800 --> 00:22:59,594
-So these are-- well, as
-you probably suspect,
+Jadi itu tadi adalah-- yah,
+seperti yang mungkin Anda curiga,
 
 554
 00:22:59,594 --> 00:23:01,260
