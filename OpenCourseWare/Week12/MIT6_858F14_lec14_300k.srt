@@ -1601,69 +1601,69 @@ the fact that you
 
 339
 00:15:12,260 --> 00:15:15,970
-know the secret key in
-your user certificate,
+ketahui kunci rahasia dalam 
+sertifikat pengguna Anda,
 
 340
 00:15:15,970 --> 00:15:18,540
-and then establish the
-secret key s for the rest
+dan kemudian buat 
+kunci rahasia s untuk
 
 341
 00:15:18,540 --> 00:15:19,972
-the communication.
+komunikasi lainnya.
 
 342
 00:15:19,972 --> 00:15:22,640
-Make Sense?
+Masuk akal?
 
 343
 00:15:22,640 --> 00:15:23,180
-All right.
+Baiklah.
 
 344
 00:15:26,820 --> 00:15:29,760
-These are sort of all fixable
-problems at the protocol level
+Ini adalah semacam masalah yang dapat diperbaiki 
+pada tingkat protokol
 
 345
 00:15:29,760 --> 00:15:31,820
-that are reasonably
-easy to V address
+yang cukup mudah untuk diatasi
+ke alamat V
 
 346
 00:15:31,820 --> 00:15:33,390
-by adding extra messages.
+dengan menambahkan pesan tambahan.
 
 347
 00:15:33,390 --> 00:15:36,810
-The big assumption here, of
-course, that we're going under
+Asumsi besar di sini, 
+tentu saja, yang kita hadapi
 
 348
 00:15:36,810 --> 00:15:41,090
-is that all the parties know
-each other's public keys.
+adalah agar semua pihak tahu
+kunci publik masing-masing.
 
 349
 00:15:41,090 --> 00:15:47,500
-So do you actually discover
-someone's public key?
+Jadi apakah Anda benar-benar menemukan 
+kunci publik seseorang? 
 
 350
 00:15:47,500 --> 00:15:50,910
-for, you know, it a wants
-to connect a website,
+karena, Anda tahu, itu keinginan
+untuk menghubungkan situs web,
 
 351
 00:15:50,910 --> 00:15:53,882
-I have a URL that I want to
-connect to, or a host name,
+saya memiliki URL yang ingin saya 
+hubungkan, atau nama host,
 
 352
 00:15:53,882 --> 00:15:55,840
-how do I know what pub
-key that corresponds to?
+bagaimana cara Saya mengetahui 
+kunci pub yang sesuai?
 
 353
 00:15:55,840 --> 00:15:59,660
