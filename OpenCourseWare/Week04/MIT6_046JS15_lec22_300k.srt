@@ -1743,8 +1743,6 @@ Itu hebat.
 
 372
 00:19:56,090 --> 00:20:02,270
-So if you put a box within
-a box, then does this work?
 Jadi jika Anda meletakkan sebuah kotak di dalam
 sebuah kotak, lalu apakah ini berfungsi?
 
