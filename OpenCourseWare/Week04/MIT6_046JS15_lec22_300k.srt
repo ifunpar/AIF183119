@@ -1707,48 +1707,50 @@ Saya punya koper seperti itu.
 
 364
 00:19:41,310 --> 00:19:43,549
-And then there could
-be another spot here
+Dan mungkin ada
+tempat lain di sini
 
 365
 00:19:43,549 --> 00:19:44,465
-that looks it as well.
+yang terlihat seperti itu juga.
 
 366
 00:19:47,030 --> 00:19:49,090
-So that could be one way.
+Jadi itu bisa menjadi salah satu cara.
 
 367
 00:19:49,090 --> 00:19:51,800
-Well, what's another
-way of having two locks?
+Jadi, apa cara lain
+untuk memiliki dua kunci?
 
 368
 00:19:51,800 --> 00:19:52,300
-Yeah
+Ya
 
 369
 00:19:52,300 --> 00:19:53,680
-AUDIENCE: Putting
-a box within a box.
+PENONTON: Meletakkan
+sebuah kotak di dalam kotak.
 
 370
 00:19:53,680 --> 00:19:54,860
-SRINIVAS DEVADAS: Yeah,
-putting a box within a box.
+SRINIVAS DEVADAS: Ya,
+meletakkan sebuah kotak dalam kotak.
 
 371
 00:19:54,860 --> 00:19:56,090
-That's great.
+Itu hebat.
 
 372
 00:19:56,090 --> 00:20:02,270
 So if you put a box within
 a box, then does this work?
+Jadi jika Anda meletakkan sebuah kotak di dalam
+sebuah kotak, lalu apakah ini berfungsi?
 
 373
 00:20:02,270 --> 00:20:04,090
-It doesn't work, right?
+Itu tidak berhasil, bukan?
 
 374
 00:20:04,090 --> 00:20:06,350
