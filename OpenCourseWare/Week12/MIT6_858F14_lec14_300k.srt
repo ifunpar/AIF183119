@@ -1542,62 +1542,7 @@ lakukan adalah mengandalkan enkripsi.
 Jadi mungkin b dapat mengirimkan
 nonce kembali ke a sudah terenkripsi
 
-327
-00:14:44,120 --> 00:14:46,029
-under a's public key.
-
-328
-00:14:46,029 --> 00:14:48,070
-And then only a would be
-able to decrypt the nons
-
-329
-00:14:48,070 --> 00:14:50,366
-and generate the final
-session key s prime.
-
-330
-00:14:50,366 --> 00:14:52,240
-So there are a couple
-of tricks you could do.
-
-331
-00:14:52,240 --> 00:14:55,110
-This is roughly how
-client certificates
-
-332
-00:14:55,110 --> 00:14:57,640
-work in web browsers today.
-
-333
-00:14:57,640 --> 00:15:00,005
-So a has a secret
-key, so when get
-
-334
-00:15:00,005 --> 00:15:03,550
-an MIT personal certificate,
-what happens is your browser
-
-335
-00:15:03,550 --> 00:15:05,300
-generates a long
-lived secret key
-
-336
-00:15:05,300 --> 00:15:07,410
-and gets a certificate for it.
-
-337
-00:15:07,410 --> 00:15:10,636
-And whenever you send
-to request a web server,
-
-338
-00:15:10,636 --> 00:15:12,260
-you're going to prove
-the fact that you
+https://github.com/henrico28/AIF183119/edit/master/OpenCourseWare/Week12/MIT6_858F14_lec14_300k.srt
 
 339
 00:15:12,260 --> 00:15:15,970
