@@ -1608,7 +1608,7 @@ hubungkan, atau nama host,
 352
 00:15:53,882 --> 00:15:55,840
 bagaimana cara Saya mengetahui 
-kunci pub yang sesuai?
+kunci publik yang sesuai?
 
 353
 00:15:55,840 --> 00:15:59,660
@@ -1718,53 +1718,53 @@ literatur keamanan.
 
 375
 00:17:07,609 --> 00:17:10,400
-This thing is also going
-to logically maintain
+Hal ini juga akan
+secara logis menjaga
 
 376
 00:17:10,400 --> 00:17:13,380
-the stable of, here's
-the name of a principle,
+kestabilan dari, berikut
+nama dari sebuah prinsipiil,
 
 377
 00:17:13,380 --> 00:17:19,319
-and here's the public
-key for that principle.
+dan berikut merupakan kunci
+publik dari prinsipiil tersebut.
 
 378
 00:17:19,319 --> 00:17:22,300
-And the main difference from
-the way Kerberos worked,
+Dan perbedaan utama dari
+cara Kerberos bekerja,
 
 379
 00:17:22,300 --> 00:17:24,280
-is that this
-certificate authority
+adalah bahwa
+sertifikat otoritas ini
 
 380
 00:17:24,280 --> 00:17:28,450
-thing isn't going to have to
-be online for all transactions.
+tidak harus
+online untuk semua transaksi.
 
 381
 00:17:28,450 --> 00:17:30,450
-So in Kerberos you have
-to talk to those KDCs
+Jadi di Kerberos Anda harus
+berkomunikasi dengan para KDC
 
 382
 00:17:30,450 --> 00:17:33,800
-to get a connection or
-to look up someone's key.
+untuk mendapatkan koneksi atau
+untuk mencari kunci milik seseorang.
 
 383
 00:17:33,800 --> 00:17:36,790
-Instead, what's going to
-happen in this CA world,
+Sebaliknya, apa yang akan
+terjadi di dunia CA ini, 
 
 384
 00:17:36,790 --> 00:17:43,210
-is that if you have some
-name here, and a public key,
+yaitu jika Anda memiliki sebuah
+nama disini dan sebuah kunci publik.
 
 385
 00:17:43,210 --> 00:17:44,800
