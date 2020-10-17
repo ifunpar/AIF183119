@@ -1752,69 +1752,69 @@ Itu tidak berhasil, bukan?
 
 374
 00:20:04,090 --> 00:20:06,350
-So nested locks
-actually don't work.
+Jadi nested locks
+sebenarnya tidak berhasil.
 
 375
 00:20:06,350 --> 00:20:17,680
-Because what happened here is
-that KA was put first, then KB.
+Karena apa yang terjadi di sini adalah
+bahwa KA di simpan pertama, kemudian KB.
 
 376
 00:20:17,680 --> 00:20:22,730
-And if, in fact, you had
-KA, and then KB out there,
+Dan jika, faktanya, anda punya
+KA, dan kemudian KB di luar sana,
 
 377
 00:20:22,730 --> 00:20:35,729
-then you can't remove
-KA without removing KB.
+maka anda tidak dapat memindahkan
+KA tanpa memindahkan KB.
 
 378
 00:20:35,729 --> 00:20:38,020
-And this would be the case
-where you have nested locks.
+Dan ini akan menjadi kasus
+di mana anda memiliki nested locks.
 
 379
 00:20:42,180 --> 00:20:44,860
-So the mathematical
-operation that we require
+Jadi operasi 
+matematika yang kita perlukan
 
 380
 00:20:44,860 --> 00:20:48,890
-is commutativity
-between the locks.
+adalah komutatif
+di antara gembok.
 
 381
 00:20:48,890 --> 00:20:51,010
-And the locks need to commute.
+Dan gembok perlu bertukar.
 
 382
 00:20:51,010 --> 00:20:53,900
-I want to put KA in first.
+Saya ingin meletakkan KA terlebih dahulu.
 
 383
 00:20:53,900 --> 00:20:56,320
-Like I described, the
-physical realization
+Seperti yang saya jelaskan, 
+realisasi fisik 
 
 384
 00:20:56,320 --> 00:20:59,440
-could simply be a suitcase
-with two different positions
+secara sederhana adalah koper
+dengan dua posisi yang berbeda
 
 385
 00:20:59,440 --> 00:21:00,250
-for the two locks.
+untuk dua gembok.
 
 386
 00:21:00,250 --> 00:21:03,760
-And any one of those
-positions locks the suitcase.
+Dan salah satu dari
+posisi itu mengunci koper.
 
 387
 00:21:03,760 --> 00:21:05,820
-So you put KA here, KB here.
+Jadi anda meletakkan KA di sini, dan KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
