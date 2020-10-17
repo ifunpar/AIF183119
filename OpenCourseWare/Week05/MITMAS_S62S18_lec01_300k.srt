@@ -1557,17 +1557,17 @@ $5,00.
 
 331
 00:13:44,450 --> 00:13:46,220
-Jadi Alice mengirim 
+Jadi Alice mengirim
 sebuah pesan untuk bank
 
 332
 00:13:46,220 --> 00:13:48,783
-serta mengautentikasi dengan bank 
+serta mengautentikasi dengan bank
 untuk menunjukan kepada bank
 
 333
 00:13:48,783 --> 00:13:50,450
-bahwa dia itu adalah, 
+bahwa dia itu adalah,
 Alice, tapi Saya tidak
 
 334
@@ -1577,12 +1577,12 @@ mengenai cara kerja itu.
 
 335
 00:13:52,650 --> 00:13:57,230
-Lalu bank akan konfirmasi hal itu, 
+Lalu bank akan konfirmasi hal itu,
 dan melakukan transfer dalam
 
 336
 00:13:57,230 --> 00:14:02,510
-buku besar, misal sekarang Alice mempunyai 
+buku besar, misal sekarang Alice mempunyai
 $5,00 dan Bob juga punya $5,00.
 
 337
@@ -1604,7 +1604,7 @@ Kamu bisa verifikasi untuk dirimu sendiri.
 
 341
 00:14:08,960 --> 00:14:12,140
-Bob cek ke bank dan 
+Bob cek ke bank dan
 melihat, bahwa iya faktanya,
 
 342
@@ -1614,23 +1614,23 @@ dia memiliki $5.00 sekarang,
 
 343
 00:14:14,090 --> 00:14:16,250
-padahal sebelumnya dia 
+padahal sebelumnya dia
 memiliki 0 dolar.
 
 344
 00:14:16,250 --> 00:14:19,280
-Dan kemudian Bob memberikan 
-Alice sandwichnya karena dia 
+Dan kemudian Bob memberikan
+Alice sandwichnya karena dia
 mengetahui
 
 345
 00:14:19,280 --> 00:14:20,980
-bahwa sekarang dia 
+bahwa sekarang dia
 memiliki $5.00.
 
 346
 00:14:20,980 --> 00:14:24,580
-Dan banknya semacam 
+Dan banknya semacam
 mempertahankan properti
 
 347
@@ -1640,7 +1640,7 @@ tidak diketahui berasal darimana,
 
 348
 00:14:27,880 --> 00:14:29,680
-padahal saldonya selalu 
+padahal saldonya selalu
 diurus dengan maksimal.
 
 349
@@ -1659,7 +1659,7 @@ pembayaran digital.
 
 352
 00:14:35,500 --> 00:14:39,003
-Kartu kredit, Venmo, 
+Kartu kredit, Venmo,
 para bank, jenis dari semua
 
 353
@@ -1722,72 +1722,72 @@ Bank terkadang gagal.
 
 365
 00:15:06,490 --> 00:15:07,780
-Banks are hacked.
+Bank telah diretas.
 
 366
 00:15:07,780 --> 00:15:10,198
-Banks have humans
-who are running them
+Bank memiliki manusia
+yang menjalankannya
 
 367
 00:15:10,198 --> 00:15:11,740
-who occasionally
-might want to change
+yang sesekali
+mungkin ingin merubah
 
 368
 00:15:11,740 --> 00:15:14,440
-those balances in their favor.
+saldo itu dalam menguntungkan mereka.
 
 369
 00:15:14,440 --> 00:15:15,550
-This has all happened.
+Ini semua telah terjadi.
 
 370
 00:15:15,550 --> 00:15:17,910
-Anything else?
+Ada yang lain?
 
 371
 00:15:17,910 --> 00:15:18,450
-Yeah.
+Ya.
 
 372
 00:15:18,450 --> 00:15:19,390
-And say your name.
+Dan sebutkan namamu.
 
 373
 00:15:19,390 --> 00:15:21,330
-AUDIENCE: Brittany.
+HADIRIN: Brittany.
 
 374
 00:15:21,330 --> 00:15:24,160
-If it's urgent, sometimes
-you might run into a delay
+Jika mendesak, terkadang
+anda mungkin mengalami penundaan
 
 375
 00:15:24,160 --> 00:15:26,730
-or it might take time
-with the process.
+atau mungkin butuh waktu
+dengan prosesnya.
 
 376
 00:15:26,730 --> 00:15:27,480
-NEHA NARULA: Yeah.
+NEHA NARULA: Ya.
 
 377
 00:15:27,480 --> 00:15:30,490
-Alice has to talk to the banks,
-and that's kind of annoying.
+Alice harus berbicara dengan bank,
+dan itu agak mengganggu.
 
 378
 00:15:30,490 --> 00:15:33,150
-So there's that.
+Jadi begitulah.
 
 379
 00:15:33,150 --> 00:15:33,880
-Anything else?
+Ada yang lain?
 
 380
 00:15:33,880 --> 00:15:34,447
-Yeah.
+Ya.
 
 381
 00:15:34,447 --> 00:15:36,030
