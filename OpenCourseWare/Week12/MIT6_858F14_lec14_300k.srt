@@ -1652,17 +1652,17 @@ untuk server.
 
 361
 00:16:22,490 --> 00:16:25,480
-Kita telah menyelesaikan/memperbaiki hal tersebut dengan melakukan
-enkripsi kunci publik sekarang.
+Kita sekarang menyelesaikan hal tersebut dengan melakukan
+enkripsi kunci publik.
 
 362
 00:16:25,480 --> 00:16:29,350
 Tetapi Kita juga membutuhkan pemetaan ini
-dari string utama/pokok
+dari string nama 
 
 363
 00:16:29,350 --> 00:16:32,340
-nama ke kunci kriptografi
+utama ke kunci kriptografi
 dari Kerberos sebelumnya
 
 364
