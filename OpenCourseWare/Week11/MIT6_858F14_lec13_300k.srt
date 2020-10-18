@@ -1296,36 +1296,36 @@ bahkan berpotensi lebih lama.
 
 272
 00:12:22,800 --> 00:12:25,300
-We'll see about that.
+Kita akan lihat tentang itu.
 
 273
 00:12:25,300 --> 00:12:28,570
-So this KC is a really
-dangerous thing to leak.
+Jadi KC ini sangat berbahaya
+untuk dibocorkan.
 
 274
 00:12:28,570 --> 00:12:31,580
-So the whole point of using
-this interface first and using
+Jadi inti dari menggunakan
+antarmuka ini dulu dan menggunakan
 
 275
 00:12:31,580 --> 00:12:34,270
-this interface later for
-all subsequent requests
+antarmuka ini nanti untuk
+seluruh permintaan selanjutnya
 
 276
 00:12:34,270 --> 00:12:36,790
-is that you can
-actually forget KC
+adalah agar kalian
+dapat melupakan KC
 
 277
 00:12:36,790 --> 00:12:40,430
-as soon as you decrypt this
-TGS response from the Kerberos
+setelah kalian men-decrypt respon
+TGS ini dari antarmuka
 
 278
 00:12:40,430 --> 00:12:41,980
-interface.
+Kerberos.
 
 279
 00:12:41,980 --> 00:12:44,600
