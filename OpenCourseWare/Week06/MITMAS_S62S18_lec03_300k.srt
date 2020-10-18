@@ -1273,140 +1273,139 @@ Bagus.
 
 277
 00:12:56,770 --> 00:13:00,820
-But my public key size expands
-with the number of signatures
+Tapi ukuran kunci publik saya bertambah
+dengan jumlah tanda - tanda
 
 278
 00:13:00,820 --> 00:13:04,100
-I ever want to do.
+Saya pernah mau melakukannya.
 
 279
 00:13:04,100 --> 00:13:07,250
-Any ideas on how you
-could mitigate that
+Ada ide tentang bagaimana Anda
+bisa mengurangi itu?
 
 280
 00:13:07,250 --> 00:13:10,130
-or how you could still
-make a usable system,
+atau bagaimana anda masih bisa
+membuat sistem yang dapat digunakan
 
 281
 00:13:10,130 --> 00:13:11,060
-despite this fact?
+terlepas dari fakta ini?
 
 282
 00:13:14,410 --> 00:13:18,270
-There's a couple
-different techniques.
+Ada beberapa teknik yang berbeda.
 
 283
 00:13:18,270 --> 00:13:18,770
-Any ideas?
+Ada ide?
 
 284
 00:13:21,000 --> 00:13:21,500
-OK.
+Oke.
 
 285
 00:13:21,500 --> 00:13:25,180
-So one would be
-every time I sign,
+Jadi salah satunya 
+setiap saya menandakan,
 
 286
 00:13:25,180 --> 00:13:29,830
-I also sign my next pubkey.
+Saya juga menandakan kuncipub saya berikutnya.
 
 287
 00:13:29,830 --> 00:13:31,540
-You can do that.
+Anda bisa melakukan itu.
 
 288
 00:13:31,540 --> 00:13:33,160
-It's got some downsides, right?
+Terdapat beberapa kerugian, bukan?
 
 289
 00:13:33,160 --> 00:13:37,540
-So the idea is I first publish
-one 16 kilobyte pubkey.
+Jadi idenya adalah pertama saya mencantumkan
+satu 16 kilobyte kunci publik
 
 290
 00:13:37,540 --> 00:13:41,620
-And then I say, OK, when I sign,
-I'm going to sign my message.
+Dan kemudian saya berkata, Oke, ketika Saya tandakan,
+Saya akan menandakan pesan saya.
 
 291
 00:13:41,620 --> 00:13:45,610
-And concatenated to that
-message will be my next pubkey.
+Dan digabungkan dengan itu pesan
+akan menjadi kunci publik saya berikutnya.
 
 292
 00:13:45,610 --> 00:13:48,040
-And so I'm signing something
-and also indicating
+Dan jadi Saya menandakan sesuatu
+dan juga menunjukkan
 
 293
 00:13:48,040 --> 00:13:51,190
-what my next public key
-will be that I sign with.
+Apa kunci publik saya berikutnya
+akan menjadi yang saya tandakan.
 
 294
 00:13:51,190 --> 00:13:54,160
-Then I can still maintain
-a small private key
+Lalu Saya masih bisa mempertahankan
+kunci privat yang kecil
 
 295
 00:13:54,160 --> 00:13:55,570
-and then keep signing.
+dan kemudian tetap menandakan
 
 296
 00:13:55,570 --> 00:13:58,690
-The problem is, in order
-for someone to verify,
+Masalahnya adalah, agar
+Seseorang dapat memverifikasi
 
 297
 00:13:58,690 --> 00:14:01,370
-they're going to need to look at
-all of my previous signatures,
+mereka akan perlu melihat 
+semua tanda saya sebelumnya
 
 298
 00:14:01,370 --> 00:14:01,870
-right?
+kan?
 
 299
 00:14:01,870 --> 00:14:05,430
-So if I'm saying, hey,
-here's my 500th public key
+Jadi jika Saya berkata, hei,
+ini adalah kunci publik saya yang ke-500
 
 300
 00:14:05,430 --> 00:14:07,180
-that I'm signing with,
-here's the message,
+yang saya tandakan,
+inilah pesannya, 
 
 301
 00:14:07,180 --> 00:14:09,722
-you're going to have to go back
-and look at my entire history
+Anda akan harus kembali 
+dan melihat seluruh sejarah
 
 302
 00:14:09,722 --> 00:14:14,000
-of signing, which is not great.
+penandaan saya, yang tidak bagus.
 
 303
 00:14:14,000 --> 00:14:14,500
-OK.
+Oke.
 
 304
 00:14:14,500 --> 00:14:19,418
-So other ideas of how to
-deal with large pubkeys?
+Jadi ide lain bagaimana 
+berurusan dengan kunci publik yang besar?
 
 305
 00:14:19,418 --> 00:14:20,710
-What's a way you could do this?
+Cara apa yang bisa anda lakukan?
 
 306
 00:14:23,500 --> 00:14:25,570
-So hints.
+Jadi beberapa petunjuk.
 
 307
 00:14:25,570 --> 00:14:28,700
