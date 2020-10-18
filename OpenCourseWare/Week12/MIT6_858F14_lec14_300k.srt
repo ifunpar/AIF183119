@@ -1542,7 +1542,62 @@ lakukan adalah mengandalkan enkripsi.
 Jadi mungkin b dapat mengirimkan
 nonce kembali ke a sudah terenkripsi
 
-https://github.com/henrico28/AIF183119/edit/master/OpenCourseWare/Week12/MIT6_858F14_lec14_300k.srt
+327
+00:14:44,120 --> 00:14:46,029
+dibawah kunci publik dari a.
+
+328
+00:14:46,029 --> 00:14:48,070
+Lalu hanya a yang akan dapat
+mendeskripsikan nonce tersebut
+
+329
+00:14:48,070 --> 00:14:50,366
+dan membangun
+kunci sesi final s utama.
+
+330
+00:14:50,366 --> 00:14:52,240
+Jadi ada beberapa
+trik yang anda dapat lakukan.
+
+331
+00:14:52,240 --> 00:14:55,110
+Ini secara kasar adalah bagaimana
+klien mensertifikasi
+
+332
+00:14:55,110 --> 00:14:57,640
+pekerjaan di alat pencari web hari ini.
+
+333
+00:14:57,640 --> 00:15:00,005
+Jadi a memiliki sebuah kunci
+rahasia, sehingga ketika mendapatkan
+
+334
+00:15:00,005 --> 00:15:03,550
+sebuah sertifikat pribadi MIT,
+yang terjadi adalah alat pencari Anda
+
+335
+00:15:03,550 --> 00:15:05,300
+membangun sebuah
+kunci rahasia yang berumur panjang
+
+336
+00:15:05,300 --> 00:15:07,410
+dan mendapatkan sertifikat untuk itu.
+
+337
+00:15:07,410 --> 00:15:10,636
+Dan kapanpun Anda mengirimkan
+untuk permintaan sebuah server web,
+
+338
+00:15:10,636 --> 00:15:12,260
+Anda akan membuktikan
+fakta bahwa Anda
 
 339
 00:15:12,260 --> 00:15:15,970
