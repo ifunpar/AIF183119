@@ -1612,53 +1612,53 @@ kunci publik yang sesuai?
 
 353
 00:15:55,840 --> 00:15:59,660
-Or similarly, if I connect to
-websis to look at my grades,
+Atau sama halnya, jika Saya mencoba terhubung dengan
+websis untuk mencari tahu/melihat nilai Saya,
 
 354
 00:15:59,660 --> 00:16:04,070
-how does the server know
-what my public key should be,
+bagaimana server mengetahui
+apa kunci publik Saya yang sebenarnya/seharusnya,
 
 355
 00:16:04,070 --> 00:16:08,550
-as opposed to the public key
-of some other at person MIT?
+dibandingkan dengan kunci publik
+seorang individu lain di MIT?
 
 356
 00:16:08,550 --> 00:16:13,889
-So this is the main problem
-that the KDC was addressing.
+Jadi hal ini merupakan masalah utama
+yang ditangani/diselesaikan oleh KDC.
 
 357
 00:16:13,889 --> 00:16:16,180
-I guess the KDC was solving
-two problems for us before.
+Saya kira KDC telah menangani/menyelesaikan
+dua masalah yang kita miliki sebelumnya.
 
 358
 00:16:16,180 --> 00:16:19,081
-One it that is was
-generating this message.
+Salah satunya adalah
+membangkitkan pesan ini.
 
 359
 00:16:19,081 --> 00:16:20,455
-It was generating
-the session key
+KDC membangkitkan
+kunci sesi
 
 360
 00:16:20,455 --> 00:16:22,490
-and encrypting it
-for the server.
+dan mengenkripsi kunci tersebut
+untuk server.
 
 361
 00:16:22,490 --> 00:16:25,480
-We fixed that by doing
-public key crypto now.
+Kita telah menyelesaikan/memperbaiki hal tersebut dengan melakukan
+enkripsi kunci publik sekarang.
 
 362
 00:16:25,480 --> 00:16:29,350
-But we also need to get this
-mapping from string principal
+Tetapi Kita juga membutuhkan pemetaan ini
+dari string utama/pokok
 
 363
 00:16:29,350 --> 00:16:32,340
