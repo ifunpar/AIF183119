@@ -1210,35 +1210,35 @@ khusus ini.
 
 254
 00:11:36,730 --> 00:11:39,070
-And it'll send you back a
-ticket and you can decrypt it
+dan akan mengeirim kan balik sebuah
+ticket dan anda dapat mendecrypt nya
 
 255
 00:11:39,070 --> 00:11:41,440
-with your KC afterwards.
+dengan KC anda setelah nya.
 
 256
 00:11:41,440 --> 00:11:41,940
-Yeah.
+ya.
 
 257
 00:11:41,940 --> 00:11:44,861
-STUDENT: Can you
-[INAUDIBLE] or ask the user
+MURID: apakah anda
+[TIDAK TERDENGAR] or tanyakan pada pengguna
 
 258
 00:11:44,861 --> 00:11:46,527
-to reenter their
-password each time they
+untuk memasukan kembali
+password mereka setiap 
 
 259
 00:11:46,527 --> 00:11:47,740
-want to [INAUDIBLE] service?
+ingin [TIDAK TERDENGAR] service?
 
 260
 00:11:47,740 --> 00:11:49,823
-PROFESSOR: Right, so the
-reason for the difference
+PROFESOR: Benar, jadi
+alasan perbedaannya
 
 261
 00:11:49,823 --> 00:11:52,440
