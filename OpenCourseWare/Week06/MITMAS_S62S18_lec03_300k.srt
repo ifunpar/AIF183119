@@ -1454,7 +1454,7 @@ Baik.
 
 317
 00:14:46,030 --> 00:14:46,530
-OK.
+Oke.
 
 318
 00:14:46,530 --> 00:14:49,620
@@ -1464,7 +1464,7 @@ ya, kunci publik 32 byte
 319
 00:14:49,620 --> 00:14:52,050
 Baik, anda hanya
-berkomitmen pada pubkey
+berkomitmen pada kunci publik
 
 320
 00:14:52,050 --> 00:14:54,570
@@ -1474,7 +1474,7 @@ semuanya, bukan?
 321
 00:14:54,570 --> 00:15:02,040
 Dan Saya katakan, Saya mendapatkan
-16 kilobyte saya per pubkey
+16 kilobyte saya per kunci publik
 
 322
 00:15:02,040 --> 00:15:04,580
