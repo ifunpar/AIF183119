@@ -1409,48 +1409,48 @@ Jadi beberapa petunjuk.
 
 307
 00:14:25,570 --> 00:14:28,700
-Is there any kind
-of data function
+Apakah ada jenis 
+dari fungsi data yang
 
 308
 00:14:28,700 --> 00:14:31,570
-we've seen here where it takes
-an arbitrary sized amount
+telah kita lihat disini dimana dibutuhkan
+jumlah sewenang-wenang
 
 309
 00:14:31,570 --> 00:14:34,630
-of data and outputs
-a fixed size?
+dari data dan keluaran
+dengan ukuran tetap?
 
 310
 00:14:34,630 --> 00:14:36,610
-[LAUGHING]
+[TERTAWA]
 
 311
 00:14:36,610 --> 00:14:38,250
-In fact, it's the
-only thing we've
+Faktanya, itu
+satu-satunya hal yang kita
 
 312
 00:14:38,250 --> 00:14:40,750
-been talking about so far.
+bicarakan sejauh ini.
 
 313
 00:14:40,750 --> 00:14:43,867
-So what would you do to make
-your public keys smaller?
+Jadi apa yang akan Anda lakukan untuk membuat
+kunc publik Anda terlihat lebih kecil?
 
 314
 00:14:43,867 --> 00:14:44,492
-AUDIENCE: Hash.
+AUDIENS: Hash.
 
 315
 00:14:44,492 --> 00:14:45,450
-TADGE DRYJA: Hash them.
+TADGE DRYJA: Hash mereka.
 
 316
 00:14:45,450 --> 00:14:46,030
-Right.
+Baik.
 
 317
 00:14:46,030 --> 00:14:46,530
@@ -1458,27 +1458,27 @@ OK.
 
 318
 00:14:46,530 --> 00:14:49,620
-So you say, well,
-yeah, 32 byte pubkey.
+Jadi Anda mengatakan,
+ya, kunci publik 32 byte
 
 319
 00:14:49,620 --> 00:14:52,050
-Well, you just
-commit to the pubkey
+Baik, anda hanya
+berkomitmen pada pubkey
 
 320
 00:14:52,050 --> 00:14:54,570
-with the hash of the
-whole thing, right?
+dengan hash
+semuanya, bukan?
 
 321
 00:14:54,570 --> 00:15:02,040
-And I say, well, I've got
-my 16 kilobyte by pubkey.
+Dan Saya katakan, Saya mendapatkan
+16 kilobyte saya per pubkey
 
 322
 00:15:02,040 --> 00:15:04,580
-I just hash it, right?
+Saya hanya hash, bukan?
 
 323
 00:15:04,580 --> 00:15:09,600
