@@ -1262,7 +1262,7 @@ dalam waktu yang lama.
 
 265
 00:12:03,070 --> 00:12:05,260
-Karena antara kamu harus 
+Karena antara kamu harus atau
 meminta pengguna untuk memasukannya,
 
 266
