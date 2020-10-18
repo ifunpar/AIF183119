@@ -1182,31 +1182,31 @@ tertentu, dan mendapatkan KC nya.
 
 248
 00:11:20,676 --> 00:11:25,180
-All right, so that seems good.
+Baiklah, jadi itu terlihat bagus.
 
 249
 00:11:25,180 --> 00:11:27,010
-Why do we need two
-protocols, right?
+Kenapa kita membutuhkan
+dua protokol, benar?
 
 250
 00:11:27,010 --> 00:11:32,020
-You could imagine that you just
-always ask the Kerberos server
+Kalian bisa membayangkan bahwa kalian hanya
+meminta tiket kepada server Kerberos
 
 251
 00:11:32,020 --> 00:11:33,292
-for tickets directly this way.
+secara langsung dengan cara ini.
 
 252
 00:11:33,292 --> 00:11:34,750
-You say, well, hey,
-I want a ticket
+Kalian bilang, ya, hey,
+Aku butuh sebuah tiket
 
 253
 00:11:34,750 --> 00:11:36,730
-for this particular
-principle name.
+untuk satu nama
+khusus ini.
 
 254
 00:11:36,730 --> 00:11:39,070
