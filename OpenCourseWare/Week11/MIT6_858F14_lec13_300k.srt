@@ -1267,32 +1267,32 @@ meminta pengguna untuk memasukannya,
 
 266
 00:12:05,260 --> 00:12:07,730
-which is just
-annoying for the user,
+yang hanya
+mengganggu bagi pengguna
 
 267
 00:12:07,730 --> 00:12:09,330
-or it sits around in memory.
+atau berada di dalam memori.
 
 268
 00:12:09,330 --> 00:12:12,400
-And this is basically as
-good as the user's password.
+Dan ini pada dasarnya sama bagusnya 
+dengan kata sandi pengguna.
 
 269
 00:12:12,400 --> 00:12:17,730
-So if this gets disclosed,
-then someone with access to KC
+Jadi jika ini terungkap,
+lalu seseorang dengan akses ke KC
 
 270
 00:12:17,730 --> 00:12:20,675
-can keep accessing the user's
-files until the user maybe
+dapat terus mengakses file pengguna 
+hingga pengguna tersebut mungkin
 
 271
 00:12:20,675 --> 00:12:22,800
-changes their password and
-potentially even longer.
+mengubah sandi mereka dan 
+bahkan berpotensi lebih lama.
 
 272
 00:12:22,800 --> 00:12:25,300
