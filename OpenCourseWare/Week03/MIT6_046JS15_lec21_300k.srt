@@ -2114,272 +2114,272 @@ fungsi hash gila ini di mana
 
 451
 00:24:14,790 --> 00:24:16,650
-you can't discover collisions.
+Anda tidak dapat menemukan collision-collision.
 
 452
 00:24:16,650 --> 00:24:18,620
-Well it would be
-absolutely wonderful.
+Ini akan menjadi
+sangat luar biasa.
 
 453
 00:24:18,620 --> 00:24:21,740
-In fact that's what we wanted
-when we built dictionaries.
+Sebenarnya hal itu adalah apa yang kita inginkan
+ketika kita membangun kamus-kamus.
 
 454
 00:24:21,740 --> 00:24:25,290
-But why don't we use
-SHA-3 in dictionaries?
+Tapi kenapa kita tidak menggunakan
+SHA-3 dalam kamus-kamus?
 
 455
 00:24:28,410 --> 00:24:30,350
-Why don't we use
-SHA-3 in dictionaries?
+Kenapa kita tidak menggunakan
+SHA-3 dalam kamus-kamus?
 
 456
 00:24:30,350 --> 00:24:30,851
-Yeah?
+Ya?
 
 457
 00:24:30,851 --> 00:24:33,058
-AUDIENCE: Because it's more
-complicated than we need.
+AUDIENS: Karena hal tersebut lebih
+rumit dari yang kita butuhkan.
 
 458
 00:24:33,058 --> 00:24:35,270
-SRINIVAS DEVADAS: Yeah,
-it's horribly slow, right?
+SRINAVAS DEVADAS: Ya,
+hal tersebut sangat lambat, benar?
 
 459
 00:24:35,270 --> 00:24:39,365
-It would take longer to
-compute the hash than access
+Hal itu akan membutuhkan waktu lebih lama untuk
+menghitung nilai hash daripada mengakses
 
 460
 00:24:39,365 --> 00:24:40,740
-the dictionary,
-when you actually
+kamusnya,
+ketika Anda sesungguhnya
 
 461
 00:24:40,740 --> 00:24:44,847
-had a reasonable dictionary
-that maybe had some collisions.
+mempunyai sebuah kamus yang masuk akal
+yang mungkin memiliki beberapa collision.
 
 462
 00:24:44,847 --> 00:24:46,930
-I mean you just go off and
-you have a linked list,
+Maksud saya Anda pergi begitu saja dan
+Anda punya sebuah linked list,
 
 463
 00:24:46,930 --> 00:24:50,090
-you can afford a few collisions,
-what's the big deal, right?
+Anda mampu mengalami sedikit collision,
+apa masalahnya, benar?
 
 464
 00:24:50,090 --> 00:24:51,860
-So it just doesn't
-make any sense
+Jadi tidak
+masuk akal
 
 465
 00:24:51,860 --> 00:24:57,420
-to use this level of
-heavyweight hash function,
+untuk menggunakan tingkatan
+seberat fungsi hash ini,
 
 466
 00:24:57,420 --> 00:25:00,830
-even if it satisfies
-collision resistance-- which
+bahkan jika hal ini memenuhi
+collision resistance-- yang
 
 467
 00:25:00,830 --> 00:25:04,070
-some of these are conjectured to
-do-- for the applications we've
+beberapa di antaranya diduga 
+melakukan-- untuk aplikasi-aplikasi
 
 468
 00:25:04,070 --> 00:25:04,617
-looked at.
+yang sudah kita lihat.
 
 469
 00:25:04,617 --> 00:25:06,950
-But there'll be other apps
-where collision resistance is
+Tapi akan ada aplikasi-aplikasi lain
+di mana collision resistance
 
 470
 00:25:06,950 --> 00:25:08,520
-going to be important.
+akan menjadi penting.
 
 471
 00:25:08,520 --> 00:25:10,110
-So that's collision resistance.
+Jadi itu adalah collision resistance.
 
 472
 00:25:10,110 --> 00:25:15,470
-And then there's-- TCR is
-target collision resistance.
+Lalu ada-- TCR adalah
+Target Collision Resistance.
 
 473
 00:25:15,470 --> 00:25:18,300
-It's a weaker form--
-so sometimes people
+Hal ini adalah bentuk yang lebih lemah--
+jadi terkadang orang-orang
 
 474
 00:25:18,300 --> 00:25:24,190
-CR strong collision resistance,
-and TCR weak occlusion
+CR ketahanan terhadap kesamaan yang kuat,
+dan TCR daya tahan halangan
 
 475
 00:25:24,190 --> 00:25:24,810
-resistance.
+yang lemah.
 
 476
 00:25:24,810 --> 00:25:28,090
-We'll use CR and TCR here.
+Kita akan menggunakan CR dan TCR di sini.
 
 477
 00:25:28,090 --> 00:25:35,460
-And this says it's
-infeasible, given
+Dan hal ini mengatakan hal tersebut
+tidak mungkin, diberikan
 
 478
 00:25:35,460 --> 00:25:39,200
-x-- so there's a
-specific x that you
+x-- jadi ada sebuah
+x spesifik yang Anda
 
 479
 00:25:39,200 --> 00:25:41,590
-want to find a collision
-for, as opposed
+ingin temukan sebuah tabrakan
+untuknya, daripada
 
 480
 00:25:41,590 --> 00:25:45,360
-to just finding a pair that
-goes once to x and x prime.
+hanya mencari sebuah pasangan yang
+hanya sekali menuju ke x dan x prima.
 
 481
 00:25:45,360 --> 00:25:49,700
-And any pair would suffice to
-break the collision resistance
+Dan pasangan apa pun akan cukup untuk
+merusak properti daya tahan
 
 482
 00:25:49,700 --> 00:25:50,560
-property.
+tabrakan tersebut.
 
 483
 00:25:50,560 --> 00:25:54,630
-But TCR says is I'm going
-to give you a specific x.
+Tapi TCR mengatakan bahwa saya akan
+memberikan Anda sebuah x spesifik.
 
 484
 00:25:54,630 --> 00:25:57,750
-And I want you to
-find an x prime who's
+dan saya ingin Anda untuk
+mencari sebuah x prima yang
 
 485
 00:25:57,750 --> 00:26:01,050
-hash collides with
-the hash of x, OK?
+hash-nya bertabrakan dengan
+hash dari x, OK?
 
 486
 00:26:01,050 --> 00:26:02,065
-That's TCR.
+Itu adalah TCR.
 
 487
 00:26:16,350 --> 00:26:18,082
-OK that's TCR for you.
+OK itu adalah TCR bagi Anda.
 
 488
 00:26:18,082 --> 00:26:20,040
-And that just to be clear,
-I think you probably
+Dan untuk lebih jelas,
+saya pikir mungkin Anda semua
 
 489
 00:26:20,040 --> 00:26:23,420
-all got this, obviously
-we want this here
+mengerti hal ini, dengan jelas
+kita menginginkan ini di sini
 
 490
 00:26:23,420 --> 00:26:26,340
-because we have a
-deterministic hash function.
+karena kita memiliki sebuah
+fungsi hash yang deterministik.
 
 491
 00:26:26,340 --> 00:26:29,430
-And it's a trivial thing
-to say that if you had x,
+Dan ini hanya hal sepele
+untuk mengatakan bahwa jika Anda memiliki x,
 
 492
 00:26:29,430 --> 00:26:32,380
-and you had x again, that you
-get the same hash back from it.
+dan Anda memiliki x lagi, Anda
+mendapatkan hash yang sama dari situ.
 
 493
 00:26:32,380 --> 00:26:33,740
-That's a requirement, really.
+Itu adalah sebuah kebutuhan, sungguh.
 
 494
 00:26:33,740 --> 00:26:36,670
-So we want two distinct x
-and x primes that are not
+Jadi kita ingin 2 nilai x yang berbeda
+dan sekumpulan x prima yang tidak
 
 495
 00:26:36,670 --> 00:26:38,590
-equal that end up colliding.
+sama yang pada akhirnya akan bertabrakan.
 
 496
 00:26:38,590 --> 00:26:40,890
-That's really what
-a collision is.
+Itu adalah arti sesungguhnya 
+dari sebuah tabrakan.
 
 497
 00:26:40,890 --> 00:26:44,200
-And so you see the difference
-between CR and TCR?
+Jadi Anda melihat perbedaan
+antara CR dan TCR?
 
 498
 00:26:44,200 --> 00:26:44,700
-Yup?
+Ya?
 
 499
 00:26:44,700 --> 00:26:45,812
-Yeah?
+Ya?
 
 500
 00:26:45,812 --> 00:26:49,144
-AUDIENCE: Are we to
-assume that given an x
+AUDIENS: Apakah kita
+mengasumsikan bahwa diberi suatu x
 
 501
 00:26:49,144 --> 00:26:51,105
-it's very easy to
-get the h of x back?
+itu sangat mudah untuk
+mendapatkan h dari x kembali?
 
 502
 00:26:51,105 --> 00:26:52,480
 SRINIVAS DEVADAS:
-So the question
+Jadi pertanyaannya
 
 503
 00:26:52,480 --> 00:26:57,150
-was, given an x, it's poly-time
-computation to get h of x.
+adalah, diberi suatu x, itu adalah komputasi
+dengan waktu polinomial untuk mendapatkan h dari x.
 
 504
 00:26:57,150 --> 00:26:58,230
-Absolutely.
+Benar.
 
 505
 00:26:58,230 --> 00:27:02,480
-Public poly-time computation
-given an x to get h of x.
+Komputasi publik dengan waktu polinomial
+diberi suatu x untuk mendapatkan h dari x.
 
 506
 00:27:02,480 --> 00:27:08,840
-So going this way is easy.
+Jadi melakukannya dengan cara ini mudah.
 
 507
 00:27:08,840 --> 00:27:15,170
-Going this way-- I ran
-out of room-- hard.
+Menggunakan cara ini-- saya lari
+keluar dari ruangan-- sulit.
 
 508
 00:27:15,170 --> 00:27:16,954
@@ -2387,121 +2387,121 @@ OK?
 
 509
 00:27:16,954 --> 00:27:20,160
-AUDIENCE: So does that mean that
-TCR is basically the same as 1?
+AUDIENS: Jadi apakah itu berarti bahwa
+TCR pada dasarnya sama dengan 1?
 
 510
 00:27:20,160 --> 00:27:22,230
-SRINIVAS DEVADAS: No,
-no, no, absolutely not.
+SRINIVAS DEVADAS: Tidak,
+tidak, tidak, sama sekali tidak.
 
 511
 00:27:22,230 --> 00:27:25,890
-TCR says it's OK.
+TCR bilang tidak apa-apa.
 
 512
 00:27:25,890 --> 00:27:27,620
-You can compute this.
+Anda dapat menghitung hal ini.
 
 513
 00:27:27,620 --> 00:27:29,030
-You can get x.
+Anda bisa mendapatkan x.
 
 514
 00:27:29,030 --> 00:27:30,720
-And you can get h of x.
+Dan Anda bisa mendapatkan h dari x.
 
 515
 00:27:30,720 --> 00:27:33,125
-So given x, you know
-that you can get h of x.
+Jadi diberikan x, Anda tahu
+bahwa Anda bisa mendapatkan h dari x.
 
 516
 00:27:33,125 --> 00:27:35,000
-I didn't actually put
-that in the definition.
+Saya sebenarnya tidak menaruh
+hal itu di dalam definisi.
 
 517
 00:27:35,000 --> 00:27:36,800
-And maybe I should have.
+Dan mungkin saya seharusnya melakukan hal itu.
 
 518
 00:27:36,800 --> 00:27:38,860
-So given x you can
-always get h of x.
+Jadi diberikan x Anda bisa
+selalu dapatkan h dari x.
 
 519
 00:27:38,860 --> 00:27:40,080
-Remember that.
+Ingat hal itu.
 
 520
 00:27:40,080 --> 00:27:41,640
-It's easy to get h of x.
+Sangat mudah untuk mendapatkan h dari x.
 
 521
 00:27:41,640 --> 00:27:44,350
-So any time I say given
-x, you can always add it,
+Jadi kapan pun saya mengatakan diberikan
+x, Anda selalu dapat menambahkannya,
 
 522
 00:27:44,350 --> 00:27:46,400
-saying given x and h of x.
+mengatakan diberikan x dan h dari x.
 
 523
 00:27:46,400 --> 00:27:48,690
-So I'm given x.
+Jadi saya diberikan x.
 
 524
 00:27:48,690 --> 00:27:49,960
-I'm given h of x.
+Saya diberikan h dari x.
 
 525
 00:27:49,960 --> 00:27:53,600
-I obviously need to
-map-- I need to discover
+Jelas bahwa saya harus 
+memetakan-- saya harus menemukan
 
 526
 00:27:53,600 --> 00:27:58,080
-an x prime such that h of
-x prime equals h of x, OK?
+sebuah x prima sehingga h dari
+x prima sama dengan h dari x, OK?
 
 527
 00:27:58,080 --> 00:28:04,490
-Now you have situations
-where for-- it
+Sekarang Anda mempunyai situasi-situasi
+di mana untuk-- ini
 
 528
 00:28:04,490 --> 00:28:07,920
-may be the case that
-for particular x's you
+mungkin kasus di mana 
+untuk nilai-nilai x tertentu Anda
 
 529
 00:28:07,920 --> 00:28:08,900
-can actually do this.
+bisa melakukan hal ini dengan sesungguhnya.
 
 530
 00:28:08,900 --> 00:28:10,363
-And that's enough to break TCR.
+Dan itu cukup untuk merusak TCR.
 
 531
 00:28:13,270 --> 00:28:15,640
-So you have to have
-this strong property
+Jadi Anda harus mempunyai
+properti yang kuat ini
 
 532
 00:28:15,640 --> 00:28:22,520
-that you really don't want to
-find collisions are for some--
+yang Anda sangat tidak inginkan untuk
+menemukan collision-collision untuk beberapa--
 
 533
 00:28:22,520 --> 00:28:26,470
-even if there's a constant
-fraction of x's that
+bahkan jika ada sebuah fraksi
+konstan dari nilai-nilai x yang
 
 534
 00:28:26,470 --> 00:28:29,210
-break the TCR property, you
-don't like your hash function,
+merusak properti TCR, Anda
+tidak menyukai fungsi hash Anda,
 
 535
 00:28:29,210 --> 00:28:29,710
@@ -2509,167 +2509,167 @@ OK?
 
 536
 00:28:29,710 --> 00:28:31,850
-Because you might end
-up picking those and go
+Karena Anda mungkin akan
+memilih hal-hal itu dan pergi
 
 537
 00:28:31,850 --> 00:28:35,490
-build security applications
-using those properties.
+membangun aplikasi-aplikasi keamanan
+menggunakan properti-properti tersebut.
 
 538
 00:28:35,490 --> 00:28:37,990
-I want to talk a little
-bit about the relationship
+Saya ingin membahas sedikit
+mengenai hubungan
 
 539
 00:28:37,990 --> 00:28:41,240
-between OW, CR, and TCR.
+antara OW, CR, dan TCR.
 
 540
 00:28:41,240 --> 00:28:42,700
-So I'm going to
-get back to that.
+Jadi saya akan
+kembali ke situ.
 
 541
 00:28:42,700 --> 00:28:45,290
-And we're going to talking
-about hash functions that
+Dan kita akan berbicara
+mengenai fungsi-fungsi hash yang
 
 542
 00:28:45,290 --> 00:28:48,076
-satisfy one property but
-don't satisfy the other.
+memenuhi satu properti tetapi
+tidak memenuhi yang lainnya.
 
 543
 00:28:48,076 --> 00:28:49,700
-And I think your
-question will probably
+Dan saya pikir
+pertanyaan Anda mungkin
 
 544
 00:28:49,700 --> 00:28:52,150
-be answered better, OK?
+akan terjawab lebih baik, OK?
 
 545
 00:28:52,150 --> 00:28:53,460
-Thanks for the question.
+Terima kasih atas pertanyaannya.
 
 546
 00:28:53,460 --> 00:28:56,160
-So those are the main ones.
+Jadi hal-hal itu adalah yang utama.
 
 547
 00:28:56,160 --> 00:28:59,260
-And really quickly, if you
-want to spend a lot of time
+Dan dengan cepat, jika Anda
+ingin menghabiskan banyak waktu
 
 548
 00:28:59,260 --> 00:29:02,972
-on this-- but I do
-want to put up--
+dalam hal ini-- tetapi saya
+ingin mengatakan--
 
 549
 00:29:02,972 --> 00:29:05,320
-I think I'll leave
-these properties up here
+saya pikir saya akan meninggalkan
+properti-properti ini di atas sini
 
 550
 00:29:05,320 --> 00:29:06,590
-for the duration.
+untuk sekarang.
 
 551
 00:29:06,590 --> 00:29:10,350
-Because it's important for you
-to see these definitions as we
+Karena penting bagi Anda
+untuk melihat definisi-definisi ini
 
 552
 00:29:10,350 --> 00:29:13,580
-look at the
-applications where we
+selagi kita melihat
+aplikasi-aplikasi di mana kita
 
 553
 00:29:13,580 --> 00:29:17,090
-require these properties, or
-a subset of these properties.
+membutuhkan properti-properti ini, atau
+sebagian dari properti-properti ini.
 
 554
 00:29:17,090 --> 00:29:19,580
-But that we have
-pseudo randomness.
+Tapi kita memiliki
+keacakan semu.
 
 555
 00:29:19,580 --> 00:29:22,910
-And this is simply a
-function of the fact
+Dan ini hanya sebuah
+fungsi dari fakta
 
 556
 00:29:22,910 --> 00:29:31,100
-that-- so this is PRF-- we know
-we can't build a random oracle.
+bahwa-- jadi ini adalah PRF-- kita tahu
+kita tidak bisa membangun sebuah pembangkit nilai acak.
 
 557
 00:29:31,100 --> 00:29:35,300
-And so we're going to have to do
-something that's pseudo-random.
+Jadi kita akan harus melakukan
+sesuatu yang semu acak.
 
 558
 00:29:35,300 --> 00:29:37,840
-And basically what
-we're saying here
+Dan pada dasarnya apa
+yang kita bahas di sini
 
 559
 00:29:37,840 --> 00:29:45,870
-is the behavior is
-indistinguishable from random.
+adalah perilaku yang
+tidak dapat dibedakan dari keacakan.
 
 560
 00:29:50,990 --> 00:29:56,140
-So we're going to have to use
-non-linearity, things that
+Jadi kita akan harus menggunakan
+ke-tidak-linear-an, hal-hal yang
 
 561
 00:29:56,140 --> 00:29:58,730
-are called non-linear
-feedback shift registers,
+disebut feedback tidak linear
+mengubah register-register,
 
 562
 00:29:58,730 --> 00:30:00,370
-to create pseudo-random
-functions.
+untuk menciptakan fungsi-fungsi
+semu acak.
 
 563
 00:30:00,370 --> 00:30:03,710
-There's many ways that we can
-create pseudo-random functions.
+Ada banyak cara agar kita dapat
+menciptakan fungsi-fungsi semu acak.
 
 564
 00:30:03,710 --> 00:30:05,310
-We won't really get into that.
+Kita tidak akan membahas hal itu terlalu dalam.
 
 565
 00:30:05,310 --> 00:30:07,680
-But obviously
-that's what we want.
+Tapi jelas
+itu adalah hal apa yang kita inginkan.
 
 566
 00:30:07,680 --> 00:30:14,420
-And then the last
-one is a bit tricky.
+Lalu yang terakhir
+sedikit rumit.
 
 567
 00:30:14,420 --> 00:30:18,830
-And we will have an app that
-requires this way at the end.
+Dan kita akan mempunyai sebuah aplikasi yang
+membutuhkan cara ini pada akhirnya.
 
 568
 00:30:18,830 --> 00:30:29,240
-But this is infeasible
-given h of x
+Tapi ini tidak mungkin
+diberikan h dari x
 
 569
 00:30:29,240 --> 00:30:42,010
-to produce h of x prime, where
-x and x prime are-- and it gets
+untuk menghasilkan h dari x prima, di mana
+x dan x prima adalah-- ini menjadi
 
 570
 00:30:42,010 --> 00:30:50,150
