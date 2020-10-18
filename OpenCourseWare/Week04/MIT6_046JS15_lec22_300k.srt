@@ -1729,7 +1729,7 @@ Ya
 
 369
 00:19:52,300 --> 00:19:53,680
-PENONTON: Meletakkan
+AUDIENS: Meletakkan
 sebuah kotak di dalam kotak.
 
 370
@@ -1762,18 +1762,18 @@ bahwa KA di simpan pertama, kemudian KB.
 
 376
 00:20:17,680 --> 00:20:22,730
-Dan jika, faktanya, anda punya
+Dan jika, faktanya, Anda punya
 KA, dan kemudian KB di luar sana,
 
 377
 00:20:22,730 --> 00:20:35,729
-maka anda tidak dapat memindahkan
+maka Anda tidak dapat memindahkan
 KA tanpa memindahkan KB.
 
 378
 00:20:35,729 --> 00:20:38,020
 Dan ini akan menjadi kasus
-di mana anda memiliki nested locks.
+di mana Anda memiliki nested locks.
 
 379
 00:20:42,180 --> 00:20:44,860
@@ -1814,7 +1814,7 @@ posisi itu mengunci koper.
 
 387
 00:21:03,760 --> 00:21:05,820
-Jadi anda meletakkan KA di sini, dan KB di sini.
+Jadi Anda meletakkan KA di sini, dan KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
