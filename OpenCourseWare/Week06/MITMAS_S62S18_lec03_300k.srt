@@ -1273,12 +1273,12 @@ Bagus.
 
 277
 00:12:56,770 --> 00:13:00,820
-Tapi ukuran kunci publik saya bertambah
-dengan jumlah tanda - tanda
+Tapi ukuran kunci publik saya membesar
+sesuai dengan jumlah tandatangan yang
 
 278
 00:13:00,820 --> 00:13:04,100
-Saya pernah mau melakukannya.
+Ingin saya lakukan.
 
 279
 00:13:04,100 --> 00:13:07,250
@@ -1288,7 +1288,7 @@ bisa mengurangi itu?
 280
 00:13:07,250 --> 00:13:10,130
 atau bagaimana anda masih bisa
-membuat sistem yang dapat digunakan
+membuat sistem yang dapat digunakan,
 
 281
 00:13:10,130 --> 00:13:11,060
@@ -1296,7 +1296,8 @@ terlepas dari fakta ini?
 
 282
 00:13:14,410 --> 00:13:18,270
-Ada beberapa teknik yang berbeda.
+Ada beberapa 
+teknik berbeda.
 
 283
 00:13:18,270 --> 00:13:18,770
@@ -1308,12 +1309,12 @@ Oke.
 
 285
 00:13:21,500 --> 00:13:25,180
-Jadi salah satunya 
-setiap saya menandakan,
+Jadi salah satunya adalah
+setiap saya menandatangani,
 
 286
 00:13:25,180 --> 00:13:29,830
-Saya juga menandakan kuncipub saya berikutnya.
+Saya juga menandatangani kunci publik saya berikutnya.
 
 287
 00:13:29,830 --> 00:13:31,540
@@ -1325,37 +1326,37 @@ Terdapat beberapa kerugian, bukan?
 
 289
 00:13:33,160 --> 00:13:37,540
-Jadi idenya adalah pertama saya mencantumkan
-satu 16 kilobyte kunci publik
+Jadi idenya adalah pertama saya mengeluarkan
+satu kunci publik sebesar 16 kilobyte
 
 290
 00:13:37,540 --> 00:13:41,620
-Dan kemudian saya berkata, Oke, ketika Saya tandakan,
-Saya akan menandakan pesan saya.
+Dan kemudian saya berkata, Oke, ketika saya menandai,
+Saya akan menandatangani pesan saya.
 
 291
 00:13:41,620 --> 00:13:45,610
-Dan digabungkan dengan itu pesan
-akan menjadi kunci publik saya berikutnya.
+Dan yang akan digabungkan dengan
+pesan itu adalah kunci publik saya berikutnya.
 
 292
 00:13:45,610 --> 00:13:48,040
-Dan jadi Saya menandakan sesuatu
+Jadi saya menandatangani sesuatu
 dan juga menunjukkan
 
 293
 00:13:48,040 --> 00:13:51,190
 Apa kunci publik saya berikutnya
-akan menjadi yang saya tandakan.
+yang akan saya tandatangani.
 
 294
 00:13:51,190 --> 00:13:54,160
-Lalu Saya masih bisa mempertahankan
+Lalu saya masih bisa mempertahankan
 kunci privat yang kecil
 
 295
 00:13:54,160 --> 00:13:55,570
-dan kemudian tetap menandakan
+dan kemudian tetap menandatangani.
 
 296
 00:13:55,570 --> 00:13:58,690
@@ -1369,26 +1370,26 @@ semua tanda saya sebelumnya
 
 298
 00:14:01,370 --> 00:14:01,870
-kan?
+bukan?
 
 299
 00:14:01,870 --> 00:14:05,430
-Jadi jika Saya berkata, hei,
-ini adalah kunci publik saya yang ke-500
+Jadi jika saya berkata, hei,
+ini adalah kunci publik ke-500 saya
 
 300
 00:14:05,430 --> 00:14:07,180
-yang saya tandakan,
-inilah pesannya, 
+yang saya tandatangani,
+ini pesannya, 
 
 301
 00:14:07,180 --> 00:14:09,722
-Anda akan harus kembali 
+Anda harus kembali 
 dan melihat seluruh sejarah
 
 302
 00:14:09,722 --> 00:14:14,000
-penandaan saya, yang tidak bagus.
+tandatangan saya, yang bukan hal bagus.
 
 303
 00:14:14,000 --> 00:14:14,500
@@ -1397,7 +1398,7 @@ Oke.
 304
 00:14:14,500 --> 00:14:19,418
 Jadi ide lain bagaimana 
-berurusan dengan kunci publik yang besar?
+menangani kunci publik yang besar?
 
 305
 00:14:19,418 --> 00:14:20,710
@@ -1410,16 +1411,16 @@ Jadi beberapa petunjuk.
 307
 00:14:25,570 --> 00:14:28,700
 Apakah ada jenis 
-dari fungsi data yang
+fungsi data yang
 
 308
 00:14:28,700 --> 00:14:31,570
-telah kita lihat disini dimana dibutuhkan
-jumlah sewenang-wenang
+telah kita lihat disini dimana 
+fungsi itu menerima data dengan
 
 309
 00:14:31,570 --> 00:14:34,630
-dari data dan keluaran
+ukurang yang tidak dibatasi dan keluaran
 dengan ukuran tetap?
 
 310
@@ -1438,7 +1439,7 @@ bicarakan sejauh ini.
 313
 00:14:40,750 --> 00:14:43,867
 Jadi apa yang akan Anda lakukan untuk membuat
-kunc publik Anda terlihat lebih kecil?
+kunci publik Anda berukuran kecil?
 
 314
 00:14:43,867 --> 00:14:44,492
@@ -1458,8 +1459,8 @@ Oke.
 
 318
 00:14:46,530 --> 00:14:49,620
-Jadi Anda mengatakan,
-ya, kunci publik 32 byte
+Jadi Anda mengatakan, baik,
+ya, kunci publik berukuran 32 byte.
 
 319
 00:14:49,620 --> 00:14:52,050
@@ -1468,99 +1469,99 @@ berkomitmen pada kunci publik
 
 320
 00:14:52,050 --> 00:14:54,570
-dengan hash
-semuanya, bukan?
+dengan hasil hash dari
+seluruh hal tersebut, bukan?
 
 321
 00:14:54,570 --> 00:15:02,040
-Dan Saya katakan, Saya mendapatkan
-16 kilobyte saya per kunci publik
+Dan saya katakan, baik, saya mendapatkan
+16 kilobyte dari kunci publik.
 
 322
 00:15:02,040 --> 00:15:04,580
-Saya hanya hash, bukan?
+Saya baru saja meng-hash itu, bukan?
 
 323
 00:15:04,580 --> 00:15:09,600
-And now I have a
-32 byte public key.
+Dan sekarang saya mempunyai sebuah
+kunci publik berukuran 32 byte.
 
 324
 00:15:09,600 --> 00:15:11,240
-And I've committed.
+Dan saya telah berkomitmen.
 
 325
 00:15:11,240 --> 00:15:12,000
-That works, right?
+Berhasil, bukan?
 
 326
 00:15:12,000 --> 00:15:14,160
-I've committed to my public key.
+Saya telah berkomitmen ke kunci publik saya.
 
 327
 00:15:14,160 --> 00:15:19,990
-However, when I sign, I need
-to provide the whole public key
+Namun, ketika saya menandatanganim, saya perlu
+menyediakan seluruh kunci publik
 
 328
 00:15:19,990 --> 00:15:21,570
-in order for you to verify.
+agar Anda dapat memverifikasinya.
 
 329
 00:15:21,570 --> 00:15:25,150
-I need to provide this
-whole 16 original pubkey,
+Saya perlu menyediakan  
+16 kunci publik asli ini,
 
 330
 00:15:25,150 --> 00:15:27,620
-original version pubkey,
-after when I sign.
+versi original kunci publik,
+setelah saya menandatanganinya.
 
 331
 00:15:27,620 --> 00:15:34,880
-So now my signature goes
-from 8K to, what, 24K.
+Jadi sekarang tandatangan saya berbubah
+dari 8K menjadi 24K.
 
 332
 00:15:34,880 --> 00:15:38,530
-So I haven't really made
-it more efficient, right,
+Jadi saya belum membuatnya 
+menjadi lebih efisien, ya,
 
 333
 00:15:38,530 --> 00:15:42,840
-in that the total thing with
-public keys and signatures
+dalam hal total dengan
+kunci publik dan tandatangan
 
 334
 00:15:42,840 --> 00:15:44,680
-stays the same size--
+tetap berukuran sama--
 
 335
 00:15:44,680 --> 00:15:46,660
-actually, slightly larger.
+sebenarnya, sedikit lebih besar.
 
 336
 00:15:46,660 --> 00:15:48,220
-But this is kind of a game.
+Tapi ini semacam permainan.
 
 337
 00:15:48,220 --> 00:15:53,260
-Because the public
-key, it might be
+Karena kunci publik 
+itu, mungkin
 
 338
 00:15:53,260 --> 00:15:56,050
-like I'm showing it
-to you beforehand,
+seperti saya menunjukkan itu 
+kepada Anda sebelumnya,
 
 339
 00:15:56,050 --> 00:15:57,695
-and we're
-space-constrained there.
+dan kita
+terbatas ruang disana.
 
 340
 00:15:57,695 --> 00:15:59,320
-And then, when I'm
+Kemudian, ketika saya
 doing the signature,
 
 341
