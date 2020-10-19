@@ -1567,28 +1567,28 @@ untuk menunjukan kepada bank
 
 333
 00:13:48,783 --> 00:13:50,450
-bahwa dia itu adalah,
-Alice, tapi Saya tidak
+bahwa dia, sebenarnya,
+Alice, tapi saya tidak
 
 334
 00:13:50,450 --> 00:13:52,650
-akan masuk secara detil
-mengenai cara kerja itu.
+akan masuk ke dalam detail
+mengenai bagaimana cara kerjanya.
 
 335
 00:13:52,650 --> 00:13:57,230
-Lalu bank akan konfirmasi hal itu,
+Lalu bank akan mengonfirmasi hal tersebut,
 dan melakukan transfer dalam
 
 336
 00:13:57,230 --> 00:14:02,510
-buku besar, misal sekarang Alice mempunyai
+buku besar, mengatakan bahwa sekarang Alice mempunyai
 $5,00 dan Bob juga punya $5,00.
 
 337
 00:14:02,510 --> 00:14:04,995
-Alice cerita kepada Bob,
-hei, Saya melakukan ini.
+Alice mengatakan kepada Bob,
+hei, saya melakukan ini.
 
 338
 00:14:04,995 --> 00:14:05,870
@@ -1600,12 +1600,12 @@ Coba cek.
 
 340
 00:14:06,410 --> 00:14:08,960
-Kamu bisa verifikasi untuk dirimu sendiri.
+Anda bisa verifikasi sendiri.
 
 341
 00:14:08,960 --> 00:14:12,140
 Bob cek ke bank dan
-melihat, bahwa iya faktanya,
+melihat, ya, faktanya,
 
 342
 00:14:12,140 --> 00:14:14,090
@@ -1614,34 +1614,30 @@ dia memiliki $5.00 sekarang,
 
 343
 00:14:14,090 --> 00:14:16,250
-padahal sebelumnya dia
-memiliki 0 dolar.
+padahal sebelumnya dia memiliki nol.
 
 344
 00:14:16,250 --> 00:14:19,280
-Dan kemudian Bob memberikan
-Alice sandwichnya karena dia
-mengetahui
+Kemudian Bob memberikan Alice
+roti lapisnya karena dia percaya
 
 345
 00:14:19,280 --> 00:14:20,980
-bahwa sekarang dia
-memiliki $5.00.
+bahwa dia sekarang memiliki $5,00.
 
 346
 00:14:20,980 --> 00:14:24,580
 Dan banknya semacam
-mempertahankan properti
+menyimpan properti
 
 347
 00:14:24,580 --> 00:14:27,880
-yang menyatakan bahwa uangnya
-tidak diketahui berasal darimana,
+bahwa uangnya tidak serta merta
+diciptakan, bahwa saldo nya
 
 348
 00:14:27,880 --> 00:14:29,680
-padahal saldonya selalu
-diurus dengan maksimal.
+selalu diurus.
 
 349
 00:14:29,680 --> 00:14:32,260
@@ -1650,17 +1646,17 @@ bank menjadi sangat penting.
 
 350
 00:14:32,260 --> 00:14:33,830
-Banknya penting.
+Peran bank sangat krusial.
 
 351
 00:14:33,830 --> 00:14:35,500
-Seperti itulah cara kerja
-pembayaran digital.
+Beginilah cara kerja
+pembayaran dijital.
 
 352
 00:14:35,500 --> 00:14:39,003
 Kartu kredit, Venmo,
-para bank, jenis dari semua
+bank, semua jenis
 
 353
 00:14:39,003 --> 00:14:41,170
@@ -1674,19 +1670,18 @@ pembayaran itu untuk kita
 
 355
 00:14:44,230 --> 00:14:47,110
-dan itu melacak
+dan melacak
 segalanya.
-
 
 356
 00:14:47,110 --> 00:14:51,700
-Sekarang apa pro dan
-kontra dari skenario ini?
+Sekarang apa kelebihan dan
+kekurangan dari skenario ini?
 
 357
 00:14:51,700 --> 00:14:54,560
 Adakah yang ingin
-membuang pasangan?
+memberikan pendapat?
 
 358
 00:14:54,560 --> 00:14:55,440
@@ -1694,13 +1689,13 @@ Ya.
 
 359
 00:14:55,440 --> 00:14:56,980
-AUDIENCE: Bank
+AUDIENS: Bank
 bisa diretas
 
 360
 00:14:56,980 --> 00:14:59,608
-dan orang-orang dapat memindahkan uang
-antar rekening.
+dan orang-orang dapat memindahkan
+uang antar rekening.
 
 361
 00:14:59,608 --> 00:15:00,400
@@ -1736,7 +1731,7 @@ mungkin ingin merubah
 
 368
 00:15:11,740 --> 00:15:14,440
-saldo itu dalam menguntungkan mereka.
+saldo itu untuk menguntungkan mereka.
 
 369
 00:15:14,440 --> 00:15:15,550
@@ -1756,12 +1751,12 @@ Dan sebutkan namamu.
 
 373
 00:15:19,390 --> 00:15:21,330
-HADIRIN: Brittany.
+AUDIENS: Brittany.
 
 374
 00:15:21,330 --> 00:15:24,160
-Jika mendesak, terkadang
-anda mungkin mengalami penundaan
+Saat mendesak, terkadang
+Anda mungkin mengalami penundaan
 
 375
 00:15:24,160 --> 00:15:26,730
@@ -1837,13 +1832,13 @@ Tetapi masalah yang sangat bagus.
 
 391
 00:15:57,900 --> 00:15:59,730
-Jadi untuk pembahasan
-diantaranya beberapa yang setuju
+Jadi untuk berbicara
+tentang beberapa keuntungan
 
 392
 00:15:59,730 --> 00:16:03,600
-dan yang tidak setuju dari situasi ini,
-salah satu yang terbesar adalah setuju, saya pikir,
+dan kerugian dari situasi ini,
+salah satu keuntungan besar, saya rasa,
 
 393
 00:16:03,600 --> 00:16:06,210
