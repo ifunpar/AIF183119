@@ -2990,8 +2990,8 @@ tentang hal ini.
 
 632
 00:26:03,210 --> 00:26:06,320
-Jadi ini benar-benar menyeimbangkan permainan
-dan memilih threat model yang
+Jadi hal ini benar-benar sebuah permainan menyeimbangkan
+dan memilih model ancaman yang
 
 633
 00:26:06,320 --> 00:26:08,610
@@ -2999,7 +2999,7 @@ benar.
 
 634
 00:26:08,610 --> 00:26:15,370
-Contoh lain dari threat model
+Contoh lain dari model ancaman
 yang buruk muncul dalam 
 
 635
