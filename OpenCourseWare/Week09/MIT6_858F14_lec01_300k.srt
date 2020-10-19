@@ -2705,11 +2705,11 @@ berubah seiring waktu.
 572
 00:23:40,160 --> 00:23:45,420
 Satu contoh dari hal ini sebenarnya
-di MIT pada pertengahan 90an-- pertengahan
+di MIT pada pertengahan 90-an-- pertengahan
 
 573
 00:23:45,420 --> 00:23:48,080
-80an, sebenarnya--
+80-an, sebenarnya--
 Project Athena mengembangkan
 
 574
@@ -2770,12 +2770,12 @@ Dan ini terjadi di pertengahan tahun 80-an.
 
 586
 00:24:14,997 --> 00:24:17,580
-Tapi kemudian Anda tahu, sitstem ini
+Namun kemudian Anda tahu, sistem ini
 menjadi populer dan banyak digunakan.
 
 587
 00:24:17,580 --> 00:24:19,400
-MIT tetap menggunakannya.
+MIT masih menggunakannya.
 
 588
 00:24:19,400 --> 00:24:22,400
@@ -2837,7 +2837,7 @@ bagus di pertengahan 1980-an.
 
 600
 00:24:55,030 --> 00:24:57,210
-Bukan asumsi yang bagus
+Bukan lagi asumsi yang bagus
 untuk hari ini.
 
 601
@@ -2884,12 +2884,12 @@ perangkat keras back doors
 
 610
 00:25:18,590 --> 00:25:20,922
-dimana mereka dapat memasukan
+di mana mereka dapat memasukkan
 ke dalam komputer. 
 
 611
 00:25:20,922 --> 00:25:23,444
-Dan maybe sampai beberapa
+Dan mungkin sampai beberapa
 tahun yang lalu, yah, siapa yang tahu?
 
 612
@@ -2914,7 +2914,7 @@ dengan perangkat keras itu sendiri.
 
 616
 00:25:31,962 --> 00:25:32,670
-Tapi sekarang Anda tahu.
+Namun sekarang Anda tahu.
 
 617
 00:25:32,670 --> 00:25:34,670
@@ -2943,7 +2943,7 @@ yang Anda unduh di dalamnya.
 622
 00:25:42,621 --> 00:25:44,870
 Jadi kita benar-benar harus
-berhati-hati dengan model threat anda
+berhati-hati dengan model ancaman Anda
 
 623
 00:25:44,870 --> 00:25:46,820
@@ -2958,7 +2958,6 @@ yang menurut Anda akan mendapatkan Anda.
 00:25:48,236 --> 00:25:50,860
 Saya pikir itu akan menjadi sangat
 proposisi mahal jika Anda
-
 
 626
 00:25:50,860 --> 00:25:53,302
