@@ -2620,111 +2620,111 @@ seperti yang mungkin Anda curiga,
 
 554
 00:22:59,594 --> 00:23:01,260
-and in practice,
-happens to be the case,
+dan dalam praktiknya,
+kebetulan terjadi,
 
 555
 00:23:01,260 --> 00:23:03,800
-these are not good
-assumptions in all cases.
+hal ini bukanlah asumsi
+yang baik dalam banyak kasus.
 
 556
 00:23:03,800 --> 00:23:06,020
-And people pick bad passwords.
+Dan orang-orang memilih password yang buruk.
 
 557
 00:23:06,020 --> 00:23:08,510
-And people will click
-on random links.
+Dan orang-orang akan mengklik
+sembarang tautan.
 
 558
 00:23:08,510 --> 00:23:10,350
-And people will
-enter their password
+Dan orang-orang akan
+memasukkan password mereka ke
 
 559
 00:23:10,350 --> 00:23:13,510
-on sites that are actually
-not the right site at all.
+dalam situs yang sebenarnya
+bukan situs yang benar.
 
 560
 00:23:13,510 --> 00:23:16,990
-And they will not be
-paying a lot of attention.
+Dan mereka tidak akan
+memperhatikan hal tersebut.
 
 561
 00:23:16,990 --> 00:23:19,960
-So you probably don't want
-to have threat models that
+Jadi Anda mungkin tidak menginginkan
+model ancaman yang
 
 562
 00:23:19,960 --> 00:23:21,600
-make very strong
-assumptions about what
+berasumsi kuat
+tentang apa yang
 
 563
 00:23:21,600 --> 00:23:23,433
-humans will do because
-inevitably, something
+manusia akan lakukan karena
+tidak bisa dihindari, sesuatu
 
 564
 00:23:23,433 --> 00:23:25,610
-will go wrong.
+akan menjadi tidak semestinya.
 
 565
 00:23:25,610 --> 00:23:26,720
-Make sense?
+Masuk akal?
 
 566
 00:23:26,720 --> 00:23:29,220
-Any questions?
+Ada pertanyaan?
 
 567
 00:23:29,220 --> 00:23:29,850
-All right.
+Baiklah.
 
 568
 00:23:29,850 --> 00:23:32,690
-Another sort of good thing
-to watch out in threat models
+Hal bagus lainnya untuk
+diperhatikan dalam model ancaman
 
 569
 00:23:32,690 --> 00:23:35,860
-is that they sometimes
-change over time.
+adalah bahwa mereka kadang-kadang
+berubah seiring waktu.
 
 570
-00:23:35,860 --> 00:23:38,160
-Or whether something is
-a good assumption or not
+00:23:35,860 --> 00:23:38,160=
+Atau apakah sesuatu adalah
+sebuah asumsi yang bagus atau tidak
 
 571
 00:23:38,160 --> 00:23:40,160
-changes over time.
+berubah seiring waktu.
 
 572
 00:23:40,160 --> 00:23:45,420
-One example of this is actually
-at MIT in the mid '90s-- mid
+Satu contoh dari hal ini sebenarnya
+di MIT pada pertengahan 90an-- pertengahan
 
 573
 00:23:45,420 --> 00:23:48,080
-'80s, actually--
-Project Athena developed
+80an, sebenarnya--
+Project Athena mengembangkan
 
 574
 00:23:48,080 --> 00:23:49,250
-this system called Kerberos.
+sebuah sistem bernama Kerberos.
 
 575
 00:23:49,250 --> 00:23:52,830
-And we'll read about this in a
-couple of weeks in this class.
+Dan kita akan membaca tentang sistem itu
+dalam beberapa minggu di kelas ini.
 
 576
 00:23:52,830 --> 00:23:55,640
-And at the time, they were sort
-of figuring out, well, Kerberos
+Dan pada waktu itu, mereka semacam
+mencari tahu, yah, Kerberos
 
 577
 00:23:55,640 --> 00:23:57,181
