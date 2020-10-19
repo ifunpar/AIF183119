@@ -3052,7 +3052,7 @@ jenis kesalahan
 
 645
 00:26:42,330 --> 00:26:46,937
-atau model threat buruk
+atau model ancaman buruk
 yang diasumsukan mereka ini
 
 646
@@ -3077,7 +3077,7 @@ CA ini di luar sana.
 650
 00:26:54,710 --> 00:26:58,390
 Otoritas pos India,
-Menurut saya, memiliki CA.
+menurut saya, memiliki CA.
 
 651
 00:26:58,390 --> 00:27:00,420
@@ -3086,22 +3086,22 @@ Pemerintah Tiongkok memiliki CA.
 652
 00:27:00,420 --> 00:27:04,780
 Banyak entitas adalah otoritas
-setifikat dalam desain ini.
+setifikat dalam rancangan ini.
 
 653
 00:27:04,780 --> 00:27:06,870
-Dan salah satu dari merka dapat
+Dan salah satu dari mereka dapat
 membuat sertifikat
 
 654
 00:27:06,870 --> 00:27:09,667
-untuk host name apapun
+untuk nama host
 atau domain apapun.
 
 655
 00:27:09,667 --> 00:27:11,750
-Dan sebagai hasilnya, apa
-yang terjadi jika Anda orang yang jahat,
+Dan sebagai konsekuensinya, apa
+yang terjadi jika Anda orang jahat,
 
 656
 00:27:11,750 --> 00:27:14,750
@@ -3121,7 +3121,7 @@ otoritas seritifikat.
 659
 00:27:18,280 --> 00:27:20,450
 Dan ternyata
-link terlemah adalah mungkin
+tautan terlemah adalah mungkin
 
 660
 00:27:20,450 --> 00:27:23,170
@@ -3139,12 +3139,12 @@ Siapa tahu, betul?
 
 663
 00:27:27,760 --> 00:27:31,170
-Dan sebagai hasilnya, ini
+Dan sebagai konsekuensinya, ini
 mungkin asumsi yang buruk
 
 664
 00:27:31,170 --> 00:27:33,216
-untuk membuat suatu sistem--
+untuk membangun suatu sistem--
 atau ini adalah suatu ide yang buruk
 
 665
