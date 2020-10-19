@@ -2665,7 +2665,7 @@ tentang apa yang
 563
 00:23:21,600 --> 00:23:23,433
 manusia akan lakukan karena
-tidak bisa dihindari, sesuatu
+pastinya, sesuatu
 
 564
 00:23:23,433 --> 00:23:25,610
@@ -2691,16 +2691,16 @@ diperhatikan dalam model ancaman
 569
 00:23:32,690 --> 00:23:35,860
 adalah bahwa mereka kadang-kadang
-berubah seiring waktu.
+berubah seiring berjalannya waktu.
 
 570
 00:23:35,860 --> 00:23:38,160=
-Atau apakah sesuatu adalah
+Atau ketentuan tentang apakah suatu hal adalah
 sebuah asumsi yang bagus atau tidak
 
 571
 00:23:38,160 --> 00:23:40,160
-berubah seiring waktu.
+berubah seiring berjalannya waktu.
 
 572
 00:23:40,160 --> 00:23:45,420
@@ -2751,13 +2751,13 @@ Dan mereka berkata, OK.
 
 582
 00:24:03,320 --> 00:24:06,120
-Anda tahu, kunci
+Yah Anda tahu, kunci
 56-bit, pada saat itu,
 
 583
 00:24:06,120 --> 00:24:09,960
-untuk sandi ini disebut DES,
-sepertinya ukuran yang dapat diterima.
+untuk sandi yang disebut DES,
+tampak seperti ukuran yang dapat diterima.
 
 584
 00:24:09,960 --> 00:24:13,700
@@ -2766,7 +2766,7 @@ tidak sepenuhnya masuk akal.
 
 585
 00:24:13,700 --> 00:24:14,997
-Dan ini terjadi di pertengahan tahun 80-an.
+Dan hal ini terjadi di pertengahan tahun 80-an.
 
 586
 00:24:14,997 --> 00:24:17,580
@@ -2788,7 +2788,7 @@ dengan serius.
 
 590
 00:24:23,900 --> 00:24:27,244
-Dan lalu, beberapat tahun yang lalu,
+Dan kemudian, beberapa tahun yang lalu,
 sekelompok mahasiswa 6.858
 
 591
@@ -2843,7 +2843,7 @@ untuk hari ini.
 601
 00:24:57,210 --> 00:24:59,850
 Jadi Anda benar-benar
-harus memastikan asumsi anda
+harus memastikan bahwa asumsi Anda
 
 602
 00:24:59,850 --> 00:25:02,220
@@ -2880,12 +2880,12 @@ yang NSA dapat lakukan.
 609
 00:25:16,860 --> 00:25:18,590
 Dan mereka memiliki
-perangkat keras back doors
+back doors dari perangkat keras
 
 610
 00:25:18,590 --> 00:25:20,922
-di mana mereka dapat memasukkan
-ke dalam komputer. 
+yang dapat mereka masukan
+ke dalam komputer.
 
 611
 00:25:20,922 --> 00:25:23,444
@@ -2894,7 +2894,7 @@ tahun yang lalu, yah, siapa yang tahu?
 
 612
 00:25:23,444 --> 00:25:25,110
-Saya tebak kita tidak
+Saya kira kita tidak
 mengetahui hal-hal seperti ini.
 
 613
@@ -2904,8 +2904,8 @@ asumsi yang masuk akal
 
 614
 00:25:27,360 --> 00:25:29,270
-untuk membuat asumsi laptop
-Anda tidak akan
+untuk membuat asumsi bahwa
+laptop Anda tidak akan
 
 615
 00:25:29,270 --> 00:25:31,962
@@ -2971,13 +2971,13 @@ hanya melindungi dirimu sendiri
 
 628
 00:25:55,510 --> 00:25:57,772
-dari siswa 
-acak yang,
+dari siswa acak
+lainnya yang,
 
 629
 00:25:57,772 --> 00:26:00,230
 saya tidak tau, mengintip
-di direktori beranda Athena Anda
+direktori beranda Athena Anda
 
 630
 00:26:00,230 --> 00:26:01,938
@@ -3000,16 +3000,16 @@ benar.
 634
 00:26:08,610 --> 00:26:15,370
 Contoh lain dari model ancaman
-yang buruk muncul dalam 
+yang buruk muncul dalam cara
 
 635
 00:26:15,370 --> 00:26:18,307
-mengamankan situs web saat ini
-memeriksa sertifikat situs web  
+situs-situs web yang aman saat ini
+memeriksa sertifikat situs web
 
 636
 00:26:18,307 --> 00:26:19,390
-yang Anda sambungkan.
+yang terhubung dengan Anda.
 
 637
 00:26:19,390 --> 00:26:23,350
@@ -3028,8 +3028,8 @@ tetapi apa yang terjadi
 
 640
 00:26:28,710 --> 00:26:30,955
-adalah ketika situs yang Anda
-sambungkan memberikan Anda
+adalah ketika situs yang terhubung
+dengan Anda memberikan Anda
 
 641
 00:26:30,955 --> 00:26:34,800
@@ -3038,8 +3038,8 @@ oleh salah satu otoritas sertifikats
 
 642
 00:26:34,800 --> 00:26:37,450
-diluar sana yang membuktikan
-itu, yep, kunci ini
+di luar sana yang membuktikan
+bahwa, yep, kunci ini
 
 643
 00:26:37,450 --> 00:26:39,910
@@ -3053,25 +3053,25 @@ jenis kesalahan
 645
 00:26:42,330 --> 00:26:46,937
 atau model ancaman buruk
-yang diasumsukan mereka ini
+yang diasumsukan mereka
 
 646
 00:26:46,937 --> 00:26:49,020
-apakah semua CA ini
-akan terpercaya.
+adalah apakah semua CA ini
+akan dapat dipercaya.
 
 647
 00:26:49,020 --> 00:26:50,805
-Mereka tidak akan pernah membuat suatu kesalahan.
+Mereka tidak akan pernah berbuat kesalahan.
 
 648
 00:26:50,805 --> 00:26:52,180
-Dan faktanya, 
+Dan faktanya,
 cara sistem bekerja
 
 649
 00:26:52,180 --> 00:26:54,710
-adalah ada ratusan
+adalah bahwa ada ratusan
 CA ini di luar sana.
 
 650
@@ -3106,17 +3106,17 @@ yang terjadi jika Anda orang jahat,
 656
 00:27:11,750 --> 00:27:14,750
 jika Anda ingin membobol Gmail
-atau jika Anda ingin menirukan
+atau jika Anda ingin meniru
 
 657
 00:27:14,750 --> 00:27:16,739
 situs Gmail, Anda
-hanya harus membobol
+hanya perlu membobol
 
 658
 00:27:16,739 --> 00:27:18,280
 salah satu dari
-otoritas seritifikat.
+otoritas seritifikat ini.
 
 659
 00:27:18,280 --> 00:27:20,450
@@ -3125,13 +3125,13 @@ tautan terlemah adalah mungkin
 
 660
 00:27:20,450 --> 00:27:23,170
-beberapa otoritas yang buruk dijalankan
-di beberapa tempat,
+beberapa otoritas buruk yang berada
+di suatu tempat di,
 
 661
 00:27:23,170 --> 00:27:26,730
-sebagaimana Anda tahu, negara yang tidak
-terlalu terkini.
+sebagaimana Anda tahu,
+negara yang tidak terlalu terkini.
 
 662
 00:27:26,730 --> 00:27:27,760
