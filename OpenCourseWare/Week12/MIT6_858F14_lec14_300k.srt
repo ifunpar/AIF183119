@@ -1544,17 +1544,17 @@ nonce kembali ke a sudah terenkripsi
 
 327
 00:14:44,120 --> 00:14:46,029
-dibawah kunci publik dari a.
+dengan kunci publik dari a.
 
 328
 00:14:46,029 --> 00:14:48,070
 Lalu hanya a yang akan dapat
-mendeskripsikan nonce tersebut
+mendekripsi nonce tersebut
 
 329
 00:14:48,070 --> 00:14:50,366
-dan membangun
-kunci sesi final s utama.
+dan membangkitkan
+kunci sesi final s aksen.
 
 330
 00:14:50,366 --> 00:14:52,240
@@ -1568,7 +1568,7 @@ klien mensertifikasi
 
 332
 00:14:55,110 --> 00:14:57,640
-pekerjaan di alat pencari web hari ini.
+pekerjaan di peramban web saat ini.
 
 333
 00:14:57,640 --> 00:15:00,005
@@ -1578,7 +1578,7 @@ rahasia, sehingga ketika mendapatkan
 334
 00:15:00,005 --> 00:15:03,550
 sebuah sertifikat pribadi MIT,
-yang terjadi adalah alat pencari Anda
+yang terjadi adalah peramban Anda
 
 335
 00:15:03,550 --> 00:15:05,300
@@ -1592,7 +1592,7 @@ dan mendapatkan sertifikat untuk itu.
 337
 00:15:07,410 --> 00:15:10,636
 Dan kapanpun Anda mengirimkan
-untuk permintaan sebuah server web,
+permintaan ke sebuah server web,
 
 338
 00:15:10,636 --> 00:15:12,260
@@ -1601,17 +1601,17 @@ fakta bahwa Anda
 
 339
 00:15:12,260 --> 00:15:15,970
-ketahui kunci rahasia dalam 
+mengetahui kunci rahasia dalam 
 sertifikat pengguna Anda,
 
 340
 00:15:15,970 --> 00:15:18,540
-dan kemudian buat 
+dan kemudian membangun 
 kunci rahasia s untuk
 
 341
 00:15:18,540 --> 00:15:19,972
-komunikasi lainnya.
+komunikasi berikutnya.
 
 342
 00:15:19,972 --> 00:15:22,640
@@ -1624,12 +1624,12 @@ Baiklah.
 344
 00:15:26,820 --> 00:15:29,760
 Ini adalah semacam masalah yang dapat diperbaiki 
-pada tingkat protokol
+pada tingkatan protokol
 
 345
 00:15:29,760 --> 00:15:31,820
-yang cukup mudah untuk diatasi
-ke alamat V
+yang cukup mudah
+untuk (V) diatasi
 
 346
 00:15:31,820 --> 00:15:33,390
@@ -1638,42 +1638,42 @@ dengan menambahkan pesan tambahan.
 347
 00:15:33,390 --> 00:15:36,810
 Asumsi besar di sini, 
-tentu saja, yang kita hadapi
+tentu saja,
 
 348
 00:15:36,810 --> 00:15:41,090
 adalah agar semua pihak tahu
-kunci publik masing-masing.
+kunci publik milik satu dengan yang lainnya.
 
 349
 00:15:41,090 --> 00:15:47,500
-Jadi apakah Anda benar-benar menemukan 
-kunci publik seseorang? 
+Jadi apakah Anda benar-benar menemukan
+kunci publik seseorang?
 
 350
 00:15:47,500 --> 00:15:50,910
-karena, Anda tahu, itu keinginan
-untuk menghubungkan situs web,
+untuk, Anda tahu, ingin
+terhubung ke sebuah situs web,
 
 351
 00:15:50,910 --> 00:15:53,882
-saya memiliki URL yang ingin saya 
-hubungkan, atau nama host,
+saya memiliki sebuah URL yang ingin saya
+hubungkan, atau sebuah nama host,
 
 352
 00:15:53,882 --> 00:15:55,840
-bagaimana cara Saya mengetahui 
+bagaimana cara saya mengetahui 
 kunci publik yang sesuai?
 
 353
 00:15:55,840 --> 00:15:59,660
-Atau sama halnya, jika Saya mencoba terhubung dengan
-websis untuk mencari tahu/melihat nilai Saya,
+Atau sama halnya, jika saya mencoba terhubung dengan
+websis untuk melihat nilai saya,
 
 354
 00:15:59,660 --> 00:16:04,070
 bagaimana server mengetahui
-apa kunci publik Saya yang sebenarnya/seharusnya,
+apa kunci publik saya yang seharusnya,
 
 355
 00:16:04,070 --> 00:16:08,550
@@ -1683,11 +1683,11 @@ milik seorang individu lain di MIT?
 356
 00:16:08,550 --> 00:16:13,889
 Jadi hal ini merupakan masalah utama
-yang ditangani/diselesaikan oleh KDC.
+yang diselesaikan oleh KDC.
 
 357
 00:16:13,889 --> 00:16:16,180
-Saya kira KDC telah menangani/menyelesaikan
+Saya rasa KDC telah menyelesaikan
 dua masalah yang kita miliki sebelumnya.
 
 358
@@ -1707,13 +1707,13 @@ untuk server.
 
 361
 00:16:22,490 --> 00:16:25,480
-Kita sekarang menyelesaikan hal tersebut dengan melakukan
-enkripsi kunci publik.
+Kita memperbaikinya dengan melakukan
+kriptografi kunci publik.
 
 362
 00:16:25,480 --> 00:16:29,350
-Tetapi Kita juga membutuhkan pemetaan ini
-dari string nama 
+Tetapi kita juga membutuhkan
+pemetaan ini dari string prinsipiel
 
 363
 00:16:29,350 --> 00:16:32,340
@@ -1722,11 +1722,11 @@ dari Kerberos sebelumnya
 
 364
 00:16:32,340 --> 00:16:33,512
-yang diberikan kepada kami.
+yang diberikan kepada kita.
 
 365
 00:16:33,512 --> 00:16:34,970
-Dan cara itu
+Dan bagaimana cara itu
 akan terjadi
 
 366
@@ -1736,22 +1736,22 @@ protokol ini disebut TLC,
 
 367
 00:16:42,200 --> 00:16:45,200
-kita akan
-tetap mengandalkan beberapa pihak
+adalah kita akan tetap
+mengandalkan beberapa pihak
 
 368
 00:16:45,200 --> 00:16:47,740
-untuk mempertahankan, dari untuk
+untuk menjaga, untuk
 setidaknya secara logis
 
 369
 00:16:47,740 --> 00:16:50,920
-pertahankan tabel besar itu
+menjaga tabel besar itu
 memetakan nama-nama prinsipil
 
 370
 00:16:50,920 --> 00:16:53,420
-ke kunci kriptografi.
+ke kunci-kunci kriptografi.
 
 371
 00:16:53,420 --> 00:16:56,174
@@ -1760,12 +1760,12 @@ akan memiliki sesuatu
 
 372
 00:16:56,174 --> 00:16:57,465
-disebut sebagai otoritas sertifikat.
+yang disebut sebagai otoritas sertifikat.
 
 373
 00:17:02,470 --> 00:17:05,380
-Ini sering disingkat
-sebagai CA dalam semua jenis
+Ini sering disingkat sebagai CA
+(Certificate Authority) dalam bermacam-macam
 
 374
 00:17:05,380 --> 00:17:07,609
@@ -1779,12 +1779,12 @@ secara logis menjaga
 376
 00:17:10,400 --> 00:17:13,380
 kestabilan dari, berikut
-nama dari sebuah prinsipiil,
+nama dari sebuah prinsipiel,
 
 377
 00:17:13,380 --> 00:17:19,319
-dan berikut merupakan kunci
-publik dari prinsipiil tersebut.
+dan inilah kunci
+publik dari prinsipiel tersebut.
 
 378
 00:17:19,319 --> 00:17:22,300
@@ -1799,12 +1799,12 @@ sertifikat otoritas ini
 380
 00:17:24,280 --> 00:17:28,450
 tidak harus
-online untuk semua transaksi.
+daring untuk semua transaksi.
 
 381
 00:17:28,450 --> 00:17:30,450
 Jadi di Kerberos Anda harus
-berkomunikasi dengan para KDC
+berkomunikasi dengan para KDC tersebut
 
 382
 00:17:30,450 --> 00:17:33,800
@@ -1813,13 +1813,13 @@ untuk mencari kunci milik seseorang.
 
 383
 00:17:33,800 --> 00:17:36,790
-Sebaliknya, apa yang akan
+Alih-alih, apa yang akan
 terjadi di dunia CA ini, 
 
 384
 00:17:36,790 --> 00:17:43,210
 yaitu jika Anda memiliki sebuah
-nama disini dan sebuah kunci publik.
+nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
