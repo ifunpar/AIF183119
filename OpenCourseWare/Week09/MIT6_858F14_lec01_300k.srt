@@ -3052,105 +3052,105 @@ jenis kesalahan
 
 645
 00:26:42,330 --> 00:26:46,937
-or the bad threat model
-that these guys assumed
+atau model threat buruk
+yang diasumsukan mereka ini
 
 646
 00:26:46,937 --> 00:26:49,020
-is that all these CAs are
-going to be trustworthy.
+apakah semua CA ini
+akan terpercaya.
 
 647
 00:26:49,020 --> 00:26:50,805
-They will never make a mistake.
+Mereka tidak akan pernah membuat suatu kesalahan.
 
 648
 00:26:50,805 --> 00:26:52,180
-And in fact, the
-way system works
+Dan faktanya, 
+cara sistem bekerja
 
 649
 00:26:52,180 --> 00:26:54,710
-is that there's hundreds
-of these CAs out there.
+adalah ada ratusan
+CA ini di luar sana.
 
 650
 00:26:54,710 --> 00:26:58,390
-The Indian postal authority,
-I think, has a CA.
+Otoritas pos India,
+Menurut saya, memiliki CA.
 
 651
 00:26:58,390 --> 00:27:00,420
-The Chinese government has a CA.
+Pemerintah Tiongkok memiliki CA.
 
 652
 00:27:00,420 --> 00:27:04,780
-Lots of entities are certificate
-authorities in this design.
+Banyak entitas adalah otoritas
+setifikat dalam desain ini.
 
 653
 00:27:04,780 --> 00:27:06,870
-And any of them can
-make a certificate
+Dan salah satu dari merka dapat
+membuat sertifikat
 
 654
 00:27:06,870 --> 00:27:09,667
-for any host name
-or a domain name.
+untuk host name apapun
+atau domain apapun.
 
 655
 00:27:09,667 --> 00:27:11,750
-And as a result, what
-happens if you're a bad guy,
+Dan sebagai hasilnya, apa
+yang terjadi jika Anda orang yang jahat,
 
 656
 00:27:11,750 --> 00:27:14,750
-if you want to compromise Gmail
-or if you want to impersonate
+jika Anda ingin membobol Gmail
+atau jika Anda ingin menirukan
 
 657
 00:27:14,750 --> 00:27:16,739
-Gmail's website, you
-just have to compromise
+situs Gmail, Anda
+hanya harus membobol
 
 658
 00:27:16,739 --> 00:27:18,280
-one of these
-certificate authorities.
+salah satu dari
+otoritas seritifikat.
 
 659
 00:27:18,280 --> 00:27:20,450
-And it turns out the
-weakest link is probably
+Dan ternyata
+link terlemah adalah mungkin
 
 660
 00:27:20,450 --> 00:27:23,170
-some poorly run authority
-somewhere in some,
+beberapa otoritas yang buruk dijalankan
+di beberapa tempat,
 
 661
 00:27:23,170 --> 00:27:26,730
-you know, not particularly
-up to date country.
+sebagaimana Anda tahu, negara yang tidak
+terlalu terkini.
 
 662
 00:27:26,730 --> 00:27:27,760
-Who knows, right?
+Siapa tahu, betul?
 
 663
 00:27:27,760 --> 00:27:31,170
-And as a result, it's
-probably a bad assumption
+Dan sebagai hasilnya, ini
+mungkin asumsi yang buruk
 
 664
 00:27:31,170 --> 00:27:33,216
-to build a system--
-or it's a bad idea
+untuk membuat suatu sistem--
+atau ini adalah suatu ide yang buruk
 
 665
 00:27:33,216 --> 00:27:34,840
-to build a system
-around the assumption
+untuk membuat suatu sistem
+di antara asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
