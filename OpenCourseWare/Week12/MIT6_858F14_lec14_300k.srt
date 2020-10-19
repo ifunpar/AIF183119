@@ -1544,282 +1544,282 @@ nonce kembali ke a sudah terenkripsi
 
 327
 00:14:44,120 --> 00:14:46,029
-under a's public key.
+dengan kunci publik dari a.
 
 328
 00:14:46,029 --> 00:14:48,070
-And then only a would be
-able to decrypt the nons
+Lalu hanya a yang akan dapat
+mendekripsi nonce tersebut
 
 329
 00:14:48,070 --> 00:14:50,366
-and generate the final
-session key s prime.
+dan membangkitkan
+kunci sesi final s aksen.
 
 330
 00:14:50,366 --> 00:14:52,240
-So there are a couple
-of tricks you could do.
+Jadi ada beberapa
+trik yang anda dapat lakukan.
 
 331
 00:14:52,240 --> 00:14:55,110
-This is roughly how
-client certificates
+Ini secara kasar adalah bagaimana
+klien mensertifikasi
 
 332
 00:14:55,110 --> 00:14:57,640
-work in web browsers today.
+pekerjaan di peramban web saat ini.
 
 333
 00:14:57,640 --> 00:15:00,005
-So a has a secret
-key, so when get
+Jadi a memiliki sebuah kunci
+rahasia, sehingga ketika mendapatkan
 
 334
 00:15:00,005 --> 00:15:03,550
-an MIT personal certificate,
-what happens is your browser
+sebuah sertifikat pribadi MIT,
+yang terjadi adalah peramban Anda
 
 335
 00:15:03,550 --> 00:15:05,300
-generates a long
-lived secret key
+membangun sebuah
+kunci rahasia yang berumur panjang
 
 336
 00:15:05,300 --> 00:15:07,410
-and gets a certificate for it.
+dan mendapatkan sertifikat untuk itu.
 
 337
 00:15:07,410 --> 00:15:10,636
-And whenever you send
-to request a web server,
+Dan kapanpun Anda mengirimkan
+permintaan ke sebuah server web,
 
 338
 00:15:10,636 --> 00:15:12,260
-you're going to prove
-the fact that you
+Anda akan membuktikan
+fakta bahwa Anda
 
 339
 00:15:12,260 --> 00:15:15,970
-know the secret key in
-your user certificate,
+mengetahui kunci rahasia dalam 
+sertifikat pengguna Anda,
 
 340
 00:15:15,970 --> 00:15:18,540
-and then establish the
-secret key s for the rest
+dan kemudian membangun 
+kunci rahasia s untuk
 
 341
 00:15:18,540 --> 00:15:19,972
-the communication.
+komunikasi berikutnya.
 
 342
 00:15:19,972 --> 00:15:22,640
-Make Sense?
+Masuk akal?
 
 343
 00:15:22,640 --> 00:15:23,180
-All right.
+Baiklah.
 
 344
 00:15:26,820 --> 00:15:29,760
-These are sort of all fixable
-problems at the protocol level
+Ini adalah semacam masalah yang dapat diperbaiki 
+pada tingkatan protokol
 
 345
 00:15:29,760 --> 00:15:31,820
-that are reasonably
-easy to V address
+yang cukup mudah
+untuk (V) diatasi
 
 346
 00:15:31,820 --> 00:15:33,390
-by adding extra messages.
+dengan menambahkan pesan tambahan.
 
 347
 00:15:33,390 --> 00:15:36,810
-The big assumption here, of
-course, that we're going under
+Asumsi besar di sini, 
+tentu saja,
 
 348
 00:15:36,810 --> 00:15:41,090
-is that all the parties know
-each other's public keys.
+adalah agar semua pihak tahu
+kunci publik milik satu dengan yang lainnya.
 
 349
 00:15:41,090 --> 00:15:47,500
-So do you actually discover
-someone's public key?
+Jadi apakah Anda benar-benar menemukan
+kunci publik seseorang?
 
 350
 00:15:47,500 --> 00:15:50,910
-for, you know, it a wants
-to connect a website,
+untuk, Anda tahu, ingin
+terhubung ke sebuah situs web,
 
 351
 00:15:50,910 --> 00:15:53,882
-I have a URL that I want to
-connect to, or a host name,
+saya memiliki sebuah URL yang ingin saya
+hubungkan, atau sebuah nama host,
 
 352
 00:15:53,882 --> 00:15:55,840
-how do I know what pub
-key that corresponds to?
+bagaimana cara saya mengetahui 
+kunci publik yang sesuai?
 
 353
 00:15:55,840 --> 00:15:59,660
-Or similarly, if I connect to
-websis to look at my grades,
+Atau sama halnya, jika saya mencoba terhubung dengan
+websis untuk melihat nilai saya,
 
 354
 00:15:59,660 --> 00:16:04,070
-how does the server know
-what my public key should be,
+bagaimana server mengetahui
+apa kunci publik saya yang seharusnya,
 
 355
 00:16:04,070 --> 00:16:08,550
-as opposed to the public key
-of some other at person MIT?
+dibandingkan dengan kunci publik
+milik seorang individu lain di MIT?
 
 356
 00:16:08,550 --> 00:16:13,889
-So this is the main problem
-that the KDC was addressing.
+Jadi hal ini merupakan masalah utama
+yang diselesaikan oleh KDC.
 
 357
 00:16:13,889 --> 00:16:16,180
-I guess the KDC was solving
-two problems for us before.
+Saya rasa KDC telah menyelesaikan
+dua masalah yang kita miliki sebelumnya.
 
 358
 00:16:16,180 --> 00:16:19,081
-One it that is was
-generating this message.
+Salah satunya adalah
+membangkitkan pesan ini.
 
 359
 00:16:19,081 --> 00:16:20,455
-It was generating
-the session key
+KDC membangkitkan
+kunci sesi
 
 360
 00:16:20,455 --> 00:16:22,490
-and encrypting it
-for the server.
+dan mengenkripsi kunci tersebut
+untuk server.
 
 361
 00:16:22,490 --> 00:16:25,480
-We fixed that by doing
-public key crypto now.
+Kita memperbaikinya dengan melakukan
+kriptografi kunci publik.
 
 362
 00:16:25,480 --> 00:16:29,350
-But we also need to get this
-mapping from string principal
+Tetapi kita juga membutuhkan
+pemetaan ini dari string prinsipiel
 
 363
 00:16:29,350 --> 00:16:32,340
-names to cryptographic keys
-of the Kerberos previously
+utama ke kunci kriptografi
+dari Kerberos sebelumnya
 
 364
 00:16:32,340 --> 00:16:33,512
-provided to us.
+yang diberikan kepada kita.
 
 365
 00:16:33,512 --> 00:16:34,970
-And the way that
-is going to happen
+Dan bagaimana cara itu
+akan terjadi
 
 366
 00:16:34,970 --> 00:16:42,200
-in this the https world,
-this protocol called TLC,
+di dunia https ini,
+protokol ini disebut TLC,
 
 367
 00:16:42,200 --> 00:16:45,200
-is that we're going to
-still rely on some parties
+adalah kita akan tetap
+mengandalkan beberapa pihak
 
 368
 00:16:45,200 --> 00:16:47,740
-to maintain, of to
-a least logically
+untuk menjaga, untuk
+setidaknya secara logis
 
 369
 00:16:47,740 --> 00:16:50,920
-maintain those giant tables
-mapping principal names
+menjaga tabel besar itu
+memetakan nama-nama prinsipil
 
 370
 00:16:50,920 --> 00:16:53,420
-onto cryptographic keys.
+ke kunci-kunci kriptografi.
 
 371
 00:16:53,420 --> 00:16:56,174
-And the plan is, we're
-going to have something
+Dan rencananya adalah, kami 
+akan memiliki sesuatu
 
 372
 00:16:56,174 --> 00:16:57,465
-called a certificate authority.
+yang disebut sebagai otoritas sertifikat.
 
 373
 00:17:02,470 --> 00:17:05,380
-This is often abbreviated
-as CA in all kinds
+Ini sering disingkat sebagai CA
+(Certificate Authority) dalam bermacam-macam
 
 374
 00:17:05,380 --> 00:17:07,609
-of security literature.
+literatur keamanan.
 
 375
 00:17:07,609 --> 00:17:10,400
-This thing is also going
-to logically maintain
+Hal ini juga akan
+secara logis menjaga
 
 376
 00:17:10,400 --> 00:17:13,380
-the stable of, here's
-the name of a principle,
+kestabilan dari, berikut
+nama dari sebuah prinsipiel,
 
 377
 00:17:13,380 --> 00:17:19,319
-and here's the public
-key for that principle.
+dan inilah kunci
+publik dari prinsipiel tersebut.
 
 378
 00:17:19,319 --> 00:17:22,300
-And the main difference from
-the way Kerberos worked,
+Dan perbedaan utama dari
+cara Kerberos bekerja,
 
 379
 00:17:22,300 --> 00:17:24,280
-is that this
-certificate authority
+adalah bahwa
+sertifikat otoritas ini
 
 380
 00:17:24,280 --> 00:17:28,450
-thing isn't going to have to
-be online for all transactions.
+tidak harus
+daring untuk semua transaksi.
 
 381
 00:17:28,450 --> 00:17:30,450
-So in Kerberos you have
-to talk to those KDCs
+Jadi di Kerberos Anda harus
+berkomunikasi dengan para KDC tersebut
 
 382
 00:17:30,450 --> 00:17:33,800
-to get a connection or
-to look up someone's key.
+untuk mendapatkan koneksi atau
+untuk mencari kunci milik seseorang.
 
 383
 00:17:33,800 --> 00:17:36,790
-Instead, what's going to
-happen in this CA world,
+Alih-alih, apa yang akan
+terjadi di dunia CA ini, 
 
 384
 00:17:36,790 --> 00:17:43,210
-is that if you have some
-name here, and a public key,
+yaitu jika Anda memiliki sebuah
+nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
