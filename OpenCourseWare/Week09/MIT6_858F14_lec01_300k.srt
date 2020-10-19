@@ -2942,113 +2942,114 @@ yang Anda unduh di dalamnya.
 
 622
 00:25:42,621 --> 00:25:44,870
-So we really have to be
-careful with your threat model
+Jadi kita benar-benar harus
+berhati-hati dengan model threat anda
 
 623
 00:25:44,870 --> 00:25:46,820
-and really sort of
-balance it against who
+dan benar-benar 
+menyeimbangkannya dengan siapa
 
 624
 00:25:46,820 --> 00:25:48,236
-you think is out to get you.
+yang menurut Anda akan mendapatkan Anda.
 
 625
 00:25:48,236 --> 00:25:50,860
-I think it's going to be a very
-expensive proposition if you're
+Saya pikir itu akan menjadi sangat
+proposisi mahal jika Anda
+
 
 626
 00:25:50,860 --> 00:25:53,302
-going to try to protect
-yourself from the NSA, really.
+akan mencoba melindungi
+diri Anda dari NSA, sungguh.
 
 627
 00:25:53,302 --> 00:25:55,510
-On the other hand, if you're
-just protecting yourself
+Di sisi lain, jika Anda
+hanya melindungi dirimu sendiri
 
 628
 00:25:55,510 --> 00:25:57,772
-from random other
-students that are,
+dari siswa 
+acak yang,
 
 629
 00:25:57,772 --> 00:26:00,230
-I don't know, snooping around
-in your Athena home directory
+saya tidak tau, mengintip
+di direktori beranda Athena Anda
 
 630
 00:26:00,230 --> 00:26:01,938
-or whatnot, maybe you
-don't have to worry
+atau yang lainnya, mungkin Anda 
+tidak perlu khawatir
 
 631
 00:26:01,938 --> 00:26:03,210
-about this stuff as much.
+tentang hal ini.
 
 632
 00:26:03,210 --> 00:26:06,320
-So it's really a balancing game
-and picking the right threat
+Jadi ini benar-benar menyeimbangkan permainan
+dan memilih threat model yang
 
 633
 00:26:06,320 --> 00:26:08,610
-model.
+benar.
 
 634
 00:26:08,610 --> 00:26:15,370
-Another example of a bad threat
-model shows up in the way
+Contoh lain dari threat model
+yang buruk muncul dalam 
 
 635
 00:26:15,370 --> 00:26:18,307
-secure websites these days
-check certificates of a website
+mengamankan situs web saat ini
+memeriksa sertifikat situs web  
 
 636
 00:26:18,307 --> 00:26:19,390
-that you're connecting to.
+yang Anda sambungkan.
 
 637
 00:26:19,390 --> 00:26:23,350
-So in this SSL protocol or TLS,
-when you connect to a website
+Jadi di dalam protokol SSL atau TLS,
+saat kamu terhubung ke situs web
 
 638
 00:26:23,350 --> 00:26:25,860
-and it says HTTPS-- we'll
-talk much more about this
+dan dia mengakatakan HTTPS-- kita akan
+berbicara lebih lanjut tentang hal ini
 
 639
 00:26:25,860 --> 00:26:28,710
-in later lectures--
-but what happens
+di kuliah nanti--
+tetapi apa yang terjadi
 
 640
 00:26:28,710 --> 00:26:30,955
-is that the site you're
-connecting to presents you
+adalah ketika situs yang Anda
+sambungkan memberikan Anda
 
 641
 00:26:30,955 --> 00:26:34,800
-a certificate signed by one
-of the certificate authorities
+sebuah sertifikat yang ditandatangani 
+oleh salah satu otoritas sertifikats
 
 642
 00:26:34,800 --> 00:26:37,450
-out there that attests
-that, yep, this key
+diluar sana yang membuktikan
+itu, yep, kunci ini
 
 643
 00:26:37,450 --> 00:26:39,910
-belongs to Amazon.com.
+milik Amazon.com.
 
 644
 00:26:39,910 --> 00:26:42,330
-And architecturally,
-the sort of mistake
+Dan secara arsitektural,
+jenis kesalahan
 
 645
 00:26:42,330 --> 00:26:46,937
