@@ -2837,108 +2837,108 @@ was good in the mid 1980s.
 
 600
 00:24:55,030 --> 00:24:57,210
-No longer a good
-assumption today.
+Bukan asumsi yang bagus
+untuk hari ini.
 
 601
 00:24:57,210 --> 00:24:59,850
-So you really have to
-make sure your assumptions
+Jadi Anda benar-benar
+harus memastikan asumsi anda
 
 602
 00:24:59,850 --> 00:25:02,220
-sort of keep up with the times.
+mengikuti perkembangan zaman.
 
 603
 00:25:02,220 --> 00:25:06,140
-Maybe a more timely example
-is, if your adversary--
+Mungkin contoh yang lebih tepat waktu
+adalah, jika musuh Anda--
 
 604
 00:25:06,140 --> 00:25:08,980
-or if you're worried
-about government attacks,
+atau jika Anda khawatir
+dengan serangan pemerintah,
 
 605
 00:25:08,980 --> 00:25:12,371
-you might realize that you
-shouldn't trust hardware even
+Anda dapat menyadari bahwa Anda
+tidak seharusnya mempercayai perangkat keras bahkan
 
 606
 00:25:12,371 --> 00:25:13,120
-these days, right?
+hari ini, benar?
 
 607
 00:25:13,120 --> 00:25:14,870
-There was all these
-revelations about what
+Ada semua
+pengungkapan tentang apa
 
 608
 00:25:14,870 --> 00:25:16,860
-the NSA is capable of doing.
+yang NSA dapat lakukan.
 
 609
 00:25:16,860 --> 00:25:18,590
-And they have
-hardware back doors
+Dan mereka memiliki
+perangkat keras back doors
 
 610
 00:25:18,590 --> 00:25:20,922
-that they can insert
-into computers.
+dimana mereka dapat memasukan
+ke dalam komputer. 
 
 611
 00:25:20,922 --> 00:25:23,444
-And maybe up until a couple
-years ago, well, who knows?
+Dan maybe sampai beberapa
+tahun yang lalu, yah, siapa yang tahu?
 
 612
 00:25:23,444 --> 00:25:25,110
-I guess we didn't
-know about this stuff.
+Saya tebak kita tidak
+mengetahui hal-hal seperti ini.
 
 613
 00:25:25,110 --> 00:25:27,360
-So maybe it was a
-reasonable assumption
+Jadi mungkin ini adalah
+asumsi yang masuk akal
 
 614
 00:25:27,360 --> 00:25:29,270
-to assume your
-laptop is not going
+untuk membuat asumsi laptop
+Anda tidak akan
 
 615
 00:25:29,270 --> 00:25:31,962
-to be compromised physically,
-the hardware itself.
+dikompromikan secara fisik,
+dengan perangkat keras itu sendiri.
 
 616
 00:25:31,962 --> 00:25:32,670
-But now you know.
+Tapi sekarang Anda tahu.
 
 617
 00:25:32,670 --> 00:25:34,670
-Actually, if you're worried
-about the government
+Sebenarnya, jika Anda khawatir
+tentang pemerintah
 
 618
 00:25:34,670 --> 00:25:37,190
-being after you, you probably
-have a much harder problem
+mengejar Anda, Anda mungkin
+akan memiliki masalah yang jauh lebih sulit
 
 619
 00:25:37,190 --> 00:25:39,009
-to deal with because
-your laptop might
+untuk ditangani karena
+laptop Anda mungkin
 
 620
 00:25:39,009 --> 00:25:40,550
-be compromised
-physically, regardless
+dikompromikan
+secara fisik, apapun
 
 621
 00:25:40,550 --> 00:25:42,621
-of what you install in it.
+yang Anda unduh di dalamnya.
 
 622
 00:25:42,621 --> 00:25:44,870
