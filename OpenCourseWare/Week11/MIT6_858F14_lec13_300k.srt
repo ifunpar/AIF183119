@@ -1329,28 +1329,29 @@ Kerberos.
 
 279
 00:12:41,980 --> 00:12:44,600
-And from that point on,
-even if you leak it,
+Dan dari poin tersebut,
+bahkan jika anda membocorkannya
+
 
 280
 00:12:44,600 --> 00:12:46,994
-there is a lifetime
-associated with this ticket.
+akan ada tiket yang
+terasosisasi dengan tiket ini seumur hidup
 
 281
 00:12:46,994 --> 00:12:48,410
-So worst case,
-someone gets access
+Jadi, hal terburuk adalah
+ketika seseorang mendapatkan akses
 
 282
 00:12:48,410 --> 00:12:50,160
-to your account for
-a couple of hours,
+terhadap akun mu untuk
+beberapa jam
 
 283
 00:12:50,160 --> 00:12:53,359
-not for an unbounded
-amount of time.
+bukan untuk waktu
+yang tidak terbatas
 
 284
 00:12:53,359 --> 00:12:54,900
