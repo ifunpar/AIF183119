@@ -2114,16 +2114,16 @@ fungsi hash gila ini di mana
 
 451
 00:24:14,790 --> 00:24:16,650
-Anda tidak dapat menemukan collision-collision.
+Anda tidak dapat menemukan collisions.
 
 452
 00:24:16,650 --> 00:24:18,620
-Ini akan menjadi
+Yah ini akan menjadi
 sangat luar biasa.
 
 453
 00:24:18,620 --> 00:24:21,740
-Sebenarnya hal itu adalah apa yang kita inginkan
+Sebenarnya hal itulah yang kita inginkan
 ketika kita membangun kamus-kamus.
 
 454
@@ -2147,12 +2147,12 @@ rumit dari yang kita butuhkan.
 
 458
 00:24:33,058 --> 00:24:35,270
-SRINAVAS DEVADAS: Ya,
+SRINIVAS DEVADAS: Ya,
 hal tersebut sangat lambat, benar?
 
 459
 00:24:35,270 --> 00:24:39,365
-Hal itu akan membutuhkan waktu lebih lama untuk
+Akan membutuhkan waktu lebih lama untuk
 menghitung nilai hash daripada mengakses
 
 460
@@ -2162,18 +2162,18 @@ ketika Anda sesungguhnya
 
 461
 00:24:40,740 --> 00:24:44,847
-mempunyai sebuah kamus yang masuk akal
+mempunyai sebuah kamus yang ukurannya masuk akal
 yang mungkin memiliki beberapa collision.
 
 462
 00:24:44,847 --> 00:24:46,930
-Maksud saya Anda pergi begitu saja dan
+Maksud saya Anda dapat memulainya dan
 Anda punya sebuah linked list,
 
 463
 00:24:46,930 --> 00:24:50,090
-Anda mampu mengalami sedikit collision,
-apa masalahnya, benar?
+Anda mampu menoleransi sedikit collision,
+tidak masalahnya, benar?
 
 464
 00:24:50,090 --> 00:24:51,860
@@ -2182,17 +2182,17 @@ masuk akal
 
 465
 00:24:51,860 --> 00:24:57,420
-untuk menggunakan tingkatan
-seberat fungsi hash ini,
+untuk menggunakan fungsi
+hash sekompleks ini,
 
 466
 00:24:57,420 --> 00:25:00,830
-bahkan jika hal ini memenuhi
+bahkan jika dia memenuhi
 collision resistance-- yang
 
 467
 00:25:00,830 --> 00:25:04,070
-beberapa di antaranya diduga 
+beberapa di antaranya diduga untuk
 melakukan-- untuk aplikasi-aplikasi
 
 468
@@ -2219,13 +2219,13 @@ Target Collision Resistance.
 
 473
 00:25:15,470 --> 00:25:18,300
-Hal ini adalah bentuk yang lebih lemah--
-jadi terkadang orang-orang
+Ini adalah bentuk yang lebih lemah--
+jadi terkadang orang-orang (menganggap)
 
 474
 00:25:18,300 --> 00:25:24,190
-CR ketahanan terhadap kesamaan yang kuat,
-dan TCR daya tahan halangan
+CR adalah collision resistance yang kuat,
+dan TCR collision resistance
 
 475
 00:25:24,190 --> 00:25:24,810
@@ -2243,40 +2243,40 @@ tidak mungkin, diberikan
 478
 00:25:35,460 --> 00:25:39,200
 x-- jadi ada sebuah
-x spesifik yang Anda
+x tertentu yang Anda
 
 479
 00:25:39,200 --> 00:25:41,590
-ingin temukan sebuah tabrakan
-untuknya, daripada
+ingin temukan collision
+nya, alih-alih
 
 480
 00:25:41,590 --> 00:25:45,360
 hanya mencari sebuah pasangan yang
-hanya sekali menuju ke x dan x prima.
+hanya sekali menuju ke x dan x aksen.
 
 481
 00:25:45,360 --> 00:25:49,700
-Dan pasangan apa pun akan cukup untuk
-merusak properti daya tahan
+Dan pasangan apapun akan cukup untuk
+merusak properti
 
 482
 00:25:49,700 --> 00:25:50,560
-tabrakan tersebut.
+collision resistance tersebut.
 
 483
 00:25:50,560 --> 00:25:54,630
 Tapi TCR mengatakan bahwa saya akan
-memberikan Anda sebuah x spesifik.
+memberikan Anda sebuah x tertentu.
 
 484
 00:25:54,630 --> 00:25:57,750
 dan saya ingin Anda untuk
-mencari sebuah x prima yang
+mencari sebuah x aksen yang
 
 485
 00:25:57,750 --> 00:26:01,050
-hash-nya bertabrakan dengan
+hash-nya sama dengan
 hash dari x, OK?
 
 486
@@ -2289,8 +2289,8 @@ OK itu adalah TCR bagi Anda.
 
 488
 00:26:18,082 --> 00:26:20,040
-Dan untuk lebih jelas,
-saya pikir mungkin Anda semua
+Dan supaya jelas,
+saya rasa mungkin Anda semua
 
 489
 00:26:20,040 --> 00:26:23,420
@@ -2304,7 +2304,7 @@ fungsi hash yang deterministik.
 
 491
 00:26:26,340 --> 00:26:29,430
-Dan ini hanya hal sepele
+Dan cukup jelas
 untuk mengatakan bahwa jika Anda memiliki x,
 
 492
@@ -2319,7 +2319,7 @@ Itu adalah sebuah kebutuhan, sungguh.
 494
 00:26:33,740 --> 00:26:36,670
 Jadi kita ingin 2 nilai x yang berbeda
-dan sekumpulan x prima yang tidak
+dan sekumpulan x aksen yang tidak
 
 495
 00:26:36,670 --> 00:26:38,590
@@ -2328,7 +2328,7 @@ sama yang pada akhirnya akan bertabrakan.
 496
 00:26:38,590 --> 00:26:40,890
 Itu adalah arti sesungguhnya 
-dari sebuah tabrakan.
+dari sebuah collision.
 
 497
 00:26:40,890 --> 00:26:44,200
@@ -2337,7 +2337,7 @@ antara CR dan TCR?
 
 498
 00:26:44,200 --> 00:26:44,700
-Ya?
+Yup?
 
 499
 00:26:44,700 --> 00:26:45,812
@@ -2346,7 +2346,7 @@ Ya?
 500
 00:26:45,812 --> 00:26:49,144
 AUDIENS: Apakah kita
-mengasumsikan bahwa diberi suatu x
+mengasumsikan bahwa diketahui sebuah x
 
 501
 00:26:49,144 --> 00:26:51,105
@@ -2360,7 +2360,7 @@ Jadi pertanyaannya
 
 503
 00:26:52,480 --> 00:26:57,150
-adalah, diberi suatu x, itu adalah komputasi
+adalah, diketahui suatu x, itu adalah komputasi
 dengan waktu polinomial untuk mendapatkan h dari x.
 
 504
@@ -2370,15 +2370,15 @@ Benar.
 505
 00:26:58,230 --> 00:27:02,480
 Komputasi publik dengan waktu polinomial
-diberi suatu x untuk mendapatkan h dari x.
+diketahui suatu x untuk mendapatkan h dari x.
 
 506
 00:27:02,480 --> 00:27:08,840
-Jadi melakukannya dengan cara ini mudah.
+Jadi berjalan ke arah sini mudah.
 
 507
 00:27:08,840 --> 00:27:15,170
-Menggunakan cara ini-- saya lari
+Berjalan ke arah sini-- saya lari
 keluar dari ruangan-- sulit.
 
 508
@@ -2462,13 +2462,13 @@ memetakan-- saya harus menemukan
 
 526
 00:27:53,600 --> 00:27:58,080
-sebuah x prima sehingga h dari
-x prima sama dengan h dari x, OK?
+sebuah x aksen sehingga h dari
+x aksen sama dengan h dari x, OK?
 
 527
 00:27:58,080 --> 00:28:04,490
 Sekarang Anda mempunyai situasi-situasi
-di mana untuk-- ini
+di mana untuk-- itu
 
 528
 00:28:04,490 --> 00:28:07,920
@@ -2477,7 +2477,7 @@ untuk nilai-nilai x tertentu Anda
 
 529
 00:28:07,920 --> 00:28:08,900
-bisa melakukan hal ini dengan sesungguhnya.
+sesungguhnya bisa melakukan hal ini.
 
 530
 00:28:08,900 --> 00:28:10,363
@@ -2491,11 +2491,11 @@ properti yang kuat ini
 532
 00:28:15,640 --> 00:28:22,520
 yang Anda sangat tidak inginkan untuk
-menemukan collision-collision untuk beberapa--
+menemukan collisions untuk beberapa--
 
 533
 00:28:22,520 --> 00:28:26,470
-bahkan jika ada sebuah fraksi
+bahkan jika ada sebuah pecahan
 konstan dari nilai-nilai x yang
 
 534
@@ -2509,8 +2509,8 @@ OK?
 
 536
 00:28:29,710 --> 00:28:31,850
-Karena Anda mungkin akan
-memilih hal-hal itu dan pergi
+Karena Anda mungkin pada akhirnya akan
+memilihnya itu dan lanjut
 
 537
 00:28:31,850 --> 00:28:35,490
@@ -2570,7 +2570,7 @@ ingin mengatakan--
 
 549
 00:29:02,972 --> 00:29:05,320
-saya pikir saya akan meninggalkan
+Saya rasa saya akan meninggalkan
 properti-properti ini di atas sini
 
 550
@@ -2610,7 +2610,7 @@ kita tidak bisa membangun sebuah pembangkit nilai acak.
 557
 00:29:31,100 --> 00:29:35,300
 Jadi kita akan harus melakukan
-sesuatu yang semu acak.
+sesuatu yang acak secara semu (pseudo-random).
 
 558
 00:29:35,300 --> 00:29:37,840
@@ -2620,22 +2620,22 @@ yang kita bahas di sini
 559
 00:29:37,840 --> 00:29:45,870
 adalah perilaku yang
-tidak dapat dibedakan dari keacakan.
+tidak dapat dipisahkan dari keacakan.
 
 560
 00:29:50,990 --> 00:29:56,140
 Jadi kita akan harus menggunakan
-ke-tidak-linear-an, hal-hal yang
+ke-non-linear-an, hal-hal yang
 
 561
 00:29:56,140 --> 00:29:58,730
-disebut feedback tidak linear
-mengubah register-register,
+disebut sebagai non-linear
+feedback shift registers,
 
 562
 00:29:58,730 --> 00:30:00,370
 untuk menciptakan fungsi-fungsi
-semu acak.
+acak yang semu (pseudo-random).
 
 563
 00:30:00,370 --> 00:30:03,710
@@ -2648,8 +2648,8 @@ Kita tidak akan membahas hal itu terlalu dalam.
 
 565
 00:30:05,310 --> 00:30:07,680
-Tapi jelas
-itu adalah hal apa yang kita inginkan.
+Tapi jelas itu adalah
+hal yang kita inginkan.
 
 566
 00:30:07,680 --> 00:30:14,420
@@ -2663,13 +2663,13 @@ membutuhkan cara ini pada akhirnya.
 
 568
 00:30:18,830 --> 00:30:29,240
-Tapi ini tidak mungkin
-diberikan h dari x
+Tapi ini tidak memungkinkan
+diketahui h dari x
 
 569
 00:30:29,240 --> 00:30:42,010
-untuk menghasilkan h dari x prima, di mana
-x dan x prima adalah-- ini menjadi
+untuk menghasilkan h dari x aksen, di mana
+x dan x aksen adalah-- ini menjadi
 
 570
 00:30:42,010 --> 00:30:50,150
