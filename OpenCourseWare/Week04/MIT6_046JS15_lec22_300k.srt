@@ -1661,18 +1661,18 @@ dari sudut pandang fisika juga.
 
 354
 00:19:11,990 --> 00:19:18,050
-What is the relationship between
-this locking, this sequence,
+Apa hubungan antara 
+penguncian ini, urutan ini,
 
 355
 00:19:18,050 --> 00:19:22,550
-in this case a pair of
-locks, that we require here
+dalam hal ini sepasang
+kunci, yang kita butuhkan di sini
 
 356
 00:19:22,550 --> 00:19:25,310
-in order for this to
-physically make sense?
+agar secara
+fisik masuk akal?
 
 357
 00:19:25,310 --> 00:19:25,810
@@ -1680,141 +1680,141 @@ s
 
 358
 00:19:25,810 --> 00:19:27,435
-I mean, there's
-different ways that you
+Maksud saya, ada 
+cara berbeda untuk Anda
 
 359
 00:19:27,435 --> 00:19:29,890
-could add two locks to a box.
+menambahkan dua kunci ke kotak.
 
 360
 00:19:29,890 --> 00:19:32,120
-There's many different ways.
+Ada banyak cara berbeda.
 
 361
 00:19:32,120 --> 00:19:37,440
-One way is to have a box that is
-locked if I look it over here.
+Salah satu caranya adalah memiliki kotak 
+yang terkunci jika saya lihat di sini.
 
 362
 00:19:37,440 --> 00:19:39,630
-And it doesn't open, because
-the lid doesn't open.
+Dan itu tidak terbuka, karena 
+tutupnya tidak terbuka.
 
 363
 00:19:39,630 --> 00:19:41,310
-I've got suitcases like that.
+Saya punya koper seperti itu.
 
 364
 00:19:41,310 --> 00:19:43,549
-And then there could
-be another spot here
+Dan mungkin ada
+tempat lain di sini
 
 365
 00:19:43,549 --> 00:19:44,465
-that looks it as well.
+yang terlihat seperti itu juga.
 
 366
 00:19:47,030 --> 00:19:49,090
-So that could be one way.
+Jadi itu bisa menjadi salah satu cara.
 
 367
 00:19:49,090 --> 00:19:51,800
-Well, what's another
-way of having two locks?
+Jadi, apa cara lain
+untuk memiliki dua kunci?
 
 368
 00:19:51,800 --> 00:19:52,300
-Yeah
+Ya
 
 369
 00:19:52,300 --> 00:19:53,680
-AUDIENCE: Putting
-a box within a box.
+AUDIENS: Meletakkan
+sebuah kotak di dalam kotak.
 
 370
 00:19:53,680 --> 00:19:54,860
-SRINIVAS DEVADAS: Yeah,
-putting a box within a box.
+SRINIVAS DEVADAS: Ya,
+meletakkan sebuah kotak dalam kotak.
 
 371
 00:19:54,860 --> 00:19:56,090
-That's great.
+Itu bagus.
 
 372
 00:19:56,090 --> 00:20:02,270
-So if you put a box within
-a box, then does this work?
+Jadi jika Anda meletakkan sebuah kotak di dalam
+sebuah kotak, lalu apakah ini berfungsi?
 
 373
 00:20:02,270 --> 00:20:04,090
-It doesn't work, right?
+Itu tidak berhasil, bukan?
 
 374
 00:20:04,090 --> 00:20:06,350
-So nested locks
-actually don't work.
+Jadi kunci berlapis
+sebenarnya tidak berhasil.
 
 375
 00:20:06,350 --> 00:20:17,680
-Because what happened here is
-that KA was put first, then KB.
+Karena apa yang terjadi di sini adalah
+bahwa KA disimpan pertama, kemudian KB.
 
 376
 00:20:17,680 --> 00:20:22,730
-And if, in fact, you had
-KA, and then KB out there,
+Dan jika, faktanya, Anda punya
+KA, dan kemudian KB di luar sana,
 
 377
 00:20:22,730 --> 00:20:35,729
-then you can't remove
-KA without removing KB.
+maka Anda tidak dapat menghapus
+KA tanpa menghapus KB.
 
 378
 00:20:35,729 --> 00:20:38,020
-And this would be the case
-where you have nested locks.
+Dan ini akan menjadi kasus
+di mana Anda memiliki kunci berlapis.
 
 379
 00:20:42,180 --> 00:20:44,860
-So the mathematical
-operation that we require
+Jadi operasi 
+matematika yang kita perlukan
 
 380
 00:20:44,860 --> 00:20:48,890
-is commutativity
-between the locks.
+adalah komutatif
+di antara gembok-gembok.
 
 381
 00:20:48,890 --> 00:20:51,010
-And the locks need to commute.
+Dan gembok-gemboknya perlu berpindah.
 
 382
 00:20:51,010 --> 00:20:53,900
-I want to put KA in first.
+Saya ingin meletakkan KA terlebih dahulu.
 
 383
 00:20:53,900 --> 00:20:56,320
-Like I described, the
-physical realization
+Seperti yang saya jelaskan, 
+realisasi fisik 
 
 384
 00:20:56,320 --> 00:20:59,440
-could simply be a suitcase
-with two different positions
+secara sederhana adalah koper
+dengan dua posisi yang berbeda
 
 385
 00:20:59,440 --> 00:21:00,250
-for the two locks.
+untuk dua gembok.
 
 386
 00:21:00,250 --> 00:21:03,760
-And any one of those
-positions locks the suitcase.
+Dan salah satu dari
+posisi itu mengunci koper.
 
 387
 00:21:03,760 --> 00:21:05,820
-So you put KA here, KB here.
+Jadi Anda meletakkan KA di sini, KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
