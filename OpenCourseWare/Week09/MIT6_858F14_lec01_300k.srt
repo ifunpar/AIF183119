@@ -2976,7 +2976,7 @@ lainnya yang,
 
 629
 00:25:57,772 --> 00:26:00,230
-saya tidak tau, mengintip
+saya tidak tahu, mengintip
 direktori beranda Athena Anda
 
 630
@@ -3033,8 +3033,8 @@ dengan Anda memberikan Anda
 
 641
 00:26:30,955 --> 00:26:34,800
-sebuah sertifikat yang ditandatangani 
-oleh salah satu otoritas sertifikats
+sebuah sertifikat yang ditandatangani oleh salah 
+satu otoritas sertifikat (certificate authorities)
 
 642
 00:26:34,800 --> 00:26:37,450
@@ -3053,11 +3053,11 @@ jenis kesalahan
 645
 00:26:42,330 --> 00:26:46,937
 atau model ancaman buruk
-yang diasumsukan mereka
+yang diasumsikan mereka
 
 646
 00:26:46,937 --> 00:26:49,020
-adalah apakah semua CA ini
+adalah apakah semua otoritas sertifikat ini
 akan dapat dipercaya.
 
 647
@@ -3072,16 +3072,16 @@ cara sistem bekerja
 649
 00:26:52,180 --> 00:26:54,710
 adalah bahwa ada ratusan
-CA ini di luar sana.
+otoritas sertifikat ini di luar sana.
 
 650
 00:26:54,710 --> 00:26:58,390
 Otoritas pos India,
-menurut saya, memiliki CA.
+menurut saya, memiliki otoritas sertifikat.
 
 651
 00:26:58,390 --> 00:27:00,420
-Pemerintah Tiongkok memiliki CA.
+Pemerintah Tiongkok memiliki otoritas sertifikat.
 
 652
 00:27:00,420 --> 00:27:04,780
