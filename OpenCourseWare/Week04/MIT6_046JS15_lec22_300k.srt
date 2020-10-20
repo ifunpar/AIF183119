@@ -1662,16 +1662,16 @@ dari sudut pandang fisika juga.
 354
 00:19:11,990 --> 00:19:18,050
 Apa hubungan antara 
-penguncian ini, urutan ini, 
+penguncian ini, urutan ini,
 
 355
 00:19:18,050 --> 00:19:22,550
-dalam hal ini sepasang 
+dalam hal ini sepasang
 kunci, yang kita butuhkan di sini
 
 356
 00:19:22,550 --> 00:19:25,310
-agar secara 
+agar secara
 fisik masuk akal?
 
 357
@@ -1739,7 +1739,7 @@ meletakkan sebuah kotak dalam kotak.
 
 371
 00:19:54,860 --> 00:19:56,090
-Itu hebat.
+Itu bagus.
 
 372
 00:19:56,090 --> 00:20:02,270
@@ -1752,13 +1752,13 @@ Itu tidak berhasil, bukan?
 
 374
 00:20:04,090 --> 00:20:06,350
-Jadi nested locks
+Jadi kunci berlapis
 sebenarnya tidak berhasil.
 
 375
 00:20:06,350 --> 00:20:17,680
 Karena apa yang terjadi di sini adalah
-bahwa KA di simpan pertama, kemudian KB.
+bahwa KA disimpan pertama, kemudian KB.
 
 376
 00:20:17,680 --> 00:20:22,730
@@ -1767,13 +1767,13 @@ KA, dan kemudian KB di luar sana,
 
 377
 00:20:22,730 --> 00:20:35,729
-maka Anda tidak dapat memindahkan
-KA tanpa memindahkan KB.
+maka Anda tidak dapat menghapus
+KA tanpa menghapus KB.
 
 378
 00:20:35,729 --> 00:20:38,020
 Dan ini akan menjadi kasus
-di mana Anda memiliki nested locks.
+di mana Anda memiliki kunci berlapis.
 
 379
 00:20:42,180 --> 00:20:44,860
@@ -1783,11 +1783,11 @@ matematika yang kita perlukan
 380
 00:20:44,860 --> 00:20:48,890
 adalah komutatif
-di antara gembok.
+di antara gembok-gembok.
 
 381
 00:20:48,890 --> 00:20:51,010
-Dan gembok perlu bertukar.
+Dan gembok-gemboknya perlu berpindah.
 
 382
 00:20:51,010 --> 00:20:53,900
@@ -1814,7 +1814,7 @@ posisi itu mengunci koper.
 
 387
 00:21:03,760 --> 00:21:05,820
-Jadi Anda meletakkan KA di sini, dan KB di sini.
+Jadi Anda meletakkan KA di sini, KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
