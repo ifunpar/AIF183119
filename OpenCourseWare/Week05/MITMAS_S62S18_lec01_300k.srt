@@ -1842,55 +1842,55 @@ salah satu keuntungan besar, saya rasa,
 
 393
 00:16:03,600 --> 00:16:06,210
-is, that even if
-Alice and Bob are not
+itu, bahkan jika
+Alice dan Bob tidak
 
 394
 00:16:06,210 --> 00:16:09,480
-in the same physical location,
-Alice can still pay Bob
+berada di lokasi yang sama,
+Alice tetap bisa membayar Bob
 
 395
 00:16:09,480 --> 00:16:10,688
-if they can talk to the bank.
+jika mereka bisa bicara dengan bank.
 
 396
 00:16:10,688 --> 00:16:12,397
-So it's pretty cool,
-and that's something
+Jadi itu lumayan keren,
+dan itu merupakan sesuatu
 
 397
 00:16:12,397 --> 00:16:15,000
-you can't do with dollar bills
-or with coins or with bars
+yang tidak bisa kau lakukan dengan uang fisik
+atau koin atau batangan
 
 398
 00:16:15,000 --> 00:16:16,180
-of gold.
+emas.
 
 399
 00:16:16,180 --> 00:16:18,480
-So having this
-trusted institution
+Jadi dengan adanya
+institusi terpercaya ini
 
 400
 00:16:18,480 --> 00:16:20,670
-that you can communicate
-with electronically
+yang bisa kau kontak 
+secara elektronik
 
 401
 00:16:20,670 --> 00:16:22,378
-means that Alice and
-Bob could be halfway
+Berarti Alice dan 
+Bob bisa berada di belahan
 
 402
 00:16:22,378 --> 00:16:24,503
-around the world from each
-other and they can still
+dunia yang berbeda dari satu 
+sama lain dan mereka tetap bisa
 
 403
 00:16:24,503 --> 00:16:25,200
-pay each other.
+membayar satu sama lain.
 
 404
 00:16:25,200 --> 00:16:27,870
