@@ -1187,11 +1187,11 @@ Baiklah, jadi itu terlihat bagus.
 249
 00:11:25,180 --> 00:11:27,010
 Kenapa kita membutuhkan
-dua protokol, benar?
+dua protokol?
 
 250
 00:11:27,010 --> 00:11:32,020
-Kalian bisa membayangkan bahwa kalian hanya
+Anda bisa membayangkan bahwa kalian hanya
 meminta tiket kepada server Kerberos
 
 251
@@ -1200,55 +1200,55 @@ secara langsung dengan cara ini.
 
 252
 00:11:33,292 --> 00:11:34,750
-Kalian bilang, ya, hey,
-Aku butuh sebuah tiket
+Anda katakan, yah, hey,
+Saya butuh sebuah tiket
 
 253
 00:11:34,750 --> 00:11:36,730
 untuk satu nama
-khusus ini.
+prinsipiel ini.
 
 254
 00:11:36,730 --> 00:11:39,070
-dan akan mengeirim kan balik sebuah
-ticket dan anda dapat mendecrypt nya
+Dan dia akan mengirimkan balik ke Anda sebuah
+tiket dan Anda dapat mendekripsinya
 
 255
 00:11:39,070 --> 00:11:41,440
-dengan KC anda setelah nya.
+dengan KC Anda sesudah nya.
 
 256
 00:11:41,440 --> 00:11:41,940
-ya.
+Yah.
 
 257
 00:11:41,940 --> 00:11:44,861
-MURID: apakah anda
-[TIDAK TERDENGAR] or tanyakan pada pengguna
+MAHASISWA: Dapatkah Anda
+[TIDAK TERDENGAR] atau bertanya pada pengguna
 
 258
 00:11:44,861 --> 00:11:46,527
-untuk memasukan kembali
-password mereka setiap 
+untuk memasukkan kembali
+password mereka setiap
 
 259
 00:11:46,527 --> 00:11:47,740
-ingin [TIDAK TERDENGAR] service?
+ingin layanan [TIDAK TERDENGAR]?
 
 260
 00:11:47,740 --> 00:11:49,823
 PROFESOR: Benar, jadi
-alasan perbedaannya
+alasan untuk perbedaan
 
 261
 00:11:49,823 --> 00:11:52,440
-diantara dua antarmuka ini
-adalah di antarmuka ini,
+di antara dua antarmuka ini
+adalah pada antarmuka ini,
 
 262
 00:11:52,440 --> 00:11:56,170
 semua balasan dikembalikan
-terenkripsi dengan kuncimu KC.
+terenkripsi dengan kunci Anda KC.
 
 263
 00:11:56,170 --> 00:11:59,500
@@ -1262,13 +1262,13 @@ dalam waktu yang lama.
 
 265
 00:12:03,070 --> 00:12:05,260
-Karena antara kamu harus atau
-meminta pengguna untuk memasukannya,
+Karena antara Anda harus
+meminta pengguna untuk memasukkannya,
 
 266
 00:12:05,260 --> 00:12:07,730
-yang hanya
-mengganggu bagi pengguna
+yang hanya akan
+mengganggu bagi pengguna,
 
 267
 00:12:07,730 --> 00:12:09,330
@@ -1282,16 +1282,16 @@ dengan kata sandi pengguna.
 269
 00:12:12,400 --> 00:12:17,730
 Jadi jika ini terungkap,
-lalu seseorang dengan akses ke KC
+lalu seseorang yang memiliki akses ke KC
 
 270
 00:12:17,730 --> 00:12:20,675
-dapat terus mengakses file pengguna 
+dapat terus mengakses file pengguna
 hingga pengguna tersebut mungkin
 
 271
 00:12:20,675 --> 00:12:22,800
-mengubah sandi mereka dan 
+mengubah password mereka dan 
 bahkan berpotensi lebih lama.
 
 272
@@ -1301,7 +1301,7 @@ Kita akan lihat tentang itu.
 273
 00:12:25,300 --> 00:12:28,570
 Jadi KC ini sangat berbahaya
-untuk dibocorkan.
+jika bocor.
 
 274
 00:12:28,570 --> 00:12:31,580
@@ -1315,12 +1315,12 @@ seluruh permintaan selanjutnya
 
 276
 00:12:34,270 --> 00:12:36,790
-adalah agar kalian
+adalah agar Anda
 dapat melupakan KC
 
 277
 00:12:36,790 --> 00:12:40,430
-setelah kalian men-decrypt respon
+setelah kalian mendekripsi respon
 TGS ini dari antarmuka
 
 278
@@ -1329,7 +1329,7 @@ Kerberos.
 
 279
 00:12:41,980 --> 00:12:44,600
-Dan dari titik tersebut,
+Dan dari titik itu,
 bahkan jika Anda membocorkannya
 
 280
