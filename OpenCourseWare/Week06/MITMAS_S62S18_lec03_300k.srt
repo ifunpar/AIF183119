@@ -1278,16 +1278,16 @@ sesuai dengan jumlah tandatangan yang
 
 278
 00:13:00,820 --> 00:13:04,100
-Ingin saya lakukan.
+ingin saya lakukan.
 
 279
 00:13:04,100 --> 00:13:07,250
 Ada ide tentang bagaimana Anda
-bisa mengurangi itu?
+bisa memitigasinya?
 
 280
 00:13:07,250 --> 00:13:10,130
-atau bagaimana anda masih bisa
+atau bagaimana Anda masih bisa
 membuat sistem yang dapat digunakan,
 
 281
@@ -1326,17 +1326,17 @@ Terdapat beberapa kerugian, bukan?
 
 289
 00:13:33,160 --> 00:13:37,540
-Jadi idenya adalah pertama saya mengeluarkan
-satu kunci publik sebesar 16 kilobyte
+Jadi idenya adalah pertama saya mempublikasikan
+satu kunci publik sebesar 16 kilobyte.
 
 290
 00:13:37,540 --> 00:13:41,620
-Dan kemudian saya berkata, Oke, ketika saya menandai,
-Saya akan menandatangani pesan saya.
+Dan kemudian saya berkata, oke, ketika saya menandatangani,
+saya akan menandatangani pesan saya.
 
 291
 00:13:41,620 --> 00:13:45,610
-Dan yang akan digabungkan dengan
+Dan digabungkan dengan
 pesan itu adalah kunci publik saya berikutnya.
 
 292
@@ -1346,7 +1346,7 @@ dan juga menunjukkan
 
 293
 00:13:48,040 --> 00:13:51,190
-Apa kunci publik saya berikutnya
+apa kunci publik saya berikutnya
 yang akan saya tandatangani.
 
 294
@@ -1356,16 +1356,16 @@ kunci privat yang kecil
 
 295
 00:13:54,160 --> 00:13:55,570
-dan kemudian tetap menandatangani.
+dan tetap menandatangani.
 
 296
 00:13:55,570 --> 00:13:58,690
 Masalahnya adalah, agar
-Seseorang dapat memverifikasi
+seseorang dapat memverifikasi
 
 297
 00:13:58,690 --> 00:14:01,370
-mereka akan perlu melihat 
+mereka akan perlu melihat
 semua tanda saya sebelumnya
 
 298
@@ -1380,16 +1380,16 @@ ini adalah kunci publik ke-500 saya
 300
 00:14:05,430 --> 00:14:07,180
 yang saya tandatangani,
-ini pesannya, 
+ini pesannya,
 
 301
 00:14:07,180 --> 00:14:09,722
-Anda harus kembali 
-dan melihat seluruh sejarah
+Anda harus kembali
+dan melihat seluruh riwayat
 
 302
 00:14:09,722 --> 00:14:14,000
-tandatangan saya, yang bukan hal bagus.
+tandatangan saya, di mana ini bukan hal bagus.
 
 303
 00:14:14,000 --> 00:14:14,500
@@ -1397,12 +1397,12 @@ Oke.
 
 304
 00:14:14,500 --> 00:14:19,418
-Jadi ide lain bagaimana 
+Jadi ide lain bagaimana
 menangani kunci publik yang besar?
 
 305
 00:14:19,418 --> 00:14:20,710
-Cara apa yang bisa anda lakukan?
+Cara apa yang bisa Anda lakukan?
 
 306
 00:14:23,500 --> 00:14:25,570
@@ -1410,17 +1410,17 @@ Jadi beberapa petunjuk.
 
 307
 00:14:25,570 --> 00:14:28,700
-Apakah ada jenis 
+Apakah ada jenis
 fungsi data yang
 
 308
 00:14:28,700 --> 00:14:31,570
-telah kita lihat disini dimana 
+telah kita lihat disini di mana
 fungsi itu menerima data dengan
 
 309
 00:14:31,570 --> 00:14:34,630
-ukurang yang tidak dibatasi dan keluaran
+ukuran yang tidak tentu dan keluaran
 dengan ukuran tetap?
 
 310
@@ -1447,7 +1447,7 @@ AUDIENS: Hash.
 
 315
 00:14:44,492 --> 00:14:45,450
-TADGE DRYJA: Hash mereka.
+TADGE DRYJA: Lakukan hash terhadap mereka.
 
 316
 00:14:45,450 --> 00:14:46,030
@@ -1492,7 +1492,7 @@ Dan saya telah berkomitmen.
 
 325
 00:15:11,240 --> 00:15:12,000
-Berhasil, bukan?
+Itu bekerja, bukan?
 
 326
 00:15:12,000 --> 00:15:14,160
@@ -1500,7 +1500,7 @@ Saya telah berkomitmen ke kunci publik saya.
 
 327
 00:15:14,160 --> 00:15:19,990
-Namun, ketika saya menandatanganim, saya perlu
+Namun, ketika saya menandatangan, saya perlu
 menyediakan seluruh kunci publik
 
 328
@@ -1510,17 +1510,17 @@ agar Anda dapat memverifikasinya.
 329
 00:15:21,570 --> 00:15:25,150
 Saya perlu menyediakan  
-16 kunci publik asli ini,
+16 kunci publik orisinal ini,
 
 330
 00:15:25,150 --> 00:15:27,620
-versi original kunci publik,
+versi orisinal kunci publik,
 setelah saya menandatanganinya.
 
 331
 00:15:27,620 --> 00:15:34,880
-Jadi sekarang tandatangan saya berbubah
-dari 8K menjadi 24K.
+Jadi sekarang tanda tangan saya berbubah
+dari 8K menjadi, berapa, 24K.
 
 332
 00:15:34,880 --> 00:15:38,530
@@ -1529,7 +1529,7 @@ menjadi lebih efisien, ya,
 
 333
 00:15:38,530 --> 00:15:42,840
-dalam hal total dengan
+dalam hal totalnya terhadap
 kunci publik dan tandatangan
 
 334
@@ -1556,8 +1556,8 @@ kepada Anda sebelumnya,
 
 339
 00:15:56,050 --> 00:15:57,695
-dan kita
-terbatas ruang disana.
+dan ruang penyimpanan kita
+terbatas di sana.
 
 340
 00:15:57,695 --> 00:15:59,320
