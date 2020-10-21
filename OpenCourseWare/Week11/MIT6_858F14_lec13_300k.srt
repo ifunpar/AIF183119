@@ -1354,37 +1354,37 @@ yang tidak terbatas.
 
 284
 00:12:53,359 --> 00:12:54,900
-So that's the sort
-of main difference
+Jadi begitulah
+perbedaan utama
 
 285
 00:12:54,900 --> 00:12:59,020
-why you guys have this slightly
-more complicated picture
+mengapa kalian memiliki gambaran
+yang sedikit lebih rumit ini
 
 286
 00:12:59,020 --> 00:13:03,190
-with two ways of
-accessing the same thing.
+dengan dua cara
+untuk mengakses hal yang sama.
 
 287
 00:13:03,190 --> 00:13:06,360
-All right, so before we dive
-into the mechanics of how
+Baiklah, sebelum kita mulai
+mendalami mekanisme bagaimana
 
 288
 00:13:06,360 --> 00:13:08,900
-these protocols actually
-look like on the wire,
+sebenarnya protokol-protokol ini
+terlihat pada kabel,
 
 289
 00:13:08,900 --> 00:13:13,060
-let's talk a little bit about
-this naming aspect in Kerberos,
+mari berbicara sedikit mengenai
+aspek penamaan ini dalam Kerberos,
 
 290
 00:13:13,060 --> 00:13:13,560
-right?
+setuju?
 
 291
 00:13:13,560 --> 00:13:16,100
