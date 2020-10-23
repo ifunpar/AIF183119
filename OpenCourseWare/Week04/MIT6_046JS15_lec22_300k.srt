@@ -56,7 +56,7 @@ Anda akan suka dengan yang ini.
 
 13
 00:00:35,430 --> 00:00:37,180
-Kalau Anda tidak luka,
+Kalau Anda tidak suka,
 baiklah, itu
 
 14
@@ -735,7 +735,7 @@ permutasi terbalik.
 155
 00:08:25,060 --> 00:08:27,660
 Jadi jelas saja, ini adalah
-opersai yang dapat dikembalikan.
+operasi yang dapat dikembalikan.
 
 156
 00:08:27,660 --> 00:08:30,330
@@ -1214,7 +1214,7 @@ Dan mereka akan membuka kotak tersebut.
 256
 00:14:04,654 --> 00:14:06,820
 Dan jadi itu seharusnya adalah
-perahu, ngomong - ngomong, bukan 
+perahu, ngomong-ngomong, bukan 
 
 257
 00:14:06,820 --> 00:14:10,880
