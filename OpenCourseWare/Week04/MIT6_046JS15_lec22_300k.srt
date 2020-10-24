@@ -1882,49 +1882,49 @@ yang berhubungan dengan itu,
 
 401
 00:21:55,410 --> 00:21:58,020
-and that'll be kind of clear
-once we write it out here,
+dan masalah itu akan menjadi jelas
+ketika kita menulis itu di sini,
 
 402
 00:21:58,020 --> 00:21:59,720
-that we'll get back to.
+yang akan kita bahas kembali.
 
 403
 00:21:59,720 --> 00:22:02,430
-But Diffie-Hellman key
-exchange assumes that you
+Tetapi pertukaran kunci
+Diffie-Hellman memberi asumsi bahwa anda
 
 404
 00:22:02,430 --> 00:22:04,420
-have commutative locks.
+memiliki gembok komutatif.
 
 405
 00:22:04,420 --> 00:22:09,930
-And this is how it works.
+Dan inilah bagaimana cara kerjanya.
 
 406
 00:22:09,930 --> 00:22:16,040
-You'll see what commutes
-when I give you the equations
+Anda akan melihat apa yang terganti
+ketika saya memberi anda persamaan
 
 407
 00:22:16,040 --> 00:22:18,760
-associated with
-Diffie-Hellman key exchange.
+yang terhubung dengan
+pertukaran kunci Diffie-Hellman.
 
 408
 00:22:18,760 --> 00:22:25,100
-And this is also
-described in the '70s.
+Dan hal ini juga
+dijelaskan pada tahun 70-an.
 
 409
 00:22:25,100 --> 00:22:29,630
-So what we're going to do is
-we're going to work in a finite
+Jadi apa yang akan kita lakukan adalah
+kita akan bekerja pada batasan
 
 410
 00:22:29,630 --> 00:22:33,120
-field Fp*.
+bidang Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
