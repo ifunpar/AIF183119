@@ -1818,67 +1818,67 @@ Jadi Anda meletakkan KA di sini, KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
-And then you can
-take KA out, right?
+Dan selanjutnya Anda dapat
+mengeluarkan KA, benar?
 
 389
 00:21:08,400 --> 00:21:10,860
-And it's still locked,
-because you have KB.
+Dan itu tetap terkunci,
+karena Anda mempunyai KB.
 
 390
 00:21:10,860 --> 00:21:20,130
-So this commutativity between
-the locks and essentially
+Jadi komutatifitas antara
+kunci dan dasarnya
 
 391
 00:21:20,130 --> 00:21:24,200
-the keys is what's required.
+kuncinya adalah apa yang dibutuhkan.
 
 392
 00:21:27,490 --> 00:21:30,930
-And so now, let's
-move away from pirates
+Dan sekarang, mari
+berpindah dari bajak laut
 
 393
 00:21:30,930 --> 00:21:33,930
-and go into the
-cryptography domain,
+dan masuk ke dalam
+domain kriptografi,
 
 394
 00:21:33,930 --> 00:21:36,670
-pure mathematical
-domain, and see
+domain matematika murni,
+dan lihat
 
 395
 00:21:36,670 --> 00:21:38,740
-how this turns
-into what's called
+bagaimana ini mengubah
+menjadi apa yang disebut
 
 396
 00:21:38,740 --> 00:21:43,130
-the Diffie-Hellman key exchange,
-which is a key exchange
+pertukaran kunci Diffie-Hellman,
+yang merupakan pertukaran kunci
 
 397
 00:21:43,130 --> 00:21:48,720
-algorithm or a protocol that
-under certain conditions
+algoritma atau sebuah protokol yang
+dalam kondisi tertentu
 
 398
 00:21:48,720 --> 00:21:50,590
-give you exactly
-what you see here.
+memberi Anda persis
+apa yang ingin Anda lihat di sini.
 
 399
 00:21:50,590 --> 00:21:52,420
-It gives you a
-secure key exchange.
+Itu memberi Anda sebuah
+pertukaran kunci yang aman.
 
 400
 00:21:52,420 --> 00:21:55,410
-And there's one issue
-associated with it,
+Dan ada satu masalah
+yang berhubungan dengan itu,
 
 401
 00:21:55,410 --> 00:21:58,020
