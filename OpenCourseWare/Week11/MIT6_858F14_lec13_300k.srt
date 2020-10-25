@@ -1388,31 +1388,31 @@ setuju?
 
 291
 00:13:13,560 --> 00:13:16,100
-So at some level, you
-could think of Kerberos
+Jadi di beberapa tingkat, kamu
+dapat menganggap kerberos
 
 292
 00:13:16,100 --> 00:13:18,530
-as being a name registry, right?
+sebagai registri nama, benar?
 
 293
 00:13:18,530 --> 00:13:20,680
-So it's really
-responsible for mapping
+Jadi ini sesungguhnya
+bertanggung jawab untuk pemetaan
 
 294
 00:13:20,680 --> 00:13:24,090
-these cryptographic
-keys onto string names.
+kunci kriptografi ini
+ke nama string.
 
 295
 00:13:24,090 --> 00:13:27,459
-And this is the fundamental
-sort of operation
+dan ini adalah 
+semacam operasi dasar
 
 296
 00:13:27,459 --> 00:13:28,750
-that Kerberos needs to provide.
+yang kerberos harus sediakan.
 
 297
 00:13:28,750 --> 00:13:31,467
