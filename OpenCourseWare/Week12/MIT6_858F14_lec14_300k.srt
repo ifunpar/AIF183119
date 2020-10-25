@@ -1933,57 +1933,58 @@ from one source
 
 408
 00:19:01,610 --> 00:19:04,240
-is as good as a certificate
-provided from any other source.
+sama bagusnya dengan sertifikat
+yang dibangkitkan/diberikan oleh sumber lain.
 
 409
 00:19:04,240 --> 00:19:06,120
-It's signed by
-the CA secret key.
+Sertifikat itu telah disahkan/disetujui
+oleh kunci rahasia CA (Certificate Authority).
 
 410
 00:19:06,120 --> 00:19:08,700
-So you can verify its
-validity without having
+Jadi Anda dapat memeriksa 
+keabsahannya tanpa harus
 
 411
 00:19:08,700 --> 00:19:10,830
-to actually contact
-the certificate
+menghubungi
+otoritas/sumber dari
 
 412
 00:19:10,830 --> 00:19:13,867
-authority, or any other
-designated party here.
+sertifikat, atau pihak
+berwenang lain.
 
 413
 00:19:13,867 --> 00:19:15,950
-And typically, the way
-this works is that a server
+Dan biasanya, cara kerja
+dari proses ini adalah server
 
 414
 00:19:15,950 --> 00:19:19,880
-that you want to talk to
-stores the certificate that it
+yang Anda ingin hubungi
+meyimpan sertifikat yang
 
 415
 00:19:19,880 --> 00:19:21,980
-originally got from the
-certificate authority.
+pada awalnya telah ia dapat
+dari otoritas sertifikat.
 
 416
 00:19:21,980 --> 00:19:24,339
-And whenever you connect
-to it, the server
+Dan kapan pun Anda ingin terhubung
+dengan server, server
 
 417
 00:19:24,339 --> 00:19:26,130
-will tell you, well,
-here's my certificate.
+akan memberi tahu Anda, baik
+ini sertifikat saya.
 
 418
 00:19:26,130 --> 00:19:27,350
-It was signed by this CA.
+Yang telah disahkan/disetujui oleh CA.
+
 
 419
 00:19:27,350 --> 00:19:29,520
