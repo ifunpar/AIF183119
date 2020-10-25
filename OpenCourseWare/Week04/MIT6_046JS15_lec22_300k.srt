@@ -1928,64 +1928,64 @@ bidang Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
-And the finite field
-means that we're
+Dan bidang hingga 
+berarti kita
 
 412
 00:22:36,450 --> 00:22:41,820
-going to be doing mod
-p, where p is prime.
+akan melakukan mod 
+p, di mana p adalah bilangan prima.
 
 413
 00:22:41,820 --> 00:22:45,060
-And the star means we're
-going to be only looking
+Dan bintang berarti kita 
+hanya akan melihat
 
 414
 00:22:45,060 --> 00:22:48,930
-at invertible elements only.
+elemen yang bisa dibalik saja.
 
 415
 00:22:48,930 --> 00:22:52,449
-So we drop the
-nonvertible elements.
+Jadi kami membuang 
+elemen nonvertible.
 
 416
 00:22:52,449 --> 00:22:54,240
-These things aren't
-particularly important.
+Hal-hal ini 
+tidak terlalu penting.
 
 417
 00:22:57,470 --> 00:22:59,560
-And so we'll drop 0.
+Dan jadi kami akan drop 0.
 
 418
 00:22:59,560 --> 00:23:03,480
-And we'll be looking
-at 1, 2, to p minus 1.
+Dan kita akan melihat 
+1, 2, hingga p minus 1.
 
 419
 00:23:03,480 --> 00:23:05,330
-So all the numbers
-that you see are going
+Jadi semua angka 
+yang Anda lihat akan menjadi
 
 420
 00:23:05,330 --> 00:23:07,690
-to be 1 through p minus 1.
+1 sampai p minus 1.
 
 421
 00:23:07,690 --> 00:23:14,440
-Now, what is the analog
-all this protocol
+Sekarang, apa analogi 
+dari semua protokol ini
 
 422
 00:23:14,440 --> 00:23:20,120
-that Alice and Bob,
-in our pirate puzzle,
+yang dioperasikan atau 
+dijalankan oleh Alice dan Bob,
 
 423
 00:23:20,120 --> 00:23:23,070
-operated on or ran?
+dalam teka-teki bajak laut kita?
 
 424
 00:23:23,070 --> 00:23:27,070
