@@ -1473,31 +1473,31 @@ nickolei.
 
 309
 00:14:00,885 --> 00:14:01,720
-So that's a string.
+Jadi, ini adalah sebuah String.
 
 310
 00:14:01,720 --> 00:14:05,170
-And that could be a principal
-in some Kerberos realm.
+dan itu bisa menjadi hal yang utama
+di dalam dunia Kerberos
 
 311
 00:14:05,170 --> 00:14:06,850
-So it would literally
-be the thing
+Jadi, ini benar benar akan
+menjadi sesuatu
 
 312
 00:14:06,850 --> 00:14:12,000
-that sits in this left
-column of the KDC's table.
+yang duduk di kolom
+sebelah kiri dari tabel KDC
 
 313
 00:14:12,000 --> 00:14:16,007
-And there's also
-some extra instances
+dan disitu juga ada
+beberapa contoh tambahan 
 
 314
 00:14:16,007 --> 00:14:17,090
-that the protocl supports.
+yang di support oleh protokol
 
 315
 00:14:17,090 --> 00:14:20,200
