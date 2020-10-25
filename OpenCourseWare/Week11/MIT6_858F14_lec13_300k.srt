@@ -1416,31 +1416,31 @@ yang kerberos harus sediakan.
 
 297
 00:13:28,750 --> 00:13:31,467
-In fact, you'll see in the
-next lecture even on the web,
+Faktanya, Anda akan melihatnya di 
+kuliah berikut bahkan di web,
 
 298
 00:13:31,467 --> 00:13:32,800
-we need some function like this.
+kami membutuhkan beberapa fungsi seperti ini.
 
 299
 00:13:32,800 --> 00:13:34,550
-It's implemented
-differently from Kerberos
+Ini diterapkan 
+secara berbeda dari Kerberos
 
 300
 00:13:34,550 --> 00:13:36,570
-but this is a fundamentally
-very important thing
+tapi ini pada dasarnya merupakan
+sebuah hal yang sangat penting
 
 301
 00:13:36,570 --> 00:13:39,060
-to have in almost any
-distributed system
+untuk dimiliki di hampir semua 
+sistem yang terdistribusi
 
 302
 00:13:39,060 --> 00:13:40,510
-for security.
+untuk keamanan.
 
 303
 00:13:40,510 --> 00:13:45,080
