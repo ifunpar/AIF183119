@@ -1444,28 +1444,28 @@ untuk keamanan.
 
 303
 00:13:40,510 --> 00:13:45,080
-So let's look at how Kerberos
-actually deals with names.
+jadi mari kita lihat bagaimana kerberos
+sebenarnya berhubungan dengan nama.
 
 304
 00:13:45,080 --> 00:13:49,440
-So in Kerberos,
-the sort of system
+Jadi di Kerberos,
+hal semacam sistem
 
 305
 00:13:49,440 --> 00:13:53,560
-calls every entity in
-this database a principal
+memanggil setiap entitas di dalam
+database utama ini
 
 306
 00:13:53,560 --> 00:13:56,920
-And a principal in Kerberos is
-actually just a string, right?
+dan yang utama di kerberos 
+sebenarnya hanya sebuah deret , bukan?
 
 307
 00:13:56,920 --> 00:13:59,780
-So you can actually have some
-principal like, I don't know,
+Jadi, Anda sebenarnya bisa memilikinya
+terpenting seperti, Saya tidak tahu,
 
 308
 00:13:59,780 --> 00:14:00,885
