@@ -1985,55 +1985,54 @@ ini sertifikat saya.
 00:19:26,130 --> 00:19:27,350
 Yang telah disahkan/disetujui oleh CA.
 
-
 419
 00:19:27,350 --> 00:19:29,520
-You can check the
-signature and just verify
+Anda dapat memeriksa
+tanda tangan dan memverifikasi
 
 420
 00:19:29,520 --> 00:19:33,020
-that this is, in fact, my
-public key and that's my name.
+bahwa ini sebenernya adalah 
+kunci public saya dan itu nama saya.
 
 421
 00:19:33,020 --> 00:19:34,700
-And on the flip
-side, the same thing
+Dan pada sisi
+sebaliknya, hal yang sama
 
 422
 00:19:34,700 --> 00:19:36,060
-happens on client certificates.
+terjadi pada sertifikat klien.
 
 423
 00:19:36,060 --> 00:19:39,790
-So when you the user connect to
-a web server, what's actually
+Jadi saat Anda sebagai pengguna terhubung
+pada server web, yang sebenernya 
 
 424
 00:19:39,790 --> 00:19:42,590
-going on is that your
-client certificate actually
+terjadi adalah 
+sertifikat klien Anda sebenernya
 
 425
 00:19:42,590 --> 00:19:45,780
-talks about the public key
-corresponding to the secret key
+berkomunikasi mengenai kunci public
+yang sesuai dengan kunci rahasia
 
 426
 00:19:45,780 --> 00:19:48,221
-that you originally
-generated in your browser.
+yang awalnya Anda
+hasilkan pada browser Anda.
 
 427
 00:19:48,221 --> 00:19:49,970
-And this way when you
-connect to a server,
+Dan dengan ini saat Anda
+terhubung ke server,
 
 428
 00:19:49,970 --> 00:19:52,350
-you're going to present
-a certificate signed
+Anda akan mempresentasikan
+sebuah sertifikat ditandatangani
 
 429
 00:19:52,350 --> 00:19:55,780
