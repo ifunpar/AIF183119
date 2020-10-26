@@ -2621,7 +2621,7 @@ seperti yang mungkin Anda curiga,
 554
 00:22:59,594 --> 00:23:01,260
 dan dalam praktiknya,
-kebetulan terjadi,
+memang terjadi demikian,
 
 555
 00:23:01,260 --> 00:23:03,800
@@ -2644,8 +2644,8 @@ memasukkan password mereka ke
 
 559
 00:23:10,350 --> 00:23:13,510
-dalam situs yang sebenarnya
-bukan situs yang benar.
+dalam situs yang
+tidak benar.
 
 560
 00:23:13,510 --> 00:23:16,990
@@ -2694,8 +2694,8 @@ adalah bahwa mereka kadang-kadang
 berubah seiring berjalannya waktu.
 
 570
-00:23:35,860 --> 00:23:38,160=
-Atau ketentuan tentang apakah suatu hal adalah
+00:23:35,860 --> 00:23:38,160
+Atau apakah suatu hal merupakan
 sebuah asumsi yang bagus atau tidak
 
 571
@@ -2714,12 +2714,12 @@ Project Athena mengembangkan
 
 574
 00:23:48,080 --> 00:23:49,250
-sebuah sistem bernama Kerberos.
+sistem ini yang bernama Kerberos.
 
 575
 00:23:49,250 --> 00:23:52,830
 Dan kita akan membaca tentang sistem itu
-dalam beberapa minggu di kelas ini.
+dalam beberapa minggu ke depan di kelas ini.
 
 576
 00:23:52,830 --> 00:23:55,640
@@ -2756,13 +2756,13 @@ Yah Anda tahu, kunci
 
 583
 00:24:06,120 --> 00:24:09,960
-untuk sandi yang disebut DES,
+untuk metode enkripsi ini yang disebut DES,
 tampak seperti ukuran yang dapat diterima.
 
 584
 00:24:09,960 --> 00:24:13,700
-Mungkin tidak bagus, tapi tentu saja
-tidak sepenuhnya masuk akal.
+Mungkin tidak fantastis, tapi tentu saja
+tidak sepenuhnya tidak masuk akal.
 
 585
 00:24:13,700 --> 00:24:14,997
@@ -2899,7 +2899,7 @@ mengetahui hal-hal seperti ini.
 
 613
 00:25:25,110 --> 00:25:27,360
-Jadi mungkin ini adalah
+Jadi saat itu mungkin ini adalah
 asumsi yang masuk akal
 
 614
@@ -2909,7 +2909,7 @@ laptop Anda tidak akan
 
 615
 00:25:29,270 --> 00:25:31,962
-dikompromikan secara fisik,
+dirusak secara fisik,
 dengan perangkat keras itu sendiri.
 
 616
@@ -2933,12 +2933,12 @@ laptop Anda mungkin
 
 620
 00:25:39,009 --> 00:25:40,550
-dikompromikan
+dirusak
 secara fisik, apapun
 
 621
 00:25:40,550 --> 00:25:42,621
-yang Anda unduh di dalamnya.
+yang Anda pasang di dalamnya.
 
 622
 00:25:42,621 --> 00:25:44,870
@@ -2947,7 +2947,7 @@ berhati-hati dengan model ancaman Anda
 
 623
 00:25:44,870 --> 00:25:46,820
-dan benar-benar 
+dan benar-benar
 menyeimbangkannya dengan siapa
 
 624
@@ -2977,7 +2977,7 @@ lainnya yang,
 629
 00:25:57,772 --> 00:26:00,230
 saya tidak tahu, mengintip
-direktori beranda Athena Anda
+direktori home Athena Anda
 
 630
 00:26:00,230 --> 00:26:01,938
@@ -3014,11 +3014,11 @@ yang terhubung dengan Anda.
 637
 00:26:19,390 --> 00:26:23,350
 Jadi di dalam protokol SSL atau TLS,
-saat kamu terhubung ke situs web
+saat Anda terhubung ke situs web
 
 638
 00:26:23,350 --> 00:26:25,860
-dan dia mengakatakan HTTPS-- kita akan
+dan dia berbicara HTTPS-- kita akan
 berbicara lebih lanjut tentang hal ini
 
 639
@@ -3077,7 +3077,7 @@ otoritas sertifikat ini di luar sana.
 650
 00:26:54,710 --> 00:26:58,390
 Otoritas pos India,
-menurut saya, memiliki otoritas sertifikat.
+saya rasa, memiliki otoritas sertifikat.
 
 651
 00:26:58,390 --> 00:27:00,420
@@ -3150,7 +3150,7 @@ atau ini adalah suatu ide yang buruk
 665
 00:27:33,216 --> 00:27:34,840
 untuk membuat suatu sistem
-di antara asumsi
+di dalam asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
