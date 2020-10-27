@@ -1818,174 +1818,174 @@ Jadi Anda meletakkan KA di sini, KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
-And then you can
-take KA out, right?
+Dan selanjutnya Anda dapat
+mengeluarkan KA, benar?
 
 389
 00:21:08,400 --> 00:21:10,860
-And it's still locked,
-because you have KB.
+Dan itu tetap terkunci,
+karena Anda mempunyai KB.
 
 390
 00:21:10,860 --> 00:21:20,130
-So this commutativity between
-the locks and essentially
+Jadi sifat komutatif antara
+kunci dan dasarnya
 
 391
 00:21:20,130 --> 00:21:24,200
-the keys is what's required.
+kuncinya adalah apa yang dibutuhkan.
 
 392
 00:21:27,490 --> 00:21:30,930
-And so now, let's
-move away from pirates
+Dan sekarang, mari
+berpindah dari bajak laut
 
 393
 00:21:30,930 --> 00:21:33,930
-and go into the
-cryptography domain,
+dan masuk ke dalam
+domain kriptografi,
 
 394
 00:21:33,930 --> 00:21:36,670
-pure mathematical
-domain, and see
+domain matematika murni,
+dan lihat
 
 395
 00:21:36,670 --> 00:21:38,740
-how this turns
-into what's called
+bagaimana ini mengubah
+menjadi apa yang disebut
 
 396
 00:21:38,740 --> 00:21:43,130
-the Diffie-Hellman key exchange,
-which is a key exchange
+pertukaran kunci Diffie-Hellman,
+yang merupakan pertukaran kunci
 
 397
 00:21:43,130 --> 00:21:48,720
-algorithm or a protocol that
-under certain conditions
+algoritme atau sebuah protokol yang
+dalam kondisi tertentu
 
 398
 00:21:48,720 --> 00:21:50,590
-give you exactly
-what you see here.
+memberi Anda persis
+apa yang ingin Anda lihat di sini.
 
 399
 00:21:50,590 --> 00:21:52,420
-It gives you a
-secure key exchange.
+Itu memberi Anda sebuah
+pertukaran kunci yang aman.
 
 400
 00:21:52,420 --> 00:21:55,410
-And there's one issue
-associated with it,
+Dan ada satu masalah
+yang berhubungan dengan itu,
 
 401
 00:21:55,410 --> 00:21:58,020
-and that'll be kind of clear
-once we write it out here,
+dan masalah itu akan menjadi jelas
+ketika kita menulis itu di sini,
 
 402
 00:21:58,020 --> 00:21:59,720
-that we'll get back to.
+yang akan kita bahas kembali.
 
 403
 00:21:59,720 --> 00:22:02,430
-But Diffie-Hellman key
-exchange assumes that you
+Tetapi pertukaran kunci
+Diffie-Hellman memberi asumsi bahwa Anda
 
 404
 00:22:02,430 --> 00:22:04,420
-have commutative locks.
+memiliki gembok komutatif.
 
 405
 00:22:04,420 --> 00:22:09,930
-And this is how it works.
+Dan inilah bagaimana cara kerjanya.
 
 406
 00:22:09,930 --> 00:22:16,040
-You'll see what commutes
-when I give you the equations
+Anda akan melihat apa yang terganti
+ketika saya memberi Anda persamaan
 
 407
 00:22:16,040 --> 00:22:18,760
-associated with
-Diffie-Hellman key exchange.
+yang terhubung dengan
+pertukaran kunci Diffie-Hellman.
 
 408
 00:22:18,760 --> 00:22:25,100
-And this is also
-described in the '70s.
+Dan hal ini juga
+dijelaskan pada tahun 70-an.
 
 409
 00:22:25,100 --> 00:22:29,630
-So what we're going to do is
-we're going to work in a finite
+Jadi apa yang akan kita lakukan adalah
+kita akan bekerja pada bidang
 
 410
 00:22:29,630 --> 00:22:33,120
-field Fp*.
+terbatas Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
-And the finite field
-means that we're
+Dan bidang terbatas 
+berarti kita
 
 412
 00:22:36,450 --> 00:22:41,820
-going to be doing mod
-p, where p is prime.
+akan melakukan mod
+p, di mana p adalah bilangan prima.
 
 413
 00:22:41,820 --> 00:22:45,060
-And the star means we're
-going to be only looking
+Dan bintang berarti kita
+hanya akan melihat
 
 414
 00:22:45,060 --> 00:22:48,930
-at invertible elements only.
+elemen yang bisa dibalik saja.
 
 415
 00:22:48,930 --> 00:22:52,449
-So we drop the
-nonvertible elements.
+Jadi kita membuang
+elemen yang tidak bisa dibalik.
 
 416
 00:22:52,449 --> 00:22:54,240
-These things aren't
-particularly important.
+Hal-hal ini 
+tidak terlalu penting.
 
 417
 00:22:57,470 --> 00:22:59,560
-And so we'll drop 0.
+Dan jadi kita akan buang 0.
 
 418
 00:22:59,560 --> 00:23:03,480
-And we'll be looking
-at 1, 2, to p minus 1.
+Dan kita akan melihat 
+1, 2, hingga p dikurangi 1.
 
 419
 00:23:03,480 --> 00:23:05,330
-So all the numbers
-that you see are going
+Jadi semua angka 
+yang Anda lihat akan menjadi
 
 420
 00:23:05,330 --> 00:23:07,690
-to be 1 through p minus 1.
+1 sampai p minus 1.
 
 421
 00:23:07,690 --> 00:23:14,440
-Now, what is the analog
-all this protocol
+Sekarang, apa analogi 
+dari semua protokol ini
 
 422
 00:23:14,440 --> 00:23:20,120
-that Alice and Bob,
-in our pirate puzzle,
+yang dioperasikan atau 
+dijalankan oleh Alice dan Bob,
 
 423
 00:23:20,120 --> 00:23:23,070
-operated on or ran?
+dalam teka-teki bajak laut kita?
 
 424
 00:23:23,070 --> 00:23:27,070
