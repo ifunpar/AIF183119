@@ -1828,7 +1828,7 @@ karena Anda mempunyai KB.
 
 390
 00:21:10,860 --> 00:21:20,130
-Jadi komutatifitas antara
+Jadi sifat komutatif antara
 kunci dan dasarnya
 
 391
@@ -1862,7 +1862,7 @@ yang merupakan pertukaran kunci
 
 397
 00:21:43,130 --> 00:21:48,720
-algoritma atau sebuah protokol yang
+algoritme atau sebuah protokol yang
 dalam kondisi tertentu
 
 398
@@ -1892,7 +1892,7 @@ yang akan kita bahas kembali.
 403
 00:21:59,720 --> 00:22:02,430
 Tetapi pertukaran kunci
-Diffie-Hellman memberi asumsi bahwa anda
+Diffie-Hellman memberi asumsi bahwa Anda
 
 404
 00:22:02,430 --> 00:22:04,420
@@ -1905,7 +1905,7 @@ Dan inilah bagaimana cara kerjanya.
 406
 00:22:09,930 --> 00:22:16,040
 Anda akan melihat apa yang terganti
-ketika saya memberi anda persamaan
+ketika saya memberi Anda persamaan
 
 407
 00:22:16,040 --> 00:22:18,760
@@ -1920,25 +1920,25 @@ dijelaskan pada tahun 70-an.
 409
 00:22:25,100 --> 00:22:29,630
 Jadi apa yang akan kita lakukan adalah
-kita akan bekerja pada batasan
+kita akan bekerja pada bidang
 
 410
 00:22:29,630 --> 00:22:33,120
-bidang Fp*
+terbatas Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
-Dan bidang hingga 
+Dan bidang terbatas 
 berarti kita
 
 412
 00:22:36,450 --> 00:22:41,820
-akan melakukan mod 
+akan melakukan mod
 p, di mana p adalah bilangan prima.
 
 413
 00:22:41,820 --> 00:22:45,060
-Dan bintang berarti kita 
+Dan bintang berarti kita
 hanya akan melihat
 
 414
@@ -1947,8 +1947,8 @@ elemen yang bisa dibalik saja.
 
 415
 00:22:48,930 --> 00:22:52,449
-Jadi kami membuang 
-elemen nonvertible.
+Jadi kita membuang
+elemen yang tidak bisa dibalik.
 
 416
 00:22:52,449 --> 00:22:54,240
@@ -1957,12 +1957,12 @@ tidak terlalu penting.
 
 417
 00:22:57,470 --> 00:22:59,560
-Dan jadi kami akan drop 0.
+Dan jadi kita akan buang 0.
 
 418
 00:22:59,560 --> 00:23:03,480
 Dan kita akan melihat 
-1, 2, hingga p minus 1.
+1, 2, hingga p dikurangi 1.
 
 419
 00:23:03,480 --> 00:23:05,330
