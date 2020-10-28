@@ -2620,537 +2620,537 @@ seperti yang mungkin Anda curiga,
 
 554
 00:22:59,594 --> 00:23:01,260
-and in practice,
-happens to be the case,
+dan dalam praktiknya,
+memang terjadi demikian,
 
 555
 00:23:01,260 --> 00:23:03,800
-these are not good
-assumptions in all cases.
+hal ini bukanlah asumsi
+yang baik dalam banyak kasus.
 
 556
 00:23:03,800 --> 00:23:06,020
-And people pick bad passwords.
+Dan orang-orang memilih password yang buruk.
 
 557
 00:23:06,020 --> 00:23:08,510
-And people will click
-on random links.
+Dan orang-orang akan mengklik
+sembarang tautan.
 
 558
 00:23:08,510 --> 00:23:10,350
-And people will
-enter their password
+Dan orang-orang akan
+memasukkan password mereka ke
 
 559
 00:23:10,350 --> 00:23:13,510
-on sites that are actually
-not the right site at all.
+dalam situs yang
+tidak benar.
 
 560
 00:23:13,510 --> 00:23:16,990
-And they will not be
-paying a lot of attention.
+Dan mereka tidak akan
+memperhatikan hal tersebut.
 
 561
 00:23:16,990 --> 00:23:19,960
-So you probably don't want
-to have threat models that
+Jadi Anda mungkin tidak menginginkan
+model ancaman yang
 
 562
 00:23:19,960 --> 00:23:21,600
-make very strong
-assumptions about what
+berasumsi kuat
+tentang apa yang
 
 563
 00:23:21,600 --> 00:23:23,433
-humans will do because
-inevitably, something
+manusia akan lakukan karena
+pastinya, sesuatu
 
 564
 00:23:23,433 --> 00:23:25,610
-will go wrong.
+akan menjadi tidak semestinya.
 
 565
 00:23:25,610 --> 00:23:26,720
-Make sense?
+Masuk akal?
 
 566
 00:23:26,720 --> 00:23:29,220
-Any questions?
+Ada pertanyaan?
 
 567
 00:23:29,220 --> 00:23:29,850
-All right.
+Baiklah.
 
 568
 00:23:29,850 --> 00:23:32,690
-Another sort of good thing
-to watch out in threat models
+Hal bagus lainnya untuk
+diperhatikan dalam model ancaman
 
 569
 00:23:32,690 --> 00:23:35,860
-is that they sometimes
-change over time.
+adalah bahwa mereka kadang-kadang
+berubah seiring berjalannya waktu.
 
 570
 00:23:35,860 --> 00:23:38,160
-Or whether something is
-a good assumption or not
+Atau apakah suatu hal merupakan
+sebuah asumsi yang bagus atau tidak
 
 571
 00:23:38,160 --> 00:23:40,160
-changes over time.
+berubah seiring berjalannya waktu.
 
 572
 00:23:40,160 --> 00:23:45,420
-One example of this is actually
-at MIT in the mid '90s-- mid
+Satu contoh dari hal ini sebenarnya
+di MIT pada pertengahan 90-an-- pertengahan
 
 573
 00:23:45,420 --> 00:23:48,080
-'80s, actually--
-Project Athena developed
+80-an, sebenarnya--
+Project Athena mengembangkan
 
 574
 00:23:48,080 --> 00:23:49,250
-this system called Kerberos.
+sistem ini yang bernama Kerberos.
 
 575
 00:23:49,250 --> 00:23:52,830
-And we'll read about this in a
-couple of weeks in this class.
+Dan kita akan membaca tentang sistem itu
+dalam beberapa minggu ke depan di kelas ini.
 
 576
 00:23:52,830 --> 00:23:55,640
-And at the time, they were sort
-of figuring out, well, Kerberos
+Dan pada waktu itu, mereka semacam
+mencari tahu, yah, Kerberos
 
 577
 00:23:55,640 --> 00:23:57,181
-is going to be based
-on cryptography.
+akan didasarkan
+pada kriptografi.
 
 578
 00:23:57,181 --> 00:23:59,331
-So we need to pick
-some size keys
+Jadi kita perlu memilih
+beberapa ukuran kunci
 
 579
 00:23:59,331 --> 00:24:00,830
-to make sure they're
-not going to be
+untuk memastikan mereka
+tidak akan
 
 580
 00:24:00,830 --> 00:24:02,570
-guessed by arbitrary people.
+ditebak oleh sembarangan orang.
 
 581
 00:24:02,570 --> 00:24:03,320
-And they said, OK.
+Dan mereka berkata, OK.
 
 582
 00:24:03,320 --> 00:24:06,120
-Well you know, 56-bit
-keys, at the time,
+Yah Anda tahu, kunci
+56-bit, pada saat itu,
 
 583
 00:24:06,120 --> 00:24:09,960
-for this cypher called DES,
-seemed like a plausible size.
+untuk metode enkripsi ini yang disebut DES,
+tampak seperti ukuran yang dapat diterima.
 
 584
 00:24:09,960 --> 00:24:13,700
-Maybe not great, but certainly
-not entirely unreasonable.
+Mungkin tidak fantastis, tapi tentu saja
+tidak sepenuhnya tidak masuk akal.
 
 585
 00:24:13,700 --> 00:24:14,997
-And this was in the mid '80s.
+Dan hal ini terjadi di pertengahan tahun 80-an.
 
 586
 00:24:14,997 --> 00:24:17,580
-But then you know, this system
-got popular and got used a lot.
+Namun kemudian Anda tahu, sistem ini
+menjadi populer dan banyak digunakan.
 
 587
 00:24:17,580 --> 00:24:19,400
-MIT still uses it.
+MIT masih menggunakannya.
 
 588
 00:24:19,400 --> 00:24:22,400
-And they never really went
-back to seriously revisit
+Dan mereka tidak pernah benar-benar
+meninjau kembali asumsi ini
 
 589
 00:24:22,400 --> 00:24:23,900
-this assumption.
+dengan serius.
 
 590
 00:24:23,900 --> 00:24:27,244
-And then, a couple years ago,
-a group of 6.858 students
+Dan kemudian, beberapa tahun yang lalu,
+sekelompok mahasiswa 6.858
 
 591
 00:24:27,244 --> 00:24:29,910
-figured out that actually, yeah,
-you can just break this, right?
+menemukan bahwa sebenarnya, yah,
+Anda dapat memecahkan ini, kan?
 
 592
 00:24:29,910 --> 00:24:34,480
-It's easy enough to enumerate
-all the 256 keys these days.
+Kini cukup mudah untuk
+menghitung seluruh 256 kunci.
 
 593
 00:24:34,480 --> 00:24:36,570
-Computers are so fast,
-you can just do it.
+Komputer sangat cepat,
+Anda dapat melakukannya.
 
 594
 00:24:36,570 --> 00:24:38,780
-And as a result,
-they were able to,
+Dan hasilnya,
+mereka dapat melakukannya,
 
 595
 00:24:38,780 --> 00:24:42,619
-with the help of some
-hardware from a particular web
+dengan bantuan beberapa
+perangkat keras dari layanan web
 
 596
 00:24:42,619 --> 00:24:45,160
-service-- we'll have some links
-the lecture notes-- they were
+tertentu-- kita akan memiliki beberapa
+tautan catatan kuliah-- mereka
 
 597
 00:24:45,160 --> 00:24:50,170
-able to get, basically, anyone's
-Kerberos account key in roughly
+pada dasarnya, bisa mendapatkan kunci
+akun Kerberos siapa pun dalam waktu kira-kira
 
 598
 00:24:50,170 --> 00:24:51,100
-a day.
+sehari.
 
 599
 00:24:51,100 --> 00:24:55,030
-And so this assumption
-was good in the mid 1980s.
+Dan asumsi ini
+bagus di pertengahan 1980-an.
 
 600
 00:24:55,030 --> 00:24:57,210
-No longer a good
-assumption today.
+Bukan lagi asumsi yang bagus
+untuk hari ini.
 
 601
 00:24:57,210 --> 00:24:59,850
-So you really have to
-make sure your assumptions
+Jadi Anda benar-benar
+harus memastikan bahwa asumsi Anda
 
 602
 00:24:59,850 --> 00:25:02,220
-sort of keep up with the times.
+mengikuti perkembangan zaman.
 
 603
 00:25:02,220 --> 00:25:06,140
-Maybe a more timely example
-is, if your adversary--
+Mungkin contoh yang lebih tepat waktu
+adalah, jika musuh Anda--
 
 604
 00:25:06,140 --> 00:25:08,980
-or if you're worried
-about government attacks,
+atau jika Anda khawatir
+dengan serangan pemerintah,
 
 605
 00:25:08,980 --> 00:25:12,371
-you might realize that you
-shouldn't trust hardware even
+Anda dapat menyadari bahwa Anda
+tidak seharusnya mempercayai perangkat keras bahkan
 
 606
 00:25:12,371 --> 00:25:13,120
-these days, right?
+hari ini, benar?
 
 607
 00:25:13,120 --> 00:25:14,870
-There was all these
-revelations about what
+Ada semua
+pengungkapan tentang apa
 
 608
 00:25:14,870 --> 00:25:16,860
-the NSA is capable of doing.
+yang NSA dapat lakukan.
 
 609
 00:25:16,860 --> 00:25:18,590
-And they have
-hardware back doors
+Dan mereka memiliki
+back doors dari perangkat keras
 
 610
 00:25:18,590 --> 00:25:20,922
-that they can insert
-into computers.
+yang dapat mereka masukan
+ke dalam komputer.
 
 611
 00:25:20,922 --> 00:25:23,444
-And maybe up until a couple
-years ago, well, who knows?
+Dan mungkin sampai beberapa
+tahun yang lalu, yah, siapa yang tahu?
 
 612
 00:25:23,444 --> 00:25:25,110
-I guess we didn't
-know about this stuff.
+Saya kira kita tidak
+mengetahui hal-hal seperti ini.
 
 613
 00:25:25,110 --> 00:25:27,360
-So maybe it was a
-reasonable assumption
+Jadi saat itu mungkin ini adalah
+asumsi yang masuk akal
 
 614
 00:25:27,360 --> 00:25:29,270
-to assume your
-laptop is not going
+untuk membuat asumsi bahwa
+laptop Anda tidak akan
 
 615
 00:25:29,270 --> 00:25:31,962
-to be compromised physically,
-the hardware itself.
+dirusak secara fisik,
+dengan perangkat keras itu sendiri.
 
 616
 00:25:31,962 --> 00:25:32,670
-But now you know.
+Namun sekarang Anda tahu.
 
 617
 00:25:32,670 --> 00:25:34,670
-Actually, if you're worried
-about the government
+Sebenarnya, jika Anda khawatir
+tentang pemerintah
 
 618
 00:25:34,670 --> 00:25:37,190
-being after you, you probably
-have a much harder problem
+mengejar Anda, Anda mungkin
+akan memiliki masalah yang jauh lebih sulit
 
 619
 00:25:37,190 --> 00:25:39,009
-to deal with because
-your laptop might
+untuk ditangani karena
+laptop Anda mungkin
 
 620
 00:25:39,009 --> 00:25:40,550
-be compromised
-physically, regardless
+dirusak
+secara fisik, apapun
 
 621
 00:25:40,550 --> 00:25:42,621
-of what you install in it.
+yang Anda pasang di dalamnya.
 
 622
 00:25:42,621 --> 00:25:44,870
-So we really have to be
-careful with your threat model
+Jadi kita benar-benar harus
+berhati-hati dengan model ancaman Anda
 
 623
 00:25:44,870 --> 00:25:46,820
-and really sort of
-balance it against who
+dan benar-benar
+menyeimbangkannya dengan siapa
 
 624
 00:25:46,820 --> 00:25:48,236
-you think is out to get you.
+yang menurut Anda akan mendapatkan Anda.
 
 625
 00:25:48,236 --> 00:25:50,860
-I think it's going to be a very
-expensive proposition if you're
+Saya pikir itu akan menjadi sangat
+proposisi mahal jika Anda
 
 626
 00:25:50,860 --> 00:25:53,302
-going to try to protect
-yourself from the NSA, really.
+akan mencoba melindungi
+diri Anda dari NSA, sungguh.
 
 627
 00:25:53,302 --> 00:25:55,510
-On the other hand, if you're
-just protecting yourself
+Di sisi lain, jika Anda
+hanya melindungi dirimu sendiri
 
 628
 00:25:55,510 --> 00:25:57,772
-from random other
-students that are,
+dari siswa acak
+lainnya yang,
 
 629
 00:25:57,772 --> 00:26:00,230
-I don't know, snooping around
-in your Athena home directory
+saya tidak tahu, mengintip
+direktori home Athena Anda
 
 630
 00:26:00,230 --> 00:26:01,938
-or whatnot, maybe you
-don't have to worry
+atau yang lainnya, mungkin Anda 
+tidak perlu khawatir
 
 631
 00:26:01,938 --> 00:26:03,210
-about this stuff as much.
+tentang hal ini.
 
 632
 00:26:03,210 --> 00:26:06,320
-So it's really a balancing game
-and picking the right threat
+Jadi hal ini benar-benar sebuah permainan menyeimbangkan
+dan memilih model ancaman yang
 
 633
 00:26:06,320 --> 00:26:08,610
-model.
+benar.
 
 634
 00:26:08,610 --> 00:26:15,370
-Another example of a bad threat
-model shows up in the way
+Contoh lain dari model ancaman
+yang buruk muncul dalam cara
 
 635
 00:26:15,370 --> 00:26:18,307
-secure websites these days
-check certificates of a website
+situs-situs web yang aman saat ini
+memeriksa sertifikat situs web
 
 636
 00:26:18,307 --> 00:26:19,390
-that you're connecting to.
+yang terhubung dengan Anda.
 
 637
 00:26:19,390 --> 00:26:23,350
-So in this SSL protocol or TLS,
-when you connect to a website
+Jadi di dalam protokol SSL atau TLS,
+saat Anda terhubung ke situs web
 
 638
 00:26:23,350 --> 00:26:25,860
-and it says HTTPS-- we'll
-talk much more about this
+dan dia berbicara HTTPS-- kita akan
+berbicara lebih lanjut tentang hal ini
 
 639
 00:26:25,860 --> 00:26:28,710
-in later lectures--
-but what happens
+di kuliah nanti--
+tetapi apa yang terjadi
 
 640
 00:26:28,710 --> 00:26:30,955
-is that the site you're
-connecting to presents you
+adalah ketika situs yang terhubung
+dengan Anda memberikan Anda
 
 641
 00:26:30,955 --> 00:26:34,800
-a certificate signed by one
-of the certificate authorities
+sebuah sertifikat yang ditandatangani oleh salah 
+satu otoritas sertifikat (certificate authorities)
 
 642
 00:26:34,800 --> 00:26:37,450
-out there that attests
-that, yep, this key
+di luar sana yang membuktikan
+bahwa, yep, kunci ini
 
 643
 00:26:37,450 --> 00:26:39,910
-belongs to Amazon.com.
+milik Amazon.com.
 
 644
 00:26:39,910 --> 00:26:42,330
-And architecturally,
-the sort of mistake
+Dan secara arsitektural,
+jenis kesalahan
 
 645
 00:26:42,330 --> 00:26:46,937
-or the bad threat model
-that these guys assumed
+atau model ancaman buruk
+yang diasumsikan mereka
 
 646
 00:26:46,937 --> 00:26:49,020
-is that all these CAs are
-going to be trustworthy.
+adalah apakah semua otoritas sertifikat ini
+akan dapat dipercaya.
 
 647
 00:26:49,020 --> 00:26:50,805
-They will never make a mistake.
+Mereka tidak akan pernah berbuat kesalahan.
 
 648
 00:26:50,805 --> 00:26:52,180
-And in fact, the
-way system works
+Dan faktanya,
+cara sistem bekerja
 
 649
 00:26:52,180 --> 00:26:54,710
-is that there's hundreds
-of these CAs out there.
+adalah bahwa ada ratusan
+otoritas sertifikat ini di luar sana.
 
 650
 00:26:54,710 --> 00:26:58,390
-The Indian postal authority,
-I think, has a CA.
+Otoritas pos India,
+saya rasa, memiliki otoritas sertifikat.
 
 651
 00:26:58,390 --> 00:27:00,420
-The Chinese government has a CA.
+Pemerintah Tiongkok memiliki otoritas sertifikat.
 
 652
 00:27:00,420 --> 00:27:04,780
-Lots of entities are certificate
-authorities in this design.
+Banyak entitas adalah otoritas
+setifikat dalam rancangan ini.
 
 653
 00:27:04,780 --> 00:27:06,870
-And any of them can
-make a certificate
+Dan salah satu dari mereka dapat
+membuat sertifikat
 
 654
 00:27:06,870 --> 00:27:09,667
-for any host name
-or a domain name.
+untuk nama host
+atau domain apapun.
 
 655
 00:27:09,667 --> 00:27:11,750
-And as a result, what
-happens if you're a bad guy,
+Dan sebagai konsekuensinya, apa
+yang terjadi jika Anda orang jahat,
 
 656
 00:27:11,750 --> 00:27:14,750
-if you want to compromise Gmail
-or if you want to impersonate
+jika Anda ingin membobol Gmail
+atau jika Anda ingin meniru
 
 657
 00:27:14,750 --> 00:27:16,739
-Gmail's website, you
-just have to compromise
+situs Gmail, Anda
+hanya perlu membobol
 
 658
 00:27:16,739 --> 00:27:18,280
-one of these
-certificate authorities.
+salah satu dari
+otoritas seritifikat ini.
 
 659
 00:27:18,280 --> 00:27:20,450
-And it turns out the
-weakest link is probably
+Dan ternyata
+tautan terlemah adalah mungkin
 
 660
 00:27:20,450 --> 00:27:23,170
-some poorly run authority
-somewhere in some,
+beberapa otoritas buruk yang berada
+di suatu tempat di,
 
 661
 00:27:23,170 --> 00:27:26,730
-you know, not particularly
-up to date country.
+sebagaimana Anda tahu,
+negara yang tidak terlalu terkini.
 
 662
 00:27:26,730 --> 00:27:27,760
-Who knows, right?
+Siapa tahu, betul?
 
 663
 00:27:27,760 --> 00:27:31,170
-And as a result, it's
-probably a bad assumption
+Dan sebagai konsekuensinya, ini
+mungkin asumsi yang buruk
 
 664
 00:27:31,170 --> 00:27:33,216
-to build a system--
-or it's a bad idea
+untuk membangun suatu sistem--
+atau ini adalah suatu ide yang buruk
 
 665
 00:27:33,216 --> 00:27:34,840
-to build a system
-around the assumption
+untuk membuat suatu sistem
+di dalam asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
