@@ -1817,274 +1817,274 @@ monoton dari waktu ke waktu secara kasar,
 
 382
 00:15:55,210 --> 00:15:56,900
-even across connections.
+bahkan secara lintas koneksi.
 
 383
 00:15:56,900 --> 00:15:58,580
-If I opened one
-connection, it might
+Jika saya buka satu
+koneksi, hal itu mungkin
 
 384
 00:15:58,580 --> 00:16:01,060
-have the same source and
-destination, port numbers,
+memilki sumber dan
+tujuan, nomor port,
 
 385
 00:16:01,060 --> 00:16:02,610
-IP addresses, et cetera.
+alamat IP, dan sebagainya, yang sama.
 
 386
 00:16:02,610 --> 00:16:04,920
-But because I established
-this connection now instead
+tetapi karena saya membangun
+koneksi ini sekarang bukannya
 
 387
 00:16:04,920 --> 00:16:07,640
-of earlier, packets
-from earlier hopefully
+lebih awal, paket-paket
+dari sebelumnya diharapkan
 
 388
 00:16:07,640 --> 00:16:10,030
-aren't going to match up
-with the sequence numbers
+tidak akan cocok
+dengan nomor urut
 
 389
 00:16:10,030 --> 00:16:12,310
-I have for my new connection.
+yang saya miliki untuk koneksi baru saya.
 
 390
 00:16:12,310 --> 00:16:14,280
-So this was a mechanism
-to prevent confusion
+Jadi ini merupakan mekanisme
+untuk mencegah kebingungan
 
 391
 00:16:14,280 --> 00:16:18,431
-across repeated
-connection establishments.
+lintas koneksi
+yang berulang.
 
 392
 00:16:18,431 --> 00:16:18,930
-Yeah.
+Yah.
 
 393
 00:16:18,930 --> 00:16:22,983
-AUDIENCE: So if you don't know
-exactly how much your other
+AUDIENS: jadi jika Anda tidak tahu
+secara tepat seberapa banyak grid lain
 
 394
 00:16:22,983 --> 00:16:25,566
-grid that you're talking to is
-going to improve the sequencing
+yang di mana Anda bekomunikasi dengannya
+akan meningkatkan paket urutan,
 
 395
 00:16:25,566 --> 00:16:26,845
-pack, how do you know that
-the packet you're getting is
+bagaimana Anda tahu
+paket yang anda terima adalah
 
 396
 00:16:26,845 --> 00:16:29,120
-the next packet if there wasn't
-[INAUDIBLE] immediate packet
+paket berikutnya jika tidak ada
+[TIDAK TERDENGAR] paket berikutnya
 
 397
 00:16:29,120 --> 00:16:29,530
-that you--
+yang Anda--
 
 398
 00:16:29,530 --> 00:16:31,870
-PROFESSOR: So typically you'll
-remember the last packet
+PROFESOR: Biasanya Anda akan
+ingat paket terakhir
 
 399
 00:16:31,870 --> 00:16:33,260
-that you received.
+yang anda terima.
 
 400
 00:16:33,260 --> 00:16:35,680
-And if the next sequence
-number is exactly that,
+Dan jika nomor urut selanjutnya
+persis seperti itu,
 
 401
 00:16:35,680 --> 00:16:38,267
-then this is the next
-packet in sequence.
+maka ini merupakan
+paket selanjutnya pada urutannya.
 
 402
 00:16:38,267 --> 00:16:39,850
-So for example, here,
-the server knows
+Jadi sebagai contoh, di sini,
+server mengetahui
 
 403
 00:16:39,850 --> 00:16:43,937
-that I've seen exactly
-SNC plus 1 worth of data.
+bahwa saya dengan tepat melihat
+data sebesar SNC ditambah 1.
 
 404
 00:16:43,937 --> 00:16:46,020
-If the next packet has
-sequence number SNC plus 1,
+Jika paket selanjutnya memiliki
+nomor urut SNC ditambah 1,
 
 405
 00:16:46,020 --> 00:16:47,618
-that's the next one.
+itu adalah yang selanjutnya.
 
 406
 00:16:47,618 --> 00:16:49,117
-AUDIENCE: So you're
-saying that when
+AUDIENS: Jadi makud
+Anda bahwa ketika
 
 407
 00:16:49,117 --> 00:16:51,790
-you establish a sequence number,
-then even after that you're
+Anda membangun sebuah nomor urut,
+kemudian bahkan setelah itu Anda
 
 408
 00:16:51,790 --> 00:16:52,762
-committing it--
+berkomitmen terhadapnya--
 
 409
 00:16:52,762 --> 00:16:54,428
-PROFESSOR: Well,
-absolutely, yeah, yeah.
+PROFESOR: Baik,
+pastinya, yah, yah.
 
 410
 00:16:54,428 --> 00:16:56,611
-So these sequence
-numbers, initially when
+Jadi nomor urut
+ini, awalnya ketika
 
 411
 00:16:56,611 --> 00:16:58,986
-you establish it, they get
-picked according to some plan.
+Anda membangunnya, itu semua
+terpilih menurut suatu rencana.
 
 412
 00:16:58,986 --> 00:17:00,135
-We'll talk about that plan.
+Kita akan bicarakan tentang rencana itu.
 
 413
 00:17:00,135 --> 00:17:01,940
-You can sort of think
-they might be random.
+Anda dapat berpikir bahwa
+mereka mungkin merupakan acak.
 
 414
 00:17:01,940 --> 00:17:05,310
-But over time, they have to have
-some flow for initial sequence
+Tetapi seiring waktu, mereka harus memiliki
+semacam aliran untuk nomor urut
 
 415
 00:17:05,310 --> 00:17:07,034
-numbers for connection.
+awal untuk koneksi.
 
 416
 00:17:07,034 --> 00:17:09,575
-But within a connection, once
-they're established, that's it.
+Tapi hanya dalam sebuah koneksi, sekalinya
+mereka ditetapkan, ya sudah.
 
 417
 00:17:09,575 --> 00:17:10,280
-They're fixed.
+Itu semua tidak berubah.
 
 418
 00:17:10,280 --> 00:17:11,890
-And they just tick
-along as the data
+Dan semua itu berdetak
+seiring jalannya data
 
 419
 00:17:11,890 --> 00:17:15,630
-gets sent on the
-connection, exactly.
+terkirim di dalam
+koneksi, tepatnya.
 
 420
 00:17:15,630 --> 00:17:17,270
-Make sense?
+Masuk akal?
 
 421
 00:17:17,270 --> 00:17:19,619
-All right, so there
-were some plans
+Baiklah, jadi ada
+beberapa rencana
 
 422
 00:17:19,619 --> 00:17:22,020
-suggested for how to manage
-these sequence numbers.
+yang disarankan untuk bagaimana mengelola
+nomor urut ini.
 
 423
 00:17:22,020 --> 00:17:23,650
-And it was actually
-a reasonable plan
+Dan itu sebenarnya
+merupakan rencana yang masuk akal
 
 424
 00:17:23,650 --> 00:17:27,970
-for avoiding duplicate packets
-in the network causing trouble.
+untuk menghindari paket duplikat
+di dalam jaringan menyebabkan masalah.
 
 425
 00:17:27,970 --> 00:17:31,730
-But the problem, of
-course, showed up
+Tetapi masalahnya, tentu
+saja, muncul
 
 426
 00:17:31,730 --> 00:17:37,511
-that attackers were able to
-sort of guess these sequence
+di mana penyerang memiliki kemampuan
+untuk menebak urutan
 
 427
 00:17:37,511 --> 00:17:38,010
-numbers.
+nomor tersebut.
 
 428
 00:17:38,010 --> 00:17:42,090
-Because there wasn't a lot
-of randomness being chosen.
+Dikarenakan kurang banyaknya
+pilihan acak yang dipilih.
 
 429
 00:17:42,090 --> 00:17:44,750
-So the way that the host machine
-would choose these sequence
+Jadi caranya mesin host
+memilih nomor urut ini
 
 430
 00:17:44,750 --> 00:17:47,290
-numbers is they have just a
-running counter in memory.
+adalah mereka hanya memiliki
+counter yang berjalan dalam memori.
 
 431
 00:17:47,290 --> 00:17:50,080
-Every second they
-bump it by 250,000.
+Setiap detik mereka
+menambahnya dengan 250.000.
 
 432
 00:17:50,080 --> 00:17:51,790
-And every time a
-new connection comes
+Dan setiap ada
+koneksi yang baru
 
 433
 00:17:51,790 --> 00:17:55,530
-in, they also bump it by some
-constant like 64k or 128k.
+masuk, mereka juga menambahnya
+dengan nilai konstan seperti 64k atau 128k.
 
 434
 00:17:55,530 --> 00:17:57,930
-I forget the exact number.
+Saya tidak ingat angka tepatnya.
 
 435
 00:17:57,930 --> 00:18:00,180
-So this was relatively easy
-to guess, as you can tell.
+Jadi secara relatif ini mudah
+untuk ditebak, seperti yang Anda lihat.
 
 436
 00:18:00,180 --> 00:18:02,030
-You send them their
-connection request,
+Anda mengirim mereka
+permintaan koneksi mereka,
 
 437
 00:18:02,030 --> 00:18:04,116
-and you see what sequence
-number comes back.
+dan Anda lihat nomor
+urut apa yang kembali.
 
 438
 00:18:04,116 --> 00:18:05,741
-And then you know
-the next one is going
+lalu Anda tahu
+selanjutnya akan
 
 439
 00:18:05,741 --> 00:18:07,950
