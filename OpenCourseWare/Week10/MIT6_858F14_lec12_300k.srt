@@ -1821,21 +1821,21 @@ bahkan secara lintas koneksi.
 
 383
 00:15:56,900 --> 00:15:58,580
-Jika terbuka satu
+Jika saya buka satu
 koneksi, hal itu mungkin
 
 384
 00:15:58,580 --> 00:16:01,060
 memilki sumber dan
-destinasi, nomor port,
+tujuan, nomor port,
 
 385
 00:16:01,060 --> 00:16:02,610
-alamat IP, dan sebagainya.
+alamat IP, dan sebagainya, yang sama.
 
 386
 00:16:02,610 --> 00:16:04,920
-tetapi karena saya menyatakan
+tetapi karena saya membangun
 koneksi ini sekarang bukannya
 
 387
@@ -1859,38 +1859,36 @@ untuk mencegah kebingungan
 
 391
 00:16:14,280 --> 00:16:18,431
-lintasi perulangan
-pendirian koneksi.
+lintas koneksi
+yang berulang.
 
 392
 00:16:18,431 --> 00:16:18,930
-yah.
+Yah.
 
 393
 00:16:18,930 --> 00:16:22,983
-AUDIENS: jadi jika anda tidak tahu
-secara tepat seberapa banyak anda punya
+AUDIENS: jadi jika Anda tidak tahu
+secara tepat seberapa banyak grid lain
 
 394
 00:16:22,983 --> 00:16:25,566
-grid yang anda bicarakan
-akan mengembangkan perhitungan
+yang di mana Anda bekomunikasi dengannya
+akan meningkatkan paket urutan,
 
 395
 00:16:25,566 --> 00:16:26,845
-pak, bagaimana anda tahu
+bagaimana Anda tahu
 paket yang anda terima adalah
 
 396
 00:16:26,845 --> 00:16:29,120
-the next packet if there wasn't
-[INAUDIBLE] immediate packet
-paket jika tidak ada
-[TIDAK TERDENGAR] paket segera
+paket berikutnya jika tidak ada
+[TIDAK TERDENGAR] paket berikutnya
 
 397
 00:16:29,120 --> 00:16:29,530
-yang anda--
+yang Anda--
 
 398
 00:16:29,530 --> 00:16:31,870
@@ -1903,28 +1901,28 @@ yang anda terima.
 
 400
 00:16:33,260 --> 00:16:35,680
-Dan jika urutan selanjutnya
-jumlahnya persis seperti itu,
+Dan jika nomor urut selanjutnya
+persis seperti itu,
 
 401
 00:16:35,680 --> 00:16:38,267
 maka ini merupakan
-paket selanjutnya secara urutan.
+paket selanjutnya pada urutannya.
 
 402
 00:16:38,267 --> 00:16:39,850
-Jadi sebagai contoh, disini,
+Jadi sebagai contoh, di sini,
 server mengetahui
 
 403
 00:16:39,850 --> 00:16:43,937
 bahwa saya dengan tepat melihat
-SNC ditambah 1 data.
+data sebesar SNC ditambah 1.
 
 404
 00:16:43,937 --> 00:16:46,020
 Jika paket selanjutnya memiliki
-urutan nomor SNC ditambah 1,
+nomor urut SNC ditambah 1,
 
 405
 00:16:46,020 --> 00:16:47,618
@@ -1932,31 +1930,31 @@ itu adalah yang selanjutnya.
 
 406
 00:16:47,618 --> 00:16:49,117
-AUDIENS: Jadi anda
-bermaksud bahwa ketika
+AUDIENS: Jadi makud
+Anda bahwa ketika
 
 407
 00:16:49,117 --> 00:16:51,790
-anda menyatakan sebuah nomor urut,
-kemudian bahkan setelah itu kamu
+Anda membangun sebuah nomor urut,
+kemudian bahkan setelah itu Anda
 
 408
 00:16:51,790 --> 00:16:52,762
-Mengkomit--
+berkomitmen terhadapnya--
 
 409
 00:16:52,762 --> 00:16:54,428
-PROFESOR: baik,
-Pastinya, yah, yah.
+PROFESOR: Baik,
+pastinya, yah, yah.
 
 410
 00:16:54,428 --> 00:16:56,611
-Jadi urutan
-nomor ini, awalnya ketika
+Jadi nomor urut
+ini, awalnya ketika
 
 411
 00:16:56,611 --> 00:16:58,986
-anda nyatakan, itu semua
+Anda membangunnya, itu semua
 terpilih menurut suatu rencana.
 
 412
@@ -1966,16 +1964,16 @@ Kita akan bicarakan tentang rencana itu.
 413
 00:17:00,135 --> 00:17:01,940
 Anda dapat berpikir bahwa
-mereka mungkin merupakan acakan.
+mereka mungkin merupakan acak.
 
 414
 00:17:01,940 --> 00:17:05,310
 Tetapi seiring waktu, mereka harus memiliki
-beberapa aliran untuk awal nomor
+semacam aliran untuk nomor urut
 
 415
 00:17:05,310 --> 00:17:07,034
-urutan untuk koneksi.
+awal untuk koneksi.
 
 416
 00:17:07,034 --> 00:17:09,575
@@ -1984,17 +1982,17 @@ mereka ditetapkan, ya sudah.
 
 417
 00:17:09,575 --> 00:17:10,280
-Itu semua diperbaiki.
+Itu semua tidak berubah.
 
 418
 00:17:10,280 --> 00:17:11,890
-Dan semua itu langsung berdetak
-bersamaan seiringan data
+Dan semua itu berdetak
+seiring jalannya data
 
 419
 00:17:11,890 --> 00:17:15,630
-terkirim ke
-koneksi, tepat.
+terkirim di dalam
+koneksi, tepatnya.
 
 420
 00:17:15,630 --> 00:17:17,270
@@ -2002,13 +2000,13 @@ Masuk akal?
 
 421
 00:17:17,270 --> 00:17:19,619
-Baiklah jadi ada
-beberap rencana
+Baiklah, jadi ada
+beberapa rencana
 
 422
 00:17:19,619 --> 00:17:22,020
-yang menyarankan untuk bagaimana mengatur
-nomor urutan ini.
+yang disarankan untuk bagaimana mengelola
+nomor urut ini.
 
 423
 00:17:22,020 --> 00:17:23,650
@@ -2018,7 +2016,7 @@ merupakan rencana yang masuk akal
 424
 00:17:23,650 --> 00:17:27,970
 untuk menghindari paket duplikat
-didalam jaringan menyebabkan masalah.
+di dalam jaringan menyebabkan masalah.
 
 425
 00:17:27,970 --> 00:17:31,730
@@ -2027,8 +2025,8 @@ saja, muncul
 
 426
 00:17:31,730 --> 00:17:37,511
-dimana penyerang memiliki kemampuan untuk
-sebagaimananya menebak urutan
+di mana penyerang memiliki kemampuan
+untuk menebak urutan
 
 427
 00:17:37,511 --> 00:17:38,010
@@ -2037,22 +2035,22 @@ nomor tersebut.
 428
 00:17:38,010 --> 00:17:42,090
 Dikarenakan kurang banyaknya
-pilihan acak yang terpilih.
+pilihan acak yang dipilih.
 
 429
 00:17:42,090 --> 00:17:44,750
-Jadi caranya tuan rumah mesin
-memilih urutan
+Jadi caranya mesin host
+memilih nomor urut ini
 
 430
 00:17:44,750 --> 00:17:47,290
-nomor tersebut adalah mereka hanya memiliki
-counter yang bergerak dalam memori.
+adalah mereka hanya memiliki
+counter yang berjalan dalam memori.
 
 431
 00:17:47,290 --> 00:17:50,080
 Setiap detik mereka
-menabraknya dengan 250.000.
+menambahnya dengan 250.000.
 
 432
 00:17:50,080 --> 00:17:51,790
@@ -2061,8 +2059,8 @@ koneksi yang baru
 
 433
 00:17:51,790 --> 00:17:55,530
-masuk, mereka juga menabraknya
-dengan konstan seperti 64k atau 128k.
+masuk, mereka juga menambahnya
+dengan nilai konstan seperti 64k atau 128k.
 
 434
 00:17:55,530 --> 00:17:57,930
@@ -2071,7 +2069,7 @@ Saya tidak ingat angka tepatnya.
 435
 00:17:57,930 --> 00:18:00,180
 Jadi secara relatif ini mudah
-untuk ditebak, seperti yang anda lihat.
+untuk ditebak, seperti yang Anda lihat.
 
 436
 00:18:00,180 --> 00:18:02,030
@@ -2080,12 +2078,12 @@ permintaan koneksi mereka,
 
 437
 00:18:02,030 --> 00:18:04,116
-dan lalu anda lihat urutan
-nomor apa yang kembali.
+dan Anda lihat nomor
+urut apa yang kembali.
 
 438
 00:18:04,116 --> 00:18:05,741
-lalu anda tahu
+lalu Anda tahu
 selanjutnya akan
 
 439
