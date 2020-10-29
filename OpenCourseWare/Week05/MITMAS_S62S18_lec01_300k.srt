@@ -1894,55 +1894,57 @@ membayar satu sama lain.
 
 404
 00:16:25,200 --> 00:16:27,870
-So that's pretty awesome, and
-that is definitely a property
+Jadi, itu sangat menarik,
+dan hal itu benar-benar sebuah properti
 
 405
 00:16:27,870 --> 00:16:29,940
-that we want to have.
+yang ingin kita miliki.
 
 406
 00:16:29,940 --> 00:16:33,330
-In terms of cons, I think we
-covered quite a few of them,
+Mengenai kerugiannya, saya rasa
+kita sudah menyebutkan beberapa dari mereka
 
 407
 00:16:33,330 --> 00:16:37,020
-which is we're really
-putting this bank
+yang mana kita benar-benar
+menyimpan jenis bank ini
 
 408
 00:16:37,020 --> 00:16:38,760
-kind of in the middle
-of everything here.
+di tengah setiap hal yang ada
+disini.
 
 409
 00:16:38,760 --> 00:16:42,600
-And there are a few different
-ways that can cause us trouble.
+Dan ada juga beberapa hal yang dapat 
+menyebabkan masalah bagi kita
 
 410
 00:16:42,600 --> 00:16:46,142
-So the bank needs to be online
-during every transaction.
+Jadi, bank harus dalam kondisi online
+dalam setiap transaksi.
 
 411
 00:16:46,142 --> 00:16:47,850
-If the bank is offline,
-then how does Bob
+Jika bank tersebut offline, lalu
+bagaimana caranya Bob
 
 412
 00:16:47,850 --> 00:16:50,250
-know whether he got paid or not?
+mengetahui apakah dia sudah 
+dibayar atau belum?
 
 413
 00:16:50,250 --> 00:16:52,710
-The bank could fail at
-some point in time, which
+Bank dapat mengalami kegagalan 
+dalam beberapa poin waktu,
 
 414
 00:16:52,710 --> 00:16:54,060
-is kind of related to that.
+dimana kondisi itu semacam 
+berhubungan dengan hal itu.
 
 415
 00:16:54,060 --> 00:16:56,610
