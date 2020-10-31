@@ -1989,63 +1989,64 @@ dalam teka-teki bajak laut kita?
 
 424
 00:23:23,070 --> 00:23:27,070
-What is the analog in
-the mathematical domain
+Apa analog dalam
+domain matematika
 
 425
 00:23:27,070 --> 00:23:29,060
-or in the finite field domain?
+atau dalam domain bidang terbatas?
 
 426
 00:23:29,060 --> 00:23:31,100
-Well, here's what happens.
+Jadi, inilah yang terjadi.
 
 427
 00:23:31,100 --> 00:23:39,691
-Alice is going to
-select a random a.
+Alice akan
+memilih a secara acak.
 
 428
 00:23:43,128 --> 00:23:45,450
-And we're going to
-assume the g is public.
+Dan kita akan
+mengasumsikan g adalah publik.
 
 429
 00:23:45,450 --> 00:23:51,880
-So she just shouts
-that out to-- Alice
+Jadi dia hanya berteriak
+seperti itu-- Alice
 
 430
 00:23:51,880 --> 00:23:54,950
-can see Bob from her house.
+dapat melihat Bob dari rumahnya.
 
 431
 00:23:54,950 --> 00:23:58,069
-So she shouts out
-g and shouts out p.
+Jadi dia berteriak
+g dan berteriak p.
 
 432
 00:23:58,069 --> 00:23:58,860
-They're all public.
+Mereka semua publik.
 
 433
 00:23:58,860 --> 00:24:02,680
-She doesn't care if the
-pirates can hear this.
+Dia tidak peduli jika
+bajak laut dapat mendengar ini.
 
 434
 00:24:02,680 --> 00:24:06,440
-And Alice is going to
-select a, which is random,
+Dan Alice akan
+memilih a, yang merupakan acak,
+
 
 435
 00:24:06,440 --> 00:24:11,810
-and compute g of a.
+dan menghitung g dari a.
 
 436
 00:24:11,810 --> 00:24:15,470
-And this is in the
-finite field, capital G.
+Dan ini dalam
+bidang terbatas, modal G.
 
 437
 00:24:15,470 --> 00:24:17,310
