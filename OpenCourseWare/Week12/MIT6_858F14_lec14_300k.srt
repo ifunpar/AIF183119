@@ -1964,7 +1964,7 @@ dari proses ini adalah server
 414
 00:19:15,950 --> 00:19:19,880
 yang Anda ingin hubungi
-meyimpan sertifikat yang
+menyimpan sertifikat yang
 
 415
 00:19:19,880 --> 00:19:21,980
@@ -2037,62 +2037,61 @@ a certificate signed
 
 429
 00:19:52,350 --> 00:19:55,780
-by MIT's certificate authority
-saying your user name
+oleh otoritas sertifikasi MIT
+yang menyatakan bahwa nama pengguna Anda
 
 430
 00:19:55,780 --> 00:19:57,680
-corresponds to this public key.
+sesuai dengan dengan kunci publik ini.
 
 431
 00:19:57,680 --> 00:20:00,430
-And this is how the server
-is going to be convinced
+Dan inilah bagaimana cara server
+dapat diyakinkan
 
 432
 00:20:00,430 --> 00:20:03,430
-that a message signed
-with your secret key
+bahwa sebuah pesan yang ditandatangani
+menggunakan kunci rahasia milik Anda
 
 433
 00:20:03,430 --> 00:20:09,695
-is proof that this is the right
-Athena user connecting to me.
+merupakan bukti bahwa ini pengguna Athena
+yang tepat yang terhubung dengan saya.
 
 434
 00:20:09,695 --> 00:20:10,570
-Does that make sense?
+Apakah itu masuk akal?
 
 435
 00:20:10,570 --> 00:20:11,206
-Yeah.
+Iya.
 
 436
 00:20:11,206 --> 00:20:12,956
-AUDIENCE: Where does
-the [? project ?] get
+AUDIENS: Darimana mesin pencari mendapatkan
 
 437
 00:20:12,956 --> 00:20:15,470
-the certificate [INAUDIBLE]?
+sertifikat [TIDAK DAPAT DIARTIKAN]
 
 438
 00:20:15,470 --> 00:20:16,819
-PROFESSOR: Ah, yes.
+PROFESSOR: Ah, betul.
 
 439
 00:20:16,819 --> 00:20:18,360
-Like the chicken
-and the egg problem.
+Seperti permasalahan ayam
+dan telur.
 
 440
 00:20:18,360 --> 00:20:19,330
-It keeps going down.
+Itu terus berlanjut.
 
 441
 00:20:19,330 --> 00:20:20,788
-Where do you get
-these public keys?
+Darimana Anda mendapatkan
+kunci-kunci publik ini?
 
 442
 00:20:20,788 --> 00:20:22,840
