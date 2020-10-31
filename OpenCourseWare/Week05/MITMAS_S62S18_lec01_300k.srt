@@ -1948,60 +1948,60 @@ berhubungan dengan hal itu.
 
 415
 00:16:54,060 --> 00:16:56,610
-The bank could simply
-decide that they
+Bank bisa saja
+memutuskan bahwa mereka
 
 416
 00:16:56,610 --> 00:16:59,010
-don't want to do this anymore
-and can block transactions.
+tidak ingin melakukan ini lagi
+dan dapat memblokir transaksi.
 
 417
 00:16:59,010 --> 00:17:00,180
-And then privacy.
+Dan kemudian privasi.
 
 418
 00:17:00,180 --> 00:17:03,000
-The bank has kind of
-insight into everyone
+Bank memiliki pemahaman
+yang baik terhadap semua orang
 
 419
 00:17:03,000 --> 00:17:03,970
-and their payments.
+dan pembayaran mereka.
 
 420
 00:17:03,970 --> 00:17:05,849
-And this is incredibly
-sensitive information.
+Dan ini adalah informasi
+yang sangat sensitif.
 
 421
 00:17:05,849 --> 00:17:08,618
-Payments are quite important.
+Pembayaran cukup penting.
 
 422
 00:17:08,618 --> 00:17:10,410
-And we're going to be
-talking about privacy
+Dan kita akan
+berbicara tentang privasi.
 
 423
 00:17:10,410 --> 00:17:13,119
-a lot in this class, during
-the second half of this class.
+Banyak di kelas ini, selama
+babak kedua kelas ini.
 
 424
 00:17:13,119 --> 00:17:16,050
-So just an example, a couple
-of visual examples of that.
+Jadi sekadar contoh, beberapa
+dari contoh visual itu.
 
 425
 00:17:16,050 --> 00:17:17,880
-The bank could just
-totally go away,
+Bank bisa begitu
+saja pergi,
 
 426
 00:17:17,880 --> 00:17:20,099
-and then what happens
-to that ledger?
+dan lalu apa yang terjadi
+kepada buku besar itu?
 
 427
 00:17:20,099 --> 00:17:21,240
