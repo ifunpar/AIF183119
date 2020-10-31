@@ -1876,60 +1876,60 @@ corresponds to this public key.
 
 396
 00:18:22,750 --> 00:18:26,040
-And it's going to sign
-this whole message
+Dan itu akan menandai 
+seluruh pesan ini
 
 397
 00:18:26,040 --> 00:18:31,225
-with CA's secret key.
+dengan kunci rahasia CA.
 
 398
 00:18:31,225 --> 00:18:31,725
-Make sense?
+Masuk akal?
 
 399
 00:18:34,430 --> 00:18:37,790
-So this is going to allow us to
-do very similar things to what
+Jadi ini akan memungkinkan kita 
+melakukan hal yang sangat mirip dengan apa
 
 400
 00:18:37,790 --> 00:18:40,020
-Kerberos was doing,
-but we are now
+yang Kerberos sedang lakukan,
+tapi kita sekarang
 
 401
 00:18:40,020 --> 00:18:42,830
-going to get rid of
-the CA having to be
+akan menyingkirkan 
+CA harus
 
 402
 00:18:42,830 --> 00:18:45,192
-online for all transactions.
+online untuk semua transaksi.
 
 403
 00:18:45,192 --> 00:18:47,400
-And in fact, it's now going
-to be much more scalable.
+Dan faktanya, sekarang akan 
+jauh lebih terukur.
 
 404
 00:18:47,400 --> 00:18:49,358
-So this is what's usually
-called a certificate.
+Jadi inilah yang biasanya 
+disebut sertifikat.
 
 405
 00:18:51,690 --> 00:18:54,080
-And the reason this is going
-to be much more scalable
+Dan alasannya ini akan 
+jauh lebih terukur
 
 406
 00:18:54,080 --> 00:19:00,027
-is that, in fact, to a client,
-or anyone using this system,
+sebenarnya, kepada klien, 
+atau siapa pun yang menggunakan sistem ini,
 
 407
 00:19:00,027 --> 00:19:01,610
-a certificate provided
-from one source
+sertifikat yang diberikan 
+dari satu sumber
 
 408
 00:19:01,610 --> 00:19:04,240
