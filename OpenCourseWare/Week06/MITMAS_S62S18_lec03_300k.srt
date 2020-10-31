@@ -1562,286 +1562,287 @@ terbatas di sana.
 340
 00:15:57,695 --> 00:15:59,320
 Kemudian, ketika saya
-doing the signature,
+melakukan tanda tangan,
 
 341
 00:15:59,320 --> 00:16:01,960
-I have more space or time
-or something like that.
+saya memiliki lebih banyak ruang atau waktu,
+atau sesuatu seperti itu,
 
 342
 00:16:01,960 --> 00:16:03,250
-So this is actually useful.
+Jadi ini sebenarnya berguna.
 
 343
 00:16:03,250 --> 00:16:05,020
-And actually, this
-technique is used
+Dan sebenarnya,
+teknik ini digunakan
 
 344
 00:16:05,020 --> 00:16:09,400
-in Bitcoin and all
-different cryptocurrencies,
+dalam Bitcoin dan semua mata uang
+kripto yang berbeda
 
 345
 00:16:09,400 --> 00:16:12,220
-where you can call
-this a pubkey hash--
+di mana Anda dapat menyebutnya
+sebagai
 
 346
 00:16:17,660 --> 00:16:21,300
-pubkey hash, or they say PKH.
+kunci publik hash, atau mereka mengatakan PKH.
 
 347
 00:16:21,300 --> 00:16:23,562
-And the main benefit
-is size, right?
+Dan manfaat utamanya
+adalah ukuran, bukan?
 
 348
 00:16:23,562 --> 00:16:25,770
-You could say, well, if I've
-got a really big pubkey,
+Anda dapat mengatakan, jika saya
+memiliki kunci publik yang sangat besar
 
 349
 00:16:25,770 --> 00:16:29,040
-I can commit to it by sending
-to the hash of the pubkey.
+saya dapat berkomitmen untuk itu dengan mengirimkan
+ke hash dari kunci publik
 
 350
 00:16:29,040 --> 00:16:31,230
-And then, when I
-later want to sign,
+Dan kemudian, ketika saya
+ingin menandatangani
 
 351
 00:16:31,230 --> 00:16:33,780
-I reveal the actual pubkey.
+saya mengungkapkan kunci publik yang sebenarnya.
 
 352
 00:16:33,780 --> 00:16:35,020
-You can do it that way.
+Anda bisa melakukannya dengan cara itu.
 
 353
 00:16:35,020 --> 00:16:35,520
-OK.
+Oke.
 
 354
 00:16:35,520 --> 00:16:38,370
-So then this is
-pretty cool, right?
+Jadi ini
+cukup keren, bukan?
 
 355
 00:16:38,370 --> 00:16:42,840
-We've now taken our system,
-which had fairly large--
+Kami sekarang telah mengambil sistem kami,
+yang memiliki cukup besar---
 
 356
 00:16:42,840 --> 00:16:45,660
-16 kilobyte-- private
-keys, turned them
+16 kilobyte-- privat
+kunci, mengubahnya
 
 357
 00:16:45,660 --> 00:16:47,010
-into 32 byte private keys.
+menjadi kunci privat 32 byte.
 
 358
 00:16:47,010 --> 00:16:47,610
-Great.
+Bagus.
 
 359
 00:16:47,610 --> 00:16:50,970
-And also, this is 0
-of 1-- never expands.
+Dan juga, ini adalah 0
+dari 1-- tidak pernah berkembang.
 
 360
 00:16:50,970 --> 00:16:52,050
-Awesome.
+Hebat.
 
 361
 00:16:52,050 --> 00:16:55,680
-We've taken a system with
-large, potentially huge--
+Kami telah mengambil sistem dengan
+besar, berpotensi besar--
 
 362
 00:16:55,680 --> 00:16:59,130
 32 kilobyte, 64
-kilobyte-- public keys.
+kilobyte-- kunci publik
 
 363
 00:16:59,130 --> 00:17:01,080
-We've got it down to 32 bytes.
+Kami telah menguranginya menjadi 32 byte
 
 364
 00:17:01,080 --> 00:17:01,630
-Awesome.
+Hebat.
 
 365
 00:17:01,630 --> 00:17:02,130
-OK.
+Oke.
 
 366
 00:17:02,130 --> 00:17:05,579
-We've now made this thing
-much more efficient, much more
+Kami sekarang telah membuat hal ini
+jauh lebih efisien, jauh lebih
 
 367
 00:17:05,579 --> 00:17:06,450
-useful.
+berguna.
 
 368
 00:17:06,450 --> 00:17:08,880
-The problem-- the
-signatures are still big.
+Masalahnya--
+tanda tangannya masih besar.
 
 369
 00:17:08,880 --> 00:17:11,250
-They actually got
-a little bit bigger
+Mereka sebenarnya
+menjadi sedikit lebih besar
 
 370
 00:17:11,250 --> 00:17:14,490
-because they include the full
-public key in the signature.
+karena menyertakan penuh
+kunci publik dalam tanda tangan.
 
 371
 00:17:14,490 --> 00:17:17,940
-And let's say we had
-one of these things,
+Dan katakanlah kita memiliki
+salah satu dari hal-hal ini
 
 372
 00:17:17,940 --> 00:17:20,190
-where we make a
-bunch of public keys
+di mana kita membuat
+sekumpulan kunci publik
 
 373
 00:17:20,190 --> 00:17:22,109
-and commit to them
-at the outset.
+dan berkomitmen untuk itu
+sejak awal.
 
 374
 00:17:22,109 --> 00:17:25,890
-So you say, OK, I've got
-a 64 kilobyte pubkey.
+Jadi Anda berkata, oke, saya punya
+kunci pyblik 64 kilobyte.
 
 375
 00:17:25,890 --> 00:17:28,410
-I can commit to the whole
-thing by hashing it.
+saya dapat berkomitmen untuk
+semuanya yang melakukan hashing.
 
 376
 00:17:28,410 --> 00:17:32,460
-However, then, when I reveal and
-want to give you a signature,
+Namun, kemudian, ketika saya mengungkapkan dan
+ingin memberi Anda tanda tangan,
 
 377
 00:17:32,460 --> 00:17:37,050
-my signature is now
-whatever it'll be--
+tanda tangan saya sekatang
+menjadi apa saja--
 
 378
 00:17:37,050 --> 00:17:38,600
-72, right?
+72, bukan?
 
 379
 00:17:38,600 --> 00:17:41,820
-The signature would
-be 72 kilobytes--
+Tanda tangannya akan
+menjadi 72 kilobyte--
 
 380
 00:17:41,820 --> 00:17:45,090
-kind of huge.
+sangat besar.
 
 381
 00:17:45,090 --> 00:17:48,570
-So I can add a bunch
-of keys, but I'm just
+Jadi saya bisa menambahkan banyak
+kunci, tapi saya hanya
 
 382
 00:17:48,570 --> 00:17:50,700
-sort of pushing the
-problem somewhere else--
+mendorong
+masalah di tempat lain--
 
 383
 00:17:50,700 --> 00:17:52,680
-into the signature, right?
+ke dalam tanda tangan, bukan?
 
 384
 00:17:52,680 --> 00:17:55,920
-There's a better way to
-commit to many public keys.
+Ada cara yang lebih baik
+untuk menggunakan banyak kunci publik.
 
 385
 00:17:55,920 --> 00:17:59,820
-It's maybe not super obvious
-unless you've seen it before.
+Ini mungkin tidak terlalu jelas
+kecuali Anda pernah melihat sebelumnya.
 
 386
 00:17:59,820 --> 00:18:01,990
-But if you have,
-do you know what
+Tapi jika sudah,
+tahukah Anda apa
 
 387
 00:18:01,990 --> 00:18:05,682
-the better way to commit
-to many public keys is?
+cara yang lebih baik untuk berkomitmen
+pada banyak kunci publik?
 
 388
 00:18:05,682 --> 00:18:07,390
-Or you could come up
-with it on the spot,
+Atau Anda bisa
+langsung memikirkannya
 
 389
 00:18:07,390 --> 00:18:09,265
-and it'd be like, wow,
-you should have gotten
+dan itu akan seperti, wow,
+Anda seharusnya
 
 390
 00:18:09,265 --> 00:18:12,610
-this stuff named after you.
+menamai barang ini dengan nama Anda.
 
 391
 00:18:12,610 --> 00:18:13,730
-Any idea?
+Ada ide?
 
 392
 00:18:13,730 --> 00:18:15,010
-OK.
+Oke.
 
 393
 00:18:15,010 --> 00:18:17,140
-So what you can do--
+Jadi apa yang dapat Anda lakukan--
 
 394
 00:18:17,140 --> 00:18:19,000
-it's a little non-obvious--
+sedikit tidak jelas--
 
 395
 00:18:19,000 --> 00:18:21,100
-you can make a tree, right?
+Anda dapat membuat pohon, bukan?
 
 396
 00:18:21,100 --> 00:18:23,860
-So the idea is instead
-of just saying,
+Jadi idenya adalah alih-alih
+hanya mengatakan,
 
 397
 00:18:23,860 --> 00:18:28,090
-oh, I'm going to take all
-four of my big pubkeys,
+oh, saya akan mengambil
+keempat kunci publik besar saya,
 
 398
 00:18:28,090 --> 00:18:31,240
-stick them all in a row, take
-the hash of that whole thing
+memasukkan semuanya dalam satu baris, mengambil
+hash dari semuanya
+
 
 399
 00:18:31,240 --> 00:18:33,610
-and publish that
-as my public hash,
+dan mempublikasikannya
+sebagai hash publik saya,
 
 400
 00:18:33,610 --> 00:18:36,790
-I'm going to have a little
-bit more complex design.
+saya akan meiliki desain yang
+sedikit lebih rumit.
 
 401
 00:18:36,790 --> 00:18:40,860
