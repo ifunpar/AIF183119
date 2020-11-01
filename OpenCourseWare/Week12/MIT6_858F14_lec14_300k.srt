@@ -1823,56 +1823,56 @@ nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
-the certificate
-authority is going
+sertifikat
+autoritas itu akan
 
 386
 00:17:44,800 --> 00:17:51,020
-to just sign messages stating
-that certain rows exist
+hanya menandakan pesan pesan yang menyatakan
+bahwa baris-baris tertentu ada
 
 387
 00:17:51,020 --> 00:17:52,940
-in this table.
+di tabel ini.
 
 388
 00:17:52,940 --> 00:17:54,540
-So the certificate
-authority is going
+Jadi sertifikat
+autoritas itu akan
 
 389
 00:17:54,540 --> 00:17:59,540
-to have its own sort of
-secret and public key here.
+memiliki semacam
+kunci rahasia dan publik miliknya sendiri di sini.
 
 390
 00:18:01,700 --> 00:18:03,520
-And it's going to
-use the secret key
+Dan dia akan
+menggunakan kunci rahasia 
 
 391
 00:18:03,520 --> 00:18:09,080
-to find messages for other
-users in the system to rely on.
+untuk  menemukan pesan-pesan untuk
+pengguna lain dalam sistem tersebut untuk diandalkan.
 
 392
 00:18:09,080 --> 00:18:11,870
-So if you have a
-particular entry like this,
+Jadi jika anda memiliki sebuah
+entri partikular seperti ini,
 
 393
 00:18:11,870 --> 00:18:15,410
-in this CA's
-database, then the CA
+dalam database miliki CA ini,
+maka CA tersebut
 
 394
 00:18:15,410 --> 00:18:19,510
-is going to find a
-message saying this name
+akan menemukan sebuah
+pesan yang menyebutkan nama ini
 
 395
 00:18:19,510 --> 00:18:22,750
-corresponds to this public key.
+yang berkorespondensi dengan kunci publik ini.
 
 396
 00:18:22,750 --> 00:18:26,040
