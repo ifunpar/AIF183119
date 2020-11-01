@@ -2088,85 +2088,85 @@ selanjutnya akan
 
 439
 00:18:05,741 --> 00:18:07,950
-to be 64k higher than that.
+menjadi 64k lebih tinggi dari itu.
 
 440
 00:18:07,950 --> 00:18:12,352
-So there wasn't a huge amount
-of randomness in this protocol.
+Jadi tidak banyak
+keacakan di dalam protokol ini.
 
 441
 00:18:12,352 --> 00:18:14,310
-So we can just sketch
-out what this looks like.
+Jadi kita bisa membuat sketsa
+seperti apa bentuknya ini.
 
 442
 00:18:14,310 --> 00:18:17,190
-So if I'm an attacker that
-wants to connect to a server
+Jadi, jika saya adalah penyerang yang 
+ingin menyambung ke server
 
 443
 00:18:17,190 --> 00:18:20,690
-but pretend to be from
-a particular IP address,
+tetapi berpura-pura berasal dari
+alamat IP tertentu,
 
 444
 00:18:20,690 --> 00:18:23,920
-then what I might do is send
-a request to the server,
+maka yang mungkin akan saya lakukan adalah mengirim
+permintaan ke server,
 
 445
 00:18:23,920 --> 00:18:26,490
-very much like the
-first step there,
+sangat mirip seperti
+langkah pertama,
 
 446
 00:18:26,490 --> 00:18:30,470
-include some initial sequence
-number that I choose.
+termasuk beberapa
+nomor urut awal yang saya pilih.
 
 447
 00:18:30,470 --> 00:18:31,995
-At this point, any
-sequence number
+Pada titik saat ini, 
+nomor urut berapapun
 
 448
 00:18:31,995 --> 00:18:33,660
-is just as good, because
-the server shouldn't
+sama bagusnya, karena
+server seharusnya tidak
 
 449
 00:18:33,660 --> 00:18:35,970
-have any assumptions about
-what the client's sequence
+tidak memiliki asumsi apapun
+tentang nomor urut
 
 450
 00:18:35,970 --> 00:18:37,042
-number is.
+klien.
 
 451
 00:18:37,042 --> 00:18:38,250
-Now, what does the server do?
+Sekarang, apa yang akan dilakukan oleh server?
 
 452
 00:18:38,250 --> 00:18:40,760
-The server gets the
-same packet as before.
+server akan mendapatkan
+paket yang sama seperti sebelumnya.
 
 453
 00:18:40,760 --> 00:18:42,550
-So it performs the
-same way as before.
+Jadi kinerjanya akan
+sama seperti sebelumnya.
 
 454
 00:18:42,550 --> 00:18:47,500
-It sends a packet back to
-the client with some server
+Hal ini mengirimkan paket kembali ke
+klien dengan beberapa nomor urut
 
 455
 00:18:47,500 --> 00:18:53,000
-sequence number and
-acknowledges SNC.
+server dan
+menyatakan SNC.
 
 456
 00:18:53,000 --> 00:18:55,800
