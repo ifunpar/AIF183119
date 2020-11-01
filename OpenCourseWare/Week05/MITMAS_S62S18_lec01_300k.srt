@@ -1875,17 +1875,17 @@ institusi terpercaya ini
 
 400
 00:16:18,480 --> 00:16:20,670
-yang bisa kau kontak 
+yang bisa kau kontak
 secara elektronik
 
 401
 00:16:20,670 --> 00:16:22,378
-Berarti Alice dan 
+Berarti Alice dan
 Bob bisa berada di belahan
 
 402
 00:16:22,378 --> 00:16:24,503
-dunia yang berbeda dari satu 
+dunia yang berbeda dari satu
 sama lain dan mereka tetap bisa
 
 403
@@ -1918,7 +1918,7 @@ disini.
 
 409
 00:16:38,760 --> 00:16:42,600
-Dan ada juga beberapa hal yang dapat 
+Dan ada juga beberapa hal yang dapat
 menyebabkan masalah bagi kita
 
 410
@@ -1933,17 +1933,17 @@ bagaimana caranya Bob
 
 412
 00:16:47,850 --> 00:16:50,250
-mengetahui apakah dia sudah 
+mengetahui apakah dia sudah
 dibayar atau belum?
 
 413
 00:16:50,250 --> 00:16:52,710
-Bank dapat mengalami kegagalan 
+Bank dapat mengalami kegagalan
 dalam beberapa poin waktu,
 
 414
 00:16:52,710 --> 00:16:54,060
-dimana kondisi itu semacam 
+dimana kondisi itu semacam
 berhubungan dengan hal itu.
 
 415
@@ -2054,57 +2054,57 @@ sedikit berbeda.
 
 437
 00:17:46,320 --> 00:17:47,737
-And we're going
-to kind of step up
+Dan kita pergi
+untuk meningkatkan
 
 438
 00:17:47,737 --> 00:17:53,245
-to the design that came
-right before bitcoin,
+desain yang datang
+tepat sebelum bitcoin,
 
 439
 00:17:53,245 --> 00:17:54,870
-and we're going to
-do that iteratively.
+dan kami akan melakukannya
+itu secara berulang.
 
 440
 00:17:54,870 --> 00:17:57,810
-So let's talk about e-cash
-and how e-cash works.
+Jadi mari kita bicara tentang e-cash
+dan cara kerja e-cash.
 
 441
 00:17:57,810 --> 00:18:01,980
-So the way that
-e-cash works is Alice
+Jadi begitulah
+Pekerjaan e-cash adalah Alice
 
 442
 00:18:01,980 --> 00:18:03,450
-tells the bank--
-instead of saying,
+memberitahu bank--
+alih-alih mengatakan,
 
 443
 00:18:03,450 --> 00:18:05,040
-hey, bank, do this
-transfer for me,
+hei, bank, lakukan
+transfer ini untukku,
 
 444
 00:18:05,040 --> 00:18:08,370
-Alice says, hey, I would
-like a digital representation
+Alice berkata, hei, aku akan
+suka representasi digital
 
 445
 00:18:08,370 --> 00:18:09,540
-of a coin.
+dari sebuah koin.
 
 446
 00:18:09,540 --> 00:18:12,607
-Can you give me
-something that is digital
+Bisakah kamu memberikan saya
+sesuatu yang digital
 
 447
 00:18:12,607 --> 00:18:14,940
-so I don't have to be in the
-same physical place as you,
+jadi saya tidak harus berada di
+tempat fisik yang sama denganmu,
 
 448
 00:18:14,940 --> 00:18:19,920
