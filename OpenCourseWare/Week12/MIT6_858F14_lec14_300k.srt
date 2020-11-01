@@ -1823,56 +1823,56 @@ nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
-the certificate
-authority is going
+sertifikat
+autoritas itu akan
 
 386
 00:17:44,800 --> 00:17:51,020
-to just sign messages stating
-that certain rows exist
+hanya menandakan pesan pesan yang menyatakan
+bahwa baris-baris tertentu ada
 
 387
 00:17:51,020 --> 00:17:52,940
-in this table.
+di tabel ini.
 
 388
 00:17:52,940 --> 00:17:54,540
-So the certificate
-authority is going
+Jadi sertifikat
+autoritas itu akan
 
 389
 00:17:54,540 --> 00:17:59,540
-to have its own sort of
-secret and public key here.
+memiliki semacam
+kunci rahasia dan publik miliknya sendiri di sini.
 
 390
 00:18:01,700 --> 00:18:03,520
-And it's going to
-use the secret key
+Dan dia akan
+menggunakan kunci rahasia 
 
 391
 00:18:03,520 --> 00:18:09,080
-to find messages for other
-users in the system to rely on.
+untuk  menemukan pesan-pesan untuk
+pengguna lain dalam sistem tersebut untuk diandalkan.
 
 392
 00:18:09,080 --> 00:18:11,870
-So if you have a
-particular entry like this,
+Jadi jika anda memiliki sebuah
+entri partikular seperti ini,
 
 393
 00:18:11,870 --> 00:18:15,410
-in this CA's
-database, then the CA
+dalam database miliki CA ini,
+maka CA tersebut
 
 394
 00:18:15,410 --> 00:18:19,510
-is going to find a
-message saying this name
+akan menemukan sebuah
+pesan yang menyebutkan nama ini
 
 395
 00:18:19,510 --> 00:18:22,750
-corresponds to this public key.
+yang berkorespondensi dengan kunci publik ini.
 
 396
 00:18:22,750 --> 00:18:26,040
@@ -1964,7 +1964,7 @@ dari proses ini adalah server
 414
 00:19:15,950 --> 00:19:19,880
 yang Anda ingin hubungi
-meyimpan sertifikat yang
+menyimpan sertifikat yang
 
 415
 00:19:19,880 --> 00:19:21,980
@@ -2036,62 +2036,61 @@ sebuah sertifikat ditandatangani
 
 429
 00:19:52,350 --> 00:19:55,780
-by MIT's certificate authority
-saying your user name
+oleh otoritas sertifikasi MIT
+yang menyatakan bahwa nama pengguna Anda
 
 430
 00:19:55,780 --> 00:19:57,680
-corresponds to this public key.
+sesuai dengan dengan kunci publik ini.
 
 431
 00:19:57,680 --> 00:20:00,430
-And this is how the server
-is going to be convinced
+Dan inilah bagaimana cara server
+dapat diyakinkan
 
 432
 00:20:00,430 --> 00:20:03,430
-that a message signed
-with your secret key
+bahwa sebuah pesan yang ditandatangani
+menggunakan kunci rahasia milik Anda
 
 433
 00:20:03,430 --> 00:20:09,695
-is proof that this is the right
-Athena user connecting to me.
+merupakan bukti bahwa ini pengguna Athena
+yang tepat yang terhubung dengan saya.
 
 434
 00:20:09,695 --> 00:20:10,570
-Does that make sense?
+Apakah itu masuk akal?
 
 435
 00:20:10,570 --> 00:20:11,206
-Yeah.
+Iya.
 
 436
 00:20:11,206 --> 00:20:12,956
-AUDIENCE: Where does
-the [? project ?] get
+AUDIENS: Darimana mesin pencari mendapatkan
 
 437
 00:20:12,956 --> 00:20:15,470
-the certificate [INAUDIBLE]?
+sertifikat [TIDAK DAPAT DIARTIKAN]
 
 438
 00:20:15,470 --> 00:20:16,819
-PROFESSOR: Ah, yes.
+PROFESSOR: Ah, betul.
 
 439
 00:20:16,819 --> 00:20:18,360
-Like the chicken
-and the egg problem.
+Seperti permasalahan ayam
+dan telur.
 
 440
 00:20:18,360 --> 00:20:19,330
-It keeps going down.
+Itu terus berlanjut.
 
 441
 00:20:19,330 --> 00:20:20,788
-Where do you get
-these public keys?
+Darimana Anda mendapatkan
+kunci-kunci publik ini?
 
 442
 00:20:20,788 --> 00:20:22,840
