@@ -2005,52 +2005,52 @@ kepada buku besar itu?
 
 427
 00:17:20,099 --> 00:17:21,240
-Who knows, right?
+Siapa yang tahu, benar?
 
 428
 00:17:21,240 --> 00:17:23,579
-I mean, literally, it
-could just disappear.
+Maksud saya, secara harfiah, itu
+bisa hilang begitu saja.
 
 429
 00:17:23,579 --> 00:17:25,079
-Maybe it's paper
-and it gets burnt,
+Mungkin itu kertas
+dan terbakar.
 
 430
 00:17:25,079 --> 00:17:29,598
-or maybe it's bits on a computer
-and it wasn't replicated.
+atau mungkin itu bit di komputer
+dan tidak direplikasi.
 
 431
 00:17:29,598 --> 00:17:31,140
-The bank could decide
-that they don't
+Bank bisa memutuskan
+bahwa mereka tidak melakukannya
 
 432
 00:17:31,140 --> 00:17:33,090
-like Alice for some
-reason, and that they
+seperti Alice untuk beberapa
+alasan, dan mereka
 
 433
 00:17:33,090 --> 00:17:35,880
-don't feel like processing
-Alice's transactions.
+merasa tidak ingin memproses
+transaksi Alice.
 
 434
 00:17:35,880 --> 00:17:39,940
-This happens all the
-time in the real world.
+ini terjadi sepanjang
+waktu di dunia nyata.
 
 435
 00:17:39,940 --> 00:17:44,830
-So there have been designs
-for electronic cash
+Jadi sudah ada desain
+untuk uang elektronik
 
 436
 00:17:44,830 --> 00:17:46,320
-that work a little
-bit differently.
+yang bekerja
+sedikit berbeda.
 
 437
 00:17:46,320 --> 00:17:47,737
