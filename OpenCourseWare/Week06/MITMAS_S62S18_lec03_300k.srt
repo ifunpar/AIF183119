@@ -1845,7 +1845,7 @@ sedikit lebih rumit.
 
 401
 00:18:36,790 --> 00:18:40,860
-And that design
+Dan desain itu
 is a binary tree.
 
 402
