@@ -1566,7 +1566,7 @@ melakukan tanda tangan,
 
 341
 00:15:59,320 --> 00:16:01,960
-saya memiliki lebih banyak ruang atau waktu,
+Saya memiliki lebih banyak ruang atau waktu
 atau sesuatu seperti itu,
 
 342
@@ -1585,7 +1585,7 @@ kripto yang berbeda
 
 345
 00:16:09,400 --> 00:16:12,220
-di mana Anda dapat menyebutnya
+di mana Anda dapat menyebut ini
 sebagai
 
 346
@@ -1594,7 +1594,7 @@ kunci publik hash, atau mereka mengatakan PKH.
 
 347
 00:16:21,300 --> 00:16:23,562
-Dan manfaat utamanya
+Dan keuntungan utamanya
 adalah ukuran, bukan?
 
 348
@@ -1610,11 +1610,11 @@ ke hash dari kunci publik
 350
 00:16:29,040 --> 00:16:31,230
 Dan kemudian, ketika saya
-ingin menandatangani
+ingin menandatangani,
 
 351
 00:16:31,230 --> 00:16:33,780
-saya mengungkapkan kunci publik yang sebenarnya.
+Saya mengungkapkan kunci publik yang sebenarnya.
 
 352
 00:16:33,780 --> 00:16:35,020
@@ -1636,12 +1636,12 @@ yang memiliki cukup besar--
 
 356
 00:16:42,840 --> 00:16:45,660
-16 kilobyte-- privat
-kunci, mengubahnya
+16 kilobyte-- kunci
+privat, mengubahnya
 
 357
 00:16:45,660 --> 00:16:47,010
-menjadi kunci privat 32 byte.
+menjadi kunci privat berukuran 32 byte.
 
 358
 00:16:47,010 --> 00:16:47,610
@@ -1699,8 +1699,8 @@ menjadi sedikit lebih besar
 
 370
 00:17:11,250 --> 00:17:14,490
-karena menyertakan penuh
-kunci publik dalam tanda tangan.
+karena menyertakan kunci
+publik lengkap dalam tanda tangan.
 
 371
 00:17:14,490 --> 00:17:17,940
@@ -1720,12 +1720,12 @@ sejak awal.
 374
 00:17:22,109 --> 00:17:25,890
 Jadi Anda berkata, oke, saya punya
-kunci pyblik 64 kilobyte.
+kunci publik berukuran 64 kilobyte.
 
 375
 00:17:25,890 --> 00:17:28,410
-saya dapat berkomitmen untuk
-semuanya yang melakukan hashing.
+Saya dapat berkomitmen untuk
+semuanya dengan melakukan hashing.
 
 376
 00:17:28,410 --> 00:17:32,460
@@ -1734,7 +1734,7 @@ ingin memberi Anda tanda tangan,
 
 377
 00:17:32,460 --> 00:17:37,050
-tanda tangan saya sekatang
+tanda tangan saya sekarang
 menjadi apa saja--
 
 378
@@ -1826,13 +1826,12 @@ hanya mengatakan,
 397
 00:18:23,860 --> 00:18:28,090
 oh, saya akan mengambil
-keempat kunci publik besar saya,
+empat kunci publik besar saya,
 
 398
 00:18:28,090 --> 00:18:31,240
 memasukkan semuanya dalam satu baris, mengambil
 hash dari semuanya
-
 
 399
 00:18:31,240 --> 00:18:33,610
