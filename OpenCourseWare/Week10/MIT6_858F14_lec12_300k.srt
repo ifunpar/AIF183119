@@ -2273,55 +2273,55 @@ yang diberikan server ini.
 
 478
 00:19:51,400 --> 00:19:52,820
-All right, does this make sense?
+Baiklah, apakah ini masuk akal?
 
 479
 00:19:52,820 --> 00:19:53,320
-Yeah.
+Ya.
 
 480
 00:19:53,320 --> 00:19:54,280
-AUDIENCE: What's the reason
-that the server sequence
+AUDIENS: Apa alasannya
+bahwa urutan server
 
 481
 00:19:54,280 --> 00:19:56,374
-number isn't completely random?
+nomor tidak sepenuhnya acak?
 
 482
 00:19:56,374 --> 00:19:57,790
-PROFESSOR: So
-there's two reasons.
+PROFESOR: Jadi
+ada dua alasan.
 
 483
 00:19:57,790 --> 00:20:00,940
-One, as I was
-describing earlier,
+Satu, seperti yang saya 
+jelaskan sebelumnya,
 
 484
 00:20:00,940 --> 00:20:05,330
-the server wants to
-make sure that packets
+server ingin memastikan 
+paket tersebut
 
 485
 00:20:05,330 --> 00:20:07,720
-from different
-connections over time
+dari koneksi yang 
+berbeda seiring waktu
 
 486
 00:20:07,720 --> 00:20:09,315
-don't get confused
-for one another.
+jangan bingung satu 
+sama lain.
 
 487
 00:20:09,315 --> 00:20:12,280
-So if you establish a
-connection from one source port
+Jadi jika Anda membuat 
+koneksi dari satu port sumber
 
 488
 00:20:12,280 --> 00:20:14,864
-to another destination port, and
-then you close the connection
+ke port tujuan lain, dan 
+kemudian Anda menutup koneksi
 
 489
 00:20:14,864 --> 00:20:17,363
