@@ -2170,56 +2170,56 @@ menyatakan SNC.
 
 456
 00:18:53,000 --> 00:18:55,800
-And now the attacker,
-if the attacker
+Dan sekarang penyerang,
+jika penyerang
 
 457
 00:18:55,800 --> 00:18:58,620
-wants to establish a connection,
-needs to somehow synthesize
+ingin membuat sebuah koneksi,
+ia butuh menyusun
 
 458
 00:18:58,620 --> 00:19:01,540
-a packet that looks exactly like
-the third packet over there.
+sebuah paket yang terlihat persis seperti
+paket ketiga disana.
 
 459
 00:19:01,540 --> 00:19:04,779
-So it needs to send a packet
-from the client to the server.
+Jadi ia harus mengirim sebuah paket
+dari klien ke server.
 
 460
 00:19:04,779 --> 00:19:05,570
-That's easy enough.
+Hal ini cukup mudah.
 
 461
 00:19:05,570 --> 00:19:07,403
-You just fill in these
-values in the header.
+Anda hanya perlu mengisi
+value di header.
 
 462
 00:19:07,403 --> 00:19:12,820
-But you have to acknowledge
-this server sequence number SNS.
+Tetapi anda sekarang harus mengetahui
+nomor SNS server ini.
 
 463
 00:19:12,820 --> 00:19:15,090
-And this is where sort
-of the problems start.
+Dan disinilah dimana
+permasalahan dimulai.
 
 464
 00:19:15,090 --> 00:19:18,950
-If the SNS value is
-relatively easy to guess,
+Jika nilai SNS 
+cukup mudah untuk ditebak,
 
 465
 00:19:18,950 --> 00:19:21,050
-then the attacker is good to go.
+maka penyerang sudah siap untuk mulai.
 
 466
 00:19:21,050 --> 00:19:22,910
-And now the server
-thinks they have
+Dan sekarang server
+berpikir mereka memiliki
 
 467
 00:19:22,910 --> 00:19:26,400
