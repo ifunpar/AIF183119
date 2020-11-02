@@ -1354,118 +1354,118 @@ yang tidak terbatas.
 
 284
 00:12:53,359 --> 00:12:54,900
-So that's the sort
-of main difference
+Jadi begitulah
+perbedaan utama
 
 285
 00:12:54,900 --> 00:12:59,020
-why you guys have this slightly
-more complicated picture
+mengapa kalian memiliki gambaran
+yang sedikit lebih rumit ini
 
 286
 00:12:59,020 --> 00:13:03,190
-with two ways of
-accessing the same thing.
+dengan dua cara
+untuk mengakses hal yang sama.
 
 287
 00:13:03,190 --> 00:13:06,360
-All right, so before we dive
-into the mechanics of how
+Baiklah, sebelum kita mulai
+mendalami mekanisme bagaimana
 
 288
 00:13:06,360 --> 00:13:08,900
-these protocols actually
-look like on the wire,
+sebenarnya protokol-protokol
+ini bekerja,
 
 289
 00:13:08,900 --> 00:13:13,060
-let's talk a little bit about
-this naming aspect in Kerberos,
+mari berbicara sedikit mengenai
+aspek penamaan ini dalam Kerberos,
 
 290
 00:13:13,060 --> 00:13:13,560
-right?
+setuju?
 
 291
 00:13:13,560 --> 00:13:16,100
-So at some level, you
-could think of Kerberos
+Jadi di beberapa tingkat, Anda
+dapat menganggap Kerberos
 
 292
 00:13:16,100 --> 00:13:18,530
-as being a name registry, right?
+sebagai daftar nama, benar?
 
 293
 00:13:18,530 --> 00:13:20,680
-So it's really
-responsible for mapping
+Jadi ini sesungguhnya
+bertanggung jawab untuk memetakan
 
 294
 00:13:20,680 --> 00:13:24,090
-these cryptographic
-keys onto string names.
+kunci kriptografi ini
+ke nama-nama dalam bentuk string.
 
 295
 00:13:24,090 --> 00:13:27,459
-And this is the fundamental
-sort of operation
+Dan ini adalah
+semacam operasi dasar
 
 296
 00:13:27,459 --> 00:13:28,750
-that Kerberos needs to provide.
+yang harus disediakan Kerberos.
 
 297
 00:13:28,750 --> 00:13:31,467
-In fact, you'll see in the
-next lecture even on the web,
+Bahkan, di kuliah berikutnya
+Anda akan melihat bahwa bahkan di web,
 
 298
 00:13:31,467 --> 00:13:32,800
-we need some function like this.
+kita membutuhkan beberapa fungsi seperti ini.
 
 299
 00:13:32,800 --> 00:13:34,550
-It's implemented
-differently from Kerberos
+Ini diterapkan 
+secara berbeda dari Kerberos
 
 300
 00:13:34,550 --> 00:13:36,570
-but this is a fundamentally
-very important thing
+tapi ini pada dasarnya merupakan
+sebuah hal yang sangat penting
 
 301
 00:13:36,570 --> 00:13:39,060
-to have in almost any
-distributed system
+untuk dimiliki di hampir semua 
+sistem yang terdistribusi
 
 302
 00:13:39,060 --> 00:13:40,510
-for security.
+untuk keamanan.
 
 303
 00:13:40,510 --> 00:13:45,080
-So let's look at how Kerberos
-actually deals with names.
+jadi mari kita lihat bagaimana kerberos
+sebenarnya mengelola nama-nama.
 
 304
 00:13:45,080 --> 00:13:49,440
-So in Kerberos,
-the sort of system
+Jadi di Kerberos,
+sistem
 
 305
 00:13:49,440 --> 00:13:53,560
-calls every entity in
-this database a principal
+memanggil setiap entitas di dalam
+prinsipiel basis data ini
 
 306
 00:13:53,560 --> 00:13:56,920
-And a principal in Kerberos is
-actually just a string, right?
+dan prinsipiel di Kerberos 
+sebenarnya hanya sebuah string, benar?
 
 307
 00:13:56,920 --> 00:13:59,780
-So you can actually have some
-principal like, I don't know,
+Jadi, Anda sebenarnya bisa memiliki
+prinsipiel, seperti,
 
 308
 00:13:59,780 --> 00:14:00,885
@@ -1473,31 +1473,31 @@ nickolei.
 
 309
 00:14:00,885 --> 00:14:01,720
-So that's a string.
+Jadi, ini adalah sebuah string.
 
 310
 00:14:01,720 --> 00:14:05,170
-And that could be a principal
-in some Kerberos realm.
+dan itu bisa menjadi hal yang utama
+di dalam realm Kerberos
 
 311
 00:14:05,170 --> 00:14:06,850
-So it would literally
-be the thing
+Jadi, ini benar benar akan
+menjadi sesuatu
 
 312
 00:14:06,850 --> 00:14:12,000
-that sits in this left
-column of the KDC's table.
+yang duduk di kolom
+sebelah kiri dari tabel KDC
 
 313
 00:14:12,000 --> 00:14:16,007
-And there's also
-some extra instances
+dan di situ juga ada
+beberapa hal tambahan 
 
 314
 00:14:16,007 --> 00:14:17,090
-that the protocl supports.
+yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200
