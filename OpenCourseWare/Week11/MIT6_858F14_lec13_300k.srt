@@ -1374,8 +1374,8 @@ mendalami mekanisme bagaimana
 
 288
 00:13:06,360 --> 00:13:08,900
-sebenarnya protokol-protokol ini
-terlihat pada kabel,
+sebenarnya protokol-protokol
+ini bekerja,
 
 289
 00:13:08,900 --> 00:13:13,060
@@ -1388,40 +1388,40 @@ setuju?
 
 291
 00:13:13,560 --> 00:13:16,100
-Jadi di beberapa tingkat, kamu
-dapat menganggap kerberos
+Jadi di beberapa tingkat, Anda
+dapat menganggap Kerberos
 
 292
 00:13:16,100 --> 00:13:18,530
-sebagai registri nama, benar?
+sebagai daftar nama, benar?
 
 293
 00:13:18,530 --> 00:13:20,680
 Jadi ini sesungguhnya
-bertanggung jawab untuk pemetaan
+bertanggung jawab untuk memetakan
 
 294
 00:13:20,680 --> 00:13:24,090
 kunci kriptografi ini
-ke nama string.
+ke nama-nama dalam bentuk string.
 
 295
 00:13:24,090 --> 00:13:27,459
-dan ini adalah 
+Dan ini adalah
 semacam operasi dasar
 
 296
 00:13:27,459 --> 00:13:28,750
-yang kerberos harus sediakan.
+yang harus disediakan Kerberos.
 
 297
 00:13:28,750 --> 00:13:31,467
-Faktanya, Anda akan melihatnya di 
-kuliah berikut bahkan di web,
+Bahkan, di kuliah berikutnya
+Anda akan melihat bahwa bahkan di web,
 
 298
 00:13:31,467 --> 00:13:32,800
-kami membutuhkan beberapa fungsi seperti ini.
+kita membutuhkan beberapa fungsi seperti ini.
 
 299
 00:13:32,800 --> 00:13:34,550
@@ -1445,27 +1445,27 @@ untuk keamanan.
 303
 00:13:40,510 --> 00:13:45,080
 jadi mari kita lihat bagaimana kerberos
-sebenarnya berhubungan dengan nama.
+sebenarnya mengelola nama-nama.
 
 304
 00:13:45,080 --> 00:13:49,440
 Jadi di Kerberos,
-hal semacam sistem
+sistem
 
 305
 00:13:49,440 --> 00:13:53,560
 memanggil setiap entitas di dalam
-database utama ini
+prinsipiel basis data ini
 
 306
 00:13:53,560 --> 00:13:56,920
-dan yang utama di kerberos 
-sebenarnya hanya sebuah deret , bukan?
+dan prinsipiel di Kerberos 
+sebenarnya hanya sebuah string, benar?
 
 307
 00:13:56,920 --> 00:13:59,780
-Jadi, Anda sebenarnya bisa memilikinya
-terpenting seperti, Saya tidak tahu,
+Jadi, Anda sebenarnya bisa memiliki
+prinsipiel, seperti,
 
 308
 00:13:59,780 --> 00:14:00,885
@@ -1473,12 +1473,12 @@ nickolei.
 
 309
 00:14:00,885 --> 00:14:01,720
-Jadi, ini adalah sebuah String.
+Jadi, ini adalah sebuah string.
 
 310
 00:14:01,720 --> 00:14:05,170
 dan itu bisa menjadi hal yang utama
-di dalam dunia Kerberos
+di dalam realm Kerberos
 
 311
 00:14:05,170 --> 00:14:06,850
@@ -1492,12 +1492,12 @@ sebelah kiri dari tabel KDC
 
 313
 00:14:12,000 --> 00:14:16,007
-dan disitu juga ada
-beberapa contoh tambahan 
+dan di situ juga ada
+beberapa hal tambahan 
 
 314
 00:14:16,007 --> 00:14:17,090
-yang di support oleh protokol
+yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200
