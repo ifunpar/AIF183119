@@ -2684,7 +2684,7 @@ yang konkret dari hal ini adalah,
 572
 00:30:53,630 --> 00:30:59,770
 mari katakan x
-prime adalah x tambah 1.
+aksen adalah x tambah 1.
 
 573
 00:30:59,770 --> 00:31:02,630
@@ -2698,13 +2698,13 @@ Anda hanya diberikan h dari x.
 
 575
 00:31:09,930 --> 00:31:12,680
-Ini sesungghunya belum membahas
+Ini sesungghunya belum mengimplikasikan
 apapun mengenai ke-satu-arah-an.
 
 576
 00:31:12,680 --> 00:31:14,670
 Tapi Anda dapat
-mengasumsi, sebagai contoh,
+mengasumsikan, contohnya,
 
 577
 00:31:14,670 --> 00:31:18,510
@@ -2714,7 +2714,7 @@ fungsi hash yang satu arah,
 578
 00:31:18,510 --> 00:31:23,581
 akan memungkinkan untuk
-mendapatkan x dari h dari x, benar?
+mendapatkan x dari h(x), benar?
 
 579
 00:31:26,300 --> 00:31:28,070
@@ -2730,7 +2730,7 @@ Kita akan kembali ke hal tersebut.
 
 582
 00:31:31,290 --> 00:31:36,710
-Jadi jika saya diberikan hash
+Jadi jika saya hanya diberikan hash
 melalui sebuah perhitungan.
 
 583
@@ -2740,7 +2740,7 @@ untuk menciptakan hash lain, h
 
 584
 00:31:40,300 --> 00:31:45,330
-dari x prima, sehingga
+dari x aksen, sehingga
 ada suatu hubungan
 
 585
@@ -2751,7 +2751,7 @@ antara string-string yang
 586
 00:31:51,010 --> 00:31:54,390
 menciptakan hash-hash tersebut,
-yaitu x dan x prima, OK?
+yaitu x dan x aksen, OK?
 
 587
 00:31:54,390 --> 00:31:57,330
@@ -2760,13 +2760,13 @@ yang dimaksud malleability, benar?
 
 588
 00:31:57,330 --> 00:32:03,440
-Sekarang Anda mungkin akan pergi dan
-mengatakan ini adalah sebuah x, ini adalah sebuah y,
+Sekarang Anda mungkin akan lompat pada kesimpulan dan
+mengatakan ini adalah x, ini adalah y,
 
 589
 00:32:03,440 --> 00:32:07,700
-ini adalah h dari x,
-dan ini adalah h dari y.
+ini adalah h(x),
+dan ini adalah h(y).
 
 590
 00:32:07,700 --> 00:32:09,620
@@ -2774,7 +2774,7 @@ Hal-hal ini terlihat seperti sepenuhnya acak.
 
 591
 00:32:09,620 --> 00:32:12,890
-Dan Anda mungkin akan pergi-- saya
+Dan Anda mungkin akan lompat pada kesimpulan-- saya
 sedang bercanda disini-- saya
 
 592
@@ -2837,7 +2837,7 @@ non-malleability-- seperti
 
 604
 00:32:50,710 --> 00:32:55,000
-di mana Anda mengikuti 
+di mana Anda mempunyai
 pelelangan, contohnya, di mana
 
 605
@@ -2852,12 +2852,12 @@ menunjukkan tawaran Anda.
 607
 00:33:01,320 --> 00:33:04,700
 Jadi apa yang mungkin Anda
-lakukan adalah menunjukkan h dari x.
+lakukan adalah menunjukkan h(x).
 
 608
 00:33:04,700 --> 00:33:08,960
 Anda tidak ingin seseorang
-melihat h dari x Anda
+melihat h(x) Anda
 
 609
 00:33:08,960 --> 00:33:10,420
@@ -2866,7 +2866,7 @@ mereka bisa mengalahkan
 
 610
 00:33:10,420 --> 00:33:13,540
-tawaran Anda hanya dengan sedikit.
+tawaran Anda hanya dengan melebihkan sedikit saja.
 
 611
 00:33:13,540 --> 00:33:17,140
@@ -2901,12 +2901,12 @@ yang berhubungan
 617
 00:33:32,300 --> 00:33:35,510
 dengan suatu urutan tertentu,
-seperti x sama dengan-- x prima
+seperti x sama dengan-- x aksen
 
 618
 00:33:35,510 --> 00:33:38,950
 sama dengan x plus 1, atau hanya
-x prima sama dengan 2 kali x.
+x aksen sama dengan 2 kali x.
 
 619
 00:33:38,950 --> 00:33:43,040
@@ -2935,7 +2935,7 @@ tentang properti-properti?
 624
 00:33:55,580 --> 00:33:57,620
 Apakah semua jelas tentang
-these properties?
+properti-properti ini?
 
 625
 00:33:57,620 --> 00:33:59,840
