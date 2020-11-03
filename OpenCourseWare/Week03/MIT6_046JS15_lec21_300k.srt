@@ -2673,269 +2673,269 @@ x dan x aksen adalah-- ini menjadi
 
 570
 00:30:42,010 --> 00:30:50,150
-a little bit fuzzy here-- are
-related in some fashion, right?
+sedikit kabur disini-- 
+berhubungan dalam beberapa segi, benar?
 
 571
 00:30:50,150 --> 00:30:53,630
-So a concrete
-example of this is,
+Jadi sebuah contoh
+yang konkret dari hal ini adalah,
 
 572
 00:30:53,630 --> 00:30:59,770
-let's say that x
-prime is x plus 1.
+mari katakan x
+aksen adalah x tambah 1.
 
 573
 00:30:59,770 --> 00:31:02,630
-So this is a reasonable
-example of this.
+Jadi ini adalah sebuah contoh
+yang masuk akal dari hal ini.
 
 574
 00:31:02,630 --> 00:31:09,930
-So what this says is
-you're just given h of x.
+Jadi apa yang dimaksud dengan hal ini adalah
+Anda hanya diberikan h dari x.
 
 575
 00:31:09,930 --> 00:31:12,680
-It doesn't actually say
-anything about one-wayness yet.
+Ini sesungghunya belum mengimplikasikan
+apapun mengenai ke-satu-arah-an.
 
 576
 00:31:12,680 --> 00:31:14,670
-But you could
-assume, for example,
+Tapi Anda dapat
+mengasumsikan, contohnya,
 
 577
 00:31:14,670 --> 00:31:18,510
-that if this was a
-one-way hash function,
+bahwa jika ini adalah sebuah
+fungsi hash yang satu arah,
 
 578
 00:31:18,510 --> 00:31:23,581
-that it would be possible to
-get x from h of x, correct?
+akan memungkinkan untuk
+mendapatkan x dari h(x), benar?
 
 579
 00:31:26,300 --> 00:31:28,070
-And let's keep that though.
+Dan mari kita simpan hal itu.
 
 580
 00:31:28,070 --> 00:31:29,470
-Hold that thought, all right?
+Simpan pemikiran itu, baik?
 
 581
 00:31:29,470 --> 00:31:31,290
-We're going to get back to it.
+Kita akan kembali ke hal tersebut.
 
 582
 00:31:31,290 --> 00:31:36,710
-So if I'm just given the hash
-through some computation,
+Jadi jika saya hanya diberikan hash
+melalui sebuah perhitungan.
 
 583
 00:31:36,710 --> 00:31:40,300
-it may be possible for me
-to create another hash, h
+akan memungkinkan bagi saya
+untuk menciptakan hash lain, h
 
 584
 00:31:40,300 --> 00:31:45,330
-of x prime, such that
-there's some relationship
+dari x aksen, sehingga
+ada suatu hubungan
 
 585
 00:31:45,330 --> 00:31:51,010
-that I can prove or argue
-for between the strings that
+yang dapat saya buktikan atau berikan argumen
+antara string-string yang
 
 586
 00:31:51,010 --> 00:31:54,390
-created the hashes,
-namely x and x prime, OK?
+menciptakan hash-hash tersebut,
+yaitu x dan x aksen, OK?
 
 587
 00:31:54,390 --> 00:31:57,330
-That's what
-malleability is, right?
+Itulah apa
+yang dimaksud malleability, benar?
 
 588
 00:31:57,330 --> 00:32:03,440
-Now you might just go off and
-say here's an x, here's a y,
+Sekarang Anda mungkin akan lompat pada kesimpulan dan
+mengatakan ini adalah x, ini adalah y,
 
 589
 00:32:03,440 --> 00:32:07,700
-here's h of x,
-and here's h of y.
+ini adalah h(x),
+dan ini adalah h(y).
 
 590
 00:32:07,700 --> 00:32:09,620
-These look completely random.
+Hal-hal ini terlihat seperti sepenuhnya acak.
 
 591
 00:32:09,620 --> 00:32:12,890
-And you might go off-- I'm
-being facetious here-- I
+Dan Anda mungkin akan lompat pada kesimpulan-- saya
+sedang bercanda disini-- saya
 
 592
 00:32:12,890 --> 00:32:17,767
-say that y is x's third cousin's
-roommate's brother-in-law
+mengatakan bahwa y adalah saudara ipar dari
+teman sekamar dari sepupu ketiga dari x.
 
 593
 00:32:17,767 --> 00:32:18,600
-or something, right?
+atau sesuatu, benar?
 
 594
 00:32:18,600 --> 00:32:20,600
-I mean just make
-something up, right?
+Maksud saya karang
+saja sesuatu, benar?
 
 595
 00:32:20,600 --> 00:32:26,470
-So clearly there's got to be
-a strong, precise relationship
+Jadi jelas harus ada
+sebuah hubungan kuat dan tepat
 
 596
 00:32:26,470 --> 00:32:27,780
-between x and y.
+antara x dan y.
 
 597
 00:32:27,780 --> 00:32:32,180
-If in fact you could
-do this and get y
+Jika faktanya Anda dapat
+melakukan ini dan mendapatkan y
 
 598
 00:32:32,180 --> 00:32:36,160
-equals x plus 1, that'd
-be a problem, right?
+sama dengan x tambah 1, itu
+akan menjadi masalah, benar?
 
 599
 00:32:36,160 --> 00:32:38,840
-But if you are--
-and then you can
+Tapi jika Anda--
+lalu Anda dapat
 
 600
 00:32:38,840 --> 00:32:42,280
-do this sort of consistently
-for different x's and y's, that
+melakukan hal ini secara agak konsisten
+untuk nilai-nilai x dan y yang berbeda, itu
 
 601
 00:32:42,280 --> 00:32:44,980
-would absolutely be
-a problem, right?
+pasti akan menjadi
+sebuah masalah, benar?
 
 602
 00:32:44,980 --> 00:32:48,440
-But what you're really
-asking for-- and typically
+Tapi hal yang sesungguhnya Anda
+minta-- dan khususnya
 
 603
 00:32:48,440 --> 00:32:50,710
-when you want
-non-malleability-- it's
+ketika Anda menginginkan
+non-malleability-- seperti
 
 604
 00:32:50,710 --> 00:32:55,000
-things where you have
-auctions, for example, where
+di mana Anda mempunyai
+pelelangan, contohnya, di mana
 
 605
 00:32:55,000 --> 00:32:58,350
-you are to be careful about
-making sure that you don't want
+Anda berhati-hati dalam
+memastikan bahwa Anda tidak ingin
 
 606
 00:32:58,350 --> 00:33:01,320
-to expose your bid.
+menunjukkan tawaran Anda.
 
 607
 00:33:01,320 --> 00:33:04,700
-And so maybe what you're
-doing is exposing h of x.
+Jadi apa yang mungkin Anda
+lakukan adalah menunjukkan h(x).
 
 608
 00:33:04,700 --> 00:33:08,960
-You don't want somebody
-to look at your h of x
+Anda tidak ingin seseorang
+melihat h(x) Anda
 
 609
 00:33:08,960 --> 00:33:10,420
-and figure out how
-they could beat
+dan mengetahui bagaimana
+mereka bisa mengalahkan
 
 610
 00:33:10,420 --> 00:33:13,540
-your bid by just a little bit.
+tawaran Anda hanya dengan melebihkan sedikit saja.
 
 611
 00:33:13,540 --> 00:33:17,140
-Or in case of Vickrey auctions,
-where the second highest bidder
+Atau pada kasus pelelangan Vickrey,
+di mana penawar tertinggi kedua
 
 612
 00:33:17,140 --> 00:33:20,031
-wins, now just be a little
-bit below you, right?
+menang, sekarang hanya sedikit
+di bawah Anda, benar?
 
 613
 00:33:20,031 --> 00:33:21,530
-So that's the kind
-of thing that you
+Jadi hal itu adalah jenis
+hal yang Anda
 
 614
 00:33:21,530 --> 00:33:25,110
-want to think about when it
-comes to non-malleability,
+ingin pikirkan ketika
+berhubungan dengan non-malleability,
 
 615
 00:33:25,110 --> 00:33:28,880
-or malleability, where you
-want a strong relationship
+atau malleability, di mana Anda
+menginginkan sebuah hubungan yang kuat
 
 616
 00:33:28,880 --> 00:33:32,300
-between two strings
-that are related
+antara dua string
+yang berhubungan
 
 617
 00:33:32,300 --> 00:33:35,510
-in some ordered fashion,
-like x equals-- x prime
+dengan suatu urutan tertentu,
+seperti x sama dengan-- x aksen
 
 618
 00:33:35,510 --> 00:33:38,950
-equals x plus 1, or just
-x prime equals 2 times x.
+sama dengan x plus 1, atau hanya
+x aksen sama dengan 2 kali x.
 
 619
 00:33:38,950 --> 00:33:43,040
-And you don't want
-to be able to-- you
+Dan Anda tidak mau
+agar bisa-- Anda
 
 620
 00:33:43,040 --> 00:33:45,350
-don't want the adversary
-to be able to discover
+tidak menginginkan musuh
+untuk dapat menemukan
 
 621
 00:33:45,350 --> 00:33:47,670
-these new strings.
+string-string baru ini.
 
 622
 00:33:47,670 --> 00:33:51,440
-Because that would be
-the system, all right?
+Karena itu akan menjadi
+sistemnya, OK?
 
 623
 00:33:51,440 --> 00:33:55,580
-So any questions
-about properties?
+Jadi ada pertanyaan
+tentang properti-properti?
 
 624
 00:33:55,580 --> 00:33:57,620
-Are we all good on
-these properties?
+Apakah semua jelas tentang
+properti-properti ini?
 
 625
 00:33:57,620 --> 00:33:59,840
