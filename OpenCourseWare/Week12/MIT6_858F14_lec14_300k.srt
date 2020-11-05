@@ -1823,275 +1823,275 @@ nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
-the certificate
-authority is going
+otoritas sertifikat
+itu hanya akan
 
 386
 00:17:44,800 --> 00:17:51,020
-to just sign messages stating
-that certain rows exist
+menandai pesan-pesan menyatakan
+bahwa baris-baris tertentu ada
 
 387
 00:17:51,020 --> 00:17:52,940
-in this table.
+di dalam tabel ini.
 
 388
 00:17:52,940 --> 00:17:54,540
-So the certificate
-authority is going
+Jadi otoritas
+sertifikat itu akan
 
 389
 00:17:54,540 --> 00:17:59,540
-to have its own sort of
-secret and public key here.
+memiliki semacam kunci rahasia
+dan kunci publik sendiri di sini.
 
 390
 00:18:01,700 --> 00:18:03,520
-And it's going to
-use the secret key
+Dan dia akan
+menggunakan kunci rahasia
 
 391
 00:18:03,520 --> 00:18:09,080
-to find messages for other
-users in the system to rely on.
+untuk menemukan pesan-pesan untuk
+pengguna lain dalam sistem tersebut untuk diandalkan.
 
 392
 00:18:09,080 --> 00:18:11,870
-So if you have a
-particular entry like this,
+Jadi jika Anda memiliki sebuah
+entri tertentu seperti ini,
 
 393
 00:18:11,870 --> 00:18:15,410
-in this CA's
-database, then the CA
+dalam basis data milik CA (otoritas
+sertifikat) ini, maka CA tersebut
 
 394
 00:18:15,410 --> 00:18:19,510
-is going to find a
-message saying this name
+akan menemukan sebuah
+pesan yang menyebutkan nama ini
 
 395
 00:18:19,510 --> 00:18:22,750
-corresponds to this public key.
+yang berkaitan dengan kunci publik ini.
 
 396
 00:18:22,750 --> 00:18:26,040
-And it's going to sign
-this whole message
+Dan dia akan menandai
+seluruh pesan ini
 
 397
 00:18:26,040 --> 00:18:31,225
-with CA's secret key.
+dengan kunci rahasia CA.
 
 398
 00:18:31,225 --> 00:18:31,725
-Make sense?
+Masuk akal?
 
 399
 00:18:34,430 --> 00:18:37,790
-So this is going to allow us to
-do very similar things to what
+Jadi ini akan memungkinkan kita 
+melakukan hal yang sangat mirip dengan apa
 
 400
 00:18:37,790 --> 00:18:40,020
-Kerberos was doing,
-but we are now
+yang Kerberos lakukan,
+tapi kita sekarang
 
 401
 00:18:40,020 --> 00:18:42,830
-going to get rid of
-the CA having to be
+akan menyingkirkan 
+fakta bahwa CA harus
 
 402
 00:18:42,830 --> 00:18:45,192
-online for all transactions.
+daring untuk semua transaksi.
 
 403
 00:18:45,192 --> 00:18:47,400
-And in fact, it's now going
-to be much more scalable.
+Dan faktanya, sekarang akan 
+jauh lebih skalabel.
 
 404
 00:18:47,400 --> 00:18:49,358
-So this is what's usually
-called a certificate.
+Jadi inilah yang biasanya
+disebut sebagai sebuah sertifikat.
 
 405
 00:18:51,690 --> 00:18:54,080
-And the reason this is going
-to be much more scalable
+Dan alasan mengapa ini akan 
+jauh lebih skalabel
 
 406
 00:18:54,080 --> 00:19:00,027
-is that, in fact, to a client,
-or anyone using this system,
+adalah, untuk klien, 
+atau siapa pun yang menggunakan sistem ini,
 
 407
 00:19:00,027 --> 00:19:01,610
-a certificate provided
-from one source
+sebuah sertifikat yang diberikan 
+dari satu sumber
 
 408
 00:19:01,610 --> 00:19:04,240
-is as good as a certificate
-provided from any other source.
+sama bagusnya dengan sertifikat
+yang diberikan oleh sumber lain.
 
 409
 00:19:04,240 --> 00:19:06,120
-It's signed by
-the CA secret key.
+Sertifikat itu telah ditandatangani
+dengan kunci rahasia CA.
 
 410
 00:19:06,120 --> 00:19:08,700
-So you can verify its
-validity without having
+Jadi Anda dapat memeriksa
+keabsahannya tanpa harus
 
 411
 00:19:08,700 --> 00:19:10,830
-to actually contact
-the certificate
+menghubungi
+otoritas sertifikat,
 
 412
 00:19:10,830 --> 00:19:13,867
-authority, or any other
-designated party here.
+atau pihak berwenang
+lain di sini.
 
 413
 00:19:13,867 --> 00:19:15,950
-And typically, the way
-this works is that a server
+Dan biasanya, cara kerja
+dari proses ini adalah server
 
 414
 00:19:15,950 --> 00:19:19,880
-that you want to talk to
-stores the certificate that it
+yang Anda ingin hubungi
+menyimpan sertifikat yang
 
 415
 00:19:19,880 --> 00:19:21,980
-originally got from the
-certificate authority.
+sebelumnya didapatkan
+dari otoritas sertifikat.
 
 416
 00:19:21,980 --> 00:19:24,339
-And whenever you connect
-to it, the server
+Dan kapanpun Anda ingin terhubung
+dengan server, server
 
 417
 00:19:24,339 --> 00:19:26,130
-will tell you, well,
-here's my certificate.
+akan memberi tahu Anda, baik,
+ini sertifikat saya.
 
 418
 00:19:26,130 --> 00:19:27,350
-It was signed by this CA.
+Itu telah ditandatangani oleh CA ini.
 
 419
 00:19:27,350 --> 00:19:29,520
-You can check the
-signature and just verify
+Anda dapat memeriksa
+tanda tangan dan cukup memverifikasi
 
 420
 00:19:29,520 --> 00:19:33,020
-that this is, in fact, my
-public key and that's my name.
+bahwa ini sebenarnya adalah
+kunci publik saya dan itu adalah nama saya.
 
 421
 00:19:33,020 --> 00:19:34,700
-And on the flip
-side, the same thing
+Dan pada sisi
+sebaliknya, hal yang sama
 
 422
 00:19:34,700 --> 00:19:36,060
-happens on client certificates.
+terjadi pada sertifikat klien.
 
 423
 00:19:36,060 --> 00:19:39,790
-So when you the user connect to
-a web server, what's actually
+Jadi saat Anda sebagai pengguna terhubung
+pada server web, yang sebenarnya 
 
 424
 00:19:39,790 --> 00:19:42,590
-going on is that your
-client certificate actually
+terjadi adalah 
+sertifikat klien Anda sebenarnya
 
 425
 00:19:42,590 --> 00:19:45,780
-talks about the public key
-corresponding to the secret key
+berkomunikasi tentang kunci publik
+yang sesuai dengan kunci rahasia
 
 426
 00:19:45,780 --> 00:19:48,221
-that you originally
-generated in your browser.
+yang awalnya Anda
+bangkitkan pada peramban Anda.
 
 427
 00:19:48,221 --> 00:19:49,970
-And this way when you
-connect to a server,
+Dan dengan cara ini saat Anda
+terhubung ke server,
 
 428
 00:19:49,970 --> 00:19:52,350
-you're going to present
-a certificate signed
+Anda akan mempresentasikan
+sebuah sertifikat ditandatangani
 
 429
 00:19:52,350 --> 00:19:55,780
-by MIT's certificate authority
-saying your user name
+oleh otoritas sertifikasi MIT
+yang menyatakan bahwa nama pengguna Anda
 
 430
 00:19:55,780 --> 00:19:57,680
-corresponds to this public key.
+sesuai dengan dengan kunci publik ini.
 
 431
 00:19:57,680 --> 00:20:00,430
-And this is how the server
-is going to be convinced
+Dan inilah bagaimana cara server
+dapat diyakinkan
 
 432
 00:20:00,430 --> 00:20:03,430
-that a message signed
-with your secret key
+bahwa sebuah pesan yang ditandatangani
+menggunakan kunci rahasia milik Anda
 
 433
 00:20:03,430 --> 00:20:09,695
-is proof that this is the right
-Athena user connecting to me.
+merupakan bukti bahwa ini pengguna Athena
+yang tepat yang terhubung dengan saya.
 
 434
 00:20:09,695 --> 00:20:10,570
-Does that make sense?
+Apakah itu masuk akal?
 
 435
 00:20:10,570 --> 00:20:11,206
-Yeah.
+Yah.
 
 436
 00:20:11,206 --> 00:20:12,956
-AUDIENCE: Where does
-the [? project ?] get
+AUDIENS: Dari mana 
+[? proyek ?] mendapatkan
 
 437
 00:20:12,956 --> 00:20:15,470
-the certificate [INAUDIBLE]?
+sertifikat [TIDAK TERDENGAR]
 
 438
 00:20:15,470 --> 00:20:16,819
-PROFESSOR: Ah, yes.
+PROFESSOR: Ah, betul.
 
 439
 00:20:16,819 --> 00:20:18,360
-Like the chicken
-and the egg problem.
+Seperti masalah ayam
+dan telur.
 
 440
 00:20:18,360 --> 00:20:19,330
-It keeps going down.
+Itu terus berlanjut.
 
 441
 00:20:19,330 --> 00:20:20,788
-Where do you get
-these public keys?
+Dari mana Anda mendapatkan
+kunci-kunci publik ini?
 
 442
 00:20:20,788 --> 00:20:22,840
