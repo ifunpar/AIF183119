@@ -1823,47 +1823,47 @@ nama disini dan sebuah kunci publik,
 
 385
 00:17:43,210 --> 00:17:44,800
-sertifikat
-autoritas itu akan
+otoritas sertifikat
+itu hanya akan
 
 386
 00:17:44,800 --> 00:17:51,020
-hanya menandakan pesan pesan yang menyatakan
+menandai pesan-pesan menyatakan
 bahwa baris-baris tertentu ada
 
 387
 00:17:51,020 --> 00:17:52,940
-di tabel ini.
+di dalam tabel ini.
 
 388
 00:17:52,940 --> 00:17:54,540
-Jadi sertifikat
-autoritas itu akan
+Jadi otoritas
+sertifikat itu akan
 
 389
 00:17:54,540 --> 00:17:59,540
-memiliki semacam
-kunci rahasia dan publik miliknya sendiri di sini.
+memiliki semacam kunci rahasia
+dan kunci publik sendiri di sini.
 
 390
 00:18:01,700 --> 00:18:03,520
 Dan dia akan
-menggunakan kunci rahasia 
+menggunakan kunci rahasia
 
 391
 00:18:03,520 --> 00:18:09,080
-untuk  menemukan pesan-pesan untuk
+untuk menemukan pesan-pesan untuk
 pengguna lain dalam sistem tersebut untuk diandalkan.
 
 392
 00:18:09,080 --> 00:18:11,870
-Jadi jika anda memiliki sebuah
-entri partikular seperti ini,
+Jadi jika Anda memiliki sebuah
+entri tertentu seperti ini,
 
 393
 00:18:11,870 --> 00:18:15,410
-dalam database miliki CA ini,
-maka CA tersebut
+dalam basis data milik CA (otoritas
+sertifikat) ini, maka CA tersebut
 
 394
 00:18:15,410 --> 00:18:19,510
@@ -1872,11 +1872,11 @@ pesan yang menyebutkan nama ini
 
 395
 00:18:19,510 --> 00:18:22,750
-yang berkorespondensi dengan kunci publik ini.
+yang berkaitan dengan kunci publik ini.
 
 396
 00:18:22,750 --> 00:18:26,040
-Dan itu akan menandai 
+Dan dia akan menandai
 seluruh pesan ini
 
 397
@@ -1894,67 +1894,67 @@ melakukan hal yang sangat mirip dengan apa
 
 400
 00:18:37,790 --> 00:18:40,020
-yang Kerberos sedang lakukan,
+yang Kerberos lakukan,
 tapi kita sekarang
 
 401
 00:18:40,020 --> 00:18:42,830
 akan menyingkirkan 
-CA harus
+fakta bahwa CA harus
 
 402
 00:18:42,830 --> 00:18:45,192
-online untuk semua transaksi.
+daring untuk semua transaksi.
 
 403
 00:18:45,192 --> 00:18:47,400
 Dan faktanya, sekarang akan 
-jauh lebih terukur.
+jauh lebih skalabel.
 
 404
 00:18:47,400 --> 00:18:49,358
-Jadi inilah yang biasanya 
-disebut sertifikat.
+Jadi inilah yang biasanya
+disebut sebagai sebuah sertifikat.
 
 405
 00:18:51,690 --> 00:18:54,080
-Dan alasannya ini akan 
-jauh lebih terukur
+Dan alasan mengapa ini akan 
+jauh lebih skalabel
 
 406
 00:18:54,080 --> 00:19:00,027
-sebenarnya, kepada klien, 
+adalah, untuk klien, 
 atau siapa pun yang menggunakan sistem ini,
 
 407
 00:19:00,027 --> 00:19:01,610
-sertifikat yang diberikan 
+sebuah sertifikat yang diberikan 
 dari satu sumber
 
 408
 00:19:01,610 --> 00:19:04,240
 sama bagusnya dengan sertifikat
-yang dibangkitkan/diberikan oleh sumber lain.
+yang diberikan oleh sumber lain.
 
 409
 00:19:04,240 --> 00:19:06,120
-Sertifikat itu telah disahkan/disetujui
-oleh kunci rahasia CA (Certificate Authority).
+Sertifikat itu telah ditandatangani
+dengan kunci rahasia CA.
 
 410
 00:19:06,120 --> 00:19:08,700
-Jadi Anda dapat memeriksa 
+Jadi Anda dapat memeriksa
 keabsahannya tanpa harus
 
 411
 00:19:08,700 --> 00:19:10,830
 menghubungi
-otoritas/sumber dari
+otoritas sertifikat,
 
 412
 00:19:10,830 --> 00:19:13,867
-sertifikat, atau pihak
-berwenang lain.
+atau pihak berwenang
+lain di sini.
 
 413
 00:19:13,867 --> 00:19:15,950
@@ -1968,32 +1968,32 @@ menyimpan sertifikat yang
 
 415
 00:19:19,880 --> 00:19:21,980
-pada awalnya telah ia dapat
+sebelumnya didapatkan
 dari otoritas sertifikat.
 
 416
 00:19:21,980 --> 00:19:24,339
-Dan kapan pun Anda ingin terhubung
+Dan kapanpun Anda ingin terhubung
 dengan server, server
 
 417
 00:19:24,339 --> 00:19:26,130
-akan memberi tahu Anda, baik
+akan memberi tahu Anda, baik,
 ini sertifikat saya.
 
 418
 00:19:26,130 --> 00:19:27,350
-Yang telah disahkan/disetujui oleh CA.
+Itu telah ditandatangani oleh CA ini.
 
 419
 00:19:27,350 --> 00:19:29,520
 Anda dapat memeriksa
-tanda tangan dan memverifikasi
+tanda tangan dan cukup memverifikasi
 
 420
 00:19:29,520 --> 00:19:33,020
-bahwa ini sebenernya adalah 
-kunci public saya dan itu nama saya.
+bahwa ini sebenarnya adalah
+kunci publik saya dan itu adalah nama saya.
 
 421
 00:19:33,020 --> 00:19:34,700
@@ -2007,26 +2007,26 @@ terjadi pada sertifikat klien.
 423
 00:19:36,060 --> 00:19:39,790
 Jadi saat Anda sebagai pengguna terhubung
-pada server web, yang sebenernya 
+pada server web, yang sebenarnya 
 
 424
 00:19:39,790 --> 00:19:42,590
 terjadi adalah 
-sertifikat klien Anda sebenernya
+sertifikat klien Anda sebenarnya
 
 425
 00:19:42,590 --> 00:19:45,780
-berkomunikasi mengenai kunci public
+berkomunikasi tentang kunci publik
 yang sesuai dengan kunci rahasia
 
 426
 00:19:45,780 --> 00:19:48,221
 yang awalnya Anda
-hasilkan pada browser Anda.
+bangkitkan pada peramban Anda.
 
 427
 00:19:48,221 --> 00:19:49,970
-Dan dengan ini saat Anda
+Dan dengan cara ini saat Anda
 terhubung ke server,
 
 428
@@ -2064,16 +2064,16 @@ Apakah itu masuk akal?
 
 435
 00:20:10,570 --> 00:20:11,206
-Iya.
+Yah.
 
 436
 00:20:11,206 --> 00:20:12,956
-AUDIENS: Darimana 
-mesin pencari mendapatkan
+AUDIENS: Dari mana 
+[? proyek ?] mendapatkan
 
 437
 00:20:12,956 --> 00:20:15,470
-sertifikat [TIDAK DAPAT DIARTIKAN]
+sertifikat [TIDAK TERDENGAR]
 
 438
 00:20:15,470 --> 00:20:16,819
@@ -2081,7 +2081,7 @@ PROFESSOR: Ah, betul.
 
 439
 00:20:16,819 --> 00:20:18,360
-Seperti permasalahan ayam
+Seperti masalah ayam
 dan telur.
 
 440
@@ -2090,7 +2090,7 @@ Itu terus berlanjut.
 
 441
 00:20:19,330 --> 00:20:20,788
-Darimana Anda mendapatkan
+Dari mana Anda mendapatkan
 kunci-kunci publik ini?
 
 442
