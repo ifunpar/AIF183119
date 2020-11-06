@@ -1842,12 +1842,12 @@ salah satu keuntungan besar, saya rasa,
 
 393
 00:16:03,600 --> 00:16:06,210
-itu, bahkan jika
+adalah, bahwa bahkan jika
 Alice dan Bob tidak
 
 394
 00:16:06,210 --> 00:16:09,480
-berada di lokasi yang sama,
+berada di lokasi yang sama secara fisik,
 Alice tetap bisa membayar Bob
 
 395
@@ -1861,7 +1861,7 @@ dan itu merupakan sesuatu
 
 397
 00:16:12,397 --> 00:16:15,000
-yang tidak bisa kau lakukan dengan uang fisik
+yang tidak bisa kau lakukan dengan uang kertas
 atau koin atau batangan
 
 398
@@ -1875,7 +1875,7 @@ institusi terpercaya ini
 
 400
 00:16:18,480 --> 00:16:20,670
-yang bisa kau kontak
+yang bisa Anda kontak
 secara elektronik
 
 401
@@ -1885,8 +1885,8 @@ Bob bisa berada di belahan
 
 402
 00:16:22,378 --> 00:16:24,503
-dunia yang berbeda dari satu
-sama lain dan mereka tetap bisa
+dunia yang berbeda antara satu
+dengan yang lain dan mereka tetap bisa
 
 403
 00:16:24,503 --> 00:16:25,200
@@ -1904,31 +1904,31 @@ yang ingin kita miliki.
 406
 00:16:29,940 --> 00:16:33,330
 Mengenai kerugiannya, saya rasa
-kita sudah menyebutkan beberapa dari mereka
+kita sudah menyebutkan beberapa dari mereka,
 
 407
 00:16:33,330 --> 00:16:37,020
-yang mana kita benar-benar
-menyimpan jenis bank ini
+di mana kita benar-benar
+memposisikan bank ini
 
 408
 00:16:37,020 --> 00:16:38,760
-di tengah setiap hal yang ada
-disini.
+di tengah-tengah setiap hal
+yang ada di sini.
 
 409
 00:16:38,760 --> 00:16:42,600
 Dan ada juga beberapa hal yang dapat
-menyebabkan masalah bagi kita
+menyebabkan masalah bagi kita.
 
 410
 00:16:42,600 --> 00:16:46,142
-Jadi, bank harus dalam kondisi online
+Jadi, bank harus dalam kondisi daring
 dalam setiap transaksi.
 
 411
 00:16:46,142 --> 00:16:47,850
-Jika bank tersebut offline, lalu
+Jika bank tersebut luring, lalu
 bagaimana caranya Bob
 
 412
@@ -1939,12 +1939,12 @@ dibayar atau belum?
 413
 00:16:50,250 --> 00:16:52,710
 Bank dapat mengalami kegagalan
-dalam beberapa poin waktu,
+pada satu waktu,
 
 414
 00:16:52,710 --> 00:16:54,060
-dimana kondisi itu semacam
-berhubungan dengan hal itu.
+di mana kondisi tersebut
+berhubungan dengan hal tadi.
 
 415
 00:16:54,060 --> 00:16:56,610
@@ -1962,8 +1962,8 @@ Dan kemudian privasi.
 
 418
 00:17:00,180 --> 00:17:03,000
-Bank memiliki pemahaman
-yang baik terhadap semua orang
+Bank memiliki pengetahuan
+terhadap orang-orang
 
 419
 00:17:03,000 --> 00:17:03,970
@@ -1985,13 +1985,13 @@ berbicara tentang privasi.
 
 423
 00:17:10,410 --> 00:17:13,119
-Banyak di kelas ini, selama
-babak kedua kelas ini.
+cukup banyak di kelas ini, selama
+paruh kedua kelas ini.
 
 424
 00:17:13,119 --> 00:17:16,050
-Jadi sekadar contoh, beberapa
-dari contoh visual itu.
+Jadi sekedar contoh, beberapa
+dari contoh visual tentang hal tadi.
 
 425
 00:17:16,050 --> 00:17:17,880
@@ -2014,23 +2014,23 @@ bisa hilang begitu saja.
 
 429
 00:17:23,579 --> 00:17:25,079
-Mungkin itu kertas
-dan terbakar.
+Mungkin berwujud kertas
+dan terbakar,
 
 430
 00:17:25,079 --> 00:17:29,598
-atau mungkin itu bit di komputer
+atau mungkin itu sekumpulan bit di komputer
 dan tidak direplikasi.
 
 431
 00:17:29,598 --> 00:17:31,140
 Bank bisa memutuskan
-bahwa mereka tidak melakukannya
+bahwa mereka tidak menyukai
 
 432
 00:17:31,140 --> 00:17:33,090
-seperti Alice untuk beberapa
-alasan, dan mereka
+seperti Alice untuk alasan
+tertentu, dan mereka
 
 433
 00:17:33,090 --> 00:17:35,880
@@ -2039,7 +2039,7 @@ transaksi Alice.
 
 434
 00:17:35,880 --> 00:17:39,940
-ini terjadi sepanjang
+Ini terjadi sepanjang
 waktu di dunia nyata.
 
 435
@@ -2054,8 +2054,8 @@ sedikit berbeda.
 
 437
 00:17:46,320 --> 00:17:47,737
-Dan kita pergi
-untuk meningkatkan
+Dan kita akan
+meningkatkan
 
 438
 00:17:47,737 --> 00:17:53,245
@@ -2064,18 +2064,18 @@ tepat sebelum bitcoin,
 
 439
 00:17:53,245 --> 00:17:54,870
-dan kami akan melakukannya
+dan kita akan melakukannya
 itu secara berulang.
 
 440
 00:17:54,870 --> 00:17:57,810
-Jadi mari kita bicara tentang e-cash
-dan cara kerja e-cash.
+Jadi mari kita bicara tentang uang elektronik
+dan cara kerja uang elektronik.
 
 441
 00:17:57,810 --> 00:18:01,980
-Jadi begitulah
-Pekerjaan e-cash adalah Alice
+Jadi cara uang elektronik
+bekerja adalah Alice
 
 442
 00:18:01,980 --> 00:18:03,450
@@ -2085,12 +2085,12 @@ alih-alih mengatakan,
 443
 00:18:03,450 --> 00:18:05,040
 hei, bank, lakukan
-transfer ini untukku,
+transfer ini untuk saya,
 
 444
 00:18:05,040 --> 00:18:08,370
-Alice berkata, hei, aku akan
-suka representasi digital
+Alice berkata, hei, saya
+menginginkan representasi digital
 
 445
 00:18:08,370 --> 00:18:09,540
@@ -2098,13 +2098,13 @@ dari sebuah koin.
 
 446
 00:18:09,540 --> 00:18:12,607
-Bisakah kamu memberikan saya
+Bisakah Anda memberikan saya
 sesuatu yang digital
 
 447
 00:18:12,607 --> 00:18:14,940
 jadi saya tidak harus berada di
-tempat fisik yang sama denganmu,
+tempat fisik yang sama dengan Anda,
 
 448
 00:18:14,940 --> 00:18:19,920
