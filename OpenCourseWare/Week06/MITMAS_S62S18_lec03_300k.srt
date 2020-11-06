@@ -1500,7 +1500,7 @@ Saya telah berkomitmen ke kunci publik saya.
 
 327
 00:15:14,160 --> 00:15:19,990
-Namun, ketika saya menandatangan, saya perlu
+Namun, ketika saya menandatangani, saya perlu
 menyediakan seluruh kunci publik
 
 328
@@ -1566,8 +1566,8 @@ melakukan tanda tangan,
 
 341
 00:15:59,320 --> 00:16:01,960
-Saya memiliki lebih banyak ruang atau waktu
-atau sesuatu seperti itu,
+saya memiliki lebih banyak ruang
+atau waktu atau semacamnya.
 
 342
 00:16:01,960 --> 00:16:03,250
@@ -1580,26 +1580,26 @@ teknik ini digunakan
 
 344
 00:16:05,020 --> 00:16:09,400
-dalam Bitcoin dan semua mata uang
-kripto yang berbeda
+dalam Bitcoin dan bermacam-macam
+mata uang kripto
 
 345
 00:16:09,400 --> 00:16:12,220
 di mana Anda dapat menyebut ini
-sebagai
+sebagai hash kunci publik--
 
 346
 00:16:17,660 --> 00:16:21,300
-kunci publik hash, atau mereka mengatakan PKH.
+hash kunci publik, atau mereka mengatakan PKH.
 
 347
 00:16:21,300 --> 00:16:23,562
 Dan keuntungan utamanya
-adalah ukuran, bukan?
+adalah ukuran, benar?
 
 348
 00:16:23,562 --> 00:16:25,770
-Anda dapat mengatakan, jika saya
+Anda dapat mengatakan, yah, jika saya
 memiliki kunci publik yang sangat besar
 
 349
@@ -1614,7 +1614,7 @@ ingin menandatangani,
 
 351
 00:16:31,230 --> 00:16:33,780
-Saya mengungkapkan kunci publik yang sebenarnya.
+saya mengungkapkan kunci publik yang sebenarnya.
 
 352
 00:16:33,780 --> 00:16:35,020
@@ -1631,13 +1631,13 @@ cukup keren, bukan?
 
 355
 00:16:38,370 --> 00:16:42,840
-Kami sekarang telah mengambil sistem kami,
-yang memiliki cukup besar--
+Kita sekarang telah mengubah sistem kita,
+yang memiliki kunci privat cukup besar--
 
 356
 00:16:42,840 --> 00:16:45,660
-16 kilobyte-- kunci
-privat, mengubahnya
+16 kilobyte--,
+mengubahnya
 
 357
 00:16:45,660 --> 00:16:47,010
@@ -1658,7 +1658,7 @@ Hebat.
 
 361
 00:16:52,050 --> 00:16:55,680
-Kami telah mengambil sistem dengan
+Kita telah mengambil sistem dengan
 besar, berpotensi besar--
 
 362
@@ -1705,7 +1705,7 @@ publik lengkap dalam tanda tangan.
 371
 00:17:14,490 --> 00:17:17,940
 Dan katakanlah kita memiliki
-salah satu dari hal-hal ini
+salah satu dari hal-hal ini,
 
 372
 00:17:17,940 --> 00:17:20,190
@@ -1725,11 +1725,11 @@ kunci publik berukuran 64 kilobyte.
 375
 00:17:25,890 --> 00:17:28,410
 Saya dapat berkomitmen untuk
-semuanya dengan melakukan hashing.
+semuanya dengan melakukan hash.
 
 376
 00:17:28,410 --> 00:17:32,460
-Namun, kemudian, ketika saya mengungkapkan dan
+Namun, kemudian, ketika saya mengungkapkannya dan
 ingin memberi Anda tanda tangan,
 
 377
@@ -1757,17 +1757,17 @@ kunci, tapi saya hanya
 
 382
 00:17:48,570 --> 00:17:50,700
-mendorong
-masalah di tempat lain--
+memindahkan masalahnya
+ke tempat lain--
 
 383
 00:17:50,700 --> 00:17:52,680
-ke dalam tanda tangan, bukan?
+di dalam tanda tangan, bukan?
 
 384
 00:17:52,680 --> 00:17:55,920
 Ada cara yang lebih baik
-untuk menggunakan banyak kunci publik.
+untuk berkomitmen ke banyak kunci publik.
 
 385
 00:17:55,920 --> 00:17:59,820
@@ -1846,7 +1846,7 @@ sedikit lebih rumit.
 401
 00:18:36,790 --> 00:18:40,860
 Dan desain itu
-is a binary tree.
+adalah pohon biner.
 
 402
 00:18:40,860 --> 00:18:41,690
