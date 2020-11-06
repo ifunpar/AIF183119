@@ -1842,267 +1842,269 @@ salah satu keuntungan besar, saya rasa,
 
 393
 00:16:03,600 --> 00:16:06,210
-is, that even if
-Alice and Bob are not
+adalah, bahwa bahkan jika
+Alice dan Bob tidak
 
 394
 00:16:06,210 --> 00:16:09,480
-in the same physical location,
-Alice can still pay Bob
+berada di lokasi yang sama secara fisik,
+Alice tetap bisa membayar Bob
 
 395
 00:16:09,480 --> 00:16:10,688
-if they can talk to the bank.
+jika mereka bisa bicara dengan bank.
 
 396
 00:16:10,688 --> 00:16:12,397
-So it's pretty cool,
-and that's something
+Jadi itu lumayan keren,
+dan itu merupakan sesuatu
 
 397
 00:16:12,397 --> 00:16:15,000
-you can't do with dollar bills
-or with coins or with bars
+yang tidak bisa kau lakukan dengan uang kertas
+atau koin atau batangan
 
 398
 00:16:15,000 --> 00:16:16,180
-of gold.
+emas.
 
 399
 00:16:16,180 --> 00:16:18,480
-So having this
-trusted institution
+Jadi dengan adanya
+institusi terpercaya ini
 
 400
 00:16:18,480 --> 00:16:20,670
-that you can communicate
-with electronically
+yang bisa Anda kontak
+secara elektronik
 
 401
 00:16:20,670 --> 00:16:22,378
-means that Alice and
-Bob could be halfway
+Berarti Alice dan
+Bob bisa berada di belahan
 
 402
 00:16:22,378 --> 00:16:24,503
-around the world from each
-other and they can still
+dunia yang berbeda antara satu
+dengan yang lain dan mereka tetap bisa
 
 403
 00:16:24,503 --> 00:16:25,200
-pay each other.
+membayar satu sama lain.
 
 404
 00:16:25,200 --> 00:16:27,870
-So that's pretty awesome, and
-that is definitely a property
+Jadi, itu sangat menarik,
+dan hal itu benar-benar sebuah properti
 
 405
 00:16:27,870 --> 00:16:29,940
-that we want to have.
+yang ingin kita miliki.
 
 406
 00:16:29,940 --> 00:16:33,330
-In terms of cons, I think we
-covered quite a few of them,
+Mengenai kerugiannya, saya rasa
+kita sudah menyebutkan beberapa dari mereka,
 
 407
 00:16:33,330 --> 00:16:37,020
-which is we're really
-putting this bank
+di mana kita benar-benar
+memposisikan bank ini
 
 408
 00:16:37,020 --> 00:16:38,760
-kind of in the middle
-of everything here.
+di tengah-tengah setiap hal
+yang ada di sini.
 
 409
 00:16:38,760 --> 00:16:42,600
-And there are a few different
-ways that can cause us trouble.
+Dan ada juga beberapa hal yang dapat
+menyebabkan masalah bagi kita.
 
 410
 00:16:42,600 --> 00:16:46,142
-So the bank needs to be online
-during every transaction.
+Jadi, bank harus dalam kondisi daring
+dalam setiap transaksi.
 
 411
 00:16:46,142 --> 00:16:47,850
-If the bank is offline,
-then how does Bob
+Jika bank tersebut luring, lalu
+bagaimana caranya Bob
 
 412
 00:16:47,850 --> 00:16:50,250
-know whether he got paid or not?
+mengetahui apakah dia sudah
+dibayar atau belum?
 
 413
 00:16:50,250 --> 00:16:52,710
-The bank could fail at
-some point in time, which
+Bank dapat mengalami kegagalan
+pada satu waktu,
 
 414
 00:16:52,710 --> 00:16:54,060
-is kind of related to that.
+di mana kondisi tersebut
+berhubungan dengan hal tadi.
 
 415
 00:16:54,060 --> 00:16:56,610
-The bank could simply
-decide that they
+Bank bisa saja
+memutuskan bahwa mereka
 
 416
 00:16:56,610 --> 00:16:59,010
-don't want to do this anymore
-and can block transactions.
+tidak ingin melakukan ini lagi
+dan dapat memblokir transaksi.
 
 417
 00:16:59,010 --> 00:17:00,180
-And then privacy.
+Dan kemudian privasi.
 
 418
 00:17:00,180 --> 00:17:03,000
-The bank has kind of
-insight into everyone
+Bank memiliki pengetahuan
+terhadap orang-orang
 
 419
 00:17:03,000 --> 00:17:03,970
-and their payments.
+dan pembayaran mereka.
 
 420
 00:17:03,970 --> 00:17:05,849
-And this is incredibly
-sensitive information.
+Dan ini adalah informasi
+yang sangat sensitif.
 
 421
 00:17:05,849 --> 00:17:08,618
-Payments are quite important.
+Pembayaran cukup penting.
 
 422
 00:17:08,618 --> 00:17:10,410
-And we're going to be
-talking about privacy
+Dan kita akan
+berbicara tentang privasi.
 
 423
 00:17:10,410 --> 00:17:13,119
-a lot in this class, during
-the second half of this class.
+cukup banyak di kelas ini, selama
+paruh kedua kelas ini.
 
 424
 00:17:13,119 --> 00:17:16,050
-So just an example, a couple
-of visual examples of that.
+Jadi sekedar contoh, beberapa
+dari contoh visual tentang hal tadi.
 
 425
 00:17:16,050 --> 00:17:17,880
-The bank could just
-totally go away,
+Bank bisa begitu
+saja pergi,
 
 426
 00:17:17,880 --> 00:17:20,099
-and then what happens
-to that ledger?
+dan lalu apa yang terjadi
+kepada buku besar itu?
 
 427
 00:17:20,099 --> 00:17:21,240
-Who knows, right?
+Siapa yang tahu, benar?
 
 428
 00:17:21,240 --> 00:17:23,579
-I mean, literally, it
-could just disappear.
+Maksud saya, secara harfiah, itu
+bisa hilang begitu saja.
 
 429
 00:17:23,579 --> 00:17:25,079
-Maybe it's paper
-and it gets burnt,
+Mungkin berwujud kertas
+dan terbakar,
 
 430
 00:17:25,079 --> 00:17:29,598
-or maybe it's bits on a computer
-and it wasn't replicated.
+atau mungkin itu sekumpulan bit di komputer
+dan tidak direplikasi.
 
 431
 00:17:29,598 --> 00:17:31,140
-The bank could decide
-that they don't
+Bank bisa memutuskan
+bahwa mereka tidak menyukai
 
 432
 00:17:31,140 --> 00:17:33,090
-like Alice for some
-reason, and that they
+seperti Alice untuk alasan
+tertentu, dan mereka
 
 433
 00:17:33,090 --> 00:17:35,880
-don't feel like processing
-Alice's transactions.
+merasa tidak ingin memproses
+transaksi Alice.
 
 434
 00:17:35,880 --> 00:17:39,940
-This happens all the
-time in the real world.
+Ini terjadi sepanjang
+waktu di dunia nyata.
 
 435
 00:17:39,940 --> 00:17:44,830
-So there have been designs
-for electronic cash
+Jadi sudah ada desain
+untuk uang elektronik
 
 436
 00:17:44,830 --> 00:17:46,320
-that work a little
-bit differently.
+yang bekerja
+sedikit berbeda.
 
 437
 00:17:46,320 --> 00:17:47,737
-And we're going
-to kind of step up
+Dan kita akan
+meningkatkan
 
 438
 00:17:47,737 --> 00:17:53,245
-to the design that came
-right before bitcoin,
+desain yang datang
+tepat sebelum bitcoin,
 
 439
 00:17:53,245 --> 00:17:54,870
-and we're going to
-do that iteratively.
+dan kita akan melakukannya
+itu secara berulang.
 
 440
 00:17:54,870 --> 00:17:57,810
-So let's talk about e-cash
-and how e-cash works.
+Jadi mari kita bicara tentang uang elektronik
+dan cara kerja uang elektronik.
 
 441
 00:17:57,810 --> 00:18:01,980
-So the way that
-e-cash works is Alice
+Jadi cara uang elektronik
+bekerja adalah Alice
 
 442
 00:18:01,980 --> 00:18:03,450
-tells the bank--
-instead of saying,
+memberitahu bank--
+alih-alih mengatakan,
 
 443
 00:18:03,450 --> 00:18:05,040
-hey, bank, do this
-transfer for me,
+hei, bank, lakukan
+transfer ini untuk saya,
 
 444
 00:18:05,040 --> 00:18:08,370
-Alice says, hey, I would
-like a digital representation
+Alice berkata, hei, saya
+menginginkan representasi digital
 
 445
 00:18:08,370 --> 00:18:09,540
-of a coin.
+dari sebuah koin.
 
 446
 00:18:09,540 --> 00:18:12,607
-Can you give me
-something that is digital
+Bisakah Anda memberikan saya
+sesuatu yang digital
 
 447
 00:18:12,607 --> 00:18:14,940
-so I don't have to be in the
-same physical place as you,
+jadi saya tidak harus berada di
+tempat fisik yang sama dengan Anda,
 
 448
 00:18:14,940 --> 00:18:19,920
