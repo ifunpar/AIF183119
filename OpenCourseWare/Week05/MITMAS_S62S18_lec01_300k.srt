@@ -2108,56 +2108,56 @@ tempat fisik yang sama dengan Anda,
 
 448
 00:18:14,940 --> 00:18:19,920
-and that I can use in such a
-way that I can prove to someone
+dan bisa saya gunakan sedimikian rupa 
+supaya bisa saya buktikan ke orang
 
 449
 00:18:19,920 --> 00:18:22,950
-else that I have this thing and
-that I haven't double spent it,
+lain kalau saya mempunyai benda ini dan
+belum saya gunakan sebanyak dua kali,
 
 450
 00:18:22,950 --> 00:18:25,380
-because that's the problem
-with digital representations
+karena itu adalah permasalahan 
+dengan representasi digital
 
 451
 00:18:25,380 --> 00:18:26,220
-of coins.
+dari koin.
 
 452
 00:18:26,220 --> 00:18:29,370
-A fundamental problem is
-that bits can be copied.
+Permasalahan fundamentalnya 
+adalah bit bisa di tiru.
 
 453
 00:18:29,370 --> 00:18:33,450
-So whatever system you use to
-design your electronic cash,
+Jadi sistem apapun yang kamu gunakan 
+untuk mendesain uang elektronikmu,
 
 454
 00:18:33,450 --> 00:18:35,820
-you need to make sure
-that people can't just
+kamu harus memastikan bahwa
+orang tidak bisa tinggal
 
 455
 00:18:35,820 --> 00:18:41,825
-copy coins and give what is the
-same coin to multiple people.
+meniru koin dan memberikan koin 
+yang sama ke beberapa orang.
 
 456
 00:18:41,825 --> 00:18:43,200
-In the previous
-example, the bank
+Pada contoh 
+sebelumnya, bank
 
 457
 00:18:43,200 --> 00:18:44,450
-was making sure this happened.
+yang memastikan hal ini terjadi.
 
 458
 00:18:44,450 --> 00:18:46,650
-The bank was
-maintaining balances
+Bank itu 
+menjaga saldo
 
 459
 00:18:46,650 --> 00:18:51,500
