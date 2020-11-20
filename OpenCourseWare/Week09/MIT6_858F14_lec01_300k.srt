@@ -3260,116 +3260,116 @@ a perfectly secure OS,
 
 688
 00:28:39,072 --> 00:28:40,030
-but it got compromised.
+tapi disusupi.
 
 689
 00:28:40,030 --> 00:28:42,940
-And the way it happened is that
-the server in which the source
+Dan yang terjadi adalah
+server tempat disimpannya kode
 
 690
 00:28:42,940 --> 00:28:44,190
-code of the operating
-system was stored
+sumber sistem operasi
+disimpan
 
 691
 00:28:44,190 --> 00:28:46,070
-was some development
-machine in someone's office
+adalah mesin pengembangan
+di kantor seseorang
 
 692
 00:28:46,070 --> 00:28:47,270
-that wasn't secured at all.
+yang sangat tidak aman.
 
 693
 00:28:47,270 --> 00:28:48,660
-But that had all
-the source code.
+Tapi memiliki seluruh
+kode sumbernya.
 
 694
 00:28:48,660 --> 00:28:50,500
-So the bad guys broke
-into that server.
+Jadi orang jahat itu
+masuk ke server tersebut.
 
 695
 00:28:50,500 --> 00:28:51,850
-It was not protected very well.
+Ini tidak terlindungi dengan baik.
 
 696
 00:28:51,850 --> 00:28:53,340
-Changed the source code
-of the operating system
+Mengubah kode sumber
+dari sistem operasi
 
 697
 00:28:53,340 --> 00:28:54,690
-to introduce a back door.
+untuk memperkenalkan pintu belakang (back door).
 
 698
 00:28:54,690 --> 00:28:57,964
-And then, when the researchers
-built their operating systems,
+Lalu, saat peneliti
+membangung sistem operasi mereka,
 
 699
 00:28:57,964 --> 00:28:59,130
-well, it had this back door.
+mereka memiliki pintu belakang.
 
 700
 00:28:59,130 --> 00:29:00,755
-And the bad guys were
-able to break in.
+Dan orang-orang jahat itu
+dapat masuk.
 
 701
 00:29:00,755 --> 00:29:03,530
-So you really have to think
-about all the possible sort
+Jadi Anda benar-benar harus memikirkan
+semua kemungkinan
 
 702
 00:29:03,530 --> 00:29:05,800
-of assumptions
-you're making about
+dari asumsi
+yang Anda buat tentang
 
 703
 00:29:05,800 --> 00:29:07,440
-where your software
-is coming from,
+dari mana perangkat lunak Anda
+berasal,
 
 704
 00:29:07,440 --> 00:29:09,630
-about how the bad
-guy can get in,
+tentang bagaimana orang jahat
+dapat masuk,
 
 705
 00:29:09,630 --> 00:29:14,150
-in order to make sure your
-system is really secure.
+untuk memastikan sistem Anda
+benar-benar aman.
 
 706
 00:29:14,150 --> 00:29:18,160
-And there's many other examples
-in lecture notes, if you want.
+Dan ada banyak contoh lain
+dalam catatan kuliah, jika Anda mau.
 
 707
 00:29:18,160 --> 00:29:19,240
-So I'm using anecdotes.
+Jadi saya menggunakan anekdot.
 
 708
 00:29:19,240 --> 00:29:20,910
-You can page through those.
+Anda dapat membacanya di sana.
 
 709
 00:29:23,750 --> 00:29:28,580
-Probably the most pervasive
-problem that shows up,
+Mungkin masalah paling luas
+yang muncul,
 
 710
 00:29:28,580 --> 00:29:30,710
-of course, is in
-mechanisms, though.
+tentu saja, dalam
+mekanisme.
 
 711
 00:29:30,710 --> 00:29:33,290
-And in part, it's
-because mechanisms
+Dan sebagian, itu
+karena mekanisme
 
 712
 00:29:33,290 --> 00:29:35,490
