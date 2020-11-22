@@ -2161,64 +2161,64 @@ menjaga saldo
 
 459
 00:18:46,650 --> 00:18:51,500
-and debiting Alice's account
-and crediting Bob's account.
+dengan mengurangi saldo akun Alice
+dan menambahkan saldo akun Bob.
 
 460
 00:18:51,500 --> 00:18:54,000
-But if we want to think about
-something that doesn't involve
+Namun, jika kita ingin memikirkan
+mengenai sesuatu yang tidak mengikutsertakan
 
 461
 00:18:54,000 --> 00:18:56,100
-the bank, and we're
-starting to get there,
+banknya, dan kita mulai 
+mengarah ke sana,
 
 462
 00:18:56,100 --> 00:18:59,520
-then we need to think about how
-to ensure that a coin can't be
+maka kita perlu untuk memikirkan mengenai
+bagaimana memastikan bahwa sebuah koin
 
 463
 00:18:59,520 --> 00:19:02,210
-what is known as double spent.
+tidak boleh terpotong dua kali lipat
 
 464
 00:19:02,210 --> 00:19:03,800
-So Alice asks the bank for coin.
+Jadi Alice meminta koin dari bank.
 
 465
 00:19:03,800 --> 00:19:07,040
-And maybe she has an account
-with a bank like before.
+Dan mungkin dia sudah memiliki
+akun di bank tersebut sebelumnya.
 
 466
 00:19:07,040 --> 00:19:10,400
-Or maybe she gives the bank
-teller actual physical money
+Atau mungkin dia memberikan teller
+bank uang secara fisik
 
 467
 00:19:10,400 --> 00:19:13,310
-in order to get
-one of these coins.
+untuk mendapatkan salah satu koin itu.
 
 468
 00:19:13,310 --> 00:19:17,030
-So the bank generates
-a unique number--
+Jadi banknya menghasilkan
+sebuah angka yang unik,
 
 469
 00:19:17,030 --> 00:19:19,430
-SN stands for serial number--
+yaitu SN yang berarti 
+Serial Number
 
 470
 00:19:19,430 --> 00:19:22,880
-and decides that this is
-the digital representation
+dan memutuskan bahwa itu merupakan
+representasi dijital
 
 471
 00:19:22,880 --> 00:19:24,620
-of the coin.
+dari sebuah koin.
 
 472
 00:19:24,620 --> 00:19:28,430
