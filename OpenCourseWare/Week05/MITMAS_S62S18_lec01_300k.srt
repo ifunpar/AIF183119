@@ -2222,56 +2222,56 @@ dari sebuah koin.
 
 472
 00:19:24,620 --> 00:19:28,430
-The bank then gives that
-coin to Alice in a way
+Bank kemudian memberikan
+koin itu kepada Alice dengan cara
 
 473
 00:19:28,430 --> 00:19:31,175
-that it's clear that
-the bank did this.
+yang jelas bahwa
+bank yang melakukannya.
 
 474
 00:19:31,175 --> 00:19:33,050
-Usually this is done
-using a technique called
+Biasanya ini dilakukan
+menggunakan teknik yang disebut
 
 475
 00:19:33,050 --> 00:19:34,490
-digital signatures.
+tanda tangan digital.
 
 476
 00:19:34,490 --> 00:19:37,550
-We're going to get to
-that as class progresses,
+Kita akan membahasnya
+saat kelas berlangsung,
 
 477
 00:19:37,550 --> 00:19:40,070
-but not right now.
+tapi tidak sekarang.
 
 478
 00:19:40,070 --> 00:19:44,270
-Once Alice has this coin,
-then she can give it to Bob.
+Setelah Alice memiliki koin ini,
+dia dapat memberikannya kepada bob.
 
 479
 00:19:44,270 --> 00:19:46,633
-And Bob can take a
-look at this coin,
+Dan Bob dapat
+melihat koin ini,
 
 480
 00:19:46,633 --> 00:19:48,800
-and hopefully there's enough
-going on with this coin
+dan semoga ada cukup
+banyak hal yang terjadi dengan koin ini
 
 481
 00:19:48,800 --> 00:19:52,280
-that Bob can be convinced
-that this is a real coin.
+sehingga Bob dapat yakin
+bahwa ini adalah koin sungguhan.
 
 482
 00:19:52,280 --> 00:19:54,360
-Alice didn't make it
-up out of nowhere.
+Alice tidak membuat itu
+entah dari mana.
 
 483
 00:19:54,360 --> 00:19:58,670
