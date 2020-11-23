@@ -2331,56 +2331,56 @@ itu kepada Alice,
 
 495
 00:20:25,430 --> 00:20:28,040
-and then Bob is showing
-up with a coin that
+dan kemudian Bob muncul
+dengan koin yang
 
 496
 00:20:28,040 --> 00:20:30,050
-is that serial number.
+merupakan nomor seri tersebut.
 
 497
 00:20:30,050 --> 00:20:32,390
-And what the bank is doing
-here, in this example,
+Dan apa yang bank lakukan
+disini, dalam contoh ini,
 
 498
 00:20:32,390 --> 00:20:36,532
-is the way that the
-bank checks to make sure
+adalah cara bank tersebut
+memeriksa untuk memastikan
 
 499
 00:20:36,532 --> 00:20:38,990
-that this coin is correct is
-it looks at the serial number,
+bahwa koin ini adalah benar seperti
+yang terlihat di nomor serinya,
 
 500
 00:20:38,990 --> 00:20:42,110
-and it makes sure that it
-hasn't been spent before.
+dan itu memastikannya
+belum pernah dipakai sebelumnya.
 
 501
 00:20:42,110 --> 00:20:46,100
-So the bank can link the
-coin between Alice and Bob,
+Jadi bank bisa menghubungkan
+koin antara Alice dan Bob,
 
 502
 00:20:46,100 --> 00:20:47,570
-which is unfortunate.
+yang patut disayangkan.
 
 503
 00:20:47,570 --> 00:20:51,410
-The also still sort
-of has to be online,
+yang juga masih semacam
+mengharuskan online,
 
 504
 00:20:51,410 --> 00:20:53,780
-not to do the actual payment
-between Alice and Bob,
+tidak melakukan pembayaran sebenarnya
+antara Alice dan Bob,
 
 505
 00:20:53,780 --> 00:20:56,270
-but in order for Bob
-to have confidence
+tetapi agar Bob
+memiliki kepercayaan diri
 
 506
 00:20:56,270 --> 00:20:58,850
