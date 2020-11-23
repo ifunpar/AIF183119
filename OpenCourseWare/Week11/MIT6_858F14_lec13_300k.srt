@@ -126,7 +126,7 @@ yang ingin didukung
 
 27
 00:01:16,580 --> 00:01:19,360
-oleh Kerbereos?
+oleh Kerberos?
 
 28
 00:01:19,360 --> 00:01:21,900
@@ -735,737 +735,737 @@ ke data mereka atau tidak.
 
 155
 00:06:51,460 --> 00:06:53,600
-All right, so let's look
-at how does Kerberos work
+Baiklah, mari kita lihat
+bagaimana Kerberos bekerja
 
 156
 00:06:53,600 --> 00:06:57,340
-or what's the overall
-architecture, at least.
+atau setidaknya, bagaimana
+arsitetktur keseluruhannya.
 
 157
 00:06:57,340 --> 00:07:01,200
-So the plan that
-these guys had in mind
+Jadi rencana yang orang-orang
+ini punya dalam pikiram mereka adalah
 
 158
 00:07:01,200 --> 00:07:03,500
-is that there would be
-this Kerberos server.
+akan ada server
+Kerberos ini.
 
 159
 00:07:03,500 --> 00:07:05,470
-We have drawn it up
-there but let's draw it
+Sudah kita gambar di sana, tetapi
+mari kita gambarkan lagi
 
 160
 00:07:05,470 --> 00:07:07,300
-in a slightly bigger scale.
+dengan skala yang sedikit lebih besar.
 
 161
 00:07:07,300 --> 00:07:10,540
-So this is the Kerberos server.
+Jadi ini adalah server Kerberos.
 
 162
 00:07:10,540 --> 00:07:16,650
-And today, it's typically called
+Dan sekarang, ini biasanya disebut dengan
 KDC-- Key Distribution Center.
 
 163
 00:07:16,650 --> 00:07:22,430
-And there's all these users
-out here somewhere and also
+Dan ada semua pengguna 
+di luar sana dan juga
 
 164
 00:07:22,430 --> 00:07:26,840
-services that you might
-want to connect to.
+layanan-layanan yang mungkin ingin
+Anda hubungi.
 
 165
 00:07:26,840 --> 00:07:30,860
-And the plan is that
-the Kerberos server
+Dan rencananya adalah,
+server Kerberos server
 
 166
 00:07:30,860 --> 00:07:34,650
-is going to be responsible
-for storing a shared
+akan bertanggung jawab 
+untuk menyimpan sebuah kunci
 
 167
 00:07:34,650 --> 00:07:39,070
-key between the Kerberos server
-and every entity in the world,
+bersama antara server Kerberos
+dengan seluruh entitas di dunia,
 
 168
 00:07:39,070 --> 00:07:41,080
-or in this realm at least.
+atau setidaknya di dalam realm ini.
 
 169
 00:07:41,080 --> 00:07:45,885
-So if the user has some
-sort of a key KC for client,
+Jadi, jika pengguna memiliki
+kunci KC untuk klien,
 
 170
 00:07:45,885 --> 00:07:47,260
-than the Kerberos
-server is going
+Lalu, Kerberos server
+akan
 
 171
 00:07:47,260 --> 00:07:49,720
-to remember this
-key somewhere here.
+mengingat kunci ini
+di suatu tempat di sini
 
 172
 00:07:49,720 --> 00:07:53,680
-And similarly for the
-server, the key KS
+Begitu pula untuk
+server, kunci KS
 
 173
 00:07:53,680 --> 00:07:56,080
-is going to be known
-to the service itself
+akan diketahui
+oleh layanan itu sendiri
 
 174
 00:07:56,080 --> 00:07:59,300
-and to the Kerberos server
-but hopefully no one else.
+dan ke server Kerberos
+tapi semoga tidak ada orang lain.
 
 175
 00:07:59,300 --> 00:08:02,020
-So you can think of it as like
-a generalization of passwords,
+Jadi Anda bisa menganggapnya sebagai
+bentuk yang lebih umum dari password,
 
 176
 00:08:02,020 --> 00:08:02,520
-right?
+betul?
 
 177
 00:08:02,520 --> 00:08:04,440
-So you know a password
-and the Kerberos server
+Jadi Anda mengetahui sebuah password
+dan server Kerberos juga
 
 178
 00:08:04,440 --> 00:08:05,940
-knows your password
-but no one else.
+mengetahui password Anda
+tetapi orang lain tidak.
 
 179
 00:08:05,940 --> 00:08:08,790
-And this is how you guys are
-going to prove to each other,
+Dan ini adalah bagaimana kalian
+akan membuktikan satu dengan yang lain.
 
 180
 00:08:08,790 --> 00:08:10,130
-yeah, I'm the right guy.
+Ya, saya orang yang tepat.
 
 181
 00:08:10,130 --> 00:08:13,000
-I know this password
-and no one else does.
+Saya tahu password ini,
+sedangkan orang lain tidak.
 
 182
 00:08:13,000 --> 00:08:14,150
-Makes sense?
+Masuk akal?
 
 183
 00:08:14,150 --> 00:08:17,982
-And the other thing the Kerberos
-server is going to have to do
+Dan hal lain yang server Kerberos
+akan perlu lakukan
 
 184
 00:08:17,982 --> 00:08:20,070
-is, of course, keep
-track of who is
+adalah, tentu saja, mencatat
+siapa yang
 
 185
 00:08:20,070 --> 00:08:22,370
-it that owns this key, right?
+memiliki key ini, benar?
 
 186
 00:08:22,370 --> 00:08:27,080
-So it's going to have this table
-mapping some sort of a name.
+Jadi akan terdapat tabel ini,
+memetakan semacam nama.
 
 187
 00:08:27,080 --> 00:08:29,080
-So this is some sort of a user.
+Jadi ini semacam pengguna.
 
 188
 00:08:29,080 --> 00:08:35,630
-This is maybe service maybe
-AFS or something like this.
+Ini mungkin layanan, mungkin AFS (Andrew File System,
+sistem penyimpanan terdistribusi) atau semacamnya.
 
 189
 00:08:35,630 --> 00:08:38,530
-And the KDC is responsible for
-storing the gigantic table--
+Dan KDC bertanggung jawab untuk
+menyimpan tabel besar itu--
 
 190
 00:08:38,530 --> 00:08:41,659
-well, not very large in
-terms of the number of bytes,
+Yah, tidak terlalu besar dalam
+hal jumlah byte,
 
 191
 00:08:41,659 --> 00:08:45,640
-necessarily, but
-one entry per entity
+tentu, tapi
+satu entri per entitas
 
 192
 00:08:45,640 --> 00:08:50,310
-at MIT that the Kerberos
-server knows about.
+pada MIT yang diketahui
+server Kerberos.
 
 193
 00:08:50,310 --> 00:08:52,510
-Makes sense?
+Masuk akal?
 
 194
 00:08:52,510 --> 00:08:56,634
-All right, and then we're
-going to have sort of provide
+Baiklah, lalu kita akan
+semacam menyediakan
 
 195
 00:08:56,634 --> 00:08:57,550
-two interfaces, right?
+dua antarmuka, benar?
 
 196
 00:08:57,550 --> 00:09:00,200
-The paper is a little
-fuzzy above this
+Paper tersebut agak
+membingungkan di atas sini
 
 197
 00:09:00,200 --> 00:09:02,200
-or it pretends like there's
-really two services.
+atau itu memang berlaku seperti
+benar benar dua layanan
 
 198
 00:09:02,200 --> 00:09:05,260
-But really, what's going on
-is that there's two interfaces
+Tetapi sebenarnya, apa yang terjadi
+adalah ada dua antarmuka
 
 199
 00:09:05,260 --> 00:09:06,660
-to the same machine.
+ke mesin yang sama
 
 200
 00:09:06,660 --> 00:09:11,560
-One of them is called Kerberos
-in the paper and one of them
+Salah satunya disebut Kerberos
+di dalam paper dan salah satunya
 
 201
 00:09:11,560 --> 00:09:15,460
-is called TGS for
+disebut TGS untuk
 Ticket Granting Service.
 
 202
 00:09:15,460 --> 00:09:16,980
-And really, these
-are just two ways
+Dan sungguh, ini
+hanyalah dua cara
 
 203
 00:09:16,980 --> 00:09:20,130
-of talking to the same
-thing in the back end.
+untuk berbicara ke hal yang sama
+di bagian belakang.
 
 204
 00:09:20,130 --> 00:09:24,340
-And the protocol is a little
-different for these things.
+Dan protokolnya sedikit
+berbeda untuk benda-benda ini.
 
 205
 00:09:24,340 --> 00:09:26,570
-So initially, when
-the user logs in,
+Jadi pada awalnya, pada
+saat pengguna login,
 
 206
 00:09:26,570 --> 00:09:28,680
-they're going to talk
-to this guy over here.
+mereka akan berbicara
+kepada orang ini di sini.
 
 207
 00:09:28,680 --> 00:09:32,110
-And they're going to
-send their client name,
+Dan mereka akan
+mengirim nama klien mereka,
 
 208
 00:09:32,110 --> 00:09:35,160
-C. So this might be
-your Athena username.
+C. Jadi ini mungkin
+username Athena Anda.
 
 209
 00:09:35,160 --> 00:09:36,810
-And the server is
-going to respond
+Dan servernya
+akan menanggapi
 
 210
 00:09:36,810 --> 00:09:43,804
-to back with a ticket,
-a TGS or-- well,
+kembali dengan sebuah tiket,
+sebuah TGS atau-- yah,
 
 211
 00:09:43,804 --> 00:09:44,720
-some sort of a ticket.
+semacam tiket.
 
 212
 00:09:44,720 --> 00:09:46,540
-We'll look at the
-details in a bit.
+Kita akan lihat
+detailnya sedikit lagi.
 
 213
 00:09:46,540 --> 00:09:51,130
-And then when you want to
-talk to some server down here,
+Dan ketika kalian mau bicara dengan
+suatu server di bawah sini,
 
 214
 00:09:51,130 --> 00:09:54,040
-KS, then you're going to
-talk to this TGS first
+KS, maka Anda akan
+bicara dengan TGS ini terlebih dahulu
 
 215
 00:09:54,040 --> 00:09:56,530
-and say, oh, hey,
-I already logged in
+dan mengatakan, oh, hei,
+saya sudah masuk
 
 216
 00:09:56,530 --> 00:09:58,560
-through the Kerberos interface.
+melalui antarmuka Kerberos.
 
 217
 00:09:58,560 --> 00:10:00,770
-Now, I want to talk
-to the server S.
+Sekarang, saya ingin berbicara
+dengan server S.
 
 218
 00:10:00,770 --> 00:10:03,560
-So you'd tell the TGS about
-the server you want to talk to.
+Jadi Anda akan memberi tahu TGS mengenai
+server yang ingin Anda ajak berbicara.
 
 219
 00:10:03,560 --> 00:10:08,330
-And then it returns you
-back some sort of a ticket
+Dan kemudian dia akan mengembalikan
+kepada Anda semacam tiket
 
 220
 00:10:08,330 --> 00:10:12,780
-for talking to the server
-S. And then you can finally
+untuk berbicara dengan server
+S. Dan akhirnya Anda bisa
 
 221
 00:10:12,780 --> 00:10:15,600
-start talking to
-the server over here
+berbicara dengan
+server di sebelah sini
 
 222
 00:10:15,600 --> 00:10:22,230
-by initially passing
-it this ticket for S.
+dengan memberikan tiket ini
+kepada S terlebih dahulu.
 
 223
 00:10:22,230 --> 00:10:23,902
-Does this all make sense?
+Apakah ini semua masuk akal?
 
 224
 00:10:23,902 --> 00:10:27,270
-This is the sort
-of high level plan.
+Ini adalah seperti 
+rencana secara umum.
 
 225
 00:10:27,270 --> 00:10:30,335
-So why do these guys
-have two interfaces?
+Jadi mengapa mereka 
+memiliki dua antarmuka?
 
 226
 00:10:32,967 --> 00:10:34,550
-Well, I guess I
-wanted to actually ask
+Sebenarnya, saya
+ingin menanyakan
 
 227
 00:10:34,550 --> 00:10:35,425
-a bunch of questions.
+banyak pertanyaan.
 
 228
 00:10:35,425 --> 00:10:38,080
-Like, in the case of a
-service, this service
+Seperti, dalam kasus
+sebuah layanan, layanan ini
 
 229
 00:10:38,080 --> 00:10:39,770
-is probably going to
-be stored on disk.
+kemungkinan akan disimpan 
+di dalam disk.
 
 230
 00:10:39,770 --> 00:10:42,330
-What's going on with
-this KC on the user side?
+Apa yang terjadi dengan
+KC ini di sisi pengguna?
 
 231
 00:10:42,330 --> 00:10:46,240
-Where does KC come
-from in Kerberos?
+Dari mana KC datang
+dari dalam Kerberos?
 
 232
 00:10:46,240 --> 00:10:47,574
-Yeah.
+Yah.
 
 233
 00:10:47,574 --> 00:10:50,740
-STUDENT: KDMS
-[INAUDIBLE] the database.
+MAHASISWA: KDMS
+basis data [TIDAK TERDENGAR].
 
 234
 00:10:50,740 --> 00:10:52,736
-PROFESSOR: Yeah, well,
-the key C sits here.
+PROFESOR: Ya, baiklah,
+kunci C ada di sini.
 
 235
 00:10:52,736 --> 00:10:53,860
-And that's absolutely true.
+Dan itu benar sekali.
 
 236
 00:10:53,860 --> 00:10:55,420
-It's sits on this
-giant database.
+itu ada di
+basis data raksasa.
 
 237
 00:10:55,420 --> 00:10:57,280
-But it also has to
-be known to the user
+tetapi itu juga harus 
+diketahui pengguna
 
 238
 00:10:57,280 --> 00:10:59,610
-because the user has to
-prove that they are the user.
+karena pengguna harus
+membuktikan bahwa mereka adalah sang pengguna.
 
 239
 00:10:59,610 --> 00:11:00,326
-Yeah.
+Yah.
 
 240
 00:11:00,326 --> 00:11:02,030
-STUDENT: Is that a one way
-function and then the password?
+MAHASISWA: apakah itu fungsi satu arah
+dan kemudian kata sandinya?
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Yeah,
-so they actually
+PROFESSOR: Yah,
+jadi itu sebenarnya
 
 242
 00:11:03,405 --> 00:11:05,930
-have this sort of cute plan
-where the KC is actually
+semacam rencana imut
+dimana KC sebenarnya
 
 243
 00:11:05,930 --> 00:11:09,100
-going to be derived by
-hashing the user's password
+akan diperoleh dengan
+melakukan hash pada kata sandi pengguna
 
 244
 00:11:09,100 --> 00:11:11,320
-or really some sort of
-key duration function.
+atau semacam
+fungsi durasi kunci
 
 245
 00:11:11,320 --> 00:11:14,444
-And there's several different
-ones of perverse uses.
+dan terdapat beberapa 
+kegunaan yang berbeda.
 
 246
 00:11:14,444 --> 00:11:16,360
-But you're basically
-going to take a password,
+Namun, pada dasarnya Anda
+akan mengambil sebuah kata sandi,
 
 247
 00:11:16,360 --> 00:11:20,676
-transform it in some
-way, and get this key KC.
+mengubahnya dengan cara
+tertentu, dan mendapatkan KC nya.
 
 248
 00:11:20,676 --> 00:11:25,180
-All right, so that seems good.
+Baiklah, jadi itu terlihat bagus.
 
 249
 00:11:25,180 --> 00:11:27,010
-Why do we need two
-protocols, right?
+Kenapa kita membutuhkan
+dua protokol?
 
 250
 00:11:27,010 --> 00:11:32,020
-You could imagine that you just
-always ask the Kerberos server
+Anda bisa membayangkan bahwa kalian hanya
+meminta tiket kepada server Kerberos
 
 251
 00:11:32,020 --> 00:11:33,292
-for tickets directly this way.
+secara langsung dengan cara ini.
 
 252
 00:11:33,292 --> 00:11:34,750
-You say, well, hey,
-I want a ticket
+Anda katakan, yah, hey,
+Saya butuh sebuah tiket
 
 253
 00:11:34,750 --> 00:11:36,730
-for this particular
-principle name.
+untuk satu nama
+prinsipiel ini.
 
 254
 00:11:36,730 --> 00:11:39,070
-And it'll send you back a
-ticket and you can decrypt it
+Dan dia akan mengirimkan balik ke Anda sebuah
+tiket dan Anda dapat mendekripsinya
 
 255
 00:11:39,070 --> 00:11:41,440
-with your KC afterwards.
+dengan KC Anda sesudah nya.
 
 256
 00:11:41,440 --> 00:11:41,940
-Yeah.
+Yah.
 
 257
 00:11:41,940 --> 00:11:44,861
-STUDENT: Can you
-[INAUDIBLE] or ask the user
+MAHASISWA: Dapatkah Anda
+[TIDAK TERDENGAR] atau bertanya pada pengguna
 
 258
 00:11:44,861 --> 00:11:46,527
-to reenter their
-password each time they
+untuk memasukkan kembali
+password mereka setiap
 
 259
 00:11:46,527 --> 00:11:47,740
-want to [INAUDIBLE] service?
+ingin layanan [TIDAK TERDENGAR]?
 
 260
 00:11:47,740 --> 00:11:49,823
-PROFESSOR: Right, so the
-reason for the difference
+PROFESOR: Benar, jadi
+alasan untuk perbedaan
 
 261
 00:11:49,823 --> 00:11:52,440
-between these two interfaces
-is that on this interface,
+di antara dua antarmuka ini
+adalah pada antarmuka ini,
 
 262
 00:11:52,440 --> 00:11:56,170
-all the responses come back
-encrypted with your key KC.
+semua balasan dikembalikan
+terenkripsi dengan kunci Anda KC.
 
 263
 00:11:56,170 --> 00:11:59,500
-And the Kerberos designers
-are a little worried
+dan perancang Kerberos
+sedikit cemas
 
 264
 00:11:59,500 --> 00:12:03,070
-about keeping this KC
-around for a long time.
+untuk menyimpan KC ini 
+dalam waktu yang lama.
 
 265
 00:12:03,070 --> 00:12:05,260
-Because either you have to
-ask the user to enter it,
+Karena antara Anda harus
+meminta pengguna untuk memasukkannya,
 
 266
 00:12:05,260 --> 00:12:07,730
-which is just
-annoying for the user,
+yang hanya akan
+mengganggu bagi pengguna,
 
 267
 00:12:07,730 --> 00:12:09,330
-or it sits around in memory.
+atau berada di dalam memori.
 
 268
 00:12:09,330 --> 00:12:12,400
-And this is basically as
-good as the user's password.
+Dan ini pada dasarnya sama bagusnya 
+dengan kata sandi pengguna.
 
 269
 00:12:12,400 --> 00:12:17,730
-So if this gets disclosed,
-then someone with access to KC
+Jadi jika ini terungkap,
+lalu seseorang yang memiliki akses ke KC
 
 270
 00:12:17,730 --> 00:12:20,675
-can keep accessing the user's
-files until the user maybe
+dapat terus mengakses file pengguna
+hingga pengguna tersebut mungkin
 
 271
 00:12:20,675 --> 00:12:22,800
-changes their password and
-potentially even longer.
+mengubah password mereka dan 
+bahkan berpotensi lebih lama.
 
 272
 00:12:22,800 --> 00:12:25,300
-We'll see about that.
+Kita akan lihat tentang itu.
 
 273
 00:12:25,300 --> 00:12:28,570
-So this KC is a really
-dangerous thing to leak.
+Jadi KC ini sangat berbahaya
+jika bocor.
 
 274
 00:12:28,570 --> 00:12:31,580
-So the whole point of using
-this interface first and using
+Jadi inti dari menggunakan
+antarmuka ini dulu dan menggunakan
 
 275
 00:12:31,580 --> 00:12:34,270
-this interface later for
-all subsequent requests
+antarmuka ini nanti untuk
+seluruh permintaan selanjutnya
 
 276
 00:12:34,270 --> 00:12:36,790
-is that you can
-actually forget KC
+adalah agar Anda
+dapat melupakan KC
 
 277
 00:12:36,790 --> 00:12:40,430
-as soon as you decrypt this
-TGS response from the Kerberos
+setelah kalian mendekripsi respon
+TGS ini dari antarmuka
 
 278
 00:12:40,430 --> 00:12:41,980
-interface.
+Kerberos.
 
 279
 00:12:41,980 --> 00:12:44,600
-And from that point on,
-even if you leak it,
+Dan dari titik itu,
+bahkan jika Anda membocorkannya
 
 280
 00:12:44,600 --> 00:12:46,994
-there is a lifetime
-associated with this ticket.
+ada masa hidup yang
+terasosisasi dengan tiket ini.
 
 281
 00:12:46,994 --> 00:12:48,410
-So worst case,
-someone gets access
+Jadi, dalam kasus terburuk,
+seseorang mendapatkan akses
 
 282
 00:12:48,410 --> 00:12:50,160
-to your account for
-a couple of hours,
+terhadap akun Anda untuk
+beberapa jam
 
 283
 00:12:50,160 --> 00:12:53,359
-not for an unbounded
-amount of time.
+bukan untuk waktu
+yang tidak terbatas.
 
 284
 00:12:53,359 --> 00:12:54,900
-So that's the sort
-of main difference
+Jadi begitulah
+perbedaan utama
 
 285
 00:12:54,900 --> 00:12:59,020
-why you guys have this slightly
-more complicated picture
+mengapa kalian memiliki gambaran
+yang sedikit lebih rumit ini
 
 286
 00:12:59,020 --> 00:13:03,190
-with two ways of
-accessing the same thing.
+dengan dua cara
+untuk mengakses hal yang sama.
 
 287
 00:13:03,190 --> 00:13:06,360
-All right, so before we dive
-into the mechanics of how
+Baiklah, sebelum kita mulai
+mendalami mekanisme bagaimana
 
 288
 00:13:06,360 --> 00:13:08,900
-these protocols actually
-look like on the wire,
+sebenarnya protokol-protokol
+ini bekerja,
 
 289
 00:13:08,900 --> 00:13:13,060
-let's talk a little bit about
-this naming aspect in Kerberos,
+mari berbicara sedikit mengenai
+aspek penamaan ini dalam Kerberos,
 
 290
 00:13:13,060 --> 00:13:13,560
-right?
+setuju?
 
 291
 00:13:13,560 --> 00:13:16,100
-So at some level, you
-could think of Kerberos
+Jadi di beberapa tingkat, Anda
+dapat menganggap Kerberos
 
 292
 00:13:16,100 --> 00:13:18,530
-as being a name registry, right?
+sebagai daftar nama, benar?
 
 293
 00:13:18,530 --> 00:13:20,680
-So it's really
-responsible for mapping
+Jadi ini sesungguhnya
+bertanggung jawab untuk memetakan
 
 294
 00:13:20,680 --> 00:13:24,090
-these cryptographic
-keys onto string names.
+kunci kriptografi ini
+ke nama-nama dalam bentuk string.
 
 295
 00:13:24,090 --> 00:13:27,459
-And this is the fundamental
-sort of operation
+Dan ini adalah
+semacam operasi dasar
 
 296
 00:13:27,459 --> 00:13:28,750
-that Kerberos needs to provide.
+yang harus disediakan Kerberos.
 
 297
 00:13:28,750 --> 00:13:31,467
-In fact, you'll see in the
-next lecture even on the web,
+Bahkan, di kuliah berikutnya
+Anda akan melihat bahwa bahkan di web,
 
 298
 00:13:31,467 --> 00:13:32,800
-we need some function like this.
+kita membutuhkan beberapa fungsi seperti ini.
 
 299
 00:13:32,800 --> 00:13:34,550
-It's implemented
-differently from Kerberos
+Ini diterapkan 
+secara berbeda dari Kerberos
 
 300
 00:13:34,550 --> 00:13:36,570
-but this is a fundamentally
-very important thing
+tapi ini pada dasarnya merupakan
+sebuah hal yang sangat penting
 
 301
 00:13:36,570 --> 00:13:39,060
-to have in almost any
-distributed system
+untuk dimiliki di hampir semua 
+sistem yang terdistribusi
 
 302
 00:13:39,060 --> 00:13:40,510
-for security.
+untuk keamanan.
 
 303
 00:13:40,510 --> 00:13:45,080
-So let's look at how Kerberos
-actually deals with names.
+jadi mari kita lihat bagaimana kerberos
+sebenarnya mengelola nama-nama.
 
 304
 00:13:45,080 --> 00:13:49,440
-So in Kerberos,
-the sort of system
+Jadi di Kerberos,
+sistem
 
 305
 00:13:49,440 --> 00:13:53,560
-calls every entity in
-this database a principal
+memanggil setiap entitas di dalam
+prinsipiel basis data ini
 
 306
 00:13:53,560 --> 00:13:56,920
-And a principal in Kerberos is
-actually just a string, right?
+dan prinsipiel di Kerberos 
+sebenarnya hanya sebuah string, benar?
 
 307
 00:13:56,920 --> 00:13:59,780
-So you can actually have some
-principal like, I don't know,
+Jadi, Anda sebenarnya bisa memiliki
+prinsipiel, seperti,
 
 308
 00:13:59,780 --> 00:14:00,885
@@ -1473,31 +1473,31 @@ nickolei.
 
 309
 00:14:00,885 --> 00:14:01,720
-So that's a string.
+Jadi, ini adalah sebuah string.
 
 310
 00:14:01,720 --> 00:14:05,170
-And that could be a principal
-in some Kerberos realm.
+dan itu bisa menjadi hal yang utama
+di dalam realm Kerberos
 
 311
 00:14:05,170 --> 00:14:06,850
-So it would literally
-be the thing
+Jadi, ini benar benar akan
+menjadi sesuatu
 
 312
 00:14:06,850 --> 00:14:12,000
-that sits in this left
-column of the KDC's table.
+yang duduk di kolom
+sebelah kiri dari tabel KDC
 
 313
 00:14:12,000 --> 00:14:16,007
-And there's also
-some extra instances
+dan di situ juga ada
+beberapa hal tambahan 
 
 314
 00:14:16,007 --> 00:14:17,090
-that the protocl supports.
+yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200

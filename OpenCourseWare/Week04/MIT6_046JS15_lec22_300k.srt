@@ -56,7 +56,7 @@ Anda akan suka dengan yang ini.
 
 13
 00:00:35,430 --> 00:00:37,180
-Kalau Anda tidak luka,
+Kalau Anda tidak suka,
 baiklah, itu
 
 14
@@ -735,7 +735,7 @@ permutasi terbalik.
 155
 00:08:25,060 --> 00:08:27,660
 Jadi jelas saja, ini adalah
-opersai yang dapat dikembalikan.
+operasi yang dapat dikembalikan.
 
 156
 00:08:27,660 --> 00:08:30,330
@@ -744,935 +744,935 @@ yang dapat dikembalikan juga.
 
 157
 00:08:30,330 --> 00:08:35,840
-Plus can be reversed
-by a negation.
+Plus dapat dibalik
+dengan negasi.
 
 158
 00:08:35,840 --> 00:08:39,580
-And exclusive OR is
-simply exclusive OR.
+Dan XOR bisa dibalik
+dengan XOR juga.
 
 159
 00:08:39,580 --> 00:08:45,905
-Because if you do A exclusive
-OR B, then you get C.
+Karena jika Anda melakukan A 
+XOR B, maka Anda mendapatkan C.
 
 160
 00:08:45,905 --> 00:08:50,590
-And imagine if you did B
-again to that, you get A back.
+Dan bayangkan jika anda melakukan XOR B
+lagi, Anda mendapatkan kembali A.
 
 161
 00:08:50,590 --> 00:08:52,230
-That's what I mean by reversal.
+Itulah yang saya maksud dengan pembalikan.
 
 162
 00:08:52,230 --> 00:08:56,240
-Because you have, essentially,
-A exclusive OR A cancels out.
+Karena pada dasarnya Anda memiliki A
+XOR A akan dibatalkan.
 
 163
 00:08:56,240 --> 00:09:00,780
-And so it's something like a
-exclusive OR B exclusive OR B
+Jadi itu seperti XOR B
+XOR B
 
 164
 00:09:00,780 --> 00:09:04,330
-again would give you A.
+lagi akan memberikan A.
 
 165
 00:09:04,330 --> 00:09:09,110
-So if you go look at AES, for
-example, which is the Advanced
+Jadi jika Anda melihat pada AES, 
+contohnya, atau Advance
 
 166
 00:09:09,110 --> 00:09:12,430
-Encryption Standard, is really
-only about four lines of code,
+Encryption Standard (AES), adalah 
+benar-benar hanya empat baris kode,
 
 167
 00:09:12,430 --> 00:09:14,380
-maybe it's eight lines of code.
+mungkin hanya delapan baris code.
 
 168
 00:09:14,380 --> 00:09:18,520
-But this is a well
-used, it has been around
+Tapi ini banyak sekali
+digunakan, sudah ada
 
 169
 00:09:18,520 --> 00:09:22,670
-for a while, symmetric
-key cipher that
+sejak lama, enkripsi 
+kunci simetri yang
 
 170
 00:09:22,670 --> 00:09:27,020
-runs in 128-bit mode as
-well as 256-bit mode.
+berjalan di mode 128 bit dan
+juga berjalan di mode 256bit.
 
 171
 00:09:27,020 --> 00:09:30,410
-And it's, like I said,
-a few lines of code.
+dan itu, seperti yang saya 
+katakakn, beberapa baris kode.
 
 172
 00:09:30,410 --> 00:09:34,370
-And you'll see operations
-like this, permutations.
+dan Anda akan melihat operasi 
+seperti ini, yaitu permutasi.
 
 173
 00:09:34,370 --> 00:09:37,720
-And you'll see hat symbols
-if you see a C program, which
+dan anda akan melihat simbol topi (^)
+jika anda melihat program berbahasa C, di mana
 
 174
 00:09:37,720 --> 00:09:39,140
-is exclusive OR.
+adalah XOR.
 
 175
 00:09:39,140 --> 00:09:42,260
-And you can see the
-encryption and the decryption
+Dan anda bisa melihat 
+enkripsi dan deskripsi
 
 176
 00:09:42,260 --> 00:09:43,840
-are identical in implementation.
+merupakan hal yang identik di dalam implementasinya.
 
 177
 00:09:43,840 --> 00:09:46,500
-You're just going to run it
-one way, and you run it again.
+Anda hanya akan menjalankannya satu arah,
+dan Anda menjalankannya lagi.
 
 178
 00:09:46,500 --> 00:09:49,040
-And you get back the result.
-Because these permutations
+dan Anda mendapatkan hasilnya.
+Karena permutasi ini
 
 179
 00:09:49,040 --> 00:09:50,060
-are reversible.
+bisa di dikembalikan.
 
 180
 00:09:50,060 --> 00:09:52,080
-And the hats are reversible.
+dan topi juga bisa di kembalikan (bolak balik)
 
 181
 00:09:52,080 --> 00:09:54,880
-And they're all signed
-integers, so you're just
+Dan itu semua bilangan bulat bertanda
+(positif & negatif), jadi Anda
 
 182
 00:09:54,880 --> 00:09:55,940
-sort of adding them up.
+hanya menjumlahkan mereka.
 
 183
 00:09:55,940 --> 00:09:58,220
-And it's just
-complement arithmetic,
+Dan ini hanya
+komplemen aritmatika,
 
 184
 00:09:58,220 --> 00:10:00,140
-so that looks the same as well.
+jadi akan terlihat sama juga.
 
 185
 00:10:00,140 --> 00:10:02,440
-So I encourage you to
-go take a look at AES.
+Jadi saya menyarankan Anda untuk
+melihat lebih dalam AES.
 
 186
 00:10:02,440 --> 00:10:04,500
-I'm not going to
-spend more time on it.
+Saya tidak akan menghabiskan
+banyak waktu untuk itu.
 
 187
 00:10:04,500 --> 00:10:09,390
-The key idea here is of
-symmetry and reversibility.
+Kunci dari ide ini terletak pada
+simetri dan kemampuan untuk dibalik (reversibility).
 
 188
 00:10:09,390 --> 00:10:10,944
-We're going to move
-away from that.
+Kita meninggalkan
+hal tersebut.
 
 189
 00:10:10,944 --> 00:10:12,360
-Clearly, we didn't
-talk about that
+Jelas, kita tidak
+berbicara tentang hal tersebut
 
 190
 00:10:12,360 --> 00:10:14,720
-when we talked about one way
-hash functions, et cetera.
+saat kita berbicara tentang fungsi hash
+satu arah, dan sebagainya.
 
 191
 00:10:14,720 --> 00:10:18,500
-That was a different situation
-where we had no secrecy.
+Itu merupakan sebuah situasi yang berbeda
+di mana kita tidak memiliki kerahasiaan.
 
 192
 00:10:18,500 --> 00:10:21,770
-But here, we wanted symmetry.
+Tapi di sini, kita menginginkan simetri.
 
 193
 00:10:21,770 --> 00:10:23,560
-The big question
-that you would ask
+Pertanyaan besar
+Anda akan tanyakan
 
 194
 00:10:23,560 --> 00:10:26,590
-and you should ask yourself
-when you see this, you say,
+dan Anda baiknya bertanya pada diri sendiri
+saat Anda melihat ini, Anda berkata,
 
 195
 00:10:26,590 --> 00:10:27,470
-OK great.
+Oke bagus.
 
 196
 00:10:27,470 --> 00:10:30,810
-I can build symmetric key
-encryption algorithms.
+Saya dapat membangun algoritme
+enkripsi kunci simetri
 
 197
 00:10:30,810 --> 00:10:32,790
-They're actually, I would
-say, somewhat easier
+Mereka sebenarnya, menurut
+saya, lebih mudah
 
 198
 00:10:32,790 --> 00:10:36,020
-to do than to build
-hash functions, which
+untuk dilakukan daripada membangun
+fungsi hash, yang
 
 199
 00:10:36,020 --> 00:10:39,560
-have a whole lot of more
-interesting properties
+mempunyai banyak sekali
+properti-properti yang menarik
 
 200
 00:10:39,560 --> 00:10:43,260
-and hard to obtain properties
-like collusion resistance.
+dan sulit untuk mendapatkan properti
+seperti (collision) resistance
 
 201
 00:10:43,260 --> 00:10:48,470
-But the question really
-is how do Alice and Bob
+tetapi pertanyaanya adalah
+bagaimana cara Alice dan Bob
 
 202
 00:10:48,470 --> 00:10:50,950
-share the secret key, k?
+berbagi kunci rahasia, k?
 
 203
 00:10:50,950 --> 00:10:52,040
-So you need that.
+Jadi Anda membutuhkannya.
 
 204
 00:10:52,040 --> 00:10:54,770
-You need this 128-bit
-number in order
+Anda membutuhkan angka 128-bit 
+ini agar 
 
 205
 00:10:54,770 --> 00:10:58,750
-for there to be a channel,
-a secure channel, that Alice
+terdapat sebuah saluran,
+saluran aman, di mana Alice
 
 206
 00:10:58,750 --> 00:11:02,570
-can communicate to Bob
-with and vice verse.
+dapat berkomunikasi dengan Bob
+dan sebaliknya.
 
 207
 00:11:02,570 --> 00:11:05,320
-And so now you could say
-Alice sends Bob a letter.
+Jadi sekarang Anda dapat berkata
+Alice mengirimkan Bob sebuah surat.
 
 208
 00:11:05,320 --> 00:11:09,000
-But you know, mal could
-intercept that letter.
+Tetapi Anda tahu, Mal dapat
+mecegat pesan tersebut.
 
 209
 00:11:09,000 --> 00:11:12,930
-And even worse, what wants
-to do is look at the letter,
+dan yang lebih buruk lagi, adalah 
+melihat surat tersebut,
 
 210
 00:11:12,930 --> 00:11:15,290
-actually deliver
-the letter, which
+mengirimkan pesan
+yang sama, yang
 
 211
 00:11:15,290 --> 00:11:20,920
-is the best thing for
-him, and Alice and Bob
+adalah hal terbaik untuk
+nya, dan Alice dan Bob
 
 212
 00:11:20,920 --> 00:11:22,750
-think that they have
-a secure channel.
+berpikir bahwa mereka telah
+memiliki saluran aman.
 
 213
 00:11:22,750 --> 00:11:25,360
-That's sort of best case
-scenario for mal, right?
+Hal tersebut adalah semacam
+skenario terbaik untuk mal, benar?
 
 214
 00:11:25,360 --> 00:11:29,320
-So you could have mal
-in the middle here.
+Jadi Anda bisa memiliki
+mal di tengah sini.
 
 215
 00:11:29,320 --> 00:11:33,050
-And you've got to worry
-about stuff like that.
+Dan anda harus khawatir
+tentang hal seperti itu.
 
 216
 00:11:33,050 --> 00:11:39,050
-So key exchange, let's move
-on to talk about key exchange.
+Jadi pertukaran kunci, mari kita lanjutkan 
+pembicaraan tentang pertukaran kunci.
 
 217
 00:11:46,445 --> 00:12:00,060
-And how does the secret
-key k get shared?
+Dan bagaimana kunci 
+rahasia k dapat dibagikan?
 
 218
 00:12:00,060 --> 00:12:03,980
-You can't put this out
-on a website, right?
+Anda tidak bisa meletakkan
+ini di situs web, bukan?
 
 219
 00:12:03,980 --> 00:12:06,750
-So it has to be
-the case, sharing
+Jadi seharusnya, 
+berbagi
 
 220
 00:12:06,750 --> 00:12:12,200
-is something that has to
-be secure in the sense
+adalah sesuatu yang harus
+aman dalam artian
 
 221
 00:12:12,200 --> 00:12:14,730
-that there can't be
-any eavesdroppers.
+bahwa tidak boleh
+ada penyadap.
 
 222
 00:12:14,730 --> 00:12:20,195
-So here's my favorite example
-of a puzzle that most of you
+Ini adalah contoh favorit saya
+dari teka-teki yang kebanyakan dari Anda
 
 223
 00:12:20,195 --> 00:12:23,170
-have probably heard about.
+mungkin pernah mendengarnya.
 
 224
 00:12:23,170 --> 00:12:26,800
-But those of you who haven't,
-it's really pretty cool.
+Tapi bagi Anda yang belum,
+ini sangat keren.
 
 225
 00:12:26,800 --> 00:12:32,700
-And those of you who have, it's
-still pretty cool and worth
+Dan di antara Anda yang sudah, ini
+masih terlihat sangat bagus dan bermakna
 
 226
 00:12:32,700 --> 00:12:33,790
-recalling.
+untuk diingat.
 
 227
 00:12:33,790 --> 00:12:36,300
-And there's actually
-something that you probably
+Dan sebenarnya
+sesuatu yang Anda mungkin
 
 228
 00:12:36,300 --> 00:12:38,250
-haven't thought about
-very much even if you've
+belum pernah memikirkannya
+secara mendalam bahkan jika Anda pernah
 
 229
 00:12:38,250 --> 00:12:39,450
-heard about this puzzle.
+mendengar teka-teki ini.
 
 230
 00:12:39,450 --> 00:12:42,480
-That's the mathematical
-assumption made
+Itu adalah asumsi
+matematika yang dibuat
 
 231
 00:12:42,480 --> 00:12:44,080
-in the solution of this puzzle.
+di dalam solusi untuk teka-teki ini.
 
 232
 00:12:44,080 --> 00:12:45,930
-That will be interesting to you.
+Itu akan menarik bagi Anda.
 
 233
 00:12:45,930 --> 00:12:47,980
-But the puzzle is
-a pirate puzzle.
+Tetapi teka-teki itu adalah
+teka-teki tentang bajak laut.
 
 234
 00:12:47,980 --> 00:12:50,050
-So you've got Alice and Bob.
+Jadi Anda punya Alice dan Bob.
 
 235
 00:12:50,050 --> 00:12:51,900
-Let's call it the
-Caribbean, because that's
+Sebut saja itu
+Karibia, karena itu adalah
 
 236
 00:12:51,900 --> 00:12:53,740
-my favorite ocean.
+lautan favorit saya.
 
 237
 00:12:53,740 --> 00:12:56,896
-And Alice and Bob are in
-two different islands.
+Dan Alice dan Bob berada di
+dua pulau yang berbeda.
 
 238
 00:12:56,896 --> 00:12:59,020
-And we all know there are
-pirates in the Caribbean,
+Dan kita semua tahu ada beberapa
+bajak laut di Karibia,
 
 239
 00:12:59,020 --> 00:13:01,600
-right?
+benar?
 
 240
 00:13:01,600 --> 00:13:06,140
-And so Alice and Bob want to
-communicate with each other.
+Jadi Alice dan Bob ingin
+berkomunikasi satu sama lain.
 
 241
 00:13:06,140 --> 00:13:12,090
-And what Alice has are a bunch
-of boxes and locks and keys.
+Dan yang dimiliki Alice adalah sekumpulan
+kotak dan gembok serta kunci.
 
 242
 00:13:14,930 --> 00:13:19,150
-She's got the keys for
-her locks and nothing else
+Dia memiliki kunci untuk
+gembok milik dia saja
 
 243
 00:13:19,150 --> 00:13:22,980
-and the same thing with Bob.
+dan sama halnya dengan Bob.
 
 244
 00:13:22,980 --> 00:13:30,460
-So Bob has boxes, locks,
-keys for his locks
+Jadi Bob memiliki kotak, gembok,
+kunci untuk gembok miliknya
 
 245
 00:13:30,460 --> 00:13:32,360
-that he can put on his boxes.
+sehingga dia dapat menyimpan dalam kotak miliknya.
 
 246
 00:13:32,360 --> 00:13:36,690
-And in this case, Alice wants
-to send a message to Bob.
+Dan dalam kasus ini, Alice ingin
+mengirim pesan kepada Bob.
 
 247
 00:13:36,690 --> 00:13:39,110
-And Alice wants to
-exchange a key with Bob,
+Dan Alice ingin 
+bertukar kunci dengan Bob,
 
 248
 00:13:39,110 --> 00:13:43,770
-so they can eventually
-communicate in a secure way
+sehingga mereka akhirnya dapat
+berkomunikasi secara aman
 
 249
 00:13:43,770 --> 00:13:47,050
-regardless of the pirates or
-whoever else is listening.
+tanpa peduli bajak laut atau
+siapapun mendengarnya.
 
 250
 00:13:47,050 --> 00:13:49,852
-So the problem here, of
-course, is that if you just
+Jadi masalahnya di sini adalah,
+tentu saja, hanya jika Anda ingin
 
 251
 00:13:49,852 --> 00:13:52,310
-send a message on a boat-- so
-the pirates are kind of nice,
+mengirim sebuah pesan pada perahu-- jadi
+para bajak laut sebenarnya baik,
 
 252
 00:13:52,310 --> 00:13:58,260
-in a way, that they
-will deliver messages.
+dalam satu hal, mereka akan
+mengirimkan pesan.
 
 253
 00:13:58,260 --> 00:14:01,730
-But they are curious, right?
+Tetapi mereka akan penasaran, benar?
 
 254
 00:14:01,730 --> 00:14:03,000
-So they're very curious.
+Jadi mereka akan sangat pensaran.
 
 255
 00:14:03,000 --> 00:14:04,654
-And they will open up boxes.
+Dan mereka akan membuka kotak tersebut.
 
 256
 00:14:04,654 --> 00:14:06,820
-And so that's supposed to
-be a boat, by the way, not
+Dan jadi itu seharusnya adalah
+perahu, ngomong-ngomong, bukan 
 
 257
 00:14:06,820 --> 00:14:10,880
-a box, a little mast there.
+suatu kotak, sedikit tiang kapal disana
 
 258
 00:14:10,880 --> 00:14:14,150
-So I'm not a sailor.
+Jadi saya bukan seorang pelaut.
 
 259
 00:14:14,150 --> 00:14:18,830
-But you have these boxes that
-are going to get delivered.
+Tetapi, kalian memiliki kotak-kotak ini 
+yang akan diantar.
 
 260
 00:14:18,830 --> 00:14:20,740
-And the deal is this.
+dan ini adalah kesepakatannya.
 
 261
 00:14:20,740 --> 00:14:23,376
-If there's an open box, the
-pirate's will open the box.
+jika ada satu kotak yang terbuka, 
+bajak laut yang akan membuka kotaknya.
 
 262
 00:14:23,376 --> 00:14:25,584
-And if there's any message
-in it, they might read it,
+dan jika ada pesan di dalam kotak 
+itu, mereka mungkin akan membacanya,
 
 263
 00:14:25,584 --> 00:14:26,760
-they might throw it away.
+atau mereka mungkin membuangnya.
 
 264
 00:14:26,760 --> 00:14:32,550
-So clearly, a secret
-key can be exchanged
+Jadi jelas sekali, sebuah 
+kunci rahasia bisa ditukar
 
 265
 00:14:32,550 --> 00:14:36,150
-by just putting a box
-with a message in it
+hanya dengan hanya meletakkan kotak 
+yang didalamnya ada pesan
 
 266
 00:14:36,150 --> 00:14:38,350
-if you don't lock it.
+jika anda tidak menguncinya.
 
 267
 00:14:38,350 --> 00:14:43,220
-They will not be able to
-open, they'll not touch,
+Mereka tidak akan bisa 
+membukanya, tidak bisa menyentuh,
 
 268
 00:14:43,220 --> 00:14:47,040
-and they will
-deliver a locked box.
+dan mereka akan 
+mengirimkan kotak yang terkunci.
 
 269
 00:14:47,040 --> 00:14:51,390
-But if they ever see a
-key, they'll keep it.
+Tetapi jika mereka melihat 
+sebuah kunci, mereka akan menyimpannya.
 
 270
 00:14:51,390 --> 00:14:53,435
-If they ever see kind
-of a key on the boat,
+Jika mereka pernah melihat 
+semacam sebuah kunci di kapal,
 
 271
 00:14:53,435 --> 00:14:54,810
-they'll just grab
-it and keep it.
+mereka akan langsung 
+mengambilnya dan menyimpannya.
 
 272
 00:14:54,810 --> 00:14:57,018
-And then the next time
-around, they see a locked box,
+Dan kemudian pada waktu berikutnya, 
+mereka melihat sebuah kotak terkunci,
 
 273
 00:14:57,018 --> 00:15:00,140
-they'll stick the key
-in and try and open it.
+mereka akan memasukkan kunci 
+dan mencoba membukanya.
 
 274
 00:15:00,140 --> 00:15:01,970
-All right.
+Baiklah.
 
 275
 00:15:01,970 --> 00:15:06,340
-So how do Alice and Bob
-securely exchange a secret
+Jadi bagaimana Alice dan Bob 
+dengan aman bertukar rahasia
 
 276
 00:15:06,340 --> 00:15:09,600
-where security is based
-on this notion of piracy,
+di mana keamanan didasarkan 
+pada gagasan pembajakan ini,
 
 277
 00:15:09,600 --> 00:15:16,980
-I guess, with the pirates having
-a certain amount of capability
+Saya kira, dengan bajak laut
+memiliki sejumlah kemampuan
 
 278
 00:15:16,980 --> 00:15:20,610
-in terms of storing keys,
-and opening up the locks,
+dalam hal menyimpan kunci,
+dan membuka kunci,
 
 279
 00:15:20,610 --> 00:15:23,460
-but they will not
-touch a locked box?
+tetapi mereka tidak akan 
+menyentuh kotak yang terkunci?
 
 280
 00:15:23,460 --> 00:15:24,635
-All right.
+Baiklah.
 
 281
 00:15:24,635 --> 00:15:25,510
-So that's the puzzle.
+Jadi itulah teka-tekinya.
 
 282
 00:15:25,510 --> 00:15:27,790
-How many of you have heard
-of this puzzle before?
+Berapa banyak dari kalian yang sudah mendengar
+tentang teka-teki ini sebelumnya?
 
 283
 00:15:27,790 --> 00:15:30,090
-So all of you keep quiet.
+Jadi Anda semua tetap diam.
 
 284
 00:15:30,090 --> 00:15:34,350
-Someone who hasn't heard
-of this puzzle before,
+Seseorang yang belum pernah mendengar
+tentang teka-teki ini sebelumnya,
 
 285
 00:15:34,350 --> 00:15:39,770
-think for a few seconds here and
-see if a solution occurs to you
+coba pikirkan sejenak dan
+lihat apakah ada sebuah solusi terpikirkan oleh Anda
 
 286
 00:15:39,770 --> 00:15:43,490
-with respect to going back and
-forth-- so that's the hint,
+Dalam hal bolak-balik--
+jadi itulah petunjuknya,
 
 287
 00:15:43,490 --> 00:15:47,980
-going back and forth-- and
-being able to securely exchange
+bolak-balik-- dan
+dapat secara aman menukarkan
 
 288
 00:15:47,980 --> 00:15:51,660
-a message, which could be a
-128-bit secret key written
+sebuah pesan, yang bisa berupa
+kunci rahasia 128-bit tertulis
 
 289
 00:15:51,660 --> 00:15:55,060
-on a little note
-between Alice and Bob.
+pada catatan kecil
+antara Alice dan Bob.
 
 290
 00:15:55,060 --> 00:15:55,560
-Yeah?
+Ya?
 
 291
 00:15:55,560 --> 00:15:56,578
-Back there.
+Di belakang sana.
 
 292
 00:15:56,578 --> 00:16:00,780
-AUDIENCE: Are they allowed
-to pass locks such that--
+AUDIENS: Apakah mereka diizinkan
+untuk melewatkan kunci-kuncinya sedemikian--
 
 293
 00:16:00,780 --> 00:16:02,530
-SRINIVAS DEVADAS: So
-if you see it locked,
+SRINIVAS DEVADAS: Jadi
+jika Anda lihat itu terkunci,
 
 294
 00:16:02,530 --> 00:16:04,510
-they'll throw away
-the lock, too.
+Mereka akan membuang
+gemboknya juga.
 
 295
 00:16:04,510 --> 00:16:08,370
-If the lock is on
-the box, then sure,
+Jika gemboknya berada
+pada kotak, tentu saja,
 
 296
 00:16:08,370 --> 00:16:10,340
-they will deliver that box.
+mereka akan mengirim kotak itu.
 
 297
 00:16:10,340 --> 00:16:12,610
-But if the key is
-outside of that box,
+Tetapi jika kunci berada
+di luar kotak itu,
 
 298
 00:16:12,610 --> 00:16:13,960
-then they'll keep the key.
+maka mereka akan menyimpan kuncinya.
 
 299
 00:16:21,990 --> 00:16:24,270
-No-- this is a difficult puzzle.
+Tidak-- ini adalah teka-teki yang sulit.
 
 300
 00:16:24,270 --> 00:16:26,246
-Yeah?
+Ya?
 
 301
 00:16:26,246 --> 00:16:29,107
-AUDIENCE: Alice could lock
-the box and send it to Bob.
+AUDIENS: Alice dapat mengunci
+kotak dan mengirimkannya kepada Bob.
 
 302
 00:16:29,107 --> 00:16:30,065
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 303
 00:16:30,065 --> 00:16:34,572
-AUDIENCE: And then Bob
-could also lock the box.
+Penonton: Dan kemudian Bob
+juga dapat mengunci kotaknya.
 
 304
 00:16:34,572 --> 00:16:35,900
-SRINIVAS DEVADAS: Yeah.
+SRINIVAS DEVADAS: Ya.
 
 305
 00:16:35,900 --> 00:16:37,090
-And then?
+Kemudian?
 
 306
 00:16:37,090 --> 00:16:40,801
-At that point-- no,
-you're on the right track.
+Pada poin itu-- tidak,
+Anda berada pada jalur yang tepat.
 
 307
 00:16:40,801 --> 00:16:41,300
-Keep going.
+Lanjutkan.
 
 308
 00:16:41,300 --> 00:16:43,740
-Just push it a little more.
+Lanjutkanlah sedikit lagi.
 
 309
 00:16:43,740 --> 00:16:46,492
-Couple of more boat
-rides and we're done.
+Naik perahu beberapa lagi
+dan kita akan selesai.
 
 310
 00:16:46,492 --> 00:16:48,456
-Yeah.
+Ya
 
 311
 00:16:48,456 --> 00:16:52,501
-AUDIENCE: And then
-if Bob sends--
+AUDIENS: Kemudian
+jika Bob mengirim--
 
 312
 00:16:52,501 --> 00:16:54,750
-SRINIVAS DEVADAS: So there's
-now two locks on the box.
+SRINIVAS DEVADAS: Jadi 
+sekarang ada dua gembok pada kotak.
 
 313
 00:16:54,750 --> 00:16:55,590
-AUDIENCE: Yes.
+AUDIENS: Ya.
 
 314
 00:16:55,590 --> 00:16:58,562
-SRINIVAS DEVADAS: And Bob
-has two locks on the box.
+SRINIVAS DEVADAS: Dan Bob
+memiliki 2 gembok pada kotak.
 
 315
 00:16:58,562 --> 00:17:00,020
-And so what's Bob
-going to do next?
+Dan jadi apa yang Bob
+akan lakukan selanjutnya?
 
 316
 00:17:00,020 --> 00:17:03,742
-What's the logical thing
-for Bob to do next?
+Apa hal yang logis 
+untuk Bob lakukan selanjutnya?
 
 317
 00:17:03,742 --> 00:17:05,089
-AUDIENCE: Send it back to Alice.
+AUDIENS: Mengirimkan kembali kepada Alice.
 
 318
 00:17:05,089 --> 00:17:06,630
 SRINIVAS DEVADAS:
-Send it back Alice.
+Mengirimkan kembali Alice.
 
 319
 00:17:06,630 --> 00:17:10,300
-And now the key's inside.
+Dan sekarang kuncinya berada di dalam.
 
 320
 00:17:10,300 --> 00:17:14,170
-Alice now sees two
-locks on the box.
+Alice sekarang melihat dua
+gembok pada kotak.
 
 321
 00:17:14,170 --> 00:17:16,420
-And one of the locks is Bobs.
+Dan salah satu gembok adalah milik Bob.
 
 322
 00:17:16,420 --> 00:17:17,180
-And other is?
+Dan yang satunya adalah?
 
 323
 00:17:17,180 --> 00:17:18,069
-AUDIENCE: Hers.
+AUDIENS: Miliknya (Alice).
 
 324
 00:17:18,069 --> 00:17:18,690
-SRINIVAS DEVADAS: Is hers.
+SRINIVAS DEVADAS: itu miliknya.
 
 325
 00:17:18,690 --> 00:17:19,380
-AUDIENCE: She can unlock it.
+AUDIENS: Dia bisa membuka kucinya.
 
 326
 00:17:19,380 --> 00:17:21,046
-SRINIVAS DEVADAS: She
-can unlock the box
+SRINIVAS DEVADAS: Ia 
+bisa membuka kuncinya
 
 327
 00:17:21,046 --> 00:17:23,540
-and send it back to Bob.
+dan mengirimkannya kembali ke Bob.
 
 328
 00:17:23,540 --> 00:17:27,650
-And all of this time, the only
-thing that's gone in transit
+Dan selama ini, satu-satunya
+hal yang hilang di perjalanan
 
 329
 00:17:27,650 --> 00:17:29,750
-is a locked box.
+adalah kotak yang terkunci
 
 330
 00:17:29,750 --> 00:17:32,050
-No keys have gone
-into in transit,
+Tidak ada kunci yang hilang
+dalam transit,
 
 331
 00:17:32,050 --> 00:17:34,400
-whether they're inside
-the box or wherever.
+apakah mereka ada di dalam
+kotak atau dimanapun.
 
 332
 00:17:34,400 --> 00:17:38,720
-But the only thing that's
-moved is a locked box.
+Tapi satu-satunya hal yang
+dipindahkan adalah kotak yang terkunci.
 
 333
 00:17:38,720 --> 00:17:39,410
-So that's good.
+Jadi itu bagus.
 
 334
 00:17:39,410 --> 00:17:40,550
-You're exactly right.
+Anda tepat sekali.
 
 335
 00:17:40,550 --> 00:17:45,110
-So that gets you a Frisbee.
+Jadi itu akan memberi Anda sebuah Frisbee.
 
 336
 00:17:45,110 --> 00:17:46,930
-Whoops, sorry.
+Ups, maaf.
 
 337
 00:17:46,930 --> 00:17:48,710
-We need a secure exchange there.
+Kita membutuhkan pertukaran yang aman di sana.
 
 338
 00:17:48,710 --> 00:17:50,730
-Yeah, that's good.
+Ya, itu bagus.
 
 339
 00:17:50,730 --> 00:17:54,250
-So that is exactly right.
+Jadi itu sangat tepat.
 
 340
 00:17:54,250 --> 00:18:05,610
-So just to recap, Alice
-locks box with KA,
+Untuk merekap, Alice
+mengunci kotak dengan KA,
 
 341
 00:18:05,610 --> 00:18:09,980
-and that's the key for
-the lock, sends it to Bob.
+Dan itulah kunci untuk 
+gemboknya, mengirimkannya ke Bob.
 
 342
 00:18:09,980 --> 00:18:18,320
-Bob locks box with
-KB, sends it to Alice.
+Bob mengunci kotak dengan
+KB, mengirimkannya ke Alice.
 
 343
 00:18:18,320 --> 00:18:24,220
-And Alice unlocks--
-oh, I should've said
+Dan Alice membuka--
+oh, seharusnya saya katakan
 
 344
 00:18:24,220 --> 00:18:27,100
-that Alice puts message in box.
+Alice menyimpan pesan di dalam kotak.
 
 345
 00:18:32,590 --> 00:18:36,630
-And that message has the
-secret key inside of it.
+Dan pesan itu mempunyai
+kunci rahasia di dalamnya.
 
 346
 00:18:36,630 --> 00:18:45,840
-Alice unlocks KA and
-sends box to Bob.
+Alice membuka KA dan
+mengirim kotak kepada Bob.
 
 347
 00:18:45,840 --> 00:18:56,130
-And then Bob unlocks
-KB and reads message.
+Dan selanjutnya Bob membuka
+KB dan membaca pesan.
 
 348
 00:18:56,130 --> 00:18:57,470
-So that's good.
+Jadi itu bagus.
 
 349
 00:18:57,470 --> 00:18:59,870
-That's all good.
+Itu semua bagus.
 
 350
 00:18:59,870 --> 00:19:03,480
-Let's look at it a
-little more deeply
+Mari kita lihat ini
+sedikit lebih dalam lagi
 
 351
 00:19:03,480 --> 00:19:08,170
-and think about it from a
-mathematical standpoint, not
+dan berpikir tentang ini dari
+sudut pandang matematika, bukan
 
 352
 00:19:08,170 --> 00:19:09,330
-a physical standpoint.
+dari sudut pandang fisika.
 
 353
 00:19:09,330 --> 00:19:11,990
-You could think about it from
-a physical standpoint as well.
+Anda bisa memikirkan tentang ini
+dari sudut pandang fisika juga.
 
 354
 00:19:11,990 --> 00:19:18,050
-What is the relationship between
-this locking, this sequence,
+Apa hubungan antara 
+penguncian ini, urutan ini,
 
 355
 00:19:18,050 --> 00:19:22,550
-in this case a pair of
-locks, that we require here
+dalam hal ini sepasang
+kunci, yang kita butuhkan di sini
 
 356
 00:19:22,550 --> 00:19:25,310
-in order for this to
-physically make sense?
+agar secara
+fisik masuk akal?
 
 357
 00:19:25,310 --> 00:19:25,810
@@ -1680,312 +1680,312 @@ s
 
 358
 00:19:25,810 --> 00:19:27,435
-I mean, there's
-different ways that you
+Maksud saya, ada 
+cara berbeda untuk Anda
 
 359
 00:19:27,435 --> 00:19:29,890
-could add two locks to a box.
+menambahkan dua kunci ke kotak.
 
 360
 00:19:29,890 --> 00:19:32,120
-There's many different ways.
+Ada banyak cara berbeda.
 
 361
 00:19:32,120 --> 00:19:37,440
-One way is to have a box that is
-locked if I look it over here.
+Salah satu caranya adalah memiliki kotak 
+yang terkunci jika saya lihat di sini.
 
 362
 00:19:37,440 --> 00:19:39,630
-And it doesn't open, because
-the lid doesn't open.
+Dan itu tidak terbuka, karena 
+tutupnya tidak terbuka.
 
 363
 00:19:39,630 --> 00:19:41,310
-I've got suitcases like that.
+Saya punya koper seperti itu.
 
 364
 00:19:41,310 --> 00:19:43,549
-And then there could
-be another spot here
+Dan mungkin ada
+tempat lain di sini
 
 365
 00:19:43,549 --> 00:19:44,465
-that looks it as well.
+yang terlihat seperti itu juga.
 
 366
 00:19:47,030 --> 00:19:49,090
-So that could be one way.
+Jadi itu bisa menjadi salah satu cara.
 
 367
 00:19:49,090 --> 00:19:51,800
-Well, what's another
-way of having two locks?
+Jadi, apa cara lain
+untuk memiliki dua kunci?
 
 368
 00:19:51,800 --> 00:19:52,300
-Yeah
+Ya
 
 369
 00:19:52,300 --> 00:19:53,680
-AUDIENCE: Putting
-a box within a box.
+AUDIENS: Meletakkan
+sebuah kotak di dalam kotak.
 
 370
 00:19:53,680 --> 00:19:54,860
-SRINIVAS DEVADAS: Yeah,
-putting a box within a box.
+SRINIVAS DEVADAS: Ya,
+meletakkan sebuah kotak dalam kotak.
 
 371
 00:19:54,860 --> 00:19:56,090
-That's great.
+Itu bagus.
 
 372
 00:19:56,090 --> 00:20:02,270
-So if you put a box within
-a box, then does this work?
+Jadi jika Anda meletakkan sebuah kotak di dalam
+sebuah kotak, lalu apakah ini berfungsi?
 
 373
 00:20:02,270 --> 00:20:04,090
-It doesn't work, right?
+Itu tidak berhasil, bukan?
 
 374
 00:20:04,090 --> 00:20:06,350
-So nested locks
-actually don't work.
+Jadi kunci berlapis
+sebenarnya tidak berhasil.
 
 375
 00:20:06,350 --> 00:20:17,680
-Because what happened here is
-that KA was put first, then KB.
+Karena apa yang terjadi di sini adalah
+bahwa KA disimpan pertama, kemudian KB.
 
 376
 00:20:17,680 --> 00:20:22,730
-And if, in fact, you had
-KA, and then KB out there,
+Dan jika, faktanya, Anda punya
+KA, dan kemudian KB di luar sana,
 
 377
 00:20:22,730 --> 00:20:35,729
-then you can't remove
-KA without removing KB.
+maka Anda tidak dapat menghapus
+KA tanpa menghapus KB.
 
 378
 00:20:35,729 --> 00:20:38,020
-And this would be the case
-where you have nested locks.
+Dan ini akan menjadi kasus
+di mana Anda memiliki kunci berlapis.
 
 379
 00:20:42,180 --> 00:20:44,860
-So the mathematical
-operation that we require
+Jadi operasi 
+matematika yang kita perlukan
 
 380
 00:20:44,860 --> 00:20:48,890
-is commutativity
-between the locks.
+adalah komutatif
+di antara gembok-gembok.
 
 381
 00:20:48,890 --> 00:20:51,010
-And the locks need to commute.
+Dan gembok-gemboknya perlu berpindah.
 
 382
 00:20:51,010 --> 00:20:53,900
-I want to put KA in first.
+Saya ingin meletakkan KA terlebih dahulu.
 
 383
 00:20:53,900 --> 00:20:56,320
-Like I described, the
-physical realization
+Seperti yang saya jelaskan, 
+realisasi fisik 
 
 384
 00:20:56,320 --> 00:20:59,440
-could simply be a suitcase
-with two different positions
+secara sederhana adalah koper
+dengan dua posisi yang berbeda
 
 385
 00:20:59,440 --> 00:21:00,250
-for the two locks.
+untuk dua gembok.
 
 386
 00:21:00,250 --> 00:21:03,760
-And any one of those
-positions locks the suitcase.
+Dan salah satu dari
+posisi itu mengunci koper.
 
 387
 00:21:03,760 --> 00:21:05,820
-So you put KA here, KB here.
+Jadi Anda meletakkan KA di sini, KB di sini.
 
 388
 00:21:05,820 --> 00:21:08,400
-And then you can
-take KA out, right?
+Dan selanjutnya Anda dapat
+mengeluarkan KA, benar?
 
 389
 00:21:08,400 --> 00:21:10,860
-And it's still locked,
-because you have KB.
+Dan itu tetap terkunci,
+karena Anda mempunyai KB.
 
 390
 00:21:10,860 --> 00:21:20,130
-So this commutativity between
-the locks and essentially
+Jadi sifat komutatif antara
+kunci dan dasarnya
 
 391
 00:21:20,130 --> 00:21:24,200
-the keys is what's required.
+kuncinya adalah apa yang dibutuhkan.
 
 392
 00:21:27,490 --> 00:21:30,930
-And so now, let's
-move away from pirates
+Dan sekarang, mari
+berpindah dari bajak laut
 
 393
 00:21:30,930 --> 00:21:33,930
-and go into the
-cryptography domain,
+dan masuk ke dalam
+domain kriptografi,
 
 394
 00:21:33,930 --> 00:21:36,670
-pure mathematical
-domain, and see
+domain matematika murni,
+dan lihat
 
 395
 00:21:36,670 --> 00:21:38,740
-how this turns
-into what's called
+bagaimana ini mengubah
+menjadi apa yang disebut
 
 396
 00:21:38,740 --> 00:21:43,130
-the Diffie-Hellman key exchange,
-which is a key exchange
+pertukaran kunci Diffie-Hellman,
+yang merupakan pertukaran kunci
 
 397
 00:21:43,130 --> 00:21:48,720
-algorithm or a protocol that
-under certain conditions
+algoritme atau sebuah protokol yang
+dalam kondisi tertentu
 
 398
 00:21:48,720 --> 00:21:50,590
-give you exactly
-what you see here.
+memberi Anda persis
+apa yang ingin Anda lihat di sini.
 
 399
 00:21:50,590 --> 00:21:52,420
-It gives you a
-secure key exchange.
+Itu memberi Anda sebuah
+pertukaran kunci yang aman.
 
 400
 00:21:52,420 --> 00:21:55,410
-And there's one issue
-associated with it,
+Dan ada satu masalah
+yang berhubungan dengan itu,
 
 401
 00:21:55,410 --> 00:21:58,020
-and that'll be kind of clear
-once we write it out here,
+dan masalah itu akan menjadi jelas
+ketika kita menulis itu di sini,
 
 402
 00:21:58,020 --> 00:21:59,720
-that we'll get back to.
+yang akan kita bahas kembali.
 
 403
 00:21:59,720 --> 00:22:02,430
-But Diffie-Hellman key
-exchange assumes that you
+Tetapi pertukaran kunci
+Diffie-Hellman memberi asumsi bahwa Anda
 
 404
 00:22:02,430 --> 00:22:04,420
-have commutative locks.
+memiliki gembok komutatif.
 
 405
 00:22:04,420 --> 00:22:09,930
-And this is how it works.
+Dan inilah bagaimana cara kerjanya.
 
 406
 00:22:09,930 --> 00:22:16,040
-You'll see what commutes
-when I give you the equations
+Anda akan melihat apa yang terganti
+ketika saya memberi Anda persamaan
 
 407
 00:22:16,040 --> 00:22:18,760
-associated with
-Diffie-Hellman key exchange.
+yang terhubung dengan
+pertukaran kunci Diffie-Hellman.
 
 408
 00:22:18,760 --> 00:22:25,100
-And this is also
-described in the '70s.
+Dan hal ini juga
+dijelaskan pada tahun 70-an.
 
 409
 00:22:25,100 --> 00:22:29,630
-So what we're going to do is
-we're going to work in a finite
+Jadi apa yang akan kita lakukan adalah
+kita akan bekerja pada bidang
 
 410
 00:22:29,630 --> 00:22:33,120
-field Fp*.
+terbatas Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
-And the finite field
-means that we're
+Dan bidang terbatas 
+berarti kita
 
 412
 00:22:36,450 --> 00:22:41,820
-going to be doing mod
-p, where p is prime.
+akan melakukan mod
+p, di mana p adalah bilangan prima.
 
 413
 00:22:41,820 --> 00:22:45,060
-And the star means we're
-going to be only looking
+Dan bintang berarti kita
+hanya akan melihat
 
 414
 00:22:45,060 --> 00:22:48,930
-at invertible elements only.
+elemen yang bisa dibalik saja.
 
 415
 00:22:48,930 --> 00:22:52,449
-So we drop the
-nonvertible elements.
+Jadi kita membuang
+elemen yang tidak bisa dibalik.
 
 416
 00:22:52,449 --> 00:22:54,240
-These things aren't
-particularly important.
+Hal-hal ini 
+tidak terlalu penting.
 
 417
 00:22:57,470 --> 00:22:59,560
-And so we'll drop 0.
+Dan jadi kita akan buang 0.
 
 418
 00:22:59,560 --> 00:23:03,480
-And we'll be looking
-at 1, 2, to p minus 1.
+Dan kita akan melihat 
+1, 2, hingga p dikurangi 1.
 
 419
 00:23:03,480 --> 00:23:05,330
-So all the numbers
-that you see are going
+Jadi semua angka 
+yang Anda lihat akan menjadi
 
 420
 00:23:05,330 --> 00:23:07,690
-to be 1 through p minus 1.
+1 sampai p minus 1.
 
 421
 00:23:07,690 --> 00:23:14,440
-Now, what is the analog
-all this protocol
+Sekarang, apa analogi 
+dari semua protokol ini
 
 422
 00:23:14,440 --> 00:23:20,120
-that Alice and Bob,
-in our pirate puzzle,
+yang dioperasikan atau 
+dijalankan oleh Alice dan Bob,
 
 423
 00:23:20,120 --> 00:23:23,070
-operated on or ran?
+dalam teka-teki bajak laut kita?
 
 424
 00:23:23,070 --> 00:23:27,070
