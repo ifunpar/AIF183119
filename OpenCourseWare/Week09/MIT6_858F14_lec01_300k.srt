@@ -3154,109 +3154,109 @@ di dalam asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
-that you'll manage to
-keep all 300 certificate
+bahwa Anda akan mampu
+menjaga seluruh 300 otoritas
 
 667
 00:27:38,870 --> 00:27:42,420
-authorities spread out around
-the globe perfectly secure.
+sertifikat yang tersebar di seluruh
+dunia dengan benar-benar aman.
 
 668
 00:27:42,420 --> 00:27:44,560
-But yet, that's the
-assumption underpinning
+Namun sejauh ini, asumsi tersebut adalah
+asumsi yang mendasari
 
 669
 00:27:44,560 --> 00:27:49,090
-the security mechanism of
-today's SSL protocol used
+mekanisme kamanan dari
+protokol SSL yang digunakan oleh
 
 670
 00:27:49,090 --> 00:27:51,900
-by web browsers.
+peramban saat ini.
 
 671
 00:27:51,900 --> 00:27:56,040
-And there's sort of many
-other, I guess, examples
+Dan terdapat, saya kira,
+contoh-contoh lainnya
 
 672
 00:27:56,040 --> 00:27:58,510
-that are things you might
-not have thought of.
+yang mungkin tidak pernah
+Anda pikirkan.
 
 673
 00:27:58,510 --> 00:28:04,080
-Another sort of amusing example
-from the 1980s was DARPA.
+Contoh lucu lainnya dari 1980an
+adalah DARPA.
 
 674
 00:28:04,080 --> 00:28:07,090
-This defense
-agency, at the time,
+Agensi pertahanan ini,
+pada waktu itu,
 
 675
 00:28:07,090 --> 00:28:10,310
-really wanted to build
-secure operating systems.
+benar-benar ingin membangun
+sistem operasi yang aman.
 
 676
 00:28:10,310 --> 00:28:13,646
-And they actually
-went so far as to get
+Dan mereka benar-benar mencoba
+untuk mendapatkan
 
 677
 00:28:13,646 --> 00:28:15,270
-a bunch of universities
-and researchers
+sekumpulan universitas
+dan peneliti
 
 678
 00:28:15,270 --> 00:28:17,840
-to build secure OS prototypes.
+untuk membangun prototipe SO yang aman.
 
 679
 00:28:17,840 --> 00:28:19,520
-And then they actually
-got a red team,
+Dan kemudian mereka sebenarnya
+mendapatkan sebuah kelompok merah,
 
 680
 00:28:19,520 --> 00:28:23,516
-like a team of bad guys
-pretending to be the attackers,
+seperti sekelompok orang jahat
+yang berpura-pura menjadi penyerang,
 
 681
 00:28:23,516 --> 00:28:25,890
-and told them, well, go break
-into these secure operating
+dan memberitahu mereka, yah,
+bobolah sistem operasi yang
 
 682
 00:28:25,890 --> 00:28:26,930
-systems any way you can.
+aman ini dengan cara yang Anda bisa.
 
 683
 00:28:26,930 --> 00:28:29,300
-We actually want to
-know, is it secure?
+Kita sebenarnya ingin
+tahu, apakah itu aman?
 
 684
 00:28:29,300 --> 00:28:32,322
-And it's kind of amusing,
-some of the surprising ways
+Dan beberapa dari cara
+mengejutkan yang digunakan
 
 685
 00:28:32,322 --> 00:28:33,530
-they compromised the systems.
+mereka untuk membobol sistem cukup lucu.
 
 686
 00:28:33,530 --> 00:28:36,960
-One was that there
-was this OS research
+Salah satunya adalah ada
+sebuah kelompok penelitian
 
 687
 00:28:36,960 --> 00:28:39,072
-team that seemed to have
-a perfectly secure OS,
+SO yang terlihat memiliki
+SO yang benar-benar aman,
 
 688
 00:28:39,072 --> 00:28:40,030
