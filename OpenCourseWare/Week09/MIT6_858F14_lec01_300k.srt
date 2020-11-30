@@ -3373,106 +3373,106 @@ karena mekanisme
 
 712
 00:29:33,290 --> 00:29:35,490
-are the most complicated
-part of the story.
+bagian yang paling rumit
+dari cerita.
 
 713
 00:29:35,490 --> 00:29:39,225
-It's the entirety of all
-the software and hardware
+Itu adalah keseluruhan tentang semua
+perangkat lunak dan perangkat keras
 
 714
 00:29:39,225 --> 00:29:41,000
-and all that sort
-of system components
+dan semua itu mengurutkan
+komponen sistem
 
 715
 00:29:41,000 --> 00:29:45,400
-that make up what is trying to
-enforce your security policy.
+yang membentuk apa yang dicoba untuk
+melaksanakan kebijakan keamanaan Anda.
 
 716
 00:29:45,400 --> 00:29:49,960
-And there's no end of ways
-in which mechanisms can fail.
+Dan tidak ada jalan akhir
+dimana mekanisme bisa gagal.
 
 717
 00:29:49,960 --> 00:29:55,070
-And, partly as a result,
-much of this class
+Dan, sebagian sebagai hasilnya,
+banyak dari kelas ini
 
 718
 00:29:55,070 --> 00:29:57,760
-will focus pretty
-heavily on mechanisms
+akan lebih memfokuskan
+pada mekanisme
 
 719
 00:29:57,760 --> 00:30:00,480
-and how do you make
-mechanisms that are secure,
+dan bagaimana Anda membuat
+mekanisme yang aman,
 
 720
 00:30:00,480 --> 00:30:04,450
-that provide correct enforcement
-of security policies.
+yang menyediakan pelaksanaan yang benar
+tentang kebijakan keamanan.
 
 721
 00:30:04,450 --> 00:30:06,930
-And we'll talk about threat
-models and policies as well.
+Dan kita akan berbicara tentang model
+ancaman dan kebijakan juga.
 
 722
 00:30:06,930 --> 00:30:12,010
-But turns out it's much
-easier to make clean,
+Tapi ternyata itu
+lebih mudah untuk dibersihkan,
 
 723
 00:30:12,010 --> 00:30:14,300
-sort of crisp statements
-about mechanisms and ways
+semacam pernyataan yang tajam
+tentang mekanisme dan cara
 
 724
 00:30:14,300 --> 00:30:18,100
-they work and don't work, as
-opposed to policies and threat
+mereka bekerja dan tidak bekerja, sebagai
+pertentangan untuk model kebijakan dan
 
 725
 00:30:18,100 --> 00:30:20,420
-models which, really,
-you have to figure out
+ancaman yang, sangat,
+Anda harus cari tahu
 
 726
 00:30:20,420 --> 00:30:22,190
-how to fit them into
-a particular context
+bagaimana mencocokan mereka ke dalam
+sebuah konteks tertentu
 
 727
 00:30:22,190 --> 00:30:24,980
-where you're using a system.
+dimana Anda menggunakan sebuah sistem.
 
 728
 00:30:24,980 --> 00:30:30,320
-So let's look at some examples
-of, I guess, mechanism bugs.
+Jadi mari kita lihat beberapa contoh,
+Saya rasa, kerusakan mekanisme.
 
 729
 00:30:30,320 --> 00:30:33,280
-One that you might have heard
-in the last couple of days
+Satu dari kalian might mungkin pernah mendengar ini
+dalam beberapa hari terakhir
 
 730
 00:30:33,280 --> 00:30:38,380
-was a problem in the security
-mechanism in Apple's cloud
+adalah sebuah masalah dalam mekanisme
+keamanan di infrastruktur cloud milik Apple
 
 731
 00:30:38,380 --> 00:30:39,610
-infrastructure called iCloud.
+milik Apple yang disebut iCloud.
 
 732
 00:30:42,820 --> 00:30:45,430
-Well actually, any one
-of you that has an iPhone
+Yah sebenarnya, siapapun
+dari Anda yang memiliki sebuah iPhone
 
 733
 00:30:45,430 --> 00:30:47,450
