@@ -3260,12 +3260,12 @@ SO yang benar-benar aman,
 
 688
 00:28:39,072 --> 00:28:40,030
-tapi disusupi.
+tapi dibobol.
 
 689
 00:28:40,030 --> 00:28:42,940
 Dan yang terjadi adalah
-server tempat disimpannya kode
+server tempat di mana kode
 
 690
 00:28:42,940 --> 00:28:44,190
@@ -3275,7 +3275,7 @@ disimpan
 691
 00:28:44,190 --> 00:28:46,070
 adalah mesin pengembangan
-di kantor seseorang
+(development machine) di kantor seseorang
 
 692
 00:28:46,070 --> 00:28:47,270
@@ -3283,8 +3283,8 @@ yang sangat tidak aman.
 
 693
 00:28:47,270 --> 00:28:48,660
-Tapi memiliki seluruh
-kode sumbernya.
+Namun server tersebut memiliki
+seluruh kode sumbernya.
 
 694
 00:28:48,660 --> 00:28:50,500
@@ -3293,7 +3293,7 @@ masuk ke server tersebut.
 
 695
 00:28:50,500 --> 00:28:51,850
-Ini tidak terlindungi dengan baik.
+Server tersebut tidak terlindungi dengan baik.
 
 696
 00:28:51,850 --> 00:28:53,340
@@ -3302,20 +3302,20 @@ dari sistem operasi
 
 697
 00:28:53,340 --> 00:28:54,690
-untuk memperkenalkan pintu belakang (back door).
+untuk membuat sebuah pintu belakang (back door).
 
 698
 00:28:54,690 --> 00:28:57,964
 Lalu, saat peneliti
-membangung sistem operasi mereka,
+membangun sistem operasi mereka,
 
 699
 00:28:57,964 --> 00:28:59,130
-mereka memiliki pintu belakang.
+sistem tersebut memiliki pintu belakang.
 
 700
 00:28:59,130 --> 00:29:00,755
-Dan orang-orang jahat itu
+Dan orang-orang jahat
 dapat masuk.
 
 701
@@ -3358,48 +3358,48 @@ Anda dapat membacanya di sana.
 
 709
 00:29:23,750 --> 00:29:28,580
-Mungkin masalah paling luas
+Mungkin masalah pervasif
 yang muncul,
 
 710
 00:29:28,580 --> 00:29:30,710
-tentu saja, dalam
+tentu saja, ada di dalam
 mekanisme.
 
 711
 00:29:30,710 --> 00:29:33,290
 Dan sebagian, itu
-karena mekanisme
+dikarenakan mekanisme
 
 712
 00:29:33,290 --> 00:29:35,490
-bagian yang paling rumit
-dari cerita.
+adalah bagian yang paling rumit
+dari cerita ini.
 
 713
 00:29:35,490 --> 00:29:39,225
-Itu adalah keseluruhan tentang semua
+Mekanisme adalah keseluruhan dari semua
 perangkat lunak dan perangkat keras
 
 714
 00:29:39,225 --> 00:29:41,000
-dan semua itu mengurutkan
-komponen sistem
+dan semua komponen sistem
+semacam itu
 
 715
 00:29:41,000 --> 00:29:45,400
-yang membentuk apa yang dicoba untuk
+yang membentuk apa yang mencoba untuk
 melaksanakan kebijakan keamanaan Anda.
 
 716
 00:29:45,400 --> 00:29:49,960
-Dan tidak ada jalan akhir
-dimana mekanisme bisa gagal.
+Dan tidak ada jalan buntu
+di mana mekanisme bisa gagal.
 
 717
 00:29:49,960 --> 00:29:55,070
 Dan, sebagian sebagai hasilnya,
-banyak dari kelas ini
+sebagian besar kelas ini
 
 718
 00:29:55,070 --> 00:29:57,760
@@ -3413,8 +3413,8 @@ mekanisme yang aman,
 
 720
 00:30:00,480 --> 00:30:04,450
-yang menyediakan pelaksanaan yang benar
-tentang kebijakan keamanan.
+yang menyediakan pelaksanaan
+kebijakan keamanan yang benar.
 
 721
 00:30:04,450 --> 00:30:06,930
@@ -3423,22 +3423,22 @@ ancaman dan kebijakan juga.
 
 722
 00:30:06,930 --> 00:30:12,010
-Tapi ternyata itu
-lebih mudah untuk dibersihkan,
+Namun ternyata lebih mudah
+untuk membuat pernyataan yang bersih,
 
 723
 00:30:12,010 --> 00:30:14,300
-semacam pernyataan yang tajam
+yang agak tajam
 tentang mekanisme dan cara
 
 724
 00:30:14,300 --> 00:30:18,100
-mereka bekerja dan tidak bekerja, sebagai
-pertentangan untuk model kebijakan dan
+mereka bekerja dan tidak bekerja, yang
+berlawanan dengan kebijakan dan model
 
 725
 00:30:18,100 --> 00:30:20,420
-ancaman yang, sangat,
+ancaman yang, sesungguhnya,
 Anda harus cari tahu
 
 726
@@ -3448,26 +3448,26 @@ sebuah konteks tertentu
 
 727
 00:30:22,190 --> 00:30:24,980
-dimana Anda menggunakan sebuah sistem.
+di mana Anda menggunakan sebuah sistem.
 
 728
 00:30:24,980 --> 00:30:30,320
-Jadi mari kita lihat beberapa contoh,
-Saya rasa, kerusakan mekanisme.
+Jadi mari kita lihat beberapa contoh dari,
+saya rasa, kerusakan mekanisme.
 
 729
 00:30:30,320 --> 00:30:33,280
-Satu dari kalian might mungkin pernah mendengar ini
+Salah satu yang mungkin kalian pernah dengar
 dalam beberapa hari terakhir
 
 730
 00:30:33,280 --> 00:30:38,380
 adalah sebuah masalah dalam mekanisme
-keamanan di infrastruktur cloud milik Apple
+keamanan di infrastruktur awan (cloud) milik Apple
 
 731
 00:30:38,380 --> 00:30:39,610
-milik Apple yang disebut iCloud.
+yang disebut iCloud.
 
 732
 00:30:42,820 --> 00:30:45,430
@@ -3477,12 +3477,12 @@ dari Anda yang memiliki sebuah iPhone
 733
 00:30:45,430 --> 00:30:47,450
 mungkin menggunakan
-Layanan iCloud.
+layanan iCloud.
 
 734
 00:30:47,450 --> 00:30:49,690
 Mereka pada dasarnya menyediakan
-tempat penyimpanan untuk file
+tempat penyimpanan untuk berkas
 
 735
 00:30:49,690 --> 00:30:53,290
@@ -3495,13 +3495,13 @@ banyak fitur berguna lainnya.
 
 737
 00:30:55,450 --> 00:30:58,780
-Dan saya pikir itu berhubungan
+Dan saya pikir hal tersebut berhubungan
 dengan layanan me.com 
 
 738
 00:30:58,780 --> 00:31:03,150
-yang terlibat dalam 
-skema beberapa tahun yang lalu.
+yang terlibat dalam skema ini
+beberapa tahun yang lalu.
 
 739
 00:31:03,150 --> 00:31:04,840
@@ -3525,26 +3525,26 @@ iCloud?
 
 743
 00:31:13,540 --> 00:31:18,410
-Well,pada dasarnya dia menyediakan banyak
-layanan untuk jenis yang sama
+Yah, pada dasarnya iCloud menyediakan
+banyak layanan untuk
 
 744
 00:31:18,410 --> 00:31:19,650
-dari beberapa kumpulan akun.
+sekumpulan akun yang sama.
 
 745
 00:31:19,650 --> 00:31:23,050
 Jadi mungkin Anda punya tempat
-penyimpanan file di iCloud.
+penyimpanan berkas di iCloud.
 
 746
 00:31:23,050 --> 00:31:26,087
 Mungkin Anda telah 
-berbagi foto.
+membagikan foto Anda.
 
 747
 00:31:26,087 --> 00:31:27,420
-Mungkin anda mempunyai antarmuka lainnya.
+Mungkin Anda mempunyai antarmuka lainnya.
 
 748
 00:31:27,420 --> 00:31:28,850
@@ -3563,16 +3563,16 @@ fitur untuk menemukan iPhone saya,
 
 751
 00:31:35,130 --> 00:31:36,730
-Saya pikir.
+saya pikir.
 
 752
 00:31:36,730 --> 00:31:39,090
-dan semua antarmuka ini
-mau memastikan
+Dan semua antarmuka ini
+ingin memastikan
 
 753
 00:31:39,090 --> 00:31:42,580
-bahwa anda pengguna yang sebenernya,
+bahwa Anda pengguna yang sebenarnya,
 Anda diautentikasi dengan benar.
 
 754
