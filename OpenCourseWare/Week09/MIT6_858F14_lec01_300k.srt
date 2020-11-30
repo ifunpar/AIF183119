@@ -3476,104 +3476,104 @@ dari Anda yang memiliki sebuah iPhone
 
 733
 00:30:45,430 --> 00:30:47,450
-might be using this
-iCloud service.
+mungkin menggunakan
+Layanan iCloud.
 
 734
 00:30:47,450 --> 00:30:49,690
-They basically provide
-storage for files
+Mereka pada dasarnya menyediakan
+tempat penyimpanan untuk file
 
 735
 00:30:49,690 --> 00:30:53,290
-and let you find your iPhone
-if you lose it, and probably
+dan membiarkan Anda menemukan iPhone Anda
+jika Anda kehilangannya, dan mungkin
 
 736
 00:30:53,290 --> 00:30:55,450
-lots of other useful features.
+banyak fitur berguna lainnya.
 
 737
 00:30:55,450 --> 00:30:58,780
-And I think it's some relative
-of this me.com service
+Dan saya pikir itu berhubungan
+dengan layanan me.com 
 
 738
 00:30:58,780 --> 00:31:03,150
-that was implicated in this
-scheme a couple years back.
+yang terlibat dalam 
+skema beberapa tahun yang lalu.
 
 739
 00:31:03,150 --> 00:31:04,840
-And the problem that
-someone discovered
+Dan masalah
+yang ditemukan seseorang
 
 740
 00:31:04,840 --> 00:31:08,270
-in this iCloud
-service is that they
+di layanan iCloud ini
+adalah bahwa mereka
 
 741
 00:31:08,270 --> 00:31:11,960
-didn't enforce the same sort
-of mechanism at all interfaces.
+tidak menerapkan mekanisme 
+yang sama di semua antarmuka.
 
 742
 00:31:11,960 --> 00:31:13,540
-OK, so what does
-iCloud look like?
+OK, jadi seperti apa
+iCloud?
 
 743
 00:31:13,540 --> 00:31:18,410
-Well, it basically provides lots
-of services for the same sort
+Well,pada dasarnya dia menyediakan banyak
+layanan untuk jenis yang sama
 
 744
 00:31:18,410 --> 00:31:19,650
-of set of accounts.
+dari beberapa kumpulan akun.
 
 745
 00:31:19,650 --> 00:31:23,050
-So maybe you have your
-file storage on iCloud.
+Jadi mungkin Anda punya tempat
+penyimpanan file di iCloud.
 
 746
 00:31:23,050 --> 00:31:26,087
-Maybe you have
-your photo sharing.
+Mungkin Anda telah 
+berbagi foto.
 
 747
 00:31:26,087 --> 00:31:27,420
-Maybe you have other interfaces.
+Mungkin anda mempunyai antarmuka lainnya.
 
 748
 00:31:27,420 --> 00:31:28,850
-And one of the
-interfaces into iCloud--
+Dan salah satu
+antarmuka di dalam iCloud--
 
 749
 00:31:28,850 --> 00:31:30,475
-these are all sort
-of at different APIs
+ini semuanya
+ada di API berbeda
 
 750
 00:31:30,475 --> 00:31:35,130
-that they provide-- was this
-feature to find my iPhone,
+yang mereka sediakan-- adalah
+fitur untuk menemukan iPhone saya,
 
 751
 00:31:35,130 --> 00:31:36,730
-I think.
+Saya pikir.
 
 752
 00:31:36,730 --> 00:31:39,090
-And all these interfaces
-want to make sure
+dan semua antarmuka ini
+mau memastikan
 
 753
 00:31:39,090 --> 00:31:42,580
-that you are the right user,
-you're authenticated correctly.
+bahwa anda pengguna yang sebenernya,
+Anda diautentikasi dengan benar.
 
 754
 00:31:42,580 --> 00:31:45,050
