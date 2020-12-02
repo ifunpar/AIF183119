@@ -3577,8 +3577,8 @@ Anda diautentikasi dengan benar.
 
 754
 00:31:42,580 --> 00:31:45,050
-And unfortunately,
-the developers
+Dan sayangnya,
+para pengembang dari
 
 755
 00:31:45,050 --> 00:31:48,190
@@ -3592,13 +3592,13 @@ pengembang yang bekerja di sini.
 
 757
 00:31:51,310 --> 00:31:53,070
-Namun pada antar muka
+Namun pada antarmuka
 tertentu ini,
 
 758
 00:31:53,070 --> 00:31:55,480
-yaitu antar muka
-find my iphone, ketika
+yaitu antarmuka untuk
+find my iPhone, ketika
 
 759
 00:31:55,480 --> 00:31:58,510
@@ -3617,12 +3617,12 @@ seperti yang sudah saya sebutkan sebelumnya,
 
 762
 00:32:05,640 --> 00:32:07,930
-Manusia tidak sebaik itu dalam
+manusia tidak sebaik itu dalam
 memilih kata sandi yang baik.
 
 763
 00:32:07,930 --> 00:32:10,920
-Jadi sebenerarnya membuat suati sistem
+Jadi sebenarnya membuat suatu sistem
 yang mengautentikasi pengguna
 
 764
@@ -3631,13 +3631,13 @@ dengan kata sandi itu cukup rumit.
 
 765
 00:32:12,490 --> 00:32:14,820
-Kita sebetulnya akan membaca seluruh
-mengenai ini nantinya.
+Kita sebetulnya akan membaca keseluruhan
+paper mengenai hal ini nantinya.
 
 766
 00:32:14,820 --> 00:32:19,290
-Namaun satu strategi yang baik
-adalah, ada kemungkinan
+Namun satu strategi yang baik
+adalah, mungkin ada
 
 767
 00:32:19,290 --> 00:32:22,170
@@ -3646,7 +3646,7 @@ sana yang akan bertanggung jawab
 
 768
 00:32:22,170 --> 00:32:24,180
-untuk 50 persen dari akun yang ada.
+untuk 50% dari akun yang ada.
 
 769
 00:32:24,180 --> 00:32:26,420
@@ -3671,7 +3671,7 @@ kata sandi yang dapat ditebak.
 773
 00:32:33,060 --> 00:32:34,494
 Dan satu cara untuk
-mencoba mengalahkan ini
+mencoba menggagalkan hal ini
 
 774
 00:32:34,494 --> 00:32:36,160
