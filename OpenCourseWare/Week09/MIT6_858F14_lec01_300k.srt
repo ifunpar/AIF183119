@@ -3582,7 +3582,7 @@ para pengembang dari
 
 755
 00:31:45,050 --> 00:31:48,190
-seluruh sistem iCloud ini, seperti yang kalian tahu
+seluruh sistem iCloud ini, seperti yang Anda tahu
 ini merupakan sebuah perangkat lunak yang sangat besar.
 
 756
@@ -3602,7 +3602,7 @@ find my iPhone, ketika
 
 759
 00:31:55,480 --> 00:31:58,510
-kalian mencoba untuk masuk dengan
+Anda mencoba untuk masuk dengan
 sebuah username dan kata sandi,
 
 760
@@ -3650,7 +3650,7 @@ untuk 50% dari akun yang ada.
 
 769
 00:32:24,180 --> 00:32:26,420
-Jadi jika kalian dapat menebak,
+Jadi jika Anda dapat menebak,
 membuat jutaan percobaan
 
 770
@@ -3660,7 +3660,7 @@ seseorang, maka ada
 
 771
 00:32:28,900 --> 00:32:31,150
-sebuah kesempatan bagus kalian akan mendapatkan
+sebuah kesempatan bagus Anda akan mendapatkan
 kata sandi mereka karena orang-orang
 
 772
@@ -3676,7 +3676,7 @@ mencoba menggagalkan hal ini
 774
 00:32:34,494 --> 00:32:36,160
 adalah memastikan bahwa
-sistem kalian tidak
+sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
