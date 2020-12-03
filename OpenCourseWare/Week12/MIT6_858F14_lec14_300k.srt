@@ -2257,59 +2257,59 @@ mechanism to open the keys?
 
 476
 00:21:43,304 --> 00:21:43,970
-PROFESSOR: Yeah.
+PROFESSOR: Ya.
 
 477
 00:21:43,970 --> 00:21:45,550
-That's another hard problem.
+Itu masalah sulit lainnya.
 
 478
 00:21:45,550 --> 00:21:47,889
-It turns out to be that
-before we talked to the KDC,
+Ternyata begitu
+sebelum kita berbicara dengan KDC,
 
 479
 00:21:47,889 --> 00:21:49,430
-and if you screwed
-up, you could tell
+dan jika Anda mengacau,
+Anda bisa memberitahu
 
 480
 00:21:49,430 --> 00:21:52,500
-the KDC to stop giving
-out my key, or change it.
+KDC untuk berhenti memberikan
+kunci saya, atau mengubahnya.
 
 481
 00:21:52,500 --> 00:21:55,410
-Now the certificates are
-actually potentially valid
+Sekarang sertifikat tersebut 
+sebenarnya berpotensi berlaku
 
 482
 00:21:55,410 --> 00:21:56,110
-forever.
+selamanya.
 
 483
 00:21:56,110 --> 00:21:58,400
-So the typical
-solution is twofold.
+Jasil solusi tipikal
+ada dua.
 
 484
 00:21:58,400 --> 00:22:01,410
-One is, sort of expectedly,
-these certificates
+Salah satunya adalah, semacam yang diharapkan,
+sertifikat ini
 
 485
 00:22:01,410 --> 00:22:05,054
-include an expiration time.
+menyertakan waktu kedaluwarsa.
 
 486
 00:22:05,054 --> 00:22:06,970
-So this way you can at
-least bound the damage.
+Jadi dengan cara ini Anda setidaknya 
+bisa mengikat kerusakan.
 
 487
 00:22:06,970 --> 00:22:09,178
-Is This is kind of like a
-Kerberos ticket's lifetime,
+Apakah ini seperti 
+masa pakai tiket Kerberos,
 
 488
 00:22:09,178 --> 00:22:11,917
