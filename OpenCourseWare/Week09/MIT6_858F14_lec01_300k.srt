@@ -3154,529 +3154,529 @@ di dalam asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
-that you'll manage to
-keep all 300 certificate
+bahwa Anda akan mengelola
+seluruh 300 otoritas
 
 667
 00:27:38,870 --> 00:27:42,420
-authorities spread out around
-the globe perfectly secure.
+sertifikat yang tersebar di seluruh
+dunia dengan benar-benar aman.
 
 668
 00:27:42,420 --> 00:27:44,560
-But yet, that's the
-assumption underpinning
+Namun begitu, asumsi tersebut adalah
+asumsi yang mendasari
 
 669
 00:27:44,560 --> 00:27:49,090
-the security mechanism of
-today's SSL protocol used
+mekanisme kamanan dari
+protokol SSL yang digunakan oleh
 
 670
 00:27:49,090 --> 00:27:51,900
-by web browsers.
+peramban saat ini.
 
 671
 00:27:51,900 --> 00:27:56,040
-And there's sort of many
-other, I guess, examples
+Dan terdapat, saya kira,
+contoh-contoh lainnya
 
 672
 00:27:56,040 --> 00:27:58,510
-that are things you might
-not have thought of.
+yang mungkin tidak pernah
+Anda pikirkan.
 
 673
 00:27:58,510 --> 00:28:04,080
-Another sort of amusing example
-from the 1980s was DARPA.
+Contoh menarik lainnya dari 1980an
+adalah DARPA.
 
 674
 00:28:04,080 --> 00:28:07,090
-This defense
-agency, at the time,
+Agen pertahanan ini,
+pada waktu itu,
 
 675
 00:28:07,090 --> 00:28:10,310
-really wanted to build
-secure operating systems.
+benar-benar ingin membangun
+sistem operasi yang aman.
 
 676
 00:28:10,310 --> 00:28:13,646
-And they actually
-went so far as to get
+Dan mereka benar-benar berusaha
+untuk mendapatkan
 
 677
 00:28:13,646 --> 00:28:15,270
-a bunch of universities
-and researchers
+sekumpulan universitas
+dan peneliti
 
 678
 00:28:15,270 --> 00:28:17,840
-to build secure OS prototypes.
+untuk membangun prototipe SO (Sistem Operasi) yang aman.
 
 679
 00:28:17,840 --> 00:28:19,520
-And then they actually
-got a red team,
+Dan kemudian mereka sebenarnya
+membuat kelompok kedua,
 
 680
 00:28:19,520 --> 00:28:23,516
-like a team of bad guys
-pretending to be the attackers,
+seperti sekelompok orang jahat
+yang berpura-pura menjadi penyerang,
 
 681
 00:28:23,516 --> 00:28:25,890
-and told them, well, go break
-into these secure operating
+dan memberitahu mereka, yah,
+bobollah sistem operasi yang
 
 682
 00:28:25,890 --> 00:28:26,930
-systems any way you can.
+aman ini dengan cara apapun yang Anda bisa.
 
 683
 00:28:26,930 --> 00:28:29,300
-We actually want to
-know, is it secure?
+Kita sebenarnya ingin
+tahu, apakah itu aman?
 
 684
 00:28:29,300 --> 00:28:32,322
-And it's kind of amusing,
-some of the surprising ways
+Dan beberapa dari cara
+mengejutkan yang digunakan
 
 685
 00:28:32,322 --> 00:28:33,530
-they compromised the systems.
+mereka untuk membobol sistem cukup menarik.
 
 686
 00:28:33,530 --> 00:28:36,960
-One was that there
-was this OS research
+Salah satunya adalah ada
+sebuah kelompok penelitian
 
 687
 00:28:36,960 --> 00:28:39,072
-team that seemed to have
-a perfectly secure OS,
+SO ini yang terlihat memiliki
+SO yang benar-benar aman,
 
 688
 00:28:39,072 --> 00:28:40,030
-but it got compromised.
+tapi berhasil dibobol.
 
 689
 00:28:40,030 --> 00:28:42,940
-And the way it happened is that
-the server in which the source
+Dan yang terjadi adalah
+server tempat di mana kode
 
 690
 00:28:42,940 --> 00:28:44,190
-code of the operating
-system was stored
+sumber sistem operasi
+disimpan
 
 691
 00:28:44,190 --> 00:28:46,070
-was some development
-machine in someone's office
+adalah di sebuah mesin
+di kantor seseorang
 
 692
 00:28:46,070 --> 00:28:47,270
-that wasn't secured at all.
+yang sangat tidak aman.
 
 693
 00:28:47,270 --> 00:28:48,660
-But that had all
-the source code.
+Namun server tersebut memiliki
+seluruh kode sumbernya.
 
 694
 00:28:48,660 --> 00:28:50,500
-So the bad guys broke
-into that server.
+Jadi orang jahat itu
+masuk ke server tersebut.
 
 695
 00:28:50,500 --> 00:28:51,850
-It was not protected very well.
+Server tersebut tidak terlindungi dengan baik.
 
 696
 00:28:51,850 --> 00:28:53,340
-Changed the source code
-of the operating system
+(Orang itu) mengubah kode sumber
+dari sistem operasi
 
 697
 00:28:53,340 --> 00:28:54,690
-to introduce a back door.
+untuk membuat sebuah celah (backdoor).
 
 698
 00:28:54,690 --> 00:28:57,964
-And then, when the researchers
-built their operating systems,
+Lalu, saat peneliti
+membangun sistem operasi mereka,
 
 699
 00:28:57,964 --> 00:28:59,130
-well, it had this back door.
+sistem tersebut memiliki celah.
 
 700
 00:28:59,130 --> 00:29:00,755
-And the bad guys were
-able to break in.
+Dan orang-orang jahat
+dapat masuk.
 
 701
 00:29:00,755 --> 00:29:03,530
-So you really have to think
-about all the possible sort
+Jadi Anda benar-benar harus memikirkan
+semua kemungkinan
 
 702
 00:29:03,530 --> 00:29:05,800
-of assumptions
-you're making about
+dari asumsi
+yang Anda buat tentang
 
 703
 00:29:05,800 --> 00:29:07,440
-where your software
-is coming from,
+dari mana perangkat lunak Anda
+berasal,
 
 704
 00:29:07,440 --> 00:29:09,630
-about how the bad
-guy can get in,
+tentang bagaimana orang jahat
+dapat masuk,
 
 705
 00:29:09,630 --> 00:29:14,150
-in order to make sure your
-system is really secure.
+untuk memastikan sistem Anda
+benar-benar aman.
 
 706
 00:29:14,150 --> 00:29:18,160
-And there's many other examples
-in lecture notes, if you want.
+Dan ada banyak contoh lain
+dalam catatan kuliah, jika Anda mau.
 
 707
 00:29:18,160 --> 00:29:19,240
-So I'm using anecdotes.
+Jadi saya menggunakan anekdot.
 
 708
 00:29:19,240 --> 00:29:20,910
-You can page through those.
+Anda dapat membacanya di sana.
 
 709
 00:29:23,750 --> 00:29:28,580
-Probably the most pervasive
-problem that shows up,
+Mungkin masalah yang paling banyak
+yang muncul,
 
 710
 00:29:28,580 --> 00:29:30,710
-of course, is in
-mechanisms, though.
+tentu saja, ada di dalam
+mekanisme.
 
 711
 00:29:30,710 --> 00:29:33,290
-And in part, it's
-because mechanisms
+Dan sebagian, itu
+dikarenakan mekanisme
 
 712
 00:29:33,290 --> 00:29:35,490
-are the most complicated
-part of the story.
+adalah bagian yang paling rumit
+dari cerita ini.
 
 713
 00:29:35,490 --> 00:29:39,225
-It's the entirety of all
-the software and hardware
+Mekanisme adalah keseluruhan dari semua
+perangkat lunak dan perangkat keras
 
 714
 00:29:39,225 --> 00:29:41,000
-and all that sort
-of system components
+dan semua komponen sistem
+semacam itu
 
 715
 00:29:41,000 --> 00:29:45,400
-that make up what is trying to
-enforce your security policy.
+yang membentuk apa yang mencoba untuk
+memaksakan kebijakan keamanaan Anda.
 
 716
 00:29:45,400 --> 00:29:49,960
-And there's no end of ways
-in which mechanisms can fail.
+Dan tidak ada akhir dari
+di mana mekanisme bisa gagal.
 
 717
 00:29:49,960 --> 00:29:55,070
-And, partly as a result,
-much of this class
+Dan, sebagai akibatnya,
+sebagian besar kuliah ini
 
 718
 00:29:55,070 --> 00:29:57,760
-will focus pretty
-heavily on mechanisms
+akan lebih memfokuskan
+pada mekanisme
 
 719
 00:29:57,760 --> 00:30:00,480
-and how do you make
-mechanisms that are secure,
+dan bagaimana Anda membuat
+mekanisme yang aman,
 
 720
 00:30:00,480 --> 00:30:04,450
-that provide correct enforcement
-of security policies.
+yang menyediakan pemaksaan
+kebijakan keamanan yang benar.
 
 721
 00:30:04,450 --> 00:30:06,930
-And we'll talk about threat
-models and policies as well.
+Dan kita akan berbicara tentang model
+ancaman dan kebijakan juga.
 
 722
 00:30:06,930 --> 00:30:12,010
-But turns out it's much
-easier to make clean,
+Namun ternyata lebih mudah
+untuk membuat pernyataan yang bersih,
 
 723
 00:30:12,010 --> 00:30:14,300
-sort of crisp statements
-about mechanisms and ways
+yang agak tajam
+tentang mekanisme dan cara
 
 724
 00:30:14,300 --> 00:30:18,100
-they work and don't work, as
-opposed to policies and threat
+mereka bekerja dan tidak bekerja, yang
+berlawanan dengan kebijakan dan model
 
 725
 00:30:18,100 --> 00:30:20,420
-models which, really,
-you have to figure out
+ancaman yang, sesungguhnya,
+Anda harus cari tahu
 
 726
 00:30:20,420 --> 00:30:22,190
-how to fit them into
-a particular context
+bagaimana memasukkan hal-hal tersebut ke dalam
+sebuah konteks tertentu
 
 727
 00:30:22,190 --> 00:30:24,980
-where you're using a system.
+di mana Anda menggunakan sebuah sistem.
 
 728
 00:30:24,980 --> 00:30:30,320
-So let's look at some examples
-of, I guess, mechanism bugs.
+Jadi mari kita lihat beberapa contoh dari,
+saya rasa, kesalahan mekanisme.
 
 729
 00:30:30,320 --> 00:30:33,280
-One that you might have heard
-in the last couple of days
+Salah satu yang mungkin kalian pernah dengar
+dalam beberapa hari terakhir
 
 730
 00:30:33,280 --> 00:30:38,380
-was a problem in the security
-mechanism in Apple's cloud
+adalah sebuah masalah dalam mekanisme
+keamanan di infrastruktur awan (cloud) milik Apple
 
 731
 00:30:38,380 --> 00:30:39,610
-infrastructure called iCloud.
+yang disebut iCloud.
 
 732
 00:30:42,820 --> 00:30:45,430
-Well actually, any one
-of you that has an iPhone
+Yah sebenarnya, siapapun
+dari Anda yang memiliki sebuah iPhone
 
 733
 00:30:45,430 --> 00:30:47,450
-might be using this
-iCloud service.
+mungkin menggunakan
+layanan iCloud.
 
 734
 00:30:47,450 --> 00:30:49,690
-They basically provide
-storage for files
+Mereka pada dasarnya menyediakan
+tempat penyimpanan untuk berkas
 
 735
 00:30:49,690 --> 00:30:53,290
-and let you find your iPhone
-if you lose it, and probably
+dan membantu Anda menemukan iPhone Anda
+jika Anda kehilangannya, dan mungkin
 
 736
 00:30:53,290 --> 00:30:55,450
-lots of other useful features.
+banyak fitur berguna lainnya.
 
 737
 00:30:55,450 --> 00:30:58,780
-And I think it's some relative
-of this me.com service
+Dan saya pikir hal tersebut berhubungan
+dengan layanan me.com 
 
 738
 00:30:58,780 --> 00:31:03,150
-that was implicated in this
-scheme a couple years back.
+yang terlibat dalam skema ini
+beberapa tahun yang lalu.
 
 739
 00:31:03,150 --> 00:31:04,840
-And the problem that
-someone discovered
+Dan masalah
+yang ditemukan seseorang
 
 740
 00:31:04,840 --> 00:31:08,270
-in this iCloud
-service is that they
+di layanan iCloud ini
+adalah bahwa mereka
 
 741
 00:31:08,270 --> 00:31:11,960
-didn't enforce the same sort
-of mechanism at all interfaces.
+tidak menerapkan mekanisme 
+yang sama di semua antarmuka.
 
 742
 00:31:11,960 --> 00:31:13,540
-OK, so what does
-iCloud look like?
+OK, jadi seperti apa
+iCloud?
 
 743
 00:31:13,540 --> 00:31:18,410
-Well, it basically provides lots
-of services for the same sort
+Yah, pada dasarnya iCloud menyediakan
+banyak layanan untuk
 
 744
 00:31:18,410 --> 00:31:19,650
-of set of accounts.
+sekumpulan akun yang sama.
 
 745
 00:31:19,650 --> 00:31:23,050
-So maybe you have your
-file storage on iCloud.
+Jadi mungkin Anda punya tempat
+penyimpanan berkas di iCloud.
 
 746
 00:31:23,050 --> 00:31:26,087
-Maybe you have
-your photo sharing.
+Mungkin Anda telah 
+membagikan foto Anda.
 
 747
 00:31:26,087 --> 00:31:27,420
-Maybe you have other interfaces.
+Mungkin Anda mempunyai antarmuka lainnya.
 
 748
 00:31:27,420 --> 00:31:28,850
-And one of the
-interfaces into iCloud--
+Dan salah satu
+antarmuka di dalam iCloud--
 
 749
 00:31:28,850 --> 00:31:30,475
-these are all sort
-of at different APIs
+ini semuanya
+ada di API berbeda
 
 750
 00:31:30,475 --> 00:31:35,130
-that they provide-- was this
-feature to find my iPhone,
+yang mereka sediakan-- adalah
+fitur untuk menemukan iPhone saya,
 
 751
 00:31:35,130 --> 00:31:36,730
-I think.
+saya pikir.
 
 752
 00:31:36,730 --> 00:31:39,090
-And all these interfaces
-want to make sure
+Dan semua antarmuka ini
+ingin memastikan
 
 753
 00:31:39,090 --> 00:31:42,580
-that you are the right user,
-you're authenticated correctly.
+bahwa Anda pengguna yang sebenarnya,
+Anda diautentikasi dengan benar.
 
 754
 00:31:42,580 --> 00:31:45,050
-And unfortunately,
-the developers
+Dan sayangnya,
+para pengembang dari
 
 755
 00:31:45,050 --> 00:31:48,190
-all this iCloud system, you know
-it's a giant piece of software.
+seluruh sistem iCloud ini, seperti yang Anda tahu
+ini merupakan sebuah perangkat lunak yang sangat besar.
 
 756
 00:31:48,190 --> 00:31:51,310
-I'm sure lots of
-developers worked on this.
+Saya yakin banyak
+pengembang yang bekerja di sini.
 
 757
 00:31:51,310 --> 00:31:53,070
-But on this
-particular interface,
+Namun pada antarmuka
+tertentu ini,
 
 758
 00:31:53,070 --> 00:31:55,480
-the find my iPhone
-interface, when
+yaitu antarmuka untuk
+temukan iPhone saya, ketika
 
 759
 00:31:55,480 --> 00:31:58,510
-you tried to log in with
-a username and password,
+Anda mencoba untuk masuk dengan
+sebuah username dan kata sandi,
 
 760
 00:31:58,510 --> 00:32:02,420
-they didn't keep track of how
-many times you tried to log in.
+mereka tidak memantau
+berapa banyak Anda mencoba masuk.
 
 761
 00:32:02,420 --> 00:32:05,640
-And the reason is important is
-that, as I mentioned earlier,
+Dan alasannya adalah penting
+seperti yang sudah saya sebutkan sebelumnya,
 
 762
 00:32:05,640 --> 00:32:07,930
-humans are not that great
-at picking good passwords.
+manusia tidak sebaik itu dalam
+memilih kata sandi yang baik.
 
 763
 00:32:07,930 --> 00:32:10,920
-So actually building a system
-that authenticates users
+Jadi sebenarnya membuat suatu sistem
+yang mengautentikasi pengguna
 
 764
 00:32:10,920 --> 00:32:12,490
-with passwords is pretty tricky.
+dengan kata sandi itu cukup rumit.
 
 765
 00:32:12,490 --> 00:32:14,820
-We'll actually read a whole
-paper about this later on.
+Kita sebetulnya akan membaca keseluruhan
+paper mengenai hal ini nantinya.
 
 766
 00:32:14,820 --> 00:32:19,290
-But one good strategy
-is, there's probably
+Namun satu strategi yang baik
+adalah, mungkin ada
 
 767
 00:32:19,290 --> 00:32:22,170
-a million passwords out
-there that will account
+satu juta kata sandi di luar
+sana yang akan bertanggung jawab
 
 768
 00:32:22,170 --> 00:32:24,180
-for 50% percent of accounts.
+untuk 50% dari akun yang ada.
 
 769
 00:32:24,180 --> 00:32:26,420
-So if you can guess,
-make a million attempts
+Jadi jika Anda dapat menebak,
+membuat jutaan percobaan
 
 770
 00:32:26,420 --> 00:32:28,900
-at someone's
-account, then there's
+pada akun
+seseorang, maka ada
 
 771
 00:32:28,900 --> 00:32:31,150
-a good chance you'll get
-their password because people
+sebuah kesempatan bagus Anda akan mendapatkan
+kata sandi mereka karena orang-orang
 
 772
 00:32:31,150 --> 00:32:33,060
-actually pick
-predictable passwords.
+sebetulnya memilih
+kata sandi yang dapat ditebak.
 
 773
 00:32:33,060 --> 00:32:34,494
-And one way to
-try to defeat this
+Dan satu cara untuk
+mencoba menggagalkan hal ini
 
 774
 00:32:34,494 --> 00:32:36,160
-is to make sure that
-your system doesn't
+adalah memastikan bahwa
+sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
