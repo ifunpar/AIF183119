@@ -2095,56 +2095,55 @@ kunci-kunci publik ini?
 
 442
 00:20:20,788 --> 00:20:22,840
-At some point you have
-to hard code these in,
+Pada suatu titik anda
+harus memasukkan kode keras ini,
 
 443
 00:20:22,840 --> 00:20:25,310
-or that's typically
-what most systems do.
+atau itulah yang biasanya
+dilakukan kebanyakan sistem.
 
 444
 00:20:25,310 --> 00:20:27,074
-So today what
-actually happens is
+Jadi hari ini apa
+yang sebenarnya terjadi adalah
 
 445
 00:20:27,074 --> 00:20:28,615
-that when you download
-a web browser,
+ketika anda mengunduh
+sebuah browser web,
 
 446
 00:20:28,615 --> 00:20:30,950
-or you get a computer
-for the first time,
+atau anda mendapatkan sebuah komputer
+untuk pertama kali,
 
 447
 00:20:30,950 --> 00:20:33,930
-it actually comes with
-public keys of hundreds
+komputer tersebut sebenarnya datang dengan
+kunci publik dengan ratusan
 
 448
 00:20:33,930 --> 00:20:35,730
-of these certificate
-authorities.
+dari autoritas sertifikat ini.
 
 449
 00:20:35,730 --> 00:20:37,440
-And there's many of them.
+Dan mereka ada banyak.
 
 450
 00:20:37,440 --> 00:20:41,660
-Some are run by security
-companies like VeriSign.
+Beberapa dijalankan oleh
+perusahaan sekuritas seperti Verisign.
 
 451
 00:20:41,660 --> 00:20:43,880
-The US Postal Service has
-a certificate authority,
+Servis Postal US mempunya
+sebuah sertifikat autoritas,
 
 452
 00:20:43,880 --> 00:20:44,860
-for some reason.
+untuk beberapa alasan.
 
 453
 00:20:44,860 --> 00:20:47,640
