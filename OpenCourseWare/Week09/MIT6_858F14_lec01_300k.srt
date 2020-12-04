@@ -3154,8 +3154,8 @@ di dalam asumsi
 
 666
 00:27:34,840 --> 00:27:38,870
-bahwa Anda akan mampu
-menjaga seluruh 300 otoritas
+bahwa Anda akan mengelola
+seluruh 300 otoritas
 
 667
 00:27:38,870 --> 00:27:42,420
@@ -3164,7 +3164,7 @@ dunia dengan benar-benar aman.
 
 668
 00:27:42,420 --> 00:27:44,560
-Namun sejauh ini, asumsi tersebut adalah
+Namun begitu, asumsi tersebut adalah
 asumsi yang mendasari
 
 669
@@ -3188,12 +3188,12 @@ Anda pikirkan.
 
 673
 00:27:58,510 --> 00:28:04,080
-Contoh lucu lainnya dari 1980an
+Contoh menarik lainnya dari 1980an
 adalah DARPA.
 
 674
 00:28:04,080 --> 00:28:07,090
-Agensi pertahanan ini,
+Agen pertahanan ini,
 pada waktu itu,
 
 675
@@ -3203,7 +3203,7 @@ sistem operasi yang aman.
 
 676
 00:28:10,310 --> 00:28:13,646
-Dan mereka benar-benar mencoba
+Dan mereka benar-benar berusaha
 untuk mendapatkan
 
 677
@@ -3213,12 +3213,12 @@ dan peneliti
 
 678
 00:28:15,270 --> 00:28:17,840
-untuk membangun prototipe SO yang aman.
+untuk membangun prototipe SO (Sistem Operasi) yang aman.
 
 679
 00:28:17,840 --> 00:28:19,520
 Dan kemudian mereka sebenarnya
-mendapatkan sebuah kelompok merah,
+membuat kelompok kedua,
 
 680
 00:28:19,520 --> 00:28:23,516
@@ -3228,11 +3228,11 @@ yang berpura-pura menjadi penyerang,
 681
 00:28:23,516 --> 00:28:25,890
 dan memberitahu mereka, yah,
-bobolah sistem operasi yang
+bobollah sistem operasi yang
 
 682
 00:28:25,890 --> 00:28:26,930
-aman ini dengan cara yang Anda bisa.
+aman ini dengan cara apapun yang Anda bisa.
 
 683
 00:28:26,930 --> 00:28:29,300
@@ -3246,7 +3246,7 @@ mengejutkan yang digunakan
 
 685
 00:28:32,322 --> 00:28:33,530
-mereka untuk membobol sistem cukup lucu.
+mereka untuk membobol sistem cukup menarik.
 
 686
 00:28:33,530 --> 00:28:36,960
@@ -3255,12 +3255,12 @@ sebuah kelompok penelitian
 
 687
 00:28:36,960 --> 00:28:39,072
-SO yang terlihat memiliki
+SO ini yang terlihat memiliki
 SO yang benar-benar aman,
 
 688
 00:28:39,072 --> 00:28:40,030
-tapi dibobol.
+tapi berhasil dibobol.
 
 689
 00:28:40,030 --> 00:28:42,940
@@ -3274,8 +3274,8 @@ disimpan
 
 691
 00:28:44,190 --> 00:28:46,070
-adalah mesin pengembangan
-(development machine) di kantor seseorang
+adalah di sebuah mesin
+di kantor seseorang
 
 692
 00:28:46,070 --> 00:28:47,270
@@ -3297,12 +3297,12 @@ Server tersebut tidak terlindungi dengan baik.
 
 696
 00:28:51,850 --> 00:28:53,340
-Mengubah kode sumber
+(Orang itu) mengubah kode sumber
 dari sistem operasi
 
 697
 00:28:53,340 --> 00:28:54,690
-untuk membuat sebuah pintu belakang (back door).
+untuk membuat sebuah celah (backdoor).
 
 698
 00:28:54,690 --> 00:28:57,964
@@ -3311,7 +3311,7 @@ membangun sistem operasi mereka,
 
 699
 00:28:57,964 --> 00:28:59,130
-sistem tersebut memiliki pintu belakang.
+sistem tersebut memiliki celah.
 
 700
 00:28:59,130 --> 00:29:00,755
@@ -3358,7 +3358,7 @@ Anda dapat membacanya di sana.
 
 709
 00:29:23,750 --> 00:29:28,580
-Mungkin masalah pervasif
+Mungkin masalah yang paling banyak
 yang muncul,
 
 710
@@ -3389,17 +3389,17 @@ semacam itu
 715
 00:29:41,000 --> 00:29:45,400
 yang membentuk apa yang mencoba untuk
-melaksanakan kebijakan keamanaan Anda.
+memaksakan kebijakan keamanaan Anda.
 
 716
 00:29:45,400 --> 00:29:49,960
-Dan tidak ada jalan buntu
+Dan tidak ada akhir dari
 di mana mekanisme bisa gagal.
 
 717
 00:29:49,960 --> 00:29:55,070
-Dan, sebagian sebagai hasilnya,
-sebagian besar kelas ini
+Dan, sebagai akibatnya,
+sebagian besar kuliah ini
 
 718
 00:29:55,070 --> 00:29:57,760
@@ -3413,7 +3413,7 @@ mekanisme yang aman,
 
 720
 00:30:00,480 --> 00:30:04,450
-yang menyediakan pelaksanaan
+yang menyediakan pemaksaan
 kebijakan keamanan yang benar.
 
 721
@@ -3443,7 +3443,7 @@ Anda harus cari tahu
 
 726
 00:30:20,420 --> 00:30:22,190
-bagaimana mencocokan mereka ke dalam
+bagaimana memasukkan hal-hal tersebut ke dalam
 sebuah konteks tertentu
 
 727
@@ -3453,7 +3453,7 @@ di mana Anda menggunakan sebuah sistem.
 728
 00:30:24,980 --> 00:30:30,320
 Jadi mari kita lihat beberapa contoh dari,
-saya rasa, kerusakan mekanisme.
+saya rasa, kesalahan mekanisme.
 
 729
 00:30:30,320 --> 00:30:33,280
@@ -3486,7 +3486,7 @@ tempat penyimpanan untuk berkas
 
 735
 00:30:49,690 --> 00:30:53,290
-dan membiarkan Anda menemukan iPhone Anda
+dan membantu Anda menemukan iPhone Anda
 jika Anda kehilangannya, dan mungkin
 
 736
@@ -3598,7 +3598,7 @@ tertentu ini,
 758
 00:31:53,070 --> 00:31:55,480
 yaitu antarmuka untuk
-find my iPhone, ketika
+temukan iPhone saya, ketika
 
 759
 00:31:55,480 --> 00:31:58,510
@@ -3608,7 +3608,7 @@ sebuah username dan kata sandi,
 760
 00:31:58,510 --> 00:32:02,420
 mereka tidak memantau
-berapa banyak kalian mencoba masuk.
+berapa banyak Anda mencoba masuk.
 
 761
 00:32:02,420 --> 00:32:05,640
