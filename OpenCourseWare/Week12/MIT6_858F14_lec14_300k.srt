@@ -2147,60 +2147,60 @@ untuk beberapa alasan.
 
 453
 00:20:44,860 --> 00:20:47,640
-There's many entities there
-that could, in principal, issue
+Ada banyak entitas di sana
+yang pada prinsipnya dapat menerbitkan
 
 454
 00:20:47,640 --> 00:20:50,770
-these certificates and are
-fully trusted by the system.
+sertifikat ini dan
+dipercaya sepenuhnya oleh sistem.
 
 455
 00:20:53,510 --> 00:20:55,740
-These mini certificate
-authorities
+Otoritas sertifikat 
+mini ini
 
 456
 00:20:55,740 --> 00:20:59,674
-are now replacing the trust
-that we had in this KDC.
+sekarang menggantikan kepercayaan
+yang kami miliki pada KDC ini.
 
 457
 00:20:59,674 --> 00:21:01,090
-And sometimes, we
-haven't actually
+Dan terkadang, kami
+belum benar-benar
 
 458
 00:21:01,090 --> 00:21:03,910
-addressed all the problems
-we listed with Kerberos.
+mengatasi semua masalah yang
+kami daftarkan dengan Kerberos.
 
 459
 00:21:03,910 --> 00:21:06,930
-So previously were worried
-that, oh man, how are
+Jadi sebelumnya kita khawatir
+bahwa, oh man, bagaimana
 
 460
 00:21:06,930 --> 00:21:08,180
-we going to trust?
+kita akan percaya?
 
 461
 00:21:08,180 --> 00:21:09,570
-How is everyone
-in the word going
+Bagaimana semua orang
+di dunia bisa
 
 462
 00:21:09,570 --> 00:21:11,820
-to trust a single KDC machine?
+mempercayai satu mesin KDC?
 
 463
 00:21:11,820 --> 00:21:13,850
-But now, it's actually worse.
+Tapi sekarang, sebenarnya lebih buruk.
 
 464
 00:21:13,850 --> 00:21:16,400
-This is actually worse that
-in some ways, because instead
+Ini sebenarnya lebih buruk
+dalam beberapa hal, karena sebaliknya
 
 465
 00:21:16,400 --> 00:21:18,320
