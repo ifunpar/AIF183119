@@ -2225,31 +2225,38 @@ Dan itu cukup mudah dilakukan.
 
 475
 00:26:43,720 --> 00:26:45,740
-Tapi ini yang kita sebut masalah logaritma diskrit
+Tapi ini yang kita sebut 
+masalah logaritma diskrit
 
 476
 00:26:45,740 --> 00:26:48,400
-karena kita berada di lapang yang terbatas.
+karena kita berada 
+di lapang yang terbatas.
 
 477
 00:26:48,400 --> 00:26:50,980
-Dan kita tentu perlu bilangan integer. A merupakan bilangan integer
+Dan kita tentu perlu 
+bilangan integer. A merupakan bilangan integer
 
 478
 00:26:50,980 --> 00:26:54,800
-Lalu kita perlu mengetahui bentuk seperti apa integer tersebut.
+Lalu kita perlu mengetahui 
+bentuk seperti apa integer tersebut.
 
 479
 00:26:54,800 --> 00:26:56,800
-Karena kita melakukan mod pada nilai p, dan lainnya
+Karena kita melakukan 
+mod pada nilai p, dan lainnya
 
 480
 00:26:56,800 --> 00:26:59,490
-dan p biasanya merupakan nilai yang besar
+dan p biasanya 
+merupakan nilai yang besar
 
 481
 00:26:59,490 --> 00:27:02,650
-dan itu sebenarnya merupakan masalah komputasional yang sulit
+dan itu sebenarnya merupakan 
+masalah komputasional yang sulit
 
 482
 00:27:02,650 --> 00:27:05,520
@@ -2257,27 +2264,32 @@ untuk melakukan diskrit log.
 
 483
 00:27:05,520 --> 00:27:10,820
-Jadi, saat anda melihat g dari a, anda tahu g, anda tahu p
+Jadi, saat anda melihat g dari a, 
+anda tahu g, anda tahu p
 
 484
 00:27:10,820 --> 00:27:15,710
-tapi mencoba untuk mengetahui apa hasil dari g dari a
+tapi mencoba untuk mengetahui 
+apa hasil dari g dari a
 
 485
 00:27:15,710 --> 00:27:16,920
-merupakan masalah yang susah.
+merupakan masalah yang sulit.
 
 486
 00:27:16,920 --> 00:27:19,010
-Dan orang-orang telah melihat ini selama 30, 40 tahun
+Dan orang-orang telah melihat 
+ini selama 30, 40 tahun
 
 487
 00:27:19,010 --> 00:27:21,929
-dan tidak ada algoritma yang baik untuk menyelesaikan
+dan tidak ada algoritma 
+yang baik untuk menyelesaikan
 
 488
 00:27:21,929 --> 00:27:23,720
-masalah ini. dan dengan pasti 
+masalah ini,
+dan dengan pasti 
 
 489
 00:27:23,720 --> 00:27:25,440
@@ -2285,27 +2297,33 @@ waktu polinomial dapat di selesaikan
 
 490
 00:27:25,440 --> 00:27:27,550
-Mereka semua seperti subexpontial.
+Mereka semua seperti 
+subexpontial.
 
 491
 00:27:27,550 --> 00:27:32,070
-Dan kamu bisa membuat angka yang cukup besar seperti g dari a
+Dan kamu bisa membuat angka 
+yang cukup besar seperti g dari a
 
 492
 00:27:32,070 --> 00:27:37,270
-itu aman di sense yang tidak memberi tahu apa itu a.
+itu aman di sense yang 
+tidak memberi tahu apa itu a.
 
 493
 00:27:37,270 --> 00:27:43,260
-Sehingga itu beberapa masukkan yang diffie dan hellman punya,
+Sehingga itu beberapa masukkan 
+yang diffie dan hellman punya,
 
 494
 00:27:43,260 --> 00:27:55,020
-yang dimana ada di masalah log diskrit yang susah.
+yang dimana ada di 
+masalah log diskrit yang susah.
 
 495
 00:27:55,020 --> 00:27:59,910
-dan itu yang berarti diberikan g dari a,
+dan itu yang 
+berarti diberikan g dari a,
 
 496
 00:27:59,910 --> 00:28:03,160
