@@ -3500,12 +3500,12 @@ apa yang terjadi adalah,
 
 745
 00:40:38,140 --> 00:40:41,000
-you do have particular
-implementations
+Anda memiliki
+implementasi khusus
 
 746
 00:40:41,000 --> 00:40:43,180
-of hash functions that
+dari fungsi-fungsi hash yang
 obviously need to have
 
 747
