@@ -2315,6 +2315,7 @@ sama lain.
 
 487
 00:20:09,315 --> 00:20:12,280
+<<<<<<< Updated upstream
 Jadi jika Anda membuat 
 koneksi dari satu port sumber
 
@@ -2325,38 +2326,38 @@ kemudian Anda menutup koneksi
 
 489
 00:20:14,864 --> 00:20:17,363
-and establish another one of
-the same source and destination
+dan membuat satu lagi
+sumber dan tujuan
 
 490
 00:20:17,363 --> 00:20:20,000
-port, you want to make sure
-the packets from one connection
+port yang sama, anda ingin memastikan
+paket dari koneksi dari satu koneksi
 
 491
 00:20:20,000 --> 00:20:24,121
-don't appear to be valid
-in another connection.
+tidak tampak valid
+dalam koneksi lain.
 
 492
 00:20:24,121 --> 00:20:26,109
-AUDIENCE: So the
-server sequence number
+AUDIENS: Jadi
+nomor urut server
 
 493
 00:20:26,109 --> 00:20:28,525
-is incremented for every
-one of their packets?
+bertambah untuk setiap
+salah satu paket mereka?
 
 494
 00:20:28,525 --> 00:20:33,397
-PROFESSOR: Well, so the sequence
-numbers within a connection,
+PROFESSOR: yaah, begitu urutan
+nomor dalam koneksi,
 
 495
 00:20:33,397 --> 00:20:35,550
-as I was describing, get
-bumped with all the data
+seperti yang saya gambarkan, dapat
+bertemu dengan semua data
 
 496
 00:20:35,550 --> 00:20:36,217
