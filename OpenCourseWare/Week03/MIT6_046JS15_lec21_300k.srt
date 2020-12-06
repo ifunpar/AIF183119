@@ -2939,150 +2939,150 @@ properti-properti ini?
 
 625
 00:33:57,620 --> 00:33:59,840
-All right, because I'm
-going to start asking you
+Baiklah, karena saya
+akan mulai bertanya kepada Anda
 
 626
 00:33:59,840 --> 00:34:03,010
-how to use them for
-particular applications,
+bagaimana cara menggunakan mereka untuk
+aplikasi-aplikasi tertentu,
 
 627
 00:34:03,010 --> 00:34:09,170
-or what properties are required
-for certain applications, OK?
+atau properti-properti apa yang dibutuhkan
+untuk aplikasi-aplikasi tertentu, OK?
 
 628
 00:34:09,170 --> 00:34:11,150
-One last thing
-before we get there.
+Satu hal lagi
+sebelum kita ke sana.
 
 629
 00:34:11,150 --> 00:34:16,960
-I promised a slightly
-more detailed analysis
+Saya menjanjikan sebuah
+analisis yang sedikit lebih rinci
 
 630
 00:34:16,960 --> 00:34:20,170
-of the relationships
-between these properties.
+tentang hubungan
+antara properti-properti ini.
 
 631
 00:34:20,170 --> 00:34:20,974
-So let's do that.
+Jadi mari kita lakukan hal tersebut.
 
 632
 00:34:24,810 --> 00:34:27,830
-Now if your just look
-at it, eyeball it,
+Sekarang jika Anda
+melihatnya, memperhatikannya,
 
 633
 00:34:27,830 --> 00:34:34,888
-and you look at collision
-resistance and TCR,
+dan Anda perhatikan pada
+collision resistance dan TCR,
 
 634
 00:34:34,888 --> 00:34:36,429
-what can I say about
-the relationship
+hal apa yang dapat saya katakan
+tentang relasi
 
 635
 00:34:36,429 --> 00:34:40,820
-between CR and TCR?
+antara CR dan TCR?
 
 636
 00:34:40,820 --> 00:34:45,953
-If h is CR, it's going
-to be TCR, right?
+Jika h adalah CR, ia akan
+menjadi TCR, benar?
 
 637
 00:34:45,953 --> 00:34:46,744
-It's got to be TCR.
+Ia pasti menjadi TCR.
 
 638
 00:34:46,744 --> 00:34:48,735
-It's a strictly
-stronger requirement.
+Ini adalah kebutuhan
+yang lebih ketat.
 
 639
 00:34:54,659 --> 00:34:55,415
-But not reverse.
+Tapi tidak kebalikannya.
 
 640
 00:34:57,940 --> 00:35:04,230
-And you can actually
-give a concrete example
+Dan Anda sebenarnya dapat
+memberikan sebuah contoh konkret
 
 641
 00:35:04,230 --> 00:35:07,077
-of a particular hash
-function that is TCR.
+tentang fungsi hash tertentu
+yang merupakan TCR.
 
 642
 00:35:07,077 --> 00:35:08,160
-I'm not going to go there.
+Saya tidak akan membahas sampai ke sana.
 
 643
 00:35:08,160 --> 00:35:09,659
-It's actually a
-little more involved
+Hal ini sebenarnya
+sedikit lebih terlibat
 
 644
 00:35:09,659 --> 00:35:12,780
-than you might think it is,
-where a TCR hash function is
+daripada yang mungkin Anda pikirkan,
+di mana sebuah fungsi hash TCR
 
 645
 00:35:12,780 --> 00:35:14,430
-not collision resistant.
+bukan merupakan collision resistant.
 
 646
 00:35:14,430 --> 00:35:17,180
-But you can see that
-examples such as these
+Tapi Anda dapat melihat bahwa
+contoh-contoh seperti ini
 
 647
 00:35:17,180 --> 00:35:20,340
-should exist, simply because I
-have a more stringent property
+seharusnya ada, hanya karena saya
+memiliki properti yang lebih ketat
 
 648
 00:35:20,340 --> 00:35:22,280
-corresponding to
+sesuai dengan
 collision resistance
 
 649
 00:35:22,280 --> 00:35:24,680
-as opposed to TCR, right?
+daripada TCR, kan?
 
 650
 00:35:24,680 --> 00:35:27,170
-So if you're interested in
-that particular example,
+Jadi jika Anda tertarik dengan
+contoh tertentu itu,
 
 651
 00:35:27,170 --> 00:35:29,780
-you're not responsible for
-it, get in touch with me
+Anda tidak bertanggung jawab untuk
+hal itu, hubungi saya
 
 652
 00:35:29,780 --> 00:35:32,545
-and I'll point you to a,
-like a three-page description
+dan saya akan tunjukkan Anda ke a,
+seperti sebuah deskripsi tiga halaman
 
 653
 00:35:32,545 --> 00:35:34,180
-of an example.
+dari sebuah contoh.
 
 654
 00:35:34,180 --> 00:35:35,930
-So I didn't really
-want to go in there.
+Jadi saya tidak begitu
+ingin menjelaskan sampai ke situ.
 
 655
 00:35:35,930 --> 00:35:40,170
-But what I do want to do is talk
-about one-wayness and collision
+Tapi yang saya ingin lakukan adalah bicara
+mengenai ke-satu-arah-an dan collision
 
 656
 00:35:40,170 --> 00:35:40,820
@@ -3090,56 +3090,56 @@ resistance.
 
 657
 00:35:40,820 --> 00:35:43,069
-Because I think that's
-actually much more interesting,
+Karena menurut saya itu
+jauh lebih menarik,
 
 658
 00:35:43,069 --> 00:35:43,720
-all right?
+OK?
 
 659
 00:35:43,720 --> 00:35:59,060
-So if h is one-way--
-any conjectures
+Jadi jika h itu satu arah--
+apakah ada yang ingin menebak
 
 660
 00:35:59,060 --> 00:36:03,370
-as to what the question
-mark is in the middle?
+apa tanda tanya
+yang ada di tengah itu?
 
 661
 00:36:03,370 --> 00:36:07,950
-Can I make strong statements
-about the collision resistance
+Bisakah saya membuat pernyataan kuat
+mengenai collision resistance
 
 662
 00:36:07,950 --> 00:36:10,430
-of a hash function,
-if I'm guaranteed
+dari sebuah fungsi hash,
+jika saya terjamin
 
 663
 00:36:10,430 --> 00:36:14,010
-that the hash function I have
-is a one-way hash function,
+bahwa fungsi hash yang saya punya
+adalah fungsi hash satu arah,
 
 664
 00:36:14,010 --> 00:36:14,730
-or vice versa?
+atau sebaliknya?
 
 665
 00:36:20,960 --> 00:36:23,080
-Another way of
-putting it is, can you
+Cara lain untuk
+mengatakannya adalah, bisakah Anda
 
 666
 00:36:23,080 --> 00:36:28,970
-give me an example of,
-just to start with,
+memberikan contoh kepada saya,
+untuk memulai saja,
 
 667
 00:36:28,970 --> 00:36:35,096
-a hash function which is
-one-way but not TCR, not
+sebuah fungsi hash yang satu
+arah tapi tidak TCR, tidak
 
 668
 00:36:35,096 --> 00:36:36,220
@@ -3147,356 +3147,356 @@ target collision resistant?
 
 669
 00:36:40,520 --> 00:36:43,540
-So I'm going to try and
-extract this out of you.
+Jadi saya akan mencoba
+mengekstrak hal ini dari Anda.
 
 670
 00:36:43,540 --> 00:36:46,870
-This is somewhat subtle.
+Hal ini agak cerdik.
 
 671
 00:36:46,870 --> 00:36:48,990
-But the way you want
-to think about this
+Tapi cara yang Anda inginkan
+untuk memikirkan hal ini
 
 672
 00:36:48,990 --> 00:36:59,260
-is, let's say that h
-of x is OW and TCR, OK?
+adalah, katakanlah h(x)
+adalah OW dan TCR, OK?
 
 673
 00:36:59,260 --> 00:37:02,660
-And so I have a bunch of inputs.
+Jadi saya punya banyak masukan.
 
 674
 00:37:02,660 --> 00:37:03,660
-And this is the output.
+Dan ini adalah keluarannya.
 
 675
 00:37:03,660 --> 00:37:06,160
-And I get d-bits out.
+Dan saya mendapatkan d-bit.
 
 676
 00:37:06,160 --> 00:37:12,010
-And I've got x1, x2, to xn, OK?
+Dan saya mempunyai x1, x2, hingga xn, OK?
 
 677
 00:37:12,010 --> 00:37:16,620
-Now I've given this h--
-I've been given this h which
+Sekarang saya telah memberikan h ini--
+Saya telah diberikan h ini yang
 
 678
 00:37:16,620 --> 00:37:18,240
-is one-way and TCR.
+merupakan satu arah dan TCR.
 
 679
 00:37:18,240 --> 00:37:20,960
-It satisfies those properties
-that you have up there.
+Hal tersebut memenuhi properti-properti itu
+yang Anda miliki di atas sana.
 
 680
 00:37:20,960 --> 00:37:24,590
-In the case of one-way, I give
-you an arbitrary d-bit string.
+Dalam kasus satu arah, saya memberikan
+Anda sebuah string d-bit acak.
 
 681
 00:37:24,590 --> 00:37:28,770
-You can't go backwards and
-find a bunch of the xi's that
+Anda tidak bisa mundur dan
+menemukan sekumpulan xi yang
 
 682
 00:37:28,770 --> 00:37:34,150
-produce exactly that
-d-bit string, all right?
+menghasilkan string d-bit 
+persis seperti itu, OK?
 
 683
 00:37:34,150 --> 00:37:36,530
-So it's going to be
-hard to get here.
+Jadi akan sulit
+untuk sampai kesini.
 
 684
 00:37:36,530 --> 00:37:40,380
-But you're allowed now
-to give me an example.
+Tapi Anda diperbolehkan sekarang
+untuk memberi saya sebuah contoh.
 
 685
 00:37:40,380 --> 00:37:45,390
-So this is some hash
-function that you can create,
+Jadi ini adalah beberapa fungsi
+hash yang bisa Anda buat,
 
 686
 00:37:45,390 --> 00:37:48,300
-which may use h as well.
+yang mungkin menggunakan h juga.
 
 687
 00:37:48,300 --> 00:37:51,780
-And h is kind of nice because
-it has this one-way property.
+Dan h agak bagus karena
+ia memiliki properti satu arah ini.
 
 688
 00:37:51,780 --> 00:37:55,030
-So let's say that we want
-to discover something where
+Jadi katakanlah bahwa kita ingin
+menemukan sesuatu di mana
 
 689
 00:37:55,030 --> 00:37:59,080
-one-way does not imply TCR.
+satu arah tidak berarti TCR.
 
 690
 00:37:59,080 --> 00:38:03,490
-So I want to cook up a
-hash function h prime such
+Jadi saya ingin membuat sebuah
+fungsi hash h aksen sehingga
 
 691
 00:38:03,490 --> 00:38:09,550
-that h prime is one-way,
-but it's not TCR, OK?
+h aksen tersebut satu arah,
+tapi bukan TCR, OK?
 
 692
 00:38:09,550 --> 00:38:13,610
-The way you want to think about
-this is you want to add to h.
+Cara yang Anda ingin pikirkan
+tentang hal ini adalah Anda tambahkan ke h.
 
 693
 00:38:13,610 --> 00:38:16,790
-And you want to add something
-to h such that it's still hard--
+Dan Anda ingin menambahkan sesuatu
+terhadap h agar tetap sulit--
 
 694
 00:38:16,790 --> 00:38:20,347
-if you add h it's still hard
-to go from here to there.
+jika Anda menambahkan h tetap sulit
+untuk pergi dari sini ke sana.
 
 695
 00:38:20,347 --> 00:38:21,680
-Because you've got to go deeper.
+Karena anda harus pergi lebih dalam.
 
 696
 00:38:21,680 --> 00:38:23,760
-If you add to, for
-example, the inputs of h.
+Jika Anda menambahkan ke, sebagai
+contoh, masukan-masukan dari h.
 
 697
 00:38:23,760 --> 00:38:26,170
-Or you could add to the
-outputs of h as well,
+Atau Anda bisa menambahkan ke
+keluaran-keluaran dari h juga,
 
 698
 00:38:26,170 --> 00:38:27,730
-or the outputs of the current h.
+atau keluaran-keluaran dari h saat ini.
 
 699
 00:38:27,730 --> 00:38:34,670
-But you can basically go deeper,
-or need to go deeper in order
+Tapi pada dasarnya Anda bisa pergi lebih dalam,
+atau harus pergi lebih dalam untuk
 
 700
 00:38:34,670 --> 00:38:39,580
-to find the break
-one-wayness, in order
+menemukan pemutusan
+ke-satu-arah-an, untuk
 
 701
 00:38:39,580 --> 00:38:43,820
-to find an x, whatever you have,
-that produces the d-bit string
+menemukan sebuah x, apapun yang Anda miliki,
+yang menghasilkan string d-bit
 
 702
 00:38:43,820 --> 00:38:44,910
-that you have, right?
+yang Anda miliki, benar?
 
 703
 00:38:44,910 --> 00:38:49,690
-So what's a simple way of
-creating an h prime such that
+Jadi apa cara sederhana untuk
+membuat sebuah h aksen agar
 
 704
 00:38:49,690 --> 00:38:53,700
-it's going to be pretty easy to
-find targeted collisions even,
+menjadi cukup mudah untuk
+menemukan targeted collisions,
 
 705
 00:38:53,700 --> 00:38:56,150
-not necessarily collisions,
-it's pretty easy to find
+tidak harus berupa collisions,
+cukup mudah untuk menemukan
 
 706
 00:38:56,150 --> 00:38:58,740
 targeted collisions,
-without breaking
+tanpa merusak
 
 707
 00:38:58,740 --> 00:39:00,180
-the one-way property of h?
+properti ke-satu-arah-an dari h?
 
 708
 00:39:03,785 --> 00:39:05,264
-Yeah?
+Ya?
 
 709
 00:39:05,264 --> 00:39:11,673
-AUDIENCE: So if you have
-x sub i, if i odd then
+AUDIENS: Jadi jika Anda mempunyai
+x sub i, jika i ganjil maka
 
 710
 00:39:11,673 --> 00:39:14,631
-return h of x of i.
+keluarkan h(x) dari i.
 
 711
 00:39:14,631 --> 00:39:16,603
-So that's minus 1.
+Agar ia berkurang 1.
 
 712
 00:39:16,603 --> 00:39:18,552
-So return the even group.
+Jadi keluarkan kelompok yang genap.
 
 713
 00:39:18,552 --> 00:39:19,510
-SRINIVAS DEVADAS: Sure.
+SRINIVAS DEVADAS: Tentu saja.
 
 714
 00:39:19,510 --> 00:39:21,004
-Yep.
+Ya.
 
 715
 00:39:21,004 --> 00:39:24,241
-AUDIENCE: Given
-x any x of i, you
+AUDIENS: Diberikan
+x apa saja x dari i, Anda
 
 716
 00:39:24,241 --> 00:39:27,478
-can usually find another x of
-i that was the same output?
+biasanya dapat menemukan x lain dari
+i yang memiliki keluaran yang sama?
 
 717
 00:39:27,478 --> 00:39:28,980
-You can go backwards.
+Anda bisa mundur.
 
 718
 00:39:28,980 --> 00:39:29,700
-SRINIVAS DEVADAS: You
-can't go backwards.
+SRINIVAS DEVADAS: Anda
+tidak bisa mundur.
 
 719
 00:39:29,700 --> 00:39:30,500
-Yeah, that's good.
+Ya, itu bagus.
 
 720
 00:39:30,500 --> 00:39:31,450
-That's good.
+Itu bagus.
 
 721
 00:39:31,450 --> 00:39:34,114
-I'm going to do something that's
-almost exactly what you said.
+Saya akan melakukan sesuatu yang
+hampir sama dengan yang Anda katakan.
 
 722
 00:39:34,114 --> 00:39:35,655
-But I'm going to
-draw it pictorially.
+Tetapi saya akan
+menggambarkannya.
 
 723
 00:39:38,270 --> 00:39:42,705
-And what you can do, you can
-do a parity, like odd and even
+Dan yang dapat Anda lakukan, Anda dapat
+melakukan sebuah pembatas, seperti ganji dan genap
 
 724
 00:39:42,705 --> 00:39:43,705
-that was just described.
+yang baru saja dijelaskan.
 
 725
 00:39:47,520 --> 00:39:51,440
-And all I'll do is add
-a little [? XNOR ?]
+Dan yang akan saya lakukan adalah menambah
+gerbang [? XNOR ?]
 
 726
 00:39:51,440 --> 00:39:55,240
-gate, which is a parity
-gate, to one of the inputs.
+kecil, yang merupakan gerbang
+pembatas, terhadap salah satu masukannya.
 
 727
 00:39:55,240 --> 00:39:56,830
-So you have and b here.
+Jadi Anda mempunyai a dan b di sini.
 
 728
 00:39:56,830 --> 00:40:01,010
-So I've taken x1, and
-I have a and b here.
+Jadi saya telah mengambil x1, dan
+saya mempunyai a dan b di sini.
 
 729
 00:40:01,010 --> 00:40:04,560
-So I've added-- I can
-add as many inputs
+Jadi saya telah menambahkan-- saya dapat
+menambahkan masukan sebanyak
 
 730
 00:40:04,560 --> 00:40:06,190
-as I want to this function.
+yang saya inginkan untuk fungsi ini.
 
 731
 00:40:06,190 --> 00:40:08,830
-Oh I should mention
-by the way, h of x
+Oh omong-omong saya
+sebaiknya mengatakan, h(x)
 
 732
 00:40:08,830 --> 00:40:11,290
-is working on arbitrary strings.
+berfungsi pada string-string acak.
 
 733
 00:40:11,290 --> 00:40:13,630
-And obviously I
-put in some number
+Dan tentunya saya
+memasukkan suatu angka
 
 734
 00:40:13,630 --> 00:40:16,774
-here that corresponds to
-n, which is a fixed number.
+di sini yang berhubungan dengan
+n, yang merupakan angka tetap.
 
 735
 00:40:16,774 --> 00:40:19,190
-So you might ask, what the
-heck happened here with respect
+Jadi Anda mungkin bertanya, apa
+yang terjadi di sini yang berkaitan
 
 736
 00:40:19,190 --> 00:40:20,610
-to arbitrary strings?
+terhadap string-string acak?
 
 737
 00:40:20,610 --> 00:40:22,570
-And there's two answers.
+Dan ada dua jawaban.
 
 738
 00:40:22,570 --> 00:40:25,000
-The first answer is,
-well, ignore arbitrary.
+Jawaban pertama adalah,
+yah, abaikan keacakan.
 
 739
 00:40:25,000 --> 00:40:27,350
-And assume that you
-only have n-bit strings.
+Dan asumsikan bahwa Anda
+hanya mempunyai string-string n-bit.
 
 740
 00:40:27,350 --> 00:40:29,370
-And n this is really
-large number, right?
+Dan n ini merupakan angka
+yang sangat besar, benar?
 
 741
 00:40:29,370 --> 00:40:31,500
-And that may not be
-particularly satisfying.
+Dan hal itu mungkin tidak
+terlalu memuaskan.
 
 742
 00:40:31,500 --> 00:40:34,220
-The other answer is,
-which is more practical,
+Jawaban lainnya adalah,
+yang lebih praktis,
 
 743
 00:40:34,220 --> 00:40:35,850
-which is what's
-used in practice,
+yang merupakan hal yang
+digunakan dalam praktik,
 
 744
 00:40:35,850 --> 00:40:38,140
-is that typically
-what happens is,
+adalah biasanya
+apa yang terjadi adalah,
 
 745
 00:40:38,140 --> 00:40:41,000
