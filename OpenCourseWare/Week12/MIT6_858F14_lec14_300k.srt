@@ -2200,59 +2200,59 @@ Tapi sekarang, sebenarnya lebih buruk.
 464
 00:21:13,850 --> 00:21:16,400
 Ini sebenarnya lebih buruk
-dalam beberapa hal, karena sebaliknya
+dalam beberapa hal, karena alih - alih
 
 465
 00:21:16,400 --> 00:21:18,320
-of trusting a
-single KDC machine,
+mempercayai sebuah
+mesin KDC tunggal
 
 466
 00:21:18,320 --> 00:21:20,960
-everyone is now trusting
-these hundreds or certificate
+sekarang semua orang akan mempercayai
+ratusan otoritas
 
 467
 00:21:20,960 --> 00:21:23,380
-authorities because all of
-them are equally as powerful.
+sertifikat ini karena mereka
+semua sama kuatnya.
 
 468
 00:21:23,380 --> 00:21:25,390
-Any of them could sign
-a message like this
+Siapa pun dari mereka dapat menandai
+sebuah pesan seperti ini
 
 469
 00:21:25,390 --> 00:21:28,720
-and it would be
-accepted by clients
+dan akan
+diterima oleh klien
 
 470
 00:21:28,720 --> 00:21:31,650
-as a correct statement
-saying this principle
+sebagai sebuah laporan yang benar
+menyatakan bahwa prinsipiel ini
 
 471
 00:21:31,650 --> 00:21:33,530
-has this public key.
+memiliki kunci publik ini.
 
 472
 00:21:33,530 --> 00:21:35,890
-So you have to only break
-into one of these guys instead
+Jadi Anda hanya perlu membobol
+salah satu dari mereka ini, alih - alih
 
 473
 00:21:35,890 --> 00:21:37,830
-of the one KDSC.
+satu KDSC.
 
 474
 00:21:40,500 --> 00:21:41,235
-Yeah?
+Ya?
 
 475
 00:21:41,235 --> 00:21:43,304
-AUDIENCE: Is there a
-mechanism to open the keys?
+AUDIENS: Apakah ada sebuah
+mekanisme untuk membuka kunci tersebut?
 
 476
 00:21:43,304 --> 00:21:43,970
