@@ -2110,68 +2110,68 @@ benda tersebut.
 
 459
 00:21:02,460 --> 00:21:07,650
-Now, the prover needs to
-prove that public key 0 is
+Sekarang, sang pembukti dapat
+membuktikan bahwa kunci publik 0 adalah
 
 460
 00:21:07,650 --> 00:21:09,870
-contained within the root.
+terdapat diantara akarnya.
 
 461
 00:21:09,870 --> 00:21:13,860
-And to do that, the only two
-things the prover needs to add
+Dan untuk melakukan hal tersebut, hanya 2
+hal, untuk sang pembukti butuh tambahkan
 
 462
 00:21:13,860 --> 00:21:16,380
-is pub1--
+adalah publ--
 
 463
 00:21:16,380 --> 00:21:21,510
-OK, so the prover says,
-here's public key 1.
+OK, jadi sang pembukti mengatakan,
+ini kunci publik 1.
 
 464
 00:21:21,510 --> 00:21:25,770
-That allows the verifier
-to compute this.
+Itu mengizinkan sang verifikator
+untuk menghitung.
 
 465
 00:21:25,770 --> 00:21:27,510
-And then the prover
-says, hey, here's
+Dan kemudian sang pembukti
+mengatakan, hei, ini
 
 466
 00:21:27,510 --> 00:21:32,190
-hash 2, 3, which allows the
-verifier to compute the root
+hash 2, 3, yang mengizinkan
+verifikator untuk menghitung akarnya
 
 467
 00:21:32,190 --> 00:21:33,800
-and then check that it's equal.
+dan kemudian mengecek apakah itu sama.
 
 468
 00:21:33,800 --> 00:21:36,300
-So yeah, you only need two extra
-hashes instead of all four.
+Jadi, anda hanya membutuhkan dua
+hash tambahan daripada empat.
 
 469
 00:21:36,300 --> 00:21:39,127
-So saves some space.
+Jadi menyimpan sebagian ruang.
 
 470
 00:21:39,127 --> 00:21:41,460
-It doesn't save that much
-space when you only have four.
+Itu tidak menyimpan sebegitu banyak
+ruang ketika anda hanya memiliki empat.
 
 471
 00:21:41,460 --> 00:21:45,540
-It saves a lot of space
-when you have 1,000, right?
+Itu menyimpan banyak ruang
+ketika anda memiliki 1000, kan ?
 
 472
 00:21:45,540 --> 00:21:49,050
-So you can add 0 of n elements.
+Jadi anda dapat menambahkan 0 dari n elemen.
 
 473
 00:21:49,050 --> 00:21:51,330
