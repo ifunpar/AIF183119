@@ -2382,70 +2382,70 @@ hal itu, jika ada
 
 511
 00:28:49,680 --> 00:28:52,990
-a way of computing
-g of a times b,
+sebuah cara menghitung
+g dari a kali b
 
 512
 00:28:52,990 --> 00:28:55,800
-even though you potentially
-haven't discovered
+meskipun Anda belum berpotensi
+menemukannya
 
 513
 00:28:55,800 --> 00:28:59,340
-a and b precisely,
-g of a times b
+a dan b tepatnya,
+g dari a kali b
 
 514
 00:28:59,340 --> 00:29:02,060
-is just the secret key that
-Alice and Bob exchanged.
+hanyalah kunci rahasia yang
+Alice dan Bob saling tukar.
 
 515
 00:29:02,060 --> 00:29:03,620
-So you're host.
+Jadi Anda adalah host.
 
 516
 00:29:03,620 --> 00:29:07,240
-Alice and Bob are host
-if mal can do this.
+Alice dan Bob adalah host
+jika mal dapat melakukan ini.
 
 517
 00:29:07,240 --> 00:29:09,410
-So there's two
-things going on here.
+Jadi ada dua
+hal yang terjadi di sini.
 
 518
 00:29:09,410 --> 00:29:12,540
-You want the Diffie-Hellman
-problem to be hard.
+Anda mau masalah Diffie-Hellman
+menjadi sulit.
 
 519
 00:29:12,540 --> 00:29:16,500
-And you want the discrete
-log problem to be hard.
+Dan Anda mau masalah log diskrit
+menjadi sulit.
 
 520
 00:29:16,500 --> 00:29:20,500
-OK So generally, this is
-how cryptography works.
+OK Jadi secara umum, ini adalah
+bagaimana kriptografi bekerja.
 
 521
 00:29:20,500 --> 00:29:22,880
-You set up protocols.
+Anda mengatur protokol
 
 522
 00:29:22,880 --> 00:29:26,330
-And there's some information
-that's bound to be exposed.
+Dan ada beberapa informasi
+yang akan terungkap
 
 523
 00:29:26,330 --> 00:29:30,280
-You want this information
-to be hard to reverse
+Anda mau informasi ini
+menjadi sulit untuk dibalik
 
 524
 00:29:30,280 --> 00:29:32,190
-to get the crucial information.
+untuk mendapatkan informasi yang krusial.
 
 525
 00:29:32,190 --> 00:29:34,890
