@@ -2225,105 +2225,87 @@ Dan itu cukup mudah dilakukan.
 
 475
 00:26:43,720 --> 00:26:45,740
-But this is what's called
-a discrete logarithm
+Tapi ini yang kita sebut masalah logaritma diskrit
 
 476
 00:26:45,740 --> 00:26:48,400
-problem, because we're
-in a finite field.
+karena kita berada di lapang yang terbatas.
 
 477
 00:26:48,400 --> 00:26:50,980
-And we obviously want
-integers. a is an integer.
+Dan kita tentu perlu bilangan integer. A merupakan bilangan integer
 
 478
 00:26:50,980 --> 00:26:54,800
-So we need to discover
-what does that integer is.
+Lalu kita perlu mengetahui bentuk seperti apa integer tersebut.
 
 479
 00:26:54,800 --> 00:26:56,800
-Because we're doing
-the mod p, et cetera,
+Karena kita melakukan mod pada nilai p, dan lainnya
 
 480
 00:26:56,800 --> 00:26:59,490
-and p is typically
-on a large number,
+dan p biasanya merupakan nilai yang besar
 
 481
 00:26:59,490 --> 00:27:02,650
-it's actually a hard
-problem computationally
+dan itu sebenarnya merupakan masalah komputasional yang sulit
 
 482
 00:27:02,650 --> 00:27:05,520
-to do a discrete log.
+untuk melakukan diskrit log.
 
 483
 00:27:05,520 --> 00:27:10,820
-So when you see g of a,
-you know g, you know p,
+Jadi, saat anda melihat g dari a, anda tahu g, anda tahu p
 
 484
 00:27:10,820 --> 00:27:15,710
-but trying to figure out
-what produced that g of a
+tapi mencoba untuk mengetahui apa hasil dari g dari a
 
 485
 00:27:15,710 --> 00:27:16,920
-is a difficult problem.
+merupakan masalah yang susah.
 
 486
 00:27:16,920 --> 00:27:19,010
-And people have looked
-at this for 30, 40 years
+Dan orang-orang telah melihat ini selama 30, 40 tahun
 
 487
 00:27:19,010 --> 00:27:21,929
-and there's not great
-algorithms to solve
+dan tidak ada algoritma yang baik untuk menyelesaikan
 
 488
 00:27:21,929 --> 00:27:23,720
-this problem, certainly
-not anything that's
+masalah ini. dan dengan pasti 
 
 489
 00:27:23,720 --> 00:27:25,440
-polynomial time solvable.
+waktu polinomial dapat di selesaikan
 
 490
 00:27:25,440 --> 00:27:27,550
-They're all kind
-of subexponential.
+Mereka semua seperti subexpontial.
 
 491
 00:27:27,550 --> 00:27:32,070
-And you can make the numbers
-large enough such that g of a
+Dan kamu bisa membuat angka yang cukup besar seperti g dari a
 
 492
 00:27:32,070 --> 00:27:37,270
-is secure in the sense that it
-doesn't give away what a is.
+itu aman di sense yang tidak memberi tahu apa itu a.
 
 493
 00:27:37,270 --> 00:27:43,260
-So that's the insight here
-that Diffie and Hellman had,
+Sehingga itu beberapa masukkan yang diffie dan hellman punya,
 
 494
 00:27:43,260 --> 00:27:55,020
-which comes down to the
-discrete log problem is hard.
+yang dimana ada di masalah log diskrit yang susah.
 
 495
 00:27:55,020 --> 00:27:59,910
-And what this simply
-means is given g of a,
+dan itu yang berarti diberikan g dari a,
 
 496
 00:27:59,910 --> 00:28:03,160
