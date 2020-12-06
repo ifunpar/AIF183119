@@ -2175,115 +2175,115 @@ So you can add 0 of n elements.
 
 473
 00:21:49,050 --> 00:21:51,330
-And the root stays
-the same size.
+Dan ukuran akar
+tetap sama.
 
 474
 00:21:51,330 --> 00:21:53,190
-The root stays 32
-bytes, regardless
+Akar tersebut akan tetap 
+berukuran 32 bytes, terlepas dari
 
 475
 00:21:53,190 --> 00:21:56,000
-of how many leaf nodes you have.
+berapa banyak node daun yang kamu miliki.
 
 476
 00:21:56,000 --> 00:21:58,110
-And you can prove an
-element with log n--
+Dan kamu dapat membuktikan
+sebuah elemen dengan log n--
 
 477
 00:21:58,110 --> 00:22:00,176
-oh, those parentheses
-are wrong--
+oh, tanda kurung tersebut
+salah--
 
 478
 00:22:00,176 --> 00:22:02,340
-0 log n intermediate hashes.
+0 log n hash tengah.
 
 479
 00:22:02,340 --> 00:22:06,510
-So if you have 1,000 keys,
-your root stays 32 bytes,
+Jadi bila kamu memiliki 1,000 kunci,
+akar kamu tetap berukuran 32 bytes,
 
 480
 00:22:06,510 --> 00:22:10,830
-and your proofs are going to
-be not too, too big, right--
+dan bukti kamu akan menjadi
+tidak terlalu besar, bukan--
 
 481
 00:22:10,830 --> 00:22:15,000
-320 bytes of overhead,
-which is a bunch smaller
+320 bytes lebih,
+yang berarti lebih kecil dari 
 
 482
 00:22:15,000 --> 00:22:17,550
-than a signature, right?
+tanda tangan, bukan?
 
 483
 00:22:17,550 --> 00:22:18,580
-So this is really cool.
+Jadi ini sangat keren.
 
 484
 00:22:18,580 --> 00:22:21,450
-And you can use this
-much more practically
+Dan kamu dapat menggunakan ini
+dengan lebih praktis
 
 485
 00:22:21,450 --> 00:22:24,150
-than the raw lamport
-signatures that
+dibandingkan dengan signatur
+lamport dasar yang
 
 486
 00:22:24,150 --> 00:22:25,680
-were in the first problem set.
+berada di kumpulan masalah pertama.
 
 487
 00:22:25,680 --> 00:22:29,760
-Because those, if
-you're just doing
+Karena itu, bila 
+kamu hanya melakukan
 
 488
 00:22:29,760 --> 00:22:32,640
-one key and one signature,
-it's about the same size.
+satu kunci dan satu tanda tangan,
+akan berukuran yang sama.
 
 489
 00:22:32,640 --> 00:22:34,920
-But this actually lets
-you use it multiple times,
+Tetapi ini membuat kamu
+dapat menggunakannya berkali-kali,
 
 490
 00:22:34,920 --> 00:22:37,230
-lets you store a much
-smaller private key,
+membiarkan kamu menyimpan kunci privat
+yang lebih kecil,
 
 491
 00:22:37,230 --> 00:22:39,180
-commit to much
-smaller public keys.
+berkomitmen kepada kunci publik
+yang lebih kecil.
 
 492
 00:22:39,180 --> 00:22:40,740
-It's a more usable system.
+Ini adalah sistem yang lebih dapat digunakan.
 
 493
 00:22:40,740 --> 00:22:46,072
-The signatures, though, still
-are kind of huge, right?
+Meski demikian tanda tangan itu
+masih cukup besar, bukan?
 
 494
 00:22:46,072 --> 00:22:48,030
-Your signatures are going
-to be a little over 8
+Tanda tangan Anda akan 
+menjadi lebih dari 8
 
 495
 00:22:48,030 --> 00:22:49,620
-kilobytes, which is OK, right?
+kilobytes, cukup OK, bukan?
 
 496
 00:22:49,620 --> 00:22:51,690
-Computers can deal
+Komputer dapat menangani
 with 8 kilobytes.
 
 497
