@@ -1850,214 +1850,218 @@ adalah pohon biner.
 
 402
 00:18:40,860 --> 00:18:41,690
-OK.
+Ok.
 
 403
 00:18:41,690 --> 00:18:46,220
-So the idea is here are my four
-public keys that take up 64K
+Jadi idenya adalah ini 4
+kunci publik milik saya yang masing - masing
 
 404
 00:18:46,220 --> 00:18:47,510
-each.
+membutuhkan 64K.
 
 405
 00:18:47,510 --> 00:18:49,550
-I can make these
-intermediate hashes.
+Saya bisa membuat ini
+hash - hash menengah.
 
 406
 00:18:49,550 --> 00:18:52,310
-So I make a binary tree
-where I say, OK, this
+Jadi Saya membuat sebuah pohon biner
+di mana Saya bilang, Ok, ini
 
 407
 00:18:52,310 --> 00:18:56,570
-is the hash of the first
-two keys stuck together.
+adalah hash pertama dari
+dua kunci yang saling menempel
 
 408
 00:18:56,570 --> 00:19:00,820
-This is the hash of the second
-two keys stuck together.
+Ini adalah hash kedua
+dari dua kunci yang saling menempel
 
 409
 00:19:00,820 --> 00:19:04,420
-The top is the hash of these
-two intermediate hashes
+Bagian atas adalah hash dari
+dua hash menengah
 
 410
 00:19:04,420 --> 00:19:06,790
-stuck together.
+yang saling menempel.
 
 411
 00:19:06,790 --> 00:19:10,510
-And then, this top
-is my root, which is
+Dan kemudian, bagian atas
+adalah akar saya, yaitu
 
 412
 00:19:10,510 --> 00:19:12,760
-equivalent to my pubkey hash.
+setara dengan kuncipub hash saya
 
 413
 00:19:12,760 --> 00:19:17,440
-And so I can publish this,
-and it commits me to all four
+Dan jadi Saya bisa mencetak ini,
+dan itu menjalankan saya pada keempat 
 
 414
 00:19:17,440 --> 00:19:20,020
-of my public keys.
+dari kunci publik saya.
 
 415
 00:19:20,020 --> 00:19:24,580
-So it might not be obvious.
+Jadi mungkin tidak terlalu jelas.
 
 416
 00:19:24,580 --> 00:19:26,410
-Do you see any
-advantages that this
+Apakah anda melihat 
+kelebihan yang
 
 417
 00:19:26,410 --> 00:19:29,530
-could have over just
-concatenating all four
+bisa didapat dari 
+menggabungkan keempatnya
 
 418
 00:19:29,530 --> 00:19:30,730
-of the keys and hashing it?
+dari kunci-kunci dan hashing?
 
 419
 00:19:30,730 --> 00:19:31,040
-Yes?
+Ya?
 
 420
 00:19:31,040 --> 00:19:31,998
-AUDIENCE: I'm confused.
+HADIRIN: Saya bingung.
 
 421
 00:19:31,998 --> 00:19:33,970
-Where is your
-private key in this?
+Dimana kunci privat milik 
+anda dalam hal ini?
 
 422
 00:19:33,970 --> 00:19:36,620
-TADGE DRYJA: The private
-key is down here, right?
+TADGE DRYJA: Kunci privatnya 
+ada di sini, bukan?
 
 423
 00:19:36,620 --> 00:19:38,060
-The private key is not shown.
+Kunci privatnya tidak ditampilkan
 
 424
 00:19:38,060 --> 00:19:39,820
-But I have a private key.
+Tapi Saya punya kunci privat.
 
 425
 00:19:39,820 --> 00:19:42,123
-It turns into these pubkeys.
+Itu berubah menjadi kuncipub ini.
 
 426
 00:19:42,123 --> 00:19:43,540
-And we can use the
-technique here,
+Dan kita bisa menggunakan 
+teknik ini.
 
 427
 00:19:43,540 --> 00:19:47,650
-where we just have, really,
-one 32 byte private key
+di mana kita baru saja memiliki, sungguh,
+satu 32 byte kunci private
 
 428
 00:19:47,650 --> 00:19:51,310
-and create all the different
-chunks of all the public keys
+dan membuat semua potongan yang 
+berbeda dari kunci-kunci publik
 
 429
 00:19:51,310 --> 00:19:54,100
-by concatenating
-different indices.
+dengan menyatukan 
+indeks yang berbeda.
+
 
 430
 00:19:54,100 --> 00:19:54,600
-Yes?
+Ya?
 
 431
 00:19:54,600 --> 00:19:57,880
-AUDIENCE: You can do [INAUDIBLE]
-systems and log-in time instead
+HADIRIN: Anda bisa melakukan [Tidak Terdengar]
+sistem-sistem dan waktu log-in sebagai gantinya
+
 
 432
 00:19:57,880 --> 00:19:59,120
-of linear time.
+dari waktu linear.
 
 433
 00:19:59,120 --> 00:20:00,710
-TADGE DRYJA: Yeah, exactly.
+TADGE DRYJA: Iya, betul.
 
 434
 00:20:00,710 --> 00:20:04,880
 I can prove that, hey,
 this is public key 0, which
+Saya bisa buktikan itu, hei,
+ini adalah kunci publik 0, yang
 
 435
 00:20:04,880 --> 00:20:10,910
-is in here, this root hash, and
-I don't have to reveal all four
+ada di sini, hash root ini, dan
+Saya tidak harus mengungkapkan keempatnya, dan
 
 436
 00:20:10,910 --> 00:20:12,130
-in order to do it.
+untuk melakukannya.
 
 437
 00:20:12,130 --> 00:20:13,370
-So yeah.
+Jadi iya.
 
 438
 00:20:13,370 --> 00:20:15,640
-Did someone else have,
-probably, the same idea?
+Apakah seseorang yang lain punya,
+mungkin, ide yang sama?
 
 439
 00:20:15,640 --> 00:20:16,500
-Yeah, OK.
+Iya, Ok.
 
 440
 00:20:16,500 --> 00:20:17,000
-OK.
+Ok.
 
 441
 00:20:17,000 --> 00:20:19,610
-So how are we going to do that?
+Jadi bagaimana kita melakukannya?
 
 442
 00:20:22,210 --> 00:20:23,070
-You obviously know.
+Anda jelas tahu.
 
 443
 00:20:23,070 --> 00:20:23,670
-Anyone else?
+Ada lagi?
 
 444
 00:20:23,670 --> 00:20:24,820
-Yeah.
+Iya.
 
 445
 00:20:24,820 --> 00:20:27,440
-AUDIENCE: So assuming you
-wanted the public key 0,
+Hadirin: Jadi dengan asumsi anda 
+menginginkan kunci publik 0,
 
 446
 00:20:27,440 --> 00:20:31,680
-you would publish that and
-1, and also hash of 2, 3.
+anda akan mempublikasikan itu dan
+1, dan juga hash dari 2, 3. 
 
 447
 00:20:31,680 --> 00:20:33,150
-TADGE DRYJA: Right, yeah.
+TADGE DRYJA: Betul. iya.
 
 448
 00:20:33,150 --> 00:20:35,800
-And then you can
-prove up to the top.
+Dan kemudian anda bisa
+membuktikan ke atas.
 
 449
 00:20:35,800 --> 00:20:37,230
