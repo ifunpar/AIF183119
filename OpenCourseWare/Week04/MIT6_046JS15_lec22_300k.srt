@@ -2309,76 +2309,76 @@ dan itu yang berarti diberikan g dari a,
 
 496
 00:27:59,910 --> 00:28:03,160
-the discrete log
-problem is compute a.
+masalah diskrit
+log adalah menghitung a.
 
 497
 00:28:03,160 --> 00:28:05,950
-And the same thing
-for b, of course.
+Dan sama halnya
+untuk b, tentu saja.
 
 498
 00:28:05,950 --> 00:28:09,300
-There's one other
-thing that you want
+Ada satu lagi
+hal yang Anda ingin
 
 499
 00:28:09,300 --> 00:28:11,400
-to say to be precise
-to sort of just
+katakan agar tepat
+untuk mengurutkan
 
 500
 00:28:11,400 --> 00:28:15,490
-cover the spectrum with respect
-to how this could break.
+menutupi spectrum sehubungan
+untuk bagaimana ini dapat pecah.
 
 501
 00:28:15,490 --> 00:28:19,340
-And that is what's called
-the Diffie-Hellman problem,
+Dan ini adalah apa yang disebut
+masalah Diffie-Hellman,
 
 502
 00:28:19,340 --> 00:28:23,470
-for want of a better names and
-since these are the folks who
+agar ingin nama yang lebih baik dan
+karena ini adalah orang-orang yang
 
 503
 00:28:23,470 --> 00:28:25,770
-first came up with it.
+pertama kali muncul dengan ini.
 
 504
 00:28:25,770 --> 00:28:27,960
-And the Diffie-Hellman
-problem is simply
+Dan masalah 
+Diffie-Hellman adalah secara sederhana
 
 505
 00:28:27,960 --> 00:28:33,680
-that given g of a and g of b,
-which is what the pirates see
+diberikan g dari a dan g dari b,
+yang dimana adalah apa yang perompak lihat
 
 506
 00:28:33,680 --> 00:28:37,610
-and what the adversary
-mal sees, we should not
+dan apa yang musuh
+mal lihat, kita tidak seharusnya
 
 507
 00:28:37,610 --> 00:28:43,400
-be able to compute g
-of a times b, which
+dapat menghitung g
+dari a kali b, yang
 
 508
 00:28:43,400 --> 00:28:44,790
-is exactly what we get here.
+tepatnya apa yang kita dapat disini.
 
 509
 00:28:44,790 --> 00:28:47,600
-g of a raised to b
-is g of a times b.
+g dari a dipangkat b
+adalah g dari a kali b.
 
 510
 00:28:47,600 --> 00:28:49,680
-So given those two
-things, if there's
+Jadi diberikan Kedua
+hal itu, jika ada
 
 511
 00:28:49,680 --> 00:28:52,990
