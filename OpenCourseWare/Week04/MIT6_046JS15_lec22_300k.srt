@@ -2038,7 +2038,6 @@ bajak laut dapat mendengar ini.
 Dan Alice akan
 memilih a, yang merupakan acak,
 
-
 435
 00:24:06,440 --> 00:24:11,810
 dan menghitung g dari a.
@@ -2143,86 +2142,86 @@ dari exponensial.
 
 457
 00:25:46,110 --> 00:25:49,840
-And the part that's
-still missing here
+Dan bagian yang 
+masih hilang di sini
 
 458
 00:25:49,840 --> 00:25:55,032
-with respect to the analogy
-is the fact that g of a
+sehubungan dengan analoginya 
+adalah fakta bahwa g dari a
 
 459
 00:25:55,032 --> 00:25:57,760
-is essentially the locked box.
+pada dasarnya adalah kotak yang terkunci.
 
 460
 00:25:57,760 --> 00:26:01,690
-So what g of a is hiding is a.
+Jadi yang disembunyikan g dari a adalah a.
 
 461
 00:26:01,690 --> 00:26:05,160
-Because you want a to be hidden
-here and the same thing with g
+Karena Anda ingin A tersembunyi 
+di sini dan hal yang sama dengan g
 
 462
 00:26:05,160 --> 00:26:05,660
-of b.
+dari b.
 
 463
 00:26:05,660 --> 00:26:07,080
-It needs to hide b.
+Itu perlu menyembunyikan B.
 
 464
 00:26:07,080 --> 00:26:11,700
-So the problem that the
-pirates had was they
+Jadi masalah yang dimiliki 
+para perompak adalah mereka
 
 465
 00:26:11,700 --> 00:26:14,420
-couldn't open up the box.
+tidak bisa membuka kotak itu.
 
 466
 00:26:14,420 --> 00:26:19,170
-The problem that the adversary,
-let's call them mal, has
+Masalah yang dimiliki musuh, 
+sebut saja mereka mal, adalah
 
 467
 00:26:19,170 --> 00:26:26,630
-is that he has to invert g
-of a in order to discover a.
+bahwa ia harus membalik g 
+dari a untuk menemukan a.
 
 468
 00:26:26,630 --> 00:26:30,870
-And in this particular
-finite field,
+Dan dalam bidang 
+berhingga ini,
 
 469
 00:26:30,870 --> 00:26:34,990
-and many such finite fields,
-you can think of this
+dan banyak bidang berhingga lainnya, 
+Anda dapat menganggap ini
 
 470
 00:26:34,990 --> 00:26:37,370
-as being what's called a
-discrete logarithm problem.
+sebagai apa yang disebut 
+masalah logaritma diskrit.
 
 471
 00:26:37,370 --> 00:26:38,870
-So if you don't
-know how to computer
+Jadi, jika Anda tidak 
+tahu cara menghitung
 
 472
 00:26:38,870 --> 00:26:41,099
-logarithms in that
-continuous domain.
+logaritma di domain 
+berkelanjutan itu.
 
 473
 00:26:41,099 --> 00:26:41,890
-And there's tables.
+Dan ada tabel.
 
 474
 00:26:41,890 --> 00:26:43,720
-And it's pretty easy to do.
+Dan itu cukup mudah dilakukan.
 
 475
 00:26:43,720 --> 00:26:45,740
