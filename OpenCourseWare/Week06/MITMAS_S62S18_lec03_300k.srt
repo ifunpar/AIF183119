@@ -2063,50 +2063,50 @@ membuktikan ke atas.
 
 449
 00:20:35,800 --> 00:20:37,230
-So I have little colors.
+Jadi, saya mempunyai beberapa warna
 
 450
 00:20:37,230 --> 00:20:43,740
-So the idea is the verifier
-who's verifying the signature,
+Idenya adalah sang pemverifikasi
+yang tugasnya melakukan verifikasi tanda tangan,
 
 451
 00:20:43,740 --> 00:20:46,680
-he already knows
-the root, right?
+ia sudah tau 
+akarnya, kan ?
 
 452
 00:20:46,680 --> 00:20:49,130
-Because you've pre-published
-that as your public key,
+Karena anda telah mempublikasikan
+bahwa itu adalah kunci publik anda,
 
 453
 00:20:49,130 --> 00:20:51,450
-as your public key root
-and your public key hash.
+sebagai kunci akar publik
+dan kunci publik hash anda.
 
 454
 00:20:51,450 --> 00:20:54,300
-And then that
-verifier is provided
+Kemudian verifikator
+juga disediakan
 
 455
 00:20:54,300 --> 00:20:57,390
-with public key 0 saying,
-hey, here's a signature.
+dengan kunci publik 0 berkata,
+hei, ini tanda tangannya.
 
 456
 00:20:57,390 --> 00:20:58,510
-Here's the message.
+Ini pesannya.
 
 457
 00:20:58,510 --> 00:21:00,870
-Here is public key 0.
+Ini adalah kunci publik 0.
 
 458
 00:21:00,870 --> 00:21:02,460
-So you've got both
-of these things.
+Jadi kau mendapatkan kedua
+benda tersebut.
 
 459
 00:21:02,460 --> 00:21:07,650
