@@ -1821,21 +1821,21 @@ bahkan secara lintas koneksi.
 
 383
 00:15:56,900 --> 00:15:58,580
-Jika terbuka satu
+Jika saya buka satu
 koneksi, hal itu mungkin
 
 384
 00:15:58,580 --> 00:16:01,060
 memilki sumber dan
-destinasi, nomor port,
+tujuan, nomor port,
 
 385
 00:16:01,060 --> 00:16:02,610
-alamat IP, dan sebagainya.
+alamat IP, dan sebagainya, yang sama.
 
 386
 00:16:02,610 --> 00:16:04,920
-tetapi karena saya menyatakan
+tetapi karena saya membangun
 koneksi ini sekarang bukannya
 
 387
@@ -1859,38 +1859,36 @@ untuk mencegah kebingungan
 
 391
 00:16:14,280 --> 00:16:18,431
-lintasi perulangan
-pendirian koneksi.
+lintas koneksi
+yang berulang.
 
 392
 00:16:18,431 --> 00:16:18,930
-yah.
+Yah.
 
 393
 00:16:18,930 --> 00:16:22,983
-AUDIENS: jadi jika anda tidak tahu
-secara tepat seberapa banyak anda punya
+AUDIENS: jadi jika Anda tidak tahu
+secara tepat seberapa banyak grid lain
 
 394
 00:16:22,983 --> 00:16:25,566
-grid yang anda bicarakan
-akan mengembangkan perhitungan
+yang di mana Anda bekomunikasi dengannya
+akan meningkatkan paket urutan,
 
 395
 00:16:25,566 --> 00:16:26,845
-pak, bagaimana anda tahu
+bagaimana Anda tahu
 paket yang anda terima adalah
 
 396
 00:16:26,845 --> 00:16:29,120
-the next packet if there wasn't
-[INAUDIBLE] immediate packet
-paket jika tidak ada
-[TIDAK TERDENGAR] paket segera
+paket berikutnya jika tidak ada
+[TIDAK TERDENGAR] paket berikutnya
 
 397
 00:16:29,120 --> 00:16:29,530
-yang anda--
+yang Anda--
 
 398
 00:16:29,530 --> 00:16:31,870
@@ -1903,28 +1901,28 @@ yang anda terima.
 
 400
 00:16:33,260 --> 00:16:35,680
-Dan jika urutan selanjutnya
-jumlahnya persis seperti itu,
+Dan jika nomor urut selanjutnya
+persis seperti itu,
 
 401
 00:16:35,680 --> 00:16:38,267
 maka ini merupakan
-paket selanjutnya secara urutan.
+paket selanjutnya pada urutannya.
 
 402
 00:16:38,267 --> 00:16:39,850
-Jadi sebagai contoh, disini,
+Jadi sebagai contoh, di sini,
 server mengetahui
 
 403
 00:16:39,850 --> 00:16:43,937
 bahwa saya dengan tepat melihat
-SNC ditambah 1 data.
+data sebesar SNC ditambah 1.
 
 404
 00:16:43,937 --> 00:16:46,020
 Jika paket selanjutnya memiliki
-urutan nomor SNC ditambah 1,
+nomor urut SNC ditambah 1,
 
 405
 00:16:46,020 --> 00:16:47,618
@@ -1932,31 +1930,31 @@ itu adalah yang selanjutnya.
 
 406
 00:16:47,618 --> 00:16:49,117
-AUDIENS: Jadi anda
-bermaksud bahwa ketika
+AUDIENS: Jadi makud
+Anda bahwa ketika
 
 407
 00:16:49,117 --> 00:16:51,790
-anda menyatakan sebuah nomor urut,
-kemudian bahkan setelah itu kamu
+Anda membangun sebuah nomor urut,
+kemudian bahkan setelah itu Anda
 
 408
 00:16:51,790 --> 00:16:52,762
-Mengkomit--
+berkomitmen terhadapnya--
 
 409
 00:16:52,762 --> 00:16:54,428
-PROFESOR: baik,
-Pastinya, yah, yah.
+PROFESOR: Baik,
+pastinya, yah, yah.
 
 410
 00:16:54,428 --> 00:16:56,611
-Jadi urutan
-nomor ini, awalnya ketika
+Jadi nomor urut
+ini, awalnya ketika
 
 411
 00:16:56,611 --> 00:16:58,986
-anda nyatakan, itu semua
+Anda membangunnya, itu semua
 terpilih menurut suatu rencana.
 
 412
@@ -1966,16 +1964,16 @@ Kita akan bicarakan tentang rencana itu.
 413
 00:17:00,135 --> 00:17:01,940
 Anda dapat berpikir bahwa
-mereka mungkin merupakan acakan.
+mereka mungkin merupakan acak.
 
 414
 00:17:01,940 --> 00:17:05,310
 Tetapi seiring waktu, mereka harus memiliki
-beberapa aliran untuk awal nomor
+semacam aliran untuk nomor urut
 
 415
 00:17:05,310 --> 00:17:07,034
-urutan untuk koneksi.
+awal untuk koneksi.
 
 416
 00:17:07,034 --> 00:17:09,575
@@ -1984,17 +1982,17 @@ mereka ditetapkan, ya sudah.
 
 417
 00:17:09,575 --> 00:17:10,280
-Itu semua diperbaiki.
+Itu semua tidak berubah.
 
 418
 00:17:10,280 --> 00:17:11,890
-Dan semua itu langsung berdetak
-bersamaan seiringan data
+Dan semua itu berdetak
+seiring jalannya data
 
 419
 00:17:11,890 --> 00:17:15,630
-terkirim ke
-koneksi, tepat.
+terkirim di dalam
+koneksi, tepatnya.
 
 420
 00:17:15,630 --> 00:17:17,270
@@ -2002,13 +2000,13 @@ Masuk akal?
 
 421
 00:17:17,270 --> 00:17:19,619
-Baiklah jadi ada
-beberap rencana
+Baiklah, jadi ada
+beberapa rencana
 
 422
 00:17:19,619 --> 00:17:22,020
-yang menyarankan untuk bagaimana mengatur
-nomor urutan ini.
+yang disarankan untuk bagaimana mengelola
+nomor urut ini.
 
 423
 00:17:22,020 --> 00:17:23,650
@@ -2018,7 +2016,7 @@ merupakan rencana yang masuk akal
 424
 00:17:23,650 --> 00:17:27,970
 untuk menghindari paket duplikat
-didalam jaringan menyebabkan masalah.
+di dalam jaringan menyebabkan masalah.
 
 425
 00:17:27,970 --> 00:17:31,730
@@ -2027,8 +2025,8 @@ saja, muncul
 
 426
 00:17:31,730 --> 00:17:37,511
-dimana penyerang memiliki kemampuan untuk
-sebagaimananya menebak urutan
+di mana penyerang memiliki kemampuan
+untuk menebak urutan
 
 427
 00:17:37,511 --> 00:17:38,010
@@ -2037,22 +2035,22 @@ nomor tersebut.
 428
 00:17:38,010 --> 00:17:42,090
 Dikarenakan kurang banyaknya
-pilihan acak yang terpilih.
+pilihan acak yang dipilih.
 
 429
 00:17:42,090 --> 00:17:44,750
-Jadi caranya tuan rumah mesin
-memilih urutan
+Jadi caranya mesin host
+memilih nomor urut ini
 
 430
 00:17:44,750 --> 00:17:47,290
-nomor tersebut adalah mereka hanya memiliki
-counter yang bergerak dalam memori.
+adalah mereka hanya memiliki
+counter yang berjalan dalam memori.
 
 431
 00:17:47,290 --> 00:17:50,080
 Setiap detik mereka
-menabraknya dengan 250.000.
+menambahnya dengan 250.000.
 
 432
 00:17:50,080 --> 00:17:51,790
@@ -2061,8 +2059,8 @@ koneksi yang baru
 
 433
 00:17:51,790 --> 00:17:55,530
-masuk, mereka juga menabraknya
-dengan konstan seperti 64k atau 128k.
+masuk, mereka juga menambahnya
+dengan nilai konstan seperti 64k atau 128k.
 
 434
 00:17:55,530 --> 00:17:57,930
@@ -2071,7 +2069,7 @@ Saya tidak ingat angka tepatnya.
 435
 00:17:57,930 --> 00:18:00,180
 Jadi secara relatif ini mudah
-untuk ditebak, seperti yang anda lihat.
+untuk ditebak, seperti yang Anda lihat.
 
 436
 00:18:00,180 --> 00:18:02,030
@@ -2080,250 +2078,250 @@ permintaan koneksi mereka,
 
 437
 00:18:02,030 --> 00:18:04,116
-dan lalu anda lihat urutan
-nomor apa yang kembali.
+dan Anda lihat nomor
+urut apa yang kembali.
 
 438
 00:18:04,116 --> 00:18:05,741
-lalu anda tahu
+lalu Anda tahu
 selanjutnya akan
 
 439
 00:18:05,741 --> 00:18:07,950
-to be 64k higher than that.
+menjadi 64k lebih tinggi dari itu.
 
 440
 00:18:07,950 --> 00:18:12,352
-So there wasn't a huge amount
-of randomness in this protocol.
+Jadi tidak banyak
+keacakan di dalam protokol ini.
 
 441
 00:18:12,352 --> 00:18:14,310
-So we can just sketch
-out what this looks like.
+Jadi kita bisa membuat sketsa
+seperti apa bentuknya ini.
 
 442
 00:18:14,310 --> 00:18:17,190
-So if I'm an attacker that
-wants to connect to a server
+Jadi, jika saya adalah penyerang yang 
+ingin menyambung ke server
 
 443
 00:18:17,190 --> 00:18:20,690
-but pretend to be from
-a particular IP address,
+tetapi berpura-pura berasal dari
+alamat IP tertentu,
 
 444
 00:18:20,690 --> 00:18:23,920
-then what I might do is send
-a request to the server,
+maka yang mungkin akan saya lakukan adalah mengirim
+permintaan ke server,
 
 445
 00:18:23,920 --> 00:18:26,490
-very much like the
-first step there,
+sangat mirip seperti
+langkah pertama,
 
 446
 00:18:26,490 --> 00:18:30,470
-include some initial sequence
-number that I choose.
+termasuk beberapa
+nomor urut awal yang saya pilih.
 
 447
 00:18:30,470 --> 00:18:31,995
-At this point, any
-sequence number
+Pada titik saat ini, 
+nomor urut berapapun
 
 448
 00:18:31,995 --> 00:18:33,660
-is just as good, because
-the server shouldn't
+sama bagusnya, karena
+server seharusnya tidak
 
 449
 00:18:33,660 --> 00:18:35,970
-have any assumptions about
-what the client's sequence
+tidak memiliki asumsi apapun
+tentang nomor urut
 
 450
 00:18:35,970 --> 00:18:37,042
-number is.
+klien.
 
 451
 00:18:37,042 --> 00:18:38,250
-Now, what does the server do?
+Sekarang, apa yang akan dilakukan oleh server?
 
 452
 00:18:38,250 --> 00:18:40,760
-The server gets the
-same packet as before.
+server akan mendapatkan
+paket yang sama seperti sebelumnya.
 
 453
 00:18:40,760 --> 00:18:42,550
-So it performs the
-same way as before.
+Jadi kinerjanya akan
+sama seperti sebelumnya.
 
 454
 00:18:42,550 --> 00:18:47,500
-It sends a packet back to
-the client with some server
+Hal ini mengirimkan paket kembali ke
+klien dengan beberapa nomor urut
 
 455
 00:18:47,500 --> 00:18:53,000
-sequence number and
-acknowledges SNC.
+server dan
+menyatakan SNC.
 
 456
 00:18:53,000 --> 00:18:55,800
-And now the attacker,
-if the attacker
+Dan sekarang penyerang,
+jika penyerang
 
 457
 00:18:55,800 --> 00:18:58,620
-wants to establish a connection,
-needs to somehow synthesize
+ingin membuat sebuah koneksi,
+ia butuh menyusun
 
 458
 00:18:58,620 --> 00:19:01,540
-a packet that looks exactly like
-the third packet over there.
+sebuah paket yang terlihat persis seperti
+paket ketiga disana.
 
 459
 00:19:01,540 --> 00:19:04,779
-So it needs to send a packet
-from the client to the server.
+Jadi ia harus mengirim sebuah paket
+dari klien ke server.
 
 460
 00:19:04,779 --> 00:19:05,570
-That's easy enough.
+Hal ini cukup mudah.
 
 461
 00:19:05,570 --> 00:19:07,403
-You just fill in these
-values in the header.
+Anda hanya perlu mengisi
+value di header.
 
 462
 00:19:07,403 --> 00:19:12,820
-But you have to acknowledge
-this server sequence number SNS.
+Tetapi anda sekarang harus mengetahui
+nomor SNS server ini.
 
 463
 00:19:12,820 --> 00:19:15,090
-And this is where sort
-of the problems start.
+Dan disinilah dimana
+permasalahan dimulai.
 
 464
 00:19:15,090 --> 00:19:18,950
-If the SNS value is
-relatively easy to guess,
+Jika nilai SNS 
+cukup mudah untuk ditebak,
 
 465
 00:19:18,950 --> 00:19:21,050
-then the attacker is good to go.
+maka penyerang sudah siap untuk mulai.
 
 466
 00:19:21,050 --> 00:19:22,910
-And now the server
-thinks they have
+Dan sekarang server
+berpikir mereka memiliki
 
 467
 00:19:22,910 --> 00:19:26,400
-an established connection with
-a client coming from this IP
+koneksi yang sudah lama terhubung
+dengan client dari alamat
 
 468
 00:19:26,400 --> 00:19:27,990
-address.
+IP ini.
 
 469
 00:19:27,990 --> 00:19:31,920
-And now an attacker could
-inject data into this connection
+dan sekarang penyerang dapat
+memasukan data ke koneksi ini
 
 470
 00:19:31,920 --> 00:19:33,174
-just as before.
+seperti sebelumnya.
 
 471
 00:19:33,174 --> 00:19:34,590
-They just synthesize
-a packet that
+Mereka akan menyatukan
+paket yang
 
 472
 00:19:34,590 --> 00:19:37,680
-looks like this,
-has the data, and it
+terlihat seperti ini,
+mempunyai data, dan
 
 473
 00:19:37,680 --> 00:19:41,030
-has the client sequence number
-that in fact the adversary
+mempunyai nomor urut client
+yang sebenarnya dipilih
 
 474
 00:19:41,030 --> 00:19:41,540
-chose.
+musuh.
 
 475
 00:19:41,540 --> 00:19:43,870
-Maybe it's plus 1 here.
+Mungkin tambah 1 disini.
 
 476
 00:19:43,870 --> 00:19:48,170
-But it all hinges on being able
-to guess this particular server
+Tetapi itu semua bergantung pada
+kemampuan untuk menebak nomor urut
 
 477
 00:19:48,170 --> 00:19:51,400
-supplied sequence number.
+yang diberikan server ini.
 
 478
 00:19:51,400 --> 00:19:52,820
-All right, does this make sense?
+Baiklah, apakah ini masuk akal?
 
 479
 00:19:52,820 --> 00:19:53,320
-Yeah.
+Ya.
 
 480
 00:19:53,320 --> 00:19:54,280
-AUDIENCE: What's the reason
-that the server sequence
+AUDIENS: Apa alasannya
+bahwa urutan server
 
 481
 00:19:54,280 --> 00:19:56,374
-number isn't completely random?
+nomor tidak sepenuhnya acak?
 
 482
 00:19:56,374 --> 00:19:57,790
-PROFESSOR: So
-there's two reasons.
+PROFESOR: Jadi
+ada dua alasan.
 
 483
 00:19:57,790 --> 00:20:00,940
-One, as I was
-describing earlier,
+Satu, seperti yang saya 
+jelaskan sebelumnya,
 
 484
 00:20:00,940 --> 00:20:05,330
-the server wants to
-make sure that packets
+server ingin memastikan 
+paket tersebut
 
 485
 00:20:05,330 --> 00:20:07,720
-from different
-connections over time
+dari koneksi yang 
+berbeda seiring waktu
 
 486
 00:20:07,720 --> 00:20:09,315
-don't get confused
-for one another.
+jangan bingung satu 
+sama lain.
 
 487
 00:20:09,315 --> 00:20:12,280
-So if you establish a
-connection from one source port
+Jadi jika Anda membuat 
+koneksi dari satu port sumber
 
 488
 00:20:12,280 --> 00:20:14,864
-to another destination port, and
-then you close the connection
+ke port tujuan lain, dan 
+kemudian Anda menutup koneksi
 
 489
 00:20:14,864 --> 00:20:17,363
