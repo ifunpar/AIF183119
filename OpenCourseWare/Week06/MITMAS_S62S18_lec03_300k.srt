@@ -1997,8 +1997,6 @@ TADGE DRYJA: Iya, betul.
 
 434
 00:20:00,710 --> 00:20:04,880
-I can prove that, hey,
-this is public key 0, which
 Saya bisa buktikan itu, hei,
 ini adalah kunci publik 0, yang
 
