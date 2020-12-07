@@ -2095,8 +2095,8 @@ kunci-kunci publik ini?
 
 442
 00:20:20,788 --> 00:20:22,840
-Pada suatu titik anda
-harus memasukkan kode keras ini,
+Di satu titik Anda
+harus menuliskan ini ke kodenya,
 
 443
 00:20:22,840 --> 00:20:25,310
@@ -2110,22 +2110,22 @@ yang sebenarnya terjadi adalah
 
 445
 00:20:27,074 --> 00:20:28,615
-ketika anda mengunduh
-sebuah browser web,
+ketika Anda mengunduh
+sebuah peramban web,
 
 446
 00:20:28,615 --> 00:20:30,950
-atau anda mendapatkan sebuah komputer
+atau Anda mendapatkan sebuah komputer
 untuk pertama kali,
 
 447
 00:20:30,950 --> 00:20:33,930
 komputer tersebut sebenarnya datang dengan
-kunci publik dengan ratusan
+kunci publik dari ratusan
 
 448
 00:20:33,930 --> 00:20:35,730
-dari autoritas 
+dari otoritas
 sertifikat ini.
 
 449
@@ -2139,17 +2139,17 @@ perusahaan sekuritas seperti Verisign.
 
 451
 00:20:41,660 --> 00:20:43,880
-Servis Postal US mempunya
-sebuah sertifikat autoritas,
+Layanan Pos Amerika Serikat mempunyai
+sebuah sertifikat otoritas,
 
 452
 00:20:43,880 --> 00:20:44,860
-untuk beberapa alasan.
+untuk alasan tertentu.
 
 453
 00:20:44,860 --> 00:20:47,640
 Ada banyak entitas di sana
-yang pada prinsipnya dapat menerbitkan
+yang dapat, pada prinsipnya, menerbitkan
 
 454
 00:20:47,640 --> 00:20:50,770
@@ -2158,28 +2158,28 @@ dipercaya sepenuhnya oleh sistem.
 
 455
 00:20:53,510 --> 00:20:55,740
-Otoritas sertifikat 
+Otoritas sertifikat
 mini ini
 
 456
 00:20:55,740 --> 00:20:59,674
 sekarang menggantikan kepercayaan
-yang kami miliki pada KDC ini.
+yang kita miliki pada KDC ini.
 
 457
 00:20:59,674 --> 00:21:01,090
-Dan terkadang, kami
+Dan terkadang, kita
 belum benar-benar
 
 458
 00:21:01,090 --> 00:21:03,910
 mengatasi semua masalah yang
-kami daftarkan dengan Kerberos.
+kita lihat dengan Kerberos.
 
 459
 00:21:03,910 --> 00:21:06,930
 Jadi sebelumnya kita khawatir
-bahwa, oh man, bagaimana
+bahwa, ya ampun, bagaimana
 
 460
 00:21:06,930 --> 00:21:08,180
@@ -2201,7 +2201,7 @@ Tapi sekarang, sebenarnya lebih buruk.
 464
 00:21:13,850 --> 00:21:16,400
 Ini sebenarnya lebih buruk
-dalam beberapa hal, karena alih - alih
+dalam beberapa hal, karena alih-alih
 
 465
 00:21:16,400 --> 00:21:18,320
@@ -2230,7 +2230,7 @@ diterima oleh klien
 
 470
 00:21:28,720 --> 00:21:31,650
-sebagai sebuah laporan yang benar
+sebagai sebuah pernyataan yang benar
 menyatakan bahwa prinsipiel ini
 
 471
@@ -2240,7 +2240,7 @@ memiliki kunci publik ini.
 472
 00:21:33,530 --> 00:21:35,890
 Jadi Anda hanya perlu membobol
-salah satu dari mereka ini, alih - alih
+salah satu dari mereka ini, alih-alih
 
 473
 00:21:35,890 --> 00:21:37,830
@@ -2265,8 +2265,8 @@ Itu masalah sulit lainnya.
 
 478
 00:21:45,550 --> 00:21:47,889
-Ternyata begitu
-sebelum kita berbicara dengan KDC,
+Ternyata sebelum kita
+berbicara dengan KDC,
 
 479
 00:21:47,889 --> 00:21:49,430
@@ -2294,8 +2294,8 @@ ada dua.
 
 484
 00:21:58,400 --> 00:22:01,410
-Salah satunya adalah, semacam yang diharapkan,
-sertifikat ini
+Salah satunya adalah, seperti 
+yang diduga, sertifikat ini
 
 485
 00:22:01,410 --> 00:22:05,054
@@ -2304,7 +2304,7 @@ menyertakan waktu kedaluwarsa.
 486
 00:22:05,054 --> 00:22:06,970
 Jadi dengan cara ini Anda setidaknya 
-bisa mengikat kerusakan.
+bisa membatasi kerusakannya.
 
 487
 00:22:06,970 --> 00:22:09,178
@@ -2322,7 +2322,7 @@ lebih tinggi.
 
 490
 00:22:12,750 --> 00:22:14,740
-Jadi pada Kerberos,
+Jadi di dalam Kerberos,
 masa aktif tiket Anda
 
 491
@@ -2331,13 +2331,13 @@ dapat mencapai beberapa jam.
 
 492
 00:22:16,720 --> 00:22:20,720
-Disini biasanya satu tahun
-atau sesuatu yang seperti ini.
+Di sini biasanya satu tahun
+atau kurang lebih seperti ini.
 
 493
 00:22:20,720 --> 00:22:24,470
 Jadi CA benar-benar tidak mau 
-terlalu sering berkomunikasi. 
+terlalu sering diajak berkomunikasi.
 
 494
 00:22:24,470 --> 00:22:26,240
@@ -2352,11 +2352,11 @@ sertifikat, dan kemudian
 496
 00:22:27,750 --> 00:22:29,795
 mengembalikan beberapa
-kumpulan bytes bertanda,
+kumpulan byte bertanda tangan,
 
 497
 00:22:29,795 --> 00:22:31,170
-dan Anda akan baik-baik 
+dan Anda akan baik-baik
 saja selama satu tahun.
 
 498
