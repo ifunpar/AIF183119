@@ -1147,7 +1147,7 @@ dan kemudian kata sandinya?
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Yah,
+PROFESOR: Yah,
 jadi itu sebenarnya
 
 242
@@ -1594,77 +1594,77 @@ Ya.
 
 335
 00:15:08,200 --> 00:15:10,525
-STUDENT: You can ask the
-MIT server for usernames
+MAHASISWA: Anda bisa bertanya kepada
+server MIT untuk nama pengguna,
 
 336
 00:15:10,525 --> 00:15:11,812
-presumably.
+mungkin.
 
 337
 00:15:11,812 --> 00:15:12,770
-PROFESSOR: Right, yeah.
+PROFESOR: Ya, benar.
 
 338
 00:15:12,770 --> 00:15:13,900
-So you could enumerate
-these things.
+Jadi kalian bisa menghitung
+hal-hal ini.
 
 339
 00:15:13,900 --> 00:15:15,350
-Also, the users just
-type them in when
+Selain itu, pengguna akan
+mengetik dan memasukkannya ketika
 
 340
 00:15:15,350 --> 00:15:16,349
-they log into a machine.
+mereka masuk ke sebuah mesin.
 
 341
 00:15:16,349 --> 00:15:18,480
-So that's where it
-initially comes from.
+Jadi dari situlah
+itu berasal.
 
 342
 00:15:18,480 --> 00:15:21,020
-Do usernames appear
-anywhere else?
+Apa username muncul
+di tempat lain?
 
 343
 00:15:21,020 --> 00:15:23,652
-Should they appear
-anywhere else?
+Haruskah username
+muncul di tempat lain?
 
 344
 00:15:23,652 --> 00:15:24,152
-Yeah.
+Ya.
 
 345
 00:15:24,152 --> 00:15:26,084
-STUDENT: Possibly
-access the [INAUDIBLE]
+MAHASISWA: Mungkin
+akses [TIDAK TERDENGAR]
 
 346
 00:15:26,084 --> 00:15:27,494
-lists on the various services.
+daftar pada berbagai layanan.
 
 347
 00:15:27,494 --> 00:15:29,910
-PROFESSOR: Yes, that's actually
-an important point, right?
+PROFESOR: Ya, itu sebenarnya
+sebuah poin penting, benar?
 
 348
 00:15:29,910 --> 00:15:33,850
-The goal of Kerberos is
-just to map keys to names.
+Tujuan Kerberos adalah
+hanya untuk memetakan kunci ke nama.
 
 349
 00:15:33,850 --> 00:15:36,440
-But it doesn't tell you what
-that name should have access
+Namun, Kerberos tidak memberi tahu apa
+yang dapat diakses oleh nama
 
 350
 00:15:36,440 --> 00:15:37,020
-to.
+itu.
 
 351
 00:15:37,020 --> 00:15:38,950
