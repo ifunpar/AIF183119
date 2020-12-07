@@ -3680,108 +3680,108 @@ sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
-membiarkan seseorang untuk
-mencoba dalam jumlah yang seenaknya
+allow an arbitrary
+number of attempts
 
 776
 00:32:38,670 --> 00:32:39,870
-untuk masuk ke sebuah akun.
+to log in to an account.
 
 777
 00:32:39,870 --> 00:32:42,220
-Mungkin setelah tiga
-atau 10 kali mencoba, Anda
+Maybe after three
+or 10 tries, you
 
 778
 00:32:42,220 --> 00:32:44,950
-seharusnya mengatakan, baiklah,
-Anda sudah cukup mencoba.
+should say, well,
+you've had enough tries.
 
 779
 00:32:44,950 --> 00:32:45,740
-Waktu habis.
+Time out.
 
 780
 00:32:45,740 --> 00:32:48,360
-Anda dapat mencoba lagi dalam
-10 menit atau dalam satu jam.
+You can try again in 10
+minutes or in an hour.
 
 781
 00:32:48,360 --> 00:32:50,870
-Dan dengan cara ini Anda benar-benar
-memperlambat si penyerang.
+And this way you really
+slow down the attacker.
 
 782
 00:32:50,870 --> 00:32:54,460
-Jadi mereka hanya bisa mencoba
-beberapa tebakan dalam sehari,
+So they can only make a
+handful of guesses a day,
 
 783
 00:32:54,460 --> 00:32:56,217
-daripada jutaan tebakan.
+instead of millions of guesses.
 
 784
 00:32:56,217 --> 00:32:58,300
-Dan sebagai konsekuensinya, bahkan
-jika Anda tidak memiliki password
+And as a result, even if
+you have not the greatest
 
 785
 00:32:58,300 --> 00:33:00,550
-yang baik, akan cukup sulit
-bagi seseorang
+of passwords, it's going to
+be pretty hard for someone
 
 786
 00:33:00,550 --> 00:33:01,570
-untuk menebaknya.
+to guess it.
 
 787
 00:33:01,570 --> 00:33:06,990
-Apa yang akan terjadi adalah bahwa iCloud
-memiliki pencegahan penebakan
+What would happen is that iCloud
+had this password guessing
 
 788
 00:33:06,990 --> 00:33:10,210
-password atau, pada dasarnya,
-mundur, pada beberapa antarmuka,
+prevention or, basically,
+back off, on some interfaces,
 
 789
 00:33:10,210 --> 00:33:12,730
-seperti jika Anda mencoba masuk
-lewat antarmuka lain
+like if you tried to log
+in through other interfaces
 
 790
 00:33:12,730 --> 00:33:15,130
-dan Anda gagal 10 kali,
-antarmuka tersebut akan mengatakan, yah, maaf.
+and you failed 10 times,
+it would say, well, sorry.
 
 791
 00:33:15,130 --> 00:33:17,150
-Anda harus menunggu
-sampai Anda mencoba lagi.
+You have to wait
+until you try again.
 
 792
 00:33:17,150 --> 00:33:18,710
-Namun dalam antarmuka untuk
-temukan iPhone saya,
+But on this find my
+iPhone interface,
 
 793
 00:33:18,710 --> 00:33:19,669
-mereka lupa pengecekan ini.
+they forget this check.
 
 794
 00:33:19,669 --> 00:33:21,335
-Mungkin, Anda tahu,
-seseorang hanya
+That's probably, you
+know, some guy just
 
 795
 00:33:21,335 --> 00:33:23,300
-lupa untuk memanggil fungsi
-ini dalam API ini.
+forgot to call this
+function on this API.
 
 796
 00:33:23,300 --> 00:33:26,867
-Namun hasilnya adalah, untuk
-sekumpulan akun yang sama,
+But the result is that, for
+the same set of accounts,
 
 797
 00:33:26,867 --> 00:33:28,950
@@ -3892,115 +3892,115 @@ secara keseluruhan.
 
 819
 00:34:27,000 --> 00:34:28,960
-Apakah ini masuk akal??
+This make sense?
 
 820
 00:34:28,960 --> 00:34:30,320
-Apakah ada pertanyaan sejauh ini?
+Any questions so far?
 
 821
 00:34:33,290 --> 00:34:34,630
-Baiklah.
+All right.
 
 822
 00:34:34,630 --> 00:34:35,260
-Oke.
+OK.
 
 823
 00:34:35,260 --> 00:34:39,149
-Jadi contoh lainnya-- ini
-adalah semacam contoh ketika Anda
+So another example-- this
+is sort of an example of you
 
 824
 00:34:39,149 --> 00:34:42,982
-lupa untuk memeriksa 
-percobaan menebak kata sandi.
+forget to check for
+password guessing attempts.
 
 825
 00:34:42,982 --> 00:34:44,690
-Ada berbagai macam 
-hal lain yang bisa Anda lupakan.
+There's many other
+things you can forget.
 
 826
 00:34:44,690 --> 00:34:47,830
-Anda bisa lupa untuk memeriksa 
-kontrol akses bersamaan.
+You could forget to check for
+access control altogether.
 
 827
 00:34:47,830 --> 00:34:53,179
-Jadi salah satu contoh adalah, Citibank
-memiliki sebuah situs web -- sebenarnya, masih
+So one example is, Citibank
+had a website-- actually, still
 
 828
 00:34:53,179 --> 00:34:57,150
-mempunyai sebuah situs web yang memperbolehkan Anda
-untuk melihat informasi akun
+has a website that allows you
+to look at your credit card
 
 829
 00:34:57,150 --> 00:34:58,280
-kartu kredit milik Anda.
+account information.
 
 830
 00:34:58,280 --> 00:34:59,560
-Jadi jika anda memiliki sebuah kartu
-kredit Citibank,
+So if you have a credit
+card with Citibank,
 
 831
 00:34:59,560 --> 00:35:00,660
-Anda pergi ke situs web
-ini, maka akan memberi tahu Anda,
+you go to this
+website, it tells you,
 
 832
 00:35:00,660 --> 00:35:01,993
-yah, Anda memiliki kartu kredit ini.
+yeah, you have this credit card.
 
 833
 00:35:01,993 --> 00:35:04,160
-Ini adalah semua tagihannya,
-semua barang bagus ini.
+Here's all the charges,
+all this great stuff.
 
 834
 00:35:04,160 --> 00:35:08,480
-Dan alur kerja beberapa
-tahun lalu adalah Anda pergi 
+And the workflow a couple
+of years ago was that you go
 
 835
 00:35:08,480 --> 00:35:12,710
-ke sebuah situs, Anda memberikan sebuah
-nama pengguna dan kata sandi,
+to some site, you provide a
+log in username and password,
 
 836
 00:35:12,710 --> 00:35:15,630
-dan Anda dialihkan
-ke URL lain,
+and you get redirected
+to another URL,
 
 837
 00:35:15,630 --> 00:35:18,130
-yang ternyata adalah sesuatu yang, Saya
-tidak tahu, saya hanya menebak,
+which is something like, I
+don't know, I'm guessing,
 
 838
 00:35:18,130 --> 00:35:23,190
-tapi pada dasarnya seperti
-citi.com/account?id= Anda tahu,
+but basically like
+citi.com/account?id= you know,
 
 839
 00:35:23,190 --> 00:35:26,640
-apapun, satu dua tiga empat.
+whatever, one two three four.
 
 840
 00:35:26,640 --> 00:35:29,422
-Dan ternyata beberapa
-orang mengetahuinya, baik,
+And it turns out that some
+guy figured out, well,
 
 841
 00:35:29,422 --> 00:35:30,880
-jika Anda mengganti nomer 
-ini, Anda hanya
+if you change this
+number, you just
 
 842
 00:35:30,880 --> 00:35:33,910
-mendapatkan akun milik seseorang.
+get someone else's account.
 
 843
 00:35:33,910 --> 00:35:37,510
