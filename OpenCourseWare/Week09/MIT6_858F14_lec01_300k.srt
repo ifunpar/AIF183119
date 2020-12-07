@@ -3785,110 +3785,110 @@ the same set of accounts,
 
 797
 00:33:26,867 --> 00:33:28,950
-orang jahat kini dapat
-menebak password Anda
+a bad guy would be able
+to now guess your password
 
 798
 00:33:28,950 --> 00:33:32,890
-melalui antarmuka ini
-dengan jutaan upaya per hari
+through this interface at
+millions of attempts per day
 
 799
 00:33:32,890 --> 00:33:35,340
-dengan mudahnya, karena ini hanya terbatas 
-pada seberapa cepat mereka
+easily, because this is just
+limited up to how fast they
 
 800
 00:33:35,340 --> 00:33:37,452
-dapat mengirim paket
-ke perangkat iCloud ini.
+can send packets to
+this iCloud thing.
 
 801
 00:33:37,452 --> 00:33:39,160
-Dan mereka mungkin dapat
-menebak password Anda
+And they can probably
+guess your password
 
 802
 00:33:39,160 --> 00:33:43,960
-dengan akurasi yang cukup baik, atau
-dengan tingkat keberhasilan yang cukup baik,
+with pretty good accuracy, or
+with pretty good success rate,
 
 803
 00:33:43,960 --> 00:33:46,780
-setelah membuat banyak tebakan.
+after making many guesses.
 
 804
 00:33:46,780 --> 00:33:48,890
-Dan ini menyebabkan beberapa
-pembobolan yang tidak menguntungkan.
+And this led to some
+unfortunate break ins.
 
 805
 00:33:48,890 --> 00:33:51,660
-Dan data rahasia orang-orang 
-dicuri
+And people's confidential
+data got stolen
 
 806
 00:33:51,660 --> 00:33:54,870
-dari layanan iCloud ini.
+from this iCloud service.
 
 807
 00:33:54,870 --> 00:33:59,621
-Jadi ini adalah contoh
-dimana Anda memiliki kebijakan yang tepat.
+So this is sort of an example
+of you had the right policy.
 
 808
 00:33:59,621 --> 00:34:01,120
-Hanya pengguna dan
-password yang benar
+Only the user and
+the right password
 
 809
 00:34:01,120 --> 00:34:02,632
-akan memberi Anda
-akses ke file.
+would get you
+access to the files.
 
 810
 00:34:02,632 --> 00:34:04,090
-Anda bahkan memiliki
-model ancaman yang tepat
+You even had the
+right threat model
 
 811
 00:34:04,090 --> 00:34:06,810
-yang, mungkin dapat orang jahat
-tebak passwordnya.
+that, well, the bad guy might
+be able to guess the password.
 
 812
 00:34:06,810 --> 00:34:09,370
-Jadi kita harus mengurangi
-batas jumlah upaya menebak.
+So we'll have to break limit
+the number of guess attempts.
 
 813
 00:34:09,370 --> 00:34:12,250
-Tapi dia hanya mengacau, seperti
-mekanismenya memiliki bug di dalamnya.
+But he just screwed up, like
+the mechanism had a bug in it.
 
 814
 00:34:12,250 --> 00:34:15,239
-Dia hanya lupa untuk menegakkan
-kebijakan dan mekanisme yang benar ini
+He just forgot to enforce this
+right policy and mechanism
 
 815
 00:34:15,239 --> 00:34:16,280
-di beberapa antarmuka.
+at some interface.
 
 816
 00:34:16,280 --> 00:34:19,520
-Dan ini muncul lagi dan
-lagi dalam sistem,
+And this shows up again
+and again in systems,
 
 817
 00:34:19,520 --> 00:34:24,060
-dimana baru saja membuat kesalahan dan
-itu memiliki dampak yang cukup drastis
+where just made a mistake and
+it has pretty drastic effects
 
 818
 00:34:24,060 --> 00:34:27,000
-pada keamanan sistem
-secara keseluruhan.
+on the security of
+the overall system.
 
 819
 00:34:27,000 --> 00:34:28,960
