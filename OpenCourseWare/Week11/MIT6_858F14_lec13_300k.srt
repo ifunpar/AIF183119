@@ -1501,36 +1501,36 @@ yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200
-I could say, you know,
-nikolai.extra secure
+Bisa saya katakan,
+nikolai.extra itu aman
 
 316
 00:14:20,200 --> 00:14:22,740
-or something.
+atau lainnya.
 
 317
 00:14:22,740 --> 00:14:25,930
-And I might use this
-as a different entity
+dan saya mungkin akan menggunakan ini
+sebagai entitas yang berbeda
 
 318
 00:14:25,930 --> 00:14:27,960
-for machines I
-really care about.
+untuk mesin yang
+sangat saya pedulikan.
 
 319
 00:14:27,960 --> 00:14:29,810
-So maybe I will have
-a different password
+Jadi, mungkin saya akan
+memiliki sebuah sandi yang berbeda
 
 320
 00:14:29,810 --> 00:14:31,940
-for really secure things
-and a different password
+untuk benar benar mengamankan sesuatu
+dan sebuah sandi yang berbeda
 
 321
 00:14:31,940 --> 00:14:34,120
-for my regular account.
+untuk akun regular saya.
 
 322
 00:14:34,120 --> 00:14:37,110
