@@ -3680,108 +3680,108 @@ sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
-allow an arbitrary
-number of attempts
+membiarkan seseorang untuk
+mencoba dalam jumlah yang seenaknya
 
 776
 00:32:38,670 --> 00:32:39,870
-to log in to an account.
+untuk masuk ke sebuah akun.
 
 777
 00:32:39,870 --> 00:32:42,220
-Maybe after three
-or 10 tries, you
+Mungkin setelah tiga
+atau 10 kali mencoba, Anda
 
 778
 00:32:42,220 --> 00:32:44,950
-should say, well,
-you've had enough tries.
+seharusnya mengatakan, baiklah,
+Anda sudah cukup mencoba.
 
 779
 00:32:44,950 --> 00:32:45,740
-Time out.
+Waktu habis.
 
 780
 00:32:45,740 --> 00:32:48,360
-You can try again in 10
-minutes or in an hour.
+Anda dapat mencoba lagi dalam
+10 menit atau dalam satu jam.
 
 781
 00:32:48,360 --> 00:32:50,870
-And this way you really
-slow down the attacker.
+Dan dengan cara ini Anda benar-benar
+memperlambat si penyerang.
 
 782
 00:32:50,870 --> 00:32:54,460
-So they can only make a
-handful of guesses a day,
+Jadi mereka hanya bisa mencoba
+beberapa tebakan dalam sehari,
 
 783
 00:32:54,460 --> 00:32:56,217
-instead of millions of guesses.
+daripada jutaan tebakan.
 
 784
 00:32:56,217 --> 00:32:58,300
-And as a result, even if
-you have not the greatest
+Dan sebagai konsekuensinya, bahkan
+jika Anda tidak memiliki password
 
 785
 00:32:58,300 --> 00:33:00,550
-of passwords, it's going to
-be pretty hard for someone
+yang baik, akan cukup sulit
+bagi seseorang
 
 786
 00:33:00,550 --> 00:33:01,570
-to guess it.
+untuk menebaknya.
 
 787
 00:33:01,570 --> 00:33:06,990
-What would happen is that iCloud
-had this password guessing
+Apa yang akan terjadi adalah bahwa iCloud
+memiliki pencegahan penebakan
 
 788
 00:33:06,990 --> 00:33:10,210
-prevention or, basically,
-back off, on some interfaces,
+password atau, pada dasarnya,
+mundur, pada beberapa antarmuka,
 
 789
 00:33:10,210 --> 00:33:12,730
-like if you tried to log
-in through other interfaces
+seperti jika Anda mencoba masuk
+lewat antarmuka lain
 
 790
 00:33:12,730 --> 00:33:15,130
-and you failed 10 times,
-it would say, well, sorry.
+dan Anda gagal 10 kali,
+antarmuka tersebut akan mengatakan, yah, maaf.
 
 791
 00:33:15,130 --> 00:33:17,150
-You have to wait
-until you try again.
+Anda harus menunggu
+sampai Anda mencoba lagi.
 
 792
 00:33:17,150 --> 00:33:18,710
-But on this find my
-iPhone interface,
+Namun dalam antarmuka untuk
+temukan iPhone saya,
 
 793
 00:33:18,710 --> 00:33:19,669
-they forget this check.
+mereka lupa pengecekan ini.
 
 794
 00:33:19,669 --> 00:33:21,335
-That's probably, you
-know, some guy just
+Mungkin, Anda tahu,
+seseorang hanya
 
 795
 00:33:21,335 --> 00:33:23,300
-forgot to call this
-function on this API.
+lupa untuk memanggil fungsi
+ini dalam API ini.
 
 796
 00:33:23,300 --> 00:33:26,867
-But the result is that, for
-the same set of accounts,
+Namun hasilnya adalah, untuk
+sekumpulan akun yang sama,
 
 797
 00:33:26,867 --> 00:33:28,950
