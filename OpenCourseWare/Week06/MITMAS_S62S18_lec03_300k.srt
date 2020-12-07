@@ -1976,7 +1976,6 @@ berbeda dari kunci-kunci publik
 dengan menyatukan 
 indeks yang berbeda.
 
-
 430
 00:19:54,100 --> 00:19:54,600
 Ya?
@@ -1985,7 +1984,6 @@ Ya?
 00:19:54,600 --> 00:19:57,880
 HADIRIN: Anda bisa melakukan [Tidak Terdengar]
 sistem-sistem dan waktu log-in sebagai gantinya
-
 
 432
 00:19:57,880 --> 00:19:59,120
@@ -2279,7 +2277,7 @@ menjadi lebih dari 8
 
 495
 00:22:48,030 --> 00:22:49,620
-kilobytes, cukup OK, bukan?
+kilobytes, cukup oke, bukan?
 
 496
 00:22:49,620 --> 00:22:51,690
@@ -2431,87 +2429,87 @@ hei, mari kita gunakan pohon biner
 
 528
 00:24:00,400 --> 00:24:02,530
-dengan hash.
+with hashes.
 
 529
 00:24:02,530 --> 00:24:05,260
-Dan saya akan menyebutkan
-RSA dan kemudian masuk
+And I will mention
+RSA and then go
 
 530
 00:24:05,260 --> 00:24:10,510
-ke ECDSA dan kurva elips
-[TIDAK TERDENGAR] tanda tangan, yang
+into ECDSA and elliptic curve
+[INAUDIBLE] signatures, which
 
 531
 00:24:10,510 --> 00:24:15,012
-melakukan hal berbeda dan tidak
-didasarkan pada fungsi hash saja.
+do different things and are not
+based on just hash functions.
 
 532
 00:24:15,012 --> 00:24:16,720
-Jadi saya akan berbicara tentang
-RSA selama beberapa menit,
+So I'll talk about
+RSA for a few minutes,
 
 533
 00:24:16,720 --> 00:24:19,067
-dan kemudian kita akan sebentar
-istirahat, seperti istirahat,
+and then we'll have a little
+break, like intermission.
 
 534
 00:24:19,067 --> 00:24:20,900
-dan kemudian kita akan membahas
-hal-hal kurva elips.
+And then we'll go into
+elliptic curve stuff.
 
 535
 00:24:20,900 --> 00:24:21,400
-Oke.
+OK.
 
 536
 00:24:21,400 --> 00:24:23,260
-Jadi RSA ditemukan oleh penduduk setempat.
+So RSA was invented by locals.
 
 537
 00:24:23,260 --> 00:24:24,790
-R adalah Ron--
+The R is Ron--
 
 538
 00:24:24,790 --> 00:24:26,290
-tidak, saya pikir R
-adalah singkatan dari Rivest,
+no, I think the R
+stands for Rivest,
 
 539
 00:24:26,290 --> 00:24:29,870
-tetapi Ron Rivest ada di
-CSAIL, dan dia masih
+but Ron Rivest is at
+CSAIL, and he's still
 
 540
 00:24:29,870 --> 00:24:32,230
-mengerjakan hal-hal crypto yang keren.
+working on cool crypto stuff.
 
 541
 00:24:32,230 --> 00:24:34,960
-Ini tidak digunakan dalam Bitcoin
-atau mata uang apa pun, sebenarnya--
+It's not used in Bitcoin
+or any currency, actually--
 
 542
 00:24:34,960 --> 00:24:38,560
-yah, apa pun yang saat ini
-kripto beroperasi.
+well, any currently
+operating cryptocurrency.
 
 543
 00:24:38,560 --> 00:24:42,880
-Karena tanda tangan
-dan kunci
+Because the signatures
+and keys are
 
 544
 00:24:42,880 --> 00:24:45,550
-sedikit lebih besar dari pada
-sistem selanjutnya yang akan kita lihat--
+a bit larger than the
+later systems we'll see--
 
 545
 00:24:45,550 --> 00:24:50,500
-lebih kecil dari berbasis hash
+smaller than the hash-based
 things, but still a bit larger.
 
 546
