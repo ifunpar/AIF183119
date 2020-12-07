@@ -2400,118 +2400,118 @@ untuk mengambil dalam jumlah banyak
 521
 00:23:46,060 --> 00:23:48,770
 dari hal yang berbeda dan memberikan
-to them in one small thing.
+kepada mereka dalam satu hal kecil.
 
 522
 00:23:48,770 --> 00:23:49,270
-OK.
+Oke.
 
 523
 00:23:49,270 --> 00:23:50,530
-So this is very cool.
+Jadi ini sangat keren.
 
 524
 00:23:50,530 --> 00:23:52,360
-But we can do better.
+Tapi kita bisa lebih baik.
 
 525
 00:23:52,360 --> 00:23:54,820
-And so the next things are
-things that I definitely
+Hal selanjutnya adalah 
+hal-hal yang pasti
 
 526
 00:23:54,820 --> 00:23:58,180
-would never have thought
-of because it's much more
+tidak pernah terpikirkan 
+oleh saya karena ini jauh lebih
 
 527
 00:23:58,180 --> 00:24:00,400
-complex than just, like,
-hey, let's use a binary tree
+kompleks dari sekedar, seperti,
+hei, mari kita gunakan pohon biner
 
 528
 00:24:00,400 --> 00:24:02,530
-with hashes.
+dengan hash.
 
 529
 00:24:02,530 --> 00:24:05,260
-And I will mention
-RSA and then go
+Dan saya akan menyebutkan
+RSA dan kemudian masuk
 
 530
 00:24:05,260 --> 00:24:10,510
-into ECDSA and elliptic curve
-[INAUDIBLE] signatures, which
+ke ECDSA dan kurva elips
+[TIDAK TERDENGAR] tanda tangan, yang
 
 531
 00:24:10,510 --> 00:24:15,012
-do different things and are not
-based on just hash functions.
+melakukan hal berbeda dan tidak
+didasarkan pada fungsi hash saja.
 
 532
 00:24:15,012 --> 00:24:16,720
-So I'll talk about
-RSA for a few minutes,
+Jadi saya akan berbicara tentang
+RSA selama beberapa menit,
 
 533
 00:24:16,720 --> 00:24:19,067
-and then we'll have a little
-break, like intermission.
+dan kemudian kita akan sebentar
+istirahat, seperti istirahat,
 
 534
 00:24:19,067 --> 00:24:20,900
-And then we'll go into
-elliptic curve stuff.
+dan kemudian kita akan membahas
+hal-hal kurva elips.
 
 535
 00:24:20,900 --> 00:24:21,400
-OK.
+Oke.
 
 536
 00:24:21,400 --> 00:24:23,260
-So RSA was invented by locals.
+Jadi RSA ditemukan oleh penduduk setempat.
 
 537
 00:24:23,260 --> 00:24:24,790
-The R is Ron--
+R adalah Ron--
 
 538
 00:24:24,790 --> 00:24:26,290
-no, I think the R
-stands for Rivest,
+tidak, saya pikir R
+adalah singkatan dari Rivest,
 
 539
 00:24:26,290 --> 00:24:29,870
-but Ron Rivest is at
-CSAIL, and he's still
+tetapi Ron Rivest ada di
+CSAIL, dan dia masih
 
 540
 00:24:29,870 --> 00:24:32,230
-working on cool crypto stuff.
+mengerjakan hal-hal crypto yang keren.
 
 541
 00:24:32,230 --> 00:24:34,960
-It's not used in Bitcoin
-or any currency, actually--
+Ini tidak digunakan dalam Bitcoin
+atau mata uang apa pun, sebenarnya--
 
 542
 00:24:34,960 --> 00:24:38,560
-well, any currently
-operating cryptocurrency.
+yah, apa pun yang saat ini
+kripto beroperasi.
 
 543
 00:24:38,560 --> 00:24:42,880
-Because the signatures
-and keys are
+Karena tanda tangan
+dan kunci
 
 544
 00:24:42,880 --> 00:24:45,550
-a bit larger than the
-later systems we'll see--
+sedikit lebih besar dari pada
+sistem selanjutnya yang akan kita lihat--
 
 545
 00:24:45,550 --> 00:24:50,500
-smaller than the hash-based
+lebih kecil dari berbasis hash
 things, but still a bit larger.
 
 546
