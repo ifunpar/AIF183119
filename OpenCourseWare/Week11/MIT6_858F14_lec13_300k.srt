@@ -1534,31 +1534,31 @@ untuk akun regular saya.
 
 322
 00:14:34,120 --> 00:14:37,110
-So this is just sort
-of how Kerberos--
+Jadi ini semacam
+bagaimana Kerberos--
 
 323
 00:14:37,110 --> 00:14:40,690
-this is what the paper
-talks about with instances.
+ini apa yang dikatakan dokumen
+tersebut tentang instances.
 
 324
 00:14:40,690 --> 00:14:42,190
-So one might actually
-wonder-- where
+Jadi orang mungkin benar-benar 
+bertanya-- dimana
 
 325
 00:14:42,190 --> 00:14:43,440
-do you actually see instances?
+apakah kamu sungguh melihat instances?
 
 326
 00:14:43,440 --> 00:14:45,440
-Where do influences come from?
+Dari mana pengaruh ini datang?
 
 327
 00:14:45,440 --> 00:14:49,930
-So the Kerberos service
-maps names to keys for you,
+Jadi layanan Kerberos
+memetakan nama menjadi kunci untukmu,
 
 328
 00:14:49,930 --> 00:14:51,940
