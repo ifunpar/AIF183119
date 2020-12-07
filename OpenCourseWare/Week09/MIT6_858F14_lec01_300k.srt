@@ -3892,115 +3892,115 @@ the overall system.
 
 819
 00:34:27,000 --> 00:34:28,960
-This make sense?
+Apakah ini masuk akal??
 
 820
 00:34:28,960 --> 00:34:30,320
-Any questions so far?
+Apakah ada pertanyaan sejauh ini?
 
 821
 00:34:33,290 --> 00:34:34,630
-All right.
+Baiklah.
 
 822
 00:34:34,630 --> 00:34:35,260
-OK.
+Oke.
 
 823
 00:34:35,260 --> 00:34:39,149
-So another example-- this
-is sort of an example of you
+Jadi contoh lainnya-- ini
+adalah semacam contoh ketika Anda
 
 824
 00:34:39,149 --> 00:34:42,982
-forget to check for
-password guessing attempts.
+lupa untuk memeriksa 
+percobaan menebak kata sandi.
 
 825
 00:34:42,982 --> 00:34:44,690
-There's many other
-things you can forget.
+Ada berbagai macam 
+hal lain yang bisa Anda lupakan.
 
 826
 00:34:44,690 --> 00:34:47,830
-You could forget to check for
-access control altogether.
+Anda bisa lupa untuk memeriksa 
+kontrol akses bersamaan.
 
 827
 00:34:47,830 --> 00:34:53,179
-So one example is, Citibank
-had a website-- actually, still
+Jadi salah satu contoh adalah, Citibank
+memiliki sebuah situs web -- sebenarnya, masih
 
 828
 00:34:53,179 --> 00:34:57,150
-has a website that allows you
-to look at your credit card
+mempunyai sebuah situs web yang memperbolehkan Anda
+untuk melihat informasi akun
 
 829
 00:34:57,150 --> 00:34:58,280
-account information.
+kartu kredit milik Anda.
 
 830
 00:34:58,280 --> 00:34:59,560
-So if you have a credit
-card with Citibank,
+Jadi jika anda memiliki sebuah kartu
+kredit Citibank,
 
 831
 00:34:59,560 --> 00:35:00,660
-you go to this
-website, it tells you,
+Anda pergi ke situs web
+ini, maka akan memberi tahu Anda,
 
 832
 00:35:00,660 --> 00:35:01,993
-yeah, you have this credit card.
+yah, Anda memiliki kartu kredit ini.
 
 833
 00:35:01,993 --> 00:35:04,160
-Here's all the charges,
-all this great stuff.
+Ini adalah semua tagihannya,
+semua barang bagus ini.
 
 834
 00:35:04,160 --> 00:35:08,480
-And the workflow a couple
-of years ago was that you go
+Dan alur kerja beberapa
+tahun lalu adalah Anda pergi 
 
 835
 00:35:08,480 --> 00:35:12,710
-to some site, you provide a
-log in username and password,
+ke sebuah situs, Anda memberikan sebuah
+nama pengguna dan kata sandi,
 
 836
 00:35:12,710 --> 00:35:15,630
-and you get redirected
-to another URL,
+dan Anda dialihkan
+ke URL lain,
 
 837
 00:35:15,630 --> 00:35:18,130
-which is something like, I
-don't know, I'm guessing,
+yang ternyata adalah sesuatu yang, Saya
+tidak tahu, saya hanya menebak,
 
 838
 00:35:18,130 --> 00:35:23,190
-but basically like
-citi.com/account?id= you know,
+tapi pada dasarnya seperti
+citi.com/account?id= Anda tahu,
 
 839
 00:35:23,190 --> 00:35:26,640
-whatever, one two three four.
+apapun, satu dua tiga empat.
 
 840
 00:35:26,640 --> 00:35:29,422
-And it turns out that some
-guy figured out, well,
+Dan ternyata beberapa
+orang mengetahuinya, baik,
 
 841
 00:35:29,422 --> 00:35:30,880
-if you change this
-number, you just
+jika Anda mengganti nomer 
+ini, Anda hanya
 
 842
 00:35:30,880 --> 00:35:33,910
-get someone else's account.
+mendapatkan akun milik seseorang.
 
 843
 00:35:33,910 --> 00:35:37,510
