@@ -2992,12 +2992,12 @@ antara CR dan TCR?
 
 636
 00:34:40,820 --> 00:34:45,953
-Jika h adalah CR, ia akan
+Jika h adalah CR, dia akan
 menjadi TCR, benar?
 
 637
 00:34:45,953 --> 00:34:46,744
-Ia pasti menjadi TCR.
+Dia pasti menjadi TCR.
 
 638
 00:34:46,744 --> 00:34:48,735
@@ -3024,7 +3024,7 @@ Saya tidak akan membahas sampai ke sana.
 
 643
 00:35:08,160 --> 00:35:09,659
-Hal ini sebenarnya
+Itu sebenarnya
 sedikit lebih terlibat
 
 644
@@ -3048,12 +3048,12 @@ memiliki properti yang lebih ketat
 
 648
 00:35:20,340 --> 00:35:22,280
-sesuai dengan
+yang berkaitan dengan
 collision resistance
 
 649
 00:35:22,280 --> 00:35:24,680
-daripada TCR, kan?
+daripada TCR, benar?
 
 650
 00:35:24,680 --> 00:35:27,170
@@ -3062,22 +3062,22 @@ contoh tertentu itu,
 
 651
 00:35:27,170 --> 00:35:29,780
-Anda tidak bertanggung jawab untuk
-hal itu, hubungi saya
+walaupun tidak wajib,
+hubungi saya
 
 652
 00:35:29,780 --> 00:35:32,545
-dan saya akan tunjukkan Anda ke a,
-seperti sebuah deskripsi tiga halaman
+dan saya akan mengarahkan Anda ke,
+penjelasan yang berisi contoh
 
 653
 00:35:32,545 --> 00:35:34,180
-dari sebuah contoh.
+dan panjangnya tiga halaman.
 
 654
 00:35:34,180 --> 00:35:35,930
-Jadi saya tidak begitu
-ingin menjelaskan sampai ke situ.
+Jadi saya tidak terlalu
+menjelaskan lebih dalam.
 
 655
 00:35:35,930 --> 00:35:40,170
@@ -3115,7 +3115,7 @@ mengenai collision resistance
 662
 00:36:07,950 --> 00:36:10,430
 dari sebuah fungsi hash,
-jika saya terjamin
+jika saya digaransikan
 
 663
 00:36:10,430 --> 00:36:14,010
@@ -3152,12 +3152,12 @@ mengekstrak hal ini dari Anda.
 
 670
 00:36:43,540 --> 00:36:46,870
-Hal ini agak cerdik.
+Hal ini cukup rumit.
 
 671
 00:36:46,870 --> 00:36:48,990
-Tapi cara yang Anda inginkan
-untuk memikirkan hal ini
+Tapi bagaimana Anda 
+memikirkan hal ini
 
 672
 00:36:48,990 --> 00:36:59,260
@@ -3174,7 +3174,7 @@ Dan ini adalah keluarannya.
 
 675
 00:37:03,660 --> 00:37:06,160
-Dan saya mendapatkan d-bit.
+Dan saya mendapatkan keluaran d-bit.
 
 676
 00:37:06,160 --> 00:37:12,010
@@ -3182,7 +3182,7 @@ Dan saya mempunyai x1, x2, hingga xn, OK?
 
 677
 00:37:12,010 --> 00:37:16,620
-Sekarang saya telah memberikan h ini--
+Sekarang saya telah diberikan h ini--
 Saya telah diberikan h ini yang
 
 678
@@ -3216,7 +3216,7 @@ untuk sampai kesini.
 
 684
 00:37:36,530 --> 00:37:40,380
-Tapi Anda diperbolehkan sekarang
+Tapi sekarang Anda diperbolehkan
 untuk memberi saya sebuah contoh.
 
 685
@@ -3230,7 +3230,7 @@ yang mungkin menggunakan h juga.
 
 687
 00:37:48,300 --> 00:37:51,780
-Dan h agak bagus karena
+Dan h cukup bagus karena
 ia memiliki properti satu arah ini.
 
 688
@@ -3269,7 +3269,7 @@ untuk pergi dari sini ke sana.
 
 695
 00:38:20,347 --> 00:38:21,680
-Karena anda harus pergi lebih dalam.
+Karena Anda harus pergi lebih dalam.
 
 696
 00:38:21,680 --> 00:38:23,760
@@ -3312,16 +3312,16 @@ membuat sebuah h aksen agar
 704
 00:38:49,690 --> 00:38:53,700
 menjadi cukup mudah untuk
-menemukan targeted collisions,
+menemukan collision yang terarah,
 
 705
 00:38:53,700 --> 00:38:56,150
-tidak harus berupa collisions,
+tidak harus berupa collision,
 cukup mudah untuk menemukan
 
 706
 00:38:56,150 --> 00:38:58,740
-targeted collisions,
+collision terarah,
 tanpa merusak
 
 707
@@ -3339,7 +3339,7 @@ x sub i, jika i ganjil maka
 
 710
 00:39:11,673 --> 00:39:14,631
-keluarkan h(x) dari i.
+kembalikan h(x) dari i.
 
 711
 00:39:14,631 --> 00:39:16,603
@@ -3397,7 +3397,7 @@ menggambarkannya.
 723
 00:39:38,270 --> 00:39:42,705
 Dan yang dapat Anda lakukan, Anda dapat
-melakukan sebuah pembatas, seperti ganji dan genap
+melakukan sebuah pembatas, seperti ganjil dan genap
 
 724
 00:39:42,705 --> 00:39:43,705
@@ -3411,7 +3411,7 @@ gerbang [? XNOR ?]
 726
 00:39:51,440 --> 00:39:55,240
 kecil, yang merupakan gerbang
-pembatas, terhadap salah satu masukannya.
+parity, terhadap salah satu masukannya.
 
 727
 00:39:55,240 --> 00:39:56,830
@@ -3448,7 +3448,7 @@ memasukkan suatu angka
 734
 00:40:13,630 --> 00:40:16,774
 di sini yang berhubungan dengan
-n, yang merupakan angka tetap.
+n, yang merupakan angka yang tidak berubah.
 
 735
 00:40:16,774 --> 00:40:19,190
@@ -3501,7 +3501,7 @@ apa yang terjadi adalah,
 745
 00:40:38,140 --> 00:40:41,000
 Anda memiliki
-implementasi khusus
+implementasi tertentuR
 
 746
 00:40:41,000 --> 00:40:43,180
