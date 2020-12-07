@@ -1668,32 +1668,31 @@ itu.
 
 351
 00:15:37,020 --> 00:15:38,950
-In fact, the way the
-applications typically
+faktanya, aplikasi biasa nya
 
 352
 00:15:38,950 --> 00:15:42,900
-use Kerberos is that
-one of these servers
+menggunakan Kerberos sebagai 
+salah satu server nya
 
 353
 00:15:42,900 --> 00:15:45,730
-uses Kerberos to figure out,
-OK, what string name am I
+menggunakan Kerberos untuk mencari tahu,
+Oke, saya ini nama string apa
 
 354
 00:15:45,730 --> 00:15:46,290
-talking to?
+berbicara kepada?
 
 355
 00:15:46,290 --> 00:15:48,290
-So when the mail server
-gets a connection
+Jadi saat server mail
+mendapat koneksi
 
 356
 00:15:48,290 --> 00:15:50,920
-from some workstation and it
-get the Kerberos ticket that
+dari beberapa workstation dan itu
+dapatkan tiket Kerberos itu
 
 357
 00:15:50,920 --> 00:15:54,220
