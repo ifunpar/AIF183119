@@ -2284,26 +2284,26 @@ kilobytes, cukup OK, bukan?
 496
 00:22:49,620 --> 00:22:51,690
 Komputer dapat menangani
-with 8 kilobytes.
+8 kilobytes.
 
 497
 00:22:51,690 --> 00:22:55,230
-That's called a Merkle
-tree made by Ralph Merkle
+Itu disebut sebagai pohon
+Merkle yang dibuat oleh Ralph Merkle
 
 498
 00:22:55,230 --> 00:22:58,680
-in '76 or something.
+pada sekitar tahun 1976.
 
 499
 00:22:58,680 --> 00:23:01,820
-And it was originally made
-for exactly that purpose.
+Dan itu awalnya dibuat
+untuk tujuan itu.
 
 500
 00:23:01,820 --> 00:23:04,900
-Anyway, so these are
-called Merkle trees.
+Pokoknya, jadi ini 
+disebut pohon Merkle.
 
 501
 00:23:04,900 --> 00:23:07,120
@@ -2311,82 +2311,82 @@ Ralph Merkle.
 
 502
 00:23:07,120 --> 00:23:09,025
-He doesn't really
-work on crypto now.
+Pada saat ini, dia tidak benar-benar
+bekerja pada bidang kriptografi
 
 503
 00:23:09,025 --> 00:23:11,590
-He works on biotech
-stuff now, I think.
+Dia bekerja pada bidang
+biotech sekarang, Saya kira.
 
 504
 00:23:11,590 --> 00:23:12,456
-Anyway.
+Bagaimanapun
 
 505
 00:23:12,456 --> 00:23:14,013
-But he's cool.
+Tapi dia keren.
 
 506
 00:23:14,013 --> 00:23:15,930
-And he gets, like,
-everything named after him.
+Dan dia mendapatkan, seperti,
+semuanya dinamai menurut namanya.
 
 507
 00:23:15,930 --> 00:23:18,190
-So you will see the
-word Merkle everywhere.
+Jadi anda akan melihat
+kata Merkle dimanapun.
 
 508
 00:23:18,190 --> 00:23:21,160
-And it's, you know, he
-invented something cool.
+Dan itu, anda tahu, dia
+menemukan sesuatu yang keren.
 
 509
 00:23:21,160 --> 00:23:21,873
-Awesome.
+Hebat.
 
 510
 00:23:21,873 --> 00:23:23,290
-This is one of the
-kind of things,
+Ini adalah 
+salah satu hal,
 
 511
 00:23:23,290 --> 00:23:24,490
-though, where it
-seems like, yeah,
+meskipun, dimana itu
+sepertinya, ya,
 
 512
 00:23:24,490 --> 00:23:25,950
-I might have been able
-to think of that, right?
+Saya mungkin bisa
+memikirkan itu, kan?
 
 513
 00:23:25,950 --> 00:23:28,270
-It's sort of a binary
-tree and hash functions.
+Ini semacam pohon 
+biner dan fungsi hash.
 
 514
 00:23:28,270 --> 00:23:30,560
-It's nothing that crazy.
+Tidak ada hal yang gila.
 
 515
 00:23:30,560 --> 00:23:32,710
-But so there's all
-sorts of Merkle trees.
+Tapi jadi ada 
+banyak jenis pohon Merkle.
 
 516
 00:23:32,710 --> 00:23:35,440
-You can make a different thing.
+Anda bisa membuat hal yang berbeda.
 
 517
 00:23:35,440 --> 00:23:36,330
-It's used in Bitcoin.
+Hal itu digunakan pada Bitcoin
 
 518
 00:23:36,330 --> 00:23:39,520
-It's used in a bunch of
-different cryptocurrencies.
+Hal ini digunakan di banyak
+cryptocurrency yang berbeda.
 
 519
 00:23:39,520 --> 00:23:40,750
