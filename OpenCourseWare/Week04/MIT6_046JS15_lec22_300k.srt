@@ -1920,7 +1920,7 @@ dijelaskan pada tahun 70-an.
 409
 00:22:25,100 --> 00:22:29,630
 Jadi apa yang akan kita lakukan adalah
-kita akan bekerja pada bidang
+kita akan bekerja pada ruang
 
 410
 00:22:29,630 --> 00:22:33,120
@@ -1928,7 +1928,7 @@ terbatas Fp*
 
 411
 00:22:33,120 --> 00:22:36,450
-Dan bidang terbatas 
+Dan ruang berhingga 
 berarti kita
 
 412
@@ -1989,481 +1989,481 @@ dalam teka-teki bajak laut kita?
 
 424
 00:23:23,070 --> 00:23:27,070
-What is the analog in
-the mathematical domain
+Apa analoginya dalam
+domain matematika
 
 425
 00:23:27,070 --> 00:23:29,060
-or in the finite field domain?
+atau dalam domain ruang berhingga?
 
 426
 00:23:29,060 --> 00:23:31,100
-Well, here's what happens.
+Jadi, inilah yang terjadi.
 
 427
 00:23:31,100 --> 00:23:39,691
-Alice is going to
-select a random a.
+Alice akan
+memilih a secara acak.
 
 428
 00:23:43,128 --> 00:23:45,450
-And we're going to
-assume the g is public.
+Dan kita akan
+mengasumsikan g adalah publik.
 
 429
 00:23:45,450 --> 00:23:51,880
-So she just shouts
-that out to-- Alice
+Jadi dia hanya meneriakkannya
+kepada-- Alice
 
 430
 00:23:51,880 --> 00:23:54,950
-can see Bob from her house.
+dapat melihat Bob dari rumahnya.
 
 431
 00:23:54,950 --> 00:23:58,069
-So she shouts out
-g and shouts out p.
+Jadi dia meneriakkan
+g dan meneriakkan p.
 
 432
 00:23:58,069 --> 00:23:58,860
-They're all public.
+Mereka semua publik.
 
 433
 00:23:58,860 --> 00:24:02,680
-She doesn't care if the
-pirates can hear this.
+Dia tidak peduli jika
+bajak laut dapat mendengar ini.
 
 434
 00:24:02,680 --> 00:24:06,440
-And Alice is going to
-select a, which is random,
+Dan Alice akan
+memilih a, yang merupakan acak,
 
 435
 00:24:06,440 --> 00:24:11,810
-and compute g of a.
+dan menghitung g dari a.
 
 436
 00:24:11,810 --> 00:24:15,470
-And this is in the
-finite field, capital G.
+Dan ini dalam
+ruang berhingga, G kapital.
 
 437
 00:24:15,470 --> 00:24:17,310
-So you're going to do your mods.
+Jadi Anda akan melakukan mod (sisa pembagian) Anda.
 
 438
 00:24:17,310 --> 00:24:23,550
-And she's just going to send
-over g of a over to Bob.
+Dan Alice hanya akan mengirim
+g dari a ke Bob.
 
 439
 00:24:23,550 --> 00:24:37,540
-Now, what Bob does is select
-b and computes g raise to b
+Sekarang, apa yang Bob lakukan adalah memilih
+b dan menghitung g pangkat b
 
 440
 00:24:37,540 --> 00:24:40,490
-and sends that over.
+dan mengirimkannya.
 
 441
 00:24:40,490 --> 00:24:42,950
-So g raised to a is
-being sent over. g
+Jadi g pangkat a 
+sedang dikirim. g
 
 442
 00:24:42,950 --> 00:24:45,600
-raised to b is being sent
-over, sent over to Alice.
+pangkat b sedang dikirim, 
+dikirim kepada Alice.
 
 443
 00:24:45,600 --> 00:24:49,160
-So Alice gets g raised to b.
+Jadi Alice mendapat g pangkat b.
 
 444
 00:24:49,160 --> 00:24:53,880
-And the key realization
-here is that Alice
+Dan hal penting
+di sini adalah Alice
 
 445
 00:24:53,880 --> 00:25:02,880
-can compute g raised to b raised
-to a, because she knows a.
+dapat menghitung g pangkat b pangkat
+a, karena Alice mengetahui a.
 
 446
 00:25:02,880 --> 00:25:05,030
-This is all going to be mod p.
+Semua ini akan di-mod dengan p.
 
 447
 00:25:05,030 --> 00:25:08,200
-And we're going to call that
-K. And thanks to the fact
+Dan kita akan menyebutnya
+K. Dan faktanya
 
 448
 00:25:08,200 --> 00:25:14,210
-that exponentiation
-commutes, Bob
+bahwa perhitungan exponensial
+bersifat komutatif, Bob
 
 449
 00:25:14,210 --> 00:25:20,810
-computes g raised to a
-raised to b, because Bob
+menghitung g pangkat a
+pangkat b, karena Bob
 
 450
 00:25:20,810 --> 00:25:25,727
-knows b, which is also
-exactly K-- I should say mod
+mengetahui b, yang sebenarnya
+adalah K-- Saya harus mengatakan mod
 
 451
 00:25:25,727 --> 00:25:28,827
-p over here.
+p disini.
 
 452
 00:25:28,827 --> 00:25:29,660
-Everything is mod p.
+Semua adalah mod p.
 
 453
 00:25:33,430 --> 00:25:34,920
-So that's it.
+Jadi seperti itu.
 
 454
 00:25:34,920 --> 00:25:38,040
-That's Diffie-Hellman
-key exchange.
+Itu adalah pertukaran kunci
+Diffie-Hellman.
 
 455
 00:25:38,040 --> 00:25:41,690
-You have now created
-a shared secret
+Anda sekarang telah membuat
+sebuah rahasia bersama
 
 456
 00:25:41,690 --> 00:25:46,110
-based on the commutativity
-of exponentiation.
+yang berdasarkan pada sifat komutatif
+dari eksponensial.
 
 457
 00:25:46,110 --> 00:25:49,840
-And the part that's
-still missing here
+Dan bagian yang 
+masih hilang di sini
 
 458
 00:25:49,840 --> 00:25:55,032
-with respect to the analogy
-is the fact that g of a
+sehubungan dengan analoginya
+adalah fakta bahwa g dari a
 
 459
 00:25:55,032 --> 00:25:57,760
-is essentially the locked box.
+pada dasarnya adalah kotak yang terkunci.
 
 460
 00:25:57,760 --> 00:26:01,690
-So what g of a is hiding is a.
+Jadi yang disembunyikan g dari a adalah a.
 
 461
 00:26:01,690 --> 00:26:05,160
-Because you want a to be hidden
-here and the same thing with g
+Karena Anda ingin a tersembunyi
+di sini dan begitu pula dengan g
 
 462
 00:26:05,160 --> 00:26:05,660
-of b.
+dari b.
 
 463
 00:26:05,660 --> 00:26:07,080
-It needs to hide b.
+B perlu disembunyikan.
 
 464
 00:26:07,080 --> 00:26:11,700
-So the problem that the
-pirates had was they
+Jadi masalah yang dimiliki
+para perompak adalah mereka
 
 465
 00:26:11,700 --> 00:26:14,420
-couldn't open up the box.
+tidak bisa membuka kotak itu.
 
 466
 00:26:14,420 --> 00:26:19,170
-The problem that the adversary,
-let's call them mal, has
+Masalahnya adalah si orang jahat,
+sebut saja mereka mal, adalah
 
 467
 00:26:19,170 --> 00:26:26,630
-is that he has to invert g
-of a in order to discover a.
+bahwa ia harus mencari invers dari g 
+dari a untuk menemukan a.
 
 468
 00:26:26,630 --> 00:26:30,870
-And in this particular
-finite field,
+Dan dalam ruang
+berhingga ini,
 
 469
 00:26:30,870 --> 00:26:34,990
-and many such finite fields,
-you can think of this
+dan banyak ruang berhingga lainnya, 
+Anda dapat menganggap ini
 
 470
 00:26:34,990 --> 00:26:37,370
-as being what's called a
-discrete logarithm problem.
+sebagai apa yang disebut 
+masalah logaritma diskrit.
 
 471
 00:26:37,370 --> 00:26:38,870
-So if you don't
-know how to computer
+Jadi, jika Anda tidak 
+tahu cara menghitung
 
 472
 00:26:38,870 --> 00:26:41,099
-logarithms in that
-continuous domain.
+logaritma di domain 
+berkelanjutan itu.
 
 473
 00:26:41,099 --> 00:26:41,890
-And there's tables.
+Dan ada tabel.
 
 474
 00:26:41,890 --> 00:26:43,720
-And it's pretty easy to do.
+Dan itu cukup mudah dilakukan.
 
 475
 00:26:43,720 --> 00:26:45,740
-But this is what's called
-a discrete logarithm
+Tapi ini yang kita sebut 
+masalah logaritma diskrit
 
 476
 00:26:45,740 --> 00:26:48,400
-problem, because we're
-in a finite field.
+karena kita berada 
+di ruang berhingga.
 
 477
 00:26:48,400 --> 00:26:50,980
-And we obviously want
-integers. a is an integer.
+Dan kita tentu menginginkan 
+bilangan bulat. A merupakan bilangan bulat.
 
 478
 00:26:50,980 --> 00:26:54,800
-So we need to discover
-what does that integer is.
+Jadi kita perlu menemukan
+apa nilai bilangan bulat tersebut.
 
 479
 00:26:54,800 --> 00:26:56,800
-Because we're doing
-the mod p, et cetera,
+Karena kita melakukan 
+mod pada nilai p, dan lainnya,
 
 480
 00:26:56,800 --> 00:26:59,490
-and p is typically
-on a large number,
+dan p biasanya 
+merupakan nilai yang besar
 
 481
 00:26:59,490 --> 00:27:02,650
-it's actually a hard
-problem computationally
+dan itu sebenarnya merupakan 
+masalah komputasional yang sulit
 
 482
 00:27:02,650 --> 00:27:05,520
-to do a discrete log.
+untuk melakukan logaritma diskrit.
 
 483
 00:27:05,520 --> 00:27:10,820
-So when you see g of a,
-you know g, you know p,
+Jadi, saat anda melihat g dari a,
+Anda tahu g, anda tahu p
 
 484
 00:27:10,820 --> 00:27:15,710
-but trying to figure out
-what produced that g of a
+tapi mencoba untuk mengetahui 
+nilai apa yang menghasilkan g dari a
 
 485
 00:27:15,710 --> 00:27:16,920
-is a difficult problem.
+merupakan masalah yang sulit.
 
 486
 00:27:16,920 --> 00:27:19,010
-And people have looked
-at this for 30, 40 years
+Dan orang-orang telah melihat 
+ini selama 30, 40 tahun
 
 487
 00:27:19,010 --> 00:27:21,929
-and there's not great
-algorithms to solve
+dan tidak ada algoritme
+yang cukup baik untuk menyelesaikan
 
 488
 00:27:21,929 --> 00:27:23,720
-this problem, certainly
-not anything that's
+masalah ini, pastinya
+bukan sesuatu yang
 
 489
 00:27:23,720 --> 00:27:25,440
-polynomial time solvable.
+dapat diselesaikan dalam waktu polinomial.
 
 490
 00:27:25,440 --> 00:27:27,550
-They're all kind
-of subexponential.
+Mereka semua seperti 
+subeksponensial.
 
 491
 00:27:27,550 --> 00:27:32,070
-And you can make the numbers
-large enough such that g of a
+Dan Anda bisa membuat angka
+yang cukup besar seperti g dari a
 
 492
 00:27:32,070 --> 00:27:37,270
-is secure in the sense that it
-doesn't give away what a is.
+itu aman dalam hal dia
+tidak memberi tahu isi nilai a.
 
 493
 00:27:37,270 --> 00:27:43,260
-So that's the insight here
-that Diffie and Hellman had,
+Jadi itulah intinya di sini
+yang dimiliki Diffie dan Hellman,
 
 494
 00:27:43,260 --> 00:27:55,020
-which comes down to the
-discrete log problem is hard.
+yang intinya menyimpulkan bahwa
+masalah logaritma diskrit sulit.
 
 495
 00:27:55,020 --> 00:27:59,910
-And what this simply
-means is given g of a,
+dan secara sederhana artinya
+diberikan g dari a,
 
 496
 00:27:59,910 --> 00:28:03,160
-the discrete log
-problem is compute a.
+masalah logaritma
+diskrit adalah menghitung a.
 
 497
 00:28:03,160 --> 00:28:05,950
-And the same thing
-for b, of course.
+Dan sama halnya
+untuk b, tentu saja.
 
 498
 00:28:05,950 --> 00:28:09,300
-There's one other
-thing that you want
+Ada satu lagi
+hal yang Anda ingin
 
 499
 00:28:09,300 --> 00:28:11,400
-to say to be precise
-to sort of just
+katakan agar lebih tepat
+untuk hanya
 
 500
 00:28:11,400 --> 00:28:15,490
-cover the spectrum with respect
-to how this could break.
+melingkupi spektrum ini dalam hal
+bagaimana ini dapat rusak.
 
 501
 00:28:15,490 --> 00:28:19,340
-And that is what's called
-the Diffie-Hellman problem,
+Dan itulah yang disebut
+masalah Diffie-Hellman,
 
 502
 00:28:19,340 --> 00:28:23,470
-for want of a better names and
-since these are the folks who
+untuk ingin nama yang lebih baik dan
+karena ini adalah orang-orang yang
 
 503
 00:28:23,470 --> 00:28:25,770
-first came up with it.
+pertama kali menemukannya.
 
 504
 00:28:25,770 --> 00:28:27,960
-And the Diffie-Hellman
-problem is simply
+Dan masalah Diffie-Hellman
+adalah secara sederhana
 
 505
 00:28:27,960 --> 00:28:33,680
-that given g of a and g of b,
-which is what the pirates see
+diberikan g dari a dan g dari b,
+yang merupakan apa yang perompak lihat
 
 506
 00:28:33,680 --> 00:28:37,610
-and what the adversary
-mal sees, we should not
+dan apa yang si penyerang
+mal lihat, kita tidak seharusnya
 
 507
 00:28:37,610 --> 00:28:43,400
-be able to compute g
-of a times b, which
+dapat menghitung g
+dari a kali b, yang
 
 508
 00:28:43,400 --> 00:28:44,790
-is exactly what we get here.
+tepatnya apa yang kita dapat disini.
 
 509
 00:28:44,790 --> 00:28:47,600
-g of a raised to b
-is g of a times b.
+g dari a dipangkat b
+adalah g dari a kali b.
 
 510
 00:28:47,600 --> 00:28:49,680
-So given those two
-things, if there's
+Jadi diberikan kedua
+hal itu, jika ada
 
 511
 00:28:49,680 --> 00:28:52,990
-a way of computing
-g of a times b,
+sebuah cara menghitung
+g dari a kali b
 
 512
 00:28:52,990 --> 00:28:55,800
-even though you potentially
-haven't discovered
+meskipun kemungkinan Anda
+belum menemukannya
 
 513
 00:28:55,800 --> 00:28:59,340
-a and b precisely,
-g of a times b
+a dan b tepatnya,
+g dari a kali b
 
 514
 00:28:59,340 --> 00:29:02,060
-is just the secret key that
-Alice and Bob exchanged.
+hanyalah kunci rahasia yang
+Alice dan Bob saling tukarkan.
 
 515
 00:29:02,060 --> 00:29:03,620
-So you're host.
+Jadi Anda adalah host.
 
 516
 00:29:03,620 --> 00:29:07,240
-Alice and Bob are host
-if mal can do this.
+Alice dan Bob adalah host
+jika mal dapat melakukan ini.
 
 517
 00:29:07,240 --> 00:29:09,410
-So there's two
-things going on here.
+Jadi ada dua
+hal yang terjadi di sini.
 
 518
 00:29:09,410 --> 00:29:12,540
-You want the Diffie-Hellman
-problem to be hard.
+Anda mau masalah Diffie-Hellman
+menjadi sulit.
 
 519
 00:29:12,540 --> 00:29:16,500
-And you want the discrete
-log problem to be hard.
+Dan Anda mau masalah log diskrit
+menjadi sulit.
 
 520
 00:29:16,500 --> 00:29:20,500
-OK So generally, this is
-how cryptography works.
+OK Jadi secara umum, ini adalah
+bagaimana kriptografi bekerja.
 
 521
 00:29:20,500 --> 00:29:22,880
-You set up protocols.
+Anda mengatur protokol.
 
 522
 00:29:22,880 --> 00:29:26,330
-And there's some information
-that's bound to be exposed.
+Dan ada beberapa informasi
+yang akan terungkap
 
 523
 00:29:26,330 --> 00:29:30,280
-You want this information
-to be hard to reverse
+Anda mau informasi ini
+menjadi sulit untuk dibalik
 
 524
 00:29:30,280 --> 00:29:32,190
-to get the crucial information.
+untuk mendapatkan informasi yang krusial.
 
 525
 00:29:32,190 --> 00:29:34,890
