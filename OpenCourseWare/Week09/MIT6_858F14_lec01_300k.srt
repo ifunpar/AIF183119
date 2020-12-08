@@ -3723,7 +3723,7 @@ daripada jutaan tebakan.
 784
 00:32:56,217 --> 00:32:58,300
 Dan sebagai konsekuensinya, bahkan
-jika Anda tidak memiliki password
+jika Anda tidak memiliki kata sandi
 
 785
 00:32:58,300 --> 00:33:00,550
@@ -3741,7 +3741,7 @@ memiliki pencegahan penebakan
 
 788
 00:33:06,990 --> 00:33:10,210
-password atau, pada dasarnya,
+kata sandi atau, pada dasarnya,
 mundur, pada beberapa antarmuka,
 
 789
@@ -3786,17 +3786,17 @@ sekumpulan akun yang sama,
 797
 00:33:26,867 --> 00:33:28,950
 orang jahat kini dapat
-menebak password Anda
+menebak kata sandi Anda
 
 798
 00:33:28,950 --> 00:33:32,890
 melalui antarmuka ini
-dengan jutaan upaya per hari
+dengan jutaan percobaan per hari
 
 799
 00:33:32,890 --> 00:33:35,340
-dengan mudahnya, karena ini hanya terbatas 
-pada seberapa cepat mereka
+dengan mudahnya, karena hal ini hanya
+terbatas pada seberapa cepat mereka
 
 800
 00:33:35,340 --> 00:33:37,452
@@ -3806,7 +3806,7 @@ ke perangkat iCloud ini.
 801
 00:33:37,452 --> 00:33:39,160
 Dan mereka mungkin dapat
-menebak password Anda
+menebak kata sandi Anda
 
 802
 00:33:39,160 --> 00:33:43,960
@@ -3819,12 +3819,12 @@ setelah membuat banyak tebakan.
 
 804
 00:33:46,780 --> 00:33:48,890
-Dan ini menyebabkan beberapa
+Dan hal ini menyebabkan beberapa
 pembobolan yang tidak menguntungkan.
 
 805
 00:33:48,890 --> 00:33:51,660
-Dan data rahasia orang-orang 
+Dan data rahasia orang-orang
 dicuri
 
 806
@@ -3834,16 +3834,16 @@ dari layanan iCloud ini.
 807
 00:33:54,870 --> 00:33:59,621
 Jadi ini adalah contoh
-dimana Anda memiliki kebijakan yang tepat.
+di mana Anda memiliki kebijakan yang tepat.
 
 808
 00:33:59,621 --> 00:34:01,120
 Hanya pengguna dan
-password yang benar
+kata sandi yang benar
 
 809
 00:34:01,120 --> 00:34:02,632
-akan memberi Anda
+yang akan memberi Anda
 akses ke file.
 
 810
@@ -3853,18 +3853,18 @@ model ancaman yang tepat
 
 811
 00:34:04,090 --> 00:34:06,810
-yang, mungkin dapat orang jahat
-tebak passwordnya.
+yang, yah, mungkin dapat orang jahat
+tebak kata sandinya.
 
 812
 00:34:06,810 --> 00:34:09,370
 Jadi kita harus mengurangi
-batas jumlah upaya menebak.
+batas jumlah percobaan.
 
 813
 00:34:09,370 --> 00:34:12,250
-Tapi dia hanya mengacau, seperti
-mekanismenya memiliki bug di dalamnya.
+Namun dia hanya mengacau, seperti
+mekanismenya memiliki kesalahan di dalamnya.
 
 814
 00:34:12,250 --> 00:34:15,239
@@ -3877,13 +3877,13 @@ di beberapa antarmuka.
 
 816
 00:34:16,280 --> 00:34:19,520
-Dan ini muncul lagi dan
+Dan hal ini muncul lagi dan
 lagi dalam sistem,
 
 817
 00:34:19,520 --> 00:34:24,060
-dimana baru saja membuat kesalahan dan
-itu memiliki dampak yang cukup drastis
+di mana baru saja membuat kesalahan dan
+hal itu memiliki dampak yang cukup drastis
 
 818
 00:34:24,060 --> 00:34:27,000
@@ -3892,7 +3892,7 @@ secara keseluruhan.
 
 819
 00:34:27,000 --> 00:34:28,960
-Apakah ini masuk akal??
+Apakah ini masuk akal?
 
 820
 00:34:28,960 --> 00:34:30,320
@@ -3904,7 +3904,7 @@ Baiklah.
 
 822
 00:34:34,630 --> 00:34:35,260
-Oke.
+OK.
 
 823
 00:34:35,260 --> 00:34:39,149
@@ -3913,23 +3913,23 @@ adalah semacam contoh ketika Anda
 
 824
 00:34:39,149 --> 00:34:42,982
-lupa untuk memeriksa 
+lupa untuk memeriksa
 percobaan menebak kata sandi.
 
 825
 00:34:42,982 --> 00:34:44,690
-Ada berbagai macam 
+Ada berbagai macam
 hal lain yang bisa Anda lupakan.
 
 826
 00:34:44,690 --> 00:34:47,830
-Anda bisa lupa untuk memeriksa 
+Anda bisa lupa untuk memeriksa
 kontrol akses bersamaan.
 
 827
 00:34:47,830 --> 00:34:53,179
 Jadi salah satu contoh adalah, Citibank
-memiliki sebuah situs web -- sebenarnya, masih
+memiliki sebuah situs web-- sebenarnya, masih
 
 828
 00:34:53,179 --> 00:34:57,150
@@ -3942,13 +3942,13 @@ kartu kredit milik Anda.
 
 830
 00:34:58,280 --> 00:34:59,560
-Jadi jika anda memiliki sebuah kartu
+Jadi jika Anda memiliki sebuah kartu
 kredit Citibank,
 
 831
 00:34:59,560 --> 00:35:00,660
-Anda pergi ke situs web
-ini, maka akan memberi tahu Anda,
+Anda pergi ke situs web ini,
+maka situs tersebut akan memberi tahu Anda,
 
 832
 00:35:00,660 --> 00:35:01,993
@@ -3961,8 +3961,8 @@ semua barang bagus ini.
 
 834
 00:35:04,160 --> 00:35:08,480
-Dan alur kerja beberapa
-tahun lalu adalah Anda pergi 
+Dan alur kerjanya dalam beberapa
+tahun lalu adalah Anda pergi
 
 835
 00:35:08,480 --> 00:35:12,710
@@ -3976,13 +3976,13 @@ ke URL lain,
 
 837
 00:35:15,630 --> 00:35:18,130
-yang ternyata adalah sesuatu yang, Saya
-tidak tahu, saya hanya menebak,
+yang ternyata adalah sesuatu yang, saya
+tidak tahu, saya tebak,
 
 838
 00:35:18,130 --> 00:35:23,190
 tapi pada dasarnya seperti
-citi.com/account?id= Anda tahu,
+citi.com/account?id= yang Anda tahu,
 
 839
 00:35:23,190 --> 00:35:26,640
@@ -3995,7 +3995,7 @@ orang mengetahuinya, baik,
 
 841
 00:35:29,422 --> 00:35:30,880
-jika Anda mengganti nomer 
+jika Anda mengganti nomor
 ini, Anda hanya
 
 842
