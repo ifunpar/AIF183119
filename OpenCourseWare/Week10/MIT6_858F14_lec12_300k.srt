@@ -2102,8 +2102,8 @@ seperti apa bentuknya ini.
 
 442
 00:18:14,310 --> 00:18:17,190
-Jadi, jika saya adalah penyerang yang 
-ingin menyambung ke server
+Jadi jika saya adalah penyerang yang 
+ingin terhubung ke server
 
 443
 00:18:17,190 --> 00:18:20,690
@@ -2127,7 +2127,7 @@ nomor urut awal yang saya pilih.
 
 447
 00:18:30,470 --> 00:18:31,995
-Pada titik saat ini, 
+Pada titik ini,
 nomor urut berapapun
 
 448
@@ -2150,23 +2150,23 @@ Sekarang, apa yang akan dilakukan oleh server?
 
 452
 00:18:38,250 --> 00:18:40,760
-server akan mendapatkan
+Server akan mendapatkan
 paket yang sama seperti sebelumnya.
 
 453
 00:18:40,760 --> 00:18:42,550
-Jadi kinerjanya akan
+Jadi dia akan melakukan hal yang
 sama seperti sebelumnya.
 
 454
 00:18:42,550 --> 00:18:47,500
-Hal ini mengirimkan paket kembali ke
-klien dengan beberapa nomor urut
+Dia mengirimkan paket kembali ke
+klien dengan nomor urut server
 
 455
 00:18:47,500 --> 00:18:53,000
-server dan
-menyatakan SNC.
+tertentu dan
+mengonfirmasi SNC.
 
 456
 00:18:53,000 --> 00:18:55,800
@@ -2181,11 +2181,11 @@ ia butuh menyusun
 458
 00:18:58,620 --> 00:19:01,540
 sebuah paket yang terlihat persis seperti
-paket ketiga disana.
+paket ketiga di sana.
 
 459
 00:19:01,540 --> 00:19:04,779
-Jadi ia harus mengirim sebuah paket
+Jadi dia harus mengirim sebuah paket
 dari klien ke server.
 
 460
@@ -2195,16 +2195,16 @@ Hal ini cukup mudah.
 461
 00:19:05,570 --> 00:19:07,403
 Anda hanya perlu mengisi
-value di header.
+nilai-nilainya di header.
 
 462
 00:19:07,403 --> 00:19:12,820
-Tetapi anda sekarang harus mengetahui
-nomor SNS server ini.
+Tetapi Anda harus mengonfirmasi
+nomor urut SNS server ini.
 
 463
 00:19:12,820 --> 00:19:15,090
-Dan disinilah dimana
+Dan disinilah
 permasalahan dimulai.
 
 464
@@ -2214,7 +2214,7 @@ cukup mudah untuk ditebak,
 
 465
 00:19:18,950 --> 00:19:21,050
-maka penyerang sudah siap untuk mulai.
+maka penyerang sudah siap untuk menyerang.
 
 466
 00:19:21,050 --> 00:19:22,910
@@ -2223,8 +2223,8 @@ berpikir mereka memiliki
 
 467
 00:19:22,910 --> 00:19:26,400
-koneksi yang sudah lama terhubung
-dengan client dari alamat
+koneksi yang sudah terhubung sebelumnya
+dengan klien dari alamat
 
 468
 00:19:26,400 --> 00:19:27,990
@@ -2233,7 +2233,7 @@ IP ini.
 469
 00:19:27,990 --> 00:19:31,920
 dan sekarang penyerang dapat
-memasukan data ke koneksi ini
+menyuntikkan data ke koneksi ini
 
 470
 00:19:31,920 --> 00:19:33,174
@@ -2241,17 +2241,17 @@ seperti sebelumnya.
 
 471
 00:19:33,174 --> 00:19:34,590
-Mereka akan menyatukan
+Mereka hanya membentuk
 paket yang
 
 472
 00:19:34,590 --> 00:19:37,680
 terlihat seperti ini,
-mempunyai data, dan
+berisi data, dan
 
 473
 00:19:37,680 --> 00:19:41,030
-mempunyai nomor urut client
+mempunyai nomor urut klien
 yang sebenarnya dipilih
 
 474
@@ -2260,7 +2260,7 @@ musuh.
 
 475
 00:19:41,540 --> 00:19:43,870
-Mungkin tambah 1 disini.
+Mungkin tambah 1 di sini.
 
 476
 00:19:43,870 --> 00:19:48,170
@@ -2282,11 +2282,11 @@ Ya.
 480
 00:19:53,320 --> 00:19:54,280
 AUDIENS: Apa alasannya
-bahwa urutan server
+bahwa nomor urut server
 
 481
 00:19:54,280 --> 00:19:56,374
-nomor tidak sepenuhnya acak?
+tidak sepenuhnya acak?
 
 482
 00:19:56,374 --> 00:19:57,790
@@ -2301,21 +2301,20 @@ jelaskan sebelumnya,
 484
 00:20:00,940 --> 00:20:05,330
 server ingin memastikan 
-paket tersebut
+paket-paket
 
 485
 00:20:05,330 --> 00:20:07,720
 dari koneksi yang 
-berbeda seiring waktu
+berbeda seiring berjalannya waktu
 
 486
 00:20:07,720 --> 00:20:09,315
-jangan bingung satu 
+tidak bertabrakan satu 
 sama lain.
 
 487
 00:20:09,315 --> 00:20:12,280
-<<<<<<< Updated upstream
 Jadi jika Anda membuat 
 koneksi dari satu port sumber
 
@@ -2346,18 +2345,18 @@ nomor urut server
 
 493
 00:20:26,109 --> 00:20:28,525
-bertambah untuk setiap
-salah satu paket mereka?
+bertambah satu untuk setiap
+paket mereka?
 
 494
 00:20:28,525 --> 00:20:33,397
-PROFESSOR: yaah, begitu urutan
-nomor dalam koneksi,
+PROFESSOR: Yah, begitu nomor
+urut dalam koneksi,
 
 495
 00:20:33,397 --> 00:20:35,550
-seperti yang saya gambarkan, dapat
-bertemu dengan semua data
+seperti yang saya jelaskan, dapat
+bertabrakan dengan data lain
 
 496
 00:20:35,550 --> 00:20:36,217
