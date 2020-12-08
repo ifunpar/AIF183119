@@ -4004,120 +4004,120 @@ mendapatkan akun milik seseorang.
 
 843
 00:35:33,910 --> 00:35:37,510
-And it's not clear quite
-how to think of this.
+Dan tidak begitu jelas
+bagaimana memikirkan hal ini.
 
 844
 00:35:37,510 --> 00:35:40,010
-One possibility is that these
-guys were just thinking right,
+Salah satu kemungkinannya adalah orang-orang
+ini hanya berpikir dengan benar,
 
 845
 00:35:40,010 --> 00:35:43,020
-but they, again, forgot to
-check a function in this account
+tetapi mereka, sekali lagi, lupa
+memeriksa fungsi di halaman
 
 846
 00:35:43,020 --> 00:35:46,646
-page that, not only do I
-have a valid ID number,
+akun ini, tidak hanya apakah saya
+memiliki nomor ID yang valid,
 
 847
 00:35:46,646 --> 00:35:48,520
-but it's also the ID
-number of the guy that's
+tetapi juga ID number
+dari seseorang yang
 
 848
 00:35:48,520 --> 00:35:50,480
-currently logged in.
+Sekarang lagi log in
 
 849
 00:35:50,480 --> 00:35:51,950
-It's an important check to me.
+Ini pemeriksaan penting bagi saya.
 
 850
 00:35:51,950 --> 00:35:53,759
-But it's easy to forget.
+tetapi mudah dilupakan.
 
 851
 00:35:53,759 --> 00:35:55,800
-Another thing is, maybe
-these guys were thinking,
+hal lainnya adalah, mungkin
+orang-orang ini berpikir
 
 852
 00:35:55,800 --> 00:35:56,932
-no, no one could hit URLs.
+tidak ada yang bisa mengakses URL.
 
 853
 00:35:56,932 --> 00:35:58,640
-Maybe they had a bad
-threat model, right?
+Mungkin mereka memiliki 
+threat model yang buruk, bukan?
 
 854
 00:35:58,640 --> 00:36:00,450
-Maybe they're
-thinking, the URL--
+mungkin mereka 
+berpikir, URL--
 
 855
 00:36:00,450 --> 00:36:02,820
-if I don't print this URL,
-no one can click on it.
+jika saya tidak print URL ini,
+Tidak akan ada yang bisa mengclicknya.
 
 856
 00:36:02,820 --> 00:36:04,190
-It's like a bad threat model.
+Ini seperti threat model yang buruk.
 
 857
 00:36:04,190 --> 00:36:07,480
-So maybe that's-- well, it's
-hard to tell exactly what went
+jadi mungkin, sulit
+untuk mengatakan dengan tepat apa 
 
 858
 00:36:07,480 --> 00:36:08,160
-wrong.
+yang salah.
 
 859
 00:36:08,160 --> 00:36:10,280
-But anyway, these
-mistakes do happen.
+Tapi bagaimanapun,
+kesalahan ini bisa terjadi.
 
 860
 00:36:10,280 --> 00:36:12,860
-And they show up a lot.
+Dan mereka sering muncul.
 
 861
 00:36:12,860 --> 00:36:17,620
-So easy to have
-small, seemingly, bugs
+jadi sangant mudah untuk mempunyai
+bug yang kecil, yang tampaknya seperti bug
 
 862
 00:36:17,620 --> 00:36:24,430
-in your mechanism lead to
-pretty unfortunate consequences.
+dalam mekanisme anda yang menyebabkan 
+konsekuensi yang sangat disayangkan.
 
 863
 00:36:24,430 --> 00:36:28,150
-Another example that's not
-so much in missing checks
+Contoh lain adalah
+tidak banyak cek yang hilang
 
 864
 00:36:28,150 --> 00:36:30,990
-is a problem that
-showed up on Android
+adalah masalah yang 
+muncul di hp
 
 865
 00:36:30,990 --> 00:36:33,810
-phones a couple of months ago.
+android beberapa bulan lalu.
 
 866
 00:36:33,810 --> 00:36:38,070
-Maybe I'll use this
-board over here.
+Mungkin saya akan 
+menggunakan papan yang di sini.
 
 867
 00:36:38,070 --> 00:36:42,110
-So the problem was related to
-Bitcoin, which is this-- well,
+jadi masalahnya berhubungan dengan 
+Bitcoin, yang mana-- yaa,
 
 868
 00:36:42,110 --> 00:36:44,480
