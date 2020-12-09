@@ -4121,7 +4121,7 @@ Bitcoin, yang mana-- yah,
 
 868
 00:36:42,110 --> 00:36:44,480
-Saya yakin kalian telah mendengar--
+saya yakin kalian pernah mendengar--
 sistem mata uang elektronik
 
 869
@@ -4136,12 +4136,12 @@ bekerja, pada level atas,
 
 871
 00:36:54,650 --> 00:36:58,710
-adalah dengan cara 
+adalah dengan mengasosiasikan 
 saldo Bitcoin Anda
 
 872
 00:36:58,710 --> 00:37:00,900
-terasosiasi dengan sebuah kunci privat.
+dengan sebuah kunci privat.
 
 873
 00:37:00,900 --> 00:37:03,000
@@ -4175,7 +4175,7 @@ membuat banyak tebakan
 
 879
 00:37:18,397 --> 00:37:19,230
-pada kucnci privat Anda.
+pada kunci privat Anda.
 
 880
 00:37:19,230 --> 00:37:21,396
@@ -4193,7 +4193,7 @@ membuat banyak tebakan
 
 883
 00:37:24,717 --> 00:37:25,550
-pada kunci privat Anda.
+terhadap kunci privat Anda.
 
 884
 00:37:25,550 --> 00:37:28,380
@@ -4206,17 +4206,17 @@ ke orang lain.
 
 886
 00:37:30,220 --> 00:37:32,340
-Dan sebagai hasilnya, ini
-sangat lah penting
+Dan sebagai konsekuensinya, ini
+sangatlah penting
 
 887
 00:37:32,340 --> 00:37:34,910
-bagi Anda untuk menghasilkan
-kunci yang baik dan teracak
+bagi Anda untuk membangkitkan
+kunci yang baik dan acak
 
 888
 00:37:34,910 --> 00:37:36,980
-sehingga tidak ada yang bisa menebak.
+sehingga tidak ada yang bisa menebaknya.
 
 889
 00:37:36,980 --> 00:37:41,220
