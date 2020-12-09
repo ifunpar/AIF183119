@@ -4121,107 +4121,107 @@ Bitcoin, yang mana-- yah,
 
 868
 00:36:42,110 --> 00:36:44,480
-I'm sure you've heard--
-this electronic currency
+Saya yakin kalian telah mendengar--
+sistem mata uang elektronik
 
 869
 00:36:44,480 --> 00:36:47,770
-system that's pretty
-popular these days.
+yang cukup
+populer belakangan ini.
 
 870
 00:36:47,770 --> 00:36:54,650
-And the way that Bitcoin
-works, at a very high level,
+Dan cara Bitcoin
+bekerja, pada level atas,
 
 871
 00:36:54,650 --> 00:36:58,710
-is that your balance
-of Bitcoins is
+adalah dengan cara 
+saldo Bitcoin Anda
 
 872
 00:36:58,710 --> 00:37:00,900
-associated with a private key.
+terasosiasi dengan sebuah kunci privat.
 
 873
 00:37:00,900 --> 00:37:03,000
-And if you have
-someone's private key
+Dan jika kalian memiliki
+kunci privat seseorang
 
 874
 00:37:03,000 --> 00:37:05,770
-you can, of course,
-spend their Bitcoins.
+kalian tentu saja bisa,
+menghabiskan Bitcoin mereka.
 
 875
 00:37:05,770 --> 00:37:10,610
-So the security of Bitcoin
-relies quite heavily
+Jadi keamanan dari Bitcoin
+cukup bergantung
 
 876
 00:37:10,610 --> 00:37:13,410
-on no one else knowing
-your private key.
+pada tidak ada orang lain yang mengetahui
+kunci privat Anda.
 
 877
 00:37:13,410 --> 00:37:15,720
-It's kind of like a password,
-except it's even more
+Ini cukup mirip dengan sebuah kata sandi,
+kecuali ini jauh lebih
 
 878
 00:37:15,720 --> 00:37:18,397
-important, because people can
-probably make lots of guesses
+penting, karena orang dapat
+membuat banyak tebakan
 
 879
 00:37:18,397 --> 00:37:19,230
-at your private key.
+pada kucnci privat Anda.
 
 880
 00:37:19,230 --> 00:37:21,396
-And there's no real server
-that's checking your key.
+Dan tidak ada server sungguhan
+yang memeriksa kunci Anda.
 
 881
 00:37:21,396 --> 00:37:22,390
-It's just cryptography.
+Ini hanya kriptografi.
 
 882
 00:37:22,390 --> 00:37:24,717
-So any machine can try
-to make lots of guesses
+Jadi banyak mesin yang bisa mencoba
+membuat banyak tebakan
 
 883
 00:37:24,717 --> 00:37:25,550
-at your private key.
+pada kunci privat Anda.
 
 884
 00:37:25,550 --> 00:37:28,380
-And if they guess it, then
-they can transfer your Bitcoins
+Dan jika mereka berhasil menebaknya, maka
+mereka dapat mengirimkan Bitcoins Anda
 
 885
 00:37:28,380 --> 00:37:30,220
-to someone else.
+ke orang lain.
 
 886
 00:37:30,220 --> 00:37:32,340
-And as a result, it's
-critically important
+Dan sebagai hasilnya, ini
+sangat lah penting
 
 887
 00:37:32,340 --> 00:37:34,910
-that you generate
-good, random keys
+bagi Anda untuk menghasilkan
+kunci yang baik dan teracak
 
 888
 00:37:34,910 --> 00:37:36,980
-that no one else can guess.
+sehingga tidak ada yang bisa menebak.
 
 889
 00:37:36,980 --> 00:37:41,220
-And there are people
-using Bitcoin on Android.
+Dan ada orang-orang yang menggunakan
+Bitcoin di Android.
 
 890
 00:37:41,220 --> 00:37:45,450
