@@ -4024,12 +4024,12 @@ memiliki nomor ID yang valid,
 
 847
 00:35:46,646 --> 00:35:48,520
-tetapi juga ID number
+tetapi juga nomor ID
 dari seseorang yang
 
 848
 00:35:48,520 --> 00:35:50,480
-Sekarang lagi log in
+sekarang sedang masuk.
 
 849
 00:35:50,480 --> 00:35:51,950
@@ -4037,40 +4037,40 @@ Ini pemeriksaan penting bagi saya.
 
 850
 00:35:51,950 --> 00:35:53,759
-tetapi mudah dilupakan.
+Namun pemeriksaan tersebut mudah dilupakan.
 
 851
 00:35:53,759 --> 00:35:55,800
-hal lainnya adalah, mungkin
+Hal lainnya adalah, mungkin
 orang-orang ini berpikir
 
 852
 00:35:55,800 --> 00:35:56,932
-tidak ada yang bisa mengakses URL.
+tidak, tidak ada yang bisa mengakses URL.
 
 853
 00:35:56,932 --> 00:35:58,640
-Mungkin mereka memiliki 
-threat model yang buruk, bukan?
+Mungkin mereka memiliki
+model ancaman yang buruk, bukan?
 
 854
 00:35:58,640 --> 00:36:00,450
-mungkin mereka 
+mungkin mereka
 berpikir, URL--
 
 855
 00:36:00,450 --> 00:36:02,820
-jika saya tidak print URL ini,
-Tidak akan ada yang bisa mengclicknya.
+jika saya tidak mencetak URL ini,
+tidak akan ada yang bisa mengkliknya.
 
 856
 00:36:02,820 --> 00:36:04,190
-Ini seperti threat model yang buruk.
+Ini seperti model ancaman yang buruk.
 
 857
 00:36:04,190 --> 00:36:07,480
-jadi mungkin, sulit
-untuk mengatakan dengan tepat apa 
+jadi mungkin-- sulit
+untuk mengatakan dengan tepat apa
 
 858
 00:36:07,480 --> 00:36:08,160
@@ -4078,7 +4078,7 @@ yang salah.
 
 859
 00:36:08,160 --> 00:36:10,280
-Tapi bagaimanapun,
+Namun bagaimanapun,
 kesalahan ini bisa terjadi.
 
 860
@@ -4087,27 +4087,27 @@ Dan mereka sering muncul.
 
 861
 00:36:12,860 --> 00:36:17,620
-jadi sangant mudah untuk mempunyai
-bug yang kecil, yang tampaknya seperti bug
+Sangat mudah untuk mempunyai
+kesalahan yang kecil, yang tampaknya seperti kesalahan
 
 862
 00:36:17,620 --> 00:36:24,430
-dalam mekanisme anda yang menyebabkan 
+dalam mekanisme anda yang menyebabkan
 konsekuensi yang sangat disayangkan.
 
 863
 00:36:24,430 --> 00:36:28,150
-Contoh lain adalah
-tidak banyak cek yang hilang
+Contoh lain yang tidak banyak
+ada dalam cek hilang
 
 864
 00:36:28,150 --> 00:36:30,990
 adalah masalah yang 
-muncul di hp
+muncul di telepon
 
 865
 00:36:30,990 --> 00:36:33,810
-android beberapa bulan lalu.
+Android beberapa bulan lalu.
 
 866
 00:36:33,810 --> 00:36:38,070
@@ -4116,8 +4116,8 @@ menggunakan papan yang di sini.
 
 867
 00:36:38,070 --> 00:36:42,110
-jadi masalahnya berhubungan dengan 
-Bitcoin, yang mana-- yaa,
+Jadi masalahnya berhubungan dengan 
+Bitcoin, yang mana-- yah,
 
 868
 00:36:42,110 --> 00:36:44,480
