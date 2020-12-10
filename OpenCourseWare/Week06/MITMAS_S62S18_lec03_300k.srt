@@ -1850,12 +1850,12 @@ adalah pohon biner.
 
 402
 00:18:40,860 --> 00:18:41,690
-Ok.
+OK.
 
 403
 00:18:41,690 --> 00:18:46,220
-Jadi idenya adalah ini 4
-kunci publik milik saya yang masing - masing
+Jadi idenya adalah ini empat
+kunci publik milik saya yang masing-masing
 
 404
 00:18:46,220 --> 00:18:47,510
@@ -1863,68 +1863,68 @@ membutuhkan 64K.
 
 405
 00:18:47,510 --> 00:18:49,550
-Saya bisa membuat ini
-hash - hash menengah.
+Saya bisa membuat
+hash-hash penengah ini.
 
 406
 00:18:49,550 --> 00:18:52,310
-Jadi Saya membuat sebuah pohon biner
-di mana Saya bilang, Ok, ini
+Jadi saya membuat sebuah pohon biner
+di mana saya bilang, OK, ini
 
 407
 00:18:52,310 --> 00:18:56,570
-adalah hash pertama dari
-dua kunci yang saling menempel
+adalah hash dari dua kunci
+pertama yang saling menempel
 
 408
 00:18:56,570 --> 00:19:00,820
-Ini adalah hash kedua
-dari dua kunci yang saling menempel
+Ini adalah hash dari dua kunci
+kedua yang saling menempel
 
 409
 00:19:00,820 --> 00:19:04,420
 Bagian atas adalah hash dari
-dua hash menengah
+dua hash penengah ini
 
 410
 00:19:04,420 --> 00:19:06,790
-yang saling menempel.
+yang ditempelkan.
 
 411
 00:19:06,790 --> 00:19:10,510
 Dan kemudian, bagian atas
-adalah akar saya, yaitu
+adalah akar saya, yang
 
 412
 00:19:10,510 --> 00:19:12,760
-setara dengan kuncipub hash saya
+setara dengan hash pubkey saya.
 
 413
 00:19:12,760 --> 00:19:17,440
-Dan jadi Saya bisa mencetak ini,
-dan itu menjalankan saya pada keempat 
+Jadi saya bisa mencetak ini,
+dan itu membuat saya berkomitmen pada
 
 414
 00:19:17,440 --> 00:19:20,020
-dari kunci publik saya.
+keempat kunci publik saya.
 
 415
 00:19:20,020 --> 00:19:24,580
-Jadi mungkin tidak terlalu jelas.
+Jadi mungkin tidak terlalu terlihat jelas.
 
 416
 00:19:24,580 --> 00:19:26,410
 Apakah anda melihat 
-kelebihan yang
+keuntungan yang bisa didapat
 
 417
 00:19:26,410 --> 00:19:29,530
-bisa didapat dari 
-menggabungkan keempatnya
+jika dibandingkan dengan sekedar
+menggabungkan keempat kuncinya
 
 418
 00:19:29,530 --> 00:19:30,730
-dari kunci-kunci dan hashing?
+dan melakukan hashing terhadapnya?
 
 419
 00:19:30,730 --> 00:19:31,040
@@ -1932,12 +1932,12 @@ Ya?
 
 420
 00:19:31,040 --> 00:19:31,998
-HADIRIN: Saya bingung.
+AUDIENS: Saya bingung.
 
 421
 00:19:31,998 --> 00:19:33,970
 Dimana kunci privat milik 
-anda dalam hal ini?
+Anda dalam hal ini?
 
 422
 00:19:33,970 --> 00:19:36,620
@@ -1946,15 +1946,15 @@ ada di sini, bukan?
 
 423
 00:19:36,620 --> 00:19:38,060
-Kunci privatnya tidak ditampilkan
+Kunci privatnya tidak ditampilkan.
 
 424
 00:19:38,060 --> 00:19:39,820
-Tapi Saya punya kunci privat.
+Tapi saya punya kunci privat.
 
 425
 00:19:39,820 --> 00:19:42,123
-Itu berubah menjadi kuncipub ini.
+Itu berubah menjadi pubkey ini.
 
 426
 00:19:42,123 --> 00:19:43,540
@@ -1964,7 +1964,7 @@ teknik ini.
 427
 00:19:43,540 --> 00:19:47,650
 di mana kita baru saja memiliki, sungguh,
-satu 32 byte kunci private
+satu kunci privat berukuran 32 byte
 
 428
 00:19:47,650 --> 00:19:51,310
@@ -1982,12 +1982,12 @@ Ya?
 
 431
 00:19:54,600 --> 00:19:57,880
-HADIRIN: Anda bisa melakukan [Tidak Terdengar]
+AUDIENS: Anda bisa melakukan [Tidak Terdengar]
 sistem-sistem dan waktu log-in sebagai gantinya
 
 432
 00:19:57,880 --> 00:19:59,120
-dari waktu linear.
+dari waktu linier.
 
 433
 00:19:59,120 --> 00:20:00,710
@@ -2000,8 +2000,8 @@ ini adalah kunci publik 0, yang
 
 435
 00:20:04,880 --> 00:20:10,910
-ada di sini, hash root ini, dan
-Saya tidak harus mengungkapkan keempatnya, dan
+ada di sini, hash akar ini, dan
+saya tidak harus mengungkapkan keempatnya,
 
 436
 00:20:10,910 --> 00:20:12,130
@@ -2013,16 +2013,16 @@ Jadi iya.
 
 438
 00:20:13,370 --> 00:20:15,640
-Apakah seseorang yang lain punya,
+Apakah yang lain punya,
 mungkin, ide yang sama?
 
 439
 00:20:15,640 --> 00:20:16,500
-Iya, Ok.
+Iya, OK.
 
 440
 00:20:16,500 --> 00:20:17,000
-Ok.
+OK.
 
 441
 00:20:17,000 --> 00:20:19,610
@@ -2042,55 +2042,55 @@ Iya.
 
 445
 00:20:24,820 --> 00:20:27,440
-Hadirin: Jadi dengan asumsi anda 
+AUDIENS: Jadi dengan asumsi bahwa Anda
 menginginkan kunci publik 0,
 
 446
 00:20:27,440 --> 00:20:31,680
-anda akan mempublikasikan itu dan
+Anda akan mempublikasikan itu dan
 1, dan juga hash dari 2, 3. 
 
 447
 00:20:31,680 --> 00:20:33,150
-TADGE DRYJA: Betul. iya.
+TADGE DRYJA: Betul, iya.
 
 448
 00:20:33,150 --> 00:20:35,800
-Dan kemudian anda bisa
-membuktikan ke atas.
+Dan kemudian Anda bisa
+membuktikan sampai ke atas.
 
 449
 00:20:35,800 --> 00:20:37,230
-Jadi, saya mempunyai beberapa warna
+Jadi, saya mempunyai beberapa warna kecil.
 
 450
 00:20:37,230 --> 00:20:43,740
-Idenya adalah sang pemverifikasi
+Idenya adalah sang verifikator
 yang tugasnya melakukan verifikasi tanda tangan,
 
 451
 00:20:43,740 --> 00:20:46,680
-ia sudah tau 
-akarnya, kan ?
+ia sudah tahu
+akarnya, kan?
 
 452
 00:20:46,680 --> 00:20:49,130
-Karena anda telah mempublikasikan
+Karena Anda telah mempublikasikan sebelumnya
 bahwa itu adalah kunci publik anda,
 
 453
 00:20:49,130 --> 00:20:51,450
-sebagai kunci akar publik
-dan kunci publik hash anda.
+sebagai kunci publik akar
+dan kunci publik hash Anda.
 
 454
 00:20:51,450 --> 00:20:54,300
 Kemudian verifikator
-juga disediakan
+juga diberikan
 
 455
 00:20:54,300 --> 00:20:57,390
-dengan kunci publik 0 berkata,
+kunci publik 0 yang berkata,
 hei, ini tanda tangannya.
 
 456
@@ -2103,17 +2103,17 @@ Ini adalah kunci publik 0.
 
 458
 00:21:00,870 --> 00:21:02,460
-Jadi kau mendapatkan kedua
+Jadi Anda mendapatkan kedua
 benda tersebut.
 
 459
 00:21:02,460 --> 00:21:07,650
-Sekarang, sang pembukti dapat
-membuktikan bahwa kunci publik 0 adalah
+Sekarang, sang pembukti perlu
+membuktikan bahwa kunci publik 0
 
 460
 00:21:07,650 --> 00:21:09,870
-terdapat diantara akarnya.
+terkandung di dalam akarnya.
 
 461
 00:21:09,870 --> 00:21:13,860
@@ -2132,7 +2132,7 @@ ini kunci publik 1.
 464
 00:21:21,510 --> 00:21:25,770
 Itu mengizinkan sang verifikator
-untuk menghitung.
+untuk menghitung ini.
 
 465
 00:21:25,770 --> 00:21:27,510
@@ -2146,30 +2146,30 @@ verifikator untuk menghitung akarnya
 
 467
 00:21:32,190 --> 00:21:33,800
-dan kemudian mengecek apakah itu sama.
+dan kemudian memeriksa apakah itu sama.
 
 468
 00:21:33,800 --> 00:21:36,300
-Jadi, anda hanya membutuhkan dua
+Jadi, Anda hanya membutuhkan dua
 hash tambahan daripada empat.
 
 469
 00:21:36,300 --> 00:21:39,127
-Jadi menyimpan sebagian ruang.
+Jadi menghemat sebagian ruang.
 
 470
 00:21:39,127 --> 00:21:41,460
-Itu tidak menyimpan sebegitu banyak
-ruang ketika anda hanya memiliki empat.
+Itu tidak menghemat sebegitu banyak
+ruang ketika Anda hanya memiliki empat.
 
 471
 00:21:41,460 --> 00:21:45,540
-Itu menyimpan banyak ruang
-ketika anda memiliki 1000, kan ?
+Itu menghemat banyak ruang
+ketika Anda memiliki 1.000, kan?
 
 472
 00:21:45,540 --> 00:21:49,050
-Jadi anda dapat menambahkan 0 dari n elemen.
+Jadi Anda dapat menambahkan 0 dari n elemen.
 
 473
 00:21:49,050 --> 00:21:51,330
@@ -2179,7 +2179,7 @@ tetap sama.
 474
 00:21:51,330 --> 00:21:53,190
 Akar tersebut akan tetap 
-berukuran 32 bytes, terlepas dari
+berukuran 32 byte, terlepas dari
 
 475
 00:21:53,190 --> 00:21:56,000
@@ -2187,7 +2187,7 @@ berapa banyak node daun yang kamu miliki.
 
 476
 00:21:56,000 --> 00:21:58,110
-Dan kamu dapat membuktikan
+Dan Anda dapat membuktikan
 sebuah elemen dengan log n--
 
 477
@@ -2197,22 +2197,22 @@ salah--
 
 478
 00:22:00,176 --> 00:22:02,340
-0 log n hash tengah.
+0 log n hash penengah.
 
 479
 00:22:02,340 --> 00:22:06,510
-Jadi bila kamu memiliki 1,000 kunci,
+Jadi bila Anda memiliki 1.000 kunci,
 akar kamu tetap berukuran 32 bytes,
 
 480
 00:22:06,510 --> 00:22:10,830
-dan bukti kamu akan menjadi
+dan bukti Anda akan menjadi
 tidak terlalu besar, bukan--
 
 481
 00:22:10,830 --> 00:22:15,000
 320 bytes lebih,
-yang berarti lebih kecil dari 
+yang berarti lebih kecil dari
 
 482
 00:22:15,000 --> 00:22:17,550
@@ -2224,13 +2224,13 @@ Jadi ini sangat keren.
 
 484
 00:22:18,580 --> 00:22:21,450
-Dan kamu dapat menggunakan ini
+Dan Anda dapat menggunakan ini
 dengan lebih praktis
 
 485
 00:22:21,450 --> 00:22:24,150
-dibandingkan dengan signatur
-lamport dasar yang
+dibandingkan dengan tanda tangan
+lamport sederhana yang
 
 486
 00:22:24,150 --> 00:22:25,680
@@ -2238,13 +2238,13 @@ berada di kumpulan masalah pertama.
 
 487
 00:22:25,680 --> 00:22:29,760
-Karena itu, bila 
-kamu hanya melakukan
+Karena itu, bila
+Anda hanya melakukan
 
 488
 00:22:29,760 --> 00:22:32,640
 satu kunci dan satu tanda tangan,
-akan berukuran yang sama.
+ukurannya akan kurang lebih sama.
 
 489
 00:22:32,640 --> 00:22:34,920
@@ -2253,13 +2253,13 @@ dapat menggunakannya berkali-kali,
 
 490
 00:22:34,920 --> 00:22:37,230
-membiarkan kamu menyimpan kunci privat
+memungkinkan Anda menyimpan kunci privat
 yang lebih kecil,
 
 491
 00:22:37,230 --> 00:22:39,180
 berkomitmen kepada kunci publik
-yang lebih kecil.
+yang jauh lebih kecil.
 
 492
 00:22:39,180 --> 00:22:40,740
@@ -2296,11 +2296,11 @@ pada sekitar tahun 1976.
 499
 00:22:58,680 --> 00:23:01,820
 Dan itu awalnya dibuat
-untuk tujuan itu.
+tepat untuk tujuan itu.
 
 500
 00:23:01,820 --> 00:23:04,900
-Pokoknya, jadi ini 
+Bagaimanapun, jadi ini 
 disebut pohon Merkle.
 
 501
@@ -2310,16 +2310,16 @@ Ralph Merkle.
 502
 00:23:07,120 --> 00:23:09,025
 Pada saat ini, dia tidak benar-benar
-bekerja pada bidang kriptografi
+bekerja pada bidang kriptografi.
 
 503
 00:23:09,025 --> 00:23:11,590
 Dia bekerja pada bidang
-biotech sekarang, Saya kira.
+bioteknologi sekarang, Saya kira.
 
 504
 00:23:11,590 --> 00:23:12,456
-Bagaimanapun
+Bagaimanapun.
 
 505
 00:23:12,456 --> 00:23:14,013
@@ -2332,12 +2332,12 @@ semuanya dinamai menurut namanya.
 
 507
 00:23:15,930 --> 00:23:18,190
-Jadi anda akan melihat
-kata Merkle dimanapun.
+Jadi Anda akan melihat
+kata Merkle dimana pun.
 
 508
 00:23:18,190 --> 00:23:21,160
-Dan itu, anda tahu, dia
+Dan itu, Anda tahu, dia
 menemukan sesuatu yang keren.
 
 509
@@ -2346,7 +2346,7 @@ Hebat.
 
 510
 00:23:21,873 --> 00:23:23,290
-Ini adalah 
+Ini adalah
 salah satu hal,
 
 511
@@ -2379,12 +2379,12 @@ Anda bisa membuat hal yang berbeda.
 
 517
 00:23:35,440 --> 00:23:36,330
-Hal itu digunakan pada Bitcoin
+Hal itu digunakan pada Bitcoin.
 
 518
 00:23:36,330 --> 00:23:39,520
 Hal ini digunakan di banyak
-cryptocurrency yang berbeda.
+mata uang kripto yang berbeda.
 
 519
 00:23:39,520 --> 00:23:40,750
@@ -2402,7 +2402,7 @@ kepada mereka dalam satu hal kecil.
 
 522
 00:23:48,770 --> 00:23:49,270
-Oke.
+OK.
 
 523
 00:23:49,270 --> 00:23:50,530
@@ -2410,7 +2410,7 @@ Jadi ini sangat keren.
 
 524
 00:23:50,530 --> 00:23:52,360
-Tapi kita bisa lebih baik.
+Tapi kita bisa melakukannya lebih baik.
 
 525
 00:23:52,360 --> 00:23:54,820
