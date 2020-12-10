@@ -2108,279 +2108,280 @@ tempat fisik yang sama dengan Anda,
 
 448
 00:18:14,940 --> 00:18:19,920
-and that I can use in such a
-way that I can prove to someone
+dan bisa saya gunakan sedimikian rupa
+supaya bisa saya buktikan ke orang
 
 449
 00:18:19,920 --> 00:18:22,950
-else that I have this thing and
-that I haven't double spent it,
+lain kalau saya mempunyai benda ini dan
+belum saya gunakan sebanyak dua kali,
 
 450
 00:18:22,950 --> 00:18:25,380
-because that's the problem
-with digital representations
+karena itu adalah permasalahan
+dengan representasi digital
 
 451
 00:18:25,380 --> 00:18:26,220
-of coins.
+dari koin.
 
 452
 00:18:26,220 --> 00:18:29,370
-A fundamental problem is
-that bits can be copied.
+Permasalahan fundamentalnya
+adalah bit bisa digandakan.
 
 453
 00:18:29,370 --> 00:18:33,450
-So whatever system you use to
-design your electronic cash,
+Jadi sistem apapun yang kamu gunakan
+untuk mendesain uang elektronik Anda,
 
 454
 00:18:33,450 --> 00:18:35,820
-you need to make sure
-that people can't just
+Anda harus memastikan bahwa
+orang tidak bisa tinggal
 
 455
 00:18:35,820 --> 00:18:41,825
-copy coins and give what is the
-same coin to multiple people.
+menggandakan koin dan memberikan koin
+yang sama ke beberapa orang.
 
 456
 00:18:41,825 --> 00:18:43,200
-In the previous
-example, the bank
+Pada contoh
+sebelumnya, bank
 
 457
 00:18:43,200 --> 00:18:44,450
-was making sure this happened.
+yang memastikan hal ini terjadi.
 
 458
 00:18:44,450 --> 00:18:46,650
-The bank was
-maintaining balances
+Bank itu
+menjaga saldo
 
 459
 00:18:46,650 --> 00:18:51,500
-and debiting Alice's account
-and crediting Bob's account.
+dengan mengurangi saldo akun Alice
+dan menambahkan saldo akun Bob.
 
 460
 00:18:51,500 --> 00:18:54,000
-But if we want to think about
-something that doesn't involve
+Namun, jika kita ingin memikirkan
+mengenai sesuatu yang tidak mengikutsertakan
 
 461
 00:18:54,000 --> 00:18:56,100
-the bank, and we're
-starting to get there,
+banknya, dan kita mulai
+mengarah ke sana,
 
 462
 00:18:56,100 --> 00:18:59,520
-then we need to think about how
-to ensure that a coin can't be
+maka kita perlu untuk memikirkan mengenai
+bagaimana memastikan bahwa sebuah koin
 
 463
 00:18:59,520 --> 00:19:02,210
-what is known as double spent.
+digunakan dua kali, atau double spend.
 
 464
 00:19:02,210 --> 00:19:03,800
-So Alice asks the bank for coin.
+Jadi Alice meminta koin dari bank.
 
 465
 00:19:03,800 --> 00:19:07,040
-And maybe she has an account
-with a bank like before.
+Dan mungkin dia sudah memiliki
+akun di bank tersebut sebelumnya.
 
 466
 00:19:07,040 --> 00:19:10,400
-Or maybe she gives the bank
-teller actual physical money
+Atau mungkin dia memberikan teller
+bank uang secara fisik
 
 467
 00:19:10,400 --> 00:19:13,310
-in order to get
-one of these coins.
+untuk mendapatkan
+salah satu koin itu.
 
 468
 00:19:13,310 --> 00:19:17,030
-So the bank generates
-a unique number--
+Jadi banknya menghasilkan
+sebuah angka yang unik--
 
 469
 00:19:17,030 --> 00:19:19,430
-SN stands for serial number--
+yaitu SN yang berarti
+Serial Number
 
 470
 00:19:19,430 --> 00:19:22,880
-and decides that this is
-the digital representation
+dan memutuskan bahwa itu merupakan
+representasi dijital
 
 471
 00:19:22,880 --> 00:19:24,620
-of the coin.
+dari sebuah koin.
 
 472
 00:19:24,620 --> 00:19:28,430
-The bank then gives that
-coin to Alice in a way
+Bank kemudian memberikan
+koin itu kepada Alice dengan cara
 
 473
 00:19:28,430 --> 00:19:31,175
-that it's clear that
-the bank did this.
+sedemikian sehingga jelas bahwa
+bank yang melakukannya.
 
 474
 00:19:31,175 --> 00:19:33,050
-Usually this is done
-using a technique called
+Biasanya ini dilakukan
+menggunakan teknik yang disebut
 
 475
 00:19:33,050 --> 00:19:34,490
-digital signatures.
+tanda tangan digital.
 
 476
 00:19:34,490 --> 00:19:37,550
-We're going to get to
-that as class progresses,
+Kita akan membahasnya
+saat kelas berlangsung,
 
 477
 00:19:37,550 --> 00:19:40,070
-but not right now.
+tapi tidak sekarang.
 
 478
 00:19:40,070 --> 00:19:44,270
-Once Alice has this coin,
-then she can give it to Bob.
+Setelah Alice memiliki koin ini,
+dia dapat memberikannya kepada Bob.
 
 479
 00:19:44,270 --> 00:19:46,633
-And Bob can take a
-look at this coin,
+Dan Bob dapat
+melihat koin ini,
 
 480
 00:19:46,633 --> 00:19:48,800
-and hopefully there's enough
-going on with this coin
+dan semoga ada cukup
+banyak hal yang terjadi dengan koin ini
 
 481
 00:19:48,800 --> 00:19:52,280
-that Bob can be convinced
-that this is a real coin.
+sehingga Bob dapat yakin
+bahwa ini adalah koin sungguhan.
 
 482
 00:19:52,280 --> 00:19:54,360
-Alice didn't make it
-up out of nowhere.
+Alice tidak membuat itu
+entah dari mana.
 
 483
 00:19:54,360 --> 00:19:58,670
-She actually had the funds,
-so to speak, to give to Bob,
+Dia sebenarnya punya dana,
+dalam artian tertentu, untuk diberikan kepada Bob,
 
 484
 00:19:58,670 --> 00:20:00,530
-and that it hasn't
-been double spent.
+dan itu belum
+digunakan dua kali.
 
 485
 00:20:03,610 --> 00:20:05,270
-And once Bob is
-convinced of that,
+Dan begitu Bob
+yakin akan hal itu,
 
 486
 00:20:05,270 --> 00:20:06,883
-he can give Alice the sandwich.
+dia bisa memberi Alice sandwich.
 
 487
 00:20:06,883 --> 00:20:09,050
-Now in traditional e-cash,
-the way that this is done
+Sekarang dalam uang elektronik tradisional,
+cara melakukannya
 
 488
 00:20:09,050 --> 00:20:11,450
-is Bob actually goes
-back to the bank
+adalah Bob benar-benar pergi
+kembali ke bank
 
 489
 00:20:11,450 --> 00:20:13,580
-and says, here's this coin.
+dan berkata, inilah koinnya.
 
 490
 00:20:13,580 --> 00:20:15,850
-Alice just gave me this coin.
+Alice baru saja memberiku koin ini.
 
 491
 00:20:15,850 --> 00:20:17,870
-Is this an OK coin?
+Apakah ini koin yang OK?
 
 492
 00:20:17,870 --> 00:20:21,170
-But the fact of the matter is
-that the bank, in this case,
+Tapi faktanya adalah
+bahwa bank, dalam hal ini,
 
 493
 00:20:21,170 --> 00:20:23,210
-has a serial number
-and knows that it
+telah memiliki nomor seri
+dan tahu itu
 
 494
 00:20:23,210 --> 00:20:25,430
-gave that unique
-serial number to Alice,
+berikan nomor seri yang unik
+itu kepada Alice,
 
 495
 00:20:25,430 --> 00:20:28,040
-and then Bob is showing
-up with a coin that
+dan kemudian Bob muncul
+dengan koin yang
 
 496
 00:20:28,040 --> 00:20:30,050
-is that serial number.
+merupakan nomor seri tersebut.
 
 497
 00:20:30,050 --> 00:20:32,390
-And what the bank is doing
-here, in this example,
+Dan apa yang bank lakukan
+di sini, dalam contoh ini,
 
 498
 00:20:32,390 --> 00:20:36,532
-is the way that the
-bank checks to make sure
+adalah cara bank tersebut
+memeriksa untuk memastikan
 
 499
 00:20:36,532 --> 00:20:38,990
-that this coin is correct is
-it looks at the serial number,
+bahwa koin ini adalah benar seperti
+yang terlihat di nomor serinya,
 
 500
 00:20:38,990 --> 00:20:42,110
-and it makes sure that it
-hasn't been spent before.
+dan itu dapat memastikan bahwa koin
+belum pernah dipakai sebelumnya.
 
 501
 00:20:42,110 --> 00:20:46,100
-So the bank can link the
-coin between Alice and Bob,
+Jadi bank bisa menghubungkan
+koin antara Alice dan Bob,
 
 502
 00:20:46,100 --> 00:20:47,570
-which is unfortunate.
+yang cukup disayangkan.
 
 503
 00:20:47,570 --> 00:20:51,410
-The also still sort
-of has to be online,
+Itu masih harus dilakukan
+secara daring,
 
 504
 00:20:51,410 --> 00:20:53,780
-not to do the actual payment
-between Alice and Bob,
+tidak melakukan pembayaran sebenarnya
+antara Alice dan Bob,
 
 505
 00:20:53,780 --> 00:20:56,270
-but in order for Bob
-to have confidence
+tetapi agar Bob
+memiliki kepercayaan
 
 506
 00:20:56,270 --> 00:20:58,850
