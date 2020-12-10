@@ -1501,16 +1501,16 @@ yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200
-Bisa saya katakan,
+Saya bisa mengatakan,
 nikolai.extra itu aman
 
 316
 00:14:20,200 --> 00:14:22,740
-atau lainnya.
+atau kurang lebih begitu.
 
 317
 00:14:22,740 --> 00:14:25,930
-dan saya mungkin akan menggunakan ini
+Dan saya mungkin akan menggunakan ini
 sebagai entitas yang berbeda
 
 318
@@ -1520,17 +1520,17 @@ sangat saya pedulikan.
 
 319
 00:14:27,960 --> 00:14:29,810
-Jadi, mungkin saya akan
+Jadi mungkin saya akan
 memiliki sebuah sandi yang berbeda
 
 320
 00:14:29,810 --> 00:14:31,940
-untuk benar benar mengamankan sesuatu
+untuk benar-benar mengamankan sesuatu
 dan sebuah sandi yang berbeda
 
 321
 00:14:31,940 --> 00:14:34,120
-untuk akun regular saya.
+untuk akun reguler saya.
 
 322
 00:14:34,120 --> 00:14:37,110
@@ -1539,17 +1539,17 @@ bagaimana Kerberos--
 
 323
 00:14:37,110 --> 00:14:40,690
-ini apa yang dikatakan dokumen
+ini adalah apa yang dikatakan paper
 tersebut tentang instances.
 
 324
 00:14:40,690 --> 00:14:42,190
-Jadi orang mungkin benar-benar 
-bertanya-- dimana
+Jadi seseorang mungkin benar-benar 
+bertanya-- di mana
 
 325
 00:14:42,190 --> 00:14:43,440
-apakah kamu sungguh melihat instances?
+Anda sebenarnya melihat instances?
 
 326
 00:14:43,440 --> 00:14:45,440
@@ -1558,31 +1558,31 @@ Dari mana pengaruh ini datang?
 327
 00:14:45,440 --> 00:14:49,930
 Jadi layanan Kerberos
-memetakan nama menjadi kunci untukmu,
+memetakan username ke kunci untuk Anda,
 
 328
 00:14:49,930 --> 00:14:51,940
-tapi bagaimana anda tahu
+tapi bagaimana Anda tahu
 nama mana yang harus ditanyakan
 
 329
 00:14:51,940 --> 00:14:56,600
 atau nama mana yang diharapkan saat
-Anda berbicara dengan mesin?
+Anda berbicara dengan sebuah mesin?
 
 330
 00:14:56,600 --> 00:15:00,720
 Jadi saya rasa yang saya tanyakan adalah,
-apa nama yang muncul di luar
+nama apa yang muncul di luar
 
 331
 00:15:00,720 --> 00:15:03,050
-dari mesin Kerberos.
+mesin Kerberos.
 
 332
 00:15:03,050 --> 00:15:06,256
-Jadi saya kira kita bisa bertanya, oke,
-dimana nama pengguna muncul?
+Jadi saya rasa kita bisa bertanya, oke,
+di mana username muncul?
 
 333
 00:15:06,256 --> 00:15:07,701
@@ -1595,7 +1595,7 @@ Ya.
 335
 00:15:08,200 --> 00:15:10,525
 MAHASISWA: Anda bisa bertanya kepada
-server MIT untuk nama pengguna,
+server MIT untuk username,
 
 336
 00:15:10,525 --> 00:15:11,812
@@ -1607,12 +1607,12 @@ PROFESOR: Ya, benar.
 
 338
 00:15:12,770 --> 00:15:13,900
-Jadi kalian bisa menghitung
+Jadi kalian bisa mengenumerasi
 hal-hal ini.
 
 339
 00:15:13,900 --> 00:15:15,350
-Selain itu, pengguna akan
+Selain itu, pengguna cukup
 mengetik dan memasukkannya ketika
 
 340
@@ -1641,7 +1641,7 @@ Ya.
 345
 00:15:24,152 --> 00:15:26,084
 MAHASISWA: Mungkin
-akses [TIDAK TERDENGAR]
+mengakses [TIDAK TERDENGAR]
 
 346
 00:15:26,084 --> 00:15:27,494
@@ -1668,21 +1668,22 @@ itu.
 
 351
 00:15:37,020 --> 00:15:38,950
-faktanya, aplikasi biasa nya
+faktanya, bagaimana aplikasi
+biasanya
 
 352
 00:15:38,950 --> 00:15:42,900
-menggunakan Kerberos sebagai 
-salah satu server nya
+menggunakan Kerberos adalah 
+salah satu server ini
 
 353
 00:15:42,900 --> 00:15:45,730
 menggunakan Kerberos untuk mencari tahu,
-Oke, saya ini nama string apa
+oke, apakah nama dari mesin yang saya ingin
 
 354
 00:15:45,730 --> 00:15:46,290
-berbicara kepada?
+ajak berbicara?
 
 355
 00:15:46,290 --> 00:15:48,290
@@ -1691,8 +1692,8 @@ mendapat koneksi
 
 356
 00:15:48,290 --> 00:15:50,920
-dari beberapa workstation dan itu
-dapatkan tiket Kerberos itu
+dari beberapa workstation dan
+mendapatkan tiket Kerberosnya itu
 
 357
 00:15:50,920 --> 00:15:54,220
