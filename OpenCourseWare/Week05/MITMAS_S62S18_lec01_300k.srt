@@ -2128,21 +2128,21 @@ dari koin.
 452
 00:18:26,220 --> 00:18:29,370
 Permasalahan fundamentalnya
-adalah bit bisa di tiru.
+adalah bit bisa digandakan.
 
 453
 00:18:29,370 --> 00:18:33,450
 Jadi sistem apapun yang kamu gunakan
-untuk mendesain uang elektronikmu,
+untuk mendesain uang elektronik Anda,
 
 454
 00:18:33,450 --> 00:18:35,820
-kamu harus memastikan bahwa
+Anda harus memastikan bahwa
 orang tidak bisa tinggal
 
 455
 00:18:35,820 --> 00:18:41,825
-meniru koin dan memberikan koin
+menggandakan koin dan memberikan koin
 yang sama ke beberapa orang.
 
 456
@@ -2181,7 +2181,7 @@ bagaimana memastikan bahwa sebuah koin
 
 463
 00:18:59,520 --> 00:19:02,210
-tidak boleh terpotong dua kali lipat
+digunakan dua kali, atau double spend.
 
 464
 00:19:02,210 --> 00:19:03,800
@@ -2199,12 +2199,13 @@ bank uang secara fisik
 
 467
 00:19:10,400 --> 00:19:13,310
-untuk mendapatkan salah satu koin itu.
+untuk mendapatkan
+salah satu koin itu.
 
 468
 00:19:13,310 --> 00:19:17,030
 Jadi banknya menghasilkan
-sebuah angka yang unik,
+sebuah angka yang unik--
 
 469
 00:19:17,030 --> 00:19:19,430
@@ -2227,7 +2228,7 @@ koin itu kepada Alice dengan cara
 
 473
 00:19:28,430 --> 00:19:31,175
-yang jelas bahwa
+sedemikian sehingga jelas bahwa
 bank yang melakukannya.
 
 474
@@ -2251,7 +2252,7 @@ tapi tidak sekarang.
 478
 00:19:40,070 --> 00:19:44,270
 Setelah Alice memiliki koin ini,
-dia dapat memberikannya kepada bob.
+dia dapat memberikannya kepada Bob.
 
 479
 00:19:44,270 --> 00:19:46,633
@@ -2276,12 +2277,12 @@ entah dari mana.
 483
 00:19:54,360 --> 00:19:58,670
 Dia sebenarnya punya dana,
-jadi untuk berbicara, untuk diberikan kepada Bob,
+dalam artian tertentu, untuk diberikan kepada Bob,
 
 484
 00:19:58,670 --> 00:20:00,530
 dan itu belum
-dihabiskan dua kali lipat.
+digunakan dua kali.
 
 485
 00:20:03,610 --> 00:20:05,270
@@ -2294,7 +2295,7 @@ dia bisa memberi Alice sandwich.
 
 487
 00:20:06,883 --> 00:20:09,050
-Sekarang dalam e-cash tradisional,
+Sekarang dalam uang elektronik tradisional,
 cara melakukannya
 
 488
@@ -2341,7 +2342,7 @@ merupakan nomor seri tersebut.
 497
 00:20:30,050 --> 00:20:32,390
 Dan apa yang bank lakukan
-disini, dalam contoh ini,
+di sini, dalam contoh ini,
 
 498
 00:20:32,390 --> 00:20:36,532
@@ -2355,7 +2356,7 @@ yang terlihat di nomor serinya,
 
 500
 00:20:38,990 --> 00:20:42,110
-dan itu memastikannya
+dan itu dapat memastikan bahwa koin
 belum pernah dipakai sebelumnya.
 
 501
@@ -2365,12 +2366,12 @@ koin antara Alice dan Bob,
 
 502
 00:20:46,100 --> 00:20:47,570
-yang patut disayangkan.
+yang cukup disayangkan.
 
 503
 00:20:47,570 --> 00:20:51,410
-yang juga masih semacam
-mengharuskan online,
+Itu masih harus dilakukan
+secara daring,
 
 504
 00:20:51,410 --> 00:20:53,780
@@ -2380,7 +2381,7 @@ antara Alice dan Bob,
 505
 00:20:53,780 --> 00:20:56,270
 tetapi agar Bob
-memiliki kepercayaan diri
+memiliki kepercayaan
 
 506
 00:20:56,270 --> 00:20:58,850
