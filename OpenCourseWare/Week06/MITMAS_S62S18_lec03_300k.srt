@@ -1854,171 +1854,171 @@ OK.
 
 403
 00:18:41,690 --> 00:18:46,220
-So the idea is here are my four
-public keys that take up 64K
+Jadi idenya adalah ini empat
+kunci publik milik saya yang masing-masing
 
 404
 00:18:46,220 --> 00:18:47,510
-each.
+membutuhkan 64K.
 
 405
 00:18:47,510 --> 00:18:49,550
-I can make these
-intermediate hashes.
+Saya bisa membuat
+hash-hash penengah ini.
 
 406
 00:18:49,550 --> 00:18:52,310
-So I make a binary tree
-where I say, OK, this
+Jadi saya membuat sebuah pohon biner
+di mana saya bilang, OK, ini
 
 407
 00:18:52,310 --> 00:18:56,570
-is the hash of the first
-two keys stuck together.
+adalah hash dari dua kunci
+pertama yang saling menempel
 
 408
 00:18:56,570 --> 00:19:00,820
-This is the hash of the second
-two keys stuck together.
+Ini adalah hash dari dua kunci
+kedua yang saling menempel
 
 409
 00:19:00,820 --> 00:19:04,420
-The top is the hash of these
-two intermediate hashes
+Bagian atas adalah hash dari
+dua hash penengah ini
 
 410
 00:19:04,420 --> 00:19:06,790
-stuck together.
+yang ditempelkan.
 
 411
 00:19:06,790 --> 00:19:10,510
-And then, this top
-is my root, which is
+Dan kemudian, bagian atas
+adalah akar saya, yang
 
 412
 00:19:10,510 --> 00:19:12,760
-equivalent to my pubkey hash.
+setara dengan hash pubkey saya.
 
 413
 00:19:12,760 --> 00:19:17,440
-And so I can publish this,
-and it commits me to all four
+Jadi saya bisa mencetak ini,
+dan itu membuat saya berkomitmen pada
 
 414
 00:19:17,440 --> 00:19:20,020
-of my public keys.
+keempat kunci publik saya.
 
 415
 00:19:20,020 --> 00:19:24,580
-So it might not be obvious.
+Jadi mungkin tidak terlalu terlihat jelas.
 
 416
 00:19:24,580 --> 00:19:26,410
-Do you see any
-advantages that this
+Apakah anda melihat 
+keuntungan yang bisa didapat
 
 417
 00:19:26,410 --> 00:19:29,530
-could have over just
-concatenating all four
+jika dibandingkan dengan sekedar
+menggabungkan keempat kuncinya
 
 418
 00:19:29,530 --> 00:19:30,730
-of the keys and hashing it?
+dan melakukan hashing terhadapnya?
 
 419
 00:19:30,730 --> 00:19:31,040
-Yes?
+Ya?
 
 420
 00:19:31,040 --> 00:19:31,998
-AUDIENCE: I'm confused.
+AUDIENS: Saya bingung.
 
 421
 00:19:31,998 --> 00:19:33,970
-Where is your
-private key in this?
+Dimana kunci privat milik 
+Anda dalam hal ini?
 
 422
 00:19:33,970 --> 00:19:36,620
-TADGE DRYJA: The private
-key is down here, right?
+TADGE DRYJA: Kunci privatnya 
+ada di sini, bukan?
 
 423
 00:19:36,620 --> 00:19:38,060
-The private key is not shown.
+Kunci privatnya tidak ditampilkan.
 
 424
 00:19:38,060 --> 00:19:39,820
-But I have a private key.
+Tapi saya punya kunci privat.
 
 425
 00:19:39,820 --> 00:19:42,123
-It turns into these pubkeys.
+Itu berubah menjadi pubkey ini.
 
 426
 00:19:42,123 --> 00:19:43,540
-And we can use the
-technique here,
+Dan kita bisa menggunakan 
+teknik ini.
 
 427
 00:19:43,540 --> 00:19:47,650
-where we just have, really,
-one 32 byte private key
+di mana kita baru saja memiliki, sungguh,
+satu kunci privat berukuran 32 byte
 
 428
 00:19:47,650 --> 00:19:51,310
-and create all the different
-chunks of all the public keys
+dan membuat semua potongan yang 
+berbeda dari kunci-kunci publik
 
 429
 00:19:51,310 --> 00:19:54,100
-by concatenating
-different indices.
+dengan menyatukan 
+indeks yang berbeda.
 
 430
 00:19:54,100 --> 00:19:54,600
-Yes?
+Ya?
 
 431
 00:19:54,600 --> 00:19:57,880
-AUDIENCE: You can do [INAUDIBLE]
-systems and log-in time instead
+AUDIENS: Anda bisa melakukan [Tidak Terdengar]
+sistem-sistem dan waktu log-in sebagai gantinya
 
 432
 00:19:57,880 --> 00:19:59,120
-of linear time.
+dari waktu linier.
 
 433
 00:19:59,120 --> 00:20:00,710
-TADGE DRYJA: Yeah, exactly.
+TADGE DRYJA: Iya, betul.
 
 434
 00:20:00,710 --> 00:20:04,880
-I can prove that, hey,
-this is public key 0, which
+Saya bisa buktikan itu, hei,
+ini adalah kunci publik 0, yang
 
 435
 00:20:04,880 --> 00:20:10,910
-is in here, this root hash, and
-I don't have to reveal all four
+ada di sini, hash akar ini, dan
+saya tidak harus mengungkapkan keempatnya,
 
 436
 00:20:10,910 --> 00:20:12,130
-in order to do it.
+untuk melakukannya.
 
 437
 00:20:12,130 --> 00:20:13,370
-So yeah.
+Jadi iya.
 
 438
 00:20:13,370 --> 00:20:15,640
-Did someone else have,
-probably, the same idea?
+Apakah yang lain punya,
+mungkin, ide yang sama?
 
 439
 00:20:15,640 --> 00:20:16,500
-Yeah, OK.
+Iya, OK.
 
 440
 00:20:16,500 --> 00:20:17,000
@@ -2026,282 +2026,282 @@ OK.
 
 441
 00:20:17,000 --> 00:20:19,610
-So how are we going to do that?
+Jadi bagaimana kita melakukannya?
 
 442
 00:20:22,210 --> 00:20:23,070
-You obviously know.
+Anda jelas tahu.
 
 443
 00:20:23,070 --> 00:20:23,670
-Anyone else?
+Ada lagi?
 
 444
 00:20:23,670 --> 00:20:24,820
-Yeah.
+Iya.
 
 445
 00:20:24,820 --> 00:20:27,440
-AUDIENCE: So assuming you
-wanted the public key 0,
+AUDIENS: Jadi dengan asumsi bahwa Anda
+menginginkan kunci publik 0,
 
 446
 00:20:27,440 --> 00:20:31,680
-you would publish that and
-1, and also hash of 2, 3.
+Anda akan mempublikasikan itu dan
+1, dan juga hash dari 2, 3. 
 
 447
 00:20:31,680 --> 00:20:33,150
-TADGE DRYJA: Right, yeah.
+TADGE DRYJA: Betul, iya.
 
 448
 00:20:33,150 --> 00:20:35,800
-And then you can
-prove up to the top.
+Dan kemudian Anda bisa
+membuktikan sampai ke atas.
 
 449
 00:20:35,800 --> 00:20:37,230
-So I have little colors.
+Jadi, saya mempunyai beberapa warna kecil.
 
 450
 00:20:37,230 --> 00:20:43,740
-So the idea is the verifier
-who's verifying the signature,
+Idenya adalah sang verifikator
+yang tugasnya melakukan verifikasi tanda tangan,
 
 451
 00:20:43,740 --> 00:20:46,680
-he already knows
-the root, right?
+ia sudah tahu
+akarnya, kan?
 
 452
 00:20:46,680 --> 00:20:49,130
-Because you've pre-published
-that as your public key,
+Karena Anda telah mempublikasikan sebelumnya
+bahwa itu adalah kunci publik anda,
 
 453
 00:20:49,130 --> 00:20:51,450
-as your public key root
-and your public key hash.
+sebagai kunci publik akar
+dan kunci publik hash Anda.
 
 454
 00:20:51,450 --> 00:20:54,300
-And then that
-verifier is provided
+Kemudian verifikator
+juga diberikan
 
 455
 00:20:54,300 --> 00:20:57,390
-with public key 0 saying,
-hey, here's a signature.
+kunci publik 0 yang berkata,
+hei, ini tanda tangannya.
 
 456
 00:20:57,390 --> 00:20:58,510
-Here's the message.
+Ini pesannya.
 
 457
 00:20:58,510 --> 00:21:00,870
-Here is public key 0.
+Ini adalah kunci publik 0.
 
 458
 00:21:00,870 --> 00:21:02,460
-So you've got both
-of these things.
+Jadi Anda mendapatkan kedua
+benda tersebut.
 
 459
 00:21:02,460 --> 00:21:07,650
-Now, the prover needs to
-prove that public key 0 is
+Sekarang, sang pembukti perlu
+membuktikan bahwa kunci publik 0
 
 460
 00:21:07,650 --> 00:21:09,870
-contained within the root.
+terkandung di dalam akarnya.
 
 461
 00:21:09,870 --> 00:21:13,860
-And to do that, the only two
-things the prover needs to add
+Dan untuk melakukan hal tersebut, hanya 2
+hal, untuk sang pembukti butuh tambahkan
 
 462
 00:21:13,860 --> 00:21:16,380
-is pub1--
+adalah publ--
 
 463
 00:21:16,380 --> 00:21:21,510
-OK, so the prover says,
-here's public key 1.
+OK, jadi sang pembukti mengatakan,
+ini kunci publik 1.
 
 464
 00:21:21,510 --> 00:21:25,770
-That allows the verifier
-to compute this.
+Itu mengizinkan sang verifikator
+untuk menghitung ini.
 
 465
 00:21:25,770 --> 00:21:27,510
-And then the prover
-says, hey, here's
+Dan kemudian sang pembukti
+mengatakan, hei, ini
 
 466
 00:21:27,510 --> 00:21:32,190
-hash 2, 3, which allows the
-verifier to compute the root
+hash 2, 3, yang mengizinkan
+verifikator untuk menghitung akarnya
 
 467
 00:21:32,190 --> 00:21:33,800
-and then check that it's equal.
+dan kemudian memeriksa apakah itu sama.
 
 468
 00:21:33,800 --> 00:21:36,300
-So yeah, you only need two extra
-hashes instead of all four.
+Jadi, Anda hanya membutuhkan dua
+hash tambahan daripada empat.
 
 469
 00:21:36,300 --> 00:21:39,127
-So saves some space.
+Jadi menghemat sebagian ruang.
 
 470
 00:21:39,127 --> 00:21:41,460
-It doesn't save that much
-space when you only have four.
+Itu tidak menghemat sebegitu banyak
+ruang ketika Anda hanya memiliki empat.
 
 471
 00:21:41,460 --> 00:21:45,540
-It saves a lot of space
-when you have 1,000, right?
+Itu menghemat banyak ruang
+ketika Anda memiliki 1.000, kan?
 
 472
 00:21:45,540 --> 00:21:49,050
-So you can add 0 of n elements.
+Jadi Anda dapat menambahkan 0 dari n elemen.
 
 473
 00:21:49,050 --> 00:21:51,330
-And the root stays
-the same size.
+Dan ukuran akar
+tetap sama.
 
 474
 00:21:51,330 --> 00:21:53,190
-The root stays 32
-bytes, regardless
+Akar tersebut akan tetap 
+berukuran 32 byte, terlepas dari
 
 475
 00:21:53,190 --> 00:21:56,000
-of how many leaf nodes you have.
+berapa banyak node daun yang kamu miliki.
 
 476
 00:21:56,000 --> 00:21:58,110
-And you can prove an
-element with log n--
+Dan Anda dapat membuktikan
+sebuah elemen dengan log n--
 
 477
 00:21:58,110 --> 00:22:00,176
-oh, those parentheses
-are wrong--
+oh, tanda kurung tersebut
+salah--
 
 478
 00:22:00,176 --> 00:22:02,340
-0 log n intermediate hashes.
+0 log n hash penengah.
 
 479
 00:22:02,340 --> 00:22:06,510
-So if you have 1,000 keys,
-your root stays 32 bytes,
+Jadi bila Anda memiliki 1.000 kunci,
+akar kamu tetap berukuran 32 bytes,
 
 480
 00:22:06,510 --> 00:22:10,830
-and your proofs are going to
-be not too, too big, right--
+dan bukti Anda akan menjadi
+tidak terlalu besar, bukan--
 
 481
 00:22:10,830 --> 00:22:15,000
-320 bytes of overhead,
-which is a bunch smaller
+320 bytes lebih,
+yang berarti lebih kecil dari
 
 482
 00:22:15,000 --> 00:22:17,550
-than a signature, right?
+tanda tangan, bukan?
 
 483
 00:22:17,550 --> 00:22:18,580
-So this is really cool.
+Jadi ini sangat keren.
 
 484
 00:22:18,580 --> 00:22:21,450
-And you can use this
-much more practically
+Dan Anda dapat menggunakan ini
+dengan lebih praktis
 
 485
 00:22:21,450 --> 00:22:24,150
-than the raw lamport
-signatures that
+dibandingkan dengan tanda tangan
+lamport sederhana yang
 
 486
 00:22:24,150 --> 00:22:25,680
-were in the first problem set.
+berada di kumpulan masalah pertama.
 
 487
 00:22:25,680 --> 00:22:29,760
-Because those, if
-you're just doing
+Karena itu, bila
+Anda hanya melakukan
 
 488
 00:22:29,760 --> 00:22:32,640
-one key and one signature,
-it's about the same size.
+satu kunci dan satu tanda tangan,
+ukurannya akan kurang lebih sama.
 
 489
 00:22:32,640 --> 00:22:34,920
-But this actually lets
-you use it multiple times,
+Tetapi ini membuat kamu
+dapat menggunakannya berkali-kali,
 
 490
 00:22:34,920 --> 00:22:37,230
-lets you store a much
-smaller private key,
+memungkinkan Anda menyimpan kunci privat
+yang lebih kecil,
 
 491
 00:22:37,230 --> 00:22:39,180
-commit to much
-smaller public keys.
+berkomitmen kepada kunci publik
+yang jauh lebih kecil.
 
 492
 00:22:39,180 --> 00:22:40,740
-It's a more usable system.
+Ini adalah sistem yang lebih dapat digunakan.
 
 493
 00:22:40,740 --> 00:22:46,072
-The signatures, though, still
-are kind of huge, right?
+Meski demikian tanda tangan itu
+masih cukup besar, bukan?
 
 494
 00:22:46,072 --> 00:22:48,030
-Your signatures are going
-to be a little over 8
+Tanda tangan Anda akan 
+menjadi lebih dari 8
 
 495
 00:22:48,030 --> 00:22:49,620
-kilobytes, which is OK, right?
+kilobytes, cukup oke, bukan?
 
 496
 00:22:49,620 --> 00:22:51,690
-Computers can deal
-with 8 kilobytes.
+Komputer dapat menangani
+8 kilobytes.
 
 497
 00:22:51,690 --> 00:22:55,230
-That's called a Merkle
-tree made by Ralph Merkle
+Itu disebut sebagai pohon
+Merkle yang dibuat oleh Ralph Merkle
 
 498
 00:22:55,230 --> 00:22:58,680
-in '76 or something.
+pada sekitar tahun 1976.
 
 499
 00:22:58,680 --> 00:23:01,820
-And it was originally made
-for exactly that purpose.
+Dan itu awalnya dibuat
+tepat untuk tujuan itu.
 
 500
 00:23:01,820 --> 00:23:04,900
-Anyway, so these are
-called Merkle trees.
+Bagaimanapun, jadi ini 
+disebut pohon Merkle.
 
 501
 00:23:04,900 --> 00:23:07,120
@@ -2309,96 +2309,96 @@ Ralph Merkle.
 
 502
 00:23:07,120 --> 00:23:09,025
-He doesn't really
-work on crypto now.
+Pada saat ini, dia tidak benar-benar
+bekerja pada bidang kriptografi.
 
 503
 00:23:09,025 --> 00:23:11,590
-He works on biotech
-stuff now, I think.
+Dia bekerja pada bidang
+bioteknologi sekarang, Saya kira.
 
 504
 00:23:11,590 --> 00:23:12,456
-Anyway.
+Bagaimanapun.
 
 505
 00:23:12,456 --> 00:23:14,013
-But he's cool.
+Tapi dia keren.
 
 506
 00:23:14,013 --> 00:23:15,930
-And he gets, like,
-everything named after him.
+Dan dia mendapatkan, seperti,
+semuanya dinamai menurut namanya.
 
 507
 00:23:15,930 --> 00:23:18,190
-So you will see the
-word Merkle everywhere.
+Jadi Anda akan melihat
+kata Merkle dimana pun.
 
 508
 00:23:18,190 --> 00:23:21,160
-And it's, you know, he
-invented something cool.
+Dan itu, Anda tahu, dia
+menemukan sesuatu yang keren.
 
 509
 00:23:21,160 --> 00:23:21,873
-Awesome.
+Hebat.
 
 510
 00:23:21,873 --> 00:23:23,290
-This is one of the
-kind of things,
+Ini adalah
+salah satu hal,
 
 511
 00:23:23,290 --> 00:23:24,490
-though, where it
-seems like, yeah,
+meskipun, dimana itu
+sepertinya, ya,
 
 512
 00:23:24,490 --> 00:23:25,950
-I might have been able
-to think of that, right?
+Saya mungkin bisa
+memikirkan itu, kan?
 
 513
 00:23:25,950 --> 00:23:28,270
-It's sort of a binary
-tree and hash functions.
+Ini semacam pohon 
+biner dan fungsi hash.
 
 514
 00:23:28,270 --> 00:23:30,560
-It's nothing that crazy.
+Tidak ada hal yang gila.
 
 515
 00:23:30,560 --> 00:23:32,710
-But so there's all
-sorts of Merkle trees.
+Tapi jadi ada 
+banyak jenis pohon Merkle.
 
 516
 00:23:32,710 --> 00:23:35,440
-You can make a different thing.
+Anda bisa membuat hal yang berbeda.
 
 517
 00:23:35,440 --> 00:23:36,330
-It's used in Bitcoin.
+Hal itu digunakan pada Bitcoin.
 
 518
 00:23:36,330 --> 00:23:39,520
-It's used in a bunch of
-different cryptocurrencies.
+Hal ini digunakan di banyak
+mata uang kripto yang berbeda.
 
 519
 00:23:39,520 --> 00:23:40,750
-Oh, cool.
+Oh, keren.
 
 520
 00:23:40,750 --> 00:23:46,060
-It's a very powerful way
-to take a whole bunch
+Ini cara yang sangat ampuh 
+untuk mengambil dalam jumlah banyak
 
 521
 00:23:46,060 --> 00:23:48,770
-of different things and commit
-to them in one small thing.
+dari hal yang berbeda dan memberikan
+kepada mereka dalam satu hal kecil.
 
 522
 00:23:48,770 --> 00:23:49,270
@@ -2406,26 +2406,26 @@ OK.
 
 523
 00:23:49,270 --> 00:23:50,530
-So this is very cool.
+Jadi ini sangat keren.
 
 524
 00:23:50,530 --> 00:23:52,360
-But we can do better.
+Tapi kita bisa melakukannya lebih baik.
 
 525
 00:23:52,360 --> 00:23:54,820
-And so the next things are
-things that I definitely
+Hal selanjutnya adalah 
+hal-hal yang pasti
 
 526
 00:23:54,820 --> 00:23:58,180
-would never have thought
-of because it's much more
+tidak pernah terpikirkan 
+oleh saya karena ini jauh lebih
 
 527
 00:23:58,180 --> 00:24:00,400
-complex than just, like,
-hey, let's use a binary tree
+kompleks dari sekedar, seperti,
+hei, mari kita gunakan pohon biner
 
 528
 00:24:00,400 --> 00:24:02,530
