@@ -1147,7 +1147,7 @@ dan kemudian kata sandinya?
 
 241
 00:11:02,030 --> 00:11:03,405
-PROFESSOR: Yah,
+PROFESOR: Yah,
 jadi itu sebenarnya
 
 242
@@ -1501,199 +1501,199 @@ yang didukung oleh protokol.
 
 315
 00:14:17,090 --> 00:14:20,200
-I could say, you know,
-nikolai.extra secure
+Saya bisa mengatakan,
+nikolai.extra itu aman
 
 316
 00:14:20,200 --> 00:14:22,740
-or something.
+atau kurang lebih begitu.
 
 317
 00:14:22,740 --> 00:14:25,930
-And I might use this
-as a different entity
+Dan saya mungkin akan menggunakan ini
+sebagai entitas yang berbeda
 
 318
 00:14:25,930 --> 00:14:27,960
-for machines I
-really care about.
+untuk mesin yang
+sangat saya pedulikan.
 
 319
 00:14:27,960 --> 00:14:29,810
-So maybe I will have
-a different password
+Jadi mungkin saya akan
+memiliki sebuah sandi yang berbeda
 
 320
 00:14:29,810 --> 00:14:31,940
-for really secure things
-and a different password
+untuk benar-benar mengamankan sesuatu
+dan sebuah sandi yang berbeda
 
 321
 00:14:31,940 --> 00:14:34,120
-for my regular account.
+untuk akun reguler saya.
 
 322
 00:14:34,120 --> 00:14:37,110
-So this is just sort
-of how Kerberos--
+Jadi ini semacam
+bagaimana Kerberos--
 
 323
 00:14:37,110 --> 00:14:40,690
-this is what the paper
-talks about with instances.
+ini adalah apa yang dikatakan paper
+tersebut tentang instances.
 
 324
 00:14:40,690 --> 00:14:42,190
-So one might actually
-wonder-- where
+Jadi seseorang mungkin benar-benar 
+bertanya-- di mana
 
 325
 00:14:42,190 --> 00:14:43,440
-do you actually see instances?
+Anda sebenarnya melihat instances?
 
 326
 00:14:43,440 --> 00:14:45,440
-Where do influences come from?
+Dari mana pengaruh ini datang?
 
 327
 00:14:45,440 --> 00:14:49,930
-So the Kerberos service
-maps names to keys for you,
+Jadi layanan Kerberos
+memetakan username ke kunci untuk Anda,
 
 328
 00:14:49,930 --> 00:14:51,940
-but how do you know
-which name to ask for
+tapi bagaimana Anda tahu
+nama mana yang harus ditanyakan
 
 329
 00:14:51,940 --> 00:14:56,600
-or which name to expect when
-you are talking to some machine?
+atau nama mana yang diharapkan saat
+Anda berbicara dengan sebuah mesin?
 
 330
 00:14:56,600 --> 00:15:00,720
-So I guess what I'm asking is,
-what are names appear outside
+Jadi saya rasa yang saya tanyakan adalah,
+nama apa yang muncul di luar
 
 331
 00:15:00,720 --> 00:15:03,050
-of the Kerberos machine.
+mesin Kerberos.
 
 332
 00:15:03,050 --> 00:15:06,256
-So I guess we could ask, OK,
-where do user names appear?
+Jadi saya rasa kita bisa bertanya, oke,
+di mana username muncul?
 
 333
 00:15:06,256 --> 00:15:07,701
-Any ideas?
+Ada ide?
 
 334
 00:15:07,701 --> 00:15:08,200
-Yeah.
+Ya.
 
 335
 00:15:08,200 --> 00:15:10,525
-STUDENT: You can ask the
-MIT server for usernames
+MAHASISWA: Anda bisa bertanya kepada
+server MIT untuk username,
 
 336
 00:15:10,525 --> 00:15:11,812
-presumably.
+mungkin.
 
 337
 00:15:11,812 --> 00:15:12,770
-PROFESSOR: Right, yeah.
+PROFESOR: Ya, benar.
 
 338
 00:15:12,770 --> 00:15:13,900
-So you could enumerate
-these things.
+Jadi kalian bisa mengenumerasi
+hal-hal ini.
 
 339
 00:15:13,900 --> 00:15:15,350
-Also, the users just
-type them in when
+Selain itu, pengguna cukup
+mengetik dan memasukkannya ketika
 
 340
 00:15:15,350 --> 00:15:16,349
-they log into a machine.
+mereka masuk ke sebuah mesin.
 
 341
 00:15:16,349 --> 00:15:18,480
-So that's where it
-initially comes from.
+Jadi dari situlah
+itu berasal.
 
 342
 00:15:18,480 --> 00:15:21,020
-Do usernames appear
-anywhere else?
+Apa username muncul
+di tempat lain?
 
 343
 00:15:21,020 --> 00:15:23,652
-Should they appear
-anywhere else?
+Haruskah username
+muncul di tempat lain?
 
 344
 00:15:23,652 --> 00:15:24,152
-Yeah.
+Ya.
 
 345
 00:15:24,152 --> 00:15:26,084
-STUDENT: Possibly
-access the [INAUDIBLE]
+MAHASISWA: Mungkin
+mengakses [TIDAK TERDENGAR]
 
 346
 00:15:26,084 --> 00:15:27,494
-lists on the various services.
+daftar pada berbagai layanan.
 
 347
 00:15:27,494 --> 00:15:29,910
-PROFESSOR: Yes, that's actually
-an important point, right?
+PROFESOR: Ya, itu sebenarnya
+sebuah poin penting, benar?
 
 348
 00:15:29,910 --> 00:15:33,850
-The goal of Kerberos is
-just to map keys to names.
+Tujuan Kerberos adalah
+hanya untuk memetakan kunci ke nama.
 
 349
 00:15:33,850 --> 00:15:36,440
-But it doesn't tell you what
-that name should have access
+Namun, Kerberos tidak memberi tahu apa
+yang dapat diakses oleh nama
 
 350
 00:15:36,440 --> 00:15:37,020
-to.
+itu.
 
 351
 00:15:37,020 --> 00:15:38,950
-In fact, the way the
-applications typically
+faktanya, bagaimana aplikasi
+biasanya
 
 352
 00:15:38,950 --> 00:15:42,900
-use Kerberos is that
-one of these servers
+menggunakan Kerberos adalah 
+salah satu server ini
 
 353
 00:15:42,900 --> 00:15:45,730
-uses Kerberos to figure out,
-OK, what string name am I
+menggunakan Kerberos untuk mencari tahu,
+oke, apakah nama dari mesin yang saya ingin
 
 354
 00:15:45,730 --> 00:15:46,290
-talking to?
+ajak berbicara?
 
 355
 00:15:46,290 --> 00:15:48,290
-So when the mail server
-gets a connection
+Jadi saat server mail
+mendapat koneksi
 
 356
 00:15:48,290 --> 00:15:50,920
-from some workstation and it
-get the Kerberos ticket that
+dari beberapa workstation dan
+mendapatkan tiket Kerberosnya itu
 
 357
 00:15:50,920 --> 00:15:54,220
