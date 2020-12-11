@@ -2467,64 +2467,64 @@ untuk mendapatkan informasi yang krusial.
 
 525
 00:29:32,190 --> 00:29:34,890
-That requires the computational
-hardness assumption
+Itu membutuhkan asumsi 
+kekerasan komputasi
 
 526
 00:29:34,890 --> 00:29:36,760
-like the two that
-we've made here.
+seperti dua yang 
+telah kami buat di sini.
 
 527
 00:29:36,760 --> 00:29:39,100
-And then you're off and running.
+Dan kemudian Anda pergi dan berlari.
 
 528
 00:29:39,100 --> 00:29:42,060
-Your system will break if
-your computational hardness
+Sistem Anda akan rusak 
+jika asumsi kekerasan
 
 529
 00:29:42,060 --> 00:29:44,010
-assumptions are incorrect.
+komputasi Anda salah.
 
 530
 00:29:44,010 --> 00:29:46,500
-And they may be correct
-for a particular time,
+Dan mereka mungkin benar 
+untuk waktu tertentu,
 
 531
 00:29:46,500 --> 00:29:49,910
-for example, the 1970s
-for particular parameters.
+misalnya, tahun 1970-an 
+untuk parameter tertentu.
 
 532
 00:29:49,910 --> 00:29:53,120
-But they may end up being
-incorrect assumptions,
+Tetapi mereka mungkin berakhir 
+menjadi asumsi yang salah,
 
 533
 00:29:53,120 --> 00:29:57,180
-at least for those parameters,
-at a later point of time,
+setidaknya untuk parameter tersebut, 
+di lain waktu,
 
 534
 00:29:57,180 --> 00:30:00,160
-simply because
-computers got faster.
+hanya karena komputer 
+menjadi lebih cepat.
 
 535
 00:30:00,160 --> 00:30:03,110
-It's like 2 raised to 40
-was this huge number when
+Ini seperti 2 dinaikkan menjadi 40 
+adalah angka besar ini ketika
 
 536
 00:30:03,110 --> 00:30:04,320
-I was your age.
+saya seusia Anda.
 
 537
 00:30:04,320 --> 00:30:05,840
-Now, it's like nothing.
+Sekarang, tidak seperti apa-apa.
 
 538
 00:30:05,840 --> 00:30:08,350
