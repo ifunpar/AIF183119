@@ -2587,58 +2587,60 @@ issued me a certificate.
 545
 00:24:22,070 --> 00:24:23,380
 Everything was going great.
+Semuanya berjalan dengan baik.
 
 546
 00:24:23,380 --> 00:24:25,020
-But someone then got
-rude on my machine
+Tapi kemudian seseorang
+bersikap kasar kepada mesin saya
 
 547
 00:24:25,020 --> 00:24:26,370
-and stole the private key.
+dan mencuri kunci privat.
 
 548
 00:24:26,370 --> 00:24:29,570
-Please tell the world that my
-certificate is no good anymore.
+Tolong beritahu kepada seluruh dunia bahwa
+sertifikat saya sudah tidak bagus lagi.
 
 549
 00:24:29,570 --> 00:24:31,570
-So this certificate
-authority, in principle,
+Jadi otoritas sertifikat
+ini, pada dasarnya
 
 550
 00:24:31,570 --> 00:24:36,260
-could add stuff to this CRL, and
-then clients like web browsers
+dapat menambahkan sesuatu ke CRL ini, dan
+klien seperti web browser
 
 551
 00:24:36,260 --> 00:24:39,309
-are supposed to download
-this CRL periodically.
+seharusnya mengunduh
+CRL ini secara periodik.
 
 552
 00:24:39,309 --> 00:24:41,600
 And then whenever they're
 presented with a certificate,
-
+Lalu setiap kali mereka 
+diberikan sebuah sertifikat,
 553
 00:24:41,600 --> 00:24:43,100
-they should check
-if the certificate
+mereka harus memeriksa
+jika sertifikat tersebut
 
 554
 00:24:43,100 --> 00:24:45,689
-appears in this revoked list.
+muncul dalam daftar sertifikat dicabut ini.
 
 555
 00:24:45,689 --> 00:24:47,105
-And it shows up
-there, then should
+Dan itu muncul
+disana, lalu seharusnya
 
 556
 00:24:47,105 --> 00:24:49,850
-say that certificate's no good.
+mengatakan bahwa sertifikat itu tidak bagus.
 
 557
 00:24:49,850 --> 00:24:51,384
