@@ -2698,7 +2698,8 @@ Ya, silahkan.
 
 574
 00:31:48,580 --> 00:31:50,350
-AUDIENS: [TIDAK TERDENGAR] buang kotak tersebut.
+AUDIENS: [TIDAK TERDENGAR] 
+buang kotak tersebut.
 
 575
 00:31:50,350 --> 00:31:51,230
@@ -2748,7 +2749,8 @@ Kita membuat asumsi kan?
 
 585
 00:32:06,758 --> 00:32:09,330
-Jika mereka memiliki kunci tersendiri,
+Jika mereka memiliki 
+kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
