@@ -1725,28 +1725,28 @@ server ini, ada
 
 363
 00:16:03,150 --> 00:16:07,900
-probably things like access
-control lists, maybe groups,
+mungkin seperti akses
+control lists,mungkin grup,
 
 364
 00:16:07,900 --> 00:16:11,770
-maybe other things that actually
-do the authorization step.
+mungkin hal lain yang sebenarnya
+melakukan langkah otoritas.
 
 365
 00:16:11,770 --> 00:16:14,770
-So Kerberos provides
-authentication
+jadi Kerberos menyediakan
+autentikasi
 
 366
 00:16:14,770 --> 00:16:17,690
-which tells you who is
-this person I'm talking to.
+yang memberi tahu Anda siapa
+orang yang saya ajak bicara ini.
 
 367
 00:16:17,690 --> 00:16:20,580
-And the service itself is
-responsible for implementing
+Dan layanan itu sendiri
+bertanggung jawab untuk melaksanakan
 
 368
 00:16:20,580 --> 00:16:23,870
