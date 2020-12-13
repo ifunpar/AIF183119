@@ -2689,68 +2689,60 @@ asumsi disni.
 
 572
 00:31:45,250 --> 00:31:47,955
-And I might have
-said it explicitly.
+Dan saya mungkin mengatakan itu secara explicit.
 
 573
 00:31:47,955 --> 00:31:48,580
-Yeah, go ahead.
+Ya, silahkan.
 
 574
 00:31:48,580 --> 00:31:50,350
-AUDIENCE: [INAUDIBLE]
-throw the box away.
+PENONTON: [TIDAK TERDENGAR] buang kotak tersebut.
 
 575
 00:31:50,350 --> 00:31:51,230
-SRINIVAS DEVADAS: They could
-just throw the box away.
+SRINIVAS DEVADAS: Mereka bisa saja membuang kotak tersebut.
 
 576
 00:31:51,230 --> 00:31:53,396
-But that doesn't break the
-security of the protocol.
+Tetapi itu tidak melanggar protokol keamanan tersebut.
 
 577
 00:31:53,396 --> 00:31:56,565
-That breaks the functionality
-of the protocol, right?
+Itu melanggar fungsi dari protokol tersebut, kan?
 
 578
 00:31:56,565 --> 00:31:57,190
-Yeah, go ahead.
+Ya, silahkan.
 
 579
 00:31:57,190 --> 00:31:58,770
-AUDIENCE: Put their old
-lock on [INAUDIBLE].
+PENONTON: Put their old
+lock on [TIDAK TERDENGAR].
 
 580
 00:31:58,770 --> 00:32:00,561
-SRINIVAS DEVADAS: Ah,
-that's exactly right,
+SRINIVAS DEVADAS: Ah, itu sangatlah benar
 
 581
 00:32:00,561 --> 00:32:01,680
-put their own lock on it.
+simpan kunci mereka di dalam itu.
 
 582
 00:32:01,680 --> 00:32:05,051
-You know, if they had locks-- so
-these pirates don't have locks,
+Kamu tahu, jika mereka mempunyai kunci--jadi pembajak pembajak ini tidak punya kunci
 
 583
 00:32:05,051 --> 00:32:05,550
-right?
+benar kan?
 
 584
 00:32:05,550 --> 00:32:06,758
-We're making that assumption.
+Kita membuat asumsi kan?
 
 585
 00:32:06,758 --> 00:32:09,330
-If they had their
-own lock with a key,
+Jika mereka memiliki kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
