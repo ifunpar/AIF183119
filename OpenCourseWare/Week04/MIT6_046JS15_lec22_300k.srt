@@ -2689,7 +2689,8 @@ asumsi disni.
 
 572
 00:31:45,250 --> 00:31:47,955
-Dan saya mungkin mengatakan itu secara explicit.
+Dan saya mungkin 
+mengatakan itu secara explicit.
 
 573
 00:31:47,955 --> 00:31:48,580
@@ -2697,19 +2698,22 @@ Ya, silahkan.
 
 574
 00:31:48,580 --> 00:31:50,350
-PENONTON: [TIDAK TERDENGAR] buang kotak tersebut.
+AUDIENS: [TIDAK TERDENGAR] buang kotak tersebut.
 
 575
 00:31:50,350 --> 00:31:51,230
-SRINIVAS DEVADAS: Mereka bisa saja membuang kotak tersebut.
+SRINIVAS DEVADAS: Mereka bisa 
+saja membuang kotak tersebut.
 
 576
 00:31:51,230 --> 00:31:53,396
-Tetapi itu tidak melanggar protokol keamanan tersebut.
+Tetapi itu tidak melanggar 
+protokol keamanan tersebut.
 
 577
 00:31:53,396 --> 00:31:56,565
-Itu melanggar fungsi dari protokol tersebut, kan?
+Itu melanggar fungsi 
+dari protokol tersebut, kan?
 
 578
 00:31:56,565 --> 00:31:57,190
@@ -2717,12 +2721,13 @@ Ya, silahkan.
 
 579
 00:31:57,190 --> 00:31:58,770
-PENONTON: Put their old
-lock on [TIDAK TERDENGAR].
+AUDIENS: Pasang kunci 
+lama mereka. [TIDAK TERDENGAR].
 
 580
 00:31:58,770 --> 00:32:00,561
-SRINIVAS DEVADAS: Ah, itu sangatlah benar
+SRINIVAS DEVADAS: Ah, 
+itu sangatlah benar
 
 581
 00:32:00,561 --> 00:32:01,680
@@ -2730,7 +2735,8 @@ simpan kunci mereka di dalam itu.
 
 582
 00:32:01,680 --> 00:32:05,051
-Kamu tahu, jika mereka mempunyai kunci--jadi pembajak pembajak ini tidak punya kunci
+Kamu tahu, jika mereka mempunyai kunci--jadi 
+para pembajak ini tidak punya kunci
 
 583
 00:32:05,051 --> 00:32:05,550
