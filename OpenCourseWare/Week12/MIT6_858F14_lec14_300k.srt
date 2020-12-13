@@ -2533,56 +2533,56 @@ yang telah dicoba oleh orang-orang
 
 534
 00:23:56,340 --> 00:24:00,690
-are to basically publish
-a list of all revoked
+pada dasarnya mempublikasikan
+daftar semua 
 
 535
 00:24:00,690 --> 00:24:01,800
-certificates in the world.
+sertifikat yang dicabut di dunia.
 
 536
 00:24:01,800 --> 00:24:04,630
-This Is something called
-certificate revocation
+Ini adalah sesuatu yang disebut 
+daftar pencabutan 
 
 537
 00:24:04,630 --> 00:24:06,550
-list, or CRLs.
+sertifikat, atau CRLs.
 
 538
 00:24:06,550 --> 00:24:09,800
-And the way this works
-is that every certificate
+Dan cara kerjanya 
+adalah setiap otoritas
 
 539
 00:24:09,800 --> 00:24:11,830
-authority issues
-these certificates,
+sertifikat mengeluarkan
+sertifikat ini,
 
 540
 00:24:11,830 --> 00:24:15,040
-but then on the side, it
-maintains a list of mistakes.
+tetapi di samping itu 
+ia menyimpan daftar kesalahan.
 
 541
 00:24:15,040 --> 00:24:16,460
-These are things
-that it realized
+Ini adalah hal-hal 
+yang disadari
 
 542
 00:24:16,460 --> 00:24:18,126
-they screwed up and
-issued a certificate
+bahwa mereka mengacau dan 
+mengeluarkan sertifikat
 
 543
 00:24:18,126 --> 00:24:20,320
-under the wrong name, or
-our customers come to them
+dengan nama yang salah, atau 
+pelanggan kami mendatangi mereka
 
 544
 00:24:20,320 --> 00:24:22,070
-and say, hey, you
-issued me a certificate.
+dan berkata, hei, Anda 
+memberi saya sertifikat.
 
 545
 00:24:22,070 --> 00:24:23,380
