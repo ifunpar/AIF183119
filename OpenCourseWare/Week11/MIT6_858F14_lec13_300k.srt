@@ -1779,35 +1779,34 @@ untuk layanan, benar?
 
 374
 00:16:37,400 --> 00:16:39,890
-So services, I guess
-the paper suggests,
+Jadi layanan, saya kira
+paper itu menyarankan,
 
 375
 00:16:39,890 --> 00:16:41,380
-look something like this.
+terlihat seperti ini.
 
 376
 00:16:41,380 --> 00:16:42,270
-That's rcmd.hostname.
+Itu adalah rcmd.hostname.
 
 377
 00:16:47,910 --> 00:16:53,589
-And the reason that you need a
-name for one of these services
+Dan alasan mengapa Anda membutuhkan 
+nama untuk salah satu dari layanan ini
 
 378
 00:16:53,589 --> 00:16:55,380
-is that you want to
-know, for example, when
+adalah Anda ingin tahu, misalnya, kapan
 
 379
 00:16:55,380 --> 00:16:58,980
-I connect to a file
-server, I actually
+Saya terhubung ke file 
+server, saya sebenarnya
 
 380
 00:16:58,980 --> 00:17:01,500
-want mutual authentication.
+ingin otentikasi bersama.
 
 381
 00:17:01,500 --> 00:17:04,160
