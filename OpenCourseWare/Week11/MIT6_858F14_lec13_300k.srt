@@ -1750,32 +1750,32 @@ bertanggung jawab untuk melaksanakan
 
 368
 00:16:20,580 --> 00:16:23,870
-the authorization part where
-they decide what access
+bagian otorisasi tempat
+mereka menentukan akses apa
 
 369
 00:16:23,870 --> 00:16:28,180
-you should have based
-on your username here.
+yang harus mereka miliki
+berdasarkan nama pengguna.
 
 370
 00:16:28,180 --> 00:16:30,440
-Makes sense?
+Masuk akal?
 
 371
 00:16:30,440 --> 00:16:33,500
-All right, so that's where
-the user names appear.
+Baik, jadi disanalah
+nama pengguna muncul.
 
 372
 00:16:33,500 --> 00:16:35,100
-There's also other
-principal names
+Disana juga ada
+nama utama lain
 
 373
 00:16:35,100 --> 00:16:37,400
-the Kerberos supports
-for services, right?
+yang di dukung Kerberos
+untuk layanan, benar?
 
 374
 00:16:37,400 --> 00:16:39,890
