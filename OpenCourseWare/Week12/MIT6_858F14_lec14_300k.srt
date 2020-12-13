@@ -2371,59 +2371,59 @@ tapi tidak terlalu bagus untuk segi keamanan.
 
 500
 00:22:35,690 --> 00:22:39,620
-And there's two problems
-that you might worry about
+Dan ada dua masalah
+yang anda mungkin akan khawatirkan
 
 501
 00:22:39,620 --> 00:22:40,860
-with certificates.
+dengan sertifikat.
 
 502
 00:22:40,860 --> 00:22:44,030
-One is that Maybe
-the CA's screwed up.
+Pertama adalah bahwa mungkin
+CA tersebut kacau.
 
 503
 00:22:44,030 --> 00:22:47,710
-So maybe the CA issued a
-certificate for the wrong name.
+Sehingga mungkin CA tersebut menerbitkan sebuah
+sertifikat untuk nama yang salah.
 
 504
 00:22:47,710 --> 00:22:49,190
-Like, they weren't very careful.
+Seperti, mereka tidak sangat berhati-hati.
 
 505
 00:22:49,190 --> 00:22:50,856
-And accidentally, I
-ask them to give you
+Dan secara tidak sengaja, saya
+meminta mereka untuk memberi anda
 
 506
 00:22:50,856 --> 00:22:53,297
-a certificate for amazon.com,
-and they just slipped up
+sebuah sertifikat untuk amazon.com,
+dan mereka tergelincir
 
 507
 00:22:53,297 --> 00:22:54,380
-and said, all right, sure.
+dan mengatakan, baiklah, tentu saja.
 
 508
 00:22:54,380 --> 00:22:54,975
-That's amazon.com.
+Itu adalah amazon.com.
 
 509
 00:22:54,975 --> 00:22:56,599
-I will give you a
-certificate for that.
+Saya akan memberikan anda sebuah
+sertifikat untuk itu.
 
 510
 00:22:56,599 --> 00:22:58,860
-So that seems like a
-problem on the CA side.
+Jadi itu terlihat seperti sebuah
+masalah pada sisi CA tersebut
 
 511
 00:22:58,860 --> 00:23:00,412
-So they miss-issued
-a certificate.
+Jadi mereka salah menerbitkan
+sebuah sertifikat.
 
 512
 00:23:00,412 --> 00:23:02,870
