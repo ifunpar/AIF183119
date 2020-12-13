@@ -2427,56 +2427,56 @@ a certificate.
 
 512
 00:23:00,412 --> 00:23:02,870
-And that's one way that you
-could end up with a certificate
+Dan itu salah satu cara Anda 
+bisa mendapatkan sertifikat
 
 513
 00:23:02,870 --> 00:23:05,550
-that you wish no longer
-existed, because you
+yang Anda inginkan tidak ada 
+lagi, karena Anda 
 
 514
 00:23:05,550 --> 00:23:07,180
-signed the wrong thing.
+menandatangani hal yang salah.
 
 515
 00:23:07,180 --> 00:23:09,375
-Another possibility
-is that they CA
+Kemungkinan lain
+adalah bahwa mereka CA 
 
 516
 00:23:09,375 --> 00:23:11,440
-does the right thing,
-but then the person who
+melakukan hal yang benar,
+tetapi kemudian orang yang
 
 517
 00:23:11,440 --> 00:23:14,110
-had the certificate I
-accidentally disclosed
+memiliki sertifikat Saya 
+secara tidak sengaja mengungkapkan
 
 518
 00:23:14,110 --> 00:23:17,220
-the secret key, or someone stole
-the secret key corresponding
+kunci rahasia, atau seseorang mencuri 
+kunci rahasia yang sesuai 
 
 519
 00:23:17,220 --> 00:23:19,130
-to the public key
-in the certificate.
+dengan kunci publik 
+dalam sertifikat.
 
 520
 00:23:19,130 --> 00:23:21,780
-So this means that
-certificate no longer says
+Jadi ini berarti bahwa
+sertifikat tidak lagi mengatakan
 
 521
 00:23:21,780 --> 00:23:23,380
-what you think it might mean.
+apa yang menurut Anda mungkin berarti.
 
 522
 00:23:23,380 --> 00:23:27,730
-Even though this says
-amazon.com's key is this,
+Meskipun ini mengatakan 
+kunci amazon.com adalah ini,
 
 523
 00:23:27,730 --> 00:23:29,285
