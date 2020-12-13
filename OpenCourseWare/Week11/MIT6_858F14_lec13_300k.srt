@@ -1697,31 +1697,31 @@ mendapatkan tiket Kerberosnya itu
 
 357
 00:15:50,920 --> 00:15:54,220
-prove that maybe this
-user is called Nikolai,
+membuktikan mungkin pengguna 
+ini dipanggil Nikolai,
 
 358
 00:15:54,220 --> 00:15:56,110
-then the mail server
-internally now
+kemudian server mail
+sekarang secara internal
 
 359
 00:15:56,110 --> 00:15:57,630
-has to figure out,
-OK, well, what
+harus mencari menetapkan,
+OK, baik, apa 
 
 360
 00:15:57,630 --> 00:15:59,280
-should that guy have access to?
+yang bisa diakses orang tersebut?
 
 361
 00:15:59,280 --> 00:16:00,960
-And same for a file server.
+Dan sama untuk file server.
 
 362
 00:16:00,960 --> 00:16:03,150
-So inside of all
-these servers, there's
+Jadi didalam semua
+server ini, ada
 
 363
 00:16:03,150 --> 00:16:07,900
