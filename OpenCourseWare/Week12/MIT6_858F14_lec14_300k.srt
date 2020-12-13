@@ -2586,7 +2586,6 @@ issued me a certificate.
 
 545
 00:24:22,070 --> 00:24:23,380
-Everything was going great.
 Semuanya berjalan dengan baik.
 
 546
@@ -2620,10 +2619,9 @@ CRL ini secara periodik.
 
 552
 00:24:39,309 --> 00:24:41,600
-And then whenever they're
-presented with a certificate,
 Lalu setiap kali mereka 
 diberikan sebuah sertifikat,
+
 553
 00:24:41,600 --> 00:24:43,100
 mereka harus memeriksa
