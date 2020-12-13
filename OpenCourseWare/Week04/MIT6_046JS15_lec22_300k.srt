@@ -2528,69 +2528,70 @@ Sekarang, tidak seperti apa-apa.
 
 538
 00:30:05,840 --> 00:30:08,350
-So that's basically
-part of the game.
+Jadi itu pada dasarnya
+bagian dari permainan.
 
 539
 00:30:08,350 --> 00:30:12,670
-But the good systems are those
-that scale where you increase
+Tetapi sistem yang baik adalah sistem
+yang berskala di mana Anda meningkatkan
 
 540
 00:30:12,670 --> 00:30:16,470
-the parameter size and the
-system and the protocol
+ukuran parameter dan
+sistem dan protokol
 
 541
 00:30:16,470 --> 00:30:17,950
-stays the same.
+tetap sama.
 
 542
 00:30:17,950 --> 00:30:22,510
-And so you just increase p,
-for example, in this case.
+Dan Anda hanya meningkatkan p,
+sebagai contoh, dalam kasus ini.
 
 543
 00:30:22,510 --> 00:30:24,300
-And the discrete
-long problem is still
+Dan masalah diskrit
+yang panjang tetap
 
 544
 00:30:24,300 --> 00:30:26,400
-hard for modern computers.
+sulit untuk komputer modern.
 
 545
 00:30:26,400 --> 00:30:29,600
-So those are the good protocols
-and the good cryptosystems that
+Jadi itu adalah protokol yang baik
+dan kriptosistem yang baik yang
 
 546
 00:30:29,600 --> 00:30:31,950
-stand the test of
-time, not necessarily
+bertahan dalam test
+waktu, belum tentu
 
 547
 00:30:31,950 --> 00:30:36,850
-the ones that have exactly
-particular parameters.
+yang memiliki persis
+parameter tertentu.
 
 548
 00:30:36,850 --> 00:30:37,610
-That's hard to do.
+Itu sulit dilakukan.
 
 549
 00:30:37,610 --> 00:30:40,650
-Because as I said,
-Moore's law and computers
+Karena seperti yang saya katakan,
+Hukum Moore's dan komputer
 
 550
 00:30:40,650 --> 00:30:43,740
-have been getting really
-exponentially faster.
+telah menjadi sangat
+cepat secara eksponensial.
+
 
 551
 00:30:43,740 --> 00:30:45,830
-All right.
+Baiklah.
 
 552
 00:30:45,830 --> 00:30:51,350
