@@ -2429,539 +2429,541 @@ hei, mari kita gunakan pohon biner
 
 528
 00:24:00,400 --> 00:24:02,530
-with hashes.
+dengan hash.
 
 529
 00:24:02,530 --> 00:24:05,260
-And I will mention
-RSA and then go
+Dan saya akan menyebutkan
+RSA dan kemudian masuk
 
 530
 00:24:05,260 --> 00:24:10,510
-into ECDSA and elliptic curve
-[INAUDIBLE] signatures, which
+ke ECDSA dan kurva elips
+[TIDAK TERDENGAR] tanda tangan, yang
 
 531
 00:24:10,510 --> 00:24:15,012
-do different things and are not
-based on just hash functions.
+melakukan hal berbeda dan tidak
+didasarkan pada fungsi hash saja.
 
 532
 00:24:15,012 --> 00:24:16,720
-So I'll talk about
-RSA for a few minutes,
+Jadi saya akan berbicara tentang
+RSA selama beberapa menit,
 
 533
 00:24:16,720 --> 00:24:19,067
-and then we'll have a little
-break, like intermission.
+dan kemudian kita akan sebentar
+istirahat, seperti istirahat.
 
 534
 00:24:19,067 --> 00:24:20,900
-And then we'll go into
-elliptic curve stuff.
+Dan kemudian kita akan membahas
+hal-hal kurva elips.
 
 535
 00:24:20,900 --> 00:24:21,400
-OK.
+Oke.
 
 536
 00:24:21,400 --> 00:24:23,260
-So RSA was invented by locals.
+Jadi RSA ditemukan oleh penduduk setempat.
 
 537
 00:24:23,260 --> 00:24:24,790
-The R is Ron--
+R adalah Ron--
 
 538
 00:24:24,790 --> 00:24:26,290
-no, I think the R
-stands for Rivest,
+tidak, saya pikir R
+adalah singkatan dari Rivest,
 
 539
 00:24:26,290 --> 00:24:29,870
-but Ron Rivest is at
-CSAIL, and he's still
+tetapi Ron Rivest ada di
+CSAIL, dan dia masih
 
 540
 00:24:29,870 --> 00:24:32,230
-working on cool crypto stuff.
+mengerjakan hal-hal crypto yang keren.
 
 541
 00:24:32,230 --> 00:24:34,960
-It's not used in Bitcoin
-or any currency, actually--
+Ini tidak digunakan dalam Bitcoin
+atau mata uang apa pun, sebenarnya--
 
 542
 00:24:34,960 --> 00:24:38,560
-well, any currently
-operating cryptocurrency.
+yah,apa pun yang saat ini
+cryptocurrency beroperasi.
 
 543
 00:24:38,560 --> 00:24:42,880
-Because the signatures
-and keys are
+Karena tanda tangan
+dan kunci
 
 544
 00:24:42,880 --> 00:24:45,550
-a bit larger than the
-later systems we'll see--
+sedikit lebih besar daripada
+sistem yang akan kita lihat--
 
 545
 00:24:45,550 --> 00:24:50,500
-smaller than the hash-based
-things, but still a bit larger.
+lebih kecil dari hal-berbasis hash
+hal, tetapi masih sedikit lebih besar.
 
 546
 00:24:50,500 --> 00:24:52,420
-Was used in chaumian
-blinded cash.
+Digunakan dalam chaumian
+kas buta.
 
 547
 00:24:52,420 --> 00:24:55,070
-Because you can do blinded
-signatures, where you say,
+Karena Anda dapat melakukan buta
+tanda tangan, di mana Anda berkata,
 
 548
 00:24:55,070 --> 00:24:58,272
-OK, I'm going to have you
-sign something for me,
+Oke, saya akan meminta Anda
+menandatangani sesuatu untuk saya,
 
 549
 00:24:58,272 --> 00:24:59,980
-and then after you
-give me the signature,
+dan kemudian setelah Anda
+memberi saya tanda tangan,
 
 550
 00:24:59,980 --> 00:25:04,000
-I can pull apart the signature.
+saya dapat memisahkan tanda tangannya.
 
 551
 00:25:04,000 --> 00:25:05,650
-Because I'll have
-you sign something
+Karena saya akan meminta
+Anda menandatangani sesuatu
 
 552
 00:25:05,650 --> 00:25:07,870
-that you don't know what
-you're signing, right?
+yang Anda tidak tahu apa yang
+Anda tanda tangani, bukan?
 
 553
 00:25:07,870 --> 00:25:10,630
-I'm going to mask this
-message and blind it
+Saya akan menutupi ini
+pesan dan membutakannya
 
 554
 00:25:10,630 --> 00:25:12,550
-so that you sign the
-message, and then I
+sehingga Anda menandatangani
+pesan, dan kemudian saya 
 
 555
 00:25:12,550 --> 00:25:15,310
-can get your signature
-on the real message
+bisa mendapatkan tanda tangan Anda
+pada pesan yang sebenarnya
 
 556
 00:25:15,310 --> 00:25:17,080
-without you knowing
-what you signed.
+tanpa Anda tahu
+apa yang Anda tanda tangani.
 
 557
 00:25:17,080 --> 00:25:19,540
-So basically, the idea
-is, well, I actually
+Jadi pada dasarnya, idenya
+adalah, saya sebenarnya
 
 558
 00:25:19,540 --> 00:25:26,230
-have message prime equals
-message plus randomness.
+memiliki pesan prima sama dengan
+pesan ditambah keacakan.
 
 559
 00:25:26,230 --> 00:25:28,210
-And I say, hey, can
-you sign m prime?
+Dan saya katakan, hei, bisakah
+Anda menandatangani m prime?
 
 560
 00:25:28,210 --> 00:25:28,990
-And you say, OK.
+Dan anda berkata, oke.
 
 561
 00:25:28,990 --> 00:25:33,970
-I produce a signature on m
-prime with my private key.
+Saya membuat tanda tangan di m
+prime dengan kunci pribadi saya.
 
 562
 00:25:33,970 --> 00:25:36,370
-And we'll call that s prime.
+Dan kami akan menyebutnya s prime.
 
 563
 00:25:36,370 --> 00:25:41,420
-And then what I can do
-is I can s equals s prime
+Dan kemudian yang bisa saya lakukan
+adalah saya bisa s sama dengan s prime
 
 564
 00:25:41,420 --> 00:25:45,050
-minus the randomness,
-or, really, some function
+dikurangi keacakan,
+atau, sebenarnya, beberapa fungsi
 
 565
 00:25:45,050 --> 00:25:46,520
-of that randomness.
+dari keacakan itu.
 
 566
 00:25:46,520 --> 00:25:48,240
-And now I have a signature.
+Dan sekarang saya punya tanda tangan.
 
 567
 00:25:48,240 --> 00:25:51,530
-And this is a valid
-signature on m.
+Dan ini adalah sah
+tanda tangan yang di m.
 
 568
 00:25:51,530 --> 00:25:52,760
-So that's kind of cool.
+Jadi itu keren.
 
 569
 00:25:52,760 --> 00:25:54,802
-It's like, hey, can you
-sign this message for me?
+Ini seperti, hei, bisakah Anda
+menandatangani pesan ini untuk saya?
 
 570
 00:25:54,802 --> 00:25:57,670
-And we're not going to tell
-you what you're signing.
+Dan kami tidak akan memberi tahu
+Anda apa yang Anda tanda tangani.
 
 571
 00:25:57,670 --> 00:25:59,420
-It seems sort of
-useless, like why would I
+Sepertinya
+tidak berguna, seperti mengapa saya
 
 572
 00:25:59,420 --> 00:26:01,430
-sign something I have no
-idea what I'm signing?
+menandatangani sesuatu yang saya tidak
+tahu apa yang saya tanda tangani?
 
 573
 00:26:01,430 --> 00:26:05,180
-But it can be used in that
-chaumian blinded cash.
+Tapi itu bisa digunakan dalam
+kas buta chaumian itu.
 
 574
 00:26:05,180 --> 00:26:08,150
-Because I then have a proof
-that, well, this bank didn't
+Karena saya kemudian memiliki bukti
+bahwa, yah, bank ini tidak
 
 575
 00:26:08,150 --> 00:26:10,550
-know what they were signing,
-but they signed this,
+tahu apa yang mereka tanda tangani,
+tetapi mereka menandatanganinya,
 
 576
 00:26:10,550 --> 00:26:13,550
-and this is their signature,
-and they gave it to me.
+dan ini adalah tanda tangan mereka,
+dan mereka memberikannya kepada saya.
 
 577
 00:26:13,550 --> 00:26:17,090
-And I can use that as a
-thing to represent money.
+Dan saya bisa menggunakannya sebagai
+benda untuk mewakili uang.
 
 578
 00:26:17,090 --> 00:26:19,340
-There's all sorts of cool
-things you can do with this.
+Ada banyak hal keren
+hal yang dapat Anda lakukan dengan ini.
 
 579
 00:26:19,340 --> 00:26:24,890
-The basic setup of RSA is make
-two prime numbers, p and q.
+Setup dasar RSA adalah membuat
+dua bilangan prima, p dan q.
 
 580
 00:26:24,890 --> 00:26:28,880
-And then compute n, which
-is the product p times q.
+Dan kemudian hitung n, yang
+merupakan hasil kali p kali q.
 
 581
 00:26:28,880 --> 00:26:31,400
-So this seems fairly
-straightforward, right?
+Jadi ini tampaknya cukup
+mudah, bukan?
 
 582
 00:26:31,400 --> 00:26:32,660
-It's not too hard.
+Tidak terlalu sulit.
 
 583
 00:26:32,660 --> 00:26:34,583
-Everyone knows what
-prime numbers are.
+Semua orang tahu apa itu
+bilangan prima.
 
 584
 00:26:34,583 --> 00:26:36,500
-Now you have this composite
-number, p times q.
+Sekarang Anda memiliki komposit ini
+bilangan, p dikali q.
 
 585
 00:26:39,470 --> 00:26:43,040
-How do I make a leading
-question for the next slide?
+Bagaimana cara membuat penuntun
+pertanyaan untuk slide berikutnya?
 
 586
 00:26:43,040 --> 00:26:46,532
-Does this have any relation to
-things that we've looked at?
+Apakah ini ada hubungannya dengan
+hal-hal yang telah kita lihat?
 
 587
 00:26:46,532 --> 00:26:48,740
-This doesn't look at all
-like a hash function, right?
+Ini sama sekali tidak terlihat
+seperti fungsi hash, bukan?
 
 588
 00:26:48,740 --> 00:26:51,080
-But are there any properties
-similar to a hash function
+Tetapi apakah ada properti yang
+mirip dengan fungsi hash di
 
 589
 00:26:51,080 --> 00:26:51,580
-here?
+sini?
 
 590
 00:26:54,230 --> 00:26:55,995
-Yeah?
+Ya?
 
 591
 00:26:55,995 --> 00:26:57,620
-AUDIENCE: It's hard
-to route the image.
+AUDIENS: Itu sulit
+untuk mengarahkan gambar.
 
 592
 00:26:57,620 --> 00:26:58,860
-It's hard to [INAUDIBLE].
+Sulit untuk [TIDAK TERDENGAR].
 
 593
 00:26:58,860 --> 00:26:59,700
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Ya.
 
 594
 00:26:59,700 --> 00:27:02,570
-It's a one-way function
-in that if I know p and q,
-
+Ini adalah fungsi satu arah
+di mana jika saya tahu p dan q,
 595
 00:27:02,570 --> 00:27:04,610
-I can compute n, right?
+saya bisa menghitung n, bukan?
 
 596
 00:27:04,610 --> 00:27:08,810
-But given n, I can't
-necessarily find p and q, right?
+Tapi mengingat n, saya tidak bisa
+selalu menemukan p dan q, bukan?
 
 597
 00:27:08,810 --> 00:27:10,760
-If they're small,
-sure, I just check.
+Jika mereka kecil,
+tentu, saya periksa saja
 
 598
 00:27:10,760 --> 00:27:14,150
-And there's all sorts of
-algorithms to find factors.
+Dan ada berbagai macam
+algoritma untuk menemukan faktor.
 
 599
 00:27:14,150 --> 00:27:18,020
-But if p and q are pretty big,
-like hundreds of bits long
+Tetapi jika p dan q cukup besar,
+seperti ratusan bit
 
 600
 00:27:18,020 --> 00:27:20,690
-or thousands of
-bits long, finding n
+atau ribuan
+bit, mencari n
 
 601
 00:27:20,690 --> 00:27:24,380
-may be impractical, whereas
-if p and q are really long,
+mungkin tidak praktis, sedangkan
+jika p dan q sangat panjang,
 
 602
 00:27:24,380 --> 00:27:27,170
-finding the product of both of
-them will be very practical.
+mencari hasil perkalian keduanya
+akan sangat praktis.
 
 603
 00:27:27,170 --> 00:27:31,950
-Even if huge, multiplying
-two integers is really easy.
+Sekalipun besar, mengalikan
+dua bilangan bulat sangat mudah.
 
 604
 00:27:31,950 --> 00:27:34,880
-So this is a one-way function
-but not a hash function.
+Jadi ini adalah fungsi satu arah
+tetapi bukan fungsi hash.
 
 605
 00:27:34,880 --> 00:27:38,540
-And so a lot of these signature
-systems use one-way functions,
+Dan banyak dari tanda tangan ini
+sistem ini menggunakan fungsi satu arah,
 
 606
 00:27:38,540 --> 00:27:41,810
-but trickier one-way functions
-that aren't hash functions,
+teteapi lebih rumit fungsi satu arah
+yang bukan fungsi hash,
 
 607
 00:27:41,810 --> 00:27:45,810
-and still have cool
-things that you can do.
+dan masih memiliki keren
+hal-halyang dapat Anda lakukan.
 
 608
 00:27:45,810 --> 00:27:49,760
-So I'm not going to go
-into RSA in super detail.
+Jadi saya tidak akan membahas
+RSA secara super detail.
 
 609
 00:27:49,760 --> 00:27:51,917
-I'm going to run
-through it really quick,
+Saya akan membahasnya
+dengan sangat cepat,
+
 
 610
 00:27:51,917 --> 00:27:53,750
-and you'll be like,
-huh, how does that work?
+dan Anda akan seperti,
+huh, bagaimana cara kerjanya?
 
 611
 00:27:53,750 --> 00:27:56,230
-But if you think it's
-interesting, you can look it up
+Tapi jika menurut kalian
+menarik, kalian bisa mencarinya
 
 612
 00:27:56,230 --> 00:27:57,980
-and then maybe you go
-to CSAIL and ask Ron
+dan mungkin kalian pergi
+ke CSAIL dan bertanya kepada Ron
 
 613
 00:27:57,980 --> 00:28:00,350
-how it works, although maybe
-try to look it up first.
+bagaimana cara kerjanya, walaupun mungkin
+coba cari dulu.
 
 614
 00:28:00,350 --> 00:28:02,100
-He's probably explained
-it a lot of times.
+Dia mungkin sering menjelaskannya
+berkali-kali.
 
 615
 00:28:04,880 --> 00:28:06,600
-But it has different properties.
+Tetapi memiliki sifat yang berbeda.
 
 616
 00:28:06,600 --> 00:28:09,050
-So you could say, I'm
-going to use this p times
+Jadi bisa dibilang, saya
+akan menggunakan p kali
 
 617
 00:28:09,050 --> 00:28:12,440
-q equals n as a hash function
-and make a lamport signature
+q sama dengan n sebagai fungsi hash
+dan membuat tanda lamport
 
 618
 00:28:12,440 --> 00:28:16,850
-out of it where my private key
-is a whole bunch of p and q
+darinya di mana kunci pribadi saya
+adalah sejumlah besar p dan q
 
 619
 00:28:16,850 --> 00:28:20,000
-pairs, and my public key is
-a whole bunch of n's, and I
+pasangan, dan kunci publik saya adalah
+keseluruhan sekelompok n, dan saya
 
 620
 00:28:20,000 --> 00:28:21,590
-reveal them and stuff.
+mengungkapkannya dan sebagainya.
 
 621
 00:28:21,590 --> 00:28:22,460
-You could do that.
+Kamu bisa melakukan itu.
 
 622
 00:28:22,460 --> 00:28:24,350
-That would work.
+Itu akan berhasil.
 
 623
 00:28:24,350 --> 00:28:26,240
-But you can do much
-more powerful things
+Tetapi Anda dapat melakukan jauh
+hal-hal yanglebih hebat
 
 624
 00:28:26,240 --> 00:28:29,360
-because of the mathematical
-properties of these things.
+karena matematika
+sifat dari hal-hal ini.
 
 625
 00:28:29,360 --> 00:28:32,590
-So yeah, I'm just going to
-go through it really fast.
+Jadi ya, saya akan
+membahasnya dengan sangat cepat.
 
 626
 00:28:32,590 --> 00:28:35,480
-But if you know anything,
-this is kind of cool.
+Tetapi jika Anda tahu sesuatu,
+ini cukup keren
 
 627
 00:28:35,480 --> 00:28:40,730
-The idea is you can do a
-bunch of multiplication
+Idenya adalah Anda dapat melakukan
+banyak perkalian
+
 
 628
 00:28:40,730 --> 00:28:43,580
-and exponential modulo n.
+dan modul eksponensial.
 
 629
 00:28:43,580 --> 00:28:47,810
-And so because n
-is almost prime,
+Dan karena n
+hampir bilangan prima,
 
 630
 00:28:47,810 --> 00:28:49,640
-there's some
-interesting properties,
+ada beberapa
+properti menarik,
 
 631
 00:28:49,640 --> 00:28:53,180
-where if you know
-the factors of n,
+dimana jika Anda mengetahui
+faktor dari n,
 
 632
 00:28:53,180 --> 00:28:54,965
-you have these
-shortcuts you can do.
+Anda memiliki ini
+pintasan yang dapat Anda lakukan.
 
 633
 00:28:54,965 --> 00:28:56,840
-And someone who doesn't
-know the factors of n
+Dan seseorang yang tidak
+mengetahui faktor n
 
 634
 00:28:56,840 --> 00:28:58,290
-can't do these shortcuts.
+tidak dapat melakukan jalan pintas ini.
 
 635
 00:28:58,290 --> 00:29:02,090
-So you publish e, which is
-a constant-- this is sort
+Jadi Anda menerbitkan e, yang merupakan
+konstanta-- ini semacam
 
 636
 00:29:02,090 --> 00:29:04,490
-of a parameter system.
+sistem parameter.
 
 637
 00:29:04,490 --> 00:29:06,560
-So RSA is used today
-all over the place.
+Jadi RSA digunakan hari ini di
+semua tempat.
+
 
 638
 00:29:06,560 --> 00:29:08,780
-If your computer
-is open and you've
+Jika komputer Anda
+terbuka dan Anda telah
 
 639
 00:29:08,780 --> 00:29:10,670
-been using the web in
-the last five seconds,
+menggunakan web dalam
+lima detik terakhir,
 
 640
 00:29:10,670 --> 00:29:14,030
