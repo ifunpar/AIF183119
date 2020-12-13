@@ -2480,56 +2480,56 @@ amazon.com's key is this,
 
 523
 00:23:27,730 --> 00:23:29,285
-actually every one
-in the world has
+pada hakekatnya semua orang
+di dunia memiliki
 
 524
 00:23:29,285 --> 00:23:31,201
-the corresponding secret
-key because posted it
+kunci rahasia yang berkaitan
+karena mereka mempostingnya
 
 525
 00:23:31,201 --> 00:23:31,910
-on the internet.
+di internet.
 
 526
 00:23:31,910 --> 00:23:34,425
-So you can't really
-learn much from someone
+Jadi Anda tidak dapat mempelajari
+banyak hal dari seseorang
 
 527
 00:23:34,425 --> 00:23:36,966
-sending you a message signed by
-the corresponding secret key,
+yang mengirim Anda sebuah pesan yang ditandatangani oleh
+kunci rahasi yang berkaitan.
 
 528
 00:23:36,966 --> 00:23:40,187
-because it could've been anyone
-that stole the secret key.
+karena bisa siapa saja
+yang telah mencuri kunci rahasia itu.
 
 529
 00:23:40,187 --> 00:23:41,770
-So that's another
-reason why you might
+Jadi hal itu alasan
+lain mengapa Anda mungkin
 
 530
 00:23:41,770 --> 00:23:44,250
-want to revoke a certificate.
+ingin menghapus sebuah sertifikat.
 
 531
 00:23:44,250 --> 00:23:47,220
-And revoking certificates
-is pretty messy.
+Dan menghapus sertifikat
+merupakan suatu hal yang rumit.
 
 532
 00:23:47,220 --> 00:23:51,100
-There's not really
-a great plan for it.
+Tidak ada
+cara paling bagus untuk hal tersebut.
 
 533
 00:23:51,100 --> 00:23:56,340
-The two alternatives
-that people have tried
+Dua cara
+yang telah dicoba oleh orang-orang
 
 534
 00:23:56,340 --> 00:24:00,690
