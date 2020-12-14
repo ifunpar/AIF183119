@@ -2360,50 +2360,50 @@ bertabrakan dengan data lain
 
 496
 00:20:35,550 --> 00:20:36,217
-in a connection.
+dalam sebuah koneksi.
 
 497
 00:20:36,217 --> 00:20:37,591
-But there's also
-the question of,
+Tapi ada juga 
+pertanyaan tentang,
 
 498
 00:20:37,591 --> 00:20:39,820
-how do you choose the
-initial sequence number here?
+bagaimana Anda memilih 
+nomor urut awal di sini?
 
 499
 00:20:39,820 --> 00:20:42,530
-And that gets bumped every
-time a new connection is
+Dan itu akan terbentur 
+setiap kali ada koneksi baru
 
 500
 00:20:42,530 --> 00:20:43,440
-established.
+terbentuk.
 
 501
 00:20:43,440 --> 00:20:47,190
-So the hope is that by the time
-it wraps around 2 to the 32
+Jadi harapannya adalah saat 
+membungkus sekitar 2 hingga 32
 
 502
 00:20:47,190 --> 00:20:50,600
-and comes back, there's
-been enough time
+dan kembali, 
+sudah cukup waktu
 
 503
 00:20:50,600 --> 00:20:52,270
-so that old packets
-in the network
+sehingga paket-paket 
+lama di jaringan
 
 504
 00:20:52,270 --> 00:20:54,283
-have actually been
-dropped and will not
+benar-benar telah dijatuhkan 
+dan tidak akan
 
 505
 00:20:54,283 --> 00:20:56,006
-appear as duplicates anymore.
+muncul sebagai duplikat lagi.
 
 506
 00:20:56,006 --> 00:20:57,630
