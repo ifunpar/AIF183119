@@ -2453,8 +2453,8 @@ RSA selama beberapa menit,
 
 533
 00:24:16,720 --> 00:24:19,067
-dan kemudian kita akan sebentar
-istirahat, seperti istirahat.
+dan kemudian kita akan jeda
+sebentar, seperti istirahat.
 
 534
 00:24:19,067 --> 00:24:20,900
@@ -2494,8 +2494,8 @@ atau mata uang apa pun, sebenarnya--
 
 542
 00:24:34,960 --> 00:24:38,560
-yah,apa pun yang saat ini
-cryptocurrency beroperasi.
+yah, apa pun cryptocurrency 
+yang beroperasi saat ini.
 
 543
 00:24:38,560 --> 00:24:42,880
@@ -2509,8 +2509,8 @@ sistem yang akan kita lihat--
 
 545
 00:24:45,550 --> 00:24:50,500
-lebih kecil dari hal-berbasis hash
-hal, tetapi masih sedikit lebih besar.
+lebih kecil dari hal berbasis 
+hash, tetapi masih sedikit lebih besar.
 
 546
 00:24:50,500 --> 00:24:52,420
@@ -2519,8 +2519,8 @@ kas buta.
 
 547
 00:24:52,420 --> 00:24:55,070
-Karena Anda dapat melakukan buta
-tanda tangan, di mana Anda berkata,
+Karena Anda dapat melakukan tanda 
+tangan buta, di mana Anda berkata,
 
 548
 00:24:55,070 --> 00:24:58,272
@@ -2548,8 +2548,8 @@ Anda tanda tangani, bukan?
 
 553
 00:25:07,870 --> 00:25:10,630
-Saya akan menutupi ini
-pesan dan membutakannya
+Saya akan menutupi pesan 
+ini dan membutakannya
 
 554
 00:25:10,630 --> 00:25:12,550
@@ -2592,7 +2592,7 @@ prime dengan kunci pribadi saya.
 
 562
 00:25:33,970 --> 00:25:36,370
-Dan kami akan menyebutnya s prime.
+Dan kita akan menyebutnya s prime.
 
 563
 00:25:36,370 --> 00:25:41,420
@@ -2614,8 +2614,8 @@ Dan sekarang saya punya tanda tangan.
 
 567
 00:25:48,240 --> 00:25:51,530
-Dan ini adalah sah
-tanda tangan yang di m.
+Dan ini adalah tanda 
+tangan yang sah di m.
 
 568
 00:25:51,530 --> 00:25:52,760
@@ -2633,8 +2633,8 @@ Anda apa yang Anda tanda tangani.
 
 571
 00:25:57,670 --> 00:25:59,420
-Sepertinya
-tidak berguna, seperti mengapa saya
+Itu sepertinya tidak berguna, 
+seperti mengapa saya
 
 572
 00:25:59,420 --> 00:26:01,430
@@ -2669,11 +2669,11 @@ benda untuk mewakili uang.
 578
 00:26:17,090 --> 00:26:19,340
 Ada banyak hal keren
-hal yang dapat Anda lakukan dengan ini.
+yang dapat Anda lakukan dengan ini.
 
 579
 00:26:19,340 --> 00:26:24,890
-Setup dasar RSA adalah membuat
+Pengaturan dasar RSA adalah membuat
 dua bilangan prima, p dan q.
 
 580
@@ -2688,7 +2688,7 @@ mudah, bukan?
 
 582
 00:26:31,400 --> 00:26:32,660
-Tidak terlalu sulit.
+Ini tidak terlalu sulit.
 
 583
 00:26:32,660 --> 00:26:34,583
@@ -2697,13 +2697,13 @@ bilangan prima.
 
 584
 00:26:34,583 --> 00:26:36,500
-Sekarang Anda memiliki komposit ini
-bilangan, p dikali q.
+Sekarang Anda memiliki bilangan 
+komposit ini, p dikali q.
 
 585
 00:26:39,470 --> 00:26:43,040
-Bagaimana cara membuat penuntun
-pertanyaan untuk slide berikutnya?
+Bagaimana cara membuat pertanyaan
+penuntun untuk slide berikutnya?
 
 586
 00:26:43,040 --> 00:26:46,532
@@ -2745,6 +2745,7 @@ TADGE DRYJA: Ya.
 00:26:59,700 --> 00:27:02,570
 Ini adalah fungsi satu arah
 di mana jika saya tahu p dan q,
+
 595
 00:27:02,570 --> 00:27:04,610
 saya bisa menghitung n, bukan?
@@ -2796,29 +2797,28 @@ tetapi bukan fungsi hash.
 
 605
 00:27:34,880 --> 00:27:38,540
-Dan banyak dari tanda tangan ini
-sistem ini menggunakan fungsi satu arah,
+Dan banyak sistem tanda tangan
+ini menggunakan fungsi satu arah,
 
 606
 00:27:38,540 --> 00:27:41,810
-teteapi lebih rumit fungsi satu arah
+tetapi lebih rumit fungsi satu arah
 yang bukan fungsi hash,
 
 607
 00:27:41,810 --> 00:27:45,810
-dan masih memiliki keren
-hal-halyang dapat Anda lakukan.
+dan masih memiliki hal-hal
+keren yang dapat Anda lakukan.
 
 608
 00:27:45,810 --> 00:27:49,760
 Jadi saya tidak akan membahas
-RSA secara super detail.
+RSA secara sangat detil.
 
 609
 00:27:49,760 --> 00:27:51,917
 Saya akan membahasnya
 dengan sangat cepat,
-
 
 610
 00:27:51,917 --> 00:27:53,750
@@ -2827,7 +2827,7 @@ huh, bagaimana cara kerjanya?
 
 611
 00:27:53,750 --> 00:27:56,230
-Tapi jika menurut kalian
+Tapi jika menurut kalian itu
 menarik, kalian bisa mencarinya
 
 612
@@ -2857,17 +2857,17 @@ akan menggunakan p kali
 617
 00:28:09,050 --> 00:28:12,440
 q sama dengan n sebagai fungsi hash
-dan membuat tanda lamport
+dan membuat tanda tangan lamport
 
 618
 00:28:12,440 --> 00:28:16,850
 darinya di mana kunci pribadi saya
-adalah sejumlah besar p dan q
+adalah sekelompok besar pasangan p dan q,
 
 619
 00:28:16,850 --> 00:28:20,000
-pasangan, dan kunci publik saya adalah
-keseluruhan sekelompok n, dan saya
+dan kunci publik saya adalah
+sekelompok besar n, dan saya
 
 620
 00:28:20,000 --> 00:28:21,590
@@ -2883,13 +2883,13 @@ Itu akan berhasil.
 
 623
 00:28:24,350 --> 00:28:26,240
-Tetapi Anda dapat melakukan jauh
-hal-hal yanglebih hebat
+Tetapi Anda dapat melakukan hal-hal 
+yang jauh lebih hebat
 
 624
 00:28:26,240 --> 00:28:29,360
-karena matematika
-sifat dari hal-hal ini.
+karena sifat matematika
+dari hal-hal ini.
 
 625
 00:28:29,360 --> 00:28:32,590
@@ -2906,10 +2906,9 @@ ini cukup keren
 Idenya adalah Anda dapat melakukan
 banyak perkalian
 
-
 628
 00:28:40,730 --> 00:28:43,580
-dan modul eksponensial.
+dan modulo eksponensial.
 
 629
 00:28:43,580 --> 00:28:47,810
@@ -2928,8 +2927,8 @@ faktor dari n,
 
 632
 00:28:53,180 --> 00:28:54,965
-Anda memiliki ini
-pintasan yang dapat Anda lakukan.
+Anda memiliki jalan pintas ini
+yang dapat Anda lakukan.
 
 633
 00:28:54,965 --> 00:28:56,840
@@ -2947,13 +2946,12 @@ konstanta-- ini semacam
 
 636
 00:29:02,090 --> 00:29:04,490
-sistem parameter.
+parameter sebuah sistem.
 
 637
 00:29:04,490 --> 00:29:06,560
 Jadi RSA digunakan hari ini di
 semua tempat.
-
 
 638
 00:29:06,560 --> 00:29:08,780
