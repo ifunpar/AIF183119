@@ -2385,113 +2385,113 @@ memiliki kepercayaan
 
 506
 00:20:56,270 --> 00:20:58,850
-that this coin is real.
+bahwa koin ini asli.
 
 507
 00:20:58,850 --> 00:21:03,678
-And later on Bob can say, I
-would like $1.00 for this coin
+Dan nanti Bob bisa bilang, saya 
+ingin $1.00 untuk koin ini
 
 508
 00:21:03,678 --> 00:21:05,720
-that I've just given you,
-or something like that.
+yang baru saya berikan ke kamu 
+atau sesuatu seperti itu.
 
 509
 00:21:05,720 --> 00:21:07,940
-Or Bob can have an
-account with the bank
+Atau Bob bisa mempunyai 
+sebuah akun dengan bank
 
 510
 00:21:07,940 --> 00:21:09,320
-and can maintain
-a balance there.
+dan bisa menyimpan 
+saldo disana.
 
 511
 00:21:11,940 --> 00:21:17,720
-So just to go through some
-of the pros and cons here,
+Jadi hanya untuk melewati beberapa
+pro dan kontra di sini,
 
 512
 00:21:17,720 --> 00:21:21,020
-OK, we've kind of done
-something where the bank's not
+OK, jadi kita sudah melakukan 
+sesuatu dimana bank tidak
 
 513
 00:21:21,020 --> 00:21:23,600
-in the middle, except the bank
-is still really in the middle.
+berada di tengah, namun bank 
+sebenarnya masih berada di tengah.
 
 514
 00:21:23,600 --> 00:21:28,850
-We're getting a step
-closer, but we're not there.
+Kita sudah menjadi lebih dekat 
+selangkah, tapi kita belum sampai kesana.
 
 515
 00:21:28,850 --> 00:21:33,080
-Alice can technically give
-Bob this electronic thing that
+Alice secara teknis bisa memberikan 
+Bob suatu benda elektronik yang bisa
 
 516
 00:21:33,080 --> 00:21:35,530
-represents value,
-but Bob still needs
+mempresentasikan sebuah nilai, 
+namun Bob masih butuh
 
 517
 00:21:35,530 --> 00:21:37,280
-to talk to the bank
-to make sure it's real
+untuk berbicara dengan bank 
+untuk memastikan benda itu asli
 
 518
 00:21:37,280 --> 00:21:38,660
-and it hasn't been double spent.
+dan belum digunakan dua kali.
 
 519
 00:21:38,660 --> 00:21:41,330
-And we still have this problem
-where the bank is the one who's
+Kita juga masih mempunyai masalah 
+ketika bank adalah pihak yang
 
 520
 00:21:41,330 --> 00:21:42,740
-minting these things.
+mencetak benda ini.
 
 521
 00:21:42,740 --> 00:21:44,600
-The bank can decide
-not to give Alice
+Bank bisa memutuskan untuk 
+tidak memberikan kepada Alice
 
 522
 00:21:44,600 --> 00:21:46,490
-a coin if it feels like it.
+sebuah koin jika mereka mau.
 
 523
 00:21:46,490 --> 00:21:48,080
-And we still have
-this privacy problem
+Kita juga masih memiliki 
+permasalahan privasi
 
 524
 00:21:48,080 --> 00:21:51,500
-because the secret number,
-the serial number that we
+karena nomor rahasia, 
+nomor serial yang kita
 
 525
 00:21:51,500 --> 00:21:54,410
-invent for the coin, can be
-linked across these payments.
+ciptakan untuk koin, bisa 
+dilacak dari pembayaran.
 
 526
 00:21:57,660 --> 00:22:00,530
-So there's this
-notion of something
+Jadi ada sebuah 
+gagasan mengenai sesuatu
 
 527
 00:22:00,530 --> 00:22:01,870
-called Chaumian e-cash.
+yang disebut Chaumian e-cash.
 
 528
 00:22:01,870 --> 00:22:04,070
-So David Chaumian
-is a cryptographer,
+Jadi David Chaumian 
+adalah seorang kriptografer,
 
 529
 00:22:04,070 --> 00:22:06,590
