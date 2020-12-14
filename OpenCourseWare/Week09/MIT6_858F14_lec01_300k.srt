@@ -3680,12 +3680,12 @@ sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
-membiarkan seseorang untuk
-mencoba dalam jumlah yang seenaknya
+memperbolehkan seseorang untuk
+mencoba login ke sebuah akun
 
 776
 00:32:38,670 --> 00:32:39,870
-untuk masuk ke sebuah akun.
+dalam jumlah tertentu.
 
 777
 00:32:39,870 --> 00:32:42,220
@@ -3718,16 +3718,16 @@ beberapa tebakan dalam sehari,
 
 783
 00:32:54,460 --> 00:32:56,217
-daripada jutaan tebakan.
+alih-alih jutaan tebakan.
 
 784
 00:32:56,217 --> 00:32:58,300
 Dan sebagai konsekuensinya, bahkan
-jika Anda tidak memiliki kata sandi
+jika Anda kata sandi Anda
 
 785
 00:32:58,300 --> 00:33:00,550
-yang baik, akan cukup sulit
+tidak cukup baik, akan cukup sulit
 bagi seseorang
 
 786
@@ -3742,7 +3742,7 @@ memiliki pencegahan penebakan
 788
 00:33:06,990 --> 00:33:10,210
 kata sandi atau, pada dasarnya,
-mundur, pada beberapa antarmuka,
+mempersulit penebakan, pada beberapa antarmuka,
 
 789
 00:33:10,210 --> 00:33:12,730
@@ -3820,7 +3820,7 @@ setelah membuat banyak tebakan.
 804
 00:33:46,780 --> 00:33:48,890
 Dan hal ini menyebabkan beberapa
-pembobolan yang tidak menguntungkan.
+pembobolan, yang sangat disayangkan.
 
 805
 00:33:48,890 --> 00:33:51,660
@@ -3868,7 +3868,7 @@ mekanismenya memiliki kesalahan di dalamnya.
 
 814
 00:34:12,250 --> 00:34:15,239
-Dia hanya lupa untuk menegakkan
+Dia hanya lupa untuk memastikan
 kebijakan dan mekanisme yang benar ini
 
 815
@@ -3882,7 +3882,7 @@ lagi dalam sistem,
 
 817
 00:34:19,520 --> 00:34:24,060
-di mana baru saja membuat kesalahan dan
+di mana baru saja ada kesalahan dan
 hal itu memiliki dampak yang cukup drastis
 
 818
@@ -3919,12 +3919,12 @@ percobaan menebak kata sandi.
 825
 00:34:42,982 --> 00:34:44,690
 Ada berbagai macam
-hal lain yang bisa Anda lupakan.
+hal lain yang bisa saja Anda lupakan.
 
 826
 00:34:44,690 --> 00:34:47,830
 Anda bisa lupa untuk memeriksa
-kontrol akses bersamaan.
+kontrol akses secara keseluruhan.
 
 827
 00:34:47,830 --> 00:34:53,179
@@ -3961,12 +3961,12 @@ semua barang bagus ini.
 
 834
 00:35:04,160 --> 00:35:08,480
-Dan alur kerjanya dalam beberapa
-tahun lalu adalah Anda pergi
+Dan beberapa tahun lalu
+cara kerjanya adalah Anda mengunjungi
 
 835
 00:35:08,480 --> 00:35:12,710
-ke sebuah situs, Anda memberikan sebuah
+sebuah situs, Anda mengisikan
 nama pengguna dan kata sandi,
 
 836
@@ -3977,12 +3977,12 @@ ke URL lain,
 837
 00:35:15,630 --> 00:35:18,130
 yang ternyata adalah sesuatu yang, saya
-tidak tahu, saya tebak,
+tidak tahu, saya menebaknya,
 
 838
 00:35:18,130 --> 00:35:23,190
 tapi pada dasarnya seperti
-citi.com/account?id= yang Anda tahu,
+citi.com/account?id= Anda tahu,
 
 839
 00:35:23,190 --> 00:35:26,640
@@ -3991,12 +3991,12 @@ apapun, satu dua tiga empat.
 840
 00:35:26,640 --> 00:35:29,422
 Dan ternyata beberapa
-orang mengetahuinya, baik,
+orang menemukan bahwa, baik,
 
 841
 00:35:29,422 --> 00:35:30,880
 jika Anda mengganti nomor
-ini, Anda hanya
+ini, Anda bisa
 
 842
 00:35:30,880 --> 00:35:33,910
@@ -4010,7 +4010,7 @@ bagaimana memikirkan hal ini.
 844
 00:35:37,510 --> 00:35:40,010
 Salah satu kemungkinannya adalah orang-orang
-ini hanya berpikir dengan benar,
+ini sudah berpikir dengan benar,
 
 845
 00:35:40,010 --> 00:35:43,020
@@ -4056,11 +4056,11 @@ model ancaman yang buruk, bukan?
 854
 00:35:58,640 --> 00:36:00,450
 mungkin mereka
-berpikir, URL--
+berpikir, URLnya--
 
 855
 00:36:00,450 --> 00:36:02,820
-jika saya tidak mencetak URL ini,
+jika saya tidak menampilkan URL ini,
 tidak akan ada yang bisa mengkliknya.
 
 856
@@ -4069,7 +4069,7 @@ Ini seperti model ancaman yang buruk.
 
 857
 00:36:04,190 --> 00:36:07,480
-jadi mungkin-- sulit
+jadi mungkin itu-- sulit
 untuk mengatakan dengan tepat apa
 
 858
@@ -4097,13 +4097,13 @@ konsekuensi yang sangat disayangkan.
 
 863
 00:36:24,430 --> 00:36:28,150
-Contoh lain yang tidak banyak
-ada dalam cek hilang
+Contoh lain yang tidak terkait
+pengecekan yang terlupakan
 
 864
 00:36:28,150 --> 00:36:30,990
 adalah masalah yang 
-muncul di telepon
+muncul di ponsel
 
 865
 00:36:30,990 --> 00:36:33,810
@@ -4136,7 +4136,7 @@ bekerja, pada level atas,
 
 871
 00:36:54,650 --> 00:36:58,710
-adalah dengan mengasosiasikan 
+adalah dengan mengasosiasikan
 saldo Bitcoin Anda
 
 872
@@ -4198,7 +4198,7 @@ terhadap kunci privat Anda.
 884
 00:37:25,550 --> 00:37:28,380
 Dan jika mereka berhasil menebaknya, maka
-mereka dapat mengirimkan Bitcoins Anda
+mereka dapat mengirimkan Bitcoin Anda
 
 885
 00:37:28,380 --> 00:37:30,220
