@@ -2407,51 +2407,51 @@ muncul sebagai duplikat lagi.
 
 506
 00:20:56,006 --> 00:20:57,630
-So that's the reason
-why you don't just
+Jadi itulah alasannya mengapa
+anda tidak hanya
 
 507
 00:20:57,630 --> 00:20:59,920
-choose random points,
-or they didn't initially
+memilih poin acak,
+atau sejak awal mereka
 
 508
 00:20:59,920 --> 00:21:01,374
-choose random points.
+tidak memilih poin acak.
 
 509
 00:21:01,374 --> 00:21:01,874
-Yeah.
+Ya.
 
 510
 00:21:01,874 --> 00:21:04,309
-AUDIENCE: So this is a
-problem between connections,
+AUDIENS: Jadi ini adalah masalah
+antar koneksi,
 
 511
 00:21:04,309 --> 00:21:06,910
-for a connection between the
-same guide, the same client,
+untuk koneksi antar guide yang sama,
+klien yang sama,
 
 512
 00:21:06,910 --> 00:21:09,410
-the same server, the same source
-port, the same destination.
+server yang sama, port sumber 
+yang sama, tujuan yang sama.
 
 513
 00:21:09,410 --> 00:21:11,012
-And we're worried
-about old packets--
+Dan kita khawatir
+tentang paket yang lama--
 
 514
 00:21:11,012 --> 00:21:13,565
-PROFESSOR: So this is what the
-original, yeah, TCP designers
+PROFESSOR: Jadi ini yang asli,
+Ya, desainer TCP
 
 515
 00:21:13,565 --> 00:21:14,810
-were worried about,
-which is why they
+yang kita khawatirkan,
+itulah sebabnya mereka
 
 516
 00:21:14,810 --> 00:21:16,696
