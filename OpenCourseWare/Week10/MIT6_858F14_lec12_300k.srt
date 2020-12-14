@@ -2374,7 +2374,7 @@ nomor urut awal di sini?
 
 499
 00:20:39,820 --> 00:20:42,530
-Dan itu akan terbentur 
+Dan nilainya akan dinaikkan
 setiap kali ada koneksi baru
 
 500
@@ -2383,12 +2383,12 @@ terbentuk.
 
 501
 00:20:43,440 --> 00:20:47,190
-Jadi harapannya adalah saat 
-membungkus sekitar 2 hingga 32
+Jadi harapannya adalah saat
+nilainya melewati sekitar 2 pangkat 32
 
 502
 00:20:47,190 --> 00:20:50,600
-dan kembali, 
+dan kembali lagi dari nol,
 sudah cukup waktu
 
 503
@@ -2398,17 +2398,17 @@ lama di jaringan
 
 504
 00:20:52,270 --> 00:20:54,283
-benar-benar telah dijatuhkan 
+benar-benar sudah hilang
 dan tidak akan
 
 505
 00:20:54,283 --> 00:20:56,006
-muncul sebagai duplikat lagi.
+muncul sebagai duplikat.
 
 506
 00:20:56,006 --> 00:20:57,630
 Jadi itulah alasannya mengapa
-anda tidak hanya
+Anda tidak sekedar
 
 507
 00:20:57,630 --> 00:20:59,920
@@ -2430,7 +2430,7 @@ antar koneksi,
 
 511
 00:21:04,309 --> 00:21:06,910
-untuk koneksi antar guide yang sama,
+untuk koneksi antar guide? yang sama,
 klien yang sama,
 
 512
@@ -2446,11 +2446,11 @@ tentang paket yang lama--
 514
 00:21:11,012 --> 00:21:13,565
 PROFESSOR: Jadi ini yang asli,
-Ya, desainer TCP
+yah, yang dikhawatirkan
 
 515
 00:21:13,565 --> 00:21:14,810
-yang kita khawatirkan,
+desainer TCP,
 itulah sebabnya mereka
 
 516
