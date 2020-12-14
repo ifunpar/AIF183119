@@ -2495,110 +2495,110 @@ adalah seorang kriptografer,
 
 529
 00:22:04,070 --> 00:22:06,590
-and he developed
-this system which
+dan dia mengembangkan 
+sistem dimana sistem ini 
 
 530
 00:22:06,590 --> 00:22:12,170
-has slightly nicer properties
-than previous forms of e-cash.
+memiliki sedikit properti yang lebih bagus 
+dibandingkan bentuk uang elektronik sebelumnya
 
 531
 00:22:12,170 --> 00:22:15,290
-So the idea here,
-which is really key,
+Jadi, ide disini yang merupakan
+sebuah kunci adalah,
 
 532
 00:22:15,290 --> 00:22:18,770
-is instead of the bank
-choosing the secret number,
+daripada bank yang memilih
+nomor rahasia, 
 
 533
 00:22:18,770 --> 00:22:20,990
-Alice chooses the secret number.
+Alice yang memilih nomor rahasia.
 
 534
 00:22:20,990 --> 00:22:23,780
-And we have ways of
-generating random numbers
+Dan kita memiliki banyak cara untuk
+menghasilkan angka secara acak
 
 535
 00:22:23,780 --> 00:22:26,070
-that we can be fairly
-sure are unique.
+yang kita dapat yakin mereka
+bersifat unik.
 
 536
 00:22:26,070 --> 00:22:29,700
-So we can let everybody generate
-their own random numbers.
+Jadi, kita menyuruh setiap orang
+menghasilkan angka acak yang mereka inginkan
 
 537
 00:22:29,700 --> 00:22:33,140
-So in Chaumian e-cash, Alice
-chooses the secret number
+Jadi dalam uang elektronik Chaumian ini,
+Alice memilih angka rahasia
 
 538
 00:22:33,140 --> 00:22:34,760
-that represents a coin.
+yang merepresentasikan sebuah koin.
 
 539
 00:22:34,760 --> 00:22:37,880
-And then Alice
-blinds her message.
+Kemudian Alice menutupi
+pesannya.
 
 540
 00:22:37,880 --> 00:22:42,020
-So Alice adds some randomness
-to the secret number such
+Jadi Alice menambahakn beberapa angka acak
+ke angka rahasia sedemikian rupa
 
 541
 00:22:42,020 --> 00:22:45,230
-that the bank doesn't know
-what that number actually is.
+sehingga bank tidak mengetahui
+angka apa yang sebenarnya dia pilih.
 
 542
 00:22:45,230 --> 00:22:48,140
-And we'll get into more detail
-about exactly what that means.
+Kemudian kita akan mendalami lebih detil
+mengenai maksud hal itu sebenarnya
 
 543
 00:22:48,140 --> 00:22:50,150
-It's all in the paper
-that was assigned
+Itu semua sudah berada dalam 
+kertas yang sudah ditentukan 
 
 544
 00:22:50,150 --> 00:22:51,710
-reading for this
-class, so make sure
+untuk dibaca bagi kelas ini,
+jadi pastikan 
 
 545
 00:22:51,710 --> 00:22:54,450
-that you take a look at it.
+kalian memperhatikan kertas tersebut.
 
 546
 00:22:54,450 --> 00:22:58,640
-So when the bank verifies that
-the secret number is a real
+Jadi ketika bank memverifikasi bahwa
+angka rahasia itu adalah sebuah
 
 547
 00:22:58,640 --> 00:23:00,260
-secret number and
-it's really a coin,
+angka rahasia yang nyata dan
+itu merupakan sebuah koin,
 
 548
 00:23:00,260 --> 00:23:03,530
-and Alice gave the bank
-$1.00 or something like that,
+dan Alice memberikan banknya
+1 dolar atau semacamnya,
 
 549
 00:23:03,530 --> 00:23:06,500
-the bank does so on the
-blinded secret number.
+maka bank melakukan hal yang
+sama pada angka rahasia yang tertutup
 
 550
 00:23:06,500 --> 00:23:08,180
-And Alice actually
-has the ability
+Dan Alice sebenarnya memiliki
+kemampuan
 
 551
 00:23:08,180 --> 00:23:11,330
