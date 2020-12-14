@@ -3680,227 +3680,227 @@ sistem Anda tidak
 
 775
 00:32:36,160 --> 00:32:38,670
-allow an arbitrary
-number of attempts
+memperbolehkan seseorang untuk
+mencoba login ke sebuah akun
 
 776
 00:32:38,670 --> 00:32:39,870
-to log in to an account.
+dalam jumlah tertentu.
 
 777
 00:32:39,870 --> 00:32:42,220
-Maybe after three
-or 10 tries, you
+Mungkin setelah tiga
+atau 10 kali mencoba, Anda
 
 778
 00:32:42,220 --> 00:32:44,950
-should say, well,
-you've had enough tries.
+seharusnya mengatakan, baiklah,
+Anda sudah cukup mencoba.
 
 779
 00:32:44,950 --> 00:32:45,740
-Time out.
+Waktu habis.
 
 780
 00:32:45,740 --> 00:32:48,360
-You can try again in 10
-minutes or in an hour.
+Anda dapat mencoba lagi dalam
+10 menit atau dalam satu jam.
 
 781
 00:32:48,360 --> 00:32:50,870
-And this way you really
-slow down the attacker.
+Dan dengan cara ini Anda benar-benar
+memperlambat si penyerang.
 
 782
 00:32:50,870 --> 00:32:54,460
-So they can only make a
-handful of guesses a day,
+Jadi mereka hanya bisa mencoba
+beberapa tebakan dalam sehari,
 
 783
 00:32:54,460 --> 00:32:56,217
-instead of millions of guesses.
+alih-alih jutaan tebakan.
 
 784
 00:32:56,217 --> 00:32:58,300
-And as a result, even if
-you have not the greatest
+Dan sebagai konsekuensinya, bahkan
+jika Anda kata sandi Anda
 
 785
 00:32:58,300 --> 00:33:00,550
-of passwords, it's going to
-be pretty hard for someone
+tidak cukup baik, akan cukup sulit
+bagi seseorang
 
 786
 00:33:00,550 --> 00:33:01,570
-to guess it.
+untuk menebaknya.
 
 787
 00:33:01,570 --> 00:33:06,990
-What would happen is that iCloud
-had this password guessing
+Apa yang akan terjadi adalah bahwa iCloud
+memiliki pencegahan penebakan
 
 788
 00:33:06,990 --> 00:33:10,210
-prevention or, basically,
-back off, on some interfaces,
+kata sandi atau, pada dasarnya,
+mempersulit penebakan, pada beberapa antarmuka,
 
 789
 00:33:10,210 --> 00:33:12,730
-like if you tried to log
-in through other interfaces
+seperti jika Anda mencoba masuk
+lewat antarmuka lain
 
 790
 00:33:12,730 --> 00:33:15,130
-and you failed 10 times,
-it would say, well, sorry.
+dan Anda gagal 10 kali,
+antarmuka tersebut akan mengatakan, yah, maaf.
 
 791
 00:33:15,130 --> 00:33:17,150
-You have to wait
-until you try again.
+Anda harus menunggu
+sampai Anda mencoba lagi.
 
 792
 00:33:17,150 --> 00:33:18,710
-But on this find my
-iPhone interface,
+Namun dalam antarmuka untuk
+temukan iPhone saya,
 
 793
 00:33:18,710 --> 00:33:19,669
-they forget this check.
+mereka lupa pengecekan ini.
 
 794
 00:33:19,669 --> 00:33:21,335
-That's probably, you
-know, some guy just
+Mungkin, Anda tahu,
+seseorang hanya
 
 795
 00:33:21,335 --> 00:33:23,300
-forgot to call this
-function on this API.
+lupa untuk memanggil fungsi
+ini dalam API ini.
 
 796
 00:33:23,300 --> 00:33:26,867
-But the result is that, for
-the same set of accounts,
+Namun hasilnya adalah, untuk
+sekumpulan akun yang sama,
 
 797
 00:33:26,867 --> 00:33:28,950
-a bad guy would be able
-to now guess your password
+orang jahat kini dapat
+menebak kata sandi Anda
 
 798
 00:33:28,950 --> 00:33:32,890
-through this interface at
-millions of attempts per day
+melalui antarmuka ini
+dengan jutaan percobaan per hari
 
 799
 00:33:32,890 --> 00:33:35,340
-easily, because this is just
-limited up to how fast they
+dengan mudahnya, karena hal ini hanya
+terbatas pada seberapa cepat mereka
 
 800
 00:33:35,340 --> 00:33:37,452
-can send packets to
-this iCloud thing.
+dapat mengirim paket
+ke perangkat iCloud ini.
 
 801
 00:33:37,452 --> 00:33:39,160
-And they can probably
-guess your password
+Dan mereka mungkin dapat
+menebak kata sandi Anda
 
 802
 00:33:39,160 --> 00:33:43,960
-with pretty good accuracy, or
-with pretty good success rate,
+dengan akurasi yang cukup baik, atau
+dengan tingkat keberhasilan yang cukup baik,
 
 803
 00:33:43,960 --> 00:33:46,780
-after making many guesses.
+setelah membuat banyak tebakan.
 
 804
 00:33:46,780 --> 00:33:48,890
-And this led to some
-unfortunate break ins.
+Dan hal ini menyebabkan beberapa
+pembobolan, yang sangat disayangkan.
 
 805
 00:33:48,890 --> 00:33:51,660
-And people's confidential
-data got stolen
+Dan data rahasia orang-orang
+dicuri
 
 806
 00:33:51,660 --> 00:33:54,870
-from this iCloud service.
+dari layanan iCloud ini.
 
 807
 00:33:54,870 --> 00:33:59,621
-So this is sort of an example
-of you had the right policy.
+Jadi ini adalah contoh
+di mana Anda memiliki kebijakan yang tepat.
 
 808
 00:33:59,621 --> 00:34:01,120
-Only the user and
-the right password
+Hanya pengguna dan
+kata sandi yang benar
 
 809
 00:34:01,120 --> 00:34:02,632
-would get you
-access to the files.
+yang akan memberi Anda
+akses ke file.
 
 810
 00:34:02,632 --> 00:34:04,090
-You even had the
-right threat model
+Anda bahkan memiliki
+model ancaman yang tepat
 
 811
 00:34:04,090 --> 00:34:06,810
-that, well, the bad guy might
-be able to guess the password.
+yang, yah, mungkin dapat orang jahat
+tebak kata sandinya.
 
 812
 00:34:06,810 --> 00:34:09,370
-So we'll have to break limit
-the number of guess attempts.
+Jadi kita harus mengurangi
+batas jumlah percobaan.
 
 813
 00:34:09,370 --> 00:34:12,250
-But he just screwed up, like
-the mechanism had a bug in it.
+Namun dia hanya mengacau, seperti
+mekanismenya memiliki kesalahan di dalamnya.
 
 814
 00:34:12,250 --> 00:34:15,239
-He just forgot to enforce this
-right policy and mechanism
+Dia hanya lupa untuk memastikan
+kebijakan dan mekanisme yang benar ini
 
 815
 00:34:15,239 --> 00:34:16,280
-at some interface.
+di beberapa antarmuka.
 
 816
 00:34:16,280 --> 00:34:19,520
-And this shows up again
-and again in systems,
+Dan hal ini muncul lagi dan
+lagi dalam sistem,
 
 817
 00:34:19,520 --> 00:34:24,060
-where just made a mistake and
-it has pretty drastic effects
+di mana baru saja ada kesalahan dan
+hal itu memiliki dampak yang cukup drastis
 
 818
 00:34:24,060 --> 00:34:27,000
-on the security of
-the overall system.
+pada keamanan sistem
+secara keseluruhan.
 
 819
 00:34:27,000 --> 00:34:28,960
-This make sense?
+Apakah ini masuk akal?
 
 820
 00:34:28,960 --> 00:34:30,320
-Any questions so far?
+Apakah ada pertanyaan sejauh ini?
 
 821
 00:34:33,290 --> 00:34:34,630
-All right.
+Baiklah.
 
 822
 00:34:34,630 --> 00:34:35,260
@@ -3908,320 +3908,320 @@ OK.
 
 823
 00:34:35,260 --> 00:34:39,149
-So another example-- this
-is sort of an example of you
+Jadi contoh lainnya-- ini
+adalah semacam contoh ketika Anda
 
 824
 00:34:39,149 --> 00:34:42,982
-forget to check for
-password guessing attempts.
+lupa untuk memeriksa
+percobaan menebak kata sandi.
 
 825
 00:34:42,982 --> 00:34:44,690
-There's many other
-things you can forget.
+Ada berbagai macam
+hal lain yang bisa saja Anda lupakan.
 
 826
 00:34:44,690 --> 00:34:47,830
-You could forget to check for
-access control altogether.
+Anda bisa lupa untuk memeriksa
+kontrol akses secara keseluruhan.
 
 827
 00:34:47,830 --> 00:34:53,179
-So one example is, Citibank
-had a website-- actually, still
+Jadi salah satu contoh adalah, Citibank
+memiliki sebuah situs web-- sebenarnya, masih
 
 828
 00:34:53,179 --> 00:34:57,150
-has a website that allows you
-to look at your credit card
+mempunyai sebuah situs web yang memperbolehkan Anda
+untuk melihat informasi akun
 
 829
 00:34:57,150 --> 00:34:58,280
-account information.
+kartu kredit milik Anda.
 
 830
 00:34:58,280 --> 00:34:59,560
-So if you have a credit
-card with Citibank,
+Jadi jika Anda memiliki sebuah kartu
+kredit Citibank,
 
 831
 00:34:59,560 --> 00:35:00,660
-you go to this
-website, it tells you,
+Anda pergi ke situs web ini,
+maka situs tersebut akan memberi tahu Anda,
 
 832
 00:35:00,660 --> 00:35:01,993
-yeah, you have this credit card.
+yah, Anda memiliki kartu kredit ini.
 
 833
 00:35:01,993 --> 00:35:04,160
-Here's all the charges,
-all this great stuff.
+Ini adalah semua tagihannya,
+semua barang bagus ini.
 
 834
 00:35:04,160 --> 00:35:08,480
-And the workflow a couple
-of years ago was that you go
+Dan beberapa tahun lalu
+cara kerjanya adalah Anda mengunjungi
 
 835
 00:35:08,480 --> 00:35:12,710
-to some site, you provide a
-log in username and password,
+sebuah situs, Anda mengisikan
+nama pengguna dan kata sandi,
 
 836
 00:35:12,710 --> 00:35:15,630
-and you get redirected
-to another URL,
+dan Anda dialihkan
+ke URL lain,
 
 837
 00:35:15,630 --> 00:35:18,130
-which is something like, I
-don't know, I'm guessing,
+yang ternyata adalah sesuatu yang, saya
+tidak tahu, saya menebaknya,
 
 838
 00:35:18,130 --> 00:35:23,190
-but basically like
-citi.com/account?id= you know,
+tapi pada dasarnya seperti
+citi.com/account?id= Anda tahu,
 
 839
 00:35:23,190 --> 00:35:26,640
-whatever, one two three four.
+apapun, satu dua tiga empat.
 
 840
 00:35:26,640 --> 00:35:29,422
-And it turns out that some
-guy figured out, well,
+Dan ternyata beberapa
+orang menemukan bahwa, baik,
 
 841
 00:35:29,422 --> 00:35:30,880
-if you change this
-number, you just
+jika Anda mengganti nomor
+ini, Anda bisa
 
 842
 00:35:30,880 --> 00:35:33,910
-get someone else's account.
+mendapatkan akun milik seseorang.
 
 843
 00:35:33,910 --> 00:35:37,510
-And it's not clear quite
-how to think of this.
+Dan tidak begitu jelas
+bagaimana memikirkan hal ini.
 
 844
 00:35:37,510 --> 00:35:40,010
-One possibility is that these
-guys were just thinking right,
+Salah satu kemungkinannya adalah orang-orang
+ini sudah berpikir dengan benar,
 
 845
 00:35:40,010 --> 00:35:43,020
-but they, again, forgot to
-check a function in this account
+tetapi mereka, sekali lagi, lupa
+memeriksa fungsi di halaman
 
 846
 00:35:43,020 --> 00:35:46,646
-page that, not only do I
-have a valid ID number,
+akun ini, tidak hanya apakah saya
+memiliki nomor ID yang valid,
 
 847
 00:35:46,646 --> 00:35:48,520
-but it's also the ID
-number of the guy that's
+tetapi juga nomor ID
+dari seseorang yang
 
 848
 00:35:48,520 --> 00:35:50,480
-currently logged in.
+sekarang sedang masuk.
 
 849
 00:35:50,480 --> 00:35:51,950
-It's an important check to me.
+Ini pemeriksaan penting bagi saya.
 
 850
 00:35:51,950 --> 00:35:53,759
-But it's easy to forget.
+Namun pemeriksaan tersebut mudah dilupakan.
 
 851
 00:35:53,759 --> 00:35:55,800
-Another thing is, maybe
-these guys were thinking,
+Hal lainnya adalah, mungkin
+orang-orang ini berpikir
 
 852
 00:35:55,800 --> 00:35:56,932
-no, no one could hit URLs.
+tidak, tidak ada yang bisa mengakses URL.
 
 853
 00:35:56,932 --> 00:35:58,640
-Maybe they had a bad
-threat model, right?
+Mungkin mereka memiliki
+model ancaman yang buruk, bukan?
 
 854
 00:35:58,640 --> 00:36:00,450
-Maybe they're
-thinking, the URL--
+mungkin mereka
+berpikir, URLnya--
 
 855
 00:36:00,450 --> 00:36:02,820
-if I don't print this URL,
-no one can click on it.
+jika saya tidak menampilkan URL ini,
+tidak akan ada yang bisa mengkliknya.
 
 856
 00:36:02,820 --> 00:36:04,190
-It's like a bad threat model.
+Ini seperti model ancaman yang buruk.
 
 857
 00:36:04,190 --> 00:36:07,480
-So maybe that's-- well, it's
-hard to tell exactly what went
+jadi mungkin itu-- sulit
+untuk mengatakan dengan tepat apa
 
 858
 00:36:07,480 --> 00:36:08,160
-wrong.
+yang salah.
 
 859
 00:36:08,160 --> 00:36:10,280
-But anyway, these
-mistakes do happen.
+Namun bagaimanapun,
+kesalahan ini bisa terjadi.
 
 860
 00:36:10,280 --> 00:36:12,860
-And they show up a lot.
+Dan mereka sering muncul.
 
 861
 00:36:12,860 --> 00:36:17,620
-So easy to have
-small, seemingly, bugs
+Sangat mudah untuk mempunyai
+kesalahan yang kecil, yang tampaknya seperti kesalahan
 
 862
 00:36:17,620 --> 00:36:24,430
-in your mechanism lead to
-pretty unfortunate consequences.
+dalam mekanisme anda yang menyebabkan
+konsekuensi yang sangat disayangkan.
 
 863
 00:36:24,430 --> 00:36:28,150
-Another example that's not
-so much in missing checks
+Contoh lain yang tidak terkait
+pengecekan yang terlupakan
 
 864
 00:36:28,150 --> 00:36:30,990
-is a problem that
-showed up on Android
+adalah masalah yang 
+muncul di ponsel
 
 865
 00:36:30,990 --> 00:36:33,810
-phones a couple of months ago.
+Android beberapa bulan lalu.
 
 866
 00:36:33,810 --> 00:36:38,070
-Maybe I'll use this
-board over here.
+Mungkin saya akan 
+menggunakan papan yang di sini.
 
 867
 00:36:38,070 --> 00:36:42,110
-So the problem was related to
-Bitcoin, which is this-- well,
+Jadi masalahnya berhubungan dengan 
+Bitcoin, yang mana-- yah,
 
 868
 00:36:42,110 --> 00:36:44,480
-I'm sure you've heard--
-this electronic currency
+saya yakin kalian pernah mendengar--
+sistem mata uang elektronik
 
 869
 00:36:44,480 --> 00:36:47,770
-system that's pretty
-popular these days.
+yang cukup
+populer belakangan ini.
 
 870
 00:36:47,770 --> 00:36:54,650
-And the way that Bitcoin
-works, at a very high level,
+Dan cara Bitcoin
+bekerja, pada level atas,
 
 871
 00:36:54,650 --> 00:36:58,710
-is that your balance
-of Bitcoins is
+adalah dengan mengasosiasikan
+saldo Bitcoin Anda
 
 872
 00:36:58,710 --> 00:37:00,900
-associated with a private key.
+dengan sebuah kunci privat.
 
 873
 00:37:00,900 --> 00:37:03,000
-And if you have
-someone's private key
+Dan jika kalian memiliki
+kunci privat seseorang
 
 874
 00:37:03,000 --> 00:37:05,770
-you can, of course,
-spend their Bitcoins.
+kalian tentu saja bisa,
+menghabiskan Bitcoin mereka.
 
 875
 00:37:05,770 --> 00:37:10,610
-So the security of Bitcoin
-relies quite heavily
+Jadi keamanan dari Bitcoin
+cukup bergantung
 
 876
 00:37:10,610 --> 00:37:13,410
-on no one else knowing
-your private key.
+pada tidak ada orang lain yang mengetahui
+kunci privat Anda.
 
 877
 00:37:13,410 --> 00:37:15,720
-It's kind of like a password,
-except it's even more
+Ini cukup mirip dengan sebuah kata sandi,
+kecuali ini jauh lebih
 
 878
 00:37:15,720 --> 00:37:18,397
-important, because people can
-probably make lots of guesses
+penting, karena orang dapat
+membuat banyak tebakan
 
 879
 00:37:18,397 --> 00:37:19,230
-at your private key.
+pada kunci privat Anda.
 
 880
 00:37:19,230 --> 00:37:21,396
-And there's no real server
-that's checking your key.
+Dan tidak ada server sungguhan
+yang memeriksa kunci Anda.
 
 881
 00:37:21,396 --> 00:37:22,390
-It's just cryptography.
+Ini hanya kriptografi.
 
 882
 00:37:22,390 --> 00:37:24,717
-So any machine can try
-to make lots of guesses
+Jadi banyak mesin yang bisa mencoba
+membuat banyak tebakan
 
 883
 00:37:24,717 --> 00:37:25,550
-at your private key.
+terhadap kunci privat Anda.
 
 884
 00:37:25,550 --> 00:37:28,380
-And if they guess it, then
-they can transfer your Bitcoins
+Dan jika mereka berhasil menebaknya, maka
+mereka dapat mengirimkan Bitcoin Anda
 
 885
 00:37:28,380 --> 00:37:30,220
-to someone else.
+ke orang lain.
 
 886
 00:37:30,220 --> 00:37:32,340
-And as a result, it's
-critically important
+Dan sebagai konsekuensinya, ini
+sangatlah penting
 
 887
 00:37:32,340 --> 00:37:34,910
-that you generate
-good, random keys
+bagi Anda untuk membangkitkan
+kunci yang baik dan acak
 
 888
 00:37:34,910 --> 00:37:36,980
-that no one else can guess.
+sehingga tidak ada yang bisa menebaknya.
 
 889
 00:37:36,980 --> 00:37:41,220
-And there are people
-using Bitcoin on Android.
+Dan ada orang-orang yang menggunakan
+Bitcoin di Android.
 
 890
 00:37:41,220 --> 00:37:45,450
