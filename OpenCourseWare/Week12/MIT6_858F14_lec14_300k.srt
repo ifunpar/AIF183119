@@ -2371,274 +2371,274 @@ tapi tidak terlalu bagus untuk segi keamanan.
 
 500
 00:22:35,690 --> 00:22:39,620
-And there's two problems
-that you might worry about
+Dan ada dua masalah
+yang Anda mungkin akan khawatirkan
 
 501
 00:22:39,620 --> 00:22:40,860
-with certificates.
+terkait sertifikat.
 
 502
 00:22:40,860 --> 00:22:44,030
-One is that Maybe
-the CA's screwed up.
+Pertama adalah bahwa mungkin
+CA tersebut mengacau.
 
 503
 00:22:44,030 --> 00:22:47,710
-So maybe the CA issued a
-certificate for the wrong name.
+Sehingga mungkin CA tersebut menerbitkan sebuah
+sertifikat untuk nama yang salah.
 
 504
 00:22:47,710 --> 00:22:49,190
-Like, they weren't very careful.
+Seperti, mereka tidak sangat berhati-hati.
 
 505
 00:22:49,190 --> 00:22:50,856
-And accidentally, I
-ask them to give you
+Dan secara tidak sengaja, saya
+meminta mereka untuk memberi Anda
 
 506
 00:22:50,856 --> 00:22:53,297
-a certificate for amazon.com,
-and they just slipped up
+sebuah sertifikat untuk amazon.com,
+dan mereka ceroboh
 
 507
 00:22:53,297 --> 00:22:54,380
-and said, all right, sure.
+dan mengatakan, baiklah, tentu saja.
 
 508
 00:22:54,380 --> 00:22:54,975
-That's amazon.com.
+Itu adalah amazon.com.
 
 509
 00:22:54,975 --> 00:22:56,599
-I will give you a
-certificate for that.
+Saya akan memberikan Anda sebuah
+sertifikat untuk itu.
 
 510
 00:22:56,599 --> 00:22:58,860
-So that seems like a
-problem on the CA side.
+Jadi itu terlihat seperti sebuah
+masalah pada sisi CA.
 
 511
 00:22:58,860 --> 00:23:00,412
-So they miss-issued
-a certificate.
+Jadi mereka salah menerbitkan
+sebuah sertifikat.
 
 512
 00:23:00,412 --> 00:23:02,870
-And that's one way that you
-could end up with a certificate
+Dan itu salah satu cara Anda
+bisa mendapatkan sertifikat
 
 513
 00:23:02,870 --> 00:23:05,550
-that you wish no longer
-existed, because you
+yang Anda inginkan tidak ada
+lagi, karena Anda
 
 514
 00:23:05,550 --> 00:23:07,180
-signed the wrong thing.
+menandatangani hal yang salah.
 
 515
 00:23:07,180 --> 00:23:09,375
-Another possibility
-is that they CA
+Kemungkinan lain
+adalah bahwa CA
 
 516
 00:23:09,375 --> 00:23:11,440
-does the right thing,
-but then the person who
+melakukan hal yang benar,
+tetapi kemudian orang yang
 
 517
 00:23:11,440 --> 00:23:14,110
-had the certificate I
-accidentally disclosed
+memiliki sertifikat saya
+secara tidak sengaja mengungkapkan
 
 518
 00:23:14,110 --> 00:23:17,220
-the secret key, or someone stole
-the secret key corresponding
+kunci rahasia, atau seseorang mencuri
+kunci rahasia yang sesuai
 
 519
 00:23:17,220 --> 00:23:19,130
-to the public key
-in the certificate.
+dengan kunci publik
+dalam sertifikat.
 
 520
 00:23:19,130 --> 00:23:21,780
-So this means that
-certificate no longer says
+Jadi ini berarti bahwa
+sertifikat tidak lagi mengatakan
 
 521
 00:23:21,780 --> 00:23:23,380
-what you think it might mean.
+seperti apa yang Anda pikirkan.
 
 522
 00:23:23,380 --> 00:23:27,730
-Even though this says
-amazon.com's key is this,
+Meskipun ini mengatakan
+kunci amazon.com adalah ini,
 
 523
 00:23:27,730 --> 00:23:29,285
-actually every one
-in the world has
+pada hakekatnya semua orang
+di dunia memiliki
 
 524
 00:23:29,285 --> 00:23:31,201
-the corresponding secret
-key because posted it
+kunci rahasia yang berkaitan
+karena mereka menaruhnya
 
 525
 00:23:31,201 --> 00:23:31,910
-on the internet.
+di internet.
 
 526
 00:23:31,910 --> 00:23:34,425
-So you can't really
-learn much from someone
+Jadi Anda tidak dapat mempelajari
+banyak hal dari seseorang
 
 527
 00:23:34,425 --> 00:23:36,966
-sending you a message signed by
-the corresponding secret key,
+yang mengirim Anda sebuah pesan yang ditandatangani oleh
+kunci rahasi yang berkaitan,
 
 528
 00:23:36,966 --> 00:23:40,187
-because it could've been anyone
-that stole the secret key.
+karena bisa siapa saja
+yang telah mencuri kunci rahasia itu.
 
 529
 00:23:40,187 --> 00:23:41,770
-So that's another
-reason why you might
+Jadi hal itu alasan
+lain mengapa Anda mungkin
 
 530
 00:23:41,770 --> 00:23:44,250
-want to revoke a certificate.
+ingin menghapus sebuah sertifikat.
 
 531
 00:23:44,250 --> 00:23:47,220
-And revoking certificates
-is pretty messy.
+Dan menghapus sertifikat
+merupakan suatu hal yang rumit.
 
 532
 00:23:47,220 --> 00:23:51,100
-There's not really
-a great plan for it.
+Tidak ada
+cara paling bagus untuk hal tersebut.
 
 533
 00:23:51,100 --> 00:23:56,340
-The two alternatives
-that people have tried
+Dua cara
+yang telah dicoba oleh orang-orang
 
 534
 00:23:56,340 --> 00:24:00,690
-are to basically publish
-a list of all revoked
+pada dasarnya mempublikasikan
+daftar semua
 
 535
 00:24:00,690 --> 00:24:01,800
-certificates in the world.
+sertifikat yang dicabut di dunia.
 
 536
 00:24:01,800 --> 00:24:04,630
-This Is something called
-certificate revocation
+Ini adalah sesuatu yang disebut 
+daftar pencabutan
 
 537
 00:24:04,630 --> 00:24:06,550
-list, or CRLs.
+sertifikat (Certificate Revocation List), atau CRLs.
 
 538
 00:24:06,550 --> 00:24:09,800
-And the way this works
-is that every certificate
+Dan cara kerjanya 
+adalah setiap otoritas
 
 539
 00:24:09,800 --> 00:24:11,830
-authority issues
-these certificates,
+sertifikat mengeluarkan
+sertifikat ini,
 
 540
 00:24:11,830 --> 00:24:15,040
-but then on the side, it
-maintains a list of mistakes.
+tetapi di samping itu
+ia menyimpan daftar kesalahan.
 
 541
 00:24:15,040 --> 00:24:16,460
-These are things
-that it realized
+Ini adalah hal-hal
+yang disadari
 
 542
 00:24:16,460 --> 00:24:18,126
-they screwed up and
-issued a certificate
+bahwa mereka mengacau dan
+mengeluarkan sertifikat
 
 543
 00:24:18,126 --> 00:24:20,320
-under the wrong name, or
-our customers come to them
+dengan nama yang salah, atau
+pelanggan kami mendatangi mereka
 
 544
 00:24:20,320 --> 00:24:22,070
-and say, hey, you
-issued me a certificate.
+dan berkata, hei, Anda 
+memberi saya sertifikat.
 
 545
 00:24:22,070 --> 00:24:23,380
-Everything was going great.
+Semuanya berjalan dengan baik.
 
 546
 00:24:23,380 --> 00:24:25,020
-But someone then got
-rude on my machine
+Tapi kemudian seseorang
+merusak mesin saya
 
 547
 00:24:25,020 --> 00:24:26,370
-and stole the private key.
+dan mencuri kunci privat.
 
 548
 00:24:26,370 --> 00:24:29,570
-Please tell the world that my
-certificate is no good anymore.
+Tolong beritahu kepada seluruh dunia bahwa
+sertifikat saya sudah tidak bagus lagi.
 
 549
 00:24:29,570 --> 00:24:31,570
-So this certificate
-authority, in principle,
+Jadi otoritas sertifikat
+ini, pada dasarnya,
 
 550
 00:24:31,570 --> 00:24:36,260
-could add stuff to this CRL, and
-then clients like web browsers
+dapat menambahkan sesuatu ke CRL ini, dan
+klien seperti peramban web
 
 551
 00:24:36,260 --> 00:24:39,309
-are supposed to download
-this CRL periodically.
+seharusnya mengunduh
+CRL ini secara periodik.
 
 552
 00:24:39,309 --> 00:24:41,600
-And then whenever they're
-presented with a certificate,
+Lalu setiap kali mereka 
+diberikan sebuah sertifikat,
 
 553
 00:24:41,600 --> 00:24:43,100
-they should check
-if the certificate
+mereka harus memeriksa
+jika sertifikat tersebut
 
 554
 00:24:43,100 --> 00:24:45,689
-appears in this revoked list.
+muncul dalam daftar sertifikat yang dicabut ini.
 
 555
 00:24:45,689 --> 00:24:47,105
-And it shows up
-there, then should
+Dan itu muncul
+disana, lalu seharusnya
 
 556
 00:24:47,105 --> 00:24:49,850
-say that certificate's no good.
+mengatakan bahwa sertifikat itu tidak bagus.
 
 557
 00:24:49,850 --> 00:24:51,384
