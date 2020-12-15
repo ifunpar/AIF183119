@@ -1432,7 +1432,7 @@ SRINIVAS DEVADAS: Ya.
 
 303
 00:16:30,065 --> 00:16:34,572
-Penonton: Dan kemudian Bob
+AUDIENS: Dan kemudian Bob
 juga dapat mengunci kotaknya.
 
 304
@@ -2467,290 +2467,290 @@ untuk mendapatkan informasi yang krusial.
 
 525
 00:29:32,190 --> 00:29:34,890
-That requires the computational
-hardness assumption
+Itu membutuhkan asumsi 
+kompleksitas komputasi
 
 526
 00:29:34,890 --> 00:29:36,760
-like the two that
-we've made here.
+seperti dua hal yang
+telah kita buat di sini.
 
 527
 00:29:36,760 --> 00:29:39,100
-And then you're off and running.
+Dan kemudian Anda bisa melanjutkannya.
 
 528
 00:29:39,100 --> 00:29:42,060
-Your system will break if
-your computational hardness
+Sistem Anda akan rusak 
+jika asumsi kompleksitas
 
 529
 00:29:42,060 --> 00:29:44,010
-assumptions are incorrect.
+komputasi Anda salah.
 
 530
 00:29:44,010 --> 00:29:46,500
-And they may be correct
-for a particular time,
+Dan mereka mungkin benar 
+untuk waktu tertentu,
 
 531
 00:29:46,500 --> 00:29:49,910
-for example, the 1970s
-for particular parameters.
+misalnya, tahun 1970-an
+untuk parameter tertentu.
 
 532
 00:29:49,910 --> 00:29:53,120
-But they may end up being
-incorrect assumptions,
+Tetapi mereka mungkin berakhir 
+menjadi asumsi yang salah,
 
 533
 00:29:53,120 --> 00:29:57,180
-at least for those parameters,
-at a later point of time,
+setidaknya untuk parameter tersebut,
+di lain waktu,
 
 534
 00:29:57,180 --> 00:30:00,160
-simply because
-computers got faster.
+hanya karena komputer
+menjadi lebih cepat.
 
 535
 00:30:00,160 --> 00:30:03,110
-It's like 2 raised to 40
-was this huge number when
+Ini seperti 2 dipangkatkan 40 
+adalah angka yang besar ketika
 
 536
 00:30:03,110 --> 00:30:04,320
-I was your age.
+saya seusia Anda.
 
 537
 00:30:04,320 --> 00:30:05,840
-Now, it's like nothing.
+Sekarang, tidak seperti apa-apa.
 
 538
 00:30:05,840 --> 00:30:08,350
-So that's basically
-part of the game.
+Jadi itu pada dasarnya
+bagian dari permainan.
 
 539
 00:30:08,350 --> 00:30:12,670
-But the good systems are those
-that scale where you increase
+Tetapi sistem yang baik adalah sistem
+yang bisa menyesuaikan saat Anda meningkatkan
 
 540
 00:30:12,670 --> 00:30:16,470
-the parameter size and the
-system and the protocol
+ukuran parameter dan
+sistem dan protokol
 
 541
 00:30:16,470 --> 00:30:17,950
-stays the same.
+tetap sama.
 
 542
 00:30:17,950 --> 00:30:22,510
-And so you just increase p,
-for example, in this case.
+Dan Anda hanya meningkatkan p,
+sebagai contoh, dalam kasus ini.
 
 543
 00:30:22,510 --> 00:30:24,300
-And the discrete
-long problem is still
+Dan masalah diskrit
+yang panjang tetap
 
 544
 00:30:24,300 --> 00:30:26,400
-hard for modern computers.
+sulit untuk komputer modern.
 
 545
 00:30:26,400 --> 00:30:29,600
-So those are the good protocols
-and the good cryptosystems that
+Jadi itu adalah protokol yang baik
+dan kriptosistem yang baik yang
 
 546
 00:30:29,600 --> 00:30:31,950
-stand the test of
-time, not necessarily
+tidak lekang oleh
+waktu, belum tentu
 
 547
 00:30:31,950 --> 00:30:36,850
-the ones that have exactly
-particular parameters.
+yang memiliki
+parameter tertentu.
 
 548
 00:30:36,850 --> 00:30:37,610
-That's hard to do.
+Itu sulit dilakukan.
 
 549
 00:30:37,610 --> 00:30:40,650
-Because as I said,
-Moore's law and computers
+Karena seperti yang saya katakan,
+Hukum Moore's dan komputer
 
 550
 00:30:40,650 --> 00:30:43,740
-have been getting really
-exponentially faster.
+telah menjadi sangat
+cepat secara eksponensial.
 
 551
 00:30:43,740 --> 00:30:45,830
-All right.
+Baiklah.
 
 552
 00:30:45,830 --> 00:30:51,350
-So there's one main problem
-with the Diffie-Hellman protocol
+Dan ada satu maslaah utama
+dari protokol Diffie-Hellman
 
 553
 00:30:51,350 --> 00:30:54,020
-and the solution to
-our pirate puzzle.
+dan solusi dari
+teka-teki bajak laut.
 
 554
 00:30:54,020 --> 00:30:57,167
-And so can someone tell
-me-- and it could be just
+Dan jadi apakah seseorang dapat memberitahu
+saya-- dan itu dapat hanya
 
 555
 00:30:57,167 --> 00:30:59,250
-for the sake of the
-Diffie-Hellman problem or just
+untuk masalah
+Diffie-Hellman atau hanya
 
 556
 00:30:59,250 --> 00:31:01,130
-in the context of the
-Diffie-Hellman problem,
+dalam konteks 
+masalah Diffie-Hellman,
 
 557
 00:31:01,130 --> 00:31:05,290
-but also in the context of the
-pirate puzzle-- what assumption
+tetapi juga dalam konteks
+teka-teki bajak laut-- apa asumsi
 
 558
 00:31:05,290 --> 00:31:08,690
-are we making here
-that's as yet unstated
+yang kita buat disini
+yang belum disebutkan
 
 559
 00:31:08,690 --> 00:31:14,560
-with respect to this secure key
-exchange being actually secure?
+sehubungan dengan pertukaran kunci
+menjadi benar-benar aman?
 
 560
 00:31:14,560 --> 00:31:16,080
-Someone.
+Seseorang.
 
 561
 00:31:16,080 --> 00:31:17,556
-Yeah.
+Ya.
 
 562
 00:31:17,556 --> 00:31:21,500
-AUDIENCE: If I were to intercept
-a message from [INAUDIBLE]
+AUDIENS: jika saya dapat memotong
+pesan dari [tidak terdengar]
 
 563
 00:31:21,500 --> 00:31:22,990
-something of their own back?
+sesuatu yang berada di belakang mereka?
 
 564
 00:31:22,990 --> 00:31:25,060
 SRINIVAS DEVADAS:
-What does that mean?
+Apa artinya?
 
 565
 00:31:25,060 --> 00:31:26,820
-The pirates see a locked box.
+Bajak laut melihat kotak terkunci.
 
 566
 00:31:26,820 --> 00:31:29,650
-So the first step of
-the protocol, Alice
+Jadi langkah pertama dari
+protokol, Alice
 
 567
 00:31:29,650 --> 00:31:32,470
-is sending a message
-inside a locked box
+mengirim pesan
+ke dalam kotak terkunci
 
 568
 00:31:32,470 --> 00:31:33,740
-with a single lock in it.
+dengan satu gembok didalamnya.
 
 569
 00:31:36,520 --> 00:31:38,120
-You're kind of on
-the right track.
+Anda berada di
+jalur yang benar.
 
 570
 00:31:38,120 --> 00:31:43,340
-And what could the pirates do
-in order to break this protocol?
+Dan apa yang bajak laut dapat lakukan
+untuk memecahkan protokol ini?
 
 571
 00:31:43,340 --> 00:31:45,250
-We've kind of made
-an assumption here.
+Kita seperti membuat
+asumsi disni.
 
 572
 00:31:45,250 --> 00:31:47,955
-And I might have
-said it explicitly.
+Dan saya mungkin
+mengatakan itu secara eksplisit.
 
 573
 00:31:47,955 --> 00:31:48,580
-Yeah, go ahead.
+Ya, silakan.
 
 574
 00:31:48,580 --> 00:31:50,350
-AUDIENCE: [INAUDIBLE]
-throw the box away.
+AUDIENS: [TIDAK TERDENGAR] 
+buang kotak tersebut.
 
 575
 00:31:50,350 --> 00:31:51,230
-SRINIVAS DEVADAS: They could
-just throw the box away.
+SRINIVAS DEVADAS: Mereka bisa 
+saja membuang kotak tersebut.
 
 576
 00:31:51,230 --> 00:31:53,396
-But that doesn't break the
-security of the protocol.
+Tetapi itu tidak melanggar
+protokol keamanan tersebut.
 
 577
 00:31:53,396 --> 00:31:56,565
-That breaks the functionality
-of the protocol, right?
+Itu melanggar fungsi
+dari protokol tersebut, kan?
 
 578
 00:31:56,565 --> 00:31:57,190
-Yeah, go ahead.
+Ya, silakan.
 
 579
 00:31:57,190 --> 00:31:58,770
-AUDIENCE: Put their old
-lock on [INAUDIBLE].
+AUDIENS: Pasang kunci 
+lama mereka pada [TIDAK TERDENGAR].
 
 580
 00:31:58,770 --> 00:32:00,561
-SRINIVAS DEVADAS: Ah,
-that's exactly right,
+SRINIVAS DEVADAS: Ah, 
+itu sangat benar
 
 581
 00:32:00,561 --> 00:32:01,680
-put their own lock on it.
+simpan kunci mereka sendiri di dalamnya.
 
 582
 00:32:01,680 --> 00:32:05,051
-You know, if they had locks-- so
-these pirates don't have locks,
+Anda tahu, jika mereka mempunyai kunci-- jadi
+para pembajak ini tidak punya kunci,
 
 583
 00:32:05,051 --> 00:32:05,550
-right?
+benar kan?
 
 584
 00:32:05,550 --> 00:32:06,758
-We're making that assumption.
+Kita membuat asumsi tersebut.
 
 585
 00:32:06,758 --> 00:32:09,330
-If they had their
-own lock with a key,
+Jika mereka memiliki 
+kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
