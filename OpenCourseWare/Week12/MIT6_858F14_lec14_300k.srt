@@ -2372,16 +2372,16 @@ tapi tidak terlalu bagus untuk segi keamanan.
 500
 00:22:35,690 --> 00:22:39,620
 Dan ada dua masalah
-yang anda mungkin akan khawatirkan
+yang Anda mungkin akan khawatirkan
 
 501
 00:22:39,620 --> 00:22:40,860
-dengan sertifikat.
+terkait sertifikat.
 
 502
 00:22:40,860 --> 00:22:44,030
 Pertama adalah bahwa mungkin
-CA tersebut kacau.
+CA tersebut mengacau.
 
 503
 00:22:44,030 --> 00:22:47,710
@@ -2395,12 +2395,12 @@ Seperti, mereka tidak sangat berhati-hati.
 505
 00:22:49,190 --> 00:22:50,856
 Dan secara tidak sengaja, saya
-meminta mereka untuk memberi anda
+meminta mereka untuk memberi Anda
 
 506
 00:22:50,856 --> 00:22:53,297
 sebuah sertifikat untuk amazon.com,
-dan mereka tergelincir
+dan mereka ceroboh
 
 507
 00:22:53,297 --> 00:22:54,380
@@ -2412,13 +2412,13 @@ Itu adalah amazon.com.
 
 509
 00:22:54,975 --> 00:22:56,599
-Saya akan memberikan anda sebuah
+Saya akan memberikan Anda sebuah
 sertifikat untuk itu.
 
 510
 00:22:56,599 --> 00:22:58,860
 Jadi itu terlihat seperti sebuah
-masalah pada sisi CA tersebut
+masalah pada sisi CA.
 
 511
 00:22:58,860 --> 00:23:00,412
@@ -2427,13 +2427,13 @@ sebuah sertifikat.
 
 512
 00:23:00,412 --> 00:23:02,870
-Dan itu salah satu cara Anda 
+Dan itu salah satu cara Anda
 bisa mendapatkan sertifikat
 
 513
 00:23:02,870 --> 00:23:05,550
-yang Anda inginkan tidak ada 
-lagi, karena Anda 
+yang Anda inginkan tidak ada
+lagi, karena Anda
 
 514
 00:23:05,550 --> 00:23:07,180
@@ -2442,7 +2442,7 @@ menandatangani hal yang salah.
 515
 00:23:07,180 --> 00:23:09,375
 Kemungkinan lain
-adalah bahwa mereka CA 
+adalah bahwa CA
 
 516
 00:23:09,375 --> 00:23:11,440
@@ -2451,17 +2451,17 @@ tetapi kemudian orang yang
 
 517
 00:23:11,440 --> 00:23:14,110
-memiliki sertifikat Saya 
+memiliki sertifikat saya
 secara tidak sengaja mengungkapkan
 
 518
 00:23:14,110 --> 00:23:17,220
-kunci rahasia, atau seseorang mencuri 
-kunci rahasia yang sesuai 
+kunci rahasia, atau seseorang mencuri
+kunci rahasia yang sesuai
 
 519
 00:23:17,220 --> 00:23:19,130
-dengan kunci publik 
+dengan kunci publik
 dalam sertifikat.
 
 520
@@ -2471,11 +2471,11 @@ sertifikat tidak lagi mengatakan
 
 521
 00:23:21,780 --> 00:23:23,380
-apa yang menurut Anda mungkin berarti.
+seperti apa yang Anda pikirkan.
 
 522
 00:23:23,380 --> 00:23:27,730
-Meskipun ini mengatakan 
+Meskipun ini mengatakan
 kunci amazon.com adalah ini,
 
 523
@@ -2486,7 +2486,7 @@ di dunia memiliki
 524
 00:23:29,285 --> 00:23:31,201
 kunci rahasia yang berkaitan
-karena mereka mempostingnya
+karena mereka menaruhnya
 
 525
 00:23:31,201 --> 00:23:31,910
@@ -2500,7 +2500,7 @@ banyak hal dari seseorang
 527
 00:23:34,425 --> 00:23:36,966
 yang mengirim Anda sebuah pesan yang ditandatangani oleh
-kunci rahasi yang berkaitan.
+kunci rahasi yang berkaitan,
 
 528
 00:23:36,966 --> 00:23:40,187
@@ -2534,7 +2534,7 @@ yang telah dicoba oleh orang-orang
 534
 00:23:56,340 --> 00:24:00,690
 pada dasarnya mempublikasikan
-daftar semua 
+daftar semua
 
 535
 00:24:00,690 --> 00:24:01,800
@@ -2543,11 +2543,11 @@ sertifikat yang dicabut di dunia.
 536
 00:24:01,800 --> 00:24:04,630
 Ini adalah sesuatu yang disebut 
-daftar pencabutan 
+daftar pencabutan
 
 537
 00:24:04,630 --> 00:24:06,550
-sertifikat, atau CRLs.
+sertifikat (Certificate Revocation List), atau CRLs.
 
 538
 00:24:06,550 --> 00:24:09,800
@@ -2561,22 +2561,22 @@ sertifikat ini,
 
 540
 00:24:11,830 --> 00:24:15,040
-tetapi di samping itu 
+tetapi di samping itu
 ia menyimpan daftar kesalahan.
 
 541
 00:24:15,040 --> 00:24:16,460
-Ini adalah hal-hal 
+Ini adalah hal-hal
 yang disadari
 
 542
 00:24:16,460 --> 00:24:18,126
-bahwa mereka mengacau dan 
+bahwa mereka mengacau dan
 mengeluarkan sertifikat
 
 543
 00:24:18,126 --> 00:24:20,320
-dengan nama yang salah, atau 
+dengan nama yang salah, atau
 pelanggan kami mendatangi mereka
 
 544
@@ -2591,7 +2591,7 @@ Semuanya berjalan dengan baik.
 546
 00:24:23,380 --> 00:24:25,020
 Tapi kemudian seseorang
-bersikap kasar kepada mesin saya
+merusak mesin saya
 
 547
 00:24:25,020 --> 00:24:26,370
@@ -2605,12 +2605,12 @@ sertifikat saya sudah tidak bagus lagi.
 549
 00:24:29,570 --> 00:24:31,570
 Jadi otoritas sertifikat
-ini, pada dasarnya
+ini, pada dasarnya,
 
 550
 00:24:31,570 --> 00:24:36,260
 dapat menambahkan sesuatu ke CRL ini, dan
-klien seperti web browser
+klien seperti peramban web
 
 551
 00:24:36,260 --> 00:24:39,309
@@ -2629,7 +2629,7 @@ jika sertifikat tersebut
 
 554
 00:24:43,100 --> 00:24:45,689
-muncul dalam daftar sertifikat dicabut ini.
+muncul dalam daftar sertifikat yang dicabut ini.
 
 555
 00:24:45,689 --> 00:24:47,105
