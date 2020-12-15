@@ -2468,21 +2468,21 @@ untuk mendapatkan informasi yang krusial.
 525
 00:29:32,190 --> 00:29:34,890
 Itu membutuhkan asumsi 
-kekerasan komputasi
+kompleksitas komputasi
 
 526
 00:29:34,890 --> 00:29:36,760
-seperti dua yang 
-telah kami buat di sini.
+seperti dua hal yang
+telah kita buat di sini.
 
 527
 00:29:36,760 --> 00:29:39,100
-Dan kemudian Anda pergi dan berlari.
+Dan kemudian Anda bisa melanjutkannya.
 
 528
 00:29:39,100 --> 00:29:42,060
 Sistem Anda akan rusak 
-jika asumsi kekerasan
+jika asumsi kompleksitas
 
 529
 00:29:42,060 --> 00:29:44,010
@@ -2495,7 +2495,7 @@ untuk waktu tertentu,
 
 531
 00:29:46,500 --> 00:29:49,910
-misalnya, tahun 1970-an 
+misalnya, tahun 1970-an
 untuk parameter tertentu.
 
 532
@@ -2505,18 +2505,18 @@ menjadi asumsi yang salah,
 
 533
 00:29:53,120 --> 00:29:57,180
-setidaknya untuk parameter tersebut, 
+setidaknya untuk parameter tersebut,
 di lain waktu,
 
 534
 00:29:57,180 --> 00:30:00,160
-hanya karena komputer 
+hanya karena komputer
 menjadi lebih cepat.
 
 535
 00:30:00,160 --> 00:30:03,110
-Ini seperti 2 dinaikkan menjadi 40 
-adalah angka besar ini ketika
+Ini seperti 2 dipangkatkan 40 
+adalah angka yang besar ketika
 
 536
 00:30:03,110 --> 00:30:04,320
@@ -2534,7 +2534,7 @@ bagian dari permainan.
 539
 00:30:08,350 --> 00:30:12,670
 Tetapi sistem yang baik adalah sistem
-yang berskala di mana Anda meningkatkan
+yang bisa menyesuaikan saat Anda meningkatkan
 
 540
 00:30:12,670 --> 00:30:16,470
@@ -2566,12 +2566,12 @@ dan kriptosistem yang baik yang
 
 546
 00:30:29,600 --> 00:30:31,950
-bertahan dalam test
+tidak lekang oleh
 waktu, belum tentu
 
 547
 00:30:31,950 --> 00:30:36,850
-yang memiliki persis
+yang memiliki
 parameter tertentu.
 
 548
@@ -2600,7 +2600,7 @@ dari protokol Diffie-Hellman
 553
 00:30:51,350 --> 00:30:54,020
 dan solusi dari
-teka-teki bajak laut
+teka-teki bajak laut.
 
 554
 00:30:54,020 --> 00:30:57,167
@@ -2615,22 +2615,22 @@ Diffie-Hellman atau hanya
 556
 00:30:59,250 --> 00:31:01,130
 dalam konteks 
-maslaah Diffie-Hellman
+masalah Diffie-Hellman,
 
 557
 00:31:01,130 --> 00:31:05,290
 tetapi juga dalam konteks
-teka-teki bajak laut-- apa asumsi 
+teka-teki bajak laut-- apa asumsi
 
 558
 00:31:05,290 --> 00:31:08,690
 yang kita buat disini
-hal itu belum dapat disebutkan
+yang belum disebutkan
 
 559
 00:31:08,690 --> 00:31:14,560
-berhubungan dengan kemanan 
-pertukaran kunci menjadi aman?
+sehubungan dengan pertukaran kunci
+menjadi benar-benar aman?
 
 560
 00:31:14,560 --> 00:31:16,080
@@ -2642,12 +2642,12 @@ Ya.
 
 562
 00:31:17,556 --> 00:31:21,500
-AUDIENS: jika Saya dapat memotong
+AUDIENS: jika saya dapat memotong
 pesan dari [tidak terdengar]
 
 563
 00:31:21,500 --> 00:31:22,990
-sesuatu yang berada di belkanag mereka?
+sesuatu yang berada di belakang mereka?
 
 564
 00:31:22,990 --> 00:31:25,060
@@ -2656,7 +2656,7 @@ Apa artinya?
 
 565
 00:31:25,060 --> 00:31:26,820
-Bajak lau melihat kotak terkunci.
+Bajak laut melihat kotak terkunci.
 
 566
 00:31:26,820 --> 00:31:29,650
@@ -2666,7 +2666,7 @@ protokol, Alice
 567
 00:31:29,650 --> 00:31:32,470
 mengirim pesan
-kedalam kotak terkunci
+ke dalam kotak terkunci
 
 568
 00:31:32,470 --> 00:31:33,740
@@ -2674,7 +2674,7 @@ dengan satu gembok didalamnya.
 
 569
 00:31:36,520 --> 00:31:38,120
-Anda sedikit mendekati
+Anda berada di
 jalur yang benar.
 
 570
@@ -2689,12 +2689,12 @@ asumsi disni.
 
 572
 00:31:45,250 --> 00:31:47,955
-Dan saya mungkin 
-mengatakan itu secara explicit.
+Dan saya mungkin
+mengatakan itu secara eksplisit.
 
 573
 00:31:47,955 --> 00:31:48,580
-Ya, silahkan.
+Ya, silakan.
 
 574
 00:31:48,580 --> 00:31:50,350
@@ -2708,36 +2708,36 @@ saja membuang kotak tersebut.
 
 576
 00:31:51,230 --> 00:31:53,396
-Tetapi itu tidak melanggar 
+Tetapi itu tidak melanggar
 protokol keamanan tersebut.
 
 577
 00:31:53,396 --> 00:31:56,565
-Itu melanggar fungsi 
+Itu melanggar fungsi
 dari protokol tersebut, kan?
 
 578
 00:31:56,565 --> 00:31:57,190
-Ya, silahkan.
+Ya, silakan.
 
 579
 00:31:57,190 --> 00:31:58,770
 AUDIENS: Pasang kunci 
-lama mereka. [TIDAK TERDENGAR].
+lama mereka pada [TIDAK TERDENGAR].
 
 580
 00:31:58,770 --> 00:32:00,561
 SRINIVAS DEVADAS: Ah, 
-itu sangatlah benar
+itu sangat benar
 
 581
 00:32:00,561 --> 00:32:01,680
-simpan kunci mereka di dalam itu.
+simpan kunci mereka sendiri di dalamnya.
 
 582
 00:32:01,680 --> 00:32:05,051
-Kamu tahu, jika mereka mempunyai kunci--jadi 
-para pembajak ini tidak punya kunci
+Anda tahu, jika mereka mempunyai kunci-- jadi
+para pembajak ini tidak punya kunci,
 
 583
 00:32:05,051 --> 00:32:05,550
@@ -2745,7 +2745,7 @@ benar kan?
 
 584
 00:32:05,550 --> 00:32:06,758
-Kita membuat asumsi kan?
+Kita membuat asumsi tersebut.
 
 585
 00:32:06,758 --> 00:32:09,330
