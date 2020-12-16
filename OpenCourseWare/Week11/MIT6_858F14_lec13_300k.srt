@@ -1874,56 +1874,56 @@ ketika saya terhubung ke layanan.
 
 394
 00:17:34,120 --> 00:17:36,500
-And typically, this comes
-from the user at some level.
+Dan seharusnya, hal ini datang
+dari pengguna di tingkat tertentu.
 
 395
 00:17:36,500 --> 00:17:41,010
-So for example, if I type
-SSH some machine foo,
+Jadi untuk contoh, jika saya mengetik
+SSH beberapa mesin foo,
 
 396
 00:17:41,010 --> 00:17:44,150
-then this means that
-I should be expecting
+lalu ini berarti bahwa
+saya harus berekspektasi
 
 397
 00:17:44,150 --> 00:17:47,100
-a Kerberos principal
-called rcmd.foo
+Kerberos prinsipel
+disebut rmcd.foo
 
 398
 00:17:47,100 --> 00:17:49,000
-on the other end
-of this connection.
+di ujung yang lain dari
+koneksi ini.
 
 399
 00:17:49,000 --> 00:17:51,210
-And if it turns out
-to be someone else,
+Dan jika itu ternyata
+menjadi orang lain,
 
 400
 00:17:51,210 --> 00:17:53,240
-this SSH client
-should abort and not
+klien SSH ini
+harus dibatalkan dan tidak
 
 401
 00:17:53,240 --> 00:17:56,040
-let me connect because then
-I will be misled into talking
+memperbolehkan saya terhubung, karena
+dengan begitu saya akan tersesat untuk berbicara
 
 402
 00:17:56,040 --> 00:17:57,936
-to some other machine.
+kepada mesin lainnya.
 
 403
 00:17:57,936 --> 00:18:00,392
-That make sense?
+Masuk akal?
 
 404
 00:18:00,392 --> 00:18:01,850
-So here's one
-interesting question.
+Dan ini satu
+pertanyaan yang menarik.
 
 405
 00:18:01,850 --> 00:18:04,365
