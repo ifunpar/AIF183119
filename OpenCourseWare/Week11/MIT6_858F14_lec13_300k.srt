@@ -1697,180 +1697,180 @@ mendapatkan tiket Kerberosnya itu
 
 357
 00:15:50,920 --> 00:15:54,220
-prove that maybe this
-user is called Nikolai,
+membuktikan mungkin pengguna 
+ini dipanggil Nikolai,
 
 358
 00:15:54,220 --> 00:15:56,110
-then the mail server
-internally now
+kemudian server mail
+sekarang secara internal
 
 359
 00:15:56,110 --> 00:15:57,630
-has to figure out,
-OK, well, what
+harus mencari tahu,
+OK, baik, apa 
 
 360
 00:15:57,630 --> 00:15:59,280
-should that guy have access to?
+yang bisa diakses orang tersebut?
 
 361
 00:15:59,280 --> 00:16:00,960
-And same for a file server.
+Dan sama untuk server file.
 
 362
 00:16:00,960 --> 00:16:03,150
-So inside of all
-these servers, there's
+Jadi di dalam semua
+server ini, ada
 
 363
 00:16:03,150 --> 00:16:07,900
-probably things like access
-control lists, maybe groups,
+hal-hal seperti mungkin daftar
+kontrol akses, mungkin grup,
 
 364
 00:16:07,900 --> 00:16:11,770
-maybe other things that actually
-do the authorization step.
+mungkin hal lain yang sebenarnya
+melakukan langkah otorisasi.
 
 365
 00:16:11,770 --> 00:16:14,770
-So Kerberos provides
-authentication
+Jadi Kerberos menyediakan
+autentikasi
 
 366
 00:16:14,770 --> 00:16:17,690
-which tells you who is
-this person I'm talking to.
+yang memberi tahu Anda siapa
+orang yang saya ajak bicara ini.
 
 367
 00:16:17,690 --> 00:16:20,580
-And the service itself is
-responsible for implementing
+Dan layanan itu sendiri
+bertanggung jawab untuk melaksanakan
 
 368
 00:16:20,580 --> 00:16:23,870
-the authorization part where
-they decide what access
+bagian otorisasi untuk
+menentukan akses apa
 
 369
 00:16:23,870 --> 00:16:28,180
-you should have based
-on your username here.
+yang mereka miliki
+berdasarkan nama pengguna di sini.
 
 370
 00:16:28,180 --> 00:16:30,440
-Makes sense?
+Masuk akal?
 
 371
 00:16:30,440 --> 00:16:33,500
-All right, so that's where
-the user names appear.
+Baik, jadi di sanalah
+nama pengguna muncul.
 
 372
 00:16:33,500 --> 00:16:35,100
-There's also other
-principal names
+Di sana juga ada
+nama prinsipiel lain
 
 373
 00:16:35,100 --> 00:16:37,400
-the Kerberos supports
-for services, right?
+yang didukung Kerberos
+untuk layanan-layanan, benar?
 
 374
 00:16:37,400 --> 00:16:39,890
-So services, I guess
-the paper suggests,
+Jadi layanan, saya kira
+paper itu menyarankan,
 
 375
 00:16:39,890 --> 00:16:41,380
-look something like this.
+terlihat seperti ini.
 
 376
 00:16:41,380 --> 00:16:42,270
-That's rcmd.hostname.
+Itu adalah rcmd.hostname.
 
 377
 00:16:47,910 --> 00:16:53,589
-And the reason that you need a
-name for one of these services
+Dan alasan mengapa Anda membutuhkan
+nama untuk salah satu dari layanan ini
 
 378
 00:16:53,589 --> 00:16:55,380
-is that you want to
-know, for example, when
+adalah Anda ingin tahu,
+misalnya, kapan
 
 379
 00:16:55,380 --> 00:16:58,980
-I connect to a file
-server, I actually
+Saya terhubung ke server
+file, saya sebenarnya
 
 380
 00:16:58,980 --> 00:17:01,500
-want mutual authentication.
+ingin otentikasi dua arah.
 
 381
 00:17:01,500 --> 00:17:04,160
-It's not just the final
-server learns who I am,
+Tidak hanya server terakhir
+mempelajari siapa saya,
 
 382
 00:17:04,160 --> 00:17:06,288
-but I, the user or
-the workstation,
+tetapi saya, pengguna
+dari workstation,
 
 383
 00:17:06,288 --> 00:17:08,579
-want to be convinced that
-I'm talking to the right file
+ingin diyakinkan bahwa
+saya berbicara dengan server
 
 384
 00:17:08,579 --> 00:17:10,599
-server and not some
-fake file server that's
+file yang benar dan bukan
+server file palsu yang
 
 385
 00:17:10,599 --> 00:17:11,880
-impersonating my files.
+meniru file-file Saya.
 
 386
 00:17:11,880 --> 00:17:14,109
-Because maybe I'll
-look at the grades
+Karena mungkin saya akan
+melihat file
 
 387
 00:17:14,109 --> 00:17:15,690
-file and submit it
-to the registrar.
+nilai dan mengirimkannya
+ke pendaftar.
 
 388
 00:17:15,690 --> 00:17:17,964
-It would be too bad
-if some file server
+Akan sangat buruk
+apabila beberapa server file
 
 389
 00:17:17,964 --> 00:17:21,319
-can impersonate the response and
-give me the wrong grades file
+dapat meniru responnya dan
+secara tiba-tiba memberi saya
 
 390
 00:17:21,319 --> 00:17:23,020
-all of a sudden.
+file nilai yang salah.
 
 391
 00:17:23,020 --> 00:17:25,500
-So this is why the
-service principles also
+Jadi inilah alasan mengapa
+prinsipiel dari setiap layanan juga
 
 392
 00:17:25,500 --> 00:17:29,770
-need their own name and the
-workstations need to figure out
+masing-masing membutuhkan nama dan
+setiap workstation perlu mencari tahu
 
 393
 00:17:29,770 --> 00:17:34,120
-what name should I expect to see
-when I connect to the service.
+nama apa yang akan saya lihat
+ketika saya terhubung ke layanan.
 
 394
 00:17:34,120 --> 00:17:36,500
