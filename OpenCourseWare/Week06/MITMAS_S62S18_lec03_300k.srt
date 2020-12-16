@@ -2438,8 +2438,8 @@ RSA dan kemudian masuk
 
 530
 00:24:05,260 --> 00:24:10,510
-ke ECDSA dan kurva elips
-[TIDAK TERDENGAR] tanda tangan, yang
+ke ECDSA dan tanda tangan
+[TIDAK TERDENGAR] kurva elips, yang
 
 531
 00:24:10,510 --> 00:24:15,012
@@ -2459,7 +2459,7 @@ sebentar, seperti istirahat.
 534
 00:24:19,067 --> 00:24:20,900
 Dan kemudian kita akan membahas
-hal-hal kurva elips.
+hal-hal tentang kurva elips.
 
 535
 00:24:20,900 --> 00:24:21,400
@@ -2467,7 +2467,7 @@ Oke.
 
 536
 00:24:21,400 --> 00:24:23,260
-Jadi RSA ditemukan oleh penduduk setempat.
+Jadi RSA ditemukan oleh warga MIT.
 
 537
 00:24:23,260 --> 00:24:24,790
@@ -2485,7 +2485,7 @@ CSAIL, dan dia masih
 
 540
 00:24:29,870 --> 00:24:32,230
-mengerjakan hal-hal crypto yang keren.
+mengerjakan hal-hal terkait kripto yang keren.
 
 541
 00:24:32,230 --> 00:24:34,960
@@ -2494,7 +2494,7 @@ atau mata uang apa pun, sebenarnya--
 
 542
 00:24:34,960 --> 00:24:38,560
-yah, apa pun cryptocurrency 
+yah, apa pun mata uang kripto 
 yang beroperasi saat ini.
 
 543
@@ -2505,7 +2505,7 @@ dan kunci
 544
 00:24:42,880 --> 00:24:45,550
 sedikit lebih besar daripada
-sistem yang akan kita lihat--
+sistem yang akan kita lihat nanti--
 
 545
 00:24:45,550 --> 00:24:50,500
@@ -2514,8 +2514,8 @@ hash, tetapi masih sedikit lebih besar.
 
 546
 00:24:50,500 --> 00:24:52,420
-Digunakan dalam chaumian
-kas buta.
+Digunakan dalam kas chaumian
+buta.
 
 547
 00:24:52,420 --> 00:24:55,070
@@ -2548,7 +2548,7 @@ Anda tanda tangani, bukan?
 
 553
 00:25:07,870 --> 00:25:10,630
-Saya akan menutupi pesan 
+Saya akan menutupi pesan
 ini dan membutakannya
 
 554
@@ -2573,13 +2573,13 @@ adalah, saya sebenarnya
 
 558
 00:25:19,540 --> 00:25:26,230
-memiliki pesan prima sama dengan
+memiliki pesan aksen sama dengan
 pesan ditambah keacakan.
 
 559
 00:25:26,230 --> 00:25:28,210
 Dan saya katakan, hei, bisakah
-Anda menandatangani m prime?
+Anda menandatangani m aksen?
 
 560
 00:25:28,210 --> 00:25:28,990
@@ -2588,16 +2588,16 @@ Dan anda berkata, oke.
 561
 00:25:28,990 --> 00:25:33,970
 Saya membuat tanda tangan di m
-prime dengan kunci pribadi saya.
+aksen dengan kunci privat saya.
 
 562
 00:25:33,970 --> 00:25:36,370
-Dan kita akan menyebutnya s prime.
+Dan kita akan menyebutnya s aksen.
 
 563
 00:25:36,370 --> 00:25:41,420
 Dan kemudian yang bisa saya lakukan
-adalah saya bisa s sama dengan s prime
+adalah saya bisa s sama dengan s aksen
 
 564
 00:25:41,420 --> 00:25:45,050
@@ -2633,7 +2633,7 @@ Anda apa yang Anda tanda tangani.
 
 571
 00:25:57,670 --> 00:25:59,420
-Itu sepertinya tidak berguna, 
+Itu sepertinya tidak berguna,
 seperti mengapa saya
 
 572
@@ -2679,7 +2679,7 @@ dua bilangan prima, p dan q.
 580
 00:26:24,890 --> 00:26:28,880
 Dan kemudian hitung n, yang
-merupakan hasil kali p kali q.
+merupakan hasil dari p kali q.
 
 581
 00:26:28,880 --> 00:26:31,400
@@ -2730,7 +2730,7 @@ Ya?
 
 591
 00:26:55,995 --> 00:26:57,620
-AUDIENS: Itu sulit
+AUDIENS: Sulit
 untuk mengarahkan gambar.
 
 592
@@ -2752,13 +2752,13 @@ saya bisa menghitung n, bukan?
 
 596
 00:27:04,610 --> 00:27:08,810
-Tapi mengingat n, saya tidak bisa
-selalu menemukan p dan q, bukan?
+Tapi diberikan n, saya tidak bisa
+menemukan p dan q, bukan?
 
 597
 00:27:08,810 --> 00:27:10,760
 Jika mereka kecil,
-tentu, saya periksa saja
+tentu, saya periksa saja.
 
 598
 00:27:10,760 --> 00:27:14,150
@@ -2768,22 +2768,22 @@ algoritma untuk menemukan faktor.
 599
 00:27:14,150 --> 00:27:18,020
 Tetapi jika p dan q cukup besar,
-seperti ratusan bit
+seperti ratusan bit panjangnya
 
 600
 00:27:18,020 --> 00:27:20,690
 atau ribuan
-bit, mencari n
+bit panjangnya, mencari n
 
 601
 00:27:20,690 --> 00:27:24,380
-mungkin tidak praktis, sedangkan
+mungkin tidak dapat dilakukan, sedangkan
 jika p dan q sangat panjang,
 
 602
 00:27:24,380 --> 00:27:27,170
 mencari hasil perkalian keduanya
-akan sangat praktis.
+akan sangat mudah dilakukan.
 
 603
 00:27:27,170 --> 00:27:31,950
@@ -2802,7 +2802,7 @@ ini menggunakan fungsi satu arah,
 
 606
 00:27:38,540 --> 00:27:41,810
-tetapi lebih rumit fungsi satu arah
+tetapi fungsi satu arah yang lebih rumit
 yang bukan fungsi hash,
 
 607
@@ -2847,7 +2847,7 @@ berkali-kali.
 
 615
 00:28:04,880 --> 00:28:06,600
-Tetapi memiliki sifat yang berbeda.
+Tetapi itu memiliki sifat yang berbeda.
 
 616
 00:28:06,600 --> 00:28:09,050
@@ -2856,7 +2856,7 @@ akan menggunakan p kali
 
 617
 00:28:09,050 --> 00:28:12,440
-q sama dengan n sebagai fungsi hash
+q sama dengan n ini sebagai fungsi hash
 dan membuat tanda tangan lamport
 
 618
@@ -2875,7 +2875,7 @@ mengungkapkannya dan sebagainya.
 
 621
 00:28:21,590 --> 00:28:22,460
-Kamu bisa melakukan itu.
+Anda bisa melakukan itu.
 
 622
 00:28:22,460 --> 00:28:24,350
@@ -2908,7 +2908,7 @@ banyak perkalian
 
 628
 00:28:40,730 --> 00:28:43,580
-dan modulo eksponensial.
+dan modulo eksponensial n.
 
 629
 00:28:43,580 --> 00:28:47,810
@@ -2941,12 +2941,12 @@ tidak dapat melakukan jalan pintas ini.
 
 635
 00:28:58,290 --> 00:29:02,090
-Jadi Anda menerbitkan e, yang merupakan
+Jadi Anda mempublikasikan e, yang merupakan
 konstanta-- ini semacam
 
 636
 00:29:02,090 --> 00:29:04,490
-parameter sebuah sistem.
+sebuah parameter sistem.
 
 637
 00:29:04,490 --> 00:29:06,560
