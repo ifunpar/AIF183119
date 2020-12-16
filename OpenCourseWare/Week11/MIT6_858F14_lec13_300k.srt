@@ -1707,7 +1707,7 @@ sekarang secara internal
 
 359
 00:15:56,110 --> 00:15:57,630
-harus mencari menetapkan,
+harus mencari tahu,
 OK, baik, apa 
 
 360
@@ -1716,26 +1716,26 @@ yang bisa diakses orang tersebut?
 
 361
 00:15:59,280 --> 00:16:00,960
-Dan sama untuk file server.
+Dan sama untuk server file.
 
 362
 00:16:00,960 --> 00:16:03,150
-Jadi didalam semua
+Jadi di dalam semua
 server ini, ada
 
 363
 00:16:03,150 --> 00:16:07,900
-mungkin seperti akses
-control lists,mungkin grup,
+hal-hal seperti mungkin daftar
+kontrol akses, mungkin grup,
 
 364
 00:16:07,900 --> 00:16:11,770
 mungkin hal lain yang sebenarnya
-melakukan langkah otoritas.
+melakukan langkah otorisasi.
 
 365
 00:16:11,770 --> 00:16:14,770
-jadi Kerberos menyediakan
+Jadi Kerberos menyediakan
 autentikasi
 
 366
@@ -1750,13 +1750,13 @@ bertanggung jawab untuk melaksanakan
 
 368
 00:16:20,580 --> 00:16:23,870
-bagian otorisasi tempat
-mereka menentukan akses apa
+bagian otorisasi untuk
+menentukan akses apa
 
 369
 00:16:23,870 --> 00:16:28,180
-yang harus mereka miliki
-berdasarkan nama pengguna.
+yang mereka miliki
+berdasarkan nama pengguna di sini.
 
 370
 00:16:28,180 --> 00:16:30,440
@@ -1764,18 +1764,18 @@ Masuk akal?
 
 371
 00:16:30,440 --> 00:16:33,500
-Baik, jadi disanalah
+Baik, jadi di sanalah
 nama pengguna muncul.
 
 372
 00:16:33,500 --> 00:16:35,100
-Disana juga ada
-nama utama lain
+Di sana juga ada
+nama prinsipiel lain
 
 373
 00:16:35,100 --> 00:16:37,400
-yang di dukung Kerberos
-untuk layanan, benar?
+yang didukung Kerberos
+untuk layanan-layanan, benar?
 
 374
 00:16:37,400 --> 00:16:39,890
@@ -1792,7 +1792,7 @@ Itu adalah rcmd.hostname.
 
 377
 00:16:47,910 --> 00:16:53,589
-Dan alasan mengapa Anda membutuhkan 
+Dan alasan mengapa Anda membutuhkan
 nama untuk salah satu dari layanan ini
 
 378
@@ -1802,27 +1802,27 @@ misalnya, kapan
 
 379
 00:16:55,380 --> 00:16:58,980
-Saya terhubung ke file 
-server, saya sebenarnya
+Saya terhubung ke server
+file, saya sebenarnya
 
 380
 00:16:58,980 --> 00:17:01,500
-ingin otentikasi bersama.
+ingin otentikasi dua arah.
 
 381
 00:17:01,500 --> 00:17:04,160
 Tidak hanya server terakhir
-mempelajari siapa Saya,
+mempelajari siapa saya,
 
 382
 00:17:04,160 --> 00:17:06,288
-tetapi Saya, pengguna
+tetapi saya, pengguna
 dari workstation,
 
 383
 00:17:06,288 --> 00:17:08,579
 ingin diyakinkan bahwa
-Saya berbicara dengan server
+saya berbicara dengan server
 
 384
 00:17:08,579 --> 00:17:10,599
@@ -1835,7 +1835,7 @@ meniru file-file Saya.
 
 386
 00:17:11,880 --> 00:17:14,109
-Karena mungkin Saya akan
+Karena mungkin saya akan
 melihat file
 
 387
@@ -1851,7 +1851,7 @@ apabila beberapa server file
 389
 00:17:17,964 --> 00:17:21,319
 dapat meniru responnya dan
-secara tiba-tiba memberi Saya
+secara tiba-tiba memberi saya
 
 390
 00:17:21,319 --> 00:17:23,020
@@ -1860,7 +1860,7 @@ file nilai yang salah.
 391
 00:17:23,020 --> 00:17:25,500
 Jadi inilah alasan mengapa
-principle dari setiap layanan juga
+prinsipiel dari setiap layanan juga
 
 392
 00:17:25,500 --> 00:17:29,770
@@ -1869,8 +1869,8 @@ setiap workstation perlu mencari tahu
 
 393
 00:17:29,770 --> 00:17:34,120
-nama apa yang akan Saya lihat
-ketika Saya terhubung ke layanan.
+nama apa yang akan saya lihat
+ketika saya terhubung ke layanan.
 
 394
 00:17:34,120 --> 00:17:36,500
