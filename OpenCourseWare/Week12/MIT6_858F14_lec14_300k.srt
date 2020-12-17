@@ -2814,60 +2814,60 @@ job of maintaining this CRL
 
 594
 00:26:18,220 --> 00:26:19,520
-to a particular server.
+ke server tertentu.
 
 595
 00:26:19,520 --> 00:26:21,710
-So instead of downloading
-a whole list yourself,
+Jadi dibandingkan mengunduh 
+sendiri seluruh daftar,
 
 596
 00:26:21,710 --> 00:26:23,334
-you're going to ask
-the server, hey, is
+Anda akan bertanya
+kepada server, hei, apakah
 
 597
 00:26:23,334 --> 00:26:24,950
-this thing in that list?
+hal ini ada dalam daftar itu?
 
 598
 00:26:24,950 --> 00:26:27,710
-So that's another plan
-that people have tried.
+Jadi itulah rencana lain
+yang telah dicoba orang.
 
 599
 00:26:27,710 --> 00:26:33,710
-It's also not used very
-widely because of two factors.
+Ini juga tidak digunakan secara
+luas karena dua faktor.
 
 600
 00:26:33,710 --> 00:26:38,990
-One is that it adds latency to
-every request that you make.
+Salah satunya adalah menambahkan latensi ke 
+setiap permintaan yang Anda buat.
 
 601
 00:26:38,990 --> 00:26:41,450
-So every time you want
-to connect to a server,
+Jadi setiap kali Anda ingin
+terhubung ke server,
 
 602
 00:26:41,450 --> 00:26:44,060
-now you have to first
-connect, get the certificate
+sekarang Anda harus terhubung 
+terlebih dahulu, dapatkan sertifikat
 
 603
 00:26:44,060 --> 00:26:45,370
-from the server.
+dari server.
 
 604
 00:26:45,370 --> 00:26:46,950
-Now you have to talk
-to this OCSP guy
+Sekarang Anda harus berbicara 
+dengan orang OCSP
 
 605
 00:26:46,950 --> 00:26:50,950
-and then wait for him to respond
-and then do something else.
+dan kemudian menunggu dia menjawab
+dan kemudian melakukan sesuatu yang lain.
 
 606
 00:26:50,950 --> 00:26:52,980
