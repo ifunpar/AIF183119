@@ -2642,62 +2642,62 @@ mengatakan bahwa sertifikat itu tidak bagus.
 
 557
 00:24:49,850 --> 00:24:51,384
-You better give me a new one.
+Anda sebaiknya memberi saya yang baru.
 
 558
 00:24:51,384 --> 00:24:53,200
-I'm not going to trust
-this particular sign
+Saya tidak akan percaya
+tanda pesan khusus
 
 559
 00:24:53,200 --> 00:24:54,990
-message anymore.
+ini lagi.
 
 560
 00:24:54,990 --> 00:24:56,770
-So that's one plan.
+Jadi itu adalah satu rencana.
 
 561
 00:24:56,770 --> 00:24:57,620
-It's not great.
+Itu tidak bagus.
 
 562
 00:25:00,600 --> 00:25:02,754
-If you really used, it
-would be a giant list.
+Jika anda benar-benar menggunakan, itu
+akan menjadi sebuah daftar yang besar.
 
 563
 00:25:02,754 --> 00:25:04,920
-And it would be quite a lot
-of overhead for everyone
+Dan itu akan sangat banyak
+biaya tambahan untuk semua orang 
 
 564
 00:25:04,920 --> 00:25:06,772
-in the world to download this.
+di dunia untuk mengunduh ini.
 
 565
 00:25:06,772 --> 00:25:08,480
-The other problem is
-that no one actually
+Masalah lainnya adalah
+bahwa tidak ada siapapun yang sebenarnya
 
 566
 00:25:08,480 --> 00:25:11,370
-bothers doing this stuff. so
-the lists in practice are empty.
+mau untuk melakukan hal ini. Jaddi
+daftar tersebut pada praktisnya kosong.
 
 567
 00:25:11,370 --> 00:25:13,600
-If you actually ask all
-these CAs, most of them
+Jika anda benar-benar bertanya selurus
+CA-CA ini, kebanyakan dari mereka
 
 568
 00:25:13,600 --> 00:25:16,210
-will give you back an empty CRL
-because no one's ever bothered
+akan memberikan anda kembali sebuah CRL kosong
+karena tidak ada orang yang pernah bersusah payah
 
 569
 00:25:16,210 --> 00:25:17,418
-to add anything to this list.
+untuk menambahkan apapun ke daftar ini.
 
 570
 00:25:17,418 --> 00:25:18,610
