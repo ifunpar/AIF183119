@@ -2701,59 +2701,59 @@ to add anything to this list.
 
 570
 00:25:17,418 --> 00:25:18,610
-Because, why would you?
+Karena, mengapa Anda melakukannya? 
 
 571
 00:25:18,610 --> 00:25:20,330
-It will only break
-things because it
+Ini hanya akan merusak 
+barang karena ini
 
 572
 00:25:20,330 --> 00:25:23,210
-will reduce the number of
-connections that will succeed.
+akan mengurangi jumlah 
+koneksi yang akan berhasil.
 
 573
 00:25:23,210 --> 00:25:26,210
-So it's not clear whether there
-is a great motivations for CAs
+Jadi tidak jelas apakah ada 
+motivasi yang besar bagi CA
 
 574
 00:25:26,210 --> 00:25:29,530
-to maintain this CRL.
+untuk mempertahankan CRL ini.
 
 575
 00:25:29,530 --> 00:25:31,460
-The other thing that
-people have tried
+Hal lain yang 
+telah dicoba orang 
 
 576
 00:25:31,460 --> 00:25:34,190
-is to query online the CAs.
+adalah menanyakan CA secara online. 
 
 577
 00:25:34,190 --> 00:25:39,200
-Like in the Kerberos world, we
-contact the KDC all the time.
+Seperti di dunia Kerberos, kami 
+menghubungi KDC setiap saat.
 
 578
 00:25:39,200 --> 00:25:41,590
-And in the CA world we try
-to get out of this business
+Dan di dunia CA kami mencoba 
+keluar dari bisnis ini
 
 579
 00:25:41,590 --> 00:25:43,090
-and say, well, the
-CA's only going
+dan berkata, baik, 
+CA hanya akan
 
 580
 00:25:43,090 --> 00:25:45,280
-to sign these
-messages once a year.
+menandatangani 
+pesan-pesan ini setahun sekali.
 
 581
 00:25:45,280 --> 00:25:46,280
-That's sort of a bummer.
+Itu agak mengecewakan.
 
 582
 00:25:46,280 --> 00:25:47,750
