@@ -2757,60 +2757,60 @@ Itu agak mengecewakan.
 
 582
 00:25:46,280 --> 00:25:47,750
-So there's an
-alternative protocol
+Jadi ada sebuah
+protokol alternatif
 
 583
 00:25:47,750 --> 00:25:52,970
-called online certificate
-status protocol, or OCSP.
+yang disebut protokol
+status sertifikat online (online certificate status protocol), atau OCSP.
 
 584
 00:25:52,970 --> 00:25:57,050
-And this protocol pushes
-us back from the CA world
+Dan protokol ini memaksa
+kita kembali dari dunia CA
 
 585
 00:25:57,050 --> 00:25:58,110
-to the KDC world.
+ke dunia KDC.
 
 586
 00:25:58,110 --> 00:26:00,840
-So whenever a client
-gets a certificate
+Jadi kapanpun seorang klien
+mendapat sebuah sertifikat
 
 587
 00:26:00,840 --> 00:26:03,300
-and they're curious, is this
-really a valid certificate?
+dan mereka penasaran, apakah ini 
+benar-benar sertifikat yang absah?
 
 588
 00:26:03,300 --> 00:26:05,160
-Even though it's before
-the expiration time,
+Meskipun itu masih sebelum
+waktu kadaluwarsa,
 
 589
 00:26:05,160 --> 00:26:06,660
-maybe something went wrong.
+mungkin terjadi suatu kesalahan.
 
 590
 00:26:06,660 --> 00:26:10,670
-So using this OCSP protocol,
-you can contact some server
+Jadi menggunakan protokol OCSP ini,
+Anda dapat menghubungi satu server
 
 591
 00:26:10,670 --> 00:26:12,760
-and just say, hey, I
-got this certificate.
+dan katakan, hi, Saya
+mendapat sertifikat ini.
 
 592
 00:26:12,760 --> 00:26:14,330
-Do you think it's still valid?
+Menurut anda apakah sertitifikat ini masih absah?
 
 593
 00:26:14,330 --> 00:26:18,220
-So basically, offloading the
-job of maintaining this CRL
+Jadi pada dasarnya, mengurangi
+pekerjaan menyimpan CRL ini
 
 594
 00:26:18,220 --> 00:26:19,520
