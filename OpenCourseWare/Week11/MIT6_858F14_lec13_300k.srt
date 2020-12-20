@@ -1927,28 +1927,28 @@ pertanyaan yang menarik.
 
 405
 00:18:01,850 --> 00:18:04,365
-When can we reuse
-names in Kerberos?
+Kapan kita bisa menggunakan kembali
+nama-nama dalam Kerberos?
 
 406
 00:18:04,365 --> 00:18:06,940
-It's like, all of you
-guys have Athena accounts.
+Itu seperti, kalian semua
+mempunyai akun Athena.
 
 407
 00:18:06,940 --> 00:18:08,960
-And when you
-graduate, could MIT,
+Dan ketika kalian
+lulus, bisakah MIT,
 
 408
 00:18:08,960 --> 00:18:11,480
-like, wipe out
-your database entry
+seperti, menghapus
+anda dari dalam database
 
 409
 00:18:11,480 --> 00:18:14,130
-and allow someone else to
-register that same username?
+dan mengizinkan orang lain untuk
+mendaftar dengan username yang sama?
 
 410
 00:18:14,130 --> 00:18:16,600
