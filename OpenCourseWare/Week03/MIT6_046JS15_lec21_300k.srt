@@ -4063,298 +4063,298 @@ masukannya, saya menambahkan sebuah nol terhadapnya,
 
 865
 00:46:43,610 --> 00:46:44,730
-and shipping it out.
+dan mengeluarkannya.
 
 866
 00:46:44,730 --> 00:46:46,900
-So it's going to be easy
-to go backwards, right?
+Jadi ini akan menjadi mudah
+untuk mundur, benar?
 
 867
 00:46:46,900 --> 00:46:53,500
-And this only happens
-if x is less than n,
+Dan ini hanya terjadi
+jika x kurang dari n,
 
 868
 00:46:53,500 --> 00:46:55,460
-as the gentleman just said.
+seperti yang dikatakan pria itu.
 
 869
 00:46:55,460 --> 00:47:00,220
-Less than or equal to n in
-terms of the input length, OK?
+Kurang dari atau sama dengan n dalam
+arti panjang masukannya, OK?
 
 870
 00:47:00,220 --> 00:47:03,131
-Otherwise I'm
-going to do h of x.
+Jika tidak saya
+akan melakukan h(x).
 
 871
 00:47:08,270 --> 00:47:10,160
-So this is good news.
+Jadi ini berita bagus.
 
 872
 00:47:10,160 --> 00:47:15,400
-Because I'm actually using
-the hash function in the case
+Karena sebenarnya saya menggunakan
+fungsi hash dalam kasus
 
 873
 00:47:15,400 --> 00:47:17,890
-where I have a
-longer input string.
+di mana saya punya sebuah
+masukan string yang lebih panjang.
 
 874
 00:47:17,890 --> 00:47:20,660
-This is bad news for
-one-wayness because I'm just
+Ini berita buruk untuk
+ke-satu-arah-an karena saya hanya
 
 875
 00:47:20,660 --> 00:47:23,010
-piping out the input.
+menyalurkan masukannya.
 
 876
 00:47:23,010 --> 00:47:30,927
-And so if I get an x, and I
-see what the x is out here,
+Dan jadi jika saya mendapatkan sebuah x, dan saya
+melihat apakah x tersebut ada di luar sini,
 
 877
 00:47:30,927 --> 00:47:32,510
-and let's just say
-for argument's sake
+dan mari katakan
+demi argumen
 
 878
 00:47:32,510 --> 00:47:38,480
-that-- you could
-even say that n is
+tersebut-- Anda bisa
+katakan bahwa n
 
 879
 00:47:38,480 --> 00:47:43,330
-going to be something
-that is less than d,
+akan menjadi sesuatu 
+yang kurang dari d,
 
 880
 00:47:43,330 --> 00:47:46,210
-which is the final
-output, which has d-bits.
+yang merupakan keluaran
+terakhir, yang memiliki d-bit.
 
 881
 00:47:46,210 --> 00:47:49,090
-And so if you see something
-that h prime produces
+Jadi jika Anda melihat sesuatu
+yang dihasilkan h aksen
 
 882
 00:47:49,090 --> 00:47:51,450
-that's less than
-d-bits you instantly
+yang kurang dari
+d-bit Anda langsung
 
 883
 00:47:51,450 --> 00:47:54,030
-know that you can go
-backwards and discover
+tahu bahwa Anda dapat
+mundur dan menemukan
 
 884
 00:47:54,030 --> 00:47:57,186
-what input produced that
-for the h prime, right?
+masukan apa yang menghasilkan
+hal tersebut untuk h aksen, benar?
 
 885
 00:47:57,186 --> 00:47:59,060
-Because you just go off
-and you go backwards.
+Karena Anda hanya pergi
+dan Anda mundur.
 
 886
 00:47:59,060 --> 00:48:00,350
-This is what it tells you.
+Inilah yang diberitahu kepada Anda.
 
 887
 00:48:00,350 --> 00:48:01,850
-Now on the other
-hand if it's larger
+Sekarang di sisi lain
+jika dia lebih besar
 
 888
 00:48:01,850 --> 00:48:03,160
-obviously you can't do that.
+jelas Anda tidak bisa melakukan hal itu.
 
 889
 00:48:03,160 --> 00:48:06,770
-But there's a whole
-lot of combinations
+Tapi ada
+banyak kombinasi
 
 890
 00:48:06,770 --> 00:48:08,100
-that you can do that for.
+yang dapat Anda lakukan untuk hal itu.
 
 891
 00:48:08,100 --> 00:48:11,300
-So this breaks one-wayness, OK?
+Jadi ini merusak ke-satu-arah-an, OK?
 
 892
 00:48:11,300 --> 00:48:13,074
-Now you think about TCR.
+Sekarang Anda pikirkan tentang TCR.
 
 893
 00:48:13,074 --> 00:48:14,490
-And what you want
-a show of course
+Dan hal yang Anda inginkan
+tunjukkan tentu saja
 
 894
 00:48:14,490 --> 00:48:17,570
-is that this maintains TCR.
+adalah hal ini mempertahankan TCR.
 
 895
 00:48:17,570 --> 00:48:20,622
-So that's the last thing
-that we have to show.
+Jadi itu adalah hal terakhir
+yang harus kita tunjukkan.
 
 896
 00:48:20,622 --> 00:48:22,080
-We know that it
-breaks one-wayness.
+Kita tahu bahwa hal ini
+merusak ke-satu-arah-an.
 
 897
 00:48:22,080 --> 00:48:25,182
-But if it broke TCR we don't
-quite have our example.
+Tetapi jika hal ini merusak TCR, kita belum
+memiliki contoh kita.
 
 898
 00:48:25,182 --> 00:48:26,640
-So we want to show
-that it actually
+Jadi kita ingin menunjukkan
+bahwa hal ini sebenarnya
 
 899
 00:48:26,640 --> 00:48:31,220
-maintains TCR, which is
-kind of a weakish property
+mempertahankan TCR, yang merupakan
+sejenis properti lemah
 
 900
 00:48:31,220 --> 00:48:33,440
-that we need to maintain.
+yang perlu kita pertahankan.
 
 901
 00:48:33,440 --> 00:48:35,890
-And the reason
-this maintains TCR
+Dan alasan hal
+ini mempertahankan TCR
 
 902
 00:48:35,890 --> 00:48:39,290
-is that there's really only
-two cases here obviously,
+adalah jelas bahwa hanya ada
+dua kasus di sini,
 
 903
 00:48:39,290 --> 00:48:41,720
-corresponding to
-the if statement.
+sesuai dengan
+pernyataan if tersebut.
 
 904
 00:48:41,720 --> 00:48:49,280
-And it's pretty clear that if
-x is less than or equal to n,
+Dan cukup jelas bahwa jika
+x kurang dari atau sama dengan n,
 
 905
 00:48:49,280 --> 00:49:03,520
-clearly different x's produce
-different h prime x's, correct?
+jelas nilai-nilai x yang berbeda akan menghasilkan
+nilai-nilai h aksen x yang berbeda, benar?
 
 906
 00:49:03,520 --> 00:49:06,620
-Because I'm just passing
-along the x out to the output.
+Karena saya hanya menyalurkan
+nilai x hingga menjadi keluaran.
 
 907
 00:49:06,620 --> 00:49:09,730
-So if x is less than n I am
-going to get different hashes
+Jadi jika x kurang dari n saya
+akan mendapatkan hash-hash yang berbeda
 
 908
 00:49:09,730 --> 00:49:10,570
-at the output.
+pada keluarannya.
 
 909
 00:49:10,570 --> 00:49:12,350
-I'm just passing them out.
+Saya hanya menyalurkannya.
 
 910
 00:49:12,350 --> 00:49:13,940
-So that's easy.
+Jadi itu mudah.
 
 911
 00:49:13,940 --> 00:49:17,490
-And for the other case,
-well I assume that h of x
+Dan untuk kasus lainnya,
+saya berasumsi bahwa h(x)
 
 912
 00:49:17,490 --> 00:49:20,129
-was CCR, correct?
+adalah CCR, benar?
 
 913
 00:49:20,129 --> 00:49:22,420
-Because that was the original
-assumption, that I had h,
+Karena itu adalah asumsi 
+awalnya, bahwa saya mempunyai h,
 
 914
 00:49:22,420 --> 00:49:23,540
-which was CCR.
+yang CCR.
 
 915
 00:49:23,540 --> 00:49:30,690
-So in both cases TCR is
-maintained because else h
+Jadi dalam kedua kasus TCR
+dipertahankan karena lainnya h(x)
 
 916
 00:49:30,690 --> 00:49:38,350
-of x maintains TCR, all right?
+mempertahankan TCR, OK?
 
 917
 00:49:38,350 --> 00:49:41,284
-So again, a bit of
-a contrived example
+Jadi sekali lagi, sedikit
+contoh yang dibuat-buat
 
 918
 00:49:41,284 --> 00:49:42,700
-to show you the
-difference between
+untuk menunjukkan kepada Anda
+perbedaan antara
 
 919
 00:49:42,700 --> 00:49:45,510
-these different properties so
-you know not to mix them up.
+properti-properti yang berbeda ini sehingga
+Anda tahu untuk tidak mencampur mereka.
 
 920
 00:49:45,510 --> 00:49:47,630
-You know what you
-want to ask for,
+Anda tahu apa yang
+ingin Anda minta,
 
 921
 00:49:47,630 --> 00:49:51,150
-what is required
-when you actually
+hal yang dibutuhkan
+ketika Anda benar-benar
 
 922
 00:49:51,150 --> 00:49:53,870
-implement an
-application that depends
+mengimplementasikan sebuah
+aplikasi yang bergantung
 
 923
 00:49:53,870 --> 00:49:56,000
-on particular properties.
+pada properti-properti tertentu.
 
 924
 00:49:56,000 --> 00:49:57,230
-All right?
+OK?
 
 925
 00:49:57,230 --> 00:49:59,010
-Any questions so
-far about properties
+Ada pertanyaan sejauh ini
+mengenai properti-properti
 
 926
 00:49:59,010 --> 00:50:01,040
-or any of these examples?
+atau salah satu contoh ini?
 
 927
 00:50:01,040 --> 00:50:03,227
-We're going to dive
-in to using them.
+Kita akan membahas
+penggunaan mereka.
 
 928
 00:50:06,970 --> 00:50:08,510
@@ -4362,197 +4362,197 @@ OK.
 
 929
 00:50:08,510 --> 00:50:12,170
-So start thinking
-computer security.
+Jadi mulai memikirkan
+keamanan komputer.
 
 930
 00:50:12,170 --> 00:50:18,090
-Start thinking hackers,
-protecting yourself
+Mulai pikirkan para peretas,
+melindungi diri Anda
 
 931
 00:50:18,090 --> 00:50:20,655
-against the bad guys
-that are out there who
+dari orang-orang jahat
+di luar sana yang
 
 932
 00:50:20,655 --> 00:50:22,640
-are trying to discover
-your passwords,
+mencoba untuk mengetahui
+kata sandi Anda,
 
 933
 00:50:22,640 --> 00:50:24,924
-trying to corrupt
-your files, generally
+mencoba untuk merusak
+berkas-berkas Anda, secara umum
 
 934
 00:50:24,924 --> 00:50:25,965
-make your life miserable.
+membuat hidup Anda sengsara.
 
 935
 00:50:32,880 --> 00:50:38,880
-And we'll start out with
-fairly simple examples, where
+Dan kita akan mulai dengan
+contoh-contoh yang sederhana, di mana
 
 936
 00:50:38,880 --> 00:50:41,730
-the properties are
-somewhat obvious,
+properti-propertinya
+cukup jelas,
 
 937
 00:50:41,730 --> 00:50:46,205
-and graduate to this auction
-bidding example which
+dan meningkat hingga contoh
+penawaran lelang ini yang
 
 938
 00:50:46,205 --> 00:50:48,080
-should be sort of the
-culmination of at least
+seharusnya seperti
+puncak dari setidaknya
 
 939
 00:50:48,080 --> 00:50:50,120
-this part of the lecture.
+perkuliahan bagian ini.
 
 940
 00:50:50,120 --> 00:50:52,470
-And depending on
-how much time I have
+Dan bergantung pada berapa
+banyak waktu yang saya miliki
 
 941
 00:50:52,470 --> 00:50:54,800
-I'll tell you a
-little bit about how
+saya akan memberitahu Anda
+sedikit mengenai bagaimana
 
 942
 00:50:54,800 --> 00:50:56,730
-to implement hash functions.
+cara mengimplementasikan fungsi-fungsi hash.
 
 943
 00:50:56,730 --> 00:50:59,640
-But I think these
-things are more
+Tapi saya pikir
+hal-hal ini lebih
 
 944
 00:50:59,640 --> 00:51:03,580
-important from a
-standpoint of giving you
+penting dari sudut pandang
+yang memberikan Anda
 
 945
 00:51:03,580 --> 00:51:08,610
-a sense of cryptographic hashes.
+sebuah gambaran dari hash kriptografik.
 
 946
 00:51:08,610 --> 00:51:10,380
-All right.
+Baiklah.
 
 947
 00:51:10,380 --> 00:51:11,970
-Password storage.
+Penyimpanan kata sandi.
 
 948
 00:51:11,970 --> 00:51:16,730
-How many of you write your
-password in an unencrypted text
+Berapa banyak dari Anda menulis
+kata sandi Anda di sebuah berkas 
 
 949
 00:51:16,730 --> 00:51:22,230
-file and store it in
-a readable location?
+tidak terenkripsi dan menyimpannya di
+sebuah tempat yang dapat dibaca?
 
 950
 00:51:22,230 --> 00:51:24,380
-There you go, man.
+Itu dia.
 
 951
 00:51:24,380 --> 00:51:27,390
-Thank you for being honest.
+Terima kasih sudah jujur.
 
 952
 00:51:27,390 --> 00:51:29,550
-And I do worse.
+Dan saya melakukan yang lebih parah.
 
 953
 00:51:29,550 --> 00:51:32,610
-Not only do I do that, I
-use my first daughter's
+Saya bukan hanya melakukan itu, saya
+menggunakan nama anak pertama saya
 
 954
 00:51:32,610 --> 00:51:35,334
-name for four passwords.
+untuk empat kata sandi saya.
 
 955
 00:51:35,334 --> 00:51:36,750
-I won't tell you
-what the name is.
+Saya tidak akan memberitahu
+Anda namanya.
 
 956
 00:51:41,350 --> 00:51:43,470
-So that's something that
-we'd like to fix, right?
+Jadi itu sesuatu yang ingin
+kita perbaiki, benar?
 
 957
 00:51:43,470 --> 00:51:45,500
-So what do real systems do?
+Jadi apa yang dilakukan sistem-sistem nyata?
 
 958
 00:51:45,500 --> 00:51:49,530
-Real systems cannot protect
-against me using my first
+Sistem-sistem nyata tidak dapat melarang
+saya untuk menggunakan nama
 
 959
 00:51:49,530 --> 00:51:51,400
-daughter's name as
-a password, right?
+anak pertama saya sebagai
+kata sandi saya, benar?
 
 960
 00:51:51,400 --> 00:51:53,580
-So there's no way you
-can protect against that.
+Jadi tidak ada cara Anda dapat
+berlindung dari hal itu.
 
 961
 00:51:53,580 --> 00:51:56,830
-But if I had a reasonable
-password, which
+Tapi jika saya memiliki sebuah
+kata sandi masuk akal, yang
 
 962
 00:51:56,830 --> 00:51:59,030
-had reasonable
-entropy in it-- so
+memiliki entropi yang
+masuk akal di dalamnya-- jadi
 
 963
 00:51:59,030 --> 00:52:01,344
-let's assume here that we
-have reasonable entropy
+mari asumsikan di sini bahwa kita
+memiliki entrpi yang masuk akal
 
 964
 00:52:01,344 --> 00:52:02,010
-in the password.
+dalam kata sandi tersebut.
 
 965
 00:52:02,010 --> 00:52:04,000
-And you can just say 128-bits.
+Dan Anda dapat katakan saja 128-bit.
 
 966
 00:52:04,000 --> 00:52:05,240
-And it's not a lot, right?
+Dan hal itu tidak banyak, benar?
 
 967
 00:52:05,240 --> 00:52:09,135
-128-bits is 16 characters, OK?
+128-bit adalah 16 karakter, OK?
 
 968
 00:52:09,135 --> 00:52:11,260
-And you don't have to answer
-this-- how many of you
+Dan Anda tidak harus menjawab
+ini-- berapa banyak dari kalian
 
 969
 00:52:11,260 --> 00:52:15,390
-have 16 characters
-in your password?
+memiliki 16 karakter
+dalam kata sandi kalian?
 
 970
 00:52:15,390 --> 00:52:16,710
-Oh I'm impressed.
+Oh saya kagum.
 
 971
 00:52:16,710 --> 00:52:17,350
@@ -4560,77 +4560,77 @@ OK.
 
 972
 00:52:17,350 --> 00:52:18,980
-So you've got
-128-bits of entropy.
+Jadi Anda memiliki
+entropi 128-bit.
 
 973
 00:52:18,980 --> 00:52:21,710
-But the rest of you, forget it.
+Tapi untuk kalian yang lain, lupakan.
 
 974
 00:52:21,710 --> 00:52:25,040
-This is not going
-to help you, OK?
+Hal ini tidak akan
+membantu Anda, OK?
 
 975
 00:52:25,040 --> 00:52:28,140
-But what I want,
-assuming you have
+Tapi hal yang saya inginkan,
+mengasumsikan Anda memiliki
 
 976
 00:52:28,140 --> 00:52:31,830
-significant entropy in your
-password-- because otherwise,
+entropi signifikandapal kata sandi
+Anda-- karena jika tidak,
 
 977
 00:52:31,830 --> 00:52:33,940
-if there's not
-enough entropy you
+jika tidak ada entropi
+yang cukup Anda
 
 978
 00:52:33,940 --> 00:52:38,272
-can just enumerate all possible
-passwords of eight letters.
+dapat menghitung semua kemungkinan
+kata sandi yang terdiri dari delapan huruf.
 
 979
 00:52:38,272 --> 00:52:39,230
-And it's not that much.
+Dan hal itu tidak terlalu banyak.
 
 980
 00:52:39,230 --> 00:52:41,391
-It's 2 raised to
-50, what have you.
+Hal tersebut merupakan 2 pangkat
+50, mirip seperti itu.
 
 981
 00:52:41,391 --> 00:52:42,390
-And you can just go off.
+Dan Anda dapat lanjutkan terus.
 
 982
 00:52:42,390 --> 00:52:44,150
-And none of these
-properties matter.
+Dan tak satupun dari
+properti-properti ini berarti.
 
 983
 00:52:44,150 --> 00:52:45,810
-You just-- you have your h of x.
+Anda hanya-- Anda hanya memiliki h(x) Anda.
 
 984
 00:52:45,810 --> 00:52:48,206
-It's public.
+Hal ini publik.
 
 985
 00:52:48,206 --> 00:52:50,080
-We'll talk about how we
-use that in a second.
+Kita akan membahas tentang cara kita
+menggunakan hal terebut sebentar lagi.
 
 986
 00:52:50,080 --> 00:52:53,350
-But clearly if the
-domain is small
+Tapi jelas jika
+domainnya kecil
 
 987
 00:52:53,350 --> 00:52:55,120
-you can just
+Anda bisa
 enumerate the domain.
 
 988
