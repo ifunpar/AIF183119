@@ -2871,59 +2871,58 @@ dan kemudian melakukan sesuatu yang lain.
 
 606
 00:26:50,950 --> 00:26:52,980
-So for latency reasons,
-this is actually
-
+Jadi untuk alasan latensi,
+ini sebenarnya
 607
 00:26:52,980 --> 00:26:54,970
-not a super popular plan.
+bukan sebuah rencana yang sangat populer.
 
 608
 00:26:54,970 --> 00:26:56,980
-Another problem
-is that you don't
+Masalah lainnya
+adalah bahwa Anda tidak
 
 609
 00:26:56,980 --> 00:27:01,800
-want this OCSP thing being down
-from affecting your ability
+ingin OCSP ini mati
+kemudian mempengaruhi kemampuan
 
 610
 00:27:01,800 --> 00:27:02,880
-to browse the web.
+untuk menjelajahi web.
 
 611
 00:27:02,880 --> 00:27:04,369
-Suppose this OSCP
-server goes down.
+Misalkan OCSP server
+ini mati.
 
 612
 00:27:04,369 --> 00:27:06,160
-You could, like, disable
-the whole internet
+Anda dapat, sebagai contoh, menonaktifkan
+seluruh internet 
 
 613
 00:27:06,160 --> 00:27:08,090
-because you can't check
-anyone's certificate.
+karena Anda tidak dapat memeriksa
+sertifikat siapapun.
 
 614
 00:27:08,090 --> 00:27:09,600
-Like, it could be all bad.
+Bisa jadi semuanya buruk. 
 
 615
 00:27:09,600 --> 00:27:12,230
-And then all your
-connections stop working.
+Dan kemudian seluruh
+koneksi Anda berhenti bekerja.
 
 616
 00:27:12,230 --> 00:27:13,590
-So no one wants that.
+Tidak ada yang menginginkan hal tersebut.
 
 617
 00:27:13,590 --> 00:27:17,030
-So most clients
-treat the OCSP server
+Jadi, kebanyakan klien
+memperlakukan server OCSP 
 
 618
 00:27:17,030 --> 00:27:21,194
