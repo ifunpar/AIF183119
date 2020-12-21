@@ -2873,6 +2873,7 @@ dan kemudian melakukan sesuatu yang lain.
 00:26:50,950 --> 00:26:52,980
 Jadi untuk alasan latensi,
 ini sebenarnya
+
 607
 00:26:52,980 --> 00:26:54,970
 bukan sebuah rencana yang sangat populer.
