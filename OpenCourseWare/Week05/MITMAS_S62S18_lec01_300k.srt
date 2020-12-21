@@ -2389,22 +2389,22 @@ bahwa koin ini asli.
 
 507
 00:20:58,850 --> 00:21:03,678
-Dan nanti Bob bisa bilang, saya 
+Dan nanti Bob bisa bilang, saya
 ingin $1.00 untuk koin ini
 
 508
 00:21:03,678 --> 00:21:05,720
-yang baru saya berikan ke kamu 
+yang baru saya berikan ke kamu
 atau sesuatu seperti itu.
 
 509
 00:21:05,720 --> 00:21:07,940
-Atau Bob bisa mempunyai 
+Atau Bob bisa mempunyai
 sebuah akun dengan bank
 
 510
 00:21:07,940 --> 00:21:09,320
-dan bisa menyimpan 
+dan bisa menyimpan
 saldo disana.
 
 511
@@ -2414,32 +2414,32 @@ pro dan kontra di sini,
 
 512
 00:21:17,720 --> 00:21:21,020
-OK, jadi kita sudah melakukan 
+OK, jadi kita sudah melakukan
 sesuatu dimana bank tidak
 
 513
 00:21:21,020 --> 00:21:23,600
-berada di tengah, namun bank 
+berada di tengah, namun bank
 sebenarnya masih berada di tengah.
 
 514
 00:21:23,600 --> 00:21:28,850
-Kita sudah menjadi lebih dekat 
+Kita sudah menjadi lebih dekat
 selangkah, tapi kita belum sampai kesana.
 
 515
 00:21:28,850 --> 00:21:33,080
-Alice secara teknis bisa memberikan 
+Alice secara teknis bisa memberikan
 Bob suatu benda elektronik yang bisa
 
 516
 00:21:33,080 --> 00:21:35,530
-mempresentasikan sebuah nilai, 
+mempresentasikan sebuah nilai,
 namun Bob masih butuh
 
 517
 00:21:35,530 --> 00:21:37,280
-untuk berbicara dengan bank 
+untuk berbicara dengan bank
 untuk memastikan benda itu asli
 
 518
@@ -2448,7 +2448,7 @@ dan belum digunakan dua kali.
 
 519
 00:21:38,660 --> 00:21:41,330
-Kita juga masih mempunyai masalah 
+Kita juga masih mempunyai masalah
 ketika bank adalah pihak yang
 
 520
@@ -2457,7 +2457,7 @@ mencetak benda ini.
 
 521
 00:21:42,740 --> 00:21:44,600
-Bank bisa memutuskan untuk 
+Bank bisa memutuskan untuk
 tidak memberikan kepada Alice
 
 522
@@ -2466,22 +2466,22 @@ sebuah koin jika mereka mau.
 
 523
 00:21:46,490 --> 00:21:48,080
-Kita juga masih memiliki 
+Kita juga masih memiliki
 permasalahan privasi
 
 524
 00:21:48,080 --> 00:21:51,500
-karena nomor rahasia, 
+karena nomor rahasia,
 nomor serial yang kita
 
 525
 00:21:51,500 --> 00:21:54,410
-ciptakan untuk koin, bisa 
+ciptakan untuk koin, bisa
 dilacak dari pembayaran.
 
 526
 00:21:57,660 --> 00:22:00,530
-Jadi ada sebuah 
+Jadi ada sebuah
 gagasan mengenai sesuatu
 
 527
@@ -2490,17 +2490,17 @@ yang disebut Chaumian e-cash.
 
 528
 00:22:01,870 --> 00:22:04,070
-Jadi David Chaumian 
+Jadi David Chaumian
 adalah seorang kriptografer,
 
 529
 00:22:04,070 --> 00:22:06,590
-dan dia mengembangkan 
-sistem dimana sistem ini 
+dan dia mengembangkan
+sistem dimana sistem ini
 
 530
 00:22:06,590 --> 00:22:12,170
-memiliki sedikit properti yang lebih bagus 
+memiliki sedikit properti yang lebih bagus
 dibandingkan bentuk uang elektronik sebelumnya
 
 531
@@ -2511,7 +2511,7 @@ sebuah kunci adalah,
 532
 00:22:15,290 --> 00:22:18,770
 daripada bank yang memilih
-nomor rahasia, 
+nomor rahasia,
 
 533
 00:22:18,770 --> 00:22:20,990
@@ -2563,13 +2563,13 @@ mengenai maksud hal itu sebenarnya
 
 543
 00:22:48,140 --> 00:22:50,150
-Itu semua sudah berada dalam 
-kertas yang sudah ditentukan 
+Itu semua sudah berada dalam
+kertas yang sudah ditentukan
 
 544
 00:22:50,150 --> 00:22:51,710
 untuk dibaca bagi kelas ini,
-jadi pastikan 
+jadi pastikan
 
 545
 00:22:51,710 --> 00:22:54,450
@@ -2707,108 +2707,108 @@ then send to Bob.
 
 573
 00:24:11,500 --> 00:24:14,740
-Bob can check and make sure
-that this is a valid signature
+Bob bisa memeriksa dan memastikan
+bahwa ini adalah tanda tangan yang sah
 
 574
 00:24:14,740 --> 00:24:16,690
-from the bank.
+dari bank.
 
 575
 00:24:16,690 --> 00:24:22,360
-And if that's correct, then
-Bob can give Alice a sandwich.
+Dan jika itu benar, maka
+Bob bisa memberi Alice sandwich.
 
 576
 00:24:22,360 --> 00:24:26,650
-In order to redeem this, Bob
-gives this coin to the bank.
+Untuk menukarkan ini, Bob
+memberikan koin ini ke bank.
 
 577
 00:24:26,650 --> 00:24:33,190
-The bank says, OK, I've never
-seen the secret number before,
+Bank berkata, OK, saya tidak pernah
+melihat nomor rahasia sebelumnya,
 
 578
 00:24:33,190 --> 00:24:35,000
-and you have my signature on it.
+dan anda memiliki tanda tangan saya di atasnya.
 
 579
 00:24:35,000 --> 00:24:37,292
-So I'm going to assume that
-I went through this process
+Jadi saya akan berasumsi begitu
+Saya melalui proses ini
 
 580
 00:24:37,292 --> 00:24:39,700
-with somebody and
-signed something.
+dengan seseorang dan
+menandatangani sesuatu.
 
 581
 00:24:39,700 --> 00:24:42,370
-And now I'm going to
-record that secret number.
+Dan sekarang aku akan mencatat
+nomor rahasia itu.
 
 582
 00:24:42,370 --> 00:24:43,870
-Once that happens,
-Bob can be sure
+Setelah itu terjadi,
+Bob bisa yakin
 
 583
 00:24:43,870 --> 00:24:46,060
-that this coin hasn't
-been spent before.
+bahwa koin ini belum
+dihabiskan sebelumnya.
 
 584
 00:24:46,060 --> 00:24:48,620
-The bank keeps a running list
-of all the secret numbers
+Bank menyimpan daftar berjalan
+dari semua nomor rahasia
 
 585
 00:24:48,620 --> 00:24:53,050
-it's seen, and it makes sure
-that if it ever sees one again,
+itu terlihat, dan itu memastikan
+bahwa jika pernah melihatnya lagi,
 
 586
 00:24:53,050 --> 00:24:56,260
-it can say no, this
-is not correct.
+bisa dikatakan tidak, ini
+tidak benar.
 
 587
 00:24:56,260 --> 00:24:59,260
-I should never see a secret
-number more than once.
+Saya seharusnya tidak pernah melihat nomor
+rahasia lebih dari sekali.
 
 588
 00:24:59,260 --> 00:25:00,190
-Now, OK.
+Sekarang, OK.
 
 589
 00:25:00,190 --> 00:25:04,900
-But know what about Alice
-could give one version of that
+Tapi tahu bagaimana dengan Alice
+bisa memberikan satu versi itu
 
 590
 00:25:04,900 --> 00:25:05,470
-to Bob.
+kepada Bob.
 
 591
 00:25:05,470 --> 00:25:08,230
-Alice could also give a
-version of that to Charlie.
+Alice juga bisa memberikan
+versi itu untuk Charlie.
 
 592
 00:25:08,230 --> 00:25:10,870
-And how are Charlie
-and Bob supposed
+Dan bagaimana Charlie
+dan Bob seharusnya
 
 593
 00:25:10,870 --> 00:25:15,010
-to know whose coin is correct?
+mengetahui koin siapa yang benar?
 
 594
 00:25:15,010 --> 00:25:17,260
-Because remember, we wanted
-to try to get the bank out
+Karena ingat, kami ingin
+untuk mencoba mengeluarkan bank
 
 595
 00:25:17,260 --> 00:25:19,210
