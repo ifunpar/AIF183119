@@ -4225,106 +4225,106 @@ Bitcoin di Android.
 
 890
 00:37:41,220 --> 00:37:45,450
-And the Android applications
-for Bitcoin were getting random
+Dan aplikasi Android untuk Bitcoin
+mendapatkan nilai acak
 
 891
 00:37:45,450 --> 00:37:51,210
-values for these keys using this
-Java API called SecureRandom(),
+untuk kunci ini dengan menggunakan
+API Java yang bernama SecureRandom(),
 
 892
 00:37:51,210 --> 00:37:56,040
-which sounds great, but as
-people figured out, well, OK.
+yang terdengar hebat, tetapi seperti
+yang orang-orang ketahui, yah, OK.
 
 893
 00:37:56,040 --> 00:37:59,080
-So what it is, right, it doesn't
-really get real random numbers.
+Jadi apa itu, benar, API tersebut
+tidak benar-benar mendapatkan nilai riil acak.
 
 894
 00:37:59,080 --> 00:38:00,800
-Inside of it, there's
-this construction
+Di dalamnya, ada
+konstruksi ini
 
 895
 00:38:00,800 --> 00:38:04,090
-called Pseudorandom
+yang disebut dengan Pseudorandom
 Number Generator,
 
 896
 00:38:04,090 --> 00:38:07,217
-or PRNG that, given
-a particular seed
+atau PRNG yang, diberi
+nilai seed tertentu,
 
 897
 00:38:07,217 --> 00:38:09,540
-value, like you get
-maybe a couple of hundred
+seperti Anda mungkin
+mendapatkan beberapa ratus
 
 898
 00:38:09,540 --> 00:38:12,400
-bits of randomness and you
-shove it into this PRNG,
+bit acak dan Anda
+memberikannya ke PRNG,
 
 899
 00:38:12,400 --> 00:38:15,410
-you can keep asking it for more
-randomness and sort of stretch
+Anda bisa terus memintanya untuk
+nilai yang lebih acak dan peregangan
 
 900
 00:38:15,410 --> 00:38:19,660
-these random bits into as
-many random bits as you want.
+dari bit acak ini menjadi bit acak
+sebanyak yang Anda inginkan.
 
 901
 00:38:19,660 --> 00:38:22,126
-So you see them
-initially, and then you
+Jadi Anda menemui mereka
+pada awalnya, dan kemudian Anda
 
 902
 00:38:22,126 --> 00:38:24,000
-can generate as many
-random bits as you want.
+dapat membangkitkan bit acak
+sebanyak mungkin yang Anda inginkan.
 
 903
 00:38:24,000 --> 00:38:26,581
-And for various cryptographic
-reasons I won't go into here,
+Dan untuk berbagai alasan kriptografi
+yang tidak akan saya jelaskan di sini,
 
 904
 00:38:26,581 --> 00:38:27,330
-it actually works.
+hal itu sebenarnya jalan.
 
 905
 00:38:27,330 --> 00:38:30,030
-If you give it a couple of
-hundred really good random bits
+Jika Anda memberinya beberapa
+ratus bit acak yang sangat bagus
 
 906
 00:38:30,030 --> 00:38:32,070
-initially, it's going to
-be very hard for anyone
+di awal, akan sangat sulit
+bagi orang lain
 
 907
 00:38:32,070 --> 00:38:37,380
-to predict what the pseudorandom
-values it's generating are.
+untuk memprediksi apa nilai
+pseudorandom yang dibangkitkan.
 
 908
 00:38:37,380 --> 00:38:40,300
-But the problem is
-that this Java library
+Namun masalahnya adalah
+bahwa library Java ini
 
 909
 00:38:40,300 --> 00:38:41,840
-had a small bug in it.
+memiliki sebuah kesalahan kecil di dalamnya.
 
 910
 00:38:41,840 --> 00:38:44,980
-In some set of
-circumstances, it forgot
+Di dalam beberapa
+kondisi, library tersebut lupa
 
 911
 00:38:44,980 --> 00:38:46,860
