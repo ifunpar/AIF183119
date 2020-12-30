@@ -2548,7 +2548,7 @@ pesannya.
 
 540
 00:22:37,880 --> 00:22:42,020
-Jadi Alice menambahakn beberapa angka acak
+Jadi Alice menambahkan beberapa angka acak
 ke angka rahasia sedemikian rupa
 
 541
@@ -2602,108 +2602,108 @@ kemampuan
 
 551
 00:23:08,180 --> 00:23:11,330
-to remove that randomness,
-or that blinding, later
+untuk menghapus keacakan itu,
+atau yang membutakan itu, kemudian
 
 552
 00:23:11,330 --> 00:23:16,760
-and end up with a valid
-signature on a secret number.
+dan berakhir dengan sebuah ciri khas
+yang sah pada sebuah nomor rahasia.
 
 553
 00:23:16,760 --> 00:23:19,040
-So Alice does the same
-thing that she did before.
+Jadi Alice melakukan hal yang sama
+dengan hal yang dia lakukan sebelumnya.
 
 554
 00:23:19,040 --> 00:23:22,400
-She gives Bob a representation
-of that electronic coin.
+Dia memberi Bob sebuah representasi
+dari koin elektronik itu. 
 
 555
 00:23:22,400 --> 00:23:25,820
-And when Bob redeems it,
-note that the bank never
+Dan ketika Bob menukarkan itu,
+perhatikan bahwa bank tidak pernah
 
 556
 00:23:25,820 --> 00:23:28,340
-sees what the number is,
-so when Bob redeems it,
+melihat berapa jumlahnya,
+Jadi ketika Bob menukarkan itu,
 
 557
 00:23:28,340 --> 00:23:31,490
-the bank has no way of linking
-the payment between Alice
+bank tidak memiliki cara untuk menghubungkan
+pembayaran antara Alice
 
 558
 00:23:31,490 --> 00:23:33,250
-and Bob.
+dan Bob.
 
 559
 00:23:33,250 --> 00:23:36,220
-So just to get into how
-this works visually,
+Jadi hanya untuk membahas bagaimana
+ini bekerja secara visual,
 
 560
 00:23:36,220 --> 00:23:39,700
-Alice will talk to
-the bank, and Alice
+Alice akan berbicara dengan
+bank, dan Alice
 
 561
 00:23:39,700 --> 00:23:43,660
-will use a blinding factor
-on the secret number.
+akan menggunakan faktor pengacak
+di nomor rahasia.
 
 562
 00:23:43,660 --> 00:23:45,430
-And so when Alice
-talked to the bank,
+Dan ketika Alice
+berbicara dengan bank, 
 
 563
 00:23:45,430 --> 00:23:47,763
-the bank doesn't actually see
-what the secret number is.
+bank tidak benar-benar melihat
+apa nomor rahasia itu.
 
 564
 00:23:47,763 --> 00:23:49,000
-They can't decode it.
+Mereka tidak bisa memecahkan kode itu.
 
 565
 00:23:49,000 --> 00:23:52,810
-Again, Alice gives $1.00 or
-something like that to get this
+Sekali lagi, Alice memberikan $1.00 atau
+sesuatu seperti itu untuk mendapatkan
 
 566
 00:23:52,810 --> 00:23:54,640
-coin from the bank.
+koin ini dari bank.
 
 567
 00:23:54,640 --> 00:23:57,040
-And the bank signs this.
+Dan bank menandai ini.
 
 568
 00:23:57,040 --> 00:24:00,940
-Alice can remove the
-blinding factor later.
+Alice dapat menghapus
+faktor pengacak nanti.
 
 569
 00:24:00,940 --> 00:24:02,560
-And this is what the coin is.
+Dan inilah koin tersebut.
 
 570
 00:24:02,560 --> 00:24:05,110
-The coin is a valid
-bank signature
+Koin ini adalah ciri khas
+bank yang sah
 
 571
 00:24:05,110 --> 00:24:08,440
-on the secret number, and
-also the number itself,
+di nomor rahasia itu, dan
+juga nomor itu sendiri, 
 
 572
 00:24:08,440 --> 00:24:11,500
-which Alice can
-then send to Bob.
+dimana Alice bisa
+kemudian mengirimkan kepada Bob.
 
 573
 00:24:11,500 --> 00:24:14,740
