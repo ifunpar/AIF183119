@@ -4328,108 +4328,108 @@ kondisi, library tersebut lupa
 
 911
 00:38:44,980 --> 00:38:46,860
-to initialize the
-PRNG with a seed,
+untuk menginisialisasi
+PRNG dengan seed,
 
 912
 00:38:46,860 --> 00:38:50,022
-so it was just all zeros, which
-means that everyone could just
+jadi semuanya hanya nol, yang
+yang berarti setiap orang
 
 913
 00:38:50,022 --> 00:38:51,730
-figure out what your
-random numbers were.
+dapat mengetahui
+nomor acak Anda.
 
 914
 00:38:51,730 --> 00:38:53,120
-If they start with
-zeros, they'll
+Jika mereka memulai dengan
+nol, mereka akan
 
 915
 00:38:53,120 --> 00:38:54,757
-produce the same
-random numbers as you,
+menghasilkan angka acak
+yang sama seperti Anda,
 
 916
 00:38:54,757 --> 00:38:57,090
-which means they'll produce
-the same private key as you.
+yang berarti mereka akan menghasilkan
+private key yang sama dengan Anda.
 
 917
 00:38:57,090 --> 00:38:59,190
-So they can just generate
-the same private key
+Jadi mereka dapat membuat
+private key yang sama
 
 918
 00:38:59,190 --> 00:39:01,120
-and transfer your Bitcoins.
+dan mentransfer Bitcoin Anda.
 
 919
 00:39:01,120 --> 00:39:05,400
-So this is, again, a
-small or not small bug,
+Jadi ini, sekali lagi,
+bug kecil atau tidak kecil,
 
 920
 00:39:05,400 --> 00:39:08,320
-depending on, I
-guess, who is asking.
+tergantung pada, saya kira, 
+siapa yang bertanya.
 
 921
 00:39:08,320 --> 00:39:10,000
-But nonetheless, right?
+Tapi tetap saja, kan?
 
 922
 00:39:10,000 --> 00:39:12,500
-Another example of small
-programming mistakes
+Contoh lain dari kesalahan
+pemrograman kecil
 
 923
 00:39:12,500 --> 00:39:14,790
-leading to pretty
-catastrophic results.
+yang mengarah
+ke hasil yang sangat dahsyat.
 
 924
 00:39:14,790 --> 00:39:17,410
-Lot's of people got their
-Bitcoin balances stolen
+Banyak orang yang saldo
+Bitcoinnya dicuri
 
 925
 00:39:17,410 --> 00:39:19,400
-because of this weakness.
+karena kelemahan ini.
 
 926
 00:39:19,400 --> 00:39:21,920
-Of course, the fix is
-pretty simple at some level.
+Tentu saja, perbaikannya
+cukup sederhana di beberapa level.
 
 927
 00:39:21,920 --> 00:39:23,360
-You change the
-Java implementation
+Anda mengubah
+implementasi Java
 
 928
 00:39:23,360 --> 00:39:28,270
-of SecureRandom() to always
-seed this PRNG with random input
+dari SecureRandom() untuk selalu
+seed PRNG ini dengan bit
 
 929
 00:39:28,270 --> 00:39:29,210
-bits.
+masukan acak.
 
 930
 00:39:29,210 --> 00:39:31,300
-And then, hopefully,
-you're in good shape.
+Dan kemudian, semoga,
+Anda dalam kondisi yang baik.
 
 931
 00:39:31,300 --> 00:39:36,532
-But still, that's yet another
-example of mechanism failure.
+Tapi tetap saja, itu contoh lain
+dari kegagalan mekanisme.
 
 932
 00:39:36,532 --> 00:39:37,174
-Yeah?
+Ya?
 
 933
 00:39:37,174 --> 00:39:39,424
