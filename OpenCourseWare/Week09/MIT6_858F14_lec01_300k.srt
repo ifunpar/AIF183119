@@ -4549,104 +4549,104 @@ All right.
 
 957
 00:40:35,140 --> 00:40:40,610
-Other questions about these
-problems, examples, et cetera?
+Pertanyaan lain tentang ini
+masalah, contoh, dan sebagainya?
 
 958
 00:40:40,610 --> 00:40:41,690
-All right.
+Baiklah.
 
 959
 00:40:41,690 --> 00:40:46,570
-So I guess, one thing I wanted
-to point out is that actually,
+Jadi saya rasa, satu hal yang ingin
+saya tunjukkan adalah,
 
 960
 00:40:46,570 --> 00:40:48,400
-well, as you're
-starting to appreciate,
+Nah, saat Anda
+mulai menghargai,
 
 961
 00:40:48,400 --> 00:40:52,830
-is that in computer security,
-almost every detail has
+bahwa dalam keamanan komputer,
+hampir setiap detail
 
 962
 00:40:52,830 --> 00:40:55,000
-a chance of really mattering.
+memiliki peluang yang sangat penting.
 
 963
 00:40:55,000 --> 00:40:58,390
-If you screw up almost something
-seemingly inconsequential,
+Jika Anda hampir mengacaukan
+esuatu yang tampaknya tidak penting,
 
 964
 00:40:58,390 --> 00:41:00,780
-like forgetting to check
-something, or this,
+seperti lupa memeriksa
+sesuatu, atau ini,
 
 965
 00:41:00,780 --> 00:41:03,190
-or forgetting to
-initialize the random seed,
+atau lupa 
+menginisialisasi seed acak,
 
 966
 00:41:03,190 --> 00:41:04,980
-it can have pretty
-dramatic consequences
+ini dapat menimbulkan
+konsekuensi yang cukup dramatis
 
 967
 00:41:04,980 --> 00:41:07,010
-for the overall system.
+untuk keseluruhan sistem.
 
 968
 00:41:07,010 --> 00:41:09,530
-And you really have to
-be very clear about,
+Dan Anda benar-benar harus
+sangat jelas tentang,
 
 969
 00:41:09,530 --> 00:41:11,510
-what is the specification
-of your system?
+apa spesifikasi
+sistem Anda?
 
 970
 00:41:11,510 --> 00:41:12,510
-What is it doing?
+Apa yang dilakukannya?
 
 971
 00:41:12,510 --> 00:41:14,870
-Exactly what are all
-the corner cases?
+Persis apa itu semua 
+kasus corner?
 
 972
 00:41:14,870 --> 00:41:17,170
-And a good way to sort of
-think of breaking a system
+Dan cara yang baik untuk
+memikirkan tentang merusak sistem
 
 973
 00:41:17,170 --> 00:41:19,369
-or, conversely, figure out
-if your system is secure,
+atau, sebaliknya, mencari tahu
+apakah sistem Anda aman,
 
 974
 00:41:19,369 --> 00:41:20,910
-is to really push
-all the edge cases,
+untuk memaksakan terhadap
+semua edge cases,
 
 975
 00:41:20,910 --> 00:41:23,950
-like what happens if my
-input is just large enough?
+seperti apa yang terjadi jika
+input saya cukup besar?
 
 976
 00:41:23,950 --> 00:41:26,620
-Or what is the biggest
-or the smallest input?
+Atau apa input terbesar
+atau input terkecil?
 
 977
 00:41:26,620 --> 00:41:28,980
-What is the sort
-of strangest set
+Jenis set apa
+apa yang paling aneh
 
 978
 00:41:28,980 --> 00:41:30,670
