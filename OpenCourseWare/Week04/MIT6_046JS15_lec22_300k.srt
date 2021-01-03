@@ -2817,96 +2817,96 @@ menukarkan itu dengan Bob.
 
 599
 00:32:46,520 --> 00:32:50,100
-And she's, in fact,
-communicating with the pirates.
+Dan dia[Alice], faktanya,
+berkomunikasi dengan bajak laut.
 
 600
 00:32:50,100 --> 00:33:01,340
-So there's a man in
-the middle attack,
+Jadi terdapat serangan
+man in the middle.
 
 601
 00:33:01,340 --> 00:33:10,190
-which corresponds to the
-pirates having their own locks
+yang berhubungan dengan
+bajak laut memiliki gembok mereka sendiri
 
 602
 00:33:10,190 --> 00:33:11,240
-and keys.
+dan kunci.
 
 603
 00:33:11,240 --> 00:33:15,500
-And it's even more trivial in
-the case of our picture here.
+Dan hal itu akan menjadi lebih biasa
+di dalam kasus gambar kita di sini.
 
 604
 00:33:15,500 --> 00:33:18,460
-Because assuming the
-pirates know mathematics,
+Karena asumsi bahwa
+bajak laut mengetahui matematika,
 
 605
 00:33:18,460 --> 00:33:22,020
-they can generate a random
-number-- and the number
+mereka dapat menghasilkan secara acak
+sebuah angka-- dan angka tersebut
 
 606
 00:33:22,020 --> 00:33:27,020
-could be c, for example-- and
-just send back g raised to c.
+bisa merupakan c, untuk contoh-- dan
+hanya mengirim kembali g pangkat c.
 
 607
 00:33:27,020 --> 00:33:30,170
-And for all you know,
-they could actually
+Dan seperti yang semua Anda tahu,
+mereka sebenarnya dapat
 
 608
 00:33:30,170 --> 00:33:34,430
-get Bob to send g
-raised to b back,
+membuat Bob mengirim g
+pangkat b kembali,
 
 609
 00:33:34,430 --> 00:33:38,940
-but they would intercept it and
-replace it with g raised to c.
+tetapi mereka akan memotong dan
+mengganti dengan g pangkat c.
 
 610
 00:33:38,940 --> 00:33:40,767
-And they know what c is.
+Dan mereka tahu apa itu c.
 
 611
 00:33:40,767 --> 00:33:42,850
-So what's happening now
-is so you can [INAUDIBLE].
+Jadi apa yang terjadi sekarang
+adalah anda dapat [tidak terdengar].
 
 612
 00:33:42,850 --> 00:33:45,320
-I won't to go through
-all of the math here.
+Saya tidak akan menuju
+semua matematika di sini.
 
 613
 00:33:45,320 --> 00:33:48,130
-But you can kind
-of see it, I hope.
+Tetapi anda dapat sedikit
+melihatnya, Saya harap.
 
 614
 00:33:48,130 --> 00:33:51,950
-You end up, if you're
-Alice, exchanging
+Anda akan berakhir, jika anda adalah
+Alice, menukar
 
 615
 00:33:51,950 --> 00:33:58,030
-a secret key with the
-pirates as opposed to Bob.
+sebuah kunci rahasia dengan
+bajak laut sebagai lawan dari Bob.
 
 616
 00:33:58,030 --> 00:34:03,280
-And the way you can set this
-up is the pirates actually
+Dan cara bagaimana anda mengatur ini
+adalah bajak laut sebenarnya
 
 617
 00:34:03,280 --> 00:34:06,070
-will get into a situation
-where Alice and Bob think
+akan masuk kepada situasi
+dimana Alice dan Bob berpikir
 
 618
 00:34:06,070 --> 00:34:08,980
