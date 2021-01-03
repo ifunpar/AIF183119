@@ -1984,32 +1984,31 @@ orang-orang ini sebenarnya
 
 417
 00:18:28,470 --> 00:18:32,580
-just string entries somewhere
-in some ACL on a file
+hanya string entri di suatu tempat 
+dalam beberapa ACL pada file
 
 418
 00:18:32,580 --> 00:18:33,950
-server on a mail server.
+server di server email.
 
 419
 00:18:33,950 --> 00:18:37,340
-And just because you wipe out
-this entry in the Kerberos
+Dan hanya karena Anda menghapus 
+entri ini di Database Kerberos
 
 420
 00:18:37,340 --> 00:18:40,075
-database doesn't mean
-that this entry is gone.
+tidak berarti bahwa entri ini hilang
 
 421
 00:18:40,075 --> 00:18:41,950
-And they're not versioning
-in any way, right?
+Dan mereka tidak membuat versi
+dengan cara apa pun, bukan?
 
 422
 00:18:41,950 --> 00:18:43,658
-This entry could
-literally say, you know,
+Entri ini secara harfiah 
+dapat mengatakan, Anda tahu,
 
 423
 00:18:43,658 --> 00:18:47,270
