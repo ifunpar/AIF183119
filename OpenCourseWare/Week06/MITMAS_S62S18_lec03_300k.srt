@@ -3069,8 +3069,6 @@ gila dan luar biasa.
 
 662
 00:30:16,760 --> 00:30:18,530
-Because the idea
-is to sign, OK, I
 Karena idenya adalah 
 untuk menandatangani, oke, saya
 
@@ -3086,24 +3084,24 @@ dengan ukuran yang sama dengan n, kan?
 
 665
 00:30:24,620 --> 00:30:27,230
-And then I give that to someone.
+Dan kemudian saya memberikan itu kepada seseorang.
 
 666
 00:30:27,230 --> 00:30:32,750
-They take that signature
-to the 65537 power modulo
+Mereka mengambil tanda tangan itu 
+ke 65537 pangkat modulo
 
 667
 00:30:32,750 --> 00:30:35,480
-m again and see if m--
+m lagi dan lihat apakah m--
 
 668
 00:30:35,480 --> 00:30:36,800
-the message-- comes back out.
+pesannya-- keluar kembali.
 
 669
 00:30:36,800 --> 00:30:39,260
-And if it does,
+Dan jika ya,
 they know I signed,
 
 670
