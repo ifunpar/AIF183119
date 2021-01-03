@@ -2812,113 +2812,118 @@ untuk mencoba mengeluarkan bank
 
 595
 00:25:17,260 --> 00:25:19,210
-of the way when doing this.
+dengan cara melakukan ini.
 
 596
 00:25:19,210 --> 00:25:21,250
-And so in Chaumian
-e-cash, the way
+Dan begitu juga di Chaumian.
+e-cash, cara
 
 597
 00:25:21,250 --> 00:25:22,990
-that this works is
-the bank actually
+kerjanya adalah
+bank sebenarnya
 
 598
 00:25:22,990 --> 00:25:26,150
-keeps a bit more information.
+menyimpan lebih banyak informasi.
 
 599
 00:25:26,150 --> 00:25:29,920
 And the information
 that the bank is keeping
+Dan informasi
+yang disimpan oleh bank
 
 600
 00:25:29,920 --> 00:25:33,370
-won't let the bank link
-these transactions together
+tidak akan membiarkan bank menghubungkan
+transaksi ini bersama-sama
 
 601
 00:25:33,370 --> 00:25:37,570
-unless Alice happens to
-give this to two people.
+kecuali Alice kebetulan
+memberikan ini kepada dua orang.
 
 602
 00:25:37,570 --> 00:25:41,260
-And so if Alice gives the same
-coin to two different people,
+Jadi jika Alice memberikan koin
+yang sama kepada dua orang berbeda,
 
 603
 00:25:41,260 --> 00:25:43,330
-the bank will be
-able to detect it
+bank akan
+mampu mendeteksi
+
 
 604
 00:25:43,330 --> 00:25:46,060
-and the bank will be able
-to know it was Alice.
+dan bank akan
+mengetahui bahwa itu adalah Alice.
 
 605
 00:25:46,060 --> 00:25:50,200
-And so this is kind of
-a motivator for Alice
+Jadi ini semacam
+motivator bagi Alice
 
 606
 00:25:50,200 --> 00:25:51,740
-not to do that.
+untuk tidak melakukan itu.
 
 607
 00:25:51,740 --> 00:25:55,180
-So the idea being here is that
-the way that we get around
+Jadi idenya disini adalah
+cara kita menyiasati
 
 608
 00:25:55,180 --> 00:25:59,860
-the fact that we don't know if
-a coin has been double spent
+fakta bahwa kita tidak tahu apakah
+koin sudah digunakan dua kali lipat
+
 
 609
 00:25:59,860 --> 00:26:05,140
-or not is we add punishment
-if the coin is double spent.
+atau tidak adalah dengan kita memberikan hukuman
+jika koin tersebut digunakan dua kali lipat.
 
 610
 00:26:05,140 --> 00:26:08,050
-So Bob doesn't know for sure
-that this coin he receives
+Jadi Bob tidak tahu pasti
+koin yang diterimanya ini
+
 
 611
 00:26:08,050 --> 00:26:11,590
-hasn't been double spent, but
-he does know that if it was,
+belum digunakan dua kali lipat, tetapi
+dia tahu bahwa jika ya,
 
 612
 00:26:11,590 --> 00:26:13,480
-someone's going to
-know it was Alice,
+seseorang akan tahu
+itu adalah Alice,
 
 613
 00:26:13,480 --> 00:26:17,480
-and they're going to punish her.
+dan mereka akan menghukumnya.
 
 614
 00:26:17,480 --> 00:26:19,460
-So this is a pretty
-clever scheme.
+Jadi ini adalah skema
+yang cukup pintar.
 
 615
 00:26:19,460 --> 00:26:24,820
-And this actually gets us
-around a lot of problems.
+Dan ini sebenarnya membuat kita
+mengatasi banyak masalah.
 
 616
 00:26:24,820 --> 00:26:26,260
-We have digital payments.
+Kita memiliki pembayaran digital.
 
 617
 00:26:26,260 --> 00:26:30,340
-We can make the actual transfer
-without the bank in the middle.
+Kita dapat melakukan transfer
+tanpa bank ditengahnya.
 
 618
 00:26:30,340 --> 00:26:33,250
