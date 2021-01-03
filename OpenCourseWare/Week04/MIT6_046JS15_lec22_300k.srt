@@ -2754,66 +2754,66 @@ kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
-if they just had
-a lock that locks
+Jika mereka hanya memiliki
+sebuah gembok yang terkunci
 
 587
 00:32:10,940 --> 00:32:12,440
-and they didn't
-have the key for it,
+dan mereka tidak
+memiliki kunci untuk itu,
 
 588
 00:32:12,440 --> 00:32:13,898
-they will wouldn't
-be able to break
+mereka tidak akan
+dapat untuk membuka
 
 589
 00:32:13,898 --> 00:32:15,140
-the security of the protocol.
+keamanan protokol.
 
 590
 00:32:15,140 --> 00:32:18,910
-But if they had a lock
-and a key for that lock,
+Tetapi jika mereka memiliki gembok
+dan sebuah kunci untuk gembok itu,
 
 591
 00:32:18,910 --> 00:32:22,350
-then they can pretend to
-have delivered this to Bob.
+Maka mereka dapat berpura-pura
+telah mengirimkan ini kepada Bob.
 
 592
 00:32:22,350 --> 00:32:25,040
-And there's no authenticity
-here with respect to Alice
+Dan tidak ada keaslian
+di sini yang berhubungan dengan Alice
 
 593
 00:32:25,040 --> 00:32:27,860
-doesn't quite know whether she's
-communicating with Bob or not.
+tidak begitu tahu apakah dia
+berkomunikasi dengan Bob atau tidak.
 
 594
 00:32:27,860 --> 00:32:31,640
-She's at the mercy of the
-pirates to deliver these boxes.
+Dia bergantung pada belas kasihan dari
+bajak laut untuk mengirimkan kotak-kotak ini.
 
 595
 00:32:31,640 --> 00:32:37,480
-So if the pirates had a lock
-and the key for the lock,
+Jadi jika bajak laut memiliki gembok
+dan kunci untuk gembok itu,
 
 596
 00:32:37,480 --> 00:32:41,760
-then we're in a situation
-where Alice may have exchanged
+maka mereka ada dalam situasi
+di mana Alice mungkin dapat menukarkan
 
 597
 00:32:41,760 --> 00:32:44,370
-the key with the pirates.
+kunci itu dengan bajak laut.
 
 598
 00:32:44,370 --> 00:32:46,520
-And she thinks she's
-exchanged it with Bob.
+Dan dia pikir dia
+menukarkan itu dengan Bob.
 
 599
 00:32:46,520 --> 00:32:50,100
