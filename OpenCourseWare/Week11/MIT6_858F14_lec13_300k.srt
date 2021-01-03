@@ -1952,35 +1952,35 @@ mendaftar dengan username yang sama?
 
 410
 00:18:14,130 --> 00:18:16,600
-Would that be a good idea?
+Apakah itu ide yang baik?
 
 411
 00:18:16,600 --> 00:18:19,290
-Well, aside from the fact
-that you guys want accounts.
+Baik, di samping dari fakta
+bahwa kalian menginginkan akun.
 
 412
 00:18:19,290 --> 00:18:19,790
-Yeah.
+Ya.
 
 413
 00:18:19,790 --> 00:18:23,205
-STUDENT: Updated services
-as well so that they would,
+MURID: Layanan diperbarui
+demikian juga sehingga mereka akan,
 
 414
 00:18:23,205 --> 00:18:25,593
-like map that username
-to [INAUDIBLE] permission
+seperti memetakan username tersebut
+ke [tidak terdengar] izin
 
 415
 00:18:25,593 --> 00:18:26,176
-theoretically?
+secara teoritis?
 
 416
 00:18:26,176 --> 00:18:28,470
-PROFESSOR: Yeah, because
-these guys are actually
+PROFESSOR: Ya, karena 
+orang-orang ini sebenarnya
 
 417
 00:18:28,470 --> 00:18:32,580
