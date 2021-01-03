@@ -4333,7 +4333,7 @@ PRNG dengan seed,
 
 912
 00:38:46,860 --> 00:38:50,022
-jadi semuanya hanya nol, yang
+jadi semuanya hanya bernilai nol,
 yang berarti setiap orang
 
 913
@@ -4354,21 +4354,21 @@ yang sama seperti Anda,
 916
 00:38:54,757 --> 00:38:57,090
 yang berarti mereka akan menghasilkan
-private key yang sama dengan Anda.
+kunci pribadi (private key) yang sama dengan Anda.
 
 917
 00:38:57,090 --> 00:38:59,190
 Jadi mereka dapat membuat
-private key yang sama
+kunci pribadi yang sama
 
 918
 00:38:59,190 --> 00:39:01,120
-dan mentransfer Bitcoin Anda.
+dan mengirimkan Bitcoin Anda.
 
 919
 00:39:01,120 --> 00:39:05,400
 Jadi ini, sekali lagi,
-bug kecil atau tidak kecil,
+kesalahan kecil atau tidak kecil,
 
 920
 00:39:05,400 --> 00:39:08,320
@@ -4377,22 +4377,22 @@ siapa yang bertanya.
 
 921
 00:39:08,320 --> 00:39:10,000
-Tapi tetap saja, kan?
+Namun tetap saja, kan?
 
 922
 00:39:10,000 --> 00:39:12,500
 Contoh lain dari kesalahan
-pemrograman kecil
+kecil pemrograman
 
 923
 00:39:12,500 --> 00:39:14,790
 yang mengarah
-ke hasil yang sangat dahsyat.
+ke hasil yang sangat parah.
 
 924
 00:39:14,790 --> 00:39:17,410
 Banyak orang yang saldo
-Bitcoinnya dicuri
+Bitcoin-nya dicuri
 
 925
 00:39:17,410 --> 00:39:19,400
@@ -4424,7 +4424,7 @@ Anda dalam kondisi yang baik.
 
 931
 00:39:31,300 --> 00:39:36,532
-Tapi tetap saja, itu contoh lain
+Namun tetap saja, itu contoh lain
 dari kegagalan mekanisme.
 
 932
@@ -4549,8 +4549,8 @@ All right.
 
 957
 00:40:35,140 --> 00:40:40,610
-Pertanyaan lain tentang ini
-masalah, contoh, dan sebagainya?
+Pertanyaan lain tentang masalah
+ini, contohnya, dan sebagainya?
 
 958
 00:40:40,610 --> 00:40:41,690
@@ -4563,7 +4563,7 @@ saya tunjukkan adalah,
 
 960
 00:40:46,570 --> 00:40:48,400
-Nah, saat Anda
+yah, saat Anda
 mulai menghargai,
 
 961
@@ -4577,8 +4577,8 @@ memiliki peluang yang sangat penting.
 
 963
 00:40:55,000 --> 00:40:58,390
-Jika Anda hampir mengacaukan
-esuatu yang tampaknya tidak penting,
+Jika Anda mengacaukan sesuatu yang
+tampaknya sangat tidak penting,
 
 964
 00:40:58,390 --> 00:41:00,780
@@ -4592,7 +4592,7 @@ menginisialisasi seed acak,
 
 966
 00:41:03,190 --> 00:41:04,980
-ini dapat menimbulkan
+hal tersebut dapat menimbulkan
 konsekuensi yang cukup dramatis
 
 967
@@ -4615,13 +4615,13 @@ Apa yang dilakukannya?
 
 971
 00:41:12,510 --> 00:41:14,870
-Persis apa itu semua 
-kasus corner?
+Sebenarnya apa semua
+kasus corner-nya?
 
 972
 00:41:14,870 --> 00:41:17,170
 Dan cara yang baik untuk
-memikirkan tentang merusak sistem
+memikirkan tentang merusak sebuah sistem
 
 973
 00:41:17,170 --> 00:41:19,369
@@ -4630,22 +4630,22 @@ apakah sistem Anda aman,
 
 974
 00:41:19,369 --> 00:41:20,910
-untuk memaksakan terhadap
-semua edge cases,
+untuk mencoba
+semua kasus edge,
 
 975
 00:41:20,910 --> 00:41:23,950
 seperti apa yang terjadi jika
-input saya cukup besar?
+masukan saya cukup besar?
 
 976
 00:41:23,950 --> 00:41:26,620
-Atau apa input terbesar
-atau input terkecil?
+Atau apa masukan terbesar
+atau masukan terkecilnya?
 
 977
 00:41:26,620 --> 00:41:28,980
-Jenis set apa
+Jenis sekumpulan masukan
 apa yang paling aneh
 
 978
