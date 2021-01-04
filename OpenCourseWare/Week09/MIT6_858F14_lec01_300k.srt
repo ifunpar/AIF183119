@@ -4685,7 +4685,7 @@ dipercayai.
 
 985
 00:41:53,580 --> 00:41:57,470
-Jadi sertifika SSL ini adalah
+Jadi sertifikat SSL ini adalah
 sederet byte
 
 986
