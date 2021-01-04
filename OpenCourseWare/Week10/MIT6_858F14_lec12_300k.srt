@@ -2455,59 +2455,59 @@ itulah sebabnya mereka
 
 516
 00:21:14,810 --> 00:21:16,696
-prescribed this way of picking
-these initial sequence numbers.
+menganjurkan cara ini untuk memilih
+nomor urut awal ini.
 
 517
 00:21:16,696 --> 00:21:18,094
-AUDIENCE: If you have
-different new connections,
+AUDIENS: Jika anda memiliki
+beberapa koneksi baru berbeda,
 
 518
 00:21:18,094 --> 00:21:19,135
-you could differentiate.
+anda dapat membedakannya.
 
 519
 00:21:19,135 --> 00:21:19,900
-PROFESSOR: That's right, yeah.
+PROFESOR: Ya, itu benar.
 
 520
 00:21:19,900 --> 00:21:22,375
-AUDIENCE: So then I don't see
-why the incrementing stuff
+AUDIENS: Jadi saya tidak mengerti
+mengapa menaikkan angkanya
 
 521
 00:21:22,375 --> 00:21:24,355
-and not just take randomly.
+dan tidak mengambilnya secara acak saja.
 
 522
 00:21:24,355 --> 00:21:26,850
-PROFESSOR: So I think the
-reason they don't pick randomly
+PROFESOR: Saya pikir 
+alasan mereka tidak memilih secara acak
 
 523
 00:21:26,850 --> 00:21:29,100
-is that if you did pick
-randomly, and you established,
+adalah jika anda memilih
+secara acak, dan membuat,
 
 524
 00:21:29,100 --> 00:21:31,320
-I don't know, 1,000 connections
-within a short amount
+Misalnya, 1,000 koneksi
+dalam waktu singkat
 
 525
 00:21:31,320 --> 00:21:34,040
-of time from the same source
-to the same destination,
+dari sumber yang sama
+ke tujuan yang sama,
 
 526
 00:21:34,040 --> 00:21:37,780
-then, well, every one of them
-is some random value of module 2
+maka, semuanya
+merupakan angka acak dari module 2
 
 527
 00:21:37,780 --> 00:21:38,990
-to the 32.
+hingga 32.
 
 528
 00:21:38,990 --> 00:21:40,920
