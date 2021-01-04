@@ -2922,112 +2922,112 @@ tanpa bank di tengahnya.
 
 618
 00:26:30,340 --> 00:26:33,250
-We have some privacy now
-because the bank can't
+Kita sekarang memiliki privasi 
+karena bank tidak bisa
 
 619
 00:26:33,250 --> 00:26:36,160
-link transactions together.
+menghubungkan trnasaksi bersama.
 
 620
 00:26:36,160 --> 00:26:39,010
-And we have this way of
-doing double spend detection.
+Dan kita punya cara ini untuk 
+melakukan deteksi penggunaan ganda.
 
 621
 00:26:39,010 --> 00:26:41,050
-We have a way of
-motivating people
+Kita punya cara untuk 
+memotivasi orang
 
 622
 00:26:41,050 --> 00:26:43,780
-not to double spend their coins,
-which means that you probably
+tidak menggunakan koin mereka berulang, 
+berarti kamu ada kemungkinan
 
 623
 00:26:43,780 --> 00:26:46,120
-don't have to check
-at the time you
+tidak perlu cek 
+ketika kamu
 
 624
 00:26:46,120 --> 00:26:49,420
-receive a coin whether or
-not it's been double spent.
+menerima sebuah koin jika sudah 
+digunakan sebelumnya atau belum.
 
 625
 00:26:49,420 --> 00:26:53,990
-Of course, this still suffers
-from a really big problem,
+Tentu, ini masih mengalami 
+kendala yang cukup besar
 
 626
 00:26:53,990 --> 00:26:56,950
-which is that a bank can
-still decide that they just
+yaitu bank masih bisa 
+memutuskan bahwa mereka
 
 627
 00:26:56,950 --> 00:26:58,242
-don't want to do this with you.
+tidak mau melakukan hal ini dengan kamu.
 
 628
 00:26:58,242 --> 00:26:59,950
-They can just decide
-that they don't want
+Mereka bisa memutuskan 
+kalau mereka tidak mau
 
 629
 00:26:59,950 --> 00:27:01,090
-to play this game with you.
+memainkan permainan ini dengan kamu.
 
 630
 00:27:01,090 --> 00:27:03,755
-They don't want to issue coins.
+Mereka tidak mau mengeluarkan koin.
 
 631
 00:27:03,755 --> 00:27:05,380
-Maybe they don't like
-you specifically.
+Mungkin mereka hanya
+tidak suka dengan kamu.
 
 632
 00:27:05,380 --> 00:27:07,870
-Maybe they don't want to take
-your coins and exchange them.
+Mungkin mereka tidak mau mengambil 
+koin mu dan menukarnya.
 
 633
 00:27:07,870 --> 00:27:12,310
-So this scheme, Chaumian e-cash,
-solves quite a bit of problems
+Jadi skema ini, Chaumian e-cash, 
+menyelesaikan beberapa masalah
 
 634
 00:27:12,310 --> 00:27:15,820
-when it comes to how do
-we have electronic money
+ketika waktunya datang untuk bagaimana 
+kita memiliki uang elektronik
 
 635
 00:27:15,820 --> 00:27:20,110
-with some nice features,
-but it doesn't quite
+dengan fitur yang baik, 
+tapi itu masih belum
 
 636
 00:27:20,110 --> 00:27:22,240
-get to all of them.
+sampai ke mereka semua.
 
 637
 00:27:22,240 --> 00:27:25,080
-And so the real
-question in this class
+Jadi pertanyaan 
+sebenarnya untuk kelas ini
 
 638
 00:27:25,080 --> 00:27:28,350
-is how do we do
-electronic money, really,
+sebenarnya, adalah bagaimana kita 
+menggunakan uang elektronik,
 
 639
 00:27:28,350 --> 00:27:29,970
-in a peer-to-peer
-way, where there's
+dalam situasi 
+peer-to-peer, dimana
 
 640
 00:27:29,970 --> 00:27:31,680
-no institution in the way.
+tidak ada institusi di jalan.
 
 641
 00:27:31,680 --> 00:27:35,768
