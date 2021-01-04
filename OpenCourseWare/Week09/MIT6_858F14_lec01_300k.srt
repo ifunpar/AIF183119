@@ -4438,12 +4438,12 @@ apakah ini adalah serangan yang berbeda
 
 934
 00:39:39,424 --> 00:39:42,096
-dari DSA
-tanda tangan acak?
+dari tanda tangan acak
+dengan algoritma DSA?
 
 935
 00:39:42,096 --> 00:39:42,970
-PROFESSOR: Yah begitulah.
+PROFESOR: Yah begitulah.
 
 936
 00:39:42,970 --> 00:39:44,810
@@ -4458,12 +4458,12 @@ yang Anda maksud.
 938
 00:39:46,310 --> 00:39:48,700
 Masalahnya, bahkan
-jika Anda tidak membuat
+jika Anda tidak membangkitkan
 
 939
 00:39:48,700 --> 00:39:51,140
 kunci Anda di perangkat
-Android di tempat pertama,
+Android pada awalnya,
 
 940
 00:39:51,140 --> 00:39:56,150
@@ -4478,12 +4478,12 @@ membuat tanda tangan baru
 942
 00:39:59,110 --> 00:40:01,310
 dengan kunci itu, Anda
-menggunakan sesuatu yang segar, apa yang
+menggunakan sesuatu yang baru, apa yang
 
 943
 00:40:01,310 --> 00:40:03,290
-disebut sengan nonce, untuk
-membuat tanda tangan itu.
+disebut dengan nonce, untuk
+membangkitkan tanda tangan itu.
 
 944
 00:40:03,290 --> 00:40:07,270
@@ -4492,7 +4492,7 @@ tanda tangan dengan nonce yang sama,
 
 945
 00:40:07,270 --> 00:40:09,544
-maka seseorang akan dapat menebak
+maka seseorang dapat menebak
 apa kunci Anda.
 
 946
@@ -4501,7 +4501,7 @@ Cerita ini cukup mirip.
 
 947
 00:40:10,710 --> 00:40:12,270
-Tapi detailnya
+Namun detailnya
 sedikit berbeda.
 
 948
@@ -4527,12 +4527,12 @@ dengan menggunakan nonce yang sama persis,
 952
 00:40:23,190 --> 00:40:26,650
 atau nilai yang acak, seseorang
-bisa menerapkan beberapa matematika pintar
+bisa menggunakan beberapa prinsip matematika
 
 953
 00:40:26,650 --> 00:40:30,270
 ke tanda tangan Anda dan mengurutkan
-hasil ekstrak kunci publik Anda keluar
+hasil ekstrak kunci publik Anda yang dikeluarkan
 
 954
 00:40:30,270 --> 00:40:30,770
