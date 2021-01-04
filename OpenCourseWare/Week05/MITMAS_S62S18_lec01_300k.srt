@@ -2394,8 +2394,8 @@ ingin $1.00 untuk koin ini
 
 508
 00:21:03,678 --> 00:21:05,720
-yang baru saya berikan ke kamu
-atau sesuatu seperti itu.
+yang baru saya berikan ke Anda,
+atau kurang lebih itu.
 
 509
 00:21:05,720 --> 00:21:07,940
@@ -2425,12 +2425,12 @@ sebenarnya masih berada di tengah.
 514
 00:21:23,600 --> 00:21:28,850
 Kita sudah menjadi lebih dekat
-selangkah, tapi kita belum sampai kesana.
+selangkah, tapi kita belum sampai ke sana.
 
 515
 00:21:28,850 --> 00:21:33,080
 Alice secara teknis bisa memberikan
-Bob suatu benda elektronik yang bisa
+Bob suatu benda elektronik yang
 
 516
 00:21:33,080 --> 00:21:35,530
@@ -2477,7 +2477,7 @@ nomor serial yang kita
 525
 00:21:51,500 --> 00:21:54,410
 ciptakan untuk koin, bisa
-dilacak dari pembayaran.
+dilacak dari pembayaran-pembayaran ini.
 
 526
 00:21:57,660 --> 00:22:00,530
@@ -2496,7 +2496,7 @@ adalah seorang kriptografer,
 529
 00:22:04,070 --> 00:22:06,590
 dan dia mengembangkan
-sistem dimana sistem ini
+sistem ini yang
 
 530
 00:22:06,590 --> 00:22:12,170
@@ -2505,8 +2505,8 @@ dibandingkan bentuk uang elektronik sebelumnya
 
 531
 00:22:12,170 --> 00:22:15,290
-Jadi, ide disini yang merupakan
-sebuah kunci adalah,
+Jadi, idenya disini yang merupakan
+sesuatu yang penting adalah,
 
 532
 00:22:15,290 --> 00:22:18,770
@@ -2524,7 +2524,7 @@ menghasilkan angka secara acak
 
 535
 00:22:23,780 --> 00:22:26,070
-yang kita dapat yakin mereka
+yang kita dapat cukup yakin mereka
 bersifat unik.
 
 536
@@ -2564,16 +2564,16 @@ mengenai maksud hal itu sebenarnya
 543
 00:22:48,140 --> 00:22:50,150
 Itu semua sudah berada dalam
-kertas yang sudah ditentukan
+paper yang sudah dibagikan
 
 544
 00:22:50,150 --> 00:22:51,710
-untuk dibaca bagi kelas ini,
+untuk dibaca di kelas ini,
 jadi pastikan
 
 545
 00:22:51,710 --> 00:22:54,450
-kalian memperhatikan kertas tersebut.
+kalian membacanya.
 
 546
 00:22:54,450 --> 00:22:58,640
@@ -2582,12 +2582,12 @@ angka rahasia itu adalah sebuah
 
 547
 00:22:58,640 --> 00:23:00,260
-angka rahasia yang nyata dan
+angka rahasia yang benar dan
 itu merupakan sebuah koin,
 
 548
 00:23:00,260 --> 00:23:03,530
-dan Alice memberikan banknya
+dan Alice memberikan bank
 1 dolar atau semacamnya,
 
 549
@@ -2603,11 +2603,11 @@ kemampuan
 551
 00:23:08,180 --> 00:23:11,330
 untuk menghapus keacakan itu,
-atau yang membutakan itu, kemudian
+atau penutupan itu, kemudian
 
 552
 00:23:11,330 --> 00:23:16,760
-dan berakhir dengan sebuah ciri khas
+dan berakhir dengan sebuah tanda tangan
 yang sah pada sebuah nomor rahasia.
 
 553
@@ -2651,13 +2651,13 @@ bank, dan Alice
 
 561
 00:23:39,700 --> 00:23:43,660
-akan menggunakan faktor pengacak
-di nomor rahasia.
+akan menggunakan faktor penutup
+pada nomor rahasia.
 
 562
 00:23:43,660 --> 00:23:45,430
 Dan ketika Alice
-berbicara dengan bank, 
+berbicara dengan bank,
 
 563
 00:23:45,430 --> 00:23:47,763
@@ -2671,7 +2671,7 @@ Mereka tidak bisa memecahkan kode itu.
 565
 00:23:49,000 --> 00:23:52,810
 Sekali lagi, Alice memberikan $1.00 atau
-sesuatu seperti itu untuk mendapatkan
+semacamnya untuk mendapatkan
 
 566
 00:23:52,810 --> 00:23:54,640
@@ -2679,12 +2679,12 @@ koin ini dari bank.
 
 567
 00:23:54,640 --> 00:23:57,040
-Dan bank menandai ini.
+Dan bank menandatangani ini.
 
 568
 00:23:57,040 --> 00:24:00,940
 Alice dapat menghapus
-faktor pengacak nanti.
+faktor penutup nanti.
 
 569
 00:24:00,940 --> 00:24:02,560
@@ -2692,17 +2692,17 @@ Dan inilah koin tersebut.
 
 570
 00:24:02,560 --> 00:24:05,110
-Koin ini adalah ciri khas
+Koin ini adalah tanda tangan
 bank yang sah
 
 571
 00:24:05,110 --> 00:24:08,440
-di nomor rahasia itu, dan
-juga nomor itu sendiri, 
+pada nomor rahasia itu, dan
+juga nomor itu sendiri,
 
 572
 00:24:08,440 --> 00:24:11,500
-dimana Alice bisa
+di mana Alice bisa
 kemudian mengirimkan kepada Bob.
 
 573
@@ -2717,7 +2717,7 @@ dari bank.
 575
 00:24:16,690 --> 00:24:22,360
 Dan jika itu benar, maka
-Bob bisa memberi Alice sandwich.
+Bob bisa memberi Alice sebuah sandwich.
 
 576
 00:24:22,360 --> 00:24:26,650
@@ -2731,12 +2731,12 @@ melihat nomor rahasia sebelumnya,
 
 578
 00:24:33,190 --> 00:24:35,000
-dan anda memiliki tanda tangan saya di atasnya.
+dan Anda memiliki tanda tangan saya di atasnya.
 
 579
 00:24:35,000 --> 00:24:37,292
-Jadi saya akan berasumsi begitu
-Saya melalui proses ini
+Jadi saya akan berasumsi bahwa
+saya telah melalui proses ini
 
 580
 00:24:37,292 --> 00:24:39,700
@@ -2745,7 +2745,7 @@ menandatangani sesuatu.
 
 581
 00:24:39,700 --> 00:24:42,370
-Dan sekarang aku akan mencatat
+Dan sekarang saya akan mencatat
 nomor rahasia itu.
 
 582
@@ -2760,17 +2760,17 @@ dihabiskan sebelumnya.
 
 584
 00:24:46,060 --> 00:24:48,620
-Bank menyimpan daftar berjalan
+Bank menyimpan daftar
 dari semua nomor rahasia
 
 585
 00:24:48,620 --> 00:24:53,050
-itu terlihat, dan itu memastikan
-bahwa jika pernah melihatnya lagi,
+yang pernah dia lihat, dan memastikan
+bahwa jika melihatnya lagi,
 
 586
 00:24:53,050 --> 00:24:56,260
-bisa dikatakan tidak, ini
+dia bisa mengatakan tidak, ini
 tidak benar.
 
 587
@@ -2807,17 +2807,17 @@ mengetahui koin siapa yang benar?
 
 594
 00:25:15,010 --> 00:25:17,260
-Karena ingat, kami ingin
-untuk mencoba mengeluarkan bank
+Karena ingat, kita ingin
+mencoba mengeluarkan peran bank
 
 595
 00:25:17,260 --> 00:25:19,210
-dengan cara melakukan ini.
+dengan cara kita melakukan hal ini.
 
 596
 00:25:19,210 --> 00:25:21,250
-Dan begitu juga di Chaumian.
-e-cash, cara
+Dan begitu juga di uang elektronik
+Chaumian, cara
 
 597
 00:25:21,250 --> 00:25:22,990
@@ -2830,8 +2830,6 @@ menyimpan lebih banyak informasi.
 
 599
 00:25:26,150 --> 00:25:29,920
-And the information
-that the bank is keeping
 Dan informasi
 yang disimpan oleh bank
 
@@ -2853,8 +2851,7 @@ yang sama kepada dua orang berbeda,
 603
 00:25:41,260 --> 00:25:43,330
 bank akan
-mampu mendeteksi
-
+mampu mendeteksinya
 
 604
 00:25:43,330 --> 00:25:46,060
@@ -2863,8 +2860,8 @@ mengetahui bahwa itu adalah Alice.
 
 605
 00:25:46,060 --> 00:25:50,200
-Jadi ini semacam
-motivator bagi Alice
+Jadi ini semacam sebuah
+motivasi bagi Alice
 
 606
 00:25:50,200 --> 00:25:51,740
@@ -2878,8 +2875,7 @@ cara kita menyiasati
 608
 00:25:55,180 --> 00:25:59,860
 fakta bahwa kita tidak tahu apakah
-koin sudah digunakan dua kali lipat
-
+koin sudah sebelumnya
 
 609
 00:25:59,860 --> 00:26:05,140
@@ -2891,10 +2887,9 @@ jika koin tersebut digunakan dua kali lipat.
 Jadi Bob tidak tahu pasti
 koin yang diterimanya ini
 
-
 611
 00:26:08,050 --> 00:26:11,590
-belum digunakan dua kali lipat, tetapi
+belum digunakan, tetapi
 dia tahu bahwa jika ya,
 
 612
@@ -2923,7 +2918,7 @@ Kita memiliki pembayaran digital.
 617
 00:26:26,260 --> 00:26:30,340
 Kita dapat melakukan transfer
-tanpa bank ditengahnya.
+tanpa bank di tengahnya.
 
 618
 00:26:30,340 --> 00:26:33,250
