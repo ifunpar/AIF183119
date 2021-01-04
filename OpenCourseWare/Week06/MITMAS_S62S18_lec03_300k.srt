@@ -3752,39 +3752,39 @@ Minus Q akan ada di sini.
 
 809
 00:36:47,000 --> 00:36:51,830
-And if you had a point Z here,
-negative Z would be up here.
+Dan jika Anda punya poin Z di sini,
+negatif Z akan berada di sini.
 
 810
 00:36:51,830 --> 00:36:53,570
-This is how it's constructed.
+Beginilah cara membangunnya.
 
 811
 00:36:53,570 --> 00:36:58,460
-However, we don't actually
-use these nice curves.
+Namun, sebenarnya kita tidak
+gunakan kurva yang bagus ini.
 
 812
 00:36:58,460 --> 00:37:00,778
-We chop them up in
-modulo something.
+Kita memotongnya dengan
+modulo sesuatu.
 
 813
 00:37:00,778 --> 00:37:01,278
-Yeah?
+Iya?
 
 814
 00:37:01,278 --> 00:37:03,680
-AUDIENCE: You have P plus Q
-equals negative R. Should it
+HADIRIN: Anda memiliki P plus Q
+sama dengan negatif R. Haruskah itu
 
 815
 00:37:03,680 --> 00:37:04,509
-be positive R?
+menjadi R positif?
 
 816
 00:37:08,050 --> 00:37:10,420
-TADGE DRYJA: No.
+TADGE DRYJA: Tidak.
 
 817
 00:37:10,420 --> 00:37:11,590
