@@ -3131,17 +3131,17 @@ Mereka simpel, namun sangat kuat.
 
 662
 00:28:29,460 --> 00:28:31,160
-The hash function
-is basically you
+Fungsi hash ini pada dasarnya sebagai
+berikut; anda 
 
 663
 00:28:31,160 --> 00:28:32,990
-have some data,
-a bunch of bytes,
+memiliki beberapa data,
+sekumpulan bytes,
 
 664
 00:28:32,990 --> 00:28:34,333
-a bunch of ones and zeros.
+sekumpulan angka 1 dan 0.
 
 665
 00:28:34,333 --> 00:28:35,750
