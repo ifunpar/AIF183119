@@ -4660,56 +4660,56 @@ ke dalam kasus ini
 
 980
 00:41:34,250 --> 00:41:38,960
-One example of this ambiguity,
-sort of a good example
+Satu contoh dari ambiguitas ini,
+sebuah contoh yang cukup bagus,
 
 981
 00:41:38,960 --> 00:41:44,850
-to keep in mind, is how
-SSL certificates, again,
+untuk dipikirkan, adalah bagaimana
+sertifikat SSL, lagi,
 
 982
 00:41:44,850 --> 00:41:49,202
-encode names into the
-certificate itself.
+menyandi (encode) nama menjadi
+sertifikat itu sendiri.
 
 983
 00:41:49,202 --> 00:41:51,160
-So this is a different
-problem than the problem
+Jadi hal ini adalah masalah yang
+berbeda dari masalah tentang
 
 984
 00:41:51,160 --> 00:41:53,580
-about the certificate
-authorities being trusted.
+otoritas sertifikat untuk
+dipercayai.
 
 985
 00:41:53,580 --> 00:41:57,470
-So these SSL certificates
-are just sequences of bytes
+Jadi sertifika SSL ini adalah
+sederet byte
 
 986
 00:41:57,470 --> 00:41:59,000
-that a web server sends to you.
+yang dikirimkan web server kepada Anda.
 
 987
 00:41:59,000 --> 00:42:01,200
-And inside of this
-SSL certificate
+Dan di dalam sertifikat
+SSL ini
 
 988
 00:42:01,200 --> 00:42:04,340
-is the name of the server
-you're connecting to,
+adalah nama dari server
+yang mana Anda terkoneksi,
 
 989
 00:42:04,340 --> 00:42:06,144
-so something like Amazon.com.
+jadi sesuatu seperti Amazon.com.
 
 990
 00:42:06,144 --> 00:42:08,060
-You know, you can't just
-put down those bytes.
+Anda tahu, Anda tidak bisa
+mematikan byte tersebut.
 
 991
 00:42:08,060 --> 00:42:09,870
