@@ -2012,31 +2012,31 @@ dapat mengatakan, Anda tahu,
 
 423
 00:18:43,658 --> 00:18:47,270
-Alice has access to
-some Athena locker.
+Alice memiliki akses ke
+beberapa loker Athena.
 
 424
 00:18:47,270 --> 00:18:50,999
-And if this Alice graduates
-and her entry gets removed,
+Dan jika Alice ini lulus
+dan entri dia dihapus,
 
 425
 00:18:50,999 --> 00:18:52,790
-then some new Alice
-comes along, registers,
+lalu beberapa Alice baru
+datanglah, register,
 
 426
 00:18:52,790 --> 00:18:54,770
-in the Kerberos database.
+dalam database Kerberos.
 
 427
 00:18:54,770 --> 00:18:56,570
-But she gets a
-principal that looks
+Tapi dia mendapat kan
+yang utama terlihat seperti
 
 428
 00:18:56,570 --> 00:18:57,895
-identical to the old Alice.
+identik dengan Alice yang lama.
 
 429
 00:18:57,895 --> 00:18:58,770
