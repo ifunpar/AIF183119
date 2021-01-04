@@ -4713,49 +4713,49 @@ put down those bytes.
 
 991
 00:42:08,060 --> 00:42:09,870
-You have to encode it
-somehow and specify, well,
+Anda harus menyandikannya
+entah bagiamana dan menentukannya, baiklah,
 
 992
 00:42:09,870 --> 00:42:10,536
-it's Amazon.com.
+ini adalah Amazon.com.
 
 993
 00:42:10,536 --> 00:42:12,860
-And that's the
-end of the string.
+Dan itu adalah 
+akhir dari string.
 
 994
 00:42:12,860 --> 00:42:18,540
-So in SSL certificates, they
-use a particular encoding scheme
+Jadi pada sertifikat SSL, mereka
+menggunakan skema pengkodean tertentu
 
 995
 00:42:18,540 --> 00:42:24,290
-that writes down Amazon.com
-by first writing down
+yang menulis tentang Amazon.com
+dengan menuliskan terlebih dahulu
 
 996
 00:42:24,290 --> 00:42:26,394
-the number of bytes
-in the string.
+nomer bytes
+didalam string.
 
 997
 00:42:26,394 --> 00:42:27,560
-So you first write down, OK.
+Jadi Anda menulis terlebih dahulu, OK.
 
 998
 00:42:27,560 --> 00:42:32,314
-Well, I'm going to have a 10
-byte string called Amazon.com.
+Yah, Saya akan memiliki 10
+byte string yang disebut Amazon.com.
 
 999
 00:42:35,679 --> 00:42:36,720
-That's actually 10 bytes.
+Itu sebenarnya 10 bytes.
 
 1000
 00:42:36,720 --> 00:42:36,990
-Great.
+Bagus.
 
 1001
 00:42:36,990 --> 00:42:37,510
