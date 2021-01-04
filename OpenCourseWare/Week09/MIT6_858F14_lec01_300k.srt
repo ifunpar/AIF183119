@@ -4714,7 +4714,7 @@ mematikan byte tersebut.
 991
 00:42:08,060 --> 00:42:09,870
 Anda harus menyandikannya
-entah bagiamana dan menentukannya, baiklah,
+entah bagaimana dan menentukan bahwa, baiklah,
 
 992
 00:42:09,870 --> 00:42:10,536
@@ -4732,13 +4732,13 @@ menggunakan skema pengkodean tertentu
 
 995
 00:42:18,540 --> 00:42:24,290
-yang menulis tentang Amazon.com
+yang menulis Amazon.com
 dengan menuliskan terlebih dahulu
 
 996
 00:42:24,290 --> 00:42:26,394
-nomer bytes
-didalam string.
+nomer byte
+di dalam string.
 
 997
 00:42:26,394 --> 00:42:27,560
@@ -4746,7 +4746,7 @@ Jadi Anda menulis terlebih dahulu, OK.
 
 998
 00:42:27,560 --> 00:42:32,314
-Yah, Saya akan memiliki 10
+Yah, saya akan memiliki 10
 byte string yang disebut Amazon.com.
 
 999
