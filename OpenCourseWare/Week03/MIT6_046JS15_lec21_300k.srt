@@ -4110,7 +4110,7 @@ ke-satu-arah-an karena saya hanya
 
 875
 00:47:20,660 --> 00:47:23,010
-menyalurkan masukannya.
+meneruskan masukannya.
 
 876
 00:47:23,010 --> 00:47:30,927
@@ -4253,11 +4253,11 @@ x kurang dari atau sama dengan n,
 905
 00:48:49,280 --> 00:49:03,520
 jelas nilai-nilai x yang berbeda akan menghasilkan
-nilai-nilai h aksen x yang berbeda, benar?
+nilai-nilai h'(x) yang berbeda, benar?
 
 906
 00:49:03,520 --> 00:49:06,620
-Karena saya hanya menyalurkan
+Karena saya hanya meneruskan
 nilai x hingga menjadi keluaran.
 
 907
@@ -4452,7 +4452,7 @@ Penyimpanan kata sandi.
 948
 00:51:11,970 --> 00:51:16,730
 Berapa banyak dari Anda menulis
-kata sandi Anda di sebuah berkas 
+kata sandi Anda di sebuah berkas
 
 949
 00:51:16,730 --> 00:51:22,230
@@ -4474,7 +4474,7 @@ Dan saya melakukan yang lebih parah.
 953
 00:51:29,550 --> 00:51:32,610
 Saya bukan hanya melakukan itu, saya
-menggunakan nama anak pertama saya
+menggunakan nama anak perempuan pertama saya
 
 954
 00:51:32,610 --> 00:51:35,334
@@ -4501,7 +4501,7 @@ saya untuk menggunakan nama
 
 959
 00:51:49,530 --> 00:51:51,400
-anak pertama saya sebagai
+anak perempuan pertama saya sebagai
 kata sandi saya, benar?
 
 960
@@ -4522,7 +4522,7 @@ masuk akal di dalamnya-- jadi
 963
 00:51:59,030 --> 00:52:01,344
 mari asumsikan di sini bahwa kita
-memiliki entrpi yang masuk akal
+memiliki entropi yang masuk akal
 
 964
 00:52:01,344 --> 00:52:02,010
@@ -4579,7 +4579,7 @@ mengasumsikan Anda memiliki
 
 976
 00:52:28,140 --> 00:52:31,830
-entropi signifikandapal kata sandi
+entropi signifikan pada kata sandi
 Anda-- karena jika tidak,
 
 977
@@ -4621,7 +4621,7 @@ Hal ini publik.
 985
 00:52:48,206 --> 00:52:50,080
 Kita akan membahas tentang cara kita
-menggunakan hal terebut sebentar lagi.
+menggunakan hal tersebut sebentar lagi.
 
 986
 00:52:50,080 --> 00:52:53,350
@@ -4630,7 +4630,7 @@ domainnya kecil
 
 987
 00:52:53,350 --> 00:52:55,120
-Anda bisa
+Anda bisa sekedar
 enumerate the domain.
 
 988
