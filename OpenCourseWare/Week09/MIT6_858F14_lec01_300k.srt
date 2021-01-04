@@ -4650,13 +4650,13 @@ apa yang paling aneh
 
 978
 00:41:28,980 --> 00:41:30,670
-of inputs I could
-provide to my program
+dari masukkan yang dapat saya
+sediakan untuk program saya
 
 979
 00:41:30,670 --> 00:41:34,250
-and push it in all
-these corner cases?
+dan memasukkan semuanya
+ke dalam kasus ini
 
 980
 00:41:34,250 --> 00:41:38,960
