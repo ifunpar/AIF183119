@@ -3145,105 +3145,105 @@ sekumpulan angka 1 dan 0.
 
 665
 00:28:34,333 --> 00:28:35,750
-You run it through
-a hash function
+Anda menjalankannya melalui
+sebuah fungsi hash
 
 666
 00:28:35,750 --> 00:28:38,930
-and you get an output that's
-also a bunch of ones and zeros.
+dan anda mendapatkan sebuah keluaran yang
+juga sekumpulan angka 1 dan 0.
 
 667
 00:28:38,930 --> 00:28:42,120
-Generally, the input
-data can be of any size.
+Umumnya, data
+masukan bisa dalam berbagai ukuran. 
 
 668
 00:28:42,120 --> 00:28:43,460
-You can hash something--
+Anda bisa mencirikan sesuatu--
 
 669
 00:28:43,460 --> 00:28:45,290
-put in a megabyte,
-put in a gigabyte,
+dimasukkan ke dalam megabyte,
+dimasukkan ke dalam gigabyte,
 
 670
 00:28:45,290 --> 00:28:47,900
-or put in a single byte,
-and generally the output
+atau dimasukkan ke dalam satu byte,
+dan umumnya keluaran
 
 671
 00:28:47,900 --> 00:28:49,500
-is of a fixed size.
+adalah berukuran tetap.
 
 672
 00:28:49,500 --> 00:28:52,730
-So in the case of
-bitcoin, we use Sha-256.
+Jadi dalam kasus
+bitcoin, kita menggunakan Sha-256.
 
 673
 00:28:52,730 --> 00:28:58,280
-The output size is 32 bytes
-long, or 256 bits long.
+Ukuran keluaran adalah 32 byte
+panjangnya, atau 256 bit panjangnya.
 
 674
 00:28:58,280 --> 00:29:03,050
-And this is used for lots
-of things in computers.
+Dan ini digunakan oleh banyak
+hal dalam komputer.
 
 675
 00:29:03,050 --> 00:29:05,300
-I guess the reason they call
-it a hash is because it's
+Saya kira alasan mereka menyebutnya
+sebuah hash adalah karena itu
 
 676
 00:29:05,300 --> 00:29:07,580
-like when you take the
-potatoes and chop them up
+seperti ketika anda mengambil
+kentang dan memotongnya
 
 677
 00:29:07,580 --> 00:29:11,630
-into little squares and
-grill them for breakfast,
+menjadi kotak kecil dan
+memanggangnya untuk sarapan,
 
 678
 00:29:11,630 --> 00:29:14,180
-it's sort of that idea,
-that we're taking this data.
+itu adalah semacam ide,
+bahwa kita mengambil data ini.
 
 679
 00:29:14,180 --> 00:29:17,780
-And the data going in gets
-chopped up and smushed around
+Dan data yang masuk akan
+dipotong-potong dan dihancurkan
 
 680
 00:29:17,780 --> 00:29:21,260
-and then comes out
-into an output.
+dan kemudian keluar
+menjadi sebuah keluaran.
 
 681
 00:29:21,260 --> 00:29:24,290
-So this is not a sufficient
-different definition.
+Jadi ini bukan sebuah definisi
+yang cukup berbeda.
 
 682
 00:29:24,290 --> 00:29:27,320
-But I will say that you
-can sort of do everything
+Tetapi saya akan mengatakan bahwa anda
+dapat semacam melakukan segalanya
 
 683
 00:29:27,320 --> 00:29:28,660
-with hash functions.
+dengan fungsi hash.
 
 684
 00:29:28,660 --> 00:29:30,410
-There's some fun things
-that you can't do,
+Ada beberapa hal yang menyenangkan
+yang anda tidak dapat lakukan,
 
 685
 00:29:30,410 --> 00:29:33,110
-but you could make a
-cryptocurrency only using
+tetapi anda dapat membuat
+cryptocurrency hanya menggunakan
 
 686
 00:29:33,110 --> 00:29:34,940
