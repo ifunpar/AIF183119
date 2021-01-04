@@ -3031,102 +3031,103 @@ tidak ada institusi di jalan.
 
 641
 00:27:31,680 --> 00:27:35,768
-There's no sort of
-entity that can say no.
+Tidak ada entitas yang dapat
+mengatakan tidak.
 
 642
 00:27:35,768 --> 00:27:38,060
-TADGE DRYJA: So e-cash, the
-math is really interesting.
+Tadge Dryja: Jadi e-cash, dalam 
+matematika itu sangat menarik
 
 643
 00:27:38,060 --> 00:27:42,050
-It kept relying on these
-banks and so it never quite
+Ia akan terus mengandalkan bank dan 
+karena itu ia tidak pernah 
 
 644
 00:27:42,050 --> 00:27:43,190
-got off the ground.
+benar-benar turun.
 
 645
 00:27:43,190 --> 00:27:47,240
-So I'm willing to talk about
-somewhat more abstract and low
+Jadi saya ingin membicarakan 
+mengenai sesuatu yang lebih 
 
 646
 00:27:47,240 --> 00:27:49,400
-level primitives.
+bersifat abstrak dan memiliki 
+tingkat primitif rendah.
 
 647
 00:27:49,400 --> 00:27:55,490
-I'm not going to quite get into
-cash or tokens or transfers
+Saya tidak akan membahas mengenai
+uang cash atau token atau transfer
 
 648
 00:27:55,490 --> 00:27:57,530
-or anything this lecture.
+atau apapun dalam kuliah ini
 
 649
 00:27:57,530 --> 00:27:59,960
-But I'm going to talk about
-the really basic primitives
+Tapi saya akan membahas mengenai 
+hal primitif secara dasar
 
 650
 00:27:59,960 --> 00:28:02,990
-that you need that we
-already sort of mentioned,
+yang anda butuhkan dan sudah 
+disebutkan sebelumnya, 
 
 651
 00:28:02,990 --> 00:28:04,880
-hash functions and signatures.
+fungsi hash dan tandatangan.
 
 652
 00:28:04,880 --> 00:28:07,790
-Signatures, obviously, we
-talked about a little bit,
+Tandatangan, tentu saja kita 
+sudah membicarakan sedikit, 
 
 653
 00:28:07,790 --> 00:28:10,070
-what you need to be able
-to sign messages in order
+apa yang anda butuhkan untuk 
+dapat menandai sebuah pesan 
 
 654
 00:28:10,070 --> 00:28:11,510
-to send these tokens around.
+agar dapat mengirimkan token 
+ke manapun.
 
 655
 00:28:11,510 --> 00:28:14,900
-But first I'll talk about hash
-functions, which are basically
+Tapi pertama saya akan membicarakan
+mengenai fungsi hash, yang pada dasarnya
 
 656
 00:28:14,900 --> 00:28:18,980
-the most fundamental basic
-thing we use in these systems.
+merupakan sebuah hal yang paling
+mendasar yang kita gunakan pada sistem ini
 
 657
 00:28:18,980 --> 00:28:21,345
-And I think if you've
-used computers,
+Dan saya pikir jika kalian sudah
+menggunakan komputer,
 
 658
 00:28:21,345 --> 00:28:22,720
-or if you've
-programmed a little,
+atau kalian sudah sedikit melakukan
+pemrograman,
 
 659
 00:28:22,720 --> 00:28:24,590
-you probably have
-some familiarity
+kemungkinan kalian akan
+merasa familiar
 
 660
 00:28:24,590 --> 00:28:26,540
-with hash functions.
+dengan fungsi hash.
 
 661
 00:28:26,540 --> 00:28:29,460
-They're simple, but they're
-actually extremely powerful.
+Mereka simpel, namun sangat kuat.
 
 662
 00:28:29,460 --> 00:28:31,160
