@@ -2511,129 +2511,129 @@ hingga 32.
 
 528
 00:21:38,990 --> 00:21:40,920
-And now there's a
-nontrivial chance
+Dan sekarang ada
+kemungkinan nontrivial
 
 529
 00:21:40,920 --> 00:21:42,420
-that some packet
-from one connection
+bahwa beberapa paket
+dari satu koneksi
 
 530
 00:21:42,420 --> 00:21:45,600
-will be delayed in the network,
-and eventually show up again,
+akan tertunda di dalam jaringan
+dan akhirnya, muncul lagi,
 
 531
 00:21:45,600 --> 00:21:48,760
-and will get confused for a
-packet from another connection.
+dan akan membingungkan dari
+paket ke koneksi lainnya.
 
 532
 00:21:48,760 --> 00:21:50,840
-This is just sort of
-nothing to do with security.
+Ini tidak ada
+hubungannya dengan keamanan.
 
 533
 00:21:50,840 --> 00:21:52,465
-This is just their
-design consideration
+Ini hanyalah pertimbangan
+desain mereka
 
 534
 00:21:52,465 --> 00:21:55,290
-initially for reliable delivery.
+yang pada awalnya sebagai pengiriman yang handal.
 
 535
 00:21:55,290 --> 00:21:58,720
-AUDIENCE: [INAUDIBLE] some other
-client to the server, right?
+HADIRIN: [TIDAK TERDENGAR] beberapa lainnya
+klien ke server, bukan?
 
 536
 00:21:58,720 --> 00:21:59,595
-PROFESSOR: Sorry?
+PROFESOR: Maaf?
 
 537
 00:21:59,595 --> 00:22:01,830
-AUDIENCE: This is [INAUDIBLE]
-some other client?
+AUDIENCE: Ini [TIDAK TERDENGAR]
+klien lain?
 
 538
 00:22:01,830 --> 00:22:03,080
-PROFESSOR: That's right, yeah.
+PROFESOR: Ya itu benar.
 
 539
 00:22:03,080 --> 00:22:04,830
-So we haven't actually said
-why this is interesting at all
+Jadi kami belum benar-benar mengatakan
+mengapa ini menarik sekali
 
 540
 00:22:04,830 --> 00:22:06,190
-for the attacker to do.
+untuk dilakukan penyerang.
 
 541
 00:22:06,190 --> 00:22:06,880
-Why bother?
+Kenapa mengganggu?
 
 542
 00:22:06,880 --> 00:22:09,055
-You could just go from
-his old IP address, right?
+Anda bisa pergi dari
+alamat IP lamanya, bukan?
 
 543
 00:22:09,055 --> 00:22:12,855
-AUDIENCE: So what happens
-for the server [INAUDIBLE]?
+HADIRIN: Jadi apa yang terjadi
+kepada server [TIDAK TERDENGAR]?
 
 544
 00:22:17,346 --> 00:22:19,720
-PROFESSOR: Yes, this is actually
-an interesting question.
+PROFESOR: Ya, ini sebenarnya
+pertanyaan yang menarik.
 
 545
 00:22:19,720 --> 00:22:20,440
-What happens here?
+Apa yang terjadi di sini?
 
 546
 00:22:20,440 --> 00:22:22,106
-So this packet doesn't
-just get dropped.
+Jadi paket ini tidak
+langsung dijatuhkan.
 
 547
 00:22:22,106 --> 00:22:24,430
-It actually goes
-to this computer.
+Itu sebenarnya masuk
+kedalam komputer ini.
 
 548
 00:22:24,430 --> 00:22:26,426
-And what happens?
+Dan apa yang terjadi?
 
 549
 00:22:26,426 --> 00:22:28,926
-AUDIENCE: [INAUDIBLE], they
-just mentioned you try and do it
+HADIRIN: [TIDAK TERDENGAR], mereka
+hanya menyebutkan Anda untuk mencoba dan melakukannya
 
 550
 00:22:28,926 --> 00:22:31,116
-like they would
-try and do it when
+seperti mereka
+akan mencoba dan melakukannya ketika
 
 551
 00:22:31,116 --> 00:22:34,019
-the other computer was
-updating or rebooting or off,
+komputer lain sedang 
+memperbarui atau me-reboot atau mematikan,
 
 552
 00:22:34,019 --> 00:22:34,560
-or something.
+atau semacam itu.
 
 553
 00:22:34,560 --> 00:22:35,682
-PROFESSOR: Right,
-certainly they felt, oh,
+PROFESOR: Benar,
+pasti mereka merasa, oh,
 
 554
 00:22:35,682 --> 00:22:36,192
-that computer is offline.
+bahwa komputer itu sedang offline.
 
 555
 00:22:36,192 --> 00:22:37,670
