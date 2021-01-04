@@ -3102,423 +3102,424 @@ pesannya-- keluar kembali.
 669
 00:30:36,800 --> 00:30:39,260
 Dan jika ya,
-they know I signed,
+mereka tahu saya menandatangani,
 
 670
 00:30:39,260 --> 00:30:43,580
-and I have the private
-key that corresponds to n.
+dan saya memiliki pribadi
+kunci yang sesuai dengan n.
 
 671
 00:30:43,580 --> 00:30:47,240
-Now, the cool thing is I can
-use this any number of times.
+Sekarang, hal kerennya adalah saya bisa
+menggunakan ini beberapa kali.
 
 672
 00:30:47,240 --> 00:30:50,630
-I can use the same
-thing a bazillion times
+Saya dapat menggunakan sama
+hal yang jutaan kali
 
 673
 00:30:50,630 --> 00:30:54,890
-with different m's, and
-that doesn't give any help
+dengan m yang berbeda, dan
+itu tidak memberikan bantuan apa pun
 
 674
 00:30:54,890 --> 00:30:58,520
-on how to factor n
-or how to compute d.
+tentang cara memfaktorkan n
+atau cara menghitung d.
 
 675
 00:30:58,520 --> 00:31:04,320
-So this was late 70s, also,
-RSA, and one of the first,
+Jadi ini akhir tahun 70-an, juga,
+RSA, dan salah satu yang pertama,
 
 676
 00:31:04,320 --> 00:31:07,430
-hey, we can do better
-than hash functions.
+hei, kita bisa melakukan lebih baik
+daripada fungsi hash.
 
 677
 00:31:07,430 --> 00:31:11,060
-It was developed at
-around the same time
+Ini dikembangkan
+sekitar waktu yang sama
 
 678
 00:31:11,060 --> 00:31:12,800
-as hash-based signatures.
+dengan tanda tangan berbasis hash.
 
 679
 00:31:12,800 --> 00:31:15,830
-All of these things were sort
-of coming out at the same time.
+Semua hal ini
+muncul pada saat yang bersamaan.
 
 680
 00:31:15,830 --> 00:31:18,650
-You can do lots of cool
-stuff because there's
+Anda dapat melakukan banyak keren
+hal karena ada
 
 681
 00:31:18,650 --> 00:31:25,100
-these properties where we
-can make m prime plus m
+properti ini di mana kita
+dapat membuat m prime plus m
 
 682
 00:31:25,100 --> 00:31:29,070
-and take the exponentiation of
-all that, and it still works.
+dan mengambil eksponen dari
+semua itu, dan ini masih berfungsi.
 
 683
 00:31:29,070 --> 00:31:29,570
-OK.
+Oke.
 
 684
 00:31:29,570 --> 00:31:30,487
-So that's really cool.
+Jadi itu sangat keren.
 
 685
 00:31:30,487 --> 00:31:32,360
-You can do lots of cool stuff.
+Anda bisa melakukan banyak hal keren.
 
 686
 00:31:32,360 --> 00:31:36,440
-But this is also
-not used in Bitcoin.
+Tetapi ini juga
+tidak digunakan di Bitcoin.
 
 687
 00:31:36,440 --> 00:31:37,940
-One of the things is the size.
+Salah satunya adalah ukurannya.
 
 688
 00:31:37,940 --> 00:31:42,800
-So key sizes are smaller
-than with lamport signatures.
+Jadi ukuran kunci lebih kecil
+dibandingkan dengan tanda tangan lamport.
 
 689
 00:31:42,800 --> 00:31:48,277
-And they're often about
-2 kilobits, or 256 bytes,
+Dan biasanya sekitar
+berukuran2 kilobit, atau 256 byte,
 
 690
 00:31:48,277 --> 00:31:48,860
-which is fine.
+yang tidak masalah.
 
 691
 00:31:48,860 --> 00:31:51,900
-And that's the same
-size as signatures.
+Dan itu sama
+ukurannya dengan tanda tangan.
 
 692
 00:31:51,900 --> 00:31:53,435
-So if you use your web browser--
+Jadi, jika Anda menggunakan browser web--
 
 693
 00:31:56,200 --> 00:31:59,720
-secure-- well, how secure?
+aman-- yah, seberapa aman?
 
 694
 00:31:59,720 --> 00:32:00,950
-Certificate, valid.
+Sertifikat, valid.
 
 695
 00:32:00,950 --> 00:32:03,700
-Oh, this browser
-might not show me.
+Oh, browser ini
+mungkin tidak menampilkan saya.
 
 696
 00:32:03,700 --> 00:32:05,263
-OK, never mind.
+Baiklah jangan dipikirkan.
 
 697
 00:32:05,263 --> 00:32:06,680
-AUDIENCE: In
-Firefox, it'll do it.
+AUDIENS: Di
+Firefox, itu akan melakukannya.
 
 698
 00:32:06,680 --> 00:32:08,970
-TADGE DRYJA: In Firefox,
-it tells you more.
+TADGE DRYJA: Di Firefox,
+ini memberi tahu Anda lebih banyak.
 
 699
 00:32:08,970 --> 00:32:09,470
-OK.
+Oke.
 
 700
 00:32:09,470 --> 00:32:11,030
-Well, anyway, anyway, anyway.
+Yah, bagaimanapun juga.
 
 701
 00:32:11,030 --> 00:32:16,250
-But yeah, there's RSA keys in,
-basically, every certificate
+Tapi ya, ada kunci RSA di,
+pada dasarnya, setiap sertifikat
 
 702
 00:32:16,250 --> 00:32:18,020
-for web browsers and websites.
+untuk browser web dan situs web.
 
 703
 00:32:18,020 --> 00:32:21,060
-And they're generally
-2,048 bits long.
+Dan biasanya
+panjangnya 2.048 bit.
 
 704
 00:32:21,060 --> 00:32:23,840
-That's seen as pretty secure.
+Itu terlihat cukup aman.
 
 705
 00:32:23,840 --> 00:32:27,500
-Even 1,024 bits has
-not been hacked.
+Bahkan 1.024 bit
+belum diretas.
 
 706
 00:32:27,500 --> 00:32:29,000
-But people think
-it probably could
+Tetapi orang-orang mengira
+itu mungkin
 
 707
 00:32:29,000 --> 00:32:31,720
-be by a very motivated actor.
+oleh aktor yang sangat termotivasi.
 
 708
 00:32:31,720 --> 00:32:34,550
-So this is decent size.
+Jadi ini adalah ukuran yang layak.
 
 709
 00:32:34,550 --> 00:32:37,133
-One thing about RSA is that it's
-a little tricky to implement,
+Satu hal tentang RSA adalah
+sedikit rumit untuk diterapkan,
 
 710
 00:32:37,133 --> 00:32:37,633
-right?
+bukan?
 
 711
 00:32:37,633 --> 00:32:39,440
-There's a whole bunch
-of weird math there.
+Ada banyak
+matematika aneh di sana.
 
 712
 00:32:39,440 --> 00:32:41,540
-It's not like the
-lamport signatures,
+Ini tidak seperti
+tanda tangan lamport,
 
 713
 00:32:41,540 --> 00:32:44,410
-where it's like, OK, I have a
-hash function, use it, right?
+yang seperti, Oke, saya punya
+fungsi hash, gunakan, bukan?
 
 714
 00:32:44,410 --> 00:32:45,920
-It's kind of hard
-to shoot yourself
+Agak sulit
+untuk menembak diri sendiri
 
 715
 00:32:45,920 --> 00:32:49,070
-in the foot with the
-lamport signature scheme.
+dengan
+skema tanda tangan lamport.
 
 716
 00:32:49,070 --> 00:32:50,960
-You can, right, but
-it's sort of obvious
+Anda bisa, benar, tapi
+sudah jelas
 
 717
 00:32:50,960 --> 00:32:52,280
-if you do, so if you're
-doing the homework
+jika Anda melakukannya, jadi jika Anda
+mengerjakan pekerjaan rumah
 
 718
 00:32:52,280 --> 00:32:54,322
-and it just doesn't work
-at all, and you're like,
+dan itu tidak berhasil
+sama sekali, dan Anda seperti,
 
 719
 00:32:54,322 --> 00:32:57,680
-oh, I was hashing twice, or,
-oh, I was reversing the order,
+oh, saya hashing dua kali, atau,
+oh, saya membalik pesanan,
 
 720
 00:32:57,680 --> 00:33:02,300
-or it just didn't work.
+atau tidak berhasil.
 
 721
 00:33:02,300 --> 00:33:05,150
-But there's no subtle ways
-where, oh, I was off by one,
+Tapi tidak ada cara halus di
+mana, oh, saya salah satu per satu,
 
 722
 00:33:05,150 --> 00:33:07,190
-and now it reveals
-all my private keys.
+dan sekarang terungkap
+semua kunci pribadi saya.
 
 723
 00:33:07,190 --> 00:33:11,270
-That's hard to do, whereas in
-RSA, it's actually quite easy.
+Itu sulit dilakukan, sedangkan di
+RSA, sebenarnya cukup mudah.
 
 724
 00:33:11,270 --> 00:33:14,090
-If your p and q
-values, for example--
+Jikap dan q Anda
+nilai, misalnya--
 
 725
 00:33:14,090 --> 00:33:16,520
-what's a really crazy gotcha--
+apa benar-benar gila gotcha--
 
 726
 00:33:16,520 --> 00:33:21,410
-if p or q minus 1-- so if
-p minus 1 or q minus 1--
+jika p atau q minus 1-- jadi jika
+p minus 1 atau q minus 1--
 
 727
 00:33:21,410 --> 00:33:24,320
-is smooth-- essentially, a
-number that's highly composite
+mulus-- intinya,
+bilangan yang sangat komposit
 
 728
 00:33:24,320 --> 00:33:26,330
-has many small factors--
+memiliki banyak faktor kecil--
 
 729
 00:33:26,330 --> 00:33:28,460
-you can find
-someone's private key.
+Anda dapat menemukan
+kunci pribadi seseorang.
 
 730
 00:33:28,460 --> 00:33:29,590
-You can factor it.
+Anda bisa memfaktorkannya.
 
 731
 00:33:29,590 --> 00:33:31,850
-So it's not just that p
-and q have to be prime.
+Jadi bukan hanya p
+dan q harus bilangan prima.
 
 732
 00:33:31,850 --> 00:33:37,700
-P minus 1 and q minus 1
-have to be not too unprime.
+P minus 1 dan q minus 1
+harus tidak terlalu kasar.
 
 733
 00:33:37,700 --> 00:33:39,878
-It can't be a power
-of two or something.
+Itu tidak bisa menjadi kekuatan
+dua atau sesuatu.
 
 734
 00:33:39,878 --> 00:33:41,420
-Otherwise, you can
-lose your privacy.
+Jika tidak, Anda bisa
+kehilangan privasi Anda.
 
 735
 00:33:41,420 --> 00:33:46,700
-So there's all sorts of crazy
-things that happen with RSA.
+Jadi ada banyakgila
+halyang terjadi dengan RSA
 
 736
 00:33:46,700 --> 00:33:49,640
-Bitcoin and other coins use
-elliptic curve signatures,
+Bitcoin dan koin lainnya menggunakan
+tanda tangan kurva elips,
 
 737
 00:33:49,640 --> 00:33:55,760
-which I'll talk about next,
-that are sort of displacing RSA,
+yang akan saya bicarakan selanjutnya,
+yang menggantikan RSA
 
 738
 00:33:55,760 --> 00:33:56,700
-in many cases.
+dalam banyak kasus.
 
 739
 00:33:56,700 --> 00:34:04,370
-So it hasn't really taken
-off for web certificates
+Jadi itu belum benar-benar diambil
+untuk sertifikat web
 
 740
 00:34:04,370 --> 00:34:07,220
-but a lot of other types of
-encryption, signing, things
+tetapi banyak jenis
+enkripsi lainnya, penandatanganan, hal-hal
+
 
 741
 00:34:07,220 --> 00:34:07,760
-like that.
+seperti itu.
 
 742
 00:34:07,760 --> 00:34:11,150
-Cryptocurrencies are also one of
-the big uses of elliptic curve
+Cryptocurrency juga merupakan salah satu
+kegunaan busur kurva elips
 
 743
 00:34:11,150 --> 00:34:13,730
-signatures because
-they're somewhat more
+tanda tangan karena
+mereka agak lebih
 
 744
 00:34:13,730 --> 00:34:16,670
-powerful and somewhat
-smaller and really cool.
+kuat dan agak
+lebih kecil dan sangat keren.
 
 745
 00:34:16,670 --> 00:34:20,090
-And we will talk about
-those in three minutes.
+Dan kita akan membicarakannya
+dalam tiga menit.
 
 746
 00:34:20,090 --> 00:34:22,699
-So intermission, three minutes.
+Jadi istirahat, tiga menit.
 
 747
 00:34:22,699 --> 00:34:24,650
-Stretch.
+Meregang.
 
 748
 00:34:24,650 --> 00:34:25,949
-Ask random questions.
+Ajukan pertanyaan acak.
 
 749
 00:34:25,949 --> 00:34:27,540
-Talk to the neighbors.
+Bicaralah dengan tetangga.
 
 750
 00:34:27,540 --> 00:34:28,040
-OK.
+Oke.
 
 751
 00:34:28,040 --> 00:34:32,659
-So they're using
-these elliptic curves,
+Jadi mereka menggunakan
+kurva elips ini,
 
 752
 00:34:32,659 --> 00:34:34,790
-which are curves of
-the form y squared
+yang merupakan kurva
+berbentuk y kuadrat
 
 753
 00:34:34,790 --> 00:34:38,150
-plus x cubed plus some
-coefficient x squared
+ditambah x kubik ditambah beberapa
+koefisien x kuadrat
 
 754
 00:34:38,150 --> 00:34:41,239
-plus some constant.
+ditambah beberapa konstanta.
 
 755
 00:34:41,239 --> 00:34:43,670
-And in the case of
-Bitcoin, it's very simple.
+Dan dalam kasus
+Bitcoin, ini sangat sederhana.
 
 756
 00:34:43,670 --> 00:34:46,960
-It's y squared equals
-x cubed plus 7.
+Itu y kuadrat sama dengan
+x kubik ditambah 7.
 
 757
 00:34:46,960 --> 00:34:49,340
-And that's the
-curve Bitcoin uses.
+Dan itulah
+kurva yang digunakan Bitcoin.
 
 758
 00:34:49,340 --> 00:34:52,300
-And this is what it looks
-like if you plot it.
+Dan seperti inilah tampilannya
+jika Anda memplotnya
 
 759
 00:34:52,300 --> 00:34:54,920
