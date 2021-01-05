@@ -4225,537 +4225,536 @@ Bitcoin di Android.
 
 890
 00:37:41,220 --> 00:37:45,450
-And the Android applications
-for Bitcoin were getting random
+Dan aplikasi Android untuk Bitcoin
+mendapatkan nilai acak
 
 891
 00:37:45,450 --> 00:37:51,210
-values for these keys using this
-Java API called SecureRandom(),
+untuk kunci ini dengan menggunakan
+API Java yang bernama SecureRandom(),
 
 892
 00:37:51,210 --> 00:37:56,040
-which sounds great, but as
-people figured out, well, OK.
+yang terdengar hebat, tetapi seperti
+yang orang-orang ketahui, yah, OK.
 
 893
 00:37:56,040 --> 00:37:59,080
-So what it is, right, it doesn't
-really get real random numbers.
+Jadi apa itu, benar, API tersebut
+tidak benar-benar mendapatkan nilai acak yang sesungguhnya.
 
 894
 00:37:59,080 --> 00:38:00,800
-Inside of it, there's
-this construction
+Di dalamnya, ada
+konstruksi ini
 
 895
 00:38:00,800 --> 00:38:04,090
-called Pseudorandom
-Number Generator,
+yang disebut dengan Pseudorandom (acak semu)
 
 896
 00:38:04,090 --> 00:38:07,217
-or PRNG that, given
-a particular seed
+atau PRNG yang, diberi
+nilai bibit tertentu,
 
 897
 00:38:07,217 --> 00:38:09,540
-value, like you get
-maybe a couple of hundred
+seperti Anda mungkin
+mendapatkan beberapa ratus
 
 898
 00:38:09,540 --> 00:38:12,400
-bits of randomness and you
-shove it into this PRNG,
+bit acak dan Anda
+memberikannya ke PRNG,
 
 899
 00:38:12,400 --> 00:38:15,410
-you can keep asking it for more
-randomness and sort of stretch
+Anda bisa terus memintanya untuk
+nilai yang lebih acak dan mengekspansi
 
 900
 00:38:15,410 --> 00:38:19,660
-these random bits into as
-many random bits as you want.
+dari bit acak ini menjadi bit acak
+sebanyak yang Anda inginkan.
 
 901
 00:38:19,660 --> 00:38:22,126
-So you see them
-initially, and then you
+Jadi Anda melihatnya
+pada awalnya, dan kemudian Anda
 
 902
 00:38:22,126 --> 00:38:24,000
-can generate as many
-random bits as you want.
+dapat membangkitkan bit acak
+sebanyak mungkin yang Anda inginkan.
 
 903
 00:38:24,000 --> 00:38:26,581
-And for various cryptographic
-reasons I won't go into here,
+Dan untuk berbagai alasan kriptografi
+yang tidak akan saya jelaskan di sini,
 
 904
 00:38:26,581 --> 00:38:27,330
-it actually works.
+hal itu sebenarnya bekerja.
 
 905
 00:38:27,330 --> 00:38:30,030
-If you give it a couple of
-hundred really good random bits
+Jika Anda memberinya beberapa
+ratus bit acak yang sangat bagus
 
 906
 00:38:30,030 --> 00:38:32,070
-initially, it's going to
-be very hard for anyone
+di awal, akan sangat sulit
+bagi orang lain
 
 907
 00:38:32,070 --> 00:38:37,380
-to predict what the pseudorandom
-values it's generating are.
+untuk memprediksi apa nilai
+pseudorandom yang dibangkitkan.
 
 908
 00:38:37,380 --> 00:38:40,300
-But the problem is
-that this Java library
+Namun masalahnya adalah
+bahwa library Java ini
 
 909
 00:38:40,300 --> 00:38:41,840
-had a small bug in it.
+memiliki sebuah kesalahan kecil di dalamnya.
 
 910
 00:38:41,840 --> 00:38:44,980
-In some set of
-circumstances, it forgot
+Di dalam beberapa
+kondisi, library tersebut lupa
 
 911
 00:38:44,980 --> 00:38:46,860
-to initialize the
-PRNG with a seed,
+untuk menginisialisasi
+PRNG dengan bibit,
 
 912
 00:38:46,860 --> 00:38:50,022
-so it was just all zeros, which
-means that everyone could just
+jadi semuanya hanya bernilai nol,
+yang berarti setiap orang
 
 913
 00:38:50,022 --> 00:38:51,730
-figure out what your
-random numbers were.
+dapat mengetahui
+nomor acak Anda.
 
 914
 00:38:51,730 --> 00:38:53,120
-If they start with
-zeros, they'll
+Jika mereka memulai dengan
+nol, mereka akan
 
 915
 00:38:53,120 --> 00:38:54,757
-produce the same
-random numbers as you,
+menghasilkan angka acak
+yang sama seperti Anda,
 
 916
 00:38:54,757 --> 00:38:57,090
-which means they'll produce
-the same private key as you.
+yang berarti mereka akan menghasilkan
+kunci privat yang sama dengan Anda.
 
 917
 00:38:57,090 --> 00:38:59,190
-So they can just generate
-the same private key
+Jadi mereka dapat membuat
+kunci privat yang sama
 
 918
 00:38:59,190 --> 00:39:01,120
-and transfer your Bitcoins.
+dan mengirimkan Bitcoin Anda.
 
 919
 00:39:01,120 --> 00:39:05,400
-So this is, again, a
-small or not small bug,
+Jadi ini, sekali lagi,
+kesalahan kecil atau tidak kecil,
 
 920
 00:39:05,400 --> 00:39:08,320
-depending on, I
-guess, who is asking.
+tergantung pada, saya kira,
+siapa yang bertanya.
 
 921
 00:39:08,320 --> 00:39:10,000
-But nonetheless, right?
+Namun tetap saja, kan?
 
 922
 00:39:10,000 --> 00:39:12,500
-Another example of small
-programming mistakes
+Contoh lain dari kesalahan
+kecil pemrograman
 
 923
 00:39:12,500 --> 00:39:14,790
-leading to pretty
-catastrophic results.
+yang mengarah
+ke hasil yang sangat parah.
 
 924
 00:39:14,790 --> 00:39:17,410
-Lot's of people got their
-Bitcoin balances stolen
+Banyak orang yang saldo
+Bitcoin-nya dicuri
 
 925
 00:39:17,410 --> 00:39:19,400
-because of this weakness.
+karena kelemahan ini.
 
 926
 00:39:19,400 --> 00:39:21,920
-Of course, the fix is
-pretty simple at some level.
+Tentu saja, perbaikannya
+cukup sederhana di tingkatan tertentu.
 
 927
 00:39:21,920 --> 00:39:23,360
-You change the
-Java implementation
+Anda mengubah
+implementasi Java
 
 928
 00:39:23,360 --> 00:39:28,270
-of SecureRandom() to always
-seed this PRNG with random input
+dari SecureRandom() untuk selalu
+memberi bibit PRNG ini dengan bit
 
 929
 00:39:28,270 --> 00:39:29,210
-bits.
+masukan acak.
 
 930
 00:39:29,210 --> 00:39:31,300
-And then, hopefully,
-you're in good shape.
+Dan kemudian, semoga,
+Anda dalam kondisi yang baik.
 
 931
 00:39:31,300 --> 00:39:36,532
-But still, that's yet another
-example of mechanism failure.
+Namun tetap saja, itu contoh lain
+dari kegagalan mekanisme.
 
 932
 00:39:36,532 --> 00:39:37,174
-Yeah?
+Ya?
 
 933
 00:39:37,174 --> 00:39:39,424
-AUDIENCE: Just to be clear,
-is this a different attack
+AUDIENS: Hanya untuk memperjelas,
+apakah ini adalah serangan yang berbeda
 
 934
 00:39:39,424 --> 00:39:42,096
-from the DSA
-signature randomness?
+dari keacakan tanda tangan
+dengan algoritme DSA?
 
 935
 00:39:42,096 --> 00:39:42,970
-PROFESSOR: Well yeah.
+PROFESOR: Yah begitulah.
 
 936
 00:39:42,970 --> 00:39:44,810
-So the actual problem
-is a little bit more
+Jadi masalah sebenarnya
+sedikit lebih
 
 937
 00:39:44,810 --> 00:39:46,310
-complicated, as
-you're hinting at.
+rumit, dari
+yang Anda maksud.
 
 938
 00:39:46,310 --> 00:39:48,700
-The problem is, even
-if you didn't generate
+Masalahnya, bahkan
+jika Anda tidak membangkitkan
 
 939
 00:39:48,700 --> 00:39:51,140
-your key on the Android
-device in the first place,
+kunci Anda di perangkat
+Android pada awalnya,
 
 940
 00:39:51,140 --> 00:39:56,150
-the particular signature
-scheme used by Bitcoin
+skema tanda tangan tertentu
+yang digunakan oleh Bitcoin
 
 941
 00:39:56,150 --> 00:39:59,110
-assumes that every time you
-generate a new signature
+mengasumsikan bahwa setiap kali Anda
+membuat tanda tangan baru
 
 942
 00:39:59,110 --> 00:40:01,310
-with that key, you
-use a fresh, what's
+dengan kunci itu, Anda
+menggunakan sesuatu yang baru, apa yang
 
 943
 00:40:01,310 --> 00:40:03,290
-called a nonce, for
-generating that signature.
+disebut dengan nonce, untuk
+membangkitkan tanda tangan itu.
 
 944
 00:40:03,290 --> 00:40:07,270
-And if you ever generate two
-signatures with the same nonce,
+Dan jika Anda pernah membuat dua
+tanda tangan dengan nonce yang sama,
 
 945
 00:40:07,270 --> 00:40:09,544
-then someone can figure
-out what your key is.
+maka seseorang dapat menebak
+apa kunci Anda.
 
 946
 00:40:09,544 --> 00:40:10,710
-The story is pretty similar.
+Cerita ini cukup mirip.
 
 947
 00:40:10,710 --> 00:40:12,270
-But the details are
-a little different.
+Namun detailnya
+sedikit berbeda.
 
 948
 00:40:12,270 --> 00:40:14,310
-So yeah, even if you actually
-generated your key somewhere
+Jadi yah, bahkan jika Anda sebenarnya
+membuat kunci Anda di suatu tempat
 
 949
 00:40:14,310 --> 00:40:16,726
-else and your key was great,
-it's just that every time you
+lain dan kunci Anda sangat bagus,
+maka kapan pun Anda
 
 950
 00:40:16,726 --> 00:40:19,840
-generate a signature,
-you would--
+membangkitkan sebuah tanda tangan,
+Anda akan--
 
 951
 00:40:19,840 --> 00:40:23,190
-and you generated two signatures
-with exactly the same nonce,
+dan Anda membuat dua tanda tangan
+dengan menggunakan nonce yang sama persis,
 
 952
 00:40:23,190 --> 00:40:26,650
-or random value, someone
-could apply some clever math
+atau nilai yang acak, seseorang
+bisa menerapkan beberapa prinsip matematika
 
 953
 00:40:26,650 --> 00:40:30,270
-to your signatures and sort
-of extract your public key out
+ke tanda tangan Anda dan
+mengekstraksi kunci publik Anda yang dikeluarkan
 
 954
 00:40:30,270 --> 00:40:30,770
-of it.
+darinya.
 
 955
 00:40:30,770 --> 00:40:34,240
-Or private key,
-more importantly.
+Atau kunci pribadi,
+yang lebih penting.
 
 956
 00:40:34,240 --> 00:40:35,140
-All right.
+Baiklah.
 
 957
 00:40:35,140 --> 00:40:40,610
-Other questions about these
-problems, examples, et cetera?
+Pertanyaan lain tentang masalah
+ini, contohnya, dan sebagainya?
 
 958
 00:40:40,610 --> 00:40:41,690
-All right.
+Baiklah.
 
 959
 00:40:41,690 --> 00:40:46,570
-So I guess, one thing I wanted
-to point out is that actually,
+Jadi saya rasa, satu hal yang ingin
+saya tunjukkan adalah,
 
 960
 00:40:46,570 --> 00:40:48,400
-well, as you're
-starting to appreciate,
+yah, saat Anda
+mulai menghargai,
 
 961
 00:40:48,400 --> 00:40:52,830
-is that in computer security,
-almost every detail has
+bahwa dalam keamanan komputer,
+hampir setiap detail
 
 962
 00:40:52,830 --> 00:40:55,000
-a chance of really mattering.
+memiliki peluang yang sangat penting.
 
 963
 00:40:55,000 --> 00:40:58,390
-If you screw up almost something
-seemingly inconsequential,
+Jika Anda mengacaukan sesuatu yang
+tampaknya sangat tidak penting,
 
 964
 00:40:58,390 --> 00:41:00,780
-like forgetting to check
-something, or this,
+seperti lupa memeriksa
+sesuatu, atau ini,
 
 965
 00:41:00,780 --> 00:41:03,190
-or forgetting to
-initialize the random seed,
+atau lupa 
+menginisialisasi bibit acak,
 
 966
 00:41:03,190 --> 00:41:04,980
-it can have pretty
-dramatic consequences
+hal tersebut dapat menimbulkan
+konsekuensi yang cukup dramatis
 
 967
 00:41:04,980 --> 00:41:07,010
-for the overall system.
+untuk keseluruhan sistem.
 
 968
 00:41:07,010 --> 00:41:09,530
-And you really have to
-be very clear about,
+Dan Anda benar-benar harus
+sangat jelas tentang,
 
 969
 00:41:09,530 --> 00:41:11,510
-what is the specification
-of your system?
+apa spesifikasi
+sistem Anda?
 
 970
 00:41:11,510 --> 00:41:12,510
-What is it doing?
+Apa yang dilakukannya?
 
 971
 00:41:12,510 --> 00:41:14,870
-Exactly what are all
-the corner cases?
+Sebenarnya apa saja
+kasus tepi nya?
 
 972
 00:41:14,870 --> 00:41:17,170
-And a good way to sort of
-think of breaking a system
+Dan cara yang baik untuk
+memikirkan tentang merusak sebuah sistem
 
 973
 00:41:17,170 --> 00:41:19,369
-or, conversely, figure out
-if your system is secure,
+atau, sebaliknya, mencari tahu
+apakah sistem Anda aman,
 
 974
 00:41:19,369 --> 00:41:20,910
-is to really push
-all the edge cases,
+adalah untuk mencoba
+semua kasus tepi,
 
 975
 00:41:20,910 --> 00:41:23,950
-like what happens if my
-input is just large enough?
+seperti apa yang terjadi jika
+masukan saya cukup besar?
 
 976
 00:41:23,950 --> 00:41:26,620
-Or what is the biggest
-or the smallest input?
+Atau apa masukan terbesar
+atau masukan terkecilnya?
 
 977
 00:41:26,620 --> 00:41:28,980
-What is the sort
-of strangest set
+Jenis sekumpulan masukan
+apa yang paling aneh
 
 978
 00:41:28,980 --> 00:41:30,670
-of inputs I could
-provide to my program
+dari masukan yang dapat saya
+sediakan untuk program saya
 
 979
 00:41:30,670 --> 00:41:34,250
-and push it in all
-these corner cases?
+dan memasukkan semuanya
+ke dalam kasus ini
 
 980
 00:41:34,250 --> 00:41:38,960
-One example of this ambiguity,
-sort of a good example
+Satu contoh dari ambiguitas ini,
+sebuah contoh yang cukup bagus,
 
 981
 00:41:38,960 --> 00:41:44,850
-to keep in mind, is how
-SSL certificates, again,
+untuk dipikirkan, adalah bagaimana
+sertifikat SSL, lagi,
 
 982
 00:41:44,850 --> 00:41:49,202
-encode names into the
-certificate itself.
+pengkodean nama menjadi
+sertifikat itu sendiri.
 
 983
 00:41:49,202 --> 00:41:51,160
-So this is a different
-problem than the problem
+Jadi ini adalah masalah yang
+berbeda dari masalah tentang
 
 984
 00:41:51,160 --> 00:41:53,580
-about the certificate
-authorities being trusted.
+otoritas sertifikat untuk
+dipercayai.
 
 985
 00:41:53,580 --> 00:41:57,470
-So these SSL certificates
-are just sequences of bytes
+Jadi sertifikat SSL ini adalah
+sederet byte
 
 986
 00:41:57,470 --> 00:41:59,000
-that a web server sends to you.
+yang dikirimkan server web kepada Anda.
 
 987
 00:41:59,000 --> 00:42:01,200
-And inside of this
-SSL certificate
+Dan di dalam sertifikat
+SSL ini
 
 988
 00:42:01,200 --> 00:42:04,340
-is the name of the server
-you're connecting to,
+adalah nama dari server
+yang mana Anda terkoneksi,
 
 989
 00:42:04,340 --> 00:42:06,144
-so something like Amazon.com.
+jadi sesuatu seperti Amazon.com.
 
 990
 00:42:06,144 --> 00:42:08,060
-You know, you can't just
-put down those bytes.
+Anda tahu, Anda tidak bisa serta merta
+menaruh byte tersebut.
 
 991
 00:42:08,060 --> 00:42:09,870
-You have to encode it
-somehow and specify, well,
+Anda harus menyandikannya
+entah bagaimana dan menentukan bahwa, baiklah,
 
 992
 00:42:09,870 --> 00:42:10,536
-it's Amazon.com.
+ini adalah Amazon.com.
 
 993
 00:42:10,536 --> 00:42:12,860
-And that's the
-end of the string.
+Dan itu adalah 
+akhir dari string.
 
 994
 00:42:12,860 --> 00:42:18,540
-So in SSL certificates, they
-use a particular encoding scheme
+Jadi pada sertifikat SSL, mereka
+menggunakan skema pengkodean tertentu
 
 995
 00:42:18,540 --> 00:42:24,290
-that writes down Amazon.com
-by first writing down
+yang menulis Amazon.com
+dengan menuliskan terlebih dahulu
 
 996
 00:42:24,290 --> 00:42:26,394
-the number of bytes
-in the string.
+jumlah byte
+di dalam string.
 
 997
 00:42:26,394 --> 00:42:27,560
-So you first write down, OK.
+Jadi Anda menulis terlebih dahulu, OK.
 
 998
 00:42:27,560 --> 00:42:32,314
-Well, I'm going to have a 10
-byte string called Amazon.com.
+Yah, saya akan memiliki string 10
+byte yang disebut Amazon.com.
 
 999
 00:42:35,679 --> 00:42:36,720
-That's actually 10 bytes.
+Itu sebenarnya 10 bytes.
 
 1000
 00:42:36,720 --> 00:42:36,990
-Great.
+Bagus.
 
 1001
 00:42:36,990 --> 00:42:37,510
