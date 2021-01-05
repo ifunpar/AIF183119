@@ -2663,13 +2663,13 @@ Itu tidak bagus.
 
 562
 00:25:00,600 --> 00:25:02,754
-Jika anda benar-benar menggunakan, itu
-akan menjadi sebuah daftar yang besar.
+Jika Anda benar-benar menggunakannya, itu
+akan menjadi sebuah daftar yang sangat besar.
 
 563
 00:25:02,754 --> 00:25:04,920
-Dan itu akan sangat banyak
-biaya tambahan untuk semua orang 
+Dan itu akan menjadi biaya di awal
+yang banyak untuk semua orang
 
 564
 00:25:04,920 --> 00:25:06,772
@@ -2682,12 +2682,12 @@ bahwa tidak ada siapapun yang sebenarnya
 
 566
 00:25:08,480 --> 00:25:11,370
-mau untuk melakukan hal ini. Jaddi
+mau untuk melakukan hal ini. Jadi
 daftar tersebut pada praktisnya kosong.
 
 567
 00:25:11,370 --> 00:25:13,600
-Jika anda benar-benar bertanya selurus
+Jika anda benar-benar bertanya seluruh
 CA-CA ini, kebanyakan dari mereka
 
 568
@@ -2701,12 +2701,12 @@ untuk menambahkan apapun ke daftar ini.
 
 570
 00:25:17,418 --> 00:25:18,610
-Karena, mengapa Anda melakukannya? 
+Karena, mengapa Anda harus melakukannya?
 
 571
 00:25:18,610 --> 00:25:20,330
-Ini hanya akan merusak 
-barang karena ini
+Ini hanya akan merusak
+berbagai hal karena ini
 
 572
 00:25:20,330 --> 00:25:23,210
@@ -2715,40 +2715,40 @@ koneksi yang akan berhasil.
 
 573
 00:25:23,210 --> 00:25:26,210
-Jadi tidak jelas apakah ada 
+Jadi tidak jelas apakah ada
 motivasi yang besar bagi CA
 
 574
 00:25:26,210 --> 00:25:29,530
-untuk mempertahankan CRL ini.
+untuk mengelola CRL ini.
 
 575
 00:25:29,530 --> 00:25:31,460
-Hal lain yang 
-telah dicoba orang 
+Hal lain yang
+telah dicoba orang
 
 576
 00:25:31,460 --> 00:25:34,190
-adalah menanyakan CA secara online. 
+adalah menanyakan CA secara online.
 
 577
 00:25:34,190 --> 00:25:39,200
-Seperti di dunia Kerberos, kami 
+Seperti di dunia Kerberos, kita
 menghubungi KDC setiap saat.
 
 578
 00:25:39,200 --> 00:25:41,590
-Dan di dunia CA kami mencoba 
+Dan di dunia CA kita mencoba
 keluar dari bisnis ini
 
 579
 00:25:41,590 --> 00:25:43,090
-dan berkata, baik, 
+dan berkata, baik,
 CA hanya akan
 
 580
 00:25:43,090 --> 00:25:45,280
-menandatangani 
+menandatangani
 pesan-pesan ini setahun sekali.
 
 581
@@ -2762,13 +2762,13 @@ protokol alternatif
 
 583
 00:25:47,750 --> 00:25:52,970
-yang disebut protokol
-status sertifikat online (online certificate status protocol), atau OCSP.
+yang disebut protokol status sertifikat online
+(Online Certificate Status Protocol, OCSP).
 
 584
 00:25:52,970 --> 00:25:57,050
-Dan protokol ini memaksa
-kita kembali dari dunia CA
+Dan protokol ini mendorong
+kita keluar dari dunia CA
 
 585
 00:25:57,050 --> 00:25:58,110
@@ -2782,7 +2782,7 @@ mendapat sebuah sertifikat
 587
 00:26:00,840 --> 00:26:03,300
 dan mereka penasaran, apakah ini 
-benar-benar sertifikat yang absah?
+benar-benar sertifikat yang valid?
 
 588
 00:26:03,300 --> 00:26:05,160
@@ -2800,12 +2800,12 @@ Anda dapat menghubungi satu server
 
 591
 00:26:10,670 --> 00:26:12,760
-dan katakan, hi, Saya
+dan katakan, hi, saya
 mendapat sertifikat ini.
 
 592
 00:26:12,760 --> 00:26:14,330
-Menurut anda apakah sertitifikat ini masih absah?
+Menurut Anda apakah sertitifikat ini masih valid?
 
 593
 00:26:14,330 --> 00:26:18,220
@@ -2818,7 +2818,7 @@ ke server tertentu.
 
 595
 00:26:19,520 --> 00:26:21,710
-Jadi dibandingkan mengunduh 
+Jadi dibandingkan mengunduh
 sendiri seluruh daftar,
 
 596
@@ -2861,8 +2861,8 @@ dari server.
 
 604
 00:26:45,370 --> 00:26:46,950
-Sekarang Anda harus berbicara 
-dengan orang OCSP
+Sekarang Anda harus berbicara
+dengan OCSP ini
 
 605
 00:26:46,950 --> 00:26:50,950
@@ -2900,7 +2900,7 @@ ini mati.
 612
 00:27:04,369 --> 00:27:06,160
 Anda dapat, sebagai contoh, menonaktifkan
-seluruh internet 
+seluruh internet
 
 613
 00:27:06,160 --> 00:27:08,090
@@ -2909,7 +2909,7 @@ sertifikat siapapun.
 
 614
 00:27:08,090 --> 00:27:09,600
-Bisa jadi semuanya buruk. 
+Bisa jadi semuanya buruk.
 
 615
 00:27:09,600 --> 00:27:12,230
