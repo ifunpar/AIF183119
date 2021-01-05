@@ -2642,288 +2642,288 @@ mengatakan bahwa sertifikat itu tidak bagus.
 
 557
 00:24:49,850 --> 00:24:51,384
-You better give me a new one.
+Anda sebaiknya memberi saya yang baru.
 
 558
 00:24:51,384 --> 00:24:53,200
-I'm not going to trust
-this particular sign
+Saya tidak akan percaya
+tanda pesan khusus
 
 559
 00:24:53,200 --> 00:24:54,990
-message anymore.
+ini lagi.
 
 560
 00:24:54,990 --> 00:24:56,770
-So that's one plan.
+Jadi itu adalah satu rencana.
 
 561
 00:24:56,770 --> 00:24:57,620
-It's not great.
+Itu tidak bagus.
 
 562
 00:25:00,600 --> 00:25:02,754
-If you really used, it
-would be a giant list.
+Jika Anda benar-benar menggunakannya, itu
+akan menjadi sebuah daftar yang sangat besar.
 
 563
 00:25:02,754 --> 00:25:04,920
-And it would be quite a lot
-of overhead for everyone
+Dan itu akan menjadi biaya di awal
+yang banyak untuk semua orang
 
 564
 00:25:04,920 --> 00:25:06,772
-in the world to download this.
+di dunia untuk mengunduh ini.
 
 565
 00:25:06,772 --> 00:25:08,480
-The other problem is
-that no one actually
+Masalah lainnya adalah
+bahwa tidak ada siapapun yang sebenarnya
 
 566
 00:25:08,480 --> 00:25:11,370
-bothers doing this stuff. so
-the lists in practice are empty.
+mau untuk melakukan hal ini. Jadi
+daftar tersebut pada praktisnya kosong.
 
 567
 00:25:11,370 --> 00:25:13,600
-If you actually ask all
-these CAs, most of them
+Jika anda benar-benar bertanya seluruh
+CA-CA ini, kebanyakan dari mereka
 
 568
 00:25:13,600 --> 00:25:16,210
-will give you back an empty CRL
-because no one's ever bothered
+akan memberikan anda kembali sebuah CRL kosong
+karena tidak ada orang yang pernah bersusah payah
 
 569
 00:25:16,210 --> 00:25:17,418
-to add anything to this list.
+untuk menambahkan apapun ke daftar ini.
 
 570
 00:25:17,418 --> 00:25:18,610
-Because, why would you?
+Karena, mengapa Anda harus melakukannya?
 
 571
 00:25:18,610 --> 00:25:20,330
-It will only break
-things because it
+Ini hanya akan merusak
+berbagai hal karena ini
 
 572
 00:25:20,330 --> 00:25:23,210
-will reduce the number of
-connections that will succeed.
+akan mengurangi jumlah 
+koneksi yang akan berhasil.
 
 573
 00:25:23,210 --> 00:25:26,210
-So it's not clear whether there
-is a great motivations for CAs
+Jadi tidak jelas apakah ada
+motivasi yang besar bagi CA
 
 574
 00:25:26,210 --> 00:25:29,530
-to maintain this CRL.
+untuk mengelola CRL ini.
 
 575
 00:25:29,530 --> 00:25:31,460
-The other thing that
-people have tried
+Hal lain yang
+telah dicoba orang
 
 576
 00:25:31,460 --> 00:25:34,190
-is to query online the CAs.
+adalah menanyakan CA secara online.
 
 577
 00:25:34,190 --> 00:25:39,200
-Like in the Kerberos world, we
-contact the KDC all the time.
+Seperti di dunia Kerberos, kita
+menghubungi KDC setiap saat.
 
 578
 00:25:39,200 --> 00:25:41,590
-And in the CA world we try
-to get out of this business
+Dan di dunia CA kita mencoba
+keluar dari bisnis ini
 
 579
 00:25:41,590 --> 00:25:43,090
-and say, well, the
-CA's only going
+dan berkata, baik,
+CA hanya akan
 
 580
 00:25:43,090 --> 00:25:45,280
-to sign these
-messages once a year.
+menandatangani
+pesan-pesan ini setahun sekali.
 
 581
 00:25:45,280 --> 00:25:46,280
-That's sort of a bummer.
+Itu agak mengecewakan.
 
 582
 00:25:46,280 --> 00:25:47,750
-So there's an
-alternative protocol
+Jadi ada sebuah
+protokol alternatif
 
 583
 00:25:47,750 --> 00:25:52,970
-called online certificate
-status protocol, or OCSP.
+yang disebut protokol status sertifikat online
+(Online Certificate Status Protocol, OCSP).
 
 584
 00:25:52,970 --> 00:25:57,050
-And this protocol pushes
-us back from the CA world
+Dan protokol ini mendorong
+kita keluar dari dunia CA
 
 585
 00:25:57,050 --> 00:25:58,110
-to the KDC world.
+ke dunia KDC.
 
 586
 00:25:58,110 --> 00:26:00,840
-So whenever a client
-gets a certificate
+Jadi kapanpun seorang klien
+mendapat sebuah sertifikat
 
 587
 00:26:00,840 --> 00:26:03,300
-and they're curious, is this
-really a valid certificate?
+dan mereka penasaran, apakah ini 
+benar-benar sertifikat yang valid?
 
 588
 00:26:03,300 --> 00:26:05,160
-Even though it's before
-the expiration time,
+Meskipun itu masih sebelum
+waktu kadaluwarsa,
 
 589
 00:26:05,160 --> 00:26:06,660
-maybe something went wrong.
+mungkin terjadi suatu kesalahan.
 
 590
 00:26:06,660 --> 00:26:10,670
-So using this OCSP protocol,
-you can contact some server
+Jadi menggunakan protokol OCSP ini,
+Anda dapat menghubungi satu server
 
 591
 00:26:10,670 --> 00:26:12,760
-and just say, hey, I
-got this certificate.
+dan katakan, hi, saya
+mendapat sertifikat ini.
 
 592
 00:26:12,760 --> 00:26:14,330
-Do you think it's still valid?
+Menurut Anda apakah sertitifikat ini masih valid?
 
 593
 00:26:14,330 --> 00:26:18,220
-So basically, offloading the
-job of maintaining this CRL
+Jadi pada dasarnya, mengurangi
+pekerjaan menyimpan CRL ini
 
 594
 00:26:18,220 --> 00:26:19,520
-to a particular server.
+ke server tertentu.
 
 595
 00:26:19,520 --> 00:26:21,710
-So instead of downloading
-a whole list yourself,
+Jadi dibandingkan mengunduh
+sendiri seluruh daftar,
 
 596
 00:26:21,710 --> 00:26:23,334
-you're going to ask
-the server, hey, is
+Anda akan bertanya
+kepada server, hei, apakah
 
 597
 00:26:23,334 --> 00:26:24,950
-this thing in that list?
+hal ini ada dalam daftar itu?
 
 598
 00:26:24,950 --> 00:26:27,710
-So that's another plan
-that people have tried.
+Jadi itulah rencana lain
+yang telah dicoba orang.
 
 599
 00:26:27,710 --> 00:26:33,710
-It's also not used very
-widely because of two factors.
+Ini juga tidak digunakan secara
+luas karena dua faktor.
 
 600
 00:26:33,710 --> 00:26:38,990
-One is that it adds latency to
-every request that you make.
+Salah satunya adalah menambahkan latensi ke 
+setiap permintaan yang Anda buat.
 
 601
 00:26:38,990 --> 00:26:41,450
-So every time you want
-to connect to a server,
+Jadi setiap kali Anda ingin
+terhubung ke server,
 
 602
 00:26:41,450 --> 00:26:44,060
-now you have to first
-connect, get the certificate
+sekarang Anda harus terhubung 
+terlebih dahulu, dapatkan sertifikat
 
 603
 00:26:44,060 --> 00:26:45,370
-from the server.
+dari server.
 
 604
 00:26:45,370 --> 00:26:46,950
-Now you have to talk
-to this OCSP guy
+Sekarang Anda harus berbicara
+dengan OCSP ini
 
 605
 00:26:46,950 --> 00:26:50,950
-and then wait for him to respond
-and then do something else.
+dan kemudian menunggu dia menjawab
+dan kemudian melakukan sesuatu yang lain.
 
 606
 00:26:50,950 --> 00:26:52,980
-So for latency reasons,
-this is actually
+Jadi untuk alasan latensi,
+ini sebenarnya
 
 607
 00:26:52,980 --> 00:26:54,970
-not a super popular plan.
+bukan sebuah rencana yang sangat populer.
 
 608
 00:26:54,970 --> 00:26:56,980
-Another problem
-is that you don't
+Masalah lainnya
+adalah bahwa Anda tidak
 
 609
 00:26:56,980 --> 00:27:01,800
-want this OCSP thing being down
-from affecting your ability
+ingin OCSP ini mati
+kemudian mempengaruhi kemampuan
 
 610
 00:27:01,800 --> 00:27:02,880
-to browse the web.
+untuk menjelajahi web.
 
 611
 00:27:02,880 --> 00:27:04,369
-Suppose this OSCP
-server goes down.
+Misalkan OCSP server
+ini mati.
 
 612
 00:27:04,369 --> 00:27:06,160
-You could, like, disable
-the whole internet
+Anda dapat, sebagai contoh, menonaktifkan
+seluruh internet
 
 613
 00:27:06,160 --> 00:27:08,090
-because you can't check
-anyone's certificate.
+karena Anda tidak dapat memeriksa
+sertifikat siapapun.
 
 614
 00:27:08,090 --> 00:27:09,600
-Like, it could be all bad.
+Bisa jadi semuanya buruk.
 
 615
 00:27:09,600 --> 00:27:12,230
-And then all your
-connections stop working.
+Dan kemudian seluruh
+koneksi Anda berhenti bekerja.
 
 616
 00:27:12,230 --> 00:27:13,590
-So no one wants that.
+Tidak ada yang menginginkan hal tersebut.
 
 617
 00:27:13,590 --> 00:27:17,030
-So most clients
-treat the OCSP server
+Jadi, kebanyakan klien
+memperlakukan server OCSP 
 
 618
 00:27:17,030 --> 00:27:21,194
