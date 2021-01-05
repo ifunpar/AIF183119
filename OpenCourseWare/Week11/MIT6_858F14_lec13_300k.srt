@@ -1874,170 +1874,170 @@ ketika saya terhubung ke layanan.
 
 394
 00:17:34,120 --> 00:17:36,500
-And typically, this comes
-from the user at some level.
+Dan biasanya, hal ini datang
+dari pengguna di tingkat tertentu.
 
 395
 00:17:36,500 --> 00:17:41,010
-So for example, if I type
-SSH some machine foo,
+Jadi untuk contoh, jika saya mengetik
+SSH - mesin tertentu - foo,
 
 396
 00:17:41,010 --> 00:17:44,150
-then this means that
-I should be expecting
+lalu ini berarti bahwa
+saya berharap
 
 397
 00:17:44,150 --> 00:17:47,100
-a Kerberos principal
-called rcmd.foo
+prinsipiel Kerberos
+yang disebut rcmd.foo
 
 398
 00:17:47,100 --> 00:17:49,000
-on the other end
-of this connection.
+di ujung yang lain dari
+koneksi ini.
 
 399
 00:17:49,000 --> 00:17:51,210
-And if it turns out
-to be someone else,
+Dan jika itu ternyata
+menjadi orang lain,
 
 400
 00:17:51,210 --> 00:17:53,240
-this SSH client
-should abort and not
+klien SSH ini
+harus dibatalkan dan tidak
 
 401
 00:17:53,240 --> 00:17:56,040
-let me connect because then
-I will be misled into talking
+memperbolehkan saya terhubung, karena
+dengan begitu saya akan dikelabuhi untuk berbicara
 
 402
 00:17:56,040 --> 00:17:57,936
-to some other machine.
+kepada mesin lainnya.
 
 403
 00:17:57,936 --> 00:18:00,392
-That make sense?
+Masuk akal?
 
 404
 00:18:00,392 --> 00:18:01,850
-So here's one
-interesting question.
+Dan ini satu
+pertanyaan yang menarik.
 
 405
 00:18:01,850 --> 00:18:04,365
-When can we reuse
-names in Kerberos?
+Kapan kita bisa menggunakan kembali
+nama-nama dalam Kerberos?
 
 406
 00:18:04,365 --> 00:18:06,940
-It's like, all of you
-guys have Athena accounts.
+Itu seperti, kalian semua
+mempunyai akun Athena.
 
 407
 00:18:06,940 --> 00:18:08,960
-And when you
-graduate, could MIT,
+Dan ketika kalian
+lulus, bisakah MIT,
 
 408
 00:18:08,960 --> 00:18:11,480
-like, wipe out
-your database entry
+seperti, menghapus
+Anda dari dalam database
 
 409
 00:18:11,480 --> 00:18:14,130
-and allow someone else to
-register that same username?
+dan mengizinkan orang lain untuk
+mendaftar dengan username yang sama?
 
 410
 00:18:14,130 --> 00:18:16,600
-Would that be a good idea?
+Apakah itu ide yang baik?
 
 411
 00:18:16,600 --> 00:18:19,290
-Well, aside from the fact
-that you guys want accounts.
+Baik, di samping dari fakta
+bahwa kalian menginginkan akun.
 
 412
 00:18:19,290 --> 00:18:19,790
-Yeah.
+Ya.
 
 413
 00:18:19,790 --> 00:18:23,205
-STUDENT: Updated services
-as well so that they would,
+MAHASISWA: Layanan diperbarui
+juga sehingga mereka akan,
 
 414
 00:18:23,205 --> 00:18:25,593
-like map that username
-to [INAUDIBLE] permission
+seperti memetakan username tersebut
+ke [TIDAK TERDENGAR] izin
 
 415
 00:18:25,593 --> 00:18:26,176
-theoretically?
+secara teoritis?
 
 416
 00:18:26,176 --> 00:18:28,470
-PROFESSOR: Yeah, because
-these guys are actually
+PROFESSOR: Ya, karena 
+orang-orang ini sebenarnya
 
 417
 00:18:28,470 --> 00:18:32,580
-just string entries somewhere
-in some ACL on a file
+hanya string entri di suatu tempat 
+dalam beberapa ACL pada file
 
 418
 00:18:32,580 --> 00:18:33,950
-server on a mail server.
+server di server email.
 
 419
 00:18:33,950 --> 00:18:37,340
-And just because you wipe out
-this entry in the Kerberos
+Dan hanya karena Anda menghapus 
+entri ini di Database Kerberos
 
 420
 00:18:37,340 --> 00:18:40,075
-database doesn't mean
-that this entry is gone.
+tidak berarti bahwa
+entri ini hilang
 
 421
 00:18:40,075 --> 00:18:41,950
-And they're not versioning
-in any way, right?
+Dan mereka tidak mencatat perubahan
+dengan cara apa pun, bukan?
 
 422
 00:18:41,950 --> 00:18:43,658
-This entry could
-literally say, you know,
+Entri ini secara harfiah 
+dapat mengatakan, Anda tahu,
 
 423
 00:18:43,658 --> 00:18:47,270
-Alice has access to
-some Athena locker.
+Alice memiliki akses ke
+beberapa loker Athena.
 
 424
 00:18:47,270 --> 00:18:50,999
-And if this Alice graduates
-and her entry gets removed,
+Dan jika Alice ini lulus
+dan entri dia dihapus,
 
 425
 00:18:50,999 --> 00:18:52,790
-then some new Alice
-comes along, registers,
+lalu Alice baru
+datang, mendaftar,
 
 426
 00:18:52,790 --> 00:18:54,770
-in the Kerberos database.
+dalam database Kerberos.
 
 427
 00:18:54,770 --> 00:18:56,570
-But she gets a
-principal that looks
+Tapi dia mendapat sebuah
+prinsipiel yang terlihat
 
 428
 00:18:56,570 --> 00:18:57,895
-identical to the old Alice.
+identik dengan Alice yang lama.
 
 429
 00:18:57,895 --> 00:18:58,770
