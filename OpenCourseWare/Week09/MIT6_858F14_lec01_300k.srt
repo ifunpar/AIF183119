@@ -4241,7 +4241,7 @@ yang orang-orang ketahui, yah, OK.
 893
 00:37:56,040 --> 00:37:59,080
 Jadi apa itu, benar, API tersebut
-tidak benar-benar mendapatkan nilai riil acak.
+tidak benar-benar mendapatkan nilai acak yang sesungguhnya.
 
 894
 00:37:59,080 --> 00:38:00,800
@@ -4250,13 +4250,12 @@ konstruksi ini
 
 895
 00:38:00,800 --> 00:38:04,090
-yang disebut dengan Pseudorandom
-Number Generator,
+yang disebut dengan Pseudorandom (acak semu)
 
 896
 00:38:04,090 --> 00:38:07,217
 atau PRNG yang, diberi
-nilai seed tertentu,
+nilai bibit tertentu,
 
 897
 00:38:07,217 --> 00:38:09,540
@@ -4271,7 +4270,7 @@ memberikannya ke PRNG,
 899
 00:38:12,400 --> 00:38:15,410
 Anda bisa terus memintanya untuk
-nilai yang lebih acak dan peregangan
+nilai yang lebih acak dan mengekspansi
 
 900
 00:38:15,410 --> 00:38:19,660
@@ -4280,7 +4279,7 @@ sebanyak yang Anda inginkan.
 
 901
 00:38:19,660 --> 00:38:22,126
-Jadi Anda menemui mereka
+Jadi Anda melihatnya
 pada awalnya, dan kemudian Anda
 
 902
@@ -4295,7 +4294,7 @@ yang tidak akan saya jelaskan di sini,
 
 904
 00:38:26,581 --> 00:38:27,330
-hal itu sebenarnya jalan.
+hal itu sebenarnya bekerja.
 
 905
 00:38:27,330 --> 00:38:30,030
@@ -4329,7 +4328,7 @@ kondisi, library tersebut lupa
 911
 00:38:44,980 --> 00:38:46,860
 untuk menginisialisasi
-PRNG dengan seed,
+PRNG dengan bibit,
 
 912
 00:38:46,860 --> 00:38:50,022
@@ -4354,12 +4353,12 @@ yang sama seperti Anda,
 916
 00:38:54,757 --> 00:38:57,090
 yang berarti mereka akan menghasilkan
-kunci pribadi (private key) yang sama dengan Anda.
+kunci privat yang sama dengan Anda.
 
 917
 00:38:57,090 --> 00:38:59,190
 Jadi mereka dapat membuat
-kunci pribadi yang sama
+kunci privat yang sama
 
 918
 00:38:59,190 --> 00:39:01,120
@@ -4372,7 +4371,7 @@ kesalahan kecil atau tidak kecil,
 
 920
 00:39:05,400 --> 00:39:08,320
-tergantung pada, saya kira, 
+tergantung pada, saya kira,
 siapa yang bertanya.
 
 921
@@ -4401,7 +4400,7 @@ karena kelemahan ini.
 926
 00:39:19,400 --> 00:39:21,920
 Tentu saja, perbaikannya
-cukup sederhana di beberapa level.
+cukup sederhana di tingkatan tertentu.
 
 927
 00:39:21,920 --> 00:39:23,360
@@ -4411,7 +4410,7 @@ implementasi Java
 928
 00:39:23,360 --> 00:39:28,270
 dari SecureRandom() untuk selalu
-seed PRNG ini dengan bit
+memberi bibit PRNG ini dengan bit
 
 929
 00:39:28,270 --> 00:39:29,210
@@ -4433,13 +4432,13 @@ Ya?
 
 933
 00:39:37,174 --> 00:39:39,424
-PENONTON: Hanya untuk memperjelas,
+AUDIENS: Hanya untuk memperjelas,
 apakah ini adalah serangan yang berbeda
 
 934
 00:39:39,424 --> 00:39:42,096
-dari tanda tangan acak
-dengan algoritma DSA?
+dari keacakan tanda tangan
+dengan algoritme DSA?
 
 935
 00:39:42,096 --> 00:39:42,970
@@ -4516,7 +4515,7 @@ maka kapan pun Anda
 
 950
 00:40:16,726 --> 00:40:19,840
-mengenerate sebuah tanda tangan,
+membangkitkan sebuah tanda tangan,
 Anda akan--
 
 951
@@ -4527,12 +4526,12 @@ dengan menggunakan nonce yang sama persis,
 952
 00:40:23,190 --> 00:40:26,650
 atau nilai yang acak, seseorang
-bisa menggunakan beberapa prinsip matematika
+bisa menerapkan beberapa prinsip matematika
 
 953
 00:40:26,650 --> 00:40:30,270
-ke tanda tangan Anda dan mengurutkan
-hasil ekstrak kunci publik Anda yang dikeluarkan
+ke tanda tangan Anda dan
+mengekstraksi kunci publik Anda yang dikeluarkan
 
 954
 00:40:30,270 --> 00:40:30,770
@@ -4588,7 +4587,7 @@ sesuatu, atau ini,
 965
 00:41:00,780 --> 00:41:03,190
 atau lupa 
-menginisialisasi seed acak,
+menginisialisasi bibit acak,
 
 966
 00:41:03,190 --> 00:41:04,980
@@ -4615,8 +4614,8 @@ Apa yang dilakukannya?
 
 971
 00:41:12,510 --> 00:41:14,870
-Sebenarnya apa semua
-kasus corner-nya?
+Sebenarnya apa saja
+kasus tepi nya?
 
 972
 00:41:14,870 --> 00:41:17,170
@@ -4630,8 +4629,8 @@ apakah sistem Anda aman,
 
 974
 00:41:19,369 --> 00:41:20,910
-untuk mencoba
-semua kasus edge,
+adalah untuk mencoba
+semua kasus tepi,
 
 975
 00:41:20,910 --> 00:41:23,950
@@ -4670,12 +4669,12 @@ sertifikat SSL, lagi,
 
 982
 00:41:44,850 --> 00:41:49,202
-menyandi (encode) nama menjadi
+pengkodean nama menjadi
 sertifikat itu sendiri.
 
 983
 00:41:49,202 --> 00:41:51,160
-Jadi hal ini adalah masalah yang
+Jadi ini adalah masalah yang
 berbeda dari masalah tentang
 
 984
@@ -4690,7 +4689,7 @@ sederet byte
 
 986
 00:41:57,470 --> 00:41:59,000
-yang dikirimkan web server kepada Anda.
+yang dikirimkan server web kepada Anda.
 
 987
 00:41:59,000 --> 00:42:01,200
@@ -4708,8 +4707,8 @@ jadi sesuatu seperti Amazon.com.
 
 990
 00:42:06,144 --> 00:42:08,060
-Anda tahu, Anda tidak bisa
-mematikan byte tersebut.
+Anda tahu, Anda tidak bisa serta merta
+menaruh byte tersebut.
 
 991
 00:42:08,060 --> 00:42:09,870
@@ -4737,7 +4736,7 @@ dengan menuliskan terlebih dahulu
 
 996
 00:42:24,290 --> 00:42:26,394
-nomer byte
+jumlah byte
 di dalam string.
 
 997
@@ -4746,8 +4745,8 @@ Jadi Anda menulis terlebih dahulu, OK.
 
 998
 00:42:27,560 --> 00:42:32,314
-Yah, saya akan memiliki 10
-byte string yang disebut Amazon.com.
+Yah, saya akan memiliki string 10
+byte yang disebut Amazon.com.
 
 999
 00:42:35,679 --> 00:42:36,720
