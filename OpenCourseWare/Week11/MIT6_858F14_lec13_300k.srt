@@ -1874,23 +1874,23 @@ ketika saya terhubung ke layanan.
 
 394
 00:17:34,120 --> 00:17:36,500
-Dan seharusnya, hal ini datang
+Dan biasanya, hal ini datang
 dari pengguna di tingkat tertentu.
 
 395
 00:17:36,500 --> 00:17:41,010
 Jadi untuk contoh, jika saya mengetik
-SSH beberapa mesin foo,
+SSH - mesin tertentu - foo,
 
 396
 00:17:41,010 --> 00:17:44,150
 lalu ini berarti bahwa
-saya harus berekspektasi
+saya berharap
 
 397
 00:17:44,150 --> 00:17:47,100
-Kerberos prinsipel
-disebut rmcd.foo
+prinsipiel Kerberos
+yang disebut rcmd.foo
 
 398
 00:17:47,100 --> 00:17:49,000
@@ -1910,7 +1910,7 @@ harus dibatalkan dan tidak
 401
 00:17:53,240 --> 00:17:56,040
 memperbolehkan saya terhubung, karena
-dengan begitu saya akan tersesat untuk berbicara
+dengan begitu saya akan dikelabuhi untuk berbicara
 
 402
 00:17:56,040 --> 00:17:57,936
@@ -1943,7 +1943,7 @@ lulus, bisakah MIT,
 408
 00:18:08,960 --> 00:18:11,480
 seperti, menghapus
-anda dari dalam database
+Anda dari dalam database
 
 409
 00:18:11,480 --> 00:18:14,130
@@ -1965,13 +1965,13 @@ Ya.
 
 413
 00:18:19,790 --> 00:18:23,205
-MURID: Layanan diperbarui
-demikian juga sehingga mereka akan,
+MAHASISWA: Layanan diperbarui
+juga sehingga mereka akan,
 
 414
 00:18:23,205 --> 00:18:25,593
 seperti memetakan username tersebut
-ke [tidak terdengar] izin
+ke [TIDAK TERDENGAR] izin
 
 415
 00:18:25,593 --> 00:18:26,176
@@ -1998,11 +1998,12 @@ entri ini di Database Kerberos
 
 420
 00:18:37,340 --> 00:18:40,075
-tidak berarti bahwa entri ini hilang
+tidak berarti bahwa
+entri ini hilang
 
 421
 00:18:40,075 --> 00:18:41,950
-Dan mereka tidak membuat versi
+Dan mereka tidak mencatat perubahan
 dengan cara apa pun, bukan?
 
 422
@@ -2022,8 +2023,8 @@ dan entri dia dihapus,
 
 425
 00:18:50,999 --> 00:18:52,790
-lalu beberapa Alice baru
-datanglah, register,
+lalu Alice baru
+datang, mendaftar,
 
 426
 00:18:52,790 --> 00:18:54,770
@@ -2031,8 +2032,8 @@ dalam database Kerberos.
 
 427
 00:18:54,770 --> 00:18:56,570
-Tapi dia mendapat kan
-yang utama terlihat seperti
+Tapi dia mendapat sebuah
+prinsipiel yang terlihat
 
 428
 00:18:56,570 --> 00:18:57,895
