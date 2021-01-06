@@ -2734,96 +2734,96 @@ you don't want it,
 
 575
 00:23:25,993 --> 00:23:27,840
-I'll reset your connection.
+Saya akan setel ulang koneksi Anda.
 
 576
 00:23:27,840 --> 00:23:30,610
-There's some
-implementation-ish bugs
+Ada beberapa
+bug implementasi
 
 577
 00:23:30,610 --> 00:23:34,075
-that you might exploit, or at
-least the author talks about,
+yang mungkin Anda manfaatkan, atau 
+setidaknya penulis bicarakan,
 
 578
 00:23:34,075 --> 00:23:38,215
-and an potentially
-exploiting, that would prevent
+dan potensi eksploitasi, 
+yang akan mencegah
 
 579
 00:23:38,215 --> 00:23:39,990
-client C from responding.
+klien C untuk menanggapi.
 
 580
 00:23:39,990 --> 00:23:42,758
-So for example, if you flood
-C with lots of packets,
+Jadi misalnya, jika Anda 
+membanjiri C dengan banyak paket,
 
 581
 00:23:42,758 --> 00:23:44,633
-it's an easy way to get
-him to drop this one.
+itu cara mudah untuk membuatnya 
+menjatuhkan yang ini.
 
 582
 00:23:44,633 --> 00:23:46,924
-It turns out there are other
-more interesting bugs that
+Ternyata ada bug lain yang 
+lebih menarik yang
 
 583
 00:23:46,924 --> 00:23:49,520
-don't require flooding C with
-lots of packets that still get
+tidak perlu membanjiri C dengan 
+banyak paket yang masih didapat
 
 584
 00:23:49,520 --> 00:23:51,200
-C to drop this
-packet, or at least it
+C untuk menjatuhkan paket ini, 
+atau setidaknya
 
 585
 00:23:51,200 --> 00:23:53,436
-used to on some
-implementations on TCP stacks.
+dulu pada beberapa implementasi 
+pada tumpukan TCP.
 
 586
 00:23:53,436 --> 00:23:53,936
-Yeah.
+Ya.
 
 587
 00:23:53,936 --> 00:23:55,436
-AUDIENCE: Presumably,
-most firewalls
+AUDIENS: Agaknya, 
+sebagian besar firewall
 
 588
 00:23:55,436 --> 00:23:57,888
-would also [INAUDIBLE].
+juga akan [TIDAK TERDENGAR].
 
 589
 00:23:57,888 --> 00:23:59,370
-PROFESSOR: This one?
+PROFESOR: Yang ini?
 
 590
 00:23:59,370 --> 00:24:00,852
-AUDIENCE: No, the SYN.
+AUDIENS: Tidak, SYN tersebut.
 
 591
 00:24:00,852 --> 00:24:01,840
-PROFESSOR: This one.
+PROFESOR: Yang ini
 
 592
 00:24:01,840 --> 00:24:02,828
-AUDIENCE: That
-came into a client,
+AUDIENS: Itu 
+datang ke klien,
 
 593
 00:24:02,828 --> 00:24:05,203
-and a client didn't originally
-send a SYN to that server.
+dan klien awalnya tidak mengirim 
+SYN ke server itu.
 
 594
 00:24:05,203 --> 00:24:07,188
-And the firewall is
-going to drop it.
+Dan firewall akan 
+menjatuhkannya.
 
 595
 00:24:07,188 --> 00:24:08,980
