@@ -3057,7 +3057,6 @@ pesan untuk d pangkat modulo n.
 Dan jika saya memverifikasi, jika saya mengambil 
 tanda tangan itu ke e pangkat modulo
 
-
 660
 00:30:10,940 --> 00:30:13,040
 n, itu harus sama dengan 
@@ -3074,7 +3073,7 @@ untuk menandatangani, oke, saya
 
 663
 00:30:18,530 --> 00:30:20,660
-baru saja dinaikkan 
+baru saja dinaikan 
 ke d pangkat modulo n.
 
 664
@@ -3437,7 +3436,6 @@ untuk sertifikat web
 tetapi banyak jenis
 enkripsi lainnya, penandatanganan, hal-hal
 
-
 741
 00:34:07,220 --> 00:34:07,760
 seperti itu.
@@ -3527,264 +3525,264 @@ Dan itu tampaknya sangat sederhana.
 
 760
 00:34:54,920 --> 00:34:56,239
-Kami sangat bisa mengerti itu.
+We can totally understand that.
 
 761
 00:34:56,239 --> 00:34:58,220
-Tapi itu terdapat sedikit keanehan.
+But it gets a little weird.
 
 762
 00:34:58,220 --> 00:35:02,330
-Dengan kurva ellips, anda punya
-titik-titik di kurva,
+With elliptic curves, you have
+these points on the curves,
 
 763
 00:35:02,330 --> 00:35:02,870
-betul?
+right?
 
 764
 00:35:02,870 --> 00:35:06,530
-Dan properti lainnya adalah jika
-anda menggambar garis lurus itu
+And another property is if
+you draw a straight line that
 
 765
 00:35:06,530 --> 00:35:08,463
-memotong kurva ini--
+intersects this curve--
 
 766
 00:35:08,463 --> 00:35:10,130
-anda juga bisa menggambar
-sebuah garis yang tidak
+you could also draw
+a line which doesn't
 
 767
 00:35:10,130 --> 00:35:11,218
-memotong apapun, baiklah--
+intersect at all, fine--
 
 768
 00:35:11,218 --> 00:35:13,260
-tapi jika anda menggambar sebuah garis
-yang memotong kurva,
+but if you draw a line
+that intersects the curve,
 
 769
 00:35:13,260 --> 00:35:16,575
-itu akan berpotongan 
-di tiga tempat.
+it will intersect
+in three places
 
 770
 00:35:16,575 --> 00:35:18,950
-Jadi kalau saya menggambar garis di sini,
-itu akan memotong dengan tiga titik.
+So if I draw a line here, it
+intersects these three dots.
 
 771
 00:35:18,950 --> 00:35:21,560
-Jika Saya menarik garis di sini,
-garisnya memotong di sini, sini,
+If I draw a line here,
+it intersects here, here,
 
 772
 00:35:21,560 --> 00:35:23,520
-dan kemudian itu akan memotong
-suatu tempat di bawah sini.
+and then it'll intersect
+somewhere down here.
 
 773
 00:35:23,520 --> 00:35:26,690
-Ini akan berpotongan di tiga 
-tempat kecuali Saya mengambil garis singgung.
+It'll intersect in three
+places unless I take a tangent.
 
 774
 00:35:26,690 --> 00:35:28,430
-Jika saya gambar, dan Saya coba
-seperti, oh, Saya
+If I draw, and I try
+to be like, oh, I'm
 
 775
 00:35:28,430 --> 00:35:30,230
-hanya akan berpotongan
-dalam dua, ya, Saya
+going only intersect
+in two, well, I
 
 776
 00:35:30,230 --> 00:35:32,480
-Bisa mengambil sebuah garis singgung
-di sini, dan itu akan
+can take a tangent
+here, and it'll
 
 777
 00:35:32,480 --> 00:35:34,160
-berpotongan di lebih dari satu tempat.
+intersect in one more place.
 
 778
 00:35:34,160 --> 00:35:36,430
-Apa yang bisa kita lakukan, walaupun,
-kita bisa katakan, baiklah,
+What we can do, though,
+is we can say, well,
 
 779
 00:35:36,430 --> 00:35:38,180
-jika anda memotong di sebuah 
-garis singgung, itu seperti
+if you intersect at a
+tangent, that's kind
 
 780
 00:35:38,180 --> 00:35:40,893
-berpotongan dua kali
+of like intersecting twice.
 
 781
 00:35:40,893 --> 00:35:41,810
-Kita bisa mengatasinya.
+We can deal with that.
 
 782
 00:35:41,810 --> 00:35:43,637
-HADIRIN: Bagaimana jika anda 
-menggambar garis vertikal?
+AUDIENCE: What if you
+draw a vertical line?
 
 783
 00:35:43,637 --> 00:35:45,970
-TADGE DRYJA: Jika anda menggambar 
-vertikal-- oh, ya, garis 
+TADGE DRYJA: If you draw a
+vertical-- oh, yeah, vertical
 
 784
 00:35:45,970 --> 00:35:47,710
-vertikal, maka terdapat
-sebuah titik yang tak terhingga
+line, then there's
+a point at infinity,
 
 785
 00:35:47,710 --> 00:35:49,498
-yang seharusnya tidak terjadi.
+which shouldn't happen.
 
 786
 00:35:49,498 --> 00:35:51,070
-HADIRIN: Tapi
-tak terhingga termasuk--
+AUDIENCE: But
+infinity is included--
 
 787
 00:35:51,070 --> 00:35:51,385
-TADGE DRYJA: Iya.
+TADGE DRYJA: Yeah.
 
 788
 00:35:51,385 --> 00:35:53,380
-HADIRIN: --di set
-titik di kurva?
+AUDIENCE: --in the set
+of points on the curve?
 
 789
 00:35:53,380 --> 00:35:55,130
-Jadi ini seperti 
-3 poin, bagaimanapun
+So it's like there's
+three points, anyway.
 
 790
 00:35:55,130 --> 00:35:56,290
-TADGE DRYJA: Iya.
+TADGE DRYJA: Yeah.
 
 791
 00:35:56,290 --> 00:35:57,950
-Ada gunanya disana--
+There's a point up there--
 
 792
 00:35:57,950 --> 00:35:58,450
-semacam.
+sort of.
 
 793
 00:36:01,150 --> 00:36:02,920
-Dalam praktik 
-penandatangan dan lainnya,
+In the practice of
+signing and stuff,
 
 794
 00:36:02,920 --> 00:36:05,910
-anda mungkin seharusnya tidak mengenainya.
+you probably shouldn't hit it.
 
 795
 00:36:05,910 --> 00:36:08,290
-Iya.
+Yeah.
 
 796
 00:36:08,290 --> 00:36:12,310
-Tapi jadi yang kita lakukan adalah kita katakan,
-OK, baiklah, tiga poin dalam satu barus
+But so what we do is we say,
+OK, well, three points in a line
 
 797
 00:36:12,310 --> 00:36:14,630
-sama dengan nol.
+equals zero.
 
 798
 00:36:14,630 --> 00:36:18,590
-Dan jika kita ambil poin ini 
-tambah poin ini
+And so if we take this
+point plus this point
 
 799
 00:36:18,590 --> 00:36:20,570
-tambah poin ini, itu nol.
+plus this point, that's zero.
 
 800
 00:36:20,570 --> 00:36:25,550
-Cara lain itu adalah
-P tambah Q kurang R sama dengan 0
+Another way to say that is
+P plus Q minus R equals 0,
 
 801
 00:36:25,550 --> 00:36:30,500
-atau P tambah Q sama dengan negatif 
-R. Dan ada properti lain yaitu
+or P plus Q equals negative
+R. And another property is
 
 802
 00:36:30,500 --> 00:36:34,790
-Negasi sebuah poin
-adalah poin yang sama
+the negation of a point
+is just that same point
 
 803
 00:36:34,790 --> 00:36:37,160
-dengan koordinat-y terbalik
+with the y-coordinate flipped.
 
 804
 00:36:37,160 --> 00:36:40,160
-Jadi jika R ini
-adalah negatif, kita
+So if this is
+negative R, we just
 
 805
 00:36:40,160 --> 00:36:42,380
-pergi ke sisi
-bawah sini,
+go down to the
+bottom side of this,
 
 806
 00:36:42,380 --> 00:36:44,857
-dan ini positif
-R. Demikian pula, dikurangi P
+and this is positive
+R. Similarly, minus P
 
 807
 00:36:44,857 --> 00:36:45,440
-Akan berada di sini.
+would be here.
 
 808
 00:36:45,440 --> 00:36:47,000
-Minus Q akan ada di sini.
+Minus Q would be here.
 
 809
 00:36:47,000 --> 00:36:51,830
-Dan jika Anda punya poin Z di sini,
-negatif Z akan berada di sini.
+And if you had a point Z here,
+negative Z would be up here.
 
 810
 00:36:51,830 --> 00:36:53,570
-Beginilah cara membangunnya.
+This is how it's constructed.
 
 811
 00:36:53,570 --> 00:36:58,460
-Namun, sebenarnya kita tidak
-gunakan kurva yang bagus ini.
+However, we don't actually
+use these nice curves.
 
 812
 00:36:58,460 --> 00:37:00,778
-Kita memotongnya dengan
-modulo sesuatu.
+We chop them up in
+modulo something.
 
 813
 00:37:00,778 --> 00:37:01,278
-Iya?
+Yeah?
 
 814
 00:37:01,278 --> 00:37:03,680
-HADIRIN: Anda memiliki P plus Q
-sama dengan negatif R. Haruskah itu
+AUDIENCE: You have P plus Q
+equals negative R. Should it
 
 815
 00:37:03,680 --> 00:37:04,509
-menjadi R positif?
+be positive R?
 
 816
 00:37:08,050 --> 00:37:10,420
-TADGE DRYJA: Tidak.
+TADGE DRYJA: No.
 
 817
 00:37:10,420 --> 00:37:11,590
