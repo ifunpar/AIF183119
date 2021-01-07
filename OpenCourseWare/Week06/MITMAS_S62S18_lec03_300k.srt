@@ -3566,7 +3566,7 @@ that intersects the curve,
 769
 00:35:13,260 --> 00:35:16,575
 it will intersect
-in three places
+in three places.
 
 770
 00:35:16,575 --> 00:35:18,950
