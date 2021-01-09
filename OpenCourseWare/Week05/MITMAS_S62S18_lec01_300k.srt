@@ -2618,7 +2618,7 @@ dengan hal yang dia lakukan sebelumnya.
 554
 00:23:19,040 --> 00:23:22,400
 Dia memberi Bob sebuah representasi
-dari koin elektronik itu. 
+dari koin elektronik itu.
 
 555
 00:23:22,400 --> 00:23:25,820
@@ -2922,7 +2922,7 @@ tanpa bank di tengahnya.
 
 618
 00:26:30,340 --> 00:26:33,250
-Kita sekarang memiliki privasi 
+Kita sekarang memiliki privasi
 karena bank tidak bisa
 
 619
@@ -2931,37 +2931,37 @@ menghubungkan trnasaksi bersama.
 
 620
 00:26:36,160 --> 00:26:39,010
-Dan kita punya cara ini untuk 
+Dan kita punya cara ini untuk
 melakukan deteksi penggunaan ganda.
 
 621
 00:26:39,010 --> 00:26:41,050
-Kita punya cara untuk 
+Kita punya cara untuk
 memotivasi orang
 
 622
 00:26:41,050 --> 00:26:43,780
-tidak menggunakan koin mereka berulang, 
+tidak menggunakan koin mereka berulang,
 berarti kamu ada kemungkinan
 
 623
 00:26:43,780 --> 00:26:46,120
-tidak perlu cek 
+tidak perlu cek
 ketika kamu
 
 624
 00:26:46,120 --> 00:26:49,420
-menerima sebuah koin jika sudah 
+menerima sebuah koin jika sudah
 digunakan sebelumnya atau belum.
 
 625
 00:26:49,420 --> 00:26:53,990
-Tentu, ini masih mengalami 
+Tentu, ini masih mengalami
 kendala yang cukup besar
 
 626
 00:26:53,990 --> 00:26:56,950
-yaitu bank masih bisa 
+yaitu bank masih bisa
 memutuskan bahwa mereka
 
 627
@@ -2970,7 +2970,7 @@ tidak mau melakukan hal ini dengan kamu.
 
 628
 00:26:58,242 --> 00:26:59,950
-Mereka bisa memutuskan 
+Mereka bisa memutuskan
 kalau mereka tidak mau
 
 629
@@ -2988,22 +2988,22 @@ tidak suka dengan kamu.
 
 632
 00:27:05,380 --> 00:27:07,870
-Mungkin mereka tidak mau mengambil 
+Mungkin mereka tidak mau mengambil
 koin mu dan menukarnya.
 
 633
 00:27:07,870 --> 00:27:12,310
-Jadi skema ini, Chaumian e-cash, 
+Jadi skema ini, Chaumian e-cash,
 menyelesaikan beberapa masalah
 
 634
 00:27:12,310 --> 00:27:15,820
-ketika waktunya datang untuk bagaimana 
+ketika waktunya datang untuk bagaimana
 kita memiliki uang elektronik
 
 635
 00:27:15,820 --> 00:27:20,110
-dengan fitur yang baik, 
+dengan fitur yang baik,
 tapi itu masih belum
 
 636
@@ -3012,17 +3012,17 @@ sampai ke mereka semua.
 
 637
 00:27:22,240 --> 00:27:25,080
-Jadi pertanyaan 
+Jadi pertanyaan
 sebenarnya untuk kelas ini
 
 638
 00:27:25,080 --> 00:27:28,350
-sebenarnya, adalah bagaimana kita 
+sebenarnya, adalah bagaimana kita
 menggunakan uang elektronik,
 
 639
 00:27:28,350 --> 00:27:29,970
-dalam situasi 
+dalam situasi
 peer-to-peer, dimana
 
 640
@@ -3036,13 +3036,13 @@ mengatakan tidak.
 
 642
 00:27:35,768 --> 00:27:38,060
-Tadge Dryja: Jadi e-cash, dalam 
+Tadge Dryja: Jadi e-cash, dalam
 matematika itu sangat menarik
 
 643
 00:27:38,060 --> 00:27:42,050
-Ia akan terus mengandalkan bank dan 
-karena itu ia tidak pernah 
+Ia akan terus mengandalkan bank dan
+karena itu ia tidak pernah
 
 644
 00:27:42,050 --> 00:27:43,190
@@ -3050,12 +3050,12 @@ benar-benar turun.
 
 645
 00:27:43,190 --> 00:27:47,240
-Jadi saya ingin membicarakan 
-mengenai sesuatu yang lebih 
+Jadi saya ingin membicarakan
+mengenai sesuatu yang lebih
 
 646
 00:27:47,240 --> 00:27:49,400
-bersifat abstrak dan memiliki 
+bersifat abstrak dan memiliki
 tingkat primitif rendah.
 
 647
@@ -3069,13 +3069,13 @@ atau apapun dalam kuliah ini
 
 649
 00:27:57,530 --> 00:27:59,960
-Tapi saya akan membahas mengenai 
+Tapi saya akan membahas mengenai
 hal primitif secara dasar
 
 650
 00:27:59,960 --> 00:28:02,990
-yang anda butuhkan dan sudah 
-disebutkan sebelumnya, 
+yang anda butuhkan dan sudah
+disebutkan sebelumnya,
 
 651
 00:28:02,990 --> 00:28:04,880
@@ -3083,17 +3083,17 @@ fungsi hash dan tandatangan.
 
 652
 00:28:04,880 --> 00:28:07,790
-Tandatangan, tentu saja kita 
-sudah membicarakan sedikit, 
+Tandatangan, tentu saja kita
+sudah membicarakan sedikit,
 
 653
 00:28:07,790 --> 00:28:10,070
-apa yang anda butuhkan untuk 
-dapat menandai sebuah pesan 
+apa yang anda butuhkan untuk
+dapat menandai sebuah pesan
 
 654
 00:28:10,070 --> 00:28:11,510
-agar dapat mengirimkan token 
+agar dapat mengirimkan token
 ke manapun.
 
 655
@@ -3132,7 +3132,7 @@ Mereka simpel, namun sangat kuat.
 662
 00:28:29,460 --> 00:28:31,160
 Fungsi hash ini pada dasarnya sebagai
-berikut; anda 
+berikut; anda
 
 663
 00:28:31,160 --> 00:28:32,990
@@ -3156,7 +3156,7 @@ juga sekumpulan angka 1 dan 0.
 667
 00:28:38,930 --> 00:28:42,120
 Umumnya, data
-masukan bisa dalam berbagai ukuran. 
+masukan bisa dalam berbagai ukuran.
 
 668
 00:28:42,120 --> 00:28:43,460
@@ -3247,26 +3247,26 @@ cryptocurrency hanya menggunakan
 
 686
 00:29:33,110 --> 00:29:34,940
-a single hash function.
+satu fungsi hash.
 
 687
 00:29:34,940 --> 00:29:38,720
-And I think people have, sort
-of for experimental reasons.
+Dan saya pikir orang-orang punya, semacam
+untuk alasan eksperimental.
 
 688
 00:29:38,720 --> 00:29:43,460
-You limit the fun stuff you can
-do, but you can do signatures.
+Anda membatasi hal-hal menyenangkan yang bisa anda
+lakukan, tetapi anda bisa melakukan tanda tangan.
 
 689
 00:29:43,460 --> 00:29:45,070
-You can do encryption.
+Anda bisa melakukan enkripsi.
 
 690
 00:29:45,070 --> 00:29:47,460
-You can do all sorts
-of things like that.
+Anda bisa melakukan segala macam
+hal-hal seperti itu.
 
 691
 00:29:47,460 --> 00:29:47,960
@@ -3274,88 +3274,88 @@ OK.
 
 692
 00:29:47,960 --> 00:29:50,960
-So this is not a
-sufficient definition,
+Jadi ini bukan
+definisi yang cukup,
 
 693
 00:29:50,960 --> 00:29:55,310
-that there's any size
-input, a fixed size output,
+bahwa ada ukuran apapun
+masukan, ukuran keluaran tetap,
 
 694
 00:29:55,310 --> 00:29:57,580
-and the output is
-random-looking.
+dan hasilnya adalah
+tampak acak.
 
 695
 00:29:57,580 --> 00:29:58,940
-That's sort of wishy-washy.
+Itu semacam plin-plan.
 
 696
 00:29:58,940 --> 00:30:02,540
-But what does
-random-looking mean?
+Tapi apa maksud yang dilakukannya
+tampak acak?
 
 697
 00:30:02,540 --> 00:30:03,890
-It's not actually random.
+Ini sebenarnya tidak acak.
 
 698
 00:30:03,890 --> 00:30:06,328
-If you put in the
-same input, everyone
+Jika Anda memasukkan
+masukan yang sama, semuanya
 
 699
 00:30:06,328 --> 00:30:07,370
-will get the same output.
+akan mendapatkan hasil yang sama.
 
 700
 00:30:07,370 --> 00:30:10,010
-So if you say, OK, well,
-what's the hash of one,
+Jadi jika Anda berkata, oke,
+apa hashnya,
 
 701
 00:30:10,010 --> 00:30:11,280
-you'll get some output.
+Anda akan mendapatkan beberapa hasil.
 
 702
 00:30:11,280 --> 00:30:13,640
-And if someone else says,
-OK, what's the hash of one,
+Adan jika orang lain berkata,
+OK, apa hashnya,
 
 703
 00:30:13,640 --> 00:30:15,810
-you'll get the same thing.
+Anda akan mendapatkan hal yang sama.
 
 704
 00:30:15,810 --> 00:30:19,820
-However, the output,
-while it is deterministic,
+Namun, hasilnya,
+sementara itu deterministik,
 
 705
 00:30:19,820 --> 00:30:23,270
-it's sort of high
-entropy in that
+itu agak tinggi
+entropi di dalamnya
 
 706
 00:30:23,270 --> 00:30:26,840
-the output should have about as
-many as one bits as zero bits.
+output harus memiliki sekitar
+satu bit sama dengan bit nol.
 
 707
 00:30:26,840 --> 00:30:28,400
-If you take the
-hash of one, it's
+Jika Anda mengambil
+hash salah satu, itu
 
 708
 00:30:28,400 --> 00:30:30,233
-just going to look like
-a big random number.
+hanya akan terlihat seperti
+nomor acak besar.
 
 709
 00:30:30,233 --> 00:30:32,690
-And the hash of two will look
-like a completely unrelated
+Dan hash dari dua akan terlihat
+seperti yang sama sekali tidak terkait
 
 710
 00:30:32,690 --> 00:30:34,643
