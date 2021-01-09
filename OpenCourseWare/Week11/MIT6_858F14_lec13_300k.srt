@@ -2041,37 +2041,37 @@ identik dengan Alice yang lama.
 
 429
 00:18:57,895 --> 00:18:58,770
-It's the same string.
+String yang sama.
 
 430
 00:18:58,770 --> 00:19:00,370
-So all of a sudden,
-the file server
+Jadi tiba-tiba,
+server file
 
 431
 00:19:00,370 --> 00:19:04,740
-will give access to the new
-Alice to old Alice's data.
+akan memberi Alice akses
+ke data Alice yang lama.
 
 432
 00:19:04,740 --> 00:19:06,620
-So there's a bit of
-a complicated process
+Jadi ada beberapa proses
+yang rumit
 
 433
 00:19:06,620 --> 00:19:09,650
-for reclaiming principal
-names in Kerberos
+untuk mendapatkan kembali
+nama prinsipel di Kerberos
 
 434
 00:19:09,650 --> 00:19:11,160
-because there's
-no real connection
+karena tidak ada
+hubungan yang nyata
 
 435
 00:19:11,160 --> 00:19:12,869
-or versioning
-between these guys.
+atau pengarsipan veri
+di antaranya.
 
 436
 00:19:12,869 --> 00:19:14,410
