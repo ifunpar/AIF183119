@@ -2108,31 +2108,31 @@ tetap menjadi layanan yang cukup terkenal
 
 443
 00:19:30,910 --> 00:19:33,040
-that people expect to
-function in a certain way,
+yang diharapkan orang untuk 
+berfungsi dengan cara tertentu,
 
 444
 00:19:33,040 --> 00:19:34,920
-you probably don't want
-to get rid of its key
+Anda mungkin tidak ingin 
+menghilangkan kuncinya
 
 445
 00:19:34,920 --> 00:19:35,940
-even if the service goes on.
+bahkan jika layanannya terus berjalan.
 
 446
 00:19:35,940 --> 00:19:38,398
-Because maybe a year later,
-some guy tries to connect to it
+Karena mungkin setahun kemudian, 
+ada orang yang mencoba menghubungkannya
 
 447
 00:19:38,398 --> 00:19:39,581
-and expects certain things.
+dan mengharapkan hal-hal tertentu.
 
 448
 00:19:39,581 --> 00:19:41,580
-And if it's been reused
-for a different service,
+Dan jika sudah digunakan kembali 
+untuk layanan lain yang berbeda,
 
 449
 00:19:41,580 --> 00:19:44,130
