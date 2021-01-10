@@ -2910,23 +2910,23 @@ dimana Alice dan Bob berpikir
 
 618
 00:34:06,070 --> 00:34:08,980
-that they're communicating with
-each other in a secure fashion,
+yang mereka ajak berkomunikasi
+satu sama lain dengan cara yang aman,
 
 619
 00:34:08,980 --> 00:34:11,510
-but the pirates can listen
-to all of the messages.
+tetapi bajak laut dapat mendengarkan
+semua pesan itu.
 
 620
 00:34:11,510 --> 00:34:13,210
-They can decrypt
-all of the messages,
+Mereka dapat mendekripsi
+semua pesan tersebut,
 
 621
 00:34:13,210 --> 00:34:16,940
-because they know what
-they secret key, k, is.
+karena mereka mengetahui apa
+kunci rahasia mereka, k, adalah,
 
 622
 00:34:16,940 --> 00:34:17,880
@@ -2934,36 +2934,36 @@ OK.
 
 623
 00:34:17,880 --> 00:34:19,730
-And remember that
-the secret key, k,
+Dan ingat itu,
+kunci rahasia, k, itu,
 
 624
 00:34:19,730 --> 00:34:21,219
-is something that
-is probably going
+adalah sesuatu yang
+mungkin akan pergi
 
 625
 00:34:21,219 --> 00:34:25,239
-to be used in a symmetric key
-encryption scheme eventually
+untuk digunakan dalam sebuah skema
+enkripsi kunci simetri akhirnya
 
 626
 00:34:25,239 --> 00:34:28,510
-to send real messages.
+untuk mengirim pesan nyata.
 
 627
 00:34:28,510 --> 00:34:31,190
-So you're going to have ciphered
-text with that secret key,
+Jadi Anda akan memiliki teks sandi
+dengan kunci rahasia itu,
 
 628
 00:34:31,190 --> 00:34:33,179
-capital K, over there.
+huruf k besar, di sana.
 
 629
 00:34:33,179 --> 00:34:37,730
-And if the pirates or mal get to
-know what the secret key, k, is
+Dan jika bajak laut atau mal berhasil
+mengetahui apa kunci rahasia, k, itu
 
 630
 00:34:37,730 --> 00:34:41,000
