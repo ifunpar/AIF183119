@@ -2136,39 +2136,39 @@ untuk layanan lain yang berbeda,
 
 449
 00:19:41,580 --> 00:19:44,130
-that guy can impersonate things.
+orang itu bisa meniru sesuatu.
 
 450
 00:19:44,130 --> 00:19:47,620
-Probably not as dramatic
-or as bad, but still,
+Mungkin tidak sedramatis itu
+atau seburuk, tapi tetap saja,
 
 451
 00:19:47,620 --> 00:19:50,420
-you have to be careful with
-reusing principal names
+Anda harus berhati-hati
+menggunakan kembali nama utama
 
 452
 00:19:50,420 --> 00:19:52,910
-in this kind of protocol.
+dalam protokol semacam ini.
 
 453
 00:19:52,910 --> 00:19:53,940
-Makes sense?
+Masuk akal?
 
 454
 00:19:53,940 --> 00:19:56,140
-Any questions?
+Ada pertanyaan?
 
 455
 00:19:56,140 --> 00:19:59,590
-All right, so let's look at how
-the protocol itself now works.
+Baiklah, jadi mari kita lihat caranya
+protokol itu sendiri sekarang berfungsi.
 
 456
 00:19:59,590 --> 00:20:02,780
-So we'll look first and
-this step of the protocol
+Jadi kita akan melihat dulu dan
+langkah protokol ini
 
 457
 00:20:02,780 --> 00:20:06,160
