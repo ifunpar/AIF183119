@@ -2075,36 +2075,36 @@ di antaranya.
 
 436
 00:19:12,869 --> 00:19:14,410
-So as a result, it's
-actually kind of
+Jadi hasilnya, itu
+sebenarnya agak
 
 437
 00:19:14,410 --> 00:19:16,749
-hard to reuse principal names.
+sulit untuk menggunakan kembali nama prinsipiel.
 
 438
 00:19:16,749 --> 00:19:18,540
-Once you register a
-principal, you probably
+Setelah kamu mendaftarkan
+prinsipiel, anda mungkin
 
 439
 00:19:18,540 --> 00:19:22,160
-don't want to reuse
-it very often.
+tidak ingin melakukan penggunaan ulang
+terlalu sering.
 
 440
 00:19:22,160 --> 00:19:25,930
-And same for, in some
-sense, these principal names
+Dan sama untuk, dalam 
+arti, nama prinsipiel ini
 
 441
 00:19:25,930 --> 00:19:27,020
-for service as well.
+untuk layanan juga.
 
 442
 00:19:27,020 --> 00:19:30,910
-As long as this hostname
-remain some well-known service
+Selama nama host ini
+tetap menjadi layanan yang cukup terkenal
 
 443
 00:19:30,910 --> 00:19:33,040
