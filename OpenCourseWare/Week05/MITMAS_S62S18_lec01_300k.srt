@@ -3359,116 +3359,120 @@ seperti yang sama sekali tidak terkait
 
 710
 00:30:32,690 --> 00:30:34,643
-random number.
+nomor acak.
 
 711
 00:30:34,643 --> 00:30:35,810
-The outputs look like noise.
+Output terlihat seperti kebisingan.
+
 
 712
 00:30:35,810 --> 00:30:37,760
-So if you've ever
-seen hash functions,
+Jadi jika anda pernah
+melihat fungsi hash,
 
 713
 00:30:37,760 --> 00:30:39,810
-you can run it on your computer.
+anda bisa menjalankannya di komputer anda.
 
 714
 00:30:39,810 --> 00:30:41,280
-You say echo.
+Anda mengatakan echo.
 
 715
 00:30:41,280 --> 00:30:44,180
-Hello, pipe Sha-256
-sum, and you'll just
+Hallo,jumlah pipa
+sha-256, dan anda hanya akan
 
 716
 00:30:44,180 --> 00:30:46,580
-get some kind of
-crazy, random thing.
+mendapatkan sesuatu yang
+gila, dan acak.
 
 717
 00:30:46,580 --> 00:30:50,680
-There doesn't seem to be
-any order to the outputs.
+Sepertinya tidak ada
+urutan apa pun ke outputnya.
 
 718
 00:30:50,680 --> 00:30:52,368
-A little bit more well-defined.
+Sedikit lebih terdefinisi dengan baik.
 
 719
 00:30:52,368 --> 00:30:54,160
-We usually talk about
-the avalanche effect,
+Kami biasanya berbicara tentang
+efek longsoran salju,
 
 720
 00:30:54,160 --> 00:30:57,250
-in that changing a
-single bit in the input
+dalam hal itu mengubah
+satu bit pada input
 
 721
 00:30:57,250 --> 00:31:00,250
-should change about half
-the bits of the output.
+harus mengubah sekitar setengah
+bit dari output.
 
 722
 00:31:00,250 --> 00:31:04,440
-So even though you have
-extremely similar inputs,
+Jadi meskipun anda mempunyai
+input yang sangat mirip,
 
 723
 00:31:04,440 --> 00:31:07,090
-they should be completely
-dissimilar outputs--
+mereka harus merupakan output
+yang sama sekali berbeda
 
 724
 00:31:07,090 --> 00:31:08,980
-well, completely
-dissimilar, as in about half
+yah, sama sekali
+berbeda, karena sekitar setengah
 
 725
 00:31:08,980 --> 00:31:09,910
-the output changed.
+dari output berubah.
 
 726
 00:31:09,910 --> 00:31:11,770
-If every bit
-changes, then it just
+Jika setiap bit
+berubah, maka itu hanya
 
 727
 00:31:11,770 --> 00:31:15,910
-is the inverse of what you had,
-and so it's easily correlated.
+kebalikan dari apa yang anda miliki,
+sehingga mudah dikorelasikan.
 
 728
 00:31:15,910 --> 00:31:18,040
-But the avalanche
-effect is sort of how
+Tapi efek longsoran
+salju adalah semacam bagaimana
 
 729
 00:31:18,040 --> 00:31:20,950
-hash functions are constructed,
-where generally they're
+fungsi hash dibangun,
+dimana umumnya itu adalah
 
 730
 00:31:20,950 --> 00:31:22,137
 iterative rounds.
+putaran berulang.
 
 731
 00:31:22,137 --> 00:31:24,220
 And so you say, OK, I'm
 going to swap these things
+Jika anda berkata, OK, sata
+akan menukar hal-hal ini
 
 732
 00:31:24,220 --> 00:31:27,340
-and multiply these things and
-shift these bits around such
+dan melipatgandakan hal-hal ini dan
+menggeser bagian-bagian ini
 
 733
 00:31:27,340 --> 00:31:30,280
-that if any change
-in the beginning
+jika itu ada perubahan
+di awal
 
 734
 00:31:30,280 --> 00:31:32,230
