@@ -3023,78 +3023,68 @@ harus mengotentikasi Bob.
 
 642
 00:35:08,080 --> 00:35:10,710
-And Alice has to
-know somehow that g
+Dan Alice harus mengetahui bagaimana g
 
 643
 00:35:10,710 --> 00:35:14,560
-raised to b is something
-that came from Bob.
+tumbuh menjadi b yang dimana itu datang dari Bob.
 
 644
 00:35:14,560 --> 00:35:16,780
-It's not g raised to c
-that came from somebody
+Itu tidak tumbuh dari g menjadi c yang berasal dari seseorang.
 
 645
 00:35:16,780 --> 00:35:18,380
-else is in the middle.
+seseorang lain di tengah-tengah.
 
 646
 00:35:18,380 --> 00:35:21,110
-And that's where asymmetric key
-cryptography and public keys
+Dan saat itu lah asymmetric key cryptography dan public keys
 
 647
 00:35:21,110 --> 00:35:26,700
-come in, where you have a
-certified public key associated
+datang, dimana anda mempunyai certified publik key yang berhubungan
 
 648
 00:35:26,700 --> 00:35:29,170
-with yourself.
+dengan diri anda sendiri.
 
 649
 00:35:29,170 --> 00:35:31,230
-And maybe you need
-VeriSign or you
+
+Dan mungkin anda membutuhkan Verisign atau anda
 
 650
 00:35:31,230 --> 00:35:34,090
-need the DMV, or the
-Registry of Motor Vehicles,
+membutuhkan DMV, atau catatan sepeda motor,
 
 651
 00:35:34,090 --> 00:35:36,150
-RMV, to do this for you.
+RMV, untuk melakukan ini untuk anda
 
 652
 00:35:36,150 --> 00:35:39,020
-But you create a
-certified public key,
+Tapi anda membuat sebuah public key yang telah tersertifikasi,
 
 653
 00:35:39,020 --> 00:35:41,430
-which is associated
-with your identity.
+yang dimana berhubungan dengan identitas anda.
 
 654
 00:35:41,430 --> 00:35:42,840
-And it's public.
+dan itu publik.
 
 655
 00:35:42,840 --> 00:35:45,100
-You can put it on a website.
+Anda bisa memasukkan itu di dalam suatu website.
 
 656
 00:35:45,100 --> 00:35:47,590
-And everyone can
-access it using HTTPS,
+Dan semua orang bisa mengakses itu menggunakan HTTPS
 
 657
 00:35:47,590 --> 00:35:50,300
-so they know they're
-going to the exact website
+jadi mereka akan tahu mereka menuju website tersebut.
 
 658
 00:35:50,300 --> 00:35:51,740
