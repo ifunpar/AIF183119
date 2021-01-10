@@ -2827,118 +2827,118 @@ menjatuhkannya.
 
 595
 00:24:07,188 --> 00:24:08,980
-PROFESSOR: It depends, yeah.
+PROFESOR: Ya, tergantung.
 
 596
 00:24:08,980 --> 00:24:12,590
-So certainly if you have a very
-sophisticated stateful firewall
+Pastinya jika Anda memiliki sebuah
+statefull firewall canggih
 
 597
 00:24:12,590 --> 00:24:15,150
-that keeps track of all existing
-connections, or for example
+yang melacak seluruh
+koneksi, atau misalnya
 
 598
 00:24:15,150 --> 00:24:17,110
-if you have a NAT,
-then this might happen.
+jika Anda memiliki sebuah NAT,
+maka ini mungkin terjadi.
 
 599
 00:24:17,110 --> 00:24:20,640
-On the other hand, a NAT
-might actually send the RST
+Di sisi lain, sebuah NAT
+mungkin dapat mengirim RST
 
 600
 00:24:20,640 --> 00:24:22,810
-on behalf of the client.
+atas nama kliennya.
 
 601
 00:24:22,810 --> 00:24:23,720
-So it's not clear.
+Jadi masih tidak jelas.
 
 602
 00:24:23,720 --> 00:24:26,450
-I think this is not as common.
+Saya pikir hal ini tidak terlalu umum.
 
 603
 00:24:26,450 --> 00:24:29,730
-So for example, on
-a Comcast network,
+Misalnya dalam sebuah
+jaringan Comcast,
 
 604
 00:24:29,730 --> 00:24:32,500
-I certainly don't have anyone
-intercepting these packets
+Saya yakin tidak ada yang
+mencegat paket-paket tersebut
 
 605
 00:24:32,500 --> 00:24:34,916
-and maintaining state for me
-and sending RSTs on my behalf
+dan mempertahankan keadaan
+dan mengirim RST atas nama saya
 
 606
 00:24:34,916 --> 00:24:35,750
-or anything like that.
+atau hal lain yang serupa.
 
 607
 00:24:35,750 --> 00:24:36,250
-Yeah.
+Ya.
 
 608
 00:24:36,250 --> 00:24:38,250
-AUDIENCE: So why
-can't the server
+AUDIENS: Jadi mengapa
+server tidak dapat
 
 609
 00:24:38,250 --> 00:24:40,206
-have independent
-sequence numbers
+memiliki urutan
+angka independen
 
 610
 00:24:40,206 --> 00:24:42,380
-for each possible source?
+untuk setiap sumber yang mungkin?
 
 611
 00:24:42,380 --> 00:24:46,260
-PROFESSOR: Right, so this is in
-fact what TCP stacks do today.
+PROFESOR: Benar, jadi inilah
+apa yang dilakukan TCP stacks sekarang.
 
 612
 00:24:46,260 --> 00:24:49,910
-This is one example of how you
-fix this problem in a backwards
+Inilah salah satu contoh cara untuk
+memperbaiki masalah ini dengan cara
 
 613
 00:24:49,910 --> 00:24:50,660
-compatible manner.
+kompatibilitas mundur.
 
 614
 00:24:50,660 --> 00:24:52,285
-So we'll get to
-exactly the formulation
+Jadi kita akan menuju
+tepatnya perumusan
 
 615
 00:24:52,285 --> 00:24:53,330
-of how you arrange this.
+bagaimana Anda mengaturnya.
 
 616
 00:24:53,330 --> 00:24:55,910
-But yeah, it turns out that
-if you look at this carefully,
+Tetapi kenyataannya jika 
+Anda melihatnya secara seksama,
 
 617
 00:24:55,910 --> 00:24:59,630
-as you're doing, you don't need
-to have this initial sequence
+seiring perjalanan, Anda tidak
+memerlukan urutan awal angka
 
 618
 00:24:59,630 --> 00:25:00,950
-number be global.
+ini secara global.
 
 619
 00:25:00,950 --> 00:25:04,626
-You just scope it to every
-source/destination pair.
+Anda hanya perlu memperlihatkannya
+ke pasangan sumber/tujuan.
 
 620
 00:25:04,626 --> 00:25:06,500
