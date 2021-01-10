@@ -2967,59 +2967,59 @@ mengetahui apa kunci rahasia, k, itu
 
 630
 00:34:37,730 --> 00:34:41,000
-through a man in the middle
-attack, you've got problems.
+melalui serangan orang yang berada 
+di tengah, Anda akan mendapat masalah.
 
 631
 00:34:41,000 --> 00:34:42,080
-All right?
+Benar?
 
 632
 00:34:42,080 --> 00:34:46,139
-So the man in the middle
-attack is something
+Jadi serangan orang yang berada 
+di tengah adalah sesuatu
 
 633
 00:34:46,139 --> 00:34:47,730
-that we have to worry about.
+yang harus kita khawatirkan.
 
 634
 00:34:47,730 --> 00:34:49,440
-What we're going
-to talk about next
+Apa yang akan kita 
+bicarakan selanjutnya
 
 635
 00:34:49,440 --> 00:34:53,030
-is something that
-addresses this problem.
+adalah sesuatu yang 
+membahas masalah ini.
 
 636
 00:34:53,030 --> 00:34:55,739
-And it may not seem
-like it's directly
+Dan sepertinya 
+tidak secara langsung
 
 637
 00:34:55,739 --> 00:34:57,200
-addressing the problem.
+menangani masalah.
 
 638
 00:34:57,200 --> 00:34:59,300
-But fundamentally,
-what's going on here
+Namun pada dasarnya, 
+yang terjadi di sini
 
 639
 00:34:59,300 --> 00:35:04,290
-is you need to have
-authenticity in who you're
+adalah Anda perlu memiliki
+keaslian dengan siapa Anda berkomunikasi.
 
 640
 00:35:04,290 --> 00:35:05,310
-communicating with.
+Anda berkomunikasi.
 
 641
 00:35:05,310 --> 00:35:08,080
-Alice has to somehow
-authenticate Bob.
+Alice entah bagaimana 
+harus mengotentikasi Bob.
 
 642
 00:35:08,080 --> 00:35:10,710
