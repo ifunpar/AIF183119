@@ -2197,32 +2197,33 @@ disebut juga sebagai tiket.
 
 462
 00:20:17,790 --> 00:20:21,660
-And this ticket looks like this.
+Dan tiket itu berbentuk seperti ini.
 
 463
 00:20:21,660 --> 00:20:25,270
-So there's a ticket to
-between a client and a server.
+Jadi, disana ada sebuah tiket
+diantara klien dan server.
 
 464
 00:20:25,270 --> 00:20:28,510
-And this guy is
-basically the names
+Dan barang ini adalah
+sebuah nama
 
 465
 00:20:28,510 --> 00:20:30,550
-of the server and
-the client that we're
+dari sebuah server dan
+klien yang
 
 466
 00:20:30,550 --> 00:20:36,190
-talking about-- the IP
-address of the client,
+akan kita bicarakan-- IP
+Adress dari klien
 
 467
 00:20:36,190 --> 00:20:43,050
-some kind of timestamp, and an
-expiration time for how long
+semacam timestamp, dan ada
+tanggal kadaluarsa untuk seberapa lama
+
 
 468
 00:20:43,050 --> 00:20:44,260
