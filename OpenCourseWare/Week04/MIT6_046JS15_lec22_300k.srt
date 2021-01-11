@@ -2754,179 +2754,179 @@ kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
-if they just had
-a lock that locks
+jika mereka hanya memiliki
+sebuah gembok yang terkunci
 
 587
 00:32:10,940 --> 00:32:12,440
-and they didn't
-have the key for it,
+dan mereka tidak
+memiliki kunci untuk itu,
 
 588
 00:32:12,440 --> 00:32:13,898
-they will wouldn't
-be able to break
+mereka tidak akan
+mampu untuk membuka
 
 589
 00:32:13,898 --> 00:32:15,140
-the security of the protocol.
+keamanan protokol.
 
 590
 00:32:15,140 --> 00:32:18,910
-But if they had a lock
-and a key for that lock,
+Tetapi jika mereka memiliki gembok
+dan sebuah kunci untuk gembok itu,
 
 591
 00:32:18,910 --> 00:32:22,350
-then they can pretend to
-have delivered this to Bob.
+Maka mereka dapat berpura-pura
+telah mengirimkan ini kepada Bob.
 
 592
 00:32:22,350 --> 00:32:25,040
-And there's no authenticity
-here with respect to Alice
+Dan tidak ada otentikasi
+di sini dalam hal Alice
 
 593
 00:32:25,040 --> 00:32:27,860
-doesn't quite know whether she's
-communicating with Bob or not.
+tidak begitu tahu apakah dia
+berkomunikasi dengan Bob atau tidak.
 
 594
 00:32:27,860 --> 00:32:31,640
-She's at the mercy of the
-pirates to deliver these boxes.
+Dia bergantung pada bajak laut
+untuk mengirimkan kotak-kotak ini.
 
 595
 00:32:31,640 --> 00:32:37,480
-So if the pirates had a lock
-and the key for the lock,
+Jadi jika bajak laut memiliki gembok
+dan kunci untuk gembok itu,
 
 596
 00:32:37,480 --> 00:32:41,760
-then we're in a situation
-where Alice may have exchanged
+maka kita ada dalam situasi
+di mana Alice mungkin dapat menukarkan
 
 597
 00:32:41,760 --> 00:32:44,370
-the key with the pirates.
+kunci itu dengan bajak laut.
 
 598
 00:32:44,370 --> 00:32:46,520
-And she thinks she's
-exchanged it with Bob.
+Dan dia pikir dia
+menukarkan itu dengan Bob.
 
 599
 00:32:46,520 --> 00:32:50,100
-And she's, in fact,
-communicating with the pirates.
+Padahal dia, faktanya,
+berkomunikasi dengan bajak laut.
 
 600
 00:32:50,100 --> 00:33:01,340
-So there's a man in
-the middle attack,
+Jadi terdapat serangan
+man in the middle,
 
 601
 00:33:01,340 --> 00:33:10,190
-which corresponds to the
-pirates having their own locks
+yang berkaitan dengan
+bajak laut memiliki gembok dan kunci
 
 602
 00:33:10,190 --> 00:33:11,240
-and keys.
+mereka sendiri.
 
 603
 00:33:11,240 --> 00:33:15,500
-And it's even more trivial in
-the case of our picture here.
+Dan hal itu akan menjadi lebih biasa
+di dalam kasus gambar kita di sini.
 
 604
 00:33:15,500 --> 00:33:18,460
-Because assuming the
-pirates know mathematics,
+Karena asumsi bahwa
+bajak laut mengetahui matematika,
 
 605
 00:33:18,460 --> 00:33:22,020
-they can generate a random
-number-- and the number
+mereka dapat menghasilkan angka
+acak-- dan angka tersebut
 
 606
 00:33:22,020 --> 00:33:27,020
-could be c, for example-- and
-just send back g raised to c.
+bisa merupakan c, contohnya-- dan
+hanya mengirim kembali g pangkat c.
 
 607
 00:33:27,020 --> 00:33:30,170
-And for all you know,
-they could actually
+Dan seperti yang semua Anda tahu,
+mereka sebenarnya dapat
 
 608
 00:33:30,170 --> 00:33:34,430
-get Bob to send g
-raised to b back,
+membuat Bob mengirim g
+pangkat b kembali,
 
 609
 00:33:34,430 --> 00:33:38,940
-but they would intercept it and
-replace it with g raised to c.
+tetapi mereka akan memotong dan
+menggantinya dengan g pangkat c.
 
 610
 00:33:38,940 --> 00:33:40,767
-And they know what c is.
+Dan mereka tahu apa itu c.
 
 611
 00:33:40,767 --> 00:33:42,850
-So what's happening now
-is so you can [INAUDIBLE].
+Jadi apa yang terjadi sekarang
+adalah Anda dapat [TIDAK TERDENGAR].
 
 612
 00:33:42,850 --> 00:33:45,320
-I won't to go through
-all of the math here.
+Saya tidak akan melihat
+seluruh matematikanya di sini.
 
 613
 00:33:45,320 --> 00:33:48,130
-But you can kind
-of see it, I hope.
+Tetapi Anda dapat sedikit
+melihatnya, saya harap.
 
 614
 00:33:48,130 --> 00:33:51,950
-You end up, if you're
-Alice, exchanging
+Anda akan, jika Anda adalah
+Alice, menukar
 
 615
 00:33:51,950 --> 00:33:58,030
-a secret key with the
-pirates as opposed to Bob.
+sebuah kunci rahasia dengan
+bajak laut sebagai lawan dari Bob.
 
 616
 00:33:58,030 --> 00:34:03,280
-And the way you can set this
-up is the pirates actually
+Dan cara bagaimana anda mengatur ini
+adalah bajak laut sebenarnya
 
 617
 00:34:03,280 --> 00:34:06,070
-will get into a situation
-where Alice and Bob think
+akan masuk kepada situasi
+di mana Alice dan Bob berpikir
 
 618
 00:34:06,070 --> 00:34:08,980
-that they're communicating with
-each other in a secure fashion,
+yang mereka ajak berkomunikasi
+satu sama lain dengan cara yang aman,
 
 619
 00:34:08,980 --> 00:34:11,510
-but the pirates can listen
-to all of the messages.
+tetapi bajak laut dapat mendengarkan
+semua pesan itu.
 
 620
 00:34:11,510 --> 00:34:13,210
-They can decrypt
-all of the messages,
+Mereka dapat mendekripsi
+semua pesan tersebut,
 
 621
 00:34:13,210 --> 00:34:16,940
-because they know what
-they secret key, k, is.
+karena mereka mengetahui apa
+kunci rahasia mereka, k.
 
 622
 00:34:16,940 --> 00:34:17,880
@@ -2934,167 +2934,167 @@ OK.
 
 623
 00:34:17,880 --> 00:34:19,730
-And remember that
-the secret key, k,
+Dan ingatlah bahwa
+kunci rahasia, k,
 
 624
 00:34:19,730 --> 00:34:21,219
-is something that
-is probably going
+adalah sesuatu yang
+mungkin akan
 
 625
 00:34:21,219 --> 00:34:25,239
-to be used in a symmetric key
-encryption scheme eventually
+digunakan dalam sebuah skema
+enkripsi kunci simetri akhirnya
 
 626
 00:34:25,239 --> 00:34:28,510
-to send real messages.
+untuk mengirim pesan yang sesungguhnya.
 
 627
 00:34:28,510 --> 00:34:31,190
-So you're going to have ciphered
-text with that secret key,
+Jadi Anda akan memiliki teks terenkripsi
+dengan kunci rahasia itu,
 
 628
 00:34:31,190 --> 00:34:33,179
-capital K, over there.
+huruf K besar, di sana.
 
 629
 00:34:33,179 --> 00:34:37,730
-And if the pirates or mal get to
-know what the secret key, k, is
+Dan jika bajak laut atau mal berhasil
+mengetahui apa kunci rahasia, k, itu
 
 630
 00:34:37,730 --> 00:34:41,000
-through a man in the middle
-attack, you've got problems.
+melalui serangan man in the middle,
+Anda akan mendapat masalah.
 
 631
 00:34:41,000 --> 00:34:42,080
-All right?
+Benar?
 
 632
 00:34:42,080 --> 00:34:46,139
-So the man in the middle
-attack is something
+Jadi serangan orang yang berada 
+di tengah adalah sesuatu
 
 633
 00:34:46,139 --> 00:34:47,730
-that we have to worry about.
+yang harus kita khawatirkan.
 
 634
 00:34:47,730 --> 00:34:49,440
-What we're going
-to talk about next
+Apa yang akan kita 
+bicarakan selanjutnya
 
 635
 00:34:49,440 --> 00:34:53,030
-is something that
-addresses this problem.
+adalah sesuatu yang 
+menyelesaikan masalah ini.
 
 636
 00:34:53,030 --> 00:34:55,739
-And it may not seem
-like it's directly
+Dan mungkin tidak langsung 
+terlihat
 
 637
 00:34:55,739 --> 00:34:57,200
-addressing the problem.
+menangani masalah ini.
 
 638
 00:34:57,200 --> 00:34:59,300
-But fundamentally,
-what's going on here
+Namun pada dasarnya,
+yang terjadi di sini
 
 639
 00:34:59,300 --> 00:35:04,290
-is you need to have
-authenticity in who you're
+adalah Anda perlu memiliki
+otentikasi dengan siapa
 
 640
 00:35:04,290 --> 00:35:05,310
-communicating with.
+Anda berkomunikasi.
 
 641
 00:35:05,310 --> 00:35:08,080
-Alice has to somehow
-authenticate Bob.
+Alice entah bagaimana
+harus mengotentikasi Bob.
 
 642
 00:35:08,080 --> 00:35:10,710
-And Alice has to
-know somehow that g
+Dan Alice harus
+mengetahui bagaimana g
 
 643
 00:35:10,710 --> 00:35:14,560
-raised to b is something
-that came from Bob.
+dipangkatkan b yang adalah sesuatu 
+yang datang dari Bob.
 
 644
 00:35:14,560 --> 00:35:16,780
-It's not g raised to c
-that came from somebody
+Itu bukan g pangkat c 
+yang berasal dari seseorang
 
 645
 00:35:16,780 --> 00:35:18,380
-else is in the middle.
+lain di tengah-tengah.
 
 646
 00:35:18,380 --> 00:35:21,110
-And that's where asymmetric key
-cryptography and public keys
+Dan disitulah kriptografi kunci
+asimetri dan kunci publik
 
 647
 00:35:21,110 --> 00:35:26,700
-come in, where you have a
-certified public key associated
+hadir, di mana Anda mempunyai 
+kunci publik tersertifikasi yang terasosiasi
 
 648
 00:35:26,700 --> 00:35:29,170
-with yourself.
+dengan diri Anda sendiri.
 
 649
 00:35:29,170 --> 00:35:31,230
-And maybe you need
-VeriSign or you
+Dan mungkin anda membutuhkan
+VeriSign atau Anda
 
 650
 00:35:31,230 --> 00:35:34,090
-need the DMV, or the
-Registry of Motor Vehicles,
+membutuhkan DMV, atau Registry of Motor Vehicles
+(Register Kendaraan Bermotor),
 
 651
 00:35:34,090 --> 00:35:36,150
-RMV, to do this for you.
+RMV, untuk melakukan ini untuk Anda.
 
 652
 00:35:36,150 --> 00:35:39,020
-But you create a
-certified public key,
+Tapi Anda membuat sebuah 
+kunci publik yang telah tersertifikasi,
 
 653
 00:35:39,020 --> 00:35:41,430
-which is associated
-with your identity.
+yang berhubungan 
+dengan identitas Anda.
 
 654
 00:35:41,430 --> 00:35:42,840
-And it's public.
+Dan itu publik.
 
 655
 00:35:42,840 --> 00:35:45,100
-You can put it on a website.
+Anda bisa menempatkannya di dalam suatu situs web.
 
 656
 00:35:45,100 --> 00:35:47,590
-And everyone can
-access it using HTTPS,
+Dan semua orang bisa 
+mengakses itu menggunakan HTTPS,
 
 657
 00:35:47,590 --> 00:35:50,300
-so they know they're
-going to the exact website
+sehingga mereka akan tahu mereka 
+menuju tepat ke situs web
 
 658
 00:35:50,300 --> 00:35:51,740
