@@ -2942,101 +2942,101 @@ ke pasangan sumber/tujuan.
 
 620
 00:25:04,626 --> 00:25:06,500
-And then you have all
-the duplicate avoidance
+dan Anda mendapatkan
+properti penghindaran
 
 621
 00:25:06,500 --> 00:25:11,560
-properties we had before, and
-you have some security as well.
+duplikasi yang sudah ada sebelumnya,
+dan Anda mendapatkan beberapa keamaanan.
 
 622
 00:25:11,560 --> 00:25:15,590
-So just to sort
-of write this out
+Jadi hanya untuk 
+menuliskannya
 
 623
 00:25:15,590 --> 00:25:18,550
-on the board of how
-the attacker is getting
+di papan bagaimana
+penyerang mendapatkan
 
 624
 00:25:18,550 --> 00:25:21,425
-this initial sequence number,
-the attacker would probably
+nomor urut awal,
+penyerang kemungkinan
 
 625
 00:25:21,425 --> 00:25:23,770
-just send a connection
-from its own IP address
+hanya mengirim koneksi
+dari IP address nya
 
 626
 00:25:23,770 --> 00:25:27,400
-to the server saying, I want
-to establish a new connection,
+ke server dan katakan,
+aku ingin membuat koneksi baru
 
 627
 00:25:27,400 --> 00:25:30,506
-and the server would
-send a response
+dan server akan mengirim
+kembali respon
 
 628
 00:25:30,506 --> 00:25:33,920
-back to the attacker containing
-its own sequence number S.
+ke penyerang yang mengandung
+nomor urut S sendiri.
 
 629
 00:25:33,920 --> 00:25:36,590
-And if the SNS for
-this connection
+Dan jika SNS untuk
+koneksi ini
 
 630
 00:25:36,590 --> 00:25:39,492
-and the SNS for this
-connection are related,
+dan SNS untuk koneksi 
+ini terhubung,
 
 631
 00:25:39,492 --> 00:25:40,450
-then this is a problem.
+maka ini adalah masalah.
 
 632
 00:25:40,450 --> 00:25:42,540
-But you're saying, let's
-make them not related.
+Tetapi Anda katakan, 
+kita buat mereka tidak terhubung.
 
 633
 00:25:42,540 --> 00:25:44,310
-Because this is from
-a different address.
+Karena ini dari 
+alamat yang berbeda.
 
 634
 00:25:44,310 --> 00:25:45,960
-Then this is not
-a problem anymore.
+Maka hal ini
+bukan masalah lagi.
 
 635
 00:25:45,960 --> 00:25:47,630
-You can't guess what
-this SNS is going
+Anda tidak dapat menebak
+SNS ini akan
 
 636
 00:25:47,630 --> 00:25:52,298
-to be based on this SNS
-for a different connection.
+berdasarkan SNS
+untuk koneksi yang berbeda.
 
 637
 00:25:52,298 --> 00:25:52,798
-Yeah.
+Ya.
 
 638
 00:25:52,798 --> 00:25:54,797
-AUDIENCE: So you still
-have a collision problem,
+AUDIENS: Jadi Anda masih
+punya masalah collision,
 
 639
 00:25:54,797 --> 00:25:56,533
-because you could
-engage the 32 bits
+karena Anda dapat
+mengambil 32 bits
 
 640
 00:25:56,533 --> 00:25:58,774
