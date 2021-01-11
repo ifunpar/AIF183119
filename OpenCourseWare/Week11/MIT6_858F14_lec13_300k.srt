@@ -2172,28 +2172,28 @@ langkah protokol ini
 
 457
 00:20:02,780 --> 00:20:06,160
-where you initially get your
-ticket with your password.
+di mana Anda pada awalnya akan
+mendapatkan tiket bersama password Anda.
 
 458
 00:20:06,160 --> 00:20:09,170
-And then we'll look at how
-this TGS interface works
+Kemudian, kita akan melihat sedikit
+bagaimana TGS interface ini bekerja
 
 459
 00:20:09,170 --> 00:20:12,660
-and how it differs
-then a little bit.
+dan seperti apa perbedaannya
+pada saat itu.
 
 460
 00:20:12,660 --> 00:20:15,280
-All right, so I guess
-there's this main data
+Baiklah, jadi di sini
+ada struktur data utama
 
 461
 00:20:15,280 --> 00:20:17,790
-structure that Kerberos
-uses called a ticket.
+yang Kerberos gunakan,
+disebut juga sebagai tiket.
 
 462
 00:20:17,790 --> 00:20:21,660
