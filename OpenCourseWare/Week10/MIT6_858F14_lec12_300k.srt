@@ -3040,66 +3040,66 @@ mengambil 32 bits
 
 640
 00:25:56,533 --> 00:25:58,774
-by the addresses of your peers.
+dengan alamat rekan-rekan Anda.
 
 641
 00:25:58,774 --> 00:26:01,264
-So you have a lot of ports
-for each one of these.
+Jadi, Anda memiliki banyak port
+untuk masing-masingnya.
 
 642
 00:26:01,264 --> 00:26:04,252
-So you still have
-conflicting sequence numbers
+Jadi, Anda masih memiliki
+nomor urut yang bertentangan
 
 643
 00:26:04,252 --> 00:26:06,660
-for all of these connections
-that you're getting, right?
+untuk semua koneksi
+yang Anda dapatkan ini, bukan?
 
 644
 00:26:06,660 --> 00:26:08,160
-PROFESSOR: So these
-sequence numbers
+PROFESSOR: Jadi
+nomor urut ini
 
 645
 00:26:08,160 --> 00:26:11,156
-are specific, as it
-turns out, to an IP
+ternyata spesifik,
+ke alamat IP
 
 646
 00:26:11,156 --> 00:26:14,530
-address and a port number
-source/destination duple.
+dan sumber nomor port/
+tujuan duple.
 
 647
 00:26:14,530 --> 00:26:16,360
-So if it's different
-ports, then they
+Jadi jika portnya
+berbeda, maka mereka
 
 648
 00:26:16,360 --> 00:26:17,372
-don't interfere with
-each other at all.
+tidak saling
+mengganggu sama sekali.
 
 649
 00:26:17,372 --> 00:26:19,130
-AUDIENCE: Oh, because
-you're using the port--
+AUDIENCE: Oh, karena 
+Anda menggunakan port--
 
 650
 00:26:19,130 --> 00:26:20,205
-PROFESSOR: That's right,
-yeah, you also use
+PROFESSOR: Tepat sekali,
+ya, Anda juga menggunakan
 
 651
 00:26:20,205 --> 00:26:21,504
-the port in this as well.
+port ini.
 
 652
 00:26:21,504 --> 00:26:22,746
-AUDIENCE: Because I
-thought those ports--
+AUDIENCE: Karena saya
+pikir port itu--
 
 653
 00:26:22,746 --> 00:26:25,246
