@@ -2618,7 +2618,7 @@ dengan hal yang dia lakukan sebelumnya.
 554
 00:23:19,040 --> 00:23:22,400
 Dia memberi Bob sebuah representasi
-dari koin elektronik itu. 
+dari koin elektronik itu.
 
 555
 00:23:22,400 --> 00:23:25,820
@@ -2922,350 +2922,350 @@ tanpa bank di tengahnya.
 
 618
 00:26:30,340 --> 00:26:33,250
-We have some privacy now
-because the bank can't
+Kita sekarang memiliki privasi
+karena bank tidak bisa
 
 619
 00:26:33,250 --> 00:26:36,160
-link transactions together.
+menghubungkan transaksi yang satu dengan lainnya.
 
 620
 00:26:36,160 --> 00:26:39,010
-And we have this way of
-doing double spend detection.
+Dan kita punya cara ini untuk
+melakukan deteksi penggunaan ganda.
 
 621
 00:26:39,010 --> 00:26:41,050
-We have a way of
-motivating people
+Kita punya cara untuk
+memotivasi orang
 
 622
 00:26:41,050 --> 00:26:43,780
-not to double spend their coins,
-which means that you probably
+tidak menggunakan koin mereka berulang,
+berarti Anda mungkin
 
 623
 00:26:43,780 --> 00:26:46,120
-don't have to check
-at the time you
+tidak perlu memeriksa apakah
+koin tersebut sudah digunakan
 
 624
 00:26:46,120 --> 00:26:49,420
-receive a coin whether or
-not it's been double spent.
+sebelumnya atau belum,
+ketika Anda menerimanya.
 
 625
 00:26:49,420 --> 00:26:53,990
-Of course, this still suffers
-from a really big problem,
+Tentu, ini masih mengalami
+kendala yang cukup besar
 
 626
 00:26:53,990 --> 00:26:56,950
-which is that a bank can
-still decide that they just
+yaitu bank masih bisa
+memutuskan bahwa mereka
 
 627
 00:26:56,950 --> 00:26:58,242
-don't want to do this with you.
+tidak mau melakukan hal ini dengan kamu.
 
 628
 00:26:58,242 --> 00:26:59,950
-They can just decide
-that they don't want
+Mereka bisa memutuskan
+kalau mereka tidak mau
 
 629
 00:26:59,950 --> 00:27:01,090
-to play this game with you.
+memainkan permainan ini dengan Anda.
 
 630
 00:27:01,090 --> 00:27:03,755
-They don't want to issue coins.
+Mereka tidak mau mengeluarkan koin.
 
 631
 00:27:03,755 --> 00:27:05,380
-Maybe they don't like
-you specifically.
+Mungkin mereka hanya
+tidak suka dengan Anda.
 
 632
 00:27:05,380 --> 00:27:07,870
-Maybe they don't want to take
-your coins and exchange them.
+Mungkin mereka tidak mau mengambil
+koin Anda dan menukarnya.
 
 633
 00:27:07,870 --> 00:27:12,310
-So this scheme, Chaumian e-cash,
-solves quite a bit of problems
+Jadi skema ini, Chaumian e-cash,
+menyelesaikan beberapa masalah
 
 634
 00:27:12,310 --> 00:27:15,820
-when it comes to how do
-we have electronic money
+tentang bagaimana
+kita memiliki uang elektronik
 
 635
 00:27:15,820 --> 00:27:20,110
-with some nice features,
-but it doesn't quite
+dengan fitur yang baik,
+tapi itu masih belum
 
 636
 00:27:20,110 --> 00:27:22,240
-get to all of them.
+mencakup semuanya.
 
 637
 00:27:22,240 --> 00:27:25,080
-And so the real
-question in this class
+Jadi pertanyaan
+sebenarnya untuk kelas ini
 
 638
 00:27:25,080 --> 00:27:28,350
-is how do we do
-electronic money, really,
+sebenarnya, adalah bagaimana kita
+menggunakan uang elektronik,
 
 639
 00:27:28,350 --> 00:27:29,970
-in a peer-to-peer
-way, where there's
+dalam situasi
+peer-to-peer, dimana
 
 640
 00:27:29,970 --> 00:27:31,680
-no institution in the way.
+tidak ada institusi yang terlibat.
 
 641
 00:27:31,680 --> 00:27:35,768
-There's no sort of
-entity that can say no.
+Tidak ada entitas yang dapat
+mengatakan tidak.
 
 642
 00:27:35,768 --> 00:27:38,060
-TADGE DRYJA: So e-cash, the
-math is really interesting.
+Tadge Dryja: Jadi e-cash, dalam
+matematika itu sangat menarik
 
 643
 00:27:38,060 --> 00:27:42,050
-It kept relying on these
-banks and so it never quite
+Ia akan terus mengandalkan bank dan
+karena itu ia tidak pernah
 
 644
 00:27:42,050 --> 00:27:43,190
-got off the ground.
+benar-benar populer.
 
 645
 00:27:43,190 --> 00:27:47,240
-So I'm willing to talk about
-somewhat more abstract and low
+Jadi saya ingin membicarakan
+mengenai sesuatu yang lebih bersifat abstrak 
 
 646
 00:27:47,240 --> 00:27:49,400
-level primitives.
+dan memiliki tingkat primitif rendah.
 
 647
 00:27:49,400 --> 00:27:55,490
-I'm not going to quite get into
-cash or tokens or transfers
+Saya tidak akan membahas mengenai
+uang tunai atau token atau transfer
 
 648
 00:27:55,490 --> 00:27:57,530
-or anything this lecture.
+atau apapun dalam kuliah ini
 
 649
 00:27:57,530 --> 00:27:59,960
-But I'm going to talk about
-the really basic primitives
+Tapi saya akan membahas mengenai
+hal primitif secara dasar
 
 650
 00:27:59,960 --> 00:28:02,990
-that you need that we
-already sort of mentioned,
+yang Anda butuhkan dan sudah
+disebutkan sebelumnya,
 
 651
 00:28:02,990 --> 00:28:04,880
-hash functions and signatures.
+fungsi hash dan tandatangan.
 
 652
 00:28:04,880 --> 00:28:07,790
-Signatures, obviously, we
-talked about a little bit,
+Tandatangan, tentu saja kita
+sudah membicarakan sedikit,
 
 653
 00:28:07,790 --> 00:28:10,070
-what you need to be able
-to sign messages in order
+apa yang Anda butuhkan untuk
+dapat menandai sebuah pesan
 
 654
 00:28:10,070 --> 00:28:11,510
-to send these tokens around.
+agar dapat mengirimkan token ke mana pun.
 
 655
 00:28:11,510 --> 00:28:14,900
-But first I'll talk about hash
-functions, which are basically
+Tapi pertama saya akan membicarakan
+mengenai fungsi hash, yang pada dasarnya
 
 656
 00:28:14,900 --> 00:28:18,980
-the most fundamental basic
-thing we use in these systems.
+merupakan sebuah hal yang paling
+mendasar yang kita gunakan pada sistem ini.
 
 657
 00:28:18,980 --> 00:28:21,345
-And I think if you've
-used computers,
+Dan saya pikir jika kalian sudah
+menggunakan komputer,
 
 658
 00:28:21,345 --> 00:28:22,720
-or if you've
-programmed a little,
+atau kalian sudah sedikit melakukan
+pemrograman,
 
 659
 00:28:22,720 --> 00:28:24,590
-you probably have
-some familiarity
+kemungkinan kalian akan
+merasa familiar
 
 660
 00:28:24,590 --> 00:28:26,540
-with hash functions.
+dengan fungsi hash.
 
 661
 00:28:26,540 --> 00:28:29,460
-They're simple, but they're
-actually extremely powerful.
+Mereka simpel, namun
+sebenarnya mereka sangat kuat.
 
 662
 00:28:29,460 --> 00:28:31,160
-The hash function
-is basically you
+Fungsi hash ini pada dasarnya sebagai
+berikut: Anda
 
 663
 00:28:31,160 --> 00:28:32,990
-have some data,
-a bunch of bytes,
+memiliki beberapa data,
+sekumpulan bytes,
 
 664
 00:28:32,990 --> 00:28:34,333
-a bunch of ones and zeros.
+sekumpulan angka 1 dan 0.
 
 665
 00:28:34,333 --> 00:28:35,750
-You run it through
-a hash function
+Anda menjalankannya melalui
+sebuah fungsi hash
 
 666
 00:28:35,750 --> 00:28:38,930
-and you get an output that's
-also a bunch of ones and zeros.
+dan Anda mendapatkan sebuah keluaran yang
+juga sekumpulan angka 1 dan 0.
 
 667
 00:28:38,930 --> 00:28:42,120
-Generally, the input
-data can be of any size.
+Umumnya, data
+masukan bisa dalam berbagai ukuran.
 
 668
 00:28:42,120 --> 00:28:43,460
-You can hash something--
+Anda bisa menghitung hash sesuatu--
 
 669
 00:28:43,460 --> 00:28:45,290
-put in a megabyte,
-put in a gigabyte,
+dimasukkan ke dalam megabyte,
+dimasukkan ke dalam gigabyte,
 
 670
 00:28:45,290 --> 00:28:47,900
-or put in a single byte,
-and generally the output
+atau dimasukkan ke dalam satu byte,
+dan umumnya keluaran
 
 671
 00:28:47,900 --> 00:28:49,500
-is of a fixed size.
+berukuran tetap.
 
 672
 00:28:49,500 --> 00:28:52,730
-So in the case of
-bitcoin, we use Sha-256.
+Jadi dalam kasus
+bitcoin, kita menggunakan Sha-256.
 
 673
 00:28:52,730 --> 00:28:58,280
-The output size is 32 bytes
-long, or 256 bits long.
+Ukuran keluaran adalah 32 byte
+panjangnya, atau 256 bit panjangnya.
 
 674
 00:28:58,280 --> 00:29:03,050
-And this is used for lots
-of things in computers.
+Dan ini digunakan oleh banyak
+hal dalam komputer.
 
 675
 00:29:03,050 --> 00:29:05,300
-I guess the reason they call
-it a hash is because it's
+Saya kira alasan mereka menyebutnya
+sebuah hash adalah karena itu
 
 676
 00:29:05,300 --> 00:29:07,580
-like when you take the
-potatoes and chop them up
+seperti ketika anda mengambil
+kentang dan memotongnya
 
 677
 00:29:07,580 --> 00:29:11,630
-into little squares and
-grill them for breakfast,
+menjadi kotak kecil dan
+memanggangnya untuk sarapan,
 
 678
 00:29:11,630 --> 00:29:14,180
-it's sort of that idea,
-that we're taking this data.
+itu adalah semacam idenya,
+bahwa kita mengambil data ini.
 
 679
 00:29:14,180 --> 00:29:17,780
-And the data going in gets
-chopped up and smushed around
+Dan data yang masuk akan
+dipotong-potong dan dihancurkan
 
 680
 00:29:17,780 --> 00:29:21,260
-and then comes out
-into an output.
+dan kemudian keluar
+menjadi sebuah keluaran.
 
 681
 00:29:21,260 --> 00:29:24,290
-So this is not a sufficient
-different definition.
+Jadi ini bukan sebuah definisi
+yang cukup berbeda.
 
 682
 00:29:24,290 --> 00:29:27,320
-But I will say that you
-can sort of do everything
+Tetapi saya akan mengatakan bahwa Anda
+dapat semacam melakukan segalanya
 
 683
 00:29:27,320 --> 00:29:28,660
-with hash functions.
+dengan fungsi hash.
 
 684
 00:29:28,660 --> 00:29:30,410
-There's some fun things
-that you can't do,
+Ada beberapa hal yang menyenangkan
+yang anda tidak dapat lakukan,
 
 685
 00:29:30,410 --> 00:29:33,110
-but you could make a
-cryptocurrency only using
+tetapi Anda dapat membuat
+mata uang dijital hanya menggunakan
 
 686
 00:29:33,110 --> 00:29:34,940
-a single hash function.
+satu fungsi hash.
 
 687
 00:29:34,940 --> 00:29:38,720
-And I think people have, sort
-of for experimental reasons.
+Dan saya pikir orang-orang punya, semacam
+untuk alasan eksperimental.
 
 688
 00:29:38,720 --> 00:29:43,460
-You limit the fun stuff you can
-do, but you can do signatures.
+Anda membatasi hal-hal menyenangkan yang bisa Anda
+lakukan, tetapi anda bisa melakukan tanda tangan.
 
 689
 00:29:43,460 --> 00:29:45,070
-You can do encryption.
+Anda bisa melakukan enkripsi.
 
 690
 00:29:45,070 --> 00:29:47,460
-You can do all sorts
-of things like that.
+Anda bisa melakukan segala macam
+hal-hal seperti itu.
 
 691
 00:29:47,460 --> 00:29:47,960
@@ -3273,201 +3273,201 @@ OK.
 
 692
 00:29:47,960 --> 00:29:50,960
-So this is not a
-sufficient definition,
+Jadi ini bukan
+definisi yang cukup,
 
 693
 00:29:50,960 --> 00:29:55,310
-that there's any size
-input, a fixed size output,
+bahwa ada ukuran apapun
+masukan, ukuran keluaran tetap,
 
 694
 00:29:55,310 --> 00:29:57,580
-and the output is
-random-looking.
+dan hasilnya adalah
+tampak acak.
 
 695
 00:29:57,580 --> 00:29:58,940
-That's sort of wishy-washy.
+Itu semacam plin-plan.
 
 696
 00:29:58,940 --> 00:30:02,540
-But what does
-random-looking mean?
+Tapi apa maksud yang dilakukannya
+tampak acak?
 
 697
 00:30:02,540 --> 00:30:03,890
-It's not actually random.
+Ini sebenarnya tidak acak.
 
 698
 00:30:03,890 --> 00:30:06,328
-If you put in the
-same input, everyone
+Jika Anda memasukkan
+masukan yang sama, semuanya
 
 699
 00:30:06,328 --> 00:30:07,370
-will get the same output.
+akan mendapatkan hasil yang sama.
 
 700
 00:30:07,370 --> 00:30:10,010
-So if you say, OK, well,
-what's the hash of one,
+Jadi jika Anda berkata, oke,
+apa hashnya,
 
 701
 00:30:10,010 --> 00:30:11,280
-you'll get some output.
+Anda akan mendapatkan beberapa hasil.
 
 702
 00:30:11,280 --> 00:30:13,640
-And if someone else says,
-OK, what's the hash of one,
+Adan jika orang lain berkata,
+OK, apa hashnya,
 
 703
 00:30:13,640 --> 00:30:15,810
-you'll get the same thing.
+Anda akan mendapatkan hal yang sama.
 
 704
 00:30:15,810 --> 00:30:19,820
-However, the output,
-while it is deterministic,
+Namun, hasilnya,
+sementara itu deterministik,
 
 705
 00:30:19,820 --> 00:30:23,270
-it's sort of high
-entropy in that
+entropinya cukup
+tinggi dalam arti
 
 706
 00:30:23,270 --> 00:30:26,840
-the output should have about as
-many as one bits as zero bits.
+keluar harus memiliki jumlah
+bit satu hampir sama dengan bit nol.
 
 707
 00:30:26,840 --> 00:30:28,400
-If you take the
-hash of one, it's
+Jika Anda menghitung
+hash dari sesuatu, itu
 
 708
 00:30:28,400 --> 00:30:30,233
-just going to look like
-a big random number.
+hanya akan terlihat seperti
+angka acak besar.
 
 709
 00:30:30,233 --> 00:30:32,690
-And the hash of two will look
-like a completely unrelated
+Dan hash dari sesuatu yang lain akan terlihat
+seperti angka acak yang
 
 710
 00:30:32,690 --> 00:30:34,643
-random number.
+tidak terkait.
 
 711
 00:30:34,643 --> 00:30:35,810
-The outputs look like noise.
+Keluarannya terlihat seperti kebisingan.
 
 712
 00:30:35,810 --> 00:30:37,760
-So if you've ever
-seen hash functions,
+Jadi jika Anda pernah
+melihat fungsi hash,
 
 713
 00:30:37,760 --> 00:30:39,810
-you can run it on your computer.
+Anda bisa menjalankannya di komputer Anda.
 
 714
 00:30:39,810 --> 00:30:41,280
-You say echo.
+Anda mengatakan echo.
 
 715
 00:30:41,280 --> 00:30:44,180
-Hello, pipe Sha-256
-sum, and you'll just
+Hallo, jumlah pipa
+sha-256, dan Anda hanya akan
 
 716
 00:30:44,180 --> 00:30:46,580
-get some kind of
-crazy, random thing.
+mendapatkan sesuatu yang
+gila, dan acak.
 
 717
 00:30:46,580 --> 00:30:50,680
-There doesn't seem to be
-any order to the outputs.
+Sepertinya tidak ada
+urutan apa pun ke keluarannya.
 
 718
 00:30:50,680 --> 00:30:52,368
-A little bit more well-defined.
+Sedikit lebih terdefinisi dengan baik.
 
 719
 00:30:52,368 --> 00:30:54,160
-We usually talk about
-the avalanche effect,
+Kita biasanya berbicara tentang
+efek longsoran salju,
 
 720
 00:30:54,160 --> 00:30:57,250
-in that changing a
-single bit in the input
+dalam arti mengubah
+satu bit pada masukan
 
 721
 00:30:57,250 --> 00:31:00,250
-should change about half
-the bits of the output.
+akan mengubah sekitar setengah
+dari keseluruhan keluarannya.
 
 722
 00:31:00,250 --> 00:31:04,440
-So even though you have
-extremely similar inputs,
+Jadi meskipun anda mempunyai
+masukan yang sangat mirip,
 
 723
 00:31:04,440 --> 00:31:07,090
-they should be completely
-dissimilar outputs--
+mereka akan memberikan keluaran
+yang sama sekali berbeda
 
 724
 00:31:07,090 --> 00:31:08,980
-well, completely
-dissimilar, as in about half
+yah, sama sekali
+berbeda, karena sekitar setengah
 
 725
 00:31:08,980 --> 00:31:09,910
-the output changed.
+dari keluaran berubah.
 
 726
 00:31:09,910 --> 00:31:11,770
-If every bit
-changes, then it just
+Jika setiap bit
+berubah, maka itu hanya
 
 727
 00:31:11,770 --> 00:31:15,910
-is the inverse of what you had,
-and so it's easily correlated.
+kebalikan dari apa yang Anda miliki,
+sehingga mudah dikorelasikan.
 
 728
 00:31:15,910 --> 00:31:18,040
-But the avalanche
-effect is sort of how
+Tapi efek longsoran
+salju adalah semacam bagaimana
 
 729
 00:31:18,040 --> 00:31:20,950
-hash functions are constructed,
-where generally they're
+fungsi hash dibangun,
+dimana umumnya itu
 
 730
 00:31:20,950 --> 00:31:22,137
-iterative rounds.
+terdiri dari beberapa ronde.
 
 731
 00:31:22,137 --> 00:31:24,220
-And so you say, OK, I'm
-going to swap these things
+Maka Anda berkata, OK, saya
+akan menukar hal-hal ini
 
 732
 00:31:24,220 --> 00:31:27,340
-and multiply these things and
-shift these bits around such
+dan melipatgandakan hal-hal ini dan
+menggeser bagian-bagian ini
 
 733
 00:31:27,340 --> 00:31:30,280
-that if any change
-in the beginning
+jika ada perubahan
+di awal
 
 734
 00:31:30,280 --> 00:31:32,230
