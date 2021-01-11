@@ -2754,7 +2754,7 @@ kunci tersendiri,
 
 586
 00:32:09,330 --> 00:32:10,940
-Jika mereka hanya memiliki
+jika mereka hanya memiliki
 sebuah gembok yang terkunci
 
 587
@@ -2765,7 +2765,7 @@ memiliki kunci untuk itu,
 588
 00:32:12,440 --> 00:32:13,898
 mereka tidak akan
-dapat untuk membuka
+mampu untuk membuka
 
 589
 00:32:13,898 --> 00:32:15,140
@@ -2783,8 +2783,8 @@ telah mengirimkan ini kepada Bob.
 
 592
 00:32:22,350 --> 00:32:25,040
-Dan tidak ada keaslian
-di sini yang berhubungan dengan Alice
+Dan tidak ada otentikasi
+di sini dalam hal Alice
 
 593
 00:32:25,040 --> 00:32:27,860
@@ -2793,8 +2793,8 @@ berkomunikasi dengan Bob atau tidak.
 
 594
 00:32:27,860 --> 00:32:31,640
-Dia bergantung pada belas kasihan dari
-bajak laut untuk mengirimkan kotak-kotak ini.
+Dia bergantung pada bajak laut
+untuk mengirimkan kotak-kotak ini.
 
 595
 00:32:31,640 --> 00:32:37,480
@@ -2803,7 +2803,7 @@ dan kunci untuk gembok itu,
 
 596
 00:32:37,480 --> 00:32:41,760
-maka mereka ada dalam situasi
+maka kita ada dalam situasi
 di mana Alice mungkin dapat menukarkan
 
 597
@@ -2817,22 +2817,22 @@ menukarkan itu dengan Bob.
 
 599
 00:32:46,520 --> 00:32:50,100
-Dan dia[Alice], faktanya,
+Padahal dia, faktanya,
 berkomunikasi dengan bajak laut.
 
 600
 00:32:50,100 --> 00:33:01,340
 Jadi terdapat serangan
-man in the middle.
+man in the middle,
 
 601
 00:33:01,340 --> 00:33:10,190
-yang berhubungan dengan
-bajak laut memiliki gembok mereka sendiri
+yang berkaitan dengan
+bajak laut memiliki gembok dan kunci
 
 602
 00:33:10,190 --> 00:33:11,240
-dan kunci.
+mereka sendiri.
 
 603
 00:33:11,240 --> 00:33:15,500
@@ -2846,12 +2846,12 @@ bajak laut mengetahui matematika,
 
 605
 00:33:18,460 --> 00:33:22,020
-mereka dapat menghasilkan secara acak
-sebuah angka-- dan angka tersebut
+mereka dapat menghasilkan angka
+acak-- dan angka tersebut
 
 606
 00:33:22,020 --> 00:33:27,020
-bisa merupakan c, untuk contoh-- dan
+bisa merupakan c, contohnya-- dan
 hanya mengirim kembali g pangkat c.
 
 607
@@ -2867,7 +2867,7 @@ pangkat b kembali,
 609
 00:33:34,430 --> 00:33:38,940
 tetapi mereka akan memotong dan
-mengganti dengan g pangkat c.
+menggantinya dengan g pangkat c.
 
 610
 00:33:38,940 --> 00:33:40,767
@@ -2876,21 +2876,21 @@ Dan mereka tahu apa itu c.
 611
 00:33:40,767 --> 00:33:42,850
 Jadi apa yang terjadi sekarang
-adalah anda dapat [tidak terdengar].
+adalah Anda dapat [TIDAK TERDENGAR].
 
 612
 00:33:42,850 --> 00:33:45,320
-Saya tidak akan menuju
-semua matematika di sini.
+Saya tidak akan melihat
+seluruh matematikanya di sini.
 
 613
 00:33:45,320 --> 00:33:48,130
-Tetapi anda dapat sedikit
-melihatnya, Saya harap.
+Tetapi Anda dapat sedikit
+melihatnya, saya harap.
 
 614
 00:33:48,130 --> 00:33:51,950
-Anda akan berakhir, jika anda adalah
+Anda akan, jika Anda adalah
 Alice, menukar
 
 615
@@ -2906,7 +2906,7 @@ adalah bajak laut sebenarnya
 617
 00:34:03,280 --> 00:34:06,070
 akan masuk kepada situasi
-dimana Alice dan Bob berpikir
+di mana Alice dan Bob berpikir
 
 618
 00:34:06,070 --> 00:34:08,980
@@ -2926,7 +2926,7 @@ semua pesan tersebut,
 621
 00:34:13,210 --> 00:34:16,940
 karena mereka mengetahui apa
-kunci rahasia mereka, k, adalah,
+kunci rahasia mereka, k.
 
 622
 00:34:16,940 --> 00:34:17,880
@@ -2934,31 +2934,31 @@ OK.
 
 623
 00:34:17,880 --> 00:34:19,730
-Dan ingat itu,
-kunci rahasia, k, itu,
+Dan ingatlah bahwa
+kunci rahasia, k,
 
 624
 00:34:19,730 --> 00:34:21,219
 adalah sesuatu yang
-mungkin akan pergi
+mungkin akan
 
 625
 00:34:21,219 --> 00:34:25,239
-untuk digunakan dalam sebuah skema
+digunakan dalam sebuah skema
 enkripsi kunci simetri akhirnya
 
 626
 00:34:25,239 --> 00:34:28,510
-untuk mengirim pesan nyata.
+untuk mengirim pesan yang sesungguhnya.
 
 627
 00:34:28,510 --> 00:34:31,190
-Jadi Anda akan memiliki teks sandi
+Jadi Anda akan memiliki teks terenkripsi
 dengan kunci rahasia itu,
 
 628
 00:34:31,190 --> 00:34:33,179
-huruf k besar, di sana.
+huruf K besar, di sana.
 
 629
 00:34:33,179 --> 00:34:37,730
@@ -2967,8 +2967,8 @@ mengetahui apa kunci rahasia, k, itu
 
 630
 00:34:37,730 --> 00:34:41,000
-melalui serangan orang yang berada 
-di tengah, Anda akan mendapat masalah.
+melalui serangan man in the middle,
+Anda akan mendapat masalah.
 
 631
 00:34:41,000 --> 00:34:42,080
@@ -2991,26 +2991,26 @@ bicarakan selanjutnya
 635
 00:34:49,440 --> 00:34:53,030
 adalah sesuatu yang 
-membahas masalah ini.
+menyelesaikan masalah ini.
 
 636
 00:34:53,030 --> 00:34:55,739
-Dan sepertinya 
-tidak secara langsung
+Dan mungkin tidak langsung 
+terlihat
 
 637
 00:34:55,739 --> 00:34:57,200
-menangani masalah.
+menangani masalah ini.
 
 638
 00:34:57,200 --> 00:34:59,300
-Namun pada dasarnya, 
+Namun pada dasarnya,
 yang terjadi di sini
 
 639
 00:34:59,300 --> 00:35:04,290
 adalah Anda perlu memiliki
-keaslian dengan siapa Anda berkomunikasi.
+otentikasi dengan siapa
 
 640
 00:35:04,290 --> 00:35:05,310
@@ -3018,83 +3018,83 @@ Anda berkomunikasi.
 
 641
 00:35:05,310 --> 00:35:08,080
-Alice entah bagaimana 
+Alice entah bagaimana
 harus mengotentikasi Bob.
 
 642
 00:35:08,080 --> 00:35:10,710
-Dan Alice harus 
+Dan Alice harus
 mengetahui bagaimana g
 
 643
 00:35:10,710 --> 00:35:14,560
-tumbuh menjadi b yang dimana 
-itu datang dari Bob.
+dipangkatkan b yang adalah sesuatu 
+yang datang dari Bob.
 
 644
 00:35:14,560 --> 00:35:16,780
-Itu tidak tumbuh dari g menjadi c 
-yang berasal dari seseorang.
+Itu bukan g pangkat c 
+yang berasal dari seseorang
 
 645
 00:35:16,780 --> 00:35:18,380
-seseorang lain di tengah-tengah.
+lain di tengah-tengah.
 
 646
 00:35:18,380 --> 00:35:21,110
-Dan saat itu lah asymmetric key 
-cryptography dan public keys
+Dan disitulah kriptografi kunci
+asimetri dan kunci publik
 
 647
 00:35:21,110 --> 00:35:26,700
-datang, dimana anda mempunyai 
-certified publik key yang berhubungan
+hadir, di mana Anda mempunyai 
+kunci publik tersertifikasi yang terasosiasi
 
 648
 00:35:26,700 --> 00:35:29,170
-dengan diri anda sendiri.
+dengan diri Anda sendiri.
 
 649
 00:35:29,170 --> 00:35:31,230
-Dan mungkin anda membutuhkan 
-VeriSign atau anda
+Dan mungkin anda membutuhkan
+VeriSign atau Anda
 
 650
 00:35:31,230 --> 00:35:34,090
-membutuhkan DMV, atau c
-atatan sepeda motor,
+membutuhkan DMV, atau Registry of Motor Vehicles
+(Register Kendaraan Bermotor),
 
 651
 00:35:34,090 --> 00:35:36,150
-RMV, untuk melakukan ini untuk anda
+RMV, untuk melakukan ini untuk Anda.
 
 652
 00:35:36,150 --> 00:35:39,020
-Tapi anda membuat sebuah 
-public key yang telah tersertifikasi,
+Tapi Anda membuat sebuah 
+kunci publik yang telah tersertifikasi,
 
 653
 00:35:39,020 --> 00:35:41,430
-yang dimana berhubungan 
-dengan identitas anda.
+yang berhubungan 
+dengan identitas Anda.
 
 654
 00:35:41,430 --> 00:35:42,840
-dan itu publik.
+Dan itu publik.
 
 655
 00:35:42,840 --> 00:35:45,100
-Anda bisa memasukkan itu di dalam suatu website.
+Anda bisa menempatkannya di dalam suatu situs web.
 
 656
 00:35:45,100 --> 00:35:47,590
 Dan semua orang bisa 
-mengakses itu menggunakan HTTPS
+mengakses itu menggunakan HTTPS,
 
 657
 00:35:47,590 --> 00:35:50,300
-jadi mereka akan tahu mereka 
-menuju website tersebut.
+sehingga mereka akan tahu mereka 
+menuju tepat ke situs web
 
 658
 00:35:50,300 --> 00:35:51,740
