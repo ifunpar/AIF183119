@@ -2965,12 +2965,12 @@ lima detik terakhir,
 
 640
 00:29:10,670 --> 00:29:14,030
-Komputer Anda sudah
+komputer Anda sudah
 melakukan perhitungan RSA.
 
 641
 00:29:14,030 --> 00:29:18,380
-Setiap kali anda terhubung ke sebuah
+Setiap kali Anda terhubung ke sebuah
 situs web, anda melakukan RSA.
 
 642
@@ -2979,12 +2979,12 @@ Jadi umumnya, 65537.
 
 643
 00:29:21,202 --> 00:29:22,160
-Mereka hanya mengada-ada.
+Mereka hanya membuatnya asal.
 
 644
 00:29:22,160 --> 00:29:25,800
 Anda juga dapat menggunakan
-tiga-- beberapa angka kecil.
+tiga-- angka kecil tertentu.
 
 645
 00:29:25,800 --> 00:29:28,670
@@ -2998,12 +2998,12 @@ jika Anda tahu apa itu p dan q.
 647
 00:29:30,530 --> 00:29:34,040
 Jadi ini semacam 
-kunci pribadi, bukan?
+kunci privat, bukan?
 
 648
 00:29:34,040 --> 00:29:36,740
 p dan q sendiri dapat 
-dilihat sebagai kunci pribadi.
+dilihat sebagai kunci privat.
 
 649
 00:29:36,740 --> 00:29:39,080
@@ -3016,13 +3016,13 @@ dan kemudian membuang p dan q.
 
 651
 00:29:43,100 --> 00:29:45,320
-Dan ini merupakan cara bagaimana anda 
+Dan ini merupakan cara bagaimana Anda 
 menghitung d atau apa pun.
 
 652
 00:29:45,320 --> 00:29:49,490
 Tapi idenya adalah n adalah kunci publik
-Anda, dan d adalah kunci pribadi Anda.
+Anda, dan d adalah kunci privat Anda.
 
 653
 00:29:49,490 --> 00:29:52,430
@@ -3035,7 +3035,7 @@ Lalu apa yang dapat Anda lakukan--
 
 655
 00:29:53,740 --> 00:29:58,020
-dan tidak akan membahasnya-- 
+dan tidak akan membahasnya lebih dalam-- 
 tetapi Anda dapat berkata, Oke,
 
 656
@@ -3055,11 +3055,11 @@ pesan untuk d pangkat modulo n.
 659
 00:30:06,830 --> 00:30:10,940
 Dan jika saya memverifikasi, jika saya mengambil 
-tanda tangan itu ke e pangkat modulo
+tanda tangan dan memangkatkannya dengan e dan modulo
 
 660
 00:30:10,940 --> 00:30:13,040
-n, itu harus sama dengan 
+n, itu harus sama dengan
 m lagi, yang mana
 
 661
@@ -3073,12 +3073,12 @@ untuk menandatangani, oke, saya
 
 663
 00:30:18,530 --> 00:30:20,660
-baru saja dinaikan 
-ke d pangkat modulo n.
+cukup memangkatkannya
+dengan d modulo n.
 
 664
 00:30:20,660 --> 00:30:24,620
-Ini akan menjadi beberapa angka 
+Ini akan menjadi beberapa angka
 dengan ukuran yang sama dengan n, kan?
 
 665
@@ -3105,8 +3105,8 @@ mereka tahu saya menandatangani,
 
 670
 00:30:39,260 --> 00:30:43,580
-dan saya memiliki pribadi
-kunci yang sesuai dengan n.
+dan saya memiliki kunci
+privat yang sesuai dengan n.
 
 671
 00:30:43,580 --> 00:30:47,240
@@ -3115,8 +3115,8 @@ menggunakan ini beberapa kali.
 
 672
 00:30:47,240 --> 00:30:50,630
-Saya dapat menggunakan sama
-hal yang jutaan kali
+Saya dapat menggunakan hal yang
+sama jutaan kali
 
 673
 00:30:50,630 --> 00:30:54,890
@@ -3154,13 +3154,13 @@ muncul pada saat yang bersamaan.
 
 680
 00:31:15,830 --> 00:31:18,650
-Anda dapat melakukan banyak keren
-hal karena ada
+Anda dapat melakukan banyak hal
+keren karena ada
 
 681
 00:31:18,650 --> 00:31:25,100
 properti ini di mana kita
-dapat membuat m prime plus m
+dapat membuat m aksen tambah m
 
 682
 00:31:25,100 --> 00:31:29,070
@@ -3196,7 +3196,7 @@ dibandingkan dengan tanda tangan lamport.
 689
 00:31:42,800 --> 00:31:48,277
 Dan biasanya sekitar
-berukuran2 kilobit, atau 256 byte,
+berukuran 2 kilobit, atau 256 byte,
 
 690
 00:31:48,277 --> 00:31:48,860
@@ -3244,7 +3244,7 @@ Oke.
 
 700
 00:32:09,470 --> 00:32:11,030
-Yah, bagaimanapun juga.
+Yah, bagaimanapun juga (3x).
 
 701
 00:32:11,030 --> 00:32:16,250
@@ -3271,8 +3271,8 @@ belum diretas.
 
 706
 00:32:27,500 --> 00:32:29,000
-Tetapi orang-orang mengira
-itu mungkin
+Tetapi orang-orang berpikir
+itu mungkin dilakukan
 
 707
 00:32:29,000 --> 00:32:31,720
@@ -3304,7 +3304,7 @@ tanda tangan lamport,
 713
 00:32:41,540 --> 00:32:44,410
 yang seperti, Oke, saya punya
-fungsi hash, gunakan, bukan?
+fungsi hash, gunakan itu, bukan?
 
 714
 00:32:44,410 --> 00:32:45,920
@@ -3333,8 +3333,8 @@ sama sekali, dan Anda seperti,
 
 719
 00:32:54,322 --> 00:32:57,680
-oh, saya hashing dua kali, atau,
-oh, saya membalik pesanan,
+oh, saya hash dua kali, atau,
+oh, saya membalik urutan,
 
 720
 00:32:57,680 --> 00:33:02,300
@@ -3342,13 +3342,13 @@ atau tidak berhasil.
 
 721
 00:33:02,300 --> 00:33:05,150
-Tapi tidak ada cara halus di
-mana, oh, saya salah satu per satu,
+Tapi tidak ada cara lain di
+mana, oh, saya kurang satu,
 
 722
 00:33:05,150 --> 00:33:07,190
-dan sekarang terungkap
-semua kunci pribadi saya.
+dan sekarang terungkaplah
+semua kunci privat saya.
 
 723
 00:33:07,190 --> 00:33:11,270
@@ -3357,12 +3357,12 @@ RSA, sebenarnya cukup mudah.
 
 724
 00:33:11,270 --> 00:33:14,090
-Jikap dan q Anda
-nilai, misalnya--
+Jika nilai p dan q
+Anda, misalnya--
 
 725
 00:33:14,090 --> 00:33:16,520
-apa benar-benar gila gotcha--
+apa hal yang benar-benar gila--
 
 726
 00:33:16,520 --> 00:33:21,410
@@ -3381,7 +3381,7 @@ memiliki banyak faktor kecil--
 729
 00:33:26,330 --> 00:33:28,460
 Anda dapat menemukan
-kunci pribadi seseorang.
+kunci privat seseorang.
 
 730
 00:33:28,460 --> 00:33:29,590
@@ -3395,11 +3395,11 @@ dan q harus bilangan prima.
 732
 00:33:31,850 --> 00:33:37,700
 P minus 1 dan q minus 1
-harus tidak terlalu kasar.
+harus tidak terlalu komposit.
 
 733
 00:33:37,700 --> 00:33:39,878
-Itu tidak bisa menjadi kekuatan
+Itu tidak bisa menjadi pangkat dari
 dua atau sesuatu.
 
 734
@@ -3409,8 +3409,8 @@ kehilangan privasi Anda.
 
 735
 00:33:41,420 --> 00:33:46,700
-Jadi ada banyakgila
-halyang terjadi dengan RSA
+Jadi ada banyak hal
+gila yang terjadi dengan RSA.
 
 736
 00:33:46,700 --> 00:33:49,640
@@ -3428,7 +3428,7 @@ dalam banyak kasus.
 
 739
 00:33:56,700 --> 00:34:04,370
-Jadi itu belum benar-benar diambil
+Jadi itu belum benar-benar berkembang
 untuk sertifikat web
 
 740
@@ -3442,7 +3442,7 @@ seperti itu.
 
 742
 00:34:07,760 --> 00:34:11,150
-Cryptocurrency juga merupakan salah satu
+Mata uang dijital juga merupakan salah satu
 kegunaan busur kurva elips
 
 743
@@ -3466,7 +3466,7 @@ Jadi istirahat, tiga menit.
 
 747
 00:34:22,699 --> 00:34:24,650
-Meregang.
+Senam.
 
 748
 00:34:24,650 --> 00:34:25,949
@@ -3492,7 +3492,7 @@ berbentuk y kuadrat
 
 753
 00:34:34,790 --> 00:34:38,150
-ditambah x kubik ditambah beberapa
+ditambah x pangkat tiga ditambah beberapa
 koefisien x kuadrat
 
 754
@@ -3507,7 +3507,7 @@ Bitcoin, ini sangat sederhana.
 756
 00:34:43,670 --> 00:34:46,960
 Itu y kuadrat sama dengan
-x kubik ditambah 7.
+x pangkat 3 ditambah 7.
 
 757
 00:34:46,960 --> 00:34:49,340
