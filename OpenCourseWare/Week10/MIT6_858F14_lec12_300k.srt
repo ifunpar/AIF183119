@@ -2637,100 +2637,100 @@ bahwa komputer itu sedang offline.
 
 555
 00:22:36,192 --> 00:22:37,670
-The packet will
-just get dropped,
+Paket akan
+segera dibuang,
 
 556
 00:22:37,670 --> 00:22:39,720
-and you don't have to
-worry about it too much.
+dan Anda tidak perlu
+terlalu mengkhawatirkannya.
 
 557
 00:22:39,720 --> 00:22:43,010
-If a computer is actually
-listening on that IP address,
+Jika komputer benar-benar
+mendengarkan alamat IP itu,
 
 558
 00:22:43,010 --> 00:22:45,065
-then in the TCP
-protocol, you're supposed
+maka dalam protokol TCP,
+Anda seharusnya
 
 559
 00:22:45,065 --> 00:22:47,790
-to send a reset packet
-resetting the connection.
+mengirim paket reset
+untuk mengatur ulang koneksi.
 
 560
 00:22:47,790 --> 00:22:51,630
-Because this is not a connection
-that computer C knows about.
+Karena ini bukan koneksi
+yang diketahui oleh komputer C.
 
 561
 00:22:51,630 --> 00:22:54,730
-And in TCP, this is presumed
-to be because, oh, this
+Dan di TCP, ini dianggap
+karena, oh, ini
 
 562
 00:22:54,730 --> 00:22:57,640
-is some old packet that
-I requested long ago,
+adalah beberapa paket lama yang
+saya minta sejak lama,
 
 563
 00:22:57,640 --> 00:22:59,320
-but I've since
-forgotten about it.
+tetapi saya
+sudah melupakannya.
 
 564
 00:22:59,320 --> 00:23:04,850
-So the machine C here might send
-a packet to the server saying,
+Jadi mesin C di sini mungkin mengirim
+paket ke server yang mengatakan,
 
 565
 00:23:04,850 --> 00:23:07,710
-I want a reset.
+Saya ingin reset.
 
 566
 00:23:07,710 --> 00:23:10,503
-I actually forget exactly which
-sequence number goes in there.
+Saya benar-benar lupa tepatnya
+nomor urut mana yang ada di sana.
 
 567
 00:23:10,503 --> 00:23:13,582
-But the client C here knows
-all the sequence numbers
+Tetapi klien C di sini mengetahui
+semua nomor urut
 
 568
 00:23:13,582 --> 00:23:15,290
-and send any sequence
-number as necessary
+dan mengirim nomor urut
+yang diperlukan
 
 569
 00:23:15,290 --> 00:23:17,580
-and reset this connection.
+dan mengatur ulang koneksi ini.
 
 570
 00:23:17,580 --> 00:23:20,229
-So if this computer C
-is going to do this,
+Jadi, jika komputer C
+akan melakukan ini,
 
 571
 00:23:20,229 --> 00:23:21,812
-then it might interfere
-with your plan
+maka itu mungkin akan
+mengganggu rencana Anda
 
 572
 00:23:21,812 --> 00:23:22,948
-to establish a connection.
+untuk membuat koneksi.
 
 573
 00:23:22,948 --> 00:23:24,406
-Because when S gets
-this packet, it
+Karena ketika S mendapatkan
+paket ini,
 
 574
 00:23:24,406 --> 00:23:25,993
-says, oh, sure, if
-you don't want it,
+mengatakan, oh, tentu, jika
+Anda tidak menginginkannya,
 
 575
 00:23:25,993 --> 00:23:27,840
