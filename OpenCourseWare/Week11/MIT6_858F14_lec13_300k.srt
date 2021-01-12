@@ -2041,188 +2041,188 @@ identik dengan Alice yang lama.
 
 429
 00:18:57,895 --> 00:18:58,770
-It's the same string.
+Itu adalah string yang sama.
 
 430
 00:18:58,770 --> 00:19:00,370
-So all of a sudden,
-the file server
+Jadi tiba-tiba,
+server file
 
 431
 00:19:00,370 --> 00:19:04,740
-will give access to the new
-Alice to old Alice's data.
+akan memberi Alice akses
+ke data Alice yang lama.
 
 432
 00:19:04,740 --> 00:19:06,620
-So there's a bit of
-a complicated process
+Jadi ada beberapa proses
+yang rumit
 
 433
 00:19:06,620 --> 00:19:09,650
-for reclaiming principal
-names in Kerberos
+untuk mendapatkan kembali
+nama prinsipiel di Kerberos
 
 434
 00:19:09,650 --> 00:19:11,160
-because there's
-no real connection
+karena tidak ada
+hubungan yang nyata
 
 435
 00:19:11,160 --> 00:19:12,869
-or versioning
-between these guys.
+atau pengarsipan veri
+di antaranya.
 
 436
 00:19:12,869 --> 00:19:14,410
-So as a result, it's
-actually kind of
+Jadi akibatnya,
+sebenarnya agak
 
 437
 00:19:14,410 --> 00:19:16,749
-hard to reuse principal names.
+sulit untuk menggunakan kembali nama prinsipiel.
 
 438
 00:19:16,749 --> 00:19:18,540
-Once you register a
-principal, you probably
+Setelah kamu mendaftarkan
+prinsipiel, Anda mungkin
 
 439
 00:19:18,540 --> 00:19:22,160
-don't want to reuse
-it very often.
+tidak ingin melakukan penggunaan ulang
+terlalu sering.
 
 440
 00:19:22,160 --> 00:19:25,930
-And same for, in some
-sense, these principal names
+Dan sama untuk, dalam 
+arti, nama prinsipiel ini
 
 441
 00:19:25,930 --> 00:19:27,020
-for service as well.
+untuk layanan juga.
 
 442
 00:19:27,020 --> 00:19:30,910
-As long as this hostname
-remain some well-known service
+Selama nama host ini
+tetap menjadi layanan yang cukup dikenal
 
 443
 00:19:30,910 --> 00:19:33,040
-that people expect to
-function in a certain way,
+yang diharapkan orang untuk
+berfungsi dengan cara tertentu,
 
 444
 00:19:33,040 --> 00:19:34,920
-you probably don't want
-to get rid of its key
+Anda mungkin tidak ingin 
+menghilangkan kuncinya
 
 445
 00:19:34,920 --> 00:19:35,940
-even if the service goes on.
+bahkan jika layanannya terus berjalan.
 
 446
 00:19:35,940 --> 00:19:38,398
-Because maybe a year later,
-some guy tries to connect to it
+Karena mungkin setahun kemudian,
+ada orang yang mencoba terhubung ke sana
 
 447
 00:19:38,398 --> 00:19:39,581
-and expects certain things.
+dan mengharapkan hal-hal tertentu.
 
 448
 00:19:39,581 --> 00:19:41,580
-And if it's been reused
-for a different service,
+Dan jika sudah digunakan kembali
+untuk layanan lain yang berbeda,
 
 449
 00:19:41,580 --> 00:19:44,130
-that guy can impersonate things.
+orang itu bisa meniru sesuatu.
 
 450
 00:19:44,130 --> 00:19:47,620
-Probably not as dramatic
-or as bad, but still,
+Mungkin tidak sedramatis
+atau seburuk itu, tapi tetap saja,
 
 451
 00:19:47,620 --> 00:19:50,420
-you have to be careful with
-reusing principal names
+Anda harus berhati-hati
+menggunakan kembali nama utama
 
 452
 00:19:50,420 --> 00:19:52,910
-in this kind of protocol.
+dalam protokol semacam ini.
 
 453
 00:19:52,910 --> 00:19:53,940
-Makes sense?
+Masuk akal?
 
 454
 00:19:53,940 --> 00:19:56,140
-Any questions?
+Ada pertanyaan?
 
 455
 00:19:56,140 --> 00:19:59,590
-All right, so let's look at how
-the protocol itself now works.
+Baiklah, jadi mari kita lihat caranya
+protokol itu sendiri sekarang berfungsi.
 
 456
 00:19:59,590 --> 00:20:02,780
-So we'll look first and
-this step of the protocol
+Jadi kita akan melihat dulu dan
+langkah protokol ini
 
 457
 00:20:02,780 --> 00:20:06,160
-where you initially get your
-ticket with your password.
+di mana Anda pada awalnya akan
+mendapatkan tiket bersama password Anda.
 
 458
 00:20:06,160 --> 00:20:09,170
-And then we'll look at how
-this TGS interface works
+Kemudian, kita akan melihat sedikit
+bagaimana antarmuka TGS ini bekerja
 
 459
 00:20:09,170 --> 00:20:12,660
-and how it differs
-then a little bit.
+dan seperti apa perbedaannya
+pada saat itu.
 
 460
 00:20:12,660 --> 00:20:15,280
-All right, so I guess
-there's this main data
+Baiklah, jadi di sini
+ada struktur data utama
 
 461
 00:20:15,280 --> 00:20:17,790
-structure that Kerberos
-uses called a ticket.
+yang Kerberos gunakan,
+disebut juga sebagai tiket.
 
 462
 00:20:17,790 --> 00:20:21,660
-And this ticket looks like this.
+Dan tiket itu berbentuk seperti ini.
 
 463
 00:20:21,660 --> 00:20:25,270
-So there's a ticket to
-between a client and a server.
+Jadi, di sana ada sebuah tiket
+antara klien dan server.
 
 464
 00:20:25,270 --> 00:20:28,510
-And this guy is
-basically the names
+Dan orang ini adalah
+sebuah nama
 
 465
 00:20:28,510 --> 00:20:30,550
-of the server and
-the client that we're
+dari sebuah server dan
+klien yang
 
 466
 00:20:30,550 --> 00:20:36,190
-talking about-- the IP
-address of the client,
+akan kita bicarakan-- alamat
+IP dari klien,
 
 467
 00:20:36,190 --> 00:20:43,050
-some kind of timestamp, and an
-expiration time for how long
+semacam timestamp, dan ada
+tanggal kedaluwarsa untuk seberapa lama
 
 468
 00:20:43,050 --> 00:20:44,260
