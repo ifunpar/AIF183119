@@ -2041,7 +2041,7 @@ identik dengan Alice yang lama.
 
 429
 00:18:57,895 --> 00:18:58,770
-String yang sama.
+Itu adalah string yang sama.
 
 430
 00:18:58,770 --> 00:19:00,370
@@ -2061,7 +2061,7 @@ yang rumit
 433
 00:19:06,620 --> 00:19:09,650
 untuk mendapatkan kembali
-nama prinsipel di Kerberos
+nama prinsipiel di Kerberos
 
 434
 00:19:09,650 --> 00:19:11,160
@@ -2075,7 +2075,7 @@ di antaranya.
 
 436
 00:19:12,869 --> 00:19:14,410
-Jadi hasilnya, itu
+Jadi akibatnya,
 sebenarnya agak
 
 437
@@ -2085,7 +2085,7 @@ sulit untuk menggunakan kembali nama prinsipiel.
 438
 00:19:16,749 --> 00:19:18,540
 Setelah kamu mendaftarkan
-prinsipiel, anda mungkin
+prinsipiel, Anda mungkin
 
 439
 00:19:18,540 --> 00:19:22,160
@@ -2104,11 +2104,11 @@ untuk layanan juga.
 442
 00:19:27,020 --> 00:19:30,910
 Selama nama host ini
-tetap menjadi layanan yang cukup terkenal
+tetap menjadi layanan yang cukup dikenal
 
 443
 00:19:30,910 --> 00:19:33,040
-yang diharapkan orang untuk 
+yang diharapkan orang untuk
 berfungsi dengan cara tertentu,
 
 444
@@ -2122,8 +2122,8 @@ bahkan jika layanannya terus berjalan.
 
 446
 00:19:35,940 --> 00:19:38,398
-Karena mungkin setahun kemudian, 
-ada orang yang mencoba menghubungkannya
+Karena mungkin setahun kemudian,
+ada orang yang mencoba terhubung ke sana
 
 447
 00:19:38,398 --> 00:19:39,581
@@ -2131,7 +2131,7 @@ dan mengharapkan hal-hal tertentu.
 
 448
 00:19:39,581 --> 00:19:41,580
-Dan jika sudah digunakan kembali 
+Dan jika sudah digunakan kembali
 untuk layanan lain yang berbeda,
 
 449
@@ -2140,8 +2140,8 @@ orang itu bisa meniru sesuatu.
 
 450
 00:19:44,130 --> 00:19:47,620
-Mungkin tidak sedramatis itu
-atau seburuk, tapi tetap saja,
+Mungkin tidak sedramatis
+atau seburuk itu, tapi tetap saja,
 
 451
 00:19:47,620 --> 00:19:50,420
@@ -2178,7 +2178,7 @@ mendapatkan tiket bersama password Anda.
 458
 00:20:06,160 --> 00:20:09,170
 Kemudian, kita akan melihat sedikit
-bagaimana TGS interface ini bekerja
+bagaimana antarmuka TGS ini bekerja
 
 459
 00:20:09,170 --> 00:20:12,660
@@ -2201,12 +2201,12 @@ Dan tiket itu berbentuk seperti ini.
 
 463
 00:20:21,660 --> 00:20:25,270
-Jadi, disana ada sebuah tiket
-diantara klien dan server.
+Jadi, di sana ada sebuah tiket
+antara klien dan server.
 
 464
 00:20:25,270 --> 00:20:28,510
-Dan barang ini adalah
+Dan orang ini adalah
 sebuah nama
 
 465
@@ -2216,14 +2216,13 @@ klien yang
 
 466
 00:20:30,550 --> 00:20:36,190
-akan kita bicarakan-- IP
-Adress dari klien
+akan kita bicarakan-- alamat
+IP dari klien,
 
 467
 00:20:36,190 --> 00:20:43,050
 semacam timestamp, dan ada
-tanggal kadaluarsa untuk seberapa lama
-
+tanggal kedaluwarsa untuk seberapa lama
 
 468
 00:20:43,050 --> 00:20:44,260
