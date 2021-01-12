@@ -2637,469 +2637,469 @@ bahwa komputer itu sedang offline.
 
 555
 00:22:36,192 --> 00:22:37,670
-The packet will
-just get dropped,
+Paket akan
+dibuang,
 
 556
 00:22:37,670 --> 00:22:39,720
-and you don't have to
-worry about it too much.
+dan Anda tidak perlu
+terlalu mengkhawatirkannya.
 
 557
 00:22:39,720 --> 00:22:43,010
-If a computer is actually
-listening on that IP address,
+Jika komputer benar-benar
+mendengarkan alamat IP itu,
 
 558
 00:22:43,010 --> 00:22:45,065
-then in the TCP
-protocol, you're supposed
+maka dalam protokol TCP,
+Anda seharusnya
 
 559
 00:22:45,065 --> 00:22:47,790
-to send a reset packet
-resetting the connection.
+mengirim paket reset
+untuk mengatur ulang koneksi.
 
 560
 00:22:47,790 --> 00:22:51,630
-Because this is not a connection
-that computer C knows about.
+Karena ini bukan koneksi
+yang diketahui oleh komputer C.
 
 561
 00:22:51,630 --> 00:22:54,730
-And in TCP, this is presumed
-to be because, oh, this
+Dan di TCP, ini dianggap
+karena, oh, ini
 
 562
 00:22:54,730 --> 00:22:57,640
-is some old packet that
-I requested long ago,
+adalah beberapa paket lama yang
+saya minta sejak lama,
 
 563
 00:22:57,640 --> 00:22:59,320
-but I've since
-forgotten about it.
+tetapi saya
+sudah melupakannya.
 
 564
 00:22:59,320 --> 00:23:04,850
-So the machine C here might send
-a packet to the server saying,
+Jadi mesin C di sini mungkin mengirim
+paket ke server yang mengatakan,
 
 565
 00:23:04,850 --> 00:23:07,710
-I want a reset.
+Saya ingin reset.
 
 566
 00:23:07,710 --> 00:23:10,503
-I actually forget exactly which
-sequence number goes in there.
+Saya benar-benar lupa tepatnya
+nomor urut mana yang ada di sana.
 
 567
 00:23:10,503 --> 00:23:13,582
-But the client C here knows
-all the sequence numbers
+Tetapi klien C di sini mengetahui
+semua nomor urut
 
 568
 00:23:13,582 --> 00:23:15,290
-and send any sequence
-number as necessary
+dan mengirim nomor urut
+yang diperlukan
 
 569
 00:23:15,290 --> 00:23:17,580
-and reset this connection.
+dan mengatur ulang koneksi ini.
 
 570
 00:23:17,580 --> 00:23:20,229
-So if this computer C
-is going to do this,
+Jadi, jika komputer C
+akan melakukan ini,
 
 571
 00:23:20,229 --> 00:23:21,812
-then it might interfere
-with your plan
+maka itu mungkin akan
+mengganggu rencana Anda
 
 572
 00:23:21,812 --> 00:23:22,948
-to establish a connection.
+untuk membuat koneksi.
 
 573
 00:23:22,948 --> 00:23:24,406
-Because when S gets
-this packet, it
+Karena ketika S mendapatkan
+paket ini,
 
 574
 00:23:24,406 --> 00:23:25,993
-says, oh, sure, if
-you don't want it,
+mengatakan, oh, tentu, jika
+Anda tidak menginginkannya,
 
 575
 00:23:25,993 --> 00:23:27,840
-I'll reset your connection.
+saya akan setel ulang koneksi Anda.
 
 576
 00:23:27,840 --> 00:23:30,610
-There's some
-implementation-ish bugs
+Ada beberapa
+bug implementasi
 
 577
 00:23:30,610 --> 00:23:34,075
-that you might exploit, or at
-least the author talks about,
+yang mungkin Anda manfaatkan, atau 
+setidaknya penulis bicarakan,
 
 578
 00:23:34,075 --> 00:23:38,215
-and an potentially
-exploiting, that would prevent
+dan potensi eksploitasi,
+yang akan mencegah
 
 579
 00:23:38,215 --> 00:23:39,990
-client C from responding.
+klien C untuk menanggapi.
 
 580
 00:23:39,990 --> 00:23:42,758
-So for example, if you flood
-C with lots of packets,
+Jadi misalnya, jika Anda 
+membanjiri C dengan banyak paket,
 
 581
 00:23:42,758 --> 00:23:44,633
-it's an easy way to get
-him to drop this one.
+itu cara mudah untuk membuatnya 
+menjatuhkan yang ini.
 
 582
 00:23:44,633 --> 00:23:46,924
-It turns out there are other
-more interesting bugs that
+Ternyata ada bug lain yang 
+lebih menarik yang
 
 583
 00:23:46,924 --> 00:23:49,520
-don't require flooding C with
-lots of packets that still get
+tidak perlu membanjiri C dengan
+banyak paket yang masih didapat
 
 584
 00:23:49,520 --> 00:23:51,200
-C to drop this
-packet, or at least it
+C untuk menjatuhkan paket ini,
+atau setidaknya
 
 585
 00:23:51,200 --> 00:23:53,436
-used to on some
-implementations on TCP stacks.
+demikian pada beberapa implementasi
+pada tumpukan TCP di masa lalu.
 
 586
 00:23:53,436 --> 00:23:53,936
-Yeah.
+Ya.
 
 587
 00:23:53,936 --> 00:23:55,436
-AUDIENCE: Presumably,
-most firewalls
+AUDIENS: Agaknya,
+sebagian besar firewall
 
 588
 00:23:55,436 --> 00:23:57,888
-would also [INAUDIBLE].
+juga akan [TIDAK TERDENGAR].
 
 589
 00:23:57,888 --> 00:23:59,370
-PROFESSOR: This one?
+PROFESOR: Yang ini?
 
 590
 00:23:59,370 --> 00:24:00,852
-AUDIENCE: No, the SYN.
+AUDIENS: Tidak, yang SYN.
 
 591
 00:24:00,852 --> 00:24:01,840
-PROFESSOR: This one.
+PROFESOR: Yang ini
 
 592
 00:24:01,840 --> 00:24:02,828
-AUDIENCE: That
-came into a client,
+AUDIENS: Itu
+datang ke klien,
 
 593
 00:24:02,828 --> 00:24:05,203
-and a client didn't originally
-send a SYN to that server.
+dan klien awalnya tidak mengirim
+SYN ke server itu.
 
 594
 00:24:05,203 --> 00:24:07,188
-And the firewall is
-going to drop it.
+Dan firewall akan
+menjatuhkannya.
 
 595
 00:24:07,188 --> 00:24:08,980
-PROFESSOR: It depends, yeah.
+PROFESOR: Ya, tergantung.
 
 596
 00:24:08,980 --> 00:24:12,590
-So certainly if you have a very
-sophisticated stateful firewall
+Pastinya jika Anda memiliki sebuah
+firewall canggih yang memiliki ingatan besar
 
 597
 00:24:12,590 --> 00:24:15,150
-that keeps track of all existing
-connections, or for example
+dan melacak seluruh
+koneksi, atau misalnya
 
 598
 00:24:15,150 --> 00:24:17,110
-if you have a NAT,
-then this might happen.
+jika Anda memiliki sebuah NAT,
+maka ini mungkin terjadi.
 
 599
 00:24:17,110 --> 00:24:20,640
-On the other hand, a NAT
-might actually send the RST
+Di sisi lain, sebuah NAT
+mungkin dapat mengirim RST
 
 600
 00:24:20,640 --> 00:24:22,810
-on behalf of the client.
+atas nama kliennya.
 
 601
 00:24:22,810 --> 00:24:23,720
-So it's not clear.
+Jadi itu tidak jelas.
 
 602
 00:24:23,720 --> 00:24:26,450
-I think this is not as common.
+Saya pikir hal ini tidak terlalu umum.
 
 603
 00:24:26,450 --> 00:24:29,730
-So for example, on
-a Comcast network,
+Misalnya dalam sebuah
+jaringan Comcast,
 
 604
 00:24:29,730 --> 00:24:32,500
-I certainly don't have anyone
-intercepting these packets
+Saya yakin tidak ada yang
+mencegat paket-paket tersebut
 
 605
 00:24:32,500 --> 00:24:34,916
-and maintaining state for me
-and sending RSTs on my behalf
+dan mempertahankan keadaan
+dan mengirim RST atas nama saya
 
 606
 00:24:34,916 --> 00:24:35,750
-or anything like that.
+atau hal lain yang serupa.
 
 607
 00:24:35,750 --> 00:24:36,250
-Yeah.
+Ya.
 
 608
 00:24:36,250 --> 00:24:38,250
-AUDIENCE: So why
-can't the server
+AUDIENS: Jadi mengapa
+server tidak dapat
 
 609
 00:24:38,250 --> 00:24:40,206
-have independent
-sequence numbers
+memiliki urutan
+angka independen
 
 610
 00:24:40,206 --> 00:24:42,380
-for each possible source?
+untuk setiap sumber yang mungkin?
 
 611
 00:24:42,380 --> 00:24:46,260
-PROFESSOR: Right, so this is in
-fact what TCP stacks do today.
+PROFESOR: Benar, jadi inilah
+apa yang dilakukan protokol TCP sekarang.
 
 612
 00:24:46,260 --> 00:24:49,910
-This is one example of how you
-fix this problem in a backwards
+Inilah salah satu contoh cara untuk
+memperbaiki masalah ini dengan cara
 
 613
 00:24:49,910 --> 00:24:50,660
-compatible manner.
+kompatibilitas mundur.
 
 614
 00:24:50,660 --> 00:24:52,285
-So we'll get to
-exactly the formulation
+Jadi kita akan menuju
+tepatnya perumusan
 
 615
 00:24:52,285 --> 00:24:53,330
-of how you arrange this.
+bagaimana Anda mengaturnya.
 
 616
 00:24:53,330 --> 00:24:55,910
-But yeah, it turns out that
-if you look at this carefully,
+Tetapi kenyataannya jika 
+Anda melihatnya secara seksama,
 
 617
 00:24:55,910 --> 00:24:59,630
-as you're doing, you don't need
-to have this initial sequence
+seiring perjalanan, Anda tidak
+memerlukan urutan awal angka
 
 618
 00:24:59,630 --> 00:25:00,950
-number be global.
+ini secara global.
 
 619
 00:25:00,950 --> 00:25:04,626
-You just scope it to every
-source/destination pair.
+Anda hanya perlu memperlihatkannya
+ke pasangan sumber/tujuan.
 
 620
 00:25:04,626 --> 00:25:06,500
-And then you have all
-the duplicate avoidance
+dan Anda mendapatkan
+properti penghindaran
 
 621
 00:25:06,500 --> 00:25:11,560
-properties we had before, and
-you have some security as well.
+duplikasi yang sudah ada sebelumnya,
+dan Anda mendapatkan beberapa keamaanan.
 
 622
 00:25:11,560 --> 00:25:15,590
-So just to sort
-of write this out
+Jadi hanya untuk 
+menuliskannya
 
 623
 00:25:15,590 --> 00:25:18,550
-on the board of how
-the attacker is getting
+di papan bagaimana
+penyerang mendapatkan
 
 624
 00:25:18,550 --> 00:25:21,425
-this initial sequence number,
-the attacker would probably
+nomor urut awal,
+penyerang kemungkinan
 
 625
 00:25:21,425 --> 00:25:23,770
-just send a connection
-from its own IP address
+hanya mengirim koneksi
+dari IP address nya
 
 626
 00:25:23,770 --> 00:25:27,400
-to the server saying, I want
-to establish a new connection,
+ke server dan katakan,
+aku ingin membuat koneksi baru
 
 627
 00:25:27,400 --> 00:25:30,506
-and the server would
-send a response
+dan server akan mengirim
+kembali respon
 
 628
 00:25:30,506 --> 00:25:33,920
-back to the attacker containing
-its own sequence number S.
+ke penyerang yang mengandung
+nomor urut S sendiri.
 
 629
 00:25:33,920 --> 00:25:36,590
-And if the SNS for
-this connection
+Dan jika SNS untuk
+koneksi ini
 
 630
 00:25:36,590 --> 00:25:39,492
-and the SNS for this
-connection are related,
+dan SNS untuk koneksi 
+ini terhubung,
 
 631
 00:25:39,492 --> 00:25:40,450
-then this is a problem.
+maka ini adalah masalah.
 
 632
 00:25:40,450 --> 00:25:42,540
-But you're saying, let's
-make them not related.
+Tetapi Anda katakan,
+kita buat mereka tidak terhubung.
 
 633
 00:25:42,540 --> 00:25:44,310
-Because this is from
-a different address.
+Karena ini dari 
+alamat yang berbeda.
 
 634
 00:25:44,310 --> 00:25:45,960
-Then this is not
-a problem anymore.
+Maka hal ini
+bukan masalah lagi.
 
 635
 00:25:45,960 --> 00:25:47,630
-You can't guess what
-this SNS is going
+Anda tidak dapat menebak
+SNS ini akan
 
 636
 00:25:47,630 --> 00:25:52,298
-to be based on this SNS
-for a different connection.
+berdasarkan SNS
+untuk koneksi yang berbeda.
 
 637
 00:25:52,298 --> 00:25:52,798
-Yeah.
+Ya.
 
 638
 00:25:52,798 --> 00:25:54,797
-AUDIENCE: So you still
-have a collision problem,
+AUDIENS: Jadi Anda masih
+punya masalah collision,
 
 639
 00:25:54,797 --> 00:25:56,533
-because you could
-engage the 32 bits
+karena Anda dapat
+mengambil 32 bits
 
 640
 00:25:56,533 --> 00:25:58,774
-by the addresses of your peers.
+dengan alamat rekan-rekan Anda.
 
 641
 00:25:58,774 --> 00:26:01,264
-So you have a lot of ports
-for each one of these.
+Jadi, Anda memiliki banyak port
+untuk masing-masingnya.
 
 642
 00:26:01,264 --> 00:26:04,252
-So you still have
-conflicting sequence numbers
+Jadi, Anda masih memiliki
+nomor urut yang bertentangan
 
 643
 00:26:04,252 --> 00:26:06,660
-for all of these connections
-that you're getting, right?
+untuk semua koneksi
+yang Anda dapatkan ini, bukan?
 
 644
 00:26:06,660 --> 00:26:08,160
-PROFESSOR: So these
-sequence numbers
+PROFESOR: Jadi
+nomor urut ini
 
 645
 00:26:08,160 --> 00:26:11,156
-are specific, as it
-turns out, to an IP
+ternyata spesifik,
+ke alamat IP
 
 646
 00:26:11,156 --> 00:26:14,530
-address and a port number
-source/destination duple.
+dan pasangan nomor port
+sumber/tujuan.
 
 647
 00:26:14,530 --> 00:26:16,360
-So if it's different
-ports, then they
+Jadi jika portnya
+berbeda, maka mereka
 
 648
 00:26:16,360 --> 00:26:17,372
-don't interfere with
-each other at all.
+tidak saling
+mengganggu sama sekali.
 
 649
 00:26:17,372 --> 00:26:19,130
-AUDIENCE: Oh, because
-you're using the port--
+AUDIENS: Oh, karena 
+Anda menggunakan port--
 
 650
 00:26:19,130 --> 00:26:20,205
-PROFESSOR: That's right,
-yeah, you also use
+PROFESSOR: Tepat sekali,
+ya, Anda juga menggunakan
 
 651
 00:26:20,205 --> 00:26:21,504
-the port in this as well.
+port ini.
 
 652
 00:26:21,504 --> 00:26:22,746
-AUDIENCE: Because I
-thought those ports--
+AUDIENS: Karena saya
+pikir port itu--
 
 653
 00:26:22,746 --> 00:26:25,246
