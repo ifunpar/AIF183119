@@ -2638,7 +2638,7 @@ bahwa komputer itu sedang offline.
 555
 00:22:36,192 --> 00:22:37,670
 Paket akan
-segera dibuang,
+dibuang,
 
 556
 00:22:37,670 --> 00:22:39,720
@@ -2734,7 +2734,7 @@ Anda tidak menginginkannya,
 
 575
 00:23:25,993 --> 00:23:27,840
-Saya akan setel ulang koneksi Anda.
+saya akan setel ulang koneksi Anda.
 
 576
 00:23:27,840 --> 00:23:30,610
@@ -2748,7 +2748,7 @@ setidaknya penulis bicarakan,
 
 578
 00:23:34,075 --> 00:23:38,215
-dan potensi eksploitasi, 
+dan potensi eksploitasi,
 yang akan mencegah
 
 579
@@ -2772,18 +2772,18 @@ lebih menarik yang
 
 583
 00:23:46,924 --> 00:23:49,520
-tidak perlu membanjiri C dengan 
+tidak perlu membanjiri C dengan
 banyak paket yang masih didapat
 
 584
 00:23:49,520 --> 00:23:51,200
-C untuk menjatuhkan paket ini, 
+C untuk menjatuhkan paket ini,
 atau setidaknya
 
 585
 00:23:51,200 --> 00:23:53,436
-dulu pada beberapa implementasi 
-pada tumpukan TCP.
+demikian pada beberapa implementasi
+pada tumpukan TCP di masa lalu.
 
 586
 00:23:53,436 --> 00:23:53,936
@@ -2791,7 +2791,7 @@ Ya.
 
 587
 00:23:53,936 --> 00:23:55,436
-AUDIENS: Agaknya, 
+AUDIENS: Agaknya,
 sebagian besar firewall
 
 588
@@ -2804,7 +2804,7 @@ PROFESOR: Yang ini?
 
 590
 00:23:59,370 --> 00:24:00,852
-AUDIENS: Tidak, SYN tersebut.
+AUDIENS: Tidak, yang SYN.
 
 591
 00:24:00,852 --> 00:24:01,840
@@ -2812,17 +2812,17 @@ PROFESOR: Yang ini
 
 592
 00:24:01,840 --> 00:24:02,828
-AUDIENS: Itu 
+AUDIENS: Itu
 datang ke klien,
 
 593
 00:24:02,828 --> 00:24:05,203
-dan klien awalnya tidak mengirim 
+dan klien awalnya tidak mengirim
 SYN ke server itu.
 
 594
 00:24:05,203 --> 00:24:07,188
-Dan firewall akan 
+Dan firewall akan
 menjatuhkannya.
 
 595
@@ -2832,11 +2832,11 @@ PROFESOR: Ya, tergantung.
 596
 00:24:08,980 --> 00:24:12,590
 Pastinya jika Anda memiliki sebuah
-statefull firewall canggih
+firewall canggih yang memiliki ingatan besar
 
 597
 00:24:12,590 --> 00:24:15,150
-yang melacak seluruh
+dan melacak seluruh
 koneksi, atau misalnya
 
 598
@@ -2855,7 +2855,7 @@ atas nama kliennya.
 
 601
 00:24:22,810 --> 00:24:23,720
-Jadi masih tidak jelas.
+Jadi itu tidak jelas.
 
 602
 00:24:23,720 --> 00:24:26,450
@@ -2901,7 +2901,7 @@ untuk setiap sumber yang mungkin?
 611
 00:24:42,380 --> 00:24:46,260
 PROFESOR: Benar, jadi inilah
-apa yang dilakukan TCP stacks sekarang.
+apa yang dilakukan protokol TCP sekarang.
 
 612
 00:24:46,260 --> 00:24:49,910
@@ -3001,7 +3001,7 @@ maka ini adalah masalah.
 
 632
 00:25:40,450 --> 00:25:42,540
-Tetapi Anda katakan, 
+Tetapi Anda katakan,
 kita buat mereka tidak terhubung.
 
 633
@@ -3059,7 +3059,7 @@ yang Anda dapatkan ini, bukan?
 
 644
 00:26:06,660 --> 00:26:08,160
-PROFESSOR: Jadi
+PROFESOR: Jadi
 nomor urut ini
 
 645
@@ -3069,8 +3069,8 @@ ke alamat IP
 
 646
 00:26:11,156 --> 00:26:14,530
-dan sumber nomor port/
-tujuan duple.
+dan pasangan nomor port
+sumber/tujuan.
 
 647
 00:26:14,530 --> 00:26:16,360
@@ -3084,7 +3084,7 @@ mengganggu sama sekali.
 
 649
 00:26:17,372 --> 00:26:19,130
-AUDIENCE: Oh, karena 
+AUDIENS: Oh, karena 
 Anda menggunakan port--
 
 650
@@ -3098,7 +3098,7 @@ port ini.
 
 652
 00:26:21,504 --> 00:26:22,746
-AUDIENCE: Karena saya
+AUDIENS: Karena saya
 pikir port itu--
 
 653
