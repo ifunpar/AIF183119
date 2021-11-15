@@ -4876,32 +4876,32 @@ All right.
 
 1027
 00:43:33,009 --> 00:43:35,222
-So, this is actually a
-bit of a discontinuity
+Jadi, ini sebenarnya 
+merupakan sedikit pemegatan
 
 1028
 00:43:35,222 --> 00:43:36,680
-in terms of how
-this guy represents
+dalam hal bagaimana
+orang ini merepresentasikan
 
 1029
 00:43:36,680 --> 00:43:37,850
-strings and this guy.
+string dan orang ini.
 
 1030
 00:43:37,850 --> 00:43:41,530
-So suppose that I own
-the domain foo.com.
+Jadi contohnya, saya yang punya
+domain foo.com.
 
 1031
 00:43:41,530 --> 00:43:45,731
-So I can get certificates
-for anything dot foo dot com.
+Jadi saya dapat mendapatkan sertifikat
+untuk anything dot foo dot com.
 
 1032
 00:43:45,731 --> 00:43:50,568
-So what I could do is ask for
-a certificate for the name
+Jadi yang dapat saya lakukan adalah meminta
+sebuah sertifikat untuk nama
 
 1033
 00:43:50,568 --> 00:43:51,443
@@ -4909,30 +4909,30 @@ amazon.com0x.foo.com.
 
 1034
 00:43:57,325 --> 00:43:59,160
-That's a perfectly valid string.
+Itu adalah sebuah string yang sah.
 
 1035
 00:43:59,160 --> 00:44:00,730
-It has a bunch of bytes.
+Itu punya sekelompok byte.
 
 1036
 00:44:00,730 --> 00:44:03,710
-I guess it's 10, 11
+Saya rasa itu 10, 11
 12 13, 14, 15, 16,
 
 1037
 00:44:03,710 --> 00:44:05,830
-there's another four, 20, right?
+terdapat satu angka 4 lagi, 20, benar?
 
 1038
 00:44:05,830 --> 00:44:10,020
-So this is 20 byte name
-with these 20 bytes.
+Jadi ini adalah nama dengan 20 byte 
+dengan 20 byte ini.
 
 1039
 00:44:10,020 --> 00:44:12,760
-So it used to be that if you
-go to a certificate authority,
+Jadi itu awalnya adalah ketika Anda
+menuju ke sebuah otoritas sertifikat,
 
 1040
 00:44:12,760 --> 00:44:15,230
