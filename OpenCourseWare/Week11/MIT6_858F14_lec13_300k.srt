@@ -2334,57 +2334,57 @@ sudah log in ke Kerberos
 
 490
 00:21:53,650 --> 00:21:56,010
-and gets their TGS ticket.
+dan mendapatkan tiket TGS mereka.
 
 491
 00:21:56,010 --> 00:21:59,240
-So as we saw here
-before, right, the plan
+Jadi, seperti yang bisa kita lihat
+sebelumnya, rencananya
 
 492
 00:21:59,240 --> 00:22:06,030
-is the client is going to
-send their username over
+adalah client akan
+mengirim usernamenya
 
 493
 00:22:06,030 --> 00:22:10,130
-to the Kerberos server
-or that interface.
+ke server Kerberos
+atau interface itu
 
 494
 00:22:10,130 --> 00:22:12,140
-And the response is
-going to be a ticket.
+Dan respons nya
+berupa sebuah tiket.
 
 495
 00:22:12,140 --> 00:22:13,760
-And what precisely
-the client actually
+Dan lebih tepatnya
+apa yang client sebenarnya
 
 496
 00:22:13,760 --> 00:22:17,710
-sends over-- both the username
-C of the client that's
+kirim (adalah) kedua username C
+dari client yang
 
 497
 00:22:17,710 --> 00:22:22,150
-issuing the request as well
-as the principal name-- well,
+melakukan request maupun
+nama pokoknya--,
 
 498
 00:22:22,150 --> 00:22:23,760
-the client is also
-a principal name.
+client juga memiliki
+nama pokok.
 
 499
 00:22:23,760 --> 00:22:25,840
-But the client also
-sends the principal name
+Tapi client juga mengirim
+nama pokok
 
 500
 00:22:25,840 --> 00:22:29,720
-of the service for which it
-would like to get a ticket.
+dari service yang diinginkan
+untuk mendapatkan sebuah tiket.
 
 501
 00:22:29,720 --> 00:22:32,880
