@@ -4631,7 +4631,7 @@ domainnya kecil
 987
 00:52:53,350 --> 00:52:55,120
 Anda bisa sekedar
-enumerate the domain.
+menghitung domain.
 
 988
 00:52:55,120 --> 00:52:57,062
