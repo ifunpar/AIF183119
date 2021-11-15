@@ -4639,22 +4639,22 @@ Jadi ingatlah itu.
 
 989
 00:52:57,062 --> 00:52:58,770
-I talked about h of
-x, and it's obviously
+Saya sudah bicara soal h(x), 
+dan sudah jelas
 
 990
 00:52:58,770 --> 00:53:00,300
-going to be relevant here.
+itu akan relevan disini.
 
 991
 00:53:00,300 --> 00:53:02,520
-But suppose I wanted
-to build a system,
+Tapi anggap saja Saya ingin 
+membangun sebuah sistem,
 
 992
 00:53:02,520 --> 00:53:04,300
-and this is how
-systems are built,
+dan inilah cara 
+sistem ini dibangun,
 
 993
 00:53:04,300 --> 00:53:06,700
