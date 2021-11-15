@@ -2279,58 +2279,58 @@ these things are encrypted.
 
 479
 00:21:18,270 --> 00:21:20,520
-And authenticator is
-typically scripted
+dan pemberi autentikasi 
+biasanya ditulis
 
 480
 00:21:20,520 --> 00:21:23,760
-with the key between the
-client on the server.
+dengan kunci yang ada di antara 
+klien di server.
 
 481
 00:21:23,760 --> 00:21:25,670
-So the authenticator
-sort of has to do
+Jadi pemberi autentikasi
+semacam memiliki hal yang harus dilakukan
 
 482
 00:21:25,670 --> 00:21:29,110
-with a particular connection
-between a client and a server.
+dengan koneksi tertentu
+di antara klien dan server.
 
 483
 00:21:29,110 --> 00:21:31,550
-And the Kerberos
-ticket itself here
+dan Kerberos
+ikut terkirim disini
 
 484
 00:21:31,550 --> 00:21:38,140
-is typically encrypted with
-the key for the service KS.
+biasanya di enkripsi dengan
+kunci untuk layanan KS.
 
 485
 00:21:38,140 --> 00:21:41,010
-So the subscript
-notation denotes here
+Jadi notasi subskrip
+menyatakan disini
 
 486
 00:21:41,010 --> 00:21:45,050
-encryption with
-a particular key.
+enkripsi dilakukan dengan
+kunci tertentu.
 
 487
 00:21:45,050 --> 00:21:48,470
-All right, so what does this--
-so using this sort of notation
+Oke, jadi apa ini--
+jadi menggunakan notasi seperti ini
 
 488
 00:21:48,470 --> 00:21:50,670
-here, let's try to figure
-out what is the protocol.
+disini, ayo coba untuk mencari
+tahu apa itu protokol.
 
 489
 00:21:50,670 --> 00:21:53,650
-By which the user initially
-logs into this Kerberos
+Dimana pengguna awalnya
+sudah log in ke Kerberos
 
 490
 00:21:53,650 --> 00:21:56,010
