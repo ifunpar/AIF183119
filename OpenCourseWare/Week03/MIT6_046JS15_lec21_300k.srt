@@ -4639,12 +4639,12 @@ Jadi itu perlu diingat.
 
 989
 00:52:57,062 --> 00:52:58,770
-I talked about h of
-x, and it's obviously
+Saya sudah bicara soal h(x), 
+dan sudah jelas
 
 990
 00:52:58,770 --> 00:53:00,300
-going to be relevant here.
+itu akan relevan disini.
 
 991
 00:53:00,300 --> 00:53:02,520
