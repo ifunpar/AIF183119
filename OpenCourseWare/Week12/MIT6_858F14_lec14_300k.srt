@@ -2927,33 +2927,33 @@ memperlakukan server OCSP
 
 618
 00:27:17,030 --> 00:27:21,194
-being down as sort
-of an OK occurrence.
+yang sedang mati
+sebagai kejadian yang baik-baik saja.
 
 619
 00:27:21,194 --> 00:27:23,110
-This is really bad from
-a security perspective
+Hal ini sangat buruk dari
+perspektif keamanan
 
 620
 00:27:23,110 --> 00:27:24,790
-because if you're
-an attacker and you
+karena jika Anda
+seorang penyerang dan Anda
 
 621
 00:27:24,790 --> 00:27:27,040
-want to convince
-someone that you have
+ingin meyakinkan seseorang
+jika Anda memiliki
 
 622
 00:27:27,040 --> 00:27:30,000
-a legitimate certificate, but
-it's actually been revoked,
+sertifikat yang sah, tapi
+sebenarnya sudah dicabut,
 
 623
 00:27:30,000 --> 00:27:32,740
-all you have to do
-is somehow prevent
+yang Anda harus lakukan
+adalah untuk mencegah
 
 624
 00:27:32,740 --> 00:27:36,090
