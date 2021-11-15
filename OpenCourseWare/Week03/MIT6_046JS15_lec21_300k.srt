@@ -4658,37 +4658,38 @@ sistem ini dibangun,
 
 993
 00:53:04,300 --> 00:53:06,700
-ETC slash password
-file, assuming
+ETC garis miring password
+file, diasumsikan
 
 994
 00:53:06,700 --> 00:53:11,040
-you have long passwords
-it does it this way,
+anda punya password panjang
+akan dilakukan seperti ini,
+
 
 995
 00:53:11,040 --> 00:53:13,320
-otherwise it needs something
-that's called a salt.
+jika tidak akan membutuhkan sesuatu
+yang dinamakan 'salt'.
 
 996
 00:53:13,320 --> 00:53:16,540
-But that's 6, 8, 57
-and we won't go there.
+Tapi itu 6, 8, 57
+dan kita tidak akan kesana.
 
 997
 00:53:16,540 --> 00:53:19,590
-So we just assume
-a large entropy.
+Jadi kita akan berasumsi
+sebuah entropi yang besar.
 
 998
 00:53:19,590 --> 00:53:21,980
-What is it that a system can do?
+Apa itu yang bisa dilakukan sebuah sistem?
 
 999
 00:53:21,980 --> 00:53:26,210
-What can it store in order
-to let you in, and only
+Apa yang bisa disimpannya agar
+bisa membiarkanmu masuk, dan hanya
 
 1000
 00:53:26,210 --> 00:53:28,830
