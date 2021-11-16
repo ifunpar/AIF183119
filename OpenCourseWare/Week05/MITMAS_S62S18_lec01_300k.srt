@@ -3839,78 +3839,78 @@ just sort of mentioning it.
 
 812
 00:35:04,540 --> 00:35:08,310
-And then the other one that's
-very important is collision
+Kemudian salah satu yang sangat 
+penting lainya adalah tahan
 
 813
 00:35:08,310 --> 00:35:13,050
-resistance, where the idea is
-that nobody can find any x,z
+collision, idenya adalah tidak
+ada seorangpun yang bisa menemukan pasangan
 
 814
 00:35:13,050 --> 00:35:16,170
-pair such that x
-is not equal to z,
+x,z dimana x, tidak sama
+dengan z
 
 815
 00:35:16,170 --> 00:35:19,940
-but the hash of x is
-equal to the hash of z.
+tetapi hash x sama dengan hash 
+dari z.
 
 816
 00:35:19,940 --> 00:35:22,160
-And this one's a
-lot cleaner in that
+Dan yang satu ini memuliki 
+cleaner didalmnya
 
 817
 00:35:22,160 --> 00:35:24,480
-there's no lack of information.
+tidak ada keukarangan informasi disitu.
 
 818
 00:35:24,480 --> 00:35:26,130
-There's no secrets or anything.
+Tidak ada rahasia atau apapun.
 
 819
 00:35:26,130 --> 00:35:29,060
-It's just like, look,
-no one can find this.
+Hanya saja, tidak ada yang bisa
+menemukanya.
 
 820
 00:35:29,060 --> 00:35:31,587
-And so it's really
-easy to disprove.
+Dan ini sangat mudah untuk 
+disangkal
 
 821
 00:35:31,587 --> 00:35:33,920
-You can just say, hey, look,
-here's an x and here's a z.
+Kamu bisa katakan, hey lihat
+ada sebuah x dan sebuah z.
 
 822
 00:35:33,920 --> 00:35:34,910
-Try hashing them.
+Coba hash mereka.
 
 823
 00:35:34,910 --> 00:35:37,643
-Oh, shoot, the hashes are equal.
+Oh, sial, hash nya sama.
 
 824
 00:35:37,643 --> 00:35:39,560
-And it doesn't really
-matter how you got these
+Dan tidak terlalu penting bagaimana
+kamu mendapatkan mereka
 
 825
 00:35:39,560 --> 00:35:40,880
-or who's doing it.
+Atau siapa yang melakukan itu
 
 826
 00:35:40,880 --> 00:35:45,030
-So that's a really nice,
-easy, clear property.
+Jadi ini merupakan properti yang 
+bersih,bagus, dan mudah
 
 827
 00:35:45,030 --> 00:35:47,490
-And again, you can
-find this eventually.
+Dan lagi pada akhirnya kamu bisa
+menemukanya.
 
 828
 00:35:47,490 --> 00:35:50,830
