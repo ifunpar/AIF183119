@@ -3009,56 +3009,56 @@ web browser actually
 
 635
 00:28:01,220 --> 00:28:04,080
-ships inside of it with
-a list of certificates
+dikirimkan di dalamnya
+dengan daftar sertifikat
 
 636
 00:28:04,080 --> 00:28:06,400
-that Google really
-wants to revoke.
+yang benar-benar Google
+ingin mencabut.
 
 637
 00:28:06,400 --> 00:28:08,570
-So if someone
-mis-issues a certificate
+Jadi jika seseorang
+salah menerbitkan sertifikat
 
 638
 00:28:08,570 --> 00:28:11,790
-for Gmail or for some other
+untuk Gmail atau yang lainnya
 important site-- like Facebook,
 
 639
 00:28:11,790 --> 00:28:15,780
-Amazon, or whatever-- then
-the next release of Chrome
+Amazon, atau apa pun-- lalu
+rilis Chrome berikutnya
 
 640
 00:28:15,780 --> 00:28:19,950
-will contain that thing in
-its verification list baked
+akan berisi hal itu
+didaftar verifikasinya
 
 641
 00:28:19,950 --> 00:28:21,300
-into Chrome.
+dimasukkan ke dalam Chrome.
 
 642
 00:28:21,300 --> 00:28:23,884
-So this way, you don't have
-to contact the CRL server.
+Jadi dengan cara ini, Anda tidak 
+perlu menghubungi server CRL.
 
 643
 00:28:23,884 --> 00:28:25,550
-You don't have to
-talk to this OCSP guy.
+Anda tidak harus
+berbicara dengan orang OCSP.
 
 644
 00:28:25,550 --> 00:28:26,160
-It's just baked in.
+Baru saja dipanggang.
 
 645
 00:28:26,160 --> 00:28:27,910
-Like, this certificate
-is no longer valid.
+Seperti, sertifikat ini
+sudah tidak berlaku.
 
 646
 00:28:27,910 --> 00:28:29,016
