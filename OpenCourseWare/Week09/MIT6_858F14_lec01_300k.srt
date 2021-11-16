@@ -4814,32 +4814,32 @@ a backslash zero character.
 
 1013
 00:43:07,110 --> 00:43:08,740
-Jadi ini dalam memori
+Jadi ini ada dalam memori
 di browser Anda.
 
 1014
 00:43:11,340 --> 00:43:13,310
 Di suatu tempat dalam memori 
-terdapat string
+terdapat <i>string</i> ini
 
 1015
 00:43:13,310 --> 00:43:15,951
-11 byte ini, sekarang, dengan 
+yang berukuran 11 byte, sekarang, dengan 
 tambahan nol di akhir.
 
 1016
 00:43:15,951 --> 00:43:17,700
 Dan ketika browser
-menafsirkan string ini,
+menafsirkan <i>string</i> ini,
 
 1017
 00:43:17,700 --> 00:43:19,950
-itu terus berjalan sampai
-ia melihat ujung dari penanda
+ia akan terus membaca sampai
+ia melihat penanda dari
 
 1018
 00:43:19,950 --> 00:43:22,840
-string, yang merupakan nol byte.
+ujung <i>string</i>, yang merupakan byte nol.
 
 1019
 00:43:22,840 --> 00:43:24,000
@@ -4859,7 +4859,7 @@ Ya?
 
 1023
 00:43:29,250 --> 00:43:31,575
-HADIRIN: Anda memiliki nol
+AUDIENS: Anda memiliki nol
 di tengah [TAK TERDENGAR]?
 
 1024
@@ -4876,8 +4876,8 @@ Baiklah.
 
 1027
 00:43:33,009 --> 00:43:35,222
-Jadi, ini sebenarnya 
-merupakan sedikit pemegatan
+Jadi, ini sebenarnya merupakan
+sedikit ketidaksesuaian
 
 1028
 00:43:35,222 --> 00:43:36,680
@@ -4886,17 +4886,17 @@ orang ini merepresentasikan
 
 1029
 00:43:36,680 --> 00:43:37,850
-string dan orang ini.
+<i>string</i> dengan orang ini.
 
 1030
 00:43:37,850 --> 00:43:41,530
-Jadi contohnya, saya yang punya
-domain foo.com.
+Jadi contohnya, saya adalah 
+pemilik domain foo.com.
 
 1031
 00:43:41,530 --> 00:43:45,731
 Jadi saya dapat mendapatkan sertifikat
-untuk anything dot foo dot com.
+untuk "apapun" titik "foo" titik "com".
 
 1032
 00:43:45,731 --> 00:43:50,568
@@ -4909,7 +4909,7 @@ amazon.com0x.foo.com.
 
 1034
 00:43:57,325 --> 00:43:59,160
-Itu adalah sebuah string yang sah.
+Itu adalah sebuah <i>string</i> yang sah.
 
 1035
 00:43:59,160 --> 00:44:00,730
@@ -4917,12 +4917,12 @@ Itu punya sekelompok byte.
 
 1036
 00:44:00,730 --> 00:44:03,710
-Saya rasa itu 10, 11
+Saya rasa ada 10, 11
 12 13, 14, 15, 16,
 
 1037
 00:44:03,710 --> 00:44:05,830
-terdapat satu angka 4 lagi, 20, benar?
+terdapat 4 byte lagi, 20, benar?
 
 1038
 00:44:05,830 --> 00:44:10,020
@@ -4931,8 +4931,8 @@ dengan 20 byte ini.
 
 1039
 00:44:10,020 --> 00:44:12,760
-Jadi itu awalnya adalah ketika Anda
-menuju ke sebuah otoritas sertifikat,
+Jadi dulu, ketika Anda datang
+ke sebuah otoritas sertifikat,
 
 1040
 00:44:12,760 --> 00:44:15,230
