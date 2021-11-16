@@ -4936,31 +4936,31 @@ ke sebuah otoritas sertifikat,
 
 1040
 00:44:12,760 --> 00:44:15,230
-in many cases, you could
-say, hey, I own foo.com.
+dalam banyak kasus, Anda dapat
+berkata, "Hei, sayalah pemilik foo.com.
 
 1041
 00:44:15,230 --> 00:44:16,990
-Give me a certificate
-for this thing.
+Berikan pada saya sertifikat
+untuk benda ini."
 
 1042
 00:44:16,990 --> 00:44:19,660
-And they'd be perfectly
-willing to do it because it's
+Dan mereka sepenuhnya bersedia
+untuk melakukannya karena itu
 
 1043
 00:44:19,660 --> 00:44:20,790
-a subdomain of foo.com.
+adalah subdomain of foo.com.
 
 1044
 00:44:20,790 --> 00:44:22,750
-It's all yours.
+Itu sepenuhnya milik Anda.
 
 1045
 00:44:22,750 --> 00:44:25,220
-But then, when a browser
-takes this string
+Namun kemudian, ketika sebuah peramban
+menerima <i>string</i> ini
 
 1046
 00:44:25,220 --> 00:44:27,930
