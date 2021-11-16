@@ -4791,26 +4791,26 @@ cara C merepresentasikan <i>string</i>
 
 1008
 00:42:54,140 --> 00:42:56,660
-adalah dengan mengakhirinnya dengan nilai null.
+adalah dengan mengakhirinya dengan nilai null.
 
 1009
 00:42:56,660 --> 00:42:59,350
-Jadi dalam C, sebuah string tidak
+Jadi dalam C, sebuah <i>string</i> tidak
 memiliki hitungan panjang.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Sebagai gantinya, string memiliki seluruh byte daya.
+Sebagai gantinya, <i>string</i> memiliki seluruh byte daya.
 
 1011
 00:43:01,080 --> 00:43:03,660
-Dan akhir dari string
+Dan akhir dari <i>string</i>
 adalah byte bernilai 0.
 
 1012
 00:43:03,660 --> 00:43:07,110
-Dan dalam C, anda menuliskan hal tersebut dengan
-sebuah karakter backslash nol.
+Dan dalam C, Anda menuliskan hal tersebut dengan
+sebuah karakter <i>backslash</i> nol.
 
 1013
 00:43:07,110 --> 00:43:08,740
