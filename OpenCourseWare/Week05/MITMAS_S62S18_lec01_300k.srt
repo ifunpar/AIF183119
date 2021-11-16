@@ -3672,76 +3672,75 @@ up to infinity.
 776
 00:33:27,240 --> 00:33:30,468
 Well, I mean, not
-quite, but big enough
+terlalu, tapi cukup besar
 
 777
 00:33:30,468 --> 00:33:32,260
-that you're not going
-to be able to compute
+yang akan bisa kamu hitung
 
 778
 00:33:32,260 --> 00:33:34,920
-that, the sun'll burnout
-and the universe'll die
+yang akan dibakar matahari
+dan dunia akan mati
 
 779
 00:33:34,920 --> 00:33:37,520
-and stuff like that.
+dan sesuatu seperti itu.
 
 780
 00:33:37,520 --> 00:33:38,770
-So that's preimage resistance.
+jadi itu lah gambaran awal resisrance.
 
 781
 00:33:38,770 --> 00:33:41,170
-You can't go backwards.
+Kamu tidak bisa kembali.
 
 782
 00:33:41,170 --> 00:33:43,970
-Given the hash, you can't
-find what led to that.
+Mengingat hash, Anda tidak bisa
+menemukan apa yang menyebabkan itu.
 
 783
 00:33:43,970 --> 00:33:44,470
-OK.
+Baik.
 
 784
 00:33:44,470 --> 00:33:48,770
-Any questions about
-preimage resistance?
+Ada pertanyaan mengenai gambaran awal
+tentang resistance?
 
 785
 00:33:48,770 --> 00:33:50,780
-Seems reasonable?
+Terlihat masik akal?
 
 786
 00:33:50,780 --> 00:33:55,713
-It's a little interesting
-in that given y is
+Ada sesuatu yang menarik dengan
+y yang diberikan
 
 787
 00:33:55,713 --> 00:33:57,630
-a little tricky, and
-that it's like, OK, well,
+sedikit rumit, dan
+bahwa itu seperti, OK, baik,
 
 788
 00:33:57,630 --> 00:34:03,420
-someone might know x in order
-for them to have computed y.
+seseorang munkin tau x nya dalam rangka
+untuk mereka menghitung y nya.
 
 789
 00:34:03,420 --> 00:34:05,550
-Or maybe it's just
-completely random,
+Atau mungkin itu
+sepenuhnya acak,
 
 790
 00:34:05,550 --> 00:34:08,820
-and no one actually
-knows what the x is.
+dan tidak ada yang benar-benar
+tahu x nya.
 
 791
 00:34:08,820 --> 00:34:11,340
-So there's a sort of
+Jadi ada semacam
 loss of information
 
 792
@@ -3839,78 +3838,78 @@ just sort of mentioning it.
 
 812
 00:35:04,540 --> 00:35:08,310
-Kemudian salah satu yang sangat 
-penting lainya adalah tahan
+And then the other one that's
+very important is collision
 
 813
 00:35:08,310 --> 00:35:13,050
-collision, idenya adalah tidak
-ada seorangpun yang bisa menemukan pasangan
+resistance, where the idea is
+that nobody can find any x,z
 
 814
 00:35:13,050 --> 00:35:16,170
-x,z dimana x, tidak sama
-dengan z
+pair such that x
+is not equal to z,
 
 815
 00:35:16,170 --> 00:35:19,940
-tetapi hash x sama dengan hash 
-dari z.
+but the hash of x is
+equal to the hash of z.
 
 816
 00:35:19,940 --> 00:35:22,160
-Dan yang satu ini memuliki 
-cleaner didalmnya
+And this one's a
+lot cleaner in that
 
 817
 00:35:22,160 --> 00:35:24,480
-tidak ada keukarangan informasi disitu.
+there's no lack of information.
 
 818
 00:35:24,480 --> 00:35:26,130
-Tidak ada rahasia atau apapun.
+There's no secrets or anything.
 
 819
 00:35:26,130 --> 00:35:29,060
-Hanya saja, tidak ada yang bisa
-menemukanya.
+It's just like, look,
+no one can find this.
 
 820
 00:35:29,060 --> 00:35:31,587
-Dan ini sangat mudah untuk 
-disangkal
+And so it's really
+easy to disprove.
 
 821
 00:35:31,587 --> 00:35:33,920
-Kamu bisa katakan, hey lihat
-ada sebuah x dan sebuah z.
+You can just say, hey, look,
+here's an x and here's a z.
 
 822
 00:35:33,920 --> 00:35:34,910
-Coba hash mereka.
+Try hashing them.
 
 823
 00:35:34,910 --> 00:35:37,643
-Oh, sial, hash nya sama.
+Oh, shoot, the hashes are equal.
 
 824
 00:35:37,643 --> 00:35:39,560
-Dan tidak terlalu penting bagaimana
-kamu mendapatkan mereka
+And it doesn't really
+matter how you got these
 
 825
 00:35:39,560 --> 00:35:40,880
-Atau siapa yang melakukan itu
+or who's doing it.
 
 826
 00:35:40,880 --> 00:35:45,030
-Jadi ini merupakan properti yang 
-bersih,bagus, dan mudah
+So that's a really nice,
+easy, clear property.
 
 827
 00:35:45,030 --> 00:35:47,490
-Dan lagi pada akhirnya kamu bisa
-menemukanya.
+And again, you can
+find this eventually.
 
 828
 00:35:47,490 --> 00:35:50,830
