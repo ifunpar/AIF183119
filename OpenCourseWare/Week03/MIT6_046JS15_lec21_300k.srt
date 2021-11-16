@@ -4855,61 +4855,81 @@ collision resistance?
 1034
 00:55:24,370 --> 00:55:28,340
 Our target collision resistance?
+target collision resistance kita?
 
 1035
 00:55:28,340 --> 00:55:31,350
 Think practitioner now, right?
+Sekarang, berpikirlah seperti seorang praktisi, bukan?
 
 1036
 00:55:31,350 --> 00:55:33,590
 Are we interested in
 this hash function
+Apakah kita tertarik tentang 
+fungsi hash ini
 
 1037
 00:55:33,590 --> 00:55:34,880
 being collision resistant?
+yang collision resistant?
 
 1038
 00:55:34,880 --> 00:55:37,150
 What does that
 mean in this case?
+Apa artinya
+dalam kasus ini?
 
 1039
 00:55:37,150 --> 00:55:40,315
 Give me the context in this
 particular application?
+Beri saya konteks dalam
+aplikasi khusus ini?
 
 1040
 00:55:40,315 --> 00:55:40,940
 Yeah, go ahead.
+Ya, silahkan.
 
 1041
 00:55:40,940 --> 00:55:44,860
 AUDIENCE: It means that someone
 entering a different password
+MAHASISWA: Artinya seseorang
+yang memasukkan kata sandi yang berbeda
 
 1042
 00:55:44,860 --> 00:55:47,107
 will have the same
 hash [INAUDIBLE].
+akan memiliki
+hash yang sama [TIDAK TERDENGAR]
 
 1043
 00:55:47,107 --> 00:55:48,190
 SRINIVAS DEVADAS: Exactly.
+SRINIVAS DEVADAS: Tepat.
 
 1044
 00:55:48,190 --> 00:55:56,600
 So it means that what you have
 is a situation where you do not
+Jadi itu berarti bahwa apa yang anda miliki
+adalah sebuah situasi dimana anda tidak 
 
 1045
 00:55:56,600 --> 00:56:00,900
 reveal-- and so what might
 happen is that h of PW prime
+mengungkapkan-- dan apa yang mungkin
+terjadi bahwa h(PW') 
 
 1046
 00:56:00,900 --> 00:56:02,460
 equals h of PW.
+sama dengan h(PW)
 
 1047
 00:56:02,460 --> 00:56:07,190
