@@ -2226,56 +2226,56 @@ tanggal kedaluwarsa untuk seberapa lama
 
 468
 00:20:43,050 --> 00:20:44,260
-the stick is valid.
+tiket ini valid.
 
 469
 00:20:44,260 --> 00:20:48,400
-And there's also
-a key, KCS, that's
+Dan juga ada
+sebuah kunci, KCS, yang
 
 470
 00:20:48,400 --> 00:20:51,860
-going to be shared between
-the client and the server.
+akan dibagikan kepada
+client dan server.
 
 471
 00:20:51,860 --> 00:20:53,790
-So that's what's in a ticket.
+Jadi itulah yang ada di dalam sebuah tiket.
 
 472
 00:20:53,790 --> 00:20:56,610
-And there's also this
-other weird data structure
+Dan ada juga
+struktur data yang aneh ini
 
 473
 00:20:56,610 --> 00:20:59,380
-that Kerberos introduces
-called an authenticator.
+yang Kerberos perkenalkan
+bernama authenticator
 
 474
 00:20:59,380 --> 00:21:03,590
-And an authenticator goes
-with a particular client C.
+Dan sebuah authenticator akan bersama-sama
+sebuah client C tertentu.
 
 475
 00:21:03,590 --> 00:21:06,530
-And this thing is just
-the client's name,
+Dan benda ini hanya berisi
+nama client,
 
 476
 00:21:06,530 --> 00:21:11,640
-the IP address of the
-client, and the time stamp
+alamat IP client,
+dan sebuah time stamp
 
 477
 00:21:11,640 --> 00:21:15,210
-when the client generated
-this authenticator.
+ketika client membangkitkan
+authenticator tersebut.
 
 478
 00:21:15,210 --> 00:21:18,270
-And typically, both of
-these things are encrypted.
+Dan biasanya, kedua
+benda ini terenkripsi.
 
 479
 00:21:18,270 --> 00:21:20,520
