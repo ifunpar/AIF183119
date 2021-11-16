@@ -4767,8 +4767,8 @@ sertifikat SSL, di suatu tempat
 
 1003
 00:42:40,120 --> 00:42:44,160
-disana, ada byte
-10 diikuti oleh 10 byte menyebutkan
+di sana, ada byte "10" yang diikuti
+oleh 10 byte data yang menyebutkan
 
 1004
 00:42:44,160 --> 00:42:45,170
@@ -4777,21 +4777,21 @@ apa nama hostnya.
 1005
 00:42:45,170 --> 00:42:48,840
 Dan terdapat hal lain
-setelah itu, sesudah, dan sebelum.
+setelah itu, sesudahnya, dan sebelumnya.
 
 1006
 00:42:48,840 --> 00:42:50,810
-Dan saat browser mengambil
-hal itu, jadi, browser ini
+Dan saat peramban mengambil
+hal itu, jadi, peramban
 
 1007
 00:42:50,810 --> 00:42:54,140
-ditulis dalam C. Dan
-cara C merepresentasikan kumpulan string
+ditulis dalam bahasa C. Dan
+cara C merepresentasikan <i>string</i>
 
 1008
 00:42:54,140 --> 00:42:56,660
-adalah dengan memusnahkan nilai null.
+adalah dengan mengakhirinnya dengan nilai null.
 
 1009
 00:42:56,660 --> 00:42:59,350
@@ -4800,12 +4800,12 @@ memiliki hitungan panjang.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Sebagai gantinya, string memiliki seluruh byte.
+Sebagai gantinya, string memiliki seluruh byte daya.
 
 1011
 00:43:01,080 --> 00:43:03,660
 Dan akhir dari string
-hanya byte 0.
+adalah byte bernilai 0.
 
 1012
 00:43:03,660 --> 00:43:07,110
