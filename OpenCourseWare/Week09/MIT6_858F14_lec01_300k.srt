@@ -4815,7 +4815,7 @@ a backslash zero character.
 1013
 00:43:07,110 --> 00:43:08,740
 Jadi ini ada dalam memori
-di browser Anda.
+di peramban Anda.
 
 1014
 00:43:11,340 --> 00:43:13,310
@@ -4829,7 +4829,7 @@ tambahan nol di akhir.
 
 1016
 00:43:15,951 --> 00:43:17,700
-Dan ketika browser
+Dan ketika peramban
 menafsirkan <i>string</i> ini,
 
 1017
@@ -4951,7 +4951,7 @@ untuk melakukannya karena itu
 
 1043
 00:44:19,660 --> 00:44:20,790
-adalah subdomain of foo.com.
+adalah subdomain dari foo.com.
 
 1044
 00:44:20,790 --> 00:44:22,750
