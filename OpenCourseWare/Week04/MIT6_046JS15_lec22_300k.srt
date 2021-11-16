@@ -3144,24 +3144,24 @@ is that we require.
 
 668
 00:36:19,789 --> 00:36:21,330
-And then we'll have
-to talk about how
+Dan sekarang kita akan
+berbicara tentang bagaimana
 
 669
 00:36:21,330 --> 00:36:22,975
-we can build a subsystems.
+kita bisa membangun sebuah subsystem.
 
 670
 00:36:27,520 --> 00:36:28,020
-Cool.
+Keren.
 
 671
 00:36:28,020 --> 00:36:29,560
-Any questions so far?
+Apakah sejauh ini ada pertanyaan?
 
 672
 00:36:29,560 --> 00:36:32,930
-How we doing?
+Bagaimana kita akan lakukan?
 
 673
 00:36:32,930 --> 00:36:33,430
@@ -3169,22 +3169,22 @@ OK.
 
 674
 00:36:36,060 --> 00:36:40,880
-So public key encryption, let
-me just do a little set up.
+Jadi enkripsi public key, izinkan 
+saya melakukan sedikit pengaturan.
 
 675
 00:36:40,880 --> 00:36:44,370
-I said some of this last time.
+Seperti yang saya bilang sebelumnya.
 
 676
 00:36:44,370 --> 00:36:48,580
-But to make sure we're on the
-same page, what we have here
+Tetapi untuk memastikan kita berada di 
+halaman yang sama, yang kita miliki di sini
 
 677
 00:36:48,580 --> 00:36:53,970
-is we really want a
-message plus a public key.
+adalah kita benar-benar menginginkan 
+sebuah pesan ditambah public key.
 
 678
 00:36:53,970 --> 00:37:02,680
