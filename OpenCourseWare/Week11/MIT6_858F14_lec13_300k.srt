@@ -2438,53 +2438,59 @@ menulis itu dengan KS
 
 512
 00:22:56,170 --> 00:23:01,140
-And also, you get to
-this shared key-- key CS.
+Dan Juga,Kamu bisa 
+berbagi kunci-- kunci KS.
 
 513
 00:23:01,140 --> 00:23:06,180
-And this whole thing
-is encrypted with KC.
+Dan Semua Hal Tersebut
+sudah di enkripsi dengan KC.
 
 514
 00:23:06,180 --> 00:23:08,690
-So that's the wire protocol.
+Jadi itulah wire protokol nya.
 
 515
 00:23:08,690 --> 00:23:11,190
-So I guess let's try to
-figure out a couple things.
+Jadi saya kira mari kita coba
+mencari tahu beberapa hal.
 
 516
 00:23:11,190 --> 00:23:17,770
 So first of all, how
 does the Kerberos server
+Jadi pertama-tama, bagaimana
+kerja server Kerberos?
 
 517
 00:23:17,770 --> 00:23:19,020
-authenticate the client here?
+autentikasi klien disini?
 
 518
 00:23:19,020 --> 00:23:20,910
 How does it know that this
 is the right user making
+Bagaimana ia tahu bahwa ini
+adalah user pembuat yang benar
 
 519
 00:23:20,910 --> 00:23:21,451
-this request?
+permintaan ini?
 
 520
 00:23:24,395 --> 00:23:24,895
-Yeah.
+Tentu.
 
 521
 00:23:24,895 --> 00:23:27,128
 STUDENT: It can make
 sure that the ticket
+PESERTA: Itu bisa memastikan
+tiketnya
 
 522
 00:23:27,128 --> 00:23:29,100
-that it sent because it has KC.
+yang dikirim karena memiliki KC.
 
 523
 00:23:29,100 --> 00:23:31,020
