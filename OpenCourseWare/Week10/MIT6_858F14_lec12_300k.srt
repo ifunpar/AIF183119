@@ -3103,75 +3103,75 @@ pikir port itu--
 
 653
 00:26:22,746 --> 00:26:25,246
-PROFESSOR: Yeah, so the ports
-are sort of below the sequence
+PROFESSOR: Ya, jadi port-portnya 
+seolah-olah ada di bawah nomor 
 
 654
 00:26:25,246 --> 00:26:27,987
-numbers in some way
-of thinking about it.
+urut jika
+dipikir-pikir.
 
 655
 00:26:27,987 --> 00:26:28,486
-Question?
+Ada pertanyaan?
 
 656
 00:26:28,486 --> 00:26:31,060
-AUDIENCE: If the sequence
-numbers are global,
+AUDIENS: Jika nomor urutnya
+adalah global,
 
 657
 00:26:31,060 --> 00:26:33,910
-then doesn't the
-attacker [INAUDIBLE]?
+maka bukannya 
+penyerang [TIDAK TERDENGAR]?
 
 658
 00:26:36,774 --> 00:26:37,940
-PROFESSOR: Yeah, good point.
+PROFESSOR: Ya, poin yang bagus.
 
 659
 00:26:37,940 --> 00:26:40,780
-So in fact, if the server
-increments the sequence number
+Jadi faktanya, jika server
+menambah nomor urut
 
 660
 00:26:40,780 --> 00:26:43,180
-by, I don't know,
-64k I think it is,
+oleh, saya tidak tahu,
+64k mungkin,
 
 661
 00:26:43,180 --> 00:26:46,885
-or it was, for every connection,
-then, well, you connect.
+atau sesuatu, untuk setiap koneksi,
+maka, ya, anda terhubung.
 
 662
 00:26:46,885 --> 00:26:49,090
-And then maybe five
-other people connect.
+Dan lalu mungkin lima
+orang lain terhubung.
 
 663
 00:26:49,090 --> 00:26:51,120
-And then you have
-to do this attack.
+Dan kemudian anda harus
+melakukan penyerangan ini.
 
 664
 00:26:51,120 --> 00:26:54,790
-So to some extent, you're right,
-this is a little troublesome.
+Jadi sampai batas tertentu, anda benar,
+ini sedikit bermasalah.
 
 665
 00:26:54,790 --> 00:26:56,420
-On the other hand,
-you could probably
+Di sisi lain,
+anda mungkin bisa
 
 666
 00:26:56,420 --> 00:27:01,860
-arrange it for your packet
-here to be delivered just
+mengatur agar paket anda
+disini dikirim tepat
 
 667
 00:27:01,860 --> 00:27:02,740
-before this packet.
+sebelum paket ini.
 
 668
 00:27:02,740 --> 00:27:05,870
