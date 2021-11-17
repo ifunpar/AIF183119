@@ -4797,60 +4797,60 @@ this doesn't help me.
 
 1022
 00:54:19,470 --> 00:54:24,050
-Because what the system wants
-you to do is choose a password
+Karena sistem menginginkan anda
+untuk memilih sebuah kata sandi
 
 1023
 00:54:24,050 --> 00:54:26,720
-that is long enough,
-and the h is one-way.
+yang cukup panjang, 
+serta h-nya one-way
 
 1024
 00:54:26,720 --> 00:54:30,960
-So anybody who discovers h of
-PW that is publicly readable
+Jadi siapapun yang menemukan h dari
+PW yang dapat di-read secara public
 
 1025
 00:54:30,960 --> 00:54:33,840
-cannot discover PW, all right?
+tidak dapat menemukan PW, kan?
 
 1026
 00:54:33,840 --> 00:54:36,420
-That's what's cool about this.
+Inilah yang keren tentang hal ini.
 
 1027
 00:54:36,420 --> 00:54:38,740
-How do you let
-the person log in?
+Bagaimana cara anda membiarkan 
+orang tersebut melakukan log in?
 
 1028
 00:54:38,740 --> 00:54:47,860
-Use h of PW to compare
-against h of PW prime,
+Gunakan h dari PW untuk dibandingkan
+dengan h dari PW prima,
 
 1029
 00:54:47,860 --> 00:54:54,420
-which is what is entered, where
-PW prime is the typed password.
+dari yang dimasukan, dimana 
+PW prima perupakan password yang diketik.
 
 1030
 00:55:00,540 --> 00:55:08,530
-And clearly what we need is
-the disclosure of h of PW
+Dan jelas sekali yang kita perlukan
+ialah penyingkapan dari h dari PW
 
 1031
 00:55:08,530 --> 00:55:14,960
-should not reveal PW.
+seharusnya tidak menunjukan PW.
 
 1032
 00:55:14,960 --> 00:55:19,570
-So we definitely
-need one-wayness.
+Jadi kita secara pasti membutuhkan 
+cara yang satu arah saja.
 
 1033
 00:55:19,570 --> 00:55:24,370
-What about-- what about
-collision resistance?
+Bagaimana-- bagaimana halnya 
+dengan Collision Resistance?
 
 1034
 00:55:24,370 --> 00:55:28,340
