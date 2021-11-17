@@ -4692,59 +4692,59 @@ bisa membiarkanmu masuk, dan hanya
 
 1000
 00:53:26,210 --> 00:53:28,830
-let you in when you
-type your password,
+membiarkanmu masuk ketika
+Anda mengetik kata sandi,
 
 1001
 00:53:28,830 --> 00:53:32,190
-and not let some bogus
-password into the system?
+dan tidak membiarkan kata sandi palsu
+masuk ke sistem?
 
 1002
 00:53:32,190 --> 00:53:34,610
-Or somebody with a bogus
-password into the system.
+Atau sesorang dengan kata sandi palsu
+ke dalam sistem.
 
 1003
 00:53:34,610 --> 00:53:35,249
-Yeah, go ahead.
+Ya, silahkan.
 
 1004
 00:53:35,249 --> 00:53:37,540
-AUDIENCE: If you capture the
-password when you enter it
+HADIRIN: Jika Anda menangkap
+kata sandi palsu saat Anda memasukkannya
 
 1005
 00:53:37,540 --> 00:53:39,380
-and compare it to
-what's stored--
+dan bandingkan dengan 
+apa yang disimpan--
 
 1006
 00:53:39,380 --> 00:53:40,347
-SRINIVAS DEVADAS: Yes.
+SRINIVAS DEVADAS: Ya.
 
 1007
 00:53:40,347 --> 00:53:42,430
-AUDIENCE: If it's a one-way
-hash you know you have
+HADIRIN: Jika itu hash satu arah, 
+Anda tahu Anda memilikinya
 
 1008
 00:53:42,430 --> 00:53:42,730
-what the correct password is.
+kata sandi apa yang benar.
 
 1009
 00:53:42,730 --> 00:53:43,820
 SRINIVAS DEVADAS:
-That's exactly right.
+Itu benar.
 
 1010
 00:53:43,820 --> 00:53:44,790
-That's exactly right.
+Itu benar.
 
 1011
 00:53:44,790 --> 00:53:49,950
-So it's a really simple
-idea, a very powerful idea.
+Jadi itu merupakan ide yang sangat sederhana, 
+ide yang sangat kuat.
 
 1012
 00:53:49,950 --> 00:53:54,610
