@@ -3188,51 +3188,51 @@ sebuah pesan ditambah public key.
 
 678
 00:36:53,970 --> 00:37:02,680
-And you want to obtain ciphered
-text using this operation.
+Dan anda ingin mendapatkan text tersandi
+menggunakan operasi ini.
 
 679
 00:37:02,680 --> 00:37:05,920
-And this plus is not
-arithmetic addition.
+Dan simbol tambah ini bukan
+pertambahan aritmatika.
 
 680
 00:37:05,920 --> 00:37:08,900
-It's just that we're putting
-these two things together
+Kita hanya menggabungkan
+kedua hal ini
 
 681
 00:37:08,900 --> 00:37:11,930
-into an algorithm, a public
-key encryption algorithm, that
+menjadi sebuah algoritma, algoritma
+enkripsi kunci publik yang
 
 682
 00:37:11,930 --> 00:37:13,500
-produces ciphered text.
+menghasilkan text tersandi.
 
 683
 00:37:13,500 --> 00:37:14,290
-All right.
+Baiklah.
 
 684
 00:37:14,290 --> 00:37:18,910
-And this public key, just to
-reiterate what I just said,
+Dan kunci publik ini, untuk
+mengulangi apa yang saya katakan,
 
 685
 00:37:18,910 --> 00:37:23,790
-is going to be if Alice
-is producing the message
+akan menjadi... jika Alice
+yang membuat pesan.
 
 686
 00:37:23,790 --> 00:37:26,460
-and Bob is getting
-the ciphered text,
+lalu Bob yang mendapatkan
+pesan tersandi,
 
 687
 00:37:26,460 --> 00:37:30,650
-this is going to be
-Bob's public key.
+maka ini adalah 
+kunci publik milik Bob.
 
 688
 00:37:30,650 --> 00:37:33,800
