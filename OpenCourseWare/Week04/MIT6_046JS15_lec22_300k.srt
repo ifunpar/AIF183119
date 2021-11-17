@@ -3098,49 +3098,49 @@ menuju tepat ke situs web
 
 658
 00:35:50,300 --> 00:35:51,740
-that you've put up.
+yang telah Anda simpan.
 
 659
 00:35:51,740 --> 00:35:57,230
-And that gives you a way
-of identifying yourself.
+Dan yang memberi Anda cara
+dalam mengidentifikasi diri Anda.
 
 660
 00:35:57,230 --> 00:35:59,440
-And if you can do
-that, you can protect
+Dan jika Anda dapat melakukan
+itu, Anda dapat melindungi
 
 661
 00:35:59,440 --> 00:36:01,560
-against the man in the
-middle attack using
+terhadap serangan 
+man in the middle menggunakan
 
 662
 00:36:01,560 --> 00:36:04,140
-asymmetric key cryptography.
+kriptografi kunci asimetri.
 
 663
 00:36:04,140 --> 00:36:09,390
-So that's kind of the final
-part of this puzzle that's
+Jadi itu merupakan bagian akhir
+dari teka-teki ini yang 
 
 664
 00:36:09,390 --> 00:36:15,470
-associated with authentication
-and secret key exchange and all
+berkaitan dengan otentikasi 
+dan pertukaran kunci rahasia dan semuanya
 
 665
 00:36:15,470 --> 00:36:16,213
-of that.
+itu.
 
 666
-00:36:16,213 --> 00:36:18,337
-Once we do that, you'll
-know what the functionality
+00:36:16,213 --> 00:36:18,337 
+Setelah kami melakukan itu, Anda akan 
+mengetahui fungsi apa
 
 667
 00:36:18,337 --> 00:36:19,789
-is that we require.
+yang kami butuhkan.
 
 668
 00:36:19,789 --> 00:36:21,330
