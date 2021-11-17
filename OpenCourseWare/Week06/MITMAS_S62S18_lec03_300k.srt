@@ -3843,11 +3843,11 @@ P ditambah Q sama dengan R
 
 831
 00:37:35,002 --> 00:37:35,960
-because R is down here.
+karena R di bawah sini.
 
 832
 00:37:35,960 --> 00:37:36,460
-Sorry.
+Maaf.
 
 833
 00:37:36,460 --> 00:37:37,600
