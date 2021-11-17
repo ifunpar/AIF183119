@@ -3175,63 +3175,63 @@ sebelum paket ini.
 
 668
 00:27:02,740 --> 00:27:05,870
-So if you send these
-guys back to back,
+Jadi jika anda mengirimkan
+orang-orang ini secara terus menerus,
 
 669
 00:27:05,870 --> 00:27:08,200
-then there's a good chance
-they'll arrive at the server
+maka ada peluang bagus
+mereka akan sampai pada server
 
 670
 00:27:08,200 --> 00:27:08,920
-back to back.
+secara terus menerus.
 
 671
 00:27:08,920 --> 00:27:10,710
-The server will get
-this one, respond
+Server tersebut akan mendapatkan
+satu ini, merespon
 
 672
 00:27:10,710 --> 00:27:12,180
-with this sequence number.
+dengan urutan angka ini.
 
 673
 00:27:12,180 --> 00:27:13,580
-It'll get the next
-one, this one,
+Ini akan mendapatkan yang 
+berikutnya, yang ini,
 
 674
 00:27:13,580 --> 00:27:16,754
-respond with the sequence
-number right afterwards.
+merespon dengan urutan
+angka setelah itu.
 
 675
 00:27:16,754 --> 00:27:19,170
-And then you know exactly what
-to put in this third packet
+Dan setelah itu anda tahu apa
+yang harus dimasukkan di paket ketiga ini
 
 676
 00:27:19,170 --> 00:27:21,450
-in your sequence.
+dalam urutan anda.
 
 677
 00:27:21,450 --> 00:27:24,620
-So I think this is
-not a foolproof method
+Jadi saya berpikir ini adalah
+bukan metode yang tidak bisa rusak
 
 678
 00:27:24,620 --> 00:27:25,790
-of connecting to a server.
+untuk menghubungkan terhadap sebuah server.
 
 679
 00:27:25,790 --> 00:27:27,260
-There's some guessing involved.
+Disitu terdapat beberapa tebakan yang terlibat.
 
 680
 00:27:27,260 --> 00:27:29,720
-But if you carefully
-arrange your packets right,
+Tapi jika anda dengan hati-hati
+menyusun paket anda dengan benar,
 
 681
 00:27:29,720 --> 00:27:32,230
