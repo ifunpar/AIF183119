@@ -3723,49 +3723,49 @@ hanya titik yang sama
 
 803
 00:36:34,790 --> 00:36:37,160
-with the y-coordinate flipped.
+dengan koordinat y dibalik.
 
 804
 00:36:37,160 --> 00:36:40,160
-So if this is
-negative R, we just
+Jadi jika ini
+R negatif, kita hanya
 
 805
 00:36:40,160 --> 00:36:42,380
-go down to the
-bottom side of this,
+turun ke
+sisi bawah ini,
 
 806
 00:36:42,380 --> 00:36:44,857
-and this is positive
-R. Similarly, minus P
+dan ini positif
+R. Demikian pula, dikurangi P
 
 807
 00:36:44,857 --> 00:36:45,440
-would be here.
+akan berada di sini.
 
 808
 00:36:45,440 --> 00:36:47,000
-Minus Q would be here.
+Minus Q akan ada di sini.
 
 809
 00:36:47,000 --> 00:36:51,830
-And if you had a point Z here,
-negative Z would be up here.
+Dan jika Anda memiliki titik Z di sini,
+negatif Z akan berada di atas sini.
 
 810
 00:36:51,830 --> 00:36:53,570
-This is how it's constructed.
+Ini adalah bagaimana itu dibangun.
 
 811
 00:36:53,570 --> 00:36:58,460
-However, we don't actually
-use these nice curves.
+Namun, kami sebenarnya tidak
+gunakan kurva yang bagus ini.
 
 812
 00:36:58,460 --> 00:37:00,778
-We chop them up in
-modulo something.
+Kami memotongnya menjadi
+memodulasi sesuatu.
 
 813
 00:37:00,778 --> 00:37:01,278
@@ -3773,52 +3773,52 @@ Yeah?
 
 814
 00:37:01,278 --> 00:37:03,680
-AUDIENCE: You have P plus Q
-equals negative R. Should it
+AUDIENCE: Anda memiliki P plus Q
+sama dengan negatif R. Haruskah itu
 
 815
 00:37:03,680 --> 00:37:04,509
-be positive R?
+menjadi R positif?
 
 816
 00:37:08,050 --> 00:37:10,420
-TADGE DRYJA: No.
+TADGE DRYJA: Tidak.
 
 817
 00:37:10,420 --> 00:37:11,590
-In this case, R is up here.
+Dalam hal ini, R ada di atas sini.
 
 818
 00:37:11,590 --> 00:37:13,360
-Right.
+Benar.
 
 819
 00:37:13,360 --> 00:37:14,920
-In this case--
+Pada kasus ini--
 
 820
 00:37:14,920 --> 00:37:17,470
-P. Wait, hold on.
+Tunggu, tunggu.
 
 821
 00:37:17,470 --> 00:37:18,352
-[INTERPOSING VOICES]
+[SUARA INTERPOSING]
 
 822
 00:37:18,352 --> 00:37:19,310
-TADGE DRYJA: Oh, shoot.
+TADGE DRYJA: Oh sial.
 
 823
 00:37:19,310 --> 00:37:19,810
-Sorry.
+Maaf
 
 824
 00:37:19,810 --> 00:37:21,790
-P plus Q equals R. Right.
+P ditambah Q sama dengan R. Benar.
 
 825
 00:37:21,790 --> 00:37:23,840
-Sorry.
+Maaf.
 
 826
 00:37:23,840 --> 00:37:24,340
@@ -3826,7 +3826,7 @@ OK.
 
 827
 00:37:24,340 --> 00:37:25,140
-Never mind.
+Lupakan.
 
 828
 00:37:25,140 --> 00:37:26,180
@@ -3834,12 +3834,12 @@ Yeah.
 
 829
 00:37:26,180 --> 00:37:29,490
-The picture is correct.
+Gambarnya benar.
 
 830
 00:37:29,490 --> 00:37:35,002
-But so basically,
-P plus Q equals R
+Tapi jadi pada dasarnya,
+P ditambah Q sama dengan R
 
 831
 00:37:35,002 --> 00:37:35,960
