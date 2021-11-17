@@ -4758,16 +4758,16 @@ Bagus.
 
 1001
 00:42:36,990 --> 00:42:37,510
-Baik.
+Oke.
 
 1002
 00:42:37,510 --> 00:42:40,120
-Jadi ini seperti-- yang terdapat di
+Jadi ini seperti-- di dalam
 sertifikat SSL, di suatu tempat
 
 1003
 00:42:40,120 --> 00:42:44,160
-di sana, ada byte "10" yang diikuti
+di sana, ada byte "10" ini yang diikuti
 oleh 10 byte data yang menyebutkan
 
 1004
@@ -4777,17 +4777,17 @@ apa nama hostnya.
 1005
 00:42:45,170 --> 00:42:48,840
 Dan terdapat hal lain
-setelah itu, sesudahnya, dan sebelumnya.
+setelah itu, dan sebelumnya.
 
 1006
 00:42:48,840 --> 00:42:50,810
 Dan saat peramban mengambil
-hal itu, jadi, peramban
+nya, yah, peramban
 
 1007
 00:42:50,810 --> 00:42:54,140
 ditulis dalam bahasa C. Dan
-cara C merepresentasikan <i>string</i>
+cara C merepresentasikan string
 
 1008
 00:42:54,140 --> 00:42:56,660
@@ -4795,22 +4795,22 @@ adalah dengan mengakhirinya dengan nilai null.
 
 1009
 00:42:56,660 --> 00:42:59,350
-Jadi dalam C, sebuah <i>string</i> tidak
-memiliki hitungan panjang.
+Jadi dalam C, sebuah string tidak
+mencatat panjangnya.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Sebagai gantinya, <i>string</i> memiliki seluruh byte daya.
+Sebagai gantinya, string memiliki seluruh byte daya.
 
 1011
 00:43:01,080 --> 00:43:03,660
-Dan akhir dari <i>string</i>
+Dan akhir dari string<
 adalah byte bernilai 0.
 
 1012
 00:43:03,660 --> 00:43:07,110
 Dan dalam C, Anda menuliskan hal tersebut dengan
-sebuah karakter <i>backslash</i> nol.
+sebuah \0 (garis miring terbalik dan nol).
 
 1013
 00:43:07,110 --> 00:43:08,740
@@ -4820,7 +4820,7 @@ di peramban Anda.
 1014
 00:43:11,340 --> 00:43:13,310
 Di suatu tempat dalam memori 
-terdapat <i>string</i> ini
+terdapat string ini
 
 1015
 00:43:13,310 --> 00:43:15,951
@@ -4830,7 +4830,7 @@ tambahan nol di akhir.
 1016
 00:43:15,951 --> 00:43:17,700
 Dan ketika peramban
-menafsirkan <i>string</i> ini,
+menafsirkan string ini,
 
 1017
 00:43:17,700 --> 00:43:19,950
@@ -4839,7 +4839,7 @@ ia melihat penanda dari
 
 1018
 00:43:19,950 --> 00:43:22,840
-ujung <i>string</i>, yang merupakan byte nol.
+ujung string, yang merupakan byte nol.
 
 1019
 00:43:22,840 --> 00:43:24,000
@@ -4886,7 +4886,7 @@ orang ini merepresentasikan
 
 1029
 00:43:36,680 --> 00:43:37,850
-<i>string</i> dengan orang ini.
+string dengan orang ini.
 
 1030
 00:43:37,850 --> 00:43:41,530
@@ -4896,7 +4896,7 @@ pemilik domain foo.com.
 1031
 00:43:41,530 --> 00:43:45,731
 Jadi saya dapat mendapatkan sertifikat
-untuk "apapun" titik "foo" titik "com".
+untuk apapun titik foo titik com.
 
 1032
 00:43:45,731 --> 00:43:50,568
@@ -4909,15 +4909,15 @@ amazon.com0x.foo.com.
 
 1034
 00:43:57,325 --> 00:43:59,160
-Itu adalah sebuah <i>string</i> yang sah.
+Itu adalah sebuah string yang sah.
 
 1035
 00:43:59,160 --> 00:44:00,730
-Itu punya sekelompok byte.
+Dia punya sekelompok byte.
 
 1036
 00:44:00,730 --> 00:44:03,710
-Saya rasa ada 10, 11
+Saya rasa 10, 11
 12 13, 14, 15, 16,
 
 1037
@@ -4937,12 +4937,12 @@ ke sebuah otoritas sertifikat,
 1040
 00:44:12,760 --> 00:44:15,230
 dalam banyak kasus, Anda dapat
-berkata, "Hei, sayalah pemilik foo.com.
+berkata, hei, sayalah pemilik foo.com.
 
 1041
 00:44:15,230 --> 00:44:16,990
 Berikan pada saya sertifikat
-untuk benda ini."
+untuk benda ini.
 
 1042
 00:44:16,990 --> 00:44:19,660
@@ -4960,7 +4960,7 @@ Itu sepenuhnya milik Anda.
 1045
 00:44:22,750 --> 00:44:25,220
 Namun kemudian, ketika sebuah peramban
-menerima <i>string</i> ini
+menerima string ini
 
 1046
 00:44:25,220 --> 00:44:27,930
