@@ -4758,88 +4758,88 @@ Bagus.
 
 1001
 00:42:36,990 --> 00:42:37,510
-OK.
+Oke.
 
 1002
 00:42:37,510 --> 00:42:40,120
-So this is like-- in the
-SSL certificate, somewhere
+Jadi ini seperti-- di dalam
+sertifikat SSL, di suatu tempat
 
 1003
 00:42:40,120 --> 00:42:44,160
-in there, there is this byte
-10 followed by 10 bytes saying
+di sana, ada byte "10" ini yang diikuti
+oleh 10 byte data yang menyebutkan
 
 1004
 00:42:44,160 --> 00:42:45,170
-what the host name is.
+apa nama hostnya.
 
 1005
 00:42:45,170 --> 00:42:48,840
-And there's other stuff
-afterwards, right, and before.
+Dan terdapat hal lain
+setelah itu, dan sebelumnya.
 
 1006
 00:42:48,840 --> 00:42:50,810
-And when a browser takes
-it, well, the browser
+Dan saat peramban mengambil
+nya, yah, peramban
 
 1007
 00:42:50,810 --> 00:42:54,140
-is written in C. And the
-way C represents strings
+ditulis dalam bahasa C. Dan
+cara C merepresentasikan string
 
 1008
 00:42:54,140 --> 00:42:56,660
-is by null terminating them.
+adalah dengan mengakhirinya dengan nilai null.
 
 1009
 00:42:56,660 --> 00:42:59,350
-So in C, a string doesn't
-have a length count.
+Jadi dalam C, sebuah string tidak
+mencatat panjangnya.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Instead, it has all the bytes.
+Sebagai gantinya, string memiliki seluruh byte daya.
 
 1011
 00:43:01,080 --> 00:43:03,660
-And the end of the string
-is just the byte zero.
+Dan akhir dari string<
+adalah byte bernilai 0.
 
 1012
 00:43:03,660 --> 00:43:07,110
-And in C, you write it with
-a backslash zero character.
+Dan dalam C, Anda menuliskan hal tersebut dengan
+sebuah \0 (garis miring terbalik dan nol).
 
 1013
 00:43:07,110 --> 00:43:08,740
-So this is in memory
-in your browser.
+Jadi ini ada dalam memori
+di peramban Anda.
 
 1014
 00:43:11,340 --> 00:43:13,310
-Somewhere in memory
-there's this string
+Di suatu tempat dalam memori 
+terdapat string ini
 
 1015
 00:43:13,310 --> 00:43:15,951
-of 11 bytes, now, with
-an extra zero at the end.
+yang berukuran 11 byte, sekarang, dengan 
+tambahan nol di akhir.
 
 1016
 00:43:15,951 --> 00:43:17,700
-And when a browser
-interprets this string,
+Dan ketika peramban
+menafsirkan string ini,
 
 1017
 00:43:17,700 --> 00:43:19,950
-it just keeps going until
-it sees an end of string
+ia akan terus membaca sampai
+ia melihat penanda dari
 
 1018
 00:43:19,950 --> 00:43:22,840
-marker, which is a zero byte.
+ujung string, yang merupakan byte nol.
 
 1019
 00:43:22,840 --> 00:43:24,000
@@ -4847,61 +4847,61 @@ OK.
 
 1020
 00:43:24,000 --> 00:43:26,330
-So, what could go wrong?
+Jadi, apa yang bisa salah?
 
 1021
 00:43:26,330 --> 00:43:28,751
-Any guesses?
+Ada tebakan?
 
 1022
 00:43:28,751 --> 00:43:29,250
-Yeah?
+Ya?
 
 1023
 00:43:29,250 --> 00:43:31,575
-AUDIENCE: You have a zero
-in the middle [INAUDIBLE]?
+AUDIENS: Anda memiliki nol
+di tengah [TAK TERDENGAR]?
 
 1024
 00:43:31,575 --> 00:43:32,040
-PROFESSOR: Yes.
+PROFESSOR: Iya.
 
 1025
 00:43:32,040 --> 00:43:32,510
-This is great.
+Ini bagus.
 
 1026
 00:43:32,510 --> 00:43:33,009
-All right.
+Baiklah.
 
 1027
 00:43:33,009 --> 00:43:35,222
-So, this is actually a
-bit of a discontinuity
+Jadi, ini sebenarnya merupakan
+sedikit ketidaksesuaian
 
 1028
 00:43:35,222 --> 00:43:36,680
-in terms of how
-this guy represents
+dalam hal bagaimana
+orang ini merepresentasikan
 
 1029
 00:43:36,680 --> 00:43:37,850
-strings and this guy.
+string dengan orang ini.
 
 1030
 00:43:37,850 --> 00:43:41,530
-So suppose that I own
-the domain foo.com.
+Jadi contohnya, saya adalah 
+pemilik domain foo.com.
 
 1031
 00:43:41,530 --> 00:43:45,731
-So I can get certificates
-for anything dot foo dot com.
+Jadi saya dapat mendapatkan sertifikat
+untuk apapun titik foo titik com.
 
 1032
 00:43:45,731 --> 00:43:50,568
-So what I could do is ask for
-a certificate for the name
+Jadi yang dapat saya lakukan adalah meminta
+sebuah sertifikat untuk nama
 
 1033
 00:43:50,568 --> 00:43:51,443
@@ -4909,58 +4909,58 @@ amazon.com0x.foo.com.
 
 1034
 00:43:57,325 --> 00:43:59,160
-That's a perfectly valid string.
+Itu adalah sebuah string yang sah.
 
 1035
 00:43:59,160 --> 00:44:00,730
-It has a bunch of bytes.
+Dia punya sekelompok byte.
 
 1036
 00:44:00,730 --> 00:44:03,710
-I guess it's 10, 11
+Saya rasa 10, 11
 12 13, 14, 15, 16,
 
 1037
 00:44:03,710 --> 00:44:05,830
-there's another four, 20, right?
+terdapat 4 byte lagi, 20, benar?
 
 1038
 00:44:05,830 --> 00:44:10,020
-So this is 20 byte name
-with these 20 bytes.
+Jadi ini adalah nama dengan 20 byte 
+dengan 20 byte ini.
 
 1039
 00:44:10,020 --> 00:44:12,760
-So it used to be that if you
-go to a certificate authority,
+Jadi dulu, ketika Anda datang
+ke sebuah otoritas sertifikat,
 
 1040
 00:44:12,760 --> 00:44:15,230
-in many cases, you could
-say, hey, I own foo.com.
+dalam banyak kasus, Anda dapat
+berkata, hei, sayalah pemilik foo.com.
 
 1041
 00:44:15,230 --> 00:44:16,990
-Give me a certificate
-for this thing.
+Berikan pada saya sertifikat
+untuk benda ini.
 
 1042
 00:44:16,990 --> 00:44:19,660
-And they'd be perfectly
-willing to do it because it's
+Dan mereka sepenuhnya bersedia
+untuk melakukannya karena itu
 
 1043
 00:44:19,660 --> 00:44:20,790
-a subdomain of foo.com.
+adalah subdomain dari foo.com.
 
 1044
 00:44:20,790 --> 00:44:22,750
-It's all yours.
+Itu sepenuhnya milik Anda.
 
 1045
 00:44:22,750 --> 00:44:25,220
-But then, when a browser
-takes this string
+Namun kemudian, ketika sebuah peramban
+menerima string ini
 
 1046
 00:44:25,220 --> 00:44:27,930

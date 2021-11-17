@@ -2226,265 +2226,265 @@ tanggal kedaluwarsa untuk seberapa lama
 
 468
 00:20:43,050 --> 00:20:44,260
-the stick is valid.
+tiket ini valid.
 
 469
 00:20:44,260 --> 00:20:48,400
-And there's also
-a key, KCS, that's
+Dan juga ada
+sebuah kunci, KCS, yang
 
 470
 00:20:48,400 --> 00:20:51,860
-going to be shared between
-the client and the server.
+akan dibagikan kepada
+client dan server.
 
 471
 00:20:51,860 --> 00:20:53,790
-So that's what's in a ticket.
+Jadi itulah yang ada di dalam sebuah tiket.
 
 472
 00:20:53,790 --> 00:20:56,610
-And there's also this
-other weird data structure
+Dan ada juga
+struktur data yang aneh ini
 
 473
 00:20:56,610 --> 00:20:59,380
-that Kerberos introduces
-called an authenticator.
+yang Kerberos perkenalkan
+bernama authenticator.
 
 474
 00:20:59,380 --> 00:21:03,590
-And an authenticator goes
-with a particular client C.
+Dan sebuah authenticator akan bersama-sama
+sebuah client C tertentu.
 
 475
 00:21:03,590 --> 00:21:06,530
-And this thing is just
-the client's name,
+Dan benda ini hanya berisi
+nama client,
 
 476
 00:21:06,530 --> 00:21:11,640
-the IP address of the
-client, and the time stamp
+alamat IP client,
+dan sebuah time stamp
 
 477
 00:21:11,640 --> 00:21:15,210
-when the client generated
-this authenticator.
+ketika client membangkitkan
+authenticator tersebut.
 
 478
 00:21:15,210 --> 00:21:18,270
-And typically, both of
-these things are encrypted.
+Dan biasanya, kedua
+benda ini terenkripsi.
 
 479
 00:21:18,270 --> 00:21:20,520
-And authenticator is
-typically scripted
+dan pemberi otentikasi
+biasanya ditulis
 
 480
 00:21:20,520 --> 00:21:23,760
-with the key between the
-client on the server.
+dengan kunci yang ada di antara 
+klien di server.
 
 481
 00:21:23,760 --> 00:21:25,670
-So the authenticator
-sort of has to do
+Jadi pemberi otentikasi
+semacam memiliki hal yang harus dilakukan
 
 482
 00:21:25,670 --> 00:21:29,110
-with a particular connection
-between a client and a server.
+dengan koneksi tertentu
+di antara klien dan server.
 
 483
 00:21:29,110 --> 00:21:31,550
-And the Kerberos
-ticket itself here
+dan tiket Kerberos
+ikut terkirim disini
 
 484
 00:21:31,550 --> 00:21:38,140
-is typically encrypted with
-the key for the service KS.
+biasanya dienkripsi dengan
+kunci untuk layanan KS.
 
 485
 00:21:38,140 --> 00:21:41,010
-So the subscript
-notation denotes here
+Jadi notasi subskrip
+menyatakan di sini
 
 486
 00:21:41,010 --> 00:21:45,050
-encryption with
-a particular key.
+enkripsi dilakukan dengan
+kunci tertentu.
 
 487
 00:21:45,050 --> 00:21:48,470
-All right, so what does this--
-so using this sort of notation
+Baiklah, jadi apa ini--
+jadi menggunakan notasi seperti ini
 
 488
 00:21:48,470 --> 00:21:50,670
-here, let's try to figure
-out what is the protocol.
+di sini, mari kita coba untuk mencari
+tahu apa protokolnya.
 
 489
 00:21:50,670 --> 00:21:53,650
-By which the user initially
-logs into this Kerberos
+Di mana pengguna awalnya
+sudah login ke Kerberos
 
 490
 00:21:53,650 --> 00:21:56,010
-and gets their TGS ticket.
+dan mendapatkan tiket TGS mereka.
 
 491
 00:21:56,010 --> 00:21:59,240
-So as we saw here
-before, right, the plan
+Jadi, seperti yang bisa kita lihat
+sebelumnya, rencananya
 
 492
 00:21:59,240 --> 00:22:06,030
-is the client is going to
-send their username over
+adalah client akan
+mengirim usernamenya
 
 493
 00:22:06,030 --> 00:22:10,130
-to the Kerberos server
-or that interface.
+ke server Kerberos
+atau interface tersebut.
 
 494
 00:22:10,130 --> 00:22:12,140
-And the response is
-going to be a ticket.
+Dan responnya
+berupa sebuah tiket.
 
 495
 00:22:12,140 --> 00:22:13,760
-And what precisely
-the client actually
+Dan lebih tepatnya
+apa yang client sebenarnya
 
 496
 00:22:13,760 --> 00:22:17,710
-sends over-- both the username
-C of the client that's
+kirim-- kedua username C
+dari client yang
 
 497
 00:22:17,710 --> 00:22:22,150
-issuing the request as well
-as the principal name-- well,
+melakukan request maupun
+nama prinsipielnya-- yah,
 
 498
 00:22:22,150 --> 00:22:23,760
-the client is also
-a principal name.
+client juga memiliki
+nama prinsipiel.
 
 499
 00:22:23,760 --> 00:22:25,840
-But the client also
-sends the principal name
+Tapi client juga mengirim
+nama prinsipiel
 
 500
 00:22:25,840 --> 00:22:29,720
-of the service for which it
-would like to get a ticket.
+dari layanan yang diinginkan
+untuk mendapatkan sebuah tiket.
 
 501
 00:22:29,720 --> 00:22:32,880
-And typically, the service name
-is actually the service name
+Dan biasanya, nama layanan itu
+sebenarnya adalah nama layanan
 
 502
 00:22:32,880 --> 00:22:34,700
-of this TGS guy over here.
+dari TGS disini.
 
 503
 00:22:34,700 --> 00:22:36,150
-So you get a ticket for them.
+Jadi Anda mendapatkan sebuah tiket untuk mereka.
 
 504
 00:22:36,150 --> 00:22:38,191
-But you could get a ticket
-for almost any service
+Tetapi Anda bisa mendapatkan sebuah tiket
+untuk hampir semua service
 
 505
 00:22:38,191 --> 00:22:39,700
-you want in this way.
+yang kamu inginkan dengan cara ini.
 
 506
 00:22:39,700 --> 00:22:42,430
-And their response
-is going to be
+Dan respon dari mereka
+akan menjadi
 
 507
 00:22:42,430 --> 00:22:44,380
-this sort of interesting tuple.
+pasangan menarik semacam ini.
 
 508
 00:22:44,380 --> 00:22:47,030
-It's going to be your
-ticket between the client
+Itu akan menjadi ticket
+milikmu antara client
 
 509
 00:22:47,030 --> 00:22:50,930
-and the server encrypted
-just with that key KS
+dan server yang terenkripsi
+hanya dengan kunci KS
 
 510
 00:22:50,930 --> 00:22:53,560
-as shown above.
+seperti yang diperlihatkan di atas.
 
 511
 00:22:53,560 --> 00:22:56,170
-I guess we should
-write that down with KS
+Sepertinya kita harus
+menulis itu dengan KS
 
 512
 00:22:56,170 --> 00:23:01,140
-And also, you get to
-this shared key-- key CS.
+Dan juga, Anda bisa 
+berbagi kunci-- kunci KS.
 
 513
 00:23:01,140 --> 00:23:06,180
-And this whole thing
-is encrypted with KC.
+Dan semua hal tersebut
+sudah dienkripsi dengan KC.
 
 514
 00:23:06,180 --> 00:23:08,690
-So that's the wire protocol.
+Jadi itulah protokol nya.
 
 515
 00:23:08,690 --> 00:23:11,190
-So I guess let's try to
-figure out a couple things.
+Jadi saya kira mari kita coba
+mencari tahu beberapa hal.
 
 516
 00:23:11,190 --> 00:23:17,770
-So first of all, how
-does the Kerberos server
+Jadi pertama-tama, bagaimana
+server Kerberos
 
 517
 00:23:17,770 --> 00:23:19,020
-authenticate the client here?
+mengotentikasi klien disini?
 
 518
 00:23:19,020 --> 00:23:20,910
-How does it know that this
-is the right user making
+Bagaimana dia tahu bahwa ini
+adalah user yang membuat
 
 519
 00:23:20,910 --> 00:23:21,451
-this request?
+permintaan ini?
 
 520
 00:23:24,395 --> 00:23:24,895
-Yeah.
+Yah.
 
 521
 00:23:24,895 --> 00:23:27,128
-STUDENT: It can make
-sure that the ticket
+MAHASISWA: Dia bisa memastikan
+tiket
 
 522
 00:23:27,128 --> 00:23:29,100
-that it sent because it has KC.
+yang dikirim karena memiliki KC.
 
 523
 00:23:29,100 --> 00:23:31,020
