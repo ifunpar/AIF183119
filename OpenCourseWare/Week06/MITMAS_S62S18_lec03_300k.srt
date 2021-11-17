@@ -3525,48 +3525,48 @@ Dan itu tampaknya sangat sederhana.
 
 760
 00:34:54,920 --> 00:34:56,239
-We can totally understand that.
+Kami benar-benar dapat memahami itu.
 
 761
 00:34:56,239 --> 00:34:58,220
-But it gets a little weird.
+Tetapi itu menjadi sedikit aneh.
 
 762
 00:34:58,220 --> 00:35:02,330
-With elliptic curves, you have
-these points on the curves,
+Dengan kurva eliptik, Anda memiliki
+titik-titik ini pada kurva,
 
 763
 00:35:02,330 --> 00:35:02,870
-right?
+benar?
 
 764
 00:35:02,870 --> 00:35:06,530
-And another property is if
-you draw a straight line that
+Dan properti lainnya adalah jika
+Anda menggambar garis lurus itu
 
 765
 00:35:06,530 --> 00:35:08,463
-intersects this curve--
+memotong kurva ini--
 
 766
 00:35:08,463 --> 00:35:10,130
-you could also draw
-a line which doesn't
+kamu juga dapat menggambar
+garis yang tidak
 
 767
 00:35:10,130 --> 00:35:11,218
-intersect at all, fine--
+berpotongan sama sekali, baiklah--
 
 768
 00:35:11,218 --> 00:35:13,260
-but if you draw a line
-that intersects the curve,
+tetapi jika Anda menggambar garis
+yang memotong kurva,
 
 769
 00:35:13,260 --> 00:35:16,575
-it will intersect
-in three places.
+itu akan berpotongan
+di tiga tempat.
 
 770
 00:35:16,575 --> 00:35:18,950
@@ -3575,79 +3575,79 @@ intersects these three dots.
 
 771
 00:35:18,950 --> 00:35:21,560
-If I draw a line here,
-it intersects here, here,
+Jadi jika saya menggambar garis di sini, itu
+memotong tiga titik ini.
 
 772
 00:35:21,560 --> 00:35:23,520
-and then it'll intersect
-somewhere down here.
+dan kemudian akan berpotongan
+di suatu tempat di bawah sini.
 
 773
 00:35:23,520 --> 00:35:26,690
-It'll intersect in three
-places unless I take a tangent.
+Itu akan berpotongan menjadi tiga
+tempat kecuali saya mengambil garis singgung.
 
 774
 00:35:26,690 --> 00:35:28,430
-If I draw, and I try
-to be like, oh, I'm
+Jika saya menggambar, dan saya mencoba
+menjadi seperti, oh, saya
 
 775
 00:35:28,430 --> 00:35:30,230
-going only intersect
-in two, well, I
+hanya akan berpotongan
+dalam dua, yah, saya
 
 776
 00:35:30,230 --> 00:35:32,480
-can take a tangent
-here, and it'll
+dapat mengambil garis singgung
+di sini, dan itu akan
 
 777
 00:35:32,480 --> 00:35:34,160
-intersect in one more place.
+berpotongan di satu tempat lagi.
 
 778
 00:35:34,160 --> 00:35:36,430
-What we can do, though,
-is we can say, well,
+Apa yang bisa kita lakukan, meskipun,
+adalah kita dapat mengatakan, baik,
 
 779
 00:35:36,430 --> 00:35:38,180
-if you intersect at a
-tangent, that's kind
+jika berpotongan di sebuah
+garis singgung, itu baik
 
 780
 00:35:38,180 --> 00:35:40,893
-of like intersecting twice.
+seperti berpotongan dua kali.
 
 781
 00:35:40,893 --> 00:35:41,810
-We can deal with that.
+Kita bisa mengsepakatinya.
 
 782
 00:35:41,810 --> 00:35:43,637
-AUDIENCE: What if you
-draw a vertical line?
+AUDIENCE: Bagaimana jika Anda
+menggambar sebuah garis vertikal?
 
 783
 00:35:43,637 --> 00:35:45,970
-TADGE DRYJA: If you draw a
-vertical-- oh, yeah, vertical
+TADGE DRYJA: Jika kamu menggambar sebuah
+vertikal-- oh, yeah, vertikal
 
 784
 00:35:45,970 --> 00:35:47,710
-line, then there's
-a point at infinity,
+garis, lalu ada
+titik tak terhingga,
 
 785
 00:35:47,710 --> 00:35:49,498
-which shouldn't happen.
+yang seharusnya tidak terjadi.
 
 786
 00:35:49,498 --> 00:35:51,070
-AUDIENCE: But
-infinity is included--
+AUDIENCE: Tetapi
+tak terhingga juga termasuk--
 
 787
 00:35:51,070 --> 00:35:51,385
@@ -3655,13 +3655,13 @@ TADGE DRYJA: Yeah.
 
 788
 00:35:51,385 --> 00:35:53,380
-AUDIENCE: --in the set
-of points on the curve?
+AUDIENCE: --dalam
+himpunan titik pada kurva?
 
 789
 00:35:53,380 --> 00:35:55,130
-So it's like there's
-three points, anyway.
+Jadi seperti ada
+tiga poin, sih.
 
 790
 00:35:55,130 --> 00:35:56,290
@@ -3669,57 +3669,57 @@ TADGE DRYJA: Yeah.
 
 791
 00:35:56,290 --> 00:35:57,950
-There's a point up there--
+Ada titik di sana--
 
 792
 00:35:57,950 --> 00:35:58,450
-sort of.
+semacam.
 
 793
 00:36:01,150 --> 00:36:02,920
-In the practice of
-signing and stuff,
+Dalam praktek
+penandatanganan dan lain-lain,
 
 794
 00:36:02,920 --> 00:36:05,910
-you probably shouldn't hit it.
+Anda mungkin tidak harus hitnya.
 
 795
 00:36:05,910 --> 00:36:08,290
-Yeah.
+yeah.
 
 796
 00:36:08,290 --> 00:36:12,310
-But so what we do is we say,
-OK, well, three points in a line
+Tapi jadi apa yang kita lakukan adalah kita katakan,
+Oke, nah, tiga poin berturut-turut di sebuah garis
 
 797
 00:36:12,310 --> 00:36:14,630
-equals zero.
+sama dengan nol.
 
 798
 00:36:14,630 --> 00:36:18,590
-And so if we take this
-point plus this point
+Jadi jika kita mengambil ini
+poin ditambah poin ini
 
 799
 00:36:18,590 --> 00:36:20,570
-plus this point, that's zero.
+ditambah poin ini, itu nol.
 
 800
 00:36:20,570 --> 00:36:25,550
-Another way to say that is
-P plus Q minus R equals 0,
+Cara lain untuk mengatakan itu adalah
+P ditambah Q dikurangi R sama dengan 0,
 
 801
 00:36:25,550 --> 00:36:30,500
-or P plus Q equals negative
-R. And another property is
+atau P plus Q sama dengan negatif
+R. Dan sifat lainnya adalah
 
 802
 00:36:30,500 --> 00:36:34,790
-the negation of a point
-is just that same point
+negasi suatu titik
+hanya titik yang sama
 
 803
 00:36:34,790 --> 00:36:37,160
