@@ -3605,45 +3605,45 @@ karena x tidak
 
 762
 00:32:50,210 --> 00:32:51,200
-bounded in length.
+terikat oleh panjang.
 
 763
 00:32:51,200 --> 00:32:56,000
-You can have a megabyte or a
-gigabyte or a terabyte size x.
+Anda dapat mempunyai sebuah x dengan besar megabyte, 
+gigabyte atau terabyte.
 
 764
 00:32:56,000 --> 00:32:58,700
-So since there are sort of
+Jadi sejak ada semacam
 infinite numbers of x's,
 
 765
 00:32:58,700 --> 00:33:03,290
-and a fixed, though very
+dan jumlah tetap, meskipun sangat
 large number of y's, as long
 
 766
 00:33:03,290 --> 00:33:05,300
-as it is a random
+seperti itulah adanya sebuah acak 
 mapping, there will
 
 767
 00:33:05,300 --> 00:33:08,300
-be lots of different x's
+ada banyak perbedaan x
 that can lead to this y.
 
 768
 00:33:08,300 --> 00:33:11,030
-And so you should
+dan anda harus demikian
 be able to find it.
 
 769
 00:33:11,030 --> 00:33:12,647
-It's just impractical.
+Itu hanya tidak praktis.
 
 770
 00:33:12,647 --> 00:33:14,480
-It's like, yeah, you
+Itu seperti, yah, anda
 may be able to find it,
 
 771
@@ -3653,25 +3653,25 @@ you two to the 256 tries
 
 772
 00:33:17,680 --> 00:33:20,560
-to find any specific y value.
+untuk menemukan nilai spesifik y.
 
 773
 00:33:20,560 --> 00:33:23,140
-And that's about
+dan mengenai itu
 10 to the 78, which
 
 774
 00:33:23,140 --> 00:33:25,930
-is a number that's big enough
+sebuah angka yang cukup besar.
 that you can sort of round it
 
 775
 00:33:25,930 --> 00:33:27,240
-up to infinity.
+mencapai tak hingga.
 
 776
 00:33:27,240 --> 00:33:30,468
-Well, I mean, not
+Baiklah, Saya maksud, tidak
 quite, but big enough
 
 777
