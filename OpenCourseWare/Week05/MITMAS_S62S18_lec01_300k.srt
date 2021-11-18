@@ -3471,13 +3471,13 @@ di awal
 
 734
 00:31:30,280 --> 00:31:32,230
-will sort of propagate
-an avalanche, too,
+akan seperti menyebarkan
+sebuag penurunan, juga,
 
 735
 00:31:32,230 --> 00:31:35,940
-so that all the output bits
-have been affected by it.
+sehingga semua keluaran bit
+sudah terpengaruh olehnya.
 
 736
 00:31:35,940 --> 00:31:36,440
@@ -3485,56 +3485,56 @@ OK.
 
 737
 00:31:36,440 --> 00:31:38,602
-And a little bit
-more well-defined.
+Dan sedikit lebih
+terdefinisi dengan baik
 
 738
 00:31:38,602 --> 00:31:40,310
-Generally, the hash
-functions are defined
+Umumnya, fungsi hash
+didefinisikan
 
 739
 00:31:40,310 --> 00:31:42,080
-by what they should not do.
+dengan apa yang seharusnya tidak mereka lakukan.
 
 740
 00:31:42,080 --> 00:31:44,420
-So the three main things
-they should have--
+Jadi ada tiga hal utama
+yang seharusnya mereka miliki-- 
 
 741
 00:31:44,420 --> 00:31:47,390
-preimage resistance,
-second preimage resistance,
+resistensi pragambar,
+resistensi pragambar kedua,
 
 742
 00:31:47,390 --> 00:31:50,900
-which I'll sort of skip over,
-and collision resistance.
+Yang akan saya lewati,
+dan resistensi benturan.
 
 743
 00:31:50,900 --> 00:31:54,020
-And we can define
-what these things are.
+Dan kita bisa menentukan
+Hal-hal apa ini.
 
 744
 00:31:54,020 --> 00:31:59,600
-So a preimage is the thing
-that came before the output.
+Jadi preimage adalah hal
+yang datang sebelum output.
 
 745
 00:31:59,600 --> 00:32:00,890
-So it's sort of a math-y term.
+Jadi itu semacam istilah matematika .
 
 746
 00:32:00,890 --> 00:32:06,410
-But the idea is OK, if you know
-y, you can't find any x such
+Tapi idenya OK, jika anda tahu
+y, anda tidak dapat menemukan x seperti itu
 
 747
 00:32:06,410 --> 00:32:08,870
-that the hash of
-x is equal to y.
+bahwa hash dari
+x sama dengan y.
 
 748
 00:32:08,870 --> 00:32:13,640
