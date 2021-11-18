@@ -3109,27 +3109,27 @@ saat ini untuk hal itu.
 
 657
 00:28:45,690 --> 00:28:47,290
-Telah ada 
+Ada beberapa 
 situasi tertentu
 
 658
 00:28:47,290 --> 00:28:49,810
-dimana sertifikat
-otoritas muncul
+dimana otoritas
+sertifikat tampaknya
 
 659
 00:28:49,810 --> 00:28:51,400
-telah dikompromikan.
+telah disusupi.
 
 660
 00:28:51,400 --> 00:28:54,870
 Jadi pada 2011, terdapat
-dua CAs yang  
+dua CA yang  
 
 661
 00:28:54,870 --> 00:28:58,200
-dikomporikan dalam
-masalah, atau mereka entah bagaimana
+telah disusupi, 
+atau mereka entah bagaimana
 
 662
 00:28:58,200 --> 00:29:00,090
@@ -3142,7 +3142,7 @@ untuk Facebook, dan lain-lain.
 
 664
 00:29:01,790 --> 00:29:03,290
-Dan tidak jelas.
+Dan hal ini tidak jelas.
 
 665
 00:29:03,290 --> 00:29:05,010
@@ -3151,13 +3151,13 @@ mencuri kunci rahasia mereka.
 
 666
 00:29:05,010 --> 00:29:09,150
-Jadi yang terjadi adalah aku
-pikir CAs tersebut sebenarnya
+Jadi yang terjadi adalah saya
+pikir CA tersebut sebenarnya
 
 667
 00:29:09,150 --> 00:29:12,010
 telah dihapus dari 
-kumpulan CAs terpercaya
+kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
