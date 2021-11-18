@@ -3062,50 +3062,50 @@ sudah tidak berlaku.
 
 646
 00:28:27,910 --> 00:28:29,016
-The client rejects it.
+Klien menolaknya.
 
 647
 00:28:29,016 --> 00:28:29,988
-Yeah.
+Ya.
 
 648
 00:28:29,988 --> 00:28:30,474
-AUDIENCE: Sorry, one last thing.
+AUDIENS: Maaf, satu hal terakhir.
 
 649
 00:28:30,474 --> 00:28:30,960
-PROFESSOR: Yeah.
+PROFESSOR: Iya.
 
 650
 00:28:30,960 --> 00:28:32,418
-AUDIENCE: So let's say
-I've stolen the secret key
+AUDIENS: Jadi katakanlah
+saya telah mencuri kunci rahasia
 
 651
 00:28:32,418 --> 00:28:33,876
-on the certificate [INAUDIBLE].
+dari sertifikat [TIDAK TERDENGAR].
 
 652
 00:28:33,876 --> 00:28:35,140
-All public keys are
-[? hard coded-- ?]
+Semua kunci publik
+[? dikode secara langsung-- ?]
 
 653
 00:28:35,140 --> 00:28:35,973
-PROFESSOR: Oh, yeah.
+PROFESSOR: Oh, iya.
 
 654
 00:28:35,973 --> 00:28:38,730
-That's [INAUDIBLE] really bad.
+Itu [TIDAK TERDENGAR] sangat buruk.
 
 655
 00:28:38,730 --> 00:28:42,280
-I don't think there's any
-solution baked into the system
+Saya tidak berpikir ada
+solusi yang dimasukkan ke dalam sistem
 
 656
 00:28:42,280 --> 00:28:45,690
-right now for this.
+saat ini untuk hal itu.
 
 657
 00:28:45,690 --> 00:28:47,290
