@@ -4748,52 +4748,53 @@ ide yang sangat kuat.
 
 1012
 00:53:49,950 --> 00:53:54,610
-It, as I said, assumed that the
-entropy-- and I'm belaboring
+Seperti yang saya katakan, mengasumsikan bahwa
+entropi-- dan menjelaskan
+
 
 1013
 00:53:54,610 --> 00:53:56,890
-the obvious now--
-but it is important
+yang sudah jelas sekarang--
+tapi ini sangat penting
 
 1014
 00:53:56,890 --> 00:53:59,890
-when you talk about security
-to state your assumptions.
+Ketika anda berbicara tentang keamanan
+untuk menyatakan asumsi anda.
 
 1015
 00:53:59,890 --> 00:54:04,380
-But you do not store
-password on your computer.
+Tetapi anda tidak menyimpan 
+password di komputer anda.
 
 1016
 00:54:04,380 --> 00:54:06,940
-And you store the
-hash of the password.
+Dan anda menyimpan
+hash dari password tersebut.
 
 1017
 00:54:06,940 --> 00:54:09,530
-Now why do I store my
-password on the computer?
+Kenapa anda menyimpan
+password anda di komputer ?
 
 1018
 00:54:09,530 --> 00:54:12,200
-Because this is so
-inconvenient, right?
+Ini sangat tidak
+nyaman, bukan ?
 
 1019
 00:54:12,200 --> 00:54:15,180
-So this is what the
-system does for me.
+Jadi ini yang sistem
+lakukan untuk anda.
 
 1020
 00:54:15,180 --> 00:54:18,110
-But the fact of the matter
-is, if I lose my password,
+Tetapi, inti masalahnya adalah
+jika anda kehilangan password anda,
 
 1021
 00:54:18,110 --> 00:54:19,470
-this doesn't help me.
+Ini tidak membantu anda.
 
 1022
 00:54:19,470 --> 00:54:24,050
