@@ -4631,7 +4631,7 @@ domainnya kecil
 987
 00:52:53,350 --> 00:52:55,120
 Anda bisa sekedar
-menghitung domain.
+menelusuri domain.
 
 988
 00:52:55,120 --> 00:52:57,062
@@ -4644,7 +4644,7 @@ dan sudah jelas
 
 990
 00:52:58,770 --> 00:53:00,300
-itu akan relevan disini.
+itu akan relevan di sini.
 
 991
 00:53:00,300 --> 00:53:02,520
@@ -4663,13 +4663,13 @@ file, diasumsikan
 
 994
 00:53:06,700 --> 00:53:11,040
-anda punya password panjang
+Anda punya password panjang
 akan dilakukan seperti ini,
 
 995
 00:53:11,040 --> 00:53:13,320
 jika tidak akan membutuhkan sesuatu
-yang dinamakan 'salt'.
+yang dinamakan salt (garam).
 
 996
 00:53:13,320 --> 00:53:16,540
@@ -4678,45 +4678,45 @@ dan kita tidak akan kesana.
 
 997
 00:53:16,540 --> 00:53:19,590
-Jadi kita akan berasumsi
+Jadi kita hanya berasumsi
 sebuah entropi yang besar.
 
 998
 00:53:19,590 --> 00:53:21,980
-Apa itu yang bisa dilakukan sebuah sistem?
+Apa yang bisa dilakukan sebuah sistem?
 
 999
 00:53:21,980 --> 00:53:26,210
-Apa yang bisa disimpannya agar
-bisa membiarkanmu masuk, dan hanya
+Di mana dia bisa disimpan agar
+bisa mengizinkan Anda masuk,
 
 1000
 00:53:26,210 --> 00:53:28,830
-membiarkanmu masuk ketika
+hanya jika ketika
 Anda mengetik kata sandi,
 
 1001
 00:53:28,830 --> 00:53:32,190
 dan tidak membiarkan kata sandi palsu
-masuk ke sistem?
+digunakan untuk masuk ke sistem?
 
 1002
 00:53:32,190 --> 00:53:34,610
 Atau sesorang dengan kata sandi palsu
-ke dalam sistem.
+masuk ke dalam sistem.
 
 1003
 00:53:34,610 --> 00:53:35,249
-Ya, silahkan.
+Ya, silakan.
 
 1004
 00:53:35,249 --> 00:53:37,540
-HADIRIN: Jika Anda menangkap
+AUDIENS: Jika Anda menangkap
 kata sandi palsu saat Anda memasukkannya
 
 1005
 00:53:37,540 --> 00:53:39,380
-dan bandingkan dengan 
+dan dibandingkan dengan 
 apa yang disimpan--
 
 1006
@@ -4725,17 +4725,17 @@ SRINIVAS DEVADAS: Ya.
 
 1007
 00:53:40,347 --> 00:53:42,430
-HADIRIN: Jika itu hash satu arah, 
-Anda tahu Anda memilikinya
+AUDIENS: Jika itu hash satu arah, 
+Anda tahu Anda memiliki
 
 1008
 00:53:42,430 --> 00:53:42,730
-kata sandi apa yang benar.
+kata sandi yang benar.
 
 1009
 00:53:42,730 --> 00:53:43,820
 SRINIVAS DEVADAS:
-Itu benar.
+Itu benar sekali.
 
 1010
 00:53:43,820 --> 00:53:44,790
@@ -4743,14 +4743,13 @@ Itu benar.
 
 1011
 00:53:44,790 --> 00:53:49,950
-Jadi itu merupakan ide yang sangat sederhana, 
+Jadi itu merupakan ide yang sangat sederhana,
 ide yang sangat kuat.
 
 1012
 00:53:49,950 --> 00:53:54,610
 Seperti yang saya katakan, mengasumsikan bahwa
-entropi-- dan menjelaskan
-
+entropi-- dan saya menjelaskan
 
 1013
 00:53:54,610 --> 00:53:56,890
@@ -4759,57 +4758,57 @@ tapi ini sangat penting
 
 1014
 00:53:56,890 --> 00:53:59,890
-Ketika anda berbicara tentang keamanan
-untuk menyatakan asumsi anda.
+ketika Anda berbicara tentang keamanan
+untuk menyatakan asumsi Anda.
 
 1015
 00:53:59,890 --> 00:54:04,380
-Tetapi anda tidak menyimpan 
-password di komputer anda.
+Tetapi Anda tidak menyimpan 
+kata sandi di komputer Anda.
 
 1016
 00:54:04,380 --> 00:54:06,940
-Dan anda menyimpan
+Dan Anda menyimpan
 hash dari password tersebut.
 
 1017
 00:54:06,940 --> 00:54:09,530
-Kenapa anda menyimpan
-password anda di komputer ?
+Sekarang, kenapa saya menyimpan
+kata sandi di komputer?
 
 1018
 00:54:09,530 --> 00:54:12,200
-Ini sangat tidak
-nyaman, bukan ?
+Karena ini sangat
+merepotkan, bukan?
 
 1019
 00:54:12,200 --> 00:54:15,180
 Jadi ini yang sistem
-lakukan untuk anda.
+lakukan untuk Anda.
 
 1020
 00:54:15,180 --> 00:54:18,110
 Tetapi, inti masalahnya adalah
-jika anda kehilangan password anda,
+jika saya kehilangan password saya,
 
 1021
 00:54:18,110 --> 00:54:19,470
-Ini tidak membantu anda.
+Ini tidak membantu saya.
 
 1022
 00:54:19,470 --> 00:54:24,050
-Karena sistem menginginkan anda
+Karena sistem menginginkan Anda
 untuk memilih sebuah kata sandi
 
 1023
 00:54:24,050 --> 00:54:26,720
-yang cukup panjang, 
-serta h-nya one-way
+yang cukup panjang,
+serta h-nya satu arah(one-way).
 
 1024
 00:54:26,720 --> 00:54:30,960
 Jadi siapapun yang menemukan h dari
-PW yang dapat di-read secara public
+PW yang dapat dibaca secara publik
 
 1025
 00:54:30,960 --> 00:54:33,840
@@ -4821,45 +4820,45 @@ Inilah yang keren tentang hal ini.
 
 1027
 00:54:36,420 --> 00:54:38,740
-Bagaimana cara anda membiarkan 
-orang tersebut melakukan log in?
+Bagaimana Anda mengizinkan
+orang tersebut log in?
 
 1028
 00:54:38,740 --> 00:54:47,860
 Gunakan h dari PW untuk dibandingkan
-dengan h dari PW prima,
+dengan h dari PW aksen,
 
 1029
 00:54:47,860 --> 00:54:54,420
-dari yang dimasukan, dimana 
-PW prima perupakan password yang diketik.
+yaitu apa yang dimasukan, dimana 
+PW aksen perupakan kata sandi yang diketik.
 
 1030
 00:55:00,540 --> 00:55:08,530
-Dan jelas sekali yang kita perlukan
-ialah penyingkapan dari h dari PW
+Dan jelas yang kita perlukan
+adalah pengungkapan h dari PW
 
 1031
 00:55:08,530 --> 00:55:14,960
-seharusnya tidak menunjukan PW.
+tidak boleh mengungkap PW.
 
 1032
 00:55:14,960 --> 00:55:19,570
-Jadi kita secara pasti membutuhkan 
-cara yang satu arah saja.
+Jadi kita pasti membutuhkan 
+sifat satu arah.
 
 1033
 00:55:19,570 --> 00:55:24,370
-Bagaimana-- bagaimana halnya 
-dengan Collision Resistance?
+Bagaimana tentang-- bagaimana
+tentang Collision Resistance?
 
 1034
 00:55:24,370 --> 00:55:28,340
-target collision resistance kita?
+Target collision resistance kita?
 
 1035
 00:55:28,340 --> 00:55:31,350
-Sekarang, berpikirlah seperti seorang praktisi, bukan?
+Sekarang, berpikirlah secara praktis, oke?
 
 1036
 00:55:31,350 --> 00:55:33,590
@@ -4868,7 +4867,7 @@ fungsi hash ini
 
 1037
 00:55:33,590 --> 00:55:34,880
-yang collision resistant?
+bersifat collision resistant?
 
 1038
 00:55:34,880 --> 00:55:37,150
@@ -4882,11 +4881,11 @@ aplikasi khusus ini?
 
 1040
 00:55:40,315 --> 00:55:40,940
-Ya, silahkan.
+Ya, silakan.
 
 1041
 00:55:40,940 --> 00:55:44,860
-MAHASISWA: Artinya seseorang
+AUDIENS: Artinya seseorang
 yang memasukkan kata sandi yang berbeda
 
 1042
@@ -4900,17 +4899,17 @@ SRINIVAS DEVADAS: Tepat.
 
 1044
 00:55:48,190 --> 00:55:56,600
-Jadi itu berarti bahwa apa yang anda miliki
-adalah sebuah situasi dimana anda tidak 
+Jadi itu berarti bahwa apa yang Anda hadapi
+adalah sebuah situasi di mana Anda tidak
 
 1045
 00:55:56,600 --> 00:56:00,900
 mengungkapkan-- dan apa yang mungkin
-terjadi bahwa h(PW') 
+terjadi adalah h dari PW aksen
 
 1046
 00:56:00,900 --> 00:56:02,460
-sama dengan h(PW)
+sama dengan h dari PW
 
 1047
 00:56:02,460 --> 00:56:07,190
