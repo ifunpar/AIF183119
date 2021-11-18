@@ -3543,7 +3543,7 @@ benar?
 764
 00:35:02,870 --> 00:35:06,530
 Dan properti lainnya adalah jika
-Anda menggambar garis lurus itu
+Anda menggambar garis lurus yang
 
 765
 00:35:06,530 --> 00:35:08,463
@@ -3551,7 +3551,7 @@ memotong kurva ini--
 
 766
 00:35:08,463 --> 00:35:10,130
-kamu juga dapat menggambar
+Anda juga dapat menggambar
 garis yang tidak
 
 767
@@ -3565,18 +3565,18 @@ yang memotong kurva,
 
 769
 00:35:13,260 --> 00:35:16,575
-itu akan berpotongan
+dia akan berpotongan
 di tiga tempat.
 
 770
 00:35:16,575 --> 00:35:18,950
-So if I draw a line here, it
-intersects these three dots.
+Jadi jika saya menggambar sebuah garis di sini,
+dia berpotongan di tiga titik ini.
 
 771
 00:35:18,950 --> 00:35:21,560
-Jadi jika saya menggambar garis di sini, itu
-memotong tiga titik ini.
+Jika saya menggambar garis di sini,
+dia berpotongan di sini, sini,
 
 772
 00:35:21,560 --> 00:35:23,520
@@ -3585,8 +3585,8 @@ di suatu tempat di bawah sini.
 
 773
 00:35:23,520 --> 00:35:26,690
-Itu akan berpotongan menjadi tiga
-tempat kecuali saya mengambil garis singgung.
+Dia akan berpotongan menjadi tiga
+tempat kecuali saya mengambil garis singgung (tangent).
 
 774
 00:35:26,690 --> 00:35:28,430
@@ -3601,7 +3601,7 @@ dalam dua, yah, saya
 776
 00:35:30,230 --> 00:35:32,480
 dapat mengambil garis singgung
-di sini, dan itu akan
+di sini, dan dia akan
 
 777
 00:35:32,480 --> 00:35:34,160
@@ -3609,13 +3609,13 @@ berpotongan di satu tempat lagi.
 
 778
 00:35:34,160 --> 00:35:36,430
-Apa yang bisa kita lakukan, meskipun,
+Apa yang bisa kita lakukan, sebenarny,
 adalah kita dapat mengatakan, baik,
 
 779
 00:35:36,430 --> 00:35:38,180
-jika berpotongan di sebuah
-garis singgung, itu baik
+jika Anda berpotongan di sebuah
+garis singgung, itu
 
 780
 00:35:38,180 --> 00:35:40,893
@@ -3623,21 +3623,21 @@ seperti berpotongan dua kali.
 
 781
 00:35:40,893 --> 00:35:41,810
-Kita bisa mengsepakatinya.
+Kita bisa memahaminya.
 
 782
 00:35:41,810 --> 00:35:43,637
-AUDIENCE: Bagaimana jika Anda
+AUDIENS: Bagaimana jika Anda
 menggambar sebuah garis vertikal?
 
 783
 00:35:43,637 --> 00:35:45,970
-TADGE DRYJA: Jika kamu menggambar sebuah
-vertikal-- oh, yeah, vertikal
+TADGE DRYJA: Jika Anda menggambar sebuah
+vertikal-- oh, yah, garis
 
 784
 00:35:45,970 --> 00:35:47,710
-garis, lalu ada
+vertikal, lalu ada sebuah
 titik tak terhingga,
 
 785
@@ -3651,11 +3651,11 @@ tak terhingga juga termasuk--
 
 787
 00:35:51,070 --> 00:35:51,385
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Yah.
 
 788
 00:35:51,385 --> 00:35:53,380
-AUDIENCE: --dalam
+AUDIENS: --dalam
 himpunan titik pada kurva?
 
 789
@@ -3665,7 +3665,7 @@ tiga poin, sih.
 
 790
 00:35:55,130 --> 00:35:56,290
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Yah.
 
 791
 00:35:56,290 --> 00:35:57,950
@@ -3677,16 +3677,16 @@ semacam.
 
 793
 00:36:01,150 --> 00:36:02,920
-Dalam praktek
+Dalam praktik
 penandatanganan dan lain-lain,
 
 794
 00:36:02,920 --> 00:36:05,910
-Anda mungkin tidak harus hitnya.
+Anda mungkin tidak harus menabraknya.
 
 795
 00:36:05,910 --> 00:36:08,290
-yeah.
+Yah.
 
 796
 00:36:08,290 --> 00:36:12,310
@@ -3699,8 +3699,8 @@ sama dengan nol.
 
 798
 00:36:14,630 --> 00:36:18,590
-Jadi jika kita mengambil ini
-poin ditambah poin ini
+Jadi jika kita mengambil poin
+ini ditambah poin ini
 
 799
 00:36:18,590 --> 00:36:20,570
@@ -3713,13 +3713,13 @@ P ditambah Q dikurangi R sama dengan 0,
 
 801
 00:36:25,550 --> 00:36:30,500
-atau P plus Q sama dengan negatif
+atau P ditambah Q sama dengan negatif
 R. Dan sifat lainnya adalah
 
 802
 00:36:30,500 --> 00:36:34,790
 negasi suatu titik
-hanya titik yang sama
+sebenarnya adalah titik yang sama
 
 803
 00:36:34,790 --> 00:36:37,160
@@ -3728,12 +3728,12 @@ dengan koordinat y dibalik.
 804
 00:36:37,160 --> 00:36:40,160
 Jadi jika ini
-R negatif, kita hanya
+negatif R, kita hanya
 
 805
 00:36:40,160 --> 00:36:42,380
 turun ke
-sisi bawah ini,
+sisi bawah dari ini,
 
 806
 00:36:42,380 --> 00:36:44,857
@@ -3759,26 +3759,26 @@ Ini adalah bagaimana itu dibangun.
 
 811
 00:36:53,570 --> 00:36:58,460
-Namun, kami sebenarnya tidak
+Namun, kita sebenarnya tidak
 gunakan kurva yang bagus ini.
 
 812
 00:36:58,460 --> 00:37:00,778
-Kami memotongnya menjadi
+Kita memotongnya menjadi
 memodulasi sesuatu.
 
 813
 00:37:00,778 --> 00:37:01,278
-Yeah?
+Yah?
 
 814
 00:37:01,278 --> 00:37:03,680
-AUDIENCE: Anda memiliki P plus Q
+Audiens: Anda memiliki P ditambah Q
 sama dengan negatif R. Haruskah itu
 
 815
 00:37:03,680 --> 00:37:04,509
-menjadi R positif?
+menjadi positif R?
 
 816
 00:37:08,050 --> 00:37:10,420
@@ -3802,15 +3802,15 @@ Tunggu, tunggu.
 
 821
 00:37:17,470 --> 00:37:18,352
-[SUARA INTERPOSING]
+[SUARA INTERPOSISI]
 
 822
 00:37:18,352 --> 00:37:19,310
-TADGE DRYJA: Oh sial.
+TADGE DRYJA: Oh, sial.
 
 823
 00:37:19,310 --> 00:37:19,810
-Maaf
+Maaf.
 
 824
 00:37:19,810 --> 00:37:21,790
@@ -3830,7 +3830,7 @@ Lupakan.
 
 828
 00:37:25,140 --> 00:37:26,180
-Yeah.
+Yah.
 
 829
 00:37:26,180 --> 00:37:29,490
