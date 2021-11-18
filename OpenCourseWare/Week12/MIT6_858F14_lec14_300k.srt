@@ -3109,55 +3109,55 @@ saat ini untuk hal itu.
 
 657
 00:28:45,690 --> 00:28:47,290
-There have been
-certainly situations
+Telah ada 
+situasi tertentu
 
 658
 00:28:47,290 --> 00:28:49,810
-where certificate
-authorities appear
+dimana sertifikat
+otoritas muncul
 
 659
 00:28:49,810 --> 00:28:51,400
-to have been compromised.
+telah dikompromikan.
 
 660
 00:28:51,400 --> 00:28:54,870
-So in 2011, there
-were two CAs that
+Jadi pada 2011, terdapat
+dua CAs yang  
 
 661
 00:28:54,870 --> 00:28:58,200
-were compromised in the
-issue, or they were somehow
+dikomporikan dalam
+masalah, atau mereka entah bagaimana
 
 662
 00:28:58,200 --> 00:29:00,090
-tricked into issuing
-certificates for Gmail,
+ditipu untuk mengeluarkan
+sertifikat untuk Gmail,
 
 663
 00:29:00,090 --> 00:29:01,790
-for Facebook, et cetera.
+untuk Facebook, dan lain-lain.
 
 664
 00:29:01,790 --> 00:29:03,290
-And it's not clear.
+Dan tidak jelas.
 
 665
 00:29:03,290 --> 00:29:05,010
-Maybe someone did
-steal their secret key.
+Mungkin ada yang
+mencuri kunci rahasia mereka.
 
 666
 00:29:05,010 --> 00:29:09,150
-So what happened is I
-think those CAs actually
+Jadi yang terjadi adalah aku
+pikir CAs tersebut sebenarnya
 
 667
 00:29:09,150 --> 00:29:12,010
-got removed from a
-set of trusted CAs
+telah dihapus dari 
+kumpulan CAs terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
