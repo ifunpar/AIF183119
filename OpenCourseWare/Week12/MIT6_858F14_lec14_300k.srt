@@ -2957,55 +2957,55 @@ adalah untuk mencegah
 
 624
 00:27:32,740 --> 00:27:36,090
-that client from talking
-to the OCSP server.
+klien tersebut berkomunikasi
+dengan server OCSP.
 
 625
 00:27:36,090 --> 00:27:39,080
-And then the client will say,
-well, I do the certificate.
+Kemudian klien tersebut akan berkata,
+oke, saya memproses sertifikatnya.
 
 626
 00:27:39,080 --> 00:27:40,510
-I'll try to check
-it, but this guy
+Saya sudah mencoba untuk mengeceknya,
+tapi server OCSP ini
 
 627
 00:27:40,510 --> 00:27:42,770
-doesn't seem to be around,
-so I'll just go for it.
+tidak dapat dihubungi,
+jadi saya akan melakukannya saja.
 
 628
 00:27:42,770 --> 00:27:46,554
-So that's basically the
-sort of lay of the land
+Jadi pada dasarnya
+itulah yang terjadi
 
 629
 00:27:46,554 --> 00:27:47,720
-as far as verification goes.
+saat verifikasi berlangsung.
 
 630
 00:27:47,720 --> 00:27:50,150
-So there's no real great answer.
+Jadi tidak ada jawaban yang benar-benar tepat.
 
 631
 00:27:50,150 --> 00:27:52,210
-The thing that
-people do in practice
+Hal yang dilakukan
+oleh orang-orang
 
 632
 00:27:52,210 --> 00:27:54,710
-as an alternative to this
-is that clients just hard
+sebagai alternatif untuk hal ini
+adalah klien hanya menulis kode secara
 
 633
 00:27:54,710 --> 00:27:58,500
-code in really bad mistakes.
+langsung yang merupakan sebuah kesalahan besar.
 
 634
 00:27:58,500 --> 00:28:01,220
-So for example, the Chrome
-web browser actually
+Sebagai contoh, peramban web
+Chrome sebenarnya
 
 635
 00:28:01,220 --> 00:28:04,080
