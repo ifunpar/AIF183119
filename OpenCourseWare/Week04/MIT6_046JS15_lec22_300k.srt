@@ -3236,50 +3236,50 @@ kunci publik milik Bob.
 
 688
 00:37:30,650 --> 00:37:33,800
-And the fact that
-it's Bob's public key
+Dan fakta bahwa
+kunci publik tersebut milik Bob
 
 689
 00:37:33,800 --> 00:37:35,420
-is something that
-Alice should be
+sesuatu hal
+yang harus Alice
 
 690
 00:37:35,420 --> 00:37:38,370
-able to authenticate
-using VeriSign, using
+bisa untuk mengautentikasi
+menggunakan VeriSign, dengan menggunakan
 
 691
 00:37:38,370 --> 00:37:40,574
-the Register of Motor
-Vehicles, what have you.
+daftar Kendaraan, apa yang 
+anda miliki.
 
 692
 00:37:40,574 --> 00:37:42,490
-That's what's going to
-protect against the man
+Itulah yang akan terjadi
+melindungi dari pria itu
 
 693
 00:37:42,490 --> 00:37:43,600
-in the middle attack.
+ditengah serangan.
 
 694
 00:37:43,600 --> 00:37:44,690
-OK.
+Baik.
 
 695
 00:37:44,690 --> 00:37:47,790
-We're not going to
-talk a lot about how
+Kami tidak akan
+banyak bicara tentang bagaimana
 
 696
 00:37:47,790 --> 00:37:48,920
-you can get a certificate.
+anda bisa mendapatkan sebuah sertifikasi.
 
 697
 00:37:48,920 --> 00:37:51,340
-Your MIT certificate
-is something which
+Sertifikat MIT Anda
+adalah sesuatu yang
 
 698
 00:37:51,340 --> 00:37:54,310
