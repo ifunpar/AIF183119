@@ -3235,74 +3235,74 @@ menyusun paket anda dengan benar,
 
 681
 00:27:29,720 --> 00:27:32,230
-then it's quite easy to
-make the right guess.
+maka cukup mudah untuk
+membuat tebakan yang tepat.
 
 682
 00:27:32,230 --> 00:27:34,720
-Or maybe you try several
-times, and you'll get lucky.
+Atau mungkin Anda mencoba beberapa
+kali, dan mungkin Anda akan beruntung.
 
 683
 00:27:34,720 --> 00:27:35,480
-Yeah.
+Ya.
 
 684
 00:27:35,480 --> 00:27:38,246
-AUDIENCE: So even if
-it's totally random,
+AUDIENS: Jadi meskipun
+itu benar-benar acak
 
 685
 00:27:38,246 --> 00:27:39,912
-and you have to guess
-it, there are only
+dan Anda harus menebak,
+hanya ada
 
 686
 00:27:39,912 --> 00:27:40,998
-like 4 billion possibilities.
+sekitar 4 miliar kemungkinan.
 
 687
 00:27:40,998 --> 00:27:42,248
-It's not a huge number, right?
+Bukan jumlah yang besar, kan?
 
 688
 00:27:42,248 --> 00:27:44,372
-I feel like in the
-course of a year,
+Saya rasa
+dalam kurun satu tahun,
 
 689
 00:27:44,372 --> 00:27:46,300
-you should be able to
-probably get through.
+Anda seharusnya
+mungkin dapat melewatinya.
 
 690
 00:27:46,300 --> 00:27:48,660
-PROFESSOR: Right, yeah, so
-you're absolutely right.
+PROFESOR: Benar, ya, jadi
+Anda benar sekali.
 
 691
 00:27:48,660 --> 00:27:53,500
-You shouldn't really be relying
-on TCP to provide security
+Anda seharusnya tidak terlalu bergantung
+pada TCP untuk memberikan keamanan
 
 692
 00:27:53,500 --> 00:27:54,817
-very strongly.
+yang sangat kuat.
 
 693
 00:27:54,817 --> 00:27:56,900
-Because you're right, it's
-only 4 billion guesses.
+Karena Anda benar, hanya
+ada 4 miliar tebakan.
 
 694
 00:27:56,900 --> 00:27:59,370
-And you can probably
-send that many packets
+Dan Anda mungkin dapat
+mengirimkan paket sebanyak itu
 
 695
 00:27:59,370 --> 00:28:02,780
-certainly within a day if you
-have a fast enough connection.
+dalam sehari jika Anda
+memiliki koneksi yang cukup cepat.
 
 696
 00:28:05,510 --> 00:28:07,562
