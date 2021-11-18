@@ -3009,7 +3009,7 @@ Chrome sebenarnya
 
 635
 00:28:01,220 --> 00:28:04,080
-dikirimkan di dalamnya
+mengirimkan di dalamnya
 dengan daftar sertifikat
 
 636
@@ -3024,22 +3024,22 @@ salah menerbitkan sertifikat
 
 638
 00:28:08,570 --> 00:28:11,790
-untuk Gmail atau yang lainnya
-important site-- like Facebook,
+untuk Gmail atau untuk beberapa
+website penting seperti Facebook,
 
 639
 00:28:11,790 --> 00:28:15,780
-Amazon, atau apa pun-- lalu
-rilis Chrome berikutnya
+Amazon, atau apa saja lalu
+versi rilis Chrome berikutnya
 
 640
 00:28:15,780 --> 00:28:19,950
 akan berisi hal itu
-didaftar verifikasinya
+didaftar verifikasinya dan
 
 641
 00:28:19,950 --> 00:28:21,300
-dimasukkan ke dalam Chrome.
+ditambahkan ke dalam Chrome.
 
 642
 00:28:21,300 --> 00:28:23,884
@@ -3053,7 +3053,7 @@ berbicara dengan orang OCSP.
 
 644
 00:28:25,550 --> 00:28:26,160
-Baru saja dipanggang.
+Karena baru saja ditambahkan.
 
 645
 00:28:26,160 --> 00:28:27,910
