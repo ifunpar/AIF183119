@@ -3188,17 +3188,17 @@ sebuah pesan ditambah kunci publik.
 
 678
 00:36:53,970 --> 00:37:02,680
-Dan anda ingin mendapatkan text tersandi
+Dan Anda ingin mendapatkan text tersandi
 menggunakan operasi ini.
 
 679
 00:37:02,680 --> 00:37:05,920
-Dan simbol tambah ini bukan
+Dan simbol tambah ini bukanlah
 pertambahan aritmatika.
 
 680
 00:37:05,920 --> 00:37:08,900
-Kita hanya menggabungkan
+Kita hanyalah menggabungkan
 kedua hal ini
 
 681
@@ -3231,7 +3231,7 @@ pesan tersandi,
 
 687
 00:37:26,460 --> 00:37:30,650
-maka ini adalah 
+maka ini akan menjadi 
 kunci publik milik Bob.
 
 688
