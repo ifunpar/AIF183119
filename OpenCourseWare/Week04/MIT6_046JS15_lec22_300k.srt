@@ -3241,27 +3241,27 @@ kunci publik tersebut milik Bob
 
 689
 00:37:33,800 --> 00:37:35,420
-sesuatu hal
-yang harus Alice
+adalah suatu hal
+yang dapat diautentikasi
 
 690
 00:37:35,420 --> 00:37:38,370
-bisa untuk mengautentikasi
-menggunakan VeriSign, dengan menggunakan
+oleh Alice menggunakan 
+VeriSign, menggunakan
 
 691
 00:37:38,370 --> 00:37:40,574
-daftar Kendaraan, apa yang 
-anda miliki.
+Daftar Kendaraan Bermotor,
+dan sejenisnya.
 
 692
 00:37:40,574 --> 00:37:42,490
-Itulah yang akan terjadi
-melindungi dari pria itu
+Itulah yang akan 
+melindungi dari serangan
 
 693
 00:37:42,490 --> 00:37:43,600
-ditengah serangan.
+man-in-the-middle.
 
 694
 00:37:43,600 --> 00:37:44,690
@@ -3269,7 +3269,7 @@ Baik.
 
 695
 00:37:44,690 --> 00:37:47,790
-Kami tidak akan
+Kita tidak akan
 banyak bicara tentang bagaimana
 
 696
