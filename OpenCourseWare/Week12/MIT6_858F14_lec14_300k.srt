@@ -2943,7 +2943,7 @@ seorang penyerang dan Anda
 621
 00:27:24,790 --> 00:27:27,040
 ingin meyakinkan seseorang
-jika Anda memiliki
+bahwa Anda memiliki
 
 622
 00:27:27,040 --> 00:27:30,000
@@ -2967,13 +2967,13 @@ oke, saya memproses sertifikatnya.
 
 626
 00:27:39,080 --> 00:27:40,510
-Saya sudah mencoba untuk mengeceknya,
+Saya sudah mencoba untuk memeriksanya,
 tapi server OCSP ini
 
 627
 00:27:40,510 --> 00:27:42,770
 tidak dapat dihubungi,
-jadi saya akan melakukannya saja.
+jadi saya akan menganggap semuanya baik-baik saja.
 
 628
 00:27:42,770 --> 00:27:46,554
@@ -2991,16 +2991,16 @@ Jadi tidak ada jawaban yang benar-benar tepat.
 631
 00:27:50,150 --> 00:27:52,210
 Hal yang dilakukan
-oleh orang-orang
+oleh orang-orang pada praktiknya
 
 632
 00:27:52,210 --> 00:27:54,710
 sebagai alternatif untuk hal ini
-adalah klien hanya menulis kode secara
+adalah klien yang menulis di kode nya
 
 633
 00:27:54,710 --> 00:27:58,500
-langsung yang merupakan sebuah kesalahan besar.
+langsung merupakan sebuah kesalahan besar.
 
 634
 00:27:58,500 --> 00:28:01,220
@@ -3009,13 +3009,13 @@ Chrome sebenarnya
 
 635
 00:28:01,220 --> 00:28:04,080
-mengirimkan di dalamnya
-dengan daftar sertifikat
+mengandung
+daftar sertifikat
 
 636
 00:28:04,080 --> 00:28:06,400
-yang benar-benar Google
-ingin mencabut.
+yang benar-benar ingin
+Google cabut.
 
 637
 00:28:06,400 --> 00:28:08,570
@@ -3025,17 +3025,17 @@ salah menerbitkan sertifikat
 638
 00:28:08,570 --> 00:28:11,790
 untuk Gmail atau untuk beberapa
-website penting seperti Facebook,
+situs web penting seperti Facebook,
 
 639
 00:28:11,790 --> 00:28:15,780
-Amazon, atau apa saja lalu
+Amazon, atau apapun lalu
 versi rilis Chrome berikutnya
 
 640
 00:28:15,780 --> 00:28:19,950
 akan berisi hal itu
-didaftar verifikasinya dan
+di daftar verifikasinya dan
 
 641
 00:28:19,950 --> 00:28:21,300
@@ -3049,11 +3049,11 @@ perlu menghubungi server CRL.
 643
 00:28:23,884 --> 00:28:25,550
 Anda tidak harus
-berbicara dengan orang OCSP.
+berbicara dengan si OCSP ini.
 
 644
 00:28:25,550 --> 00:28:26,160
-Karena baru saja ditambahkan.
+Karena itu sudah ada di dalamnya.
 
 645
 00:28:26,160 --> 00:28:27,910
@@ -3088,7 +3088,7 @@ dari sertifikat [TIDAK TERDENGAR].
 652
 00:28:33,876 --> 00:28:35,140
 Semua kunci publik
-[? dikode secara langsung-- ?]
+[? ditulis langsung di kode-- ?]
 
 653
 00:28:35,140 --> 00:28:35,973
@@ -3114,7 +3114,7 @@ situasi tertentu
 
 658
 00:28:47,290 --> 00:28:49,810
-dimana otoritas
+di mana otoritas
 sertifikat tampaknya
 
 659
@@ -3128,12 +3128,12 @@ dua CA yang
 
 661
 00:28:54,870 --> 00:28:58,200
-telah disusupi, 
+telah disusupi di kasus ini,
 atau mereka entah bagaimana
 
 662
 00:28:58,200 --> 00:29:00,090
-ditipu untuk mengeluarkan
+ditipu untuk menerbitkan
 sertifikat untuk Gmail,
 
 663
