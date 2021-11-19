@@ -2927,237 +2927,237 @@ memperlakukan server OCSP
 
 618
 00:27:17,030 --> 00:27:21,194
-being down as sort
-of an OK occurrence.
+yang sedang mati
+sebagai kejadian yang baik-baik saja.
 
 619
 00:27:21,194 --> 00:27:23,110
-This is really bad from
-a security perspective
+Hal ini sangat buruk dari
+perspektif keamanan
 
 620
 00:27:23,110 --> 00:27:24,790
-because if you're
-an attacker and you
+karena jika Anda
+seorang penyerang dan Anda
 
 621
 00:27:24,790 --> 00:27:27,040
-want to convince
-someone that you have
+ingin meyakinkan seseorang
+bahwa Anda memiliki
 
 622
 00:27:27,040 --> 00:27:30,000
-a legitimate certificate, but
-it's actually been revoked,
+sertifikat yang sah, tapi
+sebenarnya sudah dicabut,
 
 623
 00:27:30,000 --> 00:27:32,740
-all you have to do
-is somehow prevent
+yang Anda harus lakukan
+adalah untuk mencegah
 
 624
 00:27:32,740 --> 00:27:36,090
-that client from talking
-to the OCSP server.
+klien tersebut berkomunikasi
+dengan server OCSP.
 
 625
 00:27:36,090 --> 00:27:39,080
-And then the client will say,
-well, I do the certificate.
+Kemudian klien tersebut akan berkata,
+oke, saya memproses sertifikatnya.
 
 626
 00:27:39,080 --> 00:27:40,510
-I'll try to check
-it, but this guy
+Saya sudah mencoba untuk memeriksanya,
+tapi server OCSP ini
 
 627
 00:27:40,510 --> 00:27:42,770
-doesn't seem to be around,
-so I'll just go for it.
+tidak dapat dihubungi,
+jadi saya akan menganggap semuanya baik-baik saja.
 
 628
 00:27:42,770 --> 00:27:46,554
-So that's basically the
-sort of lay of the land
+Jadi pada dasarnya
+itulah yang terjadi
 
 629
 00:27:46,554 --> 00:27:47,720
-as far as verification goes.
+saat verifikasi berlangsung.
 
 630
 00:27:47,720 --> 00:27:50,150
-So there's no real great answer.
+Jadi tidak ada jawaban yang benar-benar tepat.
 
 631
 00:27:50,150 --> 00:27:52,210
-The thing that
-people do in practice
+Hal yang dilakukan
+oleh orang-orang pada praktiknya
 
 632
 00:27:52,210 --> 00:27:54,710
-as an alternative to this
-is that clients just hard
+sebagai alternatif untuk hal ini
+adalah klien yang menulis di kode nya
 
 633
 00:27:54,710 --> 00:27:58,500
-code in really bad mistakes.
+langsung merupakan sebuah kesalahan besar.
 
 634
 00:27:58,500 --> 00:28:01,220
-So for example, the Chrome
-web browser actually
+Sebagai contoh, peramban web
+Chrome sebenarnya
 
 635
 00:28:01,220 --> 00:28:04,080
-ships inside of it with
-a list of certificates
+mengandung
+daftar sertifikat
 
 636
 00:28:04,080 --> 00:28:06,400
-that Google really
-wants to revoke.
+yang benar-benar ingin
+Google cabut.
 
 637
 00:28:06,400 --> 00:28:08,570
-So if someone
-mis-issues a certificate
+Jadi jika seseorang
+salah menerbitkan sertifikat
 
 638
 00:28:08,570 --> 00:28:11,790
-for Gmail or for some other
-important site-- like Facebook,
+untuk Gmail atau untuk beberapa
+situs web penting seperti Facebook,
 
 639
 00:28:11,790 --> 00:28:15,780
-Amazon, or whatever-- then
-the next release of Chrome
+Amazon, atau apapun lalu
+versi rilis Chrome berikutnya
 
 640
 00:28:15,780 --> 00:28:19,950
-will contain that thing in
-its verification list baked
+akan berisi hal itu
+di daftar verifikasinya dan
 
 641
 00:28:19,950 --> 00:28:21,300
-into Chrome.
+ditambahkan ke dalam Chrome.
 
 642
 00:28:21,300 --> 00:28:23,884
-So this way, you don't have
-to contact the CRL server.
+Jadi dengan cara ini, Anda tidak 
+perlu menghubungi server CRL.
 
 643
 00:28:23,884 --> 00:28:25,550
-You don't have to
-talk to this OCSP guy.
+Anda tidak harus
+berbicara dengan si OCSP ini.
 
 644
 00:28:25,550 --> 00:28:26,160
-It's just baked in.
+Karena itu sudah ada di dalamnya.
 
 645
 00:28:26,160 --> 00:28:27,910
-Like, this certificate
-is no longer valid.
+Seperti, sertifikat ini
+sudah tidak berlaku.
 
 646
 00:28:27,910 --> 00:28:29,016
-The client rejects it.
+Klien menolaknya.
 
 647
 00:28:29,016 --> 00:28:29,988
-Yeah.
+Ya.
 
 648
 00:28:29,988 --> 00:28:30,474
-AUDIENCE: Sorry, one last thing.
+AUDIENS: Maaf, satu hal terakhir.
 
 649
 00:28:30,474 --> 00:28:30,960
-PROFESSOR: Yeah.
+PROFESSOR: Iya.
 
 650
 00:28:30,960 --> 00:28:32,418
-AUDIENCE: So let's say
-I've stolen the secret key
+AUDIENS: Jadi katakanlah
+saya telah mencuri kunci rahasia
 
 651
 00:28:32,418 --> 00:28:33,876
-on the certificate [INAUDIBLE].
+dari sertifikat [TIDAK TERDENGAR].
 
 652
 00:28:33,876 --> 00:28:35,140
-All public keys are
-[? hard coded-- ?]
+Semua kunci publik
+[? ditulis langsung di kode-- ?]
 
 653
 00:28:35,140 --> 00:28:35,973
-PROFESSOR: Oh, yeah.
+PROFESSOR: Oh, iya.
 
 654
 00:28:35,973 --> 00:28:38,730
-That's [INAUDIBLE] really bad.
+Itu [TIDAK TERDENGAR] sangat buruk.
 
 655
 00:28:38,730 --> 00:28:42,280
-I don't think there's any
-solution baked into the system
+Saya tidak berpikir ada
+solusi yang dimasukkan ke dalam sistem
 
 656
 00:28:42,280 --> 00:28:45,690
-right now for this.
+saat ini untuk hal itu.
 
 657
 00:28:45,690 --> 00:28:47,290
-There have been
-certainly situations
+Ada beberapa 
+situasi tertentu
 
 658
 00:28:47,290 --> 00:28:49,810
-where certificate
-authorities appear
+di mana otoritas
+sertifikat tampaknya
 
 659
 00:28:49,810 --> 00:28:51,400
-to have been compromised.
+telah disusupi.
 
 660
 00:28:51,400 --> 00:28:54,870
-So in 2011, there
-were two CAs that
+Jadi pada 2011, terdapat
+dua CA yang  
 
 661
 00:28:54,870 --> 00:28:58,200
-were compromised in the
-issue, or they were somehow
+telah disusupi di kasus ini,
+atau mereka entah bagaimana
 
 662
 00:28:58,200 --> 00:29:00,090
-tricked into issuing
-certificates for Gmail,
+ditipu untuk menerbitkan
+sertifikat untuk Gmail,
 
 663
 00:29:00,090 --> 00:29:01,790
-for Facebook, et cetera.
+untuk Facebook, dan lain-lain.
 
 664
 00:29:01,790 --> 00:29:03,290
-And it's not clear.
+Dan hal ini tidak jelas.
 
 665
 00:29:03,290 --> 00:29:05,010
-Maybe someone did
-steal their secret key.
+Mungkin ada yang
+mencuri kunci rahasia mereka.
 
 666
 00:29:05,010 --> 00:29:09,150
-So what happened is I
-think those CAs actually
+Jadi yang terjadi adalah saya
+pikir CA tersebut sebenarnya
 
 667
 00:29:09,150 --> 00:29:12,010
-got removed from a
-set of trusted CAs
+telah dihapus dari 
+kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
