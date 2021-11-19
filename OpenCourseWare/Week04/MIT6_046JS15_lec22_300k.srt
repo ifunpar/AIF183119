@@ -3161,16 +3161,16 @@ Apakah sejauh ini ada pertanyaan?
 
 672
 00:36:29,560 --> 00:36:32,930
-Bagaimana kita akan lakukan?
+Baik-baik saja?
 
 673
 00:36:32,930 --> 00:36:33,430
-OK.
+Baiklah.
 
 674
 00:36:36,060 --> 00:36:40,880
-Jadi enkripsi public key, izinkan 
-saya melakukan sedikit pengaturan.
+Jadi enkripsi kunci publik, izinkan 
+saya melakukan sedikit persiapan.
 
 675
 00:36:40,880 --> 00:36:44,370
@@ -3178,13 +3178,13 @@ Seperti yang saya bilang sebelumnya.
 
 676
 00:36:44,370 --> 00:36:48,580
-Tetapi untuk memastikan kita berada di 
-halaman yang sama, yang kita miliki di sini
+Tetapi untuk memastikan kita memiliki
+pemahaman yang sama, apa yang sedang terjadi
 
 677
 00:36:48,580 --> 00:36:53,970
 adalah kita benar-benar menginginkan 
-sebuah pesan ditambah public key.
+sebuah pesan ditambah kunci publik.
 
 678
 00:36:53,970 --> 00:37:02,680
