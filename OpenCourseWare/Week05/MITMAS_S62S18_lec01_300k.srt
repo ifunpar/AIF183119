@@ -3471,13 +3471,13 @@ di awal
 
 734
 00:31:30,280 --> 00:31:32,230
-will sort of propagate
-an avalanche, too,
+akan menyebabkan semacam
+efek bola salju, juga,
 
 735
 00:31:32,230 --> 00:31:35,940
-so that all the output bits
-have been affected by it.
+sehingga semua bit keluaran
+sudah terpengaruh olehnya.
 
 736
 00:31:35,940 --> 00:31:36,440
@@ -3485,268 +3485,268 @@ OK.
 
 737
 00:31:36,440 --> 00:31:38,602
-And a little bit
-more well-defined.
+Dan sedikit lebih
+terdefinisi dengan baik.
 
 738
 00:31:38,602 --> 00:31:40,310
-Generally, the hash
-functions are defined
+Umumnya, fungsi hash
+didefinisikan
 
 739
 00:31:40,310 --> 00:31:42,080
-by what they should not do.
+dengan apa yang seharusnya tidak mereka lakukan.
 
 740
 00:31:42,080 --> 00:31:44,420
-So the three main things
-they should have--
+Jadi ada tiga hal utama
+yang seharusnya mereka miliki-- 
 
 741
 00:31:44,420 --> 00:31:47,390
-preimage resistance,
-second preimage resistance,
+resistensi pragambar (collision resistance),
+resistensi pragambar sekunder (second collision resistance),
 
 742
 00:31:47,390 --> 00:31:50,900
-which I'll sort of skip over,
-and collision resistance.
+yang akan saya lewati,
+dan resistensi benturan.
 
 743
 00:31:50,900 --> 00:31:54,020
-And we can define
-what these things are.
+Dan kita bisa menentukan
+hal-hal apakah ini.
 
 744
 00:31:54,020 --> 00:31:59,600
-So a preimage is the thing
-that came before the output.
+Jadi sebuah pragambar adalah hal
+yang datang sebelum keluaran.
 
 745
 00:31:59,600 --> 00:32:00,890
-So it's sort of a math-y term.
+Jadi itu semacam istilah matematika .
 
 746
 00:32:00,890 --> 00:32:06,410
-But the idea is OK, if you know
-y, you can't find any x such
+Tapi idenya adalah OK, jika Anda tahu
+y, Anda tidak dapat menemukan x di mana
 
 747
 00:32:06,410 --> 00:32:08,870
-that the hash of
-x is equal to y.
+nilai hash dari
+x sama dengan y.
 
 748
 00:32:08,870 --> 00:32:13,640
-So if I give you a hash output,
-and that's all I give you,
+Jadi jika saya memberi Anda hasil keluaran hash,
+dan hanya itu yang saya berikan kepada Anda,
 
 749
 00:32:13,640 --> 00:32:16,610
-you should not be able
-to find an input that
+Anda seharusnya tidak dapat
+menemukan masukan yang
 
 750
 00:32:16,610 --> 00:32:18,017
-leads to that output.
+mengarah ke keluaran itu.
 
 751
 00:32:18,017 --> 00:32:19,850
-So if I just say, hey,
-here's a hash output.
+Jadi jika saya hanya mengatakan, hei,
+inilah hasil hash.
 
 752
 00:32:19,850 --> 00:32:25,250
-It's 35021FF-- whatever,
-some long string,
+Ini 35021FF-- apa pun,
+sebuah string panjang,
 
 753
 00:32:25,250 --> 00:32:26,750
-you won't be able
-to figure out what
+Anda tidak akan dapat
+mengetahui apa yang
 
 754
 00:32:26,750 --> 00:32:30,650
-I used to put in to get that.
+saya gunakan untuk mendapatkannya.
 
 755
 00:32:30,650 --> 00:32:32,810
-Of course, you can
-find it eventually.
+Tentu saja, pada akhirnya
+Anda akan dapat menemukannya.
 
 756
 00:32:32,810 --> 00:32:37,100
-For any given y,
-there's probably some x.
+Untuk setiap y yang diberikan,
+mungkin ada beberapa x.
 
 757
 00:32:37,100 --> 00:32:38,990
-In fact, there's probably
-a lot of x's that
+Bahkan, mungkin ada
+banyak x yang
 
 758
 00:32:38,990 --> 00:32:40,460
-will lead to that y.
+akan mengarah ke y itu.
 
 759
 00:32:40,460 --> 00:32:43,290
-Since y is a fixed
-length and there's
+Karena y
+panjangnya tetap dan ada
 
 760
 00:32:43,290 --> 00:32:47,900
-two to the 256 possible
-y's, but there's
+dua pangkat 256 kemungkinan
+nilai y, tetapi jumlah
 
 761
 00:32:47,900 --> 00:32:50,210
-an infinite number of
-x's because x is not
+x tidak terbatas
+karena x tidak
 
 762
 00:32:50,210 --> 00:32:51,200
-bounded in length.
+terikat oleh panjang.
 
 763
 00:32:51,200 --> 00:32:56,000
-You can have a megabyte or a
-gigabyte or a terabyte size x.
+Anda dapat memiliki sejumlah megabyte x,
+gigabyte atau terabyte.
 
 764
 00:32:56,000 --> 00:32:58,700
-So since there are sort of
-infinite numbers of x's,
+Jadi karena ada semacam variasi
+dari nilai x yang  tidak terhingga,
 
 765
 00:32:58,700 --> 00:33:03,290
-and a fixed, though very
-large number of y's, as long
+dan y yang tetap, meskipun sangat
+besar, selama
 
 766
 00:33:03,290 --> 00:33:05,300
-as it is a random
-mapping, there will
+pemetaannya acak,
+akan ada
 
 767
 00:33:05,300 --> 00:33:08,300
-be lots of different x's
-that can lead to this y.
+banyak sekali nilai x yang berbeda
+yang mengarah ke nilai y ini.
 
 768
 00:33:08,300 --> 00:33:11,030
-And so you should
-be able to find it.
+Dan Anda harus
+bisa menemukannya.
 
 769
 00:33:11,030 --> 00:33:12,647
-It's just impractical.
+Itu sangat tidak praktis.
 
 770
 00:33:12,647 --> 00:33:14,480
-It's like, yeah, you
-may be able to find it,
+Itu seperti, yah, Anda
+mungkin dapat menemukannya,
 
 771
 00:33:14,480 --> 00:33:17,680
-but it's going to take
-you two to the 256 tries
+tetapi Anda akan membutuhkan
+dua pangkat 256 percobaan
 
 772
 00:33:17,680 --> 00:33:20,560
-to find any specific y value.
+untuk menemukan nilai y nya.
 
 773
 00:33:20,560 --> 00:33:23,140
-And that's about
-10 to the 78, which
+dan itu sekitar
+10 pangkat 78, yang merupakan
 
 774
 00:33:23,140 --> 00:33:25,930
-is a number that's big enough
-that you can sort of round it
+sebuah angka yang cukup besar
+dan bisa dianggap sebagai
 
 775
 00:33:25,930 --> 00:33:27,240
-up to infinity.
+bilangan tak terhingga.
 
 776
 00:33:27,240 --> 00:33:30,468
-Well, I mean, not
-quite, but big enough
+Baiklah, maksud saya, tidak
+terlalu, tetapi cukup besar
 
 777
 00:33:30,468 --> 00:33:32,260
-that you're not going
-to be able to compute
+di mana Anda tidak akan bisa
+menghitungnya sebelum
 
 778
 00:33:32,260 --> 00:33:34,920
-that, the sun'll burnout
-and the universe'll die
+matahari berhenti terbakar, dan
+alam semesta mati
 
 779
 00:33:34,920 --> 00:33:37,520
-and stuff like that.
+dan hal-hal seperti itu
 
 780
 00:33:37,520 --> 00:33:38,770
-So that's preimage resistance.
+Jadi itu ketahanan pragambar.
 
 781
 00:33:38,770 --> 00:33:41,170
-You can't go backwards.
+Anda tidak bisa berjalan mundur.
 
 782
 00:33:41,170 --> 00:33:43,970
-Given the hash, you can't
-find what led to that.
+Diberikan hash, Anda tidak bisa
+menemukan apa yang menghasilkan hash tersebut.
 
 783
 00:33:43,970 --> 00:33:44,470
-OK.
+Baiklah.
 
 784
 00:33:44,470 --> 00:33:48,770
-Any questions about
-preimage resistance?
+Ada pertanyaan mengenai
+ketahanan pragambar?
 
 785
 00:33:48,770 --> 00:33:50,780
-Seems reasonable?
+Masuk akal?
 
 786
 00:33:50,780 --> 00:33:55,713
-It's a little interesting
-in that given y is
+Ini sedikit menarik
+dalam hal y yang diberikan
 
 787
 00:33:55,713 --> 00:33:57,630
-a little tricky, and
-that it's like, OK, well,
+sedikit rumit, dan
+bahwa itu seperti, OK, baik,
 
 788
 00:33:57,630 --> 00:34:03,420
-someone might know x in order
-for them to have computed y.
+seseorang mungkin mengetahui x 
+yang dapat digunakan untuk menghitung y.
 
 789
 00:34:03,420 --> 00:34:05,550
-Or maybe it's just
-completely random,
+Atau mungkin itu
+seluruhnya acak,
 
 790
 00:34:05,550 --> 00:34:08,820
-and no one actually
-knows what the x is.
+dan tidak ada satupun yang benar-benar
+tahu berapa nilai x nya.
 
 791
 00:34:08,820 --> 00:34:11,340
-So there's a sort of
-loss of information
+Jadi ada semacam
+informasi yang hilang
 
 792
 00:34:11,340 --> 00:34:13,139
-in the idea of a preimage stack.
+dalam konteks pragambar.
 
 793
 00:34:13,139 --> 00:34:13,770
@@ -3754,163 +3754,163 @@ OK.
 
 794
 00:34:13,770 --> 00:34:15,270
-Second preimage resistance.
+Ketahanan pragambar sekunder.
 
 795
 00:34:15,270 --> 00:34:19,650
-This one's a little
-trickier and can get messy.
+Yang ini lebih rumit
+dan dapat menjadi berantakan.
 
 796
 00:34:19,650 --> 00:34:22,290
-So I'll define it, but we
-won't go into it too much.
+Jadi saya akan mendefinisikannya, tetapi kita
+tidak akan melihatnya terlalu jauh.
 
 797
 00:34:22,290 --> 00:34:25,739
-The idea is given x and
-y such that the hash of x
+Idenya adalah diberikan x dan
+ya di mana hash dari x
 
 798
 00:34:25,739 --> 00:34:30,000
-is equal to y, you can't find
-x prime where x prime is not
+sama dengan y, Anda tidak dapat menemukan
+x aksen di mana x aksen tidak
 
 799
 00:34:30,000 --> 00:34:31,080
-equal to x.
+sama dengan x.
 
 800
 00:34:31,080 --> 00:34:33,780
-And the hash of x
-prime is equal to y.
+Dan hash dari x aksen
+sama dengan y.
 
 801
 00:34:33,780 --> 00:34:35,429
-So we're sort of
-giving you a preimage.
+Jadi kita akan kurang lebih
+memberikan Anda sebuah pragambar.
 
 802
 00:34:35,429 --> 00:34:38,159
-We're saying, hey, here's
-this number x and here's
+Kita mengatakan, hei, ada nilai
+x ini dan ini adalah
 
 803
 00:34:38,159 --> 00:34:39,199
-this result y.
+hasilnya y.
 
 804
 00:34:41,760 --> 00:34:47,250
-I bet you can't find
-another x that leads to it.
+Saya bertaruh Anda tidak dapat
+menemukan x lain yang mengarah ke sana.
 
 805
 00:34:47,250 --> 00:34:49,929
-This one is actually poorly
-defined in the literature.
+Ini sebenarnya tidak telalu
+terdefinisi dengan baik di literatur.
 
 806
 00:34:49,929 --> 00:34:52,650
-And so it's a little
-like, well, who
+Jadi itu sedikit
+seperti, yah, siapa
 
 807
 00:34:52,650 --> 00:34:56,225
-made x, and who gets to
-choose, and is it any x prime
+yang membuat x, dan siapa
+yang memilih, dan apakah ada x aksen
 
 808
 00:34:56,225 --> 00:34:57,100
-and things like that.
+dan hal-hal seperti itu.
 
 809
 00:34:57,100 --> 00:34:59,830
-So it's not actually
-that useful.
+Jadi itu sebenarnya
+tidak terlalu berguna.
 
 810
 00:34:59,830 --> 00:35:02,580
-So we can just sort of
-gloss over that one,
+Jadi kita bisa semacam
+mengabaikannya,
 
 811
 00:35:02,580 --> 00:35:04,540
-just sort of mentioning it.
+hanya menyebutnya saja.
 
 812
 00:35:04,540 --> 00:35:08,310
-And then the other one that's
-very important is collision
+Kemudian hal lain yang sangat
+penting adalah ketahanan
 
 813
 00:35:08,310 --> 00:35:13,050
-resistance, where the idea is
-that nobody can find any x,z
+pragambar, di mana idenya adalah
+tidak ada seorangpun yang dapat menemukan pasangan
 
 814
 00:35:13,050 --> 00:35:16,170
-pair such that x
-is not equal to z,
+x,z di mana x
+tidak sama dengan z
 
 815
 00:35:16,170 --> 00:35:19,940
-but the hash of x is
-equal to the hash of z.
+tetapi hash dari x
+sama dengan hash dari z.
 
 816
 00:35:19,940 --> 00:35:22,160
-And this one's a
-lot cleaner in that
+Dan definisi yang satu ini lebih 
+bersih dalam hal
 
 817
 00:35:22,160 --> 00:35:24,480
-there's no lack of information.
+tidak ada kekurangan informasi di sana.
 
 818
 00:35:24,480 --> 00:35:26,130
-There's no secrets or anything.
+Tidak ada rahasia atau apapun.
 
 819
 00:35:26,130 --> 00:35:29,060
-It's just like, look,
-no one can find this.
+Hanya saja, lihat, tidak ada
+yang bisa menemukan ini.
 
 820
 00:35:29,060 --> 00:35:31,587
-And so it's really
-easy to disprove.
+Dan ini sangat mudah untuk 
+disangkal.
 
 821
 00:35:31,587 --> 00:35:33,920
-You can just say, hey, look,
-here's an x and here's a z.
+Anda bisa sekedar mengatakan, hei, lihat,
+ini sebuah x dan ini sebuah z.
 
 822
 00:35:33,920 --> 00:35:34,910
-Try hashing them.
+Coba lakukan hash terhadap mereka.
 
 823
 00:35:34,910 --> 00:35:37,643
-Oh, shoot, the hashes are equal.
+Oh, sial, hash nya sama.
 
 824
 00:35:37,643 --> 00:35:39,560
-And it doesn't really
-matter how you got these
+Dan tidak terlalu penting bagaimana
+Anda mendapatkannya
 
 825
 00:35:39,560 --> 00:35:40,880
-or who's doing it.
+atau siapa yang melakukan itu
 
 826
 00:35:40,880 --> 00:35:45,030
-So that's a really nice,
-easy, clear property.
+Jadi ini merupakan properti yang bagus,
+mudah, dan jelas
 
 827
 00:35:45,030 --> 00:35:47,490
-And again, you can
-find this eventually.
+dan lagi, Anda dapat menemukannya
+pada akhirnya.
 
 828
 00:35:47,490 --> 00:35:50,830
