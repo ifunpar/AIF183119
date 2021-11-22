@@ -2541,56 +2541,57 @@ over the network at all.
 
 534
 00:23:53,790 --> 00:23:56,650
-So in some ways, this is
-actually better than the client
+Jadi dalam beberapa cara, sebenarnya
+ini lebih baik daripada client
 
 535
 00:23:56,650 --> 00:23:58,800
-sending a password to
-the Kerberos server
+mengirim sebuah password ke
+server Kerberos
 
 536
 00:23:58,800 --> 00:24:01,710
-because even if the
-Kerberos server here
+karena meskipun
+server Kerberos-nya
 
 537
 00:24:01,710 --> 00:24:03,960
-was listening for
-these passwords
+sedang menunggu (listening)
+password-password nya
 
 538
 00:24:03,960 --> 00:24:06,710
-and trying to record them, it
-would never get your password.
+dan mencoba untuk mencatatnya,
+server tidak akan mendapatkan password-mu.
 
 539
 00:24:06,710 --> 00:24:08,900
-Or maybe if someone was
-impersonating the Kerberos
+Atau jika seseorang sedang
+berpura-pura menjadi server
 
 540
 00:24:08,900 --> 00:24:13,000
-server, they wouldn't get
-a copy of your password.
+Kerberos, dia tidak akan
+mendapatkan salinan password-mu
 
 541
 00:24:13,000 --> 00:24:14,090
-All right, yeah.
+Baiklah.
 
 542
 00:24:14,090 --> 00:24:17,380
-STUDENT: [INAUDIBLE]
-adversary wants to [INAUDIBLE]
+STUDENT: [TIDAK TERDENGAR]
+orang jahat ingin [TIDAK TERDENGAR]
 
 543
 00:24:17,380 --> 00:24:20,200
-your password offline without--
+password offline-mu tanpa--
 
 544
 00:24:20,200 --> 00:24:23,020
-PROFESSOR: Yeah, so this is
-actually not a great aspect
+
+PROFESSOR: Ya, jadi ini 
+sebanarnya bukan aspek yang hebat
 
 545
 00:24:23,020 --> 00:24:24,322
