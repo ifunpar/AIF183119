@@ -3103,278 +3103,278 @@ pikir port itu--
 
 653
 00:26:22,746 --> 00:26:25,246
-PROFESSOR: Yeah, so the ports
-are sort of below the sequence
+PROFESSOR: Ya, jadi port-portnya
+berada di bawah nomor
 
 654
 00:26:25,246 --> 00:26:27,987
-numbers in some way
-of thinking about it.
+urutannya jika
+dipikir-pikir.
 
 655
 00:26:27,987 --> 00:26:28,486
-Question?
+Ada pertanyaan?
 
 656
 00:26:28,486 --> 00:26:31,060
-AUDIENCE: If the sequence
-numbers are global,
+AUDIENS: Jika nomor urutnya
+global,
 
 657
 00:26:31,060 --> 00:26:33,910
-then doesn't the
-attacker [INAUDIBLE]?
+maka bukankah
+penyerang [TIDAK TERDENGAR]?
 
 658
 00:26:36,774 --> 00:26:37,940
-PROFESSOR: Yeah, good point.
+PROFESSOR: Ya, poin yang bagus.
 
 659
 00:26:37,940 --> 00:26:40,780
-So in fact, if the server
-increments the sequence number
+Jadi faktanya, jika server
+menambahkan nomor urut
 
 660
 00:26:40,780 --> 00:26:43,180
-by, I don't know,
-64k I think it is,
+dengan, misalnya,
+64k mungkin,
 
 661
 00:26:43,180 --> 00:26:46,885
-or it was, for every connection,
-then, well, you connect.
+saya rasa, untuk setiap koneksi,
+maka, yah, Anda terhubung.
 
 662
 00:26:46,885 --> 00:26:49,090
-And then maybe five
-other people connect.
+Dan lalu mungkin lima
+orang lain terhubung.
 
 663
 00:26:49,090 --> 00:26:51,120
-And then you have
-to do this attack.
+Dan kemudian Anda harus
+melakukan penyerangan ini.
 
 664
 00:26:51,120 --> 00:26:54,790
-So to some extent, you're right,
-this is a little troublesome.
+Jadi sampai batas tertentu, Anda benar,
+ini sedikit bermasalah.
 
 665
 00:26:54,790 --> 00:26:56,420
-On the other hand,
-you could probably
+Di sisi lain,
+Anda mungkin bisa
 
 666
 00:26:56,420 --> 00:27:01,860
-arrange it for your packet
-here to be delivered just
+mengatur agar paket anda
+di sini dikirim tepat
 
 667
 00:27:01,860 --> 00:27:02,740
-before this packet.
+sebelum paket ini.
 
 668
 00:27:02,740 --> 00:27:05,870
-So if you send these
-guys back to back,
+Jadi jika Anda mengirimkan
+hal ini secara terus menerus,
 
 669
 00:27:05,870 --> 00:27:08,200
-then there's a good chance
-they'll arrive at the server
+maka ada peluang bagus
+mereka akan sampai pada server
 
 670
 00:27:08,200 --> 00:27:08,920
-back to back.
+secara terus menerus.
 
 671
 00:27:08,920 --> 00:27:10,710
-The server will get
-this one, respond
+Server tersebut akan mendapatkan
+yang satu ini, merespon
 
 672
 00:27:10,710 --> 00:27:12,180
-with this sequence number.
+dengan nomor urutan ini.
 
 673
 00:27:12,180 --> 00:27:13,580
-It'll get the next
-one, this one,
+Dia akan mendapatkan yang
+berikutnya, yang ini,
 
 674
 00:27:13,580 --> 00:27:16,754
-respond with the sequence
-number right afterwards.
+merespon dengan nomor
+urut setelah itu.
 
 675
 00:27:16,754 --> 00:27:19,170
-And then you know exactly what
-to put in this third packet
+Dan setelah itu Anda tahu apa
+yang harus dimasukkan di paket ketiga ini
 
 676
 00:27:19,170 --> 00:27:21,450
-in your sequence.
+dalam urutan anda.
 
 677
 00:27:21,450 --> 00:27:24,620
-So I think this is
-not a foolproof method
+Jadi saya rasa ini bukanlah
+metode yang sempurna
 
 678
 00:27:24,620 --> 00:27:25,790
-of connecting to a server.
+untuk terkoneksi ke sebuah server.
 
 679
 00:27:25,790 --> 00:27:27,260
-There's some guessing involved.
+Hal tersebut melibatkan tebak-tebakan.
 
 680
 00:27:27,260 --> 00:27:29,720
-But if you carefully
-arrange your packets right,
+Tapi jika Anda dengan hati-hati
+menyusun paket-paket Anda dengan benar,
 
 681
 00:27:29,720 --> 00:27:32,230
-then it's quite easy to
-make the right guess.
+maka cukup mudah untuk
+membuat tebakan yang tepat.
 
 682
 00:27:32,230 --> 00:27:34,720
-Or maybe you try several
-times, and you'll get lucky.
+Atau mungkin Anda mencoba beberapa
+kali, dan mungkin Anda akan beruntung.
 
 683
 00:27:34,720 --> 00:27:35,480
-Yeah.
+Ya.
 
 684
 00:27:35,480 --> 00:27:38,246
-AUDIENCE: So even if
-it's totally random,
+AUDIENS: Jadi meskipun
+itu benar-benar acak,
 
 685
 00:27:38,246 --> 00:27:39,912
-and you have to guess
-it, there are only
+dan Anda harus menebaknya,
+hanya ada
 
 686
 00:27:39,912 --> 00:27:40,998
-like 4 billion possibilities.
+sekitar 4 miliar kemungkinan.
 
 687
 00:27:40,998 --> 00:27:42,248
-It's not a huge number, right?
+Bukan jumlah yang besar, kan?
 
 688
 00:27:42,248 --> 00:27:44,372
-I feel like in the
-course of a year,
+Saya rasa
+dalam kurun satu tahun,
 
 689
 00:27:44,372 --> 00:27:46,300
-you should be able to
-probably get through.
+Anda seharusnya
+mungkin dapat menembusnya.
 
 690
 00:27:46,300 --> 00:27:48,660
-PROFESSOR: Right, yeah, so
-you're absolutely right.
+PROFESOR: Benar, ya, jadi
+Anda benar sekali.
 
 691
 00:27:48,660 --> 00:27:53,500
-You shouldn't really be relying
-on TCP to provide security
+Anda seharusnya tidak terlalu bergantung
+pada TCP untuk memberikan keamanan
 
 692
 00:27:53,500 --> 00:27:54,817
-very strongly.
+yang sangat kuat.
 
 693
 00:27:54,817 --> 00:27:56,900
-Because you're right, it's
-only 4 billion guesses.
+Karena Anda benar, hanya
+ada 4 miliar tebakan.
 
 694
 00:27:56,900 --> 00:27:59,370
-And you can probably
-send that many packets
+Dan Anda mungkin dapat
+mengirimkan paket sebanyak itu
 
 695
 00:27:59,370 --> 00:28:02,780
-certainly within a day if you
-have a fast enough connection.
+dalam sehari jika Anda
+memiliki koneksi yang cukup cepat.
 
 696
 00:28:05,510 --> 00:28:07,562
-So it's sort of an
-interesting argument
+Jadi itu semacam
+argumen yang menarik
 
 697
 00:28:07,562 --> 00:28:09,645
-we're having here in the
-sense that at some level,
+di sini dalam hal
+pada titik tertentu,
 
 698
 00:28:09,645 --> 00:28:11,120
-TCP is hopefully insecure.
+TCP sepertinya tidak aman.
 
 699
 00:28:11,120 --> 00:28:12,270
-Because it's only 32 bits.
+Karena itu hanya 32 bit.
 
 700
 00:28:12,270 --> 00:28:14,090
-There's no way we
-could make it secure.
+Tidak mungkin kita dapat
+membuatnya menjadi aman.
 
 701
 00:28:14,090 --> 00:28:15,631
-But I think many
-applications rely on
+Tapi saya rasa fakta bahwa banyak
+aplikasi mengandalkannya
 
 702
 00:28:15,631 --> 00:28:18,740
-it enough that not providing
-any security at all
+dan tidak mengimplementasikan
+keamanan di luar hal itu
 
 703
 00:28:18,740 --> 00:28:22,368
-is so much of a nuisance that
-it really becomes a problem.
+menjadi sangat mengganggu
+dan menjadi sebuah masalah.
 
 704
 00:28:22,368 --> 00:28:24,060
-But you're absolutely right.
+Namun Anda benar-benar tepat.
 
 705
 00:28:24,060 --> 00:28:26,790
-In practice, you do want to
-do some sort of encryption
+Dalam praktiknya, Anda ingin
+melakukan semacam enkripsi
 
 706
 00:28:26,790 --> 00:28:29,350
-on top of this that
-will provide stronger
+di atas hal ini yang
+akan memberikan jaminan
 
 707
 00:28:29,350 --> 00:28:31,610
-guarantees that no one
-tampered with your data,
+lebih kuat bahwa tidak ada orang
+yang merusak data Anda,
 
 708
 00:28:31,610 --> 00:28:33,710
-but where the keys are
-more than 32 bits long.
+tapi bila kuncinya
+lebih panjang dari 32 bit.
 
 709
 00:28:39,120 --> 00:28:41,242
-It still turns out to be
-useful to prevent people
+Ternyata masih berguna untuk
+mencegah orang
 
 710
 00:28:41,242 --> 00:28:45,812
-from tampering with TCP
-connections in most cases.
+untuk merusak menggunakan koneksi
+TCP dalam banyak kasus.
 
 711
 00:28:45,812 --> 00:28:48,140
