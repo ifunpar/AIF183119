@@ -4284,7 +4284,7 @@ always scares me.
 
 927
 00:41:32,360 --> 00:41:33,710
-It's also uint.
+Ini juga merupakan bilangan bulat yang tidak memiliki tanda.
 
 928
 00:41:33,710 --> 00:41:35,177
