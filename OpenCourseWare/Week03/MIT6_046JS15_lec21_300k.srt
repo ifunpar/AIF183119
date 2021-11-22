@@ -4666,7 +4666,6 @@ file, diasumsikan
 anda punya password panjang
 akan dilakukan seperti ini,
 
-
 995
 00:53:11,040 --> 00:53:13,320
 jika tidak akan membutuhkan sesuatu
