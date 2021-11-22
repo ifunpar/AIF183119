@@ -3953,45 +3953,45 @@ root of the number of attempts
 836
 00:36:10,740 --> 00:36:14,880
 in order to find this collision
-because the intuitive reason
+karena alasan intuitif
 
 837
 00:36:14,880 --> 00:36:17,790
-is, well, you just start
-trying things and keeping
+adalah, yah, Anda baru saja mulai
+mencoba sesuatu dan menjaga
 
 838
 00:36:17,790 --> 00:36:19,680
-track of all their hashes.
+melacak semua hash mereka.
 
 839
 00:36:19,680 --> 00:36:23,340
-And there's what's called
-the birthday attack, which,
+Dan ada yang disebut
+serangan ulang tahun, yang,
 
 840
 00:36:23,340 --> 00:36:26,310
-as you keep trying them,
-there's more possibilities.
+saat Anda terus mencobanya,
+da lebih banyak kemungkinan.
 
 841
 00:36:26,310 --> 00:36:28,110
-The next thing you
-try, you can collide
+Hal berikutnya yang Anda
+coba, Anda bisa bertabrakan
 
 842
 00:36:28,110 --> 00:36:30,248
-with any of these things
-you've tried before.
+dengan salah satu hal yang
+pernah Anda coba sebelumnya.
 
 843
 00:36:30,248 --> 00:36:32,415
-And so you actually only
-have to do the square root.
+Jadi Anda sebenarnya hanya
+perlu melakukan akar kuadrat.
 
 844
 00:36:32,415 --> 00:36:33,873
-And it's called
+Dan itu disebut
 the birthday attack
 
 845
