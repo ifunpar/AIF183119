@@ -3098,188 +3098,188 @@ menuju tepat ke situs web
 
 658
 00:35:50,300 --> 00:35:51,740
-that you've put up.
+yang telah Anda simpan.
 
 659
 00:35:51,740 --> 00:35:57,230
-And that gives you a way
-of identifying yourself.
+Dan hal tersebut memberi Anda cara
+untuk mengidentifikasi diri Anda.
 
 660
 00:35:57,230 --> 00:35:59,440
-And if you can do
-that, you can protect
+Dan jika Anda dapat melakukan
+itu, Anda dapat terlindung
 
 661
 00:35:59,440 --> 00:36:01,560
-against the man in the
-middle attack using
+dari serangan 
+man in the middle menggunakan
 
 662
 00:36:01,560 --> 00:36:04,140
-asymmetric key cryptography.
+kriptografi kunci asimetri.
 
 663
 00:36:04,140 --> 00:36:09,390
-So that's kind of the final
-part of this puzzle that's
+Jadi itu merupakan bagian akhir
+dari teka-teki ini yang 
 
 664
 00:36:09,390 --> 00:36:15,470
-associated with authentication
-and secret key exchange and all
+berkaitan dengan otentikasi
+dan pertukaran kunci rahasia dan semuanya
 
 665
 00:36:15,470 --> 00:36:16,213
-of that.
+itu.
 
 666
 00:36:16,213 --> 00:36:18,337
-Once we do that, you'll
-know what the functionality
+Setelah kita melakukan itu, Anda akan 
+mengetahui fungsi apa
 
 667
 00:36:18,337 --> 00:36:19,789
-is that we require.
+yang kita butuhkan.
 
 668
 00:36:19,789 --> 00:36:21,330
-And then we'll have
-to talk about how
+Dan sekarang kita akan
+berbicara tentang bagaimana
 
 669
 00:36:21,330 --> 00:36:22,975
-we can build a subsystems.
+kita bisa membangun sebuah subsistem.
 
 670
 00:36:27,520 --> 00:36:28,020
-Cool.
+Keren.
 
 671
 00:36:28,020 --> 00:36:29,560
-Any questions so far?
+Apakah sejauh ini ada pertanyaan?
 
 672
 00:36:29,560 --> 00:36:32,930
-How we doing?
+Baik-baik saja?
 
 673
 00:36:32,930 --> 00:36:33,430
-OK.
+Baiklah.
 
 674
 00:36:36,060 --> 00:36:40,880
-So public key encryption, let
-me just do a little set up.
+Jadi enkripsi kunci publik, izinkan
+saya melakukan sedikit persiapan.
 
 675
 00:36:40,880 --> 00:36:44,370
-I said some of this last time.
+Saya sempat menyinggung sebagian dari ini sebelumnya.
 
 676
 00:36:44,370 --> 00:36:48,580
-But to make sure we're on the
-same page, what we have here
+Tetapi untuk memastikan kita memiliki
+pemahaman yang sama, apa yang kita punya di sini
 
 677
 00:36:48,580 --> 00:36:53,970
-is we really want a
-message plus a public key.
+adalah kita benar-benar menginginkan
+sebuah pesan ditambah kunci publik.
 
 678
 00:36:53,970 --> 00:37:02,680
-And you want to obtain ciphered
-text using this operation.
+Dan Anda ingin mendapatkan teks terenkripsi
+menggunakan operasi ini.
 
 679
 00:37:02,680 --> 00:37:05,920
-And this plus is not
-arithmetic addition.
+Dan simbol tambah ini bukanlah
+penjumlahan aritmetik.
 
 680
 00:37:05,920 --> 00:37:08,900
-It's just that we're putting
-these two things together
+Kita hanyalah menggabungkan
+kedua hal ini
 
 681
 00:37:08,900 --> 00:37:11,930
-into an algorithm, a public
-key encryption algorithm, that
+menjadi sebuah algoritma, algoritma
+enkripsi kunci publik, yang
 
 682
 00:37:11,930 --> 00:37:13,500
-produces ciphered text.
+menghasilkan teks tersandi.
 
 683
 00:37:13,500 --> 00:37:14,290
-All right.
+Baiklah.
 
 684
 00:37:14,290 --> 00:37:18,910
-And this public key, just to
-reiterate what I just said,
+Dan kunci publik ini, untuk
+mengulangi apa yang saya katakan,
 
 685
 00:37:18,910 --> 00:37:23,790
-is going to be if Alice
-is producing the message
+akan menjadi jika Alice
+yang membuat pesan.
 
 686
 00:37:23,790 --> 00:37:26,460
-and Bob is getting
-the ciphered text,
+lalu Bob yang mendapatkan
+pesan tersandi,
 
 687
 00:37:26,460 --> 00:37:30,650
-this is going to be
-Bob's public key.
+maka ini akan menjadi
+kunci publik milik Bob.
 
 688
 00:37:30,650 --> 00:37:33,800
-And the fact that
-it's Bob's public key
+Dan fakta bahwa
+kunci publik tersebut milik Bob
 
 689
 00:37:33,800 --> 00:37:35,420
-is something that
-Alice should be
+adalah suatu hal
+yang dapat diautentikasi
 
 690
 00:37:35,420 --> 00:37:38,370
-able to authenticate
-using VeriSign, using
+oleh Alice menggunakan
+VeriSign, menggunakan
 
 691
 00:37:38,370 --> 00:37:40,574
-the Register of Motor
-Vehicles, what have you.
+Daftar Kendaraan Bermotor,
+dan sejenisnya.
 
 692
 00:37:40,574 --> 00:37:42,490
-That's what's going to
-protect against the man
+Itulah yang akan
+melindungi dari serangan
 
 693
 00:37:42,490 --> 00:37:43,600
-in the middle attack.
+man-in-the-middle.
 
 694
 00:37:43,600 --> 00:37:44,690
-OK.
+Baik.
 
 695
 00:37:44,690 --> 00:37:47,790
-We're not going to
-talk a lot about how
+Kita tidak akan
+banyak bicara tentang bagaimana
 
 696
 00:37:47,790 --> 00:37:48,920
-you can get a certificate.
+Anda bisa mendapatkan sebuah sertifikasi.
 
 697
 00:37:48,920 --> 00:37:51,340
-Your MIT certificate
-is something which
+Sertifikat MIT Anda
+adalah sesuatu yang
 
 698
 00:37:51,340 --> 00:37:54,310
