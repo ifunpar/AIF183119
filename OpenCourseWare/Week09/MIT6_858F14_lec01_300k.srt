@@ -4800,11 +4800,11 @@ mencatat panjangnya.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Sebagai gantinya, string memiliki seluruh byte daya.
+Sebagai gantinya, string memiliki seluruh byte data.
 
 1011
 00:43:01,080 --> 00:43:03,660
-Dan akhir dari string<
+Dan akhir dari string
 adalah byte bernilai 0.
 
 1012
