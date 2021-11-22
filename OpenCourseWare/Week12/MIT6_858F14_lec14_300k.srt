@@ -3161,97 +3161,97 @@ kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
-by browsers from that point on.
+oleh browser pada titik itu.
 
 669
 00:29:13,469 --> 00:29:15,760
-So the next release of Chrome
-is just like, hey, you're
+Jadi pada versi Chrome yang berikutnya
+seperti, hey, Anda sudah
 
 670
 00:29:15,760 --> 00:29:16,390
-really screwed up.
+benar-benar kacau.
 
 671
 00:29:16,390 --> 00:29:18,515
-We're going to kick you
-out of the sort of CAs that
+Kami akan mengeluarkan 
+Anda dari jenis CA
 
 672
 00:29:18,515 --> 00:29:19,195
-are trusted.
+yang terpercaya
 
 673
 00:29:19,195 --> 00:29:20,420
-And it was actually
-kind of a bummer
+Dan itu sebenarnya
+agak mengecewakan
 
 674
 00:29:20,420 --> 00:29:21,875
-because all of the
-legitimate people that
+karena dari semua
+orang yang sah
 
 675
 00:29:21,875 --> 00:29:23,875
-had certificates from
-that certificate authority
+yang memiliki sertifikat
+dari otoritas sertifikat itu
 
 676
 00:29:23,875 --> 00:29:25,030
-are now out of luck.
+sekarang sudah habis keberuntungannya.
 
 677
 00:29:25,030 --> 00:29:26,680
-They have to get
-new certificates.
+Mereka harus mendapatkan
+sertifikat baru.
 
 678
 00:29:26,680 --> 00:29:28,440
-So this is a somewhat
-messy system,
+Jadi ini adalah semacam
+sistem yang berantakan,
 
 679
 00:29:28,440 --> 00:29:33,190
-but that's sort of what happens
-in practice with certificates.
+tapi itulah kira-kira yang terjadi
+dalam praktik penggunaan sertifikat.
 
 680
 00:29:33,190 --> 00:29:34,540
-Make sense?
+Masuk akal?
 
 681
 00:29:34,540 --> 00:29:38,330
-Other questions
-about how this works?
+Pertanyaan lain
+mengenai cara kerjanya?
 
 682
 00:29:38,330 --> 00:29:39,612
-All right.
+Baiklah.
 
 683
 00:29:39,612 --> 00:29:43,530
-So this is the sort of general
-plan for how certificates work.
+Jadi beginilah kira-kira rencana
+umum tentang cara kerja sertifikat.
 
 684
 00:29:43,530 --> 00:29:46,800
-And as we were
-talking about, they're
+Dan seperti yang kita
+bicarakan sebelumnya, mereka
 
 685
 00:29:46,800 --> 00:29:48,510
-sort of better than
-Kerberos in the sense
+dapat dikatakan lebih baik daripada
+Kerberos dalam artian
 
 686
 00:29:48,510 --> 00:29:51,610
-that you don't have to
-have this guy be online.
+anda tidak perlu untuk
+menghubungkannya ke jaringan
 
 687
 00:29:51,610 --> 00:29:53,580
-It might be a little
-bit more scalable
+Itu menjadi sedikit
+lebih terukur
 
 688
 00:29:53,580 --> 00:29:55,560
