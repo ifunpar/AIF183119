@@ -2594,55 +2594,55 @@ actually not a great aspect
 
 545
 00:24:23,020 --> 00:24:24,322
-of Kerberos, in fact, right?
+dari Kerberos, nyatanya, bukan?
 
 546
 00:24:24,322 --> 00:24:26,030
-So does everyone see
-what the problem is?
+Jadi apakah kalian semua melihat
+apa permasalahannya?
 
 547
 00:24:26,030 --> 00:24:28,430
-The problem is that the
-way the client could
+Permasalahannya adalah pada
+cara klien yang dapat
 
 548
 00:24:28,430 --> 00:24:30,180
-tell if they got the
-right password or not
+mengetahui apakah mereka mendapatkan
+kata sandi yang benar atau tidak
 
 549
 00:24:30,180 --> 00:24:32,520
-or the workstation tells
-if the client supplied
+atau tempat kerjanya dapat memberitahu
+apakah klien menyediakan
 
 550
 00:24:32,520 --> 00:24:35,320
-the right password is they
-try to decrypt this ticket
+kata sandi yang benar adalah mereka
+berusaha untuk mendekripsi tiket ini
 
 551
 00:24:35,320 --> 00:24:37,760
-and they see if it works or not.
+dan mereka melihat apakah proses dekripsi tersebut berjalan atau tidak.
 
 552
 00:24:37,760 --> 00:24:41,080
-And decryption is fairly cheap.
+Dan dekripsi ini cukup murah.
 
 553
 00:24:41,080 --> 00:24:42,700
-This is symmetric
-encryption and you
+Ini adalah enkripsi 
+simetris dan kamu
 
 554
 00:24:42,700 --> 00:24:45,060
-can do probably
-millions of decryptions
+dapat mungkin melakukan sebanyak
+jutaan dekripsi
 
 555
 00:24:45,060 --> 00:24:49,460
-a second if you try
-hard on modern machines.
+per detik jika kamu berusaha
+keras pada mesin yang modern.
 
 556
 00:24:49,460 --> 00:24:52,300
