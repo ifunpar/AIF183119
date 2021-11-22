@@ -3161,40 +3161,40 @@ kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
-by browsers from that point on.
+oleh browser pada titik itu.
 
 669
 00:29:13,469 --> 00:29:15,760
-So the next release of Chrome
-is just like, hey, you're
+Jadi pada versi Chrome yang berikutnya
+seperti, hey, Anda sudah
 
 670
 00:29:15,760 --> 00:29:16,390
-really screwed up.
+benar-benar kacau.
 
 671
 00:29:16,390 --> 00:29:18,515
-We're going to kick you
-out of the sort of CAs that
+Kami akan mengeluarkan 
+Anda dari jenis CA
 
 672
 00:29:18,515 --> 00:29:19,195
-are trusted.
+yang terpercaya
 
 673
 00:29:19,195 --> 00:29:20,420
-And it was actually
-kind of a bummer
+Dan itu sebenarnya
+agak mengecewakan
 
 674
 00:29:20,420 --> 00:29:21,875
-because all of the
-legitimate people that
+karena dari semua
+orang yang sah
 
 675
 00:29:21,875 --> 00:29:23,875
-had certificates from
-that certificate authority
+yang memiliki sertifikat
+dari otoritas sertifikat itu
 
 676
 00:29:23,875 --> 00:29:25,030
