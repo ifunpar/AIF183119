@@ -4964,16 +4964,16 @@ menerima string ini
 
 1046
 00:44:25,220 --> 00:44:27,930
-and loads it in memory, well,
-what it does is the same thing
+dan memuat string di dalam memori, jadi,
+yang dia lakukan adalah hal yang sama
 
 1047
 00:44:27,930 --> 00:44:28,830
-it did here.
+dengan yang dilakukan di sini.
 
 1048
 00:44:28,830 --> 00:44:30,839
-It copies the string.
+Dia menyalin string tersebut.
 
 1049
 00:44:30,839 --> 00:44:31,714
@@ -4981,105 +4981,105 @@ amazon.com0x.foo.com.
 
 1050
 00:44:37,206 --> 00:44:40,700
-It'll dutifully add the
-terminating zero at the end.
+Hal ini akan dengan patuh menambahkan
+terminating nol di akhir.
 
 1051
 00:44:40,700 --> 00:44:43,370
-But then, when the rest
-of the browser software
+Tetapi setelah itu, ketika sisa
+dari perangkat lunak peramban
 
 1052
 00:44:43,370 --> 00:44:47,510
-goes and tries to interpret the
-string at this memory location,
+pergi dan mencoba untuk menafsirkan
+string di lokasi memori ini,
 
 1053
 00:44:47,510 --> 00:44:50,722
-it'll keep going up until it
-gets to zero and say, OK well,
+itu akan terus naik sampai hal tersebut
+sampai ke nol dan berkata, Oke jadi,
 
 1054
 00:44:50,722 --> 00:44:51,930
-that's the end of the string.
+itulah akhir dari string.
 
 1055
 00:44:51,930 --> 00:44:53,276
-So this is Amazon.com.
+Jadi ini adalah Amazon.com.
 
 1056
 00:44:53,276 --> 00:44:54,630
-That's it.
+Itu dia.
 
 1057
 00:44:54,630 --> 00:45:00,120
-So this sort of disconnect
-between how C software
+Jadi pemutusan semacam ini
+antara bagaimana perangkat lunak C
 
 1058
 00:45:00,120 --> 00:45:03,070
-and how SSL certificates
-represent names
+dan bagaimana sertifikat SSL
+merepresentasikan nama
 
 1059
 00:45:03,070 --> 00:45:05,800
-led to some unfortunate
-security problems.
+menyebabkan beberapa
+masalah keamanan yang disayangkan.
 
 1060
 00:45:05,800 --> 00:45:08,240
-This was actually
-discovered a number of years
+Ini sebenarnya
+ditemukan beberapa tahun
 
 1061
 00:45:08,240 --> 00:45:11,030
-ago now by this guy,
+yang lalu oleh orang ini,
 Moxie Marlinspike.
 
 1062
 00:45:11,030 --> 00:45:13,620
-But it's a fairly
-clever observation.
+Tapi itu merupakan
+pengamatan yang cukup cerdas.
 
 1063
 00:45:13,620 --> 00:45:17,470
-And these kinds of encoding
-bugs are actually also
+Dan jenis bug pengkodean
+semacam ini sebenarnya juga
 
 1064
 00:45:17,470 --> 00:45:20,470
-pretty common in
-lots of software
+cukup umum di
+banyak perangkat lunak
 
 1065
 00:45:20,470 --> 00:45:24,030
-because, unless you're very
-diligent about exactly how you
+karena, kecuali anda sangat
+rajin tentang bagaimana anda
 
 1066
 00:45:24,030 --> 00:45:27,090
-encode things, there might be
-different ways of encoding.
+mengkodekan hal - hal, mungkin ada
+beberapa cara pengkodean yang berbeda.
 
 1067
 00:45:27,090 --> 00:45:28,547
-And whenever there's
-disagreement,
+Dan kapanpun ada
+pertentangan,
 
 1068
 00:45:28,547 --> 00:45:30,880
-there's a chance the bad guy
-can take advantage of this.
+ada kemungkinan orang jahat
+dapat memanfaatkan ini.
 
 1069
 00:45:30,880 --> 00:45:32,421
-One system thinks
-that's a fine name.
+Satu sistem berpikir
+itu nama yang bagus.
 
 1070
 00:45:32,421 --> 00:45:34,590
-Another thinks that's
-not, something else.
+Yang lain berpikir itu
+bukan, sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
