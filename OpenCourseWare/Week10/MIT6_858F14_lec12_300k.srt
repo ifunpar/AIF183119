@@ -3103,12 +3103,12 @@ pikir port itu--
 
 653
 00:26:22,746 --> 00:26:25,246
-PROFESSOR: Ya, jadi port-portnya 
-seolah-olah ada di bawah nomor 
+PROFESSOR: Ya, jadi port-portnya
+berada di bawah nomor
 
 654
 00:26:25,246 --> 00:26:27,987
-urut jika
+urutannya jika
 dipikir-pikir.
 
 655
@@ -3118,11 +3118,11 @@ Ada pertanyaan?
 656
 00:26:28,486 --> 00:26:31,060
 AUDIENS: Jika nomor urutnya
-adalah global,
+global,
 
 657
 00:26:31,060 --> 00:26:33,910
-maka bukannya 
+maka bukankah
 penyerang [TIDAK TERDENGAR]?
 
 658
@@ -3132,17 +3132,17 @@ PROFESSOR: Ya, poin yang bagus.
 659
 00:26:37,940 --> 00:26:40,780
 Jadi faktanya, jika server
-menambah nomor urut
+menambahkan nomor urut
 
 660
 00:26:40,780 --> 00:26:43,180
-oleh, saya tidak tahu,
+dengan, misalnya,
 64k mungkin,
 
 661
 00:26:43,180 --> 00:26:46,885
-atau sesuatu, untuk setiap koneksi,
-maka, ya, anda terhubung.
+saya rasa, untuk setiap koneksi,
+maka, yah, Anda terhubung.
 
 662
 00:26:46,885 --> 00:26:49,090
@@ -3151,23 +3151,23 @@ orang lain terhubung.
 
 663
 00:26:49,090 --> 00:26:51,120
-Dan kemudian anda harus
+Dan kemudian Anda harus
 melakukan penyerangan ini.
 
 664
 00:26:51,120 --> 00:26:54,790
-Jadi sampai batas tertentu, anda benar,
+Jadi sampai batas tertentu, Anda benar,
 ini sedikit bermasalah.
 
 665
 00:26:54,790 --> 00:26:56,420
 Di sisi lain,
-anda mungkin bisa
+Anda mungkin bisa
 
 666
 00:26:56,420 --> 00:27:01,860
 mengatur agar paket anda
-disini dikirim tepat
+di sini dikirim tepat
 
 667
 00:27:01,860 --> 00:27:02,740
@@ -3175,8 +3175,8 @@ sebelum paket ini.
 
 668
 00:27:02,740 --> 00:27:05,870
-Jadi jika anda mengirimkan
-orang-orang ini secara terus menerus,
+Jadi jika Anda mengirimkan
+hal ini secara terus menerus,
 
 669
 00:27:05,870 --> 00:27:08,200
@@ -3190,25 +3190,25 @@ secara terus menerus.
 671
 00:27:08,920 --> 00:27:10,710
 Server tersebut akan mendapatkan
-satu ini, merespon
+yang satu ini, merespon
 
 672
 00:27:10,710 --> 00:27:12,180
-dengan urutan angka ini.
+dengan nomor urutan ini.
 
 673
 00:27:12,180 --> 00:27:13,580
-Ini akan mendapatkan yang 
+Dia akan mendapatkan yang
 berikutnya, yang ini,
 
 674
 00:27:13,580 --> 00:27:16,754
-merespon dengan urutan
-angka setelah itu.
+merespon dengan nomor
+urut setelah itu.
 
 675
 00:27:16,754 --> 00:27:19,170
-Dan setelah itu anda tahu apa
+Dan setelah itu Anda tahu apa
 yang harus dimasukkan di paket ketiga ini
 
 676
@@ -3217,21 +3217,21 @@ dalam urutan anda.
 
 677
 00:27:21,450 --> 00:27:24,620
-Jadi saya berpikir ini adalah
-bukan metode yang tidak bisa rusak
+Jadi saya rasa ini bukanlah
+metode yang sempurna
 
 678
 00:27:24,620 --> 00:27:25,790
-untuk menghubungkan terhadap sebuah server.
+untuk terkoneksi ke sebuah server.
 
 679
 00:27:25,790 --> 00:27:27,260
-Disitu terdapat beberapa tebakan yang terlibat.
+Hal tersebut melibatkan tebak-tebakan.
 
 680
 00:27:27,260 --> 00:27:29,720
-Tapi jika anda dengan hati-hati
-menyusun paket anda dengan benar,
+Tapi jika Anda dengan hati-hati
+menyusun paket-paket Anda dengan benar,
 
 681
 00:27:29,720 --> 00:27:32,230
@@ -3250,11 +3250,11 @@ Ya.
 684
 00:27:35,480 --> 00:27:38,246
 AUDIENS: Jadi meskipun
-itu benar-benar acak
+itu benar-benar acak,
 
 685
 00:27:38,246 --> 00:27:39,912
-dan Anda harus menebak,
+dan Anda harus menebaknya,
 hanya ada
 
 686
@@ -3273,7 +3273,7 @@ dalam kurun satu tahun,
 689
 00:27:44,372 --> 00:27:46,300
 Anda seharusnya
-mungkin dapat melewatinya.
+mungkin dapat menembusnya.
 
 690
 00:27:46,300 --> 00:27:48,660
@@ -3306,13 +3306,13 @@ memiliki koneksi yang cukup cepat.
 
 696
 00:28:05,510 --> 00:28:07,562
-jadi itu semacam 
-argumen yang menarik 
+Jadi itu semacam
+argumen yang menarik
 
 697
 00:28:07,562 --> 00:28:09,645
-disini kita merasakan bahwa
-pada suatu titik, 
+di sini dalam hal
+pada titik tertentu,
 
 698
 00:28:09,645 --> 00:28:11,120
@@ -3329,13 +3329,13 @@ membuatnya menjadi aman.
 
 701
 00:28:14,090 --> 00:28:15,631
-Tapi saya pikir banyak
+Tapi saya rasa fakta bahwa banyak
 aplikasi mengandalkannya
 
 702
 00:28:15,631 --> 00:28:18,740
-itu cukup membuktikan bahwa tidak 
-menyediakan keamanan sama sekali
+dan tidak mengimplementasikan
+keamanan di luar hal itu
 
 703
 00:28:18,740 --> 00:28:22,368
@@ -3344,22 +3344,22 @@ dan menjadi sebuah masalah.
 
 704
 00:28:22,368 --> 00:28:24,060
-Namun anda benar-benar tepat.
+Namun Anda benar-benar tepat.
 
 705
 00:28:24,060 --> 00:28:26,790
-Dalam prakteknya, anda ingin 
+Dalam praktiknya, Anda ingin
 melakukan semacam enkripsi
 
 706
 00:28:26,790 --> 00:28:29,350
-setelah diaplikasikan, hal itu
-akan memberikan lebih kuat
+di atas hal ini yang
+akan memberikan jaminan
 
 707
 00:28:29,350 --> 00:28:31,610
-menjamin bahwa tidak ada orang
-yang merusak data anda,
+lebih kuat bahwa tidak ada orang
+yang merusak data Anda,
 
 708
 00:28:31,610 --> 00:28:33,710
@@ -3373,8 +3373,8 @@ mencegah orang
 
 710
 00:28:41,242 --> 00:28:45,812
-untuk merusak menggunakan koneksi 
-TCP dalam berbagai kasus.
+untuk merusak menggunakan koneksi
+TCP dalam banyak kasus.
 
 711
 00:28:45,812 --> 00:28:48,140
