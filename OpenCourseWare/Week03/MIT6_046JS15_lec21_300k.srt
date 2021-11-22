@@ -4631,7 +4631,7 @@ domainnya kecil
 987
 00:52:53,350 --> 00:52:55,120
 Anda bisa sekedar
-menghitung domain.
+menelusuri domain.
 
 988
 00:52:55,120 --> 00:52:57,062
@@ -4644,7 +4644,7 @@ dan sudah jelas
 
 990
 00:52:58,770 --> 00:53:00,300
-itu akan relevan disini.
+itu akan relevan di sini.
 
 991
 00:53:00,300 --> 00:53:02,520
@@ -4663,13 +4663,13 @@ file, diasumsikan
 
 994
 00:53:06,700 --> 00:53:11,040
-anda punya password panjang
+Anda punya password panjang
 akan dilakukan seperti ini,
 
 995
 00:53:11,040 --> 00:53:13,320
 jika tidak akan membutuhkan sesuatu
-yang dinamakan 'salt'.
+yang dinamakan salt (garam).
 
 996
 00:53:13,320 --> 00:53:16,540
@@ -4678,238 +4678,238 @@ dan kita tidak akan kesana.
 
 997
 00:53:16,540 --> 00:53:19,590
-Jadi kita akan berasumsi
+Jadi kita hanya berasumsi
 sebuah entropi yang besar.
 
 998
 00:53:19,590 --> 00:53:21,980
-Apa itu yang bisa dilakukan sebuah sistem?
+Apa yang bisa dilakukan sebuah sistem?
 
 999
 00:53:21,980 --> 00:53:26,210
-Apa yang bisa disimpannya agar
-bisa membiarkanmu masuk, dan hanya
+Di mana dia bisa disimpan agar
+bisa mengizinkan Anda masuk,
 
 1000
 00:53:26,210 --> 00:53:28,830
-let you in when you
-type your password,
+hanya jika ketika
+Anda mengetik kata sandi,
 
 1001
 00:53:28,830 --> 00:53:32,190
-and not let some bogus
-password into the system?
+dan tidak membiarkan kata sandi palsu
+digunakan untuk masuk ke sistem?
 
 1002
 00:53:32,190 --> 00:53:34,610
-Or somebody with a bogus
-password into the system.
+Atau sesorang dengan kata sandi palsu
+masuk ke dalam sistem.
 
 1003
 00:53:34,610 --> 00:53:35,249
-Yeah, go ahead.
+Ya, silakan.
 
 1004
 00:53:35,249 --> 00:53:37,540
-AUDIENCE: If you capture the
-password when you enter it
+AUDIENS: Jika Anda menangkap
+kata sandi palsu saat Anda memasukkannya
 
 1005
 00:53:37,540 --> 00:53:39,380
-and compare it to
-what's stored--
+dan dibandingkan dengan 
+apa yang disimpan--
 
 1006
 00:53:39,380 --> 00:53:40,347
-SRINIVAS DEVADAS: Yes.
+SRINIVAS DEVADAS: Ya.
 
 1007
 00:53:40,347 --> 00:53:42,430
-AUDIENCE: If it's a one-way
-hash you know you have
+AUDIENS: Jika itu hash satu arah, 
+Anda tahu Anda memiliki
 
 1008
 00:53:42,430 --> 00:53:42,730
-what the correct password is.
+kata sandi yang benar.
 
 1009
 00:53:42,730 --> 00:53:43,820
 SRINIVAS DEVADAS:
-That's exactly right.
+Itu benar sekali.
 
 1010
 00:53:43,820 --> 00:53:44,790
-That's exactly right.
+Itu benar.
 
 1011
 00:53:44,790 --> 00:53:49,950
-So it's a really simple
-idea, a very powerful idea.
+Jadi itu merupakan ide yang sangat sederhana,
+ide yang sangat kuat.
 
 1012
 00:53:49,950 --> 00:53:54,610
-It, as I said, assumed that the
-entropy-- and I'm belaboring
+Seperti yang saya katakan, mengasumsikan bahwa
+entropi-- dan saya menjelaskan
 
 1013
 00:53:54,610 --> 00:53:56,890
-the obvious now--
-but it is important
+yang sudah jelas sekarang--
+tapi ini sangat penting
 
 1014
 00:53:56,890 --> 00:53:59,890
-when you talk about security
-to state your assumptions.
+ketika Anda berbicara tentang keamanan
+untuk menyatakan asumsi Anda.
 
 1015
 00:53:59,890 --> 00:54:04,380
-But you do not store
-password on your computer.
+Tetapi Anda tidak menyimpan 
+kata sandi di komputer Anda.
 
 1016
 00:54:04,380 --> 00:54:06,940
-And you store the
-hash of the password.
+Dan Anda menyimpan
+hash dari password tersebut.
 
 1017
 00:54:06,940 --> 00:54:09,530
-Now why do I store my
-password on the computer?
+Sekarang, kenapa saya menyimpan
+kata sandi di komputer?
 
 1018
 00:54:09,530 --> 00:54:12,200
-Because this is so
-inconvenient, right?
+Karena ini sangat
+merepotkan, bukan?
 
 1019
 00:54:12,200 --> 00:54:15,180
-So this is what the
-system does for me.
+Jadi ini yang sistem
+lakukan untuk Anda.
 
 1020
 00:54:15,180 --> 00:54:18,110
-But the fact of the matter
-is, if I lose my password,
+Tetapi, inti masalahnya adalah
+jika saya kehilangan password saya,
 
 1021
 00:54:18,110 --> 00:54:19,470
-this doesn't help me.
+Ini tidak membantu saya.
 
 1022
 00:54:19,470 --> 00:54:24,050
-Because what the system wants
-you to do is choose a password
+Karena sistem menginginkan Anda
+untuk memilih sebuah kata sandi
 
 1023
 00:54:24,050 --> 00:54:26,720
-that is long enough,
-and the h is one-way.
+yang cukup panjang,
+serta h-nya satu arah(one-way).
 
 1024
 00:54:26,720 --> 00:54:30,960
-So anybody who discovers h of
-PW that is publicly readable
+Jadi siapapun yang menemukan h dari
+PW yang dapat dibaca secara publik
 
 1025
 00:54:30,960 --> 00:54:33,840
-cannot discover PW, all right?
+tidak dapat menemukan PW, kan?
 
 1026
 00:54:33,840 --> 00:54:36,420
-That's what's cool about this.
+Inilah yang keren tentang hal ini.
 
 1027
 00:54:36,420 --> 00:54:38,740
-How do you let
-the person log in?
+Bagaimana Anda mengizinkan
+orang tersebut log in?
 
 1028
 00:54:38,740 --> 00:54:47,860
-Use h of PW to compare
-against h of PW prime,
+Gunakan h dari PW untuk dibandingkan
+dengan h dari PW aksen,
 
 1029
 00:54:47,860 --> 00:54:54,420
-which is what is entered, where
-PW prime is the typed password.
+yaitu apa yang dimasukan, dimana 
+PW aksen perupakan kata sandi yang diketik.
 
 1030
 00:55:00,540 --> 00:55:08,530
-And clearly what we need is
-the disclosure of h of PW
+Dan jelas yang kita perlukan
+adalah pengungkapan h dari PW
 
 1031
 00:55:08,530 --> 00:55:14,960
-should not reveal PW.
+tidak boleh mengungkap PW.
 
 1032
 00:55:14,960 --> 00:55:19,570
-So we definitely
-need one-wayness.
+Jadi kita pasti membutuhkan 
+sifat satu arah.
 
 1033
 00:55:19,570 --> 00:55:24,370
-What about-- what about
-collision resistance?
+Bagaimana tentang-- bagaimana
+tentang Collision Resistance?
 
 1034
 00:55:24,370 --> 00:55:28,340
-Our target collision resistance?
+Target collision resistance kita?
 
 1035
 00:55:28,340 --> 00:55:31,350
-Think practitioner now, right?
+Sekarang, berpikirlah secara praktis, oke?
 
 1036
 00:55:31,350 --> 00:55:33,590
-Are we interested in
-this hash function
+Apakah kita tertarik tentang 
+fungsi hash ini
 
 1037
 00:55:33,590 --> 00:55:34,880
-being collision resistant?
+bersifat collision resistant?
 
 1038
 00:55:34,880 --> 00:55:37,150
-What does that
-mean in this case?
+Apa artinya
+dalam kasus ini?
 
 1039
 00:55:37,150 --> 00:55:40,315
-Give me the context in this
-particular application?
+Beri saya konteks dalam
+aplikasi khusus ini?
 
 1040
 00:55:40,315 --> 00:55:40,940
-Yeah, go ahead.
+Ya, silakan.
 
 1041
 00:55:40,940 --> 00:55:44,860
-AUDIENCE: It means that someone
-entering a different password
+AUDIENS: Artinya seseorang
+yang memasukkan kata sandi yang berbeda
 
 1042
 00:55:44,860 --> 00:55:47,107
-will have the same
-hash [INAUDIBLE].
+akan memiliki
+hash yang sama [TIDAK TERDENGAR]
 
 1043
 00:55:47,107 --> 00:55:48,190
-SRINIVAS DEVADAS: Exactly.
+SRINIVAS DEVADAS: Tepat.
 
 1044
 00:55:48,190 --> 00:55:56,600
-So it means that what you have
-is a situation where you do not
+Jadi itu berarti bahwa apa yang Anda hadapi
+adalah sebuah situasi di mana Anda tidak
 
 1045
 00:55:56,600 --> 00:56:00,900
-reveal-- and so what might
-happen is that h of PW prime
+mengungkapkan-- dan apa yang mungkin
+terjadi adalah h dari PW aksen
 
 1046
 00:56:00,900 --> 00:56:02,460
-equals h of PW.
+sama dengan h dari PW
 
 1047
 00:56:02,460 --> 00:56:07,190
