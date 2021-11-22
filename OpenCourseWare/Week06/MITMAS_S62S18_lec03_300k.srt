@@ -4202,87 +4202,87 @@ ke titik pada kurva, oke?
 
 909
 00:40:49,310 --> 00:40:52,080
-So from now on, lowercase
-is regular number,
+Jadi mulai sekarang, huruf kecil
+adalah angka biasa,
 
 910
 00:40:52,080 --> 00:40:54,150
-uppercase is point
-on this curve,
+huruf besar adalah titik
+pada kurva ini,
 
 911
 00:40:54,150 --> 00:40:58,678
-or point on this mashed-up thing
-that we still call a curve.
+atau pada titik dimana suatu hal diperhalus
+sehingga kita tetap bisa menyebutnya sebagai kurva.
 
 912
 00:40:58,678 --> 00:40:59,510
-OK.
+Oke.
 
 913
 00:40:59,510 --> 00:41:01,700
-So I'll go through what
-operations we can do,
+Jadi saya akan menunjukkan operasi
+apa saja yang dapat kita lakukan,
 
 914
 00:41:01,700 --> 00:41:05,090
-and then we can see
-what use those have.
+dan kemudian kita dapat melihat
+apa gunanya hal tersebut.
 
 915
 00:41:05,090 --> 00:41:07,190
-So first, scalars.
+Jadi pertama, skalar.
 
 916
 00:41:07,190 --> 00:41:08,990
-You can add, subtract,
-multiply, divide.
+Anda dapat melakukan penjumlahan, pengurangan,
+perkalian, pembagian.
 
 917
 00:41:08,990 --> 00:41:10,490
-You can do whatever
-you want, right?
+Anda bisa melakukan apa saja
+anda mau, benar?
 
 918
 00:41:10,490 --> 00:41:14,860
-These are just regular
-numbers, like five or 17 or 22.
+Ini hanya biasa
+angka, seperti lima atau 17 atau 22.
 
 919
 00:41:14,860 --> 00:41:17,090
-Everything's OK, right?
+Semuanya baik-baik saja, benar?
 
 920
 00:41:17,090 --> 00:41:17,780
-Easy.
+Mudah.
 
 921
 00:41:17,780 --> 00:41:18,947
-Everything here is integers.
+Semuanya di sini adalah bilangan bulat.
 
 922
 00:41:18,947 --> 00:41:21,530
-We're doing modulo
-some big prime number,
+Kami sedang memodulo
+beberapa bilangan prima yang besar,
 
 923
 00:41:21,530 --> 00:41:24,598
-so there's no decimal points.
+Sehingga tidak ada titik decimal.
 
 924
 00:41:24,598 --> 00:41:26,390
-I think in this class,
-we'll probably never
+Saya pikir di kelas ini,
+kita mungkin tidak akan pernah
 
 925
 00:41:26,390 --> 00:41:28,700
-have to use floating
-point, which is great,
+harus menggunakan pecahan, 
+dimana hal tersebut merupakan hal yang bagus,
 
 926
 00:41:28,700 --> 00:41:32,360
-because floating point
-always scares me.
+karena pecahan 
+selalu membuat saya takut.
 
 927
 00:41:32,360 --> 00:41:33,710
