@@ -4913,59 +4913,59 @@ sama dengan h dari PW
 
 1047
 00:56:02,460 --> 00:56:07,190
-But h of PW equals
-h of PW prime.
+Tapi h dari PW sama dengan
+h dari PW aksen.
 
 1048
 00:56:07,190 --> 00:56:11,490
-But PW is not equal to PW prime.
+Tapi PW tidak sama dengan PW aksen.
 
 1049
 00:56:11,490 --> 00:56:13,950
-What you have is
-a false positive.
+Apa yang Anda punya adalah
+false positif
 
 1050
 00:56:13,950 --> 00:56:15,570
-Someone who didn't
-know your password
+Seseorang yang tidak tahu
+kata sandi Anda
 
 1051
 00:56:15,570 --> 00:56:19,060
-but guessed right-- and
-this is a 128-bit value,
+tapi menebak benar-- dan
+ini adalah sebuah nilai 128-bit,
 
 1052
 00:56:19,060 --> 00:56:22,840
-and they guessed right--
-is going to get it.
+dan mereka menebak benar--
+mereka akan masuk.
 
 1053
 00:56:22,840 --> 00:56:24,940
-You don't particularly
-care of the probability
+Anda tidak perlu terlalu
+peduli terhadap kemungkinan 
 
 1054
 00:56:24,940 --> 00:56:26,190
-of this occurrence.
+dari kejadian ini.
 
 1055
 00:56:26,190 --> 00:56:27,900
-It's really small.
+Itu sangat kecil.
 
 1056
 00:56:27,900 --> 00:56:30,570
-Typically you're going to
-have systems that lock you out
+Biasanya Anda akan punya 
+sistem-sistem yang mengunci Anda keluar
 
 1057
 00:56:30,570 --> 00:56:34,770
-if you try 10 tries that occurs
-one, two, wrong passwords,
+jika Anda mencoba 10 percobaan yang terjadi
+satu, dua, kata sandi yang salah,
 
 1058
 00:56:34,770 --> 00:56:35,270
-right?
+benar?
 
 1059
 00:56:35,270 --> 00:56:37,965
