@@ -3992,45 +3992,45 @@ perlu melakukan akar kuadrat.
 844
 00:36:32,415 --> 00:36:33,873
 Dan itu disebut
-the birthday attack
+serangan ulang tahun
 
 845
 00:36:33,873 --> 00:36:37,050
-because there's the birthday
-paradox, which is not really
+karena disana terdapat paradoks
+ulang tahun, yang sebenarnya bukanlah
 
 846
 00:36:37,050 --> 00:36:40,290
-a paradox, but the idea
-is so in this room,
+sebuah paradoks, tetapi idenya
+seperti itu di dalam ruangan ini,
 
 847
 00:36:40,290 --> 00:36:42,540
-there's people that
-have the same birthday.
+disini terdapat orang
+yang mempunyai ulang tahun yang sama.
 
 848
 00:36:42,540 --> 00:36:44,910
-It's almost certain,
-which seems kind of weird
+Itu hampir pasti,
+yang tampaknya sedikit aneh
 
 849
 00:36:44,910 --> 00:36:47,760
-because the intuitive thing is,
-like, well, there's 365 days
+karena hal yang intuitif adalah,
+seperti, baiknya, terdapat 365 hari
 
 850
 00:36:47,760 --> 00:36:48,420
-a year.
+setahun.
 
 851
 00:36:48,420 --> 00:36:52,878
-Maybe once you get 160,
-170 people in a room,
+Mungkin anda pernah mendapatkan 160,
+170 orang dalam ruangan,
 
 852
 00:36:52,878 --> 00:36:55,170
-you're going to have two
+anda akan mempunyai dua
 orang dengan kelahiran yang sama.
 
 853
