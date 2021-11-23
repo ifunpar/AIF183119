@@ -3353,73 +3353,74 @@ what Bob needs to do
 
 713
 00:38:37,130 --> 00:38:41,670
-is to take the ciphered text.
+adalah untuk mengambil teks cipher.
 
 714
 00:38:41,670 --> 00:38:43,750
-And this is what Bob's doing.
+Dan ini adalah apa yang akan Bob lakukan.
 
 715
 00:38:43,750 --> 00:38:53,360
-And Bob has a private key that
-is distinct from the public key
+Dan Bob memiliki kunci privat yang
+berbeda dari kunci publik
 
 716
 00:38:53,360 --> 00:38:57,600
-and needs to get back exactly
-the message using a decryption
+dan perlu mengembalikan
+pesan dengan tepat menggunakan dekripsi
 
 717
 00:38:57,600 --> 00:39:01,680
-algorithm that corresponds to
-the message that Alice sent.
+algoritma yang sesuai dengan
+pesan yang dikirim Alice.
 
 718
 00:39:01,680 --> 00:39:02,720
 OK.
+Oke.
 
 719
 00:39:02,720 --> 00:39:10,010
-And this whole thing is
-going to work provided
+Dan semua ini akan
+berhasil asalkan
 
 720
 00:39:10,010 --> 00:39:15,010
-knowing the public
-key, let's call it PK,
+mengetahui kunci
+publik, sebut saja dengan PK,
 
 721
 00:39:15,010 --> 00:39:16,060
-and the private key.
+dan kunci privat.
 
 722
 00:39:16,060 --> 00:39:17,990
-We can't call it PK
-as well, obviously.
+Kami tidak bisa menyebutnya PK
+juga, sudah jelas.
 
 723
 00:39:17,990 --> 00:39:19,960
-So we call it SK.
+Jadi kita menyebutnya SK.
 
 724
 00:39:19,960 --> 00:39:26,770
-Knowing the PK does
-not reveal anything
+Mengetahui PK tidak
+mengungkapkan apa-apa
 
 725
 00:39:26,770 --> 00:39:33,290
-in a mathematical
-sense about SK.
+dalam arti matematis
+tentang SK.
 
 726
 00:39:33,290 --> 00:39:36,740
-But obviously, in order for
-this whole thing to work,
+Tapi jelas, agar
+semua ini berhasil,
 
 727
 00:39:36,740 --> 00:39:42,950
-PK and SK have to have some
-mathematical relationship.
+PK dan SK harus memiliki beberapa
+hubungan matematis.
 
 728
 00:39:42,950 --> 00:39:46,070
