@@ -4969,7 +4969,7 @@ yang dia lakukan adalah hal yang sama
 
 1047
 00:44:27,930 --> 00:44:28,830
-dengan yang dilakukan di sini.
+dengan yang dilakukannya di sini.
 
 1048
 00:44:28,830 --> 00:44:30,839
@@ -4981,12 +4981,12 @@ amazon.com0x.foo.com.
 
 1050
 00:44:37,206 --> 00:44:40,700
-Hal ini akan dengan patuh menambahkan
-terminating nol di akhir.
+Dia akan dengan patuh menambahkan
+nilai nol di akhir string.
 
 1051
 00:44:40,700 --> 00:44:43,370
-Tetapi setelah itu, ketika sisa
+Tetapi setelah itu, ketika bagian lain
 dari perangkat lunak peramban
 
 1052
@@ -4996,12 +4996,12 @@ string di lokasi memori ini,
 
 1053
 00:44:47,510 --> 00:44:50,722
-itu akan terus naik sampai hal tersebut
-sampai ke nol dan berkata, Oke jadi,
+dia akan membaca hingga menemukan
+nilai nol dan berkata, Oke jadi,
 
 1054
 00:44:50,722 --> 00:44:51,930
-itulah akhir dari string.
+itulah akhir dari string tersebut.
 
 1055
 00:44:51,930 --> 00:44:53,276
@@ -5013,7 +5013,7 @@ Itu dia.
 
 1057
 00:44:54,630 --> 00:45:00,120
-Jadi pemutusan semacam ini
+Jadi ketidaksesuaian semacam ini
 antara bagaimana perangkat lunak C
 
 1058
@@ -5028,7 +5028,7 @@ masalah keamanan yang disayangkan.
 
 1060
 00:45:05,800 --> 00:45:08,240
-Ini sebenarnya
+Masalah ini sebenarnya
 ditemukan beberapa tahun
 
 1061
@@ -5048,17 +5048,17 @@ semacam ini sebenarnya juga
 
 1064
 00:45:17,470 --> 00:45:20,470
-cukup umum di
+cukup umum terjadi dalam
 banyak perangkat lunak
 
 1065
 00:45:20,470 --> 00:45:24,030
 karena, kecuali anda sangat
-rajin tentang bagaimana anda
+rajin mengenai bagaimana anda
 
 1066
 00:45:24,030 --> 00:45:27,090
-mengkodekan hal - hal, mungkin ada
+mengkodekan hal-hal, mungkin ada
 beberapa cara pengkodean yang berbeda.
 
 1067
@@ -5074,12 +5074,12 @@ dapat memanfaatkan ini.
 1069
 00:45:30,880 --> 00:45:32,421
 Satu sistem berpikir
-itu nama yang bagus.
+itu adalah nama yang bagus.
 
 1070
 00:45:32,421 --> 00:45:34,590
 Yang lain berpikir itu
-bukan, sesuatu yang lain.
+tidak, merupakan sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
