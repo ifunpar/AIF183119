@@ -4969,8 +4969,8 @@ benar?
 
 1059
 00:56:35,270 --> 00:56:37,965
-So really in systems -> Jadi benar-benar di dalam sistem
-you do not require-- -> Anda tidak memerlukan
+So really in systems -> Jadi sebenarnya dalam sistem 
+you do not require-- -> Anda tidak membutuhkan
 
 1060
 00:56:37,965 --> 00:56:39,340
@@ -4988,12 +4988,12 @@ to the perimeters that are used. -> dengan perimeter yang digunakan.
 
 1063
 00:56:43,570 --> 00:56:47,090
-So from a system building -> Jadi dari sistem membangun
-standpoint just require OW. -> sudut pandang yang hanya membutuhkan OW
+So from a system building -> Jadi dari sudut pandang
+standpoint just require OW. -> pembangunan sistem hanya membutuhkan OW.
 
 1064
 00:56:47,090 --> 00:56:48,350
-Don't go overboard. -< Jangan berlebihan.
+Don't go overboard. -> Jangan berlebihan.
 
 1065
 00:56:48,350 --> 00:56:53,100
@@ -5012,13 +5012,13 @@ warm-up for what's -> pemanasan untuk apa
 
 1068
 00:56:59,010 --> 00:57:01,895
-coming next, which is a -> yang akan datang berikutnya, yaitu 
+coming next, which is a -> yang akan terjadi selanjutnya, yaitu 
 file modification detector. -> pendeteksi modifikasi file. 
 
 1069
 00:57:22,080 --> 00:57:32,800
 So for each file F, I'm going to -> Jadi untuk setiap file F, Saya akan
-store h of F. And as securely. -> menyimpan h dari F, dan dengan aman.
+store h of F. And as securely. -> menyimpan h dari F. Dan dengan aman.
 
 1070
 00:57:32,800 --> 00:57:36,980
