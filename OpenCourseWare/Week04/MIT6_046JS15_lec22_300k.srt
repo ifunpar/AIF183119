@@ -3376,7 +3376,6 @@ pesan yang dikirim Alice.
 
 718
 00:39:01,680 --> 00:39:02,720
-OK.
 Oke.
 
 719
