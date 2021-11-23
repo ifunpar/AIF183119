@@ -4969,7 +4969,7 @@ yang dia lakukan adalah hal yang sama
 
 1047
 00:44:27,930 --> 00:44:28,830
-dengan yang dilakukan di sini.
+dengan yang dilakukannya di sini.
 
 1048
 00:44:28,830 --> 00:44:30,839
@@ -4981,12 +4981,12 @@ amazon.com0x.foo.com.
 
 1050
 00:44:37,206 --> 00:44:40,700
-Hal ini akan dengan patuh menambahkan
-terminating nol di akhir.
+Dia akan dengan patuh menambahkan
+nilai nol di akhir string.
 
 1051
 00:44:40,700 --> 00:44:43,370
-Tetapi setelah itu, ketika sisa
+Tetapi setelah itu, ketika bagian lain
 dari perangkat lunak peramban
 
 1052
@@ -4996,12 +4996,12 @@ string di lokasi memori ini,
 
 1053
 00:44:47,510 --> 00:44:50,722
-itu akan terus naik sampai hal tersebut
-sampai ke nol dan berkata, Oke jadi,
+dia akan membaca hingga menemukan
+nilai nol dan berkata, Oke jadi,
 
 1054
 00:44:50,722 --> 00:44:51,930
-itulah akhir dari string.
+itulah akhir dari string tersebut.
 
 1055
 00:44:51,930 --> 00:44:53,276
@@ -5013,7 +5013,7 @@ Itu dia.
 
 1057
 00:44:54,630 --> 00:45:00,120
-Jadi pemutusan semacam ini
+Jadi ketidaksesuaian semacam ini
 antara bagaimana perangkat lunak C
 
 1058
@@ -5028,7 +5028,7 @@ masalah keamanan yang disayangkan.
 
 1060
 00:45:05,800 --> 00:45:08,240
-Ini sebenarnya
+Masalah ini sebenarnya
 ditemukan beberapa tahun
 
 1061
@@ -5048,17 +5048,17 @@ semacam ini sebenarnya juga
 
 1064
 00:45:17,470 --> 00:45:20,470
-cukup umum di
+cukup umum terjadi dalam
 banyak perangkat lunak
 
 1065
 00:45:20,470 --> 00:45:24,030
 karena, kecuali anda sangat
-rajin tentang bagaimana anda
+rajin mengenai bagaimana anda
 
 1066
 00:45:24,030 --> 00:45:27,090
-mengkodekan hal - hal, mungkin ada
+mengkodekan hal-hal, mungkin ada
 beberapa cara pengkodean yang berbeda.
 
 1067
@@ -5074,12 +5074,12 @@ dapat memanfaatkan ini.
 1069
 00:45:30,880 --> 00:45:32,421
 Satu sistem berpikir
-itu nama yang bagus.
+itu adalah nama yang bagus.
 
 1070
 00:45:32,421 --> 00:45:34,590
 Yang lain berpikir itu
-bukan, sesuatu yang lain.
+tidak, merupakan sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
@@ -5324,70 +5324,70 @@ going on because anything more
 
 1122
 00:47:53,950 --> 00:47:55,616
-specific, as well,
-the web server should
+spesifik, juga,
+server web itu harus
 
 1123
 00:47:55,616 --> 00:47:57,485
-do exactly what the
-code does, is going
+melakukan persis sesuai
+yang dilakukan kodenya, akan
 
 1124
 00:47:57,485 --> 00:47:59,860
-to be a bit of an [INAUDIBLE]
-And if your code has a bug,
+menjadi sedikit [TIDAK TERDENGAR]
+Dan jika terdapat bug dalam kode Anda,
 
 1125
 00:47:59,860 --> 00:48:01,090
-well, your policy
-says, well, that's
+yah, kebijakan Anda
+mengatakan, yah, itulah
 
 1126
 00:48:01,090 --> 00:48:02,131
-exactly what I should do.
+yang harus saya lakukan.
 
 1127
 00:48:02,131 --> 00:48:04,120
-I should follow the bug.
+Saya harus mengikuti bug tersebut.
 
 1128
 00:48:04,120 --> 00:48:07,390
-So it's a little hard to
-state a policy precisely,
+Jadi sedikit sulit untuk menyatakan
+sebuah kebijakan dengan tepat,
 
 1129
 00:48:07,390 --> 00:48:09,332
-but in this case, let's
-go with some intuitive
+tapi dalam kasus ini, mari
+pakai saja beberapa versi
 
 1130
 00:48:09,332 --> 00:48:11,290
-version of, well, the
-web server should do what
+intuitif dari, yah, server
+web tersebut harus melakukan apa
 
 1131
 00:48:11,290 --> 00:48:13,785
-the programmer wanted it to do.
+yang programer ingin dia lakukan.
 
 1132
 00:48:13,785 --> 00:48:15,160
-And the threat
-model is probably,
+Dan model ancamannya
+kemungkinan berupa,
 
 1133
 00:48:15,160 --> 00:48:18,260
-the attacker doesn't have
-access to this machine,
+sang penyerang tidak memiliki
+akses ke komputer ini,
 
 1134
 00:48:18,260 --> 00:48:20,800
-can't log in to it remotely,
-doesn't have physical access
+tidak bisa masuk secara remote,
+tidak memiliki akses secara fisik
 
 1135
 00:48:20,800 --> 00:48:22,690
-to it, but can send
-any packet they want.
+kepadanya, namun bisa mengirim
+paket apapun yang mereka mau.
 
 1136
 00:48:22,690 --> 00:48:26,874
