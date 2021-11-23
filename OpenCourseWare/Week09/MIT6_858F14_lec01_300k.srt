@@ -5324,70 +5324,70 @@ going on because anything more
 
 1122
 00:47:53,950 --> 00:47:55,616
-specific, as well,
-the web server should
+spesifik, juga,
+server web itu harus
 
 1123
 00:47:55,616 --> 00:47:57,485
-do exactly what the
-code does, is going
+melakukan persis sesuai
+yang dilakukan kodenya, akan
 
 1124
 00:47:57,485 --> 00:47:59,860
-to be a bit of an [INAUDIBLE]
-And if your code has a bug,
+menjadi sedikit [TIDAK TERDENGAR]
+Dan jika terdapat bug dalam kode Anda,
 
 1125
 00:47:59,860 --> 00:48:01,090
-well, your policy
-says, well, that's
+yah, kebijakan Anda
+mengatakan, yah, itulah
 
 1126
 00:48:01,090 --> 00:48:02,131
-exactly what I should do.
+yang harus saya lakukan.
 
 1127
 00:48:02,131 --> 00:48:04,120
-I should follow the bug.
+Saya harus mengikuti bug tersebut.
 
 1128
 00:48:04,120 --> 00:48:07,390
-So it's a little hard to
-state a policy precisely,
+Jadi sedikit sulit untuk menyatakan
+sebuah kebijakan dengan tepat,
 
 1129
 00:48:07,390 --> 00:48:09,332
-but in this case, let's
-go with some intuitive
+tapi dalam kasus ini, mari
+pakai saja beberapa versi
 
 1130
 00:48:09,332 --> 00:48:11,290
-version of, well, the
-web server should do what
+intuitif dari, yah, server
+web tersebut harus melakukan apa
 
 1131
 00:48:11,290 --> 00:48:13,785
-the programmer wanted it to do.
+yang programer ingin dia lakukan.
 
 1132
 00:48:13,785 --> 00:48:15,160
-And the threat
-model is probably,
+Dan model ancamannya
+kemungkinan berupa,
 
 1133
 00:48:15,160 --> 00:48:18,260
-the attacker doesn't have
-access to this machine,
+sang penyerang tidak memiliki
+akses ke komputer ini,
 
 1134
 00:48:18,260 --> 00:48:20,800
-can't log in to it remotely,
-doesn't have physical access
+tidak bisa masuk secara remote,
+tidak memiliki akses secara fisik
 
 1135
 00:48:20,800 --> 00:48:22,690
-to it, but can send
-any packet they want.
+kepadanya, namun bisa mengirim
+paket apapun yang mereka mau.
 
 1136
 00:48:22,690 --> 00:48:26,874
