@@ -3884,7 +3884,7 @@ titik-titik ini, benar?
 
 840
 00:37:54,170 --> 00:37:57,050
-Anda dapat mengatakan, OK, saya ingin 
+Anda dapat mengatakan, Oke, saya ingin 
 hasil penjumlahan P dan Q,
 
 841
@@ -3913,7 +3913,7 @@ di bawah kurva.
 846
 00:38:09,450 --> 00:38:13,100
 Jadi misalnya, jika ini
-adalah G, Saya bilang OK, baik, G 
+adalah G, Saya mengatakan Oke, baik, G 
 
 847
 00:38:13,100 --> 00:38:16,400
@@ -3922,7 +3922,7 @@ cari dimana ia berpotongan.
 
 848
 00:38:16,400 --> 00:38:17,840
-dan kemudian turun.
+dan kemudian turun ke bawah.
 
 849
 00:38:17,840 --> 00:38:19,850
@@ -4067,7 +4067,7 @@ menjadi semua titik yang tampak gila ini.
 880
 00:39:24,560 --> 00:39:28,850
 Dan anda masih memiliki  
-simetri dari sumbu y.
+simetri dari sumbu-y.
 
 881
 00:39:28,850 --> 00:39:32,060
@@ -4081,7 +4081,7 @@ memetakan ke kurva yang baik.
 
 883
 00:39:37,770 --> 00:39:40,370
-Jadi hal yang lucu  
+Jadi hal yang menarik  
 ketika anda melakukan modulo
 
 884
@@ -4120,7 +4120,7 @@ dan Anda sampai di sini.
 891
 00:39:59,780 --> 00:40:05,240
 Dan kemudian anda membalik
-sumbu y, dan sekarang ini adalah R.
+sumbu-y, dan sekarang ini adalah R.
 
 892
 00:40:05,240 --> 00:40:07,670
@@ -4151,7 +4151,7 @@ tepatnya mengapa hal-hal ini bekerja
 
 898
 00:40:20,860 --> 00:40:21,360
-atau kurva.
+atau kurva-kurva.
 
 899
 00:40:21,360 --> 00:40:24,540
@@ -4286,7 +4286,7 @@ selalu membuat saya takut.
 
 927
 00:41:32,360 --> 00:41:33,710
-It's also uint.
+Ini juga merupakan bilangan bulat yang tidak memiliki tanda.
 
 928
 00:41:33,710 --> 00:41:35,177
