@@ -5083,122 +5083,122 @@ bukan, sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
-So these are good places
-to sort of push a system
+Jadi ini adalah tempat yang baik
+untuk semacam mendorong sistem
 
 1072
 00:45:36,870 --> 00:45:39,360
-to see how it might break.
+untuk melihat bagaimana sistem itu akan rusak.
 
 1073
 00:45:39,360 --> 00:45:42,030
-That make sense?
+Apakah itu masuk akal?
 
 1074
 00:45:42,030 --> 00:45:42,530
-All right.
+Baiklah.
 
 1075
 00:45:42,530 --> 00:45:47,220
-So maybe the last example
-of mechanism failure
+Jadi mungkin contoh terakhir
+dari kegagalan mekanisme
 
 1076
 00:45:47,220 --> 00:45:51,090
-I'm going to talk about today
-is a reasonably popular one.
+Saya akan berbicara tentang hari ini
+adalah salah satu yang cukup populer.
 
 1077
 00:45:51,090 --> 00:45:52,910
-It's this problem
-or buffer overflows.
+Ini adalah masalahnya
+atau buffer overflows.
 
 1078
 00:45:56,230 --> 00:45:59,380
-So some of you have seen this
-in, or at least at some level,
+Jadi beberapa dari kalian telah melihat ini
+masuk, atau setidaknya berada pada level tertentu,
 
 1079
 00:45:59,380 --> 00:46:01,860
-in 6.033, if you did
-the undergrad course.
+di 6.033, jika kamu melakukan
+kursus sarjana.
 
 1080
 00:46:01,860 --> 00:46:05,290
-But for those of you that have
-forgotten or haven't taken
+Tetapi untuk kamu yang sudah
+lupa atau belum mengambil
 
 1081
 00:46:05,290 --> 00:46:07,540
-oh three three, we'll sort
-of go over buffer overflows
+pada tiga tiga, kita akan semacam
+membahas buffer overflows
 
 1082
 00:46:07,540 --> 00:46:08,130
-in more detail.
+lebih detail.
 
 1083
 00:46:08,130 --> 00:46:10,463
-And this will be, actually,
-quite critical for you guys,
+Dan ini akan menjadi, sebenarnya,
+cukup kritis untuk kalian,
 
 1084
 00:46:10,463 --> 00:46:12,826
-because lab one is all
-about buffer overflows.
+karena lab satu seluruhnya
+tentang buffer overflows.
 
 1085
 00:46:12,826 --> 00:46:14,200
-And you're going
-to be exploiting
+Dan anda akan
+mengeksploitasi
 
 1086
 00:46:14,200 --> 00:46:19,710
-these vulnerabilities in a
-somewhat real web server.
+kerentanan ini dalam
+server web yang dapat dibilang nyata.
 
 1087
 00:46:19,710 --> 00:46:21,610
-So let's figure out,
-what is the setting?
+Jadi mari kita cari tahu,
+apa pengaturannya?
 
 1088
 00:46:21,610 --> 00:46:23,300
-What are we talking about here?
+Apa yang sedang kita bicarakan di sini?
 
 1089
 00:46:23,300 --> 00:46:25,470
-So the setting we're
-going to be considering
+Jadi pengaturan yang
+akan kita pertimbangkan
 
 1090
 00:46:25,470 --> 00:46:30,330
-is a system which has,
-let's say, a web server.
+adalah sebuah sistem yang memiliki,
+dapat dikatakan, sebuah server web
 
 1091
 00:46:30,330 --> 00:46:34,510
-So what we have is, we have
-some computer out there
+Jadi apa yang kita punya adalah, kita punya
+beberapa komputer di luar sana
 
 1092
 00:46:34,510 --> 00:46:36,540
-that has a web server on it.
+yang punya server web di dalamnya.
 
 1093
 00:46:39,130 --> 00:46:41,200
-And the web server
-is a program that
+Dan server web tersebut
+adalah sebuah program yang
 
 1094
 00:46:41,200 --> 00:46:44,070
-is going to accept connections
-from the outside world,
+akan menerima koneksi
+dari dunia luar,
 
 1095
 00:46:44,070 --> 00:46:47,480
-take requests-- which are
-basically just packets--
+menerima permintaan-- yang pada
+dasarnya hanya paket--
 
 1096
 00:46:47,480 --> 00:46:51,820
