@@ -2647,54 +2647,54 @@ keras pada mesin yang modern.
 
 556
 00:24:49,460 --> 00:24:52,300
-And this means that
-you can try millions
+Dan ini berarti bahwa
+kamu bisa mencoba jutaan
 
 557
 00:24:52,300 --> 00:24:54,020
-of potential
-passwords per second
+kata sandi yang potensial
+tiap detiknya
 
 558
 00:24:54,020 --> 00:24:56,497
-to guess what the
-person's password is.
+untuk menebak isi
+kata sandi seseorang.
 
 559
 00:24:56,497 --> 00:24:58,330
-And you could do this
-for any person at all.
+Dan kamu bisa melakukan ini
+kepada siapapun.
 
 560
 00:24:58,330 --> 00:25:00,372
-You could just send
-their principal
+Kamu hanya perlu mengirimkan
+principal mereka
 
 561
 00:25:00,372 --> 00:25:01,330
-to the Kerberos server.
+ke server Kerberos.
 
 562
 00:25:01,330 --> 00:25:03,999
-It'll very happily give you
-back this response encrypted
+Kerberos akan dengan senang hati mengembalikan
+respon yang terenkripsi
 
 563
 00:25:03,999 --> 00:25:05,040
-with the user's password.
+dengan kata sandi pengguna.
 
 564
 00:25:05,040 --> 00:25:07,590
-Then you can just try different
-passwords and just see what
+Lalu kamu bisa mencoba kata sandi
+lain dan lihat mana
 
 565
 00:25:07,590 --> 00:25:08,740
-works or what doesn't.
+yang bekerja dan mana yang tidak.
 
 566
 00:25:08,740 --> 00:25:09,798
-Yeah.
+Ya.
 
 567
 00:25:09,798 --> 00:25:12,786
