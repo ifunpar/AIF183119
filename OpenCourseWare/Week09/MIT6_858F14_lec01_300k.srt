@@ -5084,11 +5084,11 @@ tidak, merupakan sesuatu yang lain.
 1071
 00:45:34,590 --> 00:45:36,870
 Jadi ini adalah tempat yang baik
-untuk semacam mendorong sistem
+untuk semacam menekan sistem
 
 1072
 00:45:36,870 --> 00:45:39,360
-untuk melihat bagaimana sistem itu akan rusak.
+untuk melihat bagaimana sistem itu dapat rusak.
 
 1073
 00:45:39,360 --> 00:45:42,030
@@ -5105,37 +5105,37 @@ dari kegagalan mekanisme
 
 1076
 00:45:47,220 --> 00:45:51,090
-Saya akan berbicara tentang hari ini
+Yang akan saya bicarakan hari ini
 adalah salah satu yang cukup populer.
 
 1077
 00:45:51,090 --> 00:45:52,910
 Ini adalah masalahnya
-atau buffer overflows.
+atau buffer overflow.
 
 1078
 00:45:56,230 --> 00:45:59,380
 Jadi beberapa dari kalian telah melihat ini
-masuk, atau setidaknya berada pada level tertentu,
+dalam, atau setidaknya pada level tertentu,
 
 1079
 00:45:59,380 --> 00:46:01,860
-di 6.033, jika kamu melakukan
-kursus sarjana.
+dalam 6.033, jika kamu mengambil
+mata kuliah sarjana tersebut.
 
 1080
 00:46:01,860 --> 00:46:05,290
-Tetapi untuk kamu yang sudah
+Tetapi bagi Anda yang sudah
 lupa atau belum mengambil
 
 1081
 00:46:05,290 --> 00:46:07,540
-pada tiga tiga, kita akan semacam
-membahas buffer overflows
+nol tiga tiga, kita akan semacam
+membahas buffer overflow
 
 1082
 00:46:07,540 --> 00:46:08,130
-lebih detail.
+secara lebih detail.
 
 1083
 00:46:08,130 --> 00:46:10,463
@@ -5145,7 +5145,7 @@ cukup kritis untuk kalian,
 1084
 00:46:10,463 --> 00:46:12,826
 karena lab satu seluruhnya
-tentang buffer overflows.
+tentang buffer overflow.
 
 1085
 00:46:12,826 --> 00:46:14,200
@@ -5154,7 +5154,7 @@ mengeksploitasi
 
 1086
 00:46:14,200 --> 00:46:19,710
-kerentanan ini dalam
+kerentanan ini dalam sebuah
 server web yang dapat dibilang nyata.
 
 1087
@@ -5174,7 +5174,7 @@ akan kita pertimbangkan
 1090
 00:46:25,470 --> 00:46:30,330
 adalah sebuah sistem yang memiliki,
-dapat dikatakan, sebuah server web
+anggap saja, sebuah server web.
 
 1091
 00:46:30,330 --> 00:46:34,510
@@ -5183,7 +5183,7 @@ beberapa komputer di luar sana
 
 1092
 00:46:34,510 --> 00:46:36,540
-yang punya server web di dalamnya.
+yang mempunyai sebuah server web padanya.
 
 1093
 00:46:39,130 --> 00:46:41,200
@@ -5198,7 +5198,7 @@ dari dunia luar,
 1095
 00:46:44,070 --> 00:46:47,480
 menerima permintaan-- yang pada
-dasarnya hanya paket--
+dasarnya hanyalah paket-paket--
 
 1096
 00:46:47,480 --> 00:46:51,820
