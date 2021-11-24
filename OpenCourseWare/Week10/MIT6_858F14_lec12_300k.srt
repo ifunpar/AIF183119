@@ -3427,33 +3427,33 @@ yang memalsukan koneksi
 
 721
 00:29:18,950 --> 00:29:21,440
-from an arbitrary
-source address.
+dari sebuah alamat sumber
+yang acak.
 
 722
 00:29:21,440 --> 00:29:24,040
-So one example where
-this was a problem--
+Jadi satu contoh di mana
+ini menjadi masalah--
 
 723
 00:29:24,040 --> 00:29:26,350
-and it largely
-isn't anymore-- is
+dan ini sebagian besar
+sudah tidak lagi-- adalah
 
 724
 00:29:26,350 --> 00:29:30,910
-this family of r commands,
-things like rlogin.
+keluarga perintah r ini,
+hal-hal seperti rlogin.
 
 725
 00:29:30,910 --> 00:29:33,160
-So it used to be the case
-that you could run something
+Jadi dulu kasusnya
+adalah Anda dapat menjalankan sesuatu
 
 726
 00:29:33,160 --> 00:29:34,984
-like rlogin into a
-machine, let's say
+seperti rlogin ke dalam
+mesin, contohnya
 
 727
 00:29:34,984 --> 00:29:35,900
@@ -3461,22 +3461,22 @@ athena.dialup.mit.edu.
 
 728
 00:29:41,360 --> 00:29:45,600
-And if your connection was
-coming from a host at MIT,
+Dan jika koneksi Anda
+berasal dari sebuah host di MIT,
 
 729
 00:29:45,600 --> 00:29:49,000
-then this rlogin command would
-succeed if you say, oh yeah,
+maka perintah rlogin ini akan
+sukses jika Anda berkata, oh ya,
 
 730
 00:29:49,000 --> 00:29:51,174
-I'm user Alice on this machine.
+saya pengguna Alice di mesin ini.
 
 731
 00:29:51,174 --> 00:29:53,340
-Let me log in as user Alice
-onto this other machine.
+Biarkan saya masuk sebagai Alice
+ke mesin yang lain ini.
 
 732
 00:29:53,340 --> 00:29:55,548
