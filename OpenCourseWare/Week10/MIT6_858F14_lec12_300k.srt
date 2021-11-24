@@ -3407,23 +3407,23 @@ yang berbasis IP.
 
 717
 00:29:08,240 --> 00:29:11,600
-So if some server decides
-whether an operation is going
+Jadi jika beberpa server memutuskan
+apakah sebuah operasi akan
 
 718
 00:29:11,600 --> 00:29:14,170
-to be allowed or not based on
-the IP address it comes from,
+diperbolehkan atau tidak berdasarkan
+alamat IP itu berasal,
 
 719
 00:29:14,170 --> 00:29:16,000
-then this is
-potentially going to be
+Maka ini akan
+berpotensi menjadi
 
 720
 00:29:16,000 --> 00:29:18,950
-a problem for an attacker
-who spoofed connections
+sebuah masalah untuk penyerang
+yang memalsukan koneksi
 
 721
 00:29:18,950 --> 00:29:21,440
