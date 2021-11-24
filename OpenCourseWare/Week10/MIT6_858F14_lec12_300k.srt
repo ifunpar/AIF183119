@@ -3480,60 +3480,60 @@ ke mesin yang lain ini.
 
 732
 00:29:53,340 --> 00:29:55,548
-And it'll just trust that
-all the machines at mit.edu
+Dan itu hanyalah kepercayaan bahwa
+semua mesin yang ada di mit.edu
 
 733
 00:29:55,548 --> 00:29:58,410
-are trustworthy to
-make these statements.
+dapat dipercaya untuk
+membuat pernyataan itu.
 
 734
 00:29:58,410 --> 00:30:00,700
-I should say I think
-dial-up never actually
+Saya harus mengatakan bahwa menurut saya
+dial-up tidak benar-benar pernah
 
 735
 00:30:00,700 --> 00:30:01,500
-had this problem.
+memiliki masalah ini.
 
 736
 00:30:01,500 --> 00:30:03,416
-It was using Cerberus
-from the very beginning.
+Hal ini sudah menggunakan Cerberus
+semenjak pertama kali.
 
 737
 00:30:03,416 --> 00:30:07,360
-But other systems certainly
-did have such problems.
+Tetapi sistem lain tentu 
+memiliki masalah seperti itu.
 
 738
 00:30:07,360 --> 00:30:10,610
-And this is an example of
-using the IP address where
+Dan ini adalah contoh dari
+penggunaan IP address dimana
 
 739
 00:30:10,610 --> 00:30:15,170
-the connection is coming from
-some sort of authentication
+koneksinya berasal dari 
+semacam mekanisme otentikasi
 
 740
 00:30:15,170 --> 00:30:19,190
-mechanism for whether
-the caller or the client
+untuk menentukan apakah 
+pemanggil atau klien
 
 741
 00:30:19,190 --> 00:30:20,470
-is trustworthy or not.
+dapat dipercaya atau tidak.
 
 742
 00:30:20,470 --> 00:30:22,650
-So this certainly
-used to be a problem,
+Jadi ini tentu 
+pernah menjadi masalah,
 
 743
 00:30:22,650 --> 00:30:23,730
-isn't a problem anymore.
+namun tidak lagi.
 
 744
 00:30:23,730 --> 00:30:27,120
