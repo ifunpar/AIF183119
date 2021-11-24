@@ -3353,7 +3353,7 @@ apa yang Bob perlu lakukan
 
 713
 00:38:37,130 --> 00:38:41,670
-adalah untuk mengambil teks cipher.
+adalah untuk mengambil cipher text.
 
 714
 00:38:41,670 --> 00:38:43,750
