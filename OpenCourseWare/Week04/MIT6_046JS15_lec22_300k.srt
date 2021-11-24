@@ -3339,7 +3339,7 @@ untuk enkripsi kunci publik.
 
 710
 00:38:26,960 --> 00:38:31,410
-Kita akan melihat pasangan itu
+Kita akan melihat pasangan yang
 menghasilkan cipher text yang diberikan
 
 711
