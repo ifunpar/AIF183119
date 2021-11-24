@@ -3283,73 +3283,73 @@ adalah sesuatu yang
 
 698
 00:37:51,340 --> 00:37:54,310
-corresponds to your MIT ID.
+sesuai dengan ID MIT Anda.
 
 699
 00:37:54,310 --> 00:37:57,330
-It's got information, what year
-you are, what your name is.
+Itu memiliki informasi, tahun berapa
+Anda, siapa nama Anda.
 
 700
 00:37:57,330 --> 00:37:59,470
-And when you generate
-that certificate,
+Dan ketika Anda menghasilkan
+sertifikat itu,
 
 701
 00:37:59,470 --> 00:38:03,886
-you are getting a certificate of
-authenticity that you are you.
+Anda mendapatkan sertifikat
+otentikasi bahwa Anda adalah Anda.
 
 702
 00:38:03,886 --> 00:38:05,260
-And of course,
-you give that away
+Dan tentu saja,
+Anda memberikan itu
 
 703
 00:38:05,260 --> 00:38:07,180
-and you hand it to
-someone else, someone
+dan Anda menyerahkannya kepada
+orang lain, seseorang
 
 704
 00:38:07,180 --> 00:38:09,160
-can pretend to be you as well.
+dapat juga berpura-pura menjadi Anda.
 
 705
 00:38:09,160 --> 00:38:13,860
-But that's what's happening
-when we talk about public keys
+Tapi itulah yang terjadi
+ketika kita berbicara mengenai kunci publik
 
 706
 00:38:13,860 --> 00:38:17,500
-and you owning public keys.
+dan Anda memiliki kunci publik.
 
 707
 00:38:17,500 --> 00:38:21,390
-We're not going to, as I said,
-get into that very much more.
+Kita tidak akan, seperti yang saya katakan,
+masuk ke dalam itu lebih banyak lagi.
 
 708
 00:38:21,390 --> 00:38:25,310
-I'm more interested in
-describing this algorithm
+Saya lebih tertarik
+menggambarkan algoritma ini
 
 709
 00:38:25,310 --> 00:38:26,960
-for public key encryption.
+untuk enkripsi kunci publik.
 
 710
 00:38:26,960 --> 00:38:31,410
-We'll look at a couple that
-produces a ciphered text given
+Kita akan melihat pasangan itu
+menghasilkan cipher text yang diberikan
 
 711
 00:38:31,410 --> 00:38:34,440
-a message and a public key.
+sebuah pesan dan kunci publik.
 
 712
 00:38:34,440 --> 00:38:37,130
-Now, of course,
-what Bob needs to do
+Sekarang, tentu saja,
+apa yang Bob perlu lakukan
 
 713
 00:38:37,130 --> 00:38:41,670
