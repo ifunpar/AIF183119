@@ -3869,7 +3869,7 @@ bukan negatif R. Maaf.
 
 837
 00:37:47,720 --> 00:37:50,750
-Ketika Anda ingin mengalikan 
+Ketika Anda ingin mengalikan
 sebuah titik, Anda bisa.
 
 838
@@ -3884,7 +3884,7 @@ titik-titik ini, benar?
 
 840
 00:37:54,170 --> 00:37:57,050
-Anda dapat mengatakan, Oke, saya ingin 
+Anda dapat mengatakan, oke, saya ingin 
 hasil penjumlahan P dan Q,
 
 841
@@ -3913,7 +3913,7 @@ di bawah kurva.
 846
 00:38:09,450 --> 00:38:13,100
 Jadi misalnya, jika ini
-adalah G, Saya mengatakan Oke, baik, G 
+adalah G, Saya mengatakan oke, baik, G 
 
 847
 00:38:13,100 --> 00:38:16,400
@@ -3940,25 +3940,25 @@ Saya tidak benar-benar mengalikan.
 852
 00:38:23,990 --> 00:38:25,760
 Saya hanya menambahkannya dengan 
-dirinya sendiri, yang mana
+dirinya sendiri, di mana
 
 853
 00:38:25,760 --> 00:38:27,613
-seperti bentuk perkalian.
+perkalian sebenarnya seperti itu.
 
 854
 00:38:27,613 --> 00:38:29,030
-Dan yang Saya dapat melakukan hal ini
+Dan saya dapat melakukan hal ini
 lagi dan lagi.
 
 855
 00:38:29,030 --> 00:38:30,620
-Jadi Saya mengatakan, oh, Saya ingin 4G.
+Jadi saya mengatakan, oh, Saya ingin 4G.
 
 856
 00:38:30,620 --> 00:38:33,700
 Saya mengambil sebuah garis singgung (tangent) pada 2G,
-mencari titik potong disini,
+mencari titik potong di sini,
 
 857
 00:38:33,700 --> 00:38:34,370
@@ -3974,8 +3974,8 @@ Ini 4G.
 
 860
 00:38:35,840 --> 00:38:38,030
-Mengambil sebuah sebuah garis singgung (tangent)
-disini, ini akan pergi -- 
+Ambil sebuah sebuah garis singgung (tangent)
+di sini, dia akan pergi-- 
 
 861
 00:38:38,030 --> 00:38:41,630
@@ -3984,17 +3984,17 @@ dan mendapatkan 2G, 4G, 8G.
 
 862
 00:38:41,630 --> 00:38:46,460
-Dan jika Saya ingin hal-hal 
-menengah, seperti, baik, Saya ingin 3G, 
+Dan jika saya ingin hal-hal 
+tambahan, seperti, yah, saya ingin 3G,
 
 863
 00:38:46,460 --> 00:38:51,670
-baik, Saya mengambar sebuah garis diantara G
-dan 2G, cari titik potong, 
+yah, saya mengambar sebuah garis di antara G
+dan 2G, cari titik potong,
 
 864
 00:38:51,670 --> 00:38:53,150
-dan cari hasil penjumlahan.
+dan cari hasil penjumlahannya.
 
 865
 00:38:53,150 --> 00:38:53,990
@@ -4006,7 +4006,7 @@ Ya?
 
 867
 00:38:54,490 --> 00:38:57,370
-AUDIENS: Ketika anda menemukan 
+AUDIENS: Ketika Anda menemukan 
 sebuah titik potong dari hal itu
 
 868
@@ -4030,7 +4030,7 @@ bagus, dalam kasus ini, bukan?
 872
 00:39:05,162 --> 00:39:06,620
 Ini seperti, hei,
-ada kurva disini.
+ada kurva di sini.
 
 873
 00:39:06,620 --> 00:39:08,490
@@ -4038,12 +4038,12 @@ Dan ini terlihat sangat sederhana.
 
 874
 00:39:08,490 --> 00:39:10,970
-Dan kita bisa secara grafis 
-melakukannya di kertas grafis.
+Dan kita bisa secara grafis
+melakukannya di kertas bergaris.
 
 875
 00:39:10,970 --> 00:39:13,280
-Tetapi ketika anda benar-benar  
+Tetapi ketika Anda benar-benar
 melakukannya di komputer,
 
 876
@@ -4053,7 +4053,7 @@ itu akan lebih terlihat seperti ini.
 877
 00:39:14,960 --> 00:39:18,890
 Semuanya adalah modulo
-dari beberapa bilangan prima raksasa. 
+dari beberapa bilangan prima raksasa.
 
 878
 00:39:18,890 --> 00:39:20,300
@@ -4062,12 +4062,12 @@ Anda masih bisa menggambar garis.
 879
 00:39:20,300 --> 00:39:24,560
 Hanya saja sekarang kurvanya 
-menjadi semua titik yang tampak gila ini. 
+menjadi semua titik yang tampak gila ini.
 
 880
 00:39:24,560 --> 00:39:28,850
-Dan anda masih memiliki  
-simetri dari sumbu-y.
+Dan Anda masih memiliki
+simetri dari sumbu y.
 
 881
 00:39:28,850 --> 00:39:32,060
@@ -4076,12 +4076,12 @@ adalah dengan memodulo sebuah angka.
 
 882
 00:39:32,060 --> 00:39:37,770
-Sehingga sebenarnya itu tidak 
+Sehingga sebenarnya itu tidak
 memetakan ke kurva yang baik.
 
 883
 00:39:37,770 --> 00:39:40,370
-Jadi hal yang menarik  
+Jadi hal yang menarik
 ketika anda melakukan modulo
 
 884
@@ -4092,11 +4092,11 @@ tetap sama, benar?
 885
 00:39:43,892 --> 00:39:45,350
 Dengan angka biasa,
-anda masih bisa
+Anda masih bisa
 
 886
 00:39:45,350 --> 00:39:47,660
-melakukan penjumlahan, 
+melakukan penjumlahan,
 perkalian, pembagian
 
 887
@@ -4106,12 +4106,12 @@ masih berfungsi semua, benar?
 
 888
 00:39:51,500 --> 00:39:53,600
-Begitu juga dengan ini.     
+Begitu juga dengan ini.
 
 889
 00:39:53,600 --> 00:39:57,800
 Anda masih harus menggambar
-garis yang sama antara P dan Q,  
+garis yang sama antara P dan Q,
 
 890
 00:39:57,800 --> 00:39:59,780
@@ -4120,21 +4120,21 @@ dan Anda sampai di sini.
 891
 00:39:59,780 --> 00:40:05,240
 Dan kemudian anda membalik
-sumbu-y, dan sekarang ini adalah R.
+sumbu y, dan sekarang ini adalah R.
 
 892
 00:40:05,240 --> 00:40:07,670
 Demikian pula, Anda bisa
-mengambil sebuah sebuah garis singgung (tangent)-- 
+mengambil sebuah sebuah garis singgung--
 
 893
 00:40:07,670 --> 00:40:10,610
-meskipun sebuah garis singgung (tangent) lebih sulit
-di lihat secara visual karena 
+meskipun sebuah garis singgung lebih sulit
+di lihat secara visual karena
 
 894
 00:40:10,610 --> 00:40:12,950
-tidak ada kurva yang jelas disini-- 
+tidak ada kurva yang jelas di sini--
 
 895
 00:40:12,950 --> 00:40:15,100
@@ -4155,12 +4155,12 @@ atau kurva-kurva.
 
 899
 00:40:21,360 --> 00:40:24,540
-Tapi kita akan melaluinya
-apa yang dapat anda lakukan dengan ini
+Tapi kita akan melihat
+apa yang dapat Anda lakukan dengan ini
 
 900
 00:40:24,540 --> 00:40:25,820
-dan properti apa yang anda miliki.
+dan properti apa yang Anda miliki.
 
 901
 00:40:25,820 --> 00:40:26,320
@@ -4168,7 +4168,7 @@ Oke.
 
 902
 00:40:26,320 --> 00:40:30,480
-Jadi kami telah mendefinisikan
+Jadi kita telah mendefinisikan
 titik ini pada kurva
 
 903
@@ -4177,27 +4177,27 @@ dan bagaimana kurva ini bekerja.
 
 904
 00:40:31,860 --> 00:40:35,520
-Dan kemudian kami juga  memiliki
-angka tua yang biasa, benar?
+Dan kemudian kita juga memiliki
+angka lama biasa, benar?
 
 905
 00:40:35,520 --> 00:40:39,520
-Jadi apa yang akan kami lakukan dari sekarang
-katakanlah, seperti a dan b, 
+Jadi apa yang akan kita lakukan dari sekarang
+katakanlah, seperti a dan b,
 
 906
 00:40:39,520 --> 00:40:41,760
-angka kecil kami,
-adalah skalar.
+angka yang disimbolkan huruf kecil kita,
+ini adalah skalar.
 
 907
 00:40:41,760 --> 00:40:44,880
-Skalars hanya berarti
-angka tua yang biasa.
+Skalar hanya berarti
+angka lama biasa.
 
 908
 00:40:44,880 --> 00:40:49,310
-Huruf besar A dan B akan merujuk
+Huruf besar A dan B akan mengacu
 ke titik pada kurva, oke?
 
 909
@@ -4212,8 +4212,8 @@ pada kurva ini,
 
 911
 00:40:54,150 --> 00:40:58,678
-atau pada titik dimana suatu hal diperhalus
-sehingga kita tetap bisa menyebutnya sebagai kurva.
+atau titik pada bermacam hal ini
+yang kita tetap menyebutnya sebagai kurva.
 
 912
 00:40:58,678 --> 00:40:59,510
@@ -4262,12 +4262,12 @@ Semuanya di sini adalah bilangan bulat.
 
 922
 00:41:18,947 --> 00:41:21,530
-Kami sedang memodulo
+Kita sedang mencari sisa pembagian dari
 beberapa bilangan prima yang besar,
 
 923
 00:41:21,530 --> 00:41:24,598
-Sehingga tidak ada titik decimal.
+Sehingga tidak ada angka di belakang koma.
 
 924
 00:41:24,598 --> 00:41:26,390
@@ -4276,17 +4276,17 @@ kita mungkin tidak akan pernah
 
 925
 00:41:26,390 --> 00:41:28,700
-harus menggunakan pecahan, 
-dimana hal tersebut merupakan hal yang bagus,
+harus menggunakan pecahan,
+di mana itu adalah kabar baik,
 
 926
 00:41:28,700 --> 00:41:32,360
-karena pecahan 
+karena pecahan
 selalu membuat saya takut.
 
 927
 00:41:32,360 --> 00:41:33,710
-Ini juga merupakan bilangan bulat yang tidak memiliki tanda.
+Ini juga uint (unsigned int)
 
 928
 00:41:33,710 --> 00:41:35,177
