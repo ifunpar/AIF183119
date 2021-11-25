@@ -3407,7 +3407,7 @@ yang berbasis IP.
 
 717
 00:29:08,240 --> 00:29:11,600
-Jadi jika beberpa server memutuskan
+Jadi jika beberapa server memutuskan
 apakah sebuah operasi akan
 
 718
