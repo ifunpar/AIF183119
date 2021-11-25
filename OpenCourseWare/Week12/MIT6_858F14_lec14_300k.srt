@@ -3156,7 +3156,7 @@ pikir CA tersebut sebenarnya
 
 667
 00:29:09,150 --> 00:29:12,010
-telah dihapus dari 
+telah dihapus dari
 kumpulan CA yang terpercaya
 
 668
@@ -3170,7 +3170,7 @@ seperti, hey, Anda sudah
 
 670
 00:29:15,760 --> 00:29:16,390
-benar-benar kacau.
+benar-benar mengacau.
 
 671
 00:29:16,390 --> 00:29:18,515
@@ -3189,11 +3189,11 @@ agak mengecewakan
 674
 00:29:20,420 --> 00:29:21,875
 karena dari semua
-orang yang sah
+orang yang memiliki
 
 675
 00:29:21,875 --> 00:29:23,875
-yang memiliki sertifikat
+sertifikat yang sah
 dari otoritas sertifikat itu
 
 676
@@ -3255,12 +3255,12 @@ lebih terukur
 
 688
 00:29:53,580 --> 00:29:55,560
-karena kamu bisa
+karena Anda bisa
 memiliki beberapa KDC,
 
 689
 00:29:55,560 --> 00:29:57,200
-dan anda seharusnya tidak
+dan Anda seharusnya tidak
 berkomunikasi dengan mereka.
 
 690
@@ -3271,7 +3271,7 @@ tentang protokol ini
 691
 00:29:58,783 --> 00:30:01,220
 adalah bahwa tidak seperti Kerberos,
-kamu tidak dipaksa
+Anda tidak dipaksa
 
 692
 00:30:01,220 --> 00:30:02,980
@@ -3284,7 +3284,7 @@ terhubung ke web server
 
 694
 00:30:06,010 --> 00:30:08,157
-tanpa harus
+tanpa harus memiliki
 sertifikat untuk diri sendiri.
 
 695
@@ -3294,21 +3294,21 @@ Ini terjadi sepanjang waktu.
 696
 00:30:09,240 --> 00:30:10,930
 Jika Anda hanya pergi ke
-amazon.com, kamu
+amazon.com, maka Anda
 
 697
 00:30:10,930 --> 00:30:13,380
-akan memeriksanya
+akan memeriksanya bahwa
 Amazon adalah entitas yang tepat,
 
 698
 00:30:13,380 --> 00:30:16,220
 tetapi Amazon tidak tahu siapa Anda
-harus, atau setidaknya
+sebenarnya, atau setidaknya
 
 699
 00:30:16,220 --> 00:30:17,790
-tidak sampai Anda login nanti.
+tidak sampai Anda masuk nanti.
 
 700
 00:30:17,790 --> 00:30:20,040
@@ -3370,41 +3370,41 @@ siapa saya,
 
 712
 00:30:43,540 --> 00:30:44,940
-Tapi mari kita enkripsi itu pokoknya.
+bagaimanapun, mari kita enkripsi.
 
 713
 00:30:44,940 --> 00:30:46,870
-Jadi ini disebut
+Jadi hal ini disebut
 enkripsi oportunistik,
 
 714
 00:30:46,870 --> 00:30:50,020
-Dan tentu saja rentan
-untuk manusia di tengah serangan
+dan tentu saja rentan
+untuk serangan man in the middle
 
 715
 00:30:50,020 --> 00:30:52,170
-karena kamu terhubung
-,kepada seseorang dan mengatakan
+karena Anda sedang terhubung
+kepada seseorang dan mengatakan,
 
 716
 00:30:52,170 --> 00:30:53,120
-baik, ayo enkripsikan.
-urusan kita, tetapi kamu
+baik, mari enkripsikan
+barang-barang kita, tetapi Anda
 
 717
 00:30:53,120 --> 00:30:55,536
-tidak tahu siaoa itu sebenernya 
-urusan yang kamu enkripsikan
+tidak tahu dengan siapa sebenarnya
+Anda mengenkripsikan
 
 718
 00:30:55,536 --> 00:30:56,290
-dengan.
+barang.
 
 719
 00:30:56,290 --> 00:30:57,664
-Keduanya mungkin 
-ide yang bagus pula.
+Keduanya mungkin adalah
+ide yang bagus.
 
 720
 00:30:57,664 --> 00:31:00,309
@@ -3413,7 +3413,7 @@ memasang serangan terhadap Anda,
 
 721
 00:31:00,309 --> 00:31:02,850
-setidaknya paket nantinya 
+setidaknya paket-paket itu nantinya
 akan terenkripsi dan terlindungi.
 
 722
