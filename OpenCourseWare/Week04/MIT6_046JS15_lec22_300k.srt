@@ -3423,75 +3423,75 @@ hubungan matematis.
 
 728
 00:39:42,950 --> 00:39:46,070
-And the different
-cryptosystems including RSA,
+Dan berbagai kriptosistem
+termasuk RSA,
 
 729
 00:39:46,070 --> 00:39:48,330
-and we look at a
-knapsack cryptosystem,
+dan kita lihat
+kriptosistem knapsack,
 
 730
 00:39:48,330 --> 00:39:53,310
-all have different algorithms
-for encryption and decryption.
+semuanya memiliki algoritma yang
+berbeda untuk enkripsi dan dekripsi.
 
 731
 00:39:53,310 --> 00:39:55,780
-And they have different
-mathematical relationships
+Dan mereka memiliki
+hubungan matematis yang berbeda
 
 732
 00:39:55,780 --> 00:39:57,440
-between PK and SK.
+antara PK dan SK.
 
 733
 00:39:57,440 --> 00:40:00,320
-And for each of
-these relationships,
+Dan untuk setiap
+hubungan ini,
 
 734
 00:40:00,320 --> 00:40:03,260
-you have to show that
-the adversary has
+Anda harus menunjukkan
+bahwa lawan harus
 
 735
 00:40:03,260 --> 00:40:06,580
-to solve a computationally
-hard problem in order
+memecahkan masalah komputasi
+yang sulit
 
 736
 00:40:06,580 --> 00:40:12,140
-to discover SK given PK.
+untuk menemukan SK dari PK yang ada.
 
 737
 00:40:12,140 --> 00:40:14,870
-And it turns out that for
-most of these systems,
+Dan ternyata untuk sebagian
+besar sistem ini,
 
 738
 00:40:14,870 --> 00:40:19,330
-it's symmetric in the sense
-that these algorithms,
+itu simetris dalam arti bahwa
+algoritma-algoritma ini,
 
 739
 00:40:19,330 --> 00:40:23,120
-at least for RSA, you
-could use either one
+setidaknya untuk RSA, Anda
+bisa menggunakan salah
 
 740
 00:40:23,120 --> 00:40:25,690
-of these interchangeably.
+satunya secara bergantian.
 
 741
 00:40:25,690 --> 00:40:27,390
-And there's issues
-associated with that.
+Dan ada isu-isu
+terkait hal tersebut.
 
 742
 00:40:27,390 --> 00:40:30,120
-So we really won't go
-too deep into that.
+Sehingga kita tidak akan membahas
+terlalu dalam ke sana.
 
 743
 00:40:30,120 --> 00:40:35,660
