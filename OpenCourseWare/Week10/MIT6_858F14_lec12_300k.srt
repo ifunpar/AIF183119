@@ -3537,64 +3537,64 @@ namun tidak lagi.
 
 744
 00:30:23,730 --> 00:30:27,120
-So relying on IP seems like
-such a clearly bad plan.
+Jadi mengandalkan IP sepertinya
+merupakan rencana yang buruk.
 
 745
 00:30:27,120 --> 00:30:28,980
-Yet, this actually
-is still the case.
+Namun, kenyataannya
+masih demikian.
 
 746
 00:30:28,980 --> 00:30:30,160
-So rlogin is gone.
+Jadi rlogin sudah hilang.
 
 747
 00:30:30,160 --> 00:30:33,574
-It was recently replaced
-by SSH now, which is good.
+Baru-baru ini digantikan
+oleh SSH, dimana hal tersebut bagus.
 
 748
 00:30:33,574 --> 00:30:34,990
-On the other hand,
-there are still
+Di sisi lain,
+masih banyak
 
 749
 00:30:34,990 --> 00:30:38,470
-many other examples
-of protocols that rely
+contoh protokol lain
+yang mengandalkan
 
 750
 00:30:38,470 --> 00:30:40,530
-on IP-based authentication.
+otentikasi berbasis IP.
 
 751
 00:30:40,530 --> 00:30:41,890
-One of them is SMTP.
+Salah satunya adalah SMTP.
 
 752
 00:30:41,890 --> 00:30:45,555
-So when you send email, you
-use SMTP to talk to some mail
+Jadi ketika Anda mengirim email, Anda
+menggunakan SMTP untuk berkomunikasi dengan sebuah
 
 753
 00:30:45,555 --> 00:30:47,650
-server to send a message.
+server email untuk mengirim pesan.
 
 754
 00:30:47,650 --> 00:30:51,120
-And to prevent spam,
-many SMTP servers
+Dan untuk mencegah spam,
+banyak server SMTP
 
 755
 00:30:51,120 --> 00:30:53,470
-will only accept
-incoming messages
+yang hanya akan menerima
+pesan masuk
 
 756
 00:30:53,470 --> 00:30:55,710
-from a particular
-source IP address.
+dari alamat IP
+sumber tertentu.
 
 757
 00:30:55,710 --> 00:30:57,460
