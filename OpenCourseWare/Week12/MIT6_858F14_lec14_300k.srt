@@ -3312,61 +3312,61 @@ tidak sampai Anda login nanti.
 
 700
 00:30:17,790 --> 00:30:20,040
-So the crypto protocol level,
-you have no certificate.
+Jadi pada tingkat protokol kriptografi,
+Anda tidak memiliki sertifikat
 
 701
 00:30:20,040 --> 00:30:20,720
-Amazon has a certificate.
+Amazon memiliki sebuah sertifikat.
 
 702
 00:30:20,720 --> 00:30:22,260
-So that was actually
-much better than Kerberos
+Yang sebenarnya
+lebih baik daripada Kerberos
 
 703
 00:30:22,260 --> 00:30:24,380
-where in order to connect
-to a Kerberos service,
+di mana untuk terhubung
+ke sebuah layanan Kerberos,
 
 704
 00:30:24,380 --> 00:30:28,030
-you have to be an entry in
-the Kerberos database already.
+Anda harus sudah masuk
+pada basis data Kerberos.
 
 705
 00:30:28,030 --> 00:30:30,690
-One thing that's a little bit
-of a bummer with this protocol
+Satu hal yang sedikit
+menyebalkan mengenai protokol ini
 
 706
 00:30:30,690 --> 00:30:33,640
-as we've described it is
-that in fact, the server does
+seperti yang telah kita jelaskan
+adalah fakta bahwa server
 
 707
 00:30:33,640 --> 00:30:35,359
-have to have a certificate.
+harus memiliki sertifikat.
 
 708
 00:30:35,359 --> 00:30:36,900
-So you can't just
-connect to a server
+Jadi Anda tidak bisa hanya
+terhubung ke sebuah server
 
 709
 00:30:36,900 --> 00:30:39,080
-and say, hey, let's
-just encrypt our stuff.
+dan mengatakan, hei, mari
+enkripsi saja barang kita.
 
 710
 00:30:39,080 --> 00:30:41,920
-I have no idea who you
-are, or not really,
+Saya tidak tahu Anda
+siapa, atau tidak juga,
 
 711
 00:30:41,920 --> 00:30:43,540
-and you don't have
-any idea who I am,
+dan Anda tidak tahu
+siapa saya,
 
 712
 00:30:43,540 --> 00:30:44,940
