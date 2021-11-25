@@ -2488,23 +2488,23 @@ yang dikirim karena memiliki KC.
 
 523
 00:23:29,100 --> 00:23:31,020
-PROFESSOR: Baik Yes,Saya fikir 
+PROFESSOR: Baik, saya pikir 
 itulah yang terjadi
 
 524
 00:23:31,020 --> 00:23:32,960
-apakah itu server Kerberos
-lagi pada tingkat tertentu sebenarnya
+yaitu server Kerberos
+lagi-lagi pada tingkatan tertentu sebenarnya
 
 525
 00:23:32,960 --> 00:23:35,540
-tidak diketahui apakah ini
+tidak tahu apakah ini
 klien yang benar atau tidak.
 
 526
 00:23:35,540 --> 00:23:37,500
-Tapi itu berpikir oh, baik,
-tentu, itu tidak masalah
+Tapi dia berpikir oh, baik,
+tentu, tidak penting
 
 527
 00:23:37,500 --> 00:23:38,930
@@ -2512,13 +2512,13 @@ siapa yang membuat permintaan ini.
 
 528
 00:23:38,930 --> 00:23:41,780
-Saya akan hanya mengirim gumpalan ini
-keluar dan satu-satunya orang
+Saya hanya akan mengirim bongkahan
+data ini dan satu-satunya orang
 
 529
 00:23:41,780 --> 00:23:44,010
-siapa yang seharusnya bisa
-menggunakan gumpalan ini
+yang bisa memanfaatkan
+bongkahan data ini
 
 530
 00:23:44,010 --> 00:23:48,170
@@ -2527,8 +2527,8 @@ kunci KC ini di sini.
 
 531
 00:23:48,170 --> 00:23:50,432
-Jadi itu sebenarnya jenis yang
-keren karena klien
+Jadi hal itu sebenarnya
+keren karena client
 
 532
 00:23:50,432 --> 00:23:51,890
@@ -2541,7 +2541,7 @@ melalui jaringan sama sekali.
 
 534
 00:23:53,790 --> 00:23:56,650
-Jadi dalam beberapa cara, sebenarnya
+Jadi dalam hal tertentu, sebenarnya
 ini lebih baik daripada client
 
 535
@@ -2552,12 +2552,12 @@ server Kerberos
 536
 00:23:58,800 --> 00:24:01,710
 karena meskipun
-server Kerberos-nya
+server Kerberos-nya di sini
 
 537
 00:24:01,710 --> 00:24:03,960
-sedang menunggu (mendengarkan)
-password-password nya
+sedang menunggu
+password-password ini
 
 538
 00:24:03,960 --> 00:24:06,710
@@ -2566,13 +2566,13 @@ server tidak akan mendapatkan password-mu.
 
 539
 00:24:06,710 --> 00:24:08,900
-Atau jika seseorang sedang
+Atau mungkin jika seseorang sedang
 berpura-pura menjadi server
 
 540
 00:24:08,900 --> 00:24:13,000
 Kerberos, dia tidak akan
-mendapatkan salinan password-mu
+mendapatkan salinan password Anda
 
 541
 00:24:13,000 --> 00:24:14,090
@@ -2585,13 +2585,12 @@ orang jahat ingin [TIDAK TERDENGAR]
 
 543
 00:24:17,380 --> 00:24:20,200
-password offline-mu tanpa--
+password Anda secara luring tanpa--
 
 544
 00:24:20,200 --> 00:24:23,020
-
-PROFESSOR: Ya, jadi ini 
-sebanarnya bukan aspek yang hebat
+PROFESSOR: Yah, jadi ini 
+sebanarnya bukan aspek yang bagus
 
 545
 00:24:23,020 --> 00:24:24,322
@@ -2604,8 +2603,8 @@ apa permasalahannya?
 
 547
 00:24:26,030 --> 00:24:28,430
-Permasalahannya adalah pada
-cara klien yang dapat
+Permasalahannya adalah dalam
+hal klien dapat
 
 548
 00:24:28,430 --> 00:24:30,180
@@ -2615,7 +2614,7 @@ kata sandi yang benar atau tidak
 549
 00:24:30,180 --> 00:24:32,520
 atau tempat kerjanya dapat memberitahu
-apakah klien menyediakan
+apakah client memberikan
 
 550
 00:24:32,520 --> 00:24:35,320
@@ -2632,43 +2631,43 @@ Dan dekripsi ini cukup murah.
 
 553
 00:24:41,080 --> 00:24:42,700
-Ini adalah enkripsi 
-simetris dan kamu
+Ini adalah enkripsi
+simetris dan Anda
 
 554
 00:24:42,700 --> 00:24:45,060
-dapat mungkin melakukan sebanyak
+mungkin dapat melakukan
 jutaan dekripsi
 
 555
 00:24:45,060 --> 00:24:49,460
-per detik jika kamu berusaha
+per detik jika Anda berusaha
 keras pada mesin yang modern.
 
 556
 00:24:49,460 --> 00:24:52,300
 Dan ini berarti bahwa
-kamu bisa mencoba jutaan
+Anda bisa mencoba jutaan
 
 557
 00:24:52,300 --> 00:24:54,020
-kata sandi yang potensial
+kata sandi potensial
 tiap detiknya
 
 558
 00:24:54,020 --> 00:24:56,497
-untuk menebak isi
+untuk menebak
 kata sandi seseorang.
 
 559
 00:24:56,497 --> 00:24:58,330
-Dan kamu bisa melakukan ini
+Dan Anda bisa melakukan ini
 kepada siapapun.
 
 560
 00:24:58,330 --> 00:25:00,372
 Kamu hanya perlu mengirimkan
-principal mereka
+prinsipiel mereka
 
 561
 00:25:00,372 --> 00:25:01,330
@@ -2685,12 +2684,12 @@ dengan kata sandi pengguna.
 
 564
 00:25:05,040 --> 00:25:07,590
-Lalu kamu bisa mencoba kata sandi
-lain dan lihat mana
+Lalu Anda bisa mencoba berbagai
+kata sandi berbeda dan lihat mana
 
 565
 00:25:07,590 --> 00:25:08,740
-yang bekerja dan mana yang tidak.
+yang benar dan mana yang tidak.
 
 566
 00:25:08,740 --> 00:25:09,798
@@ -2699,11 +2698,11 @@ Ya.
 567
 00:25:09,798 --> 00:25:12,786
 Mahasiswa: Tapi tidakkah
-isi [tidak terdengaran]
+isi [TIDAK TERDENGAR]
 
 568
 00:25:12,786 --> 00:25:14,778
-terdekripsi [tidak terdengaran] keuntungan?
+terdekripsi [TIDAK TERDENGAR] keuntungan?
 
 569
 00:25:14,778 --> 00:25:16,752
@@ -2717,12 +2716,12 @@ merupakan aspek menarik lainnya
 
 571
 00:25:19,210 --> 00:25:21,360
-di mana Kerberos 4
-pengembangnya tidak cukup
+di mana pengembang
+Kerberos 4 tidak cukup
 
 572
 00:25:21,360 --> 00:25:24,300
-menyadari bahwa saat itu mereka
+menyadari bahwa saat mereka
 membangun ini bahwa mereka benar-benar
 
 573
@@ -2736,12 +2735,12 @@ dari otentikasi.
 
 575
 00:25:29,110 --> 00:25:33,150
-Jadi di kertas, ada
+Jadi di paper nya, ada
 asumsi implisit ini
 
 576
 00:25:33,150 --> 00:25:37,442
-itu-- semoga, itu bukan kami.
+bahwa-- semoga, itu bukan kita.
 
 577
 00:25:37,442 --> 00:25:38,150
