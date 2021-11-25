@@ -3370,60 +3370,60 @@ siapa saya,
 
 712
 00:30:43,540 --> 00:30:44,940
-but let's encrypt it anyway.
+Tapi mari kita enkripsi itu pokoknya.
 
 713
 00:30:44,940 --> 00:30:46,870
-So this is called
-opportunistic encryption,
+Jadi ini disebut
+enkripsi oportunistik,
 
 714
 00:30:46,870 --> 00:30:50,020
-and it's of course vulnerable
-to man in the middle attacks
+Dan tentu saja rentan
+untuk manusia di tengah serangan
 
 715
 00:30:50,020 --> 00:30:52,170
-because you're connecting
-to someone and saying,
+karena kamu terhubung
+,kepada seseorang dan mengatakan
 
 716
 00:30:52,170 --> 00:30:53,120
-well, let's encrypt
-our stuff, but you
+baik, ayo enkripsikan.
+urusan kita, tetapi kamu
 
 717
 00:30:53,120 --> 00:30:55,536
-have no idea who it really is
-that you're encrypting stuff
+tidak tahu siaoa itu sebenernya 
+urusan yang kamu enkripsikan
 
 718
 00:30:55,536 --> 00:30:56,290
-with.
+dengan.
 
 719
 00:30:56,290 --> 00:30:57,664
-Both might be a
-good idea anyway.
+Keduanya mungkin 
+ide yang bagus pula.
 
 720
 00:30:57,664 --> 00:31:00,309
-If someone is not actively
-mounting an attack against you,
+Jika seseorang tidak secara aktif
+memasang serangan terhadap Anda,
 
 721
 00:31:00,309 --> 00:31:02,850
-at least the packets later on
-will be encrypted and protected
+setidaknya paket nantinya 
+akan terenkripsi dan terlindungi.
 
 722
 00:31:02,850 --> 00:31:04,520
-from snooping.
+dari sadapan.
 
 723
 00:31:04,520 --> 00:31:07,590
-So it's a bit of
-a shame that this
+Jadi sedikit
+disayangkan bahwa ini
 
 724
 00:31:07,590 --> 00:31:12,220
