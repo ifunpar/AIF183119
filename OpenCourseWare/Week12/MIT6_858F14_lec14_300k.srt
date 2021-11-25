@@ -3255,60 +3255,60 @@ lebih terukur
 
 688
 00:29:53,580 --> 00:29:55,560
-because you can
-have multiple KDCs,
+karena kamu bisa
+memiliki beberapa KDC,
 
 689
 00:29:55,560 --> 00:29:57,200
-and you don't have
-to talk to them.
+dan anda seharusnya tidak
+berkomunikasi dengan mereka.
 
 690
 00:29:57,200 --> 00:29:58,783
-Another cool thing
-about this protocol
+Hal keren lainnya
+tentang protokol ini
 
 691
 00:29:58,783 --> 00:30:01,220
-is that unlike Kerberos,
-you're not forced
+adalah bahwa tidak seperti Kerberos,
+kamu tidak dipaksa
 
 692
 00:30:01,220 --> 00:30:02,980
-to authenticate both parties.
+untuk mengotentikasi kedua belah pihak.
 
 693
 00:30:02,980 --> 00:30:06,010
-So you could totally
-connect to a web server
+Jadi Anda benar-benar bisa
+terhubung ke web server
 
 694
 00:30:06,010 --> 00:30:08,157
-without having a
-certificate for yourself.
+tanpa harus
+sertifikat untuk diri sendiri.
 
 695
 00:30:08,157 --> 00:30:09,240
-This happens all the time.
+Ini terjadi sepanjang waktu.
 
 696
 00:30:09,240 --> 00:30:10,930
-If you just go to
-amazon.com, you
+Jika Anda hanya pergi ke
+amazon.com, kamu
 
 697
 00:30:10,930 --> 00:30:13,380
-are going to check that
-Amazon is the right entity,
+akan memeriksanya
+Amazon adalah entitas yang tepat,
 
 698
 00:30:13,380 --> 00:30:16,220
-but Amazon has no idea who you
-are necessarily, or at least
+tetapi Amazon tidak tahu siapa Anda
+harus, atau setidaknya
 
 699
 00:30:16,220 --> 00:30:17,790
-not until you log in later.
+tidak sampai Anda login nanti.
 
 700
 00:30:17,790 --> 00:30:20,040
