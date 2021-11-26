@@ -5371,23 +5371,23 @@ yang programer ingin dia lakukan.
 
 1132
 00:48:13,785 --> 00:48:15,160
-And the threat
-model is probably,
+Dan model ancamannya
+kemungkinan berupa,
 
 1133
 00:48:15,160 --> 00:48:18,260
-the attacker doesn't have
-access to this machine,
+sang penyerang tidak memiliki
+akses ke komputer ini,
 
 1134
 00:48:18,260 --> 00:48:20,800
-can't log in to it remotely,
-doesn't have physical access
+tidak bisa masuk secara remote,
+tidak memiliki akses secara fisik
 
 1135
 00:48:20,800 --> 00:48:22,690
-to it, but can send
-any packet they want.
+kepadanya, namun bisa mengirim
+paket apapun yang mereka mau.
 
 1136
 00:48:22,690 --> 00:48:26,874
