@@ -3914,45 +3914,45 @@ pada akhirnya.
 
 828
 00:35:47,490 --> 00:35:50,830
-So if your output
-size is 256 bits long,
+jadi jika output anda
+ukurannya 256 bit,
 
 829
 00:35:50,830 --> 00:35:52,650
-you'll be able to
-find two inputs that
+anda akan dapat
+menemukan dua input yang
 
 830
 00:35:52,650 --> 00:35:55,110
-map to the same output.
+menuju ke input yang sama.
 
 831
 00:35:55,110 --> 00:35:59,860
-In fact, you do not
-need to try 256 times.
+Bahkan, anda tidak 
+perlu mencoba 256 kali.
 
 832
 00:35:59,860 --> 00:36:01,740
-I'm not going to go
-into the details,
+Saya tidak akan
+membahas detailnya,
 
 833
 00:36:01,740 --> 00:36:05,970
-but you actually only
-have to try 128 times.
+tetapi sebenarnya anda hanya
+harus mencoba 128 kali.
 
 834
 00:36:05,970 --> 00:36:07,320
-Sorry, two to the 128.
+Maaf, dua banding 128.
 
 835
 00:36:07,320 --> 00:36:10,740
-So you need to take the square
-root of the number of attempts
+Jadi anda perlu mengambil akar
+kuadrat dari jumlah percobaan 
 
 836
 00:36:10,740 --> 00:36:14,880
-in order to find this collision
+untuk menemukan bentrokan(collision) ini
 karena alasan intuitif
 
 837
