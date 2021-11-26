@@ -3439,7 +3439,7 @@ berbeda untuk enkripsi dan dekripsi.
 731
 00:39:53,310 --> 00:39:55,780
 Dan mereka memiliki
-hubungan matematis yang berbeda
+relasi matematis yang berbeda
 
 732
 00:39:55,780 --> 00:39:57,440
@@ -3448,7 +3448,7 @@ antara PK dan SK.
 733
 00:39:57,440 --> 00:40:00,320
 Dan untuk setiap
-hubungan ini,
+relasi ini,
 
 734
 00:40:00,320 --> 00:40:03,260
@@ -3458,11 +3458,11 @@ bahwa lawan harus
 735
 00:40:03,260 --> 00:40:06,580
 memecahkan masalah komputasi
-yang sulit
+yang sulit agar
 
 736
 00:40:06,580 --> 00:40:12,140
-untuk menemukan SK dari PK yang ada.
+bisa menemukan SK dari PK yang ada.
 
 737
 00:40:12,140 --> 00:40:14,870
@@ -3471,8 +3471,8 @@ besar sistem ini,
 
 738
 00:40:14,870 --> 00:40:19,330
-itu simetris dalam arti bahwa
-algoritma-algoritma ini,
+itu bersifat simetris dalam arti
+bahwa algoritma-algoritma ini,
 
 739
 00:40:19,330 --> 00:40:23,120
@@ -3481,11 +3481,11 @@ bisa menggunakan salah
 
 740
 00:40:23,120 --> 00:40:25,690
-satunya secara bergantian.
+satu dari ini secara bergantian.
 
 741
 00:40:25,690 --> 00:40:27,390
-Dan ada isu-isu
+Dan terdapat isu-isu
 terkait hal tersebut.
 
 742
