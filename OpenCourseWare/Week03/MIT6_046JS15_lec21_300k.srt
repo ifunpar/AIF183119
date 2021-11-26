@@ -5081,59 +5081,59 @@ simpan di lokasi yang aman.
 
 1083
 00:58:23,670 --> 00:58:27,190
-And you want to check
-to see, by re-computing
+Dan anda ingin mengecek
+ingin melihat, dengan cara dikomputasi ulang
 
 1084
 00:58:27,190 --> 00:58:31,940
-h of F, the file
-that is given to you,
+h dari F, dari file
+yang diberikan kepada anda,
 
 1085
 00:58:31,940 --> 00:58:34,135
-and comparing it with what
-you've stored, the h of F
+dan membandingkannya dengan apa
+yang telah anda simpan, h dari F
 
 1086
 00:58:34,135 --> 00:58:35,730
-that you've stored.
+yang anda simpan.
 
 1087
 00:58:35,730 --> 00:58:42,200
-And so what property do we
-need in order to pull this off?
+Jadi apa saja properti yang kita
+perlukan untuk dapat melakukan hal tersebut?
 
 1088
 00:58:42,200 --> 00:58:44,590
-Of hash functions.
+dengan hash functions
 
 1089
 00:58:44,590 --> 00:58:48,070
-What precisely do we
-need to pull this off?
+Apa tepatnya yang kita 
+perlukan untuk dapat melakukan hal tersebut?
 
 1090
 00:58:50,620 --> 00:58:53,040
-What is the adversary
-trying to do?
+Apa yang ingin dilakukan
+oleh musuh?
 
 1091
 00:58:53,040 --> 00:58:55,530
-And what is a successful break?
+Apa yang dimaksud dengan perusakan yang sukses?
 
 1092
 00:58:55,530 --> 00:59:02,000
-A successful break is if an
-adversary can modify the file
+Sebuah perusakan yang sukses terjadi jika
+musuh bisa memodifikasi file
 
 1093
 00:59:02,000 --> 00:59:08,720
-and keep h of F the same, right?
+dan h dari f tetap sama, iya kan?
 
 1094
 00:59:08,720 --> 00:59:10,780
-That would be a
-successful break, right?
+Itu merupakan 
+perusakan yang sukses, iya kan?
 
 1095
 00:59:10,780 --> 00:59:13,600
@@ -5145,7 +5145,7 @@ Silahkan.
 
 1097
 00:59:14,125 --> 00:59:14,910
-PENONTON : TCR.
+AUDIENS : TCR.
 
 1098
 00:59:14,910 --> 00:59:15,550
