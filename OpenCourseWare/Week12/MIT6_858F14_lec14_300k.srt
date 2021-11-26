@@ -3161,12 +3161,12 @@ kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
-oleh browser pada titik itu.
+oleh peramban dari titik itu.
 
 669
 00:29:13,469 --> 00:29:15,760
-Jadi pada versi Chrome yang berikutnya
-seperti, hey, Anda sudah
+Jadi pada rilis Chrome yang berikutnya
+dia seperti, hey, Anda sudah
 
 670
 00:29:15,760 --> 00:29:16,390
@@ -3174,8 +3174,8 @@ benar-benar mengacau.
 
 671
 00:29:16,390 --> 00:29:18,515
-Kami akan mengeluarkan 
-Anda dari jenis CA
+Kami akan mengeluarkan
+Anda dari kumpulan CA
 
 672
 00:29:18,515 --> 00:29:19,195
@@ -3198,7 +3198,7 @@ dari otoritas sertifikat itu
 
 676
 00:29:23,875 --> 00:29:25,030
-sekarang sudah habis keberuntungannya.
+sekarang mengalami musibah.
 
 677
 00:29:25,030 --> 00:29:26,680
@@ -3213,7 +3213,7 @@ sistem yang berantakan,
 679
 00:29:28,440 --> 00:29:33,190
 tapi itulah kira-kira yang terjadi
-dalam praktik penggunaan sertifikat.
+dalam praktik sertifikasi.
 
 680
 00:29:33,190 --> 00:29:34,540
@@ -3245,13 +3245,13 @@ Kerberos dalam artian
 
 686
 00:29:48,510 --> 00:29:51,610
-anda tidak perlu untuk
-menghubungkannya ke jaringan
+Anda tidak perlu untuk
+menghubungkan orang ini ke jaringan
 
 687
 00:29:51,610 --> 00:29:53,580
 Itu menjadi sedikit
-lebih terukur
+lebih skalabel
 
 688
 00:29:53,580 --> 00:29:55,560
@@ -3260,7 +3260,7 @@ memiliki beberapa KDC,
 
 689
 00:29:55,560 --> 00:29:57,200
-dan Anda seharusnya tidak
+dan tidak perlu
 berkomunikasi dengan mereka.
 
 690
@@ -3298,7 +3298,7 @@ amazon.com, maka Anda
 
 697
 00:30:10,930 --> 00:30:13,380
-akan memeriksanya bahwa
+akan memeriksa bahwa
 Amazon adalah entitas yang tepat,
 
 698
@@ -3308,7 +3308,7 @@ sebenarnya, atau setidaknya
 
 699
 00:30:16,220 --> 00:30:17,790
-tidak sampai Anda masuk nanti.
+tidak sampai Anda log masuk nanti.
 
 700
 00:30:17,790 --> 00:30:20,040
@@ -3321,7 +3321,7 @@ Amazon memiliki sebuah sertifikat.
 
 702
 00:30:20,720 --> 00:30:22,260
-Yang sebenarnya
+Yang sebenarnya jauh
 lebih baik daripada Kerberos
 
 703
@@ -3331,7 +3331,7 @@ ke sebuah layanan Kerberos,
 
 704
 00:30:24,380 --> 00:30:28,030
-Anda harus sudah masuk
+Anda harus memiliki catatan
 pada basis data Kerberos.
 
 705
@@ -3341,7 +3341,7 @@ menyebalkan mengenai protokol ini
 
 706
 00:30:30,690 --> 00:30:33,640
-seperti yang telah kita jelaskan
+seperti yang telah kita lihat
 adalah fakta bahwa server
 
 707
@@ -3356,7 +3356,7 @@ terhubung ke sebuah server
 709
 00:30:36,900 --> 00:30:39,080
 dan mengatakan, hei, mari
-enkripsi saja barang kita.
+enkripsi saja komunikasi kita.
 
 710
 00:30:39,080 --> 00:30:41,920
@@ -3379,8 +3379,8 @@ enkripsi oportunistik,
 
 714
 00:30:46,870 --> 00:30:50,020
-dan tentu saja rentan
-untuk serangan man in the middle
+dan itu tentu saja rentan
+terhadap serangan man in the middle
 
 715
 00:30:50,020 --> 00:30:52,170
@@ -3390,7 +3390,7 @@ kepada seseorang dan mengatakan,
 716
 00:30:52,170 --> 00:30:53,120
 baik, mari enkripsikan
-barang-barang kita, tetapi Anda
+komunikasi kita, tetapi Anda
 
 717
 00:30:53,120 --> 00:30:55,536
@@ -3399,7 +3399,7 @@ Anda mengenkripsikan
 
 718
 00:30:55,536 --> 00:30:56,290
-barang.
+komunikasi.
 
 719
 00:30:56,290 --> 00:30:57,664
