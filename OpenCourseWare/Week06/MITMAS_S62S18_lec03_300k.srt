@@ -3864,429 +3864,429 @@ negatif R. Jadi ya,
 
 836
 00:37:40,550 --> 00:37:47,720
-P plus Q equals R,
-not negative R. Sorry.
+P ditambah Q sama dengan R,
+bukan negatif R. Maaf.
 
 837
 00:37:47,720 --> 00:37:50,750
-When you want to multiply
-a point, you can.
+Ketika Anda ingin mengalikan
+sebuah titik, Anda bisa.
 
 838
 00:37:50,750 --> 00:37:52,712
-Because you can take
-a tangent, right?
+Karena Anda bisa mengambil 
+sebuah garis singgung (tangent), benar?
 
 839
 00:37:52,712 --> 00:37:54,170
-So you can add
-these points, right?
+Sehingga Anda dapat menambahkan
+titik-titik ini, benar?
 
 840
 00:37:54,170 --> 00:37:57,050
-You can say, OK, I want
-the sum of P and Q,
+Anda dapat mengatakan, oke, saya ingin 
+hasil penjumlahan P dan Q,
 
 841
 00:37:57,050 --> 00:37:58,500
-which will be down here--
+Dimana akan berada di bawah sini--
 
 842
 00:37:58,500 --> 00:38:03,320
-R. I want 2P, for example.
+R. Saya ingin 2P, sebagai contoh.
 
 843
 00:38:03,320 --> 00:38:05,870
-Well, with 2P, I
-can take a tangent
+Baik, dengan 2P, Saya
+dapat mengambil sebuah garis singgung (tangent)
 
 844
 00:38:05,870 --> 00:38:07,460
-and then find
-where it intersects
+dan kemudian mencari
+dimana ia berpotongan
 
 845
 00:38:07,460 --> 00:38:09,450
-and then go down
-below the curve.
+dan kemudian turun
+di bawah kurva.
 
 846
 00:38:09,450 --> 00:38:13,100
-So for example, if this
-is G, I say OK, well, G
+Jadi misalnya, jika ini
+adalah G, Saya mengatakan oke, baik, G 
 
 847
 00:38:13,100 --> 00:38:16,400
-starts here, take the tangent,
-find where it intersects
+dimulai dari sini, ambil sebuah garis singgung (tangent)
+cari dimana ia berpotongan.
 
 848
 00:38:16,400 --> 00:38:17,840
-and then drop down.
+dan kemudian turun ke bawah.
 
 849
 00:38:17,840 --> 00:38:19,850
-And this is 2G.
+Dan ini adalah 2G.
 
 850
 00:38:19,850 --> 00:38:22,865
-So it's a simple
-way to say, well,
+Sehingga ini merupakan cara 
+sederhana untuk mengatakan, baik,
 
 851
 00:38:22,865 --> 00:38:23,990
-I'm not really multiplying.
+Saya tidak benar-benar mengalikan.
 
 852
 00:38:23,990 --> 00:38:25,760
-I'm just adding it
-to itself, which is
+Saya hanya menambahkannya dengan 
+dirinya sendiri, di mana
 
 853
 00:38:25,760 --> 00:38:27,613
-sort of what multiplication is.
+perkalian sebenarnya seperti itu.
 
 854
 00:38:27,613 --> 00:38:29,030
-And I can do this
-again and again.
+Dan saya dapat melakukan hal ini
+lagi dan lagi.
 
 855
 00:38:29,030 --> 00:38:30,620
-So I say, oh, I want 4G.
+Jadi saya mengatakan, oh, Saya ingin 4G.
 
 856
 00:38:30,620 --> 00:38:33,700
-I take the tangent at 2G,
-find the intersection here,
+Saya mengambil sebuah garis singgung (tangent) pada 2G,
+mencari titik potong di sini,
 
 857
 00:38:33,700 --> 00:38:34,370
-drop down.
+turun ke bawah.
 
 858
 00:38:34,370 --> 00:38:34,870
-OK.
+Oke.
 
 859
 00:38:34,870 --> 00:38:35,840
-Here's 4G.
+Ini 4G.
 
 860
 00:38:35,840 --> 00:38:38,030
-Take the tangent
-here, it'll go--
+Ambil sebuah sebuah garis singgung (tangent)
+di sini, dia akan pergi-- 
 
 861
 00:38:38,030 --> 00:38:41,630
-I can keep doing that
-and get 2G, 4G, 8G.
+Saya bisa terus melakukan itu
+dan mendapatkan 2G, 4G, 8G.
 
 862
 00:38:41,630 --> 00:38:46,460
-And if I want intermediate
-things, like, well, I want 3G,
+Dan jika saya ingin hal-hal 
+tambahan, seperti, yah, saya ingin 3G,
 
 863
 00:38:46,460 --> 00:38:51,670
-well, I draw a line between G
-and 2G, find the intersection,
+yah, saya mengambar sebuah garis di antara G
+dan 2G, cari titik potong,
 
 864
 00:38:51,670 --> 00:38:53,150
-and find the sum.
+dan cari hasil penjumlahannya.
 
 865
 00:38:53,150 --> 00:38:53,990
-So yeah?
+Jadi yah?
 
 866
 00:38:53,990 --> 00:38:54,490
-Yes?
+Ya?
 
 867
 00:38:54,490 --> 00:38:57,370
-AUDIENCE: When you find
-the intersection of that
+AUDIENS: Ketika Anda menemukan 
+sebuah titik potong dari hal itu
 
 868
 00:38:57,370 --> 00:38:59,703
-[INAUDIBLE] the intersection
-of the modulo of something,
+[TIDAK TERDENGAR] titik potong
+dari modulo sesuatu,
 
 869
 00:38:59,703 --> 00:39:00,240
-does it just--
+apakah itu hanya--
 
 870
 00:39:00,240 --> 00:39:01,240
-TADGE DRYJA: Yeah, yeah.
+TADGE DRYJA: Yah, yah.
 
 871
 00:39:01,240 --> 00:39:05,162
-So the pictures look
-nice, in this case, right?
+Jadi gambarnya terlihat
+bagus, dalam kasus ini, bukan?
 
 872
 00:39:05,162 --> 00:39:06,620
-It's like, hey,
-there's this curve.
+Ini seperti, hei,
+ada kurva di sini.
 
 873
 00:39:06,620 --> 00:39:08,490
-And it looks so simple.
+Dan ini terlihat sangat sederhana.
 
 874
 00:39:08,490 --> 00:39:10,970
-And we can graphically
-do it on graph paper.
+Dan kita bisa secara grafis
+melakukannya di kertas bergaris.
 
 875
 00:39:10,970 --> 00:39:13,280
-But when you're actually
-doing it on the computer,
+Tetapi ketika Anda benar-benar
+melakukannya di komputer,
 
 876
 00:39:13,280 --> 00:39:14,960
-it looks more like this.
+itu akan lebih terlihat seperti ini.
 
 877
 00:39:14,960 --> 00:39:18,890
-Everything is modulo
-some giant prime number.
+Semuanya adalah modulo
+dari beberapa bilangan prima raksasa.
 
 878
 00:39:18,890 --> 00:39:20,300
-You could still draw lines.
+Anda masih bisa menggambar garis.
 
 879
 00:39:20,300 --> 00:39:24,560
-It's just that the curve is now
-all these crazy-looking dots.
+Hanya saja sekarang kurvanya 
+menjadi semua titik yang tampak gila ini.
 
 880
 00:39:24,560 --> 00:39:28,850
-And you still have that
-symmetry from the y-axis.
+Dan Anda masih memiliki
+simetri dari sumbu y.
 
 881
 00:39:28,850 --> 00:39:32,060
-But the way the computer does
-it is all modulo a number.
+Tetapi cara komputer melakukannya
+adalah dengan memodulo sebuah angka.
 
 882
 00:39:32,060 --> 00:39:37,770
-So it doesn't actually
-map to a nice curve.
+Sehingga sebenarnya itu tidak
+memetakan ke kurva yang baik.
 
 883
 00:39:37,770 --> 00:39:40,370
-So the fun thing about
-when you're doing modulo
+Jadi hal yang menarik
+ketika anda melakukan modulo
 
 884
 00:39:40,370 --> 00:39:43,892
-is all the properties
-stay the same, right?
+adalah semua properti
+tetap sama, benar?
 
 885
 00:39:43,892 --> 00:39:45,350
-With regular numbers,
-you can still
+Dengan angka biasa,
+Anda masih bisa
 
 886
 00:39:45,350 --> 00:39:47,660
-do addition,
-multiplication, division
+melakukan penjumlahan,
+perkalian, pembagian
 
 887
 00:39:47,660 --> 00:39:51,500
-all modulo some number, and
-it still all works, right?
+semua modulo dari sebuah angka, dan
+masih berfungsi semua, benar?
 
 888
 00:39:51,500 --> 00:39:53,600
-So same with this.
+Begitu juga dengan ini.
 
 889
 00:39:53,600 --> 00:39:57,800
-You still have the same
-draw a line between P and Q,
+Anda masih harus menggambar
+garis yang sama antara P dan Q,
 
 890
 00:39:57,800 --> 00:39:59,780
-and you get to here.
+dan Anda sampai di sini.
 
 891
 00:39:59,780 --> 00:40:05,240
-And then you flip over the
-y-axis, and now this is R.
+Dan kemudian anda membalik
+sumbu y, dan sekarang ini adalah R.
 
 892
 00:40:05,240 --> 00:40:07,670
-Similarly, you can
-take a tangent--
+Demikian pula, Anda bisa
+mengambil sebuah sebuah garis singgung--
 
 893
 00:40:07,670 --> 00:40:10,610
-although a tangent is harder
-to visually see because there's
+meskipun sebuah garis singgung lebih sulit
+di lihat secara visual karena
 
 894
 00:40:10,610 --> 00:40:12,950
-no obvious curve here--
+tidak ada kurva yang jelas di sini--
 
 895
 00:40:12,950 --> 00:40:15,100
-but the equations work the same.
+tetapi persamaan bekerja dengan cara yang sama.
 
 896
 00:40:15,100 --> 00:40:15,600
-OK.
+Oke.
 
 897
 00:40:15,600 --> 00:40:20,860
-So you don't need to know
-exactly why these things work
+Jadi anda tidak perlu tahu
+tepatnya mengapa hal-hal ini bekerja
 
 898
 00:40:20,860 --> 00:40:21,360
-or curves.
+atau kurva-kurva.
 
 899
 00:40:21,360 --> 00:40:24,540
-But we're going to go through
-what you can do with these
+Tapi kita akan melihat
+apa yang dapat Anda lakukan dengan ini
 
 900
 00:40:24,540 --> 00:40:25,820
-and what properties you have.
+dan properti apa yang Anda miliki.
 
 901
 00:40:25,820 --> 00:40:26,320
-OK.
+Oke.
 
 902
 00:40:26,320 --> 00:40:30,480
-So we've defined these
-points on a curve
+Jadi kita telah mendefinisikan
+titik ini pada kurva
 
 903
 00:40:30,480 --> 00:40:31,860
-and how this curve works.
+dan bagaimana kurva ini bekerja.
 
 904
 00:40:31,860 --> 00:40:35,520
-And then we also have
-regular old numbers, right?
+Dan kemudian kita juga memiliki
+angka lama biasa, benar?
 
 905
 00:40:35,520 --> 00:40:39,520
-So what we'll do from now
-on is say, like a and b,
+Jadi apa yang akan kita lakukan dari sekarang
+katakanlah, seperti a dan b,
 
 906
 00:40:39,520 --> 00:40:41,760
-our lowercase numbers,
-these are scalars.
+angka yang disimbolkan huruf kecil kita,
+ini adalah skalar.
 
 907
 00:40:41,760 --> 00:40:44,880
-Scalars just means
-regular old numbers.
+Skalar hanya berarti
+angka lama biasa.
 
 908
 00:40:44,880 --> 00:40:49,310
-The uppercase A and B will refer
-to points on the curve, OK?
+Huruf besar A dan B akan mengacu
+ke titik pada kurva, oke?
 
 909
 00:40:49,310 --> 00:40:52,080
-So from now on, lowercase
-is regular number,
+Jadi mulai sekarang, huruf kecil
+adalah angka biasa,
 
 910
 00:40:52,080 --> 00:40:54,150
-uppercase is point
-on this curve,
+huruf besar adalah titik
+pada kurva ini,
 
 911
 00:40:54,150 --> 00:40:58,678
-or point on this mashed-up thing
-that we still call a curve.
+atau titik pada bermacam hal ini
+yang kita tetap menyebutnya sebagai kurva.
 
 912
 00:40:58,678 --> 00:40:59,510
-OK.
+Oke.
 
 913
 00:40:59,510 --> 00:41:01,700
-So I'll go through what
-operations we can do,
+Jadi saya akan menunjukkan operasi
+apa saja yang dapat kita lakukan,
 
 914
 00:41:01,700 --> 00:41:05,090
-and then we can see
-what use those have.
+dan kemudian kita dapat melihat
+apa gunanya hal tersebut.
 
 915
 00:41:05,090 --> 00:41:07,190
-So first, scalars.
+Jadi pertama, skalar.
 
 916
 00:41:07,190 --> 00:41:08,990
-You can add, subtract,
-multiply, divide.
+Anda dapat melakukan penjumlahan, pengurangan,
+perkalian, pembagian.
 
 917
 00:41:08,990 --> 00:41:10,490
-You can do whatever
-you want, right?
+Anda bisa melakukan apa saja
+anda mau, benar?
 
 918
 00:41:10,490 --> 00:41:14,860
-These are just regular
-numbers, like five or 17 or 22.
+Ini hanya biasa
+angka, seperti lima atau 17 atau 22.
 
 919
 00:41:14,860 --> 00:41:17,090
-Everything's OK, right?
+Semuanya baik-baik saja, benar?
 
 920
 00:41:17,090 --> 00:41:17,780
-Easy.
+Mudah.
 
 921
 00:41:17,780 --> 00:41:18,947
-Everything here is integers.
+Semuanya di sini adalah bilangan bulat.
 
 922
 00:41:18,947 --> 00:41:21,530
-We're doing modulo
-some big prime number,
+Kita sedang mencari sisa pembagian dari
+beberapa bilangan prima yang besar,
 
 923
 00:41:21,530 --> 00:41:24,598
-so there's no decimal points.
+Sehingga tidak ada angka di belakang koma.
 
 924
 00:41:24,598 --> 00:41:26,390
-I think in this class,
-we'll probably never
+Saya pikir di kelas ini,
+kita mungkin tidak akan pernah
 
 925
 00:41:26,390 --> 00:41:28,700
-have to use floating
-point, which is great,
+harus menggunakan pecahan,
+di mana itu adalah kabar baik,
 
 926
 00:41:28,700 --> 00:41:32,360
-because floating point
-always scares me.
+karena pecahan
+selalu membuat saya takut.
 
 927
 00:41:32,360 --> 00:41:33,710
-It's also uint.
+Ini juga uint (unsigned int)
 
 928
 00:41:33,710 --> 00:41:35,177
