@@ -3353,11 +3353,11 @@ apa yang Bob perlu lakukan
 
 713
 00:38:37,130 --> 00:38:41,670
-adalah untuk mengambil cipher text.
+adalah mengambil cipher text tersebut.
 
 714
 00:38:41,670 --> 00:38:43,750
-Dan ini adalah apa yang akan Bob lakukan.
+Dan inilah yang Bob lakukan.
 
 715
 00:38:43,750 --> 00:38:53,360
@@ -3366,12 +3366,12 @@ berbeda dari kunci publik
 
 716
 00:38:53,360 --> 00:38:57,600
-dan perlu mengembalikan
-pesan dengan tepat menggunakan dekripsi
+dan perlu mendapatkan kembali
+pesannya menggunakan algoritma
 
 717
 00:38:57,600 --> 00:39:01,680
-algoritma yang sesuai dengan
+dekripsi yang sesuai dengan
 pesan yang dikirim Alice.
 
 718
@@ -3380,7 +3380,7 @@ Oke.
 
 719
 00:39:02,720 --> 00:39:10,010
-Dan semua ini akan
+Dan semua hal ini akan
 berhasil asalkan
 
 720
@@ -3394,7 +3394,7 @@ dan kunci privat.
 
 722
 00:39:16,060 --> 00:39:17,990
-Kami tidak bisa menyebutnya PK
+Kita tidak bisa menyebutnya PK
 juga, sudah jelas.
 
 723
@@ -3404,12 +3404,12 @@ Jadi kita menyebutnya SK.
 724
 00:39:19,960 --> 00:39:26,770
 Mengetahui PK tidak
-mengungkapkan apa-apa
+mengungkapkan apa pun
 
 725
 00:39:26,770 --> 00:39:33,290
-dalam arti matematis
-tentang SK.
+secara matematis
+pengertian tentang SK.
 
 726
 00:39:33,290 --> 00:39:36,740
