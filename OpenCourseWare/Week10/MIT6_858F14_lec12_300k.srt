@@ -3480,7 +3480,7 @@ ke mesin yang lain ini.
 
 732
 00:29:53,340 --> 00:29:55,548
-Dan itu hanyalah kepercayaan bahwa
+Dan itu akan percaya bahwa
 semua mesin yang ada di mit.edu
 
 733
