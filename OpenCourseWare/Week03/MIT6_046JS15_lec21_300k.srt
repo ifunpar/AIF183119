@@ -5081,72 +5081,71 @@ simpan di lokasi yang aman.
 
 1083
 00:58:23,670 --> 00:58:27,190
-Dan anda ingin mengecek
-ingin melihat, dengan cara dikomputasi ulang
+And you want to check
+to see, by re-computing
 
 1084
 00:58:27,190 --> 00:58:31,940
-h dari F, dari file
-yang diberikan kepada anda,
+h of F, the file
+that is given to you,
 
 1085
 00:58:31,940 --> 00:58:34,135
-dan membandingkannya dengn apa
-yang telah anda simpan, h dari F
+and comparing it with what
+you've stored, the h of F
 
 1086
 00:58:34,135 --> 00:58:35,730
-yang anda simpan.
+that you've stored.
 
 1087
 00:58:35,730 --> 00:58:42,200
-Jadi apa saja properti yang kita
-perlukan untuk dapat melakukan hal tersebut?
+And so what property do we
+need in order to pull this off?
 
 1088
 00:58:42,200 --> 00:58:44,590
-dengan hash functions
+Of hash functions.
 
 1089
 00:58:44,590 --> 00:58:48,070
-Apa tepatnya yang kita 
-perlukan untuk dapat melakukan hal tersebut?
-
+What precisely do we
+need to pull this off?
 
 1090
 00:58:50,620 --> 00:58:53,040
-Apa yang ingin dilakukan
-oleh musuh?
+What is the adversary
+trying to do?
 
 1091
 00:58:53,040 --> 00:58:55,530
-apa yang dimaksud dengan perusakan yang sukses?
+And what is a successful break?
 
 1092
 00:58:55,530 --> 00:59:02,000
-Sebuah perusakan yang sukses terjadi jika
-musuh bisa memodifikasi file
+A successful break is if an
+adversary can modify the file
 
 1093
 00:59:02,000 --> 00:59:08,720
-dan h dari f tetap sama, iya kan?
+and keep h of F the same, right?
 
 1094
 00:59:08,720 --> 00:59:10,780
-Itu merupakan 
-perusakan yang sukses, iya kan?
+That would be a
+successful break, right?
 
 1095
 00:59:10,780 --> 00:59:13,600
-Yup.
+Ya.
 
 1096
 00:59:13,600 --> 00:59:14,125
-Go ahead.
+Silahkan.
 
 1097
 00:59:14,125 --> 00:59:14,910
-AUDIENCE: TCR.
+PENONTON : TCR.
 
 1098
 00:59:14,910 --> 00:59:15,550
@@ -5154,53 +5153,53 @@ SRINIVAS DEVADAS: TCR?
 
 1099
 00:59:15,550 --> 00:59:16,300
-Yeah, absolutely.
+Ya, tentu saja.
 
 1100
 00:59:16,300 --> 00:59:16,841
-You need TCR.
+Anda memerlukan TCR.
 
 1101
 00:59:19,350 --> 00:59:21,750
-So you want to modify the file.
+Jadi anda ingin memodifikasi file.
 
 1102
 00:59:34,830 --> 00:59:38,230
-So you're given that
-the file-- the adversary
+Jadi anda diberikan 
+file-- musuh
 
 1103
 00:59:38,230 --> 00:59:41,980
-is given the file, which
-is the input to the hash,
+diberikan file itu, dimana
+merupakan input ke hash,
 
 1104
 00:59:41,980 --> 00:59:47,550
-and is going to try and
-modify-- modify the file, right?
+dan akan mencoba dan
+memodifikasi-- memodifikasi filenya, bukan ?
 
 1105
 00:59:47,550 --> 00:59:51,130
-So let's do a couple more.
+Jadi mari lakukan beberapa lagi.
 
 1106
 00:59:51,130 --> 00:59:57,470
-And we're going to advance our
-requirements here a little bit.
+Dan kita akan memajukan 
+persyaratan kita disini sedikit.
 
 1107
 00:59:57,470 --> 01:00:00,891
-So those two are
-basic properties.
+Jadi keduanya adalah
+properti dasar.
 
 1108
 01:00:00,891 --> 01:00:02,140
-I want to leave this up there.
+Saya ingin meninggalkan ini diatas sana.
 
 1109
 01:00:04,937 --> 01:00:06,770
-We're going to do
-something that corresponds
+Kita akan melakukan
+sesuatu yang berkoresponden
 
 1110
 01:00:06,770 --> 01:00:08,690
