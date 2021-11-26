@@ -4964,7 +4964,7 @@ menerima string ini
 
 1046
 00:44:25,220 --> 00:44:27,930
-dan memuat string di dalam memori, jadi,
+dan memuat string di dalam memori, yah,
 yang dia lakukan adalah hal yang sama
 
 1047
@@ -4991,13 +4991,13 @@ dari perangkat lunak peramban
 
 1052
 00:44:43,370 --> 00:44:47,510
-pergi dan mencoba untuk menafsirkan
+mencoba untuk menafsirkan
 string di lokasi memori ini,
 
 1053
 00:44:47,510 --> 00:44:50,722
 dia akan membaca hingga menemukan
-nilai nol dan berkata, Oke jadi,
+nilai nol dan berkata, oke,
 
 1054
 00:44:50,722 --> 00:44:51,930
@@ -5053,8 +5053,8 @@ banyak perangkat lunak
 
 1065
 00:45:20,470 --> 00:45:24,030
-karena, kecuali anda sangat
-rajin mengenai bagaimana anda
+karena, kecuali Anda sangat
+rajin mengenai bagaimana Anda
 
 1066
 00:45:24,030 --> 00:45:27,090
@@ -5083,7 +5083,7 @@ tidak, merupakan sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
-Jadi ini adalah tempat yang baik
+Jadi ini adalah tempat yang cocok
 untuk semacam menekan sistem
 
 1072
@@ -5105,23 +5105,23 @@ dari kegagalan mekanisme
 
 1076
 00:45:47,220 --> 00:45:51,090
-Yang akan saya bicarakan hari ini
+yang akan saya bicarakan hari ini
 adalah salah satu yang cukup populer.
 
 1077
 00:45:51,090 --> 00:45:52,910
-Ini adalah masalahnya
+Itu adalah masalah ini
 atau buffer overflow.
 
 1078
 00:45:56,230 --> 00:45:59,380
-Jadi beberapa dari kalian telah melihat ini
-dalam, atau setidaknya pada level tertentu,
+Jadi beberapa dari kalian telah melihat ini,
+atau setidaknya pada level tertentu,
 
 1079
 00:45:59,380 --> 00:46:01,860
-dalam 6.033, jika kamu mengambil
-mata kuliah sarjana tersebut.
+dalam 6.033, jika Anda mengambil
+mata kuliah S1 tersebut.
 
 1080
 00:46:01,860 --> 00:46:05,290
@@ -5149,7 +5149,7 @@ tentang buffer overflow.
 
 1085
 00:46:12,826 --> 00:46:14,200
-Dan anda akan
+Dan Anda akan
 mengeksploitasi
 
 1086
@@ -5183,7 +5183,7 @@ beberapa komputer di luar sana
 
 1092
 00:46:34,510 --> 00:46:36,540
-yang mempunyai sebuah server web padanya.
+yang mempunyai sebuah server web di atas nya.
 
 1093
 00:46:39,130 --> 00:46:41,200
@@ -5218,12 +5218,12 @@ yang tidak boleh diakses oleh mereka,
 1099
 00:46:56,590 --> 00:46:58,381
 maka server web akan
-mengembalikan sebuah eror.
+mengembalikan sebuah pesan kesalahan.
 
 1100
 00:46:58,381 --> 00:47:00,400
 Tapi jika tidak demikian, maka dia
-itu akan mengakses beberapa file,
+akan mengakses beberapa file,
 
 1101
 00:47:00,400 --> 00:47:04,040
@@ -5258,12 +5258,12 @@ dalam banyak sistem di dunia nyata,
 
 1108
 00:47:22,130 --> 00:47:23,850
-yaitu, bahwa  
+yaitu, bahwa
 nyatanya cukup sulit
 
 1109
 00:47:23,850 --> 00:47:26,990
-untuk menentukan secara tepat apa 
+untuk menentukan secara tepat apa
 aturan atau model ancaman
 
 1110
@@ -5301,13 +5301,13 @@ di dalam konteks dari kebijakan ini,
 
 1117
 00:47:44,780 --> 00:47:47,630
-semacam model ancaman,
-itu, ya, mungkin kebijakannya
+semacam model ancaman, adalah
+itu, yah, mungkin kebijakannya
 
 1118
 00:47:47,630 --> 00:47:50,005
 adalah, server web itu harus melakukan
-apa yang programernya inginkan
+apa yang pemrogramnya inginkan
 
 1119
 00:47:50,005 --> 00:47:50,660
@@ -5315,7 +5315,7 @@ untuk dilakukannya.
 
 1120
 00:47:50,660 --> 00:47:51,575
-Itu sedikit tidak jelas.
+Itu agak tidak jelas.
 
 1121
 00:47:51,575 --> 00:47:53,950
@@ -5367,7 +5367,7 @@ web tersebut harus melakukan apa
 
 1131
 00:48:11,290 --> 00:48:13,785
-yang programer ingin dia lakukan.
+yang pemrogram ingin dia lakukan.
 
 1132
 00:48:13,785 --> 00:48:15,160
