@@ -4969,56 +4969,56 @@ benar?
 
 1059
 00:56:35,270 --> 00:56:37,965
-So really in systems -> Jadi sebenarnya dalam sistem 
-you do not require-- -> Anda tidak membutuhkan
+Jadi sebenarnya dalam sistem 
+Anda tidak memerlukan
 
 1060
 00:56:37,965 --> 00:56:39,340
-you do want to -> Anda ingin
-build systems that -> membangun sistem yang
+Anda ingin
+membangun sistem yang
 
 1061
 00:56:39,340 --> 00:56:42,090
-have minimal -> memiliki 
-properties with respect -> properti minimal yang sehubungan 
+memiliki 
+properti minimal yang sehubungan 
 
 1062
 00:56:42,090 --> 00:56:43,570
-to the perimeters that are used. -> dengan perimeter yang digunakan.
+dengan perimeter yang digunakan.
 
 1063
 00:56:43,570 --> 00:56:47,090
-So from a system building -> Jadi dari sudut pandang
-standpoint just require OW. -> pembangunan sistem hanya membutuhkan OW.
+Jadi dari sudut pandang
+pembangunan sistem hanya membutuhkan OW.
 
 1064
 00:56:47,090 --> 00:56:48,350
-Don't go overboard. -> Jangan berlebihan.
+Jangan berlebihan.
 
 1065
 00:56:48,350 --> 00:56:53,100
-Don't require collision -> Tidak memerlukan collision
-resistance or TCR, OK? -> resistance atau TCR, OK?
+Tidak memerlukan collision
+resistance atau TCR, OK?
 
 1066
 00:56:53,100 --> 00:56:55,420
-Let's do a slightly -> Mari kita lakukan sedikit
-different example. -> contoh yang berbeda.
+Mari kita lakukan sedikit
+contoh yang berbeda.
 
 1067
 00:56:55,420 --> 00:56:59,010
-Also a bit of a -> Juga sedikit
-warm-up for what's -> pemanasan untuk apa
+Juga sedikit
+pemanasan untuk apa
 
 1068
 00:56:59,010 --> 00:57:01,895
-coming next, which is a -> yang akan terjadi selanjutnya, yaitu 
-file modification detector. -> pendeteksi modifikasi file. 
+yang akan terjadi selanjutnya, yaitu 
+pendeteksi file yang telah dimodifikasi. 
 
 1069
 00:57:22,080 --> 00:57:32,800
-So for each file F, I'm going to -> Jadi untuk setiap file F, Saya akan
-store h of F. And as securely. -> menyimpan h dari F. Dan dengan aman.
+Jadi untuk setiap file F, Saya akan
+menyimpan h dari F. Dan dengan aman.
 
 1070
 00:57:32,800 --> 00:57:36,980
