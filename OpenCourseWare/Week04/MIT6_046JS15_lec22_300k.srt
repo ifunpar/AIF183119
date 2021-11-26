@@ -3317,7 +3317,7 @@ dapat juga berpura-pura menjadi Anda.
 705
 00:38:09,160 --> 00:38:13,860
 Tapi itulah yang terjadi
-ketika kita berbicara mengenai kunci publik
+ketika kita membicarakan kunci publik
 
 706
 00:38:13,860 --> 00:38:17,500
@@ -3326,12 +3326,12 @@ dan Anda memiliki kunci publik.
 707
 00:38:17,500 --> 00:38:21,390
 Kita tidak akan, seperti yang saya katakan,
-masuk ke dalam itu lebih banyak lagi.
+membahasnya lebih banyak lagi.
 
 708
 00:38:21,390 --> 00:38:25,310
 Saya lebih tertarik
-menggambarkan algoritma ini
+menjelaskan algoritma ini
 
 709
 00:38:25,310 --> 00:38:26,960
@@ -3340,7 +3340,7 @@ untuk enkripsi kunci publik.
 710
 00:38:26,960 --> 00:38:31,410
 Kita akan melihat pasangan yang
-menghasilkan cipher text yang diberikan
+menghasilkan cipher text dari
 
 711
 00:38:31,410 --> 00:38:34,440
