@@ -3495,60 +3495,60 @@ terlalu dalam ke sana.
 
 743
 00:40:30,120 --> 00:40:35,660
-But what I said you should
-hold, which is you have one,
+Tapi apa yang saya katakan Anda
+harus tahan, mana yang anda punya,
 
 744
 00:40:35,660 --> 00:40:38,360
-it shouldn't tell you
-anything about the other.
+seharusnya tidak memberitahu anda
+apapun tentang yang lain.
 
 745
 00:40:38,360 --> 00:40:40,760
-There has to be a
-computationally hard problem
+Harus ada masalah
+komputasi yang sulit
 
 746
 00:40:40,760 --> 00:40:44,790
-associated with
-discovering one of these
+berkaitan dengan
+menemukan salah satunya
 
 747
 00:40:44,790 --> 00:40:48,350
-only given the one other.
+hanya diberikan satu sama lain.
 
 748
 00:40:48,350 --> 00:40:50,410
-And we'll talk about
-what those hardness
+Dan kita akan berbicara tentang
+apa kesulitan itu
 
 749
 00:40:50,410 --> 00:40:53,580
-assumptions are certainly
-for RSA and also
+asumsi pasti untuk
+RSA dan juga
 
 750
 00:40:53,580 --> 00:40:57,730
-for another
-cryptosystem, a knapsack.
+untuk kriptosistem yang lain,
+yaitu knapsack.
 
 751
 00:40:57,730 --> 00:41:00,270
-So we're going to
-present RSA, which
+jadi kita akan menuju ke
+RSA saat ini, yang
 
 752
 00:41:00,270 --> 00:41:02,400
-is this real magical algorithm.
+merupakan algoritma ajaib tapi nyata
 
 753
 00:41:02,400 --> 00:41:04,580
-It's amazing it works.
+Ini hebat dan ini bekerja.
 
 754
 00:41:04,580 --> 00:41:08,100
-Every time I prepare
-for this lecture,
+Setiap kali Saya bersiap
+untuk kuliah ini,
 
 755
 00:41:08,100 --> 00:41:10,130
