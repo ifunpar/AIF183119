@@ -3156,274 +3156,274 @@ pikir CA tersebut sebenarnya
 
 667
 00:29:09,150 --> 00:29:12,010
-telah dihapus dari 
+telah dihapus dari
 kumpulan CA yang terpercaya
 
 668
 00:29:12,010 --> 00:29:13,469
-by browsers from that point on.
+oleh peramban dari titik itu.
 
 669
 00:29:13,469 --> 00:29:15,760
-So the next release of Chrome
-is just like, hey, you're
+Jadi pada rilis Chrome yang berikutnya
+dia seperti, hey, Anda sudah
 
 670
 00:29:15,760 --> 00:29:16,390
-really screwed up.
+benar-benar mengacau.
 
 671
 00:29:16,390 --> 00:29:18,515
-We're going to kick you
-out of the sort of CAs that
+Kami akan mengeluarkan
+Anda dari kumpulan CA
 
 672
 00:29:18,515 --> 00:29:19,195
-are trusted.
+yang terpercaya
 
 673
 00:29:19,195 --> 00:29:20,420
-And it was actually
-kind of a bummer
+Dan itu sebenarnya
+agak mengecewakan
 
 674
 00:29:20,420 --> 00:29:21,875
-because all of the
-legitimate people that
+karena dari semua
+orang yang memiliki
 
 675
 00:29:21,875 --> 00:29:23,875
-had certificates from
-that certificate authority
+sertifikat yang sah
+dari otoritas sertifikat itu
 
 676
 00:29:23,875 --> 00:29:25,030
-are now out of luck.
+sekarang mengalami musibah.
 
 677
 00:29:25,030 --> 00:29:26,680
-They have to get
-new certificates.
+Mereka harus mendapatkan
+sertifikat baru.
 
 678
 00:29:26,680 --> 00:29:28,440
-So this is a somewhat
-messy system,
+Jadi ini adalah semacam
+sistem yang berantakan,
 
 679
 00:29:28,440 --> 00:29:33,190
-but that's sort of what happens
-in practice with certificates.
+tapi itulah kira-kira yang terjadi
+dalam praktik sertifikasi.
 
 680
 00:29:33,190 --> 00:29:34,540
-Make sense?
+Masuk akal?
 
 681
 00:29:34,540 --> 00:29:38,330
-Other questions
-about how this works?
+Pertanyaan lain
+mengenai cara kerjanya?
 
 682
 00:29:38,330 --> 00:29:39,612
-All right.
+Baiklah.
 
 683
 00:29:39,612 --> 00:29:43,530
-So this is the sort of general
-plan for how certificates work.
+Jadi beginilah kira-kira rencana
+umum tentang cara kerja sertifikat.
 
 684
 00:29:43,530 --> 00:29:46,800
-And as we were
-talking about, they're
+Dan seperti yang kita
+bicarakan sebelumnya, mereka
 
 685
 00:29:46,800 --> 00:29:48,510
-sort of better than
-Kerberos in the sense
+dapat dikatakan lebih baik daripada
+Kerberos dalam artian
 
 686
 00:29:48,510 --> 00:29:51,610
-that you don't have to
-have this guy be online.
+Anda tidak perlu untuk
+menghubungkan orang ini ke jaringan
 
 687
 00:29:51,610 --> 00:29:53,580
-It might be a little
-bit more scalable
+Itu menjadi sedikit
+lebih skalabel
 
 688
 00:29:53,580 --> 00:29:55,560
-because you can
-have multiple KDCs,
+karena Anda bisa
+memiliki beberapa KDC,
 
 689
 00:29:55,560 --> 00:29:57,200
-and you don't have
-to talk to them.
+dan tidak perlu
+berkomunikasi dengan mereka.
 
 690
 00:29:57,200 --> 00:29:58,783
-Another cool thing
-about this protocol
+Hal keren lainnya
+tentang protokol ini
 
 691
 00:29:58,783 --> 00:30:01,220
-is that unlike Kerberos,
-you're not forced
+adalah bahwa tidak seperti Kerberos,
+Anda tidak dipaksa
 
 692
 00:30:01,220 --> 00:30:02,980
-to authenticate both parties.
+untuk mengotentikasi kedua belah pihak.
 
 693
 00:30:02,980 --> 00:30:06,010
-So you could totally
-connect to a web server
+Jadi Anda benar-benar bisa
+terhubung ke web server
 
 694
 00:30:06,010 --> 00:30:08,157
-without having a
-certificate for yourself.
+tanpa harus memiliki
+sertifikat untuk diri sendiri.
 
 695
 00:30:08,157 --> 00:30:09,240
-This happens all the time.
+Ini terjadi sepanjang waktu.
 
 696
 00:30:09,240 --> 00:30:10,930
-If you just go to
-amazon.com, you
+Jika Anda hanya pergi ke
+amazon.com, maka Anda
 
 697
 00:30:10,930 --> 00:30:13,380
-are going to check that
-Amazon is the right entity,
+akan memeriksa bahwa
+Amazon adalah entitas yang tepat,
 
 698
 00:30:13,380 --> 00:30:16,220
-but Amazon has no idea who you
-are necessarily, or at least
+tetapi Amazon tidak tahu siapa Anda
+sebenarnya, atau setidaknya
 
 699
 00:30:16,220 --> 00:30:17,790
-not until you log in later.
+tidak sampai Anda log masuk nanti.
 
 700
 00:30:17,790 --> 00:30:20,040
-So the crypto protocol level,
-you have no certificate.
+Jadi pada tingkat protokol kriptografi,
+Anda tidak memiliki sertifikat
 
 701
 00:30:20,040 --> 00:30:20,720
-Amazon has a certificate.
+Amazon memiliki sebuah sertifikat.
 
 702
 00:30:20,720 --> 00:30:22,260
-So that was actually
-much better than Kerberos
+Yang sebenarnya jauh
+lebih baik daripada Kerberos
 
 703
 00:30:22,260 --> 00:30:24,380
-where in order to connect
-to a Kerberos service,
+di mana untuk terhubung
+ke sebuah layanan Kerberos,
 
 704
 00:30:24,380 --> 00:30:28,030
-you have to be an entry in
-the Kerberos database already.
+Anda harus memiliki catatan
+pada basis data Kerberos.
 
 705
 00:30:28,030 --> 00:30:30,690
-One thing that's a little bit
-of a bummer with this protocol
+Satu hal yang sedikit
+menyebalkan mengenai protokol ini
 
 706
 00:30:30,690 --> 00:30:33,640
-as we've described it is
-that in fact, the server does
+seperti yang telah kita lihat
+adalah fakta bahwa server
 
 707
 00:30:33,640 --> 00:30:35,359
-have to have a certificate.
+harus memiliki sertifikat.
 
 708
 00:30:35,359 --> 00:30:36,900
-So you can't just
-connect to a server
+Jadi Anda tidak bisa hanya
+terhubung ke sebuah server
 
 709
 00:30:36,900 --> 00:30:39,080
-and say, hey, let's
-just encrypt our stuff.
+dan mengatakan, hei, mari
+enkripsi saja komunikasi kita.
 
 710
 00:30:39,080 --> 00:30:41,920
-I have no idea who you
-are, or not really,
+Saya tidak tahu Anda
+siapa, atau tidak juga,
 
 711
 00:30:41,920 --> 00:30:43,540
-and you don't have
-any idea who I am,
+dan Anda tidak tahu
+siapa saya,
 
 712
 00:30:43,540 --> 00:30:44,940
-but let's encrypt it anyway.
+bagaimanapun, mari kita enkripsi.
 
 713
 00:30:44,940 --> 00:30:46,870
-So this is called
-opportunistic encryption,
+Jadi hal ini disebut
+enkripsi oportunistik,
 
 714
 00:30:46,870 --> 00:30:50,020
-and it's of course vulnerable
-to man in the middle attacks
+dan itu tentu saja rentan
+terhadap serangan man in the middle
 
 715
 00:30:50,020 --> 00:30:52,170
-because you're connecting
-to someone and saying,
+karena Anda sedang terhubung
+kepada seseorang dan mengatakan,
 
 716
 00:30:52,170 --> 00:30:53,120
-well, let's encrypt
-our stuff, but you
+baik, mari enkripsikan
+komunikasi kita, tetapi Anda
 
 717
 00:30:53,120 --> 00:30:55,536
-have no idea who it really is
-that you're encrypting stuff
+tidak tahu dengan siapa sebenarnya
+Anda mengenkripsikan
 
 718
 00:30:55,536 --> 00:30:56,290
-with.
+komunikasi.
 
 719
 00:30:56,290 --> 00:30:57,664
-Both might be a
-good idea anyway.
+Keduanya mungkin adalah
+ide yang bagus.
 
 720
 00:30:57,664 --> 00:31:00,309
-If someone is not actively
-mounting an attack against you,
+Jika seseorang tidak secara aktif
+memasang serangan terhadap Anda,
 
 721
 00:31:00,309 --> 00:31:02,850
-at least the packets later on
-will be encrypted and protected
+setidaknya paket-paket itu nantinya
+akan terenkripsi dan terlindungi.
 
 722
 00:31:02,850 --> 00:31:04,520
-from snooping.
+dari sadapan.
 
 723
 00:31:04,520 --> 00:31:07,590
-So it's a bit of
-a shame that this
+Jadi sedikit
+disayangkan bahwa ini
 
 724
 00:31:07,590 --> 00:31:12,220
