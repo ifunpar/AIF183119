@@ -3419,7 +3419,7 @@ semua ini berhasil,
 727
 00:39:36,740 --> 00:39:42,950
 PK dan SK harus memiliki beberapa
-hubungan matematis.
+relasi matematis.
 
 728
 00:39:42,950 --> 00:39:46,070
