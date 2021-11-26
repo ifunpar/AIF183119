@@ -5022,62 +5022,62 @@ store h of F. And as securely. -> menyimpan h dari F. Dan dengan aman.
 
 1070
 00:57:32,800 --> 00:57:36,980
-So you assume that this means
-that h of F cannot be modified
+Jadi Anda berasumsi bahwa ini berarti 
+h dari F tidak dapat dimodifikasi
 
 1071
 00:57:36,980 --> 00:57:40,380
-by anybody, h of F itself.
+oleh siapa saja, h dari F itu sendiri.
 
 1072
 00:57:47,860 --> 00:57:56,030
-And now we want to
-check if F is modified
+Dan sekarang kita ingin 
+memeriksa apakah F dimodifikasi
 
 1073
 00:57:56,030 --> 00:58:04,470
-by re-computing h of
-F. Which could be,
+dengan menghitung ulang h dari F. 
+Yang bisa jadi,
 
 1074
 00:58:04,470 --> 00:58:05,640
-this could be modified.
+ini bisa dimodifikasi.
 
 1075
 00:58:05,640 --> 00:58:07,130
-So this could
-actually be F prime.
+Jadi ini sebenarnya 
+bisa menjadi F prime.
 
 1076
 00:58:07,130 --> 00:58:09,250
-You don't know that.
+Anda tidak tahu itu.
 
 1077
 00:58:09,250 --> 00:58:10,500
-You have a file.
+Anda memiliki file.
 
 1078
 00:58:10,500 --> 00:58:11,780
-It's a gigabyte.
+Ini adalah satu gigabyte.
 
 1079
 00:58:11,780 --> 00:58:14,270
-And somebody might
-have tampered with one
+Dan seseorang mungkin 
+telah merusak
 
 1080
 00:58:14,270 --> 00:58:16,030
-of the bits in the file.
+salah satu bit dalam file.
 
 1081
 00:58:16,030 --> 00:58:19,340
-All you have is a
-d-bit digest that
+Yang Anda miliki 
+hanyalah digest dari d-bit itu
 
 1082
 00:58:19,340 --> 00:58:23,670
-corresponds to h of F that you
-stored in a secure location.
+sesuai dengan h dari F yang Anda 
+simpan di lokasi yang aman.
 
 1083
 00:58:23,670 --> 00:58:27,190
