@@ -4800,11 +4800,11 @@ mencatat panjangnya.
 
 1010
 00:42:59,350 --> 00:43:01,080
-Sebagai gantinya, string memiliki seluruh byte daya.
+Sebagai gantinya, string memiliki seluruh byte data.
 
 1011
 00:43:01,080 --> 00:43:03,660
-Dan akhir dari string<
+Dan akhir dari string
 adalah byte bernilai 0.
 
 1012
@@ -4964,16 +4964,16 @@ menerima string ini
 
 1046
 00:44:25,220 --> 00:44:27,930
-and loads it in memory, well,
-what it does is the same thing
+dan memuat string di dalam memori, yah,
+yang dia lakukan adalah hal yang sama
 
 1047
 00:44:27,930 --> 00:44:28,830
-it did here.
+dengan yang dilakukannya di sini.
 
 1048
 00:44:28,830 --> 00:44:30,839
-It copies the string.
+Dia menyalin string tersebut.
 
 1049
 00:44:30,839 --> 00:44:31,714
@@ -4981,393 +4981,393 @@ amazon.com0x.foo.com.
 
 1050
 00:44:37,206 --> 00:44:40,700
-It'll dutifully add the
-terminating zero at the end.
+Dia akan dengan patuh menambahkan
+nilai nol di akhir string.
 
 1051
 00:44:40,700 --> 00:44:43,370
-But then, when the rest
-of the browser software
+Tetapi setelah itu, ketika bagian lain
+dari perangkat lunak peramban
 
 1052
 00:44:43,370 --> 00:44:47,510
-goes and tries to interpret the
-string at this memory location,
+mencoba untuk menafsirkan
+string di lokasi memori ini,
 
 1053
 00:44:47,510 --> 00:44:50,722
-it'll keep going up until it
-gets to zero and say, OK well,
+dia akan membaca hingga menemukan
+nilai nol dan berkata, oke,
 
 1054
 00:44:50,722 --> 00:44:51,930
-that's the end of the string.
+itulah akhir dari string tersebut.
 
 1055
 00:44:51,930 --> 00:44:53,276
-So this is Amazon.com.
+Jadi ini adalah Amazon.com.
 
 1056
 00:44:53,276 --> 00:44:54,630
-That's it.
+Itu dia.
 
 1057
 00:44:54,630 --> 00:45:00,120
-So this sort of disconnect
-between how C software
+Jadi ketidaksesuaian semacam ini
+antara bagaimana perangkat lunak C
 
 1058
 00:45:00,120 --> 00:45:03,070
-and how SSL certificates
-represent names
+dan bagaimana sertifikat SSL
+merepresentasikan nama
 
 1059
 00:45:03,070 --> 00:45:05,800
-led to some unfortunate
-security problems.
+menyebabkan beberapa
+masalah keamanan yang disayangkan.
 
 1060
 00:45:05,800 --> 00:45:08,240
-This was actually
-discovered a number of years
+Masalah ini sebenarnya
+ditemukan beberapa tahun
 
 1061
 00:45:08,240 --> 00:45:11,030
-ago now by this guy,
+yang lalu oleh orang ini,
 Moxie Marlinspike.
 
 1062
 00:45:11,030 --> 00:45:13,620
-But it's a fairly
-clever observation.
+Tapi itu merupakan
+pengamatan yang cukup cerdas.
 
 1063
 00:45:13,620 --> 00:45:17,470
-And these kinds of encoding
-bugs are actually also
+Dan jenis bug pengkodean
+semacam ini sebenarnya juga
 
 1064
 00:45:17,470 --> 00:45:20,470
-pretty common in
-lots of software
+cukup umum terjadi dalam
+banyak perangkat lunak
 
 1065
 00:45:20,470 --> 00:45:24,030
-because, unless you're very
-diligent about exactly how you
+karena, kecuali Anda sangat
+rajin mengenai bagaimana Anda
 
 1066
 00:45:24,030 --> 00:45:27,090
-encode things, there might be
-different ways of encoding.
+mengkodekan hal-hal, mungkin ada
+beberapa cara pengkodean yang berbeda.
 
 1067
 00:45:27,090 --> 00:45:28,547
-And whenever there's
-disagreement,
+Dan kapanpun ada
+pertentangan,
 
 1068
 00:45:28,547 --> 00:45:30,880
-there's a chance the bad guy
-can take advantage of this.
+ada kemungkinan orang jahat
+dapat memanfaatkan ini.
 
 1069
 00:45:30,880 --> 00:45:32,421
-One system thinks
-that's a fine name.
+Satu sistem berpikir
+itu adalah nama yang bagus.
 
 1070
 00:45:32,421 --> 00:45:34,590
-Another thinks that's
-not, something else.
+Yang lain berpikir itu
+tidak, merupakan sesuatu yang lain.
 
 1071
 00:45:34,590 --> 00:45:36,870
-So these are good places
-to sort of push a system
+Jadi ini adalah tempat yang cocok
+untuk semacam menekan sistem
 
 1072
 00:45:36,870 --> 00:45:39,360
-to see how it might break.
+untuk melihat bagaimana sistem itu dapat rusak.
 
 1073
 00:45:39,360 --> 00:45:42,030
-That make sense?
+Apakah itu masuk akal?
 
 1074
 00:45:42,030 --> 00:45:42,530
-All right.
+Baiklah.
 
 1075
 00:45:42,530 --> 00:45:47,220
-So maybe the last example
-of mechanism failure
+Jadi mungkin contoh terakhir
+dari kegagalan mekanisme
 
 1076
 00:45:47,220 --> 00:45:51,090
-I'm going to talk about today
-is a reasonably popular one.
+yang akan saya bicarakan hari ini
+adalah salah satu yang cukup populer.
 
 1077
 00:45:51,090 --> 00:45:52,910
-It's this problem
-or buffer overflows.
+Itu adalah masalah ini
+atau buffer overflow.
 
 1078
 00:45:56,230 --> 00:45:59,380
-So some of you have seen this
-in, or at least at some level,
+Jadi beberapa dari kalian telah melihat ini,
+atau setidaknya pada level tertentu,
 
 1079
 00:45:59,380 --> 00:46:01,860
-in 6.033, if you did
-the undergrad course.
+dalam 6.033, jika Anda mengambil
+mata kuliah S1 tersebut.
 
 1080
 00:46:01,860 --> 00:46:05,290
-But for those of you that have
-forgotten or haven't taken
+Tetapi bagi Anda yang sudah
+lupa atau belum mengambil
 
 1081
 00:46:05,290 --> 00:46:07,540
-oh three three, we'll sort
-of go over buffer overflows
+nol tiga tiga, kita akan semacam
+membahas buffer overflow
 
 1082
 00:46:07,540 --> 00:46:08,130
-in more detail.
+secara lebih detail.
 
 1083
 00:46:08,130 --> 00:46:10,463
-And this will be, actually,
-quite critical for you guys,
+Dan ini akan menjadi, sebenarnya,
+cukup kritis untuk kalian,
 
 1084
 00:46:10,463 --> 00:46:12,826
-because lab one is all
-about buffer overflows.
+karena lab satu seluruhnya
+tentang buffer overflow.
 
 1085
 00:46:12,826 --> 00:46:14,200
-And you're going
-to be exploiting
+Dan Anda akan
+mengeksploitasi
 
 1086
 00:46:14,200 --> 00:46:19,710
-these vulnerabilities in a
-somewhat real web server.
+kerentanan ini dalam sebuah
+server web yang dapat dibilang nyata.
 
 1087
 00:46:19,710 --> 00:46:21,610
-So let's figure out,
-what is the setting?
+Jadi mari kita cari tahu,
+apa pengaturannya?
 
 1088
 00:46:21,610 --> 00:46:23,300
-What are we talking about here?
+Apa yang sedang kita bicarakan di sini?
 
 1089
 00:46:23,300 --> 00:46:25,470
-So the setting we're
-going to be considering
+Jadi pengaturan yang
+akan kita pertimbangkan
 
 1090
 00:46:25,470 --> 00:46:30,330
-is a system which has,
-let's say, a web server.
+adalah sebuah sistem yang memiliki,
+anggap saja, sebuah server web.
 
 1091
 00:46:30,330 --> 00:46:34,510
-So what we have is, we have
-some computer out there
+Jadi apa yang kita punya adalah, kita punya
+beberapa komputer di luar sana
 
 1092
 00:46:34,510 --> 00:46:36,540
-that has a web server on it.
+yang mempunyai sebuah server web di atas nya.
 
 1093
 00:46:39,130 --> 00:46:41,200
-And the web server
-is a program that
+Dan server web tersebut
+adalah sebuah program yang
 
 1094
 00:46:41,200 --> 00:46:44,070
-is going to accept connections
-from the outside world,
+akan menerima koneksi
+dari dunia luar,
 
 1095
 00:46:44,070 --> 00:46:47,480
-take requests-- which are
-basically just packets--
+menerima permintaan-- yang pada
+dasarnya hanyalah paket-paket--
 
 1096
 00:46:47,480 --> 00:46:51,820
-and somehow process them, and
-do some checking, probably.
+dan entah bagaimana caranya memproses mereka,
+dan mungkin, melakukan beberapa pengecekan.
 
 1097
 00:46:51,820 --> 00:46:54,174
-If it's an illegal
-URL or if they're
+Kalau itu adalah sebuah URL
+ilegal, atau mereka sedang
 
 1098
 00:46:54,174 --> 00:46:56,590
-trying to access a file they
-are not authorized to access,
+mencoba untuk mengakses sebuah file
+yang tidak boleh diakses oleh mereka,
 
 1099
 00:46:56,590 --> 00:46:58,381
-the web server is going
-to return an error.
+maka server web akan
+mengembalikan sebuah pesan kesalahan.
 
 1100
 00:46:58,381 --> 00:47:00,400
-But otherwise, it's going
-to access some files,
+Tapi jika tidak demikian, maka dia
+akan mengakses beberapa file,
 
 1101
 00:47:00,400 --> 00:47:04,040
-maybe on disk, and
-send them back out
+mungkin pada disk, dan
+mengirimkan mereka kembali
 
 1102
 00:47:04,040 --> 00:47:06,990
-in some sort of a reply.
+sebagai semacam balasan.
 
 1103
 00:47:06,990 --> 00:47:10,320
-So this is a hugely common
-picture, almost any system
+Jadi ini adalah sebuah gambaran umum
+yang besar, hampir semua sistem
 
 1104
 00:47:10,320 --> 00:47:11,970
-you look at.
+yang Anda lihat.
 
 1105
 00:47:11,970 --> 00:47:13,146
-What's the policy?
+Apa kebijakannya?
 
 1106
 00:47:13,146 --> 00:47:14,270
-Or what's the threat model?
+Atau apa yang menjadi model ancamannya?
 
 1107
 00:47:18,300 --> 00:47:22,130
-So this is a bit of a problem
-in many real world systems,
+Jadi ini menjadi sedikit bermasalah
+dalam banyak sistem di dunia nyata,
 
 1108
 00:47:22,130 --> 00:47:23,850
-namely that it's
-actually pretty hard
+yaitu, bahwa
+nyatanya cukup sulit
 
 1109
 00:47:23,850 --> 00:47:26,990
-to pin down what is the
-exact policy or threat model
+untuk menentukan secara tepat apa
+aturan atau model ancaman
 
 1110
 00:47:26,990 --> 00:47:28,320
-that we're talking about.
+yang sedang kita bicarakan.
 
 1111
 00:47:28,320 --> 00:47:31,570
-And this sort of imprecision
-or ambiguity about policies,
+Dan ketidaktepatan atau ambiguitas
+semacam ini mengenai kebijakan-kebijakan,
 
 1112
 00:47:31,570 --> 00:47:33,825
-threat models, et
-cetera, is what sometimes
+model-model ancaman, dan lain-lain,
+adalah yang biasanya
 
 1113
 00:47:33,825 --> 00:47:34,950
-leads to security problems.
+menimbulkan masalah-masalah keamanan.
 
 1114
 00:47:34,950 --> 00:47:37,180
-Not in this particular
-case, but we'll see.
+Bukan secara khusus di dalam kasus ini,
+tapi kita akan lihat.
 
 1115
 00:47:37,180 --> 00:47:40,090
-But maybe just to give
-you a sense of how
+Tapi mungkin hanya untuk memberikan
+Anda sebuah gambaran mengenai bagaimana
 
 1116
 00:47:40,090 --> 00:47:44,780
-to think of a typical web server
-in the context of this policy,
+cara memikirkan sebuah server web tipikal
+di dalam konteks dari kebijakan ini,
 
 1117
 00:47:44,780 --> 00:47:47,630
-threat model kind of stuff, is
-that well, probably the policy
+semacam model ancaman, adalah
+itu, yah, mungkin kebijakannya
 
 1118
 00:47:47,630 --> 00:47:50,005
-is, the web server should do
-what the programmer intended
+adalah, server web itu harus melakukan
+apa yang pemrogramnya inginkan
 
 1119
 00:47:50,005 --> 00:47:50,660
-it to do.
+untuk dilakukannya.
 
 1120
 00:47:50,660 --> 00:47:51,575
-It's a little vague.
+Itu agak tidak jelas.
 
 1121
 00:47:51,575 --> 00:47:53,950
-But that's probably what's
-going on because anything more
+Tetapi mungkin itu adalah
+yang terjadi, karena apapun yang lebih
 
 1122
 00:47:53,950 --> 00:47:55,616
-specific, as well,
-the web server should
+spesifik, juga,
+server web itu harus
 
 1123
 00:47:55,616 --> 00:47:57,485
-do exactly what the
-code does, is going
+melakukan persis sesuai
+yang dilakukan kodenya, akan
 
 1124
 00:47:57,485 --> 00:47:59,860
-to be a bit of an [INAUDIBLE]
-And if your code has a bug,
+menjadi sedikit [TIDAK TERDENGAR]
+Dan jika terdapat bug dalam kode Anda,
 
 1125
 00:47:59,860 --> 00:48:01,090
-well, your policy
-says, well, that's
+yah, kebijakan Anda
+mengatakan, yah, itulah
 
 1126
 00:48:01,090 --> 00:48:02,131
-exactly what I should do.
+yang harus saya lakukan.
 
 1127
 00:48:02,131 --> 00:48:04,120
-I should follow the bug.
+Saya harus mengikuti bug tersebut.
 
 1128
 00:48:04,120 --> 00:48:07,390
-So it's a little hard to
-state a policy precisely,
+Jadi sedikit sulit untuk menyatakan
+sebuah kebijakan dengan tepat,
 
 1129
 00:48:07,390 --> 00:48:09,332
-but in this case, let's
-go with some intuitive
+tapi dalam kasus ini, mari
+pakai saja beberapa versi
 
 1130
 00:48:09,332 --> 00:48:11,290
-version of, well, the
-web server should do what
+intuitif dari, yah, server
+web tersebut harus melakukan apa
 
 1131
 00:48:11,290 --> 00:48:13,785
-the programmer wanted it to do.
+yang pemrogram ingin dia lakukan.
 
 1132
 00:48:13,785 --> 00:48:15,160
