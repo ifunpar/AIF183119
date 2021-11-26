@@ -5202,125 +5202,125 @@ dasarnya hanyalah paket-paket--
 
 1096
 00:46:47,480 --> 00:46:51,820
-and somehow process them, and
-do some checking, probably.
+dan bagaimanapun caranya memproses mereka, dan
+mungkin, melakukan beberapa pengecekan.
 
 1097
 00:46:51,820 --> 00:46:54,174
-If it's an illegal
-URL or if they're
+If it's an illegalKalau itu adalah sebuah URL
+ilegal, atau mereka
 
 1098
 00:46:54,174 --> 00:46:56,590
-trying to access a file they
-are not authorized to access,
+mencoba untuk mengakses sebuah file
+yang mereka tidak diperbolehkan untuk akses,
 
 1099
 00:46:56,590 --> 00:46:58,381
-the web server is going
-to return an error.
+maka server jaringan akan
+mengembalikan sebuah kesalahan.
 
 1100
 00:46:58,381 --> 00:47:00,400
-But otherwise, it's going
-to access some files,
+Tetapi sebaliknya, server jaringan itu akan
+mengakses beberapa arsip,
 
 1101
 00:47:00,400 --> 00:47:04,040
-maybe on disk, and
-send them back out
+mungkin di dalam disk,
+mengirimkannya lagi keluar
 
 1102
 00:47:04,040 --> 00:47:06,990
-in some sort of a reply.
+dalam bentuk serupa balasan.
 
 1103
 00:47:06,990 --> 00:47:10,320
-So this is a hugely common
-picture, almost any system
+Jadi ini adalah sebuah gambaran yang 
+umum dan besar, hampir semua sistem
 
 1104
 00:47:10,320 --> 00:47:11,970
-you look at.
+yang Anda lihat
 
 1105
 00:47:11,970 --> 00:47:13,146
-What's the policy?
+Apa aturannya?
 
 1106
 00:47:13,146 --> 00:47:14,270
-Or what's the threat model?
+Atau apa yang menjadi model ancamannya?
 
 1107
 00:47:18,300 --> 00:47:22,130
-So this is a bit of a problem
-in many real world systems,
+Jadi ini merupakan masalah kecil
+di dalam banyak sistem duniawi yang nyata
 
 1108
 00:47:22,130 --> 00:47:23,850
-namely that it's
-actually pretty hard
+yaitu, yang  
+nyatanya cukup sulit
 
 1109
 00:47:23,850 --> 00:47:26,990
-to pin down what is the
-exact policy or threat model
+untuk menentukan 
+aturan yang tepat atau model ancaman
 
 1110
 00:47:26,990 --> 00:47:28,320
-that we're talking about.
+yang kita sedang bicarakan.
 
 1111
 00:47:28,320 --> 00:47:31,570
-And this sort of imprecision
-or ambiguity about policies,
+Dan ketidaktepatan dan ambiguitas
+aturan semacam ini,
 
 1112
 00:47:31,570 --> 00:47:33,825
-threat models, et
-cetera, is what sometimes
+model ancaman, dan lain-lain,
+adalah yang sewaktu-waktu
 
 1113
 00:47:33,825 --> 00:47:34,950
-leads to security problems.
+mengacu pada masalah keamanan.
 
 1114
 00:47:34,950 --> 00:47:37,180
-Not in this particular
-case, but we'll see.
+Bukan di dalam kasus ini,
+tapi kita akan lihat.
 
 1115
 00:47:37,180 --> 00:47:40,090
-But maybe just to give
-you a sense of how
+Atau mungkin hanya untuk memberikan
+Anda sebuah nalar untuk bagaimana
 
 1116
 00:47:40,090 --> 00:47:44,780
-to think of a typical web server
-in the context of this policy,
+untuk memikirkan sebuah server jaringan tipikal
+di dalam konteks dari aturan ini,
 
 1117
 00:47:44,780 --> 00:47:47,630
-threat model kind of stuff, is
-that well, probably the policy
+semacam model ancaman,
+itu, ya, mungkin aturannya,
 
 1118
 00:47:47,630 --> 00:47:50,005
-is, the web server should do
-what the programmer intended
+yang seharusnya server jaringan
+lakukan apa yang diinginkan oleh pemrogram
 
 1119
 00:47:50,005 --> 00:47:50,660
-it to do.
+untuk lakukan.
 
 1120
 00:47:50,660 --> 00:47:51,575
-It's a little vague.
+Itu sedikit tidak jelas.
 
 1121
 00:47:51,575 --> 00:47:53,950
-But that's probably what's
-going on because anything more
+Tetapi mungkin itu adalah
+yang terjadi, karena apapun itu yang
 
 1122
 00:47:53,950 --> 00:47:55,616
