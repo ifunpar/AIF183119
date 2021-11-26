@@ -5202,50 +5202,50 @@ dasarnya hanyalah paket-paket--
 
 1096
 00:46:47,480 --> 00:46:51,820
-dan bagaimanapun caranya memproses mereka, dan
-mungkin, melakukan beberapa pengecekan.
+dan entah bagaimana caranya memproses mereka,
+dan mungkin, melakukan beberapa pengecekan.
 
 1097
 00:46:51,820 --> 00:46:54,174
-If it's an illegalKalau itu adalah sebuah URL
-ilegal, atau mereka
+Kalau itu adalah sebuah URL
+ilegal, atau mereka sedang
 
 1098
 00:46:54,174 --> 00:46:56,590
 mencoba untuk mengakses sebuah file
-yang mereka tidak diperbolehkan untuk akses,
+yang tidak boleh diakses oleh mereka,
 
 1099
 00:46:56,590 --> 00:46:58,381
-maka server jaringan akan
-mengembalikan sebuah kesalahan.
+maka server web akan
+mengembalikan sebuah eror.
 
 1100
 00:46:58,381 --> 00:47:00,400
-Tetapi sebaliknya, server jaringan itu akan
-mengakses beberapa arsip,
+Tapi jika tidak demikian, maka dia
+itu akan mengakses beberapa file,
 
 1101
 00:47:00,400 --> 00:47:04,040
-mungkin di dalam disk,
-mengirimkannya lagi keluar
+mungkin pada disk, dan
+mengirimkan mereka kembali
 
 1102
 00:47:04,040 --> 00:47:06,990
-dalam bentuk serupa balasan.
+sebagai semacam balasan.
 
 1103
 00:47:06,990 --> 00:47:10,320
-Jadi ini adalah sebuah gambaran yang 
-umum dan besar, hampir semua sistem
+Jadi ini adalah sebuah gambaran umum
+yang besar, hampir semua sistem
 
 1104
 00:47:10,320 --> 00:47:11,970
-yang Anda lihat
+yang Anda lihat.
 
 1105
 00:47:11,970 --> 00:47:13,146
-Apa aturannya?
+Apa kebijakannya?
 
 1106
 00:47:13,146 --> 00:47:14,270
@@ -5253,65 +5253,65 @@ Atau apa yang menjadi model ancamannya?
 
 1107
 00:47:18,300 --> 00:47:22,130
-Jadi ini merupakan masalah kecil
-di dalam banyak sistem duniawi yang nyata
+Jadi ini menjadi sedikit bermasalah
+dalam banyak sistem di dunia nyata,
 
 1108
 00:47:22,130 --> 00:47:23,850
-yaitu, yang  
+yaitu, bahwa  
 nyatanya cukup sulit
 
 1109
 00:47:23,850 --> 00:47:26,990
-untuk menentukan 
-aturan yang tepat atau model ancaman
+untuk menentukan secara tepat apa 
+aturan atau model ancaman
 
 1110
 00:47:26,990 --> 00:47:28,320
-yang kita sedang bicarakan.
+yang sedang kita bicarakan.
 
 1111
 00:47:28,320 --> 00:47:31,570
-Dan ketidaktepatan dan ambiguitas
-aturan semacam ini,
+Dan ketidaktepatan atau ambiguitas
+semacam ini mengenai kebijakan-kebijakan,
 
 1112
 00:47:31,570 --> 00:47:33,825
-model ancaman, dan lain-lain,
-adalah yang sewaktu-waktu
+model-model ancaman, dan lain-lain,
+adalah yang biasanya
 
 1113
 00:47:33,825 --> 00:47:34,950
-mengacu pada masalah keamanan.
+menimbulkan masalah-masalah keamanan.
 
 1114
 00:47:34,950 --> 00:47:37,180
-Bukan di dalam kasus ini,
+Bukan secara khusus di dalam kasus ini,
 tapi kita akan lihat.
 
 1115
 00:47:37,180 --> 00:47:40,090
-Atau mungkin hanya untuk memberikan
-Anda sebuah nalar untuk bagaimana
+Tapi mungkin hanya untuk memberikan
+Anda sebuah gambaran mengenai bagaimana
 
 1116
 00:47:40,090 --> 00:47:44,780
-untuk memikirkan sebuah server jaringan tipikal
-di dalam konteks dari aturan ini,
+cara memikirkan sebuah server web tipikal
+di dalam konteks dari kebijakan ini,
 
 1117
 00:47:44,780 --> 00:47:47,630
 semacam model ancaman,
-itu, ya, mungkin aturannya,
+itu, ya, mungkin kebijakannya
 
 1118
 00:47:47,630 --> 00:47:50,005
-yang seharusnya server jaringan
-lakukan apa yang diinginkan oleh pemrogram
+adalah, server web itu harus melakukan
+apa yang programernya inginkan
 
 1119
 00:47:50,005 --> 00:47:50,660
-untuk lakukan.
+untuk dilakukannya.
 
 1120
 00:47:50,660 --> 00:47:51,575
@@ -5320,7 +5320,7 @@ Itu sedikit tidak jelas.
 1121
 00:47:51,575 --> 00:47:53,950
 Tetapi mungkin itu adalah
-yang terjadi, karena apapun itu yang
+yang terjadi, karena apapun yang lebih
 
 1122
 00:47:53,950 --> 00:47:55,616
