@@ -3914,17 +3914,17 @@ pada akhirnya.
 
 828
 00:35:47,490 --> 00:35:50,830
-jadi jika output anda
+jadi jika keluaran Anda
 ukurannya 256 bit,
 
 829
 00:35:50,830 --> 00:35:52,650
-anda akan dapat
-menemukan dua input yang
+Anda akan dapat
+menemukan dua masukan yang
 
 830
 00:35:52,650 --> 00:35:55,110
-menuju ke input yang sama.
+dipetakan ke keluaran yang sama.
 
 831
 00:35:55,110 --> 00:35:59,860
@@ -3939,35 +3939,35 @@ membahas detailnya,
 833
 00:36:01,740 --> 00:36:05,970
 tetapi sebenarnya anda hanya
-harus mencoba 128 kali.
+perlu mencoba 128 kali.
 
 834
 00:36:05,970 --> 00:36:07,320
-Maaf, dua banding 128.
+Maaf, dua pangkat 128.
 
 835
 00:36:07,320 --> 00:36:10,740
-Jadi anda perlu mengambil akar
+Jadi Anda perlu mengambil akar
 kuadrat dari jumlah percobaan 
 
 836
 00:36:10,740 --> 00:36:14,880
-untuk menemukan bentrokan(collision) ini
-karena alasan intuitif
+untuk menemukan tabrakan (collision) ini
+karena alasan intuitifnya
 
 837
 00:36:14,880 --> 00:36:17,790
-adalah, yah, Anda baru saja mulai
-mencoba sesuatu dan menjaga
+adalah, yah, Anda cukup mencoba
+berbagai kemungkinan dan mencatat
 
 838
 00:36:17,790 --> 00:36:19,680
-melacak semua hash mereka.
+semua hashnya.
 
 839
 00:36:19,680 --> 00:36:23,340
 Dan ada yang disebut
-serangan ulang tahun, yang,
+serangan ulang tahun (birthday attack), yang,
 
 840
 00:36:23,340 --> 00:36:26,310
@@ -3996,17 +3996,17 @@ serangan ulang tahun
 
 845
 00:36:33,873 --> 00:36:37,050
-karena disana terdapat paradoks
+karena ada paradoks
 ulang tahun, yang sebenarnya bukanlah
 
 846
 00:36:37,050 --> 00:36:40,290
 sebuah paradoks, tetapi idenya
-seperti itu di dalam ruangan ini,
+adalah di dalam ruangan ini,
 
 847
 00:36:40,290 --> 00:36:42,540
-disini terdapat orang
+ada orang-orang
 yang mempunyai ulang tahun yang sama.
 
 848
@@ -4017,7 +4017,7 @@ yang tampaknya sedikit aneh
 849
 00:36:44,910 --> 00:36:47,760
 karena hal yang intuitif adalah,
-seperti, baiknya, terdapat 365 hari
+seperti, yah, terdapat 365 hari
 
 850
 00:36:47,760 --> 00:36:48,420
@@ -4031,7 +4031,7 @@ Mungkin anda pernah mendapatkan 160,
 852
 00:36:52,878 --> 00:36:55,170
 anda akan mempunyai dua
-orang dengan kelahiran yang sama.
+orang dengan ulang tahun yang sama.
 
 853
 00:36:55,170 --> 00:36:58,870
@@ -4045,7 +4045,7 @@ yang kemungkinan
 
 855
 00:37:01,320 --> 00:37:02,550
-memiliki kelahiran yang sama.
+memiliki ulang tahun yang sama.
 
 856
 00:37:02,550 --> 00:37:03,990
@@ -4054,17 +4054,17 @@ berlawanan dengan intuisi
 
 857
 00:37:03,990 --> 00:37:05,740
-dan itu diterapkan didalam
+dan itu berlaku di dalam
 kasus ini juga.
 
 858
 00:37:05,740 --> 00:37:08,190
-Jadi untuk mencari collisonya,
-kamu harus mencari akar kuadrat
+Jadi untuk mencari tabrakannya,
+Anda harus mencari akar kuadrat
 
 859
 00:37:08,190 --> 00:37:10,860
-dari output space nya.
+dari kemungkinan keluaran nya.
 
 860
 00:37:10,860 --> 00:37:14,070
