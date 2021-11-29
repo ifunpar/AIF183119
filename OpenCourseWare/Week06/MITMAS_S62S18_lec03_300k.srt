@@ -4297,13 +4297,13 @@ Anda bisa melakukan ini dengan tanda tangan.
 
 930
 00:41:36,260 --> 00:41:39,470
-But since you're
-modulo some big number,
+Tapi semenjak 
+sisa bagi mu beberapa angka besar,
 
 931
 00:41:39,470 --> 00:41:42,380
-it's like unsigned
-numbers that loop around.
+ini seperti angka
+tanpa lambang yang berputar putar.
 
 932
 00:41:42,380 --> 00:41:43,910
