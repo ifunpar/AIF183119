@@ -3495,7 +3495,7 @@ tidak dapat bekerja?
 
 739
 00:31:41,600 --> 00:31:42,840
-PROFESOR: Saya rasa itu tidak bekerja.
+PROFESOR: Saya pikir itu bekerja.
 
 740
 00:31:42,840 --> 00:31:45,048
