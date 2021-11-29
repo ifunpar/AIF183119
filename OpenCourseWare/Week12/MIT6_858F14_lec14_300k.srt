@@ -3427,71 +3427,71 @@ disayangkan bahwa ini
 
 724
 00:31:07,590 --> 00:31:12,220
-protocol that we're looking
-at here-- SSL, TLS, whatever--
+bukan protokol yang kita sedang
+cari disini-- SSL, TLS, atau apapun--
 
 725
 00:31:12,220 --> 00:31:15,180
-doesn't offer this kind of
-opportunistic encryption thing.
+tidak menawarkan kesempatan
+enkripsi yang oportunistik.
 
 726
 00:31:15,180 --> 00:31:16,910
-But such is life.
+Namun begitulah kehidupan.
 
 727
 00:31:16,910 --> 00:31:19,380
-So I guess the server
-[INAUDIBLE] in this protocol.
+Jadi saya menebak server ini
+[INAUDIBLE] terdapat dalam protokol.
 
 728
 00:31:19,380 --> 00:31:24,100
-The client sometimes can and
-sometimes doesn't have to.
+Klien terkadang dapat dan
+terkadang tidak perlu melakukannya.
 
 729
 00:31:24,100 --> 00:31:24,600
-Make sense?
+Masuk akal?
 
 730
 00:31:24,600 --> 00:31:24,870
-Yeah.
+Ya.
 
 731
 00:31:24,870 --> 00:31:25,995
-AUDIENCE: I'm just curious.
+AUDIENCE: Saya hanya penasaran.
 
 732
 00:31:25,995 --> 00:31:27,852
-What's to stop
-someone from-- I mean,
+Apa yang dapat menghentikan
+seseorang dari-- Maksud saya,
 
 733
 00:31:27,852 --> 00:31:30,487
-let's just say that
-once a year, they
+katakanlah bahwa
+setahun sekali, mereka
 
 734
 00:31:30,487 --> 00:31:32,850
-create using new name key pairs.
+membuat nama baru untuk pasangan kunci.
 
 735
 00:31:32,850 --> 00:31:37,476
-So why couldn't you kind of
-try to spend that entire year
+Jadi mengapa Anda tidak dapat
+mencoba menghabiskan tahun tersebut
 
 736
 00:31:37,476 --> 00:31:39,000
-for that specific key?
+untuk kunci tertentu?
 
 737
 00:31:39,000 --> 00:31:39,809
-PROFESSOR: Huh?
+PROFESSOR: Hah?
 
 738
 00:31:39,809 --> 00:31:41,600
-AUDIENCE: Why does that
-not work with this?
+AUDIENCE: Mengapa hal itu
+tidak dapat bekerja?
 
 739
 00:31:41,600 --> 00:31:42,840
