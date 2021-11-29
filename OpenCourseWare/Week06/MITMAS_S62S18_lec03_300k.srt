@@ -4293,7 +4293,7 @@ bilangan bulat tidak bertanda.
 
 929
 00:41:35,177 --> 00:41:36,260
-You can do it with signed.
+Anda bisa melakukan ini dengan tanda tangan.
 
 930
 00:41:36,260 --> 00:41:39,470
