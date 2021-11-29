@@ -4923,7 +4923,7 @@ Tapi PW tidak sama dengan PW aksen.
 1049
 00:56:11,490 --> 00:56:13,950
 Apa yang Anda punya adalah
-false positif
+false positive (kesimpulan positif yang salah).
 
 1050
 00:56:13,950 --> 00:56:15,570
@@ -4937,13 +4937,13 @@ ini adalah sebuah nilai 128-bit,
 
 1052
 00:56:19,060 --> 00:56:22,840
-dan mereka menebak benar--
+dan mereka menebak dengan benar--
 mereka akan masuk.
 
 1053
 00:56:22,840 --> 00:56:24,940
 Anda tidak perlu terlalu
-peduli terhadap kemungkinan 
+peduli terhadap kemungkinan
 
 1054
 00:56:24,940 --> 00:56:26,190
@@ -4955,7 +4955,7 @@ Itu sangat kecil.
 
 1056
 00:56:27,900 --> 00:56:30,570
-Biasanya Anda akan punya 
+Biasanya Anda akan punya
 sistem-sistem yang mengunci Anda keluar
 
 1057
@@ -4979,17 +4979,17 @@ membangun sistem yang
 
 1061
 00:56:39,340 --> 00:56:42,090
-memiliki 
-properti minimal yang sehubungan 
+memiliki
+properti minimal dalam hal
 
 1062
 00:56:42,090 --> 00:56:43,570
-dengan perimeter yang digunakan.
+batasan yang digunakan.
 
 1063
 00:56:43,570 --> 00:56:47,090
 Jadi dari sudut pandang
-pembangunan sistem hanya membutuhkan OW.
+pembangunan sistem ini hanya membutuhkan OW.
 
 1064
 00:56:47,090 --> 00:56:48,350
@@ -5002,8 +5002,8 @@ resistance atau TCR, OK?
 
 1066
 00:56:53,100 --> 00:56:55,420
-Mari kita lakukan sedikit
-contoh yang berbeda.
+Mari kita lakukan contoh
+yang sedikit berbeda.
 
 1067
 00:56:55,420 --> 00:56:59,010
@@ -5012,8 +5012,8 @@ pemanasan untuk apa
 
 1068
 00:56:59,010 --> 00:57:01,895
-yang akan terjadi selanjutnya, yaitu 
-pendeteksi file yang telah dimodifikasi. 
+yang akan terjadi selanjutnya, yaitu
+pendeteksi file yang telah dimodifikasi.
 
 1069
 00:57:22,080 --> 00:57:32,800
@@ -5022,7 +5022,7 @@ menyimpan h dari F. Dan dengan aman.
 
 1070
 00:57:32,800 --> 00:57:36,980
-Jadi Anda berasumsi bahwa ini berarti 
+Jadi Anda berasumsi bahwa ini berarti
 h dari F tidak dapat dimodifikasi
 
 1071
@@ -5031,7 +5031,7 @@ oleh siapa saja, h dari F itu sendiri.
 
 1072
 00:57:47,860 --> 00:57:56,030
-Dan sekarang kita ingin 
+Dan sekarang kita ingin
 memeriksa apakah F dimodifikasi
 
 1073
@@ -5041,12 +5041,12 @@ Yang bisa jadi,
 
 1074
 00:58:04,470 --> 00:58:05,640
-ini bisa dimodifikasi.
+ini bisa saja sudah dimodifikasi.
 
 1075
 00:58:05,640 --> 00:58:07,130
 Jadi ini sebenarnya 
-bisa menjadi F prime.
+bisa menjadi F aksen.
 
 1076
 00:58:07,130 --> 00:58:09,250
@@ -5054,15 +5054,15 @@ Anda tidak tahu itu.
 
 1077
 00:58:09,250 --> 00:58:10,500
-Anda memiliki file.
+Anda memiliki sebuah file.
 
 1078
 00:58:10,500 --> 00:58:11,780
-Ini adalah satu gigabyte.
+Ukurannya satu gigabyte.
 
 1079
 00:58:11,780 --> 00:58:14,270
-Dan seseorang mungkin 
+Dan seseorang mungkin
 telah merusak
 
 1080
@@ -5076,18 +5076,18 @@ hanyalah digest dari d-bit itu
 
 1082
 00:58:19,340 --> 00:58:23,670
-sesuai dengan h dari F yang Anda 
+sesuai dengan h dari F yang Anda
 simpan di lokasi yang aman.
 
 1083
 00:58:23,670 --> 00:58:27,190
-Dan anda ingin mengecek
-ingin melihat, dengan cara dikomputasi ulang
+Dan Anda ingin memeriksa
+untuk melihat, dengan cara dikomputasi ulang
 
 1084
 00:58:27,190 --> 00:58:31,940
 h dari F, dari file
-yang diberikan kepada anda,
+yang diberikan kepada Anda,
 
 1085
 00:58:31,940 --> 00:58:34,135
@@ -5100,12 +5100,12 @@ yang anda simpan.
 
 1087
 00:58:35,730 --> 00:58:42,200
-Jadi apa saja properti yang kita
+Jadi properti apa yang kita
 perlukan untuk dapat melakukan hal tersebut?
 
 1088
 00:58:42,200 --> 00:58:44,590
-dengan hash functions
+Dengan fungsi hash.
 
 1089
 00:58:44,590 --> 00:58:48,070
@@ -5115,25 +5115,25 @@ perlukan untuk dapat melakukan hal tersebut?
 1090
 00:58:50,620 --> 00:58:53,040
 Apa yang ingin dilakukan
-oleh musuh?
+oleh penyerang?
 
 1091
 00:58:53,040 --> 00:58:55,530
-Apa yang dimaksud dengan perusakan yang sukses?
+Apa yang dimaksud dengan pembobolan yang sukses?
 
 1092
 00:58:55,530 --> 00:59:02,000
-Sebuah perusakan yang sukses terjadi jika
+Sebuah pembobolan yang sukses terjadi jika
 musuh bisa memodifikasi file
 
 1093
 00:59:02,000 --> 00:59:08,720
-dan h dari f tetap sama, iya kan?
+dan h dari F tetap sama, ya kan?
 
 1094
 00:59:08,720 --> 00:59:10,780
 Itu merupakan 
-perusakan yang sukses, iya kan?
+perusakan yang sukses, ya kan?
 
 1095
 00:59:10,780 --> 00:59:13,600
@@ -5141,11 +5141,11 @@ Ya.
 
 1096
 00:59:13,600 --> 00:59:14,125
-Silahkan.
+Silakan.
 
 1097
 00:59:14,125 --> 00:59:14,910
-AUDIENS : TCR.
+AUDIENS: TCR.
 
 1098
 00:59:14,910 --> 00:59:15,550
@@ -5161,22 +5161,22 @@ Anda memerlukan TCR.
 
 1101
 00:59:19,350 --> 00:59:21,750
-Jadi anda ingin memodifikasi file.
+Jadi Anda ingin memodifikasi filenya.
 
 1102
 00:59:34,830 --> 00:59:38,230
-Jadi anda diberikan 
-file-- musuh
+Jadi Anda diberikan 
+file-- si penyerang
 
 1103
 00:59:38,230 --> 00:59:41,980
-diberikan file itu, dimana
+diberikan file tersebut, yang
 merupakan input ke hash,
 
 1104
 00:59:41,980 --> 00:59:47,550
 dan akan mencoba dan
-memodifikasi-- memodifikasi filenya, bukan ?
+memodifikasi-- memodifikasi filenya, bukan?
 
 1105
 00:59:47,550 --> 00:59:51,130
@@ -5184,8 +5184,8 @@ Jadi mari lakukan beberapa lagi.
 
 1106
 00:59:51,130 --> 00:59:57,470
-Dan kita akan memajukan 
-persyaratan kita disini sedikit.
+Dan kita akan mengembangkan
+kebutuhan kita disini sedikit.
 
 1107
 00:59:57,470 --> 01:00:00,891
@@ -5199,7 +5199,7 @@ Saya ingin meninggalkan ini diatas sana.
 1109
 01:00:04,937 --> 01:00:06,770
 Kita akan melakukan
-sesuatu yang berkoresponden
+sesuatu yang berhubungan dengan
 
 1110
 01:00:06,770 --> 01:00:08,690
