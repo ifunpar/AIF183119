@@ -4913,239 +4913,239 @@ sama dengan h dari PW
 
 1047
 00:56:02,460 --> 00:56:07,190
-But h of PW equals
-h of PW prime.
+Tapi h dari PW sama dengan
+h dari PW aksen.
 
 1048
 00:56:07,190 --> 00:56:11,490
-But PW is not equal to PW prime.
+Tapi PW tidak sama dengan PW aksen.
 
 1049
 00:56:11,490 --> 00:56:13,950
-What you have is
-a false positive.
+Apa yang Anda punya adalah
+false positive (kesimpulan positif yang salah).
 
 1050
 00:56:13,950 --> 00:56:15,570
-Someone who didn't
-know your password
+Seseorang yang tidak tahu
+kata sandi Anda
 
 1051
 00:56:15,570 --> 00:56:19,060
-but guessed right-- and
-this is a 128-bit value,
+tapi menebak benar-- dan
+ini adalah sebuah nilai 128-bit,
 
 1052
 00:56:19,060 --> 00:56:22,840
-and they guessed right--
-is going to get it.
+dan mereka menebak dengan benar--
+mereka akan masuk.
 
 1053
 00:56:22,840 --> 00:56:24,940
-You don't particularly
-care of the probability
+Anda tidak perlu terlalu
+peduli terhadap kemungkinan
 
 1054
 00:56:24,940 --> 00:56:26,190
-of this occurrence.
+dari kejadian ini.
 
 1055
 00:56:26,190 --> 00:56:27,900
-It's really small.
+Itu sangat kecil.
 
 1056
 00:56:27,900 --> 00:56:30,570
-Typically you're going to
-have systems that lock you out
+Biasanya Anda akan punya
+sistem-sistem yang mengunci Anda keluar
 
 1057
 00:56:30,570 --> 00:56:34,770
-if you try 10 tries that occurs
-one, two, wrong passwords,
+jika Anda mencoba 10 percobaan yang terjadi
+satu, dua, kata sandi yang salah,
 
 1058
 00:56:34,770 --> 00:56:35,270
-right?
+benar?
 
 1059
 00:56:35,270 --> 00:56:37,965
-So really in systems
-you do not require--
+Jadi sebenarnya dalam sistem 
+Anda tidak memerlukan
 
 1060
 00:56:37,965 --> 00:56:39,340
-you do want to
-build systems that
+Anda ingin
+membangun sistem yang
 
 1061
 00:56:39,340 --> 00:56:42,090
-have minimal
-properties with respect
+memiliki
+properti minimal dalam hal
 
 1062
 00:56:42,090 --> 00:56:43,570
-to the perimeters that are used.
+batasan yang digunakan.
 
 1063
 00:56:43,570 --> 00:56:47,090
-So from a system building
-standpoint just require OW.
+Jadi dari sudut pandang
+pembangunan sistem ini hanya membutuhkan OW.
 
 1064
 00:56:47,090 --> 00:56:48,350
-Don't go overboard.
+Jangan berlebihan.
 
 1065
 00:56:48,350 --> 00:56:53,100
-Don't require collision
-resistance or TCR, OK?
+Tidak memerlukan collision
+resistance atau TCR, OK?
 
 1066
 00:56:53,100 --> 00:56:55,420
-Let's do a slightly
-different example.
+Mari kita lakukan contoh
+yang sedikit berbeda.
 
 1067
 00:56:55,420 --> 00:56:59,010
-Also a bit of a
-warm-up for what's
+Juga sedikit
+pemanasan untuk apa
 
 1068
 00:56:59,010 --> 00:57:01,895
-coming next, which is a
-file modification detector.
+yang akan terjadi selanjutnya, yaitu
+pendeteksi file yang telah dimodifikasi.
 
 1069
 00:57:22,080 --> 00:57:32,800
-So for each file F, I'm going to
-store h of F. And as securely.
+Jadi untuk setiap file F, Saya akan
+menyimpan h dari F. Dan dengan aman.
 
 1070
 00:57:32,800 --> 00:57:36,980
-So you assume that this means
-that h of F cannot be modified
+Jadi Anda berasumsi bahwa ini berarti
+h dari F tidak dapat dimodifikasi
 
 1071
 00:57:36,980 --> 00:57:40,380
-by anybody, h of F itself.
+oleh siapa saja, h dari F itu sendiri.
 
 1072
 00:57:47,860 --> 00:57:56,030
-And now we want to
-check if F is modified
+Dan sekarang kita ingin
+memeriksa apakah F dimodifikasi
 
 1073
 00:57:56,030 --> 00:58:04,470
-by re-computing h of
-F. Which could be,
+dengan menghitung ulang h dari F. 
+Yang bisa jadi,
 
 1074
 00:58:04,470 --> 00:58:05,640
-this could be modified.
+ini bisa saja sudah dimodifikasi.
 
 1075
 00:58:05,640 --> 00:58:07,130
-So this could
-actually be F prime.
+Jadi ini sebenarnya 
+bisa menjadi F aksen.
 
 1076
 00:58:07,130 --> 00:58:09,250
-You don't know that.
+Anda tidak tahu itu.
 
 1077
 00:58:09,250 --> 00:58:10,500
-You have a file.
+Anda memiliki sebuah file.
 
 1078
 00:58:10,500 --> 00:58:11,780
-It's a gigabyte.
+Ukurannya satu gigabyte.
 
 1079
 00:58:11,780 --> 00:58:14,270
-And somebody might
-have tampered with one
+Dan seseorang mungkin
+telah merusak
 
 1080
 00:58:14,270 --> 00:58:16,030
-of the bits in the file.
+salah satu bit dalam file.
 
 1081
 00:58:16,030 --> 00:58:19,340
-All you have is a
-d-bit digest that
+Yang Anda miliki 
+hanyalah digest dari d-bit itu
 
 1082
 00:58:19,340 --> 00:58:23,670
-corresponds to h of F that you
-stored in a secure location.
+sesuai dengan h dari F yang Anda
+simpan di lokasi yang aman.
 
 1083
 00:58:23,670 --> 00:58:27,190
-And you want to check
-to see, by re-computing
+Dan Anda ingin memeriksa
+untuk melihat, dengan cara dikomputasi ulang
 
 1084
 00:58:27,190 --> 00:58:31,940
-h of F, the file
-that is given to you,
+h dari F, dari file
+yang diberikan kepada Anda,
 
 1085
 00:58:31,940 --> 00:58:34,135
-and comparing it with what
-you've stored, the h of F
+dan membandingkannya dengan apa
+yang telah anda simpan, h dari F
 
 1086
 00:58:34,135 --> 00:58:35,730
-that you've stored.
+yang anda simpan.
 
 1087
 00:58:35,730 --> 00:58:42,200
-And so what property do we
-need in order to pull this off?
+Jadi properti apa yang kita
+perlukan untuk dapat melakukan hal tersebut?
 
 1088
 00:58:42,200 --> 00:58:44,590
-Of hash functions.
+Dengan fungsi hash.
 
 1089
 00:58:44,590 --> 00:58:48,070
-What precisely do we
-need to pull this off?
+Apa tepatnya yang kita 
+perlukan untuk dapat melakukan hal tersebut?
 
 1090
 00:58:50,620 --> 00:58:53,040
-What is the adversary
-trying to do?
+Apa yang ingin dilakukan
+oleh penyerang?
 
 1091
 00:58:53,040 --> 00:58:55,530
-And what is a successful break?
+Apa yang dimaksud dengan pembobolan yang sukses?
 
 1092
 00:58:55,530 --> 00:59:02,000
-A successful break is if an
-adversary can modify the file
+Sebuah pembobolan yang sukses terjadi jika
+musuh bisa memodifikasi file
 
 1093
 00:59:02,000 --> 00:59:08,720
-and keep h of F the same, right?
+dan h dari F tetap sama, ya kan?
 
 1094
 00:59:08,720 --> 00:59:10,780
-That would be a
-successful break, right?
+Itu merupakan 
+perusakan yang sukses, ya kan?
 
 1095
 00:59:10,780 --> 00:59:13,600
-Yup.
+Ya.
 
 1096
 00:59:13,600 --> 00:59:14,125
-Go ahead.
+Silakan.
 
 1097
 00:59:14,125 --> 00:59:14,910
-AUDIENCE: TCR.
+AUDIENS: TCR.
 
 1098
 00:59:14,910 --> 00:59:15,550
@@ -5153,53 +5153,53 @@ SRINIVAS DEVADAS: TCR?
 
 1099
 00:59:15,550 --> 00:59:16,300
-Yeah, absolutely.
+Ya, tentu saja.
 
 1100
 00:59:16,300 --> 00:59:16,841
-You need TCR.
+Anda memerlukan TCR.
 
 1101
 00:59:19,350 --> 00:59:21,750
-So you want to modify the file.
+Jadi Anda ingin memodifikasi filenya.
 
 1102
 00:59:34,830 --> 00:59:38,230
-So you're given that
-the file-- the adversary
+Jadi Anda diberikan 
+file-- si penyerang
 
 1103
 00:59:38,230 --> 00:59:41,980
-is given the file, which
-is the input to the hash,
+diberikan file tersebut, yang
+merupakan input ke hash,
 
 1104
 00:59:41,980 --> 00:59:47,550
-and is going to try and
-modify-- modify the file, right?
+dan akan mencoba dan
+memodifikasi-- memodifikasi filenya, bukan?
 
 1105
 00:59:47,550 --> 00:59:51,130
-So let's do a couple more.
+Jadi mari lakukan beberapa lagi.
 
 1106
 00:59:51,130 --> 00:59:57,470
-And we're going to advance our
-requirements here a little bit.
+Dan kita akan mengembangkan
+kebutuhan kita disini sedikit.
 
 1107
 00:59:57,470 --> 01:00:00,891
-So those two are
-basic properties.
+Jadi keduanya adalah
+properti dasar.
 
 1108
 01:00:00,891 --> 01:00:02,140
-I want to leave this up there.
+Saya ingin meninggalkan ini diatas sana.
 
 1109
 01:00:04,937 --> 01:00:06,770
-We're going to do
-something that corresponds
+Kita akan melakukan
+sesuatu yang berhubungan dengan
 
 1110
 01:00:06,770 --> 01:00:08,690
