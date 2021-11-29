@@ -3393,7 +3393,7 @@ yang buruk jika orang-orang tersebut
 714
 00:28:53,360 --> 00:28:56,990
 dapat memalsukan koneksi TCP
-dari alamat arbitrary?
+dari alamat apapun?
 
 715
 00:28:56,990 --> 00:29:00,335
@@ -3417,13 +3417,13 @@ alamat IP itu berasal,
 
 719
 00:29:14,170 --> 00:29:16,000
-Maka ini akan
+maka ini akan
 berpotensi menjadi
 
 720
 00:29:16,000 --> 00:29:18,950
-sebuah masalah untuk penyerang
-yang memalsukan koneksi
+sebuah masalah di mana penyerang
+memalsukan koneksi
 
 721
 00:29:18,950 --> 00:29:21,440
@@ -3452,7 +3452,7 @@ adalah Anda dapat menjalankan sesuatu
 
 726
 00:29:33,160 --> 00:29:34,984
-seperti rlogin ke dalam
+seperti rlogin ke sebuah
 mesin, contohnya
 
 727
@@ -3480,7 +3480,7 @@ ke mesin yang lain ini.
 
 732
 00:29:53,340 --> 00:29:55,548
-Dan itu akan percaya bahwa
+Dan itu mengasumsikan bahwa
 semua mesin yang ada di mit.edu
 
 733
@@ -3499,27 +3499,27 @@ memiliki masalah ini.
 
 736
 00:30:01,500 --> 00:30:03,416
-Hal ini sudah menggunakan Cerberus
+Dia sudah menggunakan Cerberus
 semenjak pertama kali.
 
 737
 00:30:03,416 --> 00:30:07,360
-Tetapi sistem lain tentu 
+Tetapi sistem lain tentu
 memiliki masalah seperti itu.
 
 738
 00:30:07,360 --> 00:30:10,610
 Dan ini adalah contoh dari
-penggunaan IP address dimana
+penggunaan alamat IP di mana
 
 739
 00:30:10,610 --> 00:30:15,170
-koneksinya berasal dari 
+koneksinya berasal dari
 semacam mekanisme otentikasi
 
 740
 00:30:15,170 --> 00:30:19,190
-untuk menentukan apakah 
+untuk menentukan apakah
 pemanggil atau klien
 
 741
@@ -3528,7 +3528,7 @@ dapat dipercaya atau tidak.
 
 742
 00:30:20,470 --> 00:30:22,650
-Jadi ini tentu 
+Jadi ini tentu
 pernah menjadi masalah,
 
 743
@@ -3579,7 +3579,7 @@ menggunakan SMTP untuk berkomunikasi dengan sebuah
 
 753
 00:30:45,555 --> 00:30:47,650
-server email untuk mengirim pesan.
+server untuk mengirim pesan.
 
 754
 00:30:47,650 --> 00:30:51,120
@@ -3594,7 +3594,7 @@ pesan masuk
 756
 00:30:53,470 --> 00:30:55,710
 dari alamat IP
-sumber tertentu.
+tertentu.
 
 757
 00:30:55,710 --> 00:30:57,460
