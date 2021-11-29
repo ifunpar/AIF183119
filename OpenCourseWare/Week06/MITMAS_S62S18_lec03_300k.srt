@@ -4289,7 +4289,7 @@ Ini juga uint (unsigned int)
 928
 00:41:33,710 --> 00:41:35,177
 ini seperti
-unsigned integers.
+bilangan bulat tidak bertanda.
 
 929
 00:41:35,177 --> 00:41:36,260
