@@ -3283,285 +3283,285 @@ adalah sesuatu yang
 
 698
 00:37:51,340 --> 00:37:54,310
-corresponds to your MIT ID.
+sesuai dengan ID MIT Anda.
 
 699
 00:37:54,310 --> 00:37:57,330
-It's got information, what year
-you are, what your name is.
+Dia memiliki informasi, angatan berapakah
+Anda, siapa nama Anda.
 
 700
 00:37:57,330 --> 00:37:59,470
-And when you generate
-that certificate,
+Dan ketika Anda membangkitkan
+sertifikat itu,
 
 701
 00:37:59,470 --> 00:38:03,886
-you are getting a certificate of
-authenticity that you are you.
+Anda mendapatkan sertifikat
+otentisitas bahwa Anda adalah Anda.
 
 702
 00:38:03,886 --> 00:38:05,260
-And of course,
-you give that away
+Dan tentu saja,
+Anda memberikan itu
 
 703
 00:38:05,260 --> 00:38:07,180
-and you hand it to
-someone else, someone
+dan Anda menyerahkannya kepada
+orang lain, seseorang
 
 704
 00:38:07,180 --> 00:38:09,160
-can pretend to be you as well.
+dapat juga berpura-pura menjadi Anda.
 
 705
 00:38:09,160 --> 00:38:13,860
-But that's what's happening
-when we talk about public keys
+Tapi itulah yang terjadi
+ketika kita membicarakan kunci publik
 
 706
 00:38:13,860 --> 00:38:17,500
-and you owning public keys.
+dan Anda memiliki kunci publik.
 
 707
 00:38:17,500 --> 00:38:21,390
-We're not going to, as I said,
-get into that very much more.
+Kita tidak akan, seperti yang saya katakan,
+membahasnya lebih banyak lagi.
 
 708
 00:38:21,390 --> 00:38:25,310
-I'm more interested in
-describing this algorithm
+Saya lebih tertarik
+menjelaskan algoritma ini
 
 709
 00:38:25,310 --> 00:38:26,960
-for public key encryption.
+untuk enkripsi kunci publik.
 
 710
 00:38:26,960 --> 00:38:31,410
-We'll look at a couple that
-produces a ciphered text given
+Kita akan melihat pasangan yang
+menghasilkan teks terenkripsi dari
 
 711
 00:38:31,410 --> 00:38:34,440
-a message and a public key.
+sebuah pesan dan sebuah kunci publik.
 
 712
 00:38:34,440 --> 00:38:37,130
-Now, of course,
-what Bob needs to do
+Sekarang, tentu saja,
+apa yang Bob perlu lakukan
 
 713
 00:38:37,130 --> 00:38:41,670
-is to take the ciphered text.
+adalah mengambil teks terenkripsi tersebut.
 
 714
 00:38:41,670 --> 00:38:43,750
-And this is what Bob's doing.
+Dan inilah yang Bob lakukan.
 
 715
 00:38:43,750 --> 00:38:53,360
-And Bob has a private key that
-is distinct from the public key
+Dan Bob memiliki kunci privat yang
+berbeda dari kunci publik
 
 716
 00:38:53,360 --> 00:38:57,600
-and needs to get back exactly
-the message using a decryption
+dan perlu mendapatkan kembali
+pesannya menggunakan algoritma
 
 717
 00:38:57,600 --> 00:39:01,680
-algorithm that corresponds to
-the message that Alice sent.
+dekripsi yang sesuai dengan
+pesan yang dikirim Alice.
 
 718
 00:39:01,680 --> 00:39:02,720
-OK.
+Oke.
 
 719
 00:39:02,720 --> 00:39:10,010
-And this whole thing is
-going to work provided
+Dan semua hal ini akan
+berhasil asalkan
 
 720
 00:39:10,010 --> 00:39:15,010
-knowing the public
-key, let's call it PK,
+diketahui kunci publik,
+sebut saja dengan PK (public key),
 
 721
 00:39:15,010 --> 00:39:16,060
-and the private key.
+dan kunci privat.
 
 722
 00:39:16,060 --> 00:39:17,990
-We can't call it PK
-as well, obviously.
+Kita tidak bisa menyebutnya PK
+juga, sudah jelas.
 
 723
 00:39:17,990 --> 00:39:19,960
-So we call it SK.
+Jadi kita menyebutnya SK (secret key).
 
 724
 00:39:19,960 --> 00:39:26,770
-Knowing the PK does
-not reveal anything
+Mengetahui PK tidak
+mengungkapkan apa pun
 
 725
 00:39:26,770 --> 00:39:33,290
-in a mathematical
-sense about SK.
+secara matematis
+pengertian tentang SK.
 
 726
 00:39:33,290 --> 00:39:36,740
-But obviously, in order for
-this whole thing to work,
+Tapi jelas, agar
+semua ini berhasil,
 
 727
 00:39:36,740 --> 00:39:42,950
-PK and SK have to have some
-mathematical relationship.
+PK dan SK harus memiliki beberapa
+relasi matematis.
 
 728
 00:39:42,950 --> 00:39:46,070
-And the different
-cryptosystems including RSA,
+Dan berbagai kriptosistem
+termasuk RSA,
 
 729
 00:39:46,070 --> 00:39:48,330
-and we look at a
-knapsack cryptosystem,
+dan kita lihat
+kriptosistem knapsack,
 
 730
 00:39:48,330 --> 00:39:53,310
-all have different algorithms
-for encryption and decryption.
+semuanya memiliki algoritma yang
+berbeda untuk enkripsi dan dekripsi.
 
 731
 00:39:53,310 --> 00:39:55,780
-And they have different
-mathematical relationships
+Dan mereka memiliki
+relasi matematis yang berbeda
 
 732
 00:39:55,780 --> 00:39:57,440
-between PK and SK.
+antara PK dan SK.
 
 733
 00:39:57,440 --> 00:40:00,320
-And for each of
-these relationships,
+Dan untuk setiap
+relasi ini,
 
 734
 00:40:00,320 --> 00:40:03,260
-you have to show that
-the adversary has
+Anda harus menunjukkan
+bahwa lawan harus
 
 735
 00:40:03,260 --> 00:40:06,580
-to solve a computationally
-hard problem in order
+memecahkan masalah komputasi
+yang sulit agar
 
 736
 00:40:06,580 --> 00:40:12,140
-to discover SK given PK.
+bisa menemukan SK dari PK yang ada.
 
 737
 00:40:12,140 --> 00:40:14,870
-And it turns out that for
-most of these systems,
+Dan ternyata untuk sebagian
+besar sistem ini,
 
 738
 00:40:14,870 --> 00:40:19,330
-it's symmetric in the sense
-that these algorithms,
+itu bersifat simetris dalam arti
+bahwa algoritma-algoritma ini,
 
 739
 00:40:19,330 --> 00:40:23,120
-at least for RSA, you
-could use either one
+setidaknya untuk RSA, Anda
+bisa menggunakan salah
 
 740
 00:40:23,120 --> 00:40:25,690
-of these interchangeably.
+satu dari ini secara bergantian.
 
 741
 00:40:25,690 --> 00:40:27,390
-And there's issues
-associated with that.
+Dan terdapat isu-isu
+terkait hal tersebut.
 
 742
 00:40:27,390 --> 00:40:30,120
-So we really won't go
-too deep into that.
+Sehingga kita tidak akan membahas
+terlalu dalam ke sana.
 
 743
 00:40:30,120 --> 00:40:35,660
-But what I said you should
-hold, which is you have one,
+Tapi apa yang saya bilang Anda
+harus pegang, di mana anda memilikinya,
 
 744
 00:40:35,660 --> 00:40:38,360
-it shouldn't tell you
-anything about the other.
+seharusnya tidak memberitahu Anda
+apapun tentang yang lainnya.
 
 745
 00:40:38,360 --> 00:40:40,760
-There has to be a
-computationally hard problem
+Harus ada masalah
+komputasi sulit
 
 746
 00:40:40,760 --> 00:40:44,790
-associated with
-discovering one of these
+yang terkait dengan
+menemukan salah satu dari ini
 
 747
 00:40:44,790 --> 00:40:48,350
-only given the one other.
+jika hanya diketahui salah satunya.
 
 748
 00:40:48,350 --> 00:40:50,410
-And we'll talk about
-what those hardness
+Dan kita akan membicarakan
+apa saja asumsi
 
 749
 00:40:50,410 --> 00:40:53,580
-assumptions are certainly
-for RSA and also
+kesulitan yang pasti untuk
+RSA dan juga
 
 750
 00:40:53,580 --> 00:40:57,730
-for another
-cryptosystem, a knapsack.
+untuk kriptosistem yang lain,
+sebuah knapsack.
 
 751
 00:40:57,730 --> 00:41:00,270
-So we're going to
-present RSA, which
+Jadi kita akan
+mempresentasikan RSA, yang
 
 752
 00:41:00,270 --> 00:41:02,400
-is this real magical algorithm.
+merupakan algoritma ajaib yang nyata ini.
 
 753
 00:41:02,400 --> 00:41:04,580
-It's amazing it works.
+Luar biasa bahwa hal ini dapat bekerja.
 
 754
 00:41:04,580 --> 00:41:08,100
-Every time I prepare
-for this lecture,
+Setiap kali saya bersiap
+untuk kuliah ini,
 
 755
 00:41:08,100 --> 00:41:10,130
-I got to relearn somethings.
+Saya perlu mempelajari ulang sesuatu.
 
 756
 00:41:10,130 --> 00:41:17,370
-And that's because there's
-one subtle aspect of this.
+Dan itu karena ada satu aspek
+yang sulit diproses pada hal ini.
 
 757
 00:41:17,370 --> 00:41:18,580
-It's all about number theory.
+Itu semua tentang adalah teori bilangan.
 
 758
 00:41:18,580 --> 00:41:21,190
