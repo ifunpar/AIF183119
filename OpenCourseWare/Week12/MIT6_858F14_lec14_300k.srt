@@ -3495,100 +3495,73 @@ tidak dapat bekerja?
 
 739
 00:31:41,600 --> 00:31:42,840
-PROFESSOR: I think it does work.
 PROFESOR: Saya rasa itu tidak bekerja.
 
 740
 00:31:42,840 --> 00:31:45,048
-So OK, so it's like what
-goes wrong with this scheme.
 OK, jadi itulah kira-kira yang
 menjadi salah pada skema ini.
 
 741
 00:31:45,048 --> 00:31:46,990
-Like, one of the
-things that we have
 Seperti, salah satu
 hal yang harus kita
 
 742
 00:31:46,990 --> 00:31:49,440
-to do with the
-topography of good here,
 lakukan dengan
 topografi yang baik disini,
 
 743
 00:31:49,440 --> 00:31:53,230
-and as with Kerberos, people
-start off using good crypto,
 dan seperti untuk Kerberos, orang-orang
 memulainya dengan menggunakan kriptografi yang baik,
 
 744
 00:31:53,230 --> 00:31:55,226
-but it gets worse
-and worse over time.
 tapi itu menjadi lebih buruk
 dan semakin buruk seiring berjalannya waktu.
 
 745
 00:31:55,226 --> 00:31:56,100
-Computers get faster.
 Komputer menjadi lebih cepat.
 
 746
 00:31:56,100 --> 00:31:58,010
-There's better algorithms
-that are breaking this stuff.
 Ada algoritma yang lebih baik
 yang bisa merusak hal ini.
 
 747
 00:31:58,010 --> 00:32:00,180
-And if people are not
-diligent about increasing
 Dan jika orang-orang tidak
 rajin dalam meningkatkan
 
 748
 00:32:00,180 --> 00:32:02,869
-their standards, then
-these problems do creep up.
 standar mereka, maka
 masalah-masalah ini akan membesar.
 
 749
 00:32:02,869 --> 00:32:05,410
-So for example, it used to be
-the case that many certificates
 Sebagai contoh, sebelumnya
 banyak kasus dimana sertifikat
 
 750
 00:32:05,410 --> 00:32:06,274
-were signed.
 ditandai.
 
 751
 00:32:06,274 --> 00:32:07,690
-Well, there's two
-things going on.
 Ya, ada dua
 hal yang terjadi.
 
 752
 00:32:07,690 --> 00:32:09,420
-There's a public key
-signature scheme.
 Ada skema tanda tangan
 kunci publik.
 
 753
 00:32:09,420 --> 00:32:13,080
-And then because the public key
-crypto has some limitations,
 Kemudian karena kriptografi kunci publik
 mempunyai beberapa batasan,
 
