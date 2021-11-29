@@ -4288,7 +4288,7 @@ Ini juga uint (unsigned int)
 
 928
 00:41:33,710 --> 00:41:35,177
-These are like
+ini seperti
 unsigned integers.
 
 929
