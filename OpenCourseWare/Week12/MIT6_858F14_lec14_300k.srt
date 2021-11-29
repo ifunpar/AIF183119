@@ -3442,7 +3442,7 @@ Namun begitulah kehidupan.
 727
 00:31:16,910 --> 00:31:19,380
 Jadi saya menebak server ini
-[INAUDIBLE] terdapat dalam protokol.
+[TIDAK TERDENGAR] terdapat dalam protokol.
 
 728
 00:31:19,380 --> 00:31:24,100
@@ -3459,7 +3459,7 @@ Ya.
 
 731
 00:31:24,870 --> 00:31:25,995
-AUDIENCE: Saya hanya penasaran.
+AUDIENS: Saya hanya penasaran.
 
 732
 00:31:25,995 --> 00:31:27,852
@@ -3486,11 +3486,11 @@ untuk kunci tertentu?
 
 737
 00:31:39,000 --> 00:31:39,809
-PROFESSOR: Hah?
+PROFESOR: Hah?
 
 738
 00:31:39,809 --> 00:31:41,600
-AUDIENCE: Mengapa hal itu
+AUDIENS: Mengapa hal itu
 tidak dapat bekerja?
 
 739
