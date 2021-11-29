@@ -5203,56 +5203,56 @@ sesuatu yang berhubungan dengan
 
 1110
 01:00:06,770 --> 01:00:08,690
-to digital signatures.
+tanda tangan digital.
 
 1111
 01:00:08,690 --> 01:00:13,030
-So digital signatures are
-this wonderful invention
+Jadi tanda tangan digital ialah
+penemuan indah
 
 1112
 01:00:13,030 --> 01:00:18,290
-that came out of MIT in a
-computer science laboratory--
+yang keluar dari MIT dalam 
+laboratorium ilmu komputer--
 
 1113
 01:00:18,290 --> 01:00:23,160
-again, Ron Rivest and
-collaborators-- which
+lagi-lagi, Ron Rivest dan
+kolaborator-kolaboratornya-- dimana
 
 1114
 01:00:23,160 --> 01:00:28,120
-are a way of digitally
-signing a document using
+sebuah cara menandatangani dokumen
+secara digital dengan menggunakan
 
 1115
 01:00:28,120 --> 01:00:31,170
-a secret key, a private key.
+sebuah kunci rahasia, kunci privat
 
 1116
 01:00:31,170 --> 01:00:35,660
-But anybody who has
-access to a public key,
+Namun siapapun yang punya
+akses ke sebuah kunci publik,
 
 1117
 01:00:35,660 --> 01:00:37,210
-so it could be
-pretty much anybody,
+jadi itu bisa jadi
+kurang lebih siapa saja,
 
 1118
 01:00:37,210 --> 01:00:41,647
-could verify the authenticity
-of that signature, right?
+dapat memverifikasi otentikasi
+tanda tangan tersebut, bukan?
 
 1119
 01:00:41,647 --> 01:00:43,230
-So that's what a
-digital signature is.
+Jadi itulah sebuah
+tanda tangan digital.
 
 1120
 01:00:52,490 --> 01:00:55,960
-So we're going to talk
-about public cryptography
+Jadi kita akan membahas
+mengenai kriptografi publik
 
 1121
 01:00:55,960 --> 01:01:00,730
