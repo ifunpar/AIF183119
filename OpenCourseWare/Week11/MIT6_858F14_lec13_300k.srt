@@ -2803,57 +2803,57 @@ Kerberos 5 does now,
 
 589
 00:26:01,730 --> 00:26:04,277
-is they both encrypt
-all the pieces of data
+adalah mereka berdua meng-enkripsi
+semua potongan data
 
 590
 00:26:04,277 --> 00:26:05,860
-and they also
-authenticate the message
+dan mereka juga
+meng-autentikasi pesan tersebut
 
 591
 00:26:05,860 --> 00:26:09,350
-by basically computing
-a hash with a key.
+dengan cara menghitung
+sebuah hash dengan sebuah kunci.
 
 592
 00:26:09,350 --> 00:26:11,320
-And then the result
-actually tells you
+Dan kemudian hasilnya
+sebenarnya memberitahu Anda
 
 593
 00:26:11,320 --> 00:26:13,960
-that, oh, that piece of data
-just wasn't tampered with.
+bahwa, oh, potongan data itu
+tidak dirusak.
 
 594
 00:26:13,960 --> 00:26:16,389
-It was correctly signed
-with this key, et cetera.
+Potongan tersebut juga ditanda-tangani dengan benar
+menggunakan kunci ini, dan lain-lain.
 
 595
 00:26:16,389 --> 00:26:17,930
-And what actually
-happens in Kerberos
+Dan apa yang sebenarnya
+terjadi di Kerberos
 
 596
 00:26:17,930 --> 00:26:20,030
-version 4 is there
-are some extra bits
+versi 4 adalah ada
+beberapa bits ekstra
 
 597
 00:26:20,030 --> 00:26:23,110
-in this thing that was
-encrypted that should all
+di dalam benda ini yang
+terenkripsi yang seharusnya semuanya itu
 
 598
 00:26:23,110 --> 00:26:25,350
-be some pattern like zeros.
+membentuk beberapa pola seperti beberapa nol.
 
 599
 00:26:25,350 --> 00:26:28,150
-And typically, if you
-get the key wrong,
+Dan biasanya, jika kamu
+mendapatkan kunci yang salah,
 
 600
 00:26:28,150 --> 00:26:31,510
