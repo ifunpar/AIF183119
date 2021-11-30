@@ -5256,57 +5256,57 @@ mengenai kriptografi publik
 
 1121
 01:00:55,960 --> 01:01:00,730
-on Thursday, in terms
-of how you could build
+on Thursday, in terms -> pada hari kamis, dalam hal
+of how you could build -> bagaimana Anda bisa membangun
 
 1122
 01:01:00,730 --> 01:01:06,640
-systems or encryption algorithms
-that are public key algorithms.
+systems or encryption algorithms -> sistem atau algoritma enkripsi
+that are public key algorithms. ->  yang merupakan algoritma kunci publik. 
 
 1123
 01:01:06,640 --> 01:01:12,470
-But here I'll just tell you
-what we want out of them.
+But here I'll just tell you -> Tapi disini Saya hanya akan memberitahu Anda
+what we want out of them. -> apa yang kita inginkan dari mereka. 
 
 1124
 01:01:12,470 --> 01:01:15,100
-Essentially what we have here
-in the case of signatures,
+Essentially what we have here -> Pada dasarnya apa yang kita miliki di sini
+in the case of signatures, -> dalam hal tanda tangan, 
 
 1125
 01:01:15,100 --> 01:01:18,100
-we actually want to talk
-about encryption here,
+we actually want to talk -> Kami sebenarnya ingin berbicara 
+about encryption here, -> tentang enkripsi disini, 
 
 1126
 01:01:18,100 --> 01:01:20,180
-are-- there's two
-keys associated
+are-- there's two -> adalah-- terdapat dua 
+keys associated -> kunci terkait
 
 1127
 01:01:20,180 --> 01:01:24,030
-with a public key system.
+with a public key system. -> dengan sistem kunci publik. 
 
 1128
 01:01:24,030 --> 01:01:26,880
-Anybody and everybody
-in the system
+Anybody and everybody -> Siapa saja dan semua orang
+in the system -> dalam sistem
 
 1129
 01:01:26,880 --> 01:01:31,090
-would have a public key that
-you can put on your website.
+would have a public key that -> akan memiliki kunci publik 
+you can put on your website. -> yang dapat Anda masukkan ke situs web Anda. 
 
 1130
 01:01:31,090 --> 01:01:34,500
-And you also have a secret key--
-that's like your password--
+And you also have a secret key-- -> Dan Anda juga memiliki kunci rahasia--
+that's like your password-- -> seperti kata sandi Anda-- 
 
 1131
 01:01:34,500 --> 01:01:35,930
-that you don't
-want to write down,
+that you don't -> yang Anda tidak
+want to write down, -> ingin tulis, 
 
 1132
 01:01:35,930 --> 01:01:38,221
