@@ -4293,7 +4293,7 @@ bilangan bulat tidak bertanda.
 
 929
 00:41:35,177 --> 00:41:36,260
-Anda bisa melakukan ini dengan tanda tangan.
+Anda bisa melakukan ini dengan tanda.
 
 930
 00:41:36,260 --> 00:41:39,470
@@ -4307,8 +4307,8 @@ tanpa lambang yang berputar putar.
 
 932
 00:41:42,380 --> 00:41:43,910
-So it's really
-nice for computers.
+Jadi ini sangatlah
+bagus untuk komputer.
 
 933
 00:41:43,910 --> 00:41:45,410
