@@ -4701,45 +4701,45 @@ kurva elips ini.
 
 1019
 00:44:56,950 --> 00:44:59,340
-So this is A. And the
-only thing that's defined
+Lalu ini adalah A. dan
+satu satunya hal yang terdefinisi
 
 1020
 00:44:59,340 --> 00:45:01,640
-is addition and subtraction
-and not multiplication.
+adalah penambahan dan pengurangan
+dan bukan perkalian.
 
 1021
 00:45:01,640 --> 00:45:03,090
-TADGE DRYJA: Right.
+TADGE DRYJA: Benar.
 
 1022
 00:45:03,090 --> 00:45:04,920
-You can do the same
-group operations
+Anda bisa melakukan 
+operasi kelompok yang sama
 
 1023
 00:45:04,920 --> 00:45:06,420
-without using elliptic curves.
+tanpa menggunakan kurva elips.
 
 1024
 00:45:06,420 --> 00:45:08,910
-And so you can just
-do exponential modulo
+Jadi anda bisa saja
+melakukan modulo eksponensial
 
 1025
 00:45:08,910 --> 00:45:10,440
-big prime number.
+bilangan prima yang besar.
 
 1026
 00:45:10,440 --> 00:45:11,940
-I'm going to use
-curves because it's
+Saya akan menggunakan
+kurva karena dia
 
 1027
 00:45:11,940 --> 00:45:15,600
-what is used in all
-the actual systems.
+apa yang digunakan di semua
+sistem yang aktual.
 
 1028
 00:45:15,600 --> 00:45:19,380
