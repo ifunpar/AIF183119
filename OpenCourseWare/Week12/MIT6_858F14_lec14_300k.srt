@@ -3640,74 +3640,74 @@ carefully figured out
 
 769
 00:32:51,880 --> 00:32:56,610
-another message that hashes
-to the same MD5 value.
+pesan lain yang melakukan hash
+pada nilai MDS yang sama.
 
 770
 00:32:56,610 --> 00:33:02,090
-And as a result, now you have a
-signature by a CA on some hash,
+Dan hasilnya, sekarang Anda memiliki sebuah
+tanda tangan oleh sebuah CA dengan hash tertentu,
 
 771
 00:33:02,090 --> 00:33:04,964
-and then you have a different
-message, a different key,
+dan lalu Anda memiliki sebuah pesan
+berbeda, sebuah kunci berbeda,
 
 772
 00:33:04,964 --> 00:33:06,380
-or a different
-name that you could
+atau sebuah nama
+berbeda yang dapat Anda
 
 773
 00:33:06,380 --> 00:33:08,870
-convince someone was signed.
+yakinkan seseorang telah ditandatangani.
 
 774
 00:33:08,870 --> 00:33:10,697
-And this does happen.
+Dan ini memang terjadi.
 
 775
 00:33:10,697 --> 00:33:13,280
-Like, if you spend a lot of time
-trying to break a single key,
+Seperti, jika Anda menghabiskan banyak waktu
+berusaha membobol sebuah kunci,
 
 776
 00:33:13,280 --> 00:33:15,430
-than you will
-succeed eventually.
+maka Anda pada
+akhirnya akan berhasil.
 
 777
 00:33:15,430 --> 00:33:18,750
-If that certificate
-was using crypto,
+Jika sertifikat tersebut
+menggunakan kriptografi,
 
 778
 00:33:18,750 --> 00:33:20,456
-that could be brute force.
+itu dapat dibrute force.
 
 779
 00:33:20,456 --> 00:33:22,830
-Another example of something
-that's probably not so great
+Contoh lain dari sesuatu
+yang mungkin tidak terlalu bagus
 
 780
 00:33:22,830 --> 00:33:24,067
-now is if you're using RSA.
+sekarang adalah jika Anda menggunakan RSA.
 
 781
 00:33:24,067 --> 00:33:25,525
-We haven't really
-talked about RSA,
+Kita belum benar-benar
+berbicara mengenai RSA,
 
 782
 00:33:25,525 --> 00:33:27,465
-but RSA is one of
-these public key crypto
+namun RSA adalah salah satu dari
+kumpulan sistem kriptografi kunci publik
 
 783
 00:33:27,465 --> 00:33:30,370
-systems that allows us to
-either encrypt messages or sign
+yang memungkinkan kita untuk baik
+mengenkripsi pesan-pesan ataupun menandatangani
 
 784
 00:33:30,370 --> 00:33:31,610
