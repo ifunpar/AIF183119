@@ -4725,49 +4725,49 @@ tanpa menggunakan kurva elips.
 1024
 00:45:06,420 --> 00:45:08,910
 Jadi anda bisa saja
-melakukan modulo eksponensial
+do exponential modulo
 
 1025
 00:45:08,910 --> 00:45:10,440
-bilangan prima yang besar.
+big prime number.
 
 1026
 00:45:10,440 --> 00:45:11,940
-Saya akan menggunakan
-kurva karena dia
+I'm going to use
+curves because it's
 
 1027
 00:45:11,940 --> 00:45:15,600
-apa yang digunakan di semua
-sistem yang aktual.
+what is used in all
+the actual systems.
 
 1028
 00:45:15,600 --> 00:45:19,380
-Tapi anda bisa melupakan
-kurvanya setelah ini, benar?
+But you can sort of forget about
+the curve after this, right?
 
 1029
 00:45:19,380 --> 00:45:25,140
-Anda bisa mengatakan, baik, lihat, kita baru saja
-memiliki variable dengan huruf besar
+But you can sort of forget about
+the curve after this, right?
 
 1030
 00:45:25,140 --> 00:45:26,460
-dan variabel huruf kecil ini.
+and these lowercase variables.
 
 1031
 00:45:26,460 --> 00:45:29,070
-Dan faktanya bahwa di
-kurva ini, kita bisa mengurutkan secara abstrak
+And the fact that it's on a
+curve, we can sort of abstract
 
 1032
 00:45:29,070 --> 00:45:31,650
-dan ketahuilah bahwa kita
-memiliki tipe yang berbeda ,
+away and just know that we
+have these different types,
 
 1033
 00:45:31,650 --> 00:45:32,460
-dasarnya.
+essentially.
 
 1034
 00:45:32,460 --> 00:45:34,110
