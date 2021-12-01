@@ -4696,8 +4696,8 @@ TADGE DRYJA: Yang mana yang paling besar.
 
 1018
 00:44:55,670 --> 00:44:56,950
-AUDIENCE: --and using
-this elliptic curve.
+Audiens: --dan menggunakan
+kurva elips ini.
 
 1019
 00:44:56,950 --> 00:44:59,340
