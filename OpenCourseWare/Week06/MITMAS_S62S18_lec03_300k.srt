@@ -4743,31 +4743,31 @@ sistem yang aktual.
 
 1028
 00:45:15,600 --> 00:45:19,380
-But you can sort of forget about
-the curve after this, right?
+Tapi anda bisa melupakan
+kurvanya setelah ini, benar?
 
 1029
 00:45:19,380 --> 00:45:25,140
-You can say, well, look, we just
-have these uppercase variables
+Anda bisa mengatakan, baik, lihat, kita baru saja
+memiliki variable dengan huruf besar
 
 1030
 00:45:25,140 --> 00:45:26,460
-and these lowercase variables.
+dan variabel huruf kecil ini.
 
 1031
 00:45:26,460 --> 00:45:29,070
-And the fact that it's on a
-curve, we can sort of abstract
+Dan faktanya bahwa di
+kurva ini, kita bisa mengurutkan secara abstrak
 
 1032
 00:45:29,070 --> 00:45:31,650
-away and just know that we
-have these different types,
+dan ketahuilah bahwa kita
+memiliki tipe yang berbeda ,
 
 1033
 00:45:31,650 --> 00:45:32,460
-essentially.
+dasarnya.
 
 1034
 00:45:32,460 --> 00:45:34,110
