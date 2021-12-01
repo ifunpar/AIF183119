@@ -3775,106 +3775,106 @@ computes N equals pq.
 
 802
 00:43:48,600 --> 00:43:51,320
-So she just
-multiplies those out.
+Sehingga dia tinggal
+mengalikannya.
 
 803
 00:43:51,320 --> 00:44:00,660
-She chooses an
-encryption exponent,
+Dia memilih sebuah
+eksponen enkripsi,
 
 804
 00:44:00,660 --> 00:44:07,600
-e, which satisfies this
-little equation, which
+e, yang memenuhi persamaan
+kecil ini, yang
 
 805
 00:44:07,600 --> 00:44:11,560
-says that it's relatively
-prime in relation
+mengatakan bahwa bilangan tersebut
+relatif prima
 
 806
 00:44:11,560 --> 00:44:14,880
-to p minus 1 times q minus 1.
+terhadap p dikurang 1 dikali q dikurang 1.
 
 807
 00:44:14,880 --> 00:44:15,910
-And she knows p and q.
+Dan dia tahu nilai p dan q.
 
 808
 00:44:15,910 --> 00:44:19,550
-So she can compute p
-minus 1 times q minus 1.
+Sehingga dia dapat menghitung p
+dikurang 1 dikalikan q dikurang 1.
 
 809
 00:44:19,550 --> 00:44:24,010
-So the gcd of e and p
-minus 1, q minus 1 is 1.
+Jadi hasil gcd dari e dan p
+dikurang 1, q dikurang 1 adalah 1.
 
 810
 00:44:24,010 --> 00:44:26,740
-And you can certainly
-accomplish this simply
+Dan Anda pasti bisa
+menyelesaikan ini hanya
 
 811
 00:44:26,740 --> 00:44:29,890
-by choosing e to be a prime.
+dengan memilih e sebagai bilangan prima.
 
 812
 00:44:29,890 --> 00:44:34,600
-Because then a gcd of a prime
-with anything else is 1.
+Karena dengan demikian hasil gcd dari bilangan
+prima dengan bilangan lainnya adalah 1.
 
 813
 00:44:34,600 --> 00:44:39,130
-And it turns out that RSA uses--
-this is all going to be public,
+Dan ternyata RSA menggunakan--
+semua ini akan menjadi publik,
 
 814
 00:44:39,130 --> 00:44:41,370
-by the way.
+omong-omong.
 
 815
 00:44:41,370 --> 00:44:42,560
-e is going to be public.
+e akan menjadi publik.
 
 816
 00:44:42,560 --> 00:44:44,080
-So you can just fix that.
+Jadi Anda bisa memperbaikinya.
 
 817
 00:44:44,080 --> 00:44:48,470
-And most RSA algorithms just
-fix that to be a small number.
+Dan kebanyakan algoritma RSA hanya
+memperbaikinya menjadi bilangan kecil.
 
 818
 00:44:48,470 --> 00:44:51,430
-The encryption exponent
-is a small number.
+Eksponen enkripsinya adalah
+bilangan bernilai kecil.
 
 819
 00:44:51,430 --> 00:44:52,910
-And the reason
-it's a small number
+Dan alasan bilangannya
+bernilai kecil
 
 820
 00:44:52,910 --> 00:44:55,160
-is because you're worried
-about performance.
+adalah karena Anda khawatir
+terhadap kinerja.
 
 821
 00:44:55,160 --> 00:44:57,500
-And we're going to
-exponentiate using e.
+Dan kita akan melakukan
+eksponensial menggunakan e.
 
 822
 00:44:57,500 --> 00:44:59,750
-And the smaller it is,
-the faster the encryption
+Dan semakin kecil bilangannya,
+semakin cepat enkripsinya
 
 823
 00:44:59,750 --> 00:45:00,910
-is going to go.
+akan berjalan.
 
 824
 00:45:00,910 --> 00:45:04,530
