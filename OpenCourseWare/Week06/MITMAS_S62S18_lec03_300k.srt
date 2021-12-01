@@ -4297,7 +4297,7 @@ Anda bisa melakukan ini dengan tanda.
 
 930
 00:41:36,260 --> 00:41:39,470
-Tetapi semenjak 
+Tetapi semenjak
 sisa bagi anda beberapa angka besar,
 
 931
@@ -4318,7 +4318,7 @@ ini dengan sangat baik
 934
 00:41:45,410 --> 00:41:47,030
 Komputer juga sangat baik dalam
-menghitung floating point.
+menghitung pecahan.
 
 935
 00:41:47,030 --> 00:41:48,680
@@ -4327,7 +4327,7 @@ di dalam kriptografi,
 
 936
 00:41:48,680 --> 00:41:51,520
-Seringkali floating point
+Sering kali pecahan
 berakhir dengan eror, benar,
 
 937
@@ -4342,7 +4342,7 @@ angka desimal yang anda bisa simpan.
 
 939
 00:41:58,670 --> 00:42:01,010
-Floating point anda keluar
+pecahan anda mencapai
 dengan presisi tertentu.
 
 940
@@ -4357,7 +4357,7 @@ Anda ingin tidak ada kesalahan, benar?
 942
 00:42:06,470 --> 00:42:09,500
 Seperti di fungsi hash,
-itu sangat exact (pasti).
+itu sangat tepat.
 
 943
 00:42:09,500 --> 00:42:12,140
@@ -4367,7 +4367,7 @@ di kriptografi,
 944
 00:42:12,140 --> 00:42:14,960
 Anda lebih sering menggunakan integer,
-dibanding floating point atau rasional
+dibanding pecahan atau rasional
 
 945
 00:42:14,960 --> 00:42:16,110
@@ -4380,7 +4380,7 @@ Oke.
 947
 00:42:16,610 --> 00:42:20,600
 Jadi dalam bilangan skala, ini
-hanya menggunakan integer,
+hanya menggunakan bilangan bulat,
 
 948
 00:42:20,600 --> 00:42:22,520
@@ -4393,7 +4393,7 @@ Anda bisa lakukan ini.
 950
 00:42:23,480 --> 00:42:25,940
 Dalam semua pengerjaan,
-yang sudah familiar bagi anda.
+yang sudah anda kenal.
 
 951
 00:42:25,940 --> 00:42:28,070
@@ -4401,7 +4401,7 @@ Itu cukup singkat dan jelas.
 
 952
 00:42:28,070 --> 00:42:29,300
-dengan points.
+dengan point-point.
 
 953
 00:42:29,300 --> 00:42:32,960
@@ -4415,12 +4415,12 @@ secara visual.
 
 955
 00:42:36,020 --> 00:42:38,030
-Lalu pengerjaan secara matematika
-, secara komputer
+dan kemudian persamaannya
+untuk itu, komputer itu
 
 956
 00:42:38,030 --> 00:42:39,810
-komputer bisa mengerjakannya dengan cepat.
+dapat mengerjakannya dengan cepat.
 
 957
 00:42:39,810 --> 00:42:41,630
@@ -4429,7 +4429,7 @@ Tetapi, ini tidak terdefinisi.
 958
 00:42:41,630 --> 00:42:46,320
 Perkalian dan penjumlahan
-dengan dua (points) itu tidak terdefinisi.
+dengan dua point itu tidak terdefinisi.
 
 959
 00:42:46,320 --> 00:42:49,042
@@ -4451,12 +4451,12 @@ Anda sudah mendapat satu operasi.
 
 963
 00:42:53,210 --> 00:42:55,052
-Anda tidak dapat (harus) ini setelah ini.
+Anda tidak memiliki selain yang ini.
 
 964
 00:42:55,052 --> 00:42:56,510
 Jadi anda bisa menambah dan
-mengurangi poin,
+mengurangi point,
 
 965
 00:42:56,510 --> 00:42:58,430
@@ -4481,7 +4481,7 @@ ya?
 970
 00:43:04,490 --> 00:43:08,100
 Audiens: Dalam kasus sebelumnya,
-ketika anda sedang menambahkan poin,
+ketika anda sedang menambahkan point,
 
 971
 00:43:08,100 --> 00:43:09,380
@@ -4499,7 +4499,7 @@ koordinat x dan y
 
 974
 00:43:14,840 --> 00:43:15,720
-untuk diatambahkan, benar?
+untuk ditambahkan, benar?
 
 975
 00:43:18,093 --> 00:43:19,760
@@ -4517,8 +4517,8 @@ koordinat x dan y dari P?
 
 978
 00:43:22,665 --> 00:43:24,290
-Apa koordinat x dan
-y dari Q?
+Apa koordinat x- dan
+koordinat y dari Q?
 
 979
 00:43:27,980 --> 00:43:31,440
@@ -4537,7 +4537,7 @@ di titik yang lain.
 982
 00:43:34,615 --> 00:43:38,290
 Audiens: Penambahan sebenarnya
-didefinisikan sebagai perhitungan poin.
+didefinisikan sebagai perhitungan point.
 
 983
 00:43:38,290 --> 00:43:41,400
@@ -4563,11 +4563,11 @@ Tapi persamaannya akan menjadi--
 988
 00:43:47,900 --> 00:43:50,150
 sejak komputer tidak 
-benar benar melihat kurvanya,
+benar-benar melihat kurvanya,
 
 989
 00:43:50,150 --> 00:43:51,140
-anda cuku bilang, Oke.
+anda cukup bilang, Oke.
 
 990
 00:43:51,140 --> 00:43:52,700
@@ -4672,7 +4672,7 @@ juga merupakan operasi yang bisa saya lakukan.
 
 1013
 00:44:43,320 --> 00:44:47,608
-Saya bisa meniadakan sesuatu,
+Saya bisa menegasikan sesuatu,
 Ini memungkinkan saya untuk melakukan pengurangan.
 
 1014
@@ -4687,7 +4687,7 @@ operasi berkelompok
 
 1016
 00:44:51,530 --> 00:44:54,337
-dibidang bilanag
+di bidang bilangan 
 asli, hasil bagi--
 
 1017
@@ -4748,8 +4748,8 @@ the curve after this, right?
 
 1029
 00:45:19,380 --> 00:45:25,140
-But you can sort of forget about
-the curve after this, right?
+You can say, well, look, we just
+have these uppercase variables
 
 1030
 00:45:25,140 --> 00:45:26,460
