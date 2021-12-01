@@ -4630,69 +4630,69 @@ Anda hanya tinggal turun, benar?
 
 1004
 00:44:18,920 --> 00:44:22,880
-So if I want P minus Q, I
-should say P plus negative Q.
+Jadi jika saya ingin mengurangkan P dan Q, saya
+harus mengatakan P ditambah negatif Q.
 
 1005
 00:44:22,880 --> 00:44:26,030
-And negative Q is just right
-here, right down on the axis.
+Dan negatif Q tepat berada
+disini, tepat dibawah sumbu.
 
 1006
 00:44:26,030 --> 00:44:27,980
-So I say, OK, I want
-P minus Q. I go here.
+Jadi saya katakan, Oke, Saya ingin
+P dikurang Q. Saya lanjutkan kesini.
 
 1007
 00:44:27,980 --> 00:44:28,730
-Find it.
+Temukanlah.
 
 1008
 00:44:28,730 --> 00:44:31,920
-It's going to be
-up there somewhere.
+Dia akan berada di
+atas sana di suatu tempat.
 
 1009
 00:44:31,920 --> 00:44:32,420
-So yeah.
+Jadi ya.
 
 1010
 00:44:32,420 --> 00:44:37,050
-You just add the
-negative of the number.
+Anda hanya tinggal menambahkan
+bilangan negatif dari angka tersebut.
 
 1011
 00:44:37,050 --> 00:44:40,470
-I guess that's another thing.
+Saya pikir itu adalah hal yang lain.
 
 1012
 00:44:40,470 --> 00:44:43,320
-Minus B-- negative B-- is
-also an operation I can do.
+Dikurang B-- negatif B-- 
+juga merupakan operasi yang bisa saya lakukan.
 
 1013
 00:44:43,320 --> 00:44:47,608
-I can negate something,
-which lets me do subtraction.
+Saya bisa meniadakan sesuatu,
+Ini memungkinkan saya untuk melakukan pengurangan.
 
 1014
 00:44:47,608 --> 00:44:49,650
-AUDIENCE: For those of
-you with math backgrounds,
+Audiense: Bagi
+kalian dengan latar belakang matematika,
 
 1015
 00:44:49,650 --> 00:44:51,530
-this is defining
-a group operation
+ini mendefinisikan
+operasi berkelompok
 
 1016
 00:44:51,530 --> 00:44:54,337
-on the field of natural
-numbers, modulo--
+dibidang bilanag
+asli, hasil bagi--
 
 1017
 00:44:54,337 --> 00:44:55,670
-TADGE DRYJA: Which is a big one.
+TADGE DRYJA: Yang mana yang paling besar.
 
 1018
 00:44:55,670 --> 00:44:56,950
