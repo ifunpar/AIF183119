@@ -5807,91 +5807,91 @@ in a lot of by 12
 
 1224
 00:52:00,940 --> 00:52:03,395
-I just provided things
-that are not numbers.
+Saya baru saja memasukan banyak hal
+yang bukan merupakan angka.
 
 1225
 00:52:03,395 --> 00:52:04,020
-It prints zero.
+Dia menampilkan nol.
 
 1226
 00:52:04,020 --> 00:52:06,430
-That's not so bad.
+Itu tidak terlalu buruk.
 
 1227
 00:52:06,430 --> 00:52:10,990
-But suppose I'm going to
-paste in a huge number of As.
+Tapi seandainya saya menuliskan
+huruf A dalam jumlah yang banyak.
 
 1228
 00:52:10,990 --> 00:52:13,490
-OK, so now the program crashes.
+Oke, jadi sekarang programnya crash.
 
 1229
 00:52:13,490 --> 00:52:14,770
-Maybe not too surprising.
+Mungkin tidak terlalu mengejutkan.
 
 1230
 00:52:14,770 --> 00:52:18,115
-So if it was the case that if
-I send a bad request to the web
+Jadi kalau kasusnya adalah ketika saya
+mengirim sebuah permintaan yang buruk ke
 
 1231
 00:52:18,115 --> 00:52:20,740
-server, it just doesn't get back
-to me or doesn't send a reply,
+server web, dia tidak merespon
+saya atau tidak mengirim balasan,
 
 1232
 00:52:20,740 --> 00:52:21,629
-that would be fine.
+maka itu tidak masalah.
 
 1233
 00:52:21,629 --> 00:52:23,170
-But we'll sort of
-look inside and see
+Tapi kita akan semacam
+memandang ke dalam dan melihat
 
 1234
 00:52:23,170 --> 00:52:25,750
-what happens, and try to
-figure out how we can actually
+apa yang terjadi, dan mencoba untuk
+mencari tahu bagaimana cara kita bisa
 
 1235
 00:52:25,750 --> 00:52:30,610
-take advantage of this crash
-to maybe do something much more
+memanfaatkan crash ini untuk barangkali
+melakukan sesuatu yang jauh lebih
 
 1236
 00:52:30,610 --> 00:52:35,960
-interesting, or, well, much more
-along with what a hacker might
+menarik, atau, yah, jauh lebih sesuai
+dengan apa yang seorang hacker mungkin
 
 1237
 00:52:35,960 --> 00:52:37,794
-be interested in doing.
+tertarik untuk melakukannya.
 
 1238
 00:52:37,794 --> 00:52:39,710
-So to do this, we're
-going to run this program
+Jadi untuk melakukan ini, kita
+akan menjalankan program ini
 
 1239
 00:52:39,710 --> 00:52:40,680
-under a debugger.
+di bawah sebuah debugger.
 
 1240
 00:52:40,680 --> 00:52:43,980
-You'll get super familiar
-with this in lab one.
+Anda akan sangat terbiasa
+dengan ini dalam lab satu.
 
 1241
 00:52:43,980 --> 00:52:45,500
-But for now, what
-we're going to do
+Tapi untuk sekarang, apa
+yang kita akan lakukan
 
 1242
 00:52:45,500 --> 00:52:49,700
-is set a breakpoint in
-that redirect function.
+adalah memasang sebuah breakpoint (titik berhenti)
+dalam fungsi pengalihan itu.
 
 1243
 00:52:49,700 --> 00:52:52,380
