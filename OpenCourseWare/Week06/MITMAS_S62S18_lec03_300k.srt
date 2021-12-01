@@ -4725,11 +4725,11 @@ tanpa menggunakan kurva elips.
 1024
 00:45:06,420 --> 00:45:08,910
 Jadi anda bisa saja
-do exponential modulo
+melakukan modulo eksponensial
 
 1025
 00:45:08,910 --> 00:45:10,440
-big prime number.
+bilangan prima yang besar.
 
 1026
 00:45:10,440 --> 00:45:11,940
