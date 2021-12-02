@@ -3499,8 +3499,8 @@ PROFESOR: Saya pikir itu bekerja.
 
 740
 00:31:42,840 --> 00:31:45,048
-OK, jadi itulah kira-kira yang
-menjadi salah pada skema ini.
+OK, jadi seperti apa kira-kira yang
+menjadi kesalahan pada skema ini.
 
 741
 00:31:45,048 --> 00:31:46,990
@@ -3514,12 +3514,12 @@ topografi yang baik disini,
 
 743
 00:31:49,440 --> 00:31:53,230
-dan seperti untuk Kerberos, orang-orang
+dan untuk Kerberos, orang-orang
 memulainya dengan menggunakan kriptografi yang baik,
 
 744
 00:31:53,230 --> 00:31:55,226
-tapi itu menjadi lebih buruk
+tapi hal itu menjadi lebih buruk
 dan semakin buruk seiring berjalannya waktu.
 
 745
@@ -3567,7 +3567,7 @@ mempunyai beberapa batasan,
 
 754
 00:32:13,080 --> 00:32:15,510
-biasanya-- sebenarnya,
+Anda biasanya-- sebenarnya,
 saat Anda menandatangani pesan,
 
 755
@@ -3583,7 +3583,7 @@ hash itu sendiri karena
 757
 00:32:19,710 --> 00:32:21,860
 sulit untuk menandatangani pesan
-raksasa, tetapi
+yang besar, tetapi
 
 758
 00:32:21,860 --> 00:32:24,347
@@ -3591,41 +3591,42 @@ mudah untuk menandatangani hash yang ringkas
 
 759
 00:32:24,347 --> 00:32:25,930
-satu hal yang
+Dan satu hal yang
 sebenarnya salah
 
 760
 00:32:25,930 --> 00:32:29,390
 adalah bahwa orang-orang
-menggunakan MD5 sebagai hash function
+menggunakan MD5 sebagai fungsi hash
 
 761
 00:32:29,390 --> 00:32:34,844
-untuk menciutkan pesan besar
-di sini masuk ke 128 bit
+untuk mengecilkan pesan yang besar
+ke dalam bentuk ukuran 128 bit
 
 762
 00:32:34,844 --> 00:32:36,510
 yang Anda
-akan benar-benar menandatangani
+akan benar-benar tandatangani
 
 763
 00:32:36,510 --> 00:32:38,400
-dengan sistem kripto.
+dengan sistem kriptografi.
 
 764
 00:32:38,400 --> 00:32:40,930
-MD5 bagus mungkin 20 tahun
+MD5 dikatakan bagus 20 tahun yang
 lalu, dan seiring waktu,
 
 765
 00:32:40,930 --> 00:32:43,770
 orang menemukan kelemahan
-di MD5 yang bisa dieksploitasi.
+pada MD5 yang dapat dieksploitasi.
 
 766
 00:32:43,770 --> 00:32:46,340
-Jadi sebenarnya, pada akhirnya, seseorang benar-benar
+Jadi sebenarnya, pada
+suatu titik, seseorang benar-benar
 
 767
 00:32:46,340 --> 00:32:49,560
@@ -3635,7 +3636,7 @@ hash MD5 tertentu,
 768
 00:32:49,560 --> 00:32:51,880
 dan kemudian mereka
-dipikirkan dengan cermat
+memikirkan dengan cermat
 
 769
 00:32:51,880 --> 00:32:56,610
@@ -3650,16 +3651,16 @@ tanda tangan oleh sebuah CA dengan hash tertentu,
 771
 00:33:02,090 --> 00:33:04,964
 dan lalu Anda memiliki sebuah pesan
-berbeda, sebuah kunci berbeda,
+berbeda, sebuah kunci yang berbeda,
 
 772
 00:33:04,964 --> 00:33:06,380
-atau sebuah nama
-berbeda yang dapat Anda
+atau sebuah nama yang
+berbeda yang Anda dapat
 
 773
 00:33:06,380 --> 00:33:08,870
-yakinkan seseorang telah ditandatangani.
+yakinkan bahwa seseorang telah ditandatangani.
 
 774
 00:33:08,870 --> 00:33:10,697
@@ -3668,7 +3669,7 @@ Dan ini memang terjadi.
 775
 00:33:10,697 --> 00:33:13,280
 Seperti, jika Anda menghabiskan banyak waktu
-berusaha membobol sebuah kunci,
+berusaha memecahkan sebuah kunci,
 
 776
 00:33:13,280 --> 00:33:15,430
@@ -3682,7 +3683,7 @@ menggunakan kriptografi,
 
 778
 00:33:18,750 --> 00:33:20,456
-itu dapat dibrute force.
+hal itu dapat dibrute force.
 
 779
 00:33:20,456 --> 00:33:22,830
@@ -3714,13 +3715,13 @@ pesan.
 
 785
 00:33:31,610 --> 00:33:34,560
-dengan RSA, hari-hari
-sekarang, ini mungkin
+dengan RSA, pada hari-hari
+ini, mungkin saja
 
 786
 00:33:34,560 --> 00:33:38,965
 dapat dilakukan untuk menggunakan banyak uang
-dan memecah 1,000 bit kunci RSA.
+dan memecahkan 1,000 bit kunci RSA.
 
 787
 00:33:38,965 --> 00:33:41,090
@@ -3729,7 +3730,7 @@ menghabiskan cukup banyak pekerjaan,
 
 788
 00:33:41,090 --> 00:33:44,850
-tetapi itu bisa dikerjakan, mungkin
+tetapi hal itu dapat dikerjakan, mungkin
 dalam setahun dengan mudah.
 
 789
@@ -3738,17 +3739,17 @@ Dari situ, pastinya.
 
 790
 00:33:46,140 --> 00:33:49,720
-Anda dapat meminta sertifikat
-otoritas untuk menandatangi beberapa pesan,
+Anda dapat meminta otoritas
+sertifikat untuk menandatangi beberapa pesan,
 
 791
 00:33:49,720 --> 00:33:52,850
-atau anda bahkan bisa mengambil
+atau Anda bahkan bisa mengambil
 kunci publik seseorang yang sudah ada
 
 792
 00:33:52,850 --> 00:33:55,680
-dan coba untuk memaksa
+dan mecoba melakukan brute force pada
 kunci rahasia yang seharusnya, atau
 
 793
@@ -3757,23 +3758,23 @@ kunci rahasia yang seharusnya, atau
 
 794
 00:33:56,430 --> 00:34:01,630
-Jadi Anda dapat terus mengikuti
-penyerang dengan arti tertentu.
+Jadi Anda harus mengikuti
+penyerang dalam beberapa hal.
 
 795
 00:34:01,630 --> 00:34:03,745
-Anda harus menggunakan
-kunci lebih besar dengan RSA.
+Anda harus menggunakan kunci
+yang lebih besar dengan RSA.
 
 796
 00:34:03,745 --> 00:34:05,870
 Atau mungkin Anda harus menggunakan
-skema kripto berbeda.
+skema kriptografi yang berbeda.
 
 797
 00:34:05,870 --> 00:34:08,031
-Seperti contohnya, sekarang orang
-tidak menggunakan hashes MD5 
+Sebagai contoh, saat ini orang
+tidak menggunakan hash MD5
 
 798
 00:34:08,031 --> 00:34:08,739
