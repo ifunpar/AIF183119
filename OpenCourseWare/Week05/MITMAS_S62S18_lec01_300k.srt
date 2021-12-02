@@ -4238,56 +4238,56 @@ and NSA made it.
 896
 00:38:41,290 --> 00:38:43,220
 And there have been
-collisions found.
+tabrakan ditemukan.
 
 897
 00:38:43,220 --> 00:38:45,220
-I think there's really
-only one collision that's
+Saya pikir disitu hanya ada
+satu tabrakan yang
 
 898
 00:38:45,220 --> 00:38:48,250
-been found, basically,
-by a team at Google
+telah ditemukan, dasarnya,
+oleh sebuah tim di Google
 
 899
 00:38:48,250 --> 00:38:51,730
-and some Italian
-university last year.
+dan beberapa Universitas Itali
+tahun lalu.
 
 900
 00:38:51,730 --> 00:38:55,390
-And they spent a lot of computer
-time to find this collision.
+dan mereka menghabiskan banyak
+waktu komputer untuk menemukan tabrakan ini.
 
 901
 00:38:55,390 --> 00:38:56,530
-But they did find it.
+Tetapi mereka menemukanya.
 
 902
 00:38:56,530 --> 00:38:58,210
-And then once you find one,
-it's sort of like, oh, yeah,
+Dan sekali anda menemukanya,
+itu seperti, oh, ya,
 
 903
 00:38:58,210 --> 00:39:00,100
-we really shouldn't
-use this anymore.
+kita benar-benar tidak harus
+menggunakan ini lagi.
 
 904
 00:39:00,100 --> 00:39:03,100
-But in both of these
-cases, sha-1 and MD5,
+Tetapi di kedua kasus ini, 
+sha-1 dan MD5,
 
 905
 00:39:03,100 --> 00:39:05,620
-there's no feasible
-preimage attack.
+tidak ada serangan pragambar
+yang bisa dilakukan.
 
 906
 00:39:05,620 --> 00:39:07,812
-So given a hash output
-for either of these,
+Jadi akan diberikan keluaran hash
+untuk salah satu dari ini,
 
 907
 00:39:07,812 --> 00:39:09,520
