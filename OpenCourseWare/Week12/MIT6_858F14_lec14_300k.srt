@@ -3567,76 +3567,75 @@ mempunyai beberapa batasan,
 
 754
 00:32:13,080 --> 00:32:15,510
-you typically-- actually,
-when you sign a message,
+biasanya-- sebenarnya,
+saat Anda menandatangani pesan,
 
 755
 00:32:15,510 --> 00:32:17,360
-you actually take a
-hash of the message
+Anda benar-benar menerima
+hash dari pesan
 
 756
 00:32:17,360 --> 00:32:19,710
-and then you sign the
-hash itself because it's
+dan kemudian Anda menandatangani
+hash itu sendiri karena
 
 757
 00:32:19,710 --> 00:32:21,860
-hard to sign a gigantic
-message, but it's
+sulit untuk menandatangani pesan
+raksasa, tetapi
 
 758
 00:32:21,860 --> 00:32:24,347
-easy to sign a compact hash
+mudah untuk menandatangani hash yang ringkas
 
 759
 00:32:24,347 --> 00:32:25,930
-And one thing that
-actually went wrong
+satu hal yang
+sebenarnya salah
 
 760
 00:32:25,930 --> 00:32:29,390
-is that people used to
-use MD5 as a hash function
+adalah bahwa orang-orang
+menggunakan MD5 sebagai hash function
 
 761
 00:32:29,390 --> 00:32:34,844
-for collapsing the big message
-here signing into a 128 bit
+untuk menciutkan pesan besar
+di sini masuk ke 128 bit
 
 762
 00:32:34,844 --> 00:32:36,510
-thing that you're
-going to actually sign
+yang Anda
+akan benar-benar menandatangani
 
 763
 00:32:36,510 --> 00:32:38,400
-with a crypto system.
+dengan sistem kripto.
 
 764
 00:32:38,400 --> 00:32:40,930
-MD5 was good maybe 20 years
-ago, and then over time,
+MD5 bagus mungkin 20 tahun
+lalu, dan seiring waktu,
 
 765
 00:32:40,930 --> 00:32:43,770
-people discovered weaknesses
-in MD5 that could be exploited.
+orang menemukan kelemahan
+di MD5 yang bisa dieksploitasi.
 
 766
 00:32:43,770 --> 00:32:46,340
-So actually, at some
-point, someone did actually
+Jadi sebenarnya, pada akhirnya, seseorang benar-benar
 
 767
 00:32:46,340 --> 00:32:49,560
-ask for a certificate with
-a particular MD5 hash,
+meminta sertifikat dengan
+hash MD5 tertentu,
 
 768
 00:32:49,560 --> 00:32:51,880
-and then they
-carefully figured out
+dan kemudian mereka
+dipikirkan dengan cermat
 
 769
 00:32:51,880 --> 00:32:56,610
