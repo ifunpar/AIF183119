@@ -4128,54 +4128,54 @@ to the rest of the world
 872
 00:37:38,130 --> 00:37:40,230
 because it was sort
-of interactive,
+interaktif,
 
 873
 00:37:40,230 --> 00:37:43,290
-whereas collisions are very
-clear and non-interactive.
+sedangkan tabrakan sangat
+jelas dan non-interaktif.
 
 874
 00:37:43,290 --> 00:37:45,990
-You can just say, hey,
-here's an x and here's a z.
+Anda hanya bisa mengatakan, hei,
+ini x dan ini z.
 
 875
 00:37:45,990 --> 00:37:47,320
-Anyone can verify these.
+Siapa pun dapat memverifikasi ini.
 
 876
 00:37:47,320 --> 00:37:49,450
-Didn't really matter
-how you got it.
+Tidak terlalu penting
+bagaimana Anda mendapatkannya.
 
 877
 00:37:49,450 --> 00:37:49,950
-OK.
+OKE.
 
 878
 00:37:49,950 --> 00:37:55,360
-So some practical, how
-do these functions work.
+Jadi beberapa praktis, bagaimana
+fungsi-fungsi ini bekerja.
 
 879
 00:37:55,360 --> 00:37:57,850
-Practically speaking,
-the collision resistance
+Secara praktis,
+resistensi tabrakan
 
 880
 00:37:57,850 --> 00:37:59,830
-is a harder property.
+adalah properti yang lebih sulit.
 
 881
 00:37:59,830 --> 00:38:03,130
-So there are many functions
-where the collision resistance
+Jadi ada banyak fungsi
+di mana resistensi tabrakan
 
 882
 00:38:03,130 --> 00:38:06,670
-has been broken where the
-preimage resistance has not
+telah dipatahkan di mana
+resistensi pragambar belum
 
 883
 00:38:06,670 --> 00:38:07,510
