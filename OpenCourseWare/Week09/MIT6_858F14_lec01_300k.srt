@@ -5391,137 +5391,137 @@ paket apapun yang mereka mau.
 
 1136
 00:48:22,690 --> 00:48:26,874
-So they're not restricted
-to certain kinds of packets.
+Jadi mereka tidak dibatasi
+untuk jenis paket tertentu.
 
 1137
 00:48:26,874 --> 00:48:28,290
-Anything you can
-shape and sort of
+Apapun yang Anda dapat
+bentuk dan semacam
 
 1138
 00:48:28,290 --> 00:48:30,187
-deliver to this web
-server, that's fair game.
+pengiriman ke server
+web ini, itu adalah hal yang adil.
 
 1139
 00:48:30,187 --> 00:48:32,270
-Seems like a reasonable
-threat model, in practice,
+Sepertinya sebuah
+model ancaman yang masuk akal, dalam praktek,
 
 1140
 00:48:32,270 --> 00:48:34,450
-to have in mind.
+untuk diingat.
 
 1141
 00:48:34,450 --> 00:48:39,940
-And I guess the goal is that
-this web server shouldn't
+Dan saya rasa tujuannya adalah
+server web ini seharusnya tidak
 
 1142
 00:48:39,940 --> 00:48:42,752
-allow arbitrary stuff
-to go wrong here.
+mengizinkan hal yang sewenang - wenang
+untuk salah disini.
 
 1143
 00:48:42,752 --> 00:48:44,460
-I guess that sort of
-goes along with what
+Saya rasa itu
+sesuai dengan apa yang
 
 1144
 00:48:44,460 --> 00:48:45,590
-the programmer intended.
+dimaksudkan oleh programmer.
 
 1145
 00:48:45,590 --> 00:48:47,740
-The programmer probably
-didn't intend any request
+Pemrogram mungkin
+tidak bermaksud meminta apapun
 
 1146
 00:48:47,740 --> 00:48:49,610
-to be able to access
-anything on the server.
+untuk dapat mengakses
+apapun di server.
 
 1147
 00:48:49,610 --> 00:48:51,630
-And yet, it turns out if you
-make certain kinds of mistakes
+Namun, ternyata jika Anda
+membuat beberapa jenis kesalahan
 
 1148
 00:48:51,630 --> 00:48:53,937
-in writing the web server
-software, which is basically
+dalam menulis perangkat lunak
+server web, yang pada dasarnya adalah
 
 1149
 00:48:53,937 --> 00:48:55,020
-the mechanism here, right?
+mekanisme disini, benar?
 
 1150
 00:48:55,020 --> 00:48:57,390
-The web server software is
-the thing that takes a request
+Perangkat lunak server web adalah
+hal yang menerima sebuah permintaan
 
 1151
 00:48:57,390 --> 00:48:59,050
-and looks at it and
-makes sure that it's not
+dan melihatnya dan
+memastikan bahwa itu tidak
 
 1152
 00:48:59,050 --> 00:49:01,710
-going to do something bad, sends
-a response back if everything's
+akan melakukan sesuatu yang buruk, mengirimkan
+sebuah tanggapan balik jika semuanya
 
 1153
 00:49:01,710 --> 00:49:02,050
-OK.
+baik - baik saja.
 
 1154
 00:49:02,050 --> 00:49:03,424
-The web server in
-this mechanism.
+Server web dalam
+mekanisme ini.
 
 1155
 00:49:03,424 --> 00:49:05,720
-It's enforcing your policy.
+Ini menegakkan kebijakan Anda.
 
 1156
 00:49:05,720 --> 00:49:08,730
-And as a result, if the web
-server software is buggy,
+Dan sebagai hasil, jika perangkat lunak
+server web bermasalah,
 
 1157
 00:49:08,730 --> 00:49:10,270
-then you're in trouble.
+maka Anda dalam masalah.
 
 1158
 00:49:10,270 --> 00:49:12,650
-And one sort of common
-problem, if you're
+Dan satu jenis masalah
+umum, jika Anda
 
 1159
 00:49:12,650 --> 00:49:14,670
-writing software in
-C which, you know,
+sedang menulis perangkat lunak dalam
+C yang mana, Anda tahu,
 
 1160
 00:49:14,670 --> 00:49:16,240
-many things are
-still written in C
+banyak hal yang
+masih ditulis dalam C
 
 1161
 00:49:16,240 --> 00:49:19,590
-and probably will continue to
-be written in C for a while,
+dan mungkin akan terus
+ditulis dalam C untuk sementara waktu,
 
 1162
 00:49:19,590 --> 00:49:21,540
-you can mismanage your
-memory allocations.
+Anda dapat salah mengatur
+alokasi memori Anda.
 
 1163
 00:49:21,540 --> 00:49:25,330
-And as we saw in this SSL
-certificate naming example,
+Dan seperti yang kita sudah lihat dalam contoh
+penamaan sertifikat SSL ini,
 
 1164
 00:49:25,330 --> 00:49:27,270
