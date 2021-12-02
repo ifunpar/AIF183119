@@ -3565,108 +3565,108 @@ Itu semua tentang adalah teori bilangan.
 
 758
 00:41:18,580 --> 00:41:21,190
-Number theory can
-get pretty subtle.
+Teori bilangan bisa
+jadi cukup mendasar.
 
 759
 00:41:21,190 --> 00:41:26,850
-But it's also intricate enough
-that I forget the details.
+Tapi itu juga cukup rumit
+sampai saya lupa detailnya.
 
 760
 00:41:26,850 --> 00:41:30,030
-So let's get started on that.
+Jadi mari kita mulai.
 
 761
 00:41:30,030 --> 00:41:37,300
-Basically, RSA is based on
-primes and factoring numbers
+Pada dasarnya, RSA didasarkan pada
+bilangan prima dan memfaktorkan bilangan
 
 762
 00:41:37,300 --> 00:41:42,760
-into primes and
-using number theory
+menjadi bilangan prima dan
+menggunakan teori bilangan
 
 763
 00:41:42,760 --> 00:41:45,820
-to make sure that you
-can actually accomplish
+untuk memastikan bahwa Anda
+benar-benar dapat mencapai
 
 764
 00:41:45,820 --> 00:41:49,050
-what this is trying to do.
+apa yang sedang coba dilakukan ini.
 
 765
 00:41:49,050 --> 00:41:51,580
-The functionality
-of RSA should be
+Fungsionalitas
+RSA harus
 
 766
 00:41:51,580 --> 00:41:55,550
-distinct from the
-security of RSA.
+berbeda dari
+keamanan RSA.
 
 767
 00:41:55,550 --> 00:41:57,450
-When we talk about the
-functionality of RSA,
+Ketika kita membicarakan tentang
+fungsionalitas RSA,
 
 768
 00:41:57,450 --> 00:42:01,390
-we are saying for
-any message, if Alice
+kita katakan untuk
+setiap pesan, jika Alice
 
 769
 00:42:01,390 --> 00:42:05,270
-uses Bob's public
-key to encrypt it,
+menggunakan kunci publik Bob
+untuk mengenkripsinya,
 
 770
 00:42:05,270 --> 00:42:07,780
-the ciphered text
-resulting from that
+teks terenkripsi
+yang dihasilkan itu
 
 771
 00:42:07,780 --> 00:42:11,700
-should be decryptable
-into exactly the message
+harus dapat didekripsi
+tepat seperti pesan
 
 772
 00:42:11,700 --> 00:42:16,220
-that Alice sent given
-Bob's private key.
+yang dikirim Alice yang diberikan 
+kunci privat Bob.
 
 773
 00:42:16,220 --> 00:42:18,240
-That's the functional
-requirement
+Itulah persyaratan
+fungsional
 
 774
 00:42:18,240 --> 00:42:21,120
-of a public key
-encryption algorithm
+dari algoritma enkripsi
+kunci publik
 
 775
 00:42:21,120 --> 00:42:23,220
-or a public key cryptosystem.
+atau sebuah kriptosistem kunci publik.
 
 776
 00:42:23,220 --> 00:42:26,690
-The security requirement of
-a public key cryptosystem
+Persyaratan keamanan dari
+sebuah kriptosistem kunci publik
 
 777
 00:42:26,690 --> 00:42:28,520
-is what I wrote up there.
+adalah yang saya tulis di atas sana.
 
 778
 00:42:28,520 --> 00:42:32,540
-It's the knowledge of
-SK should be hidden even
+Itu pengetahuan tentang
+SK (secret key) harus disembunyikan bahkan
 
 779
 00:42:32,540 --> 00:42:33,790
-given the knowledge of PK.
+diberikan pengetahuan tentang PK (primary key).
 
 780
 00:42:33,790 --> 00:42:36,190
