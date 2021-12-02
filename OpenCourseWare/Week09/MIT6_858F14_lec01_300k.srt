@@ -5391,137 +5391,137 @@ paket apapun yang mereka mau.
 
 1136
 00:48:22,690 --> 00:48:26,874
-So they're not restricted
-to certain kinds of packets.
+Jadi mereka tidak terbatas
+pada jenis-jenis paket tertentu.
 
 1137
 00:48:26,874 --> 00:48:28,290
-Anything you can
-shape and sort of
+Apapun yang Anda dapat
+bentuk dan semacam
 
 1138
 00:48:28,290 --> 00:48:30,187
-deliver to this web
-server, that's fair game.
+kirimkan ke server
+web ini, itu sah-sah saja.
 
 1139
 00:48:30,187 --> 00:48:32,270
-Seems like a reasonable
-threat model, in practice,
+Kelihatan seperti sebuah
+model ancaman yang masuk akal, dalam praktek,
 
 1140
 00:48:32,270 --> 00:48:34,450
-to have in mind.
+untuk diingat.
 
 1141
 00:48:34,450 --> 00:48:39,940
-And I guess the goal is that
-this web server shouldn't
+Dan saya rasa tujuannya adalah supaya
+server web ini seharusnya tidak
 
 1142
 00:48:39,940 --> 00:48:42,752
-allow arbitrary stuff
-to go wrong here.
+mengizinkan terjadinya sembarang
+hal yang tidak semestinya.
 
 1143
 00:48:42,752 --> 00:48:44,460
-I guess that sort of
-goes along with what
+Saya rasa itu
+sesuai dengan apa yang
 
 1144
 00:48:44,460 --> 00:48:45,590
-the programmer intended.
+dimaksudkan oleh pemrogram.
 
 1145
 00:48:45,590 --> 00:48:47,740
-The programmer probably
-didn't intend any request
+Pemrogram mungkin
+tidak bermaksud agar permintaan apapun
 
 1146
 00:48:47,740 --> 00:48:49,610
-to be able to access
-anything on the server.
+dapat mengakses
+apapun di server.
 
 1147
 00:48:49,610 --> 00:48:51,630
-And yet, it turns out if you
-make certain kinds of mistakes
+Namun, ternyata jika Anda melakukan
+kesalahan-kesalahan tertentu
 
 1148
 00:48:51,630 --> 00:48:53,937
-in writing the web server
-software, which is basically
+dalam menulis perangkat lunak
+server web, yang pada dasarnya adalah
 
 1149
 00:48:53,937 --> 00:48:55,020
-the mechanism here, right?
+mekanismenya di sini, benar?
 
 1150
 00:48:55,020 --> 00:48:57,390
-The web server software is
-the thing that takes a request
+Perangkat lunak server web adalah
+sesuatu yang menerima sebuah permintaan
 
 1151
 00:48:57,390 --> 00:48:59,050
-and looks at it and
-makes sure that it's not
+dan melihatnya dan
+memastikan bahwa dia tidak
 
 1152
 00:48:59,050 --> 00:49:01,710
-going to do something bad, sends
-a response back if everything's
+akan melakukan sesuatu yang buruk, mengirimkan
+sebuah tanggapan balik jika semuanya
 
 1153
 00:49:01,710 --> 00:49:02,050
-OK.
+baik-baik saja.
 
 1154
 00:49:02,050 --> 00:49:03,424
-The web server in
-this mechanism.
+Server web dalam
+mekanisme ini.
 
 1155
 00:49:03,424 --> 00:49:05,720
-It's enforcing your policy.
+Dia sedang menegakkan kebijakan Anda.
 
 1156
 00:49:05,720 --> 00:49:08,730
-And as a result, if the web
-server software is buggy,
+Dan sebagai hasil, jika perangkat lunak
+server webnya bermasalah,
 
 1157
 00:49:08,730 --> 00:49:10,270
-then you're in trouble.
+maka Anda dalam masalah.
 
 1158
 00:49:10,270 --> 00:49:12,650
-And one sort of common
-problem, if you're
+Dan satu jenis masalah
+umum, jika Anda sedang
 
 1159
 00:49:12,650 --> 00:49:14,670
-writing software in
-C which, you know,
+menulis perangkat lunak dalam
+C yang mana, Anda tahu,
 
 1160
 00:49:14,670 --> 00:49:16,240
-many things are
-still written in C
+banyak hal yang
+masih ditulis dalam C
 
 1161
 00:49:16,240 --> 00:49:19,590
-and probably will continue to
-be written in C for a while,
+dan mungkin akan terus
+ditulis dalam C untuk sementara waktu,
 
 1162
 00:49:19,590 --> 00:49:21,540
-you can mismanage your
-memory allocations.
+Anda dapat salah mengatur
+alokasi memori Anda.
 
 1163
 00:49:21,540 --> 00:49:25,330
-And as we saw in this SSL
-certificate naming example,
+Dan seperti yang kita sudah lihat dalam
+contoh penamaan sertifikat SSL ini,
 
 1164
 00:49:25,330 --> 00:49:27,270
@@ -5808,91 +5808,91 @@ in a lot of by 12
 
 1224
 00:52:00,940 --> 00:52:03,395
-I just provided things
-that are not numbers.
+Saya baru saja memasukan banyak hal
+yang bukan merupakan angka.
 
 1225
 00:52:03,395 --> 00:52:04,020
-It prints zero.
+Dia menampilkan nol.
 
 1226
 00:52:04,020 --> 00:52:06,430
-That's not so bad.
+Itu tidak terlalu buruk.
 
 1227
 00:52:06,430 --> 00:52:10,990
-But suppose I'm going to
-paste in a huge number of As.
+Tapi seandainya saya menuliskan
+huruf A dalam jumlah yang banyak.
 
 1228
 00:52:10,990 --> 00:52:13,490
-OK, so now the program crashes.
+Oke, jadi sekarang programnya crash.
 
 1229
 00:52:13,490 --> 00:52:14,770
-Maybe not too surprising.
+Mungkin tidak terlalu mengejutkan.
 
 1230
 00:52:14,770 --> 00:52:18,115
-So if it was the case that if
-I send a bad request to the web
+Jadi kalau kasusnya adalah ketika saya
+mengirim sebuah permintaan yang buruk ke
 
 1231
 00:52:18,115 --> 00:52:20,740
-server, it just doesn't get back
-to me or doesn't send a reply,
+server web, dia tidak merespon
+saya atau tidak mengirim balasan,
 
 1232
 00:52:20,740 --> 00:52:21,629
-that would be fine.
+maka itu tidak masalah.
 
 1233
 00:52:21,629 --> 00:52:23,170
-But we'll sort of
-look inside and see
+Tapi kita akan semacam
+memandang ke dalam dan melihat
 
 1234
 00:52:23,170 --> 00:52:25,750
-what happens, and try to
-figure out how we can actually
+apa yang terjadi, dan mencoba untuk
+mencari tahu bagaimana cara kita bisa
 
 1235
 00:52:25,750 --> 00:52:30,610
-take advantage of this crash
-to maybe do something much more
+memanfaatkan crash ini untuk barangkali
+melakukan sesuatu yang jauh lebih
 
 1236
 00:52:30,610 --> 00:52:35,960
-interesting, or, well, much more
-along with what a hacker might
+menarik, atau, yah, jauh lebih sesuai
+dengan apa yang seorang hacker mungkin
 
 1237
 00:52:35,960 --> 00:52:37,794
-be interested in doing.
+tertarik untuk melakukannya.
 
 1238
 00:52:37,794 --> 00:52:39,710
-So to do this, we're
-going to run this program
+Jadi untuk melakukan ini, kita
+akan menjalankan program ini
 
 1239
 00:52:39,710 --> 00:52:40,680
-under a debugger.
+di bawah sebuah debugger.
 
 1240
 00:52:40,680 --> 00:52:43,980
-You'll get super familiar
-with this in lab one.
+Anda akan sangat terbiasa
+dengan ini dalam lab satu.
 
 1241
 00:52:43,980 --> 00:52:45,500
-But for now, what
-we're going to do
+Tapi untuk sekarang, apa
+yang kita akan lakukan
 
 1242
 00:52:45,500 --> 00:52:49,700
-is set a breakpoint in
-that redirect function.
+adalah memasang sebuah breakpoint (titik berhenti)
+dalam fungsi pengalihan itu.
 
 1243
 00:52:49,700 --> 00:52:52,380
