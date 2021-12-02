@@ -3670,108 +3670,108 @@ diberikan pengetahuan tentang PK (primary key).
 
 780
 00:42:33,790 --> 00:42:36,190
-And there's precise
-computational hardness
+Dan terdapat asumsi
+kesulitan komputasi yang tepat
 
 781
 00:42:36,190 --> 00:42:39,460
-assumptions that are associated
-with each cryptosystem.
+asumsi yang terhubung
+dengan setiap cryptosystem.
 
 782
 00:42:39,460 --> 00:42:41,745
-So let's separate out
-functionality from security.
+Jadi mari pisahkan
+fungsionalitas dari keamanan.
 
 783
 00:42:41,745 --> 00:42:43,370
-We're going to talk
-about functionality
+Kita akan berbicara
+tentang fungsionalitas
 
 784
 00:42:43,370 --> 00:42:44,411
-for the next few minutes.
+untuk beberapa menit kedepan.
 
 785
 00:42:47,760 --> 00:43:00,970
-Alice is going to pick two
-large secret primes, p and q.
+Alice akan memilih dua
+bilangan rahasia prima yang besar, p dan q.
 
 786
 00:43:00,970 --> 00:43:02,660
-So what I'm going
-to describe here
+Jadi apa yang akan saya
+jelaskan di sini
 
 787
 00:43:02,660 --> 00:43:07,480
-are Alice generating her
-public key and her private key.
+adalah Alice menghasilkan
+kunci publik dan kunci privatnya.
 
 788
 00:43:07,480 --> 00:43:09,960
-She's going to then
-publish her public key
+Dia kemudian akan
+mempublikasikan kunci publiknya
 
 789
 00:43:09,960 --> 00:43:12,360
-and keep her private key secret.
+dan merahasiakan kunci privatnya.
 
 790
 00:43:12,360 --> 00:43:14,160
-Bob does the same thing.
+Bob juga melakukan hal yang sama.
 
 791
 00:43:14,160 --> 00:43:16,760
-And then after that,
-they have to register.
+Dan setelah itu,
+mereka harus mendaftar.
 
 792
 00:43:16,760 --> 00:43:20,120
-And this is not something
-we'll spend time on beyond me
+Dan ini bukan sesuatu yang akan
+kita bahas di luar kemampuan saya
 
 793
 00:43:20,120 --> 00:43:21,360
-saying it one more time.
+mengatakannya sekali lagi.
 
 794
 00:43:21,360 --> 00:43:23,820
-They have to register their
-public keys with the VeriSign
+Mereka harus mendaftarkan
+kunci publik mereka dengan VeriSign
 
 795
 00:43:23,820 --> 00:43:26,190
-or the RMVs like I talked about.
+atau RMV seperti yang sudah saya bicarakan.
 
 796
 00:43:26,190 --> 00:43:30,380
-So everyone knows that Alice's
-public key is this long number.
+Jadi semua orang tahu bahwa kunci
+publik Alice adalah angka yang panjang ini.
 
 797
 00:43:30,380 --> 00:43:33,500
-But no one knows
-Alice's private key.
+Tapi tidak ada yang tahu
+kunci privat milik Alice.
 
 798
 00:43:33,500 --> 00:43:35,860
-So Alice picks two
-large secret primes.
+Jadi Alice memilih dua
+bilangan prima rahasia yang besar.
 
 799
 00:43:35,860 --> 00:43:38,240
-So these are actually
-going to result
+Jadi ini benar-benar
+akan menghasilkan
 
 800
 00:43:38,240 --> 00:43:40,560
-in the creation of
-our private key.
+dalam pembuatan
+kunci privat kita.
 
 801
 00:43:40,560 --> 00:43:48,600
-And then Alice
-computes N equals pq.
+Dan kemudian Alice
+menghitung N sama dengan pq.
 
 802
 00:43:48,600 --> 00:43:51,320
