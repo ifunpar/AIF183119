@@ -3710,74 +3710,74 @@ mengenkripsi pesan-pesan ataupun menandatangani
 
 784
 00:33:30,370 --> 00:33:31,610
-messages.
+pesan.
 
 785
 00:33:31,610 --> 00:33:34,560
-With RSA, these
-days, it's probably
+dengan RSA, hari-hari
+sekarang, ini mungkin
 
 786
 00:33:34,560 --> 00:33:38,965
-feasible to spend lots of money
-and break 1,000 bit RSA keys.
+dapat dilakukan untuk menggunakan banyak uang
+dan memecah 1,000 bit kunci RSA.
 
 787
 00:33:38,965 --> 00:33:41,090
-You'd probably have to
-spend a fair amount of work,
+Anda kemungkinan harus
+menghabiskan cukup banyak pekerjaan,
 
 788
 00:33:41,090 --> 00:33:44,850
-but it's doable, probably
-within a year easily.
+tetapi itu bisa dikerjakan, mungkin
+dalam setahun dengan mudah.
 
 789
 00:33:44,850 --> 00:33:46,140
-From there, absolutely.
+Dari situ, pastinya.
 
 790
 00:33:46,140 --> 00:33:49,720
-You can ask a certificate
-authority to sign some message,
+Anda dapat meminta sertifikat
+otoritas untuk menandatangi beberapa pesan,
 
 791
 00:33:49,720 --> 00:33:52,850
-or you can even take
-someone's existing public key
+atau anda bahkan bisa mengambil
+kunci publik seseorang yang sudah ada
 
 792
 00:33:52,850 --> 00:33:55,680
-and try to brute force the
-corresponding secret key, or
+dan coba untuk memaksa
+kunci rahasia yang seharusnya, atau
 
 793
 00:33:55,680 --> 00:33:56,430
-[? manual hack. ?]
+[? meretas manual. ?]
 
 794
 00:33:56,430 --> 00:34:01,630
-So you have to keep up with
-the attackers in some sense.
+Jadi Anda dapat terus mengikuti
+penyerang dengan arti tertentu.
 
 795
 00:34:01,630 --> 00:34:03,745
-You have to use
-larger keys with RSA.
+Anda harus menggunakan
+kunci lebih besar dengan RSA.
 
 796
 00:34:03,745 --> 00:34:05,870
-Or maybe you have to use
-a different crypto scheme.
+Atau mungkin Anda harus menggunakan
+skema kripto berbeda.
 
 797
 00:34:05,870 --> 00:34:08,031
-For example, now people
-don't use MD5 hashes
+Seperti contohnya, sekarang orang
+tidak menggunakan hashes MD5 
 
 798
 00:34:08,031 --> 00:34:08,739
-and certificates.
+dan sertifikat.
 
 799
 00:34:08,739 --> 00:34:11,167
