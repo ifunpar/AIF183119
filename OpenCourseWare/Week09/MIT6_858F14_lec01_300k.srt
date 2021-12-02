@@ -5525,144 +5525,145 @@ certificate naming example,
 
 1164
 00:49:25,330 --> 00:49:27,270
-even sort of a single
-byte can really
+bahkan sebuah
+byte benar-benar dapat
 
 1165
 00:49:27,270 --> 00:49:30,470
-make a huge difference,
-in terms of what goes on.
+membuat perubahan besar,
+dalam hal apa yang sedang terjadi.
+
 
 1166
 00:49:30,470 --> 00:49:32,480
-And I guess for
-this example, we'll
+Dan saya tebak untuk
+contoh ini, kita akan
 
 1167
 00:49:32,480 --> 00:49:35,960
-look at a small piece of code
-that's not quite a real web
+melihat pada potongan kecil dari kode
+yang tidak terlalu berupa server web
 
 1168
 00:49:35,960 --> 00:49:36,460
-server.
+nyata.
 
 1169
 00:49:36,460 --> 00:49:38,900
-In the lab, you'll have this
-whole picture to play with.
+Di laboratorium, Anda akan memiliki
+seluruh gambar ini untuk bermain.
 
 1170
 00:49:38,900 --> 00:49:41,340
-But for lecture, I
-just want to give you
+Tetapi untuk kuliah, saya
+hanya ingin memberikan Anda
 
 1171
 00:49:41,340 --> 00:49:43,470
-a simplified example
-so we can talk
+contoh yang telah disederhanakan
+jadi kita dapat bicarakan
 
 1172
 00:49:43,470 --> 00:49:47,140
-about what's sort of at the
-core of what's going wrong.
+tentang seperti apa pada
+inti dari apa yang salah.
 
 1173
 00:49:47,140 --> 00:49:51,515
-And, in particular, if
-this system wakes up,
+Dan, secara khusus, jika
+sistem ini bangun,
 
 1174
 00:49:51,515 --> 00:49:56,240
-I will show you sort of
-a very small C function.
+saya akan menunjukkan kepada Anda seperti
+fungsi C yang sangat kecil.
 
 1175
 00:49:56,240 --> 00:49:59,070
-And we can sort of
-see what goes wrong
+Dan kita dapat seperti
+melihat apa yang salah
 
 1176
 00:49:59,070 --> 00:50:04,400
-if you provide different
-inputs to that piece of code.
+jika Anda memberikan masukan
+berbeda ke potongan kode itu.
 
 1177
 00:50:04,400 --> 00:50:05,220
-All right.
+Baiklah.
 
 1178
 00:50:05,220 --> 00:50:09,460
-So the C function that I
-have in mind is this guy.
+Jadi fungsi C yang 
+ada di pikiran saya adalah orang ini.
 
 1179
 00:50:13,950 --> 00:50:15,920
-Somewhere here.
+Di suatu tempat di sini.
 
 1180
 00:50:15,920 --> 00:50:16,720
-Oh, yeah.
+Oh, iya.
 
 1181
 00:50:19,684 --> 00:50:21,166
-It's coming on.
+Itu akan datang.
 
 1182
 00:50:21,166 --> 00:50:23,150
-All right.
+Baiklah.
 
 1183
 00:50:23,150 --> 00:50:27,740
-So here's the sort of
-program I'm talking about,
+Jadi ini adalah semacam
+program yang saya bicarakan,
 
 1184
 00:50:27,740 --> 00:50:30,280
-or I want to use
-as an example here.
+atau saya akan gunakan
+sebagai contoh di sini.
 
 1185
 00:50:30,280 --> 00:50:32,974
-So this program is just
-going to read a request.
+Jadi program ini hanya
+akan membaca permintaan.
 
 1186
 00:50:32,974 --> 00:50:34,890
-And you can sort of
-imagine it's going to read
+Dan Anda dapat semacam
+membayangkan itu akan membaca
 
 1187
 00:50:34,890 --> 00:50:36,400
-a request from the network.
+permintaan dari jaringan.
 
 1188
 00:50:36,400 --> 00:50:38,462
-But for the purposes
-of this example,
+Tapi untuk tujuan
+dari contoh ini,
 
 1189
 00:50:38,462 --> 00:50:40,420
-it's just going to read
-a request from whatever
+itu hanya akan membaca
+permintaan dari apapun
 
 1190
 00:50:40,420 --> 00:50:42,940
-I'm typing in on the keyboard.
+yang saya ketik di keyboard.
 
 1191
 00:50:42,940 --> 00:50:45,425
-And it's going to store
-it in a buffer here.
+Dan itu akan menyimpannya
+di dalam buffer di sini.
 
 1192
 00:50:45,425 --> 00:50:47,300
-And then it's going to
-parse it is an integer
+Kemudian itu akan
+menguraikannya menjadi integer
 
 1193
 00:50:47,300 --> 00:50:48,470
-and return the integer.
+dan mengembalikan integer.
 
 1194
 00:50:48,470 --> 00:50:52,430
