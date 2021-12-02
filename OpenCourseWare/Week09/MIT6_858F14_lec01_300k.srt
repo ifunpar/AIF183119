@@ -5530,19 +5530,18 @@ byte benar-benar dapat
 
 1165
 00:49:27,270 --> 00:49:30,470
-membuat perubahan besar,
+membuat sebuah perbedaan besar,
 dalam hal apa yang sedang terjadi.
-
 
 1166
 00:49:30,470 --> 00:49:32,480
-Dan saya tebak untuk
+Dan saya rasa untuk
 contoh ini, kita akan
 
 1167
 00:49:32,480 --> 00:49:35,960
-melihat pada potongan kecil dari kode
-yang tidak terlalu berupa server web
+melihat sebuah potongan kecil dari kode
+yang bukan benar-benar server web
 
 1168
 00:49:35,960 --> 00:49:36,460
@@ -5550,8 +5549,8 @@ nyata.
 
 1169
 00:49:36,460 --> 00:49:38,900
-Di laboratorium, Anda akan memiliki
-seluruh gambar ini untuk bermain.
+Di dalam lab, Anda akan memiliki
+seluruh gambar ini untuk dimainkan.
 
 1170
 00:49:38,900 --> 00:49:41,340
@@ -5560,32 +5559,32 @@ hanya ingin memberikan Anda
 
 1171
 00:49:41,340 --> 00:49:43,470
-contoh yang telah disederhanakan
-jadi kita dapat bicarakan
+sebuah contoh yang sederhana
+supaya kita dapat membicarakan
 
 1172
 00:49:43,470 --> 00:49:47,140
-tentang seperti apa pada
+tentang gambaran dari
 inti dari apa yang salah.
 
 1173
 00:49:47,140 --> 00:49:51,515
 Dan, secara khusus, jika
-sistem ini bangun,
+sistem ini menyala,
 
 1174
 00:49:51,515 --> 00:49:56,240
-saya akan menunjukkan kepada Anda seperti
-fungsi C yang sangat kecil.
+saya akan menunjukkan kepada Anda
+semacam fungsi C yang sangat kecil.
 
 1175
 00:49:56,240 --> 00:49:59,070
-Dan kita dapat seperti
+Dan kita dapat semacam
 melihat apa yang salah
 
 1176
 00:49:59,070 --> 00:50:04,400
-jika Anda memberikan masukan
+jika Anda memberikan masukan yang
 berbeda ke potongan kode itu.
 
 1177
@@ -5594,8 +5593,8 @@ Baiklah.
 
 1178
 00:50:05,220 --> 00:50:09,460
-Jadi fungsi C yang 
-ada di pikiran saya adalah orang ini.
+Jadi fungsi C yang ada
+di pikiran saya adalah ini.
 
 1179
 00:50:13,950 --> 00:50:15,920
@@ -5603,11 +5602,11 @@ Di suatu tempat di sini.
 
 1180
 00:50:15,920 --> 00:50:16,720
-Oh, iya.
+Oh, yah.
 
 1181
 00:50:19,684 --> 00:50:21,166
-Itu akan datang.
+Dia sedang menyala.
 
 1182
 00:50:21,166 --> 00:50:23,150
@@ -5620,22 +5619,22 @@ program yang saya bicarakan,
 
 1184
 00:50:27,740 --> 00:50:30,280
-atau saya akan gunakan
+atau yang saya akan pakai
 sebagai contoh di sini.
 
 1185
 00:50:30,280 --> 00:50:32,974
 Jadi program ini hanya
-akan membaca permintaan.
+akan membaca sebuah permintaan.
 
 1186
 00:50:32,974 --> 00:50:34,890
 Dan Anda dapat semacam
-membayangkan itu akan membaca
+membayangkan dia akan membaca
 
 1187
 00:50:34,890 --> 00:50:36,400
-permintaan dari jaringan.
+sebuah permintaan dari jaringan.
 
 1188
 00:50:36,400 --> 00:50:38,462
@@ -5644,8 +5643,8 @@ dari contoh ini,
 
 1189
 00:50:38,462 --> 00:50:40,420
-itu hanya akan membaca
-permintaan dari apapun
+dia hanya akan membaca
+sebuah permintaan dari apapun
 
 1190
 00:50:40,420 --> 00:50:42,940
@@ -5653,17 +5652,17 @@ yang saya ketik di keyboard.
 
 1191
 00:50:42,940 --> 00:50:45,425
-Dan itu akan menyimpannya
-di dalam buffer di sini.
+Dan dia akan menyimpannya
+di dalam sebuah buffer di sini.
 
 1192
 00:50:45,425 --> 00:50:47,300
-Kemudian itu akan
-menguraikannya menjadi integer
+Kemudian dia akan menguraikannya
+menjadi sebuah bilangan bulat
 
 1193
 00:50:47,300 --> 00:50:48,470
-dan mengembalikan integer.
+dan mengembalikan bilangan bulat itu.
 
 1194
 00:50:48,470 --> 00:50:52,430
