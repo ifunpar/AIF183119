@@ -2863,7 +2863,7 @@ seperti semuanya nol secara kebetulan.
 601
 00:26:31,510 --> 00:26:34,210
 Ini secara kriptografis tidak
-menjamin itu.
+menjamin seperti itu.
 
 602
 00:26:34,210 --> 00:26:36,690
