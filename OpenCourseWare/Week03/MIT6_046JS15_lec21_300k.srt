@@ -5415,57 +5415,57 @@ anything about the other.
 
 1154
 01:03:12,150 --> 01:03:14,430
-Think of them as completely
-distinct passwords.
+Anggaplah keduanya sepenuhnya
+kata sandi yang berbeda.
 
 1155
 01:03:14,430 --> 01:03:16,730
-But they happen to be
-mathematically related.
+Tetapi keduanya kebetulan
+berhubungan secara matematis.
 
 1156
 01:03:16,730 --> 01:03:18,500
-That's why this
-whole thing works.
+Itu sebabnya ini
+semuanya bekerja.
 
 1157
 01:03:18,500 --> 01:03:20,260
-And that mathematical
-relationship
+Dan hubungan matematis
+tersebut
 
 1158
 01:03:20,260 --> 01:03:24,750
-we'll look at in some
-detail on Thursday.
+akan kita lihat secara
+detail hari Kamis.
 
 1159
 01:03:24,750 --> 01:03:26,920
-But having said
-that, take a look
+Tapi, setelah mengatakan 
+itu, lihatlah
 
 1160
 01:03:26,920 --> 01:03:29,490
-at what this app is
-doing for us, right?
+apa yang aplikasi ini
+lakukan untuk kita, benar?
 
 1161
 01:03:29,490 --> 01:03:31,370
-This is a security application.
+Ini merupakan aplikasi keamanan.
 
 1162
 01:03:31,370 --> 01:03:33,930
-And I haven't quite gotten
-to hash functions yet.
+Dan saya bahkan belum
+sampai ke fungsi hash.
 
 1163
 01:03:33,930 --> 01:03:36,600
-But I'll get to it
-in just a minute.
+Tapi saya akan kesana
+sebentar lagi.
 
 1164
 01:03:36,600 --> 01:03:39,330
-But what I want to do is
-emphasize that there's
+Tapi yang ingin saya lakukan adalah
+menekankan bahwa ada
 
 1165
 01:03:39,330 --> 01:03:41,150
