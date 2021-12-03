@@ -3878,105 +3878,105 @@ akan berjalan.
 
 824
 00:45:00,910 --> 00:45:04,530
-So if you want to encrypt
-fast and decrypt more slowly,
+Jadi jika Anda ingin mengenkripsi
+cepat dan derkripsi lebih lambat,
 
 825
 00:45:04,530 --> 00:45:06,910
-unfortunately, that's
-the trade off here.
+sayangnya, itu hanya
+keuntungan atau kerugian di sini.
 
 826
 00:45:06,910 --> 00:45:08,127
-You would pick a small e.
+Anda akan memilih e kecil.
 
 827
 00:45:08,127 --> 00:45:10,710
-And then we're going to compute
-our decryption exponent, which
+Dan kemudian kita akan menghitung
+eksponen dekripsi kami, yang
 
 828
 00:45:10,710 --> 00:45:12,650
-obviously is going to
-have to be private.
+jelas akan
+harus pribadi.
 
 829
 00:45:12,650 --> 00:45:14,470
-Because that's part
-of our private key.
+Karena itu bagian
+dari kunci privat kami.
 
 830
 00:45:14,470 --> 00:45:16,810
-But that's going to be
-bigger if e is small.
+Tapi itu akan menjadi
+lebih besar jika e kecil.
 
 831
 00:45:16,810 --> 00:45:18,349
-And that's just a trade off.
+Dan itu hanya keuntungan atau kerugian.
 
 832
 00:45:18,349 --> 00:45:20,140
-It's symmetric in the
-sense that while it's
+Ini simetris di
+rasakan itu disaat itu
 
 833
 00:45:20,140 --> 00:45:21,940
-an asymmetric
-algorithm, it's kind of
+asimetris
+algoritma, itu semacam
 
 834
 00:45:21,940 --> 00:45:24,290
-symmetric in the
-mathematical sense
+simetris di
+pengertian matematika
 
 835
 00:45:24,290 --> 00:45:28,160
-that the private keys and
-the public key operations
+bahwa kunci privat dan
+operasi kunci publik
 
 836
 00:45:28,160 --> 00:45:30,910
-are symmetric.
+merupakan simetris.
 
 837
 00:45:30,910 --> 00:45:33,015
-So what is Alice's public key?
+Jadi apa kunci publik Alice?
 
 838
 00:45:33,015 --> 00:45:39,540
-Well, Alice's public key,
-which she can then publish,
+Baik, kunci publik Alice,
+yang kemudian dapat dia terbitkan,
 
 839
 00:45:39,540 --> 00:45:42,130
-is simply m, e.
+hanya m, e.
 
 840
 00:45:42,130 --> 00:45:42,630
-OK.
+Baik.
 
 841
 00:45:50,740 --> 00:45:53,920
-Now, the fun starts.
+Sekarang, bagian menyenangkan dimulai.
 
 842
 00:45:53,920 --> 00:45:56,520
-We have to figure out
-what the private key is
+Kita harus mencari tahu
+apa kunci pribadi itu
 
 843
 00:45:56,520 --> 00:45:58,070
-going to correspond to.
+akan sesuai dengan.
 
 844
 00:45:58,070 --> 00:46:02,220
-And it turns out-- and
-this is one of those things
+Dan ternyata-- dan
+Ini adalah salah satu di antaranya
 
 845
 00:46:02,220 --> 00:46:05,110
-where how did they
-ever think of this?
+dimana dan bagaimana mereka
+pernah memikirkan ini?
 
 846
 00:46:05,110 --> 00:46:09,020
