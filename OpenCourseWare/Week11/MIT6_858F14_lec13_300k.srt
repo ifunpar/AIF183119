@@ -2862,18 +2862,18 @@ seperti semuanya nol secara kebetulan.
 
 601
 00:26:31,510 --> 00:26:34,210
-Ini bukan secara kriptografis
+Ini secara kriptografis tidak
 menjamin itu.
 
 602
 00:26:34,210 --> 00:26:36,690
-Tapi sering kali, itu akan
-tidak terlihat seperti nol
+Tapi sering kali, itu tidak
+akan terlihat seperti nol
 
 603
 00:26:36,690 --> 00:26:40,030
 dan Anda akan dapat memutuskan
-apakah Anda mendapatkan kunci yang benar?
+apakah Anda mendapatkan kunci yang benar
 
 604
 00:26:40,030 --> 00:26:42,490
@@ -2886,29 +2886,27 @@ semacam rencana
 
 606
 00:26:45,400 --> 00:26:47,744
-for how the clients
-tells, I guess,
 untuk bagaimana klien
-memberitahu, saya kira,
+mengetahui, sepertinya,
 
 607
 00:26:47,744 --> 00:26:48,910
-apakah tiketnya valid?.
+apakah tiketnya valid.
 
 608
 00:26:48,910 --> 00:26:52,384
 Mereka hanya mencoba mendekripsi
-itu dan lihat cara kerjanya.
+itu dan melihat cara kerjanya.
 
 609
 00:26:52,384 --> 00:26:53,800
-Jadi menarik lainnya
-pertanyaannya adalah
+Jadi pertanyaan lain
+yang menarik adalah
 
 610
 00:26:53,800 --> 00:26:57,214
-kenapa kunci ini?
-KCS termasuk dua kali
+kenapa kunci 
+KCS ini terlibat dua kali
 
 611
 00:26:57,214 --> 00:26:58,630
