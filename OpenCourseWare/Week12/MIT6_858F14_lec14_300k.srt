@@ -3427,22 +3427,22 @@ disayangkan bahwa ini
 
 724
 00:31:07,590 --> 00:31:12,220
-bukan protokol yang kita sedang
+bukan protokol yang sedang kita
 cari disini-- SSL, TLS, atau apapun--
 
 725
 00:31:12,220 --> 00:31:15,180
 tidak menawarkan kesempatan
-enkripsi yang oportunistik.
+enkripsi yang oportunistik seperti ini.
 
 726
 00:31:15,180 --> 00:31:16,910
-Namun begitulah kehidupan.
+Namun begitulah hidup.
 
 727
 00:31:16,910 --> 00:31:19,380
-Jadi saya menebak server ini
-[TIDAK TERDENGAR] terdapat dalam protokol.
+Jadi saya rasa server ini
+[TIDAK TERDENGAR] dalam protokol ini.
 
 728
 00:31:19,380 --> 00:31:24,100
@@ -3473,16 +3473,16 @@ setahun sekali, mereka
 
 734
 00:31:30,487 --> 00:31:32,850
-membuat nama baru untuk pasangan kunci.
+membuat pasangan nama-kunci baru.
 
 735
 00:31:32,850 --> 00:31:37,476
-Jadi mengapa Anda tidak dapat
-mencoba menghabiskan tahun tersebut
+Jadi mengapa Anda tidak
+menggunakan kunci tersebut
 
 736
 00:31:37,476 --> 00:31:39,000
-untuk kunci tertentu?
+sepanjang tahun?
 
 737
 00:31:39,000 --> 00:31:39,809
@@ -3491,7 +3491,7 @@ PROFESOR: Hah?
 738
 00:31:39,809 --> 00:31:41,600
 AUDIENS: Mengapa hal itu
-tidak dapat bekerja?
+tidak dapat bekerja dengan ini?
 
 739
 00:31:41,600 --> 00:31:42,840
@@ -3529,7 +3529,7 @@ Komputer menjadi lebih cepat.
 746
 00:31:56,100 --> 00:31:58,010
 Ada algoritma yang lebih baik
-yang bisa merusak hal ini.
+yang bisa memecahkan keamanan ini.
 
 747
 00:31:58,010 --> 00:32:00,180
@@ -3544,7 +3544,7 @@ masalah-masalah ini akan membesar.
 749
 00:32:02,869 --> 00:32:05,410
 Sebagai contoh, sebelumnya
-banyak kasus dimana sertifikat
+banyak kasus di mana sertifikat
 
 750
 00:32:05,410 --> 00:32:06,274
@@ -3592,7 +3592,7 @@ mudah untuk menandatangani hash yang ringkas
 759
 00:32:24,347 --> 00:32:25,930
 Dan satu hal yang
-sebenarnya salah
+jadi tidak bekerja dengan baik lagi
 
 760
 00:32:25,930 --> 00:32:29,390
@@ -3683,7 +3683,7 @@ menggunakan kriptografi,
 
 778
 00:33:18,750 --> 00:33:20,456
-hal itu dapat dibrute force.
+hal itu dapat di brute force (dicoba satu per satu).
 
 779
 00:33:20,456 --> 00:33:22,830
@@ -3715,18 +3715,18 @@ pesan.
 
 785
 00:33:31,610 --> 00:33:34,560
-dengan RSA, pada hari-hari
+Dengan RSA, pada hari-hari
 ini, mungkin saja
 
 786
 00:33:34,560 --> 00:33:38,965
-dapat dilakukan untuk menggunakan banyak uang
-dan memecahkan 1,000 bit kunci RSA.
+untuk untuk menghabiskan banyak uang
+dan memecahkan kunci RSA 1,000 bit.
 
 787
 00:33:38,965 --> 00:33:41,090
 Anda kemungkinan harus
-menghabiskan cukup banyak pekerjaan,
+menghabiskan cukup banyak usaha,
 
 788
 00:33:41,090 --> 00:33:44,850
@@ -3750,7 +3750,7 @@ kunci publik seseorang yang sudah ada
 792
 00:33:52,850 --> 00:33:55,680
 dan mecoba melakukan brute force pada
-kunci rahasia yang seharusnya, atau
+kunci rahasia yang terkait, atau
 
 793
 00:33:55,680 --> 00:33:56,430
