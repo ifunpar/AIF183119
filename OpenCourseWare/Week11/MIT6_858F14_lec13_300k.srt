@@ -2748,58 +2748,58 @@ Baiklah, maaf.
 
 578
 00:25:38,150 --> 00:25:40,191
-So in the paper, there's
-this implicit assumption
+Jadi pada paper nya, ada
+asumsi implisit
 
 579
 00:25:40,191 --> 00:25:43,220
-that whenever you
-encrypt a piece of data
+kapan pun kamu 
+mengenkripsi sebuah data
 
 580
 00:25:43,220 --> 00:25:46,210
-and you send it to someone
-else, if that person can decrypt
+dan kamu mengirimkan kepada orang lain
+,jika orang tersebut dapat mendekripsi
 
 581
 00:25:46,210 --> 00:25:48,350
-the data and it
-sort of looks OK,
+data tersebut dan itu
+terlihat OK,
 
 582
 00:25:48,350 --> 00:25:50,210
-then no, they must have
-gotten the right key
+kemudian tidak, Meraka harus
+mendapatkan kunci yang benar
 
 583
 00:25:50,210 --> 00:25:52,520
-and the data wasn't
-tampered with in flight.
+dan data tidak di rusak
+pada pengiriman.
 
 584
 00:25:52,520 --> 00:25:54,430
-But it seems like a
-totally bad plan now
+Tapi sepertinya
+rencana yang benar-benar buruk sekarang
 
 585
 00:25:54,430 --> 00:25:56,590
-that we think of
-it 30 years later.
+yang kita pikirkan
+itu 30 tahun kemudian.
 
 586
 00:25:56,590 --> 00:25:58,230
-But at the time,
-it wasn't so clear.
+Tapi pada saat itu,
+itu tidak begitu jelas.
 
 587
 00:25:58,230 --> 00:25:59,610
-So in order to do
-Kerberos right,
+Jadi untuk melakukan
+Kerberos benar,
 
 588
 00:25:59,610 --> 00:26:01,730
-and in fact, what
-Kerberos 5 does now,
+dan sebenarnya, apa?
+Kerberos 5 melakukannya sekarang,
 
 589
 00:26:01,730 --> 00:26:04,277
@@ -2857,56 +2857,58 @@ mendapatkan kunci yang salah,
 
 600
 00:26:28,150 --> 00:26:31,510
-that pattern will not look
-like all zeros just by chance.
+pola itu tidak akan terlihat
+seperti semuanya nol secara kebetulan.
 
 601
 00:26:31,510 --> 00:26:34,210
-It's not cryptographically
-guaranteed to be that.
+Ini bukan secara kriptografis
+menjamin itu.
 
 602
 00:26:34,210 --> 00:26:36,690
-But most times, it will
-not look like zeros
+Tapi sering kali, itu akan
+tidak terlihat seperti nol
 
 603
 00:26:36,690 --> 00:26:40,030
-and you will be able to decide
-whether you got the correct key
+dan Anda akan dapat memutuskan
+apakah Anda mendapatkan kunci yang benar?
 
 604
 00:26:40,030 --> 00:26:42,490
-or not.
+atau tidak.
 
 605
 00:26:42,490 --> 00:26:45,400
-All right, so that's
-sort of the plan
+Baiklah, jadi itu
+semacam rencana
 
 606
 00:26:45,400 --> 00:26:47,744
 for how the clients
 tells, I guess,
+untuk bagaimana klien
+memberitahu, saya kira,
 
 607
 00:26:47,744 --> 00:26:48,910
-whether the ticket is valid.
+apakah tiketnya valid?.
 
 608
 00:26:48,910 --> 00:26:52,384
-They just try to decrypt
-it and see how it works.
+Mereka hanya mencoba mendekripsi
+itu dan lihat cara kerjanya.
 
 609
 00:26:52,384 --> 00:26:53,800
-So another interesting
-question is
+Jadi menarik lainnya
+pertanyaannya adalah
 
 610
 00:26:53,800 --> 00:26:57,214
-why is this key
-KCS included twice
+kenapa kunci ini?
+KCS termasuk dua kali
 
 611
 00:26:57,214 --> 00:26:58,630
@@ -2963,55 +2965,55 @@ Itu terenkripsi menggunakan KS.
 
 622
 00:27:23,300 --> 00:27:27,400
-And the reason for this is that
-the Kerberos server is actually
+Dan alasannya untuk ini adalah
+server Kerberos sebenarnya
 
 623
 00:27:27,400 --> 00:27:29,670
-trying to set up the
-client and this other guy
+mencoba mempersiapkan
+klien dan orang lain ini
 
 624
 00:27:29,670 --> 00:27:31,350
-to talk to each other securely.
+untuk berkomunikasi satu sama lain dengan aman.
 
 625
 00:27:31,350 --> 00:27:35,650
-So the Kerberos generates
-this hopefully random key KCS
+Jadi Kerberos menghasilkan
+kunci KCS yang di harapkan acak
 
 626
 00:27:35,650 --> 00:27:38,180
-and wants to give one copy
-to the client and one copy
+dan ingin memberikan satu salinan
+ke klien dan satu salinan
 
 627
 00:27:38,180 --> 00:27:40,640
-to the write other server
-that you want to talk to.
+untuk write pada server lain
+yang ingin kamu ajak berkomunikasi.
 
 628
 00:27:40,640 --> 00:27:42,840
-And one thing you could
-imagine doing naively
+Dan satu hal yang Anda bisa
+bayangkan melakukan secara naif
 
 629
 00:27:42,840 --> 00:27:45,600
-is maybe the Kerberos will
-just go and say, hey service,
+ini mungkinkan Kerberos akan
+pergi saja dan katakan, hai layanan,
 
 630
 00:27:45,600 --> 00:27:46,850
-this guy wants to talk to you.
+orang ini ingin berkomunikasi denganmu,
 
 631
 00:27:46,850 --> 00:27:47,767
-Here's the key for it.
+Ini kuncinya untuk ini.
 
 632
 00:27:47,767 --> 00:27:49,349
-But that would be
-kind of unfortunate.
+Tapi hal itu akan menjadi
+agak disayangkan.
 
 633
 00:27:49,349 --> 00:27:52,380
