@@ -3631,7 +3631,7 @@ di mana ini masih
 
 764
 00:31:11,090 --> 00:31:13,026
-menggunakan otentikasi berdasarkan IP.
+menggunakan otentikasi berbasis IP.
 
 765
 00:31:13,026 --> 00:31:14,905
@@ -3658,8 +3658,8 @@ untuk masuk ke akun apapun
 
 770
 00:31:23,710 --> 00:31:27,280
-stopped using IP-based
-authentication.
+sudah berhenti menggunakan otentikasi berbasis
+IP.
 
 771
 00:31:27,280 --> 00:31:29,820
