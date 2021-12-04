@@ -2753,13 +2753,13 @@ asumsi implisit
 
 579
 00:25:40,191 --> 00:25:43,220
-kapan pun kamu 
+bahwa kapan pun Anda
 mengenkripsi sebuah data
 
 580
 00:25:43,220 --> 00:25:46,210
-dan kamu mengirimkan kepada orang lain
-,jika orang tersebut dapat mendekripsi
+dan Anda mengirimkannya kepada orang
+lain, jika orang tersebut dapat mendekripsi
 
 581
 00:25:46,210 --> 00:25:48,350
@@ -2768,22 +2768,22 @@ terlihat OK,
 
 582
 00:25:48,350 --> 00:25:50,210
-kemudian tidak, Meraka harus
+maka tidak, mereka pasti
 mendapatkan kunci yang benar
 
 583
 00:25:50,210 --> 00:25:52,520
-dan data tidak di rusak
-pada pengiriman.
+dan data tidak dirusak
+dalam pengiriman.
 
 584
 00:25:52,520 --> 00:25:54,430
-Tapi sepertinya
+Tapi itu sepertinya
 rencana yang benar-benar buruk sekarang
 
 585
 00:25:54,430 --> 00:25:56,590
-yang kita pikirkan
+jika kita pikirkan
 itu 30 tahun kemudian.
 
 586
@@ -2794,22 +2794,22 @@ itu tidak begitu jelas.
 587
 00:25:58,230 --> 00:25:59,610
 Jadi untuk melakukan
-Kerberos benar,
+Kerberos dengan benar,
 
 588
 00:25:59,610 --> 00:26:01,730
-dan sebenarnya, apa?
-Kerberos 5 melakukannya sekarang,
+dan sebenarnya, yang dilakukan
+Kerberos 5 sekarang,
 
 589
 00:26:01,730 --> 00:26:04,277
-adalah mereka berdua meng-enkripsi
+adalah mereka berdua mengenkripsi
 semua potongan data
 
 590
 00:26:04,277 --> 00:26:05,860
 dan mereka juga
-meng-autentikasi pesan tersebut
+mengautentikasi pesan tersebut
 
 591
 00:26:05,860 --> 00:26:09,350
@@ -2848,7 +2848,7 @@ terenkripsi yang seharusnya semuanya itu
 
 598
 00:26:23,110 --> 00:26:25,350
-membentuk beberapa pola seperti beberapa nol.
+membentuk beberapa pola seperti deretan nol.
 
 599
 00:26:25,350 --> 00:26:28,150
@@ -2896,7 +2896,7 @@ apakah tiketnya valid.
 608
 00:26:48,910 --> 00:26:52,384
 Mereka hanya mencoba mendekripsi
-itu dan melihat cara kerjanya.
+itu dan melihat hasilnya.
 
 609
 00:26:52,384 --> 00:26:53,800
@@ -2906,16 +2906,16 @@ yang menarik adalah
 610
 00:26:53,800 --> 00:26:57,214
 kenapa kunci 
-KCS ini terlibat sebanyak dua kali
+KCS ini diikutsertakan sebanyak dua kali
 
 611
 00:26:57,214 --> 00:26:58,630
 di tiketnya dalam
-suatu bentuk, benar?
+bentuk tertentu, benar?
 
 612
 00:26:58,630 --> 00:27:02,520
-Jadi termasuk sekali di sini
+Jadi diikutsertakan sekali di sini
 dan sebenarnya yang lainnya
 
 613
@@ -2944,8 +2944,8 @@ dengan kunci layanan.
 
 618
 00:27:14,681 --> 00:27:16,930
-PROFESOR: Ya, jadi 
-sebenarnya cukup lucu, benar?
+PROFESOR: Ya, jadi
+sebenarnya cukup menarik, benar?
 
 619
 00:27:16,930 --> 00:27:19,067
@@ -2978,7 +2978,7 @@ untuk berkomunikasi satu sama lain dengan aman.
 625
 00:27:31,350 --> 00:27:35,650
 Jadi Kerberos menghasilkan
-kunci KCS yang di harapkan acak
+kunci KCS yang diharapkan acak
 
 626
 00:27:35,650 --> 00:27:38,180
@@ -2988,17 +2988,17 @@ ke klien dan satu salinan
 627
 00:27:38,180 --> 00:27:40,640
 untuk write pada server lain
-yang ingin kamu ajak berkomunikasi.
+yang ingin Anda ajak berkomunikasi.
 
 628
 00:27:40,640 --> 00:27:42,840
 Dan satu hal yang Anda bisa
-bayangkan melakukan secara naif
+bayangkan dilakukan secara naif
 
 629
 00:27:42,840 --> 00:27:45,600
-ini mungkinkan Kerberos akan
-pergi saja dan katakan, hai layanan,
+adalah mungkin Kerberos akan
+lanjut saja dan mengatakan, hai layanan,
 
 630
 00:27:45,600 --> 00:27:46,850
@@ -3006,7 +3006,7 @@ orang ini ingin berkomunikasi denganmu,
 
 631
 00:27:46,850 --> 00:27:47,767
-Ini kuncinya untuk ini.
+Ini kuncinya.
 
 632
 00:27:47,767 --> 00:27:49,349
