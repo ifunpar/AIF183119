@@ -3598,53 +3598,53 @@ tertentu.
 
 757
 00:30:55,710 --> 00:30:57,460
-So for example,
-Comcast's mail server
+Jadi sebagai contoh,
+server surat Comcast
 
 758
 00:30:57,460 --> 00:31:00,280
-will only accept mail
-from Comcast IP addresses.
+hanya akan menerima surat
+dari alamat IP Comcast.
 
 759
 00:31:00,280 --> 00:31:02,570
-Same for MIT mail servers--
-will only accept mail
+Sama juga bagi server surat MIT--
+hanya akan menerima surat
 
 760
 00:31:02,570 --> 00:31:03,500
-from MIT IP addresses.
+dari alamat IP MIT.
 
 761
 00:31:03,500 --> 00:31:06,260
-Or there was at least
-one server that ISNT
+Atau setidaknya ada
+satu server yang tidak
 
 762
 00:31:06,260 --> 00:31:08,910
-runs that has this property.
+berjalan yang mempunyai properti ini.
 
 763
 00:31:08,910 --> 00:31:11,090
-So this is the case
-where it's still
+Jadi ini adalah kasus
+di mana ini masih
 
 764
 00:31:11,090 --> 00:31:13,026
-using IP-based authentication.
+menggunakan otentikasi berdasarkan IP.
 
 765
 00:31:13,026 --> 00:31:14,905
-Here it's not so bad.
+Di sini, ini tidak terlalu buruk.
 
 766
 00:31:14,905 --> 00:31:16,775
-Worst case, you'll
-send some piece of spam
+Kasus terburuk, Anda akan
+mengirim beberapa spam
 
 767
 00:31:16,775 --> 00:31:17,775
-through the mail server.
+melalui server surat.
 
 768
 00:31:17,775 --> 00:31:19,890
