@@ -2906,7 +2906,7 @@ yang menarik adalah
 610
 00:26:53,800 --> 00:26:57,214
 kenapa kunci 
-KCS ini terlibat dua kali
+KCS ini terlibat sebanyak dua kali
 
 611
 00:26:57,214 --> 00:26:58,630
