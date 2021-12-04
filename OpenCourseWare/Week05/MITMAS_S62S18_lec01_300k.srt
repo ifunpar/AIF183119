@@ -4073,13 +4073,13 @@ tidak memiliki collision.
 
 861
 00:37:14,070 --> 00:37:16,170
-Jika anda dapat menemukan sebuah
-collisioin, jika ada collision
+Jika Anda dapat menemukan sebuah
+collision, jika satu collision saja
 
 862
 00:37:16,170 --> 00:37:18,180
 ada untuk
-fungsi hash ini, anda
+fungsi hash ini, Anda
 
 863
 00:37:18,180 --> 00:37:20,753
@@ -4089,7 +4089,7 @@ fungsi hash rusak.
 864
 00:37:20,753 --> 00:37:22,920
 Ini sedikit berbeda
-dari resistensi preimage
+dari resistensi pragambar
 
 865
 00:37:22,920 --> 00:37:25,800
@@ -4098,31 +4098,31 @@ secara definitif membuktikan
 
 866
 00:37:25,800 --> 00:37:27,180
-bahwa anda sudah merusak preimages.
+bahwa anda sudah merusak pragambar.
 
 867
 00:37:27,180 --> 00:37:29,190
 Itu adalah
-proses interaktif dimana
+proses interaktif di mana
 
 868
 00:37:29,190 --> 00:37:31,722
-anda berkata, hai, ini y,
-dan kemudian seseorang kembali
+Anda berkata, hai, ini sebuah y,
+dan kemudian seseorang datang
 
 869
 00:37:31,722 --> 00:37:33,180
 dengan x, dan
-anda seperti, oh, OKE,
+Anda seperti, oh, oke,
 
 870
 00:37:33,180 --> 00:37:36,120
 anda membuktikan kepada saya bahwa
-anda dapat menemukan preimages.
+anda dapat menemukan pragambar.
 
 871
 00:37:36,120 --> 00:37:38,130
-Tapi itu sulit untuk memberitahu
+Tapi sulit untuk memberitahu
 ke seluruh dunia
 
 872
@@ -4151,11 +4151,11 @@ bagaimana Anda mendapatkannya.
 
 877
 00:37:49,450 --> 00:37:49,950
-OKE.
+Oke.
 
 878
 00:37:49,950 --> 00:37:55,360
-Jadi beberapa praktis, bagaimana
+Jadi beberapa hal praktis, bagaimana
 fungsi-fungsi ini bekerja.
 
 879
@@ -4179,70 +4179,70 @@ resistensi pragambar belum
 
 883
 00:38:06,670 --> 00:38:07,510
-been broken.
+dipecahkan.
 
 884
 00:38:07,510 --> 00:38:10,270
-So examples are Sha-1 and MD5.
+Jadi contohnya adalah SHA-1 and MD5.
 
 885
 00:38:10,270 --> 00:38:15,250
-MD5's a fairly old one written
-by Ron Rivest over at--
+MD5 adalah suatu hal yang cukup tua
+yang ditulis oleh Ron Rivest di--
 
 886
 00:38:15,250 --> 00:38:17,350
-well, I guess it wasn't
-at the Stata Center
+yah, saya rasa itu bukan
+di State Center
 
 887
 00:38:17,350 --> 00:38:18,880
-because it was in the '80s.
+karena itu ada di sekitar tahun 80an.
 
 888
 00:38:18,880 --> 00:38:21,100
-But this was message digest 5.
+Tetapi ini adalah Message Digest 5.
 
 889
 00:38:21,100 --> 00:38:23,500
-I guess there were
-several before that.
+Saya rasa ada beberapa
+di antaranya sebelumnya.
 
 890
 00:38:23,500 --> 00:38:25,780
-And that is quite broken.
+Dan ini cukup rusak.
 
 891
 00:38:25,780 --> 00:38:26,680
-You shouldn't use it.
+Anda sebaiknya tidak menggunakannya.
 
 892
 00:38:26,680 --> 00:38:30,790
-Its collision resistance
-is trivially broken.
+Resistensi tabrakannya yang
+sangat rusak.
 
 893
 00:38:30,790 --> 00:38:34,710
-You can find collisions in under
-a second on a modern computer.
+Anda dapat menemukan tabrakan di bawah
+satu detik pada komputer moderen.
 
 894
 00:38:34,710 --> 00:38:39,910
-Sha-1 happened later, in
-the late '90s, I think,
+SHA-1 muncul setelahnya, pada
+akhir 90an, saya rasa,
 
 895
 00:38:39,910 --> 00:38:41,290
-and NSA made it.
+dan NSA yang membuatnya.
 
 896
 00:38:41,290 --> 00:38:43,220
-And there have been
+Dan sudah ada beberapa
 tabrakan ditemukan.
 
 897
 00:38:43,220 --> 00:38:45,220
-Saya pikir disitu hanya ada
+Saya pikir di situ hanya ada
 satu tabrakan yang
 
 898
@@ -4252,7 +4252,7 @@ oleh sebuah tim di Google
 
 899
 00:38:48,250 --> 00:38:51,730
-dan beberapa universitas Itali
+dan beberapa universitas Italia
 tahun lalu.
 
 900
@@ -4266,18 +4266,18 @@ Tetapi mereka menemukanya.
 
 902
 00:38:56,530 --> 00:38:58,210
-Dan sekali anda menemukanya,
+Dan sekali Anda menemukanya,
 itu seperti, oh, ya,
 
 903
 00:38:58,210 --> 00:39:00,100
-kita benar-benar tidak harus
+kita benar-benar tidak bisa
 menggunakan ini lagi.
 
 904
 00:39:00,100 --> 00:39:03,100
-Tetapi di kedua kasus ini, 
-sha-1 dan MD5,
+Tetapi di kedua kasus ini,
+SHA-1 dan MD5,
 
 905
 00:39:03,100 --> 00:39:05,620
@@ -4286,7 +4286,7 @@ yang bisa dilakukan.
 
 906
 00:39:05,620 --> 00:39:07,812
-Jadi akan diberikan keluaran hash
+Jadi diberikan keluaran hash
 untuk salah satu dari ini,
 
 907
