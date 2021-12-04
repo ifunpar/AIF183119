@@ -3653,8 +3653,8 @@ mereka masih menggunakan ini,
 
 769
 00:31:19,890 --> 00:31:23,710
-whereas things that allow you
-to log into an arbitrary account
+sedangkan hal-hal yang memungkinkan Anda
+untuk masuk ke akun apapun
 
 770
 00:31:23,710 --> 00:31:27,280
