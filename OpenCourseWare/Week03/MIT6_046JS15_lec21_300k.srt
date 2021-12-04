@@ -5310,55 +5310,55 @@ want to write down, -> ingin tulis,
 
 1132
 01:01:35,930 --> 01:01:38,221
-you don't want to give away,
-because that's effectively
+anda tidak ingin memberikannya,
+karena secara efektif itulah
 
 1133
 01:01:38,221 --> 01:01:39,930
-your identity.
+identitas anda.
 
 1134
 01:01:39,930 --> 01:01:44,700
-And what digital
-signatures respond to
+Tanda tangan digital
+akan merespon
 
 1135
 01:01:44,700 --> 01:01:46,880
-are that you have
-two operations.
+saat anda mempunyai
+dua operasi.
 
 1136
 01:01:46,880 --> 01:01:51,030
-You have signing
-and verification.
+Anda memiliki signin 
+dan verifikasi
 
 1137
 01:01:51,030 --> 01:01:56,760
-So signing means that you
-create a signature sigma that
+Jadi signin berarti anda
+menciptakan suatu tanda tangan sigma yang
 
 1138
 01:01:56,760 --> 01:02:06,420
-is the sign using your
-private key, your secret key,
+yang merupakan tanda menggunakan private 
+key anda, secret key anda,
 
 1139
 01:02:06,420 --> 01:02:10,070
-off a message M. So you're
-saying this is this message,
+dari pesan M. Jadi anda sedang 
+berkata ini adalah pesan ini,
 
 1140
 01:02:10,070 --> 01:02:12,060
-it came from me, right?
+ini datang dari saya, iya kan?
 
 1141
 01:02:12,060 --> 01:02:13,655
-That's what signing means.
+Itulah yang dimaksud dengan signin.
 
 1142
 01:02:13,655 --> 01:02:16,030
-You have this long message
-and you sign it at the bottom.
+Anda memiliki pesan yang panjang
+dan anda menandatanganinya di bawah.
 
 1143
 01:02:16,030 --> 01:02:20,620
