@@ -3728,83 +3728,83 @@ di shell Unix.
 
 785
 00:31:58,980 --> 00:32:01,780
-You sort of synthesize this data
-and you mount this whole attack
+Anda semacam mensintesis data ini
+dan Anda juga memasang keseluruhan serangan ini
 
 786
 00:32:01,780 --> 00:32:04,295
-and send this data as if a
-legitimate user was interacting
+dan mengirimkan data ini seolah-olah seorang
+pengguna yang sah sedang berinteraksi
 
 787
 00:32:04,295 --> 00:32:09,275
-with an rlogin client, and
-then you're good to go.
+dengan sebuah klien r login, dan
+setelah itu Anda sudah selesai.
 
 788
 00:32:09,275 --> 00:32:11,280
-OK, so this is one
-reason why you probably
+OK, jadi ini salah satu
+alasan mengapa Anda mungkin
 
 789
 00:32:11,280 --> 00:32:15,560
-don't want your TCP sequence
-numbers to be so guessable.
+tidak ingin nomor urut TCP Anda
+mudah untuk ditebak.
 
 790
 00:32:15,560 --> 00:32:17,340
-Another problem is
-these reset attacks.
+Masalah lainnya adalah
+serangan ulang ini.
 
 791
 00:32:17,340 --> 00:32:23,120
-So much like we were able
-to send a SYN packet,
+Sepertinya kita sudah dapat
+mengirimkan sebuah paket SYN,
 
 792
 00:32:23,120 --> 00:32:25,222
-if you know someone's
-sequence number,
+jika Anda tahu nomor urut
+seseorang,
 
 793
 00:32:25,222 --> 00:32:26,680
-you could also send
-a reset packet.
+Anda juga dapat mengirimkan
+sebuah paket ulang.
 
 794
 00:32:26,680 --> 00:32:27,810
-We sort of briefly
-talked about it
+Kita sudah membahasnya
+secara singkat
 
 795
 00:32:27,810 --> 00:32:29,750
-here as the legitimate
-client potentially
+disini sebagai klien
+yang berpotensi sah
 
 796
 00:32:29,750 --> 00:32:32,975
-sending a reset to reset
-the fake connection
+untuk mengirimi sebuah paket ulang untuk
+mengatur kembali koneksi palsu
 
 797
 00:32:32,975 --> 00:32:35,200
-that the attacker
-is establishing.
+yang didirikan 
+oleh si penyerang.
 
 798
 00:32:35,200 --> 00:32:36,960
-But in a similar
-vain, the adversary
+Tapi di situasi yang 
+mirip, musuh
 
 799
 00:32:36,960 --> 00:32:40,180
-could try to send reset packets
-for an existing connection
+dapat mencoba untuk mengirimkan paket ulang
+untuk sebuah koneksi yang sudah ada
 
 800
 00:32:40,180 --> 00:32:42,400
-if there's some way
-that the adversary knows
+jika ada cara
+agar musuh dapat mengetahui
 
 801
 00:32:42,400 --> 00:32:46,060
