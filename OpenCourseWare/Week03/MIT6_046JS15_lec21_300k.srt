@@ -5362,56 +5362,56 @@ dan anda menandatanganinya di bawah.
 
 1143
 01:02:16,030 --> 01:02:20,620
-You're taking responsibility for
-the contents of that message.
+Anda bertanggung jawab atas
+isi dari pesan tersebut.
 
 1144
 01:02:20,620 --> 01:02:27,710
-And then verification is you
-have M sigma and a public key.
+Dan kemudian verifikasinya yaitu
+Anda memiliki M sigma dan kunci publik.
 
 1145
 01:02:27,710 --> 01:02:31,770
-And this is simply going
-to output true or false.
+Dan ini hanya akan
+menghasilkan true atau false.
 
 1146
 01:02:35,780 --> 01:02:42,260
-And so the public key should
-not reveal any information
+Jadi kunci publik seharusnya
+tidak memberitahukan informasi apa pun
 
 1147
 01:02:42,260 --> 01:02:43,260
-about the secret key.
+mengenai kunci rahasia.
 
 1148
 01:02:48,570 --> 01:02:51,700
-And that's the challenge
-of building PKI systems,
+Dan itulah tantangan untuk
+membangun sistem PKI,
 
 1149
 01:02:51,700 --> 01:02:56,800
-that we'll talk about in
-some detail next time.
+yang akan kita bicarakan
+secara rinci lain kali.
 
 1150
 01:02:56,800 --> 01:03:01,440
-But we don't need to
-think about that other
+Tapi kita tidak perlu
+memikirkannya
 
 1151
 01:03:01,440 --> 01:03:06,100
-than acknowledging it today.
+selain menyatakannya hari ini.
 
 1152
 01:03:06,100 --> 01:03:09,680
-So the public and private
-key are two distinct things,
+Jadi kunci publik dan pribadi
+merupakan dua hal yang berbeda,
 
 1153
 01:03:09,680 --> 01:03:12,150
-neither one of which reveals
-anything about the other.
+tidak ada yang mengungkapkan
+apa pun tentang satu sama lain.
 
 1154
 01:03:12,150 --> 01:03:14,430
