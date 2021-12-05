@@ -4743,75 +4743,75 @@ sistem yang sebenarnya.
 
 1028
 00:45:15,600 --> 00:45:19,380
-But you can sort of forget about
-the curve after this, right?
+Tetapi Anda bisa semacam melupakan tentang
+kurva setelah ini, benar?
 
 1029
 00:45:19,380 --> 00:45:25,140
-You can say, well, look, we just
-have these uppercase variables
+Anda dapat mengatakan, baik, lihat, kita hanya
+memiliki beberapa variabel huruf besar ini
 
 1030
 00:45:25,140 --> 00:45:26,460
-and these lowercase variables.
+dan beberapa variabel huruf kecil ini.
 
 1031
 00:45:26,460 --> 00:45:29,070
-And the fact that it's on a
-curve, we can sort of abstract
+Dan faktanya bahwa itu ada di
+kurva, kita dapat semacam memisahkan
 
 1032
 00:45:29,070 --> 00:45:31,650
-away and just know that we
-have these different types,
+dan mengetahui bahwa kita
+memiliki beberapa jenis yang berbeda
 
 1033
 00:45:31,650 --> 00:45:32,460
-essentially.
+pada dasarnya.
 
 1034
 00:45:32,460 --> 00:45:34,110
-And when you're in the
-computer, you're just like,
+Dan ketika Anda di dalam
+komputer, Anda seperti,
 
 1035
 00:45:34,110 --> 00:45:35,100
-yeah, that's a point.
+ya, itu poin nya.
 
 1036
 00:45:35,100 --> 00:45:35,970
-That's a scalar.
+Itu adalah skalar.
 
 1037
 00:45:35,970 --> 00:45:37,670
-Here are the
-operations I can do,
+Ini adalah
+operasi yang dapat saya lakukan,
 
 1038
 00:45:37,670 --> 00:45:39,820
-and I just run the functions.
+dan saya dapat menjalankan fungsi nya.
 
 1039
 00:45:39,820 --> 00:45:40,320
-OK.
+Oke.
 
 1040
 00:45:40,320 --> 00:45:46,080
-So the next part, when you
-mix scalars and points,
+Jadi langkah selanjutnya, ketika Anda
+mencampur skalar dan poin,
 
 1041
 00:45:46,080 --> 00:45:48,000
-so mixed operations.
+jadi operasi campuran.
 
 1042
 00:45:48,000 --> 00:45:54,480
-You cannot add a point and an
-integer or subtract a point
+Anda tidak dapat menambah sebuah poin dan sebuah
+integer atau mengurangi sebuah poin
 
 1043
 00:45:54,480 --> 00:45:55,380
-and an integer.
+dan sebuah integer.
 
 1044
 00:45:55,380 --> 00:45:56,490
