@@ -4733,13 +4733,13 @@ bilangan prima yang besar.
 
 1026
 00:45:10,440 --> 00:45:11,940
-Saya akan menggunakan
-kurva karena itu
+I'm going to use
+curves because it's
 
 1027
 00:45:11,940 --> 00:45:15,600
-yang digunakan di semua
-sistem yang sebenarnya.
+what is used in all
+the actual systems.
 
 1028
 00:45:15,600 --> 00:45:19,380
