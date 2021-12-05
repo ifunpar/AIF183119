@@ -3808,80 +3808,80 @@ that the adversary knows
 
 801
 00:32:42,400 --> 00:32:46,060
-what your sequence number
-is on that connection.
+berapa nomor urut Anda
+pada koneksi tersebut. 
 
 802
 00:32:46,060 --> 00:32:48,850
-So this is actually not clear
-if this is such a big problem
+Jadi ini sebenarnya tidak jelas
+apakah merupakan sebuah masalah besar
 
 803
 00:32:48,850 --> 00:32:49,750
-or or.
+atau tidak.
 
 804
 00:32:49,750 --> 00:32:51,240
-At some level,
-maybe you should be
+Pada tingkat tertentu,
+mungkin Anda harus
 
 805
 00:32:51,240 --> 00:32:52,490
-assuming that all your
-TCP connections could
+mengasumsikan bahwa semua 
+koneksi TCP Anda dapat
 
 806
 00:32:52,490 --> 00:32:53,450
-be broken at any time anyway.
+menjadi rusak kapanpun bagaimanapun juga.
 
 807
 00:32:53,450 --> 00:32:55,210
-It's not like the
-network is reliable.
+Ini tidak seperti jaringan
+yang dapat diandalkan.
 
 808
 00:32:55,210 --> 00:32:57,920
-So maybe you should be expecting
-your connections to drop.
+Jadi mungkin Anda seharusnya mengharapkan
+koneksi Anda terputus.
 
 809
 00:32:57,920 --> 00:32:59,710
-But one place where
-this turned out
+Tetapi suatu tempat dimana
+ini ternyata
 
 810
 00:32:59,710 --> 00:33:03,000
-to be particularly not a
-good assumption to make
+menjadi bukan sebuah asumsi
+yang baik untuk dibuat
 
 811
 00:33:03,000 --> 00:33:06,060
-is in the case of routers
-talking to one another.
+adalah pada kasus dimana router
+berkomunikasi satu dengan yang lain.
 
 812
 00:33:06,060 --> 00:33:08,340
-So if you have
-multiple routers that
+Jadi jika Anda memiliki
+beberapa router yang
 
 813
 00:33:08,340 --> 00:33:10,505
-speak some routing
-protocol, then they're
+mengkomunikasikan beberapa
+protokol pengaturan rute, maka mereka
 
 814
 00:33:10,505 --> 00:33:13,590
-connected, of course,
-by some physical links.
+terhubung, tentu,
+oleh beberapa jaringan fisik.
 
 815
 00:33:13,590 --> 00:33:16,480
-But over some physical
-links, they actually
+Tetapi melalui beberapa jaringan 
+fisik, mereka sebenarnya
 
 816
 00:33:16,480 --> 00:33:18,000
-speak some network protocol.
+mengkomunikasikan beberapa protokol jaringan.
 
 817
 00:33:18,000 --> 00:33:19,671
