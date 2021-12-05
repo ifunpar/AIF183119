@@ -4798,7 +4798,7 @@ Oke.
 1040
 00:45:40,320 --> 00:45:46,080
 Jadi langkah selanjutnya, ketika Anda
-mencampur skalar dan poin,
+mencampur skalar dan titik,
 
 1041
 00:45:46,080 --> 00:45:48,000
@@ -4806,8 +4806,8 @@ jadi operasi campuran.
 
 1042
 00:45:48,000 --> 00:45:54,480
-Anda tidak dapat menambah sebuah poin dan sebuah
-bilangan bulat atau mengurangi sebuah poin
+Anda tidak dapat menambah sebuah titik dan sebuah
+bilangan bulat atau mengurangi sebuah titik
 
 1043
 00:45:54,480 --> 00:45:55,380
@@ -4820,7 +4820,7 @@ Itu tidak terdefinisi, benar?
 1045
 00:45:56,490 --> 00:46:00,300
 Anda mengatakan, oke, disini
-ini poin p minus 7.
+ini titik p minus 7.
 
 1046
 00:46:00,300 --> 00:46:02,130
@@ -4854,84 +4854,85 @@ Anda dapat mengambil garis singgung, benar?
 
 1053
 00:46:14,700 --> 00:46:19,080
-It's just A plus A. Or A times
-7, is we just break it down as
+Itu hanya A ditambah A. Atau A dikali
+7, kita hanya menjabarkan menjadi
 
 1054
 00:46:19,080 --> 00:46:21,720
-A plus A plus A plus A 17 times.
+A ditambah A ditambah A ditambah A sebanyak 17 kali.
 
 1055
 00:46:21,720 --> 00:46:23,580
-We can also divide,
-which is a little weird
+Kita juga dapat membagi,
+yang sedikit aneh
 
 1056
 00:46:23,580 --> 00:46:27,600
-because we have to
-find the inverse of B
+karena kita harus
+menemukan invers dari B
 
 1057
 00:46:27,600 --> 00:46:29,640
-and then multiply by that--
+lalu kalikan dengan itu--
 
 1058
 00:46:29,640 --> 00:46:33,825
-the multiplicative inverse
-of B modulo the order.
+perkalian invers
+dari urutan modulo B.
 
 1059
 00:46:33,825 --> 00:46:35,958
-But anyway, you can do these.
+Tetapi bagaimanapun, Anda dapat melakukan ini.
 
 1060
 00:46:35,958 --> 00:46:37,500
-This is a little
-trickier because you
+Ini sedikit
+lebih rumit karena Anda
+
 
 1061
 00:46:37,500 --> 00:46:39,810
-have to compute what, like,
-B to the negative 1 is
+harus menghitung, seperti,
+B ke negatif 1 itu apa
 
 1062
 00:46:39,810 --> 00:46:40,920
-and multiply by that.
+dan dikali oleh itu.
 
 1063
 00:46:40,920 --> 00:46:41,760
-You can do it.
+Anda dapat melakukan nya.
 
 1064
 00:46:41,760 --> 00:46:45,468
-So you can do these things where
-you have points times scalars.
+Jadi Anda dapat melakukan hal ini di mana
+Anda memiliki titik dikali skalar.
 
 1065
 00:46:45,468 --> 00:46:46,260
-But you cannot add.
+Tetapi Anda tidak dapat menjumlahkan.
 
 1066
 00:46:46,260 --> 00:46:46,440
-Yeah?
+Yah?
 
 1067
 00:46:46,440 --> 00:46:48,110
-AUDIENCE: So 2A is
-basically joining
+AUDIENS: Jadi 2A adalah
+pada dasar nya bergabung
 
 1068
 00:46:48,110 --> 00:46:50,480
-the tangent to A,
-[INAUDIBLE] beginning.
+dengan garis singgung ke A,
+[TIDAK TERDENGAR] awal.
 
 1069
 00:46:50,480 --> 00:46:51,300
-TADGE DRYJA: Yep.
+TADGE DRYJA: Ya.
 
 1070
 00:46:51,300 --> 00:46:54,060
-So that was here.
+Jadi itu di sini.
 
 1071
 00:46:54,060 --> 00:46:55,800
