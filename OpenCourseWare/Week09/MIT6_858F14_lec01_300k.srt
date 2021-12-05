@@ -5666,144 +5666,144 @@ dan mengembalikan bilangan bulat itu.
 
 1194
 00:50:48,470 --> 00:50:52,430
-And the program will then print
-whatever integer I get back.
+Lalu program tersebut akan mencetak
+apapun bilangan bulat yang saya dapatkan kembali.
 
 1195
 00:50:52,430 --> 00:50:54,110
-It's like far from a web server.
+Ini seperti jauh dari server jaringan.
 
 1196
 00:50:54,110 --> 00:50:57,290
-But we'll at least
-see some basics
+Tetapi kita setidaknya akan
+melihat beberapa hal dasar
 
 1197
 00:50:57,290 --> 00:51:00,920
-of how buffer overflows
-work and what goes wrong.
+dari bagaimana buffer oveflow
+bekerja dan apa yang akan bekerja dengan salah.
 
 1198
 00:51:00,920 --> 00:51:03,380
-So let's see actually what
-happens if we run this program.
+Jadi marilak kita melihat apa yang
+akan terjadi ketika kita menjalankan program ini.
 
 1199
 00:51:03,380 --> 00:51:05,875
-So I can compile it here.
+Jadi kita dapat menghimpunnya disini.
 
 1200
 00:51:05,875 --> 00:51:07,250
-And actually, you
-can sort of see
+Dan sebenarnya, Anda
+seperti dapat melihat
 
 1201
 00:51:07,250 --> 00:51:10,600
-the-- it's already telling me
-what I'm screwing up, right?
+-- dia sudah memberitahu saya
+apa yang saya kacaukan, benarkah?
 
 1202
 00:51:10,600 --> 00:51:13,535
-The get function is dangerous
-and should not be used.
+Fungsi get ini berbahata
+dan sebaiknya tidak digunakan
 
 1203
 00:51:13,535 --> 00:51:15,710
-And we'll see in a second
-why the compiler is
+dan kita akan melihat sebentar lagi
+mengapa penghimpunnya
 
 1204
 00:51:15,710 --> 00:51:18,300
-so intent on telling me this.
+sangat mencoba untuk memberitahukan ini kepada saya.
 
 1205
 00:51:18,300 --> 00:51:20,320
-And it actually is true.
+Dan dia ternyata benar.
 
 1206
 00:51:20,320 --> 00:51:23,530
-But for now, suppose
-we're a happy go lucky
+Tetapi untuk sekarang, anggap saja
+kita adalah developer
 
 1207
 00:51:23,530 --> 00:51:26,660
-developer that is willing
-to ignore this warning.
+yang beruntung dan bahagia yang dapat
+mengabaikan peringatan ini.
 
 1208
 00:51:26,660 --> 00:51:27,350
-So OK.
+Jadi baiklah.
 
 1209
 00:51:27,350 --> 00:51:30,200
-I run this redirect function,
-I provide some input,
+Saya akan menjalankan fungsi pengalihan,
+saya menyediakan beberapa masukan,
 
 1210
 00:51:30,200 --> 00:51:33,040
-and it works.
+dan dia berhasil.
 
 1211
 00:51:33,040 --> 00:51:34,900
-Let's see if I
-provide large inputs.
+Mari kita lihat kalau saya
+menyediakan masukan yang besar.
 
 1212
 00:51:34,900 --> 00:51:37,265
-If I type in some
-large number, well,
+Jika saya mengetik beberapa
+bilangan besar, lalu,
 
 1213
 00:51:37,265 --> 00:51:38,890
-at least it gives me
-some large number.
+setidaknya dia memberi saya
+beberapa bilangan besar.
 
 1214
 00:51:38,890 --> 00:51:43,000
-It basically maxes out to
-two to the 31 and prints that
+Dia pada dasarnya akan memaksimalkan kepada
+dua ke 31 lalu mencetak
 
 1215
 00:51:43,000 --> 00:51:44,530
-and doesn't go any higher.
+dan tidak akan menjadi lebih tinggi.
 
 1216
 00:51:44,530 --> 00:51:46,290
-So that's maybe not
-disastrous, right?
+Maka dari itu, mungkin tidak akan
+kacau, benarkah?
 
 1217
 00:51:46,290 --> 00:51:46,790
-Whatever.
+Terserah.
 
 1218
 00:51:46,790 --> 00:51:49,570
-You provided this
-ridiculously large number.
+Anda menyediakan
+bilangan besar yang tidak masuk akal ini
 
 1219
 00:51:49,570 --> 00:51:51,990
-You got something
-didn't quite work.
+Anda punya sesuatu
+yang tidak cukup bekerja
 
 1220
 00:51:51,990 --> 00:51:53,510
-It's not quite a problem yet.
+Itu belum cukup menjadi masalah.
 
 1221
 00:51:53,510 --> 00:51:55,520
-But if we provide some
-really large input,
+Tetapi jika kita menyediakan 
+beberapa masukan yang sangat besar,
 
 1222
 00:51:55,520 --> 00:51:57,880
-we might get some
-other problem, right?
+Kita mungkin akan mendapatkan
+masalah lain, benarkah?
 
 1223
 00:51:57,880 --> 00:52:00,940
-So suppose I provide
-in a lot of by 12
+Jadi misalkan saya menyediakan
+sebanyak - banyaknya 12
 
 1224
 00:52:00,940 --> 00:52:03,395
