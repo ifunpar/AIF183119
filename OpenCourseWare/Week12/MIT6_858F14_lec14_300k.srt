@@ -3427,358 +3427,358 @@ disayangkan bahwa ini
 
 724
 00:31:07,590 --> 00:31:12,220
-protocol that we're looking
-at here-- SSL, TLS, whatever--
+bukan protokol yang sedang kita
+cari disini-- SSL, TLS, atau apapun--
 
 725
 00:31:12,220 --> 00:31:15,180
-doesn't offer this kind of
-opportunistic encryption thing.
+tidak menawarkan kesempatan
+enkripsi yang oportunistik seperti ini.
 
 726
 00:31:15,180 --> 00:31:16,910
-But such is life.
+Namun begitulah hidup.
 
 727
 00:31:16,910 --> 00:31:19,380
-So I guess the server
-[INAUDIBLE] in this protocol.
+Jadi saya rasa server ini
+[TIDAK TERDENGAR] dalam protokol ini.
 
 728
 00:31:19,380 --> 00:31:24,100
-The client sometimes can and
-sometimes doesn't have to.
+Klien terkadang dapat dan
+terkadang tidak perlu melakukannya.
 
 729
 00:31:24,100 --> 00:31:24,600
-Make sense?
+Masuk akal?
 
 730
 00:31:24,600 --> 00:31:24,870
-Yeah.
+Ya.
 
 731
 00:31:24,870 --> 00:31:25,995
-AUDIENCE: I'm just curious.
+AUDIENS: Saya hanya penasaran.
 
 732
 00:31:25,995 --> 00:31:27,852
-What's to stop
-someone from-- I mean,
+Apa yang dapat menghentikan
+seseorang dari-- Maksud saya,
 
 733
 00:31:27,852 --> 00:31:30,487
-let's just say that
-once a year, they
+katakanlah bahwa
+setahun sekali, mereka
 
 734
 00:31:30,487 --> 00:31:32,850
-create using new name key pairs.
+membuat pasangan nama-kunci baru.
 
 735
 00:31:32,850 --> 00:31:37,476
-So why couldn't you kind of
-try to spend that entire year
+Jadi mengapa Anda tidak
+menggunakan kunci tersebut
 
 736
 00:31:37,476 --> 00:31:39,000
-for that specific key?
+sepanjang tahun?
 
 737
 00:31:39,000 --> 00:31:39,809
-PROFESSOR: Huh?
+PROFESOR: Hah?
 
 738
 00:31:39,809 --> 00:31:41,600
-AUDIENCE: Why does that
-not work with this?
+AUDIENS: Mengapa hal itu
+tidak dapat bekerja dengan ini?
 
 739
 00:31:41,600 --> 00:31:42,840
-PROFESSOR: I think it does work.
+PROFESOR: Saya pikir itu bekerja.
 
 740
 00:31:42,840 --> 00:31:45,048
-So OK, so it's like what
-goes wrong with this scheme.
+OK, jadi seperti apa kira-kira yang
+menjadi kesalahan pada skema ini.
 
 741
 00:31:45,048 --> 00:31:46,990
-Like, one of the
-things that we have
+Seperti, salah satu
+hal yang harus kita
 
 742
 00:31:46,990 --> 00:31:49,440
-to do with the
-topography of good here,
+lakukan dengan
+topografi yang baik disini,
 
 743
 00:31:49,440 --> 00:31:53,230
-and as with Kerberos, people
-start off using good crypto,
+dan untuk Kerberos, orang-orang
+memulainya dengan menggunakan kriptografi yang baik,
 
 744
 00:31:53,230 --> 00:31:55,226
-but it gets worse
-and worse over time.
+tapi hal itu menjadi lebih buruk
+dan semakin buruk seiring berjalannya waktu.
 
 745
 00:31:55,226 --> 00:31:56,100
-Computers get faster.
+Komputer menjadi lebih cepat.
 
 746
 00:31:56,100 --> 00:31:58,010
-There's better algorithms
-that are breaking this stuff.
+Ada algoritma yang lebih baik
+yang bisa memecahkan keamanan ini.
 
 747
 00:31:58,010 --> 00:32:00,180
-And if people are not
-diligent about increasing
+Dan jika orang-orang tidak
+rajin dalam meningkatkan
 
 748
 00:32:00,180 --> 00:32:02,869
-their standards, then
-these problems do creep up.
+standar mereka, maka
+masalah-masalah ini akan membesar.
 
 749
 00:32:02,869 --> 00:32:05,410
-So for example, it used to be
-the case that many certificates
+Sebagai contoh, sebelumnya
+banyak kasus di mana sertifikat
 
 750
 00:32:05,410 --> 00:32:06,274
-were signed.
+ditandai.
 
 751
 00:32:06,274 --> 00:32:07,690
-Well, there's two
-things going on.
+Ya, ada dua
+hal yang terjadi.
 
 752
 00:32:07,690 --> 00:32:09,420
-There's a public key
-signature scheme.
+Ada skema tanda tangan
+kunci publik.
 
 753
 00:32:09,420 --> 00:32:13,080
-And then because the public key
-crypto has some limitations,
+Kemudian karena kriptografi kunci publik
+mempunyai beberapa batasan,
 
 754
 00:32:13,080 --> 00:32:15,510
-you typically-- actually,
-when you sign a message,
+Anda biasanya-- sebenarnya,
+saat Anda menandatangani pesan,
 
 755
 00:32:15,510 --> 00:32:17,360
-you actually take a
-hash of the message
+Anda benar-benar menerima
+hash dari pesan
 
 756
 00:32:17,360 --> 00:32:19,710
-and then you sign the
-hash itself because it's
+dan kemudian Anda menandatangani
+hash itu sendiri karena
 
 757
 00:32:19,710 --> 00:32:21,860
-hard to sign a gigantic
-message, but it's
+sulit untuk menandatangani pesan
+yang besar, tetapi
 
 758
 00:32:21,860 --> 00:32:24,347
-easy to sign a compact hash
+mudah untuk menandatangani hash yang ringkas
 
 759
 00:32:24,347 --> 00:32:25,930
-And one thing that
-actually went wrong
+Dan satu hal yang
+jadi tidak bekerja dengan baik lagi
 
 760
 00:32:25,930 --> 00:32:29,390
-is that people used to
-use MD5 as a hash function
+adalah bahwa orang-orang
+menggunakan MD5 sebagai fungsi hash
 
 761
 00:32:29,390 --> 00:32:34,844
-for collapsing the big message
-here signing into a 128 bit
+untuk mengecilkan pesan yang besar
+ke dalam bentuk ukuran 128 bit
 
 762
 00:32:34,844 --> 00:32:36,510
-thing that you're
-going to actually sign
+yang Anda
+akan benar-benar tandatangani
 
 763
 00:32:36,510 --> 00:32:38,400
-with a crypto system.
+dengan sistem kriptografi.
 
 764
 00:32:38,400 --> 00:32:40,930
-MD5 was good maybe 20 years
-ago, and then over time,
+MD5 dikatakan bagus 20 tahun yang
+lalu, dan seiring waktu,
 
 765
 00:32:40,930 --> 00:32:43,770
-people discovered weaknesses
-in MD5 that could be exploited.
+orang menemukan kelemahan
+pada MD5 yang dapat dieksploitasi.
 
 766
 00:32:43,770 --> 00:32:46,340
-So actually, at some
-point, someone did actually
+Jadi sebenarnya, pada
+suatu titik, seseorang benar-benar
 
 767
 00:32:46,340 --> 00:32:49,560
-ask for a certificate with
-a particular MD5 hash,
+meminta sertifikat dengan
+hash MD5 tertentu,
 
 768
 00:32:49,560 --> 00:32:51,880
-and then they
-carefully figured out
+dan kemudian mereka
+memikirkan dengan cermat
 
 769
 00:32:51,880 --> 00:32:56,610
-another message that hashes
-to the same MD5 value.
+pesan lain yang melakukan hash
+pada nilai MDS yang sama.
 
 770
 00:32:56,610 --> 00:33:02,090
-And as a result, now you have a
-signature by a CA on some hash,
+Dan hasilnya, sekarang Anda memiliki sebuah
+tanda tangan oleh sebuah CA dengan hash tertentu,
 
 771
 00:33:02,090 --> 00:33:04,964
-and then you have a different
-message, a different key,
+dan lalu Anda memiliki sebuah pesan
+berbeda, sebuah kunci yang berbeda,
 
 772
 00:33:04,964 --> 00:33:06,380
-or a different
-name that you could
+atau sebuah nama yang
+berbeda yang Anda dapat
 
 773
 00:33:06,380 --> 00:33:08,870
-convince someone was signed.
+yakinkan bahwa seseorang telah ditandatangani.
 
 774
 00:33:08,870 --> 00:33:10,697
-And this does happen.
+Dan ini memang terjadi.
 
 775
 00:33:10,697 --> 00:33:13,280
-Like, if you spend a lot of time
-trying to break a single key,
+Seperti, jika Anda menghabiskan banyak waktu
+berusaha memecahkan sebuah kunci,
 
 776
 00:33:13,280 --> 00:33:15,430
-than you will
-succeed eventually.
+maka Anda pada
+akhirnya akan berhasil.
 
 777
 00:33:15,430 --> 00:33:18,750
-If that certificate
-was using crypto,
+Jika sertifikat tersebut
+menggunakan kriptografi,
 
 778
 00:33:18,750 --> 00:33:20,456
-that could be brute force.
+hal itu dapat di brute force (dicoba satu per satu).
 
 779
 00:33:20,456 --> 00:33:22,830
-Another example of something
-that's probably not so great
+Contoh lain dari sesuatu
+yang mungkin tidak terlalu bagus
 
 780
 00:33:22,830 --> 00:33:24,067
-now is if you're using RSA.
+sekarang adalah jika Anda menggunakan RSA.
 
 781
 00:33:24,067 --> 00:33:25,525
-We haven't really
-talked about RSA,
+Kita belum benar-benar
+berbicara mengenai RSA,
 
 782
 00:33:25,525 --> 00:33:27,465
-but RSA is one of
-these public key crypto
+namun RSA adalah salah satu dari
+kumpulan sistem kriptografi kunci publik
 
 783
 00:33:27,465 --> 00:33:30,370
-systems that allows us to
-either encrypt messages or sign
+yang memungkinkan kita untuk baik
+mengenkripsi pesan-pesan ataupun menandatangani
 
 784
 00:33:30,370 --> 00:33:31,610
-messages.
+pesan.
 
 785
 00:33:31,610 --> 00:33:34,560
-With RSA, these
-days, it's probably
+Dengan RSA, pada hari-hari
+ini, mungkin saja
 
 786
 00:33:34,560 --> 00:33:38,965
-feasible to spend lots of money
-and break 1,000 bit RSA keys.
+untuk untuk menghabiskan banyak uang
+dan memecahkan kunci RSA 1,000 bit.
 
 787
 00:33:38,965 --> 00:33:41,090
-You'd probably have to
-spend a fair amount of work,
+Anda kemungkinan harus
+menghabiskan cukup banyak usaha,
 
 788
 00:33:41,090 --> 00:33:44,850
-but it's doable, probably
-within a year easily.
+tetapi hal itu dapat dikerjakan, mungkin
+dalam setahun dengan mudah.
 
 789
 00:33:44,850 --> 00:33:46,140
-From there, absolutely.
+Dari situ, pastinya.
 
 790
 00:33:46,140 --> 00:33:49,720
-You can ask a certificate
-authority to sign some message,
+Anda dapat meminta otoritas
+sertifikat untuk menandatangi beberapa pesan,
 
 791
 00:33:49,720 --> 00:33:52,850
-or you can even take
-someone's existing public key
+atau Anda bahkan bisa mengambil
+kunci publik seseorang yang sudah ada
 
 792
 00:33:52,850 --> 00:33:55,680
-and try to brute force the
-corresponding secret key, or
+dan mecoba melakukan brute force pada
+kunci rahasia yang terkait, atau
 
 793
 00:33:55,680 --> 00:33:56,430
-[? manual hack. ?]
+[? meretas manual. ?]
 
 794
 00:33:56,430 --> 00:34:01,630
-So you have to keep up with
-the attackers in some sense.
+Jadi Anda harus mengikuti
+penyerang dalam beberapa hal.
 
 795
 00:34:01,630 --> 00:34:03,745
-You have to use
-larger keys with RSA.
+Anda harus menggunakan kunci
+yang lebih besar dengan RSA.
 
 796
 00:34:03,745 --> 00:34:05,870
-Or maybe you have to use
-a different crypto scheme.
+Atau mungkin Anda harus menggunakan
+skema kriptografi yang berbeda.
 
 797
 00:34:05,870 --> 00:34:08,031
-For example, now people
-don't use MD5 hashes
+Sebagai contoh, saat ini orang
+tidak menggunakan hash MD5
 
 798
 00:34:08,031 --> 00:34:08,739
-and certificates.
+dan sertifikat.
 
 799
 00:34:08,739 --> 00:34:11,167

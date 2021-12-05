@@ -2748,270 +2748,270 @@ Baiklah, maaf.
 
 578
 00:25:38,150 --> 00:25:40,191
-So in the paper, there's
-this implicit assumption
+Jadi pada paper nya, ada
+asumsi implisit
 
 579
 00:25:40,191 --> 00:25:43,220
-that whenever you
-encrypt a piece of data
+bahwa kapan pun Anda
+mengenkripsi sebuah data
 
 580
 00:25:43,220 --> 00:25:46,210
-and you send it to someone
-else, if that person can decrypt
+dan Anda mengirimkannya kepada orang
+lain, jika orang tersebut dapat mendekripsi
 
 581
 00:25:46,210 --> 00:25:48,350
-the data and it
-sort of looks OK,
+data tersebut dan itu
+terlihat OK,
 
 582
 00:25:48,350 --> 00:25:50,210
-then no, they must have
-gotten the right key
+maka tidak, mereka pasti
+mendapatkan kunci yang benar
 
 583
 00:25:50,210 --> 00:25:52,520
-and the data wasn't
-tampered with in flight.
+dan data tidak dirusak
+dalam pengiriman.
 
 584
 00:25:52,520 --> 00:25:54,430
-But it seems like a
-totally bad plan now
+Tapi itu sepertinya
+rencana yang benar-benar buruk sekarang
 
 585
 00:25:54,430 --> 00:25:56,590
-that we think of
-it 30 years later.
+jika kita pikirkan
+itu 30 tahun kemudian.
 
 586
 00:25:56,590 --> 00:25:58,230
-But at the time,
-it wasn't so clear.
+Tapi pada saat itu,
+itu tidak begitu jelas.
 
 587
 00:25:58,230 --> 00:25:59,610
-So in order to do
-Kerberos right,
+Jadi untuk melakukan
+Kerberos dengan benar,
 
 588
 00:25:59,610 --> 00:26:01,730
-and in fact, what
-Kerberos 5 does now,
+dan sebenarnya, yang dilakukan
+Kerberos 5 sekarang,
 
 589
 00:26:01,730 --> 00:26:04,277
-is they both encrypt
-all the pieces of data
+adalah mereka berdua mengenkripsi
+semua potongan data
 
 590
 00:26:04,277 --> 00:26:05,860
-and they also
-authenticate the message
+dan mereka juga
+mengautentikasi pesan tersebut
 
 591
 00:26:05,860 --> 00:26:09,350
-by basically computing
-a hash with a key.
+dengan cara menghitung
+sebuah hash dengan sebuah kunci.
 
 592
 00:26:09,350 --> 00:26:11,320
-And then the result
-actually tells you
+Dan kemudian hasilnya
+sebenarnya memberitahu Anda
 
 593
 00:26:11,320 --> 00:26:13,960
-that, oh, that piece of data
-just wasn't tampered with.
+bahwa, oh, potongan data itu
+tidak dirusak.
 
 594
 00:26:13,960 --> 00:26:16,389
-It was correctly signed
-with this key, et cetera.
+Potongan tersebut juga ditanda-tangani dengan benar
+menggunakan kunci ini, dan lain-lain.
 
 595
 00:26:16,389 --> 00:26:17,930
-And what actually
-happens in Kerberos
+Dan apa yang sebenarnya
+terjadi di Kerberos
 
 596
 00:26:17,930 --> 00:26:20,030
-version 4 is there
-are some extra bits
+versi 4 adalah ada
+beberapa bits ekstra
 
 597
 00:26:20,030 --> 00:26:23,110
-in this thing that was
-encrypted that should all
+di dalam benda ini yang
+terenkripsi yang seharusnya semuanya itu
 
 598
 00:26:23,110 --> 00:26:25,350
-be some pattern like zeros.
+membentuk beberapa pola seperti deretan nol.
 
 599
 00:26:25,350 --> 00:26:28,150
-And typically, if you
-get the key wrong,
+Dan biasanya, jika kamu
+mendapatkan kunci yang salah,
 
 600
 00:26:28,150 --> 00:26:31,510
-that pattern will not look
-like all zeros just by chance.
+pola itu tidak akan terlihat
+seperti semuanya nol secara kebetulan.
 
 601
 00:26:31,510 --> 00:26:34,210
-It's not cryptographically
-guaranteed to be that.
+Ini secara kriptografis tidak
+menjamin seperti itu.
 
 602
 00:26:34,210 --> 00:26:36,690
-But most times, it will
-not look like zeros
+Tapi sering kali, itu tidak
+akan terlihat seperti nol
 
 603
 00:26:36,690 --> 00:26:40,030
-and you will be able to decide
-whether you got the correct key
+dan Anda akan dapat memutuskan
+apakah Anda mendapatkan kunci yang benar
 
 604
 00:26:40,030 --> 00:26:42,490
-or not.
+atau tidak.
 
 605
 00:26:42,490 --> 00:26:45,400
-All right, so that's
-sort of the plan
+Baiklah, jadi itu
+semacam rencana
 
 606
 00:26:45,400 --> 00:26:47,744
-for how the clients
-tells, I guess,
+untuk bagaimana klien
+mengetahui, sepertinya,
 
 607
 00:26:47,744 --> 00:26:48,910
-whether the ticket is valid.
+apakah tiketnya valid.
 
 608
 00:26:48,910 --> 00:26:52,384
-They just try to decrypt
-it and see how it works.
+Mereka hanya mencoba mendekripsi
+itu dan melihat hasilnya.
 
 609
 00:26:52,384 --> 00:26:53,800
-So another interesting
-question is
+Jadi pertanyaan lain
+yang menarik adalah
 
 610
 00:26:53,800 --> 00:26:57,214
-why is this key
-KCS included twice
+kenapa kunci 
+KCS ini diikutsertakan sebanyak dua kali
 
 611
 00:26:57,214 --> 00:26:58,630
-in the ticket in
-some form, right?
+di tiketnya dalam
+bentuk tertentu, benar?
 
 612
 00:26:58,630 --> 00:27:02,520
-So it's included once here
-and another time actually sort
+Jadi diikutsertakan sekali di sini
+dan sebenarnya yang lainnya
 
 613
 00:27:02,520 --> 00:27:06,060
-of implicitly in
-this ticket T. Why
+secara tidak langsung di
+dalam tiket T. Mengapa
 
 614
 00:27:06,060 --> 00:27:10,274
-do we have two copies
-of the same key KCS?
+kita memiliki 2 buah 
+kunci KC yang sama?
 
 615
 00:27:10,274 --> 00:27:10,774
-Yeah.
+Ya.
 
 616
 00:27:10,774 --> 00:27:12,658
-STUDENT: The client
-can't decrypt that ticket
+MAHASISWA: Klien
+tidak dapat mendekripsi tiketnya
 
 617
 00:27:12,658 --> 00:27:14,681
-because it's encrypted
-with a service key.
+karena sudah terenkripsi
+dengan kunci layanan.
 
 618
 00:27:14,681 --> 00:27:16,930
-PROFESSOR: Yeah, so it's
-actually kind of cute, right?
+PROFESOR: Ya, jadi
+sebenarnya cukup menarik, benar?
 
 619
 00:27:16,930 --> 00:27:19,067
-Like, there's this key
-that the client can get to.
+Seperti, terdapat kunci ini
+yang dapat diperoleh klien.
 
 620
 00:27:19,067 --> 00:27:20,900
-But then there's another
-copy of it in here.
+Namun, terdapat salinannya 
+yang lain di sini.
 
 621
 00:27:20,900 --> 00:27:23,300
-It's encrypted with KS.
+Itu terenkripsi menggunakan KS.
 
 622
 00:27:23,300 --> 00:27:27,400
-And the reason for this is that
-the Kerberos server is actually
+Dan alasannya untuk ini adalah
+server Kerberos sebenarnya
 
 623
 00:27:27,400 --> 00:27:29,670
-trying to set up the
-client and this other guy
+mencoba mempersiapkan
+klien dan orang lain ini
 
 624
 00:27:29,670 --> 00:27:31,350
-to talk to each other securely.
+untuk berkomunikasi satu sama lain dengan aman.
 
 625
 00:27:31,350 --> 00:27:35,650
-So the Kerberos generates
-this hopefully random key KCS
+Jadi Kerberos menghasilkan
+kunci KCS yang diharapkan acak
 
 626
 00:27:35,650 --> 00:27:38,180
-and wants to give one copy
-to the client and one copy
+dan ingin memberikan satu salinan
+ke klien dan satu salinan
 
 627
 00:27:38,180 --> 00:27:40,640
-to the write other server
-that you want to talk to.
+untuk write pada server lain
+yang ingin Anda ajak berkomunikasi.
 
 628
 00:27:40,640 --> 00:27:42,840
-And one thing you could
-imagine doing naively
+Dan satu hal yang Anda bisa
+bayangkan dilakukan secara naif
 
 629
 00:27:42,840 --> 00:27:45,600
-is maybe the Kerberos will
-just go and say, hey service,
+adalah mungkin Kerberos akan
+lanjut saja dan mengatakan, hai layanan,
 
 630
 00:27:45,600 --> 00:27:46,850
-this guy wants to talk to you.
+orang ini ingin berkomunikasi denganmu,
 
 631
 00:27:46,850 --> 00:27:47,767
-Here's the key for it.
+Ini kuncinya.
 
 632
 00:27:47,767 --> 00:27:49,349
-But that would be
-kind of unfortunate.
+Tapi hal itu akan menjadi
+agak disayangkan.
 
 633
 00:27:49,349 --> 00:27:52,380
