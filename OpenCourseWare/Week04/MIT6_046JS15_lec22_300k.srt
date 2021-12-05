@@ -3579,7 +3579,7 @@ Jadi mari kita mulai.
 
 761
 00:41:30,030 --> 00:41:37,300
-Pada dasarnya, RSA didasarkan pada
+Pada dasarnya, RSA didasarkan dari
 bilangan prima dan memfaktorkan bilangan
 
 762
@@ -3594,7 +3594,7 @@ benar-benar dapat mencapai
 
 764
 00:41:45,820 --> 00:41:49,050
-apa yang sedang coba dilakukan ini.
+apa yang sedang dicoba hal ini.
 
 765
 00:41:49,050 --> 00:41:51,580
@@ -3628,12 +3628,12 @@ yang dihasilkan itu
 
 771
 00:42:07,780 --> 00:42:11,700
-harus dapat didekripsi
+harus bisa didekripsi
 tepat seperti pesan
 
 772
 00:42:11,700 --> 00:42:16,220
-yang dikirim Alice yang diberikan 
+yang dikirim Alice dengan
 kunci privat Bob.
 
 773
@@ -3661,22 +3661,22 @@ adalah yang saya tulis di atas sana.
 
 778
 00:42:28,520 --> 00:42:32,540
-Itu pengetahuan tentang
-SK (secret key) harus disembunyikan bahkan
+Pengetahuan tentang SK (secret key)
+harus disembunyikan walaupun
 
 779
 00:42:32,540 --> 00:42:33,790
-diberikan pengetahuan tentang PK (primary key).
+diberikan pengetahuan tentang PK (public key).
 
 780
 00:42:33,790 --> 00:42:36,190
 Dan terdapat asumsi
-kesulitan komputasi yang tepat
+tingkat kesulitan komputasi
 
 781
 00:42:36,190 --> 00:42:39,460
-asumsi yang terhubung
-dengan setiap cryptosystem.
+yang tepat yang berkaitan
+dengan setiap kriptosistem.
 
 782
 00:42:39,460 --> 00:42:41,745
@@ -3695,7 +3695,7 @@ untuk beberapa menit kedepan.
 785
 00:42:47,760 --> 00:43:00,970
 Alice akan memilih dua
-bilangan rahasia prima yang besar, p dan q.
+bilangan prima rahasia yang besar, p dan q.
 
 786
 00:43:00,970 --> 00:43:02,660
@@ -3728,7 +3728,7 @@ mereka harus mendaftar.
 792
 00:43:16,760 --> 00:43:20,120
 Dan ini bukan sesuatu yang akan
-kita bahas di luar kemampuan saya
+kita bahas di luar saya
 
 793
 00:43:20,120 --> 00:43:21,360
@@ -3741,12 +3741,12 @@ kunci publik mereka dengan VeriSign
 
 795
 00:43:23,820 --> 00:43:26,190
-atau RMV seperti yang sudah saya bicarakan.
+atau dengan RMV seperti yang sudah saya bicarakan.
 
 796
 00:43:26,190 --> 00:43:30,380
 Jadi semua orang tahu bahwa kunci
-publik Alice adalah angka yang panjang ini.
+publik Alice adalah bilangan yang panjang ini.
 
 797
 00:43:30,380 --> 00:43:33,500
@@ -3791,11 +3791,11 @@ kecil ini, yang
 805
 00:44:07,600 --> 00:44:11,560
 mengatakan bahwa bilangan tersebut
-relatif prima
+relatif prima terhadap
 
 806
 00:44:11,560 --> 00:44:14,880
-terhadap p dikurang 1 dikali q dikurang 1.
+p dikurang 1 dikali q dikurang 1.
 
 807
 00:44:14,880 --> 00:44:15,910
@@ -3804,7 +3804,7 @@ Dan dia tahu nilai p dan q.
 808
 00:44:15,910 --> 00:44:19,550
 Sehingga dia dapat menghitung p
-dikurang 1 dikalikan q dikurang 1.
+dikurang 1 dikali q dikurang 1.
 
 809
 00:44:19,550 --> 00:44:24,010
@@ -3814,7 +3814,7 @@ dikurang 1, q dikurang 1 adalah 1.
 810
 00:44:24,010 --> 00:44:26,740
 Dan Anda pasti bisa
-menyelesaikan ini hanya
+menyelesaikan hal ini hanya
 
 811
 00:44:26,740 --> 00:44:29,890
@@ -3823,7 +3823,7 @@ dengan memilih e sebagai bilangan prima.
 812
 00:44:29,890 --> 00:44:34,600
 Karena dengan demikian hasil gcd dari bilangan
-prima dengan bilangan lainnya adalah 1.
+prima dengan bilangan apapun adalah 1.
 
 813
 00:44:34,600 --> 00:44:39,130
@@ -3850,7 +3850,7 @@ memperbaikinya menjadi bilangan kecil.
 818
 00:44:48,470 --> 00:44:51,430
 Eksponen enkripsinya adalah
-bilangan bernilai kecil.
+bilangan kecil.
 
 819
 00:44:51,430 --> 00:44:52,910
@@ -3879,104 +3879,104 @@ akan berjalan.
 824
 00:45:00,910 --> 00:45:04,530
 Jadi jika Anda ingin mengenkripsi
-cepat dan derkripsi lebih lambat,
+cepat dan mendekripsi lebih lambat,
 
 825
 00:45:04,530 --> 00:45:06,910
-sayangnya, itu hanya
-keuntungan atau kerugian di sini.
+sayangnya, itulah
+tawaran di sini.
 
 826
 00:45:06,910 --> 00:45:08,127
-Anda akan memilih e kecil.
+Anda akan memilih sebuah e kecil.
 
 827
 00:45:08,127 --> 00:45:10,710
 Dan kemudian kita akan menghitung
-eksponen dekripsi kami, yang
+eksponen dekripsi milik kita, yang
 
 828
 00:45:10,710 --> 00:45:12,650
-jelas akan
-harus pribadi.
+sudah jelas akan
+perlu menjadi privat.
 
 829
 00:45:12,650 --> 00:45:14,470
-Karena itu bagian
-dari kunci privat kami.
+Karena itu adalah bagian
+dari kunci privat kita.
 
 830
 00:45:14,470 --> 00:45:16,810
-Tapi itu akan menjadi
-lebih besar jika e kecil.
+Tapi dia akan menjadi
+lebih besar jika e bernilai kecil.
 
 831
 00:45:16,810 --> 00:45:18,349
-Dan itu hanya keuntungan atau kerugian.
+Dan itu hanyalah tawaran keuntungan dan kerugian.
 
 832
 00:45:18,349 --> 00:45:20,140
-Ini simetris di
-rasakan itu disaat itu
+Hal itu simetris dalam
+arti disaat dia adalah
 
 833
 00:45:20,140 --> 00:45:21,940
-asimetris
-algoritma, itu semacam
+sebuah algoritma
+asimetris, itu semacam
 
 834
 00:45:21,940 --> 00:45:24,290
-simetris di
-pengertian matematika
+simetris pada
+artian matematis
 
 835
 00:45:24,290 --> 00:45:28,160
-bahwa kunci privat dan
+di mana operasi kunci privat dan
 operasi kunci publik
 
 836
 00:45:28,160 --> 00:45:30,910
-merupakan simetris.
+bersifat simetris.
 
 837
 00:45:30,910 --> 00:45:33,015
-Jadi apa kunci publik Alice?
+Jadi apa kunci publik milik Alice?
 
 838
 00:45:33,015 --> 00:45:39,540
-Baik, kunci publik Alice,
-yang kemudian dapat dia terbitkan,
+Nah, kunci publik milik Alice,
+yang nantinya dapat dia publikasikan,
 
 839
 00:45:39,540 --> 00:45:42,130
-hanya m, e.
+benar-benar hanyalah m, e.
 
 840
 00:45:42,130 --> 00:45:42,630
-Baik.
+Oke.
 
 841
 00:45:50,740 --> 00:45:53,920
-Sekarang, bagian menyenangkan dimulai.
+Sekarang, bagian yang menyenangkan dimulai.
 
 842
 00:45:53,920 --> 00:45:56,520
 Kita harus mencari tahu
-apa kunci pribadi itu
+dengan apa kunci privat itu
 
 843
 00:45:56,520 --> 00:45:58,070
-akan sesuai dengan.
+akan berkorespondensi.
 
 844
 00:45:58,070 --> 00:46:02,220
 Dan ternyata-- dan
-Ini adalah salah satu di antaranya
+ini adalah salah satu hal
 
 845
 00:46:02,220 --> 00:46:05,110
-dimana dan bagaimana mereka
-pernah memikirkan ini?
+di mana kita bertanya bagaimana bisa
+mereka terpikirkan hal ini?
 
 846
 00:46:05,110 --> 00:46:09,020
