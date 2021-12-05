@@ -5397,7 +5397,7 @@ pada jenis-jenis paket tertentu.
 1137
 00:48:26,874 --> 00:48:28,290
 Apapun yang Anda dapat
-bentuk dan semacam
+bentuk dan
 
 1138
 00:48:28,290 --> 00:48:30,187
@@ -5559,7 +5559,7 @@ hanya ingin memberikan Anda
 
 1171
 00:49:41,340 --> 00:49:43,470
-sebuah contoh yang sederhana
+sebuah contoh yang disederhanakan
 supaya kita dapat membicarakan
 
 1172
@@ -5710,7 +5710,7 @@ dan tidak boleh digunakan.
 1203
 00:51:13,535 --> 00:51:15,710
 Dan kita akan melihat sebentar
-lagi mengapa kompilatornya
+lagi mengapa compilernya
 
 1204
 00:51:15,710 --> 00:51:18,300
@@ -5727,7 +5727,7 @@ kita adalah pengembang yang
 
 1207
 00:51:23,530 --> 00:51:26,660
-selalu senang, tak pernah risau yang
+selalu senang, tak pernah risau dan
 bersedia mengabaikan peringatan ini.
 
 1208
@@ -5876,7 +5876,7 @@ akan menjalankan program ini
 
 1239
 00:52:39,710 --> 00:52:40,680
-di bawah sebuah debugger.
+di dalam sebuah debugger.
 
 1240
 00:52:40,680 --> 00:52:43,980
