@@ -3668,63 +3668,63 @@ mengapa ini adalah sebuah rencana yang buruk?
 
 772
 00:31:29,820 --> 00:31:33,500
-And just to double check,
-suppose that some server
+Dan untuk memeriksa ulang,
+misalkan beberapa server
 
 773
 00:31:33,500 --> 00:31:34,554
-was using rlogin.
+menggunakan rlogin.
 
 774
 00:31:34,554 --> 00:31:35,845
-What would you do to attack it?
+Apa yang akan Anda lakukan untung menyerangnya?
 
 775
 00:31:35,845 --> 00:31:39,640
-What bad thing would happen?
+Hal buruk apa yang akan terjadi?
 
 776
 00:31:39,640 --> 00:31:41,590
-Suggestions?
+Saran?
 
 777
 00:31:41,590 --> 00:31:42,090
-Yeah.
+Ya.
 
 778
 00:31:42,090 --> 00:31:44,026
-AUDIENCE: Just getting
-into your computer,
+AUDIENS: Cukup masuk
+ke komputer Anda,
 
 779
 00:31:44,026 --> 00:31:46,482
-and then make a user that
-you want to log into,
+lalu buat pengguna
+yang ingin Anda masuki,
 
 780
 00:31:46,482 --> 00:31:47,898
-and then you get
-into the network.
+kemudian Anda masuk
+ke dalam jaringan.
 
 781
 00:31:47,898 --> 00:31:50,450
-PROFESSOR: Yeah, so basically
-you get your computer.
+PROFESOR: Ya, jadi pada dasarnya
+Anda masuk ke komputer.
 
 782
 00:31:50,450 --> 00:31:53,955
-You synthesize this data to look
-like a legitimate set of rlogin
+Anda mensintesis datanya agar
+terlihat seperti seperangkat
 
 783
 00:31:53,955 --> 00:31:56,170
-commands that say,
-log in as this user
+perintah rlogin yang sah yang menyatakan,
+masuk sebagai pengguna ini
 
 784
 00:31:56,170 --> 00:31:58,980
-and run this command
-in my Unix shell there.
+dan jalankan perintah ini
+di shell Unix.
 
 785
 00:31:58,980 --> 00:32:01,780
