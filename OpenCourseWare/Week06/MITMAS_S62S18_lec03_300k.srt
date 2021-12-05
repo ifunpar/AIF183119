@@ -4807,50 +4807,50 @@ jadi operasi campuran.
 1042
 00:45:48,000 --> 00:45:54,480
 Anda tidak dapat menambah sebuah poin dan sebuah
-integer atau mengurangi sebuah poin
+bilangan bulat atau mengurangi sebuah poin
 
 1043
 00:45:54,480 --> 00:45:55,380
-dan sebuah integer.
+dan sebuah bilangan bulat.
 
 1044
 00:45:55,380 --> 00:45:56,490
-That's not defined, right?
+Itu tidak terdefinisi, benar?
 
 1045
 00:45:56,490 --> 00:46:00,300
-You say, OK, here's
-this point p minus 7.
+Anda mengatakan, oke, disini
+ini poin p minus 7.
 
 1046
 00:46:00,300 --> 00:46:02,130
-Well, does that mean
-move the x-axis?
+Jadi, apakah itu arti nya
+memindahkan sumbu x?
 
 1047
 00:46:02,130 --> 00:46:03,840
-Does that mean move the y?
+Apakah itu arti nya memindahkan y?
 
 1048
 00:46:03,840 --> 00:46:05,320
-It's not defined.
+Itu tidak terdefinisi.
 
 1049
 00:46:05,320 --> 00:46:07,410
-However, you can do this, right?
+Namun, Anda dapat melakukan ini, benar?
 
 1050
 00:46:07,410 --> 00:46:10,020
-You can multiply and divide.
+Anda dapat mengalikan dan membagi.
 
 1051
 00:46:10,020 --> 00:46:13,530
-So you can say, well,
-A times 2, well,
+Jadi Anda dapat mengatakan, baik,
+A dikali 2, baik,
 
 1052
 00:46:13,530 --> 00:46:14,700
-you take the tangent, right?
+Anda dapat mengambil garis singgung, benar?
 
 1053
 00:46:14,700 --> 00:46:19,080
