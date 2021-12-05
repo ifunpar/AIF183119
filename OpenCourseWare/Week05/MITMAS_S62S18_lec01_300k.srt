@@ -4073,221 +4073,221 @@ tidak memiliki collision.
 
 861
 00:37:14,070 --> 00:37:16,170
-If you can find a
-collision, if any collision
+Jika Anda dapat menemukan sebuah
+collision, jika satu collision saja
 
 862
 00:37:16,170 --> 00:37:18,180
-exists for this
-hash function, you
+ada untuk
+fungsi hash ini, Anda
 
 863
 00:37:18,180 --> 00:37:20,753
-can consider the
-hash function broken.
+dapat menganggap
+fungsi hash rusak.
 
 864
 00:37:20,753 --> 00:37:22,920
-It's a little bit different
-than preimage resistance
+Ini sedikit berbeda
+dari resistensi pragambar
 
 865
 00:37:22,920 --> 00:37:25,800
-because it's hard to
-definitively prove
+karena sulit untuk
+secara definitif membuktikan
 
 866
 00:37:25,800 --> 00:37:27,180
-that you've broken preimages.
+bahwa anda sudah merusak pragambar.
 
 867
 00:37:27,180 --> 00:37:29,190
-That's something of an
-interactive process where
+Itu adalah
+proses interaktif di mana
 
 868
 00:37:29,190 --> 00:37:31,722
-you say, hey, here's a y,
-and then someone comes back
+Anda berkata, hai, ini sebuah y,
+dan kemudian seseorang datang
 
 869
 00:37:31,722 --> 00:37:33,180
-with an x, and
-you're like, oh, OK,
+dengan x, dan
+Anda seperti, oh, oke,
 
 870
 00:37:33,180 --> 00:37:36,120
-you prove to me that
-you can find preimages.
+anda membuktikan kepada saya bahwa
+anda dapat menemukan pragambar.
 
 871
 00:37:36,120 --> 00:37:38,130
-But that's hard to tell
-to the rest of the world
+Tapi sulit untuk memberitahu
+ke seluruh dunia
 
 872
 00:37:38,130 --> 00:37:40,230
-because it was sort
-of interactive,
+karena itu semacam
+interaktif,
 
 873
 00:37:40,230 --> 00:37:43,290
-whereas collisions are very
-clear and non-interactive.
+sedangkan tabrakan sangat
+jelas dan non-interaktif.
 
 874
 00:37:43,290 --> 00:37:45,990
-You can just say, hey,
-here's an x and here's a z.
+Anda hanya bisa mengatakan, hei,
+ini x dan ini z.
 
 875
 00:37:45,990 --> 00:37:47,320
-Anyone can verify these.
+Siapa pun dapat memverifikasi ini.
 
 876
 00:37:47,320 --> 00:37:49,450
-Didn't really matter
-how you got it.
+Tidak terlalu penting
+bagaimana Anda mendapatkannya.
 
 877
 00:37:49,450 --> 00:37:49,950
-OK.
+Oke.
 
 878
 00:37:49,950 --> 00:37:55,360
-So some practical, how
-do these functions work.
+Jadi beberapa hal praktis, bagaimana
+fungsi-fungsi ini bekerja.
 
 879
 00:37:55,360 --> 00:37:57,850
-Practically speaking,
-the collision resistance
+Secara praktis,
+resistensi tabrakan
 
 880
 00:37:57,850 --> 00:37:59,830
-is a harder property.
+adalah properti yang lebih sulit.
 
 881
 00:37:59,830 --> 00:38:03,130
-So there are many functions
-where the collision resistance
+Jadi ada banyak fungsi
+di mana resistensi tabrakan
 
 882
 00:38:03,130 --> 00:38:06,670
-has been broken where the
-preimage resistance has not
+telah dipatahkan di mana
+resistensi pragambar belum
 
 883
 00:38:06,670 --> 00:38:07,510
-been broken.
+dipecahkan.
 
 884
 00:38:07,510 --> 00:38:10,270
-So examples are Sha-1 and MD5.
+Jadi contohnya adalah SHA-1 and MD5.
 
 885
 00:38:10,270 --> 00:38:15,250
-MD5's a fairly old one written
-by Ron Rivest over at--
+MD5 adalah suatu hal yang cukup tua
+yang ditulis oleh Ron Rivest di--
 
 886
 00:38:15,250 --> 00:38:17,350
-well, I guess it wasn't
-at the Stata Center
+yah, saya rasa itu bukan
+di State Center
 
 887
 00:38:17,350 --> 00:38:18,880
-because it was in the '80s.
+karena itu ada di sekitar tahun 80an.
 
 888
 00:38:18,880 --> 00:38:21,100
-But this was message digest 5.
+Tetapi ini adalah Message Digest 5.
 
 889
 00:38:21,100 --> 00:38:23,500
-I guess there were
-several before that.
+Saya rasa ada beberapa
+di antaranya sebelumnya.
 
 890
 00:38:23,500 --> 00:38:25,780
-And that is quite broken.
+Dan ini cukup rusak.
 
 891
 00:38:25,780 --> 00:38:26,680
-You shouldn't use it.
+Anda sebaiknya tidak menggunakannya.
 
 892
 00:38:26,680 --> 00:38:30,790
-Its collision resistance
-is trivially broken.
+Resistensi tabrakannya yang
+sangat rusak.
 
 893
 00:38:30,790 --> 00:38:34,710
-You can find collisions in under
-a second on a modern computer.
+Anda dapat menemukan tabrakan di bawah
+satu detik pada komputer moderen.
 
 894
 00:38:34,710 --> 00:38:39,910
-Sha-1 happened later, in
-the late '90s, I think,
+SHA-1 muncul setelahnya, pada
+akhir 90an, saya rasa,
 
 895
 00:38:39,910 --> 00:38:41,290
-and NSA made it.
+dan NSA yang membuatnya.
 
 896
 00:38:41,290 --> 00:38:43,220
-And there have been
-collisions found.
+Dan sudah ada beberapa
+tabrakan ditemukan.
 
 897
 00:38:43,220 --> 00:38:45,220
-I think there's really
-only one collision that's
+Saya pikir di situ hanya ada
+satu tabrakan yang
 
 898
 00:38:45,220 --> 00:38:48,250
-been found, basically,
-by a team at Google
+telah ditemukan, dasarnya,
+oleh sebuah tim di Google
 
 899
 00:38:48,250 --> 00:38:51,730
-and some Italian
-university last year.
+dan beberapa universitas Italia
+tahun lalu.
 
 900
 00:38:51,730 --> 00:38:55,390
-And they spent a lot of computer
-time to find this collision.
+dan mereka menghabiskan banyak
+waktu komputer untuk menemukan tabrakan ini.
 
 901
 00:38:55,390 --> 00:38:56,530
-But they did find it.
+Tetapi mereka menemukanya.
 
 902
 00:38:56,530 --> 00:38:58,210
-And then once you find one,
-it's sort of like, oh, yeah,
+Dan sekali Anda menemukanya,
+itu seperti, oh, ya,
 
 903
 00:38:58,210 --> 00:39:00,100
-we really shouldn't
-use this anymore.
+kita benar-benar tidak bisa
+menggunakan ini lagi.
 
 904
 00:39:00,100 --> 00:39:03,100
-But in both of these
-cases, sha-1 and MD5,
+Tetapi di kedua kasus ini,
+SHA-1 dan MD5,
 
 905
 00:39:03,100 --> 00:39:05,620
-there's no feasible
-preimage attack.
+tidak ada serangan pragambar
+yang bisa dilakukan.
 
 906
 00:39:05,620 --> 00:39:07,812
-So given a hash output
-for either of these,
+Jadi diberikan keluaran hash
+untuk salah satu dari ini,
 
 907
 00:39:07,812 --> 00:39:09,520
