@@ -5667,11 +5667,11 @@ dan mengembalikan bilangan bulat itu.
 1194
 00:50:48,470 --> 00:50:52,430
 Lalu program tersebut akan mencetak
-apapun bilangan bulat yang saya dapatkan kembali.
+bilangan bulat apapun yang saya dapatkan.
 
 1195
 00:50:52,430 --> 00:50:54,110
-Ini seperti jauh dari server jaringan.
+Ini masih jauh dari server web.
 
 1196
 00:50:54,110 --> 00:50:57,290
@@ -5680,17 +5680,17 @@ melihat beberapa hal dasar
 
 1197
 00:50:57,290 --> 00:51:00,920
-dari bagaimana buffer oveflow
-bekerja dan apa yang akan bekerja dengan salah.
+dari bagaimana buffer oveflow bekerja dan
+apa yang tidak berjalan dengan semestinya.
 
 1198
 00:51:00,920 --> 00:51:03,380
-Jadi marilak kita melihat apa yang
-akan terjadi ketika kita menjalankan program ini.
+Jadi marilah kita melihat apa yang
+terjadi ketika kita menjalankan program ini.
 
 1199
 00:51:03,380 --> 00:51:05,875
-Jadi kita dapat menghimpunnya disini.
+Jadi saya dapat meng-compile-nya di sini.
 
 1200
 00:51:05,875 --> 00:51:07,250
@@ -5700,77 +5700,77 @@ seperti dapat melihat
 1201
 00:51:07,250 --> 00:51:10,600
 -- dia sudah memberitahu saya
-apa yang saya kacaukan, benarkah?
+apa yang saya kacaukan, benar?
 
 1202
 00:51:10,600 --> 00:51:13,535
-Fungsi get ini berbahata
-dan sebaiknya tidak digunakan
+Fungsi get ini berbahaya
+dan tidak boleh digunakan.
 
 1203
 00:51:13,535 --> 00:51:15,710
-dan kita akan melihat sebentar lagi
-mengapa penghimpunnya
+Dan kita akan melihat sebentar
+lagi mengapa kompilatornya
 
 1204
 00:51:15,710 --> 00:51:18,300
-sangat mencoba untuk memberitahukan ini kepada saya.
+sangat ingin memberitahukan ini kepada saya.
 
 1205
 00:51:18,300 --> 00:51:20,320
-Dan dia ternyata benar.
+Dan dia memang benar.
 
 1206
 00:51:20,320 --> 00:51:23,530
 Tetapi untuk sekarang, anggap saja
-kita adalah developer
+kita adalah pengembang yang
 
 1207
 00:51:23,530 --> 00:51:26,660
-yang beruntung dan bahagia yang dapat
-mengabaikan peringatan ini.
+selalu senang, tak pernah risau yang
+bersedia mengabaikan peringatan ini.
 
 1208
 00:51:26,660 --> 00:51:27,350
-Jadi baiklah.
+Jadi oke.
 
 1209
 00:51:27,350 --> 00:51:30,200
-Saya akan menjalankan fungsi pengalihan,
-saya menyediakan beberapa masukan,
+Saya menjalankan fungsi pengalihan ini,
+saya memberikan beberapa masukan,
 
 1210
 00:51:30,200 --> 00:51:33,040
-dan dia berhasil.
+dan berhasil.
 
 1211
 00:51:33,040 --> 00:51:34,900
 Mari kita lihat kalau saya
-menyediakan masukan yang besar.
+memberi masukan-masukan yang besar.
 
 1212
 00:51:34,900 --> 00:51:37,265
 Jika saya mengetik beberapa
-bilangan besar, lalu,
+bilangan besar, yah,
 
 1213
 00:51:37,265 --> 00:51:38,890
 setidaknya dia memberi saya
-beberapa bilangan besar.
+suatu bilangan yang besar.
 
 1214
 00:51:38,890 --> 00:51:43,000
-Dia pada dasarnya akan memaksimalkan kepada
-dua ke 31 lalu mencetak
+Dia pada dasarnya akan memaksimalkan ke
+dua pangkat 31 lalu mencetak angka itu
 
 1215
 00:51:43,000 --> 00:51:44,530
-dan tidak akan menjadi lebih tinggi.
+dan tidak akan menjadi lebih tinggi lagi.
 
 1216
 00:51:44,530 --> 00:51:46,290
-Maka dari itu, mungkin tidak akan
-kacau, benarkah?
+Jadi itu mungkin tidak akan
+menjadi bencana, benar?
 
 1217
 00:51:46,290 --> 00:51:46,790
@@ -5778,32 +5778,32 @@ Terserah.
 
 1218
 00:51:46,790 --> 00:51:49,570
-Anda menyediakan
-bilangan besar yang tidak masuk akal ini
+Anda memberi bilangan
+yang luar biasa besar ini.
 
 1219
 00:51:49,570 --> 00:51:51,990
 Anda punya sesuatu
-yang tidak cukup bekerja
+yang tidak cukup berhasil.
 
 1220
 00:51:51,990 --> 00:51:53,510
-Itu belum cukup menjadi masalah.
+Itu belum benar-benar menjadi masalah.
 
 1221
 00:51:53,510 --> 00:51:55,520
-Tetapi jika kita menyediakan 
+Tetapi jika kita memberikan
 beberapa masukan yang sangat besar,
 
 1222
 00:51:55,520 --> 00:51:57,880
 Kita mungkin akan mendapatkan
-masalah lain, benarkah?
+masalah lain, benar?
 
 1223
 00:51:57,880 --> 00:52:00,940
-Jadi misalkan saya menyediakan
-sebanyak - banyaknya 12
+Jadi misalkan saya memberikan
+lebih dari 12 data
 
 1224
 00:52:00,940 --> 00:52:03,395
