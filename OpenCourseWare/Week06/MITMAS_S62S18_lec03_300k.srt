@@ -4889,7 +4889,6 @@ Tetapi bagaimanapun, Anda dapat melakukan ini.
 Ini sedikit
 lebih rumit karena Anda
 
-
 1061
 00:46:37,500 --> 00:46:39,810
 harus menghitung, seperti,
@@ -4936,7 +4935,7 @@ Jadi itu di sini.
 
 1071
 00:46:54,060 --> 00:46:55,800
-If this is G, this is 2G.
+Jika ini adalah G, ini adalah 2G.
 
 1072
 00:46:55,800 --> 00:47:00,140
