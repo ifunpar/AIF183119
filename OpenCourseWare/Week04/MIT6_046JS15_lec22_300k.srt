@@ -3571,7 +3571,7 @@ jadi cukup mendasar.
 759
 00:41:21,190 --> 00:41:26,850
 Tapi itu juga cukup rumit
-sampai saya lupa detailnya.
+sampai saya lupa detilnya.
 
 760
 00:41:26,850 --> 00:41:30,030
@@ -3580,7 +3580,7 @@ Jadi mari kita mulai.
 761
 00:41:30,030 --> 00:41:37,300
 Pada dasarnya, RSA didasarkan dari
-bilangan prima dan memfaktorkan bilangan
+bilangan prima dan memfaktorkan suatu bilangan
 
 762
 00:41:37,300 --> 00:41:42,760
