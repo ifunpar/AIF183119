@@ -4724,7 +4724,7 @@ tanpa menggunakan kurva elips.
 
 1024
 00:45:06,420 --> 00:45:08,910
-Jadi anda bisa saja
+Jadi Anda bisa saja
 melakukan modulo eksponensial
 
 1025
@@ -4882,7 +4882,7 @@ dari urutan modulo B.
 
 1059
 00:46:33,825 --> 00:46:35,958
-Tetapi bagaimanapun, Anda dapat melakukan ini.
+Tetapi bagaimana pun, Anda dapat melakukan ini.
 
 1060
 00:46:35,958 --> 00:46:37,500
@@ -4939,76 +4939,76 @@ Jika ini adalah G, ini adalah 2G.
 
 1072
 00:46:55,800 --> 00:47:00,140
-Find the tangent, find the
-intersection, and then negate.
+Cari garis singgung nya, cari
+perpotongan nya, lalu negasikan.
 
 1073
 00:47:00,140 --> 00:47:00,640
-OK.
+Oke.
 
 1074
 00:47:00,640 --> 00:47:03,260
-So you can do that.
+Jadi Anda dapat melakukan itu.
 
 1075
 00:47:03,260 --> 00:47:03,760
-That's cool.
+Itu diperbolehkan.
 
 1076
 00:47:03,760 --> 00:47:06,220
-You cannot do that.
+Anda tidak dapat melakukan itu.
 
 1077
 00:47:06,220 --> 00:47:06,720
-OK.
+Oke.
 
 1078
 00:47:06,720 --> 00:47:10,540
-So roster of
-operations we can do.
+Jadi daftar dari
+operasi yang dapat kita lakukan.
 
 1079
 00:47:10,540 --> 00:47:11,690
-This is it.
+Ini dia.
 
 1080
 00:47:11,690 --> 00:47:13,600
-And this is sort of,
-if you think of that,
+Dan ini semacam,
+jika Anda memikirkan tentang itu,
 
 1081
 00:47:13,600 --> 00:47:15,410
-you can do all
-these cool things.
+Anda dapat melakukan semua
+aktivitas keren ini.
 
 1082
 00:47:15,410 --> 00:47:17,260
-It's sort of amazing,
-all the crazy things
+Dia semacam menakjubkan,
+semua hal gila
 
 1083
 00:47:17,260 --> 00:47:19,690
-you can do with just
-these operations, right?
+Anda dapat melakukan hanya dengan
+operasi ini, benar?
 
 1084
 00:47:19,690 --> 00:47:22,010
-With regular numbers, you
-can do whatever you want.
+Dengan angka biasa, Anda
+dapat melakukan apa pun yang Anda inginkan.
 
 1085
 00:47:22,010 --> 00:47:23,380
-That's obvious.
+Itu sangat jelas.
 
 1086
 00:47:23,380 --> 00:47:26,260
-And with these points, you
-can add and subtract them.
+Dan dengan titik ini, Anda
+dapat menambah dan mengurangkan nya.
 
 1087
 00:47:26,260 --> 00:47:29,380
-And when you mix, you
-can multiply and divide.
+Dan ketika Anda mencampur nya, Anda
+dapat mengalikan dan membagi.
 
 1088
 00:47:29,380 --> 00:47:30,590
