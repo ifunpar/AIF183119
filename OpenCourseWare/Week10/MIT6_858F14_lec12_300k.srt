@@ -3598,290 +3598,290 @@ tertentu.
 
 757
 00:30:55,710 --> 00:30:57,460
-So for example,
-Comcast's mail server
+Jadi sebagai contoh,
+server surat Comcast
 
 758
 00:30:57,460 --> 00:31:00,280
-will only accept mail
-from Comcast IP addresses.
+hanya akan menerima surat
+dari alamat IP Comcast.
 
 759
 00:31:00,280 --> 00:31:02,570
-Same for MIT mail servers--
-will only accept mail
+Sama juga bagi server surat MIT--
+hanya akan menerima surat
 
 760
 00:31:02,570 --> 00:31:03,500
-from MIT IP addresses.
+dari alamat IP MIT.
 
 761
 00:31:03,500 --> 00:31:06,260
-Or there was at least
-one server that ISNT
+Atau setidaknya ada
+satu server yang tidak
 
 762
 00:31:06,260 --> 00:31:08,910
-runs that has this property.
+berjalan yang mempunyai properti ini.
 
 763
 00:31:08,910 --> 00:31:11,090
-So this is the case
-where it's still
+Jadi ini adalah kasus
+di mana ini masih
 
 764
 00:31:11,090 --> 00:31:13,026
-using IP-based authentication.
+menggunakan otentikasi berbasis IP.
 
 765
 00:31:13,026 --> 00:31:14,905
-Here it's not so bad.
+Di sini, ini tidak terlalu buruk.
 
 766
 00:31:14,905 --> 00:31:16,775
-Worst case, you'll
-send some piece of spam
+Kasus terburuk, Anda akan
+mengirim beberapa spam
 
 767
 00:31:16,775 --> 00:31:17,775
-through the mail server.
+melalui server surat.
 
 768
 00:31:17,775 --> 00:31:19,890
-So that's probably why
-they're still using it,
+Jadi itulah mengapa
+mereka masih menggunakan ini,
 
 769
 00:31:19,890 --> 00:31:23,710
-whereas things that allow you
-to log into an arbitrary account
+sedangkan hal-hal yang memungkinkan Anda
+untuk masuk ke akun apapun
 
 770
 00:31:23,710 --> 00:31:27,280
-stopped using IP-based
-authentication.
+sudah berhenti menggunakan otentikasi berbasis
+IP.
 
 771
 00:31:27,280 --> 00:31:29,820
-So does this make sense,
-why this is a bad plan?
+Jadi apakah ini masuk akal,
+mengapa ini adalah sebuah rencana yang buruk?
 
 772
 00:31:29,820 --> 00:31:33,500
-And just to double check,
-suppose that some server
+Dan untuk memastikan,
+misalkan beberapa server
 
 773
 00:31:33,500 --> 00:31:34,554
-was using rlogin.
+menggunakan rlogin.
 
 774
 00:31:34,554 --> 00:31:35,845
-What would you do to attack it?
+Apa yang akan Anda lakukan untung menyerangnya?
 
 775
 00:31:35,845 --> 00:31:39,640
-What bad thing would happen?
+Hal buruk apa yang akan terjadi?
 
 776
 00:31:39,640 --> 00:31:41,590
-Suggestions?
+Saran?
 
 777
 00:31:41,590 --> 00:31:42,090
-Yeah.
+Ya.
 
 778
 00:31:42,090 --> 00:31:44,026
-AUDIENCE: Just getting
-into your computer,
+AUDIENS: Cukup masuk
+ke komputer Anda,
 
 779
 00:31:44,026 --> 00:31:46,482
-and then make a user that
-you want to log into,
+lalu buat pengguna
+yang ingin Anda masuki,
 
 780
 00:31:46,482 --> 00:31:47,898
-and then you get
-into the network.
+kemudian Anda masuk
+ke dalam jaringan.
 
 781
 00:31:47,898 --> 00:31:50,450
-PROFESSOR: Yeah, so basically
-you get your computer.
+PROFESOR: Ya, jadi pada dasarnya
+Anda masuk ke komputer.
 
 782
 00:31:50,450 --> 00:31:53,955
-You synthesize this data to look
-like a legitimate set of rlogin
+Anda mensintesis datanya agar
+terlihat seperti seperangkat
 
 783
 00:31:53,955 --> 00:31:56,170
-commands that say,
-log in as this user
+perintah rlogin yang sah yang menyatakan,
+masuk sebagai pengguna ini
 
 784
 00:31:56,170 --> 00:31:58,980
-and run this command
-in my Unix shell there.
+dan jalankan perintah ini
+di shell Unix.
 
 785
 00:31:58,980 --> 00:32:01,780
-You sort of synthesize this data
-and you mount this whole attack
+Anda semacam mensintesis data ini
+dan Anda juga memasang keseluruhan serangan ini
 
 786
 00:32:01,780 --> 00:32:04,295
-and send this data as if a
-legitimate user was interacting
+dan mengirimkan data ini seolah-olah seorang
+pengguna yang sah sedang berinteraksi
 
 787
 00:32:04,295 --> 00:32:09,275
-with an rlogin client, and
-then you're good to go.
+dengan sebuah klien rlogin, dan
+setelah itu Anda sudah selesai.
 
 788
 00:32:09,275 --> 00:32:11,280
-OK, so this is one
-reason why you probably
+OK, jadi ini salah satu
+alasan mengapa Anda mungkin
 
 789
 00:32:11,280 --> 00:32:15,560
-don't want your TCP sequence
-numbers to be so guessable.
+tidak ingin nomor urut TCP Anda
+mudah untuk ditebak.
 
 790
 00:32:15,560 --> 00:32:17,340
-Another problem is
-these reset attacks.
+Masalah lainnya adalah
+serangan reset ini.
 
 791
 00:32:17,340 --> 00:32:23,120
-So much like we were able
-to send a SYN packet,
+Sama seperti kita sudah dapat
+mengirimkan sebuah paket SYN,
 
 792
 00:32:23,120 --> 00:32:25,222
-if you know someone's
-sequence number,
+jika Anda tahu nomor urut
+seseorang,
 
 793
 00:32:25,222 --> 00:32:26,680
-you could also send
-a reset packet.
+Anda juga dapat mengirimkan
+sebuah paket reset.
 
 794
 00:32:26,680 --> 00:32:27,810
-We sort of briefly
-talked about it
+Kita sudah membahasnya
+secara singkat
 
 795
 00:32:27,810 --> 00:32:29,750
-here as the legitimate
-client potentially
+di sini sebagai klien sah
+yang berpotensi
 
 796
 00:32:29,750 --> 00:32:32,975
-sending a reset to reset
-the fake connection
+untuk mengirimkan sebuah paket reset untuk
+mengatur kembali koneksi palsu
 
 797
 00:32:32,975 --> 00:32:35,200
-that the attacker
-is establishing.
+yang dibuat
+oleh si penyerang.
 
 798
 00:32:35,200 --> 00:32:36,960
-But in a similar
-vain, the adversary
+Tapi di situasi yang 
+mirip, musuh
 
 799
 00:32:36,960 --> 00:32:40,180
-could try to send reset packets
-for an existing connection
+dapat mencoba untuk mengirimkan paket reset
+untuk sebuah koneksi yang sudah ada
 
 800
 00:32:40,180 --> 00:32:42,400
-if there's some way
-that the adversary knows
+jika ada cara
+agar musuh dapat mengetahui
 
 801
 00:32:42,400 --> 00:32:46,060
-what your sequence number
-is on that connection.
+berapa nomor urut Anda
+pada koneksi tersebut.
 
 802
 00:32:46,060 --> 00:32:48,850
-So this is actually not clear
-if this is such a big problem
+Jadi ini sebenarnya tidak jelas
+apakah merupakan sebuah masalah besar
 
 803
 00:32:48,850 --> 00:32:49,750
-or or.
+atau tidak.
 
 804
 00:32:49,750 --> 00:32:51,240
-At some level,
-maybe you should be
+Pada tingkat tertentu,
+mungkin Anda harus
 
 805
 00:32:51,240 --> 00:32:52,490
-assuming that all your
-TCP connections could
+mengasumsikan bahwa bagaimanapun juga
+semua koneksi TCP Anda dapat
 
 806
 00:32:52,490 --> 00:32:53,450
-be broken at any time anyway.
+dirusak kapan pun itu.
 
 807
 00:32:53,450 --> 00:32:55,210
-It's not like the
-network is reliable.
+Ini tidak seperti jaringan
+yang dapat diandalkan.
 
 808
 00:32:55,210 --> 00:32:57,920
-So maybe you should be expecting
-your connections to drop.
+Jadi mungkin Anda seharusnya mengharapkan
+koneksi Anda terputus.
 
 809
 00:32:57,920 --> 00:32:59,710
-But one place where
-this turned out
+Tetapi suatu tempat di mana
+ini ternyata
 
 810
 00:32:59,710 --> 00:33:03,000
-to be particularly not a
-good assumption to make
+menjadi bukan sebuah asumsi
+yang baik untuk dibuat
 
 811
 00:33:03,000 --> 00:33:06,060
-is in the case of routers
-talking to one another.
+adalah pada kasus di mana router
+berkomunikasi satu dengan yang lain.
 
 812
 00:33:06,060 --> 00:33:08,340
-So if you have
-multiple routers that
+Jadi jika Anda memiliki
+beberapa router yang
 
 813
 00:33:08,340 --> 00:33:10,505
-speak some routing
-protocol, then they're
+mengkomunikasikan beberapa
+protokol pengaturan rute, maka mereka
 
 814
 00:33:10,505 --> 00:33:13,590
-connected, of course,
-by some physical links.
+terhubung, tentu saja,
+oleh beberapa jaringan fisik.
 
 815
 00:33:13,590 --> 00:33:16,480
-But over some physical
-links, they actually
+Tetapi melalui beberapa jaringan
+fisik, mereka sebenarnya
 
 816
 00:33:16,480 --> 00:33:18,000
-speak some network protocol.
+mengkomunikasikan beberapa protokol jaringan.
 
 817
 00:33:18,000 --> 00:33:19,671
