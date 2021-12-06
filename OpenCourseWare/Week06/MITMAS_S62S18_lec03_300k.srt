@@ -4909,7 +4909,7 @@ Anda memiliki titik dikali skalar.
 
 1065
 00:46:45,468 --> 00:46:46,260
-Tetapi Anda tidak dapat menjumlahkan.
+Tetapi Anda tidak dapat menjumlahkannya.
 
 1066
 00:46:46,260 --> 00:46:46,440
