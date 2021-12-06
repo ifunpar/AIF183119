@@ -3668,7 +3668,7 @@ mengapa ini adalah sebuah rencana yang buruk?
 
 772
 00:31:29,820 --> 00:31:33,500
-Dan untuk memeriksa ulang,
+Dan untuk memastikan,
 misalkan beberapa server
 
 773
@@ -3738,7 +3738,7 @@ pengguna yang sah sedang berinteraksi
 
 787
 00:32:04,295 --> 00:32:09,275
-dengan sebuah klien r login, dan
+dengan sebuah klien rlogin, dan
 setelah itu Anda sudah selesai.
 
 788
@@ -3754,11 +3754,11 @@ mudah untuk ditebak.
 790
 00:32:15,560 --> 00:32:17,340
 Masalah lainnya adalah
-serangan ulang ini.
+serangan reset ini.
 
 791
 00:32:17,340 --> 00:32:23,120
-Sepertinya kita sudah dapat
+Sama seperti kita sudah dapat
 mengirimkan sebuah paket SYN,
 
 792
@@ -3769,7 +3769,7 @@ seseorang,
 793
 00:32:25,222 --> 00:32:26,680
 Anda juga dapat mengirimkan
-sebuah paket ulang.
+sebuah paket reset.
 
 794
 00:32:26,680 --> 00:32:27,810
@@ -3778,17 +3778,17 @@ secara singkat
 
 795
 00:32:27,810 --> 00:32:29,750
-disini sebagai klien
-yang berpotensi sah
+di sini sebagai klien sah
+yang berpotensi
 
 796
 00:32:29,750 --> 00:32:32,975
-untuk mengirimi sebuah paket ulang untuk
+untuk mengirimkan sebuah paket reset untuk
 mengatur kembali koneksi palsu
 
 797
 00:32:32,975 --> 00:32:35,200
-yang didirikan 
+yang dibuat
 oleh si penyerang.
 
 798
@@ -3798,7 +3798,7 @@ mirip, musuh
 
 799
 00:32:36,960 --> 00:32:40,180
-dapat mencoba untuk mengirimkan paket ulang
+dapat mencoba untuk mengirimkan paket reset
 untuk sebuah koneksi yang sudah ada
 
 800
@@ -3809,7 +3809,7 @@ agar musuh dapat mengetahui
 801
 00:32:42,400 --> 00:32:46,060
 berapa nomor urut Anda
-pada koneksi tersebut. 
+pada koneksi tersebut.
 
 802
 00:32:46,060 --> 00:32:48,850
@@ -3827,12 +3827,12 @@ mungkin Anda harus
 
 805
 00:32:51,240 --> 00:32:52,490
-mengasumsikan bahwa semua 
-koneksi TCP Anda dapat
+mengasumsikan bahwa bagaimanapun juga
+semua koneksi TCP Anda dapat
 
 806
 00:32:52,490 --> 00:32:53,450
-menjadi rusak kapanpun bagaimanapun juga.
+dirusak kapan pun itu.
 
 807
 00:32:53,450 --> 00:32:55,210
@@ -3846,7 +3846,7 @@ koneksi Anda terputus.
 
 809
 00:32:57,920 --> 00:32:59,710
-Tetapi suatu tempat dimana
+Tetapi suatu tempat di mana
 ini ternyata
 
 810
@@ -3856,7 +3856,7 @@ yang baik untuk dibuat
 
 811
 00:33:03,000 --> 00:33:06,060
-adalah pada kasus dimana router
+adalah pada kasus di mana router
 berkomunikasi satu dengan yang lain.
 
 812
@@ -3871,12 +3871,12 @@ protokol pengaturan rute, maka mereka
 
 814
 00:33:10,505 --> 00:33:13,590
-terhubung, tentu,
+terhubung, tentu saja,
 oleh beberapa jaringan fisik.
 
 815
 00:33:13,590 --> 00:33:16,480
-Tetapi melalui beberapa jaringan 
+Tetapi melalui beberapa jaringan
 fisik, mereka sebenarnya
 
 816
