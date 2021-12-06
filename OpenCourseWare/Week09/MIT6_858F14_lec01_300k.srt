@@ -5895,192 +5895,192 @@ dalam fungsi pengalihan itu.
 
 1243
 00:52:49,700 --> 00:52:52,380
-And we're going to sort of run
-along and see what happens.
+Dan kita akan menyusuri
+bersama dan melihat apa yang terjadi.
 
 1244
 00:52:52,380 --> 00:52:54,410
-So when I run the
-program, it's going
+Jadi ketika saya menjalankan
+program, itu akan
 
 1245
 00:52:54,410 --> 00:52:56,450
-to start executing
-in the main function.
+mulai mengeksekusi
+dalam fungsi utama.
 
 1246
 00:52:56,450 --> 00:52:58,780
-And pretty quickly,
-it calls redirect.
+Dan cukup cepat,
+dia memanggil pengalihan.
 
 1247
 00:52:58,780 --> 00:53:01,790
-And the debugger is now stopped
-at the beginning of redirect.
+Dan debugger sekarang berhenti
+di awal pengalihan.
 
 1248
 00:53:01,790 --> 00:53:06,830
-And we can actually see what's
-going on here by, for example,
+Dan kita benar-benar dapat melihat
+apa yang terjadi di sini dengan, sebagai contoh,
 
 1249
 00:53:06,830 --> 00:53:09,455
-we can ask it to print
-the current CPU registers.
+kita dapat memintanya untuk mencetak
+register CPU saat ini.
 
 1250
 00:53:09,455 --> 00:53:11,330
-We're going to look at
-really low level stuff
+Kita akan melihat
+hal dengan tingkat sangat rendah
 
 1251
 00:53:11,330 --> 00:53:13,610
-here, as opposed to at the
-level of C source code.
+di sini, sebagai lawan pada
+tingkat kode sumber C.
 
 1252
 00:53:13,610 --> 00:53:15,090
-We're going to look at
-the actual instructions
+Kita akan melihat
+instruksi yang sebenarnya
 
 1253
 00:53:15,090 --> 00:53:16,881
-that my machine is
-executing because that's
+yang dijalankan
+mesin saya karena itulah
 
 1254
 00:53:16,881 --> 00:53:17,930
-what really is going on.
+yang sebenarnya terjadi.
 
 1255
 00:53:17,930 --> 00:53:20,950
-The C is actually maybe
-hiding some things from us.
+C sebenarnya mungkin
+menyembunyikan beberapa hal dari kita.
 
 1256
 00:53:20,950 --> 00:53:23,110
-So you can actually
-print all the registers.
+Jadi Anda dapat benar-benar
+mencetak seluruh register.
 
 1257
 00:53:23,110 --> 00:53:25,974
-So on x86, as you
-might remember.
+Jadi di x86, seperti yang
+mungkin Anda ingat.
 
 1258
 00:53:25,974 --> 00:53:27,390
-Well, on [INAUDIBLE]
-architecture,
+Nah, pada [TIDAK TERDENGAR]
+arsitektur,
 
 1259
 00:53:27,390 --> 00:53:29,170
-there's a stack pointer.
+ada sebuah penunjuk stack.
 
 1260
 00:53:29,170 --> 00:53:32,530
-So let me start maybe drawing
-this diagram on the board
+Jadi biarkan saya mulai mungkin menggambar
+diagram ini di papan
 
 1261
 00:53:32,530 --> 00:53:36,450
-so we can try to reconstruct
-what's happening.
+sehingga kita dapat mencoba untuk merekonstruksi
+apa yang terjadi.
 
 1262
 00:53:36,450 --> 00:53:39,550
-So what's going on is that
-my program, not surprisingly,
+Jadi apa yang terjadi adalah
+program saya, tidak heran,
 
 1263
 00:53:39,550 --> 00:53:41,020
-has a stack.
+memiliki sebuah stack.
 
 1264
 00:53:41,020 --> 00:53:43,300
-On x86, the stack grows down.
+Pada x86, stack tumbuh ke bawah.
 
 1265
 00:53:43,300 --> 00:53:46,040
-So it sort of is
-this stack like this.
+Jadi semacam
+stack ini seperti ini.
 
 1266
 00:53:46,040 --> 00:53:49,020
-And we can keep
-pushing stuff onto it.
+Dan kita dapat terus
+mendorong hal ke dalamnya.
 
 1267
 00:53:49,020 --> 00:53:51,980
-So right now, the
-stack pointer points
+Jadi sekarang,
+titik penunjuk stack menunjuk
 
 1268
 00:53:51,980 --> 00:53:58,230
-at this particular
-memory location FFD010.
+pada lokasi memori
+khusus ini FFD010.
 
 1269
 00:53:58,230 --> 00:53:59,535
-So some value.
+Jadi beberapa nilai.
 
 1270
 00:53:59,535 --> 00:54:01,660
-So you can try to figure
-out, how did it get there?
+Jadi Anda dapat mencoba untuk
+mencari tahu, bagaimana itu sampai di sana?
 
 1271
 00:54:01,660 --> 00:54:05,480
-One way to do it is to
-disassemble the code
+Salah satu cara untuk melakukannya adalah dengan
+membongkar kode
 
 1272
 00:54:05,480 --> 00:54:07,380
-of this redirect function.
+dari fungsi pengalihan ini.
 
 1273
 00:54:12,650 --> 00:54:14,230
-Is this going to work better?
+Apakah ini akan bekerja lebih baik?
 
 1274
 00:54:14,230 --> 00:54:15,620
-Really?
+Betulkah?
 
 1275
 00:54:15,620 --> 00:54:18,250
-Convenience variable
-must have integer value.
+Variabel praktis
+harus memiliki nilai integer.
 
 1276
 00:54:20,870 --> 00:54:21,370
-Man.
+Astaga.
 
 1277
 00:54:21,370 --> 00:54:22,786
-What is going on
-with my debugger?
+Apa yang terjadi
+dengan debugger saya?
 
 1278
 00:54:28,190 --> 00:54:28,690
-All right.
+Baiklah.
 
 1279
 00:54:28,690 --> 00:54:31,500
-Well, we can disassemble
-the function by name.
+Nah, kita dapat membongkar
+fungsi berdasarkan nama.
 
 1280
 00:54:31,500 --> 00:54:33,200
-So this is what the
-function is doing.
+Jadi inilah yang dilakukan
+oleh fungsinya.
 
 1281
 00:54:33,200 --> 00:54:36,340
-So first off, it starts
-by manipulating something
+Jadi pertama-tama, itu dimulai
+dengan memanipulasi sesuatu
 
 1282
 00:54:36,340 --> 00:54:37,362
-with this EBP register.
+dengan register EBP ini.
 
 1283
 00:54:37,362 --> 00:54:38,570
