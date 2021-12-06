@@ -3088,77 +3088,77 @@ sort of two sides to it.
 
 649
 00:28:25,820 --> 00:28:28,620
-From the client's point of
-view, it's just another service
+Dari perpektif client,
+TGS hanyalah service lain
 
 650
 00:28:28,620 --> 00:28:30,290
-that you can get a ticket for.
+untuk mendapatkan sebuah tiket.
 
 651
 00:28:30,290 --> 00:28:32,540
-And the kinds of
-operations it supports
+Dan jenis operasi
+yang didukungnya
 
 652
 00:28:32,540 --> 00:28:33,690
-is getting more tickets.
+adalah mendapatkan lebih banyak tiket.
 
 653
 00:28:33,690 --> 00:28:35,010
-It's a Ticket Granting Service.
+Itu adalah layanan pemberian tiket.
 
 654
 00:28:35,010 --> 00:28:37,310
-STUDENT: Sorry, I meant what
-is the ticket called TGS.
+MAHASISWA: Maaf, maksud saya
+apa nama tiketnya TGS.
 
 655
 00:28:37,310 --> 00:28:38,520
-PROFESSOR: Oh, yeah, sorry.
+PROFESOR: Oh, maaf.
 
 656
 00:28:38,520 --> 00:28:41,760
-This TGS is just shorthand
-for this whole blob
+TGS ini hanyalah steno
+untuk seluruh gumpalan ini
 
 657
 00:28:41,760 --> 00:28:45,565
-except where S is actually
-the principal name of this TGS
+kecuali dimana S adalah
+nama utama dari service TGS
 
 658
 00:28:45,565 --> 00:28:46,065
-service.
+ini.
 
 659
 00:28:48,527 --> 00:28:50,860
-So you can think of it as
-like, well, there's a Kerberos
+Jadi kamu bisa memikirkan itu
+seperti, ada sebuah server
 
 660
 00:28:50,860 --> 00:28:52,770
-server, there's this
-TGS service out there,
+Kerberos, ada juga service
+TGS diluar sana,
 
 661
 00:28:52,770 --> 00:28:54,230
-and then there's the real
-thing I want to get to.
+dan ada hal nyata yang
+ingin saya dapatkan.
 
 662
 00:28:54,230 --> 00:28:56,170
-So you first ask
-this guy to give me
+Jadi pertama-tama Anda
+tanya orang ini untuk memberikan
 
 663
 00:28:56,170 --> 00:28:57,950
-a ticket for some service.
+sebuah tiket untuk beberapa service.
 
 664
 00:28:57,950 --> 00:29:00,530
-You could ask it to give you
-directly a ticket for the file
+Anda bisa bertanya kepadanya untuk 
+memberikan tiket secara langsung untuk file
 
 665
 00:29:00,530 --> 00:29:01,550
