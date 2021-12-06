@@ -3954,8 +3954,6 @@ seperti peramban web?
 
 836
 00:35:34,420 --> 00:35:38,640
-So I guess if you want to secure
-network communication, or sort
 Jadi saya pikir jika anda ingin mengamankan
 komunikasi antar jaringan, atau semacam
 
