@@ -5212,13 +5212,13 @@ penemuan indah
 
 1112
 01:00:13,030 --> 01:00:18,290
-yang keluar dari MIT dalam 
+yang keluar dari MIT dalam
 laboratorium ilmu komputer--
 
 1113
 01:00:18,290 --> 01:00:23,160
 lagi-lagi, Ron Rivest dan
-kolaborator-kolaboratornya-- dimana
+kolaborator-kolaboratornya-- di mana
 
 1114
 01:00:23,160 --> 01:00:28,120
@@ -5227,7 +5227,7 @@ secara digital dengan menggunakan
 
 1115
 01:00:28,120 --> 01:00:31,170
-sebuah kunci rahasia, kunci privat
+sebuah kunci rahasia, kunci privat.
 
 1116
 01:00:31,170 --> 01:00:35,660
@@ -5237,16 +5237,16 @@ akses ke sebuah kunci publik,
 1117
 01:00:35,660 --> 01:00:37,210
 jadi itu bisa jadi
-kurang lebih siapa saja,
+siapa saja,
 
 1118
 01:00:37,210 --> 01:00:41,647
-dapat memverifikasi otentikasi
-tanda tangan tersebut, bukan?
+dapat memverifikasi keaslian
+tanda tangan tersebut, betul?
 
 1119
 01:00:41,647 --> 01:00:43,230
-Jadi itulah sebuah
+Jadi itulah
 tanda tangan digital.
 
 1120
@@ -5266,8 +5266,8 @@ yang merupakan algoritma kunci publik.
 
 1123
 01:01:06,640 --> 01:01:12,470
-Tapi di sini Saya hanya akan memberitahu Anda
-apa yang kita inginkan dari mereka.
+Tapi di sini saya hanya akan memberitahu Anda
+apa yang kita inginkan dari hal tersebut.
 
 1124
 01:01:12,470 --> 01:01:15,100
@@ -5282,7 +5282,7 @@ tentang enkripsi di sini,
 1126
 01:01:18,100 --> 01:01:20,180
 adalah-- ada dua
-keys associated -> kunci terkait
+kunci yang terasosiasi
 
 1127
 01:01:20,180 --> 01:01:24,030
@@ -5305,12 +5305,12 @@ seperti kata sandi Anda--
 
 1131
 01:01:34,500 --> 01:01:35,930
-yang Anda tidak
-ingin tulis,
+yang tidak ingin
+Anda tulis,
 
 1132
 01:01:35,930 --> 01:01:38,221
-anda tidak ingin memberikannya,
+anda tidak ingin menyebarkannya,
 karena secara efektif itulah
 
 1133
@@ -5319,32 +5319,32 @@ identitas anda.
 
 1134
 01:01:39,930 --> 01:01:44,700
-Tanda tangan digital
-akan merespon
+Dan tanda tangan digital
+berhubungan dengan hal bahwa
 
 1135
 01:01:44,700 --> 01:01:46,880
-saat anda mempunyai
+Anda mempunyai
 dua operasi.
 
 1136
 01:01:46,880 --> 01:01:51,030
-Anda memiliki signin 
-dan verifikasi
+Anda memiliki operasi tanda tangan (signing)
+dan verifikasi (verification)
 
 1137
 01:01:51,030 --> 01:01:56,760
-Jadi signin berarti anda
+Jadi signing berarti Anda
 menciptakan suatu tanda tangan sigma yang
 
 1138
 01:01:56,760 --> 01:02:06,420
-yang merupakan tanda menggunakan private 
-key anda, secret key anda,
+merupakan tanda menggunakan kunci
+privat Anda, kunci rahasia Anda,
 
 1139
 01:02:06,420 --> 01:02:10,070
-dari pesan M. Jadi anda sedang 
+dari pesan M. Jadi Anda berkata
 berkata ini adalah pesan ini,
 
 1140
@@ -5357,7 +5357,7 @@ Itulah yang dimaksud dengan signin.
 
 1142
 01:02:13,655 --> 01:02:16,030
-Anda memiliki pesan yang panjang
+Anda memiliki pesan yang panjang ini
 dan anda menandatanganinya di bawah.
 
 1143
@@ -5401,11 +5401,11 @@ memikirkannya
 
 1151
 01:03:01,440 --> 01:03:06,100
-selain menyatakannya hari ini.
+selain mengakuinya hari ini.
 
 1152
 01:03:06,100 --> 01:03:09,680
-Jadi kunci publik dan pribadi
+Jadi kunci publik dan privat
 merupakan dua hal yang berbeda,
 
 1153
@@ -5450,7 +5450,7 @@ lakukan untuk kita, benar?
 
 1161
 01:03:29,490 --> 01:03:31,370
-Ini merupakan aplikasi keamanan.
+Ini merupakan sebuah aplikasi keamanan.
 
 1162
 01:03:31,370 --> 01:03:33,930
@@ -5459,7 +5459,7 @@ sampai ke fungsi hash.
 
 1163
 01:03:33,930 --> 01:03:36,600
-Tapi saya akan kesana
+Tapi saya akan ke sana
 sebentar lagi.
 
 1164
