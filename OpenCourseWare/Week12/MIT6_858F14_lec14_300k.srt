@@ -3884,98 +3884,100 @@ memiliki kadaluwarsa didalamnya.
 
 820
 00:34:59,570 --> 00:35:02,770
-So that's less clear
-what's going on.
+Jadi semakin tidak jelas
+apa yang terjadi.
 
 821
 00:35:02,770 --> 00:35:05,360
-So probably, you would pick
-really aggressively sort
+Jadi mungkin, anda akan memilih
+dengan sangat agresif semacam
 
 822
 00:35:05,360 --> 00:35:07,400
-of safe parameters.
+parameter yang aman.
 
 823
 00:35:07,400 --> 00:35:11,160
-So 4,000 or 6,000
-bit RSA or something.
+Jadi sekitar 4,000 atau 6,000
+bit RSA.
 
 824
 00:35:11,160 --> 00:35:12,570
-Or another scheme all together.
+Atau skema yang lain secara bersamaan.
 
 825
 00:35:12,570 --> 00:35:13,920
-Don't use SHA-1 at all here.
+Jangan menggunakan SHA-1 sama sekali disini.
 
 826
 00:35:16,710 --> 00:35:17,380
-Yeah.
+Ya.
 
 827
 00:35:17,380 --> 00:35:19,500
-No real clear answer.
+Tidak ada jawaban yang benar-benar tepat.
 
 828
 00:35:19,500 --> 00:35:21,490
-You just have to do it.
+Anda hanya perlu melakukannya.
 
 829
 00:35:21,490 --> 00:35:21,990
-All right.
+Baiklah.
 
 830
 00:35:21,990 --> 00:35:24,320
-Any other questions?
+Ada pertanyaan lain?
 
 831
 00:35:24,320 --> 00:35:24,960
-All right.
+Baiklah.
 
 832
 00:35:24,960 --> 00:35:27,740
-So let's now look at-- so
-this is just like the protocol
+Jadi mari sekarang kita lihat ke-- jadi
+ini hanya seperti bagian lain
 
 833
 00:35:27,740 --> 00:35:28,370
-side of things.
+dari protokol.
 
 834
 00:35:28,370 --> 00:35:30,240
-Let's now look at how
-do we integrate this
+Mari sekarang kita lihat bagaimana
+cara kita mengintegrasikan hal ini
 
 835
 00:35:30,240 --> 00:35:34,420
-into a particular application,
-namely the web browser?
+ke dalam aplikasi tertentu,
+seperti peramban web?
 
 836
 00:35:34,420 --> 00:35:38,640
 So I guess if you want to secure
 network communication, or sort
+Jadi saya pikir jika anda ingin mengamankan
+komunikasi antar jaringan, atau semacam
 
 837
 00:35:38,640 --> 00:35:41,490
-of websites, with
-cryptography, there's
+situs web, yang menggunakan
+kriptografi, ada
 
 838
 00:35:41,490 --> 00:35:44,650
-really three things we
-have to protect in browser.
+sebenarnya tiga hal yang harus
+kita lindungi di peramban.
 
 839
 00:35:44,650 --> 00:35:48,220
-So the first thing we have to
-protect is data on the network.
+Jadi hal pertama yang harus kita
+lindungi adalah data di dalam jaringan.
 
 840
 00:35:51,922 --> 00:35:55,421
-And this is almost the easy
-part because well, we're
+Dan ini adalah bagian yang cukup
+mudah karena, kita
 
 841
 00:35:55,421 --> 00:35:57,420
