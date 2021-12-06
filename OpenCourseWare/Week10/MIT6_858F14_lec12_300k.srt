@@ -3988,112 +3988,112 @@ serangan yang mengkhawatirkan,
 
 838
 00:34:07,300 --> 00:34:12,489
-not because it violates
-someone's secrecy, et cetera,
+bukan karena melanggar
+privasi seseorang, dan lain-lain,
 
 839
 00:34:12,489 --> 00:34:15,510
-or at least not directly,
-but more because it really
+atau setidaknya tidak secara langsung,
+tetapi lebih ke serangan ini benar-benar
 
 840
 00:34:15,510 --> 00:34:19,310
-causes a lot of
-availability problems
+menyebabkan banyak
+masalah ketersediaan
 
 841
 00:34:19,310 --> 00:34:21,079
-for other users in the system.
+bagi pengguna lain di sistem.
 
 842
 00:34:21,079 --> 00:34:21,734
-Yeah.
+Ya.
 
 843
 00:34:21,734 --> 00:34:23,960
-AUDIENCE: So if
-you're an attacker,
+AUDIENS: Jadi jika Anda
+adalah seorang penyerang,
 
 844
 00:34:23,960 --> 00:34:26,170
-and you wanted to target
-one particular user,
+dan Anda ingin menarget
+satu pengguna spesifik,
 
 845
 00:34:26,170 --> 00:34:29,740
-could you just keep
-sending connection requests
+bisakah Anda terus
+mengirimkan pemintaan koneksi
 
 846
 00:34:29,740 --> 00:34:32,594
-to a server on behalf
-of his IP and make
+ke server menggunakan
+IP-nya dan membuat
 
 847
 00:34:32,594 --> 00:34:33,969
-him keep dropping
-his connections
+dia teus menjatuhkan
+koneksinya
 
 848
 00:34:33,969 --> 00:34:38,679
-to the servers and so
-you just [INAUDIBLE]?
+ke server dan lalu
+Anda [TIDAK TERDENGAR]?
 
 849
 00:34:38,679 --> 00:34:41,540
-PROFESSOR: Well, so it
-requires you guessing.
+PROFESOR: Yah, jadi itu
+mengharuskan Anda menebak.
 
 850
 00:34:41,540 --> 00:34:43,460
-So you're saying,
-suppose I'm using Gmail,
+Jadi maksud Anda,
+misalkan saya menggunakan Gmail,
 
 851
 00:34:43,460 --> 00:34:45,835
-and you want to stop me from
-learning something in Gmail,
+dan Anda ingin mencegah saya dari
+mempelajari sesuatu di Gmail,
 
 852
 00:34:45,835 --> 00:34:48,292
-so just send packets
-to my machine
+jadi kirimkan saja paket
+ke mesin saya
 
 853
 00:34:48,292 --> 00:34:49,530
-pretending to be from Gmail.
+dengan berpura-pura dari Gmail.
 
 854
 00:34:49,530 --> 00:34:51,980
-Well, you have to guess the
-right source and destination
+Yah, Anda harus menebak
+nomor port sumber dan tujuan
 
 855
 00:34:51,980 --> 00:34:52,787
-port numbers.
+yang tepat.
 
 856
 00:34:52,787 --> 00:34:54,620
-The destination port
-number is probably 443,
+Nomor port tujuannya
+mungkin 443,
 
 857
 00:34:54,620 --> 00:34:55,912
-because I'm using HTTPS.
+kaerna saya menggunakan HTTPS.
 
 858
 00:34:55,912 --> 00:34:57,370
-But the source port
-number is going
+Tetapi nomor 
+port sumbernya adalah
 
 859
 00:34:57,370 --> 00:34:59,390
-to be some random 16-bit thing.
+serangkaian 16-bit yang acak.
 
 860
 00:34:59,390 --> 00:35:02,040
-And it's also going to be the
-case that probably the sequence
+Dan itu juga akan menjadi
+kasus dimana kemungkinan
 
 861
 00:35:02,040 --> 00:35:03,070
