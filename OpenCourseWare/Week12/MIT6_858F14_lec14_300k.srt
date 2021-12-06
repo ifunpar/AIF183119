@@ -3782,90 +3782,90 @@ dan sertifikat.
 
 799
 00:34:08,739 --> 00:34:11,167
-They use SHA-1, but that
-was good for a while.
+Mereka menggunakan SHA-1, tetapi
+hal itu baik hanya untuk sementara.
 
 800
 00:34:11,167 --> 00:34:13,250
-Now SHA-1 is also weak,
-and Google is actually now
+Saat ini SHA-1 juga lemah,
+dan Google saat ini sedang
 
 801
 00:34:13,250 --> 00:34:17,010
-actively trying to push web
-developers and browser vendors
+aktif mencoba untuk mendorong
+pengembang web dan vendor browser
 
 802
 00:34:17,010 --> 00:34:19,712
-et cetera to discontinue
-the use of SHA-1
+dan lainnya untuk tidak melanjutkan
+penggunaan dari SHA-1
 
 803
 00:34:19,712 --> 00:34:21,920
-and use a different hash
-function because it's pretty
+dan menggunakan fungsi hash
+yang berbeda karena terlihat cukup
 
 804
 00:34:21,920 --> 00:34:24,489
-clear that maybe in
-5 or 10 years time,
+jelas dalam waktu sekitar
+5 sampai 10 tahun kedepan,
 
 805
 00:34:24,489 --> 00:34:27,070
-there will be relatively
-easy attacks on SHA-1.
+akan terdapat serangan yang
+relatif mudah terhadap SHA-1.
 
 806
 00:34:27,070 --> 00:34:29,000
-It's already been
-shown to be weaker.
+Hal ini sudah
+terbukti lebih lemah.
 
 807
 00:34:29,000 --> 00:34:31,931
-So I guess there is no
-magic bullet, per se.
+Jadi saya rasa pada hakikatnya
+tidak ada solusi yang tepat untuk hal ini.
 
 808
 00:34:31,931 --> 00:34:33,389
-You just have to
-make sure that you
+Anda hanya harus
+memastikan bahwa Anda
 
 809
 00:34:33,389 --> 00:34:36,650
-keep evolving with the hackers.
+terus berkembang bersama para peretas.
 
 810
 00:34:36,650 --> 00:34:37,908
-Yeah.
+Ya.
 
 811
 00:34:37,908 --> 00:34:39,199
-There is a problem, absolutely.
+Tentu saja terdapat masalah.
 
 812
 00:34:39,199 --> 00:34:41,199
-Like, all of this stuff
-that we're talking about
+Seperti, semua hal yang
+sudah kita bicarakan
 
 813
 00:34:41,199 --> 00:34:44,330
-relies on crypto being correct,
-or sort of being s to break.
+bergantung pada kriptografi yang benar,
+atau sesuatu yang sulit dipecahkan.
 
 814
 00:34:44,330 --> 00:34:47,166
-So you have to pick
-parameters suitably.
+Jadi Anda perlu memilih
+parameter yang sesuai.
 
 815
 00:34:47,166 --> 00:34:49,179
-At least here, there's
-an expiration time.
+Setidaknya disini, terdapat
+waktu kadaluwarsa.
 
 816
 00:34:49,179 --> 00:34:51,800
-So well, let's pick
-some parameters
+Jadi, mari kita pilih
+beberapa parameter
 
 817
 00:34:51,800 --> 00:34:53,980
