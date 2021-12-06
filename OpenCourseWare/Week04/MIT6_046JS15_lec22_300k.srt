@@ -3580,7 +3580,7 @@ Jadi mari kita mulai.
 761
 00:41:30,030 --> 00:41:37,300
 Pada dasarnya, RSA didasarkan dari
-bilangan prima dan memfaktorkan suatu bilangan
+bilangan prima dan memfaktorkan bilangan
 
 762
 00:41:37,300 --> 00:41:42,760
@@ -3599,7 +3599,7 @@ apa yang sedang dicoba hal ini.
 765
 00:41:49,050 --> 00:41:51,580
 Fungsionalitas
-RSA harus
+RSA harusnya
 
 766
 00:41:51,580 --> 00:41:55,550
@@ -3613,7 +3613,7 @@ fungsionalitas RSA,
 
 768
 00:41:57,450 --> 00:42:01,390
-kita katakan untuk
+kita mengatakan untuk
 setiap pesan, jika Alice
 
 769
@@ -3638,7 +3638,7 @@ kunci privat Bob.
 
 773
 00:42:16,220 --> 00:42:18,240
-Itulah persyaratan
+Itulah kebutuhan
 fungsional
 
 774
@@ -3661,12 +3661,12 @@ adalah yang saya tulis di atas sana.
 
 778
 00:42:28,520 --> 00:42:32,540
-Pengetahuan tentang SK (secret key)
-harus disembunyikan walaupun
+Bahwa pengetahuan tentang SK (secret key)
+harus disembunyikan bahkan
 
 779
 00:42:32,540 --> 00:42:33,790
-diberikan pengetahuan tentang PK (public key).
+saat PK (public key) diketahui.
 
 780
 00:42:33,790 --> 00:42:36,190
@@ -3675,8 +3675,8 @@ tingkat kesulitan komputasi
 
 781
 00:42:36,190 --> 00:42:39,460
-yang tepat yang berkaitan
-dengan setiap kriptosistem.
+yang berkaitan
+dengan setiap sistem kripto.
 
 782
 00:42:39,460 --> 00:42:41,745
@@ -3728,7 +3728,7 @@ mereka harus mendaftar.
 792
 00:43:16,760 --> 00:43:20,120
 Dan ini bukan sesuatu yang akan
-kita bahas di luar saya
+kita bahas, selain bahwa saya
 
 793
 00:43:20,120 --> 00:43:21,360
@@ -3761,11 +3761,11 @@ bilangan prima rahasia yang besar.
 799
 00:43:35,860 --> 00:43:38,240
 Jadi ini benar-benar
-akan menghasilkan
+akan berujung pada
 
 800
 00:43:38,240 --> 00:43:40,560
-dalam pembuatan
+pembuatan
 kunci privat kita.
 
 801
@@ -3840,12 +3840,12 @@ e akan menjadi publik.
 
 816
 00:44:42,560 --> 00:44:44,080
-Jadi Anda bisa memperbaikinya.
+Jadi Anda bisa membuatnya konstan.
 
 817
 00:44:44,080 --> 00:44:48,470
 Dan kebanyakan algoritma RSA hanya
-memperbaikinya menjadi bilangan kecil.
+menetapkannya ke sebuah bilangan kecil.
 
 818
 00:44:48,470 --> 00:44:51,430
@@ -3884,7 +3884,7 @@ cepat dan mendekripsi lebih lambat,
 825
 00:45:04,530 --> 00:45:06,910
 sayangnya, itulah
-tawaran di sini.
+pertimbangannya di sini.
 
 826
 00:45:06,910 --> 00:45:08,127
@@ -3912,12 +3912,12 @@ lebih besar jika e bernilai kecil.
 
 831
 00:45:16,810 --> 00:45:18,349
-Dan itu hanyalah tawaran keuntungan dan kerugian.
+Dan itu adalah pertimbangannya.
 
 832
 00:45:18,349 --> 00:45:20,140
 Hal itu simetris dalam
-arti disaat dia adalah
+arti walaupun dia adalah
 
 833
 00:45:20,140 --> 00:45:21,940
@@ -3940,7 +3940,7 @@ bersifat simetris.
 
 837
 00:45:30,910 --> 00:45:33,015
-Jadi apa kunci publik milik Alice?
+Jadi apakah kunci publik milik Alice?
 
 838
 00:45:33,015 --> 00:45:39,540
@@ -3975,7 +3975,7 @@ ini adalah salah satu hal
 
 845
 00:46:02,220 --> 00:46:05,110
-di mana kita bertanya bagaimana bisa
+di mana kita bertanya-tanya bagaimana bisa
 mereka terpikirkan hal ini?
 
 846
