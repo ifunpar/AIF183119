@@ -3166,72 +3166,72 @@ server.
 
 666
 00:29:01,550 --> 00:29:02,400
-And this would work.
+Dan ini akan bekerja.
 
 667
 00:29:02,400 --> 00:29:04,040
-But you'd need your
-KC to decrypt it
+Tapi Anda membutuhkan
+KC Anda untuk mendekripsinya
 
 668
 00:29:04,040 --> 00:29:06,044
-and then you'd need your
-KC around all the time.
+kemudian Anda membutuhkan
+KC Anda di setiap waktu.
 
 669
 00:29:06,044 --> 00:29:07,460
-So instead, what
-you do is you get
+Jadi sebagai gantinya,
+Anda mendapatkan
 
 670
 00:29:07,460 --> 00:29:10,595
-a ticket for this special
-service over here.
+tiket untuk layanan
+istimewa di sini.
 
 671
 00:29:10,595 --> 00:29:12,720
-It looks just like a service
-except that it happens
+Itu terlihat seperti layanan
+kecuali
 
 672
 00:29:12,720 --> 00:29:15,630
-to be provided by the same box.
+disediakan oleh kotak yang sama.
 
 673
 00:29:15,630 --> 00:29:18,310
-And then this guy will
-happily give you more tickets
+lalu nantinya orang ini dengan senang hati
+akan memberikan Anda lebih banyak tiket
 
 674
 00:29:18,310 --> 00:29:23,210
-later without having to
-present your initial KC again.
+tanpa perlu
+menyajikan KC awal Anda lagi.
 
 675
 00:29:23,210 --> 00:29:24,143
-Makes sense?
+Masuk akal?
 
 676
 00:29:24,143 --> 00:29:26,830
-All right, other questions?
+Baiklah, pertanyaan lain?
 
 677
 00:29:26,830 --> 00:29:27,662
-Yeah.
+Ya.
 
 678
 00:29:27,662 --> 00:29:32,482
-STUDENT: So [INAUDIBLE] the idea
-is once you get the TGS ticket,
+MAHASISWA: Jadi [TIDAK TERDENGAR] idenya
+adalah setelah Anda mendapatkan tiket TGSnya,
 
 679
 00:29:32,482 --> 00:29:33,940
-you can just get rid of your KC?
+Anda bisa menghilangkan KC Anda?
 
 680
 00:29:33,940 --> 00:29:34,840
-PROFESSOR: Yes,
-so that's actually
+PROFESOR: Ya,
+jadi itu sebenarnya
 
 681
 00:29:34,840 --> 00:29:36,660
