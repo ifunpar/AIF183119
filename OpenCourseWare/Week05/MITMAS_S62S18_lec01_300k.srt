@@ -4414,55 +4414,55 @@ that these actually work.
 933
 00:40:15,400 --> 00:40:18,190
 And also, in practice,
-hash functions
+fungsi hash
 
 934
 00:40:18,190 --> 00:40:21,610
-are not nice math, cool
-things like elliptic curves
+bukan matematika yang bagus, hal keren
+seperti kurva epileptik
 
 935
 00:40:21,610 --> 00:40:24,370
-and RSA, prime numbers
-and stuff like that.
+dan RSA, angka prima
+dan hal seperti itu.
 
 936
 00:40:24,370 --> 00:40:27,700
-They're really, if you look at
-the code, it's sort of like,
+Mereka benar-benar, jika Anda meliha ke
+kodenya, itu seperti,
 
 937
 00:40:27,700 --> 00:40:29,260
-well, I'm going to
-take these bytes
+Baiklah, Saya akan mengambil
+bytes itu
 
 938
 00:40:29,260 --> 00:40:30,397
-and I'm going to swap them.
+dan Saya akan menukar mereka.
 
 939
 00:40:30,397 --> 00:40:32,230
-And then I'm going to
-add these two numbers,
+Dan kemudian saya akan
+menabahkan dua angka ini,
 
 940
 00:40:32,230 --> 00:40:34,900
-and then I'm going to
-rotate the bits over here,
+kemudian saya akan
+menukar bit disini,
 
 941
 00:40:34,900 --> 00:40:36,880
-and then I'm going to
-x over these things.
+kemudian saya akan
+x melalui benda ini.
 
 942
 00:40:36,880 --> 00:40:39,100
-And then I'm going
-to do that 50 times.
+Kemudian Saya akan
+melakukan itu 50 kali.
 
 943
 00:40:39,100 --> 00:40:39,820
-And why 50?
+Dan kenapa  50?
 
 944
 00:40:39,820 --> 00:40:42,290
