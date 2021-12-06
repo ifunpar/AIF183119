@@ -4175,85 +4175,85 @@ or take advantage of them
 
 877
 00:35:43,430 --> 00:35:45,670
-to fix particular problems.
+untuk memperbaiki masalah tertentu.
 
 878
 00:35:45,670 --> 00:35:47,747
-Here, the insight is
-that these routers only
+Di sini, wawasannya adalah
+bahwa router-router ini hanya
 
 879
 00:35:47,747 --> 00:35:49,497
-want to talk to each
-other, not to someone
+ingin untuk berbicara kepada
+sesama, tidak kepada orang lain
 
 880
 00:35:49,497 --> 00:35:50,980
-else over the network.
+melalui jaringan.
 
 881
 00:35:50,980 --> 00:35:52,990
-And as a result,
-if the packet is
+Dan jadi untuk hasilnya,
+jika paket tersebut
 
 882
 00:35:52,990 --> 00:35:55,817
-coming not from the immediate
-router next across the link,
+datang bukan dari
+router yang berada di sebelah tautan,
 
 883
 00:35:55,817 --> 00:35:58,442
-but from someone else, I want to
-drop this packet all together.
+tapi dari tempat lain, Saya ingin
+membuang semua paket ini.
 
 884
 00:35:58,442 --> 00:36:01,730
-And what the designers of these
-writing protocols realized
+Dan apa yang perancang protokol
+penulisan ini sadari adalah
 
 885
 00:36:01,730 --> 00:36:04,370
-is that there's this wonderful
-field in a packet called time
+ada sebuah bidang yang hebat
+didalam sebuah paket yang disebut waktu
 
 886
 00:36:04,370 --> 00:36:05,390
-to live.
+untuk hidup.
 
 887
 00:36:05,390 --> 00:36:08,665
-It's an 8-bit field that gets
-decremented by every router
+Itu adalah sebuah bidang 8-bit yang
+mendapatkan pengurangan oleh setiap perhitungan
 
 888
 00:36:08,665 --> 00:36:11,840
-to make sure that packets
-don't go into an infinite loop.
+untuk memastikan paket tersebut
+tidak masuk kedalam loop tidak terbatas.
 
 889
 00:36:11,840 --> 00:36:15,180
-So the highest this TTL
-value could ever be is 255.
+Jadi nilai maksimum yang
+dapat dicapai oleh TTL ini adalah 255.
 
 890
 00:36:15,180 --> 00:36:17,630
-And then it'll get
-decremented from there.
+Dan akan mendapatkan
+pengurangan dari situ.
 
 891
 00:36:17,630 --> 00:36:19,165
-So what these writing
-protocols do--
+Jadi apa yang dilakukan
+protokol penulisan ini--
 
 892
 00:36:19,165 --> 00:36:23,000
-it's sort of a
-clever hack-- is they
+itu semacam sebuah
+peretasan yang cerdas-- yaitu mereka
 
 893
 00:36:23,000 --> 00:36:27,220
-reject any packet with a
-TTL value that's not 255.
+menolak paket apapun yang memiliki
+nilai TTL yang bukan 255.
 
 894
 00:36:27,220 --> 00:36:29,660
