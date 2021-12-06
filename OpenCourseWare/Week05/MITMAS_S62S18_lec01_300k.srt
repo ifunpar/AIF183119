@@ -4330,48 +4330,48 @@ hash function can even exist.
 915
 00:39:31,450 --> 00:39:35,050
 So if you could prove that
-there is a one-way function,
+ada satu fungsi satu arah,
 
 916
 00:39:35,050 --> 00:39:37,150
-you get the Fields Medal, right?
+Anda mendapatkan Fields Medal, benar?
 
 917
 00:39:37,150 --> 00:39:38,890
-It's like a million
-dollar prize.
+Ini seperti hadiah
+satu juta dolar.
 
 918
 00:39:38,890 --> 00:39:40,390
-So if you can prove
-it there is such
+Jadi jika Anda dapat membuktikan
+bahwa terdapat
 
 919
 00:39:40,390 --> 00:39:42,310
-a thing as a hash
-function, you will be
+sebuah hal seperti fungsi
+hash, Anda akan menjadi
 
 920
 00:39:42,310 --> 00:39:44,410
-a super famous mathematician.
+Matematikawan yang sangat terkenal.
 
 921
 00:39:44,410 --> 00:39:47,250
-We have no idea that this is
-even mathematically possible.
+Kami tidak tahu bahwa hal ini
+mungkin secara matematis.
 
 922
 00:39:47,250 --> 00:39:49,520
-Or maybe the universe
-doesn't work this way.
+Atau mungkin alam semesta
+tidak bekerja seperti ini.
 
 923
 00:39:49,520 --> 00:39:50,980
-It seems to, though.
+Meskipun, terlihatnya seperti itu.
 
 924
 00:39:50,980 --> 00:39:53,110
-It seems like there
+Sepertinya ada
 are these things that
 
 925
@@ -4428,7 +4428,7 @@ dan hal seperti itu.
 
 936
 00:40:24,370 --> 00:40:27,700
-Mereka benar-benar, jika Anda meliha ke
+Mereka benar-benar, jika Anda melihat ke
 kodenya, itu seperti,
 
 937
@@ -4462,39 +4462,39 @@ melakukan itu 50 kali.
 
 943
 00:40:39,100 --> 00:40:39,820
-Dan kenapa  50?
+Dan mengapa 50?
 
 944
 00:40:39,820 --> 00:40:42,290
-Well, it seems like
-50 is a good number.
+Ya, Sepertinya
+50 adalah angka yang bagus.
 
 945
 00:40:42,290 --> 00:40:43,810
-It's not too slow.
+Ini tidak terlalu lambat.
 
 946
 00:40:43,810 --> 00:40:44,650
-No, really.
+Tidak, benar.
 
 947
 00:40:44,650 --> 00:40:50,180
-It's sort of black magic,
-Sha-256 uses 64 rounds.
+Ini seperti ilmu hitam,
+Sha-256 menggunakan 64 putaran.
 
 948
 00:40:50,180 --> 00:40:52,120
-Nice even number.
+Angka genap yang bagus.
 
 949
 00:40:52,120 --> 00:40:55,222
-Different functions like
-Blake 2B uses 20 rounds.
+Fungsi-fungsi berbeda seperti
+Blake 2B menggunakan 20 putaran.
 
 950
 00:40:55,222 --> 00:40:56,930
-But then there's also
-a version that uses
+Tetapi kemudian terdapat juga
+sebuah versi yang menggunakan
 
 951
 00:40:56,930 --> 00:40:58,510
