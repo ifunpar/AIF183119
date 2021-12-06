@@ -3869,18 +3869,18 @@ beberapa parameter
 
 817
 00:34:51,800 --> 00:34:53,980
-that are good for a year
-as opposed to for 10 years.
+yang baik untuk setahun kedepan
+sebagai lawan untuk 10 tahun kedepan.
 
 818
 00:34:53,980 --> 00:34:55,820
-The CA has a much
-bigger problem.
+CA memiliki masalah
+yang jauh lebih besar.
 
 819
 00:34:55,820 --> 00:34:59,570
-This key, there's no
-expiration on it, necessarily.
+Kunci ini, tentu saja, tidak
+memiliki kadaluwarsa didalamnya.
 
 820
 00:34:59,570 --> 00:35:02,770
