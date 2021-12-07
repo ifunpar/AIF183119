@@ -3235,75 +3235,75 @@ so that's actually
 
 681
 00:29:34,840 --> 00:29:36,660
-the cool thing about
-it is that once
+hal yang keren mengenai
+itu adalah ketika
 
 682
 00:29:36,660 --> 00:29:40,250
-you get this ticket-- well, this
-ticket with the S being TGS,
+anda mendapatkan tiket ini-- jadi, tiket
+ini dengan S menjadi TGS,
 
 683
 00:29:40,250 --> 00:29:43,450
-then you're going to get
-rid of the password and KC.
+kemudian anda akan 
+menghilangkan kata sandi dan KC.
 
 684
 00:29:43,450 --> 00:29:46,836
-So you log into Athena
-workstation and a couple
+Jadi anda masuk kedalam tempat kerja
+Athena dan beberapa
 
 685
 00:29:46,836 --> 00:29:48,210
-of seconds into
-the boot process,
+detik menuju
+proses penyalaan,
 
 686
 00:29:48,210 --> 00:29:49,584
-you already get
-your ticket here.
+anda telah mendapatkan
+tiket anda disini.
 
 687
 00:29:49,584 --> 00:29:51,280
-It scrubs the
-password from memory.
+Itu menghapus 
+kata sandi dari memori.
 
 688
 00:29:51,280 --> 00:29:54,240
-So even if someone, like,
-grabs you and grab the machine
+Jadi bahkan jika seseorang, seperti,
+memegang anda dan memegang mesin
 
 689
 00:29:54,240 --> 00:29:56,870
-and runs off, all they
-got was your ticket.
+dan kabur, semua yang mereka
+dapatkan adalah tiket anda.
 
 690
 00:29:56,870 --> 00:29:59,830
-And OK, well, maybe they can
-access your stuff for 10 hours
+Dan baik, jadi, mungkin mereka dapat
+mengakses barang anda selama 10 jam
 
 691
 00:29:59,830 --> 00:30:01,410
-or whatever the
-ticket lifetime was,
+atau apapun
+masa berlaku tiketnya,
 
 692
 00:30:01,410 --> 00:30:02,760
-but not for longer than that.
+tetapi tidak lebih lama dari itu.
 
 693
 00:30:02,760 --> 00:30:05,580
-The password is gone.
+Kata sandi telah hilang.
 
 694
 00:30:05,580 --> 00:30:06,080
-Yeah.
+Ya.
 
 695
 00:30:06,080 --> 00:30:08,912
-So if the password's
-gone, then on that picture
+Jadi jika kata sandi telah
+hilang, maka pada gambar itu
 
 696
 00:30:08,912 --> 00:30:11,000
