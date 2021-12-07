@@ -6527,7 +6527,6 @@ buruk ke getS() and mencoba membuatnya
 crash lagi dan melihat apa yang sedang
 terjadi, sebenarnya, di situ, benar?
 
-
 1378
 00:58:54,950 --> 00:58:57,310
 Jadi kita dapat menuliskan
