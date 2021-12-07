@@ -3088,77 +3088,77 @@ sort of two sides to it.
 
 649
 00:28:25,820 --> 00:28:28,620
-From the client's point of
-view, it's just another service
+Dari perpektif client,
+TGS hanyalah service lain
 
 650
 00:28:28,620 --> 00:28:30,290
-that you can get a ticket for.
+untuk mendapatkan sebuah tiket.
 
 651
 00:28:30,290 --> 00:28:32,540
-And the kinds of
-operations it supports
+Dan jenis operasi
+yang didukungnya
 
 652
 00:28:32,540 --> 00:28:33,690
-is getting more tickets.
+adalah mendapatkan lebih banyak tiket.
 
 653
 00:28:33,690 --> 00:28:35,010
-It's a Ticket Granting Service.
+Itu adalah layanan pemberian tiket.
 
 654
 00:28:35,010 --> 00:28:37,310
-STUDENT: Sorry, I meant what
-is the ticket called TGS.
+MAHASISWA: Maaf, maksud saya
+apa nama tiketnya TGS.
 
 655
 00:28:37,310 --> 00:28:38,520
-PROFESSOR: Oh, yeah, sorry.
+PROFESOR: Oh, maaf.
 
 656
 00:28:38,520 --> 00:28:41,760
-This TGS is just shorthand
-for this whole blob
+TGS ini hanyalah steno
+untuk seluruh gumpalan ini
 
 657
 00:28:41,760 --> 00:28:45,565
-except where S is actually
-the principal name of this TGS
+kecuali dimana S adalah
+nama utama dari service TGS
 
 658
 00:28:45,565 --> 00:28:46,065
-service.
+ini.
 
 659
 00:28:48,527 --> 00:28:50,860
-So you can think of it as
-like, well, there's a Kerberos
+Jadi kamu bisa memikirkan itu
+seperti, ada sebuah server
 
 660
 00:28:50,860 --> 00:28:52,770
-server, there's this
-TGS service out there,
+Kerberos, ada juga service
+TGS diluar sana,
 
 661
 00:28:52,770 --> 00:28:54,230
-and then there's the real
-thing I want to get to.
+dan ada hal nyata yang
+ingin saya dapatkan.
 
 662
 00:28:54,230 --> 00:28:56,170
-So you first ask
-this guy to give me
+Jadi pertama-tama Anda
+tanya orang ini untuk memberikan
 
 663
 00:28:56,170 --> 00:28:57,950
-a ticket for some service.
+sebuah tiket untuk beberapa service.
 
 664
 00:28:57,950 --> 00:29:00,530
-You could ask it to give you
-directly a ticket for the file
+Anda bisa bertanya kepadanya untuk 
+memberikan tiket secara langsung untuk file
 
 665
 00:29:00,530 --> 00:29:01,550
@@ -3166,72 +3166,72 @@ server.
 
 666
 00:29:01,550 --> 00:29:02,400
-And this would work.
+Dan ini akan bekerja.
 
 667
 00:29:02,400 --> 00:29:04,040
-But you'd need your
-KC to decrypt it
+Tapi Anda membutuhkan
+KC Anda untuk mendekripsinya
 
 668
 00:29:04,040 --> 00:29:06,044
-and then you'd need your
-KC around all the time.
+kemudian Anda membutuhkan
+KC Anda di setiap waktu.
 
 669
 00:29:06,044 --> 00:29:07,460
-So instead, what
-you do is you get
+Jadi sebagai gantinya,
+Anda mendapatkan
 
 670
 00:29:07,460 --> 00:29:10,595
-a ticket for this special
-service over here.
+tiket untuk layanan
+istimewa di sini.
 
 671
 00:29:10,595 --> 00:29:12,720
-It looks just like a service
-except that it happens
+Itu terlihat seperti layanan
+kecuali
 
 672
 00:29:12,720 --> 00:29:15,630
-to be provided by the same box.
+disediakan oleh kotak yang sama.
 
 673
 00:29:15,630 --> 00:29:18,310
-And then this guy will
-happily give you more tickets
+lalu nantinya orang ini dengan senang hati
+akan memberikan Anda lebih banyak tiket
 
 674
 00:29:18,310 --> 00:29:23,210
-later without having to
-present your initial KC again.
+tanpa perlu
+menyajikan KC awal Anda lagi.
 
 675
 00:29:23,210 --> 00:29:24,143
-Makes sense?
+Masuk akal?
 
 676
 00:29:24,143 --> 00:29:26,830
-All right, other questions?
+Baiklah, pertanyaan lain?
 
 677
 00:29:26,830 --> 00:29:27,662
-Yeah.
+Ya.
 
 678
 00:29:27,662 --> 00:29:32,482
-STUDENT: So [INAUDIBLE] the idea
-is once you get the TGS ticket,
+MAHASISWA: Jadi [TIDAK TERDENGAR] idenya
+adalah setelah Anda mendapatkan tiket TGSnya,
 
 679
 00:29:32,482 --> 00:29:33,940
-you can just get rid of your KC?
+Anda bisa menghilangkan KC Anda?
 
 680
 00:29:33,940 --> 00:29:34,840
-PROFESSOR: Yes,
-so that's actually
+PROFESOR: Ya,
+jadi itu sebenarnya
 
 681
 00:29:34,840 --> 00:29:36,660
