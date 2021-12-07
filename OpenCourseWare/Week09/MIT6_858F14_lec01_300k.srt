@@ -6084,271 +6084,200 @@ dengan register EBP ini.
 
 1283
 00:54:37,362 --> 00:54:38,570
-That's not super interesting.
-Itu sangat tidak menarik.
+Itu tidak sangat menarik.
 
 1284
 00:54:38,570 --> 00:54:40,620
-But the first thing
-it does after that is
-Tapi hal pertama
-yang dilakukan setelah itu adalah
+Tapi hal pertama yang
+dilakukannya setelah itu adalah
 
 1285
 00:54:40,620 --> 00:54:43,800
-subtract a certain value
-from the stack pointer.
-mengurangi sebuah nilai
-dari stack pointer.
+mengurangi nilai tertentu
+dari penunjuk stack.
 
 1286
 00:54:43,800 --> 00:54:46,940
-This is, basically, it's making
-space for all those variables,
-Ini adalah, pada dasarnya, itu membuat
-ruang untuk seluruh variabel itu,
+Ini adalah, pada dasarnya, dia sedang
+membuat ruang untuk seluruh variabel itu,
 
 1287
 00:54:46,940 --> 00:54:50,680
-like the buffer and the integer,
-i, we saw in the C source code.
-seperti buffer dan integer,
-i, yang kita lihat di kode sumber C.
+seperti buffer dan bilangan bulat,
+i, yang kita lihat dalam kode sumber C.
 
 1288
 00:54:50,680 --> 00:54:53,570
-So we're actually,
-now, four instructions
 Jadi kita sebenarnya,
-sekarang, empat instruksi
+sekarang, sudah empat instruksi
 
 1289
 00:54:53,570 --> 00:54:55,230
-into the function, here.
-menuju fungsi, di sini.
+ke dalam fungsi, di sini.
 
 1290
 00:54:55,230 --> 00:54:57,190
-So that stack
-pointer value that we
-Jadi nilai stack
-pointer itu yang kita
+Jadi nilai penunjuk
+stack itu yang kita
 
 1291
 00:54:57,190 --> 00:55:01,560
-saw before is actually already
-in the middle, so to say,
-lihat sebelumnya adalah sebenarnya sudah
-di tengah, jadi dapat dibilang,
+lihat sebelumnya sebenarnya sudah
+berada di tengah, jadi dapat dibilang,
 
 1292
 00:55:01,560 --> 00:55:02,730
-of the stack.
-dari stack.
+dari stack itu.
 
 1293
 00:55:02,730 --> 00:55:06,840
-And currently,
-there's stuff above it
 Dan sekarang,
-terdapat hal diatas itu
+terdapat beberapa hal di atasnya
 
 1294
 00:55:06,840 --> 00:55:09,550
-that is going to be the
-buffer, that integer
 yang akan menjadi
 buffer, nilai integer
 
 1295
 00:55:09,550 --> 00:55:12,110
-value, and actually,
-also the return address
-itu, dan sebenarnya,
-juga alamat kembalian
+itu, dan sebenarnya, juga
+alamat kembali (return address)
 
 1296
 00:55:12,110 --> 00:55:14,390
-into the main function
-goes on the stack, as well.
-menuju fungsi utama
-berjalan di stack, juga.
+menuju ke fungsi main
+masuk ke dalam stack, juga.
 
 1297
 00:55:14,390 --> 00:55:17,734
-So somewhere here, we'll
-have the return address.
 Jadi di suatu tempat di sini, kita akan
-memiliki alamat kembaliannya.
+memiliki alamat kembalinya.
 
 1298
 00:55:17,734 --> 00:55:19,150
-And we actually
-try to figure out,
 Dan kita sebenarnya
-mencoba untuk memecahkan,
+mencoba untuk mencari tahu,
 
 1299
 00:55:19,150 --> 00:55:20,720
-where are things on the stack?
-di mana hal-hal pada stack?
+di mana letak hal-hal dalam stack itu?
 
 1300
 00:55:20,720 --> 00:55:26,850
-So we can print the address
-of that buffer variable.
-Jadi kita dapat menampilkan alamat
+Jadi kita dapat mencetak alamat
 dari variabel buffer itu.
 
 1301
 00:55:26,850 --> 00:55:31,040
-So the buffer variable
-is at address D02C.
 Jadi variabel buffer itu
 berada di alamat D02C.
 
 1302
 00:55:31,040 --> 00:55:35,690
-We can also print the
-value of that integer, i.
-Kita juga dapat menampilkan
-nilai dari integer itu, i.
+Kita juga dapat mencetak
+nilai dari bilangan bulat itu, i.
 
 1303
 00:55:35,690 --> 00:55:38,960
-That guy is at D0AC.
-Orang itu berada di D0AC.
+Dia berada di D0AC.
 
 1304
 00:55:38,960 --> 00:55:40,970
-So the i is way up on the stack.
-Jadi i tersebut berada jauh di atas stack.
+Jadi i tersebut berada jauh di atas dalam stack.
 
 1305
 00:55:40,970 --> 00:55:44,310
-But the buffer is a bit lower.
-Tapi buffernya sedikit lambat.
+Tapi buffernya sedikit lebih bawah.
 
 1306
 00:55:44,310 --> 00:55:47,210
-So what's going on is that
-we have our buffer here
-Jadi apa yang terjadi adalah bahwa
+Jadi apa yang sedang terjadi adalah bahwa
 kita memiliki buffer kita di sini
 
 1307
 00:55:47,210 --> 00:55:52,460
-on the stack, and then
-followed above by i and maybe
-pada stack, kemudian
-diikuti oleh i dan mungkin
+dalam stack, dan kemudian diikuti
+oleh i di atasnya dan mungkin
 
 1308
 00:55:52,460 --> 00:55:54,640
-some other stuff, and
-then finally, the return
 beberapa hal lainnya, dan
-kemudian pada akhirnya, alamat
+pada akhirnya, alamat
 
 1309
 00:55:54,640 --> 00:55:57,260
-address into the main
-function that called redirect.
-kembaliannya menuju fungsi
-utama yang disebut redirect.
+kembali menuju fungsi main
+yang memanggil pengalihan.
 
 1310
 00:55:57,260 --> 00:56:00,910
-And the buffer
-is-- this is going,
 Dan buffernya
 adalah-- ini berjalan,
 
 1311
 00:56:00,910 --> 00:56:02,290
-the stack is growing down.
-stacknya tumbuh ke bawah.
+stacknya memanjang ke bawah.
 
 1312
 00:56:02,290 --> 00:56:03,845
-So these are higher addresses.
-Jadi ini adalah alamat yang lebih tinggi.
+Jadi ini adalah alamat-alamat yang lebih tinggi.
 
 1313
 00:56:07,250 --> 00:56:11,010
-So what this means is that
-the buffer-- we actually
 Jadi apa yang dimaksud adalah bahwa
 buffernya-- kita sebenarnya
 
 1314
 00:56:11,010 --> 00:56:13,750
-have to decide, where is the
-zeroth element of the buffer,
-perlu memilih, di mana
-elemen ke nol dari buffer,
+perlu menentukan, di mana elemen
+ke nol dari buffer berada,
 
 1315
 00:56:13,750 --> 00:56:16,950
-and where is the 128th
-element of this buffer?
-dan di mana elemen ke 128
-dari buffer ini?
+dan di mana elemen ke-128
+dari buffer ini berada?
 
 1316
 00:56:16,950 --> 00:56:20,510
-So where does the zeroth
-element of the buffer go?
-Jadi kemana elemen ke nol
-dari buffer itu pergi?
+Jadi di mana elemen ke nol
+dari buffer itu berada?
 
 1317
 00:56:20,510 --> 00:56:22,205
-Yeah?
 Ya?
 
 1318
 00:56:22,205 --> 00:56:24,080
-Should be at the bottom,
-right, because yeah,
 Seharusnya berada di bawah,
-kanan, iya karena,
+benar, karena ya,
 
 1319
 00:56:24,080 --> 00:56:25,590
-higher elements
-just keep going up.
 elemen yang lebih tinggi
-akan hanya pergi ke atas.
+akan terus naik atas.
 
 1320
 00:56:25,590 --> 00:56:27,505
-So buff of zero is down here.
-Jadi buff dari nol berada di bawah sini.
+Jadi buff ke nol berada di bawah sini.
 
 1321
 00:56:27,505 --> 00:56:28,760
-It just keeps going on.
 Itu akan tetap berjalan terus.
 
 1322
 00:56:28,760 --> 00:56:31,140
-And buff of 127 is
-going to be up there.
-Dan buff dari 127 akan
+Dan buff ke-127 akan
 berada di atas sana.
 
 1323
 00:56:31,140 --> 00:56:34,240
-And then we'll have
-i and other stuff.
 Dan kemudian kita akan memiliki
-i dan hal lainnya.
+i dan benda-benda lainnya.
 
 1324
 00:56:34,240 --> 00:56:35,020
-OK.
-OK.
+Oke.
 
 1325
 00:56:35,020 --> 00:56:36,860
