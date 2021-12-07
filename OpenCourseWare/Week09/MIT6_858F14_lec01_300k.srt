@@ -5901,12 +5901,12 @@ bersama dan melihat apa yang terjadi.
 1244
 00:52:52,380 --> 00:52:54,410
 Jadi ketika saya menjalankan
-program, itu akan
+programnya, dia akan
 
 1245
 00:52:54,410 --> 00:52:56,450
-mulai mengeksekusi
-dalam fungsi utama.
+mulai bereksekusi
+dalam fungsi main.
 
 1246
 00:52:56,450 --> 00:52:58,780
@@ -5915,46 +5915,46 @@ dia memanggil pengalihan.
 
 1247
 00:52:58,780 --> 00:53:01,790
-Dan debugger sekarang berhenti
+Dan debuggernya sekarang berhenti
 di awal pengalihan.
 
 1248
 00:53:01,790 --> 00:53:06,830
-Dan kita benar-benar dapat melihat
-apa yang terjadi di sini dengan, sebagai contoh,
+Dan kita benar-benar dapat melihat apa yang
+sedang terjadi di sini dengan, misalnya,
 
 1249
 00:53:06,830 --> 00:53:09,455
 kita dapat memintanya untuk mencetak
-register CPU saat ini.
+register-register CPU saat ini.
 
 1250
 00:53:09,455 --> 00:53:11,330
-Kita akan melihat
-hal dengan tingkat sangat rendah
+Kita akan melihat hal-hal
+dengan level yang sangat rendah
 
 1251
 00:53:11,330 --> 00:53:13,610
-di sini, sebagai lawan pada
-tingkat kode sumber C.
+di sini, berlawanan dengan
+tingkat kode sumber dari bahasa C.
 
 1252
 00:53:13,610 --> 00:53:15,090
-Kita akan melihat
+Kita akan melihat instruksi-
 instruksi yang sebenarnya
 
 1253
 00:53:15,090 --> 00:53:16,881
-yang dijalankan
-mesin saya karena itulah
+yang dijalankan oleh
+komputer saya karena itulah
 
 1254
 00:53:16,881 --> 00:53:17,930
-yang sebenarnya terjadi.
+yang sebenarnya sedang terjadi.
 
 1255
 00:53:17,930 --> 00:53:20,950
-C sebenarnya mungkin
+C sebenarnya mungkin sedang
 menyembunyikan beberapa hal dari kita.
 
 1256
@@ -5969,8 +5969,8 @@ mungkin Anda ingat.
 
 1258
 00:53:25,974 --> 00:53:27,390
-Nah, pada [TIDAK TERDENGAR]
-arsitektur,
+Yah, pada arsitektur
+[TIDAK TERDENGAR],
 
 1259
 00:53:27,390 --> 00:53:29,170
@@ -5978,18 +5978,18 @@ ada sebuah penunjuk stack.
 
 1260
 00:53:29,170 --> 00:53:32,530
-Jadi biarkan saya mulai mungkin menggambar
-diagram ini di papan
+Jadi biarkan saya mulai menggambar
+diagram ini pada papan
 
 1261
 00:53:32,530 --> 00:53:36,450
-sehingga kita dapat mencoba untuk merekonstruksi
-apa yang terjadi.
+sehingga kita dapat mencoba untuk
+merekonstruksi apa yang terjadi.
 
 1262
 00:53:36,450 --> 00:53:39,550
-Jadi apa yang terjadi adalah
-program saya, tidak heran,
+Jadi apa yang sedang terjadi adalah
+program saya, secara tidak mengherankan,
 
 1263
 00:53:39,550 --> 00:53:41,020
@@ -5997,41 +5997,41 @@ memiliki sebuah stack.
 
 1264
 00:53:41,020 --> 00:53:43,300
-Pada x86, stack tumbuh ke bawah.
+Pada x86, stack memanjang ke bawah.
 
 1265
 00:53:43,300 --> 00:53:46,040
-Jadi semacam
-stack ini seperti ini.
+Jadi itu adalah semacam
+stack seperti ini.
 
 1266
 00:53:46,040 --> 00:53:49,020
 Dan kita dapat terus
-mendorong hal ke dalamnya.
+memasukkan barang ke dalamnya.
 
 1267
 00:53:49,020 --> 00:53:51,980
 Jadi sekarang,
-titik penunjuk stack menunjuk
+penunjuk stacknya menunjuk
 
 1268
 00:53:51,980 --> 00:53:58,230
 pada lokasi memori
-khusus ini FFD010.
+yang khusus ini FFD010.
 
 1269
 00:53:58,230 --> 00:53:59,535
-Jadi beberapa nilai.
+Jadi dengan nilai tertentu.
 
 1270
 00:53:59,535 --> 00:54:01,660
-Jadi Anda dapat mencoba untuk
-mencari tahu, bagaimana itu sampai di sana?
+Jadi Anda dapat mencoba untuk mencari
+tahu, bagaimana dia sampai di sana?
 
 1271
 00:54:01,660 --> 00:54:05,480
-Salah satu cara untuk melakukannya adalah dengan
-membongkar kode
+Salah satu cara untuk melakukannya
+adalah dengan membongkar kode
 
 1272
 00:54:05,480 --> 00:54:07,380
@@ -6039,7 +6039,7 @@ dari fungsi pengalihan ini.
 
 1273
 00:54:12,650 --> 00:54:14,230
-Apakah ini akan bekerja lebih baik?
+Apakah ini akan bekerja dengan lebih baik?
 
 1274
 00:54:14,230 --> 00:54:15,620
@@ -6047,8 +6047,8 @@ Betulkah?
 
 1275
 00:54:15,620 --> 00:54:18,250
-Variabel praktis
-harus memiliki nilai integer.
+Convenience variable harus
+bernilai bilangan bulat.
 
 1276
 00:54:20,870 --> 00:54:21,370
@@ -6066,16 +6066,16 @@ Baiklah.
 1279
 00:54:28,690 --> 00:54:31,500
 Nah, kita dapat membongkar
-fungsi berdasarkan nama.
+fungsinya berdasarkan nama.
 
 1280
 00:54:31,500 --> 00:54:33,200
-Jadi inilah yang dilakukan
-oleh fungsinya.
+Jadi inilah yang sedang
+dilakukan oleh fungsinya.
 
 1281
 00:54:33,200 --> 00:54:36,340
-Jadi pertama-tama, itu dimulai
+Jadi pertama-tama, dia memulai
 dengan memanipulasi sesuatu
 
 1282
