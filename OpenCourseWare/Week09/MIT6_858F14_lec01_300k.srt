@@ -6510,8 +6510,6 @@ Jadi oke, kita menjalankan next.
 
 1374
 00:58:45,210 --> 00:58:48,620
-What this does is it runs getS()
-and it's waiting for getS()
 Dia menjalankan getS() dan
 sekarang sedang menunggu getS()
 
