@@ -4345,7 +4345,7 @@ OK?
 925
 00:49:57,230 --> 00:49:59,010
 Ada pertanyaan sejauh ini
-mengenai properti-properti
+mengenai properti-properti ini
 
 926
 00:49:59,010 --> 00:50:01,040
@@ -4362,7 +4362,7 @@ OK.
 
 929
 00:50:08,510 --> 00:50:12,170
-Jadi mulai memikirkan
+Jadi mulai pikirkan
 keamanan komputer.
 
 930
@@ -4377,12 +4377,12 @@ di luar sana yang
 
 932
 00:50:20,655 --> 00:50:22,640
-mencoba untuk mengetahui
+mencoba untuk menemukan
 kata sandi Anda,
 
 933
 00:50:22,640 --> 00:50:24,924
-mencoba untuk merusak
+mencoba untuk memanipulasi
 berkas-berkas Anda, secara umum
 
 934
