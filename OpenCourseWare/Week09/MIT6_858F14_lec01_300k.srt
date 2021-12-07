@@ -5807,7 +5807,7 @@ lebih dari 12 data
 
 1224
 00:52:00,940 --> 00:52:03,395
-Saya baru saja memasukan banyak hal
+Saya baru saja memasukkan banyak hal
 yang bukan merupakan angka.
 
 1225
@@ -6469,100 +6469,103 @@ to jump and continue execution.
 
 1365
 00:58:20,570 --> 00:58:22,319
-This is, hopefully,
-fairly straightforward
+Ini adalah, mudah-mudahan,
+hal-hal yang cukup lugas
 
 1366
 00:58:22,319 --> 00:58:25,660
-stuff from double oh four,
-some standard OS class.
+dari 004, sejenis kelas
+sistem operasi standar.
 
 1367
 00:58:25,660 --> 00:58:26,160
-OK.
+Oke.
 
 1368
 00:58:26,160 --> 00:58:28,300
-So where are we now?
+Jadi di mana kita berada sekarang?
 
 1369
 00:58:28,300 --> 00:58:33,060
-Just to recap, we can try to
-disassemble our instruction
+Hanya untuk merekap, kita dapat
+mencoba untuk membongkar penunjuk
 
 1370
 00:58:33,060 --> 00:58:33,990
-pointer.
+instruksi kita.
 
 1371
 00:58:33,990 --> 00:58:36,900
-So we're at the beginning
-of redirect right now.
+Jadi kita berada di permulaan
+pengalihan sekarang.
 
 1372
 00:58:36,900 --> 00:58:43,520
-And we can run for a bit, and
-maybe run that getS() function.
+Dan kita bisa menjalankannya sedikit, dan
+mungkin menjalankan fungsi getS() itu.
 
 1373
 00:58:43,520 --> 00:58:45,210
-So OK, we run next.
+Jadi oke, kita menjalankan next.
 
 1374
 00:58:45,210 --> 00:58:48,620
 What this does is it runs getS()
 and it's waiting for getS()
+Dia menjalankan getS() dan
+sekarang sedang menunggu getS()
 
 1375
 00:58:48,620 --> 00:58:49,627
-to return.
+untuk kembali.
 
 1376
 00:58:49,627 --> 00:58:51,960
-We can provide our bad input
-to getS() and try to get it
+Kita bisa memberikan input kita yang
+buruk ke getS() and mencoba membuatnya
 
 1377
 00:58:51,960 --> 00:58:54,950
-to crash again and see what's
-going on, really, there, right?
+crash lagi dan melihat apa yang sedang
+terjadi, sebenarnya, di situ, benar?
+
 
 1378
 00:58:54,950 --> 00:58:57,310
-So we can paste a
-bunch of As again.
+Jadi kita dapat menuliskan
+sejumlah huruf A lagi.
 
 1379
 00:58:57,310 --> 00:58:57,810
-OK.
+Oke.
 
 1380
 00:58:57,810 --> 00:59:00,420
-So we got out of getS() and
-things are actually still OK,
+Jadi kita sudah keluar dari getS() dan
+ternyata keadaannya masih baik-baik saja,
 
 1381
 00:59:00,420 --> 00:59:00,919
-right?
+benar?
 
 1382
 00:59:00,919 --> 00:59:02,520
-The program is still running.
+Programnya masih berjalan.
 
 1383
 00:59:02,520 --> 00:59:05,830
-But we can try to figure out,
-what is in memory right now
+Tapi kita bisa mencoba mencari tahu,
+apa yang ada di dalam memori saat ini
 
 1384
 00:59:05,830 --> 00:59:08,775
-and why are things
-going to go wrong?
+dan mengapa akan terjadi
+hal-hal yang tidak seharusnya.
 
 1385
 00:59:08,775 --> 00:59:10,150
-Actually, what do
-you guys think?
+Sebenarnya, bagaimana
+menurut kalian?
 
 1386
 00:59:10,150 --> 00:59:11,025
