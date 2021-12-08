@@ -4097,81 +4097,81 @@ kasus dimana kemungkinan
 
 861
 00:35:02,040 --> 00:35:03,070
-numbers are going
-to be different.
+dari nomor urutnya akan
+menjadi berbeda.
 
 862
 00:35:03,070 --> 00:35:04,903
-So unless you guess a
-sequence number that's
+Jadi kecuali Anda menebak
+nomor urut yang ada
 
 863
 00:35:04,903 --> 00:35:09,650
-within my TCP window, which
-is in order of probably
+di dalam jendela TCP saya, yang
+urutannya mungkin
 
 864
 00:35:09,650 --> 00:35:11,400
-tens of kilobytes,
-you're also going
+puluhan kilobyte,
+Anda juga
 
 865
 00:35:11,400 --> 00:35:13,280
-to be not successful
-in that regard.
+tidak akan berhasil
+dalam hal itu.
 
 866
 00:35:13,280 --> 00:35:17,350
-So you have to guess a
-fair amount of stuff.
+Jadi Anda harus menebak hal
+dalam jumlah yang wajar.
 
 867
 00:35:17,350 --> 00:35:19,168
-There's no sort
-of oracle access.
+Tidak ada semacam
+akses ramalan.
 
 868
 00:35:19,168 --> 00:35:21,293
-You can't just query the
-server and say, well, what
+Anda tidak bisa hanya menanyakan
+server dan berkata apa
 
 869
 00:35:21,293 --> 00:35:23,130
-is that guy's sequence number?
+nomor urut orang itu?
 
 870
 00:35:23,130 --> 00:35:27,890
-So that's the reason why that
-doesn't work out as well.
+Jadi itu adalah alasan mengapa
+hal itu juga tidak berhasil.
 
 871
 00:35:27,890 --> 00:35:30,040
-So again, many of
-these issues were
+Dan lagi, banyak dari
+masalah ini telah
 
 872
 00:35:30,040 --> 00:35:31,880
-fixed, including
-this RST-based thing,
+diperbaiki, termasuk
+hal berbasis RST ini,
 
 873
 00:35:31,880 --> 00:35:33,065
-especially for BGP routers.
+terutama bagi router BGP.
 
 874
 00:35:35,890 --> 00:35:38,460
-There was actually two
-sort of amusing fixes.
+Sebenarnya ada dua
+perbaikan yang menyenangkan.
 
 875
 00:35:38,460 --> 00:35:41,389
-One really shows you
-how you can carefully
+Pertama benar-benar menunjukkan Anda
+bagaimana Anda dapat dengan berhati-hati
 
 876
 00:35:41,389 --> 00:35:43,430
-exploit existing things
-or take advantage of them
+memanfaatkan hal-hal yang sudah ada
+atau memanfaatkan mereka
 
 877
 00:35:43,430 --> 00:35:45,670
