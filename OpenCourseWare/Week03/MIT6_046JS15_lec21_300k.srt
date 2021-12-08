@@ -5550,12 +5550,12 @@ sign this message.
 
 1182
 01:04:22,560 --> 01:04:26,710
-And the assumption
-here is that Alice
+And the assumption => Dan asumsi
+here is that Alice => disini adalah Alice
 
 1183
 01:04:26,710 --> 01:04:28,950
-kept her private key secret.
+kept her private key secret. => menjaga kunci privatnya rahasia.
 
 1184
 01:04:28,950 --> 01:04:30,970
