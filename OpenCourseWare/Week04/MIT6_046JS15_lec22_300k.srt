@@ -4117,143 +4117,143 @@ thing we need to look at.
 
 875
 00:48:02,580 --> 00:48:05,140
-And the security part is
-actually a little bit easier.
+Dan pada bagian keamanan
+sebenarnya sedikit lebih mudah.
 
 876
 00:48:05,140 --> 00:48:07,190
-Because you can see
-we're going to have
+Karena Anda dapat melihat
+kita harus
 
 877
 00:48:07,190 --> 00:48:11,460
-to make assumptions
-about factoring primes
+membuat asumsi
+tentang faktor bilangan prima
 
 878
 00:48:11,460 --> 00:48:13,050
-and so on and so forth.
+dan seterusnya dan seterusnya.
 
 879
 00:48:13,050 --> 00:48:15,690
-Right here, you can just
-see that immediately.
+Di sini, Anda bisa 
+langsung melihatnya.
 
 880
 00:48:15,690 --> 00:48:18,590
-The biggest
-assumption made by RSA
+Asumsi terbesar
+yang dibuat oleh RSA
 
 881
 00:48:18,590 --> 00:48:20,840
-from a computational
-hardness standpoint
+dilihat dari tingkat
+kesulitan komputasi
 
 882
 00:48:20,840 --> 00:48:24,450
-is simply that if
-the adversary sees n,
+sederhananya adalah jika
+penyerang melihat n,
 
 883
 00:48:24,450 --> 00:48:28,660
-that they should not be able
-to factor it into p and q.
+bahwa mereka seharusnya tidak dapat
+memfaktorkannya menjadi p dan q.
 
 884
 00:48:28,660 --> 00:48:30,860
-Because if they can
-do that, it's over.
+Karena jika mereka bisa
+melakukannya, ini sudah berakhir.
 
 885
 00:48:30,860 --> 00:48:35,870
-So that's actually easier than
-the functionality argument.
+Jadi itu sebenarnya lebih mudah daripada
+argumen fungsionalitas.
 
 886
 00:48:35,870 --> 00:48:37,130
-So why does this work?
+Jadi mengapa ini berhasil?
 
 887
 00:48:42,970 --> 00:48:46,080
-And amazingly, we can actually
-do this in about 10 minutes.
+Dan luar biasanya, kita benar-benar dapat
+melakukannya dalam waktu sekitar 10 menit.
 
 888
 00:48:46,080 --> 00:48:49,350
-I'm going to explain to you
-why this works in 10 minutes.
+Saya akan menjelaskan kepada Anda
+mengapa ini bekerja dalam 10 menit.
 
 889
 00:48:49,350 --> 00:48:53,570
-And the only theorem
-that we'll require
+Dan satu-satunya teorema
+yang kita perlukan
 
 890
 00:48:53,570 --> 00:48:56,720
-on top of this, which
-I will not approve,
+di atas ini, yang
+tidak akan saya setujui,
 
 891
 00:48:56,720 --> 00:49:01,130
-because Fermat proved
-it centuries ago,
+karena Fermat membuktikannya
+berabad-abad yang lalu,
 
 892
 00:49:01,130 --> 00:49:05,830
-is Fermat's Little
-Theorem that says
+adalah Teorema Kecil
+Fermat yang mengatakan
 
 893
 00:49:05,830 --> 00:49:12,020
-that when you have
-p being a prime--
+bahwa ketika Anda memiliki
+p menjadi prima--
 
 894
 00:49:12,020 --> 00:49:13,985
-you can think of this
-as a special case.
+Anda dapat menganggap ini
+sebagai kasus khusus.
 
 895
 00:49:23,870 --> 00:49:27,290
-You take m, and m is
-an arbitrary number.
+Anda mengambil m, dan m adalah
+angka arbitrer.
 
 896
 00:49:27,290 --> 00:49:34,760
-And if p is a prime, then
-this relationship holds.
+Dan jika p adalah bilangan prima, maka
+hubungan ini akan berlaku.
 
 897
 00:49:34,760 --> 00:49:39,190
-So you raise it to the p minus
-1 power, and you get 1, mod p.
+Jadi Anda menaikkannya ke p dikurangi
+1 kekuatan, dan Anda mendapatkan 1, mod p.
 
 898
 00:49:39,190 --> 00:49:40,980
-So that's Fermat's
-Little Theorem
+Jadi itulah Teorema
+Kecil Fermat
 
 899
 00:49:40,980 --> 00:49:42,160
-that's going to be required.
+itu akan dibutuhkan.
 
 900
 00:49:42,160 --> 00:49:43,701
-And that's pretty
-much the only thing
+Dan itu adalah
+satu-satunya hal
 
 901
 00:49:43,701 --> 00:49:47,980
-that you have to invoke beyond
-sort of standard mod arithmetic
+yang harus Anda panggil diluar
+semacam aritmatika mod standar
 
 902
 00:49:47,980 --> 00:49:51,720
-to show that RSA works.
+untuk menunjukkan bahwa RSA bekerja.
 
 903
 00:49:51,720 --> 00:49:53,010
-So what's going on here?
+Jadi apa yang terjadi di sini?
 
 904
 00:49:53,010 --> 00:49:58,734
