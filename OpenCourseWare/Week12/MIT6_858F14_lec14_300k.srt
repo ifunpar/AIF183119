@@ -4080,102 +4080,102 @@ user interface.
 
 862
 00:36:43,950 --> 00:36:47,472
-And the reason for this
-is that ultimately,
+Dan alasan untuk ini
+adalah bahwa pada akhirnya,
 
 863
 00:36:47,472 --> 00:36:49,930
-much of the confidential data
-that we care about protecting
+banyak dari data rahasia
+yang kami pedulikan untuk dilindungi 
 
 864
 00:36:49,930 --> 00:36:50,763
-comes from the user.
+berasal dari pengguna.
 
 865
 00:36:50,763 --> 00:36:53,829
-And the user is typing this
-stuff into some website,
+Dan pengguna mengetik ini
+ke beberapa situs website,
 
 866
 00:36:53,829 --> 00:36:55,620
-and the user probably
-has multiple websites
+dan pengguna mungkin
+memiliki beberapa situs website
 
 867
 00:36:55,620 --> 00:36:57,411
-open on their computer
-so that the user has
+yang terbuka di komputer mereka
+sehingga pengguna harus dapat 
 
 868
 00:36:57,411 --> 00:36:59,760
-to be able to distinguish
-which site they're actually
+membedakan
+di situs mana mereka sebenarnya 
 
 869
 00:36:59,760 --> 00:37:01,980
-interacting with at
-any moment in time.
+berinteraksi
+setiap saat dalam waktu.
 
 870
 00:37:01,980 --> 00:37:04,690
-If they accidentally typed their
-Amazon password into some web
+ika mereka tidak sengaja mengetik
+Kata sandi Amazon ke website
 
 871
 00:37:04,690 --> 00:37:06,674
-discussion forum, it's
-going to be disastrous
+forum diskusi, itu
+akan menjadi bencana
 
 872
 00:37:06,674 --> 00:37:09,090
-depending on how much you care
-about your Amazon password,
+tergantung seberapa peduli kamu
+tentang kata sandi Amazon Anda,
 
 873
 00:37:09,090 --> 00:37:10,680
-but still.
+api tetap saja.
 
 874
 00:37:10,680 --> 00:37:14,550
-So you really want to
-have good user interface
+Jadi kamu benar-benar ingin
+memiliki antarmuka pengguna
 
 875
 00:37:14,550 --> 00:37:17,077
-sort of elements that
-help the user figure out
+jenis elemen yang
+bantu pengguna mencari tahu
 
 876
 00:37:17,077 --> 00:37:17,910
-what are they doing?
+apa yang mereka lakukan?
 
 877
 00:37:17,910 --> 00:37:20,500
-Am I typing this confidential
-data into the right website,
+Apakah saya mengetik ini rahasia
+data ke situs web yang tepat,
 
 878
 00:37:20,500 --> 00:37:23,590
-or what's going to happen to
-this data when I submit it?
+atau apa yang akan terjadi
+data ini ketika saya mengirimkannya?
 
 879
 00:37:23,590 --> 00:37:30,360
-So this turns out to be a pretty
-important issue for protecting
+Jadi ini akan terjadi cukup 
+masalah yang penting untuk melindungi
 
 880
 00:37:30,360 --> 00:37:33,380
-web applications.
+aplikasi web.
 
 881
 00:37:33,380 --> 00:37:34,170
-All right.
+ok.
 
 882
 00:37:34,170 --> 00:37:35,080
-Make sense?
+masuk akal?
 
 883
 00:37:35,080 --> 00:37:37,760
