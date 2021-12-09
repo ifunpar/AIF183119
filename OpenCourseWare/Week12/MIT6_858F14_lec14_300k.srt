@@ -3979,104 +3979,104 @@ mudah karena, kita
 
 841
 00:35:55,421 --> 00:35:57,420
-just going to run a
-protocol very much like what
+hanya akan menjalankan sebuah
+protokol yang sangat mirip dengan
 
 842
 00:35:57,420 --> 00:35:58,810
-I've been describing so far.
+yang saya jelaskan sejauh ini.
 
 843
 00:35:58,810 --> 00:36:00,920
-We'll encrypt all the
-messages, sign them,
+Kita akan mengenkripsi semua
+pesan, menandatanginya,
 
 844
 00:36:00,920 --> 00:36:02,670
-make sure they haven't
-been tampered with,
+memastikan mereka
+belum dirusak,
 
 845
 00:36:02,670 --> 00:36:04,410
-all this great stuff.
+semua hal hebat ini.
 
 846
 00:36:04,410 --> 00:36:06,620
-So that's how we're
-going to protect data.
+Jadi begitulah cara kita
+akan melindungi data.
 
 847
 00:36:06,620 --> 00:36:08,850
-But then there's two other
-things in a web browser
+Tapi lalu ada dua hal
+lain pada peramban web
 
 848
 00:36:08,850 --> 00:36:11,315
-that we really have
-to worry about.
+yang kita benar-benar perlu
+khawatirkan.
 
 849
 00:36:11,315 --> 00:36:13,970
-So the first of them
-is anything that
+Jadi yang pertama di antaranya
+adalah apa pun yang
 
 850
 00:36:13,970 --> 00:36:15,340
-actually runs in the browser.
+sebenarnya jalan di peramban.
 
 851
 00:36:15,340 --> 00:36:16,960
-So code that's running
-in the browser,
+Jadi kode yang sedang jalan
+di peramban,
 
 852
 00:36:16,960 --> 00:36:19,510
-like JavaScript or
-important data that's
+seperti Javascript atau
+data penting yang
 
 853
 00:36:19,510 --> 00:36:21,340
-stored in the browser.
+disimpan di peramban.
 
 854
 00:36:21,340 --> 00:36:24,950
-Maybe your cookies, or local
-storage, or lots of other stuff
+Mungkin cookies Anda, atau penyimpanan
+lokal, atau banyak hal lainnya
 
 855
 00:36:24,950 --> 00:36:27,005
-that goes on in a
-modern browser all
+yang berjalan terus di sebuah
+peramban modern semuanya
 
 856
 00:36:27,005 --> 00:36:29,795
-has to be somehow protected
-from network [? of hackers. ?]
+harus dengan bagaimanapun dilindungi
+dari jaringan [? para peretas. ?]
 
 857
 00:36:29,795 --> 00:36:31,170
-And we'll see the
-kinds of things
+Dan kita akan melihat
+berbagai hal yang
 
 858
 00:36:31,170 --> 00:36:33,390
-we have to worry about
-here in a second.
+kita perlu khawatirkan
+di sini dalam sejenak.
 
 859
 00:36:33,390 --> 00:36:36,920
-And then the last thing that you
-might not think about too much
+Dan lalu hal terakhir yang Anda
+mungkin tidak pikirkan terlalu banyak
 
 860
 00:36:36,920 --> 00:36:40,060
-but turns out to be a
-real issue in practice
+tapi ternyata menjadi sebuah
+masalah nyata dalam praktik
 
 861
 00:36:40,060 --> 00:36:43,950
-is protecting the
-user interface.
+adalah melindungi
+antarmuka pengguna.
 
 862
 00:36:43,950 --> 00:36:47,472
