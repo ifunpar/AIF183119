@@ -4257,136 +4257,136 @@ So what's going on here?
 
 904
 00:49:53,010 --> 00:49:58,734
-Let's call phi p minus
-1 times q minus 1.
+Mari kita panggil phi p dikurang
+1 dikali q dikurang 1.
 
 905
 00:49:58,734 --> 00:50:00,650
-Obviously, that's showed
-up a couple of times.
+Jelas sekali, itu sudah pernah
+muncul beberapa kali.
 
 906
 00:50:00,650 --> 00:50:03,190
-And you may as well
-represent it by using
+Dan Anda juga dapat
+merepresentasikannya menggunakan
 
 907
 00:50:03,190 --> 00:50:05,830
-a smaller, simpler symbol.
+simbol yang lebih kecil dan sederhana.
 
 908
 00:50:05,830 --> 00:50:07,530
-So we'll call that phi.
+Jadi kita akan panggil phi tersebut.
 
 909
 00:50:07,530 --> 00:50:13,870
-And we are going to
-say that d equals 1.
+Dan kita akan katakan
+bahwa d itu setara dengan 1.
 
 910
 00:50:13,870 --> 00:50:16,280
-Mod phi is given to us.
+Mod phi diberikan kepada kita.
 
 911
 00:50:21,870 --> 00:50:28,490
-And therefore, we can say
-that ed equals 1 plus k phi.
+Oleh karena itu, kita dapat mengatakan
+bahwa ed itu setara dengan 1 ditambah k phi. 
 
 912
 00:50:31,080 --> 00:50:32,840
-So that's it.
+Jadi itu saja.
 
 913
 00:50:32,840 --> 00:50:34,510
-All I'm saying is the remainder.
+Yang saya katakan hanyalah sisanya.
 
 914
 00:50:34,510 --> 00:50:37,790
-Then you took to the mod
-with respect to phi was 1.
+Kemudian Anda mengambil mod
+sehubungan dengan phi adalah 1.
 
 915
 00:50:37,790 --> 00:50:40,900
-So the actual number
-was 1 plus k times phi.
+Jadi bilangan yang sesungguhnya
+adalah 1 ditambah k dikali phi.
 
 916
 00:50:40,900 --> 00:50:43,300
-k is some integer.
+k adalah suatu integer.
 
 917
 00:50:43,300 --> 00:50:46,390
-Think of it as a
-positive integer.
+Anggap itu sebagai
+integer positif.
 
 918
 00:50:46,390 --> 00:50:50,570
-Remember that we now have the
-p and the q are over there.
+Ingat-ingat bahwa sekarang kita memiliki
+p dan q ada di sebelah sana.
 
 919
 00:50:50,570 --> 00:50:52,440
-And p and q are primes.
+Dan p dan q adalah bilangan prima.
 
 920
 00:50:52,440 --> 00:50:56,230
-So p and q are primes.
+Jadi p dan q adalah bilangan prima.
 
 921
 00:50:56,230 --> 00:50:58,980
-And given that that's
-the case, we really
+Dan mengingat itulah
+masalahnya, kita benar-benar
 
 922
 00:50:58,980 --> 00:51:02,310
-have two cases to analyze.
+memiliki dua kasus untuk dianalisis.
 
 923
 00:51:02,310 --> 00:51:03,210
-Oh, I'm sorry.
+Oh, maafkan saya.
 
 924
 00:51:03,210 --> 00:51:14,530
-I missed one crucial point,
-which I should have told you,
+Saya melewatkan satu poin penting,
+yang seharusnya saya sampaikan kepada Anda,
 
 925
 00:51:14,530 --> 00:51:16,360
-which is I gave you this.
+yaitu saya memberi Anda ini.
 
 926
 00:51:16,360 --> 00:51:20,050
-But I didn't actually
-tell you what is going on.
+Tetapi saya tidak benar-benar
+memberitahu Anda apa yang sedang terjadi.
 
 927
 00:51:20,050 --> 00:51:23,040
-I mentioned it in
-passing, exponentiation.
+Saya menyebutkannya secara
+sepintas, eksponensial.
 
 928
 00:51:23,040 --> 00:51:25,980
-But I didn't tell you
-exactly what the encryption
+Tetapi saya tidak memberitahu Anda
+apa sebenarnya algoritma
 
 929
 00:51:25,980 --> 00:51:28,670
-algorithm was and the
-decryption algorithm was.
+enkripsinya dan
+algoritma dekripsinya.
 
 930
 00:51:28,670 --> 00:51:30,250
-And obviously, you
-need that in order
+Dan jelas sekali, Anda
+membutuhkan itu untuk
 
 931
 00:51:30,250 --> 00:51:31,270
-to prove their correctness.
+membuktikan kebenarannya.
 
 932
 00:51:31,270 --> 00:51:32,853
-I mean, it'd be
-wonderful if you could
+Maksud saya, akan sangat
+bagus jika Anda dapat
 
 933
 00:51:32,853 --> 00:51:33,990
