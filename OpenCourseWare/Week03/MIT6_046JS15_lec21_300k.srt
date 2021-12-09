@@ -5631,87 +5631,87 @@ is you end up hashing the file. => adalah Anda akhirnya melakukan hashing pada f
 1199
 01:05:09,580 --> 01:05:22,550
 And for large M it's => Dan untuk M besar itu
-easier to sign h of M.
+lebih mudah menandatangani  h dari M.
 
 1200
 01:05:22,550 --> 01:05:29,810
-And so replace the M's that
-you see here with h of M,
+Dan menggantikan M nya yang
+bisa Anda lihat disini dengan h dari M,
 
 1201
 01:05:29,810 --> 01:05:30,720
-all right?
+baik?
 
 1202
 01:05:30,720 --> 01:05:38,640
-So now that we're given that
-we're going to be doing h of M
+Jadi sekarang  
+kita akan menggunakan h dari M
 
 1203
 01:05:38,640 --> 01:05:42,550
-in here, think
-about what we wanted
+di dalam sini, pikirkan
+tentang apa yang kita ingin
 
 1204
 01:05:42,550 --> 01:05:45,390
-to accomplish with M, right?
+kerjakan dengan M, benar?
 
 1205
 01:05:45,390 --> 01:05:48,150
-I told you what we wanted
-to accomplish with M.
+Saya sudah beritahu Anda apa yang
+kita ingin kerjakan dengan M.
 
 1206
 01:05:48,150 --> 01:05:49,360
-There's a particular message.
+Ada sebuah pesan tertentu.
 
 1207
 01:05:49,360 --> 01:05:50,190
-I'm Alice.
+Saya Alice.
 
 1208
 01:05:50,190 --> 01:05:53,850
-I'm going to keep my
-secret key secret.
+Saya akan menjaga
+kunci rahasia saya tetap rahasia.
 
 1209
 01:05:53,850 --> 01:05:57,910
-But I want to commit to signing
-this message M, all right?
+Tapi Saya ingin berkomitmen pada menandatangani
+pesan M ini, baik?
 
 1210
 01:05:57,910 --> 01:06:00,330
-And I want to make
-sure that nobody
+Dan Saya ingin memastikan
+bahwa tidak siapapun
 
 1211
 01:06:00,330 --> 01:06:05,320
-can pretend to be me who
-doesn't know my secret key.
+dapat berpura-pura menjadi saya 
+yang tidak tahu kunci rahasia saya.
 
 1212
 01:06:05,320 --> 01:06:07,290
-And nobody does.
+Dan tiada yang tahu.
 
 1213
 01:06:07,290 --> 01:06:10,760
-So if I'm going to be signing
-the hash of the message,
+Jadi bila Saya akan menandatangani
+hash dari pesannya,
 
 1214
 01:06:10,760 --> 01:06:13,930
-now it comes down
-to today's lecture.
+sekarang yang terpenting
+pada kuliah hari ini.
 
 1215
 01:06:13,930 --> 01:06:16,680
-I'm signing the hash
-of the message h of M.
+Saya menandatangani hash 
+dari pesan h dari M.
 
 1216
 01:06:16,680 --> 01:06:22,120
-What property do I require of
-h in order for this whole thing
+Properti apa yang Saya butuhkan pada
+h agar semua ini
 
 1217
 01:06:22,120 --> 01:06:23,640
