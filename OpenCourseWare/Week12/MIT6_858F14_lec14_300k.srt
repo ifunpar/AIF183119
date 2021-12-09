@@ -4179,106 +4179,106 @@ masuk akal?
 
 883
 00:37:35,080 --> 00:37:37,760
-So let's talk actually
-what the current web
+Jadi ayo bicarakan sebenernya
+apa dilakukan website saat ini
 
 884
 00:37:37,760 --> 00:37:39,890
-browsers do on this front.
+pada browsers di depan.
 
 885
 00:37:39,890 --> 00:37:42,510
-So as I mentioned, here
-for protecting [INAUDIBLE],
+Jadi seperti yang disampaikan, disini
+untuk perlindungan [TIDAK TERDENGAR],
 
 886
 00:37:42,510 --> 00:37:47,290
-we're just going to use this
-protocol called SSL or TLS now
+kita hanya akan menggunakan
+protokol ini yang disebut SSL atau TLS sekarang
 
 887
 00:37:47,290 --> 00:37:49,000
-that encrypts and
-authenticates data.
+yang mengenkripsi dan
+memastikan keaslian data.
 
 888
 00:37:49,000 --> 00:37:51,670
-It looks very similar to the
-kind of discussion we've had
+Terlihat sangat mirip dengan
+diskusi yng kita miliki
 
 889
 00:37:51,670 --> 00:37:53,110
-so far.
+sejauh ini.
 
 890
 00:37:53,110 --> 00:37:56,180
-It includes the certificate
-authorities, et cetera.
+Ini termasuk dengan sertifikatIt includes the certificate
+otoritas, dan sebagainya.
 
 891
 00:37:56,180 --> 00:37:58,710
-And then of course,
-many more details.
+Dan tentu saja,
+dan banyak detailnya.
 
 892
 00:37:58,710 --> 00:38:02,080
-Like, TLS is hugely
-complicated, but it's not
+Seperti, TLS ini sangatlah
+rumit, Tetapi hal itu tidak
 
 893
 00:38:02,080 --> 00:38:06,064
-particularly interesting
-from this [INAUDIBLE] angle.
+terlalu menarik
+dari sini [TIDAK TERDENGAR] sudut.
 
 894
 00:38:06,064 --> 00:38:08,230
-All right, so protecting,
-[? stopping ?] the browser
+Ya baiklah, jadi melindungi,
+[? menghentikan ?] browser
 
 895
 00:38:08,230 --> 00:38:10,670
-turns out to be much
-more interesting.
+ternyata lebih
+menarik.
 
 896
 00:38:10,670 --> 00:38:13,950
-And the reason is that
-we need to make sure
+Dan alasan adalah
+kita harus memastikan
 
 897
 00:38:13,950 --> 00:38:19,520
-that any code or data delivered
-over non-encrypted connections
+kalau kode apa saja atau data yang dikirim
+melalui koneksi tidak terenkripsi
 
 898
 00:38:19,520 --> 00:38:22,090
-can't tamper with
-code and data that
+tidak bisa disadap dengan
+kode dan data yang
 
 899
 00:38:22,090 --> 00:38:24,121
-came from an
-encrypted connection
+dari dari
+koneksi terenkripsi
 
 900
 00:38:24,121 --> 00:38:26,620
-because our threat model is
-that anything that's unencrypted
+karena model ancaman kita
+adalah apapun yang tidak terenkripsi
 
 901
 00:38:26,620 --> 00:38:30,970
-could potentially be tampered
-with by a network [? backer. ?]
+berpotensial untuk di sadap
+dengan melalui koneksi [? penyokong. ?]
 
 902
 00:38:30,970 --> 00:38:33,730
-So we have to make
-sure that if we
+Jadi kita harus
+memastikan jika kita
 
 903
 00:38:33,730 --> 00:38:38,250
-have some unencrypted JavaScript
-code running on our browser,
+memiliki beberapa Javascript yang tidak terenkripsi
+kode dapat dijalankan pada browser,
 
 904
 00:38:38,250 --> 00:38:40,220
