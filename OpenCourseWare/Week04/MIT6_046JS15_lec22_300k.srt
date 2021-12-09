@@ -3980,140 +3980,140 @@ mereka terpikirkan hal ini?
 
 846
 00:46:05,110 --> 00:46:09,020
-And that's still
-true 40 years later.
+Dan itu masih
+benar 40 tahun kemudian.
 
 847
 00:46:09,020 --> 00:46:15,155
-You get the decryption exponent
-using the extended Euclidean
+Anda mendapatkan eksponen dekripsi
+menggunakan algoritma Euclidean
 
 848
 00:46:15,155 --> 00:46:15,655
-algorithm.
+yang diperluas.
 
 849
 00:46:24,280 --> 00:46:30,490
-And this is done by Alice
-secretly, where what you want
+Dan ini dilakukan Alice secara
+rahasia, apa yang Anda inginkan
 
 850
 00:46:30,490 --> 00:46:35,110
-is to have the relationship
-that e times d is 1.
+adalah memiliki hubungan
+dimana e dikali d sama dengan 1.
 
 851
 00:46:35,110 --> 00:46:41,230
-And this is mod p
-minus 1, q minus 1.
+Dan ini mod p 
+dikurangi 1, q dikurangi 1.
 
 852
 00:46:41,230 --> 00:46:44,540
-And there's algorithms
-out there that
+Dan ada algoritma 
+di luar sana yang
 
 853
 00:46:44,540 --> 00:46:50,150
-would find the inverse
-that corresponds to d for e
+dapat menemukan invers
+yang sesuai dengan d untuk e
 
 854
 00:46:50,150 --> 00:46:51,520
-or vice versa.
+atau sebaliknya.
 
 855
 00:46:51,520 --> 00:46:53,810
-And they're polytime algorithms.
+Dan itu adalah algoritma polytime.
 
 856
 00:46:53,810 --> 00:46:58,149
-As long as you know this number
-here, mod p minus 1, q minus 1,
+Selama Anda tahu angka ini
+di sini, mod p dikurangi 1, q dikurangi 1,
 
 857
 00:46:58,149 --> 00:46:59,940
-and you know that Alice
-knows that, you can
+dan Anda tahu bahwa Alice
+mengetahuinya, Anda bisa
 
 858
 00:46:59,940 --> 00:47:02,210
-get your decryption exponent.
+mendapatkan eksponen dekripsi Anda.
 
 859
 00:47:02,210 --> 00:47:06,880
-And typically, if a is small, as
-I said, d is going to be large.
+Dan biasanya, jika a kecil, seperti
+yang saya katakan, d akan menjadi besar.
 
 860
 00:47:06,880 --> 00:47:09,590
-By the way, the
-numbers here, p and q,
+Omong-omong, angka-angka
+di sini, p dan q,
 
 861
 00:47:09,590 --> 00:47:12,710
-are going to be the
-roughly 1,000 bits long.
+akan menjadi sekitar
+1000 bit panjangnya.
 
 862
 00:47:12,710 --> 00:47:15,650
-So that's essentially-- we're
-talking about huge primes here.
+Jadi pada dasarnya-- kita
+membicarakan mengenai bilangan prima yang besar.
 
 863
 00:47:15,650 --> 00:47:19,180
-And so n would be 2048
-bits in that case.
+Dan n akan menjadi 2048
+bit dalam kasus itu.
 
 864
 00:47:19,180 --> 00:47:27,010
-So the private key,
-Alice's private key,
+Jadi kunci privat,
+kunci privat Alice,
 
 865
 00:47:27,010 --> 00:47:32,450
-you can think of as d, p, q.
+dapat Anda anggap sebagai d, p, q.
 
 866
 00:47:32,450 --> 00:47:35,255
-So now, it's clear as to what's
-public and what's private.
+Jadi sekarang, sudah jelas apa yang
+publik dan apa yang privat.
 
 867
 00:47:35,255 --> 00:47:37,040
-n and e are public.
+n dan e adalah publik.
 
 868
 00:47:37,040 --> 00:47:40,950
-d, p, and q are private.
+d, p, dan q adalah privat.
 
 869
 00:47:40,950 --> 00:47:43,030
-So that's the set up for RSA.
+Jadi itu yang diatur untuk RSA.
 
 870
 00:47:43,030 --> 00:47:48,160
-And it's not at all clear
-that RSA accomplishes
+Dan itu sama sekali tidak jelas
+bahwa RSA menyelesaikan
 
 871
 00:47:48,160 --> 00:47:52,700
-either of the two things that
-we need, the first of which
+salah satu dari 2 hal yang
+kita butuhkan, yang pertama adalah
 
 872
 00:47:52,700 --> 00:47:57,490
-is functionality, the fact that
-encrypting, and then decrypting
+fungsionalitas, bukti bahwa
+mengenkripsi, dan kemudian mendekripsi
 
 873
 00:47:57,490 --> 00:48:00,470
-a message should get
-you back that message.
+sebuah pesan Anda harus
+mendapatkan kembali pesan itu.
 
 874
 00:48:00,470 --> 00:48:02,580
-So that's the first
-thing we need to look at.
+Jadi itu hal pertama yang
+harus kita perhatikan.
 
 875
 00:48:02,580 --> 00:48:05,140
