@@ -3783,7 +3783,7 @@ dan sertifikat.
 799
 00:34:08,739 --> 00:34:11,167
 Mereka menggunakan SHA-1, tetapi
-hal itu bagus untuk sementara waktu.
+hal itu baik untuk sementara waktu.
 
 800
 00:34:11,167 --> 00:34:13,250
@@ -3850,7 +3850,7 @@ sedang kita bicarakan ini
 813
 00:34:41,199 --> 00:34:44,330
 bergantung pada kriptografi yang benar,
-atau sesuatu yang sulit dipecahkan.
+atau sesuatu yang sulit untuk dipecahkan.
 
 814
 00:34:44,330 --> 00:34:47,166
@@ -3859,7 +3859,7 @@ parameter yang sesuai.
 
 815
 00:34:47,166 --> 00:34:49,179
-Setidaknya disini, terdapat
+Setidaknya di sini, terdapat
 waktu kadaluwarsa.
 
 816
@@ -3869,8 +3869,8 @@ beberapa parameter
 
 817
 00:34:51,800 --> 00:34:53,980
-yang baik untuk setahun kedepan
-sebagai lawan untuk 10 tahun kedepan.
+yang baik untuk satu tahun
+dibandingkan untuk 10 tahun.
 
 818
 00:34:53,980 --> 00:34:55,820
