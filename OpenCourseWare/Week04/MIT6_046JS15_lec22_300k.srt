@@ -4004,12 +4004,12 @@ dimana e dikali d sama dengan 1.
 
 851
 00:46:35,110 --> 00:46:41,230
-Dan ini mod p 
+Dan ini mod p
 dikurangi 1, q dikurangi 1.
 
 852
 00:46:41,230 --> 00:46:44,540
-Dan ada algoritma 
+Dan ada algoritma
 di luar sana yang
 
 853
