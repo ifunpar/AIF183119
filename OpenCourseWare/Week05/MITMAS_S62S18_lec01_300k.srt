@@ -4371,49 +4371,49 @@ Meskipun, terlihatnya seperti itu.
 
 924
 00:39:50,980 --> 00:39:53,110
-Sepertinya ada
-are these things that
+Disana terlihat seperti
+terdapat sesuatu yang
 
 925
 00:39:53,110 --> 00:39:55,780
-work like hash functions, that
-work like one-way functions,
+bekerja seperti fungsi hash, yang
+bekerja seperti fungsi satu arah
 
 926
 00:39:55,780 --> 00:39:57,300
-but we have no proof of that.
+tetapi kami tidak punya bukti mengenai itu.
 
 927
 00:39:57,300 --> 00:40:02,517
-So even the most fundamental
-part that everything hinges on,
+Bahkan bagian yang paling mendasar
+yang semua bergantung padanya,
 
 928
 00:40:02,517 --> 00:40:03,850
-we don't even know if it exists.
+kami bahkan tidak tahu apakah itu ada.
 
 929
 00:40:03,850 --> 00:40:06,670
-And then this is sort
-of closely related,
+Dan lalu hal semacam
+yang berhubungan erat,
 
 930
 00:40:06,670 --> 00:40:08,530
-if you're in the
-computer science-y stuff,
+jika Anda di dalam
+hal komputer sains,
 
 931
 00:40:08,530 --> 00:40:11,670
-like p and mp--
+seperti p dan mp--
 
 932
 00:40:11,670 --> 00:40:15,400
-anyway, so we don't know
-that these actually work.
+bagaimanapun, jadi kami tidak tahu
+bahwa ini benar-benar bekerja.
 
 933
 00:40:15,400 --> 00:40:18,190
-And also, in practice,
+Dan juga, dalam praktisnya,
 fungsi hash
 
 934
