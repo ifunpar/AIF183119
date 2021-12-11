@@ -6286,75 +6286,75 @@ akan terjadi jika kita
 
 1326
 00:56:36,860 --> 00:56:39,620
-menyediakan input tersebut yang
-terlihat akan merusaknya sebelumnya
+memberi input itu yang tadi
+sepertinya menyebabkan crash.
 
 1327
 00:56:39,620 --> 00:56:41,120
-So I guess one thingJadi saya menebak
-we can actuallykita sebenarnya bisa
+Jadi saya kira hal yang
+sebenarnya bisa kita
 
 1328
 00:56:41,120 --> 00:56:43,700
-melakukannya sebelum ini untuk
-melihat bahwa kita sebenarnya bisa
+lakukan sebelum ini adalah
+melihat apakah kita bisa
 
 1329
 00:56:43,700 --> 00:56:45,270
-mencari alamat kembalian ini.
+menemukan alamat kembali ini.
 
 1330
 00:56:45,270 --> 00:56:48,870
-Di mana sebenarnya itu hidup 
-adalah di dalam penunjuk EBP.
+Dia sebenarnya berada
+pada penunjuk EBP.
 
 1331
 00:56:48,870 --> 00:56:52,700
-Ini hanyalah merupakan sebuah kenyamanan
+Ini hanyalah sebuah hal yang praktis
 dalam konvensi pemanggilan x86,
 
 1332
 00:56:52,700 --> 00:56:59,270
-bahwa penunjuk  EBP tersebut,
+bahwa penunjuk EBP tersebut,
 atau register, sebenarnya
 
 1333
 00:56:59,270 --> 00:57:02,150
 kebetulan menunjuk kepada sesuatu
-dalam tumpukan yang akan
+dalam stack yang akan
 
 1334
 00:57:02,150 --> 00:57:06,040
-disebut EBP yang disimpan.
+disebut saved EBP.
 
 1335
 00:57:06,040 --> 00:57:08,870
-Itu merupakan lokasi yang seperti
-terpisah setelah semua variabel
+Itu adalah lokasi terpisah, kurang
+lebih setelah semua variabel
 
 1336
 00:57:08,870 --> 00:57:10,250
-tetapi sebelum alamat kembaliannya.
+tetapi sebelum alamat kembalinya.
 
 1337
 00:57:10,250 --> 00:57:11,666
-Dan juga ini merupakan 
-sesuatu yang 
+Dan ini merupakan
+sesuatu yang sedang
 
 1338
 00:57:11,666 --> 00:57:14,800
-disimpan oleh sekumpulan
-instruksi pertama di atas.
+disimpan oleh beberapa
+instruksi awal di atas.
 
 1339
 00:57:14,800 --> 00:57:16,630
-Dan Anda sebenarnya seperti
-mengujinya.
+Dan Anda sebenarnya
+semacam memeriksanya.
 
 1340
 00:57:16,630 --> 00:57:23,450
-In GDB you can say, examine x,Dalam GDB Anda dapat mengatakan, menguji x
-sebuah nilai, dan juga nilai dari
+Dalam GDB Anda dapat mengatakan, periksa x
+nilai tertentu, jadi nilai dari
 
 1341
 00:57:23,450 --> 00:57:24,570
@@ -6362,21 +6362,21 @@ penunjuk EBP.
 
 1342
 00:57:24,570 --> 00:57:26,720
-Sehingga itu merupakan lokasi
-dari tumpukan tersebut, D0B8.
+Jadi itu adalah lokasi
+dari stack tersebut, D0B8.
 
 1343
 00:57:26,720 --> 00:57:30,020
-Tentu saja, itu ternyata
-berada di atas variabel i.
+Memang, dia ternyata berada
+bahkan di atas variabel i.
 
 1344
 00:57:30,020 --> 00:57:30,770
-Sehingga baguslah.
+Jadi itu bagus.
 
 1345
 00:57:30,770 --> 00:57:32,436
-Dan dia memiliki
+Dan dia memiliki beberapa
 nilai lain yang ternyata
 
 1346
@@ -6386,18 +6386,18 @@ fungsi ini dipanggil.
 
 1347
 00:57:36,050 --> 00:57:38,950
-Tetapi kemudian, seperti satu
+Tetapi kemudian, semacam satu
 lagi lokasi memori
 
 1348
 00:57:38,950 --> 00:57:40,710
-diatas akan menjadi
-alamat kembaliannya.
+di atasnya akan menjadi
+alamat kembalinya.
 
 1349
 00:57:40,710 --> 00:57:44,210
-Jika kita mencetak EBP ditambah empat,
-ada sesuatu yang lain disana,
+Jadi jika kita mencetak EBP ditambah empat,
+ada sesuatu yang lain di sana,
 
 1350
 00:57:44,210 --> 00:57:48,800
@@ -6405,13 +6405,13 @@ yaitu 0x08048E5F ini.
 
 1351
 00:57:48,800 --> 00:57:51,720
-Dan marilah kita 
+Dan marilah kita
 melihat ke mana dia menunjuk.
 
 1352
 00:57:51,720 --> 00:57:54,485
 Jadi ini merupakan sesuatu yang
-akan Anda banyak lakukan dalam lab.
+akan banyak Anda lakukan dalam lab.
 
 1353
 00:57:54,485 --> 00:57:56,140
@@ -6432,7 +6432,7 @@ Di manakah kita akan berakhir?
 
 1357
 00:58:02,290 --> 00:58:05,040
-Jadi GDP dapat menolong untuk
+Jadi GDP dapat membantu untuk
 menentukan fungsi mana
 
 1358
@@ -6445,27 +6445,27 @@ Jadi 5F.
 
 1360
 00:58:07,640 --> 00:58:11,550
-Inilah orang yang mana 
-alamat kembalian yang ditunjuk.
+Inilah orang yang ditunjuk
+oleh alamat kembali kita.
 
 1361
 00:58:11,550 --> 00:58:13,790
-Dan seperti yang Anda bisa lihat, ini
-merupakan instruksi tepat
+Dan seperti yang Anda bisa lihat,
+ini adalah instruksi tepat
 
 1362
 00:58:13,790 --> 00:58:16,070
-setelah panggilan untuk pengarahan ulang.
+setelah panggilan untuk pengalihan.
 
 1363
 00:58:16,070 --> 00:58:17,655
-Jadi ketika kita kembali dari
-pengarahan ulang,
+Jadi ketika kita kembali
+dari pengalihan, ini
 
 1364
 00:58:17,655 --> 00:58:20,570
-inilah tepatnya arah yang akan kita tuju
-untuk terjun dan melanjutkan eksekusi.
+adalah lokasi persis yang kita akan
+tuju untuk melanjutkan eksekusi.
 
 1365
 00:58:20,570 --> 00:58:22,319
