@@ -6281,191 +6281,191 @@ Oke.
 
 1325
 00:56:35,020 --> 00:56:36,860
-Well, let's see what
-happens now if we
+Nah, mari kita lihat apa yang
+akan terjadi jika kita
 
 1326
 00:56:36,860 --> 00:56:39,620
-provide that input that seemed
-to be crashing it before.
+menyediakan input tersebut yang
+terlihat akan merusaknya sebelumnya
 
 1327
 00:56:39,620 --> 00:56:41,120
-So I guess one thing
-we can actually
+So I guess one thingJadi saya menebak
+we can actuallykita sebenarnya bisa
 
 1328
 00:56:41,120 --> 00:56:43,700
-do before this is to see
-whether we can actually
+melakukannya sebelum ini untuk
+melihat bahwa kita sebenarnya bisa
 
 1329
 00:56:43,700 --> 00:56:45,270
-find this return address.
+mencari alamat kembalian ini.
 
 1330
 00:56:45,270 --> 00:56:48,870
-Where it actually happens to
-live is at the EBP pointer.
+Di mana sebenarnya itu hidup 
+adalah di dalam penunjuk EBP.
 
 1331
 00:56:48,870 --> 00:56:52,700
-This is just a convenient thing
-in the x86 calling convention,
+Ini hanyalah merupakan sebuah kenyamanan
+dalam konvensi pemanggilan x86,
 
 1332
 00:56:52,700 --> 00:56:59,270
-that the EBP pointer,
-or register, actually
+bahwa penunjuk  EBP tersebut,
+atau register, sebenarnya
 
 1333
 00:56:59,270 --> 00:57:02,150
-happens to point to something
-on the stack which is going
+kebetulan menunjuk kepada sesuatu
+dalam tumpukan yang akan
 
 1334
 00:57:02,150 --> 00:57:06,040
-to be called the saved EBP.
+disebut EBP yang disimpan.
 
 1335
 00:57:06,040 --> 00:57:08,870
-It's a separate location, sort
-of after all the variables
+Itu merupakan lokasi yang seperti
+terpisah setelah semua variabel
 
 1336
 00:57:08,870 --> 00:57:10,250
-but before the return address.
+tetapi sebelum alamat kembaliannya.
 
 1337
 00:57:10,250 --> 00:57:11,666
-And this is the
-thing that's being
+Dan juga ini merupakan 
+sesuatu yang 
 
 1338
 00:57:11,666 --> 00:57:14,800
-saved by those first couple
-of instructions at the top.
+disimpan oleh sekumpulan
+instruksi pertama di atas.
 
 1339
 00:57:14,800 --> 00:57:16,630
-And you actually
-sort of examine it.
+Dan Anda sebenarnya seperti
+mengujinya.
 
 1340
 00:57:16,630 --> 00:57:23,450
-In GDB you can say, examine x,
-some value, so the EBP pointer
+In GDB you can say, examine x,Dalam GDB Anda dapat mengatakan, menguji x
+sebuah nilai, dan juga nilai dari
 
 1341
 00:57:23,450 --> 00:57:24,570
-value.
+penunjuk EBP.
 
 1342
 00:57:24,570 --> 00:57:26,720
-So that's the location
-of the stack, D0B8.
+Sehingga itu merupakan lokasi
+dari tumpukan tersebut, D0B8.
 
 1343
 00:57:26,720 --> 00:57:30,020
-Indeed, it's actually
-above even the i variable.
+Tentu saja, itu ternyata
+berada di atas variabel i.
 
 1344
 00:57:30,020 --> 00:57:30,770
-So it's great.
+Sehingga baguslah.
 
 1345
 00:57:30,770 --> 00:57:32,436
-And it has some other
-value that happens
+Dan dia memiliki
+nilai lain yang ternyata
 
 1346
 00:57:32,436 --> 00:57:36,050
-to be the EBP before
-this function was called.
+merupakan EBP sebelum
+fungsi ini dipanggil.
 
 1347
 00:57:36,050 --> 00:57:38,950
-But then, sort of one
-more memory location
+Tetapi kemudian, seperti satu
+lagi lokasi memori
 
 1348
 00:57:38,950 --> 00:57:40,710
-up is going to be
-the return address.
+diatas akan menjadi
+alamat kembaliannya.
 
 1349
 00:57:40,710 --> 00:57:44,210
-So if we print EBP plus four,
-there's something else there,
+Jika kita mencetak EBP ditambah empat,
+ada sesuatu yang lain disana,
 
 1350
 00:57:44,210 --> 00:57:48,800
-this 0x08048E5F.
+yaitu 0x08048E5F ini.
 
 1351
 00:57:48,800 --> 00:57:51,720
-And let's actually see
-where that's pointing.
+Dan marilah kita 
+melihat ke mana dia menunjuk.
 
 1352
 00:57:51,720 --> 00:57:54,485
-So this is something you're
-going to do a lot in the lab.
+Jadi ini merupakan sesuatu yang
+akan Anda banyak lakukan dalam lab.
 
 1353
 00:57:54,485 --> 00:57:56,140
-So you can take this address.
+Jadi Anda dapat mengambil alamat ini.
 
 1354
 00:57:56,140 --> 00:57:59,070
-And you can try
-to disassemble it.
+Dan Anda dapat mencoba
+untuk membongkarnya.
 
 1355
 00:57:59,070 --> 00:58:00,130
-So what is this guy?
+Lalu siapakah dia?
 
 1356
 00:58:00,130 --> 00:58:02,290
-Where did we end up?
+Di manakah kita akan berakhir?
 
 1357
 00:58:02,290 --> 00:58:05,040
-So GDB actually helpfully
-figures out which function
+Jadi GDP dapat menolong untuk
+menentukan fungsi mana
 
 1358
 00:58:05,040 --> 00:58:06,480
-contains that address.
+yang berisi alamat tersebut.
 
 1359
 00:58:06,480 --> 00:58:07,640
-So 5F.
+Jadi 5F.
 
 1360
 00:58:07,640 --> 00:58:11,550
-This is the guy that our
-return address is pointing to.
+Inilah orang yang mana 
+alamat kembalian yang ditunjuk.
 
 1361
 00:58:11,550 --> 00:58:13,790
-And as you can see, this
-is the instruction right
+Dan seperti yang Anda bisa lihat, ini
+merupakan instruksi tepat
 
 1362
 00:58:13,790 --> 00:58:16,070
-after the call to redirect.
+setelah panggilan untuk pengarahan ulang.
 
 1363
 00:58:16,070 --> 00:58:17,655
-So when we return
-from redirect, this
+Jadi ketika kita kembali dari
+pengarahan ulang,
 
 1364
 00:58:17,655 --> 00:58:20,570
-is exactly where we're going
-to jump and continue execution.
+inilah tepatnya arah yang akan kita tuju
+untuk terjun dan melanjutkan eksekusi.
 
 1365
 00:58:20,570 --> 00:58:22,319
