@@ -6353,7 +6353,7 @@ semacam memeriksanya.
 
 1340
 00:57:16,630 --> 00:57:23,450
-Dalam GDB Anda dapat mengatakan, periksa x
+Dalam GDB Anda dapat mengatakan, periksa x,
 nilai tertentu, jadi nilai dari
 
 1341
