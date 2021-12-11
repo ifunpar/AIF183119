@@ -5801,61 +5801,62 @@ And h of M is public.
 
 1236
 01:07:07,060 --> 01:07:13,570
-So one-wayness is not
-interesting for this example
+Jadi cara satu-arah bukanlah
+cara menarik untuk contoh ini
+
 
 1237
 01:07:13,570 --> 01:07:14,690
-if M is public.
+jika M adalah publik.
 
 1238
 01:07:14,690 --> 01:07:16,690
-And we can assume that M
-eventually gets public.
+Dan kita bisa mengasumsikan bahwa M
+akhirnya akan menjadi publik.
 
 1239
 01:07:16,690 --> 01:07:18,840
-Because that's the message
-I'm signing, right?
+Karena itulah pesan yang
+saya tanda tangani, ya kan ?
 
 1240
 01:07:18,840 --> 01:07:21,082
-I can also put M out.
+Saya juga bisa mengeluarkan M.
 
 1241
 01:07:21,082 --> 01:07:22,540
-So I want the
-relationship-- I want
+Jadi saya ingin
+hubungannya-- saya ingin
 
 1242
 01:07:22,540 --> 01:07:25,760
-you to focus on the relationship
-between h of M and M
+Anda untuk fokus pada hubungan
+antara h dari M dan M
 
 1243
 01:07:25,760 --> 01:07:28,720
-and tell me what would
-break this system.
+dan beritahu saya apa yang akan
+merusak sistem ini.
 
 1244
 01:07:28,720 --> 01:07:31,120
-And you're on the right track.
+Dan Anda berada di jalur yang benar. 
 
 1245
 01:07:31,120 --> 01:07:31,970
-Yeah, go ahead.
+Ya, silahkan.
 
 1246
 01:07:31,970 --> 01:07:32,932
-Or way back there.
+Atau jalan kembali ke sana.
 
 1247
 01:07:32,932 --> 01:07:33,890
-Yeah, sorry about that.
+Ya, maaf tentang itu.
 
 1248
 01:07:33,890 --> 01:07:35,074
-AUDIENCE: TCR.
+AUDIENS: TCR.
 
 1249
 01:07:35,074 --> 01:07:35,990
@@ -5863,35 +5864,35 @@ SRINIVAS DEVADAS: TCR.
 
 1250
 01:07:35,990 --> 01:07:36,780
-Why TCR?
+Kenapa TCR ?
 
 1251
 01:07:36,780 --> 01:07:37,696
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR]
 
 1252
 01:07:46,130 --> 01:07:49,070
-SRINIVAS DEVADAS: So I have
-M. So what happens here--
+SRINIVAS DEVADAS: Jadi saya punya
+M. Jadi apa yang terjadi disini--
 
 1253
 01:07:49,070 --> 01:07:51,920
-I should write this out.
+saya harus menulis ini.
 
 1254
 01:07:51,920 --> 01:08:12,640
-I'm given-- as an adversary I
-have M and h of M. It is bad
+Saya diberi-- sebagai penyerang saya
+memiliki M dan h dari M. Itu tidak baik
 
 1255
 01:08:12,640 --> 01:08:33,010
-if Alice signs h of M, but Bob
-claims Alice signed M prime.
+jika Alice menandatangani h dari M, tapi Bob
+mengklaim Alis menandatangani M prime.
 
 1256
 01:08:33,010 --> 01:08:39,830
-Because h of M equals
-h of M prime, right?
+Karena h dari M sama dengan
+h dari M prime, ya kan ?
 
 1257
 01:08:39,830 --> 01:08:41,600
