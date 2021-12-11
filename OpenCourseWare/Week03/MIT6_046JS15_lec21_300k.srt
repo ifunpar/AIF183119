@@ -5550,87 +5550,87 @@ sign this message.
 
 1182
 01:04:22,560 --> 01:04:26,710
-And the assumption => Dan asumsi
-here is that Alice => disini adalah bahwa Alice
+Dan asumsi
+disini adalah bahwa Alice
 
 1183
 01:04:26,710 --> 01:04:28,950
-kept her private key secret. => merahasiakan kunci pribadinya.
+merahasiakan kunci pribadinya.
 
 1184
 01:04:28,950 --> 01:04:30,970
-And of course, what => Dan tentu saja, apa
-I just wrote there, => yang baru saja Saya tulis di sana,
+Dan tentu saja, apa
+yang baru saja Saya tulis di sana,
 
-1185
+1185    
 01:04:30,970 --> 01:04:33,450
-that the public key => bahwa kunci publik
-does not reveal anything => tidak mengungkapkan apapun
+bahwa kunci publik
+tidak mengungkapkan apapun
 
 1186
 01:04:33,450 --> 01:04:35,530
-about the secret key, OK? => tentang kunci rahasia, oke?
+tentang kunci rahasia, oke?
 
 1187
 01:04:35,530 --> 01:04:38,350
-So that's digital signatures => Jadi itu merupakan tanda tanan digital 
-for you, in a nutshell. => untuk  Anda, singkatnya.
+Jadi itu merupakan tanda tangan digital
+untuk Anda, singkatnya.
 
 1188
 01:04:38,350 --> 01:04:40,990
-And when you do MIT => Dan ketika Anda membuat sertifikat
-certificates you're => MIT Anda
+Dan ketika Anda membuat sertifikat
+certificates you're => MIT, Anda
 
 1189
 01:04:40,990 --> 01:04:45,130
-using digital signatures a la => menggunakan tanda tangan digital  ala
-Rivest-Shamir-Adleman, the RSA => Rivest-Shamir-Adleman, algoritma
+menggunakan tanda tangan digital ala
+Rivest-Shamir-Adleman, algoritma
 
 1190
 01:04:45,130 --> 01:04:45,900
-algorithm. => RSA
+RSA.
 
 1191
 01:04:45,900 --> 01:04:48,580
-So you're using => Jadi Anda menggunakan
-this all the time, => ini selalu
+Jadi Anda menggunakan
+ini selalu,
 
 1192
 01:04:48,580 --> 01:04:52,290
-when you click on 6.046 => saat anda mengklik 
-links, for example. => 6.046 tautan, misalnya.
+saat Anda mengklik
+6.046 tautan, misalnya.
 
 1193
 01:04:52,290 --> 01:04:56,440
-And what happens is M is => Dan yang terjadi adalah M
-typically really large. => biasanya sangat besar.
+Dan yang terjadi adalah M
+biasanya sangat besar.
 
 1194
 01:04:56,440 --> 01:04:58,060
-I mean it could => Maksud Saya itu bisa
-be a file, right? => menjadi file, kan?
+Maksud Saya, itu bisa
+berupa file, kan?
 
 1195
 01:04:58,060 --> 01:04:59,510
-It could be a large file. => Itu bisa berupa file besar. 
+Itu bisa berupa file besar.
 
 1196
 01:04:59,510 --> 01:05:02,730
-And you don't necessarily want => Dan Anda tidak perlu
-to compute these operations => menghitung operasi ini 
+Dan Anda tidak perlu
+menghitung operasi ini
 
 1197
 01:05:02,730 --> 01:05:04,150
-on large files. => pada file yang berukuran besar. 
+pada file yang berukuran besar.
 
 1198
 01:05:04,150 --> 01:05:09,580
-So for convenience, what happens => Jadi untuk kenyamanan, yang terjadi
-is you end up hashing the file. => adalah Anda akhirnya melakukan hashing pada file.
+Jadi untuk kenyamanan, yang terjadi
+adalah Anda akhirnya melakukan hashing pada file.
 
 1199
 01:05:09,580 --> 01:05:22,550
-And for large M it's => Dan untuk M besar itu
+Dan untuk M besar itu
 lebih mudah menandatangani  h dari M.
 
 1200
