@@ -5469,64 +5469,64 @@ menekankan bahwa ada
 
 1165
 01:03:39,330 --> 01:03:41,150
-two operations going on.
+dua operasi yang sesang berlangsung.
 
 1166
 01:03:41,150 --> 01:03:42,760
-One of which is a
-signature, which
+Pertama yang merupakan 
+tanda tangan, yang
 
 1167
 01:03:42,760 --> 01:03:46,050
-is a private signature, in the
-sense that it's private to me,
+merupakan tanda tangan private, dalam
+artian tanda tangannya private bagi saya,
 
 1168
 01:03:46,050 --> 01:03:47,160
-if I'm Alice.
+jika saya adalah Alice.
 
 1169
 01:03:47,160 --> 01:03:48,500
-Or private to Alice.
+Atau private untuk Alice.
 
 1170
 01:03:48,500 --> 01:03:50,590
-And you're using
-secret information
+Dan anda sedang menggunakan
+informasi rahasia
 
 1171
 01:03:50,590 --> 01:03:52,810
-on this public message,
-M, because that's
+pada pesan public M,
+karena itulah
 
 1172
 01:03:52,810 --> 01:03:54,690
-going to be publicized.
+yang akan dipublikasikan.
 
 1173
 01:03:54,690 --> 01:03:57,580
-And you're going to
-sign the public message.
+Dan anda akan menandatangani
+pesan public tersebut.
 
 1174
 01:03:57,580 --> 01:04:01,160
-And then anybody in the
-world who has access
+Dan kemudian semua orang di 
+dunia yang memiliki akses
 
 1175
 01:04:01,160 --> 01:04:04,190
-to Alice's public key is
-going to be able to say,
+terhadap public key si Alice
+dapat mengatakan bahwa, 
 
 1176
 01:04:04,190 --> 01:04:06,840
-oh I'm looking at the signature,
-which is a bunch of bits.
+oh, saya sedang melihat tanda tangannya,
+yang berupa kumpulan bit.
 
 1177
 01:04:06,840 --> 01:04:09,900
-I'm looking at the message,
-which is a whole lot of bits.
+Saya sedang melihat tanda tangannya,
+yang berupa kumpulan bit.
 
 1178
 01:04:09,900 --> 01:04:12,590
@@ -5535,18 +5535,18 @@ which is a bunch of bits.
 
 1179
 01:04:12,590 --> 01:04:16,150
-And I'm going to be
-able to tell for sure
+Dan saya dengan yakin
+dapat mengatakan
 
 1180
 01:04:16,150 --> 01:04:19,340
-that either Alice
-signed this message,
+bahwa antara Alice 
+yang menandatangani pesan ini,
 
 1181
 01:04:19,340 --> 01:04:22,560
-or Alice did not
-sign this message.
+atau Alice tidak
+menandatangani pesan ini.
 
 1182
 01:04:22,560 --> 01:04:26,710
