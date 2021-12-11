@@ -5804,7 +5804,6 @@ And h of M is public.
 Jadi cara satu-arah bukanlah
 cara menarik untuk contoh ini
 
-
 1237
 01:07:13,570 --> 01:07:14,690
 jika M adalah publik.
