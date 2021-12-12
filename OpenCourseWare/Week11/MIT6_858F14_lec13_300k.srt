@@ -3408,8 +3408,8 @@ enkripsi itu juga
 
 714
 00:30:59,520 --> 00:31:02,440
-provides authentication
-or integrity of messages.
+menyediakan otentikasi
+atau integritas pesan.
 
 715
 00:31:02,440 --> 00:31:03,270
