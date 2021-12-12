@@ -5715,89 +5715,89 @@ h agar semua ini
 
 1217
 01:06:22,120 --> 01:06:23,640
-to work out?
+dapat berfungsi?
 
 1218
 01:06:23,640 --> 01:06:24,636
-Yeah, go ahead.
+Ya, silakan.
 
 1219
 01:06:24,636 --> 01:06:26,540
-AUDIENCE: Is it
+AUDIENS: Apakah itu
 non-malleability?
 
 1220
 01:06:26,540 --> 01:06:28,665
-SRINIVAS DEVADAS: Non
-malleability, but even before
+SRINIVAS DEVADAS: non
+malleability, tetapi bahkan sebelumnya
 
 1221
 01:06:28,665 --> 01:06:31,770
-that-- suppose-- absolutely,
-but non-malleability
+itu-- anggaplah-- tentu saja,
+tetapi non-malleability
 
 1222
 01:06:31,770 --> 01:06:36,590
-is kind of beyond one of these
-properties over on the right.
+merupakan jenis yang berada melebihi salah satu
+properti yang di sebelah kanan.
 
 1223
 01:06:36,590 --> 01:06:39,570
-You're on the
-right track, right?
+Anda berada
+di jalur yang benar, bukan?
 
 1224
 01:06:39,570 --> 01:06:45,219
-So do you want to give
-me a different answer?
+Jadi apakah Anda ingin memberi
+saya jawaban yang berbeda?
 
 1225
 01:06:45,219 --> 01:06:46,677
-You can give me a
-different answer.
+Anda bisa memberi saya
+jawaban yang berbeda.
 
 1226
 01:06:46,677 --> 01:06:50,090
-AUDIENCE: Oh, I'm not sure.
+AUDIENS: Oh, Saya tidak yakin.
 
 1227
 01:06:50,090 --> 01:06:52,190
-SRINIVAS DEVADAS: OK.
+SRINIVAS DEVADAS: Baik.
 
 1228
 01:06:52,190 --> 01:06:52,690
-What?
+Apa?
 
 1229
 01:06:52,690 --> 01:06:53,898
-Yeah, back there.
+Ya, yang di belakang sana.
 
 1230
 01:06:53,898 --> 01:06:56,766
-AUDIENCE: I think you wanted to
-one-way because otherwise you
+AUDIENS: Saya pikir Anda ingin
+satu arah karena jika tidak Anda
 
 1231
 01:06:56,766 --> 01:07:00,112
-could take that signature and
-find another message that you
+dapat mengambil tanda tangan itu dan
+menemukan pesan lain yang dapat Anda
 
 1232
 01:07:00,112 --> 01:07:01,080
-could credit.
+beri kredit.
 
 1233
 01:07:01,080 --> 01:07:02,740
-SRINIVAS DEVADAS: I
-can make M public.
+SRINIVAS DEVADAS: Saya
+bisa membuat M publik.
 
 1234
 01:07:02,740 --> 01:07:05,480
-I can make M-- M can be public.
+Saya dapat membuat M-- M dapat menjadi publik.
 
 1235
 01:07:05,480 --> 01:07:07,060
-And h of M is public.
+Dan h dari M adalah publik.
 
 1236
 01:07:07,060 --> 01:07:13,570
@@ -5839,7 +5839,7 @@ merusak sistem ini.
 
 1244
 01:07:28,720 --> 01:07:31,120
-Dan Anda berada di jalur yang benar. 
+Dan Anda berada di jalur yang benar.
 
 1245
 01:07:31,120 --> 01:07:31,970
