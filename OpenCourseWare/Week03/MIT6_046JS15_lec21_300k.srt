@@ -5473,7 +5473,7 @@ dua operasi yang sesang berlangsung.
 
 1166
 01:03:41,150 --> 01:03:42,760
-Pertama yang merupakan 
+Pertama yang merupakan
 tanda tangan, yang
 
 1167
@@ -5510,13 +5510,13 @@ pesan public tersebut.
 
 1174
 01:03:57,580 --> 01:04:01,160
-Dan kemudian semua orang di 
+Dan kemudian semua orang di
 dunia yang memiliki akses
 
 1175
 01:04:01,160 --> 01:04:04,190
 terhadap public key si Alice
-dapat mengatakan bahwa, 
+dapat mengatakan bahwa,
 
 1176
 01:04:04,190 --> 01:04:06,840
@@ -5540,7 +5540,7 @@ dapat mengatakan
 
 1180
 01:04:16,150 --> 01:04:19,340
-bahwa antara Alice 
+bahwa antara Alice
 yang menandatangani pesan ini,
 
 1181
@@ -5644,7 +5644,7 @@ baik?
 
 1202
 01:05:30,720 --> 01:05:38,640
-Jadi sekarang  
+Jadi sekarang
 kita akan menggunakan h dari M
 
 1203
@@ -5686,7 +5686,7 @@ bahwa tidak siapapun
 
 1211
 01:06:00,330 --> 01:06:05,320
-dapat berpura-pura menjadi saya 
+dapat berpura-pura menjadi saya
 yang tidak tahu kunci rahasia saya.
 
 1212
@@ -5705,7 +5705,7 @@ pada kuliah hari ini.
 
 1215
 01:06:13,930 --> 01:06:16,680
-Saya menandatangani hash 
+Saya menandatangani hash
 dari pesan h dari M.
 
 1216
@@ -5816,7 +5816,7 @@ akhirnya akan menjadi publik.
 1239
 01:07:16,690 --> 01:07:18,840
 Karena itulah pesan yang
-saya tanda tangani, ya kan ?
+saya tanda tangani, ya kan?
 
 1240
 01:07:18,840 --> 01:07:21,082
@@ -5863,7 +5863,7 @@ SRINIVAS DEVADAS: TCR.
 
 1250
 01:07:35,990 --> 01:07:36,780
-Kenapa TCR ?
+Kenapa TCR?
 
 1251
 01:07:36,780 --> 01:07:37,696
@@ -5891,7 +5891,7 @@ mengklaim Alis menandatangani M prime.
 1256
 01:08:33,010 --> 01:08:39,830
 Karena h dari M sama dengan
-h dari M prime, ya kan ?
+h dari M prime, ya kan?
 
 1257
 01:08:39,830 --> 01:08:41,600
