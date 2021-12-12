@@ -3413,7 +3413,7 @@ atau integritas pesan.
 
 715
 00:31:02,440 --> 00:31:03,270
-So don't do that.
+Jadi jangan lakukan itu.
 
 716
 00:31:03,270 --> 00:31:05,040
