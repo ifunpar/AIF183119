@@ -3999,12 +3999,12 @@ rahasia, apa yang Anda inginkan
 
 850
 00:46:30,490 --> 00:46:35,110
-adalah memiliki hubungan
+adalah memiliki relasi
 dimana e dikali d sama dengan 1.
 
 851
 00:46:35,110 --> 00:46:41,230
-Dan ini mod p
+Dan ini adalah mod p
 dikurangi 1, q dikurangi 1.
 
 852
@@ -4041,7 +4041,7 @@ mendapatkan eksponen dekripsi Anda.
 
 859
 00:47:02,210 --> 00:47:06,880
-Dan biasanya, jika a kecil, seperti
+Dan biasanya, jika a bernilai kecil, seperti
 yang saya katakan, d akan menjadi besar.
 
 860
@@ -4052,22 +4052,22 @@ di sini, p dan q,
 861
 00:47:09,590 --> 00:47:12,710
 akan menjadi sekitar
-1000 bit panjangnya.
+1,000 bit panjangnya.
 
 862
 00:47:12,710 --> 00:47:15,650
 Jadi pada dasarnya-- kita
-membicarakan mengenai bilangan prima yang besar.
+membicarakan tentang bilangan prima yang besar.
 
 863
 00:47:15,650 --> 00:47:19,180
 Dan n akan menjadi 2048
-bit dalam kasus itu.
+bit dalam kasus tersebut.
 
 864
 00:47:19,180 --> 00:47:27,010
-Jadi kunci privat,
-kunci privat Alice,
+Sehingga kunci privatnya,
+kunci privatnya Alice,
 
 865
 00:47:27,010 --> 00:47:32,450
@@ -4088,16 +4088,16 @@ d, p, dan q adalah privat.
 
 869
 00:47:40,950 --> 00:47:43,030
-Jadi itu yang diatur untuk RSA.
+Jadi itulah yang diatur untuk RSA.
 
 870
 00:47:43,030 --> 00:47:48,160
-Dan itu sama sekali tidak jelas
-bahwa RSA menyelesaikan
+Dan itu sama sekali tidak memastikan
+bahwa RSA akan menyelesaikan
 
 871
 00:47:48,160 --> 00:47:52,700
-salah satu dari 2 hal yang
+salah satu dari dua hal yang
 kita butuhkan, yang pertama adalah
 
 872
@@ -4107,7 +4107,7 @@ mengenkripsi, dan kemudian mendekripsi
 
 873
 00:47:57,490 --> 00:48:00,470
-sebuah pesan Anda harus
+sebuah pesan akan membuat Anda
 mendapatkan kembali pesan itu.
 
 874
@@ -4117,18 +4117,18 @@ harus kita perhatikan.
 
 875
 00:48:02,580 --> 00:48:05,140
-Dan pada bagian keamanan
+Dan pada bagian keamanannya
 sebenarnya sedikit lebih mudah.
 
 876
 00:48:05,140 --> 00:48:07,190
-Karena Anda dapat melihat
-kita harus
+Karena Anda bisa lihat
+kita perlu untuk
 
 877
 00:48:07,190 --> 00:48:11,460
 membuat asumsi
-tentang faktor bilangan prima
+tentang memfaktorkan bilangan prima
 
 878
 00:48:11,460 --> 00:48:13,050
@@ -4156,22 +4156,22 @@ penyerang melihat n,
 
 883
 00:48:24,450 --> 00:48:28,660
-bahwa mereka seharusnya tidak dapat
+mereka seharusnya tidak dapat
 memfaktorkannya menjadi p dan q.
 
 884
 00:48:28,660 --> 00:48:30,860
 Karena jika mereka bisa
-melakukannya, ini sudah berakhir.
+melakukannya, tamat sudah.
 
 885
 00:48:30,860 --> 00:48:35,870
-Jadi itu sebenarnya lebih mudah daripada
-argumen fungsionalitas.
+Jadi hal itu sebenarnya lebih mudah
+daripada argumen fungsionalitas.
 
 886
 00:48:35,870 --> 00:48:37,130
-Jadi mengapa ini berhasil?
+Jadi mengapa hal ini berhasil?
 
 887
 00:48:42,970 --> 00:48:46,080
@@ -4181,7 +4181,7 @@ melakukannya dalam waktu sekitar 10 menit.
 888
 00:48:46,080 --> 00:48:49,350
 Saya akan menjelaskan kepada Anda
-mengapa ini bekerja dalam 10 menit.
+mengapa hal ini bisa bekerja dalam 10 menit.
 
 889
 00:48:49,350 --> 00:48:53,570
@@ -4190,12 +4190,12 @@ yang kita perlukan
 
 890
 00:48:53,570 --> 00:48:56,720
-di atas ini, yang
+selain ini, yang
 tidak akan saya setujui,
 
 891
 00:48:56,720 --> 00:49:01,130
-karena Fermat membuktikannya
+karena Fermat telah membuktikannya
 berabad-abad yang lalu,
 
 892
@@ -4206,27 +4206,27 @@ Fermat yang mengatakan
 893
 00:49:05,830 --> 00:49:12,020
 bahwa ketika Anda memiliki
-p menjadi prima--
+p yang menjadi bilangan prima--
 
 894
 00:49:12,020 --> 00:49:13,985
 Anda dapat menganggap ini
-sebagai kasus khusus.
+sebagai kasus spesial.
 
 895
 00:49:23,870 --> 00:49:27,290
 Anda mengambil m, dan m adalah
-angka arbitrer.
+sebuah angka arbitrer.
 
 896
 00:49:27,290 --> 00:49:34,760
 Dan jika p adalah bilangan prima, maka
-hubungan ini akan berlaku.
+relasi ini akan berlaku.
 
 897
 00:49:34,760 --> 00:49:39,190
-Jadi Anda menaikkannya ke p dikurangi
-1 kekuatan, dan Anda mendapatkan 1, mod p.
+Jadi Anda memangkatkannya dengan p dikurangi
+1, dan Anda mendapatkan 1, mod p.
 
 898
 00:49:39,190 --> 00:49:40,980
@@ -4235,16 +4235,16 @@ Kecil Fermat
 
 899
 00:49:40,980 --> 00:49:42,160
-itu akan dibutuhkan.
+yang akan dibutuhkan.
 
 900
 00:49:42,160 --> 00:49:43,701
-Dan itu adalah
-satu-satunya hal
+Dan kurang lebih
+itulah satu-satunya hal
 
 901
 00:49:43,701 --> 00:49:47,980
-yang harus Anda panggil diluar
+yang harus Anda panggil di luar
 semacam aritmatika mod standar
 
 902
@@ -4281,7 +4281,7 @@ Jadi kita akan panggil phi tersebut.
 909
 00:50:07,530 --> 00:50:13,870
 Dan kita akan katakan
-bahwa d itu setara dengan 1.
+bahwa d itu sama dengan 1.
 
 910
 00:50:13,870 --> 00:50:16,280
@@ -4290,7 +4290,7 @@ Mod phi diberikan kepada kita.
 911
 00:50:21,870 --> 00:50:28,490
 Oleh karena itu, kita dapat mengatakan
-bahwa ed itu setara dengan 1 ditambah k phi. 
+bahwa ed itu sama dengan 1 ditambah k phi. 
 
 912
 00:50:31,080 --> 00:50:32,840
@@ -4298,11 +4298,11 @@ Jadi itu saja.
 
 913
 00:50:32,840 --> 00:50:34,510
-Yang saya katakan hanyalah sisanya.
+Yang saya katakan hanyalah hasil sisanya.
 
 914
 00:50:34,510 --> 00:50:37,790
-Kemudian Anda mengambil mod
+Kemudian Anda beralih ke mod
 sehubungan dengan phi adalah 1.
 
 915
@@ -4335,7 +4335,7 @@ Jadi p dan q adalah bilangan prima.
 921
 00:50:56,230 --> 00:50:58,980
 Dan mengingat itulah
-masalahnya, kita benar-benar
+kasusnya, kita benar-benar
 
 922
 00:50:58,980 --> 00:51:02,310
@@ -4343,7 +4343,7 @@ memiliki dua kasus untuk dianalisis.
 
 923
 00:51:02,310 --> 00:51:03,210
-Oh, maafkan saya.
+Oh, saya minta maaf.
 
 924
 00:51:03,210 --> 00:51:14,530
@@ -4352,7 +4352,7 @@ yang seharusnya saya sampaikan kepada Anda,
 
 925
 00:51:14,530 --> 00:51:16,360
-yaitu saya memberi Anda ini.
+yaitu saya memberikan ini pada Anda.
 
 926
 00:51:16,360 --> 00:51:20,050
@@ -4367,21 +4367,21 @@ sepintas, eksponensial.
 928
 00:51:23,040 --> 00:51:25,980
 Tetapi saya tidak memberitahu Anda
-apa sebenarnya algoritma
+sebenarnya apa algoritma
 
 929
 00:51:25,980 --> 00:51:28,670
-enkripsinya dan
+enkripsinya dan apa
 algoritma dekripsinya.
 
 930
 00:51:28,670 --> 00:51:30,250
 Dan jelas sekali, Anda
-membutuhkan itu untuk
+membutuhkannya untuk
 
 931
 00:51:30,250 --> 00:51:31,270
-membuktikan kebenarannya.
+membuktikan kebenaran mereka.
 
 932
 00:51:31,270 --> 00:51:32,853
@@ -4390,12 +4390,12 @@ bagus jika Anda dapat
 
 933
 00:51:32,853 --> 00:51:33,990
-membuktikan kebenaran ini.
+membuktikan kebenaran hal ini.
 
 934
 00:51:33,990 --> 00:51:38,440
-Ada algoritma sedemikian
-rupa sehingga
+Ada algoritma yang
+sedemikian rupa sehingga
 
 935
 00:51:38,440 --> 00:51:43,340
@@ -4404,35 +4404,35 @@ enkripsi berfungsi.
 
 936
 00:51:43,340 --> 00:51:46,240
-Jadi ternyata itu
-sangat mudah.
+Jadi ternyata hal itu
+sangatlah mudah.
 
 937
 00:51:46,240 --> 00:51:48,660
-c sama dengan m lalu pangkat e.
+c sama dengan m pangkat e.
 
 938
 00:51:48,660 --> 00:51:51,210
-Dan itu bagian
-kegunaannya
+Dan itulah bagian
+dari kegunaannya
 
 939
 00:51:51,210 --> 00:51:56,315
-dan kekuatan RSA,
-yang mana yang anda memiliki m
+dan kekuatan dari RSA,
+di mana Anda mengambil m
 
 940
 00:51:56,315 --> 00:51:58,860
-dan Anda mengeksponenkannya.
+dan Anda memangkatkannya.
 
 941
 00:51:58,860 --> 00:52:04,310
 Dan Anda mengambil c dan
-Anda mengeksponenkannya.
+Anda memangkatkannya.
 
 942
 00:52:04,310 --> 00:52:06,350
-Dan yang pertama adalah enkripsi.
+Dan yang pertama adalah enkripsinya.
 
 943
 00:52:06,350 --> 00:52:08,480
@@ -4442,44 +4442,44 @@ melalui enkripsi,
 944
 00:52:08,480 --> 00:52:10,440
 seperti yang Anda lihat
-di sana, teks tersandi.
+di sana, teks terenkripsi.
 
 945
 00:52:10,440 --> 00:52:11,970
-Dan m adalah plain teks.
+Dan m adalah teks biasa.
 
 946
 00:52:11,970 --> 00:52:13,500
-Dan Anda mendapatkan itu kembali.
+Dan Anda mendapatkannya kembali.
 
 947
 00:52:13,500 --> 00:52:24,650
-Jadi tujuan kami disini adalah untuk menunjukkan
-pada dasarnya anda memiliki sesuatu
+Jadi tujuan kita di sini adalah untuk menunjukkan
+bahwa Anda pada dasarnya memiliki sesuatu
 
 948
 00:52:24,650 --> 00:52:31,660
-di mana ketika Anda eksponensial
-m pangkat ed,
+di mana ketika Anda melakukan
+eksponensial m pangkat ed,
 
 949
 00:52:31,660 --> 00:52:34,060
-maka hasilnya akan m.
+hal itu akan menghasilkan m.
 
 950
 00:52:36,730 --> 00:52:40,080
-Untuk pilihan ini 
-kami memiliki, dari e dan d,
+Untuk pilihan-pilihan yang
+kita memiliki, dari e dan d,
 
 951
 00:52:40,080 --> 00:52:43,160
-kami telah menyiapkan d
+kita telah menyiapkan d
 sedemikian rupa sehingga m
 
 952
 00:52:43,160 --> 00:52:47,030
-dipangkatkan menjadi ed-- karena jika
-Anda hanya akan melakukan enkripsi
+dipangkatkan ed-- karena jika
+Anda langsung melakukan enkripsi
 
 953
 00:52:47,030 --> 00:52:51,754
@@ -4488,30 +4488,30 @@ melakukan eksponensial ganda.
 
 954
 00:52:51,754 --> 00:52:52,420
-Apakah masuk akal?
+Masuk akal?
 
 955
 00:52:52,420 --> 00:52:54,510
 Ajukan pertanyaan jika
-ini tidak masuk akal.
+hal ini tidak masuk akal.
 
 956
 00:52:54,510 --> 00:52:55,600
-Ini penting.
+Hal ini penting.
 
 957
 00:52:55,600 --> 00:52:58,930
-m dipangkatkan ke ed seharusnya
-kembali menjadi m
+m dipangkatkan ed seharusnya
+akan mengembalikan m.
 
 958
 00:52:58,930 --> 00:53:01,860
-Dan jika Anda bisa menunjukkan
+Dan jika Anda bisa menunjukkannya
 untuk m apa pun, Anda selesai.
 
 959
 00:53:01,860 --> 00:53:03,920
-Itulah fungsi RSA.
+Itulah fungsionalitas RSA.
 
 960
 00:53:03,920 --> 00:53:06,550
@@ -4519,7 +4519,7 @@ Baiklah.
 
 961
 00:53:06,550 --> 00:53:08,770
-Jadi itu enkripsi
+Jadi itulah enkripsi
 dan dekripsi.
 
 962
