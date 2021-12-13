@@ -3981,7 +3981,7 @@ mereka terpikirkan hal ini?
 846
 00:46:05,110 --> 00:46:09,020
 Dan itu masih
-benar 40 tahun kemudian.
+berlaku 40 tahun kemudian.
 
 847
 00:46:09,020 --> 00:46:15,155
@@ -3995,12 +3995,12 @@ yang diperluas.
 849
 00:46:24,280 --> 00:46:30,490
 Dan ini dilakukan Alice secara
-rahasia, apa yang Anda inginkan
+rahasia, di mana yang Anda inginkan
 
 850
 00:46:30,490 --> 00:46:35,110
 adalah memiliki relasi
-dimana e dikali d sama dengan 1.
+di mana e dikali d sama dengan 1.
 
 851
 00:46:35,110 --> 00:46:41,230
@@ -4014,7 +4014,7 @@ di luar sana yang
 
 853
 00:46:44,540 --> 00:46:50,150
-dapat menemukan invers
+dapat menemukan inversi
 yang sesuai dengan d untuk e
 
 854
@@ -4023,7 +4023,7 @@ atau sebaliknya.
 
 855
 00:46:51,520 --> 00:46:53,810
-Dan itu adalah algoritma polytime.
+Dan itu kompleksitas algoritmanya polinomial.
 
 856
 00:46:53,810 --> 00:46:58,149
@@ -4052,12 +4052,12 @@ di sini, p dan q,
 861
 00:47:09,590 --> 00:47:12,710
 akan menjadi sekitar
-1,000 bit panjangnya.
+1.000 bit panjangnya.
 
 862
 00:47:12,710 --> 00:47:15,650
 Jadi pada dasarnya-- kita
-membicarakan tentang bilangan prima yang besar.
+membicarakan tentang bilangan prima yang besar di sini.
 
 863
 00:47:15,650 --> 00:47:19,180
@@ -4080,11 +4080,11 @@ publik dan apa yang privat.
 
 867
 00:47:35,255 --> 00:47:37,040
-n dan e adalah publik.
+n dan e publik.
 
 868
 00:47:37,040 --> 00:47:40,950
-d, p, dan q adalah privat.
+d, p, dan q privat.
 
 869
 00:47:40,950 --> 00:47:43,030
@@ -4123,7 +4123,7 @@ sebenarnya sedikit lebih mudah.
 876
 00:48:05,140 --> 00:48:07,190
 Karena Anda bisa lihat
-kita perlu untuk
+kita perlu
 
 877
 00:48:07,190 --> 00:48:11,460
@@ -4132,11 +4132,11 @@ tentang memfaktorkan bilangan prima
 
 878
 00:48:11,460 --> 00:48:13,050
-dan seterusnya dan seterusnya.
+dan seterusnya.
 
 879
 00:48:13,050 --> 00:48:15,690
-Di sini, Anda bisa 
+Di sini, Anda bisa
 langsung melihatnya.
 
 880
@@ -4216,7 +4216,7 @@ sebagai kasus spesial.
 895
 00:49:23,870 --> 00:49:27,290
 Anda mengambil m, dan m adalah
-sebuah angka arbitrer.
+sebuah angka acak.
 
 896
 00:49:27,290 --> 00:49:34,760
@@ -4245,7 +4245,7 @@ itulah satu-satunya hal
 901
 00:49:43,701 --> 00:49:47,980
 yang harus Anda panggil di luar
-semacam aritmatika mod standar
+semacam aritmatika modulo standar
 
 902
 00:49:47,980 --> 00:49:51,720
@@ -4276,12 +4276,12 @@ simbol yang lebih kecil dan sederhana.
 
 908
 00:50:05,830 --> 00:50:07,530
-Jadi kita akan panggil phi tersebut.
+Jadi kita akan sebut itu phi.
 
 909
 00:50:07,530 --> 00:50:13,870
 Dan kita akan katakan
-bahwa d itu sama dengan 1.
+bahwa d sama dengan 1.
 
 910
 00:50:13,870 --> 00:50:16,280
@@ -4317,7 +4317,7 @@ k adalah suatu integer.
 917
 00:50:43,300 --> 00:50:46,390
 Anggap itu sebagai
-integer positif.
+bilangan bulat positif.
 
 918
 00:50:46,390 --> 00:50:50,570
@@ -4362,7 +4362,7 @@ memberitahu Anda apa yang sedang terjadi.
 927
 00:51:20,050 --> 00:51:23,040
 Saya menyebutkannya secara
-sepintas, eksponensial.
+sepintas, pemangkatan.
 
 928
 00:51:23,040 --> 00:51:25,980
@@ -4399,8 +4399,8 @@ sedemikian rupa sehingga
 
 935
 00:51:38,440 --> 00:51:43,340
-RSA berfungsi atau kunci publik
-enkripsi berfungsi.
+RSA berfungsi atau enkripsi
+kunci publik berfungsi.
 
 936
 00:51:43,340 --> 00:51:46,240
@@ -4459,8 +4459,8 @@ bahwa Anda pada dasarnya memiliki sesuatu
 
 948
 00:52:24,650 --> 00:52:31,660
-di mana ketika Anda melakukan
-eksponensial m pangkat ed,
+di mana ketika Anda memangkatkan
+m dengan ed,
 
 949
 00:52:31,660 --> 00:52:34,060
@@ -4469,7 +4469,7 @@ hal itu akan menghasilkan m.
 950
 00:52:36,730 --> 00:52:40,080
 Untuk pilihan-pilihan yang
-kita memiliki, dari e dan d,
+kita miliki, dari e dan d,
 
 951
 00:52:40,080 --> 00:52:43,160
@@ -4484,7 +4484,7 @@ Anda langsung melakukan enkripsi
 953
 00:52:47,030 --> 00:52:51,754
 diikuti dengan dekripsi, Anda
-melakukan eksponensial ganda.
+memangkatkannya dua kali.
 
 954
 00:52:51,754 --> 00:52:52,420
