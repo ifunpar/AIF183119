@@ -3418,7 +3418,7 @@ Jadi jangan lakukan itu.
 716
 00:31:03,270 --> 00:31:05,040
 And Kerberos
-version 5 fixes this
+Versi 5 telah memperbaiki ini
 
 717
 00:31:05,040 --> 00:31:07,770
