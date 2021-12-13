@@ -3793,7 +3793,7 @@ dan Google saat ini sedang
 801
 00:34:13,250 --> 00:34:17,010
 aktif mencoba untuk mendorong
-pengembang web dan vendor peramban
+pengembang web dan pembuat peramban
 
 802
 00:34:17,010 --> 00:34:19,712
@@ -3822,8 +3822,8 @@ terbukti lebih lemah.
 
 807
 00:34:29,000 --> 00:34:31,931
-Jadi saya rasa pada hakikatnya
-tidak ada solusi yang tepat untuk hal ini.
+Jadi saya rasa tidak ada
+solusi ajaib untuk hal ini.
 
 808
 00:34:31,931 --> 00:34:33,389
@@ -3936,11 +3936,11 @@ Baiklah.
 832
 00:35:24,960 --> 00:35:27,740
 Jadi mari kita sekarang lihat ke-- jadi
-ini hanya seperti bagian lain
+ini hanya seperti sisi protokol
 
 833
 00:35:27,740 --> 00:35:28,370
-dari protokol.
+dari hal-hal ini.
 
 834
 00:35:28,370 --> 00:35:30,240
@@ -3960,7 +3960,7 @@ komunikasi antar jaringan, atau semacam
 837
 00:35:38,640 --> 00:35:41,490
 situs web, yang menggunakan
-kriptografi, sebenernya
+kriptografi, sebenarnya
 
 838
 00:35:41,490 --> 00:35:44,650
@@ -4031,7 +4031,7 @@ di peramban,
 
 852
 00:36:16,960 --> 00:36:19,510
-seperti Javascript atau
+seperti JavaScript atau
 data penting yang
 
 853
@@ -4086,7 +4086,7 @@ karena pada akhirnya,
 863
 00:36:47,472 --> 00:36:49,930
 sebagian besar data rahasia
-yang ingin kami lindungi
+yang ingin kita lindungi
 
 864
 00:36:49,930 --> 00:36:50,763
@@ -4095,36 +4095,36 @@ berasal dari pengguna.
 865
 00:36:50,763 --> 00:36:53,829
 Dan pengguna memberikan hal ini
-ke dalam beberapa situs website,
+ke dalam sebuah situs web,
 
 866
 00:36:53,829 --> 00:36:55,620
 dan pengguna mungkin saja
-menggunakan beberapa situs website
+menggunakan beberapa situs web
 
 867
 00:36:55,620 --> 00:36:57,411
 yang terbuka di komputer mereka
-sehingga pengguna harus dapat 
+sehingga pengguna harus dapat
 
 868
 00:36:57,411 --> 00:36:59,760
 membedakan pada situs mana
-mereka benar-benar 
+mereka benar-benar
 
 869
 00:36:59,760 --> 00:37:01,980
 berinteraksi
-setiap saat.
+setiap saatnya.
 
 870
 00:37:01,980 --> 00:37:04,690
 Jika mereka tidak sengaja mengetikkan
-kata sandi Amazon mereka pada beberapa
+kata sandi Amazon mereka pada sebuah
 
 871
 00:37:04,690 --> 00:37:06,674
-forum diskusi web, hal tersebut
+forum diskusi di web, hal tersebut
 dapat menjadi bencana
 
 872
@@ -4184,7 +4184,7 @@ sebenarnya dilakukan peramban web
 
 884
 00:37:37,760 --> 00:37:39,890
-pada bagian depan.
+pada bagian depan ini.
 
 885
 00:37:39,890 --> 00:37:42,510
@@ -4277,7 +4277,7 @@ memastikan jika kita
 
 903
 00:38:33,730 --> 00:38:38,250
-memiliki beberapa kode Javascript yang 
+memiliki beberapa kode JavaScript yang 
 tidak terenkripsi berjalan pada peramban kita,
 
 904
