@@ -3980,547 +3980,547 @@ mereka terpikirkan hal ini?
 
 846
 00:46:05,110 --> 00:46:09,020
-And that's still
-true 40 years later.
+Dan itu masih
+berlaku 40 tahun kemudian.
 
 847
 00:46:09,020 --> 00:46:15,155
-You get the decryption exponent
-using the extended Euclidean
+Anda mendapatkan eksponen dekripsi
+menggunakan algoritma Euclidean
 
 848
 00:46:15,155 --> 00:46:15,655
-algorithm.
+yang diperluas.
 
 849
 00:46:24,280 --> 00:46:30,490
-And this is done by Alice
-secretly, where what you want
+Dan ini dilakukan Alice secara
+rahasia, di mana yang Anda inginkan
 
 850
 00:46:30,490 --> 00:46:35,110
-is to have the relationship
-that e times d is 1.
+adalah memiliki relasi
+di mana e dikali d sama dengan 1.
 
 851
 00:46:35,110 --> 00:46:41,230
-And this is mod p
-minus 1, q minus 1.
+Dan ini adalah mod p
+dikurangi 1, q dikurangi 1.
 
 852
 00:46:41,230 --> 00:46:44,540
-And there's algorithms
-out there that
+Dan ada algoritma
+di luar sana yang
 
 853
 00:46:44,540 --> 00:46:50,150
-would find the inverse
-that corresponds to d for e
+dapat menemukan inversi
+yang sesuai dengan d untuk e
 
 854
 00:46:50,150 --> 00:46:51,520
-or vice versa.
+atau sebaliknya.
 
 855
 00:46:51,520 --> 00:46:53,810
-And they're polytime algorithms.
+Dan itu kompleksitas algoritmanya polinomial.
 
 856
 00:46:53,810 --> 00:46:58,149
-As long as you know this number
-here, mod p minus 1, q minus 1,
+Selama Anda tahu angka ini
+di sini, mod p dikurangi 1, q dikurangi 1,
 
 857
 00:46:58,149 --> 00:46:59,940
-and you know that Alice
-knows that, you can
+dan Anda tahu bahwa Alice
+mengetahuinya, Anda bisa
 
 858
 00:46:59,940 --> 00:47:02,210
-get your decryption exponent.
+mendapatkan eksponen dekripsi Anda.
 
 859
 00:47:02,210 --> 00:47:06,880
-And typically, if a is small, as
-I said, d is going to be large.
+Dan biasanya, jika a bernilai kecil, seperti
+yang saya katakan, d akan menjadi besar.
 
 860
 00:47:06,880 --> 00:47:09,590
-By the way, the
-numbers here, p and q,
+Omong-omong, angka-angka
+di sini, p dan q,
 
 861
 00:47:09,590 --> 00:47:12,710
-are going to be the
-roughly 1,000 bits long.
+akan menjadi sekitar
+1.000 bit panjangnya.
 
 862
 00:47:12,710 --> 00:47:15,650
-So that's essentially-- we're
-talking about huge primes here.
+Jadi pada dasarnya-- kita
+membicarakan tentang bilangan prima yang besar di sini.
 
 863
 00:47:15,650 --> 00:47:19,180
-And so n would be 2048
-bits in that case.
+Dan n akan menjadi 2048
+bit dalam kasus tersebut.
 
 864
 00:47:19,180 --> 00:47:27,010
-So the private key,
-Alice's private key,
+Sehingga kunci privatnya,
+kunci privatnya Alice,
 
 865
 00:47:27,010 --> 00:47:32,450
-you can think of as d, p, q.
+dapat Anda anggap sebagai d, p, q.
 
 866
 00:47:32,450 --> 00:47:35,255
-So now, it's clear as to what's
-public and what's private.
+Jadi sekarang, sudah jelas apa yang
+publik dan apa yang privat.
 
 867
 00:47:35,255 --> 00:47:37,040
-n and e are public.
+n dan e publik.
 
 868
 00:47:37,040 --> 00:47:40,950
-d, p, and q are private.
+d, p, dan q privat.
 
 869
 00:47:40,950 --> 00:47:43,030
-So that's the set up for RSA.
+Jadi itulah yang diatur untuk RSA.
 
 870
 00:47:43,030 --> 00:47:48,160
-And it's not at all clear
-that RSA accomplishes
+Dan itu sama sekali tidak memastikan
+bahwa RSA akan menyelesaikan
 
 871
 00:47:48,160 --> 00:47:52,700
-either of the two things that
-we need, the first of which
+salah satu dari dua hal yang
+kita butuhkan, yang pertama adalah
 
 872
 00:47:52,700 --> 00:47:57,490
-is functionality, the fact that
-encrypting, and then decrypting
+fungsionalitas, bukti bahwa
+mengenkripsi, dan kemudian mendekripsi
 
 873
 00:47:57,490 --> 00:48:00,470
-a message should get
-you back that message.
+sebuah pesan akan membuat Anda
+mendapatkan kembali pesan itu.
 
 874
 00:48:00,470 --> 00:48:02,580
-So that's the first
-thing we need to look at.
+Jadi itu hal pertama yang
+harus kita perhatikan.
 
 875
 00:48:02,580 --> 00:48:05,140
-And the security part is
-actually a little bit easier.
+Dan pada bagian keamanannya
+sebenarnya sedikit lebih mudah.
 
 876
 00:48:05,140 --> 00:48:07,190
-Because you can see
-we're going to have
+Karena Anda bisa lihat
+kita perlu
 
 877
 00:48:07,190 --> 00:48:11,460
-to make assumptions
-about factoring primes
+membuat asumsi
+tentang memfaktorkan bilangan prima
 
 878
 00:48:11,460 --> 00:48:13,050
-and so on and so forth.
+dan seterusnya.
 
 879
 00:48:13,050 --> 00:48:15,690
-Right here, you can just
-see that immediately.
+Di sini, Anda bisa
+langsung melihatnya.
 
 880
 00:48:15,690 --> 00:48:18,590
-The biggest
-assumption made by RSA
+Asumsi terbesar
+yang dibuat oleh RSA
 
 881
 00:48:18,590 --> 00:48:20,840
-from a computational
-hardness standpoint
+dilihat dari tingkat
+kesulitan komputasi
 
 882
 00:48:20,840 --> 00:48:24,450
-is simply that if
-the adversary sees n,
+sederhananya adalah jika
+penyerang melihat n,
 
 883
 00:48:24,450 --> 00:48:28,660
-that they should not be able
-to factor it into p and q.
+mereka seharusnya tidak dapat
+memfaktorkannya menjadi p dan q.
 
 884
 00:48:28,660 --> 00:48:30,860
-Because if they can
-do that, it's over.
+Karena jika mereka bisa
+melakukannya, tamat sudah.
 
 885
 00:48:30,860 --> 00:48:35,870
-So that's actually easier than
-the functionality argument.
+Jadi hal itu sebenarnya lebih mudah
+daripada argumen fungsionalitas.
 
 886
 00:48:35,870 --> 00:48:37,130
-So why does this work?
+Jadi mengapa hal ini berhasil?
 
 887
 00:48:42,970 --> 00:48:46,080
-And amazingly, we can actually
-do this in about 10 minutes.
+Dan luar biasanya, kita benar-benar dapat
+melakukannya dalam waktu sekitar 10 menit.
 
 888
 00:48:46,080 --> 00:48:49,350
-I'm going to explain to you
-why this works in 10 minutes.
+Saya akan menjelaskan kepada Anda
+mengapa hal ini bisa bekerja dalam 10 menit.
 
 889
 00:48:49,350 --> 00:48:53,570
-And the only theorem
-that we'll require
+Dan satu-satunya teorema
+yang kita perlukan
 
 890
 00:48:53,570 --> 00:48:56,720
-on top of this, which
-I will not approve,
+selain ini, yang
+tidak akan saya setujui,
 
 891
 00:48:56,720 --> 00:49:01,130
-because Fermat proved
-it centuries ago,
+karena Fermat telah membuktikannya
+berabad-abad yang lalu,
 
 892
 00:49:01,130 --> 00:49:05,830
-is Fermat's Little
-Theorem that says
+adalah Teorema Kecil
+Fermat yang mengatakan
 
 893
 00:49:05,830 --> 00:49:12,020
-that when you have
-p being a prime--
+bahwa ketika Anda memiliki
+p yang menjadi bilangan prima--
 
 894
 00:49:12,020 --> 00:49:13,985
-you can think of this
-as a special case.
+Anda dapat menganggap ini
+sebagai kasus spesial.
 
 895
 00:49:23,870 --> 00:49:27,290
-You take m, and m is
-an arbitrary number.
+Anda mengambil m, dan m adalah
+sebuah angka acak.
 
 896
 00:49:27,290 --> 00:49:34,760
-And if p is a prime, then
-this relationship holds.
+Dan jika p adalah bilangan prima, maka
+relasi ini akan berlaku.
 
 897
 00:49:34,760 --> 00:49:39,190
-So you raise it to the p minus
-1 power, and you get 1, mod p.
+Jadi Anda memangkatkannya dengan p dikurangi
+1, dan Anda mendapatkan 1, mod p.
 
 898
 00:49:39,190 --> 00:49:40,980
-So that's Fermat's
-Little Theorem
+Jadi itulah Teorema
+Kecil Fermat
 
 899
 00:49:40,980 --> 00:49:42,160
-that's going to be required.
+yang akan dibutuhkan.
 
 900
 00:49:42,160 --> 00:49:43,701
-And that's pretty
-much the only thing
+Dan kurang lebih
+itulah satu-satunya hal
 
 901
 00:49:43,701 --> 00:49:47,980
-that you have to invoke beyond
-sort of standard mod arithmetic
+yang harus Anda panggil di luar
+semacam aritmatika modulo standar
 
 902
 00:49:47,980 --> 00:49:51,720
-to show that RSA works.
+untuk menunjukkan bahwa RSA bekerja.
 
 903
 00:49:51,720 --> 00:49:53,010
-So what's going on here?
+Jadi apa yang terjadi di sini?
 
 904
 00:49:53,010 --> 00:49:58,734
-Let's call phi p minus
-1 times q minus 1.
+Mari kita panggil phi p dikurang
+1 dikali q dikurang 1.
 
 905
 00:49:58,734 --> 00:50:00,650
-Obviously, that's showed
-up a couple of times.
+Jelas sekali, itu sudah pernah
+muncul beberapa kali.
 
 906
 00:50:00,650 --> 00:50:03,190
-And you may as well
-represent it by using
+Dan Anda juga dapat
+merepresentasikannya menggunakan
 
 907
 00:50:03,190 --> 00:50:05,830
-a smaller, simpler symbol.
+simbol yang lebih kecil dan sederhana.
 
 908
 00:50:05,830 --> 00:50:07,530
-So we'll call that phi.
+Jadi kita akan sebut itu phi.
 
 909
 00:50:07,530 --> 00:50:13,870
-And we are going to
-say that d equals 1.
+Dan kita akan katakan
+bahwa d sama dengan 1.
 
 910
 00:50:13,870 --> 00:50:16,280
-Mod phi is given to us.
+Mod phi diberikan kepada kita.
 
 911
 00:50:21,870 --> 00:50:28,490
-And therefore, we can say
-that ed equals 1 plus k phi.
+Oleh karena itu, kita dapat mengatakan
+bahwa ed itu sama dengan 1 ditambah k phi. 
 
 912
 00:50:31,080 --> 00:50:32,840
-So that's it.
+Jadi itu saja.
 
 913
 00:50:32,840 --> 00:50:34,510
-All I'm saying is the remainder.
+Yang saya katakan hanyalah hasil sisanya.
 
 914
 00:50:34,510 --> 00:50:37,790
-Then you took to the mod
-with respect to phi was 1.
+Kemudian Anda beralih ke mod
+sehubungan dengan phi adalah 1.
 
 915
 00:50:37,790 --> 00:50:40,900
-So the actual number
-was 1 plus k times phi.
+Jadi bilangan yang sesungguhnya
+adalah 1 ditambah k dikali phi.
 
 916
 00:50:40,900 --> 00:50:43,300
-k is some integer.
+k adalah suatu integer.
 
 917
 00:50:43,300 --> 00:50:46,390
-Think of it as a
-positive integer.
+Anggap itu sebagai
+bilangan bulat positif.
 
 918
 00:50:46,390 --> 00:50:50,570
-Remember that we now have the
-p and the q are over there.
+Ingat-ingat bahwa sekarang kita memiliki
+p dan q ada di sebelah sana.
 
 919
 00:50:50,570 --> 00:50:52,440
-And p and q are primes.
+Dan p dan q adalah bilangan prima.
 
 920
 00:50:52,440 --> 00:50:56,230
-So p and q are primes.
+Jadi p dan q adalah bilangan prima.
 
 921
 00:50:56,230 --> 00:50:58,980
-And given that that's
-the case, we really
+Dan mengingat itulah
+kasusnya, kita benar-benar
 
 922
 00:50:58,980 --> 00:51:02,310
-have two cases to analyze.
+memiliki dua kasus untuk dianalisis.
 
 923
 00:51:02,310 --> 00:51:03,210
-Oh, I'm sorry.
+Oh, saya minta maaf.
 
 924
 00:51:03,210 --> 00:51:14,530
-I missed one crucial point,
-which I should have told you,
+Saya melewatkan satu poin penting,
+yang seharusnya saya sampaikan kepada Anda,
 
 925
 00:51:14,530 --> 00:51:16,360
-which is I gave you this.
+yaitu saya memberikan ini pada Anda.
 
 926
 00:51:16,360 --> 00:51:20,050
-But I didn't actually
-tell you what is going on.
+Tetapi saya tidak benar-benar
+memberitahu Anda apa yang sedang terjadi.
 
 927
 00:51:20,050 --> 00:51:23,040
-I mentioned it in
-passing, exponentiation.
+Saya menyebutkannya secara
+sepintas, pemangkatan.
 
 928
 00:51:23,040 --> 00:51:25,980
-But I didn't tell you
-exactly what the encryption
+Tetapi saya tidak memberitahu Anda
+sebenarnya apa algoritma
 
 929
 00:51:25,980 --> 00:51:28,670
-algorithm was and the
-decryption algorithm was.
+enkripsinya dan apa
+algoritma dekripsinya.
 
 930
 00:51:28,670 --> 00:51:30,250
-And obviously, you
-need that in order
+Dan jelas sekali, Anda
+membutuhkannya untuk
 
 931
 00:51:30,250 --> 00:51:31,270
-to prove their correctness.
+membuktikan kebenaran mereka.
 
 932
 00:51:31,270 --> 00:51:32,853
-I mean, it'd be
-wonderful if you could
+Maksud saya, akan sangat
+bagus jika Anda dapat
 
 933
 00:51:32,853 --> 00:51:33,990
-prove correctness of this.
+membuktikan kebenaran hal ini.
 
 934
 00:51:33,990 --> 00:51:38,440
-There exists an
-algorithm that is such
+Ada algoritma yang
+sedemikian rupa sehingga
 
 935
 00:51:38,440 --> 00:51:43,340
-that RSA works or public
-key encryption works.
+RSA berfungsi atau enkripsi
+kunci publik berfungsi.
 
 936
 00:51:43,340 --> 00:51:46,240
-So it turns out it's
-extremely straightforward.
+Jadi ternyata hal itu
+sangatlah mudah.
 
 937
 00:51:46,240 --> 00:51:48,660
-c equals m raised to e.
+c sama dengan m pangkat e.
 
 938
 00:51:48,660 --> 00:51:51,210
-And that's part
-of the usefulness
+Dan itulah bagian
+dari kegunaannya
 
 939
 00:51:51,210 --> 00:51:56,315
-and the power of RSA,
-which is you take m
+dan kekuatan dari RSA,
+di mana Anda mengambil m
 
 940
 00:51:56,315 --> 00:51:58,860
-and you exponentiate it.
+dan Anda memangkatkannya.
 
 941
 00:51:58,860 --> 00:52:04,310
-And you take c and
-you exponentiate it.
+Dan Anda mengambil c dan
+Anda memangkatkannya.
 
 942
 00:52:04,310 --> 00:52:06,350
-And the first is the encryption.
+Dan yang pertama adalah enkripsinya.
 
 943
 00:52:06,350 --> 00:52:08,480
-You get the c
-through encryption,
+Anda mendapatkan c
+melalui enkripsi,
 
 944
 00:52:08,480 --> 00:52:10,440
-as you can see over
-there, the ciphered text.
+seperti yang Anda lihat
+di sana, teks terenkripsi.
 
 945
 00:52:10,440 --> 00:52:11,970
-And m is the plain text.
+Dan m adalah teks biasa.
 
 946
 00:52:11,970 --> 00:52:13,500
-And you get that back.
+Dan Anda mendapatkannya kembali.
 
 947
 00:52:13,500 --> 00:52:24,650
-So our goal here is to show that
-you have essentially something
+Jadi tujuan kita di sini adalah untuk menunjukkan
+bahwa Anda pada dasarnya memiliki sesuatu
 
 948
 00:52:24,650 --> 00:52:31,660
-where when you exponentiate
-m raised to ed,
+di mana ketika Anda memangkatkan
+m dengan ed,
 
 949
 00:52:31,660 --> 00:52:34,060
-it should give you m.
+hal itu akan menghasilkan m.
 
 950
 00:52:36,730 --> 00:52:40,080
-For these choices that
-we have, of e and d,
+Untuk pilihan-pilihan yang
+kita miliki, dari e dan d,
 
 951
 00:52:40,080 --> 00:52:43,160
-we've set up the d
-in such a way that m
+kita telah menyiapkan d
+sedemikian rupa sehingga m
 
 952
 00:52:43,160 --> 00:52:47,030
-raised to ed-- because if
-you just go do encryption
+dipangkatkan ed-- karena jika
+Anda langsung melakukan enkripsi
 
 953
 00:52:47,030 --> 00:52:51,754
-followed by decryption, you
-are doubly exponentiating.
+diikuti dengan dekripsi, Anda
+memangkatkannya dua kali.
 
 954
 00:52:51,754 --> 00:52:52,420
-That make sense?
+Masuk akal?
 
 955
 00:52:52,420 --> 00:52:54,510
-Ask me questions if
-this doesn't make sense.
+Ajukan pertanyaan jika
+hal ini tidak masuk akal.
 
 956
 00:52:54,510 --> 00:52:55,600
-This is important.
+Hal ini penting.
 
 957
 00:52:55,600 --> 00:52:58,930
-m raised to ed should
-give you back m.
+m dipangkatkan ed seharusnya
+akan mengembalikan m.
 
 958
 00:52:58,930 --> 00:53:01,860
-And if you can show that
-for any m, you're done.
+Dan jika Anda bisa menunjukkannya
+untuk m apa pun, Anda selesai.
 
 959
 00:53:01,860 --> 00:53:03,920
-That's the functionality of RSA.
+Itulah fungsionalitas RSA.
 
 960
 00:53:03,920 --> 00:53:06,550
-All right.
+Baiklah.
 
 961
 00:53:06,550 --> 00:53:08,770
-So that's encryption
-and decryption.
+Jadi itulah enkripsi
+dan dekripsi.
 
 962
 00:53:08,770 --> 00:53:13,140
