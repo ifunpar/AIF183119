@@ -4724,7 +4724,7 @@ tanpa menggunakan kurva elips.
 
 1024
 00:45:06,420 --> 00:45:08,910
-Jadi anda bisa saja
+Jadi Anda bisa saja
 melakukan modulo eksponensial
 
 1025
@@ -4733,303 +4733,303 @@ bilangan prima yang besar.
 
 1026
 00:45:10,440 --> 00:45:11,940
-I'm going to use
-curves because it's
+Saya akan menggunakan
+kurva karena itu
 
 1027
 00:45:11,940 --> 00:45:15,600
-what is used in all
-the actual systems.
+yang digunakan di semua
+sistem yang sebenarnya.
 
 1028
 00:45:15,600 --> 00:45:19,380
-But you can sort of forget about
-the curve after this, right?
+Tetapi Anda bisa semacam melupakan tentang
+kurvanya setelah ini, benar?
 
 1029
 00:45:19,380 --> 00:45:25,140
-You can say, well, look, we just
-have these uppercase variables
+Anda dapat mengatakan, baik, lihat, kita hanya
+memiliki beberapa variabel huruf besar ini
 
 1030
 00:45:25,140 --> 00:45:26,460
-and these lowercase variables.
+dan beberapa variabel huruf kecil ini.
 
 1031
 00:45:26,460 --> 00:45:29,070
-And the fact that it's on a
-curve, we can sort of abstract
+Dan faktanya bahwa itu ada di
+kurva, kita dapat semacam memisahkan
 
 1032
 00:45:29,070 --> 00:45:31,650
-away and just know that we
-have these different types,
+dan mengetahui bahwa kita
+memiliki beberapa jenis yang berbeda,
 
 1033
 00:45:31,650 --> 00:45:32,460
-essentially.
+pada dasarnya.
 
 1034
 00:45:32,460 --> 00:45:34,110
-And when you're in the
-computer, you're just like,
+Dan ketika Anda berada di dalam
+komputer, Anda seperti,
 
 1035
 00:45:34,110 --> 00:45:35,100
-yeah, that's a point.
+ya, itu intinya.
 
 1036
 00:45:35,100 --> 00:45:35,970
-That's a scalar.
+Itu adalah sebuah nilai skalar.
 
 1037
 00:45:35,970 --> 00:45:37,670
-Here are the
-operations I can do,
+Ini adalah
+operasi yang dapat saya lakukan,
 
 1038
 00:45:37,670 --> 00:45:39,820
-and I just run the functions.
+dan saya dapat menjalankan fungsi nya.
 
 1039
 00:45:39,820 --> 00:45:40,320
-OK.
+Oke.
 
 1040
 00:45:40,320 --> 00:45:46,080
-So the next part, when you
-mix scalars and points,
+Jadi langkah selanjutnya, ketika Anda
+mencampur skalar dan titik,
 
 1041
 00:45:46,080 --> 00:45:48,000
-so mixed operations.
+jadi operasi campuran.
 
 1042
 00:45:48,000 --> 00:45:54,480
-You cannot add a point and an
-integer or subtract a point
+Anda tidak dapat menambah sebuah titik dan sebuah
+bilangan bulat atau mengurangi sebuah titik
 
 1043
 00:45:54,480 --> 00:45:55,380
-and an integer.
+dan sebuah bilangan bulat.
 
 1044
 00:45:55,380 --> 00:45:56,490
-That's not defined, right?
+Itu tidak terdefinisi, benar?
 
 1045
 00:45:56,490 --> 00:46:00,300
-You say, OK, here's
-this point p minus 7.
+Anda mengatakan, oke,
+ini titik p minus 7.
 
 1046
 00:46:00,300 --> 00:46:02,130
-Well, does that mean
-move the x-axis?
+Jadi, apakah itu artinya
+memindahkan sumbu x?
 
 1047
 00:46:02,130 --> 00:46:03,840
-Does that mean move the y?
+Apakah itu arti nya memindahkan y?
 
 1048
 00:46:03,840 --> 00:46:05,320
-It's not defined.
+Itu tidak terdefinisi.
 
 1049
 00:46:05,320 --> 00:46:07,410
-However, you can do this, right?
+Namun, Anda dapat melakukan ini, benar?
 
 1050
 00:46:07,410 --> 00:46:10,020
-You can multiply and divide.
+Anda dapat mengalikan dan membagi.
 
 1051
 00:46:10,020 --> 00:46:13,530
-So you can say, well,
-A times 2, well,
+Jadi Anda dapat mengatakan, baik,
+A dikali 2, baik,
 
 1052
 00:46:13,530 --> 00:46:14,700
-you take the tangent, right?
+Anda dapat mengambil garis singgung, benar?
 
 1053
 00:46:14,700 --> 00:46:19,080
-It's just A plus A. Or A times
-7, is we just break it down as
+Itu hanya A ditambah A. Atau A dikali
+7, kita hanya menjabarkan menjadi
 
 1054
 00:46:19,080 --> 00:46:21,720
-A plus A plus A plus A 17 times.
+A ditambah A ditambah A ditambah A sebanyak 17 kali.
 
 1055
 00:46:21,720 --> 00:46:23,580
-We can also divide,
-which is a little weird
+Kita juga dapat membagi,
+yang sedikit aneh
 
 1056
 00:46:23,580 --> 00:46:27,600
-because we have to
-find the inverse of B
+karena kita harus
+menemukan invers dari B
 
 1057
 00:46:27,600 --> 00:46:29,640
-and then multiply by that--
+lalu kalikan dengan itu--
 
 1058
 00:46:29,640 --> 00:46:33,825
-the multiplicative inverse
-of B modulo the order.
+invers perkalian
+dari B modulo orde nya.
 
 1059
 00:46:33,825 --> 00:46:35,958
-But anyway, you can do these.
+Tetapi bagaimana pun, Anda dapat melakukan ini.
 
 1060
 00:46:35,958 --> 00:46:37,500
-This is a little
-trickier because you
+Ini sedikit
+lebih rumit karena Anda
 
 1061
 00:46:37,500 --> 00:46:39,810
-have to compute what, like,
-B to the negative 1 is
+harus menghitung berapakah, seperti,
+B pangkat negatif 1
 
 1062
 00:46:39,810 --> 00:46:40,920
-and multiply by that.
+dan dikali oleh itu.
 
 1063
 00:46:40,920 --> 00:46:41,760
-You can do it.
+Anda dapat melakukannya.
 
 1064
 00:46:41,760 --> 00:46:45,468
-So you can do these things where
-you have points times scalars.
+Jadi Anda dapat melakukan hal ini di mana
+Anda memiliki titik-titik dikali skalar.
 
 1065
 00:46:45,468 --> 00:46:46,260
-But you cannot add.
+Tetapi Anda tidak dapat menjumlahkannya.
 
 1066
 00:46:46,260 --> 00:46:46,440
-Yeah?
+Yah?
 
 1067
 00:46:46,440 --> 00:46:48,110
-AUDIENCE: So 2A is
-basically joining
+AUDIENS: Jadi 2A adalah
+pada dasarnya menggabungkan
 
 1068
 00:46:48,110 --> 00:46:50,480
-the tangent to A,
-[INAUDIBLE] beginning.
+garis singgung dengan A,
+[TIDAK TERDENGAR] awal.
 
 1069
 00:46:50,480 --> 00:46:51,300
-TADGE DRYJA: Yep.
+TADGE DRYJA: Ya.
 
 1070
 00:46:51,300 --> 00:46:54,060
-So that was here.
+Jadi itu ada di sini.
 
 1071
 00:46:54,060 --> 00:46:55,800
-If this is G, this is 2G.
+Jika ini adalah G, ini adalah 2G.
 
 1072
 00:46:55,800 --> 00:47:00,140
-Find the tangent, find the
-intersection, and then negate.
+Cari garis singgung nya, cari
+perpotongan nya, lalu negasikan.
 
 1073
 00:47:00,140 --> 00:47:00,640
-OK.
+Oke.
 
 1074
 00:47:00,640 --> 00:47:03,260
-So you can do that.
+Jadi Anda dapat melakukan itu.
 
 1075
 00:47:03,260 --> 00:47:03,760
-That's cool.
+Itu keren.
 
 1076
 00:47:03,760 --> 00:47:06,220
-You cannot do that.
+Anda tidak dapat melakukan itu.
 
 1077
 00:47:06,220 --> 00:47:06,720
-OK.
+Oke.
 
 1078
 00:47:06,720 --> 00:47:10,540
-So roster of
-operations we can do.
+Jadi daftar dari
+operasi yang dapat kita lakukan.
 
 1079
 00:47:10,540 --> 00:47:11,690
-This is it.
+Ini dia.
 
 1080
 00:47:11,690 --> 00:47:13,600
-And this is sort of,
-if you think of that,
+Dan ini semacam,
+jika Anda memikirkan tentang itu,
 
 1081
 00:47:13,600 --> 00:47:15,410
-you can do all
-these cool things.
+Anda dapat melakukan semua
+aktivitas keren ini.
 
 1082
 00:47:15,410 --> 00:47:17,260
-It's sort of amazing,
-all the crazy things
+Dia semacam menakjubkan,
+semua hal gila
 
 1083
 00:47:17,260 --> 00:47:19,690
-you can do with just
-these operations, right?
+yang dapat Anda dapat lakukan hanya dengan
+operasi ini, benar?
 
 1084
 00:47:19,690 --> 00:47:22,010
-With regular numbers, you
-can do whatever you want.
+Dengan angka-angka biasa, Anda
+dapat melakukan apa pun yang Anda inginkan.
 
 1085
 00:47:22,010 --> 00:47:23,380
-That's obvious.
+Itu sangat jelas.
 
 1086
 00:47:23,380 --> 00:47:26,260
-And with these points, you
-can add and subtract them.
+Dan dengan titik ini, Anda
+dapat menambah dan mengurangkan nya.
 
 1087
 00:47:26,260 --> 00:47:29,380
-And when you mix, you
-can multiply and divide.
+Dan ketika Anda mencampur nya, Anda
+dapat mengalikan dan membagi.
 
 1088
 00:47:29,380 --> 00:47:30,590
-And that's it.
+Dan itu saja.
 
 1089
 00:47:30,590 --> 00:47:31,090
-OK.
+Oke.
 
 1090
 00:47:31,090 --> 00:47:34,330
-Any questions so far?
+Sejauh ini ada pertanyaan?
 
 1091
 00:47:34,330 --> 00:47:37,275
-You don't have to worry too
-much about the curves and all
+Anda tidak perlu terlalu khawatir
+tentang kurva dan tentang
 
 1092
 00:47:37,275 --> 00:47:38,380
-of the math and stuff.
+semua hal matematis dan lain nya.
 
 1093
 00:47:38,380 --> 00:47:41,105
