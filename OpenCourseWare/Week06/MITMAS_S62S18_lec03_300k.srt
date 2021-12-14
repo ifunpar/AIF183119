@@ -4744,7 +4744,7 @@ sistem yang sebenarnya.
 1028
 00:45:15,600 --> 00:45:19,380
 Tetapi Anda bisa semacam melupakan tentang
-kurva setelah ini, benar?
+kurvanya setelah ini, benar?
 
 1029
 00:45:19,380 --> 00:45:25,140
@@ -4763,7 +4763,7 @@ kurva, kita dapat semacam memisahkan
 1032
 00:45:29,070 --> 00:45:31,650
 dan mengetahui bahwa kita
-memiliki beberapa jenis yang berbeda
+memiliki beberapa jenis yang berbeda,
 
 1033
 00:45:31,650 --> 00:45:32,460
@@ -4771,16 +4771,16 @@ pada dasarnya.
 
 1034
 00:45:32,460 --> 00:45:34,110
-Dan ketika Anda di dalam
+Dan ketika Anda berada di dalam
 komputer, Anda seperti,
 
 1035
 00:45:34,110 --> 00:45:35,100
-ya, itu poin nya.
+ya, itu intinya.
 
 1036
 00:45:35,100 --> 00:45:35,970
-Itu adalah skalar.
+Itu adalah sebuah nilai skalar.
 
 1037
 00:45:35,970 --> 00:45:37,670
@@ -4819,12 +4819,12 @@ Itu tidak terdefinisi, benar?
 
 1045
 00:45:56,490 --> 00:46:00,300
-Anda mengatakan, oke, disini
+Anda mengatakan, oke,
 ini titik p minus 7.
 
 1046
 00:46:00,300 --> 00:46:02,130
-Jadi, apakah itu arti nya
+Jadi, apakah itu artinya
 memindahkan sumbu x?
 
 1047
@@ -4877,8 +4877,8 @@ lalu kalikan dengan itu--
 
 1058
 00:46:29,640 --> 00:46:33,825
-perkalian invers
-dari urutan modulo B.
+invers perkalian
+dari B modulo orde nya.
 
 1059
 00:46:33,825 --> 00:46:35,958
@@ -4891,8 +4891,8 @@ lebih rumit karena Anda
 
 1061
 00:46:37,500 --> 00:46:39,810
-harus menghitung, seperti,
-B ke negatif 1 itu apa
+harus menghitung berapakah, seperti,
+B pangkat negatif 1
 
 1062
 00:46:39,810 --> 00:46:40,920
@@ -4905,7 +4905,7 @@ Anda dapat melakukannya.
 1064
 00:46:41,760 --> 00:46:45,468
 Jadi Anda dapat melakukan hal ini di mana
-Anda memiliki titik dikali skalar.
+Anda memiliki titik-titik dikali skalar.
 
 1065
 00:46:45,468 --> 00:46:46,260
@@ -4918,11 +4918,11 @@ Yah?
 1067
 00:46:46,440 --> 00:46:48,110
 AUDIENS: Jadi 2A adalah
-pada dasarnya bergabung
+pada dasarnya menggabungkan
 
 1068
 00:46:48,110 --> 00:46:50,480
-dengan garis singgung ke A,
+garis singgung dengan A,
 [TIDAK TERDENGAR] awal.
 
 1069
@@ -4931,7 +4931,7 @@ TADGE DRYJA: Ya.
 
 1070
 00:46:51,300 --> 00:46:54,060
-Jadi itu di sini.
+Jadi itu ada di sini.
 
 1071
 00:46:54,060 --> 00:46:55,800
@@ -4988,12 +4988,12 @@ semua hal gila
 
 1083
 00:47:17,260 --> 00:47:19,690
-Anda dapat melakukan hanya dengan
+yang dapat Anda dapat lakukan hanya dengan
 operasi ini, benar?
 
 1084
 00:47:19,690 --> 00:47:22,010
-Dengan angka biasa, Anda
+Dengan angka-angka biasa, Anda
 dapat melakukan apa pun yang Anda inginkan.
 
 1085
@@ -5029,7 +5029,7 @@ tentang kurva dan tentang
 
 1092
 00:47:37,275 --> 00:47:38,380
-semua matematika dan hal lain nya.
+semua hal matematis dan lain nya.
 
 1093
 00:47:38,380 --> 00:47:41,105
