@@ -4391,105 +4391,105 @@ harus dapat memastikan
 
 927
 00:39:39,180 --> 00:39:44,040
-that you correctly distinguish
-different encrypted sites
+bahwa Anda mengenali dengan benar
+situs-situs terenkripsi yang berbeda
 
 928
 00:39:44,040 --> 00:39:44,940
-from one another.
+antara satu sama lain.
 
 929
 00:39:44,940 --> 00:39:47,420
-It then turns out cookies
-have a different policy
+Kemudian ternyata cookie
+memiliki aturan yang berbeda
 
 930
 00:39:47,420 --> 00:39:49,072
-for historical reasons.
+karena alasan sejarah.
 
 931
 00:39:49,072 --> 00:39:50,530
-So let's first talk
-about how we're
+Jadi mari pertama-tama kita bicarakan
+bagaimana cara kita
 
 932
 00:39:50,530 --> 00:39:52,740
-going to distinguish
-different encrypted sites
+untuk mengenali
+situs-situs terenkripsi yang berbeda
 
 933
 00:39:52,740 --> 00:39:53,980
-from one another.
+antara satu sama lain.
 
 934
 00:39:53,980 --> 00:39:56,010
-So the plan for that
-is that actually,
+Jadi rencana untuk itu
+adalah sebenarnya,
 
 935
 00:39:56,010 --> 00:40:02,965
-the host name via the URL has to
-be the name in the certificate.
+nama host yang ada di URL harus
+menjadi nama yang ada di sertifikat.
 
 936
 00:40:05,730 --> 00:40:07,627
-So that's what
-actually turns out
+Jadi itulah
+sebenarnya yang
 
 937
 00:40:07,627 --> 00:40:09,126
-that the certificate
-authorities are
+akan pengelola
+sertifikat
 
 938
 00:40:09,126 --> 00:40:10,600
-going to sign at
-the end of the day
+tanda tangani
+pada akhirnya
 
 939
 00:40:10,600 --> 00:40:14,150
-So we're going to literally
-sign the host name that shows up
+Jadi kita akan benar-benar
+menanda tangani nama host yang muncul
 
 940
 00:40:14,150 --> 00:40:18,510
-in your URL as the name for
-your web server's public key.
+pada URL Anda sebagai nama dari
+kunci publik milik server web Anda.
 
 941
 00:40:18,510 --> 00:40:22,684
-So Amazon presumably has a
-certificate for www.amazon.com.
+Jadi Amazon semestinya memiliki
+sertifikat untuk www.amazon.com.
 
 942
 00:40:22,684 --> 00:40:24,100
-That's the name,
-and then whatever
+Itu adalah namanya,
+kemudian apapun
 
 943
 00:40:24,100 --> 00:40:27,000
-the public key corresponding
-to their secret key is.
+kunci publik yang sesuai
+dengan kunci rahasia mereka.
 
 944
 00:40:27,000 --> 00:40:29,050
-And this is what the
-browser's going to look for.
+Dan inilah yang akan
+dicari oleh peramban.
 
 945
 00:40:29,050 --> 00:40:31,970
-So if it gets a
-certificate-- well,
+Jadi jika dia mendapatkan
+sertifikat-- ya,
 
 946
 00:40:31,970 --> 00:40:38,016
-if it tries to connect or get
-a URL that's https://foo.com,
+jika dia mencoba untuk terhubung atau mendapatkan
+sebuah URL yaitu https://foo.com,
 
 947
 00:40:38,016 --> 00:40:40,620
-it better be the case that the
-server presents a certificate
+sebaiknya itu menjadi kasus dimana
+server menyediakan sertifikat
 
 948
 00:40:40,620 --> 00:40:42,570
