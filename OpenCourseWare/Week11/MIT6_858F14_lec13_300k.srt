@@ -3015,11 +3015,8 @@ agak disayangkan.
 
 633
 00:27:49,349 --> 00:27:52,380
-You'd have to have the Kerberos
-server call back to the service
-Anda harus memiliki panggilan
-server Kerberos untuk kembali ke layanan
-
+Server Kerberos harus memanggil
+balik layanannya
 
 634
 00:27:52,380 --> 00:27:53,380
@@ -3027,52 +3024,45 @@ dan begitu seterusnya.
 
 635
 00:27:53,380 --> 00:27:56,610
-So instead, these guys have
-this nice trick where they just
 Jadi sebagai gantinya, orang-orang ini memiliki
-trik bagus dimana mereka hanya
+trik bagus ini di mana mereka hanya
 
 636
 00:27:56,610 --> 00:27:58,899
-to give the client does
-blob that the client
-memberikan klien yang melakukan blob
-dari klien itu
+memberikan klien gumpalan data
+di mana klien tersebut
 
 637
 00:27:58,899 --> 00:28:00,440
-yang sebenarnya tidak bisa
-melakukan apapun dengan yang lain
+sebenarnya tidak bisa
+melakukan apapun selain
 
 638
 00:28:00,440 --> 00:28:02,290
-daripada memberikan layanan yang benar.
+memberikan layanan yang benar.
 
 639
 00:28:02,290 --> 00:28:04,470
-dan jika layana
-telah memiliki kunci KS yang benar,
+Dan jika layanannya
+telah memiliki kunci yang benar KS,
 
 640
 00:28:04,470 --> 00:28:06,260
-they'll decrypt it and say, aha.
-mereka akan mendekripsi itu dan bilang, aha.
+mereka akan mendekripsinya dan bilang, aha.
 
 641
 00:28:06,260 --> 00:28:10,420
-baik, ini kunci nya yang harus nya saya
-gunakan untuk berkomunikasi dengan client.
+Baik, ini kunci yang harus saya
+gunakan untuk berkomunikasi dengan klien.
 
 642
 00:28:10,420 --> 00:28:13,970
-dan itu bagaimana 2 orang tersebut,
+Dan begitulah bagaimana 2 pihak ini,
 klien dan layananya,
 
 643
 00:28:13,970 --> 00:28:16,320
-are going to establish a
-shared key for protecting
-mulai membangun sebuah
+akan membangun sebuah
 kunci bersama untuk melindungi
 
 644
@@ -3085,14 +3075,11 @@ Yeah.
 
 646
 00:28:17,700 --> 00:28:19,670
-STUDENT: So what exactly is TGS?
-MAHASISWA: jadi apa sebetulnya TGS ini?
+MAHASISWA: jadi apa sebetulnya TGS?
 
 647
 00:28:19,670 --> 00:28:24,160
-PROFESSOR: So TGS
-is-- OK, so there's
-PROFESSOR: Jadi TGS
+PROFESOR: Jadi TGS
 adalah-- OK, jadi terdapat 
 
 648
@@ -3101,8 +3088,8 @@ semacam dua sisi tentang itu.
 
 649
 00:28:25,820 --> 00:28:28,620
-Dari perpektif client,
-TGS hanyalah service lain
+Dari perpektif klien,
+TGS hanyalah layanan lain
 
 650
 00:28:28,620 --> 00:28:30,290
@@ -3119,7 +3106,7 @@ adalah mendapatkan lebih banyak tiket.
 
 653
 00:28:33,690 --> 00:28:35,010
-Itu adalah layanan pemberian tiket.
+Itu adalah layanan pemberian tiket (TGS).
 
 654
 00:28:35,010 --> 00:28:37,310
@@ -3132,13 +3119,13 @@ PROFESOR: Oh, maaf.
 
 656
 00:28:38,520 --> 00:28:41,760
-TGS ini hanyalah steno
+TGS ini hanyalah singkatan
 untuk seluruh gumpalan ini
 
 657
 00:28:41,760 --> 00:28:45,565
 kecuali dimana S adalah
-nama utama dari service TGS
+nama prinsipiel dari layanan TGS
 
 658
 00:28:45,565 --> 00:28:46,065
@@ -3146,13 +3133,13 @@ ini.
 
 659
 00:28:48,527 --> 00:28:50,860
-Jadi kamu bisa memikirkan itu
-seperti, ada sebuah server
+Jadi Anda bisa menganggapnya
+seperti, yah, ada sebuah server
 
 660
 00:28:50,860 --> 00:28:52,770
-Kerberos, ada juga service
-TGS diluar sana,
+Kerberos, ada juga layanan
+TGS di luar sana,
 
 661
 00:28:52,770 --> 00:28:54,230
@@ -3162,20 +3149,20 @@ ingin saya dapatkan.
 662
 00:28:54,230 --> 00:28:56,170
 Jadi pertama-tama Anda
-tanya orang ini untuk memberikan
+tanya orang ini untuk memberikan saya
 
 663
 00:28:56,170 --> 00:28:57,950
-sebuah tiket untuk beberapa service.
+sebuah tiket untuk beberapa layanan.
 
 664
 00:28:57,950 --> 00:29:00,530
-Anda bisa bertanya kepadanya untuk 
-memberikan tiket secara langsung untuk file
+Anda bisa bertanya kepadanya untuk
+memberikan tiket secara langsung untuk server
 
 665
 00:29:00,530 --> 00:29:01,550
-server.
+file.
 
 666
 00:29:01,550 --> 00:29:02,400
@@ -3193,18 +3180,18 @@ KC Anda di setiap waktu.
 
 669
 00:29:06,044 --> 00:29:07,460
-Jadi sebagai gantinya,
-Anda mendapatkan
+Jadi sebagai gantinya, yang Anda lakukan
+adalah Anda mendapatkan
 
 670
 00:29:07,460 --> 00:29:10,595
 tiket untuk layanan
-istimewa di sini.
+istimewa ini.
 
 671
 00:29:10,595 --> 00:29:12,720
 Itu terlihat seperti layanan
-kecuali
+kecuali bahwa itu
 
 672
 00:29:12,720 --> 00:29:15,630
@@ -3218,7 +3205,7 @@ akan memberikan Anda lebih banyak tiket
 674
 00:29:18,310 --> 00:29:23,210
 tanpa perlu
-menyajikan KC awal Anda lagi.
+memberikan KC awal Anda lagi.
 
 675
 00:29:23,210 --> 00:29:24,143
@@ -3248,32 +3235,32 @@ jadi itu sebenarnya
 
 681
 00:29:34,840 --> 00:29:36,660
-hal yang keren mengenai
+yang keren mengenai hal
 itu adalah ketika
 
 682
 00:29:36,660 --> 00:29:40,250
-anda mendapatkan tiket ini-- jadi, tiket
+Anda mendapatkan tiket ini-- yah, tiket
 ini dengan S menjadi TGS,
 
 683
 00:29:40,250 --> 00:29:43,450
-kemudian anda akan 
+kemudian Anda akan
 menghilangkan kata sandi dan KC.
 
 684
 00:29:43,450 --> 00:29:46,836
-Jadi anda masuk kedalam tempat kerja
+Jadi Anda masuk ke dalam tempat kerja
 Athena dan beberapa
 
 685
 00:29:46,836 --> 00:29:48,210
 detik menuju
-proses penyalaan,
+proses inisiasi,
 
 686
 00:29:48,210 --> 00:29:49,584
-anda telah mendapatkan
+Anda telah mendapatkan
 tiket anda disini.
 
 687
@@ -3284,7 +3271,7 @@ kata sandi dari memori.
 688
 00:29:51,280 --> 00:29:54,240
 Jadi bahkan jika seseorang, seperti,
-memegang anda dan memegang mesin
+memegang Anda dan memegang mesin
 
 689
 00:29:54,240 --> 00:29:56,870
@@ -3298,7 +3285,7 @@ mengakses barang anda selama 10 jam
 
 691
 00:29:59,830 --> 00:30:01,410
-atau apapun
+atau berapapun
 masa berlaku tiketnya,
 
 692
@@ -3320,37 +3307,37 @@ hilang, maka pada gambar itu
 
 696
 00:30:08,912 --> 00:30:11,000
-disana ketika kerberos
+di sana ketika Kerberos
 mengirim sebuah balasan
 
 697
 00:30:11,000 --> 00:30:14,220
-enkripsi dengan KC,
+terenkripsi dengan KC,
 bagaimana klien--
 
 698
 00:30:14,220 --> 00:30:16,680
-Oh yeah, jadi ini adalah salah
-satu tempat kamu membutuhkan passowrd kamu.
+Oh yah, jadi ini adalah salah
+satu tempat di mana Anda membutuhkan passowrd Anda.
 
 699
 00:30:16,680 --> 00:30:19,650
-jadi kamu mengirim pesan ini,
+Jadi Anda mengirim pesan ini,
 kamu mendapatkan balasan ini,
 
 700
 00:30:19,650 --> 00:30:22,603
-kamu mendekripsi ini,dan kemudian
-kamu melupakan passwordnya.
+Anda mendekripsi ini, dan kemudian
+Anda melupakan passwordnya.
 
 701
 00:30:22,603 --> 00:30:24,186
-Jadi kamu tidak bisa melupakan
-tentang password nya
+Jadi Anda tidak bisa melupakan
+passwordnya
 
 702
 00:30:24,186 --> 00:30:26,220
-sebelum kamu mengunakan itu untuk
+sebelum Anda mengunakannya untuk
 dekrpisi tentu saja.
 
 703
@@ -3364,12 +3351,12 @@ hanya antarmuka ini saja, benar?
 
 705
 00:30:30,590 --> 00:30:33,470
-Jadi hal ini
-yang anda lakukan dahulu.
+Jadi ini adalah hal
+yang Anda lakukan terlebih dahulu.
 
 706
 00:30:33,470 --> 00:30:36,220
-Dan kita akan bicara sebentar
+Dan sebentar lagi kita akan bicara
 tentang bagaimana Anda pada dasarnya juga
 
 707
@@ -3380,7 +3367,7 @@ dari antarmuka kedua
 708
 00:30:38,840 --> 00:30:43,924
 tanpa membutukan
-inisiasi kunci KC.
+kunci awal KC.
 
 709
 00:30:43,924 --> 00:30:46,760
@@ -3394,11 +3381,11 @@ kita telah membicarakan
 711
 00:30:49,530 --> 00:30:53,920
 tentang dua masalah khusus
-dimana kerberos protocol memiliki
+dimana protokol Kerberos memiliki
 
 712
 00:30:53,920 --> 00:30:56,830
-semacam dipanggang ke dalamnya, yang
+semacam di-hardcode ke dalamnya, yang
 sedikit disayangkan.
 
 713
@@ -3408,7 +3395,7 @@ enkripsi itu juga
 
 714
 00:30:59,520 --> 00:31:02,440
-menyediakan otentikasi
+menyediakan autentikasi
 atau integritas pesan.
 
 715
@@ -3417,8 +3404,8 @@ Jadi jangan lakukan itu.
 
 716
 00:31:03,270 --> 00:31:05,040
-And Kerberos
-Versi 5 telah memperbaiki ini
+Dan Kerberos
+versi 5 telah memperbaiki ini
 
 717
 00:31:05,040 --> 00:31:07,770
