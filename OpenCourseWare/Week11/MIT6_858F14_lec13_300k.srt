@@ -3015,59 +3015,59 @@ agak disayangkan.
 
 633
 00:27:49,349 --> 00:27:52,380
-You'd have to have the Kerberos
-server call back to the service
+Server Kerberos harus memanggil
+balik layanannya
 
 634
 00:27:52,380 --> 00:27:53,380
-and so on.
+dan begitu seterusnya.
 
 635
 00:27:53,380 --> 00:27:56,610
-So instead, these guys have
-this nice trick where they just
+Jadi sebagai gantinya, orang-orang ini memiliki
+trik bagus ini di mana mereka hanya
 
 636
 00:27:56,610 --> 00:27:58,899
-to give the client does
-blob that the client
+memberikan klien gumpalan data
+di mana klien tersebut
 
 637
 00:27:58,899 --> 00:28:00,440
-can't actually do
-anything with other
+sebenarnya tidak bisa
+melakukan apapun selain
 
 638
 00:28:00,440 --> 00:28:02,290
-than give to the right service.
+memberikan layanan yang benar.
 
 639
 00:28:02,290 --> 00:28:04,470
-And if the service
-has the right key KS,
+Dan jika layanannya
+telah memiliki kunci yang benar KS,
 
 640
 00:28:04,470 --> 00:28:06,260
-they'll decrypt it and say, aha.
+mereka akan mendekripsinya dan bilang, aha.
 
 641
 00:28:06,260 --> 00:28:10,420
-Well, here's the key I should be
-using to speak to this client.
+Baik, ini kunci yang harus saya
+gunakan untuk berkomunikasi dengan klien.
 
 642
 00:28:10,420 --> 00:28:13,970
-And that's how these two guys,
-the client and the service,
+Dan begitulah bagaimana 2 pihak ini,
+klien dan layananya,
 
 643
 00:28:13,970 --> 00:28:16,320
-are going to establish a
-shared key for protecting
+akan membangun sebuah
+kunci bersama untuk melindungi
 
 644
 00:28:16,320 --> 00:28:17,200
-their communication.
+komunikasi mereka.
 
 645
 00:28:17,200 --> 00:28:17,700
@@ -3075,337 +3075,337 @@ Yeah.
 
 646
 00:28:17,700 --> 00:28:19,670
-STUDENT: So what exactly is TGS?
+MAHASISWA: jadi apa sebetulnya TGS?
 
 647
 00:28:19,670 --> 00:28:24,160
-PROFESSOR: So TGS
-is-- OK, so there's
+PROFESOR: Jadi TGS
+adalah-- OK, jadi terdapat 
 
 648
 00:28:24,160 --> 00:28:25,820
-sort of two sides to it.
+semacam dua sisi tentang itu.
 
 649
 00:28:25,820 --> 00:28:28,620
-From the client's point of
-view, it's just another service
+Dari perpektif klien,
+TGS hanyalah layanan lain
 
 650
 00:28:28,620 --> 00:28:30,290
-that you can get a ticket for.
+untuk mendapatkan sebuah tiket.
 
 651
 00:28:30,290 --> 00:28:32,540
-And the kinds of
-operations it supports
+Dan jenis operasi
+yang didukungnya
 
 652
 00:28:32,540 --> 00:28:33,690
-is getting more tickets.
+adalah mendapatkan lebih banyak tiket.
 
 653
 00:28:33,690 --> 00:28:35,010
-It's a Ticket Granting Service.
+Itu adalah layanan pemberian tiket (TGS).
 
 654
 00:28:35,010 --> 00:28:37,310
-STUDENT: Sorry, I meant what
-is the ticket called TGS.
+MAHASISWA: Maaf, maksud saya
+apa nama tiketnya TGS.
 
 655
 00:28:37,310 --> 00:28:38,520
-PROFESSOR: Oh, yeah, sorry.
+PROFESOR: Oh, maaf.
 
 656
 00:28:38,520 --> 00:28:41,760
-This TGS is just shorthand
-for this whole blob
+TGS ini hanyalah singkatan
+untuk seluruh gumpalan ini
 
 657
 00:28:41,760 --> 00:28:45,565
-except where S is actually
-the principal name of this TGS
+kecuali dimana S adalah
+nama prinsipiel dari layanan TGS
 
 658
 00:28:45,565 --> 00:28:46,065
-service.
+ini.
 
 659
 00:28:48,527 --> 00:28:50,860
-So you can think of it as
-like, well, there's a Kerberos
+Jadi Anda bisa menganggapnya
+seperti, yah, ada sebuah server
 
 660
 00:28:50,860 --> 00:28:52,770
-server, there's this
-TGS service out there,
+Kerberos, ada juga layanan
+TGS di luar sana,
 
 661
 00:28:52,770 --> 00:28:54,230
-and then there's the real
-thing I want to get to.
+dan ada hal nyata yang
+ingin saya dapatkan.
 
 662
 00:28:54,230 --> 00:28:56,170
-So you first ask
-this guy to give me
+Jadi pertama-tama Anda
+tanya orang ini untuk memberikan saya
 
 663
 00:28:56,170 --> 00:28:57,950
-a ticket for some service.
+sebuah tiket untuk beberapa layanan.
 
 664
 00:28:57,950 --> 00:29:00,530
-You could ask it to give you
-directly a ticket for the file
+Anda bisa bertanya kepadanya untuk
+memberikan tiket secara langsung untuk server
 
 665
 00:29:00,530 --> 00:29:01,550
-server.
+file.
 
 666
 00:29:01,550 --> 00:29:02,400
-And this would work.
+Dan ini akan bekerja.
 
 667
 00:29:02,400 --> 00:29:04,040
-But you'd need your
-KC to decrypt it
+Tapi Anda membutuhkan
+KC Anda untuk mendekripsinya
 
 668
 00:29:04,040 --> 00:29:06,044
-and then you'd need your
-KC around all the time.
+kemudian Anda membutuhkan
+KC Anda di setiap waktu.
 
 669
 00:29:06,044 --> 00:29:07,460
-So instead, what
-you do is you get
+Jadi sebagai gantinya, yang Anda lakukan
+adalah Anda mendapatkan
 
 670
 00:29:07,460 --> 00:29:10,595
-a ticket for this special
-service over here.
+tiket untuk layanan
+istimewa ini.
 
 671
 00:29:10,595 --> 00:29:12,720
-It looks just like a service
-except that it happens
+Itu terlihat seperti layanan
+kecuali bahwa itu
 
 672
 00:29:12,720 --> 00:29:15,630
-to be provided by the same box.
+disediakan oleh kotak yang sama.
 
 673
 00:29:15,630 --> 00:29:18,310
-And then this guy will
-happily give you more tickets
+lalu nantinya orang ini dengan senang hati
+akan memberikan Anda lebih banyak tiket
 
 674
 00:29:18,310 --> 00:29:23,210
-later without having to
-present your initial KC again.
+tanpa perlu
+memberikan KC awal Anda lagi.
 
 675
 00:29:23,210 --> 00:29:24,143
-Makes sense?
+Masuk akal?
 
 676
 00:29:24,143 --> 00:29:26,830
-All right, other questions?
+Baiklah, pertanyaan lain?
 
 677
 00:29:26,830 --> 00:29:27,662
-Yeah.
+Ya.
 
 678
 00:29:27,662 --> 00:29:32,482
-STUDENT: So [INAUDIBLE] the idea
-is once you get the TGS ticket,
+MAHASISWA: Jadi [TIDAK TERDENGAR] idenya
+adalah setelah Anda mendapatkan tiket TGSnya,
 
 679
 00:29:32,482 --> 00:29:33,940
-you can just get rid of your KC?
+Anda bisa menghilangkan KC Anda?
 
 680
 00:29:33,940 --> 00:29:34,840
-PROFESSOR: Yes,
-so that's actually
+PROFESOR: Ya,
+jadi itu sebenarnya
 
 681
 00:29:34,840 --> 00:29:36,660
-the cool thing about
-it is that once
+yang keren mengenai hal
+itu adalah ketika
 
 682
 00:29:36,660 --> 00:29:40,250
-you get this ticket-- well, this
-ticket with the S being TGS,
+Anda mendapatkan tiket ini-- yah, tiket
+ini dengan S menjadi TGS,
 
 683
 00:29:40,250 --> 00:29:43,450
-then you're going to get
-rid of the password and KC.
+kemudian Anda akan
+menghilangkan kata sandi dan KC.
 
 684
 00:29:43,450 --> 00:29:46,836
-So you log into Athena
-workstation and a couple
+Jadi Anda masuk ke dalam tempat kerja
+Athena dan beberapa
 
 685
 00:29:46,836 --> 00:29:48,210
-of seconds into
-the boot process,
+detik menuju
+proses inisiasi,
 
 686
 00:29:48,210 --> 00:29:49,584
-you already get
-your ticket here.
+Anda telah mendapatkan
+tiket anda disini.
 
 687
 00:29:49,584 --> 00:29:51,280
-It scrubs the
-password from memory.
+Itu menghapus 
+kata sandi dari memori.
 
 688
 00:29:51,280 --> 00:29:54,240
-So even if someone, like,
-grabs you and grab the machine
+Jadi bahkan jika seseorang, seperti,
+memegang Anda dan memegang mesin
 
 689
 00:29:54,240 --> 00:29:56,870
-and runs off, all they
-got was your ticket.
+dan kabur, semua yang mereka
+dapatkan adalah tiket anda.
 
 690
 00:29:56,870 --> 00:29:59,830
-And OK, well, maybe they can
-access your stuff for 10 hours
+Dan baik, jadi, mungkin mereka dapat
+mengakses barang anda selama 10 jam
 
 691
 00:29:59,830 --> 00:30:01,410
-or whatever the
-ticket lifetime was,
+atau berapapun
+masa berlaku tiketnya,
 
 692
 00:30:01,410 --> 00:30:02,760
-but not for longer than that.
+tetapi tidak lebih lama dari itu.
 
 693
 00:30:02,760 --> 00:30:05,580
-The password is gone.
+Kata sandi telah hilang.
 
 694
 00:30:05,580 --> 00:30:06,080
-Yeah.
+Ya.
 
 695
 00:30:06,080 --> 00:30:08,912
-So if the password's
-gone, then on that picture
+Jadi jika kata sandi telah
+hilang, maka pada gambar itu
 
 696
 00:30:08,912 --> 00:30:11,000
-there when Kerberos
-sends a reply
+di sana ketika Kerberos
+mengirim sebuah balasan
 
 697
 00:30:11,000 --> 00:30:14,220
-encrypted with KC,
-how does the client--
+terenkripsi dengan KC,
+bagaimana klien--
 
 698
 00:30:14,220 --> 00:30:16,680
-Oh yeah, so this is the one
-place you need your password.
+Oh yah, jadi ini adalah salah
+satu tempat di mana Anda membutuhkan passowrd Anda.
 
 699
 00:30:16,680 --> 00:30:19,650
-So you send this message,
-you get this reply,
+Jadi Anda mengirim pesan ini,
+kamu mendapatkan balasan ini,
 
 700
 00:30:19,650 --> 00:30:22,603
-you decrypt this, and then
-you forget the password.
+Anda mendekripsi ini, dan kemudian
+Anda melupakan passwordnya.
 
 701
 00:30:22,603 --> 00:30:24,186
-So you can't forget
-about the password
+Jadi Anda tidak bisa melupakan
+passwordnya
 
 702
 00:30:24,186 --> 00:30:26,220
-before you use it for
-decryption of course.
+sebelum Anda mengunakannya untuk
+dekrpisi tentu saja.
 
 703
 00:30:26,220 --> 00:30:28,150
-STUDENT: [INAUDIBLE]
+MAHASISWA : [TIDAK TERDENGAR]
 
 704
 00:30:28,150 --> 00:30:30,590
-PROFESSOR: Ah, no, so this is
-just this interface, right?
+PROFESSOR: Ah, tidak, jadi ini
+hanya antarmuka ini saja, benar?
 
 705
 00:30:30,590 --> 00:30:33,470
-So this is the thing
-you do initially.
+Jadi ini adalah hal
+yang Anda lakukan terlebih dahulu.
 
 706
 00:30:33,470 --> 00:30:36,220
-And we'll talk in a second
-about how you basically also
+Dan sebentar lagi kita akan bicara
+tentang bagaimana Anda pada dasarnya juga
 
 707
 00:30:36,220 --> 00:30:38,840
-can get any ticket you want
-from the second interface
+bisa mendapatkan tiket apapun yang anda inginkan
+dari antarmuka kedua
 
 708
 00:30:38,840 --> 00:30:43,924
-without needing
-the initial key KC.
+tanpa membutukan
+kunci awal KC.
 
 709
 00:30:43,924 --> 00:30:46,760
-Right, make sense?
+Benar, masuk akal?
 
 710
 00:30:46,760 --> 00:30:49,530
-All right, so I guess
-we already talked
+Baiklah, jadi saya kira
+kita telah membicarakan
 
 711
 00:30:49,530 --> 00:30:53,920
-about two particular problems
-that the Kerberos protocol had
+tentang dua masalah khusus
+dimana protokol Kerberos memiliki
 
 712
 00:30:53,920 --> 00:30:56,830
-sort of baked into it, which
-is a little unfortunate.
+semacam di-hardcode ke dalamnya, yang
+sedikit disayangkan.
 
 713
 00:30:56,830 --> 00:30:59,520
-One is that they assumed
-that encryption also
+Salah satunya adalah mereka berasumsi
+enkripsi itu juga
 
 714
 00:30:59,520 --> 00:31:02,440
-provides authentication
-or integrity of messages.
+menyediakan autentikasi
+atau integritas pesan.
 
 715
 00:31:02,440 --> 00:31:03,270
-So don't do that.
+Jadi jangan lakukan itu.
 
 716
 00:31:03,270 --> 00:31:05,040
-And Kerberos
-version 5 fixes this
+Dan Kerberos
+versi 5 telah memperbaiki ini
 
 717
 00:31:05,040 --> 00:31:07,770
