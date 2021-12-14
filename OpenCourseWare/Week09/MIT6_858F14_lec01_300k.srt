@@ -6564,206 +6564,486 @@ hal-hal yang tidak seharusnya.
 Sebenarnya, bagaimana
 menurut kalian?
 
+1326
+00:56:36,860 --> 00:56:39,620
+provide that input that seemed
+to be crashing it before.
+
+1327
+00:56:39,620 --> 00:56:41,120
+So I guess one thing
+we can actually
+
+1328
+00:56:41,120 --> 00:56:43,700
+do before this is to see
+whether we can actually
+
+1329
+00:56:43,700 --> 00:56:45,270
+find this return address.
+
+1330
+00:56:45,270 --> 00:56:48,870
+Where it actually happens to
+live is at the EBP pointer.
+
+1331
+00:56:48,870 --> 00:56:52,700
+This is just a convenient thing
+in the x86 calling convention,
+
+1332
+00:56:52,700 --> 00:56:59,270
+that the EBP pointer,
+or register, actually
+
+1333
+00:56:59,270 --> 00:57:02,150
+happens to point to something
+on the stack which is going
+
+1334
+00:57:02,150 --> 00:57:06,040
+to be called the saved EBP.
+
+1335
+00:57:06,040 --> 00:57:08,870
+It's a separate location, sort
+of after all the variables
+
+1336
+00:57:08,870 --> 00:57:10,250
+but before the return address.
+
+1337
+00:57:10,250 --> 00:57:11,666
+And this is the
+thing that's being
+
+1338
+00:57:11,666 --> 00:57:14,800
+saved by those first couple
+of instructions at the top.
+
+1339
+00:57:14,800 --> 00:57:16,630
+And you actually
+sort of examine it.
+
+1340
+00:57:16,630 --> 00:57:23,450
+In GDB you can say, examine x,
+some value, so the EBP pointer
+
+1341
+00:57:23,450 --> 00:57:24,570
+value.
+
+1342
+00:57:24,570 --> 00:57:26,720
+So that's the location
+of the stack, D0B8.
+
+1343
+00:57:26,720 --> 00:57:30,020
+Indeed, it's actually
+above even the i variable.
+
+1344
+00:57:30,020 --> 00:57:30,770
+So it's great.
+
+1345
+00:57:30,770 --> 00:57:32,436
+And it has some other
+value that happens
+
+1346
+00:57:32,436 --> 00:57:36,050
+to be the EBP before
+this function was called.
+
+1347
+00:57:36,050 --> 00:57:38,950
+But then, sort of one
+more memory location
+
+1348
+00:57:38,950 --> 00:57:40,710
+up is going to be
+the return address.
+
+1349
+00:57:40,710 --> 00:57:44,210
+So if we print EBP plus four,
+there's something else there,
+
+1350
+00:57:44,210 --> 00:57:48,800
+this 0x08048E5F.
+
+1351
+00:57:48,800 --> 00:57:51,720
+And let's actually see
+where that's pointing.
+
+1352
+00:57:51,720 --> 00:57:54,485
+So this is something you're
+going to do a lot in the lab.
+
+1353
+00:57:54,485 --> 00:57:56,140
+So you can take this address.
+
+1354
+00:57:56,140 --> 00:57:59,070
+And you can try
+to disassemble it.
+
+1355
+00:57:59,070 --> 00:58:00,130
+So what is this guy?
+
+1356
+00:58:00,130 --> 00:58:02,290
+Where did we end up?
+
+1357
+00:58:02,290 --> 00:58:05,040
+So GDB actually helpfully
+figures out which function
+
+1358
+00:58:05,040 --> 00:58:06,480
+contains that address.
+
+1359
+00:58:06,480 --> 00:58:07,640
+So 5F.
+
+1360
+00:58:07,640 --> 00:58:11,550
+This is the guy that our
+return address is pointing to.
+
+1361
+00:58:11,550 --> 00:58:13,790
+And as you can see, this
+is the instruction right
+
+1362
+00:58:13,790 --> 00:58:16,070
+after the call to redirect.
+
+1363
+00:58:16,070 --> 00:58:17,655
+So when we return
+from redirect, this
+
+1364
+00:58:17,655 --> 00:58:20,570
+is exactly where we're going
+to jump and continue execution.
+
+1365
+00:58:20,570 --> 00:58:22,319
+This is, hopefully,
+fairly straightforward
+
+1366
+00:58:22,319 --> 00:58:25,660
+stuff from double oh four,
+some standard OS class.
+
+1367
+00:58:25,660 --> 00:58:26,160
+OK.
+
+1368
+00:58:26,160 --> 00:58:28,300
+So where are we now?
+
+1369
+00:58:28,300 --> 00:58:33,060
+Just to recap, we can try to
+disassemble our instruction
+
+1370
+00:58:33,060 --> 00:58:33,990
+pointer.
+
+1371
+00:58:33,990 --> 00:58:36,900
+So we're at the beginning
+of redirect right now.
+
+1372
+00:58:36,900 --> 00:58:43,520
+And we can run for a bit, and
+maybe run that getS() function.
+
+1373
+00:58:43,520 --> 00:58:45,210
+So OK, we run next.
+
+1374
+00:58:45,210 --> 00:58:48,620
+What this does is it runs getS()
+and it's waiting for getS()
+
+1375
+00:58:48,620 --> 00:58:49,627
+to return.
+
+1376
+00:58:49,627 --> 00:58:51,960
+We can provide our bad input
+to getS() and try to get it
+
+1377
+00:58:51,960 --> 00:58:54,950
+to crash again and see what's
+going on, really, there, right?
+
+1378
+00:58:54,950 --> 00:58:57,310
+So we can paste a
+bunch of As again.
+
+1379
+00:58:57,310 --> 00:58:57,810
+OK.
+
+1380
+00:58:57,810 --> 00:59:00,420
+So we got out of getS() and
+things are actually still OK,
+
+1381
+00:59:00,420 --> 00:59:00,919
+right?
+
+1382
+00:59:00,919 --> 00:59:02,520
+The program is still running.
+
+1383
+00:59:02,520 --> 00:59:05,830
+But we can try to figure out,
+what is in memory right now
+
+1384
+00:59:05,830 --> 00:59:08,775
+and why are things
+going to go wrong?
+
+1385
+00:59:08,775 --> 00:59:10,150
+Actually, what do
+you guys think?
+
 1386
 00:59:10,150 --> 00:59:11,025
-Apa yang terjadi, betul?
+What happened, right?
 
 1387
 00:59:11,025 --> 00:59:12,980
-Jadi saya mencetak banyak As.
+So I printed out a bunch of As.
 
 1388
 00:59:12,980 --> 00:59:14,560
-Apa yang getS()
-lakukan pada memori?
+What did getS()
+do to the memory?
 
 1389
 00:59:16,770 --> 00:59:17,270
-Ya, ya.
+Yeah, yeah.
 
 1390
 00:59:17,270 --> 00:59:18,936
-Jadi itu terus menerus
-menulis As di sini, betul?
+So it just keeps
+writing As here, right?
 
 1391
 00:59:18,936 --> 00:59:21,360
-Yang sebenarnya kami teruskan ke
-getS() adalah sebuah penunjuk tunggal,
+All we actually passed to
+getS() was a single pointer,
 
 1392
 00:59:21,360 --> 00:59:23,410
-awal dari
-alamat ini, betul?
+the start of this
+address, right?
 
 1393
 00:59:23,410 --> 00:59:26,660
-Jadi ini adalah
-argumen untuk getS(),
+So this is the
+argument to getS(),
 
 1394
 00:59:26,660 --> 00:59:28,800
-adalah sebuah penunjuk ke
-lokasi memori ini di stack.
+is a pointer to this memory
+location on the stack.
 
 1395
 00:59:28,800 --> 00:59:30,470
-Jadi itu terus menulis As.
+So it just kept writing As.
 
 1396
 00:59:30,470 --> 00:59:32,470
-Dan sebenarnya tidak
-tahu berapa panjangnya,
+And it doesn't actually
+know what the length is,
 
 1397
 00:59:32,470 --> 00:59:33,760
-jadi itu terus berlangsung, betul?
+so it just keeps going, right?
 
 1398
 00:59:33,760 --> 00:59:36,334
-Ini akan menimpa As
-sepanjang jalan ke atas stack,
+It's going to override As
+all the way up the stack,
 
 1399
 00:59:36,334 --> 00:59:38,500
-melewati alamat pengirim,
-mungkin, dan ke dalam apapun
+past the return address,
+probably, and into whatever
 
 1400
 00:59:38,500 --> 00:59:40,934
-yang ada di atas stack di atas kita.
+was up the stack above us.
 
 1401
 00:59:40,934 --> 00:59:42,600
-Jadi kita dapat memeriksa apakah
-itu masalahnya.
+So we can check whether
+that's the case.
 
 1402
 00:59:42,600 --> 00:59:47,064
-Jadi kita benar-benar dapat
-mencetak buffer.
+So we can actually
+print the buffer.
 
 1403
 00:59:47,064 --> 00:59:48,480
-Dan sebenarnya, itu
-memberitahu kita, ya, kita
+And in fact, it
+tells us, yeah, we
 
 1404
 00:59:48,480 --> 00:59:51,500
-memiliki 180 As di sana,
-meskipun buffer
+have 180 As there,
+even though the buffer
 
 1405
 00:59:51,500 --> 00:59:55,670
-seharusnya 128 elemen besar.
+should be 128 elements large.
 
 1406
 00:59:55,670 --> 00:59:57,310
-Jadi ini tidak terlalu bagus.
+So this is not so great.
 
 1407
 00:59:57,310 --> 00:59:59,530
-Dan kita sebenarnya dapat,
-sekali lagi, memeriksa apa
+And we can actually,
+again, examine what's
 
 1408
 00:59:59,530 --> 01:00:03,290
-yang terjadi di penunjuk EBP itu.
+going on in that EBP pointer.
 
 1409
 01:00:03,290 --> 01:00:05,095
-Tanda dollar, EBP.
+Dollar sign, EBP.
 
 1410
 01:00:05,095 --> 01:00:06,610
-Jadi sebenarnya, ya.
+So in fact, yeah.
 
 1411
 01:00:06,610 --> 01:00:12,159
-Itu semua 0x41, yang merupakan
-pengkodean ASCII dari huruf A.
+It's all 0x41, which is the
+ASCII encoding of the letter A.
 
 1412
 01:00:12,159 --> 01:00:14,200
-Dan sebenarnya, alamat
-pengirim mungkin
+And in fact, the return
+address is probably going
 
 1413
 01:00:14,200 --> 01:00:15,283
-akan menjadi cara yang sama, betul?
+to be the same way, right?
 
 1414
 01:00:15,283 --> 01:00:19,350
-Jika kita mencetak alamat
-pengirim, itu juga semua As.
+If we print the return
+address, it's also all As.
 
 1415
 01:00:19,350 --> 01:00:20,245
-Itu tidak terlalu bagus.
+That's not so great.
 
 1416
 01:00:20,245 --> 01:00:22,370
-Faktanya, apa yang akan
-terjadi jika kita kembali sekarang adalah
+In fact, what's going to
+happen if we return now is
 
 1417
 01:00:22,370 --> 01:00:25,447
-program akan melompat ke
-alamat itu, 41414141.
+the program will jump to
+that address, 41414141.
 
 1418
 01:00:25,447 --> 01:00:26,530
-Dan tidak ada apa-apa di sana.
+And there's nothing there.
 
 1419
 01:00:26,530 --> 01:00:27,196
-Dan itu akan crash.
+And it'll crash.
 
 1420
 01:00:27,196 --> 01:00:29,840
-Itulah kesalahan segmentasi
-yang Anda dapatkan.
+That's the segmentation
+fault you're getting.
 
 1421
 01:00:29,840 --> 01:00:33,090
-Jadi mari melangkah ke sana
-dan lihat apa yang terjadi.
+So let's just step up to
+it and see what happens.
 
 1422
 01:00:33,090 --> 01:00:34,490
-Jadi mari jalankan selanjutnya.
+So let's run next.
 
 1423
 01:00:34,490 --> 01:00:37,470
-Jadi kita terus melangkah
-melalui program.
+So we keep stepping
+through the program.
 
 1424
 01:00:37,470 --> 01:00:40,060
-Dan kita dapat melihat di mana kita berada.
+And we can see where we are.
 
 1425
 01:00:40,060 --> 01:00:40,560
-Oke.
+OK.
 
 1426
 01:00:40,560 --> 01:00:43,330
-Kita semakin dekat
-dengan akhir fungsi.
+We're getting close to
+the end of the function.
 
 1427
 01:00:43,330 --> 01:00:46,400
-Jadi kita dapat melangkahi
-dua instruksi lagi.
+So we can step over
+two more instructions.
 
 1428
 01:00:46,400 --> 01:00:49,260
-selanjutnya.
+nexti.
 
 1429
 01:00:49,260 --> 01:00:51,531
-Dan sekarang kita dapat
-membongkar kembali.
+And now we can
+disassemble again.
 
 1430
 01:00:51,531 --> 01:00:52,030
