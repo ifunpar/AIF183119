@@ -4594,103 +4594,103 @@ to HTTPS requests,
 
 969
 00:41:39,940 --> 00:41:42,330
-or along with HTTPS requests.
+atau bersamaan dengan permintaan HTTPS.
 
 970
 00:41:42,330 --> 00:41:45,700
-And if a cookie doesn't
-have a secure flag,
+Dan jika cookie tidak
+memiliki bendera yang aman,
 
 971
 00:41:45,700 --> 00:41:49,590
-then it applies to both
-HTTP and HTTPS requests.
+maka itu berlaku untuk keduanya
+Permintaan HTTP dan HTTPS.
 
 972
 00:41:49,590 --> 00:41:51,600
-Well, it's a little
-bit complicated, right.
+Yah, itu sedikit
+agak rumit, ya.
 
 973
 00:41:51,600 --> 00:41:53,640
-It would be cleaner
-if cookies just said,
+Itu akan lebih bersih
+jika cookie baru saja bertindak
 
 974
 00:41:53,640 --> 00:41:57,080
-well, this is a cookie
-for an HTTPS post,
+Yah, cookie ini 
+untuk HTTPS post,
 
 975
 00:41:57,080 --> 00:41:58,700
-and this is a cookie
-for HTTP host.
+dan cookie ini 
+untuk HTTPS host.
 
 976
 00:41:58,700 --> 00:42:00,470
-And they're just
-completely different.
+Dan mereka
+benar-benar berbeda.
 
 977
 00:42:00,470 --> 00:42:03,410
-That would be very clear in
-terms of isolating secure sites
+Itu akan sangat jelas di
+persyaratan mengisolasi situs yang aman
 
 978
 00:42:03,410 --> 00:42:05,007
-from insecure sites.
+dari situs tidak aman.
 
 979
 00:42:05,007 --> 00:42:06,590
-Unfortunately, for
-historical reasons,
+Sayangnya, untuk
+alasan sejarah,
 
 980
 00:42:06,590 --> 00:42:09,370
-cookies have this weird
-sort of interaction.
+cookie memiliki hal yang aneh ini
+semacam interaksi.
 
 981
 00:42:09,370 --> 00:42:12,250
-So if a cookie is marked
-secure, then it only
+Jadi jika cookie ditandai
+aman, maka itu hanya
 
 982
 00:42:12,250 --> 00:42:14,660
-applies to HTTPS sites.
+berlaku untuk situs HTTPS.
 
 983
 00:42:14,660 --> 00:42:16,830
-Well, there's a host
-also as well, right.
+Yah, ada host
+juga, benar.
 
 984
 00:42:16,830 --> 00:42:20,920
-So secure cookies apply
-only to HTTPS host URLs,
+Jadi cookie aman berlaku
+hanya untuk URL host HTTPS,
 
 985
 00:42:20,920 --> 00:42:22,740
-and insecure cookies
-apply to both.
+dan cookie yang tidak aman
+berlaku untuk keduanya.
 
 986
 00:42:22,740 --> 00:42:27,310
-So that will be some source of
-problems for us in a second.
+Jadi itu akan menjadi beberapa sumber
+masalah bagi kita.
 
 987
 00:42:27,310 --> 00:42:29,450
-Make sense?
+Masuk akal?
 
 988
 00:42:29,450 --> 00:42:30,080
-All right.
+Baiklah.
 
 989
 00:42:30,080 --> 00:42:32,490
-And the final bit
-that web browsers
+Dan bagian terakhir
+browser web itu
 
 990
 00:42:32,490 --> 00:42:38,870
