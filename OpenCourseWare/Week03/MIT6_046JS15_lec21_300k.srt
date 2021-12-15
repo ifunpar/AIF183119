@@ -5469,393 +5469,393 @@ menekankan bahwa ada
 
 1165
 01:03:39,330 --> 01:03:41,150
-two operations going on.
+dua operasi yang sedang berlangsung.
 
 1166
 01:03:41,150 --> 01:03:42,760
-One of which is a
-signature, which
+Pertama yang merupakan
+tanda tangan, yang
 
 1167
 01:03:42,760 --> 01:03:46,050
-is a private signature, in the
-sense that it's private to me,
+merupakan tanda tangan privat, dalam
+artian tanda tangannya privat bagi saya,
 
 1168
 01:03:46,050 --> 01:03:47,160
-if I'm Alice.
+jika saya adalah Alice.
 
 1169
 01:03:47,160 --> 01:03:48,500
-Or private to Alice.
+Atau privat untuk Alice.
 
 1170
 01:03:48,500 --> 01:03:50,590
-And you're using
-secret information
+Dan Anda sedang menggunakan
+informasi rahasia
 
 1171
 01:03:50,590 --> 01:03:52,810
-on this public message,
-M, because that's
+pada pesan publik M,
+karena itulah
 
 1172
 01:03:52,810 --> 01:03:54,690
-going to be publicized.
+yang akan dipublikasikan.
 
 1173
 01:03:54,690 --> 01:03:57,580
-And you're going to
-sign the public message.
+Dan Anda akan menandatangani
+pesan publik tersebut.
 
 1174
 01:03:57,580 --> 01:04:01,160
-And then anybody in the
-world who has access
+Dan kemudian semua orang di
+dunia yang memiliki akses
 
 1175
 01:04:01,160 --> 01:04:04,190
-to Alice's public key is
-going to be able to say,
+terhadap kunci publik key Alice
+dapat mengatakan bahwa,
 
 1176
 01:04:04,190 --> 01:04:06,840
-oh I'm looking at the signature,
-which is a bunch of bits.
+oh, saya sedang melihat tanda tangannya,
+yang berupa kumpulan bit.
 
 1177
 01:04:06,840 --> 01:04:09,900
-I'm looking at the message,
-which is a whole lot of bits.
+Saya sedang melihat tanda tangannya,
+yang berupa kumpulan bit.
 
 1178
 01:04:09,900 --> 01:04:12,590
-And I have this public key,
-which is a bunch of bits.
+Dan saya punya kunci publik ini,
+yang berupa kumpulan bit.
 
 1179
 01:04:12,590 --> 01:04:16,150
-And I'm going to be
-able to tell for sure
+Dan saya dengan yakin
+dapat mengatakan
 
 1180
 01:04:16,150 --> 01:04:19,340
-that either Alice
-signed this message,
+bahwa antara Alice
+yang menandatangani pesan ini,
 
 1181
 01:04:19,340 --> 01:04:22,560
-or Alice did not
-sign this message.
+atau Alice tidak
+menandatangani pesan ini.
 
 1182
 01:04:22,560 --> 01:04:26,710
-And the assumption
-here is that Alice
+Dan asumsi
+di sini adalah bahwa Alice
 
 1183
 01:04:26,710 --> 01:04:28,950
-kept her private key secret.
+merahasiakan kunci privatnya.
 
 1184
 01:04:28,950 --> 01:04:30,970
-And of course, what
-I just wrote there,
+Dan tentu saja, apa
+yang baru saja saya tulis di sana,
 
 1185
 01:04:30,970 --> 01:04:33,450
-that the public key
-does not reveal anything
+bahwa kunci publik
+tidak mengungkapkan apapun
 
 1186
 01:04:33,450 --> 01:04:35,530
-about the secret key, OK?
+tentang kunci rahasia, oke?
 
 1187
 01:04:35,530 --> 01:04:38,350
-So that's digital signatures
-for you, in a nutshell.
+Jadi itu merupakan tanda tangan digital
+untuk Anda, singkatnya.
 
 1188
 01:04:38,350 --> 01:04:40,990
-And when you do MIT
-certificates you're
+Dan ketika Anda membuat sertifikat
+MIT, Anda
 
 1189
 01:04:40,990 --> 01:04:45,130
-using digital signatures a la
-Rivest-Shamir-Adleman, the RSA
+menggunakan tanda tangan digital ala
+Rivest-Shamir-Adleman, algoritma
 
 1190
 01:04:45,130 --> 01:04:45,900
-algorithm.
+RSA.
 
 1191
 01:04:45,900 --> 01:04:48,580
-So you're using
-this all the time,
+Jadi Anda menggunakan
+ini selalu,
 
 1192
 01:04:48,580 --> 01:04:52,290
-when you click on 6.046
-links, for example.
+saat Anda mengklik
+tautan 6.046, misalnya.
 
 1193
 01:04:52,290 --> 01:04:56,440
-And what happens is M is
-typically really large.
+Dan yang terjadi adalah M
+biasanya sangat besar.
 
 1194
 01:04:56,440 --> 01:04:58,060
-I mean it could
-be a file, right?
+Maksud saya, itu bisa
+berupa file, kan?
 
 1195
 01:04:58,060 --> 01:04:59,510
-It could be a large file.
+Itu bisa berupa file besar.
 
 1196
 01:04:59,510 --> 01:05:02,730
-And you don't necessarily want
-to compute these operations
+Dan Anda tidak perlu
+menghitung operasi ini
 
 1197
 01:05:02,730 --> 01:05:04,150
-on large files.
+pada file yang berukuran besar.
 
 1198
 01:05:04,150 --> 01:05:09,580
-So for convenience, what happens
-is you end up hashing the file.
+Jadi untuk kenyamanan, yang terjadi
+adalah Anda akhirnya melakukan hashing pada file.
 
 1199
 01:05:09,580 --> 01:05:22,550
-And for large M it's
-easier to sign h of M.
+Dan untuk M besar itu
+lebih mudah menandatangani h dari M.
 
 1200
 01:05:22,550 --> 01:05:29,810
-And so replace the M's that
-you see here with h of M,
+Dan menggantikan M nya yang
+bisa Anda lihat disini dengan h dari M,
 
 1201
 01:05:29,810 --> 01:05:30,720
-all right?
+baik?
 
 1202
 01:05:30,720 --> 01:05:38,640
-So now that we're given that
-we're going to be doing h of M
+Jadi sekarang
+kita akan menggunakan h dari M
 
 1203
 01:05:38,640 --> 01:05:42,550
-in here, think
-about what we wanted
+di dalam sini, pikirkan
+tentang apa yang kita ingin
 
 1204
 01:05:42,550 --> 01:05:45,390
-to accomplish with M, right?
+kerjakan dengan M, benar?
 
 1205
 01:05:45,390 --> 01:05:48,150
-I told you what we wanted
-to accomplish with M.
+Saya sudah beritahu Anda apa yang
+kita ingin kerjakan dengan M.
 
 1206
 01:05:48,150 --> 01:05:49,360
-There's a particular message.
+Ada sebuah pesan tertentu.
 
 1207
 01:05:49,360 --> 01:05:50,190
-I'm Alice.
+Saya Alice.
 
 1208
 01:05:50,190 --> 01:05:53,850
-I'm going to keep my
-secret key secret.
+Saya akan menjaga
+kunci rahasia saya tetap rahasia.
 
 1209
 01:05:53,850 --> 01:05:57,910
-But I want to commit to signing
-this message M, all right?
+Tapi saya ingin berkomitmen pada menandatangani
+pesan M ini, baik?
 
 1210
 01:05:57,910 --> 01:06:00,330
-And I want to make
-sure that nobody
+Dan saya ingin memastikan
+bahwa tidak ada siapapun yang
 
 1211
 01:06:00,330 --> 01:06:05,320
-can pretend to be me who
-doesn't know my secret key.
+dapat berpura-pura menjadi saya
+yang tidak tahu kunci rahasia saya.
 
 1212
 01:06:05,320 --> 01:06:07,290
-And nobody does.
+Dan tidak ada yang tahu.
 
 1213
 01:06:07,290 --> 01:06:10,760
-So if I'm going to be signing
-the hash of the message,
+Jadi bila saya akan menandatangani
+hash dari pesannya,
 
 1214
 01:06:10,760 --> 01:06:13,930
-now it comes down
-to today's lecture.
+sekarang inilah hal yang terpenting
+pada kuliah hari ini.
 
 1215
 01:06:13,930 --> 01:06:16,680
-I'm signing the hash
-of the message h of M.
+Saya menandatangani hash
+dari pesan h dari M.
 
 1216
 01:06:16,680 --> 01:06:22,120
-What property do I require of
-h in order for this whole thing
+Properti apa yang Saya butuhkan pada
+h agar semua ini
 
 1217
 01:06:22,120 --> 01:06:23,640
-to work out?
+dapat berfungsi?
 
 1218
 01:06:23,640 --> 01:06:24,636
-Yeah, go ahead.
+Ya, silakan.
 
 1219
 01:06:24,636 --> 01:06:26,540
-AUDIENCE: Is it
+AUDIENS: Apakah itu
 non-malleability?
 
 1220
 01:06:26,540 --> 01:06:28,665
 SRINIVAS DEVADAS: Non
-malleability, but even before
+malleability, tetapi bahkan sebelum
 
 1221
 01:06:28,665 --> 01:06:31,770
-that-- suppose-- absolutely,
-but non-malleability
+itu-- anggaplah-- tentu saja,
+tetapi non-malleability
 
 1222
 01:06:31,770 --> 01:06:36,590
-is kind of beyond one of these
-properties over on the right.
+merupakan jenis yang berada melebihi salah satu
+properti yang di sebelah kanan.
 
 1223
 01:06:36,590 --> 01:06:39,570
-You're on the
-right track, right?
+Anda berada
+di jalur yang benar, bukan?
 
 1224
 01:06:39,570 --> 01:06:45,219
-So do you want to give
-me a different answer?
+Jadi apakah Anda ingin memberi
+saya jawaban yang berbeda?
 
 1225
 01:06:45,219 --> 01:06:46,677
-You can give me a
-different answer.
+Anda bisa memberi saya
+jawaban yang berbeda.
 
 1226
 01:06:46,677 --> 01:06:50,090
-AUDIENCE: Oh, I'm not sure.
+AUDIENS: Oh, Saya tidak yakin.
 
 1227
 01:06:50,090 --> 01:06:52,190
-SRINIVAS DEVADAS: OK.
+SRINIVAS DEVADAS: Baik.
 
 1228
 01:06:52,190 --> 01:06:52,690
-What?
+Apa?
 
 1229
 01:06:52,690 --> 01:06:53,898
-Yeah, back there.
+Ya, yang di belakang sana.
 
 1230
 01:06:53,898 --> 01:06:56,766
-AUDIENCE: I think you wanted to
-one-way because otherwise you
+AUDIENS: Saya pikir Anda ingin
+satu arah karena jika tidak Anda
 
 1231
 01:06:56,766 --> 01:07:00,112
-could take that signature and
-find another message that you
+dapat mengambil tanda tangan itu dan
+menemukan pesan lain yang dapat Anda
 
 1232
 01:07:00,112 --> 01:07:01,080
-could credit.
+beri kredit.
 
 1233
 01:07:01,080 --> 01:07:02,740
-SRINIVAS DEVADAS: I
-can make M public.
+SRINIVAS DEVADAS: Saya
+bisa membuat M publik.
 
 1234
 01:07:02,740 --> 01:07:05,480
-I can make M-- M can be public.
+Saya dapat membuat M-- M dapat menjadi publik.
 
 1235
 01:07:05,480 --> 01:07:07,060
-And h of M is public.
+Dan h dari M adalah publik.
 
 1236
 01:07:07,060 --> 01:07:13,570
-So one-wayness is not
-interesting for this example
+Jadi cara satu-arah bukanlah
+cara menarik untuk contoh ini
 
 1237
 01:07:13,570 --> 01:07:14,690
-if M is public.
+jika M adalah publik.
 
 1238
 01:07:14,690 --> 01:07:16,690
-And we can assume that M
-eventually gets public.
+Dan kita bisa mengasumsikan bahwa M
+akhirnya akan menjadi publik.
 
 1239
 01:07:16,690 --> 01:07:18,840
-Because that's the message
-I'm signing, right?
+Karena itulah pesan yang
+saya tanda tangani, ya kan?
 
 1240
 01:07:18,840 --> 01:07:21,082
-I can also put M out.
+Saya juga bisa mengeluarkan M.
 
 1241
 01:07:21,082 --> 01:07:22,540
-So I want the
-relationship-- I want
+Jadi saya ingin
+hubungannya-- saya ingin
 
 1242
 01:07:22,540 --> 01:07:25,760
-you to focus on the relationship
-between h of M and M
+Anda untuk fokus pada hubungan
+antara h dari M dan M
 
 1243
 01:07:25,760 --> 01:07:28,720
-and tell me what would
-break this system.
+dan beritahu saya apa yang akan
+merusak sistem ini.
 
 1244
 01:07:28,720 --> 01:07:31,120
-And you're on the right track.
+Dan Anda berada di jalur yang benar.
 
 1245
 01:07:31,120 --> 01:07:31,970
-Yeah, go ahead.
+Ya, silahkan.
 
 1246
 01:07:31,970 --> 01:07:32,932
-Or way back there.
+Atau jalan kembali ke sana.
 
 1247
 01:07:32,932 --> 01:07:33,890
-Yeah, sorry about that.
+Ya, maaf tentang itu.
 
 1248
 01:07:33,890 --> 01:07:35,074
-AUDIENCE: TCR.
+AUDIENS: TCR.
 
 1249
 01:07:35,074 --> 01:07:35,990
@@ -5863,35 +5863,35 @@ SRINIVAS DEVADAS: TCR.
 
 1250
 01:07:35,990 --> 01:07:36,780
-Why TCR?
+Kenapa TCR?
 
 1251
 01:07:36,780 --> 01:07:37,696
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR]
 
 1252
 01:07:46,130 --> 01:07:49,070
-SRINIVAS DEVADAS: So I have
-M. So what happens here--
+SRINIVAS DEVADAS: Jadi saya punya
+M. Jadi apa yang terjadi disini--
 
 1253
 01:07:49,070 --> 01:07:51,920
-I should write this out.
+Saya harus menulis ini.
 
 1254
 01:07:51,920 --> 01:08:12,640
-I'm given-- as an adversary I
-have M and h of M. It is bad
+Saya diberi-- sebagai penyerang saya
+memiliki M dan h dari M. Tidak baik
 
 1255
 01:08:12,640 --> 01:08:33,010
-if Alice signs h of M, but Bob
-claims Alice signed M prime.
+jika Alice menandatangani h dari M, tapi Bob
+mengklaim Alice menandatangani M aksen.
 
 1256
 01:08:33,010 --> 01:08:39,830
-Because h of M equals
-h of M prime, right?
+Karena h dari M sama dengan
+h dari M aksen, ya kan?
 
 1257
 01:08:39,830 --> 01:08:41,600
