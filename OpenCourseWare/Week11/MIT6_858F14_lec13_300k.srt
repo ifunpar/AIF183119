@@ -3472,79 +3472,79 @@ in different ways, maybe.
 
 731
 00:31:35,066 --> 00:31:36,440
-But it still
-doesn't prevent them
+Tetapi salting masih
+tidak dapat mencegah mereka
 
 732
 00:31:36,440 --> 00:31:37,659
-from trying lots of things.
+untuk mencoba melakukan banyak hal.
 
 733
 00:31:37,659 --> 00:31:39,950
-So maybe it'll be more
-expensive to build a dictionary.
+Jadi mungkin akan lebih
+mahal untuk membangun sebuah dictionary.
 
 734
 00:31:39,950 --> 00:31:40,449
-Yeah.
+Ya.
 
 735
 00:31:40,449 --> 00:31:43,109
-STUDENT: You could [INAUDIBLE]
-derivation function?
+STUDENT: Anda dapat [TIDAK TERDENGAR]
+penurunan fungsi?
 
 736
 00:31:43,109 --> 00:31:44,650
-PROFESSOR: Yeah, so
-another good idea
+PROFESSOR: Ya, jadi
+ide bagus lainnya
 
 737
 00:31:44,650 --> 00:31:47,949
-is to make this hashing
-process super expensive.
+adalah untuk membuat proses
+hashing ini sangat mahal.
 
 738
 00:31:47,949 --> 00:31:49,490
-So that might be
-kind of nice, right?
+Jadi itu mungkin
+agak baik kan?
 
 739
 00:31:49,490 --> 00:31:52,650
-So if this hash function took
-a second to compute like you
+Jadi jika fungsi hash ini membutuhkan
+satu detik untuk menghitung seperti 
 
 740
 00:31:52,650 --> 00:31:54,404
-guys did in lab two,
-then OK, wow, this
+yang kalian berdua lakukan di lab,
+maka OK, wow, ini
 
 741
 00:31:54,404 --> 00:31:55,820
-would be actually
-really expensive
+akan benar-benar
+sangat mahal
 
 742
 00:31:55,820 --> 00:31:56,810
-to try different passwords.
+untuk mencoba password yang berbeda-beda.
 
 743
 00:31:56,810 --> 00:31:58,351
-So that seems like
-a reasonable plan.
+Jadi, itu terlihat seperti
+rencana yang masuk akal.
 
 744
 00:31:58,351 --> 00:32:00,500
-So in combination
-with salting, those
+Jadi dalam kombinasi
+dengan salting, mereka
 
 745
 00:32:00,500 --> 00:32:02,880
-would be make it pretty
-expensive to do password
+akan membuatnya cukup mahal
+untuk melakukan serangan
 
 746
 00:32:02,880 --> 00:32:03,987
-guessing attacks.
+password guessing.
 
 747
 00:32:03,987 --> 00:32:04,570
