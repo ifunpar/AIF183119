@@ -5469,7 +5469,7 @@ menekankan bahwa ada
 
 1165
 01:03:39,330 --> 01:03:41,150
-dua operasi yang sesang berlangsung.
+dua operasi yang sedang berlangsung.
 
 1166
 01:03:41,150 --> 01:03:42,760
@@ -5478,8 +5478,8 @@ tanda tangan, yang
 
 1167
 01:03:42,760 --> 01:03:46,050
-merupakan tanda tangan private, dalam
-artian tanda tangannya private bagi saya,
+merupakan tanda tangan privat, dalam
+artian tanda tangannya privat bagi saya,
 
 1168
 01:03:46,050 --> 01:03:47,160
@@ -5487,16 +5487,16 @@ jika saya adalah Alice.
 
 1169
 01:03:47,160 --> 01:03:48,500
-Atau private untuk Alice.
+Atau privat untuk Alice.
 
 1170
 01:03:48,500 --> 01:03:50,590
-Dan anda sedang menggunakan
+Dan Anda sedang menggunakan
 informasi rahasia
 
 1171
 01:03:50,590 --> 01:03:52,810
-pada pesan public M,
+pada pesan publik M,
 karena itulah
 
 1172
@@ -5505,8 +5505,8 @@ yang akan dipublikasikan.
 
 1173
 01:03:54,690 --> 01:03:57,580
-Dan anda akan menandatangani
-pesan public tersebut.
+Dan Anda akan menandatangani
+pesan publik tersebut.
 
 1174
 01:03:57,580 --> 01:04:01,160
@@ -5515,7 +5515,7 @@ dunia yang memiliki akses
 
 1175
 01:04:01,160 --> 01:04:04,190
-terhadap public key si Alice
+terhadap kunci publik key Alice
 dapat mengatakan bahwa,
 
 1176
@@ -5530,8 +5530,8 @@ yang berupa kumpulan bit.
 
 1178
 01:04:09,900 --> 01:04:12,590
-And I have this public key,
-which is a bunch of bits.
+Dan saya punya kunci publik ini,
+yang berupa kumpulan bit.
 
 1179
 01:04:12,590 --> 01:04:16,150
@@ -5551,18 +5551,18 @@ menandatangani pesan ini.
 1182
 01:04:22,560 --> 01:04:26,710
 Dan asumsi
-disini adalah bahwa Alice
+di sini adalah bahwa Alice
 
 1183
 01:04:26,710 --> 01:04:28,950
-merahasiakan kunci pribadinya.
+merahasiakan kunci privatnya.
 
 1184
 01:04:28,950 --> 01:04:30,970
 Dan tentu saja, apa
-yang baru saja Saya tulis di sana,
+yang baru saja saya tulis di sana,
 
-1185    
+1185
 01:04:30,970 --> 01:04:33,450
 bahwa kunci publik
 tidak mengungkapkan apapun
@@ -5579,7 +5579,7 @@ untuk Anda, singkatnya.
 1188
 01:04:38,350 --> 01:04:40,990
 Dan ketika Anda membuat sertifikat
-certificates you're => MIT, Anda
+MIT, Anda
 
 1189
 01:04:40,990 --> 01:04:45,130
@@ -5598,7 +5598,7 @@ ini selalu,
 1192
 01:04:48,580 --> 01:04:52,290
 saat Anda mengklik
-6.046 tautan, misalnya.
+tautan 6.046, misalnya.
 
 1193
 01:04:52,290 --> 01:04:56,440
@@ -5607,7 +5607,7 @@ biasanya sangat besar.
 
 1194
 01:04:56,440 --> 01:04:58,060
-Maksud Saya, itu bisa
+Maksud saya, itu bisa
 berupa file, kan?
 
 1195
@@ -5631,7 +5631,7 @@ adalah Anda akhirnya melakukan hashing pada file.
 1199
 01:05:09,580 --> 01:05:22,550
 Dan untuk M besar itu
-lebih mudah menandatangani  h dari M.
+lebih mudah menandatangani h dari M.
 
 1200
 01:05:22,550 --> 01:05:29,810
@@ -5676,13 +5676,13 @@ kunci rahasia saya tetap rahasia.
 
 1209
 01:05:53,850 --> 01:05:57,910
-Tapi Saya ingin berkomitmen pada menandatangani
+Tapi saya ingin berkomitmen pada menandatangani
 pesan M ini, baik?
 
 1210
 01:05:57,910 --> 01:06:00,330
-Dan Saya ingin memastikan
-bahwa tidak siapapun
+Dan saya ingin memastikan
+bahwa tidak ada siapapun yang
 
 1211
 01:06:00,330 --> 01:06:05,320
@@ -5691,16 +5691,16 @@ yang tidak tahu kunci rahasia saya.
 
 1212
 01:06:05,320 --> 01:06:07,290
-Dan tiada yang tahu.
+Dan tidak ada yang tahu.
 
 1213
 01:06:07,290 --> 01:06:10,760
-Jadi bila Saya akan menandatangani
+Jadi bila saya akan menandatangani
 hash dari pesannya,
 
 1214
 01:06:10,760 --> 01:06:13,930
-sekarang yang terpenting
+sekarang inilah hal yang terpenting
 pada kuliah hari ini.
 
 1215
@@ -5728,8 +5728,8 @@ non-malleability?
 
 1220
 01:06:26,540 --> 01:06:28,665
-SRINIVAS DEVADAS: non
-malleability, tetapi bahkan sebelumnya
+SRINIVAS DEVADAS: Non
+malleability, tetapi bahkan sebelum
 
 1221
 01:06:28,665 --> 01:06:31,770
@@ -5876,22 +5876,22 @@ M. Jadi apa yang terjadi disini--
 
 1253
 01:07:49,070 --> 01:07:51,920
-saya harus menulis ini.
+Saya harus menulis ini.
 
 1254
 01:07:51,920 --> 01:08:12,640
 Saya diberi-- sebagai penyerang saya
-memiliki M dan h dari M. Itu tidak baik
+memiliki M dan h dari M. Tidak baik
 
 1255
 01:08:12,640 --> 01:08:33,010
 jika Alice menandatangani h dari M, tapi Bob
-mengklaim Alis menandatangani M prime.
+mengklaim Alice menandatangani M aksen.
 
 1256
 01:08:33,010 --> 01:08:39,830
 Karena h dari M sama dengan
-h dari M prime, ya kan?
+h dari M aksen, ya kan?
 
 1257
 01:08:39,830 --> 01:08:41,600
