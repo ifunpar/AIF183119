@@ -5807,7 +5807,7 @@ lebih dari 12 data
 
 1224
 00:52:00,940 --> 00:52:03,395
-Saya baru saja memasukan banyak hal
+Saya baru saja memasukkan banyak hal
 yang bukan merupakan angka.
 
 1225
@@ -5895,674 +5895,674 @@ dalam fungsi pengalihan itu.
 
 1243
 00:52:49,700 --> 00:52:52,380
-And we're going to sort of run
-along and see what happens.
+Dan kita akan menyusuri
+bersama dan melihat apa yang terjadi.
 
 1244
 00:52:52,380 --> 00:52:54,410
-So when I run the
-program, it's going
+Jadi ketika saya menjalankan
+programnya, dia akan
 
 1245
 00:52:54,410 --> 00:52:56,450
-to start executing
-in the main function.
+mulai jalan di
+dalam fungsi main.
 
 1246
 00:52:56,450 --> 00:52:58,780
-And pretty quickly,
-it calls redirect.
+Dan cukup cepat,
+dia memanggil pengalihan (redirect).
 
 1247
 00:52:58,780 --> 00:53:01,790
-And the debugger is now stopped
-at the beginning of redirect.
+Dan debuggernya sekarang berhenti
+di awal pengalihan.
 
 1248
 00:53:01,790 --> 00:53:06,830
-And we can actually see what's
-going on here by, for example,
+Dan kita benar-benar dapat melihat apa yang
+sedang terjadi di sini dengan, misalnya,
 
 1249
 00:53:06,830 --> 00:53:09,455
-we can ask it to print
-the current CPU registers.
+kita dapat memintanya untuk mencetak
+register-register CPU saat ini.
 
 1250
 00:53:09,455 --> 00:53:11,330
-We're going to look at
-really low level stuff
+Kita akan melihat hal-hal
+dengan level yang sangat rendah
 
 1251
 00:53:11,330 --> 00:53:13,610
-here, as opposed to at the
-level of C source code.
+di sini, berlawanan dengan
+tingkat kode sumber dari bahasa C.
 
 1252
 00:53:13,610 --> 00:53:15,090
-We're going to look at
-the actual instructions
+Kita akan melihat instruksi-
+instruksi yang sebenarnya
 
 1253
 00:53:15,090 --> 00:53:16,881
-that my machine is
-executing because that's
+yang dijalankan oleh
+komputer saya karena itulah
 
 1254
 00:53:16,881 --> 00:53:17,930
-what really is going on.
+yang sebenarnya sedang terjadi.
 
 1255
 00:53:17,930 --> 00:53:20,950
-The C is actually maybe
-hiding some things from us.
+C sebenarnya mungkin sedang
+menyembunyikan beberapa hal dari kita.
 
 1256
 00:53:20,950 --> 00:53:23,110
-So you can actually
-print all the registers.
+Jadi Anda dapat benar-benar
+mencetak seluruh register.
 
 1257
 00:53:23,110 --> 00:53:25,974
-So on x86, as you
-might remember.
+Jadi di x86, seperti yang
+mungkin Anda ingat.
 
 1258
 00:53:25,974 --> 00:53:27,390
-Well, on [INAUDIBLE]
-architecture,
+Yah, pada arsitektur
+[TIDAK TERDENGAR],
 
 1259
 00:53:27,390 --> 00:53:29,170
-there's a stack pointer.
+ada sebuah penunjuk stack.
 
 1260
 00:53:29,170 --> 00:53:32,530
-So let me start maybe drawing
-this diagram on the board
+Jadi biarkan saya mulai menggambar
+diagram ini pada papan
 
 1261
 00:53:32,530 --> 00:53:36,450
-so we can try to reconstruct
-what's happening.
+sehingga kita dapat mencoba untuk
+merekonstruksi apa yang terjadi.
 
 1262
 00:53:36,450 --> 00:53:39,550
-So what's going on is that
-my program, not surprisingly,
+Jadi apa yang sedang terjadi adalah
+program saya, secara tidak mengherankan,
 
 1263
 00:53:39,550 --> 00:53:41,020
-has a stack.
+memiliki sebuah stack.
 
 1264
 00:53:41,020 --> 00:53:43,300
-On x86, the stack grows down.
+Pada x86, stack turun ke bawah.
 
 1265
 00:53:43,300 --> 00:53:46,040
-So it sort of is
-this stack like this.
+Jadi itu adalah semacam
+stack seperti ini.
 
 1266
 00:53:46,040 --> 00:53:49,020
-And we can keep
-pushing stuff onto it.
+Dan kita dapat terus
+memasukkan barang ke dalamnya.
 
 1267
 00:53:49,020 --> 00:53:51,980
-So right now, the
-stack pointer points
+Jadi sekarang,
+penunjuk stacknya menunjuk
 
 1268
 00:53:51,980 --> 00:53:58,230
-at this particular
-memory location FFD010.
+pada lokasi memori
+yang khusus ini FFD010.
 
 1269
 00:53:58,230 --> 00:53:59,535
-So some value.
+Jadi dengan nilai tertentu.
 
 1270
 00:53:59,535 --> 00:54:01,660
-So you can try to figure
-out, how did it get there?
+Jadi Anda dapat mencoba untuk mencari
+tahu, bagaimana dia sampai di sana?
 
 1271
 00:54:01,660 --> 00:54:05,480
-One way to do it is to
-disassemble the code
+Salah satu cara untuk melakukannya
+adalah dengan membongkar kode
 
 1272
 00:54:05,480 --> 00:54:07,380
-of this redirect function.
+dari fungsi pengalihan ini.
 
 1273
 00:54:12,650 --> 00:54:14,230
-Is this going to work better?
+Apakah ini akan bekerja dengan lebih baik?
 
 1274
 00:54:14,230 --> 00:54:15,620
-Really?
+Betulkah?
 
 1275
 00:54:15,620 --> 00:54:18,250
-Convenience variable
-must have integer value.
+Variabel pembantu harus
+bernilai bilangan bulat.
 
 1276
 00:54:20,870 --> 00:54:21,370
-Man.
+Astaga.
 
 1277
 00:54:21,370 --> 00:54:22,786
-What is going on
-with my debugger?
+Apa yang terjadi
+dengan debugger saya?
 
 1278
 00:54:28,190 --> 00:54:28,690
-All right.
+Baiklah.
 
 1279
 00:54:28,690 --> 00:54:31,500
-Well, we can disassemble
-the function by name.
+Nah, kita dapat membongkar
+fungsinya berdasarkan nama.
 
 1280
 00:54:31,500 --> 00:54:33,200
-So this is what the
-function is doing.
+Jadi inilah yang sedang
+dilakukan oleh fungsinya.
 
 1281
 00:54:33,200 --> 00:54:36,340
-So first off, it starts
-by manipulating something
+Jadi pertama-tama, dia memulai
+dengan memanipulasi sesuatu
 
 1282
 00:54:36,340 --> 00:54:37,362
-with this EBP register.
+dengan register EBP ini.
 
 1283
 00:54:37,362 --> 00:54:38,570
-That's not super interesting.
+Itu tidak terlalu menarik.
 
 1284
 00:54:38,570 --> 00:54:40,620
-But the first thing
-it does after that is
+Tapi hal pertama yang
+dilakukannya setelah itu adalah
 
 1285
 00:54:40,620 --> 00:54:43,800
-subtract a certain value
-from the stack pointer.
+mengurangi nilai tertentu
+dari penunjuk stack.
 
 1286
 00:54:43,800 --> 00:54:46,940
-This is, basically, it's making
-space for all those variables,
+Ini adalah, pada dasarnya, dia sedang
+membuat ruang untuk seluruh variabel itu,
 
 1287
 00:54:46,940 --> 00:54:50,680
-like the buffer and the integer,
-i, we saw in the C source code.
+seperti buffer dan bilangan bulat,
+i, yang kita lihat dalam kode sumber C.
 
 1288
 00:54:50,680 --> 00:54:53,570
-So we're actually,
-now, four instructions
+Jadi kita sebenarnya,
+sekarang, sudah empat instruksi
 
 1289
 00:54:53,570 --> 00:54:55,230
-into the function, here.
+ke dalam fungsi, di sini.
 
 1290
 00:54:55,230 --> 00:54:57,190
-So that stack
-pointer value that we
+Jadi nilai penunjuk
+stack itu yang kita
 
 1291
 00:54:57,190 --> 00:55:01,560
-saw before is actually already
-in the middle, so to say,
+lihat sebelumnya sebenarnya sudah
+berada di tengah, jadi dapat dibilang,
 
 1292
 00:55:01,560 --> 00:55:02,730
-of the stack.
+dari stack itu.
 
 1293
 00:55:02,730 --> 00:55:06,840
-And currently,
-there's stuff above it
+Dan sekarang,
+terdapat beberapa hal di atasnya
 
 1294
 00:55:06,840 --> 00:55:09,550
-that is going to be the
-buffer, that integer
+yang akan menjadi
+buffer, nilai bilangan bulat
 
 1295
 00:55:09,550 --> 00:55:12,110
-value, and actually,
-also the return address
+itu, dan sebenarnya, juga
+alamat kembali (return address)
 
 1296
 00:55:12,110 --> 00:55:14,390
-into the main function
-goes on the stack, as well.
+menuju ke fungsi main
+masuk ke dalam stack, juga.
 
 1297
 00:55:14,390 --> 00:55:17,734
-So somewhere here, we'll
-have the return address.
+Jadi di suatu tempat di sini, kita akan
+memiliki alamat kembalinya.
 
 1298
 00:55:17,734 --> 00:55:19,150
-And we actually
-try to figure out,
+Dan kita sebenarnya
+mencoba untuk mencari tahu,
 
 1299
 00:55:19,150 --> 00:55:20,720
-where are things on the stack?
+di mana letak hal-hal dalam stack itu?
 
 1300
 00:55:20,720 --> 00:55:26,850
-So we can print the address
-of that buffer variable.
+Jadi kita dapat mencetak alamat
+dari variabel buffer itu.
 
 1301
 00:55:26,850 --> 00:55:31,040
-So the buffer variable
-is at address D02C.
+Jadi variabel buffer itu
+berada di alamat D02C.
 
 1302
 00:55:31,040 --> 00:55:35,690
-We can also print the
-value of that integer, i.
+Kita juga dapat mencetak
+nilai dari bilangan bulat itu, i.
 
 1303
 00:55:35,690 --> 00:55:38,960
-That guy is at D0AC.
+Dia berada di D0AC.
 
 1304
 00:55:38,960 --> 00:55:40,970
-So the i is way up on the stack.
+Jadi i tersebut berada jauh di atas dalam stack.
 
 1305
 00:55:40,970 --> 00:55:44,310
-But the buffer is a bit lower.
+Tapi buffernya sedikit lebih bawah.
 
 1306
 00:55:44,310 --> 00:55:47,210
-So what's going on is that
-we have our buffer here
+Jadi apa yang sedang terjadi adalah bahwa
+kita memiliki buffer kita di sini
 
 1307
 00:55:47,210 --> 00:55:52,460
-on the stack, and then
-followed above by i and maybe
+dalam stack, dan kemudian diikuti
+oleh i di atasnya dan mungkin
 
 1308
 00:55:52,460 --> 00:55:54,640
-some other stuff, and
-then finally, the return
+beberapa hal lainnya, dan
+pada akhirnya, alamat
 
 1309
 00:55:54,640 --> 00:55:57,260
-address into the main
-function that called redirect.
+kembali menuju fungsi main
+yang memanggil pengalihan.
 
 1310
 00:55:57,260 --> 00:56:00,910
-And the buffer
-is-- this is going,
+Dan buffernya
+adalah-- ini berjalan,
 
 1311
 00:56:00,910 --> 00:56:02,290
-the stack is growing down.
+stacknya memanjang ke bawah.
 
 1312
 00:56:02,290 --> 00:56:03,845
-So these are higher addresses.
+Jadi ini adalah alamat-alamat yang lebih tinggi.
 
 1313
 00:56:07,250 --> 00:56:11,010
-So what this means is that
-the buffer-- we actually
+Jadi apa yang dimaksud adalah bahwa
+buffernya-- kita sebenarnya
 
 1314
 00:56:11,010 --> 00:56:13,750
-have to decide, where is the
-zeroth element of the buffer,
+perlu menentukan, di mana elemen
+ke-nol dari buffer berada,
 
 1315
 00:56:13,750 --> 00:56:16,950
-and where is the 128th
-element of this buffer?
+dan di mana elemen ke-128
+dari buffer ini berada?
 
 1316
 00:56:16,950 --> 00:56:20,510
-So where does the zeroth
-element of the buffer go?
+Jadi di mana elemen ke-nol
+dari buffer itu berada?
 
 1317
 00:56:20,510 --> 00:56:22,205
-Yeah?
+Ya?
 
 1318
 00:56:22,205 --> 00:56:24,080
-Should be at the bottom,
-right, because yeah,
+Seharusnya berada di bawah,
+benar, karena ya,
 
 1319
 00:56:24,080 --> 00:56:25,590
-higher elements
-just keep going up.
+elemen yang lebih tinggi
+akan terus naik atas.
 
 1320
 00:56:25,590 --> 00:56:27,505
-So buff of zero is down here.
+Jadi buff ke-nol berada di bawah sini.
 
 1321
 00:56:27,505 --> 00:56:28,760
-It just keeps going on.
+Itu akan tetap berjalan terus.
 
 1322
 00:56:28,760 --> 00:56:31,140
-And buff of 127 is
-going to be up there.
+Dan buff ke-127 akan
+berada di atas sana.
 
 1323
 00:56:31,140 --> 00:56:34,240
-And then we'll have
-i and other stuff.
+Dan kemudian kita akan memiliki
+i dan benda-benda lainnya.
 
 1324
 00:56:34,240 --> 00:56:35,020
-OK.
+Oke.
 
 1325
 00:56:35,020 --> 00:56:36,860
-Well, let's see what
-happens now if we
+Nah, mari kita lihat apa yang
+akan terjadi jika kita
 
 1326
 00:56:36,860 --> 00:56:39,620
-provide that input that seemed
-to be crashing it before.
+memberi input itu yang tadi
+sepertinya menyebabkan crash.
 
 1327
 00:56:39,620 --> 00:56:41,120
-So I guess one thing
-we can actually
+Jadi saya kira hal yang
+sebenarnya bisa kita
 
 1328
 00:56:41,120 --> 00:56:43,700
-do before this is to see
-whether we can actually
+lakukan sebelum ini adalah
+melihat apakah kita bisa
 
 1329
 00:56:43,700 --> 00:56:45,270
-find this return address.
+menemukan alamat kembali ini.
 
 1330
 00:56:45,270 --> 00:56:48,870
-Where it actually happens to
-live is at the EBP pointer.
+Dia sebenarnya berada
+pada penunjuk EBP.
 
 1331
 00:56:48,870 --> 00:56:52,700
-This is just a convenient thing
-in the x86 calling convention,
+Ini hanyalah sebuah hal yang praktis
+dalam konvensi pemanggilan x86,
 
 1332
 00:56:52,700 --> 00:56:59,270
-that the EBP pointer,
-or register, actually
+bahwa penunjuk EBP tersebut,
+atau register, sebenarnya
 
 1333
 00:56:59,270 --> 00:57:02,150
-happens to point to something
-on the stack which is going
+kebetulan menunjuk kepada sesuatu
+dalam stack yang akan
 
 1334
 00:57:02,150 --> 00:57:06,040
-to be called the saved EBP.
+disebut EBP tersimpan (saved EBP).
 
 1335
 00:57:06,040 --> 00:57:08,870
-It's a separate location, sort
-of after all the variables
+Lokasinya terpisah, kurang
+lebih setelah semua variabel
 
 1336
 00:57:08,870 --> 00:57:10,250
-but before the return address.
+tetapi sebelum alamat kembalinya.
 
 1337
 00:57:10,250 --> 00:57:11,666
-And this is the
-thing that's being
+Dan ini merupakan
+sesuatu yang sedang
 
 1338
 00:57:11,666 --> 00:57:14,800
-saved by those first couple
-of instructions at the top.
+disimpan oleh beberapa
+instruksi awal di atas.
 
 1339
 00:57:14,800 --> 00:57:16,630
-And you actually
-sort of examine it.
+Dan Anda sebenarnya
+semacam memeriksanya.
 
 1340
 00:57:16,630 --> 00:57:23,450
-In GDB you can say, examine x,
-some value, so the EBP pointer
+Dalam GDB Anda dapat mengatakan, periksa x,
+nilai tertentu, jadi nilai dari
 
 1341
 00:57:23,450 --> 00:57:24,570
-value.
+penunjuk EBP.
 
 1342
 00:57:24,570 --> 00:57:26,720
-So that's the location
-of the stack, D0B8.
+Jadi itu adalah lokasi
+dari stack tersebut, D0B8.
 
 1343
 00:57:26,720 --> 00:57:30,020
-Indeed, it's actually
-above even the i variable.
+Memang, dia ternyata berada
+bahkan di atas variabel i.
 
 1344
 00:57:30,020 --> 00:57:30,770
-So it's great.
+Jadi itu bagus.
 
 1345
 00:57:30,770 --> 00:57:32,436
-And it has some other
-value that happens
+Dan dia memiliki beberapa
+nilai lain yang ternyata
 
 1346
 00:57:32,436 --> 00:57:36,050
-to be the EBP before
-this function was called.
+merupakan EBP sebelum
+fungsi ini dipanggil.
 
 1347
 00:57:36,050 --> 00:57:38,950
-But then, sort of one
-more memory location
+Tetapi kemudian, semacam satu
+lagi lokasi memori
 
 1348
 00:57:38,950 --> 00:57:40,710
-up is going to be
-the return address.
+di atasnya akan menjadi
+alamat kembalinya.
 
 1349
 00:57:40,710 --> 00:57:44,210
-So if we print EBP plus four,
-there's something else there,
+Jadi jika kita mencetak EBP ditambah empat,
+ada sesuatu yang lain di sana,
 
 1350
 00:57:44,210 --> 00:57:48,800
-this 0x08048E5F.
+yaitu 0x08048E5F ini.
 
 1351
 00:57:48,800 --> 00:57:51,720
-And let's actually see
-where that's pointing.
+Dan marilah kita
+melihat ke mana dia menunjuk.
 
 1352
 00:57:51,720 --> 00:57:54,485
-So this is something you're
-going to do a lot in the lab.
+Jadi ini merupakan sesuatu yang
+akan banyak Anda lakukan dalam lab.
 
 1353
 00:57:54,485 --> 00:57:56,140
-So you can take this address.
+Jadi Anda dapat mengambil alamat ini.
 
 1354
 00:57:56,140 --> 00:57:59,070
-And you can try
-to disassemble it.
+Dan Anda dapat mencoba
+untuk membongkarnya.
 
 1355
 00:57:59,070 --> 00:58:00,130
-So what is this guy?
+Lalu siapakah orang ini?
 
 1356
 00:58:00,130 --> 00:58:02,290
-Where did we end up?
+Di manakah kita akan berakhir?
 
 1357
 00:58:02,290 --> 00:58:05,040
-So GDB actually helpfully
-figures out which function
+Jadi GDP dapat membantu untuk
+menentukan fungsi mana
 
 1358
 00:58:05,040 --> 00:58:06,480
-contains that address.
+yang berisi alamat tersebut.
 
 1359
 00:58:06,480 --> 00:58:07,640
-So 5F.
+Jadi 5F.
 
 1360
 00:58:07,640 --> 00:58:11,550
-This is the guy that our
-return address is pointing to.
+Inilah orang yang ditunjuk
+oleh alamat kembali kita.
 
 1361
 00:58:11,550 --> 00:58:13,790
-And as you can see, this
-is the instruction right
+Dan seperti yang Anda bisa lihat,
+ini adalah instruksi tepat
 
 1362
 00:58:13,790 --> 00:58:16,070
-after the call to redirect.
+setelah panggilan untuk pengalihan.
 
 1363
 00:58:16,070 --> 00:58:17,655
-So when we return
-from redirect, this
+Jadi ketika kita kembali
+dari pengalihan, ini
 
 1364
 00:58:17,655 --> 00:58:20,570
-is exactly where we're going
-to jump and continue execution.
+adalah lokasi persis yang kita akan
+tuju untuk melanjutkan eksekusi.
 
 1365
 00:58:20,570 --> 00:58:22,319
-This is, hopefully,
-fairly straightforward
+Ini adalah, mudah-mudahan,
+hal-hal yang cukup lugas
 
 1366
 00:58:22,319 --> 00:58:25,660
-stuff from double oh four,
-some standard OS class.
+dari 004, sejenis kelas
+sistem operasi standar.
 
 1367
 00:58:25,660 --> 00:58:26,160
-OK.
+Oke.
 
 1368
 00:58:26,160 --> 00:58:28,300
-So where are we now?
+Jadi di mana kita berada sekarang?
 
 1369
 00:58:28,300 --> 00:58:33,060
-Just to recap, we can try to
-disassemble our instruction
+Hanya untuk merekap, kita dapat
+mencoba untuk membongkar penunjuk
 
 1370
 00:58:33,060 --> 00:58:33,990
-pointer.
+instruksi kita.
 
 1371
 00:58:33,990 --> 00:58:36,900
-So we're at the beginning
-of redirect right now.
+Jadi kita berada di permulaan
+pengalihan sekarang.
 
 1372
 00:58:36,900 --> 00:58:43,520
-And we can run for a bit, and
-maybe run that getS() function.
+Dan kita bisa menjalankannya sedikit, dan
+mungkin menjalankan fungsi getS() itu.
 
 1373
 00:58:43,520 --> 00:58:45,210
-So OK, we run next.
+Jadi oke, kita menjalankan next.
 
 1374
 00:58:45,210 --> 00:58:48,620
-What this does is it runs getS()
-and it's waiting for getS()
+Dia menjalankan getS() dan
+sekarang sedang menunggu getS()
 
 1375
 00:58:48,620 --> 00:58:49,627
-to return.
+untuk kembali.
 
 1376
 00:58:49,627 --> 00:58:51,960
-We can provide our bad input
-to getS() and try to get it
+Kita bisa memberikan input kita yang
+buruk ke getS() and mencoba membuatnya
 
 1377
 00:58:51,960 --> 00:58:54,950
-to crash again and see what's
-going on, really, there, right?
+crash lagi dan melihat apa yang sedang
+terjadi, sebenarnya, di situ, benar?
 
 1378
 00:58:54,950 --> 00:58:57,310
-So we can paste a
-bunch of As again.
+Jadi kita dapat menuliskan
+sejumlah huruf A lagi.
 
 1379
 00:58:57,310 --> 00:58:57,810
-OK.
+Oke.
 
 1380
 00:58:57,810 --> 00:59:00,420
-So we got out of getS() and
-things are actually still OK,
+Jadi kita sudah keluar dari getS() dan
+ternyata keadaannya masih baik-baik saja,
 
 1381
 00:59:00,420 --> 00:59:00,919
-right?
+benar?
 
 1382
 00:59:00,919 --> 00:59:02,520
-The program is still running.
+Programnya masih berjalan.
 
 1383
 00:59:02,520 --> 00:59:05,830
-But we can try to figure out,
-what is in memory right now
+Tapi kita bisa mencoba mencari tahu,
+apa yang ada di dalam memori saat ini
 
 1384
 00:59:05,830 --> 00:59:08,775
-and why are things
-going to go wrong?
+dan mengapa akan terjadi
+hal-hal yang tidak seharusnya.
 
 1385
 00:59:08,775 --> 00:59:10,150
-Actually, what do
-you guys think?
+Sebenarnya, bagaimana
+menurut kalian?
 
 1386
 00:59:10,150 --> 00:59:11,025
