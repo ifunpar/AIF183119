@@ -7150,122 +7150,122 @@ it seems to be exploitable.
 
 1512
 01:03:58,540 --> 01:03:59,644
-Or well, OK.
+Atau yah, oke.
 
 1513
 01:03:59,644 --> 01:04:02,060
-Maybe let's first figure out
-why this is particularly bad,
+Mungkin lebih baik kita mencari tahu dulu 
+mengapa hal ini buruk,
 
 1514
 01:04:02,060 --> 01:04:02,560
-right?
+benar?
 
 1515
 01:04:02,560 --> 01:04:03,762
-So why is it a problem?
+Jadi mengapa hal ini merupakan sebuah masalah?
 
 1516
 01:04:03,762 --> 01:04:05,220
-So not only does
-our program crash,
+Jadi tidak hanya program
+kita mengalami crash,
 
 1517
 01:04:05,220 --> 01:04:07,011
-but presumably we're
-going to take it over.
+tetapi mungkin kita juga akan
+mengambil alih kendalinya.
 
 1518
 01:04:07,011 --> 01:04:09,010
-So I guess, first
-simple question is, OK,
+Jadi saya kira, pertanyaan
+sederhana pertama adalah, oke,
 
 1519
 01:04:09,010 --> 01:04:10,474
-so what's the problem?
+jadi apa masalahnya?
 
 1520
 01:04:10,474 --> 01:04:11,140
-What can you do?
+Apa yang dapat Anda lakukan?
 
 1521
 01:04:11,140 --> 01:04:11,890
-Yeah?
+Ya?
 
 1522
 01:04:11,890 --> 01:04:13,180
-AUDIENCE: You can do
-whatever you want.
+AUDIENS: Anda dapat melakukan
+apapun yang Anda mau.
 
 1523
 01:04:13,180 --> 01:04:13,846
-PROFESSOR: Yeah.
+PROFESSOR: Ya.
 
 1524
 01:04:13,846 --> 01:04:16,809
-So I was actually pretty silly
-and just put in lots of As.
+Jadi tadi saya sangat konyol dan
+hanya memasukkan banyak huruf A.
 
 1525
 01:04:16,809 --> 01:04:18,350
-But if you were
-careful about knowing
+Tapi jika Anda berhati-hati
+dalam mengetahui
 
 1526
 01:04:18,350 --> 01:04:20,512
-where to put what
-values, you might
+di mana harus menempatkan
+nilai apa, Anda mungkin
 
 1527
 01:04:20,512 --> 01:04:21,970
-be able to put in
-a different value
+bisa memasukkan
+nilai yang berbeda
 
 1528
 01:04:21,970 --> 01:04:23,387
-and get it to jump
-somewhere else.
+dan membuatnya melompat
+ke tempat yang lain.
 
 1529
 01:04:23,387 --> 01:04:25,344
-So let's see if we can
-actually do this, right?
+Jadi mari kita lihat apakah kita
+memang bisa melakukan hal ini, benar?
 
 1530
 01:04:25,344 --> 01:04:26,710
-We can retrace this whole thing.
+Kita bisa menelusuri ulang benda ini.
 
 1531
 01:04:26,710 --> 01:04:27,210
-OK.
+Oke.
 
 1532
 01:04:27,210 --> 01:04:28,930
-Re-run the program again.
+Jalankan kembali programnya.
 
 1533
 01:04:28,930 --> 01:04:33,030
-And I guess I have to
-reset the breakpoint.
+Dan saya kira saya harus
+mereset breakpoint-nya.
 
 1534
 01:04:33,030 --> 01:04:35,450
-So I can break and
-redirect again.
+Jadi saya bisa menyela
+dan mengalihan lagi.
 
 1535
 01:04:35,450 --> 01:04:36,570
-And run.
+Dan menjalankannya.
 
 1536
 01:04:36,570 --> 01:04:42,000
-And this time,
-I'll, again, next,
+Dan kali ini, saya akan,
+kembali, berikutnya,
 
 1537
 01:04:42,000 --> 01:04:43,900
-supply lots of As
-and overflow things.
+memberikan banyak huruf A
+dan memicu terjadinya overflow.
 
 1538
 01:04:43,900 --> 01:04:47,980
