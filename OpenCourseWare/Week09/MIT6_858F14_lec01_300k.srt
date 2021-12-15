@@ -5905,13 +5905,13 @@ programnya, dia akan
 
 1245
 00:52:54,410 --> 00:52:56,450
-mulai bereksekusi
+mulai jalan di
 dalam fungsi main.
 
 1246
 00:52:56,450 --> 00:52:58,780
 Dan cukup cepat,
-dia memanggil pengalihan.
+dia memanggil pengalihan (redirect).
 
 1247
 00:52:58,780 --> 00:53:01,790
@@ -5997,7 +5997,7 @@ memiliki sebuah stack.
 
 1264
 00:53:41,020 --> 00:53:43,300
-Pada x86, stack memanjang ke bawah.
+Pada x86, stack turun ke bawah.
 
 1265
 00:53:43,300 --> 00:53:46,040
@@ -6047,7 +6047,7 @@ Betulkah?
 
 1275
 00:54:15,620 --> 00:54:18,250
-Convenience variable harus
+Variabel pembantu harus
 bernilai bilangan bulat.
 
 1276
@@ -6084,7 +6084,7 @@ dengan register EBP ini.
 
 1283
 00:54:37,362 --> 00:54:38,570
-Itu tidak sangat menarik.
+Itu tidak terlalu menarik.
 
 1284
 00:54:38,570 --> 00:54:40,620
@@ -6137,7 +6137,7 @@ terdapat beberapa hal di atasnya
 1294
 00:55:06,840 --> 00:55:09,550
 yang akan menjadi
-buffer, nilai integer
+buffer, nilai bilangan bulat
 
 1295
 00:55:09,550 --> 00:55:12,110
@@ -6231,7 +6231,7 @@ buffernya-- kita sebenarnya
 1314
 00:56:11,010 --> 00:56:13,750
 perlu menentukan, di mana elemen
-ke nol dari buffer berada,
+ke-nol dari buffer berada,
 
 1315
 00:56:13,750 --> 00:56:16,950
@@ -6240,7 +6240,7 @@ dari buffer ini berada?
 
 1316
 00:56:16,950 --> 00:56:20,510
-Jadi di mana elemen ke nol
+Jadi di mana elemen ke-nol
 dari buffer itu berada?
 
 1317
@@ -6259,7 +6259,7 @@ akan terus naik atas.
 
 1320
 00:56:25,590 --> 00:56:27,505
-Jadi buff ke nol berada di bawah sini.
+Jadi buff ke-nol berada di bawah sini.
 
 1321
 00:56:27,505 --> 00:56:28,760
@@ -6325,11 +6325,11 @@ dalam stack yang akan
 
 1334
 00:57:02,150 --> 00:57:06,040
-disebut saved EBP.
+disebut EBP tersimpan (saved EBP).
 
 1335
 00:57:06,040 --> 00:57:08,870
-Itu adalah lokasi terpisah, kurang
+Lokasinya terpisah, kurang
 lebih setelah semua variabel
 
 1336
@@ -6424,7 +6424,7 @@ untuk membongkarnya.
 
 1355
 00:57:59,070 --> 00:58:00,130
-Lalu siapakah dia?
+Lalu siapakah orang ini?
 
 1356
 00:58:00,130 --> 00:58:02,290

@@ -3774,7 +3774,7 @@ skema kriptografi yang berbeda.
 797
 00:34:05,870 --> 00:34:08,031
 Sebagai contoh, saat ini orang
-tidak menggunakan hash MD5
+tidak lagi menggunakan hash MD5
 
 798
 00:34:08,031 --> 00:34:08,739
@@ -3782,513 +3782,513 @@ dan sertifikat.
 
 799
 00:34:08,739 --> 00:34:11,167
-They use SHA-1, but that
-was good for a while.
+Mereka menggunakan SHA-1, tetapi
+hal itu baik untuk sementara waktu.
 
 800
 00:34:11,167 --> 00:34:13,250
-Now SHA-1 is also weak,
-and Google is actually now
+Sekarang SHA-1 juga lemah,
+dan Google saat ini sedang
 
 801
 00:34:13,250 --> 00:34:17,010
-actively trying to push web
-developers and browser vendors
+aktif mencoba untuk mendorong
+pengembang web dan pembuat peramban
 
 802
 00:34:17,010 --> 00:34:19,712
-et cetera to discontinue
-the use of SHA-1
+dan yang lainnya untuk tidak
+melanjutkan penggunaan dari SHA-1
 
 803
 00:34:19,712 --> 00:34:21,920
-and use a different hash
-function because it's pretty
+dan menggunakan fungsi hash
+yang berbeda karena terlihat cukup
 
 804
 00:34:21,920 --> 00:34:24,489
-clear that maybe in
-5 or 10 years time,
+jelas dalam kurun waktu sekitar
+5 sampai 10 tahun kedepan,
 
 805
 00:34:24,489 --> 00:34:27,070
-there will be relatively
-easy attacks on SHA-1.
+akan terdapat serangan yang
+relatif mudah terhadap SHA-1.
 
 806
 00:34:27,070 --> 00:34:29,000
-It's already been
-shown to be weaker.
+Hal ini sudah
+terbukti lebih lemah.
 
 807
 00:34:29,000 --> 00:34:31,931
-So I guess there is no
-magic bullet, per se.
+Jadi saya rasa tidak ada
+solusi ajaib untuk hal ini.
 
 808
 00:34:31,931 --> 00:34:33,389
-You just have to
-make sure that you
+Anda hanya harus
+memastikan bahwa Anda
 
 809
 00:34:33,389 --> 00:34:36,650
-keep evolving with the hackers.
+terus berkembang bersama para peretas.
 
 810
 00:34:36,650 --> 00:34:37,908
-Yeah.
+Ya.
 
 811
 00:34:37,908 --> 00:34:39,199
-There is a problem, absolutely.
+Tentu saja terdapat masalah.
 
 812
 00:34:39,199 --> 00:34:41,199
-Like, all of this stuff
-that we're talking about
+Seperti, semua hal yang
+sedang kita bicarakan ini
 
 813
 00:34:41,199 --> 00:34:44,330
-relies on crypto being correct,
-or sort of being s to break.
+bergantung pada kriptografi yang benar,
+atau sesuatu yang sulit untuk dipecahkan.
 
 814
 00:34:44,330 --> 00:34:47,166
-So you have to pick
-parameters suitably.
+Jadi Anda perlu memilih
+parameter yang sesuai.
 
 815
 00:34:47,166 --> 00:34:49,179
-At least here, there's
-an expiration time.
+Setidaknya di sini, terdapat
+waktu kadaluwarsa.
 
 816
 00:34:49,179 --> 00:34:51,800
-So well, let's pick
-some parameters
+Jadi, mari kita pilih
+beberapa parameter
 
 817
 00:34:51,800 --> 00:34:53,980
-that are good for a year
-as opposed to for 10 years.
+yang baik untuk satu tahun
+dibandingkan untuk 10 tahun.
 
 818
 00:34:53,980 --> 00:34:55,820
-The CA has a much
-bigger problem.
+CA memiliki masalah
+yang jauh lebih besar.
 
 819
 00:34:55,820 --> 00:34:59,570
-This key, there's no
-expiration on it, necessarily.
+Kunci ini, tentu saja, tidak
+memiliki waktu kadaluwarsa didalamnya.
 
 820
 00:34:59,570 --> 00:35:02,770
-So that's less clear
-what's going on.
+Jadi semakin tidak jelas
+apa yang sedang terjadi.
 
 821
 00:35:02,770 --> 00:35:05,360
-So probably, you would pick
-really aggressively sort
+Jadi mungkin, Anda dengan sangat
+agresif akan memilih semacam
 
 822
 00:35:05,360 --> 00:35:07,400
-of safe parameters.
+parameter yang aman.
 
 823
 00:35:07,400 --> 00:35:11,160
-So 4,000 or 6,000
-bit RSA or something.
+Jadi sekitar 4,000 atau 6,000
+bit RSA.
 
 824
 00:35:11,160 --> 00:35:12,570
-Or another scheme all together.
+Atau skema yang lain secara bersamaan.
 
 825
 00:35:12,570 --> 00:35:13,920
-Don't use SHA-1 at all here.
+Jangan menggunakan SHA-1 sama sekali disini.
 
 826
 00:35:16,710 --> 00:35:17,380
-Yeah.
+Ya.
 
 827
 00:35:17,380 --> 00:35:19,500
-No real clear answer.
+Tidak ada jawaban yang benar-benar tepat.
 
 828
 00:35:19,500 --> 00:35:21,490
-You just have to do it.
+Anda hanya perlu melakukannya.
 
 829
 00:35:21,490 --> 00:35:21,990
-All right.
+Baiklah.
 
 830
 00:35:21,990 --> 00:35:24,320
-Any other questions?
+Ada pertanyaan lain?
 
 831
 00:35:24,320 --> 00:35:24,960
-All right.
+Baiklah.
 
 832
 00:35:24,960 --> 00:35:27,740
-So let's now look at-- so
-this is just like the protocol
+Jadi mari kita sekarang lihat ke-- jadi
+ini hanya seperti sisi protokol
 
 833
 00:35:27,740 --> 00:35:28,370
-side of things.
+dari hal-hal ini.
 
 834
 00:35:28,370 --> 00:35:30,240
-Let's now look at how
-do we integrate this
+Mari sekarang kita lihat bagaimana
+cara kita mengintegrasikan hal ini
 
 835
 00:35:30,240 --> 00:35:34,420
-into a particular application,
-namely the web browser?
+ke dalam aplikasi tertentu,
+seperti peramban web?
 
 836
 00:35:34,420 --> 00:35:38,640
-So I guess if you want to secure
-network communication, or sort
+Jadi saya rasa jika Anda ingin mengamankan
+komunikasi antar jaringan, atau semacam
 
 837
 00:35:38,640 --> 00:35:41,490
-of websites, with
-cryptography, there's
+situs web, yang menggunakan
+kriptografi, sebenarnya
 
 838
 00:35:41,490 --> 00:35:44,650
-really three things we
-have to protect in browser.
+terdapat tiga hal yang harus
+kita lindungi di peramban.
 
 839
 00:35:44,650 --> 00:35:48,220
-So the first thing we have to
-protect is data on the network.
+Jadi hal pertama yang harus kita
+lindungi adalah data di dalam jaringan.
 
 840
 00:35:51,922 --> 00:35:55,421
-And this is almost the easy
-part because well, we're
+Dan ini adalah bagian yang cukup
+mudah karena, kita
 
 841
 00:35:55,421 --> 00:35:57,420
-just going to run a
-protocol very much like what
+hanya akan menjalankan sebuah
+protokol yang sangat mirip dengan
 
 842
 00:35:57,420 --> 00:35:58,810
-I've been describing so far.
+yang saya jelaskan sejauh ini.
 
 843
 00:35:58,810 --> 00:36:00,920
-We'll encrypt all the
-messages, sign them,
+Kita akan mengenkripsi semua
+pesan, kemudian menandatanginya,
 
 844
 00:36:00,920 --> 00:36:02,670
-make sure they haven't
-been tampered with,
+lalu memastikan mereka
+belum dirusak,
 
 845
 00:36:02,670 --> 00:36:04,410
-all this great stuff.
+dan semua hal hebat ini.
 
 846
 00:36:04,410 --> 00:36:06,620
-So that's how we're
-going to protect data.
+Jadi begitulah cara kita
+untuk melindungi data.
 
 847
 00:36:06,620 --> 00:36:08,850
-But then there's two other
-things in a web browser
+Namun ada dua hal lain
+yang terdapat dalam peramban web
 
 848
 00:36:08,850 --> 00:36:11,315
-that we really have
-to worry about.
+yang benar-benar perlu
+kita khawatirkan.
 
 849
 00:36:11,315 --> 00:36:13,970
-So the first of them
-is anything that
+Jadi yang pertama
+adalah apa pun yang
 
 850
 00:36:13,970 --> 00:36:15,340
-actually runs in the browser.
+sebenarnya jalan di peramban.
 
 851
 00:36:15,340 --> 00:36:16,960
-So code that's running
-in the browser,
+Jadi kode yang sedang jalan
+di peramban,
 
 852
 00:36:16,960 --> 00:36:19,510
-like JavaScript or
-important data that's
+seperti JavaScript atau
+data penting yang
 
 853
 00:36:19,510 --> 00:36:21,340
-stored in the browser.
+disimpan di peramban.
 
 854
 00:36:21,340 --> 00:36:24,950
-Maybe your cookies, or local
-storage, or lots of other stuff
+Mungkin cookies Anda, atau penyimpanan
+lokal, atau banyak hal lainnya
 
 855
 00:36:24,950 --> 00:36:27,005
-that goes on in a
-modern browser all
+yang berjalan terus di sebuah
+peramban modern semuanya
 
 856
 00:36:27,005 --> 00:36:29,795
-has to be somehow protected
-from network [? of hackers. ?]
+harus entah bagiamana dilindungi
+dari jaringan [? para peretas. ?]
 
 857
 00:36:29,795 --> 00:36:31,170
-And we'll see the
-kinds of things
+Dan kita akan melihat
+berbagai hal yang
 
 858
 00:36:31,170 --> 00:36:33,390
-we have to worry about
-here in a second.
+perlu kita khawatirkan
+di sini sesaat lagi.
 
 859
 00:36:33,390 --> 00:36:36,920
-And then the last thing that you
-might not think about too much
+Dan hal terakhir yang Anda
+mungkin tidak pikirkan terlalu banyak
 
 860
 00:36:36,920 --> 00:36:40,060
-but turns out to be a
-real issue in practice
+tapi ternyata menjadi sebuah
+masalah nyata dalam praktiknya
 
 861
 00:36:40,060 --> 00:36:43,950
-is protecting the
-user interface.
+adalah melindungi
+antarmuka pengguna.
 
 862
 00:36:43,950 --> 00:36:47,472
-And the reason for this
-is that ultimately,
+Dan alasannya adalah
+karena pada akhirnya,
 
 863
 00:36:47,472 --> 00:36:49,930
-much of the confidential data
-that we care about protecting
+sebagian besar data rahasia
+yang ingin kita lindungi
 
 864
 00:36:49,930 --> 00:36:50,763
-comes from the user.
+berasal dari pengguna.
 
 865
 00:36:50,763 --> 00:36:53,829
-And the user is typing this
-stuff into some website,
+Dan pengguna memberikan hal ini
+ke dalam sebuah situs web,
 
 866
 00:36:53,829 --> 00:36:55,620
-and the user probably
-has multiple websites
+dan pengguna mungkin saja
+menggunakan beberapa situs web
 
 867
 00:36:55,620 --> 00:36:57,411
-open on their computer
-so that the user has
+yang terbuka di komputer mereka
+sehingga pengguna harus dapat
 
 868
 00:36:57,411 --> 00:36:59,760
-to be able to distinguish
-which site they're actually
+membedakan pada situs mana
+mereka benar-benar
 
 869
 00:36:59,760 --> 00:37:01,980
-interacting with at
-any moment in time.
+berinteraksi
+setiap saatnya.
 
 870
 00:37:01,980 --> 00:37:04,690
-If they accidentally typed their
-Amazon password into some web
+Jika mereka tidak sengaja mengetikkan
+kata sandi Amazon mereka pada sebuah
 
 871
 00:37:04,690 --> 00:37:06,674
-discussion forum, it's
-going to be disastrous
+forum diskusi di web, hal tersebut
+dapat menjadi bencana
 
 872
 00:37:06,674 --> 00:37:09,090
-depending on how much you care
-about your Amazon password,
+tergantung pada seberapa besar Anda
+peduli dengan kata sandi Amazon Anda,
 
 873
 00:37:09,090 --> 00:37:10,680
-but still.
+tapi tetap saja.
 
 874
 00:37:10,680 --> 00:37:14,550
-So you really want to
-have good user interface
+Jadi Anda benar-benar ingin
+memiliki elemen antarmuka pengguna
 
 875
 00:37:14,550 --> 00:37:17,077
-sort of elements that
-help the user figure out
+yang baik yang membantu
+pengguna mengetahui
 
 876
 00:37:17,077 --> 00:37:17,910
-what are they doing?
+apa yang mereka lakukan?
 
 877
 00:37:17,910 --> 00:37:20,500
-Am I typing this confidential
-data into the right website,
+Apakah saya mengetikkan data
+rahasia ke situs web yang tepat,
 
 878
 00:37:20,500 --> 00:37:23,590
-or what's going to happen to
-this data when I submit it?
+atau apa yang akan terjadi pada
+data ini ketika saya mengirimkannya?
 
 879
 00:37:23,590 --> 00:37:30,360
-So this turns out to be a pretty
-important issue for protecting
+Jadi hal ini ternyata menjadi
+masalah yang cukup penting untuk melindungi
 
 880
 00:37:30,360 --> 00:37:33,380
-web applications.
+aplikasi web.
 
 881
 00:37:33,380 --> 00:37:34,170
-All right.
+Baiklah.
 
 882
 00:37:34,170 --> 00:37:35,080
-Make sense?
+Masuk akal?
 
 883
 00:37:35,080 --> 00:37:37,760
-So let's talk actually
-what the current web
+Jadi mari kita bicarakan apa yang
+sebenarnya dilakukan peramban web
 
 884
 00:37:37,760 --> 00:37:39,890
-browsers do on this front.
+pada bagian depan ini.
 
 885
 00:37:39,890 --> 00:37:42,510
-So as I mentioned, here
-for protecting [INAUDIBLE],
+Jadi seperti yang saya sebutkan, bagian ini
+untuk melindungi [TIDAK TERDENGAR],
 
 886
 00:37:42,510 --> 00:37:47,290
-we're just going to use this
-protocol called SSL or TLS now
+kita hanya akan menggunakan protokol
+yang disebut SSL atau TLS ini sekarang
 
 887
 00:37:47,290 --> 00:37:49,000
-that encrypts and
-authenticates data.
+yang mengenkripsi dan
+mengautentikasi data.
 
 888
 00:37:49,000 --> 00:37:51,670
-It looks very similar to the
-kind of discussion we've had
+Hal ini terlihat sangat mirip dengan
+diskusi yang kita lakukan
 
 889
 00:37:51,670 --> 00:37:53,110
-so far.
+sejauh ini.
 
 890
 00:37:53,110 --> 00:37:56,180
-It includes the certificate
-authorities, et cetera.
+Hal ini meliputi otoritas
+sertifikat, dan sebagainya.
 
 891
 00:37:56,180 --> 00:37:58,710
-And then of course,
-many more details.
+Dan tentu saja,
+terdapat banyak detail lainnya.
 
 892
 00:37:58,710 --> 00:38:02,080
-Like, TLS is hugely
-complicated, but it's not
+Seperti, TLS sangat
+rumit, Tetapi hal tersebut tidak
 
 893
 00:38:02,080 --> 00:38:06,064
-particularly interesting
-from this [INAUDIBLE] angle.
+terlalu menarik
+dari sudut [TIDAK TERDENGAR] ini.
 
 894
 00:38:06,064 --> 00:38:08,230
-All right, so protecting,
-[? stopping ?] the browser
+Baiklah, jadi melindungi,
+[? berhenti ?] peramban
 
 895
 00:38:08,230 --> 00:38:10,670
-turns out to be much
-more interesting.
+ternyata jauh
+lebih menarik.
 
 896
 00:38:10,670 --> 00:38:13,950
-And the reason is that
-we need to make sure
+Dan alasannya adalah
+kita harus memastikan
 
 897
 00:38:13,950 --> 00:38:19,520
-that any code or data delivered
-over non-encrypted connections
+bahwa kode atau data apa pun yang dikirimkan
+melalui koneksi yang tidak terenkripsi
 
 898
 00:38:19,520 --> 00:38:22,090
-can't tamper with
-code and data that
+tidak dapat merusak
+kode dan data yang
 
 899
 00:38:22,090 --> 00:38:24,121
-came from an
-encrypted connection
+berasal dari
+koneksi yang terenkripsi
 
 900
 00:38:24,121 --> 00:38:26,620
-because our threat model is
-that anything that's unencrypted
+karena model ancaman kita adalah
+segala sesuatu yang tidak terenkripsi
 
 901
 00:38:26,620 --> 00:38:30,970
-could potentially be tampered
-with by a network [? backer. ?]
+berpotensi untuk dirusak
+oleh jaringan [? penyokong. ?]
 
 902
 00:38:30,970 --> 00:38:33,730
-So we have to make
-sure that if we
+Jadi kita harus
+memastikan jika kita
 
 903
 00:38:33,730 --> 00:38:38,250
-have some unencrypted JavaScript
-code running on our browser,
+memiliki beberapa kode JavaScript yang 
+tidak terenkripsi berjalan pada peramban kita,
 
 904
 00:38:38,250 --> 00:38:40,220
-then we should assume
-that that could've
+maka kita harus berasumsi
+bahwa hal itu bisa saja
 
 905
 00:38:40,220 --> 00:38:41,750
-been tampered with an attacker
-because it wasn't encrypted.
+dirusak oleh penyerang
+karena tidak terenkripsi.
 
 906
 00:38:41,750 --> 00:38:44,077
