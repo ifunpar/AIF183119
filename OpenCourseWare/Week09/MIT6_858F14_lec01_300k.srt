@@ -6570,7 +6570,7 @@ Apa yang terjadi, betul?
 
 1387
 00:59:11,025 --> 00:59:12,980
-Jadi saya mencetak banyak As.
+Jadi saya mencetak banyak huruf A.
 
 1388
 00:59:12,980 --> 00:59:14,560
@@ -6583,13 +6583,13 @@ Ya, ya.
 
 1390
 00:59:17,270 --> 00:59:18,936
-Jadi itu terus menerus
-menulis As di sini, betul?
+Jadi dia terus-menerus menulis
+banyak huruf A di sini, betul?
 
 1391
 00:59:18,936 --> 00:59:21,360
-Yang sebenarnya kami teruskan ke
-getS() adalah sebuah penunjuk tunggal,
+Yang sebenarnya kita berikan kepada
+getS() hanyalah sebuah penunjuk,
 
 1392
 00:59:21,360 --> 00:59:23,410
@@ -6604,44 +6604,44 @@ argumen untuk getS(),
 1394
 00:59:26,660 --> 00:59:28,800
 adalah sebuah penunjuk ke
-lokasi memori ini di stack.
+lokasi memori ini dalam stack.
 
 1395
 00:59:28,800 --> 00:59:30,470
-Jadi itu terus menulis As.
+Jadi dia terus menulis banyak huruf A.
 
 1396
 00:59:30,470 --> 00:59:32,470
-Dan sebenarnya tidak
+Dan sebenarnya dia tidak
 tahu berapa panjangnya,
 
 1397
 00:59:32,470 --> 00:59:33,760
-jadi itu terus berlangsung, betul?
+jadi dia terus berjalan, betul?
 
 1398
 00:59:33,760 --> 00:59:36,334
-Ini akan menimpa As
-sepanjang jalan ke atas stack,
+Dia akan menimpakan huruf-huruf A
+terus hingga ke atas stack,
 
 1399
 00:59:36,334 --> 00:59:38,500
-melewati alamat pengirim,
+melewati alamat kembali,
 mungkin, dan ke dalam apapun
 
 1400
 00:59:38,500 --> 00:59:40,934
-yang ada di atas stack di atas kita.
+yang ada pada stack di atas kita.
 
 1401
 00:59:40,934 --> 00:59:42,600
-Jadi kita dapat memeriksa apakah
-itu masalahnya.
+Jadi kita dapat memeriksa
+apakah itu masalahnya.
 
 1402
 00:59:42,600 --> 00:59:47,064
-Jadi kita benar-benar dapat
-mencetak buffer.
+Jadi kita sebenarnya dapat
+mencetak buffernya.
 
 1403
 00:59:47,064 --> 00:59:48,480
@@ -6650,12 +6650,12 @@ memberitahu kita, ya, kita
 
 1404
 00:59:48,480 --> 00:59:51,500
-memiliki 180 As di sana,
-meskipun buffer
+memiliki 180 huruf A di
+sana, meskipun buffernya
 
 1405
 00:59:51,500 --> 00:59:55,670
-seharusnya 128 elemen besar.
+seharusnya hanya berukuran 128 elemen.
 
 1406
 00:59:55,670 --> 00:59:57,310
@@ -6668,7 +6668,7 @@ sekali lagi, memeriksa apa
 
 1408
 00:59:59,530 --> 01:00:03,290
-yang terjadi di penunjuk EBP itu.
+yang seang terjadi di penunjuk EBP itu.
 
 1409
 01:00:03,290 --> 01:00:05,095
@@ -6680,22 +6680,22 @@ Jadi sebenarnya, ya.
 
 1411
 01:00:06,610 --> 01:00:12,159
-Itu semua 0x41, yang merupakan
+Semuanya adalah 0x41, yang merupakan
 pengkodean ASCII dari huruf A.
 
 1412
 01:00:12,159 --> 01:00:14,200
 Dan sebenarnya, alamat
-pengirim mungkin
+kembalinya mungkin
 
 1413
 01:00:14,200 --> 01:00:15,283
-akan menjadi cara yang sama, betul?
+akan mengalami hal yang sama, betul?
 
 1414
 01:00:15,283 --> 01:00:19,350
 Jika kita mencetak alamat
-pengirim, itu juga semua As.
+kembali, itu juga semua huruf A.
 
 1415
 01:00:19,350 --> 01:00:20,245
@@ -6703,8 +6703,8 @@ Itu tidak terlalu bagus.
 
 1416
 01:00:20,245 --> 01:00:22,370
-Faktanya, apa yang akan
-terjadi jika kita kembali sekarang adalah
+Bahkan, hal yang akan terjadi
+jika kita kembali sekarang adalah
 
 1417
 01:00:22,370 --> 01:00:25,447
@@ -6717,7 +6717,7 @@ Dan tidak ada apa-apa di sana.
 
 1419
 01:00:26,530 --> 01:00:27,196
-Dan itu akan crash.
+Dan dia akan crash.
 
 1420
 01:00:27,196 --> 01:00:29,840
@@ -6727,16 +6727,16 @@ yang Anda dapatkan.
 1421
 01:00:29,840 --> 01:00:33,090
 Jadi mari melangkah ke sana
-dan lihat apa yang terjadi.
+dan melihat apa yang terjadi.
 
 1422
 01:00:33,090 --> 01:00:34,490
-Jadi mari jalankan selanjutnya.
+Jadi mari jalankan perintah next.
 
 1423
 01:00:34,490 --> 01:00:37,470
 Jadi kita terus melangkah
-melalui program.
+menyusuri programnya.
 
 1424
 01:00:37,470 --> 01:00:40,060
@@ -6748,17 +6748,17 @@ Oke.
 
 1426
 01:00:40,560 --> 01:00:43,330
-Kita semakin dekat
-dengan akhir fungsi.
+Kita semakin mendekat
+ke akhir dari fungsinya.
 
 1427
 01:00:43,330 --> 01:00:46,400
-Jadi kita dapat melangkahi
+Jadi kita dapat melewati
 dua instruksi lagi.
 
 1428
 01:00:46,400 --> 01:00:49,260
-selanjutnya.
+nexit.
 
 1429
 01:00:49,260 --> 01:00:51,531
@@ -7154,8 +7154,8 @@ Atau yah, oke.
 
 1513
 01:03:59,644 --> 01:04:02,060
-Mungkin lebih baik kita mencari tahu dulu 
-mengapa hal ini buruk,
+Mungkin lebih baik kita mencari
+tahu dulu mengapa hal ini buruk,
 
 1514
 01:04:02,060 --> 01:04:02,560
@@ -7203,7 +7203,7 @@ PROFESSOR: Ya.
 
 1524
 01:04:13,846 --> 01:04:16,809
-Jadi tadi saya sangat konyol dan
+Jadi tadi saya cukup konyol dan
 hanya memasukkan banyak huruf A.
 
 1525
@@ -7270,20 +7270,20 @@ dan memicu terjadinya overflow.
 1538
 01:04:43,900 --> 01:04:47,980
 Tapi saya tidak akan mencoba
-untuk hati-hati membangun--
+untuk secara hati-hati membangun--
 
 1539
 01:04:47,980 --> 01:04:50,445
-Anda tahu, mencari tahu
-titik mana dalam As yang sesuai
+Anda tahu, mencari tahu titik mana
+dalam huruf-huruf A ini yang bersesuaian
 
 1540
 01:04:50,445 --> 01:04:51,710
-dengan lokasi di stack.
+dengan lokasi itu dalam stack.
 
 1541
 01:04:51,710 --> 01:04:52,430
-Itu sesuatu
+Itu adlaah sesuatu
 yang kalian harus
 
 1542
@@ -7293,7 +7293,7 @@ lakukan untuk lab satu.
 1543
 01:04:53,920 --> 01:04:57,050
 Tapi misalkan saya
-overflow stack di sini.
+meng-overflow stacknya di sini.
 
 1544
 01:04:57,050 --> 01:04:58,470
@@ -7302,12 +7302,12 @@ mencoba secara manual
 
 1545
 01:04:58,470 --> 01:05:01,470
-untuk mengubah hal-hal di stack
+untuk mengubah hal-hal dalam stack
 untuk membuatnya melompat ke beberapa titik
 
 1546
 01:05:01,470 --> 01:05:03,310
-yang saya ingin lompati.
+yang saya ingin tuju.
 
 1547
 01:05:03,310 --> 01:05:08,979
