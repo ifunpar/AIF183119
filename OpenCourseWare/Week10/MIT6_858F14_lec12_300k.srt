@@ -3891,7 +3891,7 @@ berjalan di atas TCP.
 818
 00:33:19,671 --> 00:33:21,170
 Jadi sebenarnya ada
-beberapa sesi TCP
+sesi TCP
 
 819
 00:33:21,170 --> 00:33:22,878
@@ -3920,7 +3920,7 @@ bahwa koneksi TCP
 
 824
 00:33:36,050 --> 00:33:39,580
-hidup untuk juga menyimpulkan
+hidup untuk juga menyiratkan
 bahwa tautannya hidup.
 
 825
@@ -3978,13 +3978,13 @@ dan rutenya berubah.
 
 836
 00:34:02,510 --> 00:34:05,235
-Dan kemudian Anda mungkin menembak
+Dan kemudian Anda mungkin menembak mati
 tautan lainnya, dan seterusnya.
 
 837
 00:34:05,235 --> 00:34:07,300
-Jadi ini sedikit
-serangan yang mengkhawatirkan,
+Jadi ini serangan yang
+cukup mengkhawatirkan,
 
 838
 00:34:07,300 --> 00:34:12,489
@@ -3994,7 +3994,7 @@ privasi seseorang, dan lain-lain,
 839
 00:34:12,489 --> 00:34:15,510
 atau setidaknya tidak secara langsung,
-tetapi lebih ke serangan ini benar-benar
+tetapi lebih karena ini benar-benar
 
 840
 00:34:15,510 --> 00:34:19,310
@@ -4079,7 +4079,7 @@ mungkin 443,
 
 857
 00:34:54,620 --> 00:34:55,912
-kaerna saya menggunakan HTTPS.
+karena saya menggunakan HTTPS.
 
 858
 00:34:55,912 --> 00:34:57,370
@@ -4093,7 +4093,7 @@ serangkaian 16-bit yang acak.
 860
 00:34:59,390 --> 00:35:02,040
 Dan itu juga akan menjadi
-kasus dimana kemungkinan
+kasus di mana kemungkinan
 
 861
 00:35:02,040 --> 00:35:03,070
@@ -4128,12 +4128,12 @@ dalam jumlah yang wajar.
 867
 00:35:17,350 --> 00:35:19,168
 Tidak ada semacam
-akses ramalan.
+akses serbatahu.
 
 868
 00:35:19,168 --> 00:35:21,293
 Anda tidak bisa hanya menanyakan
-server dan berkata apa
+server dan berkata berapakah
 
 869
 00:35:21,293 --> 00:35:23,130
@@ -4161,7 +4161,7 @@ terutama bagi router BGP.
 874
 00:35:35,890 --> 00:35:38,460
 Sebenarnya ada dua
-perbaikan yang menyenangkan.
+perbaikan yang mencengangkan.
 
 875
 00:35:38,460 --> 00:35:41,389
@@ -4184,7 +4184,7 @@ bahwa router-router ini hanya
 
 879
 00:35:47,747 --> 00:35:49,497
-ingin untuk berbicara kepada
+ingin berbicara kepada
 sesama, tidak kepada orang lain
 
 880
@@ -4203,7 +4203,7 @@ router yang berada di sebelah tautan,
 
 883
 00:35:55,817 --> 00:35:58,442
-tapi dari tempat lain, Saya ingin
+tapi dari tempat lain, saya ingin
 membuang semua paket ini.
 
 884
@@ -4214,21 +4214,21 @@ penulisan ini sadari adalah
 885
 00:36:01,730 --> 00:36:04,370
 ada sebuah bidang yang hebat
-didalam sebuah paket yang disebut waktu
+di dalam sebuah paket yang disebut waktu
 
 886
 00:36:04,370 --> 00:36:05,390
-untuk hidup.
+hidup.
 
 887
 00:36:05,390 --> 00:36:08,665
 Itu adalah sebuah bidang 8-bit yang
-mendapatkan pengurangan oleh setiap perhitungan
+dikurangi oleh setiap router
 
 888
 00:36:08,665 --> 00:36:11,840
 untuk memastikan paket tersebut
-tidak masuk kedalam loop tidak terbatas.
+tidak masuk kedalam pengulangan tidak terbatas.
 
 889
 00:36:11,840 --> 00:36:15,180
@@ -4237,8 +4237,8 @@ dapat dicapai oleh TTL ini adalah 255.
 
 890
 00:36:15,180 --> 00:36:17,630
-Dan akan mendapatkan
-pengurangan dari situ.
+Dan akan dikurangi
+dari situ.
 
 891
 00:36:17,630 --> 00:36:19,165
