@@ -4493,104 +4493,104 @@ server menyediakan sertifikat
 
 948
 00:40:40,620 --> 00:40:42,570
-for foo.com exactly.
+untuk tepat foo.com.
 
 949
 00:40:42,570 --> 00:40:45,560
-Otherwise, we'll say, well, we
-tried to connect to one guy,
+Jika tidak, mari kita katakan, ya, kita
+mencoba untuk terhubung dengan seseorang,
 
 950
 00:40:45,560 --> 00:40:47,500
-but we actually
-have another guy.
+tapi kita sebenarnya
+memiliki orang lain.
 
 951
 00:40:47,500 --> 00:40:49,680
-That's a different
-name in the certificate
+Itu adalah sebuah nama
+berbeda di sertifikat
 
 952
 00:40:49,680 --> 00:40:50,890
-that we connected to.
+yang terhubung dengan kita.
 
 953
 00:40:50,890 --> 00:40:54,690
-And that'll be a
-certificate mismatch.
+Dan itu akan menjadi sebuah
+ketidakcocokan sertifikat.
 
 954
 00:40:54,690 --> 00:40:57,230
-So that's how we are going to
-distinguish different sites
+Jadi begitulah cara kita akan
+membedakan situs yang berbeda
 
 955
 00:40:57,230 --> 00:40:57,730
-from one another.
+satu dengan yang lainnnya.
 
 956
 00:40:57,730 --> 00:40:59,229
-We're basically
-going to get the CAs
+Kita pada dasarnya
+akan membuat CA
 
 957
 00:40:59,229 --> 00:41:01,370
-to help us tell
-these sites apart,
+untuk menolong kita
+membedakan situs-situs tersebut,
 
 958
 00:41:01,370 --> 00:41:03,630
-and the CAs are going to
-promise to issue certificates
+dan CA akan berjanji
+untuk mengeluarkan sertifikat
 
 959
 00:41:03,630 --> 00:41:05,872
-to only the right entities.
+hanya pada entitas yang benar.
 
 960
 00:41:05,872 --> 00:41:07,330
-So that's on the
-same margin policy
+Jadi itu dalam sisi
+kebijakan batas yang
 
 961
 00:41:07,330 --> 00:41:11,300
-side, how we're going to
-separate the code apart.
+sama, cara kita akan
+memisahkan kodenya.
 
 962
 00:41:11,300 --> 00:41:15,050
-And then as it turns out--
-well, as you might remember,
+Dan lalu ternyata--
+ya, seperti yang mungkin Anda ingat,
 
 963
 00:41:15,050 --> 00:41:17,475
-cookies have a slightly
-different policy.
+cookies memiliki sebuah kebijakan
+yang sedikit berbeda.
 
 964
 00:41:17,475 --> 00:41:20,800
-Like, it's almost the same
-origin, but not quite.
+Seperti, asalnya hampir
+sama, namun tidak sepenuhnya.
 
 965
 00:41:20,800 --> 00:41:23,980
-So cookies have a
-slightly different plan.
+Jadi cookies memiliki sebuah
+rancangan yang sedikit berbeda.
 
 966
 00:41:23,980 --> 00:41:30,610
-So cookies have this secure flag
-that you can set on a cookie.
+Jadi cookies memiliki secure flag ini
+yang dapat Anda pasang pada sebuah cookie.
 
 967
 00:41:30,610 --> 00:41:34,220
-So the rules are, if a
-cookie has a secure flag,
+Jadi aturannya adalah, jika sebuah
+cookie memiliki sebuah secure flag,
 
 968
 00:41:34,220 --> 00:41:39,940
-then it gets sent only
-to HTTPS requests,
+maka itu hanya dikirim
+pada permintaan HTTPS,
 
 969
 00:41:39,940 --> 00:41:42,330
