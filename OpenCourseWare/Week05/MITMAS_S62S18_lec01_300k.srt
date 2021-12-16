@@ -4291,210 +4291,210 @@ untuk salah satu dari ini,
 
 907
 00:39:07,812 --> 00:39:09,520
-you can't find what
-the input was, or you
+Anda tidak dapat menemukan apa
+inputnya, atau Anda
 
 908
 00:39:09,520 --> 00:39:11,260
-can't find a different input.
+tidak dapat menemukan input yang berbeda.
 
 909
 00:39:11,260 --> 00:39:14,410
-So generally, it's a lot
-easier to make a function
+Jadi secara umum, jauh lebih
+mudah membuat fungsi
 
 910
 00:39:14,410 --> 00:39:16,240
-strong against preimages.
+kuat terhadap pragambar.
 
 911
 00:39:16,240 --> 00:39:20,800
-Collisions is sort of
-harder to deal with.
+Tabrakan agak lebih 
+sulit untuk ditangani.
 
 912
 00:39:20,800 --> 00:39:24,260
-Also, practically speaking, how
-do these hash functions work?
+Juga, secara praktis, bagaimana
+fungsi hash ini bekerja?
 
 913
 00:39:24,260 --> 00:39:26,690
-It's a little bit
-of black magic.
+Ini seperti
+ilmu hitam.
 
 914
 00:39:26,690 --> 00:39:31,450
-There's no proofs that a
-hash function can even exist.
+Tidak ada bukti bahwa
+fungsi hash bahkan bisa ada.
 
 915
 00:39:31,450 --> 00:39:35,050
-So if you could prove that
-there is a one-way function,
+Jadi jika anda bisa membuktikan
+ada satu fungsi satu arah,
 
 916
 00:39:35,050 --> 00:39:37,150
-you get the Fields Medal, right?
+Anda mendapatkan Fields Medal, benar?
 
 917
 00:39:37,150 --> 00:39:38,890
-It's like a million
-dollar prize.
+Ini seperti hadiah
+satu juta dolar.
 
 918
 00:39:38,890 --> 00:39:40,390
-So if you can prove
-it there is such
+Jadi jika Anda dapat membuktikan
+bahwa terdapat
 
 919
 00:39:40,390 --> 00:39:42,310
-a thing as a hash
-function, you will be
+sebuah hal seperti fungsi
+hash, Anda akan menjadi
 
 920
 00:39:42,310 --> 00:39:44,410
-a super famous mathematician.
+matematikawan yang sangat terkenal.
 
 921
 00:39:44,410 --> 00:39:47,250
-We have no idea that this is
-even mathematically possible.
+Kami tidak tahu bahwa hal ini
+mungkin secara matematis.
 
 922
 00:39:47,250 --> 00:39:49,520
-Or maybe the universe
-doesn't work this way.
+Atau mungkin alam semesta
+tidak bekerja seperti ini.
 
 923
 00:39:49,520 --> 00:39:50,980
-It seems to, though.
+Meskipun, terlihatnya seperti itu.
 
 924
 00:39:50,980 --> 00:39:53,110
-It seems like there
-are these things that
+Di sana terlihat seperti
+terdapat sesuatu yang
 
 925
 00:39:53,110 --> 00:39:55,780
-work like hash functions, that
-work like one-way functions,
+bekerja seperti fungsi hash, yang
+bekerja seperti fungsi satu arah
 
 926
 00:39:55,780 --> 00:39:57,300
-but we have no proof of that.
+tetapi kita tidak punya bukti mengenai itu.
 
 927
 00:39:57,300 --> 00:40:02,517
-So even the most fundamental
-part that everything hinges on,
+Bahkan bagian yang paling mendasar
+yang semua bergantung padanya,
 
 928
 00:40:02,517 --> 00:40:03,850
-we don't even know if it exists.
+kita bahkan tidak tahu apakah itu ada.
 
 929
 00:40:03,850 --> 00:40:06,670
-And then this is sort
-of closely related,
+Dan lalu hal semacam
+yang berhubungan erat,
 
 930
 00:40:06,670 --> 00:40:08,530
-if you're in the
-computer science-y stuff,
+jika Anda di dalam
+hal komputer sains,
 
 931
 00:40:08,530 --> 00:40:11,670
-like p and mp--
+seperti p dan mp--
 
 932
 00:40:11,670 --> 00:40:15,400
-anyway, so we don't know
-that these actually work.
+bagaimanapun, jadi kami tidak tahu
+bahwa ini benar-benar bekerja.
 
 933
 00:40:15,400 --> 00:40:18,190
-And also, in practice,
-hash functions
+Dan juga, dalam praktisnya,
+fungsi hash
 
 934
 00:40:18,190 --> 00:40:21,610
-are not nice math, cool
-things like elliptic curves
+bukan matematika yang bagus, hal keren
+seperti kurva epileptik
 
 935
 00:40:21,610 --> 00:40:24,370
-and RSA, prime numbers
-and stuff like that.
+dan RSA, angka prima
+dan hal seperti itu.
 
 936
 00:40:24,370 --> 00:40:27,700
-They're really, if you look at
-the code, it's sort of like,
+Mereka benar-benar, jika Anda melihat ke
+kodenya, itu seperti,
 
 937
 00:40:27,700 --> 00:40:29,260
-well, I'm going to
-take these bytes
+Baiklah, Saya akan mengambil
+bytes itu
 
 938
 00:40:29,260 --> 00:40:30,397
-and I'm going to swap them.
+dan saya akan menukar mereka.
 
 939
 00:40:30,397 --> 00:40:32,230
-And then I'm going to
-add these two numbers,
+Dan kemudian saya akan
+menambahkan dua angka ini,
 
 940
 00:40:32,230 --> 00:40:34,900
-and then I'm going to
-rotate the bits over here,
+kemudian saya akan
+menukar bit disini,
 
 941
 00:40:34,900 --> 00:40:36,880
-and then I'm going to
-x over these things.
+kemudian saya akan
+x melalui benda ini.
 
 942
 00:40:36,880 --> 00:40:39,100
-And then I'm going
-to do that 50 times.
+Kemudian saya akan
+melakukan itu 50 kali.
 
 943
 00:40:39,100 --> 00:40:39,820
-And why 50?
+Dan mengapa 50?
 
 944
 00:40:39,820 --> 00:40:42,290
-Well, it seems like
-50 is a good number.
+Ya, Sepertinya
+50 adalah angka yang bagus.
 
 945
 00:40:42,290 --> 00:40:43,810
-It's not too slow.
+Ini tidak terlalu lambat.
 
 946
 00:40:43,810 --> 00:40:44,650
-No, really.
+Tidak, benar.
 
 947
 00:40:44,650 --> 00:40:50,180
-It's sort of black magic,
-Sha-256 uses 64 rounds.
+Ini seperti ilmu hitam,
+Sha-256 menggunakan 64 putaran.
 
 948
 00:40:50,180 --> 00:40:52,120
-Nice even number.
+Angka genap yang bagus.
 
 949
 00:40:52,120 --> 00:40:55,222
-Different functions like
-Blake 2B uses 20 rounds.
+Fungsi-fungsi berbeda seperti
+Blake 2B menggunakan 20 putaran.
 
 950
 00:40:55,222 --> 00:40:56,930
-But then there's also
-a version that uses
+Tetapi kemudian terdapat juga
+sebuah versi yang menggunakan
 
 951
 00:40:56,930 --> 00:40:58,510
