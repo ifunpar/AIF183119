@@ -3548,74 +3548,74 @@ password guessing.
 
 747
 00:32:03,987 --> 00:32:04,570
-Anything else?
+Ada lagi?
 
 748
 00:32:07,035 --> 00:32:08,910
-So another thing is,
-yeah, challenge respond.
+Jadi hal lainnya adalah,
+ya, tantangan respon.
 
 749
 00:32:08,910 --> 00:32:11,620
-So you could actually hear
-in the initial protocol,
+Jadi sebenarnya Anda bisa mendengar
+di protokol awal,
 
 750
 00:32:11,620 --> 00:32:13,790
-the Kerberos server
-doesn't have any idea
+server Kerberos
+tidak punya ide
 
 751
 00:32:13,790 --> 00:32:15,720
-if this was the
-right client or not.
+jika ini adalah
+klien yang benar atau tidak.
 
 752
 00:32:15,720 --> 00:32:18,202
-But in fact, what
-you could do is maybe
+Tapi nyatanya, apa
+yang Anda bisa lakukan adalah mungkin
 
 753
 00:32:18,202 --> 00:32:20,160
-give a little bit of a
-proof that, well, you're
+memberikan sedikit bukti
+bahwa, sebenarnya, mungkin Anda
 
 754
 00:32:20,160 --> 00:32:22,010
-probably the right client.
+adalah klien yang benar.
 
 755
 00:32:22,010 --> 00:32:24,980
-So maybe you could encrypt
-the current time stamp
+Jadi mungkin Anda bisa mengenkripsi
+time stamp saat ini
 
 756
 00:32:24,980 --> 00:32:27,890
-with your hash
-password or something
+dengan hash password Anda
+atau hal lain
 
 757
 00:32:27,890 --> 00:32:29,455
-like this-- has them together.
+yang sejenis-- secara bersamaan.
 
 758
 00:32:29,455 --> 00:32:31,080
-And then the Kerberos
-server could just
+Kemudian server Kerberos
+hanya perlu
 
 759
 00:32:31,080 --> 00:32:34,250
-check if that's the right-- if
-that matches, and if so, return
+mengecek jika itu adalah yang benar-- jika
+cocok, dan jika demikian, akan mengembalikan
 
 760
 00:32:34,250 --> 00:32:35,330
-you back a ticket.
+kepada Anda tiket.
 
 761
 00:32:35,330 --> 00:32:37,580
-You probably don't want to
-necessarily add more rounds
+Anda mungkin tidak ingin
+menambah ronde yang tidak perlu
 
 762
 00:32:37,580 --> 00:32:38,450
