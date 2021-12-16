@@ -4292,7 +4292,7 @@ untuk salah satu dari ini,
 907
 00:39:07,812 --> 00:39:09,520
 Anda tidak dapat menemukan apa
-inputnya, atau anda
+inputnya, atau Anda
 
 908
 00:39:09,520 --> 00:39:11,260
@@ -4353,7 +4353,7 @@ hash, Anda akan menjadi
 
 920
 00:39:42,310 --> 00:39:44,410
-Matematikawan yang sangat terkenal.
+matematikawan yang sangat terkenal.
 
 921
 00:39:44,410 --> 00:39:47,250
@@ -4371,7 +4371,7 @@ Meskipun, terlihatnya seperti itu.
 
 924
 00:39:50,980 --> 00:39:53,110
-Disana terlihat seperti
+Di sana terlihat seperti
 terdapat sesuatu yang
 
 925
@@ -4381,7 +4381,7 @@ bekerja seperti fungsi satu arah
 
 926
 00:39:55,780 --> 00:39:57,300
-tetapi kami tidak punya bukti mengenai itu.
+tetapi kita tidak punya bukti mengenai itu.
 
 927
 00:39:57,300 --> 00:40:02,517
@@ -4390,7 +4390,7 @@ yang semua bergantung padanya,
 
 928
 00:40:02,517 --> 00:40:03,850
-kami bahkan tidak tahu apakah itu ada.
+kita bahkan tidak tahu apakah itu ada.
 
 929
 00:40:03,850 --> 00:40:06,670
@@ -4438,12 +4438,12 @@ bytes itu
 
 938
 00:40:29,260 --> 00:40:30,397
-dan Saya akan menukar mereka.
+dan saya akan menukar mereka.
 
 939
 00:40:30,397 --> 00:40:32,230
 Dan kemudian saya akan
-menabahkan dua angka ini,
+menambahkan dua angka ini,
 
 940
 00:40:32,230 --> 00:40:34,900
@@ -4457,7 +4457,7 @@ x melalui benda ini.
 
 942
 00:40:36,880 --> 00:40:39,100
-Kemudian Saya akan
+Kemudian saya akan
 melakukan itu 50 kali.
 
 943
