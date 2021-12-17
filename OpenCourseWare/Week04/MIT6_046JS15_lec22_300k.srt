@@ -4524,101 +4524,101 @@ dan dekripsi.
 
 962
 00:53:08,770 --> 00:53:13,140
-And so now let's
-go back to here.
+Dan jadi sekarang mari kita
+kembali ke sini.
 
 963
 00:53:13,140 --> 00:53:15,340
-Now, ed equals 1 mod phi.
+Sekarang, ed sama dengan 1 mod phi.
 
 964
 00:53:15,340 --> 00:53:16,670
-Because I've set that up.
+Karena saya sudah mengaturnya.
 
 965
 00:53:16,670 --> 00:53:20,440
-This is how I
-discovered d given e.
+Ini adalah cara saya
+menemukan d jika diberikan e.
 
 966
 00:53:20,440 --> 00:53:21,440
-So that's a given to me.
+Jadi itu diberikan kepada saya.
 
 967
 00:53:21,440 --> 00:53:26,100
-That's part of what's called
-the key generation phase of RSA.
+Itulah bagian yang disebut
+fase pembuatan kunci RSA.
 
 968
 00:53:26,100 --> 00:53:29,140
-And that's the
-mathematical relationship
+Dan itulah
+hubungan matematis
 
 969
 00:53:29,140 --> 00:53:31,830
-that I keep harping on in
-terms of the relationship
+yang terus saya bicarakan dalam
+hal hubungan
 
 970
 00:53:31,830 --> 00:53:34,320
-between the public
-and the private key.
+antara kunci publik
+dan kunci privat.
 
 971
 00:53:34,320 --> 00:53:37,755
-So given that p and q are
-primes, I have two cases.
+Jadi mengingat bahwa p dan q adalah
+bilangan prima, saya memiliki 2 kasus.
 
 972
 00:53:43,530 --> 00:53:50,050
-The first case is
-that gcd of m, p
+Kasus yang pertama adalah
+gcd dari m, p
 
 973
 00:53:50,050 --> 00:53:54,620
-is exactly 1, which
-means that the message m.
+tepat 1, yang
+berarti pesan m.
 
 974
 00:53:54,620 --> 00:53:56,860
-So what I'm comparing
-here, the two cases,
+Jadi yang saya bandingkan
+di sini, kedua kasus,
 
 975
 00:53:56,860 --> 00:53:58,220
-is I have the message.
+adalah saya memiliki pesannya.
 
 976
 00:53:58,220 --> 00:53:59,920
-And I'm going to
-break up the messages
+Dan saya akan
+membagi pesannya
 
 977
 00:53:59,920 --> 00:54:02,010
-into two different categories.
+menjadi dua kategori berbeda.
 
 978
 00:54:02,010 --> 00:54:03,057
-That's it.
+Hanya itu.
 
 979
 00:54:03,057 --> 00:54:05,140
-There are all kinds of
-messages that are possible.
+Ada semua jenis
+pesan yang mungkin.
 
 980
 00:54:05,140 --> 00:54:06,670
-These are arbitrary numbers.
+Ini adalah bilangan arbitrer.
 
 981
 00:54:06,670 --> 00:54:10,410
-I'm going to break them up into
-two categories, one of which
+Saya akan membaginya menjadi
+dua kategori, di mana
 
 982
 00:54:10,410 --> 00:54:14,860
-where the message is relatively
-prime in relation to the prime,
+salah satu pesannya relatif 
+prima dalam kaitannya dengan bilangan prima,
 
 983
 00:54:14,860 --> 00:54:16,080
@@ -4626,44 +4626,46 @@ p.
 
 984
 00:54:16,080 --> 00:54:17,710
-And it's not a multiple of p.
+Dan itu bukan kelipatan dari p.
 
 985
 00:54:17,710 --> 00:54:19,460
-That's the way you
-want to think about it.
+Itulah cara Anda
+untuk memikirkannya.
 
 986
 00:54:19,460 --> 00:54:24,100
-Obviously, gcdmp would
-be 2 if M were 2p.
+Jelas, gcdmp akan 
+menjadi 2 jika M adalah 2p.
 
 987
 00:54:24,100 --> 00:54:28,850
-So the case I'm looking
-at is gcd of mp equals 1.
+Jadi kasus yang saya lihat
+adalah gcd dari mp sama dengan 1.
 
 988
 00:54:28,850 --> 00:54:32,330
 And then the another case is
 going to be trivial, actually,
+Dan selanjutnya kasus yang lain akan 
+menjadi sepele, sebenarnya, 
 
 989
 00:54:32,330 --> 00:54:38,060
-which is gcd of mp equals p.
+yaitu gcd dari mp sama dengan p.
 
 990
 00:54:38,060 --> 00:54:42,110
-Did I say 2 when I said
-gcd of 2p, p equals 2?
+Apakah saya mengatakan 2 ketika saya mengatakan
+gcd dari 2p, p sama dengan 2?
 
 991
 00:54:42,110 --> 00:54:45,100
-Come on.
+Ayolah.
 
 992
 00:54:45,100 --> 00:54:45,635
-Wake up.
+Bangun.
 
 993
 00:54:45,635 --> 00:54:46,260
