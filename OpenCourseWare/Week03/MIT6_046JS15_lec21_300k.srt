@@ -6004,112 +6004,112 @@ relationship or not,
 1280
 01:09:38,870 --> 01:09:43,080
 would cause a problem and
-break this scheme, all right?
+merusak skema ini, benar?
 
 1281
 01:09:43,080 --> 01:09:45,260
-Are we good?
+Apa sekarang baik-baik saja?
 
 1282
 01:09:45,260 --> 01:09:50,490
-All right, one last example,
-the most interesting one.
+Baik, contoh terakhir,
+yang paling menarik.
 
 1283
 01:09:50,490 --> 01:09:57,250
-And as I guessed I'm
-probably not going
+Dan seperti dugaan
+Saya mungkin tidak akan
 
 1284
 01:09:57,250 --> 01:10:01,670
-to get to saying very much
-about how cache functions are
+banyak bicara berlebihan
+mengenai bagaimana fungsi cachenya
 
 1285
 01:10:01,670 --> 01:10:02,250
-implemented.
+diimplimentasikan.
 
 1286
 01:10:02,250 --> 01:10:04,041
-But maybe I'll spend
-a minute or two on it.
+Tapi mungkin saya akan meluangkan
+satu atau dua menit menjelaskannya.
 
 1287
 01:10:08,770 --> 01:10:12,700
-So let's do this example that
-has to do with commitments.
+Jadi mari lakukan contoh yang
+ada hubungannya dengan komitmen.
 
 1288
 01:10:19,260 --> 01:10:20,890
-Commitment is important, right?
+Komitmen penting, kan?
 
 1289
 01:10:20,890 --> 01:10:22,640
-You want to commit
-to doing things.
+Anda ingin berkomitmen
+pada hal-hal yang dilakukan.
 
 1290
 01:10:22,640 --> 01:10:24,420
-You want to keep your promises.
+Anda mau menepati janji-janjimu.
 
 1291
 01:10:24,420 --> 01:10:28,310
-And in this case we
-have a legal requirement
+Dan dalam kasus ini kita
+mempunyai kebutuhan legal
 
 1292
 01:10:28,310 --> 01:10:34,550
-that you want to be able to make
-people honor their commitments,
+yang Anda ingin bisa membuat
+orang menghonori komitmen mereka,
 
 1293
 01:10:34,550 --> 01:10:37,040
-and not weasel their way
-out of commitments, right?
+dan tidak mengingkari
+komitmen mereka, bukan?
 
 1294
 01:10:37,040 --> 01:10:39,670
-And we want to deal with
-this computationally.
+Dan kita ingin menangani
+ini secara komputasi.
 
 1295
 01:10:39,670 --> 01:10:42,720
-And let's think about auctions.
+Dan mari berpikir tentang lelang.
 
 1296
 01:10:42,720 --> 01:10:51,325
-So Alice has value x,
-e.g. an auction bid.
+Jadi Alice mempunyai nilai x,
+e.g. sebuah tawaran lelang.
 
 1297
 01:10:54,940 --> 01:11:02,170
-Alice computes what
-we're going to call
+Alice mengkomputasi apa
+yang akan kita sebut
 
 1298
 01:11:02,170 --> 01:11:11,500
-C of x, which is a commitment
-of x, and cements it, right?
+C dari x, yang dimana sebuah komitmen
+dari x, dan menyerahkannya, baik?
 
 1299
 01:11:11,500 --> 01:11:26,670
-C of x, C of x is-- let's
-assume that the auctioneer,
+C dari x, C dari x adalah-- mari
+asumsikan pelelangnya,
 
 1300
 01:11:26,670 --> 01:11:32,470
-and perhaps other auctionees
-as well, see C of x.
+dan mungkin pelelang lainnya
+juga, pada C dari x.
 
 1301
 01:11:32,470 --> 01:11:34,770
-You have to submit it
-to somebody, right?
+Anda perlu menyerahkannya
+pada seseorang, kan?
 
 1302
 01:11:34,770 --> 01:11:37,100
-So you can assume
-that that's exposed.
+Jadi anda bisa asumsikan
+bahwa itu akan tertunjuk.
 
 1303
 01:11:37,100 --> 01:11:49,460
