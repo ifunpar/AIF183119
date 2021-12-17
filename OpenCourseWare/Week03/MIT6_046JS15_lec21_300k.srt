@@ -5908,7 +5908,7 @@ M diberikan.
 
 1260
 01:08:50,600 --> 01:08:53,329
-There's a specific
+Ada yang spesifik
 M, and a specific h
 
 1261
