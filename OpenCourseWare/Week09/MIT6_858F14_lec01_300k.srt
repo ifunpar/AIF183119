@@ -6964,90 +6964,90 @@ OK.
 
 1473
 01:02:21,680 --> 01:02:23,554
-That was actually kind
-of an important lesson
+Itu sebenarnya merupakan
+semacam pelajaran penting
 
 1474
 01:02:23,554 --> 01:02:25,990
-that-- it's actually a
-little bit tricky, sometimes,
+yang-- sebenarnya sedikit
+menjebak, terkadang,
 
 1475
 01:02:25,990 --> 01:02:28,896
-to explore these buffer
-overflows because, even
+untuk menjelajah buffer overflow
+ini karena, meskipun
 
 1476
 01:02:28,896 --> 01:02:31,270
-though you've already changed
-lots of stuff on the stack,
+Anda telah mengubah
+banyak hal dalam stack
 
 1477
 01:02:31,270 --> 01:02:32,870
-you still have to
-get to the point
+Anda masih harus
+ke langsung ke intinya
 
 1478
 01:02:32,870 --> 01:02:34,810
-where you use the value
-that you have somehow
+di mana Anda menggunakan
+nilai yang Anda punya, bagaimanapun
 
 1479
 01:02:34,810 --> 01:02:35,700
-placed on the stack.
+diletakkan pada stack.
 
 1480
 01:02:35,700 --> 01:02:37,140
-So there's other
-code that's going
+Jadi ada kode
+lain yang
 
 1481
 01:02:37,140 --> 01:02:38,940
-to run after you've
-managed to overflow
+akan alan setelah
+Anda berhasil overflow
 
 1482
 01:02:38,940 --> 01:02:40,274
-some buffer and corrupt memory.
+beberapa buffer dan mengkorupsi memori.
 
 1483
 01:02:40,274 --> 01:02:42,690
-You have to make sure that
-code doesn't do something silly
+Anda harus memastikan kalau
+kode tersebut tidak melakukan hal bodoh
 
 1484
 01:02:42,690 --> 01:02:45,490
-like, if it's A to i,
-just exited right away,
+seperti, jika itu A sampai i,
+langsung saja keluarkan
 
 1485
 01:02:45,490 --> 01:02:48,070
-as soon as it saw a
-non-integer value,
+sesegera kode melihat sebuah
+nilai non-bilangan bulat,
 
 1486
 01:02:48,070 --> 01:02:53,350
-we might not get to jump to
-all this 41414141 address.
+kita mungkin tidak dapat melompat
+ke semua alamat 41414141.
 
 1487
 01:02:53,350 --> 01:02:55,419
-So you have to massage
-your input in some cases.
+Jadi Anda harus mengurutkan
+ masukannya dalam beberapa keadaan.
 
 1488
 01:02:55,419 --> 01:02:56,710
-Maybe not so much in this case.
+Mungkin tidak begitu banyak dalam kasus ini.
 
 1489
 01:02:56,710 --> 01:02:58,470
-But in other
-situations, you'll have
+Tetapi dalam situasi
+lain, Anda harus
 
 1490
 01:02:58,470 --> 01:03:01,110
-to be careful in
-constructing this input.
+berhati-hati dalam
+membangun masukan ini.
 
 1491
 01:03:01,110 --> 01:03:04,655
@@ -7056,97 +7056,97 @@ we can jump one more time.
 
 1492
 01:03:04,655 --> 01:03:06,030
-Well, let's look
-at our register.
+Ya, mari kita lihat
+dalam register kita.
 
 1493
 01:03:06,030 --> 01:03:10,400
-So right now, our EIP, the
-sort of instruction pointer,
+Jadi sekarang, EIP kita,
+yang menjadi semacam penunjuk instruksi
 
 1494
 01:03:10,400 --> 01:03:12,780
-is pointing at the
-last thing in redirect.
+yang menunjuk kepada
+hal terakhir dalam pengalihan.
 
 1495
 01:03:12,780 --> 01:03:14,830
-And if we step one more
-time, hopefully we'll
+Dan jika kita melangkah
+sekali lagi, harapannya kita dapat
 
 1496
 01:03:14,830 --> 01:03:19,570
-jump to, finally, that
-unfortunate 4141 address.
+melompat ke, akhirnya, 
+alamat 4141 yang tidak beruntung.
 
 1497
 01:03:19,570 --> 01:03:20,120
-Over here.
+Ke sini.
 
 1498
 01:03:20,120 --> 01:03:20,987
-And in fact, yep.
+Dan nyatanya, ya.
 
 1499
 01:03:20,987 --> 01:03:22,820
-The program now seems
-to be executing there.
+Program ini terlihat
+sedang mengeksekusinya di sana.
 
 1500
 01:03:22,820 --> 01:03:25,990
-If we ask GDB to print the
-current set of registers,
+Jika kita meminta GDB untuk
+mencetak set register saat ini,
 
 1501
 01:03:25,990 --> 01:03:29,420
-yep, the current instruction
-pointer is this strange value.
+ya, penunjuk instruksinya
+saat ini adalah nilai aneh ini.
 
 1502
 01:03:29,420 --> 01:03:31,840
-And if we exclude
-one more instruction,
+Dan jika kita tidak memasukkan
+satu instruksi lagi
 
 1503
 01:03:31,840 --> 01:03:34,200
-it's going to crash
-because that's finally
+kode itu akan rusak
+karena akhirnya itu
 
 1504
 01:03:34,200 --> 01:03:39,700
-trying to execute an instruction
-pointer that doesn't correspond
+mencoba mengeksekusi sebuah
+penunjuk perintah yang tidak sesuai
 
 1505
 01:03:39,700 --> 01:03:42,730
-to a valid page in the
-operating system's page table
+dengan sebuah halaman yang sah
+dalam halaman tabel sistem operasi
 
 1506
 01:03:42,730 --> 01:03:44,770
-for this process.
+untuk proses ini.
 
 1507
 01:03:44,770 --> 01:03:46,750
-Make sense?
+Masuk akalkah?
 
 1508
 01:03:46,750 --> 01:03:49,260
-Any questions?
+Ada pertanyaan?
 
 1509
 01:03:49,260 --> 01:03:49,760
-All right.
+Baiklah.
 
 1510
 01:03:49,760 --> 01:03:52,910
-Well, I've got a question
-for you guys, actually.
+Ya, saya sebenarnya memiliki
+sebuah pertanyaan untuk kalian.
 
 1511
 01:03:52,910 --> 01:03:58,540
-So what happens-- you know,
-it seems to be exploitable.
+Jadi apa yang akan terjadi--
+Anda tahu, itu terlihat dapat dieksploitasi.
 
 1512
 01:03:58,540 --> 01:03:59,644
@@ -7353,41 +7353,41 @@ program is pretty limited.
 
 1556
 01:05:24,710 --> 01:05:26,543
-There's almost nothing
-in the program's code
+Hampir tidak ada apa-apa
+dalam kode program tersebut
 
 1557
 01:05:26,543 --> 01:05:28,880
-where you could jump and
-do anything interesting.
+di mana Anda dapat melompat
+dan melakukan hal yang menarik.
 
 1558
 01:05:28,880 --> 01:05:31,350
-But maybe we can do a little
-bit of something interesting.
+Tetapi mungkin ktia dapat melakukan
+sedikit hal yang menarik.
 
 1559
 01:05:31,350 --> 01:05:33,460
-Maybe we'll find
-the printf in main
+Mungkin kita akan menemukan
+printf dalam main
 
 1560
 01:05:33,460 --> 01:05:36,190
-and jump directly there, and
-get it to print the x value,
+dan melompat langsung ke sana, dan
+membuatnya mencetak nilai x,
 
 1561
 01:05:36,190 --> 01:05:37,710
-or x equals something.
+atau x sama dengan sesuatu.
 
 1562
 01:05:37,710 --> 01:05:38,590
-So we can do this.
+Jadi kita dapat melakukan ini.
 
 1563
 01:05:38,590 --> 01:05:41,820
-We can actually disassemble
-the main function.
+Kita sebenarnya dapat
+membongkar fungsi main tersebut.
 
 1564
 01:05:41,820 --> 01:05:44,630
