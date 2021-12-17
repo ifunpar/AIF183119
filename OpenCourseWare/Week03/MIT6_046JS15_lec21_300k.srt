@@ -5909,101 +5909,103 @@ M diberikan.
 1260
 01:08:50,600 --> 01:08:53,329
 Ada yang spesifik
-M, and a specific h
+M, dan h tertentu
 
 1261
 01:08:53,329 --> 01:08:56,470
-of M in particular,
-that has been exposed.
+dari M khususnya,
+yang telah diekspos.
 
 1262
 01:08:56,470 --> 01:08:59,620
-And h of M is what was
-used for the signature.
+Dan h dari M adalah apa yang
+digunakan untuk tanda tangan.
 
 1263
 01:08:59,620 --> 01:09:01,140
-So you want to keep
-h of M the same.
+Jadi, Anda ingin menjaga
+h dari M tetap sama.
 
 1264
 01:09:01,140 --> 01:09:02,170
-It's a specific one.
+Ini yang spesifik.
 
 1265
 01:09:02,170 --> 01:09:03,544
-So it's not
-collision resistance,
+Jadi itu tidak
+tahan terhadap tabrakan,
 
 1266
 01:09:03,544 --> 01:09:05,850
-it's target
-collision resistance,
+ini tahan
+dari target tabrakan,
 
 1267
 01:09:05,850 --> 01:09:07,460
-because that's given to you.
+karena itu diberikan kepada Anda.
 
 1268
 01:09:07,460 --> 01:09:09,430
-And you want to
-keep that the same.
+Dan Anda ingin
+menjaganya tetap sama.
 
 1269
 01:09:09,430 --> 01:09:13,600
-But you want to claim that oh,
-you promised me $10,000, not
+Tetapi Anda ingin mengklaim bahwa oh,
+Anda berjanji kepada saya $ 10.000, bukan
 
 1270
 01:09:13,600 --> 01:09:15,319
-$20, right?
+$20, benar?
 
 1271
 01:09:15,319 --> 01:09:17,899
-If you can do that,
-you signed saying
+Jika Anda bisa melakukan itu,
+Anda menandatangani dengan mengatakan
 
 1272
 01:09:17,899 --> 01:09:22,149
-you want to pay $10,000, not
-$20, then you've got a problem.
+Anda ingin membayar $10.000, bukan
+$20, maka Anda mendapat sebuah masalah.
 
 1273
 01:09:22,149 --> 01:09:24,160
-So your thing is very close.
+Jadi yang anda lakukan sangat dekat.
 
 1274
 01:09:24,160 --> 01:09:27,130
-It's just that it doesn't need
-to be a strong relationship
+Hanya saja tidak perlu
+hubungan yang kuat
 
 1275
 01:09:27,130 --> 01:09:28,710
-between the 10,000 or the 20.
+antara 10.000 atau 20.
 
 1276
 01:09:28,710 --> 01:09:31,000
-I mean I give you a
-concrete example of that.
+Maksud saya, saya memberi Anda
+sebuah contoh konkret tentang itu.
 
 1277
 01:09:31,000 --> 01:09:33,720
-But it could be more,
-it could be less.
+Tapi bisa lebih,
+bisa kurang.
 
 1278
 01:09:33,720 --> 01:09:36,479
-Anything that is different
-from what you signed,
+Apa pun yang berbeda
+dari yang Anda tanda tangani,
 
 1279
 01:09:36,479 --> 01:09:38,870
+baik itu dengan hubungan
+numerik atau tidak,
 be it with the numerical
 relationship or not,
 
 1280
 01:09:38,870 --> 01:09:43,080
-would cause a problem and
+akan menimbulkan masalah dan
 merusak skema ini, benar?
 
 1281
