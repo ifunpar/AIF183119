@@ -4762,98 +4762,97 @@ to be found in two to the 64
 
 1007
 00:43:26,390 --> 00:43:29,540
-iterations, which is doable
-on today's computers.
+iterasi, yang mana dapat dilakukan
+oleh komputer hari ini.
 
 1008
 00:43:29,540 --> 00:43:33,230
-If you run a bunch of stuff on
-AWS, you can do two to the 64
+Jika Anda menjalankan beberapa hal di
+AWS, Anda dapat mengerjakan dua sampai 64
 
 1009
 00:43:33,230 --> 00:43:35,840
-in a couple of days.
+dalam beberapa hari.
 
 1010
 00:43:35,840 --> 00:43:37,700
-But that's the
-different definitions
+Tetapi itu adalah
+definisi berbeda
 
 1011
 00:43:37,700 --> 00:43:40,690
-of breaking the function.
+dari memecahkan fungsinya.
 
 1012
 00:43:40,690 --> 00:43:41,900
-Sort of fun.
+Menyenangkan.
 
 1013
 00:43:41,900 --> 00:43:44,120
 Ethan Hellman,
-who's at BU and we
-
+seseorang di BU dan Kita
 1014
 00:43:44,120 --> 00:43:49,070
-work with, he-- and we all broke
-the IOTA wrote their own hash
+bekerja bersama, Dia-- dan Kita semua memecahkan 
+IOTA mereka menulis sendiri fungsi
 
 1015
 00:43:49,070 --> 00:43:51,050
-function, which is like
-some cryptocurrency.
+hash, yang mana seperti
+beberapa mata uang kripto.
 
 1016
 00:43:51,050 --> 00:43:52,980
-And we found collisions in it.
+Dan Kita tabrakan didalamnya.
 
 1017
 00:43:52,980 --> 00:43:55,180
-And it was kind of fun.
+Dan itu seperti menyenangkan.
 
 1018
 00:43:55,180 --> 00:43:57,072
-But yeah, it was weird.
+Tapi yaa, itu aneh.
 
 1019
 00:43:57,072 --> 00:43:58,280
-It wasn't like number theory.
+itu tidak seperti teori angka.
 
 1020
 00:43:58,280 --> 00:44:00,650
-It was just like, oh, well,
-I wrote this Python script
+Itu seperti, oh, baik,
+Saya menulis kode Python ini
 
 1021
 00:44:00,650 --> 00:44:03,740
-and we have this go script,
-and we tried this thing
+dan Kita punya scrip yang berjalan,
+dan kita coba hal ini
 
 1022
 00:44:03,740 --> 00:44:05,153
-and we got a collision.
+dan kita mendapat sebuah tabrakan.
 
 1023
 00:44:05,153 --> 00:44:06,070
-So it was kind of fun.
+Jadi itu sebuah kesenangan.
 
 1024
 00:44:06,070 --> 00:44:07,400
-So usages.
+Sangan berguna.
 
 1025
 00:44:07,400 --> 00:44:10,070
-What do you use
-these hashes for?
+Untuk apa Anda guanakan
+hashes ini?
 
 1026
 00:44:10,070 --> 00:44:12,230
-There's lots of cool things
-you can use them for.
+Banyak hal keren yang dapat Anda
+lakukan dengan mereka.
 
 1027
 00:44:12,230 --> 00:44:14,870
-use them sort of as
-names or references,
+gunakan mereka seperti semacam
+nama atau referensi,
 
 1028
 00:44:14,870 --> 00:44:19,850
