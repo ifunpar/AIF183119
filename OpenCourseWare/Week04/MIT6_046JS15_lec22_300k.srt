@@ -4955,144 +4955,146 @@ exponentiated it and showed
 
 1055
 00:58:10,640 --> 00:58:12,170
-the result in a couple steps.
+hasilnya dalam beberapa langkah.
 
 1056
 00:58:12,170 --> 00:58:15,240
-In the other case, you had
-messages that were 0 mod p.
+Dalam kasus lain, Anda punya
+pesan yang 0 mod p.
 
 1057
 00:58:15,240 --> 00:58:16,370
-So it's very pretty.
+Jadi ini sangat bagus.
 
 1058
 00:58:16,370 --> 00:58:17,870
-It works.
+Ini berhasil.
 
 1059
 00:58:17,870 --> 00:58:20,890
-And so what happened here?
+Dan apa yang terjadi di sini?
 
 1060
 00:58:20,890 --> 00:58:23,740
-I said that m raised
-to ed equals m.
+Saya mengatakan bahwa m pangkat
+ke ed sama dengan m.
 
 1061
 00:58:23,740 --> 00:58:27,500
-And what I did here, of
-course, was I did everything.
+Dan apa yang saya lakukan di sini, tentu
+saja, saya melakukan segalanya.
 
 1062
 00:58:27,500 --> 00:58:30,350
-So it's not quite done,
-a little slight of hand
+Jadi ini belum selesai,
+sedikit bantuan di sini
 
 1063
 00:58:30,350 --> 00:58:35,120
-here as I switched over
-and talked about mod p.
+saat saya beralih dan
+berbicara tentang mod p.
 
 1064
 00:58:35,120 --> 00:58:37,410
-So I had mod p over here.
+Jadi saya punya mod p di sini.
 
 1065
 00:58:37,410 --> 00:58:39,340
-And I said p and q were primes.
+Dan saya katakan p dan q adalah bilangan prima.
 
 1066
 00:58:39,340 --> 00:58:42,770
-And I looked at p first.
+Dan saya melihat p pertama.
 
 1067
 00:58:42,770 --> 00:58:45,690
-But what I need to do,
-just to finish this off,
+Tapi yang harus saya lakukan,
+hanya untuk menyelesaikan ini,
 
 1068
 00:58:45,690 --> 00:58:47,880
-let me do this over
-here, is I have
+biarkan saya melakukan ini 
+disini, apakah Saya harus
 
 1069
 00:58:47,880 --> 00:58:50,541
-to do the same argument for q.
+melakukan argumen 
+yang sama untuk q.
 
 1070
 00:58:50,541 --> 00:58:56,160
-And I'm going to put
-it together for n.
+Dan saya akan 
+menggabungkannya untuk n.
 
 1071
 00:58:56,160 --> 00:59:00,530
-And the reason for that is
-simply that I have n over here.
+Dan alasan untuk itu cukup mudah 
+karena Saya memiliki n disini.
+
 
 1072
 00:59:00,530 --> 00:59:03,050
-So remember n equals p times q.
+Jadi ingat n sama dengan p dikali q.
 
 1073
 00:59:03,050 --> 00:59:06,460
-The encryption and
-that decryption
+Enkripsi dan
+dekripsi itu
 
 1074
 00:59:06,460 --> 00:59:09,580
-are going to be done mod o.
+akan selesai jika di mod o.
 
 1075
 00:59:09,580 --> 00:59:13,210
-Certainly, the encryption has
-to be done mod n, because n
+Tentu saja, enkripsi harus 
+dilakukan mod n, karena n
 
 1076
 00:59:13,210 --> 00:59:15,760
-is only public
-number that you have
+hanya nomor kunci publik
+yang anda miliki
 
 1077
 00:59:15,760 --> 00:59:17,670
-that you can mod with, correct?
+yang bisa di mod, benar?
 
 1078
 00:59:17,670 --> 00:59:21,440
-So what I've done here,
-this analysis is for p,
+Jadi apa yang telah saya lakukan di sini,
+analisis ini untuk p,
 
 1079
 00:59:21,440 --> 00:59:26,550
-can do the same for q.
+dapat dilakukan hal yang sama untuk q.
 
 1080
 00:59:26,550 --> 00:59:29,250
-It's exactly the same,
-because p is a prime
+Ini persis sama,
+karena p adalah bilangan prima
 
 1081
 00:59:29,250 --> 00:59:31,710
-and q is also a prime.
+dan q juga bilangan prima.
 
 1082
 00:59:31,710 --> 00:59:34,910
-But I have to just do one last
-thing, which is put these two
+Tapi saya harus melakukan satu hal terakhir, 
+yaitu menempatkan dua 
 
 1083
 00:59:34,910 --> 00:59:39,130
-things together and say
-that n equals p times q,
+bilangan ini bersama dan mengatakan 
+bahwa n sama dengan p dikali q,
 
 1084
 00:59:39,130 --> 00:59:41,446
-so the math is all
-going to work out.
+jadi semua perhitungan
+matematis akan bekerja.
 
 1085
 00:59:41,446 --> 00:59:42,570
-Let me just write that out.
+Biarkan Saya hanya menulis itu.
 
 1086
 00:59:42,570 --> 00:59:45,740
