@@ -7061,22 +7061,22 @@ ke dalam register kita.
 
 1493
 01:03:06,030 --> 01:03:10,400
-Jadi sekarang, EIP kita,
-yang adalah semacam penunjuk instruksi
+Jadi sekarang, EIP kita, yang
+adalah semacam penunjuk instruksi
 
 1494
 01:03:10,400 --> 01:03:12,780
-yang menunjuk kepada
-hal terakhir dalam pengalihan.
+yang menunjuk kepada hal
+terakhir dalam pengalihan.
 
 1495
 01:03:12,780 --> 01:03:14,830
-Dan jika kita melangkah
-sekali lagi, harapannya kita akan
+Dan jika kita melangkah sekali
+lagi, harapannya kita akan
 
 1496
 01:03:14,830 --> 01:03:19,570
-melompat ke, akhirnya, 
+melompat ke, akhirnya,
 alamat 4141 yang malang itu.
 
 1497
@@ -7283,7 +7283,7 @@ dengan lokasi itu dalam stack.
 
 1541
 01:04:51,710 --> 01:04:52,430
-Itu adlaah sesuatu
+Itu adalah sesuatu
 yang kalian harus
 
 1542
