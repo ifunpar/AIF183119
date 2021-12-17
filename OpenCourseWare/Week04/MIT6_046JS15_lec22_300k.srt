@@ -4808,150 +4808,150 @@ ingin mengelompokkan keduanya
 
 1024
 00:56:12,500 --> 00:56:13,570
-exponents.
+exponensial.
 
 1025
 00:56:13,570 --> 00:56:16,990
-And since I've run
-out of room here,
+Dan karena saya sudah
+kehabisan ruang di sini,
 
 1026
 00:56:16,990 --> 00:56:19,750
-let me just erase and
-finish this properly.
+biarkan saya menghapus dan
+menyelesaikannya dengan benar.
 
 1027
 00:56:19,750 --> 00:56:21,940
-The other case is easy anyway.
+Lagi pula kasus yang lainnya mudah.
 
 1028
 00:56:21,940 --> 00:56:30,376
-And so I can write this as 1
-plus k p minus 1 q minus 1.
+Sehingga saya bisa menulis ini sebagai 1
+ditambah k p dikurang 1 q dikurang 1.
 
 1029
 00:56:30,376 --> 00:56:36,450
-And that, of course, is
-exactly m raised to ed, right?
+Dan itu, tentu saja,
+m dipangkatkan ed, bukan?
 
 1030
 00:56:36,450 --> 00:56:42,050
-And so what I've done here is,
-because 1 times m is clearly m,
+Jadi apa yang saya lakukan di sini adalah,
+karena 1 dikali m jelas hasilnya m,
 
 1031
 00:56:42,050 --> 00:56:45,910
-but if I look at this,
-this is m raised to ed.
+tapi jika saya melihat ini,
+ini adalah m dipangkatkan ed.
 
 1032
 00:56:45,910 --> 00:56:49,080
-So that's clearly m.
+Jadi itu jelas m.
 
 1033
 00:56:49,080 --> 00:56:51,760
-That's it.
+Itu saja.
 
 1034
 00:56:51,760 --> 00:56:55,160
-Just figured out that
-when I have k phi
+Baru saja paham bahwa
+ketika saya memiliki k phi
 
 1035
 00:56:55,160 --> 00:56:58,680
-here, that's going to
-turn into 1, basically,
+di sini, itu akan
+berubah menjadi 1, pada dasarnya,
 
 1036
 00:56:58,680 --> 00:57:01,550
-when you exponentiate it.
+ketika Anda memangkatkannya.
 
 1037
 00:57:01,550 --> 00:57:05,350
-So that's the hard part,
-actually, as it turns out,
+Jadi itulah bagian yang sulitnya,
+sebenarnya, ternyata,
 
 1038
 00:57:05,350 --> 00:57:09,400
-of proving RSA's
-correctness, just
+untuk membuktikan kebenaran
+RSA, hanya
 
 1039
 00:57:09,400 --> 00:57:12,770
-introducing this 1
-raised to something.
+memperkenalkan 1 ini
+dipangkatkan sesuatu.
 
 1040
 00:57:12,770 --> 00:57:16,360
-And then the easier
-part is simply
+Dan sehingga bagian yang
+lebih mudah adalah
 
 1041
 00:57:16,360 --> 00:57:20,560
-the case where the m is
-actually a multiple of p.
+kasus yang mana m sebenarnya
+adalah kelipatan dari p.
 
 1042
 00:57:20,560 --> 00:57:26,000
-So you have a gcd
-m, comma p equals p.
+Sehingga Anda memiliki fpb
+m, koma p sama dengan p.
 
 1043
 00:57:26,000 --> 00:57:31,940
-And in this case, you know
-that m mod p is actually 0.
+Dan pada kasus ini, Anda tahu
+bahwa m modulo p sebenarnya adalah 0.
 
 1044
 00:57:31,940 --> 00:57:34,360
-Because m is a multiple of p.
+Karena m adalah kelipatan dari p.
 
 1045
 00:57:34,360 --> 00:57:36,530
-So you're basically
-exponentiating 0.
+Jadi pada dasarnya Anda
+memangkatkan 0.
 
 1046
 00:57:36,530 --> 00:57:37,860
-What do you do with 0?
+Apa yang Anda lakukan dengan 0?
 
 1047
 00:57:37,860 --> 00:57:40,220
-You're going to get
-0 on both sides.
+Anda akan mendapatkan
+0 di kedua sisi.
 
 1048
 00:57:40,220 --> 00:57:44,790
-So you're sending a message
-that's essentially 0 mod p
+Jadi Anda mengirimkan sebuah pesan
+yang pada dasarnya adalah 0 modulo p
 
 1049
 00:57:44,790 --> 00:57:48,010
-And when you decrypt it
-on that side, you get 0.
+Dan ketika Anda mendekripsikannya
+di sisi itu, Anda mendapatkan 0.
 
 1050
 00:57:48,010 --> 00:57:54,800
-But one last line here is
-simply that m raised to ed
+Tetapi satu baris terakhir di sini
+adalah bahwa m dipangkatkan ed
 
 1051
 00:57:54,800 --> 00:58:04,090
-is m trivially all of this
-mod p if m is 0, right?
+adalah m secara sepele semua hal ini
+modulo p jika m adalah 0, kan?
 
 1052
 00:58:04,090 --> 00:58:05,784
-So that was the easy case.
+Jadi itulah kasus yang mudah.
 
 1053
 00:58:05,784 --> 00:58:07,450
-So it was really
-pretty straightforward.
+Jadi itu tadi benar-benar
+cukup mudah.
 
 1054
 00:58:07,450 --> 00:58:10,640
-In one case, we took 1 and we
-exponentiated it and showed
+Dalam satu kasus, kita mengambil 1 dan kita
+memangkatkannya dan menunjukkan
 
 1055
 00:58:10,640 --> 00:58:12,170
