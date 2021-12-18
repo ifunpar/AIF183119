@@ -5219,36 +5219,36 @@ seperti dalam tanda tangan lamport.
 
 1133
 00:49:23,490 --> 00:49:26,340
-And your public key
-is just a times G.
+Dan kunci publik Anda
+hanya satu kali G.
 
 1134
 00:49:26,340 --> 00:49:30,810
-And your public key is
-now a point on a curve.
+Dan kunci publik Anda 
+sekarang menjadi titik pada kurva.
 
 1135
 00:49:30,810 --> 00:49:32,280
-We're going to call
-it uppercase A.
+Kita akan menyebutnya
+huruf A kapital.
 
 1136
 00:49:32,280 --> 00:49:35,340
-And you have a 32 byte
-x-coordinate, right--
+Dan Anda mempunyai 32 byte
+koordinat x, benar--
 
 1137
 00:49:35,340 --> 00:49:38,540
-because the x
-dimension is 256 bits--
+karena x itu
+dimensinya 256 bit--
 
 1138
 00:49:38,540 --> 00:49:39,930
-32 byte y-coordinate.
+32 bit koordinat y.
 
 1139
 00:49:39,930 --> 00:49:41,250
-So it's 64 bytes--
+Jadi itu 64 bit--
 
 1140
 00:49:41,250 --> 00:49:42,150
