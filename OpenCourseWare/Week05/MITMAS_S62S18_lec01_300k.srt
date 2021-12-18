@@ -4670,95 +4670,95 @@ this is 256 bits long.
 987
 00:42:33,260 --> 00:42:36,950
 So to find a preimage, if you
-do two to the 256 attempts,
+lakukan dua sampai perorcobaan ke 256,
 
 988
 00:42:36,950 --> 00:42:37,700
-you'll find it.
+Anda akan menemukannya.
 
 989
 00:42:37,700 --> 00:42:39,170
-So that's not
-considered a break.
+Jadi itu tidak
+diperhitungkan sebagai terpecahkan.
 
 990
 00:42:39,170 --> 00:42:43,310
-A break is considered, hey,
-I found a preimage in two
+Sebuah pembobolan diperhitungkan, hey,
+Saya menemukan sebuah gambar awal dalam dua
 
 991
 00:42:43,310 --> 00:42:45,560
-to the 240 attempts.
+hingga percobaan ke 240.
 
 992
 00:42:45,560 --> 00:42:49,040
-Or I have a proof
-that you will be
+Atau Saya mempunyai bukti
+yang akan membuat Anda
 
 993
 00:42:49,040 --> 00:42:51,950
-able to find a preimage in
-two to the 240 attempts,
+mampu menemukan sebuah gambar awal dalam
+dua sampai percobaan ke 240,
 
 994
 00:42:51,950 --> 00:42:53,150
-and here's how to do it.
+dan ini bagaimana cara melakukannya.
 
 995
 00:42:53,150 --> 00:42:55,070
-And that's considered a break.
+Dan itu diperhitungkan sebagai pembobolan.
 
 996
 00:42:55,070 --> 00:42:56,210
-It's still impractical.
+Hal itu masih tidak praktis.
 
 997
 00:42:56,210 --> 00:42:58,580
-Two to the 240's still
-impossible in today's
+Dua sampai ke 240 tetap
+mustahil pada hari ini
 
 998
 00:42:58,580 --> 00:43:00,020
-technology.
+teknologi.
 
 999
 00:43:00,020 --> 00:43:01,985
-But if you had a paper
-and people looked at it,
+Tetapi jika Anda punya sebuah kertas
+dan orang lain melihatnya,
 
 1000
 00:43:01,985 --> 00:43:04,610
-like, oh, yeah, that would work,
-you wouldn't be able to do it.
+seperti, oh, yeah, itu akan berkerja,
+Anda tidak akan sanggup melakukan itu.
 
 1001
 00:43:04,610 --> 00:43:07,190
-But that's still
-considered broken.
+Tetapi itu tetap
+dianggap rusak.
 
 1002
 00:43:07,190 --> 00:43:13,480
-And so something like
-MD5, MD5 output size
+Dan jadi sesuatu seperti
+MD5, besar keluaran MD5
 
 1003
 00:43:13,480 --> 00:43:15,810
-was 16 bytes or 128 bits.
+adalah 16 bytes atau 128 bits.
 
 1004
 00:43:15,810 --> 00:43:19,790
-So collisions, even
-if it were strong,
+Jadi bentrokan, bahkan
+jika itu pernah kuat,
 
 1005
 00:43:19,790 --> 00:43:22,370
-it would still be
-too short today
+itu akan tetap jadi
+teralu pendek hari ini
 
 1006
 00:43:22,370 --> 00:43:26,390
-that collisions would be able
-to be found in two to the 64
+tabrakan itu akan dapat
+ditemukan dalam dua hingga ke 64
 
 1007
 00:43:26,390 --> 00:43:29,540
