@@ -4498,95 +4498,96 @@ sebuah versi yang menggunakan
 
 951
 00:40:56,930 --> 00:40:58,510
-12 rounds, which is faster.
+12 putaran, yang lebih cepat.
 
 952
 00:40:58,510 --> 00:41:02,710
-And people think, well, it's
-still seems quite secure.
+Dan orang-orang berpikir, baik, tampaknya
+masih cukup aman.
 
 953
 00:41:02,710 --> 00:41:04,370
-But if you want to
-be really secure,
+Tetapi jika anda ingin
+benar-benar aman,
 
 954
 00:41:04,370 --> 00:41:05,440
-use the 20-round variant.
+gunakan varian 20 putaran.
 
 955
 00:41:05,440 --> 00:41:07,148
-If you want to be
-probably secure enough,
+Jika anda ingin
+cukup aman,
 
 956
 00:41:07,148 --> 00:41:08,300
-use the 12-round variant.
+gunakan varian 12 putaran.
 
 957
 00:41:08,300 --> 00:41:11,830
-So there's no proofs.
+Jadi tidak ada bukti.
 
 958
 00:41:11,830 --> 00:41:15,460
-There's heuristics and things
-like that, and best practices.
+Ada heuristik dan hal-hal
+seperti itu, dan praktik terbaik.
 
 959
 00:41:15,460 --> 00:41:20,440
-But this kind of cryptography
-is a little bit of black magic.
+Tapi kriptografi semacam ini
+adalah sedikit sihir hitam.
 
 960
 00:41:20,440 --> 00:41:24,580
-And it's not based on any cool
-mathematical number theory
+Dan itu tidak didasarkan pada hal-hal
+teori bilangan matematis yang keren
 
 961
 00:41:24,580 --> 00:41:27,130
-stuff, either, the way
-that elliptic curve
+, baik, cara 
+kurva eliptik
 
 962
 00:41:27,130 --> 00:41:29,800
-cryptography or RSA stuff is.
+kriptografi atau hal-hal RSA.
 
 963
 00:41:29,800 --> 00:41:31,330
-So if you break
-RSA, you can say,
+Jadi jika anda memecahkan
+RSA, anda dapat berkata,
+
 
 964
 00:41:31,330 --> 00:41:34,960
-hey, I can now factor
-these composite numbers
+hai, Saya sekarang dapat memfaktorkan 
+bilangan komposit ini 
 
 965
 00:41:34,960 --> 00:41:37,300
-very quickly, that's,
-in and of itself,
+dengan sangat cepat, itu, 
+dengan sendirinya,
 
 966
 00:41:37,300 --> 00:41:39,040
-a cool mathematical discovery.
+sebuah penemuan matematika yang keren.
 
 967
 00:41:39,040 --> 00:41:43,000
-The breaking of Sha-1,
-there's not really
+Pecahnya Sha-1, 
+sebenarnya tidak ada 
 
 968
 00:41:43,000 --> 00:41:44,530
-any cool math insight.
+wawasan matematika yang keren.
 
 969
 00:41:44,530 --> 00:41:47,020
-It was just like, yeah, we
-found this fairly specific,
+Itu seperti, ya, kami 
+menemukan ini cukup spesifik,
 
 970
 00:41:47,020 --> 00:41:50,080
-weird path that we were
+jalan aneh kami
 dapat memecahkan Sha-1
 
 971
