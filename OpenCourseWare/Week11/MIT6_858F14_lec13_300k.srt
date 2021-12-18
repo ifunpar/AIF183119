@@ -3409,40 +3409,42 @@ versi 5 telah memperbaiki ini
 
 717
 00:31:05,040 --> 00:31:07,770
-by explicitly
-authenticating messages.
+secara eksplisit
+mengotentikasi pesan.
 
 718
 00:31:07,770 --> 00:31:11,940
-Another thing they sort
-of had a problem with
+Hal lain yang mereka sortir
+dari sebuah masalah dengan
 
 719
 00:31:11,940 --> 00:31:14,820
 is the ability for
 arbitrary clients
+adalah kemampuan untuk
+sewenang-wenang klien
 
 720
 00:31:14,820 --> 00:31:17,220
-to guess people's passwords.
+untuk menebak password orang lain.
 
 721
 00:31:17,220 --> 00:31:21,102
-So any suggestions of
-how we could fix this?
+Jadi ada saran dari
+bagaimana kita bisa memperbaikinya?
 
 722
 00:31:21,102 --> 00:31:22,560
-How do you prevent
-guessing attacks
+Bagaimana Anda mencegah?
+serangan menebak
 
 723
 00:31:22,560 --> 00:31:24,826
-in a protocol like this?
+dalam protokol seperti ini?
 
 724
 00:31:24,826 --> 00:31:26,242
-What could we try?
+Apa yang bisa kita coba?
 
 725
 00:31:26,242 --> 00:31:26,775
@@ -3450,25 +3452,25 @@ Yeah.
 
 726
 00:31:26,775 --> 00:31:28,024
-STUDENT: Some sort of salting?
+MAHASISWA: Semacam salting?
 
 727
 00:31:28,024 --> 00:31:29,400
-I'm not sure.
+Saya tidak yakin.
 
 728
 00:31:29,400 --> 00:31:31,540
-PROFESSOR: Well, so
-salting would just
+PROFESOR: Nah, jadi
+melakukan salting hanya akan
 
 729
 00:31:31,540 --> 00:31:33,900
-means that the client
-has to hash the password
+membuat bahwa klien
+harus melakukan hash pada kata sandi
 
 730
 00:31:33,900 --> 00:31:35,066
-in different ways, maybe.
+dalam cara yang berbeda, mungkin.
 
 731
 00:31:35,066 --> 00:31:36,440
@@ -3619,83 +3621,83 @@ menambah ronde yang tidak perlu
 
 762
 00:32:37,580 --> 00:32:38,450
-but this could work.
+tapi ini bisa berhasil.
 
 763
 00:32:38,450 --> 00:32:40,760
-So just to precise about
-what I'm sort of suggesting.
+Jadi tepatnya tentang
+apa yang saya sarankan.
 
 764
 00:32:40,760 --> 00:32:44,460
-OK, well, maybe you take
-the current time stamp
+Oke, mungkin kamu ambil
+stempel waktu saat ini
 
 765
 00:32:44,460 --> 00:32:51,550
-and maybe you hash the current
-time stamp and the KC together.
+dan mungkin Anda hash saat ini
+cap waktu dan KC bersama
 
 766
 00:32:51,550 --> 00:32:53,570
-And maybe you include
-the timestamp as well.
+Dan mungkin Anda termasuk
+stempel waktunya juga.
 
 767
 00:32:53,570 --> 00:32:55,957
-And then the server could
-see, well, it has your KC.
+Dan kemudian server bisa
+lihat, baik, ia memiliki KC Anda.
 
 768
 00:32:55,957 --> 00:32:57,790
-It could hash the current
-timestamp as well.
+Itu bisa hash saat ini
+stempel waktu juga.
 
 769
 00:32:57,790 --> 00:32:59,490
-If it gets the same
-value, then yeah,
+Jika mendapat hal yang sama
+nilai, lalu ya,
 
 770
 00:32:59,490 --> 00:33:01,281
-it's probably the right
-user requesting it.
+itu mungkin benar
+pengguna memintanya.
 
 771
 00:33:01,281 --> 00:33:02,870
-And I can send back the ticket.
+Dan saya bisa mengirim kembali tiketnya.
 
 772
 00:33:02,870 --> 00:33:06,420
-If not, then it wasn't
-the right password at all.
+Jika tidak, maka itu bukan
+kata sandi yang benar sama sekali.
 
 773
 00:33:06,420 --> 00:33:06,970
-Question?
+pertanyaan?
 
 774
 00:33:06,970 --> 00:33:13,041
-STUDENT: [INAUDIBLE] you just do
-[INAUDIBLE] if the servers see
+MAHASISWA: [Tak terdengar] Anda baru saja melakukannya
+[Tak terdengar] jika server melihat
 
 775
 00:33:13,041 --> 00:33:14,545
-too many requests [INAUDIBLE]
+terlalu banyak permintaan [Tak terdengar]
 
 776
 00:33:14,545 --> 00:33:15,545
-PROFESSOR: That's right.
+PROFESOR: Itu benar.
 
 777
 00:33:15,545 --> 00:33:17,570
-So the problem is that
-we could write limit.
+Jadi masalahnya adalah
+kita bisa menulis batas.
 
 778
 00:33:17,570 --> 00:33:19,070
-But there's no
-reason for the hacker
+Tapi tidak ada
+alasan hacker
 
 779
 00:33:19,070 --> 00:33:21,120
