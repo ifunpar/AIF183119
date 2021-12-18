@@ -5033,52 +5033,52 @@ semua hal matematis dan lain nya.
 
 1093
 00:47:38,380 --> 00:47:41,105
-But you just sort of say,
-OK, here's my toolbox.
+Tapi Anda hanya mengatakan, 
+Oke, ini kotak peralatan saya.
 
 1094
 00:47:41,105 --> 00:47:41,980
-Here's what I can do.
+Ini yang dapat Saya lakukan.
 
 1095
 00:47:44,950 --> 00:47:45,450
-OK.
+Oke.
 
 1096
 00:47:45,450 --> 00:47:46,033
-Any questions?
+Ada pertanyaan?
 
 1097
 00:47:46,033 --> 00:47:47,370
-Good?
+Paham?
 
 1098
 00:47:47,370 --> 00:47:52,750
-So now what we can do is we
-can define a one-way function
+Sehingga yang dapat kita lakukan sekarang adalah kita 
+dapat mendefinisikan sebuah fungsi satu arah
 
 1099
 00:47:52,750 --> 00:47:55,990
-sort of like a hash function,
-sort of like multiplying
+seperti fungsi hash, 
+seperti perkalian
 
 1100
 00:47:55,990 --> 00:47:59,260
-p times q to get n.
+p kali q untuk mendapatkan n.
 
 1101
 00:47:59,260 --> 00:48:01,390
-What we will need,
-in addition to this,
+Apa yang akan kita butuhkan, 
+selain ini,
 
 1102
 00:48:01,390 --> 00:48:05,170
-is everyone pick some point on
-the curve, and we call it G.
+apakah semuanya memilih beberapa titik pada
+kurva, dan kita menyebutnya G.
 
 1103
 00:48:05,170 --> 00:48:06,130
-And it's random.
+Dan itu acak.
 
 1104
 00:48:06,130 --> 00:48:08,770
