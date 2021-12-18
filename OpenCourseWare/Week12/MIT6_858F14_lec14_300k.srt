@@ -4396,16 +4396,16 @@ situs-situs terenkripsi yang berbeda
 
 928
 00:39:44,040 --> 00:39:44,940
-antara satu sama lain.
+satu dengan yang lain.
 
 929
 00:39:44,940 --> 00:39:47,420
-Kemudian ternyata cookie
+Namun ternyata kemudian cookie
 memiliki aturan yang berbeda
 
 930
 00:39:47,420 --> 00:39:49,072
-karena alasan sejarah.
+karena alasan historis.
 
 931
 00:39:49,072 --> 00:39:50,530
@@ -4414,8 +4414,8 @@ bagaimana cara kita
 
 932
 00:39:50,530 --> 00:39:52,740
-untuk mengenali
-situs-situs terenkripsi yang berbeda
+untuk mengenali situs-situs
+terenkripsi yang berbeda
 
 933
 00:39:52,740 --> 00:39:53,980
@@ -4423,8 +4423,8 @@ antara satu sama lain.
 
 934
 00:39:53,980 --> 00:39:56,010
-Jadi rencana untuk itu
-adalah sebenarnya,
+Jadi rencana untuk hal itu
+sebenarnya adalah,
 
 935
 00:39:56,010 --> 00:40:02,965
@@ -4434,41 +4434,41 @@ menjadi nama yang ada di sertifikat.
 936
 00:40:05,730 --> 00:40:07,627
 Jadi itulah
-sebenarnya yang
+yang sebenarnya
 
 937
 00:40:07,627 --> 00:40:09,126
-akan pengelola
-sertifikat
+akan ditandatangani
+oleh
 
 938
 00:40:09,126 --> 00:40:10,600
-tanda tangani
-pada akhirnya
+otoritas sertifikat
+di kemudian hari
 
 939
 00:40:10,600 --> 00:40:14,150
 Jadi kita akan benar-benar
-menanda tangani nama host yang muncul
+menandatangani nama host yang muncul
 
 940
 00:40:14,150 --> 00:40:18,510
-pada URL Anda sebagai nama dari
-kunci publik milik server web Anda.
+pada URL Anda sebagai nama untuk
+kunci publik server web Anda.
 
 941
 00:40:18,510 --> 00:40:22,684
-Jadi Amazon semestinya memiliki
+Jadi Amazon mungkin memiliki
 sertifikat untuk www.amazon.com.
 
 942
 00:40:22,684 --> 00:40:24,100
-Itu adalah namanya,
-kemudian apapun
+Itulah namanya,
+dan apapun
 
 943
 00:40:24,100 --> 00:40:27,000
-kunci publik yang sesuai
+kunci publik yang terkait
 dengan kunci rahasia mereka.
 
 944
@@ -4478,12 +4478,12 @@ dicari oleh peramban.
 
 945
 00:40:29,050 --> 00:40:31,970
-Jadi jika dia mendapatkan
+Jadi jika peramban mendapatkan
 sertifikat-- ya,
 
 946
 00:40:31,970 --> 00:40:38,016
-jika dia mencoba untuk terhubung atau mendapatkan
+jika mencoba untuk menghubungkan atau mendapatkan
 sebuah URL yaitu https://foo.com,
 
 947
@@ -4493,26 +4493,26 @@ server menyediakan sertifikat
 
 948
 00:40:40,620 --> 00:40:42,570
-untuk tepat foo.com.
+yang tepat untuk foo.com.
 
 949
 00:40:42,570 --> 00:40:45,560
-Jika tidak, mari kita katakan, ya, kita
+Sebaliknya, mari kita katakan, ya, kita
 mencoba untuk terhubung dengan seseorang,
 
 950
 00:40:45,560 --> 00:40:47,500
-tapi kita sebenarnya
+tapi sebenarnya kita sudah
 memiliki orang lain.
 
 951
 00:40:47,500 --> 00:40:49,680
-Itu adalah sebuah nama
-berbeda di sertifikat
+Itu adalah nama yang
+berbeda dalam sertifikat
 
 952
 00:40:49,680 --> 00:40:50,890
-yang terhubung dengan kita.
+yang kita sambungkan.
 
 953
 00:40:50,890 --> 00:40:54,690
@@ -4521,7 +4521,7 @@ ketidakcocokan sertifikat.
 
 954
 00:40:54,690 --> 00:40:57,230
-Jadi begitulah cara kita akan
+Jadi begitulah cara kita untuk
 membedakan situs yang berbeda
 
 955
@@ -4530,12 +4530,12 @@ satu dengan yang lainnnya.
 
 956
 00:40:57,730 --> 00:40:59,229
-Kita pada dasarnya
-akan membuat CA
+Pada dasarnya kita
+akan meminta CA
 
 957
 00:40:59,229 --> 00:41:01,370
-untuk menolong kita
+untuk membantu kita
 membedakan situs-situs tersebut,
 
 958
@@ -4549,28 +4549,28 @@ hanya pada entitas yang benar.
 
 960
 00:41:05,872 --> 00:41:07,330
-Jadi itu dalam sisi
-kebijakan batas yang
+Jadi dalam sisi
+batas kebijakan yang
 
 961
 00:41:07,330 --> 00:41:11,300
-sama, cara kita akan
+sama, bagaimana kita akan
 memisahkan kodenya.
 
 962
 00:41:11,300 --> 00:41:15,050
-Dan lalu ternyata--
-ya, seperti yang mungkin Anda ingat,
+Dan ternyata--
+seperti yang mungkin Anda ingat,
 
 963
 00:41:15,050 --> 00:41:17,475
-cookies memiliki sebuah kebijakan
+cookies memiliki kebijakan
 yang sedikit berbeda.
 
 964
 00:41:17,475 --> 00:41:20,800
-Seperti, asalnya hampir
-sama, namun tidak sepenuhnya.
+Seperti, memiliki asal yang hampir
+sama, namun tidak semuanya.
 
 965
 00:41:20,800 --> 00:41:23,980
@@ -4585,7 +4585,7 @@ yang dapat Anda pasang pada sebuah cookie.
 967
 00:41:30,610 --> 00:41:34,220
 Jadi aturannya adalah, jika sebuah
-cookie memiliki sebuah secure flag,
+cookie memiliki sebuah tanda aman,
 
 968
 00:41:34,220 --> 00:41:39,940
@@ -4599,12 +4599,12 @@ atau bersamaan dengan permintaan HTTPS.
 970
 00:41:42,330 --> 00:41:45,700
 Dan jika cookie tidak
-memiliki bendera yang aman,
+memiliki tanda aman,
 
 971
 00:41:45,700 --> 00:41:49,590
-maka itu berlaku untuk keduanya
-Permintaan HTTP dan HTTPS.
+maka hal itu berlaku untuk
+permintaan HTTP dan HTTPS.
 
 972
 00:41:49,590 --> 00:41:51,600
@@ -4613,42 +4613,42 @@ agak rumit, ya.
 
 973
 00:41:51,600 --> 00:41:53,640
-Itu akan lebih bersih
-jika cookie baru saja bertindak
+Hal ini akan lebih jelas
+jika cookie hanya mengatakan,
 
 974
 00:41:53,640 --> 00:41:57,080
-Yah, cookie ini 
-untuk HTTPS post,
+ini adalah cookie
+untuk posting HTTPS,
 
 975
 00:41:57,080 --> 00:41:58,700
-dan cookie ini 
-untuk HTTPS host.
+dan ini adalah cookie 
+untuk host HTTPS.
 
 976
 00:41:58,700 --> 00:42:00,470
-Dan mereka
+Dan keduanya
 benar-benar berbeda.
 
 977
 00:42:00,470 --> 00:42:03,410
-Itu akan sangat jelas di
-persyaratan mengisolasi situs yang aman
+Hal ini akan sangat jelas dalam
+hal mengisolasi situs yang aman
 
 978
 00:42:03,410 --> 00:42:05,007
-dari situs tidak aman.
+dari situs yang tidak aman.
 
 979
 00:42:05,007 --> 00:42:06,590
-Sayangnya, untuk
-alasan sejarah,
+Sayangnya, karena
+alasan historis,
 
 980
 00:42:06,590 --> 00:42:09,370
-cookie memiliki hal yang aneh ini
-semacam interaksi.
+cookie memiliki semacam
+bentuk interaksi yang aneh.
 
 981
 00:42:09,370 --> 00:42:12,250
@@ -4661,13 +4661,13 @@ berlaku untuk situs HTTPS.
 
 983
 00:42:14,660 --> 00:42:16,830
-Yah, ada host
-juga, benar.
+Ya, terdapat host
+juga didalamnya.
 
 984
 00:42:16,830 --> 00:42:20,920
-Jadi cookie aman berlaku
-hanya untuk URL host HTTPS,
+Jadi cookie yang aman hanya
+berlaku untuk URL dengan host HTTPS,
 
 985
 00:42:20,920 --> 00:42:22,740
@@ -4676,8 +4676,8 @@ berlaku untuk keduanya.
 
 986
 00:42:22,740 --> 00:42:27,310
-Jadi itu akan menjadi beberapa sumber
-masalah bagi kita.
+Jadi hal itu akan menjadi
+sumber masalah bagi kita.
 
 987
 00:42:27,310 --> 00:42:29,450
@@ -4689,107 +4689,107 @@ Baiklah.
 
 989
 00:42:30,080 --> 00:42:32,490
-Dan bagian terakhir
-browser web itu
+Dan bagian terakhir yang
+dilakukan peramban web
 
 990
 00:42:32,490 --> 00:42:38,870
-do to try to help us along in
-this plan is for the UI aspect,
+untuk mencoba membantu kita dalam
+rencana ini adalah untuk aspek UI,
 
 991
 00:42:38,870 --> 00:42:43,540
-they're going to introduce
-some kind of a lock icon
+peramban web memperkenalkan
+semacam ikon kunci
 
 992
 00:42:43,540 --> 00:42:45,660
-that users are supposed to see.
+yang dapat dilihat oleh pengguna.
 
 993
 00:42:45,660 --> 00:42:48,220
-So there's a lock
-icon in your browser,
+Jadi terdapat ikon kunci
+dalam peramban Anda,
 
 994
 00:42:48,220 --> 00:42:51,150
-plus you're supposed to look
-at the URL to figure out
+dan Anda harus melihat
+URL untuk mencari tahu
 
 995
 00:42:51,150 --> 00:42:52,150
-which site you're on.
+pada situs mana Anda berada.
 
 996
 00:42:52,150 --> 00:42:55,860
-Now that's how web
-browser developers expect
+Begitulah cara pengembang
+peramban web mengharapkan
 
 997
 00:42:55,860 --> 00:42:57,030
-you to think of the world.
+Anda untuk memikirkannya.
 
 998
 00:42:57,030 --> 00:43:00,100
-Like, if you're ever
-entering confidential stuff
+Seperti, jika Anda pernah
+memasukkan hal-hal pribadi
 
 999
 00:43:00,100 --> 00:43:02,850
-into some website, then
-you should look at the URL,
+kedalam sebuah halaman web, maka
+Anda seharusnya melihat pada URL,
 
 1000
 00:43:02,850 --> 00:43:04,816
-make sure that's
-the actual host name
+untuk memastikan bahwa
+nama host yang seharusnya
 
 1001
 00:43:04,816 --> 00:43:06,690
-that you want to be
-talking to, and then look
+ingin Anda ajak
+berkomunikasi, lalu cari
 
 1002
 00:43:06,690 --> 00:43:08,980
-for some sort of a
-lock icon, and then you
+semacam ikon kunci,
+kemudian Anda
 
 1003
 00:43:08,980 --> 00:43:10,755
-should assume things
-are good to go.
+dapat berasumsi semuanya
+akan baik-baik saja.
 
 1004
 00:43:10,755 --> 00:43:12,735
-So that's the UI aspect of it.
+Jadi itulah aspek UI-nya.
 
 1005
 00:43:12,735 --> 00:43:13,360
-It's not great.
+Hal ini tidak bagus.
 
 1006
 00:43:13,360 --> 00:43:17,880
-It turns out that many
-phishing sites will just
+Ternyata dari banyaknya
+situs phising hanya akan
 
 1007
 00:43:17,880 --> 00:43:20,800
-include an image of a lock
-icon in the site itself
+menyertakan gambar ikon
+kunci di dalam situsnya
 
 1008
 00:43:20,800 --> 00:43:21,960
-and have a different URL.
+dan memiliki URL yang berbeda.
 
 1009
 00:43:21,960 --> 00:43:24,030
-And if you don't know
-exactly what to look for
+Dan jika Anda tidak tahu
+secara pasti apa yang dicari
 
 1010
 00:43:24,030 --> 00:43:29,210
-or what's going on, a user
-might be fooled by this.
+atau apa yang terjadi, pengguna
+mungkin tertipu oleh hal ini.
 
 1011
 00:43:29,210 --> 00:43:31,960
