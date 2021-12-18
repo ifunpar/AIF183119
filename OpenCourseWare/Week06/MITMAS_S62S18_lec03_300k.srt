@@ -5182,40 +5182,40 @@ ambil poin G Anda,
 
 1125
 00:49:03,285 --> 00:49:05,935
-dan kamu kalikan
+dan Anda kalikan
 dengan beberapa skalar,
 
 1126
 00:49:05,935 --> 00:49:09,550
-and you publish where the
-point is [INAUDIBLE] scalars.
+dan Anda publikasikan dimana 
+poin adalah [TIDAK TERDENGAR] skalar.
 
 1127
 00:49:09,550 --> 00:49:11,260
-TADGE DRYJA: Yep, yep.
+TADGE DRYJA: Ya, ya.
 
 1128
 00:49:11,260 --> 00:49:11,760
-OK.
+Oke.
 
 1129
 00:49:11,760 --> 00:49:13,630
-So your private key--
+Jadi kunci privat Anda--
 
 1130
 00:49:13,630 --> 00:49:15,720
-let's say private
-key, lowercase a,
+katakanlah kunci
+privat, a huruf kecil,
 
 1131
 00:49:15,720 --> 00:49:18,930
-it's just some 256 bit
-random number, scalar,
+itu hanya sekitar 256 bit
+bilangan acak, skalar,
 
 1132
 00:49:18,930 --> 00:49:23,490
-exactly the same as 32 bytes
-like in a lamport signature.
+persis sama dengan 32 byte
+seperti dalam tanda tangan lamport.
 
 1133
 00:49:23,490 --> 00:49:26,340
