@@ -5145,45 +5145,45 @@ fungsi satu arah yang keren
 
 1117
 00:48:48,070 --> 00:48:49,960
-given these operations
-and the fact
+diberikan operasi ini
+dan faktanya
 
 1118
 00:48:49,960 --> 00:48:53,250
-that we have an
-agreed-upon point?
+bahwa kita memiliki
+poin yang disepakati?
 
 1119
 00:48:53,250 --> 00:48:55,140
-It's not super obvious,
-but it's actually
+ini sangat tidak jelas,
+tapi sebenarnya
 
 1120
 00:48:55,140 --> 00:48:56,850
-fairly straightforward.
+cukup mudah.
 
 1121
 00:48:56,850 --> 00:48:58,302
-Once you see it,
-you're like, oh.
+Begitu anda melihatnnya.
+Anda akan, oh.
 
 1122
 00:49:01,020 --> 00:49:01,530
-Any ideas?
+ide lain?
 
 1123
 00:49:01,530 --> 00:49:01,710
-Yeah.
+Yah.
 
 1124
 00:49:01,710 --> 00:49:03,285
-AUDIENCE: So you
-take your point G,
+AUDIANS: jadi Anda
+ambil poin G Anda,
 
 1125
 00:49:03,285 --> 00:49:05,935
-and you multiply
-it by some scalar,
+dan kamu kalikan
+dengan beberapa skalar,
 
 1126
 00:49:05,935 --> 00:49:09,550
