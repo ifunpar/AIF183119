@@ -4684,7 +4684,7 @@ diperhitungkan sebagai terpecahkan.
 
 990
 00:42:39,170 --> 00:42:43,310
-Sebuah pembobolan diperhitungkan, hey,
+Sebuah pembobolan diperhitungkan, hei,
 Saya menemukan sebuah gambar awal dalam dua
 
 991
@@ -4792,6 +4792,7 @@ Menyenangkan.
 00:43:41,900 --> 00:43:44,120
 Ethan Hellman,
 seseorang di BU dan Kita
+
 1014
 00:43:44,120 --> 00:43:49,070
 bekerja bersama, Dia-- dan Kita semua memecahkan 
@@ -4804,11 +4805,11 @@ beberapa mata uang kripto.
 
 1016
 00:43:51,050 --> 00:43:52,980
-Dan Kita tabrakan didalamnya.
+Dan Kita menemukan tabrakan didalamnya.
 
 1017
 00:43:52,980 --> 00:43:55,180
-Dan itu seperti menyenangkan.
+Dan itu menyenangkan.
 
 1018
 00:43:55,180 --> 00:43:57,072
@@ -4838,11 +4839,11 @@ Jadi itu sebuah kesenangan.
 
 1024
 00:44:06,070 --> 00:44:07,400
-Sangan berguna.
+Sangat berguna.
 
 1025
 00:44:07,400 --> 00:44:10,070
-Untuk apa Anda guanakan
+Untuk apa Anda gunakan
 hashes ini?
 
 1026
