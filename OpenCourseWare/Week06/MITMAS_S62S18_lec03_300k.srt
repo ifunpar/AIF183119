@@ -5033,7 +5033,7 @@ semua hal matematis dan lain nya.
 
 1093
 00:47:38,380 --> 00:47:41,105
-Tapi Anda hanya mengatakan, 
+Tapi Anda hanya mengatakan,
 Oke, ini kotak peralatan saya.
 
 1094
@@ -5059,7 +5059,7 @@ dapat mendefinisikan sebuah fungsi satu arah
 
 1099
 00:47:52,750 --> 00:47:55,990
-seperti fungsi hash, 
+seperti fungsi hash,
 seperti perkalian
 
 1100
@@ -5068,7 +5068,7 @@ p kali q untuk mendapatkan n.
 
 1101
 00:47:59,260 --> 00:48:01,390
-Apa yang akan kita butuhkan, 
+Apa yang akan kita butuhkan,
 selain ini,
 
 1102
@@ -5082,66 +5082,66 @@ Dan itu acak.
 
 1104
 00:48:06,130 --> 00:48:08,770
-And we want it to be
-somewhat verifiably random.
+Dan kita ingin itu terjadi
+sedikit agar bisa diverifikasi secara acak.
 
 1105
 00:48:08,770 --> 00:48:12,220
-We just all have to
-agree on a point.
+Kita semua harus
+setuju pada sebuah poin.
 
 1106
 00:48:12,220 --> 00:48:15,760
-And we'll call this
-the generator point.
+Dan kita akan menyebutnya
+pembangkit titik.
 
 1107
 00:48:15,760 --> 00:48:20,290
-Another property is that, since
-it's all modulo, this number,
+Dan properti lainnya adalah, karena
+itu semua adalah modulo, angka ini,
 
 1108
 00:48:20,290 --> 00:48:23,950
-if B is too big, you'll
-wrap around, right,
+jika B terlalu besar, Anda akan
+melapisinya, benar,
 
 1109
 00:48:23,950 --> 00:48:26,380
-because it's all modulo, this n.
+Karena itu semua adalah modulo, ini n.
 
 1110
 00:48:26,380 --> 00:48:28,690
-So it's called a
-generator point because--
+Sehingga disebut sebagai
+pembangkit titik karena--
 
 1111
 00:48:28,690 --> 00:48:30,550
-and every point on
-the curve can be one--
+dan setiap titik pada
+kurva dapat menjadi satu--
 
 1112
 00:48:30,550 --> 00:48:33,790
-if you keep, say,
+Jika Anda tetap, mengatakan,
 2G, 3G, 4G, 5G,
 
 1113
 00:48:33,790 --> 00:48:37,360
-eventually, you'll
-get back to G, right?
+pada akhirnya, Anda akan
+kemabali ke G, benar?
 
 1114
 00:48:37,360 --> 00:48:40,840
-It's all finite.
+Semuanya terbatas.
 
 1115
 00:48:40,840 --> 00:48:44,080
-OK so does anyone
-have an idea, OK,
+Oke siapapun apakah
+ada ide, Oke,
 
 1116
 00:48:44,080 --> 00:48:48,070
-how would we make some
-cool one-way function
+apakah kita mau membuat beberapa
+fungsi satu arah yang keren
 
 1117
 00:48:48,070 --> 00:48:49,960
