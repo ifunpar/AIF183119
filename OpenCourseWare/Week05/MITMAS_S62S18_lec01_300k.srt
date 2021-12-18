@@ -4544,7 +4544,7 @@ teori bilangan matematis yang keren
 
 961
 00:41:24,580 --> 00:41:27,130
-, baik, cara 
+hal-hal, baik, cara 
 kurva eliptik
 
 962
@@ -4573,7 +4573,7 @@ sebuah penemuan matematika yang keren.
 
 967
 00:41:39,040 --> 00:41:43,000
-Pecahnya Sha-1, 
+Pecahnya SHA-1, 
 sebenarnya tidak ada 
 
 968
@@ -4582,13 +4582,13 @@ wawasan matematika yang keren.
 
 969
 00:41:44,530 --> 00:41:47,020
-Itu seperti, ya, kami 
+Itu seperti, ya, Kita 
 menemukan ini cukup spesifik,
 
 970
 00:41:47,020 --> 00:41:50,080
-jalan aneh kami
-dapat memecahkan Sha-1
+cara yang aneh Kita
+dapat memecahkan SHA-1
 
 971
 00:41:50,080 --> 00:41:52,830
