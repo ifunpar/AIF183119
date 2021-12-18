@@ -4587,90 +4587,90 @@ found this fairly specific,
 970
 00:41:47,020 --> 00:41:50,080
 weird path that we were
-able to break Sha-1
+dapat memecahkan Sha-1
 
 971
 00:41:50,080 --> 00:41:52,830
-after a couple of
-years of computer.
+setelah beberapa
+tahun menggunakan komputer.
 
 972
 00:41:52,830 --> 00:41:56,900
-So it's cool, and some
-people are super into it.
+Jadi itu keren, dan beberapa
+orang sangat menyukainya.
 
 973
 00:41:56,900 --> 00:41:59,960
-But it's something of a niche to
-actually build hash functions.
+Tapi itu sesuatu yang khusus untuk
+benar-benar membangun fungsi hash.
 
 974
 00:41:59,960 --> 00:42:02,630
-I would recommend not building
-your own hash function.
+Saya akan merekomendasikan untuk tidak membangun
+fungsi hash Anda sendiri.
 
 975
 00:42:02,630 --> 00:42:03,170
-Yes.
+Ya.
 
 976
 00:42:03,170 --> 00:42:04,670
-AUDIENCE: I'm Wayne,
-and my question
+AUDIENCE: Saya Wayne,
+dan pertanyaan saya
 
 977
 00:42:04,670 --> 00:42:08,020
-is, is breaking a hash function
-literally just guess and check,
+adalah, apakah pemecahan fungsi hash
+benar-benar hanya menebak dan memeriksa,
 
 978
 00:42:08,020 --> 00:42:10,118
-or is there more
-of a method to it?
+atau adakah 
+metode lain untuk itu?
 
 979
 00:42:10,118 --> 00:42:10,910
-TADGE DRYJA: So no.
+TADGE DRYJA: Tidak.
 
 980
 00:42:10,910 --> 00:42:16,490
-If you say, hey, I
-found a collision
+Jika Anda mengatakan, hei, Saya
+menemukan tabrakan
 
 981
 00:42:16,490 --> 00:42:19,700
-by doing two to
-the 128 attempts.
+dengan melakukan dua hingga
+128 percobaan.
 
 982
 00:42:19,700 --> 00:42:21,980
-One, nobody's done two
-to the 128 attempts.
+Satu, tidak ada yang melakukan dua
+hingga 128 percobaan. 
 
 983
 00:42:21,980 --> 00:42:25,162
-That's still seen as like
-beyond technology today.
+Itu masih terlihat seperti
+diluar teknologi saat ini.
 
 984
 00:42:25,162 --> 00:42:27,620
-But if that's how you break
-the function, that's not really
+Tetapi jika itu cara Anda memecah
+fungsinya, itu tidak benar-benar
 
 985
 00:42:27,620 --> 00:42:29,995
-considered a break because
-that's sort of the definition,
+dianggap memecah karena
+itu semacam definisi,
 
 986
 00:42:29,995 --> 00:42:33,260
-is yeah, well, we know
-this is 256 bits long.
+ya, baiklah, kita tahu
+ini panjangnya 256 bit.
 
 987
 00:42:33,260 --> 00:42:36,950
-So to find a preimage, if you
-lakukan dua sampai perorcobaan ke 256,
+Jadi untuk menemukan gambar awal, jika Anda
+lakukan dua sampai percobaan ke 256,
 
 988
 00:42:36,950 --> 00:42:37,700
@@ -4715,11 +4715,11 @@ Hal itu masih tidak praktis.
 997
 00:42:56,210 --> 00:42:58,580
 Dua sampai ke 240 tetap
-mustahil pada hari ini
+mustahil pada teknologi
 
 998
 00:42:58,580 --> 00:43:00,020
-teknologi.
+hari ini.
 
 999
 00:43:00,020 --> 00:43:01,985
