@@ -6113,76 +6113,76 @@ bahwa itu akan tertunjuk.
 
 1303
 01:11:37,100 --> 01:11:49,460
-And what is going to happen
-is, when bidding is over Alice
+Dan yang akan terjadi
+adalah, setelah selesai penawaran Alice
 
 1304
 01:11:49,460 --> 01:11:53,145
-is going to open--
-so this is-- C
+akan membuka--
+jadi ini adalah-- C
 
 1305
 01:11:53,145 --> 01:12:00,069
-of x can be thought
-of as sealing the bid.
+dari x boleh diartikan 
+sebagai segel dari penawaran.
 
 1306
 01:12:00,069 --> 01:12:01,110
-So that's the commitment.
+Jadi itu merupakan komitmennya.
 
 1307
 01:12:01,110 --> 01:12:03,030
-You're sealing the--
-you're making a bid
+Anda sedang menyegel--
+anda sedang melakukan penawaran
 
 1308
 01:12:03,030 --> 01:12:04,600
-and you're sealing
-it in an envelope.
+dan anda akan menyegelnya
+didalam sebuah amplop.
 
 1309
 01:12:04,600 --> 01:12:05,650
-You've committed to that.
+Anda telah melakukan suatu komitmen.
 
 1310
 01:12:05,650 --> 01:12:08,110
-That's obviously, what
-happens in real life
+Itu secara jelas, terjadi
+juga di dunia nyata
 
 1311
 01:12:08,110 --> 01:12:09,740
-without cryptography,
-but we want
+tanpa kriptografi,
+tapi kita ingin
 
 1312
 01:12:09,740 --> 01:12:12,300
-to do this with cryptography,
-with hash functions.
+untuk melakukannya dengan kriptografi,
+dengan hash functions.
 
 1313
 01:12:12,300 --> 01:12:19,250
-And so now Alice opens
-C of x to reveal x.
+Dan sekarang Alice dapat membuka
+C dari x untuk melihat x.
 
 1314
 01:12:19,250 --> 01:12:25,670
-So she has to prove that
-in fact x was her bid.
+Jadi dia garus membuktikan bahwa
+x merupakan penawarannya secara faktual.
 
 1315
 01:12:25,670 --> 01:12:28,580
-And that it matches
-what she sealed.
+Dan bahwa hal tersebut cocok
+dengan apa yang ia segel.
 
 1316
 01:12:28,580 --> 01:12:31,930
-When you open it up, think
-about it conceptually
+Saat anda membuka, pkirkanlah 
+secara konseptual
 
 1317
 01:12:31,930 --> 01:12:34,660
-from a standpoint of
-what happens with paper,
+dari sudut pandang dimana 
+apa yang terjadi dengan kertas,
 
 1318
 01:12:34,660 --> 01:12:38,620
