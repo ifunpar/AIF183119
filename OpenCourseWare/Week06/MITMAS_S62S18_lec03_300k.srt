@@ -5297,48 +5297,48 @@ Jadi Anda dapat melakukan hash.
 
 1150
 00:50:02,065 --> 00:50:05,460
-You'd make it into 32 bytes.
+Anda akan membuatnya sampai 32 byte.
 
 1151
 00:50:05,460 --> 00:50:08,888
-There's a more useful way.
+Ada cara yang lebih berguna.
 
 1152
 00:50:08,888 --> 00:50:11,430
-But if you hash it, you still
-have to reveal it later, right?
+Tapi jika Anda meng-hash itu, Anda masih
+harus mengungkapkan itu nanti, benar?
 
 1153
 00:50:11,430 --> 00:50:14,190
-So it helps, making
-a pubkey hash.
+Jadi itu membantu, membuat
+sebuah hash pubkey.
 
 1154
 00:50:14,190 --> 00:50:16,640
-And that's what
-Bitcoin did initially
+Dan itulah yang dilakukan
+Bitcoin pada awalnya
 
 1155
 00:50:16,640 --> 00:50:19,980
-is you'd have the
-64 byte public keys.
+adalah Anda akan memiliki
+publik kunci 64 byte.
 
 1156
 00:50:19,980 --> 00:50:22,320
-And then you'd send
-to the hash of them.
+Lalu Anda akan mengirimkan
+ke hash dari mereka.
 
 1157
 00:50:22,320 --> 00:50:25,500
-There's a nicer way.
+Ada cara yang lebih baik.
 
 1158
 00:50:25,500 --> 00:50:26,470
-Any ideas?
+Ide lain?
 
 1159
 00:50:26,470 --> 00:50:26,970
-OK.
+Oke.
 
 1160
 00:50:26,970 --> 00:50:31,770
