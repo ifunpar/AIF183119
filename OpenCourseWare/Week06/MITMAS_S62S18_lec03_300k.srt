@@ -5374,7 +5374,7 @@ TADGE DRYJA: Benar.
 1167
 00:50:45,740 --> 00:50:49,643
 Jadi Anda mengambil koordinat x
-dan menyandikannya.
+dan menyandikan itu.
 
 1168
 00:50:49,643 --> 00:50:50,810
@@ -5382,7 +5382,7 @@ Lalu hanya satu bit tersebut--
 
 1169
 00:50:50,810 --> 00:50:51,790
-4-- Ini ada diatas.
+4-- Ini ada di atas.
 
 1170
 00:50:51,790 --> 00:50:53,030
@@ -5416,7 +5416,7 @@ akan menjadi tidak terisi.
 1176
 00:51:06,160 --> 00:51:08,780
 Ini hanya akan memiliki satu
-bit di dalamnya untuk naik ataupun turun.
+bit di dalamnya untuk naik atau turun.
 
 1177
 00:51:08,780 --> 00:51:10,200
@@ -5459,17 +5459,17 @@ Mungkin.
 
 1186
 00:51:26,720 --> 00:51:29,750
-Tapi aku tidak berpikir
+Tapi Saya tidak berpikir
 ini akan menjadi lebih kecil.
 
 1187
 00:51:29,750 --> 00:51:31,910
-Saya kira anda mungkin
+Saya kira Anda mungkin
 perlu memiliki ukuran yang sama
 
 1188
 00:51:31,910 --> 00:51:33,577
-Jikalau Anda menggunakan
+Jika Anda menggunakan
 sistem koordinat yang lain.
 
 1189
@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Ya, Anda perlu menyandikan lerengan--
+Ya, Anda perlu menyandikan sisi miring--
 
 1191
 00:51:39,907 --> 00:51:41,240
