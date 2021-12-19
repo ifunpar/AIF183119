@@ -5369,85 +5369,85 @@ dan katakan sisi mana?
 
 1166
 00:50:44,948 --> 00:50:45,740
-TADGE DRYJA: Right.
+TADGE DRYJA: Benar.
 
 1167
 00:50:45,740 --> 00:50:49,643
-So you take the x-coordinate
-and encode that.
+Jadi Anda mengambil koordinat x
+dan menyandikannya.
 
 1168
 00:50:49,643 --> 00:50:50,810
-And then just that one bit--
+Lalu hanya satu bit tersebut--
 
 1169
 00:50:50,810 --> 00:50:51,790
-4-- it's on the top.
+4-- Ini ada diatas.
 
 1170
 00:50:51,790 --> 00:50:53,030
-It's on the bottom.
+Ini ada di bawah.
 
 1171
 00:50:53,030 --> 00:50:56,210
-And then let them figure out
-exactly where it is, right?
+Lalu biarkan mereka mencari tau
+dengan jelas dimana itu, benar?
 
 1172
 00:50:56,210 --> 00:50:58,760
-So you can encode the
-x-coordinate only and 1 bit
+Jadi Anda bisa menyandikan
+koordinat x saja dan 1 bit
 
 1173
 00:50:58,760 --> 00:51:01,370
-for y, and then you're
-down to 33 bytes.
+untuk y, lalu Anda
+turun ke 33 byte.
 
 1174
 00:51:01,370 --> 00:51:03,830
-It's a little annoying
-because the 33 bytes, well,
+Ini sedikit menyebalkan
+karena 33 byte, baik,
 
 1175
 00:51:03,830 --> 00:51:06,160
-one of those bytes
-is going to be empty.
+satu dari byte tersebut
+akan menjadi tidak terisi.
 
 1176
 00:51:06,160 --> 00:51:08,780
-It's just going to have one
-bit in it for up or down.
+Ini hanya akan memiliki satu
+bit di dalamnya untuk naik ataupun turun.
 
 1177
 00:51:08,780 --> 00:51:10,200
-But whatever.
+Tapi terserah.
 
 1178
 00:51:10,200 --> 00:51:13,200
-So you can do that, and
-that's also really cool.
+Jadi Anda bisa melakukan itu, dan
+itu juga sangat keren.
 
 1179
 00:51:13,200 --> 00:51:14,060
-OK.
+Oke.
 
 1180
 00:51:14,060 --> 00:51:17,210
-Any questions so far?
+Sejauh ini ada pertanyaan?
 
 1181
 00:51:17,210 --> 00:51:21,310
-AUDIENCE: Could you encode
-a [INAUDIBLE] and same
+AUDIENS: Bisakah Anda menyandikan
+[TIDAK TERDENGAR] dan sama
 
 1182
 00:51:21,310 --> 00:51:22,252
-up and down?
+naik dan turun?
 
 1183
 00:51:22,252 --> 00:51:24,136
-Could you just encode
-an [INAUDIBLE]??
+Bisakah kamu hanya menyandikan
+[TIDAK TERDENGAR]??
 
 1184
 00:51:24,136 --> 00:51:25,550
@@ -5455,22 +5455,22 @@ TADGE DRYJA: Huh.
 
 1185
 00:51:25,550 --> 00:51:26,720
-Probably.
+Mungkin.
 
 1186
 00:51:26,720 --> 00:51:29,750
-But I don't think
-it would be smaller.
+Tapi aku tidak berpikir
+ini akan menjadi lebih kecil.
 
 1187
 00:51:29,750 --> 00:51:31,910
-I think you'd have to
-probably have the same size
+Saya kira anda mungkin
+perlu memiliki ukuran yang sama
 
 1188
 00:51:31,910 --> 00:51:33,577
-if you use some other
-coordinate system.
+Jikalau Anda menggunakan
+sistem koordinat yang lain.
 
 1189
 00:51:36,110 --> 00:51:37,790
@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Yeah, you could encode a slope--
+Ya, Anda perlu menyandikan lerengan--
 
 1191
 00:51:39,907 --> 00:51:41,240
