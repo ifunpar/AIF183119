@@ -4660,130 +4660,130 @@ cara menerapkan beberapa keamanan
 
 978
 00:39:44,780 --> 00:39:45,910
-at the application level.
+pada level aplikasi.
 
 979
 00:39:45,910 --> 00:39:50,160
-So we'll use cryptography
-to authenticate and encrypt
+Jadi kita akan menggunakan kriptografi
+untuk autentikasi dan enkripsi
 
 980
 00:39:50,160 --> 00:39:54,460
-and sign and verify messages
-at the application level
+menandatangani dan verifikasi pesan-pesan
+pada level aplikasi
 
 981
 00:39:54,460 --> 00:39:57,420
-without really
-involving TCP so much.
+tanpa benar-benar
+banyak melibatkan TCP.
 
 982
 00:39:57,420 --> 00:39:59,606
-But there are some
-existing applications
+Tapi ada beberapa
+aplikasi yang sudah ada
 
 983
 00:39:59,606 --> 00:40:03,950
-that would benefit from
-making this slightly better,
+yang akan mendapatkan manfaat dari
+membuat ini sedikit lebih baik,
 
 984
 00:40:03,950 --> 00:40:07,160
-at least not make it so easy
-to exploit these problems.
+setidaknya tidak memudahkan hal itu
+untuk mengeksploitasi masalah-masalah ini.
 
 985
 00:40:07,160 --> 00:40:09,360
-And the way that
-I guess people do
+Dan saya kira cara
+orang melakukannya
 
 986
 00:40:09,360 --> 00:40:13,200
-this in practice today-- for
-example Linux and Windows--
+dalam praktik saat ini-- untuk
+contoh Linux dan Windows--
 
 987
 00:40:13,200 --> 00:40:17,360
-is they implement the suggestion
-that John gave earlier,
+adalah mereka mengimplementasi sugesti
+yang diberikan John sebelumnya,
 
 988
 00:40:17,360 --> 00:40:20,920
-that we maintain
-different initial sequence
+yang kami pertahankan bahwa
+nomor urut awal adalah berbeda
 
 989
 00:40:20,920 --> 00:40:22,820
-numbers for every
-source destination pair.
+untuk setiap pasangan
+sumber dan penerima.
 
 990
 00:40:22,820 --> 00:40:29,110
-So what most TCP SYN
-implementations do
+Jadi sebagian besar hal yang
+diimplementasi oleh SYN TCP
 
 991
 00:40:29,110 --> 00:40:33,200
-is they still compute this
-initial sequence number
+masih membuat mereka mengkomputasi
+nomor urut awal ini sama
 
 992
 00:40:33,200 --> 00:40:34,590
-as we were computing before.
+seperti yang kita hitung sebelumnya.
 
 993
 00:40:34,590 --> 00:40:39,600
-So this is the old
-style ISN, let's say.
+Jadi katakanlah ini sebagai
+gaya lama dari ISN.
 
 994
 00:40:39,600 --> 00:40:42,000
-And in order to
-actually generate
+Dan untuk benar-benar
+menghasilkan ISN
 
 995
 00:40:42,000 --> 00:40:44,650
-the actual ISN for any
-particular connection,
+yang aktual untuk
+koneksi tertentu,
 
 996
 00:40:44,650 --> 00:40:48,130
-we're going to add a
-random 32-bit offset.
+kita akan menambahkan 32 bit
+offset secara acak.
 
 997
 00:40:48,130 --> 00:40:51,005
-So we're going to include
-some sort of a function.
+Jadi kita akan menambahkan
+semacam fungsi.
 
 998
 00:40:51,005 --> 00:40:54,010
-Think of it like as like
-a hash function like SHA-1
+Pikirkan itu sebagai sebuah
+fungsi hash seperti SHA-1
 
 999
 00:40:54,010 --> 00:40:56,295
-or something maybe better.
+atau sesuatu yang lebih baik.
 
 1000
 00:40:56,295 --> 00:40:59,190
-And this is going to be
-a function of the source
+Dan ini akan menjadi
+sebuah fungsi dari
 
 1001
 00:40:59,190 --> 00:41:05,140
-IP, the source port
-number, the destination IP
+IP sumber, nomor port sumber,
+alamat penerima IP,
 
 1002
 00:41:05,140 --> 00:41:10,820
-address, destination port,
-and some sort of a secret key
+port tujuan, dan semacam
+kunci rahasia
 
 1003
 00:41:10,820 --> 00:41:14,900
-that only the server
-knows in this case.
+yang pada kasus ini hanya
+diketahui oleh server.
 
 1004
 00:41:14,900 --> 00:41:17,290
