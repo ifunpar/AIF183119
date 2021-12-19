@@ -5342,30 +5342,30 @@ Oke.
 
 1160
 00:50:26,970 --> 00:50:31,770
-So the thing is it's
-symmetric, right?
+Jadi masalahnya adalah
+itu simetris, benar?
 
 1161
 00:50:31,770 --> 00:50:36,630
-So the curve is symmetric
-about the x-axis.
+Jadi kurva nya simetris
+terhadap sumbu x.
 
 1162
 00:50:39,490 --> 00:50:40,750
-Any ideas?
+Ide lain?
 
 1163
 00:50:40,750 --> 00:50:41,380
-yes.
+ya.
 
 1164
 00:50:41,380 --> 00:50:43,880
-AUDIENCE: Could you just code
-one of the x- or y-coordinates
+AUDIENS: Bisakah Anda mengkodekan
+satu dari koordinat x atau koordinat y
 
 1165
 00:50:43,880 --> 00:50:44,948
-and say which side?
+dan katakan sisi mana?
 
 1166
 00:50:44,948 --> 00:50:45,740
