@@ -3626,7 +3626,7 @@ tapi ini bisa berhasil.
 763
 00:32:38,450 --> 00:32:40,760
 Jadi tepatnya tentang
-apa yang saya sarankan.
+apa yang kira-kira saya sarankan.
 
 764
 00:32:40,760 --> 00:32:44,460
@@ -3636,11 +3636,11 @@ stempel waktu saat ini
 765
 00:32:44,460 --> 00:32:51,550
 dan mungkin Anda hash saat ini
-cap waktu dan KC bersama
+cap waktu dan KC bersama.
 
 766
 00:32:51,550 --> 00:32:53,570
-Dan mungkin Anda termasuk
+Dan mungkin Anda memasukkan
 stempel waktunya juga.
 
 767
@@ -3650,18 +3650,18 @@ lihat, baik, ia memiliki KC Anda.
 
 768
 00:32:55,957 --> 00:32:57,790
-Itu bisa hash saat ini
-stempel waktu juga.
+Itu bisa hash stempel waktu
+saat ini juga.
 
 769
 00:32:57,790 --> 00:32:59,490
-Jika mendapat hal yang sama
-nilai, lalu ya,
+Jika itu mendapat 
+nilai yang sama, lalu ya,
 
 770
 00:32:59,490 --> 00:33:01,281
-itu mungkin benar
-pengguna memintanya.
+itu mungkin pengguna
+yang benar meminta itu.
 
 771
 00:33:01,281 --> 00:33:02,870
@@ -3674,7 +3674,7 @@ kata sandi yang benar sama sekali.
 
 773
 00:33:06,420 --> 00:33:06,970
-pertanyaan?
+Pertanyaan?
 
 774
 00:33:06,970 --> 00:33:13,041
