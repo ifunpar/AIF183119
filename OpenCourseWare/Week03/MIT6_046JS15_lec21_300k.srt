@@ -6325,71 +6325,73 @@ x here, that I'd
 1347
 01:14:03,350 --> 01:14:08,090
 want h to satisfy in order
-for this whole process
+untuk seluruh proses ini
 
 1348
 01:14:08,090 --> 01:14:14,700
-to work like it's supposed to
-work with paper and envelopes?
+bekerja seperti seharusnya itu
+bekerja dengan kertas dan amplop?
 
 1349
 01:14:14,700 --> 01:14:15,695
-Yeah, go ahead.
+Ya, silahkan.
 
 1350
 01:14:15,695 --> 01:14:18,406
-AUDIENCE: It has to be
-one-way [INAUDIBLE].
+AUDIENS: Itu harus 
+satu arah [TIDAK TERDENGAR].
 
 1351
-01:14:18,406 --> 01:14:20,030
-SRINIVAS DEVADAS: It
-has to be one-way.
+01:14:18,406 --> 01:14:20,030.
+SRINIVAS DEVADAS: Itu
+harus satu arah.
 
 1352
 01:14:20,030 --> 01:14:24,210
-And explain to me-- so I
-want a description of it
+Dan jelaskan ke saya-- jika saya
+ingin deskripsi dari itu
 
 1353
 01:14:24,210 --> 01:14:26,260
-has to be one-way, because why?
+harus satu arah, kenapa?
 
 1354
 01:14:26,260 --> 01:14:27,957
-AUDIENCE: Because
-you want all the c
+AUDIENS: Karena
+Anda ingin semua c
 
 1355
 01:14:27,957 --> 01:14:29,790
-x's to be hidden from
-all the other options.
+dari x disembunyikan dari
+semua pilihan lainnya.
 
 1356
 01:14:29,790 --> 01:14:31,200
-SRINIVAS DEVADAS: Right.
+SRINIVAS DEVADAS: Tepat.
 
 1357
 01:14:31,200 --> 01:14:40,930
 C of x should not
 reveal x, all right?
+C dari x seharusnya tidak
+menampilkan x, ya kan?
 
 1358
 01:14:40,930 --> 01:14:41,430
-All right.
+Baiklah.
 
 1359
 01:14:41,430 --> 01:14:41,950
-That's good.
+Itu bagus.
 
 1360
 01:14:41,950 --> 01:14:44,320
-Do you have more?
+Apakah ada lagi?
 
 1361
 01:14:44,320 --> 01:14:46,765
-It has to be
-collision resistant.
+Itu harus
+tahan benturan.
 
 1362
 01:14:53,180 --> 01:14:55,560
@@ -6397,49 +6399,49 @@ OK.
 
 1363
 01:14:55,560 --> 01:14:57,852
-I guess.
+Saya rasa.
 
 1364
 01:14:57,852 --> 01:15:00,580
-A little bit more.
+Sedikit lagi.
 
 1365
 01:15:00,580 --> 01:15:02,560
-You're getting there.
+Anda akan kesana.
 
 1366
 01:15:02,560 --> 01:15:05,672
-What-- why is it
-collision resistant?
+Apa-- kenapa itu
+tahan benturan?
 
 1367
 01:15:05,672 --> 01:15:08,132
-AUDIENCE: Because you want
-to make sure that Alice,
+AUDIENS: Karena Anda ingin
+memastikan bahwa Alice,
 
 1368
 01:15:08,132 --> 01:15:12,560
-when she makes a bid that
-she commits that bid.
+ketika dia mebuat penawaran itu
+dia melakukan penawaran itu.
 
 1369
 01:15:12,560 --> 01:15:15,512
-If she's not going to resist
-it then she could bid $100
+Jika dia tidak akan melawan
+itu makan dia dapat menawar 100 dollar.
 
 1370
 01:15:15,512 --> 01:15:16,805
-and then find something else.
+dan kemudian mencari yang lain.
 
 1371
 01:15:16,805 --> 01:15:18,430
 SRINIVAS DEVADAS:
-That's exactly right.
+Itu sangat tepat.
 
 1372
 01:15:18,430 --> 01:15:26,540
-So CR, because
-Alice should not be
+Jadi CR, karena
+Alice tidak seharusnya
 
 1373
 01:15:26,540 --> 01:15:37,760
