@@ -4388,141 +4388,141 @@ implemented this hack,
 
 921
 00:37:23,740 --> 00:37:24,720
-then it must be one
-of your neighbors.
+maka itu pasti salah satu
+dari tetangga-tetangga Anda.
 
 922
 00:37:24,720 --> 00:37:25,594
-You're going to look.
+Anda akan melihat.
 
 923
 00:37:25,594 --> 00:37:27,162
-TCP dumped these interfaces.
+TCP membuang antarmuka-antarmuka ini.
 
 924
 00:37:27,162 --> 00:37:29,210
-Why are you sending me
-these reset packets?
+Mengapa Anda mengirimkan saya
+paket-paket reset ini?
 
 925
 00:37:29,210 --> 00:37:31,120
-This problem is not as big.
+Masalah ini tidak sebesar.
 
 926
 00:37:31,120 --> 00:37:34,736
-You can manage it by
-some Auto Pan mechanism.
+Anda dapat mengelolanya dengan
+beberapa mekanisme Auto Pan.
 
 927
 00:37:34,736 --> 00:37:36,005
-Make sense?
+Masuk akal?
 
 928
 00:37:36,005 --> 00:37:38,450
-All right, there are
-other fixes for BGP
+Baiklah, ada
+beberapa perbaikan untuk BGP
 
 929
 00:37:38,450 --> 00:37:41,550
-where they implemented some
-form of header authentication,
+di mana mereka mengimplementasi beberapa 
+bentuk header otentikasi,
 
 930
 00:37:41,550 --> 00:37:43,480
-MD5 header
-authentication as well.
+header otentikasi MD5 
+MD5 juga.
 
 931
 00:37:43,480 --> 00:37:46,220
-But they're really targeting
-this particular application
+Tapi mereka benar-benar menargetkan
+aplikasi khusus ini
 
 932
 00:37:46,220 --> 00:37:48,340
-where this reset attack
-is particularly bad.
+di mana serangan reset ini
+sangat buruk.
 
 933
 00:37:48,340 --> 00:37:49,975
-This is still a problem today.
+Ini masih menjadi masalah sekarang.
 
 934
 00:37:49,975 --> 00:37:51,975
-If there's some
-long-lived connection
+Jika terdapat beberapa
+koneksi yang berumur panjang
 
 935
 00:37:51,975 --> 00:37:53,766
-out there that I really
-want to shoot down,
+di luar sana yang saya sangat
+ingin tembak mati,
 
 936
 00:37:53,766 --> 00:37:58,480
-I just have to send some
-large number of RST packets,
+Saya hanya perlu mengirimkan
+paket RST dalam jumlah besar,
 
 937
 00:37:58,480 --> 00:38:00,730
-probably on the order
-of hundreds of thousands
+mungkin sebesar
+ratusan ribu
 
 938
 00:38:00,730 --> 00:38:04,770
-or so, but probably
-not exactly 4 billion.
+atau lebih, tapi mungkin
+tidak benar-benar 4 miliar.
 
 939
 00:38:04,770 --> 00:38:07,930
-Because the servers
-are actually somewhat
+Karena servernya
+sebenarnya agak
 
 940
 00:38:07,930 --> 00:38:10,520
-lax in terms of which sequence
-number they accept for a reset.
+longgar dalam hal nomor
+urut yang mereka terima untuk pengaturan ulang.
 
 941
 00:38:10,520 --> 00:38:13,360
-It can be any packet
-within a certain window.
+Itu bisa saja paket apa pun
+dalam jendela apa pun.
 
 942
 00:38:13,360 --> 00:38:16,730
-And in that case, I could
-probably, or any attacker,
+Dan dalam kasus ini, saya mungkin
+dapat, atau penyerang mana pun,
 
 943
 00:38:16,730 --> 00:38:19,500
-reset an existing
-connection with a modest
+mengatur ulang sebuah
+koneksi yang ada dengan sederhana
 
 944
 00:38:19,500 --> 00:38:21,262
-but not a huge amount of effort.
+tanpa banyak usaha.
 
 945
 00:38:21,262 --> 00:38:22,738
-That's still a problem.
+Itu masih menjadi masalah.
 
 946
 00:38:22,738 --> 00:38:25,460
-And people haven't really found
-any great solution for that.
+Dan orang-orang belum benar-benar menemukan
+solusi yang baik untuk itu.
 
 947
 00:38:28,640 --> 00:38:31,576
-All right, and I guess the
-sort of last bad thing that
+Baiklah, dan Saya kira
+semacam hal buruk terakhir yang
 
 948
 00:38:31,576 --> 00:38:33,700
-happens because these
-sequence numbers are somewhat
+terjadi karena nomor urut
+ini agak
 
 949
 00:38:33,700 --> 00:38:36,331
-predictable is
-just data injection
+mudah ditebak adalah
+injeksi data
 
 950
 00:38:36,331 --> 00:38:39,280
