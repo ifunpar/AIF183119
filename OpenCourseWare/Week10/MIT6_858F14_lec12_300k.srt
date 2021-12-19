@@ -4257,134 +4257,133 @@ nilai TTL yang bukan 255.
 
 894
 00:36:27,220 --> 00:36:29,660
-Because if a packet
-has a value of 255,
+Karena jika sebuah paket 
+memiliki nilai 255,
 
 895
 00:36:29,660 --> 00:36:31,430
-it must have come
-from the router
+itu pasti datang
+dari router
 
 896
 00:36:31,430 --> 00:36:33,530
-just on the other
-side of this link.
+yang berada di sisi
+lain dari tautan ini.
 
 897
 00:36:33,530 --> 00:36:35,630
-And if the an adversary
-tries to inject any packet
+Dan jika musuh mencoba
+menyuntikkan paket apapun
 
 898
 00:36:35,630 --> 00:36:37,900
-to tamper with this
-existing BGP connection,
+untuk merusak koneksi
+BGP yang sudah ada,
 
 899
 00:36:37,900 --> 00:36:39,852
-it'll have a TTL
-value less than 255,
+itu akan memiliki
+nilai TTL lebih kecil dari 255,
 
 900
 00:36:39,852 --> 00:36:41,935
-because it'll be decremented
-by some other routers
+karena itu akan dikurangi
+oleh router lainnya
 
 901
 00:36:41,935 --> 00:36:44,520
-along the path,
-including this one.
+sepanjang jalan,
+termasuk yang satu ini.
 
 902
 00:36:44,520 --> 00:36:47,766
-And then it'll just get
-rejected by the recipient.
+Dan setelah itu akan
+ditolak oleh penerimanya.
 
 903
 00:36:47,766 --> 00:36:50,762
-So this is one example
-of a clever combination
+Jadi ini adalah satu contoh
+sebuah kombinasi pintar
 
 904
 00:36:50,762 --> 00:36:52,470
-of techniques that's
+dari sebuah teknik yang
 backwards compatible
 
 905
 00:36:52,470 --> 00:36:54,658
-and solves this very
-specific problem.
+dan memecahkan masalah
+yang sangat spesifik ini.
 
 906
 00:36:54,658 --> 00:36:55,158
-Yeah.
+Ya.
 
 907
 00:36:55,158 --> 00:36:56,866
-AUDIENCE: Doesn't the
-bottom right router
+AUDIENS: Bukankah router
+kanan bawah
 
 908
 00:36:56,866 --> 00:36:58,616
-also send something
-with a TTL of 255?
+juga mengirimkan sesuatu
+dengan TTL 255
 
 909
 00:36:58,616 --> 00:37:00,670
-PROFESSOR: Yeah, so these
-routers are actually--
+PROFESOR: Ya, sebenarnya router
+ini adalah--
 
 910
 00:37:00,670 --> 00:37:01,830
-this is a physical router.
+sebuah router fisik.
 
 911
 00:37:01,830 --> 00:37:03,780
-And it knows these
-are separate links.
+Dan dia mengetahui
+bahwa ini adalah link yang berbeda.
 
 912
 00:37:03,780 --> 00:37:07,130
-So it looks at the TTL
-and which link it came on.
+Jadi dia melihat pada TTL
+dan tautan mana yang digunakan.
 
 913
 00:37:07,130 --> 00:37:09,150
-So if a packet came
-in on this link,
+Jadi jika sebuah paket
+datang pada tautan ini,
 
 914
 00:37:09,150 --> 00:37:12,840
-it will not accept it
-for this TCP connection.
+dia tidak akan menerimanya
+untuk koneksi TCP ini.
 
 915
 00:37:12,840 --> 00:37:13,896
-But you're right.
+Tapi Anda benar.
 
 916
 00:37:13,896 --> 00:37:17,630
-For the most part,
-these routers trust
+Untuk sebagian besar,
+router ini mempercayai
 
 917
 00:37:17,630 --> 00:37:19,450
-their immediate neighbors.
+tetangga dekat mereka.
 
 918
 00:37:19,450 --> 00:37:20,950
-It need not necessarily
-be the case.
+Belum tentu demikian.
 
 919
 00:37:20,950 --> 00:37:22,016
-But if you keep
-seeing this problem,
+Tapi jika Anda seringkali
+menemukan masalah ini,
 
 920
 00:37:22,016 --> 00:37:23,740
-and you know you've
-implemented this hack,
+dan Anda tahu bahwa Anda
+sudah mengimplementasikan cara ini,
 
 921
 00:37:23,740 --> 00:37:24,720
