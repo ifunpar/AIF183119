@@ -6198,7 +6198,6 @@ dan apa artinya ini, kan?
 Jadi sekali lagi saya akan melakukan
 sedikit pengaturan.
 
-
 1321
 01:12:43,245 --> 01:12:45,370
 Dan kemudian kita harus mulai
@@ -6220,112 +6219,112 @@ melakukan penawaran terhadap lelang ini.
 
 1325
 01:12:54,680 --> 01:12:56,999
-I don't-- I want
-to be the first--
+Saya tidak-- Saya ingin
+menjadi yang pertama--
 
 1326
 01:12:56,999 --> 01:12:58,540
-I don't want to
-spend a lot of money.
+Saya tidak ingin
+menghabiskan banyak uang.
 
 1327
 01:12:58,540 --> 01:12:59,560
-But I want to win.
+Tapi Saya ingin menang.
 
 1328
 01:12:59,560 --> 01:13:01,640
-All of us are like that, right?
+Kita semua seperti itu, benar?
 
 1329
 01:13:01,640 --> 01:13:04,350
-If I know information
-about your bid,
+Jika saya mengetahui informasi
+tentang tawaran Anda,
 
 1330
 01:13:04,350 --> 01:13:06,490
-that is obviously a
-tremendous advantage.
+itu jelas merupakan sebuah
+keuntungan yang luar biasa.
 
 1331
 01:13:06,490 --> 01:13:09,110
-So clearly that
-can't happen, right?
+Jadi jelas itu
+tidak mungkin terjadi, kan?
 
 1332
 01:13:09,110 --> 01:13:13,000
-If I know one other person's
-bid I just do plus 1 on that.
+Jika Saya tahu tawaran orang lain
+Saya hanya melakukan plus 1 untuk itu.
 
 1333
 01:13:13,000 --> 01:13:16,090
-If I know everybody else's I
-just do plus 1 on the maximum.
+Jika saya tahu milik orang lain Saya
+hanya perlu melakukan plus 1 di maksimal.
 
 1334
 01:13:16,090 --> 01:13:19,420
-So clearly there's some secrecy
-that's required here, correct?
+Jadi jelas ada beberapa kerahasiaan
+yang diperlukan di sini, benar?
 
 1335
 01:13:19,420 --> 01:13:23,000
-So C of x is going to
-have to do two things.
+Jadi C dari x harus
+melakukan dua hal.
 
 1336
 01:13:23,000 --> 01:13:26,160
-It can't reveal x.
+Itu tidak bisa mengungkapkan x.
 
 1337
 01:13:26,160 --> 01:13:28,760
-Because then even maybe
-the auctioneer is bad.
+Karena bahkan mungkin saja
+itu merupakan auctioneer yang buruk.
 
 1338
 01:13:28,760 --> 01:13:31,570
-Or other people are
-looking at this.
+Atau orang lain
+yang sedang melihat ini.
 
 1339
 01:13:31,570 --> 01:13:34,760
-And you can just assume that C
-of x is-- the C of x's are all
+Dan Anda bisa berasumsi bahwa C
+dari x adalah-- C dari x semuanya merupakan
 
 1340
 01:13:34,760 --> 01:13:36,000
-public.
+publik.
 
 1341
 01:13:36,000 --> 01:13:39,840
-But I also need a
-constraint that's
+Tapi saya juga membutuhkan sebuah
+constraint tersebut
 
 1342
 01:13:39,840 --> 01:13:43,530
-associated with C of x
-that corresponds to making
+diasosiasikan dengan C dari x
+yang sesuai dengan memastikan
 
 1343
 01:13:43,530 --> 01:13:46,540
-sure Alice is honest, correct?
+bahwa Alice jujur, benar?
 
 1344
 01:13:46,540 --> 01:13:50,940
-So I need to make Alice
-commit to something, right?
+Jadi Saya harus membuat Alice
+melakukan commit sesuatu, benar
 
 1345
 01:13:50,940 --> 01:13:56,000
-So what are the different
-properties of the hash function
+Jadi apa perbedaan
+properti dari fungsi hash
 
 1346
 01:13:56,000 --> 01:14:03,350
-that if I use h of
-x here, that I'd
+yang jika Saya gunakan h
+dari x di sini, saya ingin
 
 1347
 01:14:03,350 --> 01:14:08,090
-want h to satisfy in order
+h dipenuhi secara berurutan
 untuk seluruh proses ini
 
 1348
@@ -6372,8 +6371,6 @@ SRINIVAS DEVADAS: Tepat.
 
 1357
 01:14:31,200 --> 01:14:40,930
-C of x should not
-reveal x, all right?
 C dari x seharusnya tidak
 menampilkan x, ya kan?
 
