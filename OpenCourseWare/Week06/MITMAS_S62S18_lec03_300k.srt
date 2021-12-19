@@ -5038,7 +5038,7 @@ Oke, ini kotak peralatan saya.
 
 1094
 00:47:41,105 --> 00:47:41,980
-Ini yang dapat Saya lakukan.
+Ini yang dapat saya lakukan.
 
 1095
 00:47:44,950 --> 00:47:45,450
@@ -5164,7 +5164,7 @@ cukup mudah.
 
 1121
 00:48:56,850 --> 00:48:58,302
-Begitu anda melihatnnya.
+Begitu Anda melihatnya.
 Anda akan, oh.
 
 1122
@@ -5459,7 +5459,7 @@ Mungkin.
 
 1186
 00:51:26,720 --> 00:51:29,750
-Tapi Saya tidak berpikir
+Tapi saya tidak berpikir
 ini akan menjadi lebih kecil.
 
 1187
