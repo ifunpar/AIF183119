@@ -6186,36 +6186,37 @@ apa yang terjadi dengan kertas,
 
 1318
 01:12:34,660 --> 01:12:38,620
-and then we have to think
-about this computationally
+dan kita harus memikirkan 
+ini secara komputasional
 
 1319
 01:12:38,620 --> 01:12:41,120
-and what this implies, right?
+dan apa artinya ini, kan?
 
 1320
 01:12:41,120 --> 01:12:43,245
-So again I'll do a
-little bit of set up.
+Jadi sekali lagi saya akan melakukan
+sedikit pengaturan.
+
 
 1321
 01:12:43,245 --> 01:12:45,370
-And then we have start
-talking about the properties
+Dan kemudian kita harus mulai
+berbicara tentang properti-properti
 
 1322
 01:12:45,370 --> 01:12:48,997
-that we want for this
-particular application.
+yang kita inginkan khususnya
+untuk aplikasi ini.
 
 1323
 01:12:48,997 --> 01:12:50,580
-So there are a bunch
-of people who are
+Jadi ada kumpulan
+orang yang
 
 1324
 01:12:50,580 --> 01:12:54,680
-doing bidding for this auction.
+melakukan penawaran terhadap lelang ini.
 
 1325
 01:12:54,680 --> 01:12:56,999
