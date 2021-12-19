@@ -4524,7 +4524,7 @@ dan dekripsi.
 
 962
 00:53:08,770 --> 00:53:13,140
-Dan jadi sekarang mari kita
+Jadi sekarang mari kita
 kembali ke sini.
 
 963
@@ -4546,18 +4546,18 @@ Jadi itu diberikan kepada saya.
 
 967
 00:53:21,440 --> 00:53:26,100
-Itulah bagian yang disebut
+Itulah bagian yang disebut sebagai
 fase pembuatan kunci RSA.
 
 968
 00:53:26,100 --> 00:53:29,140
 Dan itulah
-hubungan matematis
+relasi matematis
 
 969
 00:53:29,140 --> 00:53:31,830
-yang terus saya bicarakan dalam
-hal hubungan
+yang terus saya bicarakan
+dalam hal relasi
 
 970
 00:53:31,830 --> 00:53:34,320
@@ -4576,13 +4576,13 @@ gcd dari m, p
 
 973
 00:53:50,050 --> 00:53:54,620
-tepat 1, yang
-berarti pesan m.
+tepat bernilai 1, yang
+berarti itu pesan m.
 
 974
 00:53:54,620 --> 00:53:56,860
 Jadi yang saya bandingkan
-di sini, kedua kasus,
+di sini, pada kedua kasus,
 
 975
 00:53:56,860 --> 00:53:58,220
@@ -4591,7 +4591,7 @@ adalah saya memiliki pesannya.
 976
 00:53:58,220 --> 00:53:59,920
 Dan saya akan
-membagi pesannya
+memecah pesannya
 
 977
 00:53:59,920 --> 00:54:02,010
@@ -4604,7 +4604,7 @@ Hanya itu.
 979
 00:54:03,057 --> 00:54:05,140
 Ada semua jenis
-pesan yang mungkin.
+pesan yang memungkinkan.
 
 980
 00:54:05,140 --> 00:54:06,670
@@ -4612,7 +4612,7 @@ Ini adalah bilangan arbitrer.
 
 981
 00:54:06,670 --> 00:54:10,410
-Saya akan membaginya menjadi
+Saya akan memecahnya menjadi
 dua kategori, di mana
 
 982
@@ -4635,7 +4635,7 @@ untuk memikirkannya.
 
 986
 00:54:19,460 --> 00:54:24,100
-Jelas, gcdmp akan 
+Jelas, gcdmp akan
 menjadi 2 jika M adalah 2p.
 
 987
@@ -4645,8 +4645,6 @@ adalah gcd dari mp sama dengan 1.
 
 988
 00:54:28,850 --> 00:54:32,330
-And then the another case is
-going to be trivial, actually,
 Dan selanjutnya kasus yang lain akan 
 menjadi sepele, sebenarnya, 
 
@@ -4685,11 +4683,11 @@ Baik.
 
 997
 00:54:49,710 --> 00:54:53,551
-Jadi faktor persekutuan terbesar dari 2p dan p adalah p.
+Jadi gcd dari 2p dan p adalah p.
 
 998
 00:54:53,551 --> 00:54:54,675
-Jadi mereka adalah dua kasus.
+Jadi mereka adalah dua kasusnya.
 
 999
 00:54:57,290 --> 00:54:59,060
@@ -4724,17 +4722,17 @@ Dan kita tahu apa itu.
 
 1006
 00:55:15,270 --> 00:55:17,500
-Saya baru saja menulis itu di sana.
+Saya baru saja menulisnya di sana.
 
 1007
 00:55:17,500 --> 00:55:21,810
 Anda sekarang dapat menulis sesuatu
-yang mengatakan apa yang akan saya lakukan
+tentang apa yang akan saya lakukan
 
 1008
 00:55:21,810 --> 00:55:30,530
 adalah saya hanya akan mengambil
-m dinaikkan ke p dikurangi 1,
+m dipangkatkan p dikurangi 1,
 
 1009
 00:55:30,530 --> 00:55:32,030
@@ -4742,37 +4740,37 @@ yaitu 1.
 
 1010
 00:55:32,030 --> 00:55:33,600
-Jadi ini adalah 1.
+Jadi hal ini adalah 1.
 
 1011
 00:55:33,600 --> 00:55:37,254
-Dan kemudian saya akan menaikkannya
-menjadi k kali q dikurangi 1.
+Dan kemudian saya akan memangkatkannya
+dengan k kali q dikurang 1.
 
 1012
 00:55:37,254 --> 00:55:39,170
 Dan Anda akan melihat mengapa saya
-melakukan ini dalam hitungan detik.
+melakukannya dengan singkat.
 
 1013
 00:55:39,170 --> 00:55:42,270
-Karena saya ingin mendapatkan
-1 ditambah faktor k phi disini.
+Karena di sini saya ingin mendapatkan
+faktor dari 1 ditambah k phi.
 
 1014
 00:55:42,270 --> 00:55:44,730
 Jadi saya mengambil 1
-dan saya menaikkannya
+dan memangkatkannya
 
 1015
 00:55:44,730 --> 00:55:47,570
-ke kekuatan ini, yang jelas
-akan memberi saya kembali 1.
+dengan pangkat ini, yang jelas
+akan memberi saya 1 kembali.
 
 1016
 00:55:47,570 --> 00:55:51,100
 Jadi semua itu
-langsung.
+mudah.
 
 1017
 00:55:51,100 --> 00:55:53,460
@@ -4786,7 +4784,7 @@ Baik.
 1019
 00:55:54,550 --> 00:56:02,310
 Dan ini jelas
-sama dengan m mod p.
+sama dengan m modulo p.
 
 1020
 00:56:02,310 --> 00:56:06,320
@@ -4803,12 +4801,12 @@ Jadi mengapa saya melakukan ini?
 
 1023
 00:56:08,310 --> 00:56:12,500
-Baik, saya melakukan ini, karena saya
-ingin mengelompokkan keduanya
+Yah, saya melakukan ini, karena saya
+ingin mengelompokkan kedua
 
 1024
 00:56:12,500 --> 00:56:13,570
-exponensial.
+pangkat ini.
 
 1025
 00:56:13,570 --> 00:56:16,990
@@ -4831,8 +4829,8 @@ ditambah k p dikurang 1 q dikurang 1.
 
 1029
 00:56:30,376 --> 00:56:36,450
-Dan itu, tentu saja,
-m dipangkatkan ed, bukan?
+Dan itu, tentu saja, merupakan
+m dipangkatkan ed, kan?
 
 1030
 00:56:36,450 --> 00:56:42,050
@@ -4841,7 +4839,7 @@ karena 1 dikali m jelas hasilnya m,
 
 1031
 00:56:42,050 --> 00:56:45,910
-tapi jika saya melihat ini,
+tapi jika saya lihat,
 ini adalah m dipangkatkan ed.
 
 1032
@@ -4883,17 +4881,17 @@ dipangkatkan sesuatu.
 
 1040
 00:57:12,770 --> 00:57:16,360
-Dan sehingga bagian yang
-lebih mudah adalah
+Sehingga bagian yang
+lebih mudahnya adalah
 
 1041
 00:57:16,360 --> 00:57:20,560
-kasus yang mana m sebenarnya
+kasus di mana m sebenarnya
 adalah kelipatan dari p.
 
 1042
 00:57:20,560 --> 00:57:26,000
-Sehingga Anda memiliki fpb
+Sehingga Anda memiliki gcd
 m, koma p sama dengan p.
 
 1043
@@ -4932,11 +4930,11 @@ di sisi itu, Anda mendapatkan 0.
 1050
 00:57:48,010 --> 00:57:54,800
 Tetapi satu baris terakhir di sini
-adalah bahwa m dipangkatkan ed
+sederhananya adalah m dipangkatkan ed
 
 1051
 00:57:54,800 --> 00:58:04,090
-adalah m secara sepele semua hal ini
+adalah m secara sepele semuanya ini
 modulo p jika m adalah 0, kan?
 
 1052
@@ -4959,8 +4957,8 @@ hasilnya dalam beberapa langkah.
 
 1056
 00:58:12,170 --> 00:58:15,240
-Dalam kasus lain, Anda punya
-pesan yang 0 mod p.
+Pada kasus lain, Anda memiliki
+pesan yang merupakan 0 modulo p.
 
 1057
 00:58:15,240 --> 00:58:16,370
@@ -4977,7 +4975,7 @@ Dan apa yang terjadi di sini?
 1060
 00:58:20,890 --> 00:58:23,740
 Saya mengatakan bahwa m pangkat
-ke ed sama dengan m.
+ed sama dengan m.
 
 1061
 00:58:23,740 --> 00:58:27,500
@@ -5004,22 +5002,21 @@ Dan saya katakan p dan q adalah bilangan prima.
 
 1066
 00:58:39,340 --> 00:58:42,770
-Dan saya melihat p pertama.
+Dan pertama saya melihat p.
 
 1067
 00:58:42,770 --> 00:58:45,690
-Tapi yang harus saya lakukan,
-hanya untuk menyelesaikan ini,
+Tapi apa yang harus saya lakukan,
+untuk menyelesaikan ini,
 
 1068
 00:58:45,690 --> 00:58:47,880
 biarkan saya melakukan ini 
-disini, apakah Saya harus
+di sini, adalah saya harus
 
 1069
 00:58:47,880 --> 00:58:50,541
-melakukan argumen 
-yang sama untuk q.
+melakukan argumen yang sama untuk q.
 
 1070
 00:58:50,541 --> 00:58:56,160
@@ -5028,9 +5025,8 @@ menggabungkannya untuk n.
 
 1071
 00:58:56,160 --> 00:59:00,530
-Dan alasan untuk itu cukup mudah 
-karena Saya memiliki n disini.
-
+Dan alasannya adalah sederhananya 
+karena saya memiliki n disini.
 
 1072
 00:59:00,530 --> 00:59:03,050
@@ -5043,21 +5039,21 @@ dekripsi itu
 
 1074
 00:59:06,460 --> 00:59:09,580
-akan selesai jika di mod o.
+akan dilakukan dimodulo o.
 
 1075
 00:59:09,580 --> 00:59:13,210
 Tentu saja, enkripsi harus 
-dilakukan mod n, karena n
+dilakukan modulo n, karena n
 
 1076
 00:59:13,210 --> 00:59:15,760
-hanya nomor kunci publik
-yang anda miliki
+hanyalah nomor kunci publik
+yang Anda miliki
 
 1077
 00:59:15,760 --> 00:59:17,670
-yang bisa di mod, benar?
+yang bisa dimodulo, benar?
 
 1078
 00:59:17,670 --> 00:59:21,440
@@ -5094,7 +5090,7 @@ matematis akan bekerja.
 
 1085
 00:59:41,446 --> 00:59:42,570
-Biarkan Saya hanya menulis itu.
+Biarkan saya menulis itu.
 
 1086
 00:59:42,570 --> 00:59:45,740
