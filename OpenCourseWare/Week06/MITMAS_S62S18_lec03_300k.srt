@@ -5252,48 +5252,48 @@ Jadi itu 64 bit--
 
 1140
 00:49:41,250 --> 00:49:42,150
-pretty small.
+cukup kecil.
 
 1141
 00:49:42,150 --> 00:49:45,420
-Anyone have another
-quick optimization
+Adakah yang memiliki
+optimasi cepat lainnya
 
 1142
 00:49:45,420 --> 00:49:47,520
-on how you could reduce this?
+tentang bagaimana Anda dapat mengurangi ini?
 
 1143
 00:49:47,520 --> 00:49:50,430
-So there's a lot of
-optimization going on
+Jadi ada banyak
+optimasi yang terjadi
 
 1144
 00:49:50,430 --> 00:49:52,410
-in all these different
-cryptocurrency systems.
+di semua sistem
+kripto yang berbeda.
 
 1145
 00:49:52,410 --> 00:49:53,827
-Because they don't
-scale too well.
+Karena mereka tidak
+terukur dengan baik.
 
 1146
 00:49:53,827 --> 00:49:58,592
-But any idea of how
-to get that down?
+Tapi apakah ada ide
+untuk menurunkannya?
 
 1147
 00:49:58,592 --> 00:50:00,232
-AUDIENCE: Can you hash it?
+AUDIENS: Bisakah Anda melakukan hash?
 
 1148
 00:50:00,232 --> 00:50:01,190
-TADGE DRYJA: You could.
+TADGE DRYJA: Anda bisa.
 
 1149
 00:50:01,190 --> 00:50:02,065
-So you could hash it.
+Jadi Anda dapat melakukan hash.
 
 1150
 00:50:02,065 --> 00:50:05,460
