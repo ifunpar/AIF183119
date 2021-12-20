@@ -3885,905 +3885,905 @@ mengkomunikasikan beberapa protokol jaringan.
 
 817
 00:33:18,000 --> 00:33:19,671
-And that network
-protocol runs over TCP.
+Dan protokol jaringan tersebut
+berjalan di atas TCP.
 
 818
 00:33:19,671 --> 00:33:21,170
-So there's actually
-some TCP session
+Jadi sebenarnya ada
+sesi TCP
 
 819
 00:33:21,170 --> 00:33:22,878
-running over each of
-these physical links
+berjalan di atas masing-masing
+tautan fisik ini
 
 820
 00:33:22,878 --> 00:33:26,672
-that the routers use to
-exchange routing information.
+yang digunakan oleh router untuk
+bertukar informasi pengaturan rute.
 
 821
 00:33:26,672 --> 00:33:28,630
-So this is certainly the
-case for this protocol
+Jadi ini pasti
+kasusnya bagi protokol
 
 822
 00:33:28,630 --> 00:33:32,250
-called BGP we'll talk about
-a bit more in a second.
+bernama BGP yang akan kita bicarakan
+lebih lanjut sebentar lagi.
 
 823
 00:33:32,250 --> 00:33:36,050
-And BGP uses the fact
-that the TCP connection
+Dan BGP menggunakan fakta
+bahwa koneksi TCP
 
 824
 00:33:36,050 --> 00:33:39,580
-is alive to also infer
-that the link is alive.
+hidup untuk juga menyiratkan
+bahwa tautannya hidup.
 
 825
 00:33:39,580 --> 00:33:41,750
-So if the TCP connection
-breaks, then the routers
+Jadi jika koneksi TCP
+terputus, maka router
 
 826
 00:33:41,750 --> 00:33:43,090
-assume the link broke.
+mengasumsikan tautannya terputus.
 
 827
 00:33:43,090 --> 00:33:46,350
-And they recompute all
-their routing tables.
+Dan mereka menghitung ulang semua
+tabel pengaturan rute mereka.
 
 828
 00:33:46,350 --> 00:33:47,875
-So if an adversary
-wants to mount
+Jadi jika seorang musuh
+ingin memasang
 
 829
 00:33:47,875 --> 00:33:49,819
-some sort of a denial
-of service attack here,
+semacam serangan denial
+of service di sini,
 
 830
 00:33:49,819 --> 00:33:51,319
-they could try to
-guess the sequence
+mereka dapat mencoba untuk
+menebak nomor
 
 831
 00:33:51,319 --> 00:33:54,520
-numbers of these routers
-and reset these sessions.
+urut dari router-router ini
+dan menyetel ulang session-session ini.
 
 832
 00:33:54,520 --> 00:33:57,876
-So if the TCP session between
-two routers goes down,
+Jadi jika sesi TCP antara
+dua router terputus,
 
 833
 00:33:57,876 --> 00:33:59,750
-both routers are like,
-oh, this link is dead.
+kedua router akan berpikir,
+oh, tautan ini mati.
 
 834
 00:33:59,750 --> 00:34:01,583
-We have to recompute
-all the routing tables,
+Kita harus menghitung ulang
+semua tabel pengaturan rute,
 
 835
 00:34:01,583 --> 00:34:02,510
-and the routes change.
+dan rutenya berubah.
 
 836
 00:34:02,510 --> 00:34:05,235
-And then you might shoot
-down another link, and so on.
+Dan kemudian Anda mungkin menembak mati
+tautan lainnya, dan seterusnya.
 
 837
 00:34:05,235 --> 00:34:07,300
-So this is a bit of
-a worrisome attack,
+Jadi ini serangan yang
+cukup mengkhawatirkan,
 
 838
 00:34:07,300 --> 00:34:12,489
-not because it violates
-someone's secrecy, et cetera,
+bukan karena melanggar
+privasi seseorang, dan lain-lain,
 
 839
 00:34:12,489 --> 00:34:15,510
-or at least not directly,
-but more because it really
+atau setidaknya tidak secara langsung,
+tetapi lebih karena ini benar-benar
 
 840
 00:34:15,510 --> 00:34:19,310
-causes a lot of
-availability problems
+menyebabkan banyak
+masalah ketersediaan
 
 841
 00:34:19,310 --> 00:34:21,079
-for other users in the system.
+bagi pengguna lain di sistem.
 
 842
 00:34:21,079 --> 00:34:21,734
-Yeah.
+Ya.
 
 843
 00:34:21,734 --> 00:34:23,960
-AUDIENCE: So if
-you're an attacker,
+AUDIENS: Jadi jika Anda
+adalah seorang penyerang,
 
 844
 00:34:23,960 --> 00:34:26,170
-and you wanted to target
-one particular user,
+dan Anda ingin menarget
+satu pengguna spesifik,
 
 845
 00:34:26,170 --> 00:34:29,740
-could you just keep
-sending connection requests
+bisakah Anda terus
+mengirimkan pemintaan koneksi
 
 846
 00:34:29,740 --> 00:34:32,594
-to a server on behalf
-of his IP and make
+ke server menggunakan
+IP-nya dan membuat
 
 847
 00:34:32,594 --> 00:34:33,969
-him keep dropping
-his connections
+dia terus menjatuhkan
+koneksinya
 
 848
 00:34:33,969 --> 00:34:38,679
-to the servers and so
-you just [INAUDIBLE]?
+ke server dan lalu
+Anda [TIDAK TERDENGAR]?
 
 849
 00:34:38,679 --> 00:34:41,540
-PROFESSOR: Well, so it
-requires you guessing.
+PROFESOR: Yah, jadi itu
+mengharuskan Anda menebak.
 
 850
 00:34:41,540 --> 00:34:43,460
-So you're saying,
-suppose I'm using Gmail,
+Jadi maksud Anda,
+misalkan saya menggunakan Gmail,
 
 851
 00:34:43,460 --> 00:34:45,835
-and you want to stop me from
-learning something in Gmail,
+dan Anda ingin mencegah saya dari
+mempelajari sesuatu di Gmail,
 
 852
 00:34:45,835 --> 00:34:48,292
-so just send packets
-to my machine
+jadi kirimkan saja paket
+ke mesin saya
 
 853
 00:34:48,292 --> 00:34:49,530
-pretending to be from Gmail.
+dengan berpura-pura dari Gmail.
 
 854
 00:34:49,530 --> 00:34:51,980
-Well, you have to guess the
-right source and destination
+Yah, Anda harus menebak
+nomor port sumber dan tujuan
 
 855
 00:34:51,980 --> 00:34:52,787
-port numbers.
+yang tepat.
 
 856
 00:34:52,787 --> 00:34:54,620
-The destination port
-number is probably 443,
+Nomor port tujuannya
+mungkin 443,
 
 857
 00:34:54,620 --> 00:34:55,912
-because I'm using HTTPS.
+karena saya menggunakan HTTPS.
 
 858
 00:34:55,912 --> 00:34:57,370
-But the source port
-number is going
+Tetapi nomor 
+port sumbernya adalah
 
 859
 00:34:57,370 --> 00:34:59,390
-to be some random 16-bit thing.
+serangkaian 16-bit yang acak.
 
 860
 00:34:59,390 --> 00:35:02,040
-And it's also going to be the
-case that probably the sequence
+Dan itu juga akan menjadi
+kasus di mana kemungkinan
 
 861
 00:35:02,040 --> 00:35:03,070
-numbers are going
-to be different.
+dari nomor urutnya akan
+menjadi berbeda.
 
 862
 00:35:03,070 --> 00:35:04,903
-So unless you guess a
-sequence number that's
+Jadi kecuali Anda menebak
+nomor urut yang ada
 
 863
 00:35:04,903 --> 00:35:09,650
-within my TCP window, which
-is in order of probably
+di dalam jendela TCP saya, yang
+urutannya mungkin
 
 864
 00:35:09,650 --> 00:35:11,400
-tens of kilobytes,
-you're also going
+puluhan kilobyte,
+Anda juga
 
 865
 00:35:11,400 --> 00:35:13,280
-to be not successful
-in that regard.
+tidak akan berhasil
+dalam hal itu.
 
 866
 00:35:13,280 --> 00:35:17,350
-So you have to guess a
-fair amount of stuff.
+Jadi Anda harus menebak hal
+dalam jumlah yang wajar.
 
 867
 00:35:17,350 --> 00:35:19,168
-There's no sort
-of oracle access.
+Tidak ada semacam
+akses serbatahu.
 
 868
 00:35:19,168 --> 00:35:21,293
-You can't just query the
-server and say, well, what
+Anda tidak bisa hanya menanyakan
+server dan berkata berapakah
 
 869
 00:35:21,293 --> 00:35:23,130
-is that guy's sequence number?
+nomor urut orang itu?
 
 870
 00:35:23,130 --> 00:35:27,890
-So that's the reason why that
-doesn't work out as well.
+Jadi itu adalah alasan mengapa
+hal itu juga tidak berhasil.
 
 871
 00:35:27,890 --> 00:35:30,040
-So again, many of
-these issues were
+Dan lagi, banyak dari
+masalah ini telah
 
 872
 00:35:30,040 --> 00:35:31,880
-fixed, including
-this RST-based thing,
+diperbaiki, termasuk
+hal berbasis RST ini,
 
 873
 00:35:31,880 --> 00:35:33,065
-especially for BGP routers.
+terutama bagi router BGP.
 
 874
 00:35:35,890 --> 00:35:38,460
-There was actually two
-sort of amusing fixes.
+Sebenarnya ada dua
+perbaikan yang mencengangkan.
 
 875
 00:35:38,460 --> 00:35:41,389
-One really shows you
-how you can carefully
+Pertama benar-benar menunjukkan Anda
+bagaimana Anda dapat dengan berhati-hati
 
 876
 00:35:41,389 --> 00:35:43,430
-exploit existing things
-or take advantage of them
+memanfaatkan hal-hal yang ada
+atau memanfaatkan mereka
 
 877
 00:35:43,430 --> 00:35:45,670
-to fix particular problems.
+untuk memperbaiki masalah tertentu.
 
 878
 00:35:45,670 --> 00:35:47,747
-Here, the insight is
-that these routers only
+Di sini, wawasannya adalah
+bahwa router-router ini hanya
 
 879
 00:35:47,747 --> 00:35:49,497
-want to talk to each
-other, not to someone
+ingin berbicara kepada
+sesama, tidak kepada orang lain
 
 880
 00:35:49,497 --> 00:35:50,980
-else over the network.
+melalui jaringan.
 
 881
 00:35:50,980 --> 00:35:52,990
-And as a result,
-if the packet is
+Dan jadi untuk hasilnya,
+jika paket tersebut
 
 882
 00:35:52,990 --> 00:35:55,817
-coming not from the immediate
-router next across the link,
+datang bukan dari
+router yang berada di sebelah tautan,
 
 883
 00:35:55,817 --> 00:35:58,442
-but from someone else, I want to
-drop this packet all together.
+tapi dari tempat lain, saya ingin
+membuang semua paket ini.
 
 884
 00:35:58,442 --> 00:36:01,730
-And what the designers of these
-writing protocols realized
+Dan apa yang perancang protokol
+penulisan ini sadari adalah
 
 885
 00:36:01,730 --> 00:36:04,370
-is that there's this wonderful
-field in a packet called time
+ada sebuah bidang yang hebat
+di dalam sebuah paket yang disebut waktu
 
 886
 00:36:04,370 --> 00:36:05,390
-to live.
+hidup.
 
 887
 00:36:05,390 --> 00:36:08,665
-It's an 8-bit field that gets
-decremented by every router
+Itu adalah sebuah bidang 8-bit yang
+dikurangi oleh setiap router
 
 888
 00:36:08,665 --> 00:36:11,840
-to make sure that packets
-don't go into an infinite loop.
+untuk memastikan paket tersebut
+tidak masuk kedalam pengulangan tidak terbatas.
 
 889
 00:36:11,840 --> 00:36:15,180
-So the highest this TTL
-value could ever be is 255.
+Jadi nilai maksimum yang
+dapat dicapai oleh TTL ini adalah 255.
 
 890
 00:36:15,180 --> 00:36:17,630
-And then it'll get
-decremented from there.
+Dan akan dikurangi
+dari situ.
 
 891
 00:36:17,630 --> 00:36:19,165
-So what these writing
-protocols do--
+Jadi apa yang dilakukan
+protokol penulisan ini--
 
 892
 00:36:19,165 --> 00:36:23,000
-it's sort of a
-clever hack-- is they
+itu semacam sebuah
+peretasan yang cerdas-- yaitu mereka
 
 893
 00:36:23,000 --> 00:36:27,220
-reject any packet with a
-TTL value that's not 255.
+menolak paket apapun yang memiliki
+nilai TTL yang bukan 255.
 
 894
 00:36:27,220 --> 00:36:29,660
-Because if a packet
-has a value of 255,
+Karena jika sebuah paket
+memiliki nilai 255,
 
 895
 00:36:29,660 --> 00:36:31,430
-it must have come
-from the router
+itu pasti datang
+dari router
 
 896
 00:36:31,430 --> 00:36:33,530
-just on the other
-side of this link.
+yang berada di sisi
+lain dari tautan ini.
 
 897
 00:36:33,530 --> 00:36:35,630
-And if the an adversary
-tries to inject any packet
+Dan jika penyerang mencoba
+menyuntikkan paket apapun
 
 898
 00:36:35,630 --> 00:36:37,900
-to tamper with this
-existing BGP connection,
+untuk merusak koneksi
+BGP yang sudah ada,
 
 899
 00:36:37,900 --> 00:36:39,852
-it'll have a TTL
-value less than 255,
+itu akan memiliki
+nilai TTL lebih kecil dari 255,
 
 900
 00:36:39,852 --> 00:36:41,935
-because it'll be decremented
-by some other routers
+karena itu akan dikurangi
+oleh router lainnya
 
 901
 00:36:41,935 --> 00:36:44,520
-along the path,
-including this one.
+sepanjang jalan,
+termasuk yang satu ini.
 
 902
 00:36:44,520 --> 00:36:47,766
-And then it'll just get
-rejected by the recipient.
+Dan setelah itu akan
+ditolak oleh penerimanya.
 
 903
 00:36:47,766 --> 00:36:50,762
-So this is one example
-of a clever combination
+Jadi ini adalah satu contoh
+sebuah kombinasi pintar
 
 904
 00:36:50,762 --> 00:36:52,470
-of techniques that's
-backwards compatible
+dari sebuah teknik yang
+kompatibel ke belakang
 
 905
 00:36:52,470 --> 00:36:54,658
-and solves this very
-specific problem.
+dan memecahkan masalah
+yang sangat spesifik ini.
 
 906
 00:36:54,658 --> 00:36:55,158
-Yeah.
+Ya.
 
 907
 00:36:55,158 --> 00:36:56,866
-AUDIENCE: Doesn't the
-bottom right router
+AUDIENS: Bukankah router
+kanan bawah
 
 908
 00:36:56,866 --> 00:36:58,616
-also send something
-with a TTL of 255?
+juga mengirimkan sesuatu
+dengan TTL 255
 
 909
 00:36:58,616 --> 00:37:00,670
-PROFESSOR: Yeah, so these
-routers are actually--
+PROFESOR: Ya, sebenarnya router
+ini adalah--
 
 910
 00:37:00,670 --> 00:37:01,830
-this is a physical router.
+sebuah router fisik.
 
 911
 00:37:01,830 --> 00:37:03,780
-And it knows these
-are separate links.
+Dan dia mengetahui
+bahwa ini adalah tautan yang berbeda.
 
 912
 00:37:03,780 --> 00:37:07,130
-So it looks at the TTL
-and which link it came on.
+Jadi dia melihat pada TTL
+dan tautan mana yang digunakan.
 
 913
 00:37:07,130 --> 00:37:09,150
-So if a packet came
-in on this link,
+Jadi jika sebuah paket
+datang pada tautan ini,
 
 914
 00:37:09,150 --> 00:37:12,840
-it will not accept it
-for this TCP connection.
+dia tidak akan menerimanya
+untuk koneksi TCP ini.
 
 915
 00:37:12,840 --> 00:37:13,896
-But you're right.
+Tapi Anda benar.
 
 916
 00:37:13,896 --> 00:37:17,630
-For the most part,
-these routers trust
+Untuk sebagian besar kasus,
+router ini mempercayai
 
 917
 00:37:17,630 --> 00:37:19,450
-their immediate neighbors.
+tetangga langsung mereka.
 
 918
 00:37:19,450 --> 00:37:20,950
-It need not necessarily
-be the case.
+Namun tidak harus
+selalu begitu.
 
 919
 00:37:20,950 --> 00:37:22,016
-But if you keep
-seeing this problem,
+Tapi jika Anda seringkali
+menemukan masalah ini,
 
 920
 00:37:22,016 --> 00:37:23,740
-and you know you've
-implemented this hack,
+dan Anda tahu bahwa Anda
+sudah mengimplementasikan cara ini,
 
 921
 00:37:23,740 --> 00:37:24,720
-then it must be one
-of your neighbors.
+maka itu pasti salah satu
+dari tetangga-tetangga Anda.
 
 922
 00:37:24,720 --> 00:37:25,594
-You're going to look.
+Anda akan melihat.
 
 923
 00:37:25,594 --> 00:37:27,162
-TCP dumped these interfaces.
+TCP membuang antarmuka-antarmuka ini.
 
 924
 00:37:27,162 --> 00:37:29,210
-Why are you sending me
-these reset packets?
+Mengapa Anda mengirimkan saya
+paket-paket reset ini?
 
 925
 00:37:29,210 --> 00:37:31,120
-This problem is not as big.
+Masalah ini tidak terlalu besar.
 
 926
 00:37:31,120 --> 00:37:34,736
-You can manage it by
-some Auto Pan mechanism.
+Anda dapat mengelolanya dengan
+beberapa mekanisme Auto Pan.
 
 927
 00:37:34,736 --> 00:37:36,005
-Make sense?
+Masuk akal?
 
 928
 00:37:36,005 --> 00:37:38,450
-All right, there are
-other fixes for BGP
+Baiklah, ada
+beberapa perbaikan untuk BGP
 
 929
 00:37:38,450 --> 00:37:41,550
-where they implemented some
-form of header authentication,
+di mana mereka mengimplementasi beberapa 
+bentuk header autentikasi,
 
 930
 00:37:41,550 --> 00:37:43,480
-MD5 header
-authentication as well.
+header autentikasi MD5
+MD5 juga.
 
 931
 00:37:43,480 --> 00:37:46,220
-But they're really targeting
-this particular application
+Tapi mereka benar-benar menargetkan
+aplikasi khusus ini
 
 932
 00:37:46,220 --> 00:37:48,340
-where this reset attack
-is particularly bad.
+di mana serangan reset ini
+sangat buruk.
 
 933
 00:37:48,340 --> 00:37:49,975
-This is still a problem today.
+Ini masih menjadi masalah sekarang.
 
 934
 00:37:49,975 --> 00:37:51,975
-If there's some
-long-lived connection
+Jika terdapat beberapa
+koneksi yang berumur panjang
 
 935
 00:37:51,975 --> 00:37:53,766
-out there that I really
-want to shoot down,
+di luar sana yang saya sangat
+ingin tembak mati,
 
 936
 00:37:53,766 --> 00:37:58,480
-I just have to send some
-large number of RST packets,
+Saya hanya perlu mengirimkan
+paket RST dalam jumlah besar,
 
 937
 00:37:58,480 --> 00:38:00,730
-probably on the order
-of hundreds of thousands
+mungkin sebesar
+ratusan ribu
 
 938
 00:38:00,730 --> 00:38:04,770
-or so, but probably
-not exactly 4 billion.
+atau lebih, tapi mungkin
+tidak benar-benar 4 miliar.
 
 939
 00:38:04,770 --> 00:38:07,930
-Because the servers
-are actually somewhat
+Karena servernya
+sebenarnya agak
 
 940
 00:38:07,930 --> 00:38:10,520
-lax in terms of which sequence
-number they accept for a reset.
+longgar dalam hal nomor urut
+yang mereka terima untuk reset.
 
 941
 00:38:10,520 --> 00:38:13,360
-It can be any packet
-within a certain window.
+Itu bisa saja paket apa pun
+dalam rentang tertentu.
 
 942
 00:38:13,360 --> 00:38:16,730
-And in that case, I could
-probably, or any attacker,
+Dan dalam kasus ini, saya mungkin
+dapat, atau penyerang mana pun,
 
 943
 00:38:16,730 --> 00:38:19,500
-reset an existing
-connection with a modest
+mengatur ulang sebuah
+koneksi yang ada dengan sederhana
 
 944
 00:38:19,500 --> 00:38:21,262
-but not a huge amount of effort.
+tanpa banyak usaha.
 
 945
 00:38:21,262 --> 00:38:22,738
-That's still a problem.
+Itu masih menjadi masalah.
 
 946
 00:38:22,738 --> 00:38:25,460
-And people haven't really found
-any great solution for that.
+Dan orang-orang belum benar-benar menemukan
+solusi yang baik untuk itu.
 
 947
 00:38:28,640 --> 00:38:31,576
-All right, and I guess the
-sort of last bad thing that
+Baiklah, dan saya kira
+semacam hal buruk terakhir yang
 
 948
 00:38:31,576 --> 00:38:33,700
-happens because these
-sequence numbers are somewhat
+terjadi karena nomor urut
+ini agak
 
 949
 00:38:33,700 --> 00:38:36,331
-predictable is
-just data injection
+mudah ditebak adalah
+injeksi data
 
 950
 00:38:36,331 --> 00:38:39,280
-into existing connections.
+ke koneksi yang ada.
 
 951
 00:38:39,280 --> 00:38:43,550
-So suppose there is some
-protocol like rlogin,
+Jadi misalkan ada beberapa
+protokol seperti rlogin,
 
 952
 00:38:43,550 --> 00:38:47,650
-but maybe rlogin doesn't--
-suppose we have some
+tapi mungkin rlogin tidak--
+misalkan kita memiliki beberapa
 
 953
 00:38:47,650 --> 00:38:49,710
-hypothetical protocol
-that's kind of like rlogin,
+protokol hipotetis
+yang mirip seperti rlogin,
 
 954
 00:38:49,710 --> 00:38:51,990
-but actually it doesn't do
-IP-based authentication.
+tetapi sebenarnya protokol itu tidak
+melakukan autentikasi berbasis IP.
 
 955
 00:38:51,990 --> 00:38:53,364
-You have to type
-in your password
+Anda harus mengetikkan
+kata sandi Anda
 
 956
 00:38:53,364 --> 00:38:55,392
-to log in, all this great stuff.
+untuk masuk, semua hal hebat ini.
 
 957
 00:38:55,392 --> 00:38:57,350
-The problem is once you've
-typed your password,
+Masalahnya adalah setelah Anda
+mengetikkan kata sandi Anda,
 
 958
 00:38:57,350 --> 00:38:59,225
-maybe your TCP connection
-is just established
+mungkin koneksi TCP anda
+baru saja dibuat
 
 959
 00:38:59,225 --> 00:39:01,060
-and can accept arbitrary data.
+dan dapat menerima data sembarang.
 
 960
 00:39:01,060 --> 00:39:03,392
-So wait for one of you guys
-to log into a machine, type
+Jadi menunggu salah satu dari kalian
+masuk ke dalam mesin, mengetikkan
 
 961
 00:39:03,392 --> 00:39:04,100
-in your password.
+kata sandi Anda.
 
 962
 00:39:04,100 --> 00:39:05,235
-I don't know what
-that password is.
+Saya tidak tahu
+apa kata sandi itu.
 
 963
 00:39:05,235 --> 00:39:07,026
-But once you've
-established TCP connection,
+Tapi begitu koneksi TCP
+TCP terbangun,
 
 964
 00:39:07,026 --> 00:39:09,120
-I'll just try to guess
-your sequence number
+saya hanya akan mencoba menebak
+nomor urut Anda
 
 965
 00:39:09,120 --> 00:39:11,332
-and inject some data into
-your existing connection.
+dan memasukkan beberapa data
+ke koneksi Anda yang sudah terhubung.
 
 966
 00:39:11,332 --> 00:39:13,415
-So if I can guess your
-sequence numbers correctly,
+Jadi jika saya dapat menebak
+nomor urut Anda dengan benar,
 
 967
 00:39:13,415 --> 00:39:16,005
-then this allows me
-to make it pretend
+maka hal ini memungkinkan saya
+untuk berpura-pura seperti
 
 968
 00:39:16,005 --> 00:39:18,255
-like you've typed some command
-after you authenticated
+Anda telah mengetikkan beberapa perintah
+setelah Anda terautentikasi
 
 969
 00:39:18,255 --> 00:39:19,977
-correctly with your password.
+dengan benar dengan kata sandi Anda.
 
 970
 00:39:19,977 --> 00:39:21,810
-So this all sort of
-suggests that you really
+Jadi ini semua menunjukkan
+bahwa Anda benar-benar
 
 971
 00:39:21,810 --> 00:39:28,260
-don't want to rely on these
-32-bit sequence numbers
+tidak ingin bergantung pada
+nomor urut 32-bit ini
 
 972
 00:39:28,260 --> 00:39:30,430
-for providing security.
+untuk memberikan keamanan.
 
 973
 00:39:30,430 --> 00:39:33,660
-But let's actually see what
-modern TCP stacks actually
+Tapi mari kita lihat apa sebenarnya
+yang dilakukan oleh tumpukan TCP modern
 
 974
 00:39:33,660 --> 00:39:35,650
-do to try to mitigate
-this problem.
+untuk mencoba mengurangi
+masalah ini.
 
 975
 00:39:35,650 --> 00:39:37,650
-So as we were sort
-of discussing,
+Jadi saat kita
+sedang berdiskusi,
 
 976
 00:39:37,650 --> 00:39:41,170
-I guess one approach that
-we'll look at in the next two
+Saya rasa satu pendekatan yang
+akan kita lihat dalam dua
 
 977
 00:39:41,170 --> 00:39:44,780
-lectures is how to
-implement some security
+kuliah berikutnya adalah bagaimana
+cara menerapkan beberapa keamanan
 
 978
 00:39:44,780 --> 00:39:45,910
-at the application level.
+pada level aplikasi.
 
 979
 00:39:45,910 --> 00:39:50,160
-So we'll use cryptography
-to authenticate and encrypt
+Jadi kita akan menggunakan kriptografi
+untuk autentikasi dan enkripsi
 
 980
 00:39:50,160 --> 00:39:54,460
-and sign and verify messages
-at the application level
+dan menandatangani dan verifikasi pesan-pesan
+pada level aplikasi
 
 981
 00:39:54,460 --> 00:39:57,420
-without really
-involving TCP so much.
+tanpa benar-benar
+banyak melibatkan TCP.
 
 982
 00:39:57,420 --> 00:39:59,606
-But there are some
-existing applications
+Tapi ada beberapa
+aplikasi yang sudah ada
 
 983
 00:39:59,606 --> 00:40:03,950
-that would benefit from
-making this slightly better,
+yang akan mendapatkan manfaat dari
+membuat ini sedikit lebih baik,
 
 984
 00:40:03,950 --> 00:40:07,160
-at least not make it so easy
-to exploit these problems.
+setidaknya tidak memudahkan hal itu
+untuk mengeksploitasi masalah-masalah ini.
 
 985
 00:40:07,160 --> 00:40:09,360
-And the way that
-I guess people do
+Dan saya rasa cara
+orang melakukan hal ini
 
 986
 00:40:09,360 --> 00:40:13,200
-this in practice today-- for
-example Linux and Windows--
+dalam praktiknya saat ini-- sebagai
+contoh Linux dan Windows--
 
 987
 00:40:13,200 --> 00:40:17,360
-is they implement the suggestion
-that John gave earlier,
+adalah mereka mengimplementasi usulan
+yang diberikan John sebelumnya,
 
 988
 00:40:17,360 --> 00:40:20,920
-that we maintain
-different initial sequence
+bahwa kita mengelola
+nomor urut awal yang berbeda
 
 989
 00:40:20,920 --> 00:40:22,820
-numbers for every
-source destination pair.
+untuk setiap pasangan
+sumber dan penerima.
 
 990
 00:40:22,820 --> 00:40:29,110
-So what most TCP SYN
-implementations do
+Jadi sebagian besar hal yang
+diimplementasi oleh SYN TCP
 
 991
 00:40:29,110 --> 00:40:33,200
-is they still compute this
-initial sequence number
+adalah masih membuat mereka menghitung
+nomor urut awal ini sama
 
 992
 00:40:33,200 --> 00:40:34,590
-as we were computing before.
+seperti yang kita lakukan sebelumnya.
 
 993
 00:40:34,590 --> 00:40:39,600
-So this is the old
-style ISN, let's say.
+Jadi katakanlah ini sebagai
+gaya lama dari ISN.
 
 994
 00:40:39,600 --> 00:40:42,000
-And in order to
-actually generate
+Dan untuk benar-benar
+menghasilkan ISN
 
 995
 00:40:42,000 --> 00:40:44,650
-the actual ISN for any
-particular connection,
+yang aktual untuk
+koneksi tertentu,
 
 996
 00:40:44,650 --> 00:40:48,130
-we're going to add a
-random 32-bit offset.
+kita akan menambahkan
+offset acak 32 bit.
 
 997
 00:40:48,130 --> 00:40:51,005
-So we're going to include
-some sort of a function.
+Jadi kita akan mengikutsertakan
+semacam fungsi.
 
 998
 00:40:51,005 --> 00:40:54,010
-Think of it like as like
-a hash function like SHA-1
+Pikirkan itu sebagai sebuah
+fungsi hash seperti SHA-1
 
 999
 00:40:54,010 --> 00:40:56,295
-or something maybe better.
+atau sesuatu yang lebih baik.
 
 1000
 00:40:56,295 --> 00:40:59,190
-And this is going to be
-a function of the source
+Dan ini akan menjadi
+sebuah fungsi dari
 
 1001
 00:40:59,190 --> 00:41:05,140
-IP, the source port
-number, the destination IP
+IP sumber, nomor port sumber,
+alamat penerima IP,
 
 1002
 00:41:05,140 --> 00:41:10,820
-address, destination port,
-and some sort of a secret key
+port tujuan, dan semacam
+kunci rahasia
 
 1003
 00:41:10,820 --> 00:41:14,900
-that only the server
-knows in this case.
+yang pada kasus ini hanya
+diketahui oleh server.
 
 1004
 00:41:14,900 --> 00:41:17,290
