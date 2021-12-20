@@ -6566,195 +6566,195 @@ menurut kalian?
 
 1386
 00:59:10,150 --> 00:59:11,025
-What happened, right?
+Apa yang terjadi, betul?
 
 1387
 00:59:11,025 --> 00:59:12,980
-So I printed out a bunch of As.
+Jadi saya mencetak banyak huruf A.
 
 1388
 00:59:12,980 --> 00:59:14,560
-What did getS()
-do to the memory?
+Apa yang getS()
+lakukan pada memori?
 
 1389
 00:59:16,770 --> 00:59:17,270
-Yeah, yeah.
+Ya, ya.
 
 1390
 00:59:17,270 --> 00:59:18,936
-So it just keeps
-writing As here, right?
+Jadi dia terus-menerus menulis
+banyak huruf A di sini, betul?
 
 1391
 00:59:18,936 --> 00:59:21,360
-All we actually passed to
-getS() was a single pointer,
+Yang sebenarnya kita berikan kepada
+getS() hanyalah sebuah penunjuk,
 
 1392
 00:59:21,360 --> 00:59:23,410
-the start of this
-address, right?
+awal dari
+alamat ini, betul?
 
 1393
 00:59:23,410 --> 00:59:26,660
-So this is the
-argument to getS(),
+Jadi ini adalah
+argumen untuk getS(),
 
 1394
 00:59:26,660 --> 00:59:28,800
-is a pointer to this memory
-location on the stack.
+adalah sebuah penunjuk ke
+lokasi memori ini dalam stack.
 
 1395
 00:59:28,800 --> 00:59:30,470
-So it just kept writing As.
+Jadi dia terus menulis banyak huruf A.
 
 1396
 00:59:30,470 --> 00:59:32,470
-And it doesn't actually
-know what the length is,
+Dan sebenarnya dia tidak
+tahu berapa panjangnya,
 
 1397
 00:59:32,470 --> 00:59:33,760
-so it just keeps going, right?
+jadi dia terus berjalan, betul?
 
 1398
 00:59:33,760 --> 00:59:36,334
-It's going to override As
-all the way up the stack,
+Dia akan menimpakan huruf-huruf A
+terus hingga ke atas stack,
 
 1399
 00:59:36,334 --> 00:59:38,500
-past the return address,
-probably, and into whatever
+melewati alamat kembali,
+mungkin, dan ke dalam apapun
 
 1400
 00:59:38,500 --> 00:59:40,934
-was up the stack above us.
+yang ada pada stack di atas kita.
 
 1401
 00:59:40,934 --> 00:59:42,600
-So we can check whether
-that's the case.
+Jadi kita dapat memeriksa
+apakah itu kasusnya.
 
 1402
 00:59:42,600 --> 00:59:47,064
-So we can actually
-print the buffer.
+Jadi kita sebenarnya dapat
+mencetak buffernya.
 
 1403
 00:59:47,064 --> 00:59:48,480
-And in fact, it
-tells us, yeah, we
+Dan sebenarnya, itu
+memberitahu kita, ya, kita
 
 1404
 00:59:48,480 --> 00:59:51,500
-have 180 As there,
-even though the buffer
+memiliki 180 huruf A di
+sana, meskipun buffernya
 
 1405
 00:59:51,500 --> 00:59:55,670
-should be 128 elements large.
+seharusnya hanya berukuran 128 elemen.
 
 1406
 00:59:55,670 --> 00:59:57,310
-So this is not so great.
+Jadi ini tidak terlalu bagus.
 
 1407
 00:59:57,310 --> 00:59:59,530
-And we can actually,
-again, examine what's
+Dan kita sebenarnya dapat,
+sekali lagi, memeriksa apa
 
 1408
 00:59:59,530 --> 01:00:03,290
-going on in that EBP pointer.
+yang sedang terjadi di penunjuk EBP itu.
 
 1409
 01:00:03,290 --> 01:00:05,095
-Dollar sign, EBP.
+Tanda dolar, EBP.
 
 1410
 01:00:05,095 --> 01:00:06,610
-So in fact, yeah.
+Jadi sebenarnya, ya.
 
 1411
 01:00:06,610 --> 01:00:12,159
-It's all 0x41, which is the
-ASCII encoding of the letter A.
+Semuanya adalah 0x41, yang merupakan
+pengkodean ASCII dari huruf A.
 
 1412
 01:00:12,159 --> 01:00:14,200
-And in fact, the return
-address is probably going
+Dan sebenarnya, alamat
+kembalinya mungkin
 
 1413
 01:00:14,200 --> 01:00:15,283
-to be the same way, right?
+akan mengalami hal yang sama, betul?
 
 1414
 01:00:15,283 --> 01:00:19,350
-If we print the return
-address, it's also all As.
+Jika kita mencetak alamat
+kembali, itu juga semua huruf A.
 
 1415
 01:00:19,350 --> 01:00:20,245
-That's not so great.
+Itu tidak terlalu bagus.
 
 1416
 01:00:20,245 --> 01:00:22,370
-In fact, what's going to
-happen if we return now is
+Bahkan, hal yang akan terjadi
+jika kita kembali sekarang adalah
 
 1417
 01:00:22,370 --> 01:00:25,447
-the program will jump to
-that address, 41414141.
+program akan melompat ke
+alamat itu, 41414141.
 
 1418
 01:00:25,447 --> 01:00:26,530
-And there's nothing there.
+Dan tidak ada apa-apa di sana.
 
 1419
 01:00:26,530 --> 01:00:27,196
-And it'll crash.
+Dan dia akan crash.
 
 1420
 01:00:27,196 --> 01:00:29,840
-That's the segmentation
-fault you're getting.
+Itulah segmentation fault
+yang Anda dapatkan.
 
 1421
 01:00:29,840 --> 01:00:33,090
-So let's just step up to
-it and see what happens.
+Jadi mari melangkah ke sana
+dan melihat apa yang terjadi.
 
 1422
 01:00:33,090 --> 01:00:34,490
-So let's run next.
+Jadi mari jalankan perintah next.
 
 1423
 01:00:34,490 --> 01:00:37,470
-So we keep stepping
-through the program.
+Jadi kita terus melangkah
+menyusuri programnya.
 
 1424
 01:00:37,470 --> 01:00:40,060
-And we can see where we are.
+Dan kita dapat melihat di mana kita berada.
 
 1425
 01:00:40,060 --> 01:00:40,560
-OK.
+Oke.
 
 1426
 01:00:40,560 --> 01:00:43,330
-We're getting close to
-the end of the function.
+Kita semakin mendekat
+ke akhir dari fungsinya.
 
 1427
 01:00:43,330 --> 01:00:46,400
-So we can step over
-two more instructions.
+Jadi kita dapat melewati
+dua instruksi lagi.
 
 1428
 01:00:46,400 --> 01:00:49,260
@@ -6762,632 +6762,632 @@ nexti.
 
 1429
 01:00:49,260 --> 01:00:51,531
-And now we can
-disassemble again.
+Dan sekarang kita dapat
+membongkar kembali.
 
 1430
 01:00:51,531 --> 01:00:52,030
-OK.
+Oke.
 
 1431
 01:00:52,030 --> 01:00:54,859
-We're now just at the return
-instruction from this function.
+Sekarang kita tepat berada pada
+perintah kembali dari fungsi ini.
 
 1432
 01:00:54,859 --> 01:00:56,150
-And we can actually figure out.
+Dan kita dapat menebaknya.
 
 1433
 01:00:56,150 --> 01:00:59,690
-So as you can see, at
-the end of the function,
+Jadi seperti yang Anda bisa
+lihat, pada akhir fungsi,
 
 1434
 01:00:59,690 --> 01:01:02,120
-it runs this leave
-x86 instruction,
+dia menjalankan instruksi x86
+leave (meninggalkan) ini,
 
 1435
 01:01:02,120 --> 01:01:05,220
-which basically restores the
-stack back to where it was.
+yang pada dasarnya mengembalikan
+stack ke tempatnya yang semula.
 
 1436
 01:01:05,220 --> 01:01:07,020
-So it sort of pushes
-the stack pointer
+Jadi itu seperti menggeser
+penunjuk stacknya
 
 1437
 01:01:07,020 --> 01:01:10,200
-all the way back to the return
-address using the same EBP.
+terus hingga kembali ke alamat
+kembalinya menggunakan EBP yang sama.
 
 1438
 01:01:10,200 --> 01:01:11,810
-That's what it's basically for.
+Itulah tujuan dasarnya.
 
 1439
 01:01:11,810 --> 01:01:15,421
-And now, the stack is
-pointing at the return address
+Dan sekarang, stacknya sedang
+menunjuk pada alamat kembali
 
 1440
 01:01:15,421 --> 01:01:16,420
-that we're going to use.
+yang akan kita gunakan.
 
 1441
 01:01:16,420 --> 01:01:18,340
-And in fact, it's all A's.
+Dan nyatanya, semua adalah huruf A.
 
 1442
 01:01:18,340 --> 01:01:20,370
-And if we run one
-more instruction,
+Jika kita menjalankan
+instruksi selanjutnya,
 
 1443
 01:01:20,370 --> 01:01:22,730
-the CPU is going to jump to
-that exact memory address
+CPU akan melompat persis ke
+alamat memori tersebut
 
 1444
 01:01:22,730 --> 01:01:25,350
-and start executing
-code there and crash,
+dan mulai menjalankan kode
+di sana dan mengalami crash,
 
 1445
 01:01:25,350 --> 01:01:29,160
-because it's not a valid address
-that's in the page table.
+karena alamat yang berada di
+page table itu tidak valid.
 
 1446
 01:01:29,160 --> 01:01:32,360
-So let's actually see, just to
-double check, what's going on.
+Jadi mari kita lihat, hanya untuk
+memeriksa ulang, apa yang terjadi.
 
 1447
 01:01:32,360 --> 01:01:34,569
-Let's print our buffer again.
+Mari cetak buffer kita lagi.
 
 1448
 01:01:34,569 --> 01:01:36,860
-Our buffer-- well, that's
-actually kind of interesting,
+Buffer kita-- yah, itu
+ternyata cukup menarik,
 
 1449
 01:01:36,860 --> 01:01:37,359
-right?
+benar?
 
 1450
 01:01:37,359 --> 01:01:38,930
-So now, buffer,
-for some reason it
+Jadi sekarang, buffer,
+untuk beberapa alasan dia
 
 1451
 01:01:38,930 --> 01:01:41,710
-only says A repeats 128 times.
+hanya menyebutkan huruf A berulang 128 kali.
 
 1452
 01:01:41,710 --> 01:01:45,590
-Whereas if you remember before,
-it said A repeated 180 times
+Di mana jika Anda mengingat sebelumnya,
+dia menyebutkan A diulang 180 kali
 
 1453
 01:01:45,590 --> 01:01:47,690
-in our buffer.
+dalam buffer kita.
 
 1454
 01:01:47,690 --> 01:01:49,376
-So what happened?
+Jadi apa yang terjadi?
 
 1455
 01:01:49,376 --> 01:01:49,876
-Yeah?
+Ya?
 
 1456
 01:01:49,876 --> 01:01:51,340
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR].
 
 1457
 01:01:51,340 --> 01:01:51,695
-PROFESSOR: Yeah, yeah.
+PROFESSOR: Ya, ya.
 
 1458
 01:01:51,695 --> 01:01:52,050
-Exactly.
+Tepat.
 
 1459
 01:01:52,050 --> 01:01:53,633
-So there's actually
-something going on
+Jadi sebenarnya ada
+sesuatu yang sedang berlangsung
 
 1460
 01:01:53,633 --> 01:01:55,160
-after the buffer
-overflow happens
+setelah terjadi
+buffer overflow
 
 1461
 01:01:55,160 --> 01:01:56,812
-that changes what's going on.
+yang mengubah keadaannya.
 
 1462
 01:01:56,812 --> 01:01:58,270
-So actually, if
-you remember, we do
+Jadi sebenarnya, jika
+Anda ingat, kita melakukan
 
 1463
 01:01:58,270 --> 01:02:00,650
-this A to i conversion of
-the string to an integer.
+fungsi A to i yang mengkonversi
+string menjadi bilangan bulat.
 
 1464
 01:02:00,650 --> 01:02:03,070
-And if you provide
-all As, it actually
+Dan jika Anda memasukkan
+semua huruf A, dia sebenarnya
 
 1465
 01:02:03,070 --> 01:02:05,850
-writes zero to this
-memory location.
+menulis nol pada
+lokasi memori ini.
 
 1466
 01:02:05,850 --> 01:02:08,840
-So a zero, if you remember,
-terminates strings in C.
+Jadi sebuah nol, jika Anda ingat,
+mengakhiri string di C.
 
 1467
 01:02:08,840 --> 01:02:12,120
-So GDB now thinks, yep, we have
-a perfectly well-terminated
+Jadi GDB sekarang berpikir, ya, kita punya
+sebuah string yang diakhiri dengan benar
 
 1468
 01:02:12,120 --> 01:02:15,155
-128 byte string of all As.
+berupa 128 byte huruf A.
 
 1469
 01:02:15,155 --> 01:02:16,780
-But you know, it
-doesn't really matter,
+Tapi Anda tahu, itu
+tidak terlalu penting,
 
 1470
 01:02:16,780 --> 01:02:18,530
-because we still have
-those As up top that
+karena kita masih mempunyai
+sejumlah huruf A di atas yang
 
 1471
 01:02:18,530 --> 01:02:21,180
-already corrupted our stack.
+telah merusak stack kita.
 
 1472
 01:02:21,180 --> 01:02:21,680
-OK.
+Oke.
 
 1473
 01:02:21,680 --> 01:02:23,554
-That was actually kind
-of an important lesson
+Itu sebenarnya merupakan
+semacam pelajaran penting
 
 1474
 01:02:23,554 --> 01:02:25,990
-that-- it's actually a
-little bit tricky, sometimes,
+yang-- sebenarnya sedikit
+sulit, terkadang,
 
 1475
 01:02:25,990 --> 01:02:28,896
-to explore these buffer
-overflows because, even
+untuk menjelajahi buffer overflow
+ini karena, meskipun
 
 1476
 01:02:28,896 --> 01:02:31,270
-though you've already changed
-lots of stuff on the stack,
+Anda telah mengubah
+banyak hal dalam stack,
 
 1477
 01:02:31,270 --> 01:02:32,870
-you still have to
-get to the point
+Anda masih harus
+mencapai suatu titik
 
 1478
 01:02:32,870 --> 01:02:34,810
-where you use the value
-that you have somehow
+di mana Anda menggunakan
+nilai yang Anda sudah, entah bagaimana,
 
 1479
 01:02:34,810 --> 01:02:35,700
-placed on the stack.
+letakkan pada stack.
 
 1480
 01:02:35,700 --> 01:02:37,140
-So there's other
-code that's going
+Jadi ada kode
+lain yang
 
 1481
 01:02:37,140 --> 01:02:38,940
-to run after you've
-managed to overflow
+akan berjalan setelah
+Anda berhasil meng-overflow
 
 1482
 01:02:38,940 --> 01:02:40,274
-some buffer and corrupt memory.
+beberapa buffer dan merusak memori.
 
 1483
 01:02:40,274 --> 01:02:42,690
-You have to make sure that
-code doesn't do something silly
+Anda harus memastikan kalau
+kode tersebut tidak melakukan hal bodoh
 
 1484
 01:02:42,690 --> 01:02:45,490
-like, if it's A to i,
-just exited right away,
+seperti, jika itu adalah fungsi
+A to i, langsung saja keluar,
 
 1485
 01:02:45,490 --> 01:02:48,070
-as soon as it saw a
-non-integer value,
+segera setelah dia melihat sebuah
+nilai yang bukan bilangan bulat,
 
 1486
 01:02:48,070 --> 01:02:53,350
-we might not get to jump to
-all this 41414141 address.
+kita mungkin tidak dapat melompat
+ke semua alamat 41414141 ini.
 
 1487
 01:02:53,350 --> 01:02:55,419
-So you have to massage
-your input in some cases.
+Jadi Anda harus mengatur
+masukan Anda dalam beberapa kasus.
 
 1488
 01:02:55,419 --> 01:02:56,710
-Maybe not so much in this case.
+Mungkin tidak demikian dalam kasus ini.
 
 1489
 01:02:56,710 --> 01:02:58,470
-But in other
-situations, you'll have
+Tetapi dalam situasi-situasi
+lain, Anda harus
 
 1490
 01:02:58,470 --> 01:03:01,110
-to be careful in
-constructing this input.
+berhati-hati dalam
+membuat masukan ini.
 
 1491
 01:03:01,110 --> 01:03:04,655
-OK, so just to see what happens,
-we can jump one more time.
+Oke, agar kita melihat apa yang terjadi,
+kita bisa melangkah sekali lagi
 
 1492
 01:03:04,655 --> 01:03:06,030
-Well, let's look
-at our register.
+Ya, mari kita lihat
+ke dalam register kita.
 
 1493
 01:03:06,030 --> 01:03:10,400
-So right now, our EIP, the
-sort of instruction pointer,
+Jadi sekarang, EIP kita, yang
+adalah semacam penunjuk instruksi
 
 1494
 01:03:10,400 --> 01:03:12,780
-is pointing at the
-last thing in redirect.
+yang menunjuk kepada hal
+terakhir dalam pengalihan.
 
 1495
 01:03:12,780 --> 01:03:14,830
-And if we step one more
-time, hopefully we'll
+Dan jika kita melangkah sekali
+lagi, harapannya kita akan
 
 1496
 01:03:14,830 --> 01:03:19,570
-jump to, finally, that
-unfortunate 4141 address.
+melompat ke, akhirnya,
+alamat 4141 yang malang itu.
 
 1497
 01:03:19,570 --> 01:03:20,120
-Over here.
+Di sini.
 
 1498
 01:03:20,120 --> 01:03:20,987
-And in fact, yep.
+Dan nyatanya, ya.
 
 1499
 01:03:20,987 --> 01:03:22,820
-The program now seems
-to be executing there.
+Programnya terlihat
+sedang berjalan di sana.
 
 1500
 01:03:22,820 --> 01:03:25,990
-If we ask GDB to print the
-current set of registers,
+Jika kita meminta GDB untuk
+mencetak seluruh register saat ini,
 
 1501
 01:03:25,990 --> 01:03:29,420
-yep, the current instruction
-pointer is this strange value.
+ya, penunjuk instruksinya
+saat ini adalah nilai aneh ini.
 
 1502
 01:03:29,420 --> 01:03:31,840
-And if we exclude
-one more instruction,
+Dan jika kita mengecualikan
+satu instruksi lagi,
 
 1503
 01:03:31,840 --> 01:03:34,200
-it's going to crash
-because that's finally
+dia akan crash
+karena akhirnya dia
 
 1504
 01:03:34,200 --> 01:03:39,700
-trying to execute an instruction
-pointer that doesn't correspond
+mencoba menjalankan sebuah
+penunjuk perintah yang tidak sesuai
 
 1505
 01:03:39,700 --> 01:03:42,730
-to a valid page in the
-operating system's page table
+dengan sebuah page yang sah
+dalam tabel halaman sistem operasi
 
 1506
 01:03:42,730 --> 01:03:44,770
-for this process.
+untuk proses ini.
 
 1507
 01:03:44,770 --> 01:03:46,750
-Make sense?
+Masuk akal?
 
 1508
 01:03:46,750 --> 01:03:49,260
-Any questions?
+Apakah ada pertanyaan?
 
 1509
 01:03:49,260 --> 01:03:49,760
-All right.
+Baiklah.
 
 1510
 01:03:49,760 --> 01:03:52,910
-Well, I've got a question
-for you guys, actually.
+Ya, saya sebenarnya memiliki
+sebuah pertanyaan untuk kalian.
 
 1511
 01:03:52,910 --> 01:03:58,540
-So what happens-- you know,
-it seems to be exploitable.
+Jadi apa yang akan terjadi-- Anda
+tahu, itu terlihat dapat dieksploitasi.
 
 1512
 01:03:58,540 --> 01:03:59,644
-Or well, OK.
+Atau yah, oke.
 
 1513
 01:03:59,644 --> 01:04:02,060
-Maybe let's first figure out
-why this is particularly bad,
+Mungkin lebih baik kita mencari
+tahu dulu mengapa hal ini buruk,
 
 1514
 01:04:02,060 --> 01:04:02,560
-right?
+benar?
 
 1515
 01:04:02,560 --> 01:04:03,762
-So why is it a problem?
+Jadi mengapa hal ini merupakan sebuah masalah?
 
 1516
 01:04:03,762 --> 01:04:05,220
-So not only does
-our program crash,
+Jadi tidak hanya program
+kita mengalami crash,
 
 1517
 01:04:05,220 --> 01:04:07,011
-but presumably we're
-going to take it over.
+tetapi mungkin kita juga akan
+mengambil alih kendalinya.
 
 1518
 01:04:07,011 --> 01:04:09,010
-So I guess, first
-simple question is, OK,
+Jadi saya kira, pertanyaan
+sederhana pertama adalah, oke,
 
 1519
 01:04:09,010 --> 01:04:10,474
-so what's the problem?
+jadi apa masalahnya?
 
 1520
 01:04:10,474 --> 01:04:11,140
-What can you do?
+Apa yang dapat Anda lakukan?
 
 1521
 01:04:11,140 --> 01:04:11,890
-Yeah?
+Ya?
 
 1522
 01:04:11,890 --> 01:04:13,180
-AUDIENCE: You can do
-whatever you want.
+AUDIENS: Anda dapat melakukan
+apapun yang Anda mau.
 
 1523
 01:04:13,180 --> 01:04:13,846
-PROFESSOR: Yeah.
+PROFESSOR: Ya.
 
 1524
 01:04:13,846 --> 01:04:16,809
-So I was actually pretty silly
-and just put in lots of As.
+Jadi tadi saya cukup konyol dan
+hanya memasukkan banyak huruf A.
 
 1525
 01:04:16,809 --> 01:04:18,350
-But if you were
-careful about knowing
+Tapi jika Anda berhati-hati
+dalam mengetahui
 
 1526
 01:04:18,350 --> 01:04:20,512
-where to put what
-values, you might
+di mana harus menempatkan
+nilai apa, Anda mungkin
 
 1527
 01:04:20,512 --> 01:04:21,970
-be able to put in
-a different value
+bisa memasukkan
+nilai yang berbeda
 
 1528
 01:04:21,970 --> 01:04:23,387
-and get it to jump
-somewhere else.
+dan membuatnya melompat
+ke tempat yang lain.
 
 1529
 01:04:23,387 --> 01:04:25,344
-So let's see if we can
-actually do this, right?
+Jadi mari kita lihat apakah kita
+memang bisa melakukan hal ini, benar?
 
 1530
 01:04:25,344 --> 01:04:26,710
-We can retrace this whole thing.
+Kita bisa menelusuri ulang benda ini.
 
 1531
 01:04:26,710 --> 01:04:27,210
-OK.
+Oke.
 
 1532
 01:04:27,210 --> 01:04:28,930
-Re-run the program again.
+Jalankan kembali programnya.
 
 1533
 01:04:28,930 --> 01:04:33,030
-And I guess I have to
-reset the breakpoint.
+Dan saya kira saya harus
+mereset breakpoint-nya.
 
 1534
 01:04:33,030 --> 01:04:35,450
-So I can break and
-redirect again.
+Jadi saya bisa berhenti
+dan mengalihkan lagi.
 
 1535
 01:04:35,450 --> 01:04:36,570
-And run.
+Dan menjalankannya.
 
 1536
 01:04:36,570 --> 01:04:42,000
-And this time,
-I'll, again, next,
+Dan kali ini, saya akan,
+kembali, berikutnya,
 
 1537
 01:04:42,000 --> 01:04:43,900
-supply lots of As
-and overflow things.
+memberikan banyak huruf A
+dan memicu terjadinya overflow.
 
 1538
 01:04:43,900 --> 01:04:47,980
-But I'm not going to try
-to carefully construct--
+Tapi saya tidak akan mencoba
+untuk secara hati-hati membangun--
 
 1539
 01:04:47,980 --> 01:04:50,445
-you know, figure out which
-point in these As corresponds
+Anda tahu, mencari tahu titik mana
+dalam huruf-huruf A ini yang bersesuaian
 
 1540
 01:04:50,445 --> 01:04:51,710
-to the location in the stack.
+dengan lokasi itu dalam stack.
 
 1541
 01:04:51,710 --> 01:04:52,430
-That's something
-you guys are going
+Itu adalah sesuatu
+yang kalian harus
 
 1542
 01:04:52,430 --> 01:04:53,920
-to have to do for lab one.
+lakukan untuk lab satu.
 
 1543
 01:04:53,920 --> 01:04:57,050
-But suppose that I
-overflow the stack here.
+Tapi misalkan saya
+meng-overflow stacknya di sini.
 
 1544
 01:04:57,050 --> 01:04:58,470
-And then I'm going
-to manually try
+Dan kemudian saya akan
+mencoba secara manual
 
 1545
 01:04:58,470 --> 01:05:01,470
-to change things on the stack to
-get it to jump to some point I
+untuk mengubah hal-hal dalam stack
+untuk membuatnya melompat ke beberapa titik
 
 1546
 01:05:01,470 --> 01:05:03,310
-want to jump to.
+yang saya ingin tuju.
 
 1547
 01:05:03,310 --> 01:05:08,979
-And in this program, OK,
-so let's again-- nexti.
+Dan pada program ini, oke,
+mari kita sekali lagi-- nexti.
 
 1548
 01:05:08,979 --> 01:05:09,520
-Where are we?
+Di mana kita?
 
 1549
 01:05:09,520 --> 01:05:12,350
-We're at, again, at the
-very end of redirect.
+Kita berada, sekali lagi, di
+akhir dari pengalihan.
 
 1550
 01:05:12,350 --> 01:05:14,540
-And let's actually look
-at the stack, right?
+Dan mari kita lihat
+stacknya, benar?
 
 1551
 01:05:14,540 --> 01:05:18,420
-So if we examine esp here,
-we see our corrupted pointer.
+Jika kita memeriksa esp di sini, kita
+melihat pointer kita yang telah rusak.
 
 1552
 01:05:18,420 --> 01:05:18,920
-OK.
+Oke.
 
 1553
 01:05:18,920 --> 01:05:21,020
-Where could we jump to?
+Ke mana kita bisa melompat?
 
 1554
 01:05:21,020 --> 01:05:22,794
-What interesting
-things could we do?
+Hal yang menarik apa
+yang dapat kita lakukan?
 
 1555
 01:05:22,794 --> 01:05:24,710
-Unfortunately, this
-program is pretty limited.
+Sayangnya, program
+ini cukup terbatas.
 
 1556
 01:05:24,710 --> 01:05:26,543
-There's almost nothing
-in the program's code
+Hampir tidak ada apa-apa
+dalam kode program tersebut
 
 1557
 01:05:26,543 --> 01:05:28,880
-where you could jump and
-do anything interesting.
+di mana Anda dapat menuju ke sana
+dan melakukan sesuatu yang menarik.
 
 1558
 01:05:28,880 --> 01:05:31,350
-But maybe we can do a little
-bit of something interesting.
+Tetapi mungkin kita dapat melakukan
+sedikit hal yang menarik.
 
 1559
 01:05:31,350 --> 01:05:33,460
-Maybe we'll find
-the printf in main
+Mungkin kita akan mencari
+printf dalam main
 
 1560
 01:05:33,460 --> 01:05:36,190
-and jump directly there, and
-get it to print the x value,
+dan melompat langsung ke sana, dan
+membuatnya mencetak nilai x,
 
 1561
 01:05:36,190 --> 01:05:37,710
-or x equals something.
+atau x sama dengan sesuatu.
 
 1562
 01:05:37,710 --> 01:05:38,590
-So we can do this.
+Jadi kita dapat melakukan ini.
 
 1563
 01:05:38,590 --> 01:05:41,820
-We can actually disassemble
-the main function.
+Kita sebenarnya dapat membongkar
+fungsi main tersebut.
 
 1564
 01:05:41,820 --> 01:05:44,630
