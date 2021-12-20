@@ -3409,293 +3409,293 @@ versi 5 telah memperbaiki ini
 
 717
 00:31:05,040 --> 00:31:07,770
-by explicitly
-authenticating messages.
+secara eksplisit
+mengautentikasi pesan.
 
 718
 00:31:07,770 --> 00:31:11,940
-Another thing they sort
-of had a problem with
+Hal lain di mana mereka
+memiliki masalah
 
 719
 00:31:11,940 --> 00:31:14,820
-is the ability for
-arbitrary clients
+adalah kemampuan untuk
+klien apapun
 
 720
 00:31:14,820 --> 00:31:17,220
-to guess people's passwords.
+untuk menebak password orang lain.
 
 721
 00:31:17,220 --> 00:31:21,102
-So any suggestions of
-how we could fix this?
+Jadi apakah ada saran dari
+bagaimana kita bisa memperbaikinya?
 
 722
 00:31:21,102 --> 00:31:22,560
-How do you prevent
-guessing attacks
+Bagaimana Anda mencegah?
+serangan penebakan password
 
 723
 00:31:22,560 --> 00:31:24,826
-in a protocol like this?
+dalam protokol seperti ini?
 
 724
 00:31:24,826 --> 00:31:26,242
-What could we try?
+Apa yang bisa kita coba?
 
 725
 00:31:26,242 --> 00:31:26,775
-Yeah.
+Yah.
 
 726
 00:31:26,775 --> 00:31:28,024
-STUDENT: Some sort of salting?
+MAHASISWA: Semacam salting (memberi garam)?
 
 727
 00:31:28,024 --> 00:31:29,400
-I'm not sure.
+Saya tidak yakin.
 
 728
 00:31:29,400 --> 00:31:31,540
-PROFESSOR: Well, so
-salting would just
+PROFESOR: Yah, jadi
+melakukan salting hanya akan
 
 729
 00:31:31,540 --> 00:31:33,900
-means that the client
-has to hash the password
+berarti bahwa klien
+harus melakukan hash pada kata sandi
 
 730
 00:31:33,900 --> 00:31:35,066
-in different ways, maybe.
+dalam cara yang berbeda, mungkin.
 
 731
 00:31:35,066 --> 00:31:36,440
-But it still
-doesn't prevent them
+Tetapi salting masih
+tidak dapat mencegah mereka
 
 732
 00:31:36,440 --> 00:31:37,659
-from trying lots of things.
+untuk mencoba melakukan banyak hal.
 
 733
 00:31:37,659 --> 00:31:39,950
-So maybe it'll be more
-expensive to build a dictionary.
+Jadi mungkin akan lebih
+mahal untuk membangun sebuah kamus.
 
 734
 00:31:39,950 --> 00:31:40,449
-Yeah.
+Ya.
 
 735
 00:31:40,449 --> 00:31:43,109
-STUDENT: You could [INAUDIBLE]
-derivation function?
+MAHASISWA: Anda dapat [TIDAK TERDENGAR]
+turunan fungsi?
 
 736
 00:31:43,109 --> 00:31:44,650
-PROFESSOR: Yeah, so
-another good idea
+PROFESSOR: Ya, jadi
+ide bagus lainnya
 
 737
 00:31:44,650 --> 00:31:47,949
-is to make this hashing
-process super expensive.
+adalah untuk membuat proses
+hashing ini sangat mahal.
 
 738
 00:31:47,949 --> 00:31:49,490
-So that might be
-kind of nice, right?
+Jadi itu mungkin
+agak bagus kan?
 
 739
 00:31:49,490 --> 00:31:52,650
-So if this hash function took
-a second to compute like you
+Jadi jika fungsi hash ini membutuhkan
+satu detik untuk menghitung seperti
 
 740
 00:31:52,650 --> 00:31:54,404
-guys did in lab two,
-then OK, wow, this
+yang kalian berdua lakukan di lab dua,
+maka OK, wow, ini
 
 741
 00:31:54,404 --> 00:31:55,820
-would be actually
-really expensive
+akan benar-benar
+sangat mahal
 
 742
 00:31:55,820 --> 00:31:56,810
-to try different passwords.
+untuk mencoba password yang berbeda-beda.
 
 743
 00:31:56,810 --> 00:31:58,351
-So that seems like
-a reasonable plan.
+Jadi, itu terlihat seperti
+rencana yang masuk akal.
 
 744
 00:31:58,351 --> 00:32:00,500
-So in combination
-with salting, those
+Jadi dikombinasikan
+dengan salting, ini
 
 745
 00:32:00,500 --> 00:32:02,880
-would be make it pretty
-expensive to do password
+akan membuatnya cukup mahal
+untuk melakukan serangan
 
 746
 00:32:02,880 --> 00:32:03,987
-guessing attacks.
+penebakan password.
 
 747
 00:32:03,987 --> 00:32:04,570
-Anything else?
+Ada lagi?
 
 748
 00:32:07,035 --> 00:32:08,910
-So another thing is,
-yeah, challenge respond.
+Jadi hal lainnya adalah,
+ya, challenge response.
 
 749
 00:32:08,910 --> 00:32:11,620
-So you could actually hear
-in the initial protocol,
+Jadi sebenarnya Anda bisa mendengar
+di protokol awal,
 
 750
 00:32:11,620 --> 00:32:13,790
-the Kerberos server
-doesn't have any idea
+server Kerberos
+tidak punya ide
 
 751
 00:32:13,790 --> 00:32:15,720
-if this was the
-right client or not.
+jika ini adalah
+klien yang benar atau tidak.
 
 752
 00:32:15,720 --> 00:32:18,202
-But in fact, what
-you could do is maybe
+Tapi nyatanya, apa
+yang Anda bisa lakukan adalah mungkin
 
 753
 00:32:18,202 --> 00:32:20,160
-give a little bit of a
-proof that, well, you're
+memberikan sedikit bukti
+bahwa, sebenarnya, mungkin Anda
 
 754
 00:32:20,160 --> 00:32:22,010
-probably the right client.
+adalah klien yang benar.
 
 755
 00:32:22,010 --> 00:32:24,980
-So maybe you could encrypt
-the current time stamp
+Jadi mungkin Anda bisa mengenkripsi
+waktu saat ini
 
 756
 00:32:24,980 --> 00:32:27,890
-with your hash
-password or something
+dengan hash password Anda
+atau hal lain
 
 757
 00:32:27,890 --> 00:32:29,455
-like this-- has them together.
+yang sejenis-- lakukan hash terhadap mereka.
 
 758
 00:32:29,455 --> 00:32:31,080
-And then the Kerberos
-server could just
+Kemudian server Kerberos
+hanya perlu
 
 759
 00:32:31,080 --> 00:32:34,250
-check if that's the right-- if
-that matches, and if so, return
+mengecek jika itu adalah yang benar-- jika
+cocok, dan jika demikian, akan mengembalikan
 
 760
 00:32:34,250 --> 00:32:35,330
-you back a ticket.
+kepada Anda tiket.
 
 761
 00:32:35,330 --> 00:32:37,580
-You probably don't want to
-necessarily add more rounds
+Anda mungkin tidak ingin
+menambah ronde baru
 
 762
 00:32:37,580 --> 00:32:38,450
-but this could work.
+tapi ini bisa berhasil.
 
 763
 00:32:38,450 --> 00:32:40,760
-So just to precise about
-what I'm sort of suggesting.
+Jadi tepatnya tentang
+apa yang kira-kira saya sarankan.
 
 764
 00:32:40,760 --> 00:32:44,460
-OK, well, maybe you take
-the current time stamp
+Oke, mungkin Anda ambil
+waktu saat ini
 
 765
 00:32:44,460 --> 00:32:51,550
-and maybe you hash the current
-time stamp and the KC together.
+dan mungkin Anda hash
+waktunya dengan KC.
 
 766
 00:32:51,550 --> 00:32:53,570
-And maybe you include
-the timestamp as well.
+Dan mungkin Anda memasukkan
+waktunya juga.
 
 767
 00:32:53,570 --> 00:32:55,957
-And then the server could
-see, well, it has your KC.
+Dan kemudian server bisa
+lihat, baik, ia memiliki KC Anda.
 
 768
 00:32:55,957 --> 00:32:57,790
-It could hash the current
-timestamp as well.
+Itu bisa hash dari waktu
+saat ini juga.
 
 769
 00:32:57,790 --> 00:32:59,490
-If it gets the same
-value, then yeah,
+Jika dia mendapat 
+nilai yang sama, maka yah,
 
 770
 00:32:59,490 --> 00:33:01,281
-it's probably the right
-user requesting it.
+mungkin pengguna
+yang benar yang meminta itu.
 
 771
 00:33:01,281 --> 00:33:02,870
-And I can send back the ticket.
+Dan saya bisa mengirim kembali tiketnya.
 
 772
 00:33:02,870 --> 00:33:06,420
-If not, then it wasn't
-the right password at all.
+Jika tidak, maka itu bukan
+kata sandi yang benar sama sekali.
 
 773
 00:33:06,420 --> 00:33:06,970
-Question?
+Pertanyaan?
 
 774
 00:33:06,970 --> 00:33:13,041
-STUDENT: [INAUDIBLE] you just do
-[INAUDIBLE] if the servers see
+MAHASISWA: [Tak terdengar] Anda baru saja melakukannya
+[Tak terdengar] jika server melihat
 
 775
 00:33:13,041 --> 00:33:14,545
-too many requests [INAUDIBLE]
+terlalu banyak permintaan [Tak terdengar]
 
 776
 00:33:14,545 --> 00:33:15,545
-PROFESSOR: That's right.
+PROFESOR: Itu benar.
 
 777
 00:33:15,545 --> 00:33:17,570
-So the problem is that
-we could write limit.
+Jadi masalahnya adalah
+kita bisa menulis batas.
 
 778
 00:33:17,570 --> 00:33:19,070
-But there's no
-reason for the hacker
+Tapi tidak ada
+alasan hacker
 
 779
 00:33:19,070 --> 00:33:21,120
