@@ -6636,7 +6636,7 @@ yang ada pada stack di atas kita.
 1401
 00:59:40,934 --> 00:59:42,600
 Jadi kita dapat memeriksa
-apakah itu masalahnya.
+apakah itu kasusnya.
 
 1402
 00:59:42,600 --> 00:59:47,064
@@ -6668,11 +6668,11 @@ sekali lagi, memeriksa apa
 
 1408
 00:59:59,530 --> 01:00:03,290
-yang seang terjadi di penunjuk EBP itu.
+yang sedang terjadi di penunjuk EBP itu.
 
 1409
 01:00:03,290 --> 01:00:05,095
-Tanda dollar, EBP.
+Tanda dolar, EBP.
 
 1410
 01:00:05,095 --> 01:00:06,610
@@ -6721,7 +6721,7 @@ Dan dia akan crash.
 
 1420
 01:00:27,196 --> 01:00:29,840
-Itulah kesalahan segmentasi
+Itulah segmentation fault
 yang Anda dapatkan.
 
 1421
@@ -6758,7 +6758,7 @@ dua instruksi lagi.
 
 1428
 01:00:46,400 --> 01:00:49,260
-nexit.
+nexti.
 
 1429
 01:00:49,260 --> 01:00:51,531
@@ -7041,8 +7041,8 @@ Mungkin tidak demikian dalam kasus ini.
 
 1489
 01:02:56,710 --> 01:02:58,470
-Tetapi dalam situasi-
-situasi lain, Anda harus
+Tetapi dalam situasi-situasi
+lain, Anda harus
 
 1490
 01:02:58,470 --> 01:03:01,110
@@ -7081,7 +7081,7 @@ alamat 4141 yang malang itu.
 
 1497
 01:03:19,570 --> 01:03:20,120
-Ke sini.
+Di sini.
 
 1498
 01:03:20,120 --> 01:03:20,987
@@ -7120,7 +7120,7 @@ penunjuk perintah yang tidak sesuai
 1505
 01:03:39,700 --> 01:03:42,730
 dengan sebuah page yang sah
-dalam page table sistem operasi
+dalam tabel halaman sistem operasi
 
 1506
 01:03:42,730 --> 01:03:44,770
@@ -7250,8 +7250,8 @@ mereset breakpoint-nya.
 
 1534
 01:04:33,030 --> 01:04:35,450
-Jadi saya bisa menyela
-dan mengalihan lagi.
+Jadi saya bisa berhenti
+dan mengalihkan lagi.
 
 1535
 01:04:35,450 --> 01:04:36,570
