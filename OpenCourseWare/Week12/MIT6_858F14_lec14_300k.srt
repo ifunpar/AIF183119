@@ -4311,7 +4311,7 @@ melalui koneksi terenkripsi.
 
 910
 00:38:50,749 --> 00:38:52,540
-Jadi strategi paling umum
+Jadi strategi umum
 untuk hal ini adalah kita akan
 
 911
@@ -4334,7 +4334,7 @@ yang-- baiklah, pertama-tama
 
 915
 00:39:07,640 --> 00:39:10,190
-Hal yang keren dari memperkenalkan
+hal yang keren dari memperkenalkan
 skema URL yang baru adalah
 
 916
@@ -4354,8 +4354,8 @@ memiliki asal yang berbeda
 
 919
 00:39:19,290 --> 00:39:23,420
-sejauh menyangkut kebijakan dari asal
-yang sama dari URL HTTP
+berkaitan dengan kebijakan asal
+yang sama (same origin policy) dari URL HTTP
 
 920
 00:39:23,420 --> 00:39:24,350
@@ -4363,13 +4363,13 @@ biasa.
 
 921
 00:39:24,350 --> 00:39:26,680
-Jadi URL HTTP biasa akan berakhir 
+Jadi URL HTTP berjalan
 pada koneksi yang tidak terenkripsi.
 
 922
 00:39:26,680 --> 00:39:29,430
-Koneksi tersebut akan
-menuju SSL/TLS.
+Koneksi tersebut berjalan
+di atas SSL/TLS.
 
 923
 00:39:29,430 --> 00:39:31,770
@@ -4378,7 +4378,7 @@ melihat keduanya jika kebijakan
 
 924
 00:39:31,770 --> 00:39:35,130
-asalnya melakukan pekerjaannya dengan baik.
+asal yang samanya melakukan pekerjaannya dengan baik.
 
 925
 00:39:35,130 --> 00:39:37,320
@@ -4386,13 +4386,13 @@ Jadi hal tersebut menjadi sebuah teka-teki.
 
 926
 00:39:37,320 --> 00:39:39,180
-Namun kemudian Anda 
+Namun kemudian Anda
 harus dapat memastikan
 
 927
 00:39:39,180 --> 00:39:44,040
 bahwa Anda mengenali dengan benar
-situs-situs terenkripsi yang berbeda
+situs-situs terenkripsi yang berbeda yang
 
 928
 00:39:44,040 --> 00:39:44,940
@@ -4400,7 +4400,7 @@ satu dengan yang lain.
 
 929
 00:39:44,940 --> 00:39:47,420
-Namun ternyata kemudian cookie
+Namun ternyata cookie
 memiliki aturan yang berbeda
 
 930
@@ -4414,12 +4414,12 @@ bagaimana cara kita
 
 932
 00:39:50,530 --> 00:39:52,740
-untuk mengenali situs-situs
+untuk membedakan situs-situs
 terenkripsi yang berbeda
 
 933
 00:39:52,740 --> 00:39:53,980
-antara satu sama lain.
+antara satu dengan yang lain.
 
 934
 00:39:53,980 --> 00:39:56,010
@@ -4444,7 +4444,7 @@ oleh
 938
 00:40:09,126 --> 00:40:10,600
 otoritas sertifikat
-di kemudian hari
+di pada akhirnya
 
 939
 00:40:10,600 --> 00:40:14,150
@@ -4479,7 +4479,7 @@ dicari oleh peramban.
 945
 00:40:29,050 --> 00:40:31,970
 Jadi jika peramban mendapatkan
-sertifikat-- ya,
+sertifikat-- yah,
 
 946
 00:40:31,970 --> 00:40:38,016
@@ -4488,7 +4488,7 @@ sebuah URL yaitu https://foo.com,
 
 947
 00:40:38,016 --> 00:40:40,620
-sebaiknya itu menjadi kasus dimana
+sebaiknya itu menjadi kasus di mana
 server menyediakan sertifikat
 
 948
@@ -4569,7 +4569,7 @@ yang sedikit berbeda.
 
 964
 00:41:17,475 --> 00:41:20,800
-Seperti, memiliki asal yang hampir
+Seperti, memiliki kebijakan asal yang
 sama, namun tidak semuanya.
 
 965
@@ -4579,7 +4579,7 @@ rancangan yang sedikit berbeda.
 
 966
 00:41:23,980 --> 00:41:30,610
-Jadi cookies memiliki secure flag ini
+Jadi cookies memiliki tanda aman ini
 yang dapat Anda pasang pada sebuah cookie.
 
 967
@@ -4623,7 +4623,7 @@ untuk posting HTTPS,
 
 975
 00:41:57,080 --> 00:41:58,700
-dan ini adalah cookie 
+dan ini adalah cookie
 untuk host HTTPS.
 
 976
@@ -4695,7 +4695,7 @@ dilakukan peramban web
 990
 00:42:32,490 --> 00:42:38,870
 untuk mencoba membantu kita dalam
-rencana ini adalah untuk aspek UI,
+rencana ini adalah untuk aspek antarmuka pengguna,
 
 991
 00:42:38,870 --> 00:42:43,540
@@ -4736,7 +4736,7 @@ memasukkan hal-hal pribadi
 
 999
 00:43:00,100 --> 00:43:02,850
-kedalam sebuah halaman web, maka
+ke dalam sebuah halaman web, maka
 Anda seharusnya melihat pada URL,
 
 1000
@@ -4761,7 +4761,7 @@ akan baik-baik saja.
 
 1004
 00:43:10,755 --> 00:43:12,735
-Jadi itulah aspek UI-nya.
+Jadi itulah aspek antarmuka-nya.
 
 1005
 00:43:12,735 --> 00:43:13,360
