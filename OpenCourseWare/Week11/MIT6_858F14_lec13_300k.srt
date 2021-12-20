@@ -3410,19 +3410,17 @@ versi 5 telah memperbaiki ini
 717
 00:31:05,040 --> 00:31:07,770
 secara eksplisit
-mengotentikasi pesan.
+mengautentikasi pesan.
 
 718
 00:31:07,770 --> 00:31:11,940
-Hal lain yang mereka sortir
-dari sebuah masalah dengan
+Hal lain di mana mereka
+memiliki masalah
 
 719
 00:31:11,940 --> 00:31:14,820
-is the ability for
-arbitrary clients
 adalah kemampuan untuk
-sewenang-wenang klien
+klien apapun
 
 720
 00:31:14,820 --> 00:31:17,220
@@ -3430,13 +3428,13 @@ untuk menebak password orang lain.
 
 721
 00:31:17,220 --> 00:31:21,102
-Jadi ada saran dari
+Jadi apakah ada saran dari
 bagaimana kita bisa memperbaikinya?
 
 722
 00:31:21,102 --> 00:31:22,560
 Bagaimana Anda mencegah?
-serangan menebak
+serangan penebakan password
 
 723
 00:31:22,560 --> 00:31:24,826
@@ -3448,11 +3446,11 @@ Apa yang bisa kita coba?
 
 725
 00:31:26,242 --> 00:31:26,775
-Yeah.
+Yah.
 
 726
 00:31:26,775 --> 00:31:28,024
-MAHASISWA: Semacam salting?
+MAHASISWA: Semacam salting (memberi garam)?
 
 727
 00:31:28,024 --> 00:31:29,400
@@ -3460,12 +3458,12 @@ Saya tidak yakin.
 
 728
 00:31:29,400 --> 00:31:31,540
-PROFESOR: Nah, jadi
+PROFESOR: Yah, jadi
 melakukan salting hanya akan
 
 729
 00:31:31,540 --> 00:31:33,900
-membuat bahwa klien
+berarti bahwa klien
 harus melakukan hash pada kata sandi
 
 730
@@ -3484,7 +3482,7 @@ untuk mencoba melakukan banyak hal.
 733
 00:31:37,659 --> 00:31:39,950
 Jadi mungkin akan lebih
-mahal untuk membangun sebuah dictionary.
+mahal untuk membangun sebuah kamus.
 
 734
 00:31:39,950 --> 00:31:40,449
@@ -3492,8 +3490,8 @@ Ya.
 
 735
 00:31:40,449 --> 00:31:43,109
-STUDENT: Anda dapat [TIDAK TERDENGAR]
-penurunan fungsi?
+MAHASISWA: Anda dapat [TIDAK TERDENGAR]
+turunan fungsi?
 
 736
 00:31:43,109 --> 00:31:44,650
@@ -3508,16 +3506,16 @@ hashing ini sangat mahal.
 738
 00:31:47,949 --> 00:31:49,490
 Jadi itu mungkin
-agak baik kan?
+agak bagus kan?
 
 739
 00:31:49,490 --> 00:31:52,650
 Jadi jika fungsi hash ini membutuhkan
-satu detik untuk menghitung seperti 
+satu detik untuk menghitung seperti
 
 740
 00:31:52,650 --> 00:31:54,404
-yang kalian berdua lakukan di lab,
+yang kalian berdua lakukan di lab dua,
 maka OK, wow, ini
 
 741
@@ -3536,8 +3534,8 @@ rencana yang masuk akal.
 
 744
 00:31:58,351 --> 00:32:00,500
-Jadi dalam kombinasi
-dengan salting, mereka
+Jadi dikombinasikan
+dengan salting, ini
 
 745
 00:32:00,500 --> 00:32:02,880
@@ -3546,7 +3544,7 @@ untuk melakukan serangan
 
 746
 00:32:02,880 --> 00:32:03,987
-password guessing.
+penebakan password.
 
 747
 00:32:03,987 --> 00:32:04,570
@@ -3555,7 +3553,7 @@ Ada lagi?
 748
 00:32:07,035 --> 00:32:08,910
 Jadi hal lainnya adalah,
-ya, tantangan respon.
+ya, challenge response.
 
 749
 00:32:08,910 --> 00:32:11,620
@@ -3589,7 +3587,7 @@ adalah klien yang benar.
 755
 00:32:22,010 --> 00:32:24,980
 Jadi mungkin Anda bisa mengenkripsi
-time stamp saat ini
+waktu saat ini
 
 756
 00:32:24,980 --> 00:32:27,890
@@ -3598,7 +3596,7 @@ atau hal lain
 
 757
 00:32:27,890 --> 00:32:29,455
-yang sejenis-- secara bersamaan.
+yang sejenis-- lakukan hash terhadap mereka.
 
 758
 00:32:29,455 --> 00:32:31,080
@@ -3617,7 +3615,7 @@ kepada Anda tiket.
 761
 00:32:35,330 --> 00:32:37,580
 Anda mungkin tidak ingin
-menambah ronde yang tidak perlu
+menambah ronde baru
 
 762
 00:32:37,580 --> 00:32:38,450
@@ -3630,18 +3628,18 @@ apa yang kira-kira saya sarankan.
 
 764
 00:32:40,760 --> 00:32:44,460
-Oke, mungkin kamu ambil
-stempel waktu saat ini
+Oke, mungkin Anda ambil
+waktu saat ini
 
 765
 00:32:44,460 --> 00:32:51,550
-dan mungkin Anda hash saat ini
-cap waktu dan KC bersama.
+dan mungkin Anda hash
+waktunya dengan KC.
 
 766
 00:32:51,550 --> 00:32:53,570
 Dan mungkin Anda memasukkan
-stempel waktunya juga.
+waktunya juga.
 
 767
 00:32:53,570 --> 00:32:55,957
@@ -3650,18 +3648,18 @@ lihat, baik, ia memiliki KC Anda.
 
 768
 00:32:55,957 --> 00:32:57,790
-Itu bisa hash stempel waktu
+Itu bisa hash dari waktu
 saat ini juga.
 
 769
 00:32:57,790 --> 00:32:59,490
-Jika itu mendapat 
-nilai yang sama, lalu ya,
+Jika dia mendapat 
+nilai yang sama, maka yah,
 
 770
 00:32:59,490 --> 00:33:01,281
-itu mungkin pengguna
-yang benar meminta itu.
+mungkin pengguna
+yang benar yang meminta itu.
 
 771
 00:33:01,281 --> 00:33:02,870
