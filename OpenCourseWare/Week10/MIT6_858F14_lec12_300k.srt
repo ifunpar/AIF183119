@@ -4257,7 +4257,7 @@ nilai TTL yang bukan 255.
 
 894
 00:36:27,220 --> 00:36:29,660
-Karena jika sebuah paket 
+Karena jika sebuah paket
 memiliki nilai 255,
 
 895
@@ -4272,7 +4272,7 @@ lain dari tautan ini.
 
 897
 00:36:33,530 --> 00:36:35,630
-Dan jika musuh mencoba
+Dan jika penyerang mencoba
 menyuntikkan paket apapun
 
 898
@@ -4308,7 +4308,7 @@ sebuah kombinasi pintar
 904
 00:36:50,762 --> 00:36:52,470
 dari sebuah teknik yang
-backwards compatible
+kompatibel ke belakang
 
 905
 00:36:52,470 --> 00:36:54,658
@@ -4341,7 +4341,7 @@ sebuah router fisik.
 911
 00:37:01,830 --> 00:37:03,780
 Dan dia mengetahui
-bahwa ini adalah link yang berbeda.
+bahwa ini adalah tautan yang berbeda.
 
 912
 00:37:03,780 --> 00:37:07,130
@@ -4364,16 +4364,17 @@ Tapi Anda benar.
 
 916
 00:37:13,896 --> 00:37:17,630
-Untuk sebagian besar,
+Untuk sebagian besar kasus,
 router ini mempercayai
 
 917
 00:37:17,630 --> 00:37:19,450
-tetangga dekat mereka.
+tetangga langsung mereka.
 
 918
 00:37:19,450 --> 00:37:20,950
-Belum tentu demikian.
+Namun tidak harus
+selalu begitu.
 
 919
 00:37:20,950 --> 00:37:22,016
@@ -4405,7 +4406,7 @@ paket-paket reset ini?
 
 925
 00:37:29,210 --> 00:37:31,120
-Masalah ini tidak sebesar.
+Masalah ini tidak terlalu besar.
 
 926
 00:37:31,120 --> 00:37:34,736
@@ -4424,11 +4425,11 @@ beberapa perbaikan untuk BGP
 929
 00:37:38,450 --> 00:37:41,550
 di mana mereka mengimplementasi beberapa 
-bentuk header otentikasi,
+bentuk header autentikasi,
 
 930
 00:37:41,550 --> 00:37:43,480
-header otentikasi MD5 
+header autentikasi MD5
 MD5 juga.
 
 931
@@ -4477,13 +4478,13 @@ sebenarnya agak
 
 940
 00:38:07,930 --> 00:38:10,520
-longgar dalam hal nomor
-urut yang mereka terima untuk pengaturan ulang.
+longgar dalam hal nomor urut
+yang mereka terima untuk reset.
 
 941
 00:38:10,520 --> 00:38:13,360
 Itu bisa saja paket apa pun
-dalam jendela apa pun.
+dalam rentang tertentu.
 
 942
 00:38:13,360 --> 00:38:16,730
@@ -4510,7 +4511,7 @@ solusi yang baik untuk itu.
 
 947
 00:38:28,640 --> 00:38:31,576
-Baiklah, dan Saya kira
+Baiklah, dan saya kira
 semacam hal buruk terakhir yang
 
 948
@@ -4545,7 +4546,7 @@ yang mirip seperti rlogin,
 954
 00:38:49,710 --> 00:38:51,990
 tetapi sebenarnya protokol itu tidak
-melakukan otentikasi berbasis IP.
+melakukan autentikasi berbasis IP.
 
 955
 00:38:51,990 --> 00:38:53,364
@@ -4572,8 +4573,8 @@ dan dapat menerima data sembarang.
 
 960
 00:39:01,060 --> 00:39:03,392
-Jadi tunggu salah satu dari kalian
-masuk ke dalam mesin, ketik
+Jadi menunggu salah satu dari kalian
+masuk ke dalam mesin, mengetikkan
 
 961
 00:39:03,392 --> 00:39:04,100
@@ -4586,13 +4587,13 @@ apa kata sandi itu.
 
 963
 00:39:05,235 --> 00:39:07,026
-Tapi begitu Anda
-membuat koneksi TCP,
+Tapi begitu koneksi TCP
+TCP terbangun,
 
 964
 00:39:07,026 --> 00:39:09,120
-Saya akan mencoba menebak
-nomor urut anda
+saya hanya akan mencoba menebak
+nomor urut Anda
 
 965
 00:39:09,120 --> 00:39:11,332
@@ -4612,11 +4613,11 @@ untuk berpura-pura seperti
 968
 00:39:16,005 --> 00:39:18,255
 Anda telah mengetikkan beberapa perintah
-setelah Anda mengautentikasi
+setelah Anda terautentikasi
 
 969
 00:39:18,255 --> 00:39:19,977
-kata sandi Anda dengan benar.
+dengan benar dengan kata sandi Anda.
 
 970
 00:39:19,977 --> 00:39:21,810
@@ -4630,7 +4631,7 @@ nomor urut 32-bit ini
 
 972
 00:39:28,260 --> 00:39:30,430
-untuk memberikan keamanan
+untuk memberikan keamanan.
 
 973
 00:39:30,430 --> 00:39:33,660
@@ -4644,12 +4645,12 @@ masalah ini.
 
 975
 00:39:35,650 --> 00:39:37,650
-Jadi saat kami
+Jadi saat kita
 sedang berdiskusi,
 
 976
 00:39:37,650 --> 00:39:41,170
-Saya kira satu pendekatan yang
+Saya rasa satu pendekatan yang
 akan kita lihat dalam dua
 
 977
@@ -4668,7 +4669,7 @@ untuk autentikasi dan enkripsi
 
 980
 00:39:50,160 --> 00:39:54,460
-menandatangani dan verifikasi pesan-pesan
+dan menandatangani dan verifikasi pesan-pesan
 pada level aplikasi
 
 981
@@ -4693,23 +4694,23 @@ untuk mengeksploitasi masalah-masalah ini.
 
 985
 00:40:07,160 --> 00:40:09,360
-Dan saya kira cara
-orang melakukannya
+Dan saya rasa cara
+orang melakukan hal ini
 
 986
 00:40:09,360 --> 00:40:13,200
-dalam praktik saat ini-- untuk
+dalam praktiknya saat ini-- sebagai
 contoh Linux dan Windows--
 
 987
 00:40:13,200 --> 00:40:17,360
-adalah mereka mengimplementasi sugesti
+adalah mereka mengimplementasi usulan
 yang diberikan John sebelumnya,
 
 988
 00:40:17,360 --> 00:40:20,920
-yang kami pertahankan bahwa
-nomor urut awal adalah berbeda
+bahwa kita mengelola
+nomor urut awal yang berbeda
 
 989
 00:40:20,920 --> 00:40:22,820
@@ -4723,12 +4724,12 @@ diimplementasi oleh SYN TCP
 
 991
 00:40:29,110 --> 00:40:33,200
-masih membuat mereka mengkomputasi
+adalah masih membuat mereka menghitung
 nomor urut awal ini sama
 
 992
 00:40:33,200 --> 00:40:34,590
-seperti yang kita hitung sebelumnya.
+seperti yang kita lakukan sebelumnya.
 
 993
 00:40:34,590 --> 00:40:39,600
@@ -4747,12 +4748,12 @@ koneksi tertentu,
 
 996
 00:40:44,650 --> 00:40:48,130
-kita akan menambahkan 32 bit
-offset secara acak.
+kita akan menambahkan
+offset acak 32 bit.
 
 997
 00:40:48,130 --> 00:40:51,005
-Jadi kita akan menambahkan
+Jadi kita akan mengikutsertakan
 semacam fungsi.
 
 998
