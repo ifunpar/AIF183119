@@ -4599,7 +4599,7 @@ menjadi dua kategori berbeda.
 
 978
 00:54:02,010 --> 00:54:03,057
-Hanya itu.
+Itu saja.
 
 979
 00:54:03,057 --> 00:54:05,140
@@ -4608,16 +4608,16 @@ pesan yang memungkinkan.
 
 980
 00:54:05,140 --> 00:54:06,670
-Ini adalah bilangan arbitrer.
+Ini adalah bilangan apapun.
 
 981
 00:54:06,670 --> 00:54:10,410
 Saya akan memecahnya menjadi
-dua kategori, di mana
+dua kategori, di mana salah satunya
 
 982
 00:54:10,410 --> 00:54:14,860
-salah satu pesannya relatif 
+pesannya relatif 
 prima dalam kaitannya dengan bilangan prima,
 
 983
@@ -4631,7 +4631,7 @@ Dan itu bukan kelipatan dari p.
 985
 00:54:17,710 --> 00:54:19,460
 Itulah cara Anda
-untuk memikirkannya.
+memikirkannya.
 
 986
 00:54:19,460 --> 00:54:24,100
@@ -4646,7 +4646,7 @@ adalah gcd dari mp sama dengan 1.
 988
 00:54:28,850 --> 00:54:32,330
 Dan selanjutnya kasus yang lain akan 
-menjadi sepele, sebenarnya, 
+menjadi trivial, sebenarnya,
 
 989
 00:54:32,330 --> 00:54:38,060
@@ -4687,7 +4687,7 @@ Jadi gcd dari 2p dan p adalah p.
 
 998
 00:54:53,551 --> 00:54:54,675
-Jadi mereka adalah dua kasusnya.
+Jadi itu adalah kedua kasusnya.
 
 999
 00:54:57,290 --> 00:54:59,060
@@ -4750,12 +4750,12 @@ dengan k kali q dikurang 1.
 1012
 00:55:37,254 --> 00:55:39,170
 Dan Anda akan melihat mengapa saya
-melakukannya dengan singkat.
+melakukannya sebentar lagi.
 
 1013
 00:55:39,170 --> 00:55:42,270
 Karena di sini saya ingin mendapatkan
-faktor dari 1 ditambah k phi.
+faktor 1 ditambah k phi di sini.
 
 1014
 00:55:42,270 --> 00:55:44,730
@@ -4924,17 +4924,17 @@ yang pada dasarnya adalah 0 modulo p
 
 1049
 00:57:44,790 --> 00:57:48,010
-Dan ketika Anda mendekripsikannya
+Dan ketika Anda mendekripsinya
 di sisi itu, Anda mendapatkan 0.
 
 1050
 00:57:48,010 --> 00:57:54,800
 Tetapi satu baris terakhir di sini
-sederhananya adalah m dipangkatkan ed
+sesederhana m dipangkatkan ed
 
 1051
 00:57:54,800 --> 00:58:04,090
-adalah m secara sepele semuanya ini
+adalah m secara trivial semuanya ini
 modulo p jika m adalah 0, kan?
 
 1052
@@ -5002,7 +5002,7 @@ Dan saya katakan p dan q adalah bilangan prima.
 
 1066
 00:58:39,340 --> 00:58:42,770
-Dan pertama saya melihat p.
+Dan melihat p terlebih dahulu.
 
 1067
 00:58:42,770 --> 00:58:45,690
@@ -5025,7 +5025,7 @@ menggabungkannya untuk n.
 
 1071
 00:58:56,160 --> 00:59:00,530
-Dan alasannya adalah sederhananya 
+Dan alasannya adalah
 karena saya memiliki n disini.
 
 1072
@@ -5039,7 +5039,7 @@ dekripsi itu
 
 1074
 00:59:06,460 --> 00:59:09,580
-akan dilakukan dimodulo o.
+akan dilakukan di modulo o.
 
 1075
 00:59:09,580 --> 00:59:13,210
@@ -5048,7 +5048,7 @@ dilakukan modulo n, karena n
 
 1076
 00:59:13,210 --> 00:59:15,760
-hanyalah nomor kunci publik
+hanyalah numor publik
 yang Anda miliki
 
 1077
@@ -5075,12 +5075,12 @@ dan q juga bilangan prima.
 
 1082
 00:59:31,710 --> 00:59:34,910
-Tapi saya harus melakukan satu hal terakhir, 
-yaitu menempatkan dua 
+Tapi saya harus melakukan satu hal terakhir,
+yaitu menempatkan dua
 
 1083
 00:59:34,910 --> 00:59:39,130
-bilangan ini bersama dan mengatakan 
+bilangan ini bersama dan mengatakan
 bahwa n sama dengan p dikali q,
 
 1084
