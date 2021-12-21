@@ -5060,11 +5060,11 @@ dapat mendefinisikan sebuah fungsi satu arah
 1099
 00:47:52,750 --> 00:47:55,990
 seperti fungsi hash,
-seperti perkalian
+seperti mengalikan
 
 1100
 00:47:55,990 --> 00:47:59,260
-p kali q untuk mendapatkan n.
+p dengan q untuk mendapatkan n.
 
 1101
 00:47:59,260 --> 00:48:01,390
@@ -5073,7 +5073,7 @@ selain ini,
 
 1102
 00:48:01,390 --> 00:48:05,170
-apakah semuanya memilih beberapa titik pada
+adalah semuanya memilih beberapa titik pada
 kurva, dan kita menyebutnya G.
 
 1103
@@ -5083,7 +5083,7 @@ Dan itu acak.
 1104
 00:48:06,130 --> 00:48:08,770
 Dan kita ingin itu menjadi
-sedikit agar bisa diverifikasi secara acak.
+acak dan dapat diverifikasi.
 
 1105
 00:48:08,770 --> 00:48:12,220
@@ -5093,7 +5093,7 @@ setuju pada sebuah titik.
 1106
 00:48:12,220 --> 00:48:15,760
 Dan kita akan menyebutnya
-pembangkit titik.
+titik pembangkit.
 
 1107
 00:48:15,760 --> 00:48:20,290
@@ -5103,16 +5103,16 @@ itu semua adalah modulo, angka ini,
 1108
 00:48:20,290 --> 00:48:23,950
 jika B terlalu besar, Anda akan
-melapisinya, benar,
+berputar, benar,
 
 1109
 00:48:23,950 --> 00:48:26,380
-Karena itu semua adalah modulo, ini n.
+karena itu semua adalah modulo, n ini.
 
 1110
 00:48:26,380 --> 00:48:28,690
 Sehingga disebut sebagai
-pembangkit titik karena--
+titik pembangkit karena--
 
 1111
 00:48:28,690 --> 00:48:30,550
@@ -5121,7 +5121,7 @@ kurva dapat menjadi satu--
 
 1112
 00:48:30,550 --> 00:48:33,790
-Jika Anda tetap, mengatakan,
+jika Anda tetap, mengatakan,
 2G, 3G, 4G, 5G,
 
 1113
@@ -5146,7 +5146,7 @@ fungsi satu arah yang keren
 1117
 00:48:48,070 --> 00:48:49,960
 diberikan operasi ini
-dan faktanya
+dan fakta
 
 1118
 00:48:49,960 --> 00:48:53,250
@@ -5155,7 +5155,7 @@ titik yang disepakati?
 
 1119
 00:48:53,250 --> 00:48:55,140
-ini sangat tidak jelas,
+Ini tidak sangat jelas,
 tapi sebenarnya
 
 1120
@@ -5169,7 +5169,7 @@ Anda akan, oh.
 
 1122
 00:49:01,020 --> 00:49:01,530
-Ide lain?
+Ada ide?
 
 1123
 00:49:01,530 --> 00:49:01,710
@@ -5187,8 +5187,8 @@ dengan beberapa skalar,
 
 1126
 00:49:05,935 --> 00:49:09,550
-dan Anda publikasikan dimana 
-titik adalah [TIDAK TERDENGAR] skalar.
+dan Anda publikasikan di mana
+titiknya adalah skalar [TIDAK TERDENGAR].
 
 1127
 00:49:09,550 --> 00:49:11,260
@@ -5220,12 +5220,12 @@ seperti dalam tanda tangan lamport.
 1133
 00:49:23,490 --> 00:49:26,340
 Dan kunci publik Anda
-hanya satu kali G.
+hanyalah a kali G.
 
 1134
 00:49:26,340 --> 00:49:30,810
-Dan kunci publik Anda 
-sekarang menjadi titik pada kurva.
+Dan kunci publik Anda
+sekarang adalah titik pada kurva.
 
 1135
 00:49:30,810 --> 00:49:32,280
@@ -5271,12 +5271,12 @@ optimasi yang terjadi
 1144
 00:49:50,430 --> 00:49:52,410
 di semua sistem
-kripto yang berbeda.
+mata uang kripto yang berbeda.
 
 1145
 00:49:52,410 --> 00:49:53,827
 Karena mereka tidak
-terukur dengan baik.
+terlalu skalabel.
 
 1146
 00:49:53,827 --> 00:49:58,592
@@ -5293,7 +5293,7 @@ TADGE DRYJA: Anda bisa.
 
 1149
 00:50:01,190 --> 00:50:02,065
-Jadi Anda dapat melakukan hash.
+Jadi Anda dapat melakukan hash terhadapnya.
 
 1150
 00:50:02,065 --> 00:50:05,460
@@ -5321,12 +5321,12 @@ Bitcoin pada awalnya
 1155
 00:50:16,640 --> 00:50:19,980
 adalah Anda akan memiliki
-publik kunci 64 byte.
+kunci publik 64 byte.
 
 1156
 00:50:19,980 --> 00:50:22,320
 Lalu Anda akan mengirimkan
-ke hash dari mereka.
+hash dari mereka.
 
 1157
 00:50:22,320 --> 00:50:25,500
@@ -5382,15 +5382,15 @@ Lalu hanya satu bit tersebut--
 
 1169
 00:50:50,810 --> 00:50:51,790
-4-- Ini ada di atas.
+4-- itu ada di atas.
 
 1170
 00:50:51,790 --> 00:50:53,030
-Ini ada di bawah.
+Itu ada di bawah.
 
 1171
 00:50:53,030 --> 00:50:56,210
-Lalu biarkan mereka mencari tau
+Lalu biarkan mereka mencari tahu
 dengan jelas dimana itu, benar?
 
 1172
@@ -5420,7 +5420,7 @@ bit di dalamnya untuk naik atau turun.
 
 1177
 00:51:08,780 --> 00:51:10,200
-Tapi terserah.
+Tapi begitulah.
 
 1178
 00:51:10,200 --> 00:51:13,200
@@ -5469,7 +5469,7 @@ perlu memiliki ukuran yang sama
 
 1188
 00:51:31,910 --> 00:51:33,577
-Jika Anda menggunakan
+jika Anda menggunakan
 sistem koordinat yang lain.
 
 1189
@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Ya, Anda perlu menyandikan sisi miring--
+Ya, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
