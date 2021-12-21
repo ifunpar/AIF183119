@@ -5033,421 +5033,421 @@ semua hal matematis dan lain nya.
 
 1093
 00:47:38,380 --> 00:47:41,105
-But you just sort of say,
-OK, here's my toolbox.
+Tapi Anda hanya mengatakan,
+Oke, ini kotak peralatan saya.
 
 1094
 00:47:41,105 --> 00:47:41,980
-Here's what I can do.
+Ini yang dapat saya lakukan.
 
 1095
 00:47:44,950 --> 00:47:45,450
-OK.
+Oke.
 
 1096
 00:47:45,450 --> 00:47:46,033
-Any questions?
+Ada pertanyaan?
 
 1097
 00:47:46,033 --> 00:47:47,370
-Good?
+Paham?
 
 1098
 00:47:47,370 --> 00:47:52,750
-So now what we can do is we
-can define a one-way function
+Sehingga yang dapat kita lakukan sekarang adalah kita 
+dapat mendefinisikan sebuah fungsi satu arah
 
 1099
 00:47:52,750 --> 00:47:55,990
-sort of like a hash function,
-sort of like multiplying
+seperti fungsi hash,
+seperti mengalikan
 
 1100
 00:47:55,990 --> 00:47:59,260
-p times q to get n.
+p dengan q untuk mendapatkan n.
 
 1101
 00:47:59,260 --> 00:48:01,390
-What we will need,
-in addition to this,
+Apa yang akan kita butuhkan,
+selain ini,
 
 1102
 00:48:01,390 --> 00:48:05,170
-is everyone pick some point on
-the curve, and we call it G.
+adalah semuanya memilih beberapa titik pada
+kurva, dan kita menyebutnya G.
 
 1103
 00:48:05,170 --> 00:48:06,130
-And it's random.
+Dan itu acak.
 
 1104
 00:48:06,130 --> 00:48:08,770
-And we want it to be
-somewhat verifiably random.
+Dan kita ingin itu menjadi
+acak dan dapat diverifikasi.
 
 1105
 00:48:08,770 --> 00:48:12,220
-We just all have to
-agree on a point.
+Kita semua harus
+setuju pada sebuah titik.
 
 1106
 00:48:12,220 --> 00:48:15,760
-And we'll call this
-the generator point.
+Dan kita akan menyebutnya
+titik pembangkit.
 
 1107
 00:48:15,760 --> 00:48:20,290
-Another property is that, since
-it's all modulo, this number,
+Dan properti lainnya adalah, karena
+itu semua adalah modulo, angka ini,
 
 1108
 00:48:20,290 --> 00:48:23,950
-if B is too big, you'll
-wrap around, right,
+jika B terlalu besar, Anda akan
+berputar, benar,
 
 1109
 00:48:23,950 --> 00:48:26,380
-because it's all modulo, this n.
+karena itu semua adalah modulo, n ini.
 
 1110
 00:48:26,380 --> 00:48:28,690
-So it's called a
-generator point because--
+Sehingga disebut sebagai
+titik pembangkit karena--
 
 1111
 00:48:28,690 --> 00:48:30,550
-and every point on
-the curve can be one--
+dan setiap titik pada
+kurva dapat menjadi satu--
 
 1112
 00:48:30,550 --> 00:48:33,790
-if you keep, say,
+jika Anda tetap, mengatakan,
 2G, 3G, 4G, 5G,
 
 1113
 00:48:33,790 --> 00:48:37,360
-eventually, you'll
-get back to G, right?
+pada akhirnya, Anda akan
+kembali ke G, benar?
 
 1114
 00:48:37,360 --> 00:48:40,840
-It's all finite.
+Semuanya terbatas.
 
 1115
 00:48:40,840 --> 00:48:44,080
-OK so does anyone
-have an idea, OK,
+Oke apakah ada
+yang memiliki ide, Oke,
 
 1116
 00:48:44,080 --> 00:48:48,070
-how would we make some
-cool one-way function
+bagaimana kita akan membuat beberapa
+fungsi satu arah yang keren
 
 1117
 00:48:48,070 --> 00:48:49,960
-given these operations
-and the fact
+diberikan operasi ini
+dan fakta
 
 1118
 00:48:49,960 --> 00:48:53,250
-that we have an
-agreed-upon point?
+bahwa kita memiliki
+titik yang disepakati?
 
 1119
 00:48:53,250 --> 00:48:55,140
-It's not super obvious,
-but it's actually
+Ini tidak sangat jelas,
+tapi sebenarnya
 
 1120
 00:48:55,140 --> 00:48:56,850
-fairly straightforward.
+cukup mudah.
 
 1121
 00:48:56,850 --> 00:48:58,302
-Once you see it,
-you're like, oh.
+Begitu Anda melihatnya.
+Anda akan, oh.
 
 1122
 00:49:01,020 --> 00:49:01,530
-Any ideas?
+Ada ide?
 
 1123
 00:49:01,530 --> 00:49:01,710
-Yeah.
+Yah.
 
 1124
 00:49:01,710 --> 00:49:03,285
-AUDIENCE: So you
-take your point G,
+AUDIENS: jadi Anda
+ambil poin G Anda,
 
 1125
 00:49:03,285 --> 00:49:05,935
-and you multiply
-it by some scalar,
+dan Anda kalikan
+dengan beberapa skalar,
 
 1126
 00:49:05,935 --> 00:49:09,550
-and you publish where the
-point is [INAUDIBLE] scalars.
+dan Anda publikasikan di mana
+titiknya adalah skalar [TIDAK TERDENGAR].
 
 1127
 00:49:09,550 --> 00:49:11,260
-TADGE DRYJA: Yep, yep.
+TADGE DRYJA: Ya, ya.
 
 1128
 00:49:11,260 --> 00:49:11,760
-OK.
+Oke.
 
 1129
 00:49:11,760 --> 00:49:13,630
-So your private key--
+Jadi kunci privat Anda--
 
 1130
 00:49:13,630 --> 00:49:15,720
-let's say private
-key, lowercase a,
+katakanlah kunci
+privat, a huruf kecil,
 
 1131
 00:49:15,720 --> 00:49:18,930
-it's just some 256 bit
-random number, scalar,
+itu hanya sekitar 256 bit
+bilangan acak, skalar,
 
 1132
 00:49:18,930 --> 00:49:23,490
-exactly the same as 32 bytes
-like in a lamport signature.
+persis sama dengan 32 byte
+seperti dalam tanda tangan lamport.
 
 1133
 00:49:23,490 --> 00:49:26,340
-And your public key
-is just a times G.
+Dan kunci publik Anda
+hanyalah a kali G.
 
 1134
 00:49:26,340 --> 00:49:30,810
-And your public key is
-now a point on a curve.
+Dan kunci publik Anda
+sekarang adalah titik pada kurva.
 
 1135
 00:49:30,810 --> 00:49:32,280
-We're going to call
-it uppercase A.
+Kita akan menyebutnya
+huruf A kapital.
 
 1136
 00:49:32,280 --> 00:49:35,340
-And you have a 32 byte
-x-coordinate, right--
+Dan Anda mempunyai 32 byte
+koordinat x, benar--
 
 1137
 00:49:35,340 --> 00:49:38,540
-because the x
-dimension is 256 bits--
+karena x itu
+dimensinya 256 bit--
 
 1138
 00:49:38,540 --> 00:49:39,930
-32 byte y-coordinate.
+32 bit koordinat y.
 
 1139
 00:49:39,930 --> 00:49:41,250
-So it's 64 bytes--
+Jadi itu 64 bit--
 
 1140
 00:49:41,250 --> 00:49:42,150
-pretty small.
+cukup kecil.
 
 1141
 00:49:42,150 --> 00:49:45,420
-Anyone have another
-quick optimization
+Adakah yang memiliki
+optimasi cepat lainnya
 
 1142
 00:49:45,420 --> 00:49:47,520
-on how you could reduce this?
+tentang bagaimana Anda dapat mengurangi ini?
 
 1143
 00:49:47,520 --> 00:49:50,430
-So there's a lot of
-optimization going on
+Jadi ada banyak
+optimasi yang terjadi
 
 1144
 00:49:50,430 --> 00:49:52,410
-in all these different
-cryptocurrency systems.
+di semua sistem
+mata uang kripto yang berbeda.
 
 1145
 00:49:52,410 --> 00:49:53,827
-Because they don't
-scale too well.
+Karena mereka tidak
+terlalu skalabel.
 
 1146
 00:49:53,827 --> 00:49:58,592
-But any idea of how
-to get that down?
+Tapi apakah ada ide
+untuk menurunkannya?
 
 1147
 00:49:58,592 --> 00:50:00,232
-AUDIENCE: Can you hash it?
+AUDIENS: Bisakah Anda melakukan hash?
 
 1148
 00:50:00,232 --> 00:50:01,190
-TADGE DRYJA: You could.
+TADGE DRYJA: Anda bisa.
 
 1149
 00:50:01,190 --> 00:50:02,065
-So you could hash it.
+Jadi Anda dapat melakukan hash terhadapnya.
 
 1150
 00:50:02,065 --> 00:50:05,460
-You'd make it into 32 bytes.
+Anda akan membuatnya sampai 32 byte.
 
 1151
 00:50:05,460 --> 00:50:08,888
-There's a more useful way.
+Ada cara yang lebih berguna.
 
 1152
 00:50:08,888 --> 00:50:11,430
-But if you hash it, you still
-have to reveal it later, right?
+Tapi jika Anda meng-hash itu, Anda masih
+harus mengungkapkan itu nanti, benar?
 
 1153
 00:50:11,430 --> 00:50:14,190
-So it helps, making
-a pubkey hash.
+Jadi itu membantu, membuat
+sebuah hash pubkey.
 
 1154
 00:50:14,190 --> 00:50:16,640
-And that's what
-Bitcoin did initially
+Dan itulah yang dilakukan
+Bitcoin pada awalnya
 
 1155
 00:50:16,640 --> 00:50:19,980
-is you'd have the
-64 byte public keys.
+adalah Anda akan memiliki
+kunci publik 64 byte.
 
 1156
 00:50:19,980 --> 00:50:22,320
-And then you'd send
-to the hash of them.
+Lalu Anda akan mengirimkan
+hash dari mereka.
 
 1157
 00:50:22,320 --> 00:50:25,500
-There's a nicer way.
+Ada cara yang lebih baik.
 
 1158
 00:50:25,500 --> 00:50:26,470
-Any ideas?
+Ide lain?
 
 1159
 00:50:26,470 --> 00:50:26,970
-OK.
+Oke.
 
 1160
 00:50:26,970 --> 00:50:31,770
-So the thing is it's
-symmetric, right?
+Jadi masalahnya adalah
+itu simetris, benar?
 
 1161
 00:50:31,770 --> 00:50:36,630
-So the curve is symmetric
-about the x-axis.
+Jadi kurva nya simetris
+terhadap sumbu x.
 
 1162
 00:50:39,490 --> 00:50:40,750
-Any ideas?
+Ide lain?
 
 1163
 00:50:40,750 --> 00:50:41,380
-yes.
+ya.
 
 1164
 00:50:41,380 --> 00:50:43,880
-AUDIENCE: Could you just code
-one of the x- or y-coordinates
+AUDIENS: Bisakah Anda mengkodekan
+satu dari koordinat x atau koordinat y
 
 1165
 00:50:43,880 --> 00:50:44,948
-and say which side?
+dan katakan sisi mana?
 
 1166
 00:50:44,948 --> 00:50:45,740
-TADGE DRYJA: Right.
+TADGE DRYJA: Benar.
 
 1167
 00:50:45,740 --> 00:50:49,643
-So you take the x-coordinate
-and encode that.
+Jadi Anda mengambil koordinat x
+dan menyandikan itu.
 
 1168
 00:50:49,643 --> 00:50:50,810
-And then just that one bit--
+Lalu hanya satu bit tersebut--
 
 1169
 00:50:50,810 --> 00:50:51,790
-4-- it's on the top.
+4-- itu ada di atas.
 
 1170
 00:50:51,790 --> 00:50:53,030
-It's on the bottom.
+Itu ada di bawah.
 
 1171
 00:50:53,030 --> 00:50:56,210
-And then let them figure out
-exactly where it is, right?
+Lalu biarkan mereka mencari tahu
+dengan jelas dimana itu, benar?
 
 1172
 00:50:56,210 --> 00:50:58,760
-So you can encode the
-x-coordinate only and 1 bit
+Jadi Anda bisa menyandikan
+koordinat x saja dan 1 bit
 
 1173
 00:50:58,760 --> 00:51:01,370
-for y, and then you're
-down to 33 bytes.
+untuk y, lalu Anda
+turun ke 33 byte.
 
 1174
 00:51:01,370 --> 00:51:03,830
-It's a little annoying
-because the 33 bytes, well,
+Ini sedikit menyebalkan
+karena 33 byte, baik,
 
 1175
 00:51:03,830 --> 00:51:06,160
-one of those bytes
-is going to be empty.
+satu dari byte tersebut
+akan menjadi tidak terisi.
 
 1176
 00:51:06,160 --> 00:51:08,780
-It's just going to have one
-bit in it for up or down.
+Ini hanya akan memiliki satu
+bit di dalamnya untuk naik atau turun.
 
 1177
 00:51:08,780 --> 00:51:10,200
-But whatever.
+Tapi begitulah.
 
 1178
 00:51:10,200 --> 00:51:13,200
-So you can do that, and
-that's also really cool.
+Jadi Anda bisa melakukan itu, dan
+itu juga sangat keren.
 
 1179
 00:51:13,200 --> 00:51:14,060
-OK.
+Oke.
 
 1180
 00:51:14,060 --> 00:51:17,210
-Any questions so far?
+Sejauh ini ada pertanyaan?
 
 1181
 00:51:17,210 --> 00:51:21,310
-AUDIENCE: Could you encode
-a [INAUDIBLE] and same
+AUDIENS: Bisakah Anda menyandikan
+[TIDAK TERDENGAR] dan sama
 
 1182
 00:51:21,310 --> 00:51:22,252
-up and down?
+naik dan turun?
 
 1183
 00:51:22,252 --> 00:51:24,136
-Could you just encode
-an [INAUDIBLE]??
+Bisakah kamu hanya menyandikan
+[TIDAK TERDENGAR]??
 
 1184
 00:51:24,136 --> 00:51:25,550
@@ -5455,22 +5455,22 @@ TADGE DRYJA: Huh.
 
 1185
 00:51:25,550 --> 00:51:26,720
-Probably.
+Mungkin.
 
 1186
 00:51:26,720 --> 00:51:29,750
-But I don't think
-it would be smaller.
+Tapi saya tidak berpikir
+ini akan menjadi lebih kecil.
 
 1187
 00:51:29,750 --> 00:51:31,910
-I think you'd have to
-probably have the same size
+Saya kira Anda mungkin
+perlu memiliki ukuran yang sama
 
 1188
 00:51:31,910 --> 00:51:33,577
-if you use some other
-coordinate system.
+jika Anda menggunakan
+sistem koordinat yang lain.
 
 1189
 00:51:36,110 --> 00:51:37,790
@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Yeah, you could encode a slope--
+Ya, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
