@@ -4507,7 +4507,7 @@ masih cukup aman.
 
 953
 00:41:02,710 --> 00:41:04,370
-Tetapi jika anda ingin
+Tetapi jika Anda ingin
 benar-benar aman,
 
 954
@@ -4516,8 +4516,8 @@ gunakan varian 20 putaran.
 
 955
 00:41:05,440 --> 00:41:07,148
-Jika anda ingin
-cukup aman,
+Jika Anda ingin
+cukup aman saja,
 
 956
 00:41:07,148 --> 00:41:08,300
@@ -4530,7 +4530,7 @@ Jadi tidak ada bukti.
 958
 00:41:11,830 --> 00:41:15,460
 Ada heuristik dan hal-hal
-seperti itu, dan praktik terbaik.
+seperti itu, dan saran praktik yang baik.
 
 959
 00:41:15,460 --> 00:41:20,440
@@ -4539,32 +4539,31 @@ adalah sedikit sihir hitam.
 
 960
 00:41:20,440 --> 00:41:24,580
-Dan itu tidak didasarkan pada hal-hal
-teori bilangan matematis yang keren
+Dan itu tidak didasarkan pada
+teori bilangan yang keren,
 
 961
 00:41:24,580 --> 00:41:27,130
-hal-hal, baik, cara 
-kurva eliptik
+ataupun, cara yang sama
+dengan kriptografi kurva
 
 962
 00:41:27,130 --> 00:41:29,800
-kriptografi atau hal-hal RSA.
+eliptik atau hal-hal terkait RSA.
 
 963
 00:41:29,800 --> 00:41:31,330
-Jadi jika anda memecahkan
-RSA, anda dapat berkata,
-
+Jadi jika Anda memecahkan
+RSA, Anda dapat berkata,
 
 964
 00:41:31,330 --> 00:41:34,960
-hai, Saya sekarang dapat memfaktorkan 
-bilangan komposit ini 
+hei, saya sekarang dapat memfaktorkan 
+bilangan komposit ini
 
 965
 00:41:34,960 --> 00:41:37,300
-dengan sangat cepat, itu, 
+dengan sangat cepat, itu,
 dengan sendirinya,
 
 966
@@ -4573,8 +4572,8 @@ sebuah penemuan matematika yang keren.
 
 967
 00:41:39,040 --> 00:41:43,000
-Pecahnya SHA-1, 
-sebenarnya tidak ada 
+Pecahnya SHA-1,
+sebenarnya tidak terkait dengan
 
 968
 00:41:43,000 --> 00:41:44,530
@@ -4582,12 +4581,12 @@ wawasan matematika yang keren.
 
 969
 00:41:44,530 --> 00:41:47,020
-Itu seperti, ya, Kita 
-menemukan ini cukup spesifik,
+Itu seperti, ya, kita
+menemukan cara yang cukup spesifik ini,
 
 970
 00:41:47,020 --> 00:41:50,080
-cara yang aneh Kita
+agak aneh kita
 dapat memecahkan SHA-1
 
 971
@@ -4616,17 +4615,17 @@ Ya.
 
 976
 00:42:03,170 --> 00:42:04,670
-AUDIENCE: Saya Wayne,
+AUDIENS: Saya Wayne,
 dan pertanyaan saya
 
 977
 00:42:04,670 --> 00:42:08,020
-adalah, apakah pemecahan fungsi hash
+adalah, apakah pemecahan sebuah fungsi hash
 benar-benar hanya menebak dan memeriksa,
 
 978
 00:42:08,020 --> 00:42:10,118
-atau adakah 
+atau adakah
 metode lain untuk itu?
 
 979
@@ -4635,23 +4634,23 @@ TADGE DRYJA: Tidak.
 
 980
 00:42:10,910 --> 00:42:16,490
-Jika Anda mengatakan, hei, Saya
+Jika Anda mengatakan, hei, saya
 menemukan tabrakan
 
 981
 00:42:16,490 --> 00:42:19,700
-dengan melakukan dua hingga
+dengan melakukan dua pangkat
 128 percobaan.
 
 982
 00:42:19,700 --> 00:42:21,980
 Satu, tidak ada yang melakukan dua
-hingga 128 percobaan. 
+hingga 128 percobaan.
 
 983
 00:42:21,980 --> 00:42:25,162
-Itu masih terlihat seperti
-diluar teknologi saat ini.
+Itu masih dilihat sebagai
+lebih canggih dari teknologi saat ini.
 
 984
 00:42:25,162 --> 00:42:27,620
@@ -4661,11 +4660,11 @@ fungsinya, itu tidak benar-benar
 985
 00:42:27,620 --> 00:42:29,995
 dianggap memecah karena
-itu semacam definisi,
+itu semacam definisinya,
 
 986
 00:42:29,995 --> 00:42:33,260
-ya, baiklah, kita tahu
+adalah yah, baiklah, kita tahu
 ini panjangnya 256 bit.
 
 987
@@ -4680,34 +4679,34 @@ Anda akan menemukannya.
 989
 00:42:37,700 --> 00:42:39,170
 Jadi itu tidak
-diperhitungkan sebagai terpecahkan.
+diperhitungkan sebagai pemecahan.
 
 990
 00:42:39,170 --> 00:42:43,310
-Sebuah pembobolan diperhitungkan, hei,
-Saya menemukan sebuah gambar awal dalam dua
+Sebuah pemecahan diperhitungkan sebagai, hei,
+saya menemukan sebuah gambar awal dalam dua
 
 991
 00:42:43,310 --> 00:42:45,560
-hingga percobaan ke 240.
+pangkat percobaan ke 240.
 
 992
 00:42:45,560 --> 00:42:49,040
-Atau Saya mempunyai bukti
+Atau saya mempunyai bukti
 yang akan membuat Anda
 
 993
 00:42:49,040 --> 00:42:51,950
 mampu menemukan sebuah gambar awal dalam
-dua sampai percobaan ke 240,
+dua pangkat 240 percobaan,
 
 994
 00:42:51,950 --> 00:42:53,150
-dan ini bagaimana cara melakukannya.
+dan ini adalah bagaimana Anda melakukannya.
 
 995
 00:42:53,150 --> 00:42:55,070
-Dan itu diperhitungkan sebagai pembobolan.
+Dan itu diperhitungkan sebagai pemecahan.
 
 996
 00:42:55,070 --> 00:42:56,210
@@ -4715,21 +4714,21 @@ Hal itu masih tidak praktis.
 
 997
 00:42:56,210 --> 00:42:58,580
-Dua sampai ke 240 tetap
-mustahil pada teknologi
+Dua pangkat 240 tetap
+mustahil dengan teknologi
 
 998
 00:42:58,580 --> 00:43:00,020
-hari ini.
+saat ini.
 
 999
 00:43:00,020 --> 00:43:01,985
-Tetapi jika Anda punya sebuah kertas
-dan orang lain melihatnya,
+Tetapi jika Anda menulis paper
+dan orang lain membacanya,
 
 1000
 00:43:01,985 --> 00:43:04,610
-seperti, oh, yeah, itu akan berkerja,
+seperti, oh, yah, itu akan berkerja,
 Anda tidak akan sanggup melakukan itu.
 
 1001
@@ -4748,18 +4747,18 @@ adalah 16 bytes atau 128 bits.
 
 1004
 00:43:15,810 --> 00:43:19,790
-Jadi bentrokan, bahkan
+Jadi tabrakan, bahkan
 jika itu pernah kuat,
 
 1005
 00:43:19,790 --> 00:43:22,370
 itu akan tetap jadi
-teralu pendek hari ini
+terlalu pendek saat ini
 
 1006
 00:43:22,370 --> 00:43:26,390
-tabrakan itu akan dapat
-ditemukan dalam dua hingga ke 64
+di mana tabrakan akan dapat
+ditemukan dalam dua pangkat 64
 
 1007
 00:43:26,390 --> 00:43:29,540
@@ -4769,7 +4768,7 @@ oleh komputer hari ini.
 1008
 00:43:29,540 --> 00:43:33,230
 Jika Anda menjalankan beberapa hal di
-AWS, Anda dapat mengerjakan dua sampai 64
+AWS, Anda dapat mengerjakan dua pangkat 64
 
 1009
 00:43:33,230 --> 00:43:35,840
@@ -4791,12 +4790,12 @@ Menyenangkan.
 1013
 00:43:41,900 --> 00:43:44,120
 Ethan Hellman,
-seseorang di BU dan Kita
+seseorang di BU dan kita
 
 1014
 00:43:44,120 --> 00:43:49,070
-bekerja bersama, Dia-- dan Kita semua memecahkan 
-IOTA mereka menulis sendiri fungsi
+bekerja bersamanya, dia-- dan kita semua memecahkan 
+IOTA menulis sendiri fungsi
 
 1015
 00:43:49,070 --> 00:43:51,050
@@ -4805,7 +4804,7 @@ beberapa mata uang kripto.
 
 1016
 00:43:51,050 --> 00:43:52,980
-Dan Kita menemukan tabrakan didalamnya.
+Dan kita menemukan tabrakan didalamnya.
 
 1017
 00:43:52,980 --> 00:43:55,180
@@ -4813,7 +4812,7 @@ Dan itu menyenangkan.
 
 1018
 00:43:55,180 --> 00:43:57,072
-Tapi yaa, itu aneh.
+Tapi yah, itu aneh.
 
 1019
 00:43:57,072 --> 00:43:58,280
@@ -4826,7 +4825,7 @@ Saya menulis kode Python ini
 
 1021
 00:44:00,650 --> 00:44:03,740
-dan Kita punya scrip yang berjalan,
+dan kita punya skrip yang berjalan,
 dan kita coba hal ini
 
 1022
@@ -4835,11 +4834,11 @@ dan kita mendapat sebuah tabrakan.
 
 1023
 00:44:05,153 --> 00:44:06,070
-Jadi itu sebuah kesenangan.
+Jadi itu cukup menyenangkan.
 
 1024
 00:44:06,070 --> 00:44:07,400
-Sangat berguna.
+Jadi, kegunaan.
 
 1025
 00:44:07,400 --> 00:44:10,070
@@ -4849,7 +4848,7 @@ hashes ini?
 1026
 00:44:10,070 --> 00:44:12,230
 Banyak hal keren yang dapat Anda
-lakukan dengan mereka.
+lakukan dengan ini.
 
 1027
 00:44:12,230 --> 00:44:14,870
