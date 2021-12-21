@@ -4524,101 +4524,101 @@ dan dekripsi.
 
 962
 00:53:08,770 --> 00:53:13,140
-And so now let's
-go back to here.
+Jadi sekarang mari kita
+kembali ke sini.
 
 963
 00:53:13,140 --> 00:53:15,340
-Now, ed equals 1 mod phi.
+Sekarang, ed sama dengan 1 mod phi.
 
 964
 00:53:15,340 --> 00:53:16,670
-Because I've set that up.
+Karena saya sudah mengaturnya.
 
 965
 00:53:16,670 --> 00:53:20,440
-This is how I
-discovered d given e.
+Ini adalah cara saya
+menemukan d jika diberikan e.
 
 966
 00:53:20,440 --> 00:53:21,440
-So that's a given to me.
+Jadi itu diberikan kepada saya.
 
 967
 00:53:21,440 --> 00:53:26,100
-That's part of what's called
-the key generation phase of RSA.
+Itulah bagian yang disebut sebagai
+fase pembuatan kunci RSA.
 
 968
 00:53:26,100 --> 00:53:29,140
-And that's the
-mathematical relationship
+Dan itulah
+relasi matematis
 
 969
 00:53:29,140 --> 00:53:31,830
-that I keep harping on in
-terms of the relationship
+yang terus saya bicarakan
+dalam hal relasi
 
 970
 00:53:31,830 --> 00:53:34,320
-between the public
-and the private key.
+antara kunci publik
+dan kunci privat.
 
 971
 00:53:34,320 --> 00:53:37,755
-So given that p and q are
-primes, I have two cases.
+Jadi mengingat bahwa p dan q adalah
+bilangan prima, saya memiliki 2 kasus.
 
 972
 00:53:43,530 --> 00:53:50,050
-The first case is
-that gcd of m, p
+Kasus yang pertama adalah
+gcd dari m, p
 
 973
 00:53:50,050 --> 00:53:54,620
-is exactly 1, which
-means that the message m.
+tepat bernilai 1, yang
+berarti itu pesan m.
 
 974
 00:53:54,620 --> 00:53:56,860
-So what I'm comparing
-here, the two cases,
+Jadi yang saya bandingkan
+di sini, pada kedua kasus,
 
 975
 00:53:56,860 --> 00:53:58,220
-is I have the message.
+adalah saya memiliki pesannya.
 
 976
 00:53:58,220 --> 00:53:59,920
-And I'm going to
-break up the messages
+Dan saya akan
+memecah pesannya
 
 977
 00:53:59,920 --> 00:54:02,010
-into two different categories.
+menjadi dua kategori berbeda.
 
 978
 00:54:02,010 --> 00:54:03,057
-That's it.
+Itu saja.
 
 979
 00:54:03,057 --> 00:54:05,140
-There are all kinds of
-messages that are possible.
+Ada semua jenis
+pesan yang memungkinkan.
 
 980
 00:54:05,140 --> 00:54:06,670
-These are arbitrary numbers.
+Ini adalah bilangan apapun.
 
 981
 00:54:06,670 --> 00:54:10,410
-I'm going to break them up into
-two categories, one of which
+Saya akan memecahnya menjadi
+dua kategori, di mana salah satunya
 
 982
 00:54:10,410 --> 00:54:14,860
-where the message is relatively
-prime in relation to the prime,
+pesannya relatif 
+prima dalam kaitannya dengan bilangan prima,
 
 983
 00:54:14,860 --> 00:54:16,080
@@ -4626,480 +4626,480 @@ p.
 
 984
 00:54:16,080 --> 00:54:17,710
-And it's not a multiple of p.
+Dan itu bukan kelipatan dari p.
 
 985
 00:54:17,710 --> 00:54:19,460
-That's the way you
-want to think about it.
+Itulah cara Anda
+memikirkannya.
 
 986
 00:54:19,460 --> 00:54:24,100
-Obviously, gcdmp would
-be 2 if M were 2p.
+Jelas, gcdmp akan
+menjadi 2 jika M adalah 2p.
 
 987
 00:54:24,100 --> 00:54:28,850
-So the case I'm looking
-at is gcd of mp equals 1.
+Jadi kasus yang saya lihat
+adalah gcd dari mp sama dengan 1.
 
 988
 00:54:28,850 --> 00:54:32,330
-And then the another case is
-going to be trivial, actually,
+Dan selanjutnya kasus yang lain akan 
+menjadi trivial, sebenarnya,
 
 989
 00:54:32,330 --> 00:54:38,060
-which is gcd of mp equals p.
+yaitu gcd dari mp sama dengan p.
 
 990
 00:54:38,060 --> 00:54:42,110
-Did I say 2 when I said
-gcd of 2p, p equals 2?
+Apakah saya mengatakan 2 ketika saya mengatakan
+gcd dari 2p, p sama dengan 2?
 
 991
 00:54:42,110 --> 00:54:45,100
-Come on.
+Ayolah.
 
 992
 00:54:45,100 --> 00:54:45,635
-Wake up.
+Bangun.
 
 993
 00:54:45,635 --> 00:54:46,260
-Wow, that's it.
+Wah, itu saja.
 
 994
 00:54:46,260 --> 00:54:47,250
-Perfect.
+Sempurna.
 
 995
 00:54:47,250 --> 00:54:48,230
-Wake up.
+Bangun.
 
 996
 00:54:48,230 --> 00:54:49,710
-OK.
+Baik.
 
 997
 00:54:49,710 --> 00:54:53,551
-So gcd of 2p and p is p.
+Jadi gcd dari 2p dan p adalah p.
 
 998
 00:54:53,551 --> 00:54:54,675
-So those are the two cases.
+Jadi itu adalah kedua kasusnya.
 
 999
 00:54:57,290 --> 00:54:59,060
-All right.
+Baiklah.
 
 1000
 00:54:59,060 --> 00:55:05,576
-So by Fermat's
-Little Theorem, this
+Jadi dengan Teorema
+Kecil Fermat, ini
 
 1001
 00:55:05,576 --> 00:55:06,700
-is really Fermat's theorem.
+benar-benar teorema Fermat.
 
 1002
 00:55:06,700 --> 00:55:08,920
-And because he had a last
-theorem, for some reason,
+Dan karena dia memiliki teorema terakhir,
+untuk beberapa alasan,
 
 1003
 00:55:08,920 --> 00:55:11,560
-some people call this
-the Little Theorem.
+beberapa orang menyebutnya
+Teorema Kecil.
 
 1004
 00:55:11,560 --> 00:55:12,960
-But it's Fermat's theorem.
+Tapi itu teorema Fermat.
 
 1005
 00:55:12,960 --> 00:55:15,270
-And we know what that is.
+Dan kita tahu apa itu.
 
 1006
 00:55:15,270 --> 00:55:17,500
-I just wrote that out there.
+Saya baru saja menulisnya di sana.
 
 1007
 00:55:17,500 --> 00:55:21,810
-You can now write something
-that says what I'm going to do
+Anda sekarang dapat menulis sesuatu
+tentang apa yang akan saya lakukan
 
 1008
 00:55:21,810 --> 00:55:30,530
-is I'm going to just take
-m raised to p minus 1,
+adalah saya hanya akan mengambil
+m dipangkatkan p dikurangi 1,
 
 1009
 00:55:30,530 --> 00:55:32,030
-which is 1.
+yaitu 1.
 
 1010
 00:55:32,030 --> 00:55:33,600
-So this thing is 1.
+Jadi hal ini adalah 1.
 
 1011
 00:55:33,600 --> 00:55:37,254
-And then I'm going to raise
-it to k times q minus 1.
+Dan kemudian saya akan memangkatkannya
+dengan k kali q dikurang 1.
 
 1012
 00:55:37,254 --> 00:55:39,170
-And you'll see why I'm
-doing this in a second.
+Dan Anda akan melihat mengapa saya
+melakukannya sebentar lagi.
 
 1013
 00:55:39,170 --> 00:55:42,270
-Because I want to get the
-1 plus k phi factor here.
+Karena di sini saya ingin mendapatkan
+faktor 1 ditambah k phi di sini.
 
 1014
 00:55:42,270 --> 00:55:44,730
-So I'm taking 1
-and I'm raising it
+Jadi saya mengambil 1
+dan memangkatkannya
 
 1015
 00:55:44,730 --> 00:55:47,570
-to this power, which obviously
-is going to give me 1 back.
+dengan pangkat ini, yang jelas
+akan memberi saya 1 kembali.
 
 1016
 00:55:47,570 --> 00:55:51,100
-So all of that is
-straightforward.
+Jadi semua itu
+mudah.
 
 1017
 00:55:51,100 --> 00:55:53,460
-And then I'm going to
-multiply this by m.
+Dan kemudian saya akan
+mengalikannya dengan m.
 
 1018
 00:55:53,460 --> 00:55:54,550
-OK.
+Baik.
 
 1019
 00:55:54,550 --> 00:56:02,310
-And this is clearly
-the same as m mod p.
+Dan ini jelas
+sama dengan m modulo p.
 
 1020
 00:56:02,310 --> 00:56:06,320
-Because all I've done
-is multiply it by 1.
+Karena yang saya lakukan
+hanyalah mengalikannya dengan 1.
 
 1021
 00:56:06,320 --> 00:56:06,820
-All right.
+Baiklah.
 
 1022
 00:56:06,820 --> 00:56:08,310
-So why did I do this?
+Jadi mengapa saya melakukan ini?
 
 1023
 00:56:08,310 --> 00:56:12,500
-Well, I did this, because I
-want to group together these two
+Yah, saya melakukan ini, karena saya
+ingin mengelompokkan kedua
 
 1024
 00:56:12,500 --> 00:56:13,570
-exponents.
+pangkat ini.
 
 1025
 00:56:13,570 --> 00:56:16,990
-And since I've run
-out of room here,
+Dan karena saya sudah
+kehabisan ruang di sini,
 
 1026
 00:56:16,990 --> 00:56:19,750
-let me just erase and
-finish this properly.
+biarkan saya menghapus dan
+menyelesaikannya dengan benar.
 
 1027
 00:56:19,750 --> 00:56:21,940
-The other case is easy anyway.
+Lagi pula kasus yang lainnya mudah.
 
 1028
 00:56:21,940 --> 00:56:30,376
-And so I can write this as 1
-plus k p minus 1 q minus 1.
+Sehingga saya bisa menulis ini sebagai 1
+ditambah k p dikurang 1 q dikurang 1.
 
 1029
 00:56:30,376 --> 00:56:36,450
-And that, of course, is
-exactly m raised to ed, right?
+Dan itu, tentu saja, merupakan
+m dipangkatkan ed, kan?
 
 1030
 00:56:36,450 --> 00:56:42,050
-And so what I've done here is,
-because 1 times m is clearly m,
+Jadi apa yang saya lakukan di sini adalah,
+karena 1 dikali m jelas hasilnya m,
 
 1031
 00:56:42,050 --> 00:56:45,910
-but if I look at this,
-this is m raised to ed.
+tapi jika saya lihat,
+ini adalah m dipangkatkan ed.
 
 1032
 00:56:45,910 --> 00:56:49,080
-So that's clearly m.
+Jadi itu jelas m.
 
 1033
 00:56:49,080 --> 00:56:51,760
-That's it.
+Itu saja.
 
 1034
 00:56:51,760 --> 00:56:55,160
-Just figured out that
-when I have k phi
+Baru saja paham bahwa
+ketika saya memiliki k phi
 
 1035
 00:56:55,160 --> 00:56:58,680
-here, that's going to
-turn into 1, basically,
+di sini, itu akan
+berubah menjadi 1, pada dasarnya,
 
 1036
 00:56:58,680 --> 00:57:01,550
-when you exponentiate it.
+ketika Anda memangkatkannya.
 
 1037
 00:57:01,550 --> 00:57:05,350
-So that's the hard part,
-actually, as it turns out,
+Jadi itulah bagian yang sulitnya,
+sebenarnya, ternyata,
 
 1038
 00:57:05,350 --> 00:57:09,400
-of proving RSA's
-correctness, just
+untuk membuktikan kebenaran
+RSA, hanya
 
 1039
 00:57:09,400 --> 00:57:12,770
-introducing this 1
-raised to something.
+memperkenalkan 1 ini
+dipangkatkan sesuatu.
 
 1040
 00:57:12,770 --> 00:57:16,360
-And then the easier
-part is simply
+Sehingga bagian yang
+lebih mudahnya adalah
 
 1041
 00:57:16,360 --> 00:57:20,560
-the case where the m is
-actually a multiple of p.
+kasus di mana m sebenarnya
+adalah kelipatan dari p.
 
 1042
 00:57:20,560 --> 00:57:26,000
-So you have a gcd
-m, comma p equals p.
+Sehingga Anda memiliki gcd
+m, koma p sama dengan p.
 
 1043
 00:57:26,000 --> 00:57:31,940
-And in this case, you know
-that m mod p is actually 0.
+Dan pada kasus ini, Anda tahu
+bahwa m modulo p sebenarnya adalah 0.
 
 1044
 00:57:31,940 --> 00:57:34,360
-Because m is a multiple of p.
+Karena m adalah kelipatan dari p.
 
 1045
 00:57:34,360 --> 00:57:36,530
-So you're basically
-exponentiating 0.
+Jadi pada dasarnya Anda
+memangkatkan 0.
 
 1046
 00:57:36,530 --> 00:57:37,860
-What do you do with 0?
+Apa yang Anda lakukan dengan 0?
 
 1047
 00:57:37,860 --> 00:57:40,220
-You're going to get
-0 on both sides.
+Anda akan mendapatkan
+0 di kedua sisi.
 
 1048
 00:57:40,220 --> 00:57:44,790
-So you're sending a message
-that's essentially 0 mod p
+Jadi Anda mengirimkan sebuah pesan
+yang pada dasarnya adalah 0 modulo p
 
 1049
 00:57:44,790 --> 00:57:48,010
-And when you decrypt it
-on that side, you get 0.
+Dan ketika Anda mendekripsinya
+di sisi itu, Anda mendapatkan 0.
 
 1050
 00:57:48,010 --> 00:57:54,800
-But one last line here is
-simply that m raised to ed
+Tetapi satu baris terakhir di sini
+sesederhana m dipangkatkan ed
 
 1051
 00:57:54,800 --> 00:58:04,090
-is m trivially all of this
-mod p if m is 0, right?
+adalah m secara trivial semuanya ini
+modulo p jika m adalah 0, kan?
 
 1052
 00:58:04,090 --> 00:58:05,784
-So that was the easy case.
+Jadi itulah kasus yang mudah.
 
 1053
 00:58:05,784 --> 00:58:07,450
-So it was really
-pretty straightforward.
+Jadi itu tadi benar-benar
+cukup mudah.
 
 1054
 00:58:07,450 --> 00:58:10,640
-In one case, we took 1 and we
-exponentiated it and showed
+Dalam satu kasus, kita mengambil 1 dan kita
+memangkatkannya dan menunjukkan
 
 1055
 00:58:10,640 --> 00:58:12,170
-the result in a couple steps.
+hasilnya dalam beberapa langkah.
 
 1056
 00:58:12,170 --> 00:58:15,240
-In the other case, you had
-messages that were 0 mod p.
+Pada kasus lain, Anda memiliki
+pesan yang merupakan 0 modulo p.
 
 1057
 00:58:15,240 --> 00:58:16,370
-So it's very pretty.
+Jadi ini sangat bagus.
 
 1058
 00:58:16,370 --> 00:58:17,870
-It works.
+Ini berhasil.
 
 1059
 00:58:17,870 --> 00:58:20,890
-And so what happened here?
+Dan apa yang terjadi di sini?
 
 1060
 00:58:20,890 --> 00:58:23,740
-I said that m raised
-to ed equals m.
+Saya mengatakan bahwa m pangkat
+ed sama dengan m.
 
 1061
 00:58:23,740 --> 00:58:27,500
-And what I did here, of
-course, was I did everything.
+Dan apa yang saya lakukan di sini, tentu
+saja, saya melakukan segalanya.
 
 1062
 00:58:27,500 --> 00:58:30,350
-So it's not quite done,
-a little slight of hand
+Jadi ini belum selesai,
+sedikit bantuan di sini
 
 1063
 00:58:30,350 --> 00:58:35,120
-here as I switched over
-and talked about mod p.
+saat saya beralih dan
+berbicara tentang mod p.
 
 1064
 00:58:35,120 --> 00:58:37,410
-So I had mod p over here.
+Jadi saya punya mod p di sini.
 
 1065
 00:58:37,410 --> 00:58:39,340
-And I said p and q were primes.
+Dan saya katakan p dan q adalah bilangan prima.
 
 1066
 00:58:39,340 --> 00:58:42,770
-And I looked at p first.
+Dan melihat p terlebih dahulu.
 
 1067
 00:58:42,770 --> 00:58:45,690
-But what I need to do,
-just to finish this off,
+Tapi apa yang harus saya lakukan,
+untuk menyelesaikan ini,
 
 1068
 00:58:45,690 --> 00:58:47,880
-let me do this over
-here, is I have
+biarkan saya melakukan ini 
+di sini, adalah saya harus
 
 1069
 00:58:47,880 --> 00:58:50,541
-to do the same argument for q.
+melakukan argumen yang sama untuk q.
 
 1070
 00:58:50,541 --> 00:58:56,160
-And I'm going to put
-it together for n.
+Dan saya akan 
+menggabungkannya untuk n.
 
 1071
 00:58:56,160 --> 00:59:00,530
-And the reason for that is
-simply that I have n over here.
+Dan alasannya adalah
+karena saya memiliki n disini.
 
 1072
 00:59:00,530 --> 00:59:03,050
-So remember n equals p times q.
+Jadi ingat n sama dengan p dikali q.
 
 1073
 00:59:03,050 --> 00:59:06,460
-The encryption and
-that decryption
+Enkripsi dan
+dekripsi itu
 
 1074
 00:59:06,460 --> 00:59:09,580
-are going to be done mod o.
+akan dilakukan di modulo o.
 
 1075
 00:59:09,580 --> 00:59:13,210
-Certainly, the encryption has
-to be done mod n, because n
+Tentu saja, enkripsi harus 
+dilakukan modulo n, karena n
 
 1076
 00:59:13,210 --> 00:59:15,760
-is only public
-number that you have
+hanyalah numor publik
+yang Anda miliki
 
 1077
 00:59:15,760 --> 00:59:17,670
-that you can mod with, correct?
+yang bisa dimodulo, benar?
 
 1078
 00:59:17,670 --> 00:59:21,440
-So what I've done here,
-this analysis is for p,
+Jadi apa yang telah saya lakukan di sini,
+analisis ini untuk p,
 
 1079
 00:59:21,440 --> 00:59:26,550
-can do the same for q.
+dapat dilakukan hal yang sama untuk q.
 
 1080
 00:59:26,550 --> 00:59:29,250
-It's exactly the same,
-because p is a prime
+Ini persis sama,
+karena p adalah bilangan prima
 
 1081
 00:59:29,250 --> 00:59:31,710
-and q is also a prime.
+dan q juga bilangan prima.
 
 1082
 00:59:31,710 --> 00:59:34,910
-But I have to just do one last
-thing, which is put these two
+Tapi saya harus melakukan satu hal terakhir,
+yaitu menempatkan dua
 
 1083
 00:59:34,910 --> 00:59:39,130
-things together and say
-that n equals p times q,
+bilangan ini bersama dan mengatakan
+bahwa n sama dengan p dikali q,
 
 1084
 00:59:39,130 --> 00:59:41,446
-so the math is all
-going to work out.
+jadi semua perhitungan
+matematis akan bekerja.
 
 1085
 00:59:41,446 --> 00:59:42,570
-Let me just write that out.
+Biarkan saya menulis itu.
 
 1086
 00:59:42,570 --> 00:59:45,740
-It's not too
-difficult to explain,
+Ini tidak terlalu
+sulit untuk dijelaskan,
 
 1087
 00:59:45,740 --> 00:59:47,750
-once I have this up here.
+setelah saya memilikinya di sini.
 
 1088
 00:59:47,750 --> 00:59:52,100
