@@ -4857,12 +4857,12 @@ nama atau referensi,
 
 1028
 00:44:14,870 --> 00:44:19,850
-where instead of naming
-a file, you can just
+dimana daripada memberi nama
+sebuah file, Anda bisa
 
 1029
 00:44:19,850 --> 00:44:21,620
-take the hash of a file.
+mengambil hash dari sebuah file.
 
 1030
 00:44:21,620 --> 00:44:27,770
