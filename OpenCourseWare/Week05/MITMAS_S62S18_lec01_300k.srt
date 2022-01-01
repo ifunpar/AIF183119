@@ -4858,7 +4858,7 @@ nama atau referensi,
 1028
 00:44:14,870 --> 00:44:19,850
 dimana daripada memberi nama pada
-sebuah file, Anda bisa
+sebuah file, Anda dapat
 
 1029
 00:44:19,850 --> 00:44:21,620
