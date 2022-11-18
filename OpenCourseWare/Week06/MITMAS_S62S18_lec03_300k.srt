@@ -5775,53 +5775,53 @@ rid of the y bit.
 
 1255
 00:54:14,810 --> 00:54:19,430
-But the thing is
-the y-coordinate
+tapi masalahnya adalah
+koordinat y
 
 1256
 00:54:19,430 --> 00:54:23,103
-does affect some of the
-things like signatures, things
+Mempengaruhi beberapa hal
+seperti tanda tangan,
 
 1257
 00:54:23,103 --> 00:54:24,020
-that you'll later use.
+hal-hal yang akan kamu gunakan nanti.
 
 1258
 00:54:24,020 --> 00:54:28,580
-So you can just say, OK, look,
-implicitly y bit is positive.
+Jadi anda bisa bilang, OK, lihat,
+secara implisit bit y positif.
 
 1259
 00:54:28,580 --> 00:54:32,240
-And you lose 1 bit of security.
+Dan kamu akan kehilangan 1 bit keamanan.
 
 1260
 00:54:32,240 --> 00:54:34,250
-Because there is a
-difference between
+Karena terdapat
+perbedaan antara
 
 1261
 00:54:34,250 --> 00:54:37,742
-the positive and negative
-thing if you're doing signing.
+hal positif dan negatif
+jika anda melakukan penandatanganan.
 
 1262
 00:54:37,742 --> 00:54:38,460
-But yeah.
+Tapi ya.
 
 1263
 00:54:38,460 --> 00:54:40,950
-And so some systems do do that.
+Dan beberapa sistem melakukan itu.
 
 1264
 00:54:40,950 --> 00:54:42,340
-And it makes things easier.
+Dan itu membuat hal-hal menjadi lebih mudah.
 
 1265
 00:54:42,340 --> 00:54:44,180
-There's some signing
-systems that do that.
+Ada beberapa sistem
+tanda tangan yang melakukan itu.
 
 1266
 00:54:44,180 --> 00:54:44,680
@@ -5829,21 +5829,22 @@ OK.
 
 1267
 00:54:44,680 --> 00:54:46,990
-I'm going to go
-to the next part.
+Saya akan pergi
+ke bagian selanjutnya.
 
 1268
 00:54:50,690 --> 00:54:52,610
-ECDSA is used in bitcoin.
+ECDSA digunakan pada bitcoin.
 
 1269
 00:54:52,610 --> 00:54:56,010
-I'm actually not
-going to explain it.
+Saya seaslinya tidak
+akan menjelaskan itu.
 
 1270
 00:54:56,010 --> 00:54:58,400
 It's a worse signature system.
+Itu sistem tanda tangan yang buruk.
 
 1271
 00:54:58,400 --> 00:55:02,420
