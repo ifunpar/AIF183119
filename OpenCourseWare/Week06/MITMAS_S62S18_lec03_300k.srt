@@ -5707,79 +5707,78 @@ to get these.
 
 1239
 00:53:30,800 --> 00:53:32,642
-You're [INAUDIBLE]
-a continuous curve.
+Anda [INAUDIBLE]
+lengkungan yang kontinu.
 
 1240
 00:53:32,642 --> 00:53:33,350
-TADGE DRYJA: Yes.
+TADGE DRYJA: Iya
 
 1241
 00:53:33,350 --> 00:53:37,630
-AUDIENCE: It feels like if you
-have 306 bits in the original,
+AUDIENCE: Itu bagaikan mempunyai
+306 bits pada yang original,
 
 1242
 00:53:37,630 --> 00:53:40,810
-you shouldn't be able to get all
-the way down to 32 bits, right?
+anda seharusnya tidak dapat semua
+32 bits, bukan?
 
 1243
 00:53:40,810 --> 00:53:42,830
-Because you just want
-to make sure that you--
+Karena anda hanya ingin meyakinkan
+bahwa anda--
 
 1244
 00:53:42,830 --> 00:53:43,707
-TADGE DRYJA: This?
+TADGE DRYJA: Ini?
 
 1245
 00:53:43,707 --> 00:53:44,332
-AUDIENCE: Yeah.
+AUDIENCE: Iya.
 
 1246
 00:53:46,580 --> 00:53:49,150
-If you removed a
-byte of precision,
+Jika anda menghilangkan byte 
+tertentu,
 
 1247
 00:53:49,150 --> 00:53:52,640
-would you actually
-be losing any power?
+apakah anda akan kehilangan
+sebuah tenaga?
 
 1248
 00:53:52,640 --> 00:53:55,580
-TADGE DRYJA: What you can do
-a little-- what you can do
+TADGE DRYJA: Apa yang bisa anda lakukan-- 
+apa yang bisa anda lakukan
 
 1249
 00:53:55,580 --> 00:53:58,520
-is you can just
-say, look, I'm only
+adalah anda hanya bisa mengatakan,
+lihat, Aku hanya
 
 1250
 00:53:58,520 --> 00:54:06,140
-going to allow public keys
-that are on the top, positive y
+akan memberikan akses public key 
+yang ada pada posisi atas, y positif
 
 1251
 00:54:06,140 --> 00:54:07,070
-component.
+komponen.
 
 1252
 00:54:07,070 --> 00:54:09,545
-And everything
-else is disallowed.
+Dan yang lain tidak diperbolehkan.
 
 1253
 00:54:09,545 --> 00:54:11,420
-You could have that as
-a rule of your system,
+Anda bisa memiliki hal tersebut sebagai
+aturan dalam sistem anda,
 
 1254
 00:54:11,420 --> 00:54:14,810
-and then you can get
-rid of the y bit.
+kemudian anda dapat menyingkirkan
+bit y.
 
 1255
 00:54:14,810 --> 00:54:19,430
