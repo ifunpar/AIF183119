@@ -5633,77 +5633,69 @@ right-- tangent, intersect,
 
 1223
 00:52:44,870 --> 00:52:46,940
-and then the negation.
+dan dapat nilai negasi atau ingkaran.
 
 1224
 00:52:46,940 --> 00:52:50,810
 And so you just do
-that a bazillion times.
+Dan seperti itu, kita tinggal melakukannya beberapa kali.
 
 1225
 00:52:50,810 --> 00:52:53,900
-However, since you can
-find 2G and then you
+Bagaimanapun, karena kita bisa mencari nilai 2G, lalu 
 
 1226
 00:52:53,900 --> 00:52:57,320
-can double 2G to get 4G
-and double 4G to get 8G,
+kita bisa men-double kan nilainya menjadi 4G, dan men-double kan nilai 4G menjadi 8G
 
 1227
 00:52:57,320 --> 00:53:00,140
 you can come up with
-powers of 2 of G
+dan kita bisa mengasumsikan siatu nilai perpangkatan dua
 
 1228
 00:53:00,140 --> 00:53:02,240
-and then add those
-powers of 2 to do
+dan menambahkannya perpangkatan 2 tersebut untuk
 
 1229
 00:53:02,240 --> 00:53:06,650
-a much more efficient addition
-so that you can practically
+perhitungan yang lebih efisien sehingga kita bisa secara praktis
 
 1230
 00:53:06,650 --> 00:53:07,570
-make--
+membuat--
 
 1231
 00:53:07,570 --> 00:53:12,890
-because little a is going to
-be some huge decimal 50-digit
+karena a kecil akan menjadi inilai desimal 50 digit yang besar
 
 1232
 00:53:12,890 --> 00:53:14,290
-number or whatever.
+atau lain sebagainya.
 
 1233
 00:53:14,290 --> 00:53:17,450
-So you're going to have
-to do this two, four, six,
+Maka kita akan memiliki dua, empat, enam,
 
 1234
 00:53:17,450 --> 00:53:20,820
-eight binary expansion
-and then add them all up.
+delapan, ekspansi biner dan menambahkan semuanya.
 
 1235
 00:53:20,820 --> 00:53:22,220
-OK.
+Ok.
 
 1236
 00:53:22,220 --> 00:53:24,570
-Yeah?
+iya?
 
 1237
 00:53:24,570 --> 00:53:29,860
-AUDIENCE: You're chucking
-everything into some grain size
+Audiens: Jadi anda membuang beberapa bagian menjadi ukuran bulir kecil
 
 1238
 00:53:29,860 --> 00:53:30,800
-to get these.
+untuk mendapatkan nilai ini.
 
 1239
 00:53:30,800 --> 00:53:32,642
