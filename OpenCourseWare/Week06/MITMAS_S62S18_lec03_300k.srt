@@ -5482,78 +5482,78 @@ Ya, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
-AUDIENCE: Yeah, the [INAUDIBLE].
+AUDIENS: Ya, [TIDAK TERDENGAR].
 
 1192
 00:51:41,240 --> 00:51:42,865
-TADGE DRYJA: And you
-say it intersects,
+TADGE DRYJA: Dan Anda mengatakan 
+itu berpotongan,
 
 1193
 00:51:42,865 --> 00:51:44,960
-and it's at the slope, and
-which side of the axis?
+dan itu di kemiringan, dan
+sisi sumbu yang mana?
 
 1194
 00:51:44,960 --> 00:51:46,700
-AUDIENCE: Yeah, and if it
-crosses multiple times,
+AUDIENS: Ya, dan jika melintasi 
+beberapa kali,
 
 1195
 00:51:46,700 --> 00:51:47,450
-which one of the--
+yang mana dari--
 
 1196
 00:51:47,450 --> 00:51:48,350
-TADGE DRYJA: You probably could.
+TADGE DRYJA: Anda mungkin bisa.
 
 1197
 00:51:48,350 --> 00:51:50,170
-I think you would
-end up the same size.
+Saya pikir Anda akan
+berakhir dengan ukuran yang sama.
 
 1198
 00:51:50,170 --> 00:51:50,715
-But yeah.
+Tapi ya.
 
 1199
 00:51:50,715 --> 00:51:52,340
-But it might be faster
-for some things.
+Tapi mungkin lebih cepat
+untuk beberapa hal.
 
 1200
 00:51:52,340 --> 00:51:54,710
-There's all sorts of
-different encodings.
+Ada macam-macam
+pengkodean yang berbeda.
 
 1201
 00:51:54,710 --> 00:51:57,990
-AUDIENCE: I guarantee that you
-have an integer in the end.
+AUDIENS: Saya menjamin bahwa Anda
+memiliki bilangan bulat pada akhirnya.
 
 1202
 00:51:57,990 --> 00:51:58,795
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Ya.
 
 1203
 00:51:58,795 --> 00:52:00,170
-So you might not
-be on the curve.
+Jadi mungkin anda tidak
+berada di lengkungan.
 
 1204
 00:52:00,170 --> 00:52:01,640
-But there's a
-similar problem here
+Tapi ada
+masalah serupa di sini
 
 1205
 00:52:01,640 --> 00:52:03,320
-where it might not
-be on the curve.
+di mana mungkin tidak
+berada di lengkungan.
 
 1206
 00:52:03,320 --> 00:52:06,360
-You can encode a point
-that's also off the curve.
+Anda dapat pengkodean suatu titik
+itu juga di luar lengkungan.
 
 1207
 00:52:06,360 --> 00:52:08,930
