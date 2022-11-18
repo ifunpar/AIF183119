@@ -5482,78 +5482,78 @@ Ya, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
-AUDIENCE: Yeah, the [INAUDIBLE].
+AUDIENS: Ya, [TIDAK TERDENGAR].
 
 1192
 00:51:41,240 --> 00:51:42,865
-TADGE DRYJA: And you
-say it intersects,
+TADGE DRYJA: Dan Anda mengatakan 
+itu berpotongan,
 
 1193
 00:51:42,865 --> 00:51:44,960
-and it's at the slope, and
-which side of the axis?
+dan itu di kemiringan, dan
+sisi sumbu yang mana?
 
 1194
 00:51:44,960 --> 00:51:46,700
-AUDIENCE: Yeah, and if it
-crosses multiple times,
+AUDIENS: Ya, dan jika melintasi 
+beberapa kali,
 
 1195
 00:51:46,700 --> 00:51:47,450
-which one of the--
+yang mana dari--
 
 1196
 00:51:47,450 --> 00:51:48,350
-TADGE DRYJA: You probably could.
+TADGE DRYJA: Anda mungkin bisa.
 
 1197
 00:51:48,350 --> 00:51:50,170
-I think you would
-end up the same size.
+Saya pikir Anda akan
+berakhir dengan ukuran yang sama.
 
 1198
 00:51:50,170 --> 00:51:50,715
-But yeah.
+Tapi ya.
 
 1199
 00:51:50,715 --> 00:51:52,340
-But it might be faster
-for some things.
+Tapi mungkin lebih cepat
+untuk beberapa hal.
 
 1200
 00:51:52,340 --> 00:51:54,710
-There's all sorts of
-different encodings.
+Ada macam-macam
+pengkodean yang berbeda.
 
 1201
 00:51:54,710 --> 00:51:57,990
-AUDIENCE: I guarantee that you
-have an integer in the end.
+AUDIENS: Saya menjamin bahwa Anda
+memiliki bilangan bulat pada akhirnya.
 
 1202
 00:51:57,990 --> 00:51:58,795
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Ya.
 
 1203
 00:51:58,795 --> 00:52:00,170
-So you might not
-be on the curve.
+Jadi mungkin anda tidak
+berada di lengkungan.
 
 1204
 00:52:00,170 --> 00:52:01,640
-But there's a
-similar problem here
+Tapi ada
+masalah serupa di sini
 
 1205
 00:52:01,640 --> 00:52:03,320
-where it might not
-be on the curve.
+di mana mungkin tidak
+berada di lengkungan.
 
 1206
 00:52:03,320 --> 00:52:06,360
-You can encode a point
-that's also off the curve.
+Anda dapat pengkodean suatu titik
+itu juga di luar lengkungan.
 
 1207
 00:52:06,360 --> 00:52:08,930
@@ -5633,77 +5633,69 @@ right-- tangent, intersect,
 
 1223
 00:52:44,870 --> 00:52:46,940
-and then the negation.
+dan dapat nilai negasi atau ingkaran.
 
 1224
 00:52:46,940 --> 00:52:50,810
 And so you just do
-that a bazillion times.
+Dan seperti itu, kita tinggal melakukannya beberapa kali.
 
 1225
 00:52:50,810 --> 00:52:53,900
-However, since you can
-find 2G and then you
+Bagaimanapun, karena kita bisa mencari nilai 2G, lalu 
 
 1226
 00:52:53,900 --> 00:52:57,320
-can double 2G to get 4G
-and double 4G to get 8G,
+kita bisa men-double kan nilainya menjadi 4G, dan men-double kan nilai 4G menjadi 8G
 
 1227
 00:52:57,320 --> 00:53:00,140
 you can come up with
-powers of 2 of G
+dan kita bisa mengasumsikan siatu nilai perpangkatan dua
 
 1228
 00:53:00,140 --> 00:53:02,240
-and then add those
-powers of 2 to do
+dan menambahkannya perpangkatan 2 tersebut untuk
 
 1229
 00:53:02,240 --> 00:53:06,650
-a much more efficient addition
-so that you can practically
+perhitungan yang lebih efisien sehingga kita bisa secara praktis
 
 1230
 00:53:06,650 --> 00:53:07,570
-make--
+membuat--
 
 1231
 00:53:07,570 --> 00:53:12,890
-because little a is going to
-be some huge decimal 50-digit
+karena a kecil akan menjadi inilai desimal 50 digit yang besar
 
 1232
 00:53:12,890 --> 00:53:14,290
-number or whatever.
+atau lain sebagainya.
 
 1233
 00:53:14,290 --> 00:53:17,450
-So you're going to have
-to do this two, four, six,
+Maka kita akan memiliki dua, empat, enam,
 
 1234
 00:53:17,450 --> 00:53:20,820
-eight binary expansion
-and then add them all up.
+delapan, ekspansi biner dan menambahkan semuanya.
 
 1235
 00:53:20,820 --> 00:53:22,220
-OK.
+Ok.
 
 1236
 00:53:22,220 --> 00:53:24,570
-Yeah?
+iya?
 
 1237
 00:53:24,570 --> 00:53:29,860
-AUDIENCE: You're chucking
-everything into some grain size
+Audiens: Jadi anda membuang beberapa bagian menjadi ukuran bulir kecil
 
 1238
 00:53:29,860 --> 00:53:30,800
-to get these.
+untuk mendapatkan nilai ini.
 
 1239
 00:53:30,800 --> 00:53:32,642
@@ -5782,53 +5774,53 @@ bit y.
 
 1255
 00:54:14,810 --> 00:54:19,430
-But the thing is
-the y-coordinate
+tapi masalahnya adalah
+koordinat y
 
 1256
 00:54:19,430 --> 00:54:23,103
-does affect some of the
-things like signatures, things
+Mempengaruhi beberapa hal
+seperti tanda tangan,
 
 1257
 00:54:23,103 --> 00:54:24,020
-that you'll later use.
+hal-hal yang akan kamu gunakan nanti.
 
 1258
 00:54:24,020 --> 00:54:28,580
-So you can just say, OK, look,
-implicitly y bit is positive.
+Jadi anda bisa bilang, OK, lihat,
+secara implisit bit y positif.
 
 1259
 00:54:28,580 --> 00:54:32,240
-And you lose 1 bit of security.
+Dan kamu akan kehilangan 1 bit keamanan.
 
 1260
 00:54:32,240 --> 00:54:34,250
-Because there is a
-difference between
+Karena terdapat
+perbedaan antara
 
 1261
 00:54:34,250 --> 00:54:37,742
-the positive and negative
-thing if you're doing signing.
+hal positif dan negatif
+jika anda melakukan penandatanganan.
 
 1262
 00:54:37,742 --> 00:54:38,460
-But yeah.
+Tapi ya.
 
 1263
 00:54:38,460 --> 00:54:40,950
-And so some systems do do that.
+Dan beberapa sistem melakukan itu.
 
 1264
 00:54:40,950 --> 00:54:42,340
-And it makes things easier.
+Dan itu membuat hal-hal menjadi lebih mudah.
 
 1265
 00:54:42,340 --> 00:54:44,180
-There's some signing
-systems that do that.
+Ada beberapa sistem
+tanda tangan yang melakukan itu.
 
 1266
 00:54:44,180 --> 00:54:44,680
@@ -5836,21 +5828,22 @@ OK.
 
 1267
 00:54:44,680 --> 00:54:46,990
-I'm going to go
-to the next part.
+Saya akan pergi
+ke bagian selanjutnya.
 
 1268
 00:54:50,690 --> 00:54:52,610
-ECDSA is used in bitcoin.
+ECDSA digunakan pada bitcoin.
 
 1269
 00:54:52,610 --> 00:54:56,010
-I'm actually not
-going to explain it.
+Saya seaslinya tidak
+akan menjelaskan itu.
 
 1270
 00:54:56,010 --> 00:54:58,400
 It's a worse signature system.
+Itu sistem tanda tangan yang buruk.
 
 1271
 00:54:58,400 --> 00:55:02,420
