@@ -5637,7 +5637,6 @@ dan dapat nilai negasi atau ingkaran.
 
 1224
 00:52:46,940 --> 00:52:50,810
-And so you just do
 Dan seperti itu, kita tinggal melakukannya beberapa kali.
 
 1225
@@ -5650,7 +5649,6 @@ kita bisa men-double kan nilainya menjadi 4G, dan men-double kan nilai 4G menjad
 
 1227
 00:52:57,320 --> 00:53:00,140
-you can come up with
 dan kita bisa mengasumsikan siatu nilai perpangkatan dua
 
 1228
@@ -5699,7 +5697,7 @@ untuk mendapatkan nilai ini.
 
 1239
 00:53:30,800 --> 00:53:32,642
-Anda [INAUDIBLE]
+Anda [TIDAK TERDENGAR]
 lengkungan yang kontinu.
 
 1240
@@ -5708,7 +5706,7 @@ TADGE DRYJA: Iya
 
 1241
 00:53:33,350 --> 00:53:37,630
-AUDIENCE: Itu bagaikan mempunyai
+AUDIENS: Itu bagaikan mempunyai
 306 bits pada yang original,
 
 1242
@@ -5727,7 +5725,7 @@ TADGE DRYJA: Ini?
 
 1245
 00:53:43,707 --> 00:53:44,332
-AUDIENCE: Iya.
+AUDIENS: Iya.
 
 1246
 00:53:46,580 --> 00:53:49,150
@@ -5842,7 +5840,6 @@ akan menjelaskan itu.
 
 1270
 00:54:56,010 --> 00:54:58,400
-It's a worse signature system.
 Itu sistem tanda tangan yang buruk.
 
 1271
