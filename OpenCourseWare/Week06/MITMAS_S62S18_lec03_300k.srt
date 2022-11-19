@@ -5557,50 +5557,50 @@ itu juga di luar lengkungan.
 
 1207
 00:52:06,360 --> 00:52:08,930
-And so when you actually
-get a public key,
+Dan ketika kalian sebenarnya
+menerima sebuah public key,
 
 1208
 00:52:08,930 --> 00:52:11,515
-like over the wire
-in these systems,
+kalian seperti melalui sebuah kabel
+pada sistem tersebut,
 
 1209
 00:52:11,515 --> 00:52:12,890
-the first thing
-you usually do is
+langkah pertama
+yang seharusnya kalian lakukan adalah 
 
 1210
 00:52:12,890 --> 00:52:14,432
-make sure this is
-a valid public key,
+memastikan bahwa 
+public key-nya valid,
 
 1211
 00:52:14,432 --> 00:52:16,217
-and it's actually on the curve.
+dan itu seharusnya pada terletak pada kurva.
 
 1212
 00:52:16,217 --> 00:52:18,050
-Because there's a lot
-of points that aren't.
+Karena ada banyaknya
+titik-titik yang tidak ada.
 
 1213
 00:52:18,050 --> 00:52:20,690
-And sometimes you can screw
-around with the code that way.
+Dan terkadang kalian bisa bermain-
+main dengan kode yang seperti itu.
 
 1214
 00:52:20,690 --> 00:52:20,820
-Yeah?
+Ya?
 
 1215
 00:52:20,820 --> 00:52:23,240
-AUDIENCE: Can you define the
-scalar multiplication again?
+AUDIENS: Bisakah anda menjelaskan tentang
+scalar multiplication lagi ?
 
 1216
 00:52:23,240 --> 00:52:24,010
-how does it go?
+bagaimana hasilnya ?
 
 1217
 00:52:24,010 --> 00:52:24,677
@@ -5608,28 +5608,28 @@ TADGE DRYJA: OK.
 
 1218
 00:52:24,677 --> 00:52:29,120
-So scalar multiplication--
-a times G is, basically,
+jadi scalar multiplication--
+a yang dikalikan dengan G adalah, pada dasarnya,
 
 1219
 00:52:29,120 --> 00:52:32,960
-break it out as G plus G
-plus G plus G plus G a times.
+pemecahan dari G ditambah G
+ditambah G di tambah G digtambah G sebanyak a.
 
 1220
 00:52:32,960 --> 00:52:36,890
-And G plus G is find
-the tangent of G
+Dan G ditambah G adalah menemumkan
+garis singgung G
 
 1221
 00:52:36,890 --> 00:52:39,980
-and then find the
-intersection, right?
+dan kemudian menemukan 
+titik potongnya, benar ?
 
 1222
 00:52:39,980 --> 00:52:44,870
-So this is G. This is 2G,
-right-- tangent, intersect,
+Jadi ini adalah G. Ini adalah 2G
+benar-- garis singgung, titik potong
 
 1223
 00:52:44,870 --> 00:52:46,940
