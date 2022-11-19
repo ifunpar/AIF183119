@@ -5637,27 +5637,33 @@ dan dapat nilai negasi atau ingkaran.
 
 1224
 00:52:46,940 --> 00:52:50,810
-Dan seperti itu, kita tinggal melakukannya beberapa kali.
+Dan seperti itu, 
+kita tinggal melakukannya beberapa kali.
 
 1225
 00:52:50,810 --> 00:52:53,900
-Bagaimanapun, karena kita bisa mencari nilai 2G, lalu 
+Bagaimanapun, karena kita bisa 
+mencari nilai 2G, lalu 
 
 1226
 00:52:53,900 --> 00:52:57,320
-kita bisa men-double kan nilainya menjadi 4G, dan men-double kan nilai 4G menjadi 8G
+kita bisa men-double kan nilainya menjadi 4G, 
+dan men-double kan nilai 4G menjadi 8G
 
 1227
 00:52:57,320 --> 00:53:00,140
-dan kita bisa mengasumsikan siatu nilai perpangkatan dua
+dan kita bisa mengasumsikan suatu nilai 
+perpangkatan dua
 
 1228
 00:53:00,140 --> 00:53:02,240
-dan menambahkannya perpangkatan 2 tersebut untuk
+dan menambahkannya 
+perpangkatan 2 tersebut untuk
 
 1229
 00:53:02,240 --> 00:53:06,650
-perhitungan yang lebih efisien sehingga kita bisa secara praktis
+perhitungan yang lebih efisien 
+sehingga kita bisa secara praktis
 
 1230
 00:53:06,650 --> 00:53:07,570
@@ -5665,7 +5671,8 @@ membuat--
 
 1231
 00:53:07,570 --> 00:53:12,890
-karena a kecil akan menjadi inilai desimal 50 digit yang besar
+karena a kecil akan menjadi 
+inilai desimal 50 digit yang besar
 
 1232
 00:53:12,890 --> 00:53:14,290
@@ -5673,11 +5680,13 @@ atau lain sebagainya.
 
 1233
 00:53:14,290 --> 00:53:17,450
-Maka kita akan memiliki dua, empat, enam,
+Maka kita akan 
+memiliki dua, empat, enam,
 
 1234
 00:53:17,450 --> 00:53:20,820
-delapan, ekspansi biner dan menambahkan semuanya.
+delapan, ekspansi biner 
+dan menambahkan semuanya.
 
 1235
 00:53:20,820 --> 00:53:22,220
@@ -5689,7 +5698,8 @@ iya?
 
 1237
 00:53:24,570 --> 00:53:29,860
-Audiens: Jadi anda membuang beberapa bagian menjadi ukuran bulir kecil
+Audiens: Jadi anda membuang 
+beberapa bagian menjadi ukuran bulir kecil
 
 1238
 00:53:29,860 --> 00:53:30,800
@@ -5758,7 +5768,8 @@ komponen.
 
 1252
 00:54:07,070 --> 00:54:09,545
-Dan yang lain tidak diperbolehkan.
+Dan yang lain 
+tidak diperbolehkan.
 
 1253
 00:54:09,545 --> 00:54:11,420
