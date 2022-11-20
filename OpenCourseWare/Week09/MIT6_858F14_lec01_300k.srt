@@ -7708,8 +7708,8 @@ kalian akan mungkin akan mengetahui
 
 1633
 01:07:58,180 --> 01:08:02,270
-where is this second red going
-to get its return address from,
+dari mana merah kedua ini akan
+mendapat return addressnya
 
 1634
 01:08:02,270 --> 01:08:03,770
