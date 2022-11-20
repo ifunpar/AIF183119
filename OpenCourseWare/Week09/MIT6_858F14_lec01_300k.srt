@@ -7796,64 +7796,65 @@ kita dapat membayangkan
 
 1651
 01:08:51,529 --> 01:08:55,370
-is one where the stack
-starts at the bottom
+adalah salah satu tempat  
+tumpukan dimulai dari bawah
 
 1652
 01:08:55,370 --> 01:08:58,550
-and keeps going up
-instead of going down.
+dan tetap naik ke atas 
+daripada ke bawah.
 
 1653
 01:08:58,550 --> 01:09:01,336
-So then, if you
-overflow this buffer,
+Jadi, jika anda 
+meluapkan penyangga ini,
 
 1654
 01:09:01,336 --> 01:09:02,960
-you'll just keep
-going up on the stack,
+anda hanya akan tetap naik 
+di tumpukkan,
+
 
 1655
 01:09:02,960 --> 01:09:06,576
-and maybe there's nothing
-bad that will happen.
+dan mungkin disana tidak ada 
+yang buruk yang akan terjadi.
 
 1656
 01:09:06,576 --> 01:09:07,995
-Yeah?
+Ya?
 
 1657
 01:09:07,995 --> 01:09:10,846
-AUDIENCE: [INAUDIBLE].
+PENDENGAR : [TAK TERDENGAR]
 
 1658
 01:09:10,846 --> 01:09:11,970
-PROFESSOR: So you're right.
+PROFESSOR: Jadi anda benar.
 
 1659
 01:09:11,970 --> 01:09:14,667
-It might be that,
-if you have-- well,
+Mungkin saja seperti itu, 
+jika anda punya-— baik,
 
 1660
 01:09:14,667 --> 01:09:16,250
-so let me draw this
-new stack diagram.
+jadi izinkan saya menggambar 
+diagram tumpukan yang baru ini.
 
 1661
 01:09:16,250 --> 01:09:20,090
-And we'll sort of try to figure
-out what it applies to and not.
+Dan kita akan mencoba mengurutkan untuk mencari tahu  
+apakah itu akan berlaku atau tidak.
 
 1662
 01:09:20,090 --> 01:09:20,619
-But OK.
+Tapi Ok.
 
 1663
 01:09:20,619 --> 01:09:22,410
-So we'll basically just
-invert the picture.
+Jadi sebenarnya kita hanya akan 
+membalik gambar.
 
 1664
 01:09:22,410 --> 01:09:25,410
