@@ -7703,8 +7703,8 @@ bukan hanya return address ini
 
 1632
 01:07:56,310 --> 01:07:58,180
-on the stack, but
-maybe you'd figure out,
+ke stack, namun
+kalian akan mungkin akan mengetahui
 
 1633
 01:07:58,180 --> 01:08:02,270
