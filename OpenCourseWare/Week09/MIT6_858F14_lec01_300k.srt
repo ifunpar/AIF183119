@@ -7684,7 +7684,7 @@ Jalan beberapa kode.
 
 1628
 01:07:49,840 --> 01:07:51,140
-But then it crashed.
+Namun setelahnya crash.
 
 1629
 01:07:51,140 --> 01:07:52,310
