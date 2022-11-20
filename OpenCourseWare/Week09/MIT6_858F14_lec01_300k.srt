@@ -7737,8 +7737,8 @@ hal yang akan kalian
 
 1639
 01:08:12,350 --> 01:08:15,680
-try to do in lab one in
-a little bit more detail.
+coba lakukan di lab satu
+dengan sedikit lebih detil.
 
 1640
 01:08:15,680 --> 01:08:20,189
