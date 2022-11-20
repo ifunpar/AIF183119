@@ -7671,8 +7671,8 @@ and jump somewhere else.
 
 1625
 01:07:44,750 --> 01:07:48,010
-So unfortunately,
-here, our pseudoattack
+Jadi sayangnya,
+di sini, pseudoattack kita
 
 1626
 01:07:48,010 --> 01:07:48,890
