@@ -7752,8 +7752,6 @@ why it's bad to jump to the--
 
 1642
 01:08:24,198 --> 01:08:25,614
-or to have these
-buffer overflows.
 atau membuat buffer-buffer ini
 overflow.
 
