@@ -7667,7 +7667,7 @@ that's up on the stack
 
 1624
 01:07:42,800 --> 01:07:44,750
-and jump somewhere else.
+dan lompat ke tempat lain.
 
 1625
 01:07:44,750 --> 01:07:48,010
