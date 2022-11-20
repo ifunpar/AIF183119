@@ -7718,8 +7718,8 @@ menaruh sesuatu
 
 1635
 01:08:03,770 --> 01:08:06,100
-else on the stack
-there that will ensure
+yang lain ke stack
+yang akan memastikan
 
 1636
 01:08:06,100 --> 01:08:08,950
