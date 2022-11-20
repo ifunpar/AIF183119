@@ -7728,7 +7728,7 @@ exits after it gets exploited
 
 1637
 01:08:08,950 --> 01:08:10,892
-so that no one notices.
+sehingga tidak akan ada yang menyadarinya.
 
 1638
 01:08:10,892 --> 01:08:12,350
