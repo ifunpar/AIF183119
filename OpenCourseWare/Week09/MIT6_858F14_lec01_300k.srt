@@ -7680,7 +7680,7 @@ tidak benar-benar bekerja.
 
 1627
 01:07:48,890 --> 01:07:49,840
-It ran some code.
+Jalan beberapa kode.
 
 1628
 01:07:49,840 --> 01:07:51,140
