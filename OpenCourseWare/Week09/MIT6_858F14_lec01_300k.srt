@@ -7486,92 +7486,92 @@ But yeah, we printed this value.
 
 1584
 01:06:30,810 --> 01:06:32,790
-And then it crashed.
+Dan setelah itu terjadi kerusakan.
 
 1585
 01:06:32,790 --> 01:06:33,650
-Why did crash?
+Kenapa rusak?
 
 1586
 01:06:33,650 --> 01:06:36,312
-Why do you think?
+Menurut Anda bagaimana?
 
 1587
 01:06:36,312 --> 01:06:37,520
-What actually happens, right?
+Apa yang sebenarnya terjadi, betul?
 
 1588
 01:06:37,520 --> 01:06:40,000
-So we jump to printf.
+Jadi kita lompat ke printf.
 
 1589
 01:06:40,000 --> 01:06:42,085
-And then, something went wrong.
+Dan setelah itu, sesuatu bermasalah.
 
 1590
 01:06:42,085 --> 01:06:42,585
-Yeah?
+Yaa?
 
 1591
 01:06:45,772 --> 01:06:47,230
-Well, we changed
-the return address
+Jadi, kita mengganti
+alamat kembalian
 
 1592
 01:06:47,230 --> 01:06:48,930
-so that when we
-return from redirect,
+jadi saat kita
+kembali dari pengalihan,
 
 1593
 01:06:48,930 --> 01:06:52,420
-we now jump to this new address,
-which is that point up there,
+kita sekarang lompat ke alamat yang baru,
+yang dimana itu ada di sebelah atas,
 
 1594
 01:06:52,420 --> 01:06:53,825
-right after printf.
+tepat setelah printf.
 
 1595
 01:06:53,825 --> 01:06:58,160
-So where's this
-crash coming from?
+Jadi dari mana
+kerusakan ini berasal?
 
 1596
 01:06:58,160 --> 01:06:59,317
-Yeah?
+Yaa?
 
 1597
 01:06:59,317 --> 01:07:01,025
-AUDIENCE: Is it
-restricted because your i
+AUDIENCE: Apakah itu
+terbatas karena i Anda
 
 1598
 01:07:01,025 --> 01:07:02,981
-is supposed to be some
-sort of integer, but--
+harusnya menjadi
+semacam bilangan bulat, tetapi--
 
 1599
 01:07:02,981 --> 01:07:04,420
-PROFESSOR: No, actually,
-well the i is like,
+PROFESSOR: Tidak, sebenarnya,
+i nya seperti,
 
 1600
 01:07:04,420 --> 01:07:05,580
-well it's a 32-bit register.
+itu adalah sebuah register 32-bit.
 
 1601
 01:07:05,580 --> 01:07:06,790
-So whatever's in the
-register, it'll print.
+Jadi apa saja yang ada di dalam
+register, akan di tampilkan.
 
 1602
 01:07:06,790 --> 01:07:08,831
-In fact, that's the thing
-that's in the register.
+Faktanya, itu adalah benda
+yang ada di dalam register.
 
 1603
 01:07:08,831 --> 01:07:10,370
-So that's OK.
+Jadi itu baik – baik saja.
 
 1604
 01:07:10,370 --> 01:07:11,024
