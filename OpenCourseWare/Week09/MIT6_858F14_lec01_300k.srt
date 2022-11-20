@@ -7762,8 +7762,8 @@ of way to think of this
 
 1644
 01:08:33,790 --> 01:08:35,939
-is that, the problem is just
-because the return address is
+apakah itu, masalahnya hanya karena alamat yang dikembalikan 
+
 
 1645
 01:08:35,939 --> 01:08:36,605
