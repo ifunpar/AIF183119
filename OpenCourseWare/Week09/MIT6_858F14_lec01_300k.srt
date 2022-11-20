@@ -7677,6 +7677,7 @@ di sini, pseudoattack kita
 1626
 01:07:48,010 --> 01:07:48,890
 didn't really work.
+tidak benar-benar bekerja.
 
 1627
 01:07:48,890 --> 01:07:49,840
