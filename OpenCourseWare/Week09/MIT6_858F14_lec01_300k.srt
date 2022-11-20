@@ -7391,22 +7391,19 @@ fungsi main tersebut.
 
 1564
 01:05:41,820 --> 01:05:44,630
-And main does a
-bunch of stuff, you
+Dan fungsi main melakukan banyak hal.
 
 1565
 01:05:44,630 --> 01:05:47,710
-know, initializes, calls
-redirect, does some more stuff,
+seperti Inisialisasi, memanggil fungsi redirect, melakukan beberapa hal,
 
 1566
 01:05:47,710 --> 01:05:49,360
-and then calls printf.
+dan memanggil fungsi printf.
 
 1567
 01:05:49,360 --> 01:05:51,970
-So how about we jump to
-this point, which is,
+Jadi bagaimana jika kita melompat ke titik ini, yang mana
 
 1568
 01:05:51,970 --> 01:05:54,200
@@ -7415,74 +7412,63 @@ argument to printf,
 
 1569
 01:05:54,200 --> 01:05:58,204
-which is x equals percent d,
-and then actually calls printf.
+yang mana x=%d, dan yang sebenarnya memanggil fungsi printf
 
 1570
 01:05:58,204 --> 01:05:59,620
-So we can actually
-take this value
+Sehingga kita sebenarnya dapat mengambil nilai ini
 
 1571
 01:05:59,620 --> 01:06:01,900
-and try to stick
-it in the stack.
+dan mencoba untuk menempelnya ke dalam stack
 
 1572
 01:06:01,900 --> 01:06:05,290
-And should be able to do
-this with the debugger
+dan seharusnya dapat melakukan ini dengan debugger
 
 1573
 01:06:05,290 --> 01:06:06,850
-pretty easily, at least.
+sangat mudah, setidaknya.
 
 1574
 01:06:06,850 --> 01:06:11,780
-So you can do this set
-[? int ?] esp equals this value.
+Jadi anda dapat mengatur [? int ?] esp sama dengan nilai ini.
 
 1575
 01:06:11,780 --> 01:06:14,040
-So we can examine esp again
-and, indeed, it actually
+jadi kita dapat memeriksa esp lagi dan memang, dia sebenarnya
 
 1576
 01:06:14,040 --> 01:06:14,780
-has this value.
+memiliki nilai ini.
 
 1577
 01:06:14,780 --> 01:06:19,590
-So if we continue now,
-well, it printed out x
+Jadi jika kita melanjutkan sekarang, akan tercetak x
 
 1578
 01:06:19,590 --> 01:06:21,950
-equals some garbage,
-which I guess
+sama dengan beberapa sampah, yang saya kira
 
 1579
 01:06:21,950 --> 01:06:24,380
-happens to be just whatever
-is on the stack that
+kebetulan hanya hal apapun pada stack yang
 
 1580
 01:06:24,380 --> 01:06:25,260
-was passed to printf.
+di kirim ke fungsi printf.
 
 1581
 01:06:25,260 --> 01:06:26,690
-We didn't correctly set
-up all the arguments
+Kita tidak mengatur semua argumen dengan benar
 
 1582
 01:06:26,690 --> 01:06:29,065
-because we jumped in the middle
-of this calling sequence.
+karena kita melompat ke pertengahan dari calling sequence.
 
 1583
 01:06:29,065 --> 01:06:30,810
-But yeah, we printed this value.
+Tapi yah, kita mencetak nilai ini.
 
 1584
 01:06:30,810 --> 01:06:32,790
