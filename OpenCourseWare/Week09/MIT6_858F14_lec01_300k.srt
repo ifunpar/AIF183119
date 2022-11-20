@@ -7723,8 +7723,8 @@ yang akan memastikan
 
 1636
 01:08:06,100 --> 01:08:08,950
-that your program cleanly
-exits after it gets exploited
+kalau program Anda dapat
+keluar secara dengan baik setelah terkena exploit
 
 1637
 01:08:08,950 --> 01:08:10,892
