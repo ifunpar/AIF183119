@@ -7688,8 +7688,8 @@ But then it crashed.
 
 1629
 01:07:51,140 --> 01:07:52,310
-That's probably not
-something you want to do.
+Mungkin itu bukan
+sesuatu yang kalian ingin lakukan.
 
 1630
 01:07:52,310 --> 01:07:53,936
