@@ -7698,8 +7698,8 @@ benar-benar berhati-hati,
 
 1631
 01:07:53,936 --> 01:07:56,310
-you would carefully plant not
-just this return address up
+kalian harus berhati-hati menaruh
+bukan hanya return address ini
 
 1632
 01:07:56,310 --> 01:07:58,180
