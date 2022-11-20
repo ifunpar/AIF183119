@@ -7407,8 +7407,7 @@ Jadi bagaimana jika kita melompat ke titik ini, yang mana
 
 1568
 01:05:51,970 --> 01:05:54,200
-it sets up the
-argument to printf,
+fungsi main dapat mengatur argumen ke fungsi printf,
 
 1569
 01:05:54,200 --> 01:05:58,204
