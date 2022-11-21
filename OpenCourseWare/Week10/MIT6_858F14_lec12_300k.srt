@@ -5012,49 +5012,49 @@ for a different connection.
 
 1051
 00:43:12,360 --> 00:43:13,080
-That's now gone.
+Sekarang Sequence Number tersebut sudah hilang.
 
 1052
 00:43:13,080 --> 00:43:14,750
-Because every connection
-has a different
+Kerena untuk setiap koneksi tersebut 
+memiliki offset ruang 32-bit
 
 1053
 00:43:14,750 --> 00:43:19,790
-offset in this 32-bit space as
-implemented by its F function.
+yang berbeda, 
+yang diimplementasi oleh fungsi F.
 
 1054
 00:43:19,790 --> 00:43:25,085
-So this completely decouples
-the initial sequence numbers
+Hal ini melepaskan hubungan antara
+Sequence Numbers awal
 
 1055
 00:43:25,085 --> 00:43:27,611
-seen by every connection.
+yang terlihat di setiap koneksi.
 
 1056
 00:43:27,611 --> 00:43:28,110
-Yeah.
+Ya.
 
 1057
 00:43:28,110 --> 00:43:31,300
-AUDIENCE: What's the point
-in including the key?
+PENONTON: Apa gunanya untuk 
+mengikutsertakan kuncinya?
 
 1058
 00:43:31,300 --> 00:43:33,300
-PROFESSOR: Well, if you
-don't include the key,
+PROFESOR: Sebenarnya, jika anda
+tidak mengikutsertakan kuncinya,
 
 1059
 00:43:33,300 --> 00:43:35,050
-then I can connect to you.
+maka saya bisa terkoneksi kepada anda.
 
 1060
 00:43:35,050 --> 00:43:37,487
-I'll compute the same function
-F. I'll subtract it out.
+Lalu saya menghitung fungsi yang sama tersebut yaitu F.
+Lalu saya tarik hasilnya.
 
 1061
 00:43:37,487 --> 00:43:38,070
