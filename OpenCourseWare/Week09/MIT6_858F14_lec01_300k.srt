@@ -7391,187 +7391,172 @@ fungsi main tersebut.
 
 1564
 01:05:41,820 --> 01:05:44,630
-And main does a
-bunch of stuff, you
+Dan fungsi main melakukan banyak hal.
 
 1565
 01:05:44,630 --> 01:05:47,710
-know, initializes, calls
-redirect, does some more stuff,
+seperti Inisialisasi, memanggil fungsi redirect, melakukan beberapa hal,
 
 1566
 01:05:47,710 --> 01:05:49,360
-and then calls printf.
+dan memanggil fungsi printf.
 
 1567
 01:05:49,360 --> 01:05:51,970
-So how about we jump to
-this point, which is,
+Jadi bagaimana jika kita melompat ke titik ini, yang mana
 
 1568
 01:05:51,970 --> 01:05:54,200
-it sets up the
-argument to printf,
+fungsi main dapat mengatur argumen ke fungsi printf,
 
 1569
 01:05:54,200 --> 01:05:58,204
-which is x equals percent d,
-and then actually calls printf.
+yang mana x=%d, dan yang sebenarnya memanggil fungsi printf
 
 1570
 01:05:58,204 --> 01:05:59,620
-So we can actually
-take this value
+Sehingga kita sebenarnya dapat mengambil nilai ini
 
 1571
 01:05:59,620 --> 01:06:01,900
-and try to stick
-it in the stack.
+dan mencoba untuk menempelnya ke dalam stack
 
 1572
 01:06:01,900 --> 01:06:05,290
-And should be able to do
-this with the debugger
+dan seharusnya dapat melakukan ini dengan debugger
 
 1573
 01:06:05,290 --> 01:06:06,850
-pretty easily, at least.
+sangat mudah, setidaknya.
 
 1574
 01:06:06,850 --> 01:06:11,780
-So you can do this set
-[? int ?] esp equals this value.
+Jadi anda dapat mengatur [? int ?] esp sama dengan nilai ini.
 
 1575
 01:06:11,780 --> 01:06:14,040
-So we can examine esp again
-and, indeed, it actually
+jadi kita dapat memeriksa esp lagi dan memang, dia sebenarnya
 
 1576
 01:06:14,040 --> 01:06:14,780
-has this value.
+memiliki nilai ini.
 
 1577
 01:06:14,780 --> 01:06:19,590
-So if we continue now,
-well, it printed out x
+Jadi jika kita melanjutkan sekarang, akan tercetak x
 
 1578
 01:06:19,590 --> 01:06:21,950
-equals some garbage,
-which I guess
+sama dengan beberapa sampah, yang saya kira
 
 1579
 01:06:21,950 --> 01:06:24,380
-happens to be just whatever
-is on the stack that
+kebetulan hanya hal apapun pada stack yang
 
 1580
 01:06:24,380 --> 01:06:25,260
-was passed to printf.
+di kirim ke fungsi printf.
 
 1581
 01:06:25,260 --> 01:06:26,690
-We didn't correctly set
-up all the arguments
+Kita tidak mengatur semua argumen dengan benar
 
 1582
 01:06:26,690 --> 01:06:29,065
-because we jumped in the middle
-of this calling sequence.
+karena kita melompat ke pertengahan dari calling sequence.
 
 1583
 01:06:29,065 --> 01:06:30,810
-But yeah, we printed this value.
+Tapi yah, kita mencetak nilai ini.
 
 1584
 01:06:30,810 --> 01:06:32,790
-And then it crashed.
+Dan setelah itu terjadi kerusakan.
 
 1585
 01:06:32,790 --> 01:06:33,650
-Why did crash?
+Kenapa rusak?
 
 1586
 01:06:33,650 --> 01:06:36,312
-Why do you think?
+Menurut Anda bagaimana?
 
 1587
 01:06:36,312 --> 01:06:37,520
-What actually happens, right?
+Apa yang sebenarnya terjadi, betul?
 
 1588
 01:06:37,520 --> 01:06:40,000
-So we jump to printf.
+Jadi kita lompat ke printf.
 
 1589
 01:06:40,000 --> 01:06:42,085
-And then, something went wrong.
+Dan setelah itu, sesuatu bermasalah.
 
 1590
 01:06:42,085 --> 01:06:42,585
-Yeah?
+Yaa?
 
 1591
 01:06:45,772 --> 01:06:47,230
-Well, we changed
-the return address
+Jadi, kita mengganti
+alamat kembalian
 
 1592
 01:06:47,230 --> 01:06:48,930
-so that when we
-return from redirect,
+jadi saat kita
+kembali dari pengalihan,
 
 1593
 01:06:48,930 --> 01:06:52,420
-we now jump to this new address,
-which is that point up there,
+kita sekarang lompat ke alamat yang baru,
+yang dimana itu ada di sebelah atas,
 
 1594
 01:06:52,420 --> 01:06:53,825
-right after printf.
+tepat setelah printf.
 
 1595
 01:06:53,825 --> 01:06:58,160
-So where's this
-crash coming from?
+Jadi dari mana
+kerusakan ini berasal?
 
 1596
 01:06:58,160 --> 01:06:59,317
-Yeah?
+Yaa?
 
 1597
 01:06:59,317 --> 01:07:01,025
-AUDIENCE: Is it
-restricted because your i
+AUDIENCE: Apakah itu
+terbatas karena i Anda
 
 1598
 01:07:01,025 --> 01:07:02,981
-is supposed to be some
-sort of integer, but--
+harusnya menjadi
+semacam bilangan bulat, tetapi--
 
 1599
 01:07:02,981 --> 01:07:04,420
-PROFESSOR: No, actually,
-well the i is like,
+PROFESSOR: Tidak, sebenarnya,
+i nya seperti,
 
 1600
 01:07:04,420 --> 01:07:05,580
-well it's a 32-bit register.
+itu adalah sebuah register 32-bit.
 
 1601
 01:07:05,580 --> 01:07:06,790
-So whatever's in the
-register, it'll print.
+Jadi apa saja yang ada di dalam
+register, akan di tampilkan.
 
 1602
 01:07:06,790 --> 01:07:08,831
-In fact, that's the thing
-that's in the register.
+Faktanya, itu adalah benda
+yang ada di dalam register.
 
 1603
 01:07:08,831 --> 01:07:10,370
-So that's OK.
+Jadi itu baik – baik saja.
 
 1604
 01:07:10,370 --> 01:07:11,024
@@ -7783,7 +7768,6 @@ di atas alamat yang dikembalikan.
 01:08:41,149 --> 01:08:43,279
 Apa yang terjadi jika kita membalikan tumpukan  di sekitar?
 
-
 1649
 01:08:43,279 --> 01:08:47,319
 Anda tahu, beberapa mesin sebenarnya 
@@ -7813,7 +7797,6 @@ meluapkan penyangga ini,
 01:09:01,336 --> 01:09:02,960
 anda hanya akan tetap naik 
 di tumpukkan,
-
 
 1655
 01:09:02,960 --> 01:09:06,576
