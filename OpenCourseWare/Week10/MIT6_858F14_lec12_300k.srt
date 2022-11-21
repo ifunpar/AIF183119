@@ -4883,46 +4883,46 @@ Ya.
 
 1024
 00:42:04,543 --> 00:42:06,126
-AUDIENCE: Could you
-repeat that again?
+HADIRIN: Bisakah Anda
+ulangi itu lagi?
 
 1025
 00:42:06,126 --> 00:42:09,480
-Is the key unique to--
+Apakah kuncinya unik untuk--
 
 1026
 00:42:09,480 --> 00:42:11,380
-PROFESSOR: So when
-my machine boots up,
+PROFESOR: Jadi ketika
+mesin saya menyala,
 
 1027
 00:42:11,380 --> 00:42:13,780
-or when any machine boots up,
-it generates a random key.
+atau saat ada mesin yang menyala,
+itu menghasilkan kunci acak.
 
 1028
 00:42:13,780 --> 00:42:16,530
-Every time you reboot it
-it generates a new key.
+Setiap kali Anda menyalakan ulang mesin
+itu menghasilkan kunci baru.
 
 1029
 00:42:16,530 --> 00:42:20,565
-And this means that
-every time that
+Dan ini berarti bahwa
+setiap kali itu
 
 1030
 00:42:20,565 --> 00:42:24,680
-for a particular
-source/destination pair,
+untuk pasangan 
+sumber/tujuan tertentu.
 
 1031
 00:42:24,680 --> 00:42:26,830
-the sequence numbers
-advance at the same rate as
+sequence numbers
+maju pada tingkat yang sama seperti
 
 1032
 00:42:26,830 --> 00:42:27,820
-controlled by this.
+dikendalikan oleh ini.
 
 1033
 00:42:27,820 --> 00:42:29,444
