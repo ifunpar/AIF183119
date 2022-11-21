@@ -4787,99 +4787,99 @@ diketahui oleh server.
 
 1004
 00:41:14,900 --> 00:41:17,290
-So this has the
-nice property that
+Jadi ini memiliki 
+properti yang bagus di mana
 
 1005
 00:41:17,290 --> 00:41:19,350
-within any particular
-connection,
+di dalam koneksi
+jenis apapun,
 
 1006
 00:41:19,350 --> 00:41:24,147
-as identified by a source
-and destination IP port pair,
+yang telah diidentifikasi oleh sebuah sumber
+dan tujuan pasangan *port* IP
 
 1007
 00:41:24,147 --> 00:41:25,980
-it still preserves all
-these nice properties
+hal tersebut masih mempertahankan seluruh
+properti yang bagus
 
 1008
 00:41:25,980 --> 00:41:30,000
-of this old style sequence
-number algorithm had.
+dari algoritma urutan 
+angka tua ini.
 
 1009
 00:41:30,000 --> 00:41:34,780
-But if you have connections from
-different source/destination
+Tapi jika anda memiliki koneksi dari
+tupel sumber/tujuan berbeda,
 
 1010
 00:41:34,780 --> 00:41:37,230
-tuples, then there's
-nothing you can
+maka tidak akan ada hal
+yang bisa anda 
 
 1011
 00:41:37,230 --> 00:41:41,600
-learn about the exact value
-of another connection tuple's
+ketahui mengenai nilai tepat
+dari angka urut
 
 1012
 00:41:41,600 --> 00:41:42,780
-sequence number.
+tupel koneksi lain.
 
 1013
 00:41:42,780 --> 00:41:45,450
-And in fact, you'll have
-to guess this key in order
+Dan bahkan, anda akan diharuskan
+untuk menebak kunci ini, dengan tujuan
 
 1014
 00:41:45,450 --> 00:41:47,680
-to infer that value.
+untuk menyimpulkan nilai tersebut.
 
 1015
 00:41:47,680 --> 00:41:50,580
-And hopefully the server,
-presumably the OS kernel,
+Dan mudah-mudahan servernya,
+kemungkinan kernel OS-nya,
 
 1016
 00:41:50,580 --> 00:41:52,290
-stores this key
-somewhere in its memory
+menyimpan kunci ini
+di suatu tempat dalam memory-nya
 
 1017
 00:41:52,290 --> 00:41:54,670
-and doesn't give it
-out to anyone else.
+dan tidak memberikannya
+kepada orang lain.
 
 1018
 00:41:54,670 --> 00:41:56,420
-So this is how pretty
-much most TCP stacks
+Jadi kurang lebih inilah cara hampir
+seluruh tumpukan TCP (TCP *stacks*)
 
 1019
 00:41:56,420 --> 00:41:58,365
-deal with this
-particular problem
+menangani
+masalah seperti pada
 
 1020
 00:41:58,365 --> 00:42:02,896
-today to the extent allowed
-by the total 32-bit sequence
+hari ini sejauh yang diizinkan
+oleh urutan 32-bit
 
 1021
 00:42:02,896 --> 00:42:03,395
-number.
+angka.
 
 1022
 00:42:03,395 --> 00:42:04,050
-It's not great,
-but sort of works.
+Hal tersebut tidak bagus,
+tapi masih bisa dibilang bekerja.
 
 1023
 00:42:04,050 --> 00:42:04,543
-Yeah.
+Ya.
 
 1024
 00:42:04,543 --> 00:42:06,126
