@@ -4798,7 +4798,7 @@ jenis apapun,
 1006
 00:41:19,350 --> 00:41:24,147
 yang telah diidentifikasi oleh sebuah sumber
-dan tujuan pasangan *port* IP
+dan tujuan pasangan port IP
 
 1007
 00:41:24,147 --> 00:41:25,980
@@ -4856,7 +4856,7 @@ kepada orang lain.
 1018
 00:41:54,670 --> 00:41:56,420
 Jadi kurang lebih inilah cara hampir
-seluruh tumpukan TCP (TCP *stacks*)
+seluruh tumpukan TCP (TCP stacks)
 
 1019
 00:41:56,420 --> 00:41:58,365
