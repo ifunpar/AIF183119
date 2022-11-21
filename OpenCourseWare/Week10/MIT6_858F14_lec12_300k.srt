@@ -4969,46 +4969,46 @@ ulang paket.
 
 1042
 00:42:50,430 --> 00:42:51,630
-So that still works.
+Jadi itu masih berfungsi.
 
 1043
 00:42:51,630 --> 00:42:53,490
-And that's the only
-real thing for which
+Dan itu adalah satu-satunya
+hal yang nyata yang
 
 1044
 00:42:53,490 --> 00:42:56,030
-we needed this sequence
-number choosing algorithms
+kita perlukan algoritma
+pemilihan sequence number ini
 
 1045
 00:42:56,030 --> 00:42:58,800
-to prevent these duplicate
-packets from causing problems.
+untuk mencegah duplikasi
+paket yang dapat menyebabkan masalah.
 
 1046
 00:42:58,800 --> 00:43:01,660
-However, the thing that
-we were exploiting before,
+Bagaimanapun juga, hal yang
+kita manfaatkan sebelumnya,
 
 1047
 00:43:01,660 --> 00:43:04,095
-which is that if
-you get the sequence
+yaitu jika anda
+mendapatkan sequence
 
 1048
 00:43:04,095 --> 00:43:08,130
-number for one connection
-from A to S, then
+number untuk satu koneksi
+dari A ke S, maka
 
 1049
 00:43:08,130 --> 00:43:10,715
-from that you can infer
-the sequence number
+dari situ anda dapat menyimpulkan
+sequence number
 
 1050
 00:43:10,715 --> 00:43:12,360
-for a different connection.
+untuk koneksi yang berbeda.
 
 1051
 00:43:12,360 --> 00:43:13,080
