@@ -4926,46 +4926,46 @@ controlled by this.
 
 1033
 00:42:27,820 --> 00:42:29,444
-So for a given
-source/destination pair,
+Jadi untuk pasangan sumber/
+tujuan yang diberikan,
 
 1034
 00:42:29,444 --> 00:42:30,850
-this thing is fixed.
+hal ini sudah diperbaiki
 
 1035
 00:42:30,850 --> 00:42:32,889
-So you observe your
-sequence numbers
+Jadi anda obervasi
+nomor urut anda
 
 1036
 00:42:32,889 --> 00:42:34,680
-evolving according to
-your initial sequence
+mengikuti berdasarkan 
+nomor
 
 1037
 00:42:34,680 --> 00:42:36,596
-numbers for new connections
-evolving according
+urut awal anda untuk membuat
+koneksi baru
 
 1038
 00:42:36,596 --> 00:42:39,480
-to a particular algorithm.
+ke algoritma tertentu.
 
 1039
 00:42:39,480 --> 00:42:43,915
-So that still provides all these
-defences against old packets
+Sehingga masih disediakan semua
+pertahanan dari paket lama
 
 1040
 00:42:43,915 --> 00:42:47,120
-from previous connections being
-injected into new connections,
+dari koneksi sebelumnya yang di
+injeksi kepada koneksi baru
 
 1041
 00:42:47,120 --> 00:42:50,430
-just like packet
-reordering problems.
+seperti masalah pesan
+ulang paket.
 
 1042
 00:42:50,430 --> 00:42:51,630
