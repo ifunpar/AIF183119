@@ -6443,53 +6443,53 @@ Alice tidak seharusnya
 
 1373
 01:15:26,540 --> 01:15:37,760
-able to open this in
-multiple ways, right?
+bisa buka ini dengan
+berbagai cara bukan?
 
 1374
 01:15:37,760 --> 01:15:41,940
-And in this case it's
-not TCR in the sense
+Dan dalam kasus ini, bukan
+TCR maksudnya
 
 1375
 01:15:41,940 --> 01:15:45,350
-that Alice controls
-what her bids are.
+di mana Alice mengontrol
+apa itu tawarannya.
 
 1376
 01:15:45,350 --> 01:15:51,440
-And so she might find a pair
-of bids that collide, correct?
+Dan jadi dia dapan menemukan
+dua tawaran yang bertabrakan, benar?
 
 1377
 01:15:51,440 --> 01:15:55,840
-She might realize that in
-this particular hash function,
+Dia mungkin menyadari dalam
+hash function tertentu ini,
 
 1378
 01:15:55,840 --> 01:16:01,000
-you know $10,000 and a billion
-dollars collide, right?
+kamu tahu 10,000 dollar dan 
+1,000,000,000 dollar bertabrakan kan?
 
 1379
 01:16:01,000 --> 01:16:04,450
-And so she figures
-depending on what happens,
+Dan dia menemukannya
+berdasarkan apa yang terjadi
 
 1380
 01:16:04,450 --> 01:16:07,820
-she's a billionaire,
-let's assume.
+dia adalah seorang milyuner,
+mari kita anggap begitu.
 
 1381
 01:16:07,820 --> 01:16:09,320
-She's going to open
-the right thing.
+Dia akan membuka
+hal yang tepat.
 
 1382
 01:16:09,320 --> 01:16:11,320
-She's a billionaire, but
-she doesn't necessarily
+Dia adalah seorang milyuner,
+tapi dia belum tentu
 
 1383
 01:16:11,320 --> 01:16:13,390
