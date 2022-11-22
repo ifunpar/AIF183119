@@ -6673,7 +6673,6 @@ Dan itulah masalahnya.
 Sekarang ternyata kamu
 sekarang katakan OK, apakah saya sudah selesai?
 
-
 1423
 01:18:04,930 --> 01:18:06,930
 saya mau ketiga properti ini.
