@@ -7391,468 +7391,468 @@ fungsi main tersebut.
 
 1564
 01:05:41,820 --> 01:05:44,630
-And main does a
-bunch of stuff, you
+Dan fungsi main
+melakukan banyak hal, Anda
 
 1565
 01:05:44,630 --> 01:05:47,710
-know, initializes, calls
-redirect, does some more stuff,
+tahu, inisialisasi, memanggil
+fungsi redirect, melakukan beberapa hal lain,
 
 1566
 01:05:47,710 --> 01:05:49,360
-and then calls printf.
+dan memanggil fungsi printf.
 
 1567
 01:05:49,360 --> 01:05:51,970
-So how about we jump to
-this point, which is,
+Jadi bagaimana jika kita melompat ke
+titik ini, yang mana
 
 1568
 01:05:51,970 --> 01:05:54,200
-it sets up the
-argument to printf,
+dia mengatur argumen
+ke fungsi printf,
 
 1569
 01:05:54,200 --> 01:05:58,204
-which is x equals percent d,
-and then actually calls printf.
+yang mana x sama dengan persen d,
+dan yang sebenarnya memanggil fungsi printf.
 
 1570
 01:05:58,204 --> 01:05:59,620
-So we can actually
-take this value
+Sehingga kita sebenarnya
+dapat mengambil nilai ini
 
 1571
 01:05:59,620 --> 01:06:01,900
-and try to stick
-it in the stack.
+dan mencoba untuk memasukkannya
+ke dalam stack
 
 1572
 01:06:01,900 --> 01:06:05,290
-And should be able to do
-this with the debugger
+Dan seharusnya dapat
+melakukan hal ini dengan debugger
 
 1573
 01:06:05,290 --> 01:06:06,850
-pretty easily, at least.
+dengan sangat mudah, setidaknya.
 
 1574
 01:06:06,850 --> 01:06:11,780
-So you can do this set
-[? int ?] esp equals this value.
+Jadi anda dapat melakukan ini set
+[? int ?] esp sama dengan nilai ini.
 
 1575
 01:06:11,780 --> 01:06:14,040
-So we can examine esp again
-and, indeed, it actually
+Jadi kita dapat memeriksa esp lagi
+dan, memang, dia sebenarnya
 
 1576
 01:06:14,040 --> 01:06:14,780
-has this value.
+memiliki nilai ini.
 
 1577
 01:06:14,780 --> 01:06:19,590
-So if we continue now,
-well, it printed out x
+Jadi jika kita lanjutkan sekarang,
+yah, dia mencetak nilai x
 
 1578
 01:06:19,590 --> 01:06:21,950
-equals some garbage,
-which I guess
+sama dengan beberapa nilai sampah,
+yang saya kira
 
 1579
 01:06:21,950 --> 01:06:24,380
-happens to be just whatever
-is on the stack that
+kebetulan hanya hal apapun
+yang ada di stack yang
 
 1580
 01:06:24,380 --> 01:06:25,260
-was passed to printf.
+dikirim ke fungsi printf.
 
 1581
 01:06:25,260 --> 01:06:26,690
-We didn't correctly set
-up all the arguments
+Kita tidak mengatur secara benar
+semua argumennya
 
 1582
 01:06:26,690 --> 01:06:29,065
-because we jumped in the middle
-of this calling sequence.
+karena kita melompat ke pertengahan
+dari urutan pemanggilan ini.
 
 1583
 01:06:29,065 --> 01:06:30,810
-But yeah, we printed this value.
+Tapi yah, kita mencetak nilai ini.
 
 1584
 01:06:30,810 --> 01:06:32,790
-And then it crashed.
+Dan setelah itu crash.
 
 1585
 01:06:32,790 --> 01:06:33,650
-Why did crash?
+Kenapa crash?
 
 1586
 01:06:33,650 --> 01:06:36,312
-Why do you think?
+Menurut Anda bagaimana?
 
 1587
 01:06:36,312 --> 01:06:37,520
-What actually happens, right?
+Apa yang sebenarnya terjadi, betul?
 
 1588
 01:06:37,520 --> 01:06:40,000
-So we jump to printf.
+Jadi kita lompat ke printf.
 
 1589
 01:06:40,000 --> 01:06:42,085
-And then, something went wrong.
+Dan setelah itu, sesuatu bermasalah.
 
 1590
 01:06:42,085 --> 01:06:42,585
-Yeah?
+Yah?
 
 1591
 01:06:45,772 --> 01:06:47,230
-Well, we changed
-the return address
+Jadi, kita mengganti
+alamat kembalian
 
 1592
 01:06:47,230 --> 01:06:48,930
-so that when we
-return from redirect,
+sehingga saat kita
+kembali dari redirect,
 
 1593
 01:06:48,930 --> 01:06:52,420
-we now jump to this new address,
-which is that point up there,
+kita sekarang lompat ke alamat yang baru,
+di mana itu adalah titik di atas sana,
 
 1594
 01:06:52,420 --> 01:06:53,825
-right after printf.
+tepat setelah printf.
 
 1595
 01:06:53,825 --> 01:06:58,160
-So where's this
-crash coming from?
+Jadi dari mana
+crash ini berasal?
 
 1596
 01:06:58,160 --> 01:06:59,317
-Yeah?
+Yah?
 
 1597
 01:06:59,317 --> 01:07:01,025
-AUDIENCE: Is it
-restricted because your i
+AUDIENS: Apakah itu
+terlarang karena i Anda
 
 1598
 01:07:01,025 --> 01:07:02,981
-is supposed to be some
-sort of integer, but--
+harusnya menjadi
+semacam bilangan bulat, tetapi--
 
 1599
 01:07:02,981 --> 01:07:04,420
-PROFESSOR: No, actually,
-well the i is like,
+PROFESSOR: Tidak, sebenarnya,
+i nya seperti,
 
 1600
 01:07:04,420 --> 01:07:05,580
-well it's a 32-bit register.
+itu adalah sebuah register 32-bit.
 
 1601
 01:07:05,580 --> 01:07:06,790
-So whatever's in the
-register, it'll print.
+Jadi apa saja yang ada di dalam
+register, akan ditampilkan.
 
 1602
 01:07:06,790 --> 01:07:08,831
-In fact, that's the thing
-that's in the register.
+Faktanya, itu adalah benda
+yang ada di dalam register.
 
 1603
 01:07:08,831 --> 01:07:10,370
-So that's OK.
+Jadi itu tidak masalah.
 
 1604
 01:07:10,370 --> 01:07:11,024
-Yeah?
+Tah?
 
 1605
 01:07:11,024 --> 01:07:12,482
-AUDIENCE: [INAUDIBLE]
-main returns.
+AUDIENS: [TIDAK JELAS]
+main kembali.
 
 1606
 01:07:12,482 --> 01:07:12,935
-PROFESSOR: Yes.
+PROFESSOR: Ya.
 
 1607
 01:07:12,935 --> 01:07:13,560
-Actually, yeah.
+Sebenarnya, yah.
 
 1608
 01:07:13,560 --> 01:07:15,525
-What's going on is, you
-have to sort of-- OK,
+Yang sebenarnya terjadi adalah, Anda
+harus kurang lebih-- OK,
 
 1609
 01:07:15,525 --> 01:07:17,710
-so this is the point
-where we jumped.
+jadi ini adalah poin
+di mana kita melompat.
 
 1610
 01:07:17,710 --> 01:07:18,960
-It's set up some arguments.
+Ini menyiapkan beberapa argumen
 
 1611
 01:07:18,960 --> 01:07:20,115
-It actually calls printf.
+Itu sebenarnya memanggil printf.
 
 1612
 01:07:20,115 --> 01:07:22,140
-printf seems to work.
-printf is going to return.
+printf terlihat bekerja.
+printf akan kembali.
 
 1613
 01:07:22,140 --> 01:07:24,584
-Now actually, that's fine,
-because this call instruction
+Sekarang, ini terlihat bagus,
+karena instruksi pemanggilan ini
 
 1614
 01:07:24,584 --> 01:07:26,750
-put a return address on the
-stack for printf to use.
+menaruh sebuah alamat kembali ke
+stack untuk digunakan oleh printf.
 
 1615
 01:07:26,750 --> 01:07:27,810
-That's fine.
+Hal tersebut baik.
 
 1616
 01:07:27,810 --> 01:07:29,639
-Then main is going
-to continue running.
+fungsi main akan
+lanjut dijalankan
 
 1617
 01:07:29,639 --> 01:07:31,930
-It's going to run the sleeve
-instruction, which doesn't
+Itu akan menjalankan instruksi
+sleeve, di mana tidak
 
 1618
 01:07:31,930 --> 01:07:32,929
-do anything interesting.
+melakukan sesuatu yang menarik.
 
 1619
 01:07:32,929 --> 01:07:34,454
-And then it does another return.
+Dan selanjutnya melakukan pengembalian lain.
 
 1620
 01:07:34,454 --> 01:07:36,120
-But the thing in
-this-- up to the stack,
+Tapi yang menjadi perhatian
+di sini-- naik ke atas stack,
 
 1621
 01:07:36,120 --> 01:07:38,120
-it doesn't actually have
-a valid return address.
+dia sebenarnya tidak memiliki
+sebuah alamat kembalian yang valid
 
 1622
 01:07:38,120 --> 01:07:40,250
-So presumably, we
-return to some other
+Jadi seharusnya, kita
+kembali ke bagian lain
 
 1623
 01:07:40,250 --> 01:07:42,800
-who knows what memory location
-that's up on the stack
+yang mengetahui lokasi memori mana
+yang naik ke atas stack
 
 1624
 01:07:42,800 --> 01:07:44,750
-and jump somewhere else.
+dan lompat ke tempat lain.
 
 1625
 01:07:44,750 --> 01:07:48,010
-So unfortunately,
-here, our pseudoattack
+Jadi sayangnya,
+di sini, serangan semu kita
 
 1626
 01:07:48,010 --> 01:07:48,890
-didn't really work.
+tidak benar-benar bekerja.
 
 1627
 01:07:48,890 --> 01:07:49,840
-It ran some code.
+Beberapa bagian kode berjalan.
 
 1628
 01:07:49,840 --> 01:07:51,140
-But then it crashed.
+Namun setelahnya crash.
 
 1629
 01:07:51,140 --> 01:07:52,310
-That's probably not
-something you want to do.
+Mungkin itu bukan
+sesuatu yang Anda ingin lakukan.
 
 1630
 01:07:52,310 --> 01:07:53,936
-So if you really
-wanted to be careful,
+Jadi kalau Anda ingin 
+benar-benar berhati-hati,
 
 1631
 01:07:53,936 --> 01:07:56,310
-you would carefully plant not
-just this return address up
+Anda harus berhati-hati menaruh
+bukan hanya alamat kembali ini
 
 1632
 01:07:56,310 --> 01:07:58,180
-on the stack, but
-maybe you'd figure out,
+ke stack, namun
+Anda akan mungkin akan mengetahui
 
 1633
 01:07:58,180 --> 01:08:02,270
-where is this second red going
-to get its return address from,
+dari mana merah kedua ini akan
+mendapat alamat kembalinya
 
 1634
 01:08:02,270 --> 01:08:03,770
-and try to carefully
-place something
+dan mencoba untuk secara berhati-hati
+menaruh sesuatu
 
 1635
 01:08:03,770 --> 01:08:06,100
-else on the stack
-there that will ensure
+yang lain ke stack
+yang akan memastikan
 
 1636
 01:08:06,100 --> 01:08:08,950
-that your program cleanly
-exits after it gets exploited
+kalau program Anda dapat
+keluar secara dengan baik setelah dieksploitasi
 
 1637
 01:08:08,950 --> 01:08:10,892
-so that no one notices.
+sehingga tidak akan ada yang menyadarinya.
 
 1638
 01:08:10,892 --> 01:08:12,350
-So this is all
-stuff you'll sort of
+Jadi ini adalah semua
+hal yang akan Anda
 
 1639
 01:08:12,350 --> 01:08:15,680
-try to do in lab one in
-a little bit more detail.
+coba lakukan di lab satu
+dengan sedikit lebih detil.
 
 1640
 01:08:15,680 --> 01:08:20,189
-But I guess one thing we
-can try to think about now
+Namun sepertinya satu hal yang dapat
+kita coba pikirkan sekarang
 
 1641
 01:08:20,189 --> 01:08:24,198
-is, we sort of understand
-why it's bad to jump to the--
+adalah, bagaimana kita jadi mengerti
+mengapa ide yang buruk untuk melompat ke--
 
 1642
 01:08:24,198 --> 01:08:25,614
-or to have these
-buffer overflows.
+atau membuat
+buffer overflow ini.
 
 1643
 01:08:31,630 --> 01:08:33,790
-One problem, or one sort
-of way to think of this
+Satu masalah, atau suatu
+cara pandang untuk melihat hal
 
 1644
 01:08:33,790 --> 01:08:35,939
-is that, the problem is just
-because the return address is
+ini adalah, masalahnya hanya
+karena alamat kembali ada
 
 1645
 01:08:35,939 --> 01:08:36,605
-up there, right?
+di atas sana, benar?
 
 1646
 01:08:36,605 --> 01:08:38,939
-So the buffer keeps
-growing and eventually runs
+Jadi buffernya tetap
+membesar dan akhirnya
 
 1647
 01:08:38,939 --> 01:08:41,149
-over the return address.
+menimpa alamat kembali.
 
 1648
 01:08:41,149 --> 01:08:43,279
-What if we flip
-the stack around?
+Apa yang terjadi jika kita membalik
+stacknya?
 
 1649
 01:08:43,279 --> 01:08:47,319
-You know, some machines actually
-have stacks that grow up.
+Anda tahu, beberapa mesin sebenarnya 
+mempunyai stack yang membesar ke atas.
 
 1650
 01:08:47,319 --> 01:08:51,529
-So an alternative design
-we could sort of imagine
+Jadi sebuah desain alternatif 
+yang dapat kita bayangkan
 
 1651
 01:08:51,529 --> 01:08:55,370
-is one where the stack
-starts at the bottom
+adalah di mana stack
+dimulai dari bawah
 
 1652
 01:08:55,370 --> 01:08:58,550
-and keeps going up
-instead of going down.
+dan naik ke atas
+alih-alih ke bawah.
 
 1653
 01:08:58,550 --> 01:09:01,336
-So then, if you
-overflow this buffer,
+Jadi, jika Anda
+membuat overflow buffer ini,
 
 1654
 01:09:01,336 --> 01:09:02,960
-you'll just keep
-going up on the stack,
+Anda akan tetap
+bergerak naik di stack,
 
 1655
 01:09:02,960 --> 01:09:06,576
-and maybe there's nothing
-bad that will happen.
+dan mungkin di sana tidak ada
+yang buruk yang akan terjadi.
 
 1656
 01:09:06,576 --> 01:09:07,995
-Yeah?
+Yah?
 
 1657
 01:09:07,995 --> 01:09:10,846
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TAK TERDENGAR]
 
 1658
 01:09:10,846 --> 01:09:11,970
-PROFESSOR: So you're right.
+PROFESSOR: Jadi Anda benar.
 
 1659
 01:09:11,970 --> 01:09:14,667
-It might be that,
-if you have-- well,
+Mungkin saja seperti itu,
+jika Anda punya-- yah,
 
 1660
 01:09:14,667 --> 01:09:16,250
-so let me draw this
-new stack diagram.
+jadi izinkan saya menggambar 
+diagram stack yang baru ini.
 
 1661
 01:09:16,250 --> 01:09:20,090
-And we'll sort of try to figure
-out what it applies to and not.
+Dan kita akan mencoba mencari tahu  
+itu akan berlaku ke apa saja.
 
 1662
 01:09:20,090 --> 01:09:20,619
-But OK.
+Tapi OK.
 
 1663
 01:09:20,619 --> 01:09:22,410
-So we'll basically just
-invert the picture.
+Jadi sebenarnya kita hanya akan
+membalik gambarnya.
 
 1664
 01:09:22,410 --> 01:09:25,410
