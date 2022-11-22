@@ -4181,23 +4181,23 @@ belum tentu yang terbaik
 
 880
 00:37:16,090 --> 00:37:18,392
-tapi tentu cukup
-bagus di waktu itu.
+but certainly good
+enough at the time.
 
 881
 00:37:18,392 --> 00:37:20,100
-Dan mereka hanya memasukkannya
-ke dalam protokol.
+And they just baked
+it into the protocol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Semua di Kerberos harus
-memakai 1 DES atau setiddaknya
+Everything in Kerberos has
+to use single DES or at least
 
 883
 00:37:22,880 --> 00:37:24,890
-Seluruhnya di dalam
-Kerberos versi 4.
+everything in
+Kerberos version 4.
 
 884
 00:37:24,890 --> 00:37:27,935
