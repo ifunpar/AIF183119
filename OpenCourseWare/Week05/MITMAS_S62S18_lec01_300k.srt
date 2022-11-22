@@ -4857,96 +4857,96 @@ nama atau referensi,
 
 1028
 00:44:14,870 --> 00:44:19,850
-where instead of naming
-a file, you can just
+Dimana kamu tidak akan memberi nama,
+kamu bisa biarkan saja
 
 1029
 00:44:19,850 --> 00:44:21,620
-take the hash of a file.
+Ambil hash dari file.
 
 1030
 00:44:21,620 --> 00:44:27,770
-And that is a good, compact
-representation so you can point
+dan itu adalah representasi yang bagus,
+sehingga kamu dapat menunjukkan
 
 1031
 00:44:27,770 --> 00:44:29,450
-to what you're talking about .
+dengan apa yang kamu bicarakan.
 
 1032
 00:44:29,450 --> 00:44:32,660
-So the hash of a file is
-a unique representation.
+jadi hash dari file adalah
+representasi yang unik
 
 1033
 00:44:32,660 --> 00:44:35,360
-And if you change
-any bit in that file,
+dan jika kamu merubah 
+salah satu bit dalam file,
 
 1034
 00:44:35,360 --> 00:44:36,770
-the hash will change.
+hashnya akan berubah.
 
 1035
 00:44:36,770 --> 00:44:41,180
-And so you know that, OK, here's
-this way to point to a file.
+Jadi Anda tahu itu, oke, ini dia
+cara ini untuk menunjuk ke file.
 
 1036
 00:44:41,180 --> 00:44:43,520
-You can also use it as sort
-of a reference or pointer
+kamu juga dapat menggunakannya sebagai 
+semacam referensi atau petunjuk
 
 1037
 00:44:43,520 --> 00:44:46,320
-in different algorithms.
+pada algoritma yang berbeda.
 
 1038
 00:44:46,320 --> 00:44:50,420
-So you can say, anything
-you're using pointers for,
+Jadi bisa dibilang, apa saja
+Anda menggunakan petunjuk untuk,
 
 1039
 00:44:50,420 --> 00:44:53,760
-linked lists or maps and
-stuff like that, you can say,
+daftar tertaut atau peta dan
+hal-hal seperti itu, Anda dapat mengatakan,
 
 1040
 00:44:53,760 --> 00:44:56,900
-well, I'm going to use
-a hash as a pointer
+baik, aku akan menggunakan
+hash sebagai penunjuk
 
 1041
 00:44:56,900 --> 00:45:00,540
-and then be able to sort
-through it that way.
+dan kemudian dapat mengurutkan
+melaluinya dengan cara itu.
 
 1042
 00:45:00,540 --> 00:45:05,690
-So anytime you think of pointers
-and graph theory and stuff
+Jadi, kapan pun Anda memikirkan petunjuk
+dan teori grafik dan sebagainya
 
 1043
 00:45:05,690 --> 00:45:08,330
-like that in computer
-science, think, well,
+seperti itu di komputer
+sains, berpikir, baik,
 
 1044
 00:45:08,330 --> 00:45:11,170
-could I use a hash function
-here instead of just
+bisakah saya menggunakan fungsi hash
+di sini bukan hanya
 
 1045
 00:45:11,170 --> 00:45:12,740
-like regular memory pointer?
+seperti penunjuk memori biasa?
 
 1046
 00:45:12,740 --> 00:45:14,390
-And in many cases, you can.
+Dan dalam banyak kasus, Anda bisa.
 
 1047
 00:45:14,390 --> 00:45:15,710
-In some cases, you can't.
+Dalam beberapa kasus, Anda tidak bisa.
 
 1048
 00:45:15,710 --> 00:45:17,920
