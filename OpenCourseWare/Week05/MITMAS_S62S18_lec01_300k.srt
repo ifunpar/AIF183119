@@ -5139,100 +5139,100 @@ Saya pikir tidak akan bersalju di hari Rabu.
 
 1088
 00:47:03,860 --> 00:47:06,860
-And then I put some
-random numbers here
+Dan kemudian saya menaruh 
+beberapa nomor acak di sini
 
 1089
 00:47:06,860 --> 00:47:10,100
-because if I had committed
-to just the phrase,
+karena jika saya telah berkomitmen
+untuk sekedar kalimat,
 
 1090
 00:47:10,100 --> 00:47:12,380
-I think it won't
-snow Wednesday, you
+Saya pikir itu tidak akan 
+terjadi Rabu salju, kamu
 
 1091
 00:47:12,380 --> 00:47:14,330
-might have been
-able to guess that.
+mungkin
+bisa menebak itu.
 
 1092
 00:47:14,330 --> 00:47:16,580
-You could say, well, he said
-it was about the weather.
+Bisa dibilang, yah, katanya
+itu tentang cuaca.
 
 1093
 00:47:16,580 --> 00:47:19,760
-I'm going to take
-all sorts of millions
+Aku akan mengambil
+segala macam jutaan
 
 1094
 00:47:19,760 --> 00:47:21,770
-of different strings
-related to days
+string yang berbeda
+berhubungan dengan hari
 
 1095
 00:47:21,770 --> 00:47:23,725
-and weather and
-common English words,
+dan cuaca dan
+kata umum bahasa Inggris,
 
 1096
 00:47:23,725 --> 00:47:25,100
-and I'm going to
-try hashing them
+dan aku akan
+coba hashing mereka
 
 1097
 00:47:25,100 --> 00:47:26,720
-and see if I find a collision.
+dan lihat apakah saya menemukan tabrakan.
 
 1098
 00:47:26,720 --> 00:47:28,340
-And you might be able to.
+Dan Anda mungkin bisa.
 
 1099
 00:47:28,340 --> 00:47:30,920
-But I added this four
-bytes of randomness
+Tapi saya menambahkan 
+empat byte acak ini
 
 1100
 00:47:30,920 --> 00:47:33,390
-at the end to make
-that difficult.
+pada akhirnya untuk membuat
+sesulit itu.
 
 1101
 00:47:33,390 --> 00:47:35,600
-It doesn't really
-contribute to my commitment.
+Itu tidak benar-benar
+berkontribusi pada komitmen saya.
 
 1102
 00:47:35,600 --> 00:47:38,480
-And you know this doesn't
-really mean anything.
+Dan Anda tahu ini tidak
+benar-benar berarti apa-apa.
 
 1103
 00:47:38,480 --> 00:47:43,610
-But it makes it harder to
-guess what my input was
+Tapi itu membuat lebih sulit untuk
+tebak apa masukan saya
 
 1104
 00:47:43,610 --> 00:47:45,410
-because I've already
-revealed that it's not
+karena saya sudah
+mengungkapkan bahwa itu bukan
 
 1105
 00:47:45,410 --> 00:47:46,910
-a fully random input.
+input yang sepenuhnya acak.
 
 1106
 00:47:46,910 --> 00:47:48,920
-So you might be able
-to guess things.
+Jadi Anda mungkin bisa
+untuk menebak sesuatu.
 
 1107
 00:47:48,920 --> 00:47:50,810
-So I could say, hey,
-I'm going to make
+Jadi saya bisa mengatakan, hei,
+Aku akan membuat
 
 1108
 00:47:50,810 --> 00:47:55,160
