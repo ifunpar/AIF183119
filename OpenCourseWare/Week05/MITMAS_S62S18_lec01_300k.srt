@@ -5236,102 +5236,102 @@ I'm going to make
 
 1108
 00:47:50,810 --> 00:47:55,160
-a prediction about the
-weather, commit to it,
+prediksi tentang
+cuaca, berkomitmen untuk itu,
 
 1109
 00:47:55,160 --> 00:47:57,260
-and then reveal my
-prediction tomorrow.
+dan kemudian mengungkapkan saya
+prediksi besok.
 
 1110
 00:47:57,260 --> 00:47:59,990
-And we'll see if I was right.
+Dan kita akan melihat apakah saya benar.
 
 1111
 00:47:59,990 --> 00:48:03,747
-This can be useful
-in the case where--
+Ini bisa bermanfaat
+dalam kasus di mana--
 
 1112
 00:48:03,747 --> 00:48:05,330
-not the weather, but
-in other things--
+bukan cuaca, tapi
+dalam hal lain--
 
 1113
 00:48:05,330 --> 00:48:10,130
-if knowing my prediction could
-influence the actual events,
+jika mengetahui prediksi saya bisa
+mempengaruhi peristiwa yang sebenarnya,
 
 1114
 00:48:10,130 --> 00:48:13,422
-this would be a nice way to
-commit to what my prediction is
+ini akan menjadi cara yang bagus untuk
+berkomitmen untuk apa prediksi saya adalah
 
 1115
 00:48:13,422 --> 00:48:15,380
-without everyone knowing
-what the prediction is
+tanpa diketahui semua orang
+apa prediksinya
 
 1116
 00:48:15,380 --> 00:48:17,260
-and then revealing
-it the next day.
+dan kemudian mengungkapkan
+itu keesokan harinya.
 
 1117
 00:48:17,260 --> 00:48:17,760
-Yes.
+Ya.
 
 1118
 00:48:17,760 --> 00:48:19,927
-AUDIENCE: What are the use
-cases for double hashing,
+AUDIENCE: Apa gunanya
+kasus untuk hashing ganda,
 
 1119
 00:48:19,927 --> 00:48:22,000
-like where you would
-hash that hash?
+seperti di mana Anda akan
+hash hash itu?
 
 1120
 00:48:22,000 --> 00:48:24,840
-TADGE DRYJA: Hashing this again?
+TADGE DRYJA: Menghajar ini lagi?
 
 1121
 00:48:24,840 --> 00:48:29,210
-Well, so in bitcoin they
-hash everything twice.
+Nah, jadi di bitcoin mereka
+hash semuanya dua kali.
 
 1122
 00:48:33,330 --> 00:48:36,180
-Generally, you don't need to.
+Umumnya, Anda tidak perlu melakukannya.
 
 1123
 00:48:36,180 --> 00:48:39,870
-There's no explanation for
-why they do that in bitcoin.
+Tidak ada penjelasan untuk
+mengapa mereka melakukan itu di bitcoin.
 
 1124
 00:48:39,870 --> 00:48:40,950
-You could.
+Anda bisa.
 
 1125
 00:48:40,950 --> 00:48:42,780
-But there are things
-you can construct
+Tapi ada beberapa hal
+Anda dapat membangun
 
 1126
 00:48:42,780 --> 00:48:45,908
-where you can, say,
-append some extra data
+di mana Anda bisa, katakanlah,
+menambahkan beberapa data tambahan
 
 1127
 00:48:45,908 --> 00:48:46,950
-and then hash this again.
+dan kemudian hash ini lagi.
 
 1128
 00:48:46,950 --> 00:48:51,180
-So you can say, here's my
-prediction for next week.
+Jadi bisa dibilang, ini milik saya
+prediksi minggu depan.
 
 1129
 00:48:51,180 --> 00:48:54,180
