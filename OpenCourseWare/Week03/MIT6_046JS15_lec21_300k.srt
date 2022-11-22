@@ -6817,97 +6817,119 @@ It's not going to be invertible.
 01:19:46,230 --> 01:19:49,420
 h prime x is not going to
 be invertible if h of x
+h prima x tidak akan dapat dikembalikan 
+jika h dari x
 
 1455
 01:19:49,420 --> 01:19:51,080
 is not invertible.
+tidak dapat dikembalikan.
 
 1456
 01:19:51,080 --> 01:19:57,880
 h prime x is not going to be
 breakable in terms of collision
+h prima x tidak akan rusak jika terjadi 
+tabrakan.
 
 1457
 01:19:57,880 --> 01:20:00,950
 resistance if h of
 x is not breakable,
+resistensi jika h dari x tidak dapat rusak,
 
 1458
 01:20:00,950 --> 01:20:02,450
 and so on and so forth.
-
+dan seterusnya.
 1459
 01:20:02,450 --> 01:20:04,740
 But if I had a hash
 function like that,
+tetapi jika saya punya fungsi has seperti itu,
 
 1460
 01:20:04,740 --> 01:20:09,340
 is it a good hash function
 for my commitment application?
+apakah itu merupakan fungsi hash yang bagus untuk aplikasi saya?
 
 1461
 01:20:09,340 --> 01:20:10,090
 No, obviously not.
+tidak , tentu saja tidak.
 
 1462
 01:20:10,090 --> 01:20:12,298
 Because if I publicize this
 hash function-- remember,
+karena jika saya mempublikasi fungsi hash ini -- ingat
 
 1463
 01:20:12,298 --> 01:20:13,890
 everything is public
 here with respect
+semuanya terbuka untuk publik disini dengan respek
 
 1464
 01:20:13,890 --> 01:20:18,030
 to h and h prime-- you
 are giving away the most
+untuk h dan prima h -- anda 
+memberikan hal yang paling
 
 1465
 01:20:18,030 --> 01:20:21,360
 significant that
 corresponds to your bid
+significant yang berkoresponding dengan perkiraan anda
 
 1466
 01:20:21,360 --> 01:20:23,350
 in this particular
 hash function, right?
+di bagian hash function yang ini ,kan?
 
 1467
 01:20:23,350 --> 01:20:33,170
 So you really need a little bit
 more than these for secrecy,
+jadi, anda benar benar membutuhkan lebih dari pada ini untuk kerahasiaan
 
 1468
 01:20:33,170 --> 01:20:34,200
 for true secrecy.
+untuk benar benar kerahasiaan
 
 1469
 01:20:37,510 --> 01:20:39,890
 But in the context
 of this example,
+tetapi dalam konteks di contoh ini,
 
 1470
 01:20:39,890 --> 01:20:41,770
 I mean it's common
 sense that you would not
+maksud saya ini merupakan pemikiran biasa kalau anda tidak akan 
 
 1471
 01:20:41,770 --> 01:20:43,550
 use the hash function
 like that, right?
+menggunakan fungsi hash seperti itu ,kan?
 
 1472
 01:20:43,550 --> 01:20:46,950
 So it's not that there's
 anything profound here.
+jadi bukan berarti ada sesuatu yang mendalam di sini.
 
 1473
 01:20:46,950 --> 01:20:48,540
 It's just that I
 want to make sure
+hanya itu yang ingin saya pastikan
 
 1474
 01:20:48,540 --> 01:20:51,480
