@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Ya, Anda perlu menyandikan sebuah kemiringan--
+Yah, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
@@ -5486,7 +5486,7 @@ AUDIENS: Ya, [TIDAK TERDENGAR].
 
 1192
 00:51:41,240 --> 00:51:42,865
-TADGE DRYJA: Dan Anda mengatakan 
+TADGE DRYJA: Dan Anda mengatakan
 itu berpotongan,
 
 1193
@@ -5496,7 +5496,7 @@ sisi sumbu yang mana?
 
 1194
 00:51:44,960 --> 00:51:46,700
-AUDIENS: Ya, dan jika melintasi 
+AUDIENS: Ya, dan jika memotong
 beberapa kali,
 
 1195
@@ -5514,7 +5514,7 @@ berakhir dengan ukuran yang sama.
 
 1198
 00:51:50,170 --> 00:51:50,715
-Tapi ya.
+Tapi yah.
 
 1199
 00:51:50,715 --> 00:51:52,340
@@ -5533,11 +5533,11 @@ memiliki bilangan bulat pada akhirnya.
 
 1202
 00:51:57,990 --> 00:51:58,795
-TADGE DRYJA: Ya.
+TADGE DRYJA: Yah.
 
 1203
 00:51:58,795 --> 00:52:00,170
-Jadi mungkin anda tidak
+Jadi mungkin Anda tidak
 berada di lengkungan.
 
 1204
@@ -5552,28 +5552,28 @@ berada di lengkungan.
 
 1206
 00:52:03,320 --> 00:52:06,360
-Anda dapat pengkodean suatu titik
+Anda dapat mengkodekan suatu titik
 itu juga di luar lengkungan.
 
 1207
 00:52:06,360 --> 00:52:08,930
-Dan ketika kalian sebenarnya
-menerima sebuah public key,
+Dan ketika Anda sebenarnya
+menerima sebuah kunci publik,
 
 1208
 00:52:08,930 --> 00:52:11,515
-kalian seperti melalui sebuah kabel
-pada sistem tersebut,
+seperti melalui sebuah kabel
+pada sistem ini,
 
 1209
 00:52:11,515 --> 00:52:12,890
 langkah pertama
-yang seharusnya kalian lakukan adalah 
+yang seharusnya kalian lakukan adalah
 
 1210
 00:52:12,890 --> 00:52:14,432
 memastikan bahwa 
-public key-nya valid,
+kunci publiknya valid,
 
 1211
 00:52:14,432 --> 00:52:16,217
@@ -5582,7 +5582,7 @@ dan itu seharusnya pada terletak pada kurva.
 1212
 00:52:16,217 --> 00:52:18,050
 Karena ada banyaknya
-titik-titik yang tidak ada.
+titik-titik yang tidak.
 
 1213
 00:52:18,050 --> 00:52:20,690
@@ -5591,16 +5591,16 @@ main dengan kode yang seperti itu.
 
 1214
 00:52:20,690 --> 00:52:20,820
-Ya?
+Yah?
 
 1215
 00:52:20,820 --> 00:52:23,240
-AUDIENS: Bisakah anda menjelaskan tentang
-scalar multiplication lagi ?
+AUDIENS: Bisakah Anda menjelaskan tentang
+perkalian skalar lagi?
 
 1216
 00:52:23,240 --> 00:52:24,010
-bagaimana hasilnya ?
+bagaimana hasilnya?
 
 1217
 00:52:24,010 --> 00:52:24,677
@@ -5608,61 +5608,61 @@ TADGE DRYJA: OK.
 
 1218
 00:52:24,677 --> 00:52:29,120
-jadi scalar multiplication--
-a yang dikalikan dengan G adalah, pada dasarnya,
+Jadi perkalian skalar--
+a kali G adalah, pada dasarnya,
 
 1219
 00:52:29,120 --> 00:52:32,960
 pemecahan dari G ditambah G
-ditambah G di tambah G digtambah G sebanyak a.
+tambah G tambah G tambah G sebanyak a kali.
 
 1220
 00:52:32,960 --> 00:52:36,890
-Dan G ditambah G adalah menemumkan
-garis singgung G
+Dan G tambah G adalah menemukan
+tangent G
 
 1221
 00:52:36,890 --> 00:52:39,980
-dan kemudian menemukan 
-titik potongnya, benar ?
+dan kemudian menemukan
+titik potongnya, benar?
 
 1222
 00:52:39,980 --> 00:52:44,870
-Jadi ini adalah G. Ini adalah 2G
-benar-- garis singgung, titik potong
+Jadi ini adalah G. Ini adalah 2G,
+betul-- tangent, titik potong,
 
 1223
 00:52:44,870 --> 00:52:46,940
-dan dapat nilai negasi atau ingkaran.
+dan negasinya.
 
 1224
 00:52:46,940 --> 00:52:50,810
-Dan seperti itu, 
-kita tinggal melakukannya beberapa kali.
+Dan Anda dapat melakukannya
+berjuta-juta kali.
 
 1225
 00:52:50,810 --> 00:52:53,900
-Bagaimanapun, karena kita bisa 
-mencari nilai 2G, lalu 
+Bagaimanapun, karena Anda bisa
+mencari nilai 2G, lalu Anda
 
 1226
 00:52:53,900 --> 00:52:57,320
-kita bisa men-double kan nilainya menjadi 4G, 
-dan men-double kan nilai 4G menjadi 8G
+bisa menggandakan 2G untuk mendapatkan 4G
+dan menggandakan 4G untuk mendapatkan 8G,
 
 1227
 00:52:57,320 --> 00:53:00,140
-dan kita bisa mengasumsikan suatu nilai 
-perpangkatan dua
+dan kita bisa mendapatkan nilai
+pangkat dua dari G
 
 1228
 00:53:00,140 --> 00:53:02,240
-dan menambahkannya 
-perpangkatan 2 tersebut untuk
+dan menambahkan
+pangkat 2 tersebut untuk melakukan
 
 1229
 00:53:02,240 --> 00:53:06,650
-perhitungan yang lebih efisien 
+perhitungan yang jauh lebih efisien
 sehingga kita bisa secara praktis
 
 1230
@@ -5671,17 +5671,17 @@ membuat--
 
 1231
 00:53:07,570 --> 00:53:12,890
-karena a kecil akan menjadi 
-inilai desimal 50 digit yang besar
+karena a kecil akan menjadi
+bilangan desimal 50 digit yang sangat besar
 
 1232
 00:53:12,890 --> 00:53:14,290
-atau lain sebagainya.
+atau apapun itu.
 
 1233
 00:53:14,290 --> 00:53:17,450
-Maka kita akan 
-memiliki dua, empat, enam,
+Maka Anda akan
+melakukan dua, empat, enam,
 
 1234
 00:53:17,450 --> 00:53:20,820
@@ -5690,15 +5690,15 @@ dan menambahkan semuanya.
 
 1235
 00:53:20,820 --> 00:53:22,220
-Ok.
+OK.
 
 1236
 00:53:22,220 --> 00:53:24,570
-iya?
+Yah?
 
 1237
 00:53:24,570 --> 00:53:29,860
-Audiens: Jadi anda membuang 
+AUDIENS: Jadi Anda membuang 
 beberapa bagian menjadi ukuran bulir kecil
 
 1238
@@ -5717,17 +5717,17 @@ TADGE DRYJA: Iya
 1241
 00:53:33,350 --> 00:53:37,630
 AUDIENS: Itu bagaikan mempunyai
-306 bits pada yang original,
+306 bit pada bagian aslinya,
 
 1242
 00:53:37,630 --> 00:53:40,810
-anda seharusnya tidak dapat semua
-32 bits, bukan?
+Anda seharusnya tidak bisa mendapatkan
+sampai 32 bit, betul?
 
 1243
 00:53:40,810 --> 00:53:42,830
-Karena anda hanya ingin meyakinkan
-bahwa anda--
+Karena Anda hanya ingin meyakinkan
+bahwa Anda--
 
 1244
 00:53:42,830 --> 00:53:43,707
@@ -5735,46 +5735,46 @@ TADGE DRYJA: Ini?
 
 1245
 00:53:43,707 --> 00:53:44,332
-AUDIENS: Iya.
+AUDIENS: Yah.
 
 1246
 00:53:46,580 --> 00:53:49,150
-Jika anda menghilangkan byte 
-tertentu,
+Jika anda menghilangkan satu byte 
+presisi,
 
 1247
 00:53:49,150 --> 00:53:52,640
-apakah anda akan kehilangan
-sebuah tenaga?
+apakah Anda akan kehilangan
+tenaga?
 
 1248
 00:53:52,640 --> 00:53:55,580
-TADGE DRYJA: Apa yang bisa anda lakukan-- 
-apa yang bisa anda lakukan
+TADGE DRYJA: Apa yang bisa sedikit Anda lakukan-- 
+apa yang bisa Anda lakukan
 
 1249
 00:53:55,580 --> 00:53:58,520
-adalah anda hanya bisa mengatakan,
-lihat, Aku hanya
+adalah Anda hanya bisa mengatakan,
+lihat, saya hanya
 
 1250
 00:53:58,520 --> 00:54:06,140
-akan memberikan akses public key 
-yang ada pada posisi atas, y positif
+akan memperbolehkan akses kunci publik
+yang ada pada posisi atas, komponen
 
 1251
 00:54:06,140 --> 00:54:07,070
-komponen.
+y positif.
 
 1252
 00:54:07,070 --> 00:54:09,545
-Dan yang lain 
+Dan yang lain
 tidak diperbolehkan.
 
 1253
 00:54:09,545 --> 00:54:11,420
 Anda bisa memiliki hal tersebut sebagai
-aturan dalam sistem anda,
+aturan dalam sistem Anda,
 
 1254
 00:54:11,420 --> 00:54:14,810
@@ -5783,17 +5783,17 @@ bit y.
 
 1255
 00:54:14,810 --> 00:54:19,430
-tapi masalahnya adalah
-koordinat y
+Tapi masalahnya adalah
+koordinat y tersebut
 
 1256
 00:54:19,430 --> 00:54:23,103
-Mempengaruhi beberapa hal
-seperti tanda tangan,
+mempengaruhi beberapa hal
+seperti tanda tangan, hal-hal
 
 1257
 00:54:23,103 --> 00:54:24,020
-hal-hal yang akan kamu gunakan nanti.
+yang akan Anda gunakan nanti.
 
 1258
 00:54:24,020 --> 00:54:28,580
@@ -5802,7 +5802,7 @@ secara implisit bit y positif.
 
 1259
 00:54:28,580 --> 00:54:32,240
-Dan kamu akan kehilangan 1 bit keamanan.
+Dan Anda akan kehilangan keamanan 1 bit.
 
 1260
 00:54:32,240 --> 00:54:34,250
@@ -5812,11 +5812,11 @@ perbedaan antara
 1261
 00:54:34,250 --> 00:54:37,742
 hal positif dan negatif
-jika anda melakukan penandatanganan.
+jika Anda melakukan penandatanganan.
 
 1262
 00:54:37,742 --> 00:54:38,460
-Tapi ya.
+Tapi yah.
 
 1263
 00:54:38,460 --> 00:54:40,950
@@ -5837,7 +5837,7 @@ OK.
 
 1267
 00:54:44,680 --> 00:54:46,990
-Saya akan pergi
+Saya akan berpindah
 ke bagian selanjutnya.
 
 1268
@@ -5846,7 +5846,7 @@ ECDSA digunakan pada bitcoin.
 
 1269
 00:54:52,610 --> 00:54:56,010
-Saya seaslinya tidak
+Saya tidak
 akan menjelaskan itu.
 
 1270
