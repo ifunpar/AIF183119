@@ -5181,134 +5181,134 @@ sertifikat yang berbeda.
 
 1095
 00:46:53,190 --> 00:46:56,097
-So maybe you-- well, one
-possibility is you somehow
+jadi mungkin anda-- baik,
+satu kemungkinan adalah anda entah bagaimana
 
 1096
 00:46:56,097 --> 00:46:57,930
-compromised the CA, in
-which case all right,
+mengkompromikan CA, di
+dalam hal ini baik-baik saja,
 
 1097
 00:46:57,930 --> 00:46:59,470
-you're in business.
+anda dalam bisnis.
 
 1098
 00:46:59,470 --> 00:47:01,434
-Another possibility is
-maybe you'll just sign
+Kemungkinan lain adalah
+mungkin anda hanya akan menandatangani  
 
 1099
 00:47:01,434 --> 00:47:02,600
-the certificate by yourself.
+sertifikat sendiri.
 
 1100
 00:47:02,600 --> 00:47:04,725
-Or maybe you have some old
-certificate for this guy
+atau mungkin anda memiliki beberapa
+sertifikat lama untuk orang ini
 
 1101
 00:47:04,725 --> 00:47:08,240
-that you gotten the
-private key for.
+yang anda dapatkan
+kunci privatnya.
 
 1102
 00:47:08,240 --> 00:47:11,070
-And it turns out
-that web browsers,
+Dan ternyata
+browser web,
 
 1103
 00:47:11,070 --> 00:47:14,300
-as this sort of forced HTTPS
-paper we're reading touched on,
+sebagai HTTPS paksa semacam ini
+kertas yang sedang kita baca tersentuh,
 
 1104
 00:47:14,300 --> 00:47:18,570
-most web browsers actually ask
-the user if something doesn't
+sebagian besar browser web benar-benar bertanya
+kepada pengguna apakah ada sesuatu yang tidak
 
 1105
 00:47:18,570 --> 00:47:20,205
-look right with the
-certificate, which
+beres dengan
+sertifikat, yang
 
 1106
 00:47:20,205 --> 00:47:21,580
-seems like a fairly
-strange thing
+sepertinya 
+hal yang cukup aneh
 
 1107
 00:47:21,580 --> 00:47:23,850
-to do because here's the rule.
+untuk dilakukan karena inilah peraturannya/
 
 1108
 00:47:23,850 --> 00:47:26,300
-The host name has to match
-the name of the certificate,
+nama host harus cocok dengan
+nama sertifikat,
 
 1109
 00:47:26,300 --> 00:47:27,400
-and it has to be valid.
+dan harus valid.
 
 1110
 00:47:27,400 --> 00:47:30,450
-It has to be unexpired,
-all these very clear rules.
+itu harus tidak kedaluwarsa,
+semua aturan yang sangat jelas ini.
 
 1111
 00:47:30,450 --> 00:47:34,640
-But because of historically the
-way HTTPS has been deployed,
+Tetapi karena secara historis
+cara HTTPS digunakan, 
 
 1112
 00:47:34,640 --> 00:47:38,030
-it's often been the case
-that web server operators
+sering kali
+operator server web
 
 1113
 00:47:38,030 --> 00:47:40,270
-mis-configure HTTPS.
+salah mengonfigurasi HTTPS.
 
 1114
 00:47:40,270 --> 00:47:43,330
-So maybe they just forget
-to renew their certificate.
+Jadi mungkin mereka lupa
+untuk memperbarui sertifikat mereka.
 
 1115
 00:47:43,330 --> 00:47:45,380
-Things were going
-along great and you
+Segalanya akan berjalan
+dengan baik dan anda
 
 1116
 00:47:45,380 --> 00:47:47,697
-didn't notice that your
-certificate was expired
+tidak menyadarinya bahwa 
+sertifikat telah kedaluwarsa
 
 1117
 00:47:47,697 --> 00:47:49,030
-and you just forgot to renew it.
+dan anda lupa memperbaruinya.
 
 1118
 00:47:49,030 --> 00:47:51,368
-So it seems to web
-browser developers, that
+jadi bagi para
+pengembang browser web, 
 
 1119
 00:47:51,368 --> 00:47:52,576
-seems like a bit of a bummer.
+sepertinya agak mengecewakan.
 
 1120
 00:47:52,576 --> 00:47:53,076
-Oh, man.
+astaga.
 
 1121
 00:47:53,076 --> 00:47:54,020
-It's just expired.
+Itu baru saja kedaluwarsa
 
 1122
 00:47:54,020 --> 00:47:55,510
-Let's just let
-the user continue.
+Mari kita biarkan
+pengguna melanjutkan.
 
 1123
 00:47:55,510 --> 00:47:57,880
