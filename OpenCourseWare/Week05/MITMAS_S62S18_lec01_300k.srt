@@ -5047,95 +5047,95 @@ kind of secret or something
 
 1068
 00:46:13,640 --> 00:46:15,910
-you want to reveal later
-and reveal the preimage.
+kamu ingin mengungkapnya nanti
+dan mengungkapkan pra gambarnya.
 
 1069
 00:46:15,910 --> 00:46:18,260
-So here's my commitment.
+Jadi ini adalah komitmen saya.
 
 1070
 00:46:18,260 --> 00:46:21,950
-This is an actual hash, Sha-256.
+Ini adalah sebuah kode hasil enkripsi yang sebenarnya, Sha-256.
 
 1071
 00:46:21,950 --> 00:46:23,780
-I just made it on my computer.
+Saya berhasil melakukannya di komputer saya.
 
 1072
 00:46:23,780 --> 00:46:25,220
-And there is a string.
+Dan ini ada sebuah String.
 
 1073
 00:46:25,220 --> 00:46:28,550
-There's an Ascii string
-that maps into this,
+Ada sebuah string Ascii
+yang memetakan ini,
 
 1074
 00:46:28,550 --> 00:46:31,490
-and it is a prediction
-about the weather,
+dan ini adalah sebuah prediksi
+tentang cuaca,
 
 1075
 00:46:31,490 --> 00:46:32,510
-but that's all I'll say.
+tetapi itu yang akan saya katakan.
 
 1076
 00:46:32,510 --> 00:46:35,330
-And given that information
-and given this hash,
+Dan diberikan informasi itu
+dan diberikan kode hasil enkripsi ini,
 
 1077
 00:46:35,330 --> 00:46:38,060
-you probably can't
-find my prediction.
+kamu sepertinya tidak 
+dapat menemukan prediksi saya.
 
 1078
 00:46:38,060 --> 00:46:40,610
-You can try to try all these
-different Ascii strings
+kamu bisa mencoba untuk mencoba semua
+string Ascii yang berbeda
 
 1079
 00:46:40,610 --> 00:46:44,930
-about the weather today,
-but I'll reveal it.
+tentang cuaca hari ini,
+tetapi aku akan mengungkapkannya.
 
 1080
 00:46:44,930 --> 00:46:47,550
-So I think it won't
-snow Wednesday.
+Jadi saya pikir tidak
+akan bersalju di hari Rabu.
 
 1081
 00:46:47,550 --> 00:46:49,370
-But I think it
-actually-- anyway,
+Tetapi saya pikir itu
+sebenarnya-- omong-omong,
 
 1082
 00:46:49,370 --> 00:46:50,630
-and then I put this number in.
+dan kemudian saya memasukkan nomor ini.
 
 1083
 00:46:50,630 --> 00:46:53,900
-And so if you put this in
-your computer in Linux--
+Jadi jika anda meletakkannya di
+komputer anda di dalam Linux--
 
 1084
 00:46:53,900 --> 00:46:56,450
-I think in Mac it's a
-slightly different command.
+Saya pikir di Mac ini adalah
+perintah yang sedikit berbeda.
 
 1085
 00:46:56,450 --> 00:46:59,993
-It's like Sha-2 or something.
+itu seperti Sha-2 atau sesuatu.
 
 1086
 00:46:59,993 --> 00:47:01,910
-But in Linux, this will
-work, and you can say,
+Tetapi di Linux, ini akan
+bekerja, dan bisa anda katakan,
 
 1087
 00:47:01,910 --> 00:47:03,860
-I think it won't snow Wednesday.
+Saya pikir tidak akan bersalju di hari Rabu.
 
 1088
 00:47:03,860 --> 00:47:06,860
