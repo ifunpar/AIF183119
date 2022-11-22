@@ -4793,101 +4793,101 @@ mungkin tertipu oleh hal ini.
 
 1011
 00:43:29,210 --> 00:43:31,960
-So this UI side
-is a little messy,
+Jadi sisi UI ini
+agak berantakan,
 
 1012
 00:43:31,960 --> 00:43:34,790
-partly because users
-are messy, like humans.
+sebagian karena pengguna
+berantakan, seperti manusia.
 
 1013
 00:43:34,790 --> 00:43:36,515
-And it's really
-hard to tell what's
+Dan itu benar-benar
+sulit untuk mengatakan apa itu
 
 1014
 00:43:36,515 --> 00:43:37,640
-the right thing to do here.
+hal yang benar untuk dilakukan di sini.
 
 1015
 00:43:37,640 --> 00:43:40,110
-So we'll focus mostly
-on this aspect of it,
+Jadi kami akan lebih fokus
+pada aspek ini,
 
 1016
 00:43:40,110 --> 00:43:43,652
-which is much easier
-to discuss precisely.
+yang jauh lebih mudah
+untuk membahas secara tepat.
 
 1017
 00:43:43,652 --> 00:43:45,290
-Make sense?
+Masuk akal?
 
 1018
 00:43:45,290 --> 00:43:47,665
-Any questions about
-this stuff so far?
+Setiap pertanyaan tentang
+hal ini sejauh ini?
 
 1019
 00:43:47,665 --> 00:43:48,164
-Yeah.
+Ya.
 
 1020
 00:43:48,164 --> 00:43:49,538
-AUDIENCE: I noticed
-some websites
+HADIRIN: Saya perhatikan
+beberapa situs web
 
 1021
 00:43:49,538 --> 00:43:51,624
-that our HTTPS [INAUDIBLE].
+bahwa HTTPS kami [TIDAK TERDENGAR].
 
 1022
 00:43:51,624 --> 00:43:52,290
-PROFESSOR: Yeah.
+PROFESOR: Ya.
 
 1023
 00:43:52,290 --> 00:43:57,030
-So it turns out that the
-browsers evolve over time what
+Jadi ternyata
+browser berkembang dari waktu ke waktu apa
 
 1024
 00:43:57,030 --> 00:43:59,820
-it means to get a lock icon.
+itu berarti mendapatkan ikon kunci.
 
 1025
 00:43:59,820 --> 00:44:03,370
-So one thing that
-some browsers do
+Jadi satu hal itu
+beberapa browser melakukannya
 
 1026
 00:44:03,370 --> 00:44:06,390
-is they give you
-a lock icon only
+apakah mereka memberi Anda
+ikon gembok saja
 
 1027
 00:44:06,390 --> 00:44:09,850
-if all of the content or the
-resources within your page
+jika semua konten atau
+sumber daya dalam halaman Anda
 
 1028
 00:44:09,850 --> 00:44:11,462
-were also served over HTTPS.
+juga disajikan melalui HTTPS.
 
 1029
 00:44:11,462 --> 00:44:12,920
-So this is one of
-the problems that
+Jadi ini salah satunya
+masalah-masalah itu
 
 1030
 00:44:12,920 --> 00:44:15,680
-forced HTTPS tries to
-address is this mixed
+paksa HTTPS mencoba
+alamat ini campuran ini
 
 1031
 00:44:15,680 --> 00:44:19,910
 content or insecure
-embedding kinds of problems.
+menanamkan jenis masalah.
 
 1032
 00:44:19,910 --> 00:44:22,290
