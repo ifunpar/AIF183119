@@ -5103,103 +5103,107 @@ setelah saya memilikinya di sini.
 
 1088
 00:59:47,750 --> 00:59:52,100
-Jadi, dalam dua kasus yaitu p dan
+Jadi dalam kedua kasus yaitu p dan
 q, jadi ketika saya bilang dalam dua kasus
 
 1089
 00:59:52,100 --> 00:59:55,330
-Maksud saya pk's dan qk's
+aksud saya pk's dan qk's
 
 1090
 00:59:55,330 --> 01:00:02,070
 Saya memiliki m pangkat
-ed sama dengan m (mod p)
+ed sama dengan m mod p
 
 1091
 01:00:02,070 --> 01:00:09,320
 dan m pangkat ed
-sama dengan m (mod q)
+sama dengan m mod q
 
 1092
 01:00:09,320 --> 01:00:19,810
-dan karena p dan q
-adalah bilangan prima yang berbeda
+Dan karena p dan q
+adalah bilangan prima yang berbeda,
 
 1093
 01:00:19,810 --> 01:00:27,690
-maka kita dapat mengatakan m pangkat 
-ed sama dengan m (mod N)
+kita dapat mengatakan m pangkat
+ed sama dengan m mod N
 
 1094
 01:00:27,690 --> 01:00:31,410
-Maka dari itu, dapat dikatakan bahwa c
-pangkat d
+Dan itu secara esensial mengatakan bahwa c
+pangkat d, jika Anda benar-benar
 
 1095
 01:00:31,410 --> 01:00:33,000
-Jika disatukan semuanya, maka
+ingin menyatukan
+semuanya, di mana
 
 1096
 01:00:33,000 --> 01:00:41,590
-menjadi m pangkat e dipangkatkan lagi dengan d
-sama dengan m (mod N) di mana
+m pangkat e pangkat
+d, sama dengan m mod N, di mana
 
 1097
 01:00:41,590 --> 01:00:45,530
-itulah yang kita inginkan di sini
+itulah yang kita inginkan di sini.
 
 1098
 01:00:45,530 --> 01:00:51,000
-Dan ini juga adalah mod N.
-Ini juga mod N, mod N, mod N
+Dan benda ini juga mod N.
+Ini mod N, mod N, mod N.
 
 1099
 01:00:51,000 --> 01:00:52,270
-Baiklah
+Baiklah.
 
 1100
 01:00:52,270 --> 01:00:53,090
-Jadi itulah RSA
+Jadi itulah RSA.
 
 1101
 01:00:53,090 --> 01:00:55,400
-Yang mana merupakan algoritma dari public key kamu
+Itulah algoritme kunci
+publik pertama Anda.
 
 1102
 01:00:55,400 --> 01:00:57,560
-algoritma public key yang pertama, setidaknya
+algoritme kunci publik
+yang pertama, setidaknya
 
 1103
 01:00:57,560 --> 01:01:00,075
-akan bertahan dari waktu ke waktu,
-dan masih digunakan sampai sekarang
+yang bertahan dari waktu ke waktu,
+dan masih digunakan sampai sekarang.
 
 1104
 01:01:03,900 --> 01:01:06,430
-Dari segi perhitungan,
+Dari sisi
+perhitungan,
 
 1105
 01:01:06,430 --> 01:01:09,670
-Yang menjadi bagian yang tersulit adalah
+ini adalah hal tersulit.
 
 1106
 01:01:09,670 --> 01:01:12,900
-kamu harus menggunakan metode eksponen, dan
-kamu memiliki angka yang sangat besar.
+Anda perlu memangkatkan, dan
+Anda memiliki angka-angka besar ini.
 
 1107
 01:01:12,900 --> 01:01:19,000
-Dan seiring berjalannya waktu,
-RSA, seperti yang saya katakan
+Dan setelah bertahun-tahun,
+RSA, seperti yang saya katakan,
 
 1108
 01:01:19,000 --> 01:01:20,400
-dapat bertahan dalam berjalannya waktu tersebut
+dapat bertahan.
 
 1109
 01:01:20,400 --> 01:01:23,140
 Namun parameternya
-sudah ditingkatkan
+sudah ditingkatkan.
 
 1110
 01:01:23,140 --> 01:01:25,210
@@ -5208,54 +5212,54 @@ Dibanding Ketika pada tahun
 
 1111
 01:01:25,210 --> 01:01:28,960
-masih berpikir tentang bilangan prima 512 bit
+masih berpikir tentang bilangan prima 512 bit.
 
 1112
 01:01:28,960 --> 01:01:32,060
-Faktanya, kalau saya tidak salah
-antara n adalah 512-bit atau p
+Faktanya, saya tidak ingat
+apakah n adalah 512-bit atau p
 
 1113
 01:01:32,060 --> 01:01:33,440
-dan q adalah 512-bit
+dan q adalah 512-bit.
 
 1114
 01:01:33,440 --> 01:01:36,940
 Namun jika p dan q adalah 512-bit,
-maka n akan menjadi 1024
+maka n akan menjadi 1024.
 
 1115
 01:01:36,940 --> 01:01:43,330
 Dan sekarang, NSA merekomendasikan
-8192-bit untuk n
+8192-bit untuk n.
 
 1116
 01:01:43,330 --> 01:01:44,660
-Jadi ada peningkatan di sana
+Jadi sudah ada peningkatan.
 
 1117
 01:01:44,660 --> 01:01:46,870
-Namun hal baiknya ialah
-tidak
+Namun hal baiknya adalah
+bahwa tidak adanya
 
 1118
 01:01:46,870 --> 01:01:52,040
-adanya peningkatan eksponensial
+peningkatan secara eksponensial
 dalam komputasi.
 
 1119
 01:01:52,040 --> 01:01:55,910
-Karena komputasi secara
-polinomial terkait
+Karena komputasinya
+berbanding polinomial
 
 1120
 01:01:55,910 --> 01:01:57,570
-dengan jumlah bit
+dengan jumlah bit.
 
 1121
 01:01:57,570 --> 01:02:01,560
-Jadi apabila kamu menggkamukannya, Saya
-pikir, jika saya tidak salah, maka
+Jadi apabila Andda menggandakannya, saya
+pikir, jika saya tidak salah ingat, maka
 
 1122
 01:02:01,560 --> 01:02:04,430
@@ -5265,105 +5269,105 @@ pangkat tiga dari itu
 1123
 01:02:04,430 --> 01:02:06,370
 Atau sebetulnya,
-verifikasi tkamu tangan
+verifikasi tanda tangan
 
 1124
 01:02:06,370 --> 01:02:07,820
-akan menjadi pangkat tiga itu
+akan menjadi pangkat tiga.
 
 1125
 01:02:07,820 --> 01:02:11,470
 Namun jangan terlalu
-khawatir tentang itu
+khawatir tentang itu.
 
 1126
 01:02:11,470 --> 01:02:15,950
 Intinya adalah pada saat
-kamu menggkamukan
+Anda menggandakan
 
 1127
 01:02:15,950 --> 01:02:18,050
-ukuran dari eksponen, maka
-kamu akan
+ukuran dari eksponen,
+maka Anda akan
 
 1128
 01:02:18,050 --> 01:02:22,530
-mengalami sedikit tambahan 
+mengalami sedikit tambahan
 waktu yang dibutuhkan
 
 1129
 01:02:22,530 --> 01:02:26,460
 untuk mendekripsi atau memverifikasi
-Sebuah tkamu tangan, dan sebagainya.
+sebuah tanda tangan, dan sebagainya.
 
 1130
 01:02:26,460 --> 01:02:32,270
-Namun hal ini telah berkembang dari
-512 atau 1024 menjadi 8192
+Namun hal itu telah berkembang dari
+512 atau 1024 menjadi 8192.
 
 1131
 01:02:32,270 --> 01:02:35,160
 Dan saya berharap,
-Kalian semua mengerti
+kalian semua mengerti
 
 1132
 01:02:35,160 --> 01:02:38,340
-bagaimana RSA bekerja hingga cakupan tertentu.
+bagaimana RSA bekerja hingga batas tertentu.
 
 1133
 01:02:38,340 --> 01:02:44,270
-Saya akan memberikan asumsi
-Sulit disini
+Saya akan berhenti pada
+asumsi terberat di sini
 
 1134
 01:02:44,270 --> 01:02:50,050
-Dimana, dalam kasus
-Diffie-Hellman, two-fold.
+di mana, seperti dalam kasus
+Diffie-Hellman, keduanya.
 
 1135
 01:02:50,050 --> 01:02:56,170
-Dan yang pertama agak dapat
-langsung terlihat.
+Dan yang pertama agak
+mudah terlihat.
 
 1136
 01:02:56,170 --> 01:02:58,550
-Sama halnya seperti 
-kasus dengan Diffie-Hellman,
+Sama halnya seperti
+dengan Diffie-Hellman,
 
 1137
 01:02:58,550 --> 01:03:01,390
-Ketika kamu mempunyai g pangkat
-Untuk di sebar
+Ketika Anda mempunyai g
+pangkat sesuatu
 
 1138
 01:03:01,390 --> 01:03:04,130
-Dan pastinya itu
-Menyembunyikan nilai A
+dan pastinya dia
+harus menyembunyikan a,
 
 1139
 01:03:04,130 --> 01:03:08,130
-Dimana kamu mendapatkan N, huruf capital
-N, yang dapat dilihat
+di sini Anda memiliki N, huruf kapital
+N, dipublikasikan.
 
 1140
 01:03:08,130 --> 01:03:12,039
-Dan ketika orang-orang dapat
-Mengambil N dan memfaktorkannya,
+Dan jika sesorang dapat
+mengambil N dan memfaktorkannya,
 
 1141
 01:03:12,039 --> 01:03:13,580
-Mungkin akan ada beberapa 
+mungkin akan ada beberapa 
 faktorisasi.
 
 1142
 01:03:13,580 --> 01:03:16,660
-Tapi kamu akan mendapatkan
-unique prime faktorisasi.
+Tapi Anda akan mendapatkan sebuah
+bilangan prima unik terfaktorisasi.
 
 1143
 01:03:16,660 --> 01:03:19,240
-Dimana menjadi yang kamu inginkan itu
-Menjadi unique prime faktorisasi
+Jadi itu yang Anda inginkan, faktorisasi
+bilangan prima unik
 
 1144
 01:03:19,240 --> 01:03:20,250
@@ -5371,13 +5375,13 @@ dari N.
 
 1145
 01:03:20,250 --> 01:03:24,830
-Dan ketika kamu mendapatkannya, maka
-Kamu telah membobol sistem
+Dan ketika Anda mendapatkannya, maka
+Anda telah membobol sistemnya
 
 1146
 01:03:24,830 --> 01:03:27,180
-dikarenakan kamu tahu
-Berapakah nilai p dan q.
+karenakan Anda tahu
+berapakah nilai p dan q.
 
 1147
 01:03:27,180 --> 01:03:28,960
@@ -5386,70 +5390,68 @@ publik dalam arti
 
 1148
 01:03:28,960 --> 01:03:31,120
-bahwa algoritma ini bersifat publik.
+bahwa algoritme ini bersifat publik.
 
 1149
 01:03:31,120 --> 01:03:33,559
-Jika kamu menggunakan RSA, ini
-Yang akan kamu lakukan.
+Jika Anda menggunakan RSA,
+inilah yang anda ikuti.
 
 1150
 01:03:33,559 --> 01:03:35,100
-Jadi orangnya akan 
+Jadi orang tersebut akan
 mencoba mencari tahu
 
 1151
 01:03:35,100 --> 01:03:38,170
-what the two primes are
-that together get multiplied
-apakah kedua bilangan prima itu
- yang bila keduanya dikalikan
+berapakah kedua bilangan prima itu
+yang bila keduanya dikalikan
 
 1152
 01:03:38,170 --> 01:03:42,030
-dapat membentuk huruf kapital N. Dan seterusnya 
-Hingga memunculkan  masalah faktorisasi.
+dapat membentuk N kapital. Dan
+itulah masalah faktorisasi.
 
 1153
 01:03:42,030 --> 01:03:52,300
-Dan juga RSA mempersulit
-Asumsi untuk menebak N
+Dan juga asumsi kesulitan
+RSA adalah diberikan N,
 
 1154
 01:03:52,300 --> 01:03:59,230
-sulit untuk memfaktorkan ke p, q.
+sulit untuk memfaktorkan ke p, koma q.
 
 1155
 01:03:59,230 --> 01:04:00,315
-Dan faktorisasi ini.
+Dan ini adalah faktorisasi.
 
 1156
 01:04:03,740 --> 01:04:06,480
-kemudian satu lagi
+Kemudian satu lagi
 hal, yaitu
 
 1157
 01:04:06,480 --> 01:04:09,320
-ditemukannya e-- bisa jadi kamu 
-Belum tentu membobol
+diketahui e-- bisa jadi Anda
+tidak benar-benar membobol
 
 1158
 01:04:09,320 --> 01:04:11,130
-seluruh cryptosystem.
+seluruh sistem kripto.
 
 1159
 01:04:11,130 --> 01:04:14,860
-Tapi kamu membobol
-Privasi terkait.
+Tapi Anda membobol
+privasi yang terkait
 
 1160
 01:04:14,860 --> 01:04:17,680
-Dengan beberapa pesan tertentu.
+dengan pesan tertentu.
 
 1161
 01:04:17,680 --> 01:04:19,730
-Dan agar kamu bisa membobol
- privasi terkait
+Dan supaya Anda bisa membobol
+privasi yang terkait
 
 1162
 01:04:19,730 --> 01:04:20,820
@@ -5457,112 +5459,109 @@ dengan pesan tertentu.
 
 1163
 01:04:20,820 --> 01:04:23,370
-Kamu diberi tahu berapa e
-Karena itu publik 
+Anda diberikan e,
+karena itu publik.
 
 1164
 01:04:23,370 --> 01:04:27,830
-Namun kamu tidak tahu
-berapakah p dan q.
+Dan Anda tidak tahu
+berapakah nilai p dan q.
 
 1165
 01:04:27,830 --> 01:04:34,260
-Tetapi perlu kamu ketahui bahwa e adalah
-Relatif prima
+Tetapi Anda tahu bahwa e
+relatif prima terhadap
 
 1166
 01:04:34,260 --> 01:04:38,680
-Dengan (p-1)*(q-1)p minus 1,
-karena itulah algoritma RSA.
+p kurang satu, q kurang 1,
+karena itulah algoritme RSA.
 
 1167
 01:04:38,680 --> 01:04:40,480
-Dan itu sudah diketahui secara public.
+Dan itu sudah diketahui secara publik.
 
 1168
 01:04:40,480 --> 01:04:45,030
-Dan kamu juga dapat mengetahui cm yang mana
-Merupakan ciphered text.
+Dan Anda juga dapat mengetahui c, yang
+merupakan teks terenkripsi.
 
 1169
 01:04:45,030 --> 01:04:47,520
-Jadi yang perlu kamu lakukan adalah
-Mencoba untuk  menemukan m.
+Jadi yang perlu Anda lakukan adalah
+Anda perlu menemukan m.
 
 1170
 01:04:47,520 --> 01:04:50,780
-Jadi ketika kamu mencoba untuk memecahkan
-Suatu enkripsi tertentu yang
+Jadi ketika Anda mencoba untuk memecahkan
+suatu enkripsi tertentu yang
 
 1171
 01:04:50,780 --> 01:04:53,520
-Dibuat algoritma RSA
+dibuat dengan algoritme RSA
 
 1172
 01:04:53,520 --> 01:04:55,910
-Dan kamu belum mempunyai
-Private key -nya.
+Dan Anda belum menemukan
+kunci privatnya di sini.
 
 1173
 01:04:55,910 --> 01:04:59,450
-Maka Itu dapat ditemukan 
-melalui cara pemfaktoran
+Itu hanya bisa ditemukan
+dengan cara pemfaktoran.
 
 1174
 01:04:59,450 --> 01:05:02,750
-Tapi kamu bisa membobol 
-Keamanannya Jika kamu 
+Tapi Anda bisa membobol
+keamanan jika Anda
 
 1175
 01:05:02,750 --> 01:05:13,440
-Dapat menemukan m dimana m
-Pangkat e adalah c mod N
+dapat menemukan m di mana m
+pangkat e adalah c mod N.
 
 1176
 01:05:13,440 --> 01:05:16,076
-Ketika kamu mencoba untuk 
-menemukan m.
+Jadi Anda melakukan
+pencarian untuk sebuah m.
 
 1177
 01:05:16,076 --> 01:05:17,450
-So you're trying
-to discover an m
-
-Kamu dapat mencoba
-Untuk menghitung m
+Jadi Anda mencoba untuk
+menemukan sebuah m
 
 1178
 01:05:17,450 --> 01:05:19,500
-Kamu dapat melakukan eksponen
-Untuk mendapatkan yang
+yang dapat dipangkatkan
+untuk mendapatkan apa yang Anda
 
 1179
 01:05:19,500 --> 01:05:20,790
-Ada disebelah kanan
+miliki di sebelah kanan.
 
 1180
 01:05:20,790 --> 01:05:23,840
-Karena jelas kamu dapat menghitung apa
+Karena jelas Anda dapat menghitung apa
 Yang ada di sebelah kanan.
 
 1181
 01:05:23,840 --> 01:05:25,890
-Jadi hal sesimpel ini
-Merumuskan masalah RSA
+Jadi secara sederhana ini
+disebut sebagai problem RSA.
 
 1182
 01:05:29,160 --> 01:05:31,510
-Dimana terdapat dua 
+Di mana terdapat dua
 asumsi komputasi
 
 1183
 01:05:31,510 --> 01:05:35,620
-Yang perlu kamu buat supaya Ketika 
-menggunakan RSA menjadi aman
+yang perlu Anda buat supaya
+RSA menjadi aman.
 
 1184
 01:05:35,620 --> 01:05:36,120
-keren?
+Keren.
 
 1185
 01:05:36,120 --> 01:05:36,703
@@ -5570,7 +5569,7 @@ Ada pertanyaan?
 
 1186
 01:05:40,123 --> 01:05:43,477
-AUDIENCE: [Tak terdengar] tengah?
+AUDIENS: [TIDAK TERDENGAR] tengah?
 
 1187
 01:05:43,477 --> 01:05:45,060
@@ -5579,7 +5578,7 @@ Jadi itu merupakan anonimitas.
 
 1188
 01:05:45,060 --> 01:05:45,630
-ya.
+Ya.
 
 1189
 01:05:45,630 --> 01:05:47,840
