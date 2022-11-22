@@ -4950,100 +4950,100 @@ Dalam beberapa kasus, Anda tidak bisa.
 
 1048
 00:45:15,710 --> 00:45:17,920
-So you can't have cycles.
+Jadi Anda tidak dapat memiliki siklus.
 
 1049
 00:45:17,920 --> 00:45:20,270
-So the idea is you
-can't find preimages,
+Jadi idenya adalah Anda
+tidak dapat menemukan gambar awal,
 
 1050
 00:45:20,270 --> 00:45:22,340
-you won't be able to find a--
+Anda tidak akan dapat menemukan a--
 
 1051
 00:45:22,340 --> 00:45:26,930
-whereas you could make a cycle
-of pointers in a computer,
+sedangkan Anda bisa membuat siklus
+pointer di komputer,
 
 1052
 00:45:26,930 --> 00:45:28,595
-where A points to
-B, B points to C,
+dimana A menunjuk ke
+B, B menunjuk ke C,
 
 1053
 00:45:28,595 --> 00:45:31,460
-C points back to
-A. You shouldn't
+C menunjuk kembali ke
+A. Anda seharusnya tidak
 
 1054
 00:45:31,460 --> 00:45:34,010
-be able to produce that
-with hash functions
+mampu menghasilkan itu
+dengan fungsi hash
 
 1055
 00:45:34,010 --> 00:45:37,130
-because having that cycle
-means, OK, well, somehow you
+karena memiliki siklus itu
+berarti, OK, baik, entah bagaimana Anda
 
 1056
 00:45:37,130 --> 00:45:38,330
-found this preimage.
+menemukan gambar awal ini.
 
 1057
 00:45:41,230 --> 00:45:43,350
-But in many cases,
-you can do this.
+Namun dalam banyak kasus,
+kamu bisa melakukan ini.
 
 1058
 00:45:43,350 --> 00:45:46,290
-And another way to look at it
-is the hash is a commitment.
+Dan cara lain untuk melihatnya
+adalah hash adalah komitmen.
 
 1059
 00:45:46,290 --> 00:45:48,960
-You can say, well, I'm not
-going to tell you what x is,
+Anda bisa mengatakan, yah, saya tidak
+akan memberi tahu Anda apa itu x,
 
 1060
 00:45:48,960 --> 00:45:53,400
-but I'll tell you what y is,
-and I can reveal x later.
+tapi aku akan memberitahumu apa itu y,
+dan saya bisa mengungkapkan x nanti.
 
 1061
 00:45:53,400 --> 00:45:55,590
-And then, since
-everyone remembers y,
+Dan kemudian, sejak
+semua orang ingat y,
 
 1062
 00:45:55,590 --> 00:45:59,042
-they can be sure that yeah,
-he's revealing the right thing.
+mereka bisa yakin bahwa ya,
+dia mengungkapkan hal yang benar.
 
 1063
 00:45:59,042 --> 00:46:00,750
-There are no collisions
-in this function,
+Tidak ada tabrakan
+dalam fungsi ini,
 
 1064
 00:46:00,750 --> 00:46:02,310
-so we can be sure,
-if we're presented
+agar kita bisa yakin,
+jika kita disajikan
 
 1065
 00:46:02,310 --> 00:46:06,680
-with x, that this was the x
-that was committed to yesterday.
+dengan x, bahwa ini adalah x
+yang berkomitmen untuk kemarin.
 
 1066
 00:46:06,680 --> 00:46:11,280
-So I'll give a little example
-of that, of commit and reveal.
+Jadi saya akan memberikan sedikit contoh
+itu, dari melakukan dan mengungkapkan.
 
 1067
 00:46:11,280 --> 00:46:13,640
-So you can commit to some
-kind of secret or something
+Jadi Anda dapat berkomitmen untuk beberapa
+semacam rahasia atau semacamnya
 
 1068
 00:46:13,640 --> 00:46:15,910
