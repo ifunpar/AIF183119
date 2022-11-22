@@ -6622,7 +6622,7 @@ penyegelan adalah bahwa Anda sudah
 
 1411
 01:17:23,370 --> 01:17:24,372
-menyegelnya menggunakan C dari x
+menyegelnya menggunakan C dari x.
 
 1412
 01:17:24,372 --> 01:17:26,580
@@ -6631,7 +6631,7 @@ di luar amplop, yang
 
 1413
 01:17:26,580 --> 01:17:27,990
-adalah C dari x
+adalah C dari x.
 
 1414
 01:17:27,990 --> 01:17:29,510
