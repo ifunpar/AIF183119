@@ -6552,7 +6552,7 @@ Saya kehabisan Frisbee.
 
 1396
 01:16:38,000 --> 01:16:39,083
-anda bisa mendapatkannya lain kali
+anda bisa mendapatkannya lain kali.
 
 1397
 01:16:42,610 --> 01:16:45,640
@@ -6582,7 +6582,6 @@ menunjukkan hal itu kepada anda.
 tapi biarkan saya dulu 
 menggambarkan jawaban ini, yang
 
-
 1403
 01:16:59,730 --> 01:17:02,960
 memberikan kita non-malleability
@@ -6595,17 +6594,15 @@ jadi klaimnya adalah juga ingin non-malleability.
 01:17:06,130 --> 01:17:08,000
 dalam fungsi hash anda.
 
-
 1406
 01:17:08,000 --> 01:17:14,147
-And the simple reason is,
-given C of x-- and let's assume
 Dan alasan sederhananya adalah,
-diberikan C dari x-- dan mari kita asumsikan
+diberikan C dari x-- dan mari kita asumsikan.
 
 1407
 01:17:14,147 --> 01:17:14,980
 bahwa ini adalah publik.
+
 1408
 01:17:14,980 --> 01:17:16,646
 itu pasti publik kepada juru lelang.
