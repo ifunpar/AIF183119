@@ -3699,103 +3699,103 @@ alasan hacker
 
 779
 00:33:19,070 --> 00:33:21,120
-to request this more than once.
+untuk meminta ini lebih dari sekali.
 
 780
 00:33:21,120 --> 00:33:23,980
-That hacker requests a
-particular user more than once
+Peretas itu meminta suatu
+pengguna tertentu lebih dari sekali
 
 781
 00:33:23,980 --> 00:33:26,240
-and then it gets
-this encrypted blob.
+dan kemudian mendapatkan
+gumpalan terenkripsi ini.
 
 782
 00:33:26,240 --> 00:33:28,980
-And then it can try decrypting
-it offline as many times
+Dan kemudian dapat mencoba mendekripsi
+hal tersebut secara offline sebanyak
 
 783
 00:33:28,980 --> 00:33:31,000
-as it wants with
-different passwords
+seperti yang diinginkan dengan
+kata sandi yang berbeda
 
 784
 00:33:31,000 --> 00:33:33,080
-without having to re request it.
+tanpa harus memintanya kembali.
 
 785
 00:33:33,080 --> 00:33:34,950
-So I think the whole
-point of including
+Jadi saya berpikir keseluruhan
+titik yang termasuk
 
 786
 00:33:34,950 --> 00:33:36,840
-some sort of a
-challenge response thing
+semacam
+tantangan hal respon
 
 787
 00:33:36,840 --> 00:33:41,057
-like this in the particle
-is so that the server will--
+seperti ini dalam partikel
+adalah agar server akan--
 
 788
 00:33:41,057 --> 00:33:42,890
-you'll have to actually
-ask the server again
+anda harus benar-benar
+meminta kepada server lagi
 
 789
 00:33:42,890 --> 00:33:46,809
-and again to try to log in
-with different passwords.
+dan lagi untuk mencoba masuk
+dengan kata sandi yang berbeda.
 
 790
 00:33:46,809 --> 00:33:48,600
-And then you could rate
-limit of the server
+Dan kemudian Anda bisa mengukur
+batasan dari server
 
 791
 00:33:48,600 --> 00:33:50,700
-and get a much better defense.
+dan mendapatkan pertahanan yang jauh lebih baik.
 
 792
 00:33:50,700 --> 00:33:51,640
-Yeah.
+Iya.
 
 793
 00:33:51,640 --> 00:33:54,930
-STUDENT: [INAUDIBLE] Kerberos?
+STUDENT: [TIDAK TERDENGAR] Kerberos?
 
 794
 00:33:54,930 --> 00:34:00,210
-PROFESSOR: So I think you could
-certainly replay this message
+PROFESOR: Jadi saya pikir anda bisa
+pasti memutar ulang pesan tersebut
 
 795
 00:34:00,210 --> 00:34:03,330
-so if I sent this message
-now, you could probably
+jadi jika saya mengirim pesan tersebut
+sekarang, anda mungkin bisa
 
 796
 00:34:03,330 --> 00:34:05,420
-look at that message
-and send it as well
+melihat pesan tersebut
+dan dapat mengirimnya juga
 
 797
 00:34:05,420 --> 00:34:07,535
-and get a response back
-from the Kerberos server.
+dan mendapatkan respon
+dari Kerberos server.
 
 798
 00:34:07,535 --> 00:34:09,159
-I guess if you're
-watching the network,
+Saya kira jika anda
+mengamati jaringan,
 
 799
 00:34:09,159 --> 00:34:12,429
-you could observe this
-thing on the wire as well.
+anda bisa mengamati
+hal pada wire juga.
 
 800
 00:34:12,429 --> 00:34:16,780
