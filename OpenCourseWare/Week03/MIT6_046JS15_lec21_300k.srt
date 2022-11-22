@@ -6612,66 +6612,67 @@ to the auctioneer,
 
 1409
 01:17:16,646 --> 01:17:19,530
-and it could be public to
-the other bidders as well.
+dan itu bisa menjadi publik untuk
+penawar lainnya juga.
 
 1410
 01:17:19,530 --> 01:17:23,370
-Because the notion of
-sealing is that you've
+Karena pengertian dari
+penyegelan adalah bahwa Anda sudah
 
 1411
 01:17:23,370 --> 01:17:24,372
-sealed it using C of x.
+menyegelnya menggunakan C dari x
 
 1412
 01:17:24,372 --> 01:17:26,580
-But people can see the
-outside of the envelope, which
+Tapi orang bisa melihat
+di luar amplop, yang
 
 1413
 01:17:26,580 --> 01:17:27,990
-is C of x.
+adalah C dari x
 
 1414
 01:17:27,990 --> 01:17:29,510
-So everyone can see C of x.
+Jadi semua orang bisa melihat C dari x.
 
 1415
 01:17:29,510 --> 01:17:32,250
-You still want this to work,
-even though all other bidders
+Anda masih ingin ini berhasil,
+meskipun semua penawar lainnya
 
 1416
 01:17:32,250 --> 01:17:33,650
-can see C of x.
+dapat melihat C dari x.
 
 1417
 01:17:33,650 --> 01:17:44,990
-So given C of x, should
-not be possible to produce
+Jadi diberikan C dari x, seharusnya
+tidak mungkin untuk menghasilkan
 
 1418
 01:17:44,990 --> 01:17:48,110
-C of x plus 1.
+C dari x ditambah 1.
 
 1419
 01:17:48,110 --> 01:17:49,250
-You don't know x is.
+Anda tidak tahu x adalah.
 
 1420
 01:17:49,250 --> 01:17:54,050
-But if you can produce C of
-x plus 1, you win, all right?
+Tetapi jika Anda dapat menghasilkan C
+x plus 1, kamu menang, oke?
 
 1421
 01:17:54,050 --> 01:17:57,590
-And so that's the problem.
+Dan itulah masalahnya.
 
 1422
 01:17:57,590 --> 01:18:04,930
-Now it turns out you
-now say OK, am I done?
+Sekarang ternyata kamu
+sekarang katakan OK, apakah saya sudah selesai?
+
 
 1423
 01:18:04,930 --> 01:18:06,930
