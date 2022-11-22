@@ -4988,99 +4988,99 @@ mempercayai DNS untuk HTTPS URLs ini?
 
 1053
 00:45:20,960 --> 00:45:24,049
-Are DNS servers trusted,
-or are these DNS mappings
+Apakah server DNS tepercaya,
+atau apakah ini pemetaan DNS
 
 1054
 00:45:24,049 --> 00:45:25,090
-important for us anymore?
+masih penting buat kita?
 
 1055
 00:45:28,360 --> 00:45:28,860
-Yeah.
+Ya.
 
 1056
 00:45:28,860 --> 00:45:30,860
-AUDIENCE: They are
-because the certificate
+HADIRIN: Itu
+karena sertifikat tersebut 
 
 1057
 00:45:30,860 --> 00:45:32,819
-is signing the domain name.
+menandatangani nama domain.
 
 1058
 00:45:32,819 --> 00:45:34,860
-I don't think you sign an
-IP address [INAUDIBLE].
+Saya rasa Anda tidak menandatangani
+alamat IP [TIDAK TERDENGAR]
 
 1059
 00:45:34,860 --> 00:45:35,170
-PROFESSOR: That's right.
+PROFESOR: Benar.
 
 1060
 00:45:35,170 --> 00:45:35,390
-Yeah.
+Ya.
 
 1061
 00:45:35,390 --> 00:45:37,098
-So the certificate
-signs the domain name.
+Jadi sertifikat
+menandatangani nama domain.
 
 1062
 00:45:37,098 --> 00:45:38,430
-So this is like amazon.com.
+Jadi ini seperti amazon.com.
 
 1063
 00:45:42,040 --> 00:45:43,840
-So [INAUDIBLE].
+Jadi [TIDAK TERDENGAR].
 
 1064
 00:45:43,840 --> 00:45:47,776
-AUDIENCE: Say someone steals
-amazon.com's private key
+HADIRIN: Katakanlah seseorang mencuri
+private key amazon.com
 
 1065
 00:45:47,776 --> 00:45:51,220
-and [INAUDIBLE] another server
-with another IP address,
+dan [TIDAK TERDENGAR] server lain
+dengan alamat IP lain,
 
 1066
 00:45:51,220 --> 00:45:54,849
-and combines [INAUDIBLE]
-IP address [INAUDIBLE].
+dan menggabungkan [TIDAK TERDENGAR]
+alamat IP [TIDAK TERDENGAR].
 
 1067
 00:45:54,849 --> 00:45:56,640
-But then you already
-stole the private key.
+Tapi kemudian Anda telah
+mencuri private key-nya.
 
 1068
 00:45:56,640 --> 00:45:57,030
-PROFESSOR: That's right.
+PROFESOR: Benar.
 
 1069
 00:45:57,030 --> 00:45:57,530
-Yeah.
+Ya.
 
 1070
 00:45:57,530 --> 00:45:59,220
-So in fact, you're
-describing after both
+Jadi sebenarnya, Anda
+menjelaskan setelah keduanya
 
 1071
 00:45:59,220 --> 00:46:02,880
-steal the private key and
-redirect DNS to yourself.
+mencuri private key dan
+mengalihkan DNS ke diri Anda sendiri.
 
 1072
 00:46:02,880 --> 00:46:07,852
-So is DNS in itself sensitive
-enough for us to care about?
+Jadi apakah DNS itu sendiri cukup sensitif 
+untuk kita pedulikan?
 
 1073
 00:46:07,852 --> 00:46:09,310
-I guess in some
-sense you're right,
+Saya kira dalam beberapa
+hal Anda benar,
 
 1074
 00:46:09,310 --> 00:46:11,130
