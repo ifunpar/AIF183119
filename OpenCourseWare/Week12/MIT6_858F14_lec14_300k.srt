@@ -4964,12 +4964,12 @@ yang kita hadapi dalam kasus ini.
 
 1048
 00:45:01,082 --> 00:45:03,290
-Satu hal yang saya tebak
-pertama kita harus membicarakan tentang
+Satu hal yang menurut saya
+pertama kali kita harus bicarakan
 
 1049
 00:45:03,290 --> 00:45:07,540
-Oke, jadi di dalam
+yaitu, Oke, jadi di dalam
 HTTP biasa, kita 
 
 1050
