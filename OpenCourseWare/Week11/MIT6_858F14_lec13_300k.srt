@@ -4106,98 +4106,98 @@ ingin berkali-kali [INAUDIBLE].
 
 864
 00:36:35,028 --> 00:36:37,620
-PROFESSOR: Yeah, well,
-I think that probably
+PROFESSOR: Ya, baik,
+Saya pikir itu memungkinkan.
 
 865
 00:36:37,620 --> 00:36:38,967
-doesn't matter quite as much.
+Tidak terlalu penting.
 
 866
 00:36:38,967 --> 00:36:41,300
-You could certainly have
-multiple rounds in the back end
+Kamu pasti bisa memiliki
+beberapa ronde di back end.
 
 867
 00:36:41,300 --> 00:36:43,380
-behind your library.
+belakang perpustakaan.
 
 868
 00:36:43,380 --> 00:36:46,670
-But there's some downsides
-to these particles--
+Tetapi ada beberapa kerugian
+dari partikel-partikel ini
 
 869
 00:36:46,670 --> 00:36:50,180
-probably not significant enough
-to stop you from using them.
+Mungkin tidak cukup signifikan 
+untuk menghentikanmu memakai mereka.
 
 870
 00:36:50,180 --> 00:36:53,040
-Other questions?
+Pertanyaan lain?
 
 871
 00:36:53,040 --> 00:36:54,880
-All right, I guess
-the other thing
+Baiklah, saya rasa 
+hal lain
 
 872
 00:36:54,880 --> 00:36:57,040
-I want to mention that
-you should watch out
+Saya ingin memperingatkan bahwa
+kamu harus hati-hati
 
 873
 00:36:57,040 --> 00:37:01,080
-for in the paper is that these
-guys, in designing Kerberos 4,
+Di kertas ini dinyatakan bahwa
+orang-orang ini, sedang mendesain Kerberos4,
 
 874
 00:37:01,080 --> 00:37:03,550
-they picked a single
-encryption scheme.
+Mereka mengambil satu
+skema enkripsi.
 
 875
 00:37:03,550 --> 00:37:05,740
-And at the time,
-they basically picked
+Pada saat yang sama,
+mereka biasanya mengambil
 
 876
 00:37:05,740 --> 00:37:09,260
-DES, which was a popular
-encryption scheme of the time.
+DES, yang dulu adalah skema
+enkripsi yang populer waktu itu.
 
 877
 00:37:09,260 --> 00:37:11,590
-It's a symmetric block cypher.
+itu adalah symmetric block cypher.
 
 878
 00:37:11,590 --> 00:37:12,820
-It goes pretty fast.
+itu berjalan sangat cepat.
 
 879
 00:37:12,820 --> 00:37:16,090
-It was reasonably secure,
-not necessarily the best,
+itu aman secara alasan,
+belum tentu yang terbaik
 
 880
 00:37:16,090 --> 00:37:18,392
-but certainly good
-enough at the time.
+tapi tentu cukup
+bagus di waktu itu.
 
 881
 00:37:18,392 --> 00:37:20,100
-And they just baked
-it into the protocol.
+Dan mereka hanya memasukkannya
+ke dalam protokol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Everything in Kerberos has
-to use single DES or at least
+Semua di Kerberos harus
+memakai 1 DES atau setiddaknya
 
 883
 00:37:22,880 --> 00:37:24,890
-everything in
-Kerberos version 4.
+Seluruhnya di dalam
+Kerberos versi 4.
 
 884
 00:37:24,890 --> 00:37:27,935
