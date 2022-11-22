@@ -3799,70 +3799,70 @@ thing on the wire as well.
 
 800
 00:34:12,429 --> 00:34:16,780
-Jadi saya pikir ini adalah semacam
-tindakan sementara-- meningkatkan
+So I think this is sort of a bit
+of a stopgap measure-- improves
 
 801
 00:34:16,780 --> 00:34:17,420
-keamanan sedikit.
+security a bit.
 
 802
 00:34:17,420 --> 00:34:21,002
-Tapi pastinya jika kamu
-melihat jaringan seseorang,
+But certainly if you're
+watching someone else's network,
 
 803
 00:34:21,002 --> 00:34:23,460
-maka kamu akan melihat paket
-ini kembali terlepas
+then you're going to see this
+packet coming back regardless
 
 804
 00:34:23,460 --> 00:34:25,546
-dari apa yang terjadi di langkah ini
+of what happened in this step.
 
 805
 00:34:25,546 --> 00:34:27,004
-Jadi kembali lagi,
-kamu akan melihat orang ini
+So coming back,
+you'll see this guy
 
 806
 00:34:27,004 --> 00:34:28,817
-dan kemudian kamu bisa
-mencoba menyerangnya.
+and you can then
+try to attack it.
 
 807
 00:34:28,817 --> 00:34:30,650
-Ada kemungkinan beberapa
-skema yang rumit
+There's probably some
+more elaborate schemes
 
 808
 00:34:30,650 --> 00:34:32,500
-kamu bisa rancang
-tapi saya tidak berpikir
+you could design
+but I didn't think
 
 809
 00:34:32,500 --> 00:34:34,469
-Kerberos 5 bahkan
-menerapkan sesuatu yang lebih
+Kerberos 5 even
+implements anything more
 
 810
 00:34:34,469 --> 00:34:37,590
-rumit dari rencana kasar
-ini, yang tampaknya cukup baik
+elaborate than roughly this
+plan, which seems good enough
 
 811
 00:34:37,590 --> 00:34:39,460
-untuk mencegah sembarangan
-orang dari mencoba
+to prevent arbitrary
+people from trying
 
 812
 00:34:39,460 --> 00:34:43,130
-untuk membobol seseorang atau brute
-force kata sandi seseorang.
+to break anyone's or brute
+force anyone's password.
 
 813
 00:34:43,130 --> 00:34:44,326
-Masuk akal?
+Make sense?
 
 814
 00:34:44,326 --> 00:34:44,826
@@ -3870,114 +3870,114 @@ Yeah.
 
 815
 00:34:44,826 --> 00:34:46,513
-MAHASISWA: Jadi anggap
-jika anda dapat
+STUDENT: So presume
+that you could
 
 816
 00:34:46,513 --> 00:34:50,528
-melakukan autentikasi [TIDAK TERDENGAR]
-atau sesuatu disini
+do authenticated [INAUDIBLE]
+or something here
 
 817
 00:34:50,528 --> 00:34:51,694
-untuk menetapkan kunci bersama.
+to establish the shared key.
 
 818
 00:34:51,694 --> 00:34:53,235
-Dan kemudian anda bisa
-enkripsi benda ini
+And then you could
+encrypt this thing
 
 819
 00:34:53,235 --> 00:34:54,474
-dengan KC dan kunci bersama.
+with KC and the shared key.
 
 820
 00:34:54,474 --> 00:34:55,300
-PROFESOR: Itu benar, yeah.
+PROFESSOR: That's right, yeah.
 
 821
 00:34:55,300 --> 00:34:56,841
-So if you're really
-doing this right,
+jadi jika kamu ingin benar-benar
+melakukakn ini dengan benar,
 
 822
 00:34:56,841 --> 00:34:59,630
-there's all these nice
-particles out there
+ada banyak macam yang bagus
+partikel diluar sana
 
 823
 00:34:59,630 --> 00:35:02,080
-that are basically called
-password authenticated key
+yang biasanya disebut
+password kunci diautentikasi
 
 824
 00:35:02,080 --> 00:35:04,170
-exchange particles, which is
-exactly what's going on here.
+pertukaran partikel, adalah
+apa yang benar-benar sedang terjadi disini.
 
 825
 00:35:04,170 --> 00:35:05,836
-So if you're actually
-building a system,
+jadi jika kamu benar-benar
+membangun suatu sistem,
 
 826
 00:35:05,836 --> 00:35:08,800
-you should basically
-Google for SRP or PAKE.
+anda seharusnya
+Google untuk SRP atau PAKE.
 
 827
 00:35:08,800 --> 00:35:12,680
-And these protocols
-and related particles
+dan protokol ini
+dan partikel yang berhubungan
 
 828
 00:35:12,680 --> 00:35:15,480
-will actually do this in
-a much better way where
+akan melakukan ini didalam
+cara yang lebih baik dimana
 
 829
 00:35:15,480 --> 00:35:18,760
-you can prove to both
-parties that you established
+anda dapat membuktikan kedua
+pihak yang anda mapan
 
 830
 00:35:18,760 --> 00:35:20,850
-a new key and both parties
-are convinced that it's
+kunci yang baru dan kedua pihak
+diyakinkan bahwa
 
 831
 00:35:20,850 --> 00:35:23,610
-the right other party
-and there's no way
+pihak lain yang tepat
+dan tidak mungkin
 
 832
 00:35:23,610 --> 00:35:26,240
-to mount these offline
-password guessing attacks
+untuk memasang offline ini
+serangan menebak kata sandi
 
 833
 00:35:26,240 --> 00:35:29,682
-on the set of network packets
-that you observe and so on.
+pada set paket jaringan
+yang Anda amati dan sebagainya.
 
 834
 00:35:29,682 --> 00:35:31,140
-So these are the
-sort of protocols.
+jadi itu adalah
+semacam jenis protokol.
 
 835
 00:35:31,140 --> 00:35:33,220
-And they're much more
-elaborate in terms
+dan masih banyak lagi
+ketentuan penjelasan
 
 836
 00:35:33,220 --> 00:35:34,310
-of crypto they rely on.
+pada crypto yang mereka andalkan.
 
 837
 00:35:34,310 --> 00:35:36,690
-So it's hard to explain on a
-board exactly why they work.
+Jadi sulit untuk menjelaskan pada 
+papan persis mengapa mereka bekerja.
 
 838
 00:35:36,690 --> 00:35:37,190
@@ -3985,18 +3985,18 @@ Yeah.
 
 839
 00:35:37,190 --> 00:35:39,050
-STUDENT: [INAUDIBLE]
-part of the reason
+SISWA: [TIDAK TERDENGAR]
+salah satu alasan
 
 840
 00:35:39,050 --> 00:35:40,938
-they did it this
-way is because they
+mereka melakukannya ini
+adalah karena mereka
 
 841
 00:35:40,938 --> 00:35:44,714
-wanted to maintain the ability
-of just sending the password.
+ingin mempertahankan kemampuannya
+hanya mengirim kata sandi.
 
 842
 00:35:44,714 --> 00:35:48,365
@@ -4106,98 +4106,98 @@ ingin berkali-kali [INAUDIBLE].
 
 864
 00:36:35,028 --> 00:36:37,620
-PROFESSOR: Ya, baik,
-Saya pikir itu memungkinkan.
+PROFESSOR: Yeah, well,
+I think that probably
 
 865
 00:36:37,620 --> 00:36:38,967
-Tidak terlalu penting.
+doesn't matter quite as much.
 
 866
 00:36:38,967 --> 00:36:41,300
-Kamu pasti bisa memiliki
-beberapa ronde di back end.
+You could certainly have
+multiple rounds in the back end
 
 867
 00:36:41,300 --> 00:36:43,380
-belakang perpustakaan.
+behind your library.
 
 868
 00:36:43,380 --> 00:36:46,670
-Tetapi ada beberapa kerugian
-dari partikel-partikel ini
+But there's some downsides
+to these particles--
 
 869
 00:36:46,670 --> 00:36:50,180
-Mungkin tidak cukup signifikan 
-untuk menghentikanmu memakai mereka.
+probably not significant enough
+to stop you from using them.
 
 870
 00:36:50,180 --> 00:36:53,040
-Pertanyaan lain?
+Other questions?
 
 871
 00:36:53,040 --> 00:36:54,880
-Baiklah, saya rasa 
-hal lain
+All right, I guess
+the other thing
 
 872
 00:36:54,880 --> 00:36:57,040
-Saya ingin memperingatkan bahwa
-kamu harus hati-hati
+I want to mention that
+you should watch out
 
 873
 00:36:57,040 --> 00:37:01,080
-Di kertas ini dinyatakan bahwa
-orang-orang ini, sedang mendesain Kerberos4,
+for in the paper is that these
+guys, in designing Kerberos 4,
 
 874
 00:37:01,080 --> 00:37:03,550
-Mereka mengambil satu
-skema enkripsi.
+they picked a single
+encryption scheme.
 
 875
 00:37:03,550 --> 00:37:05,740
-Pada saat yang sama,
-mereka biasanya mengambil
+And at the time,
+they basically picked
 
 876
 00:37:05,740 --> 00:37:09,260
-DES, yang dulu adalah skema
-enkripsi yang populer waktu itu.
+DES, which was a popular
+encryption scheme of the time.
 
 877
 00:37:09,260 --> 00:37:11,590
-itu adalah symmetric block cypher.
+It's a symmetric block cypher.
 
 878
 00:37:11,590 --> 00:37:12,820
-itu berjalan sangat cepat.
+It goes pretty fast.
 
 879
 00:37:12,820 --> 00:37:16,090
-itu aman secara alasan,
-belum tentu yang terbaik
+It was reasonably secure,
+not necessarily the best,
 
 880
 00:37:16,090 --> 00:37:18,392
-tapi tentu cukup
-bagus di waktu itu.
+but certainly good
+enough at the time.
 
 881
 00:37:18,392 --> 00:37:20,100
-Dan mereka hanya memasukkannya
-ke dalam protokol.
+And they just baked
+it into the protocol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Semua di Kerberos harus
-memakai 1 DES atau setiddaknya
+Everything in Kerberos has
+to use single DES or at least
 
 883
 00:37:22,880 --> 00:37:24,890
-Seluruhnya di dalam
-Kerberos versi 4.
+everything in
+Kerberos version 4.
 
 884
 00:37:24,890 --> 00:37:27,935
