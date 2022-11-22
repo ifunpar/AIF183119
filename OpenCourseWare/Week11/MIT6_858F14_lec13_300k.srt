@@ -4000,105 +4000,105 @@ of just sending the password.
 
 842
 00:35:44,714 --> 00:35:48,365
-And protocols just allow
-you to send a single thing
+Dan protokol hanya memungkinkan
+Anda untuk mengirim satu hal
 
 843
 00:35:48,365 --> 00:35:50,840
-as your authentication
+sebagai otentikasi Anda
 [INAUDIBLE].
 
 844
 00:35:50,840 --> 00:35:52,820
-PROFESSOR: Well,
-yeah, there's lots
+PROFESOR: Nah,
+ya, ada banyak
 
 845
 00:35:52,820 --> 00:35:56,950
-of sort of weird requirements
-that these guys had in mind.
+semacam persyaratan aneh
+bahwa orang-orang ini ada dalam pikiran.
 
 846
 00:35:56,950 --> 00:36:01,540
-I think they-- well,
-certainly in practice,
+Saya pikir mereka-- yah,
+tentu dalam prakteknya,
 
 847
 00:36:01,540 --> 00:36:06,340
-these servers could accept
-both Kerberos and non Kerberos
+server ini dapat menerima
+koneksi Kerberos dan 
 
 848
 00:36:06,340 --> 00:36:06,866
-connections.
+non Kerberos.
 
 849
 00:36:06,866 --> 00:36:08,240
-And for non Kerberos
-connections,
+Dan untuk koneksi
+non Kerberos,
 
 850
 00:36:08,240 --> 00:36:10,030
-you get-- like someone
-connects to the mail server
+Anda mendapatkan-- seperti seseorang
+terhubung ke server email
 
 851
 00:36:10,030 --> 00:36:11,520
-but they're not using
-an Athena workstation.
+tapi mereka tidak menggunakan
+workstation Athena.
 
 852
 00:36:11,520 --> 00:36:13,180
-They just want to
-send their password.
+Mereka hanya ingin
+mengirim kata sandi mereka.
 
 853
 00:36:13,180 --> 00:36:14,889
-And then the mail
-client here, let's say,
+Dan kemudian surat
+klien di sini, katakanlah,
 
 854
 00:36:14,889 --> 00:36:16,430
-is going to take
-your password and is
+akan mengambil
+kata sandi Anda dan
 
 855
 00:36:16,430 --> 00:36:18,770
-going to get a ticket on
-your behalf just to check it.
+akan mendapatkan tiket atas 
+nama Anda hanya untuk memeriksanya.
 
 856
 00:36:18,770 --> 00:36:19,990
-And then it's going to
-allow you to use it.
+Dan kemudian itu akan memungkinkan
+Anda untuk menggunakannya.
 
 857
 00:36:19,990 --> 00:36:22,531
-So you certainly want conversion
-from Kerberos from passwords
+Jadi Anda tentu menginginkan konversi
+dari Kerberos dari kata sandi
 
 858
 00:36:22,531 --> 00:36:25,119
-into checking against Kerberos.
+untuk memeriksa lagi Kerberos.
 
 859
 00:36:25,119 --> 00:36:27,160
-I don't think this precludes
-it because certainly
+Saya tidak berpikir ini menghalangi 
+karena tentu saja
 
 860
 00:36:27,160 --> 00:36:30,833
-Kerberos 5 deploys although
-this hashes of timestamps,
+Kerberos 5 diterapkan meskipun
+hashes of timestamps,
 
 861
 00:36:30,833 --> 00:36:31,332
-et cetera.
+dll.
 
 862
 00:36:31,332 --> 00:36:33,165
-STUDENT: Yeah but it's
-because they wouldn't
+SISWA: Ya tapi itu
+karena mereka tidak mau
 
 863
 00:36:33,165 --> 00:36:35,028
