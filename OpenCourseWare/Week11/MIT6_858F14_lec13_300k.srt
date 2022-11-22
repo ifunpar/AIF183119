@@ -3799,70 +3799,70 @@ thing on the wire as well.
 
 800
 00:34:12,429 --> 00:34:16,780
-So I think this is sort of a bit
-of a stopgap measure-- improves
+Jadi saya pikir ini adalah semacam
+tindakan sementara-- meningkatkan
 
 801
 00:34:16,780 --> 00:34:17,420
-security a bit.
+keamanan sedikit.
 
 802
 00:34:17,420 --> 00:34:21,002
-But certainly if you're
-watching someone else's network,
+Tapi pastinya jika kamu
+melihat jaringan seseorang,
 
 803
 00:34:21,002 --> 00:34:23,460
-then you're going to see this
-packet coming back regardless
+maka kamu akan melihat paket
+ini kembali terlepas
 
 804
 00:34:23,460 --> 00:34:25,546
-of what happened in this step.
+dari apa yang terjadi di langkah ini
 
 805
 00:34:25,546 --> 00:34:27,004
-So coming back,
-you'll see this guy
+Jadi kembali lagi,
+kamu akan melihat orang ini
 
 806
 00:34:27,004 --> 00:34:28,817
-and you can then
-try to attack it.
+dan kemudian kamu bisa
+mencoba menyerangnya.
 
 807
 00:34:28,817 --> 00:34:30,650
-There's probably some
-more elaborate schemes
+Ada kemungkinan beberapa
+skema yang rumit
 
 808
 00:34:30,650 --> 00:34:32,500
-you could design
-but I didn't think
+kamu bisa rancang
+tapi saya tidak berpikir
 
 809
 00:34:32,500 --> 00:34:34,469
-Kerberos 5 even
-implements anything more
+Kerberos 5 bahkan
+menerapkan sesuatu yang lebih
 
 810
 00:34:34,469 --> 00:34:37,590
-elaborate than roughly this
-plan, which seems good enough
+rumit dari rencana kasar
+ini, yang tampaknya cukup baik
 
 811
 00:34:37,590 --> 00:34:39,460
-to prevent arbitrary
-people from trying
+untuk mencegah sembarangan
+orang dari mencoba
 
 812
 00:34:39,460 --> 00:34:43,130
-to break anyone's or brute
-force anyone's password.
+untuk membobol seseorang atau brute
+force kata sandi seseorang.
 
 813
 00:34:43,130 --> 00:34:44,326
-Make sense?
+Masuk akal?
 
 814
 00:34:44,326 --> 00:34:44,826
@@ -3870,30 +3870,30 @@ Yeah.
 
 815
 00:34:44,826 --> 00:34:46,513
-STUDENT: So presume
-that you could
+MAHASISWA: Jadi anggap
+jika anda dapat
 
 816
 00:34:46,513 --> 00:34:50,528
-do authenticated [INAUDIBLE]
-or something here
+melakukan autentikasi [TIDAK TERDENGAR]
+atau sesuatu disini
 
 817
 00:34:50,528 --> 00:34:51,694
-to establish the shared key.
+untuk menetapkan kunci bersama.
 
 818
 00:34:51,694 --> 00:34:53,235
-And then you could
-encrypt this thing
+Dan kemudian anda bisa
+enkripsi benda ini
 
 819
 00:34:53,235 --> 00:34:54,474
-with KC and the shared key.
+dengan KC dan kunci bersama.
 
 820
 00:34:54,474 --> 00:34:55,300
-PROFESSOR: That's right, yeah.
+PROFESOR: Itu benar, yeah.
 
 821
 00:34:55,300 --> 00:34:56,841
