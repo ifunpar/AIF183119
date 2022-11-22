@@ -4793,294 +4793,294 @@ mungkin tertipu oleh hal ini.
 
 1011
 00:43:29,210 --> 00:43:31,960
-So this UI side
-is a little messy,
+Jadi sisi UI ini
+agak berantakan,
 
 1012
 00:43:31,960 --> 00:43:34,790
-partly because users
-are messy, like humans.
+sebagian karena pengguna
+berantakan, seperti manusia.
 
 1013
 00:43:34,790 --> 00:43:36,515
-And it's really
-hard to tell what's
+Dan itu benar-benar
+sulit untuk mengatakan apa itu
 
 1014
 00:43:36,515 --> 00:43:37,640
-the right thing to do here.
+hal yang benar untuk dilakukan di sini.
 
 1015
 00:43:37,640 --> 00:43:40,110
-So we'll focus mostly
-on this aspect of it,
+Jadi kami akan lebih fokus
+pada aspek ini,
 
 1016
 00:43:40,110 --> 00:43:43,652
-which is much easier
-to discuss precisely.
+yang jauh lebih mudah
+untuk membahas secara tepat.
 
 1017
 00:43:43,652 --> 00:43:45,290
-Make sense?
+Masuk akal?
 
 1018
 00:43:45,290 --> 00:43:47,665
-Any questions about
-this stuff so far?
+Setiap pertanyaan tentang
+hal ini sejauh ini?
 
 1019
 00:43:47,665 --> 00:43:48,164
-Yeah.
+Ya.
 
 1020
 00:43:48,164 --> 00:43:49,538
-AUDIENCE: I noticed
-some websites
+HADIRIN: Saya perhatikan
+beberapa situs web
 
 1021
 00:43:49,538 --> 00:43:51,624
-that our HTTPS [INAUDIBLE].
+bahwa HTTPS kami [TIDAK TERDENGAR].
 
 1022
 00:43:51,624 --> 00:43:52,290
-PROFESSOR: Yeah.
+PROFESOR: Ya.
 
 1023
 00:43:52,290 --> 00:43:57,030
-So it turns out that the
-browsers evolve over time what
+Jadi ternyata
+browser berkembang dari waktu ke waktu apa
 
 1024
 00:43:57,030 --> 00:43:59,820
-it means to get a lock icon.
+itu berarti mendapatkan ikon kunci.
 
 1025
 00:43:59,820 --> 00:44:03,370
-So one thing that
-some browsers do
+Jadi satu hal itu
+beberapa browser melakukannya
 
 1026
 00:44:03,370 --> 00:44:06,390
-is they give you
-a lock icon only
+apakah mereka memberi Anda
+ikon gembok saja
 
 1027
 00:44:06,390 --> 00:44:09,850
-if all of the content or the
-resources within your page
+jika semua konten atau
+sumber daya dalam halaman Anda
 
 1028
 00:44:09,850 --> 00:44:11,462
-were also served over HTTPS.
+juga disajikan melalui HTTPS.
 
 1029
 00:44:11,462 --> 00:44:12,920
-So this is one of
-the problems that
+Jadi ini salah satunya
+masalah-masalah itu
 
 1030
 00:44:12,920 --> 00:44:15,680
-forced HTTPS tries to
-address is this mixed
+paksa HTTPS mencoba
+alamat ini campuran ini
 
 1031
 00:44:15,680 --> 00:44:19,910
-content or insecure
-embedding kinds of problems.
+konten atau tidak aman
+menanamkan jenis masalah.
 
 1032
 00:44:19,910 --> 00:44:22,290
-So sometimes, you will be fail
-to get a lock icon because
+Jadi kadang-kadang, kamu akan gagal
+untuk mendapatkan ikon kunci karena
 
 1033
 00:44:22,290 --> 00:44:23,950
-of that check.
+cek tersebut.
 
 1034
 00:44:23,950 --> 00:44:25,820
-Other times, maybe
-your certificate
+Di lain waktu, mungkin
+sertifikat kamu
 
 1035
 00:44:25,820 --> 00:44:26,820
-isn't quite good enough.
+tidak cukup baik.
 
 1036
 00:44:26,820 --> 00:44:29,700
-So for example, Chrome will
-not give you a lock icon
+Jadi misalnya, chrome tidak
+akan memberimu ikon kunci
 
 1037
 00:44:29,700 --> 00:44:34,430
-if it thinks your certificate
-uses weak cryptography.
+Jika menurutnya sertifikat anda
+menggunakan kriptografi yang lemah.
 
 1038
 00:44:34,430 --> 00:44:35,990
-But also, it varies
-with browsers.
+Tetapi juga, bervariasi
+dengan browsers.
 
 1039
 00:44:35,990 --> 00:44:38,280
-So maybe Chrome will not
-give you a lock icon,
+Jadi chrome mungkin tidak
+memberi anda ikon kunci,
 
 1040
 00:44:38,280 --> 00:44:39,470
-but Firefox will.
+tetapi Firefox akan.
 
 1041
 00:44:39,470 --> 00:44:43,000
-So it's, again,
-there's no clear spec
+Jadi sekali lagi,
+tidak ada spesifikasi yang jelas
 
 1042
 00:44:43,000 --> 00:44:44,920
-on what this lock icon means.
+tentang apa arti ikon kunci ini.
 
 1043
 00:44:44,920 --> 00:44:51,060
-Just people sweep stuff
-under this lock icon.
+Hanya orang yang menyapu barang
+dibawah ikon kunci ini.
 
 1044
 00:44:51,060 --> 00:44:54,114
-Other questions?
+Ada pertanyaan lain?
 
 1045
 00:44:54,114 --> 00:44:55,090
-All right.
+Baik lah.
 
 1046
 00:44:55,090 --> 00:44:58,830
-So let's look at h guess
-what kinds of problems
+Jadi mari kita menebak
+masalah seperti apa
 
 1047
 00:44:58,830 --> 00:45:01,082
-we run into with this plan.
+yang kita hadapi dalam kasus ini.
 
 1048
 00:45:01,082 --> 00:45:03,290
-So one thing I guess we
-should maybe first talk about
+Satu hal yang saya tebak
+pertama kita harus membicarakan tentang
 
 1049
 00:45:03,290 --> 00:45:07,540
-is, OK, so in
-regular HTTP, we used
+Oke, jadi di dalam
+HTTP biasa, kita 
 
 1050
 00:45:07,540 --> 00:45:11,010
-to rely on DNS to
-give us the correct IP
+mengandalkan DNS untuk
+memberi kita alamat IP yang benar
 
 1051
 00:45:11,010 --> 00:45:13,100
-address on the server.
+di server.
 
 1052
 00:45:13,100 --> 00:45:17,595
-So how much do we have to
-trust DNS for these HTTPS URLs?
+Jadi seberapa besar kita dapat 
+mempercayai DNS untuk HTTPS URLs ini?
 
 1053
 00:45:20,960 --> 00:45:24,049
-Are DNS servers trusted,
-or are these DNS mappings
+Apakah server DNS tepercaya,
+atau apakah ini pemetaan DNS
 
 1054
 00:45:24,049 --> 00:45:25,090
-important for us anymore?
+masih penting buat kita?
 
 1055
 00:45:28,360 --> 00:45:28,860
-Yeah.
+Ya.
 
 1056
 00:45:28,860 --> 00:45:30,860
-AUDIENCE: They are
-because the certificate
+HADIRIN: Itu
+karena sertifikat tersebut 
 
 1057
 00:45:30,860 --> 00:45:32,819
-is signing the domain name.
+menandatangani nama domain.
 
 1058
 00:45:32,819 --> 00:45:34,860
-I don't think you sign an
-IP address [INAUDIBLE].
+Saya rasa Anda tidak menandatangani
+alamat IP [TIDAK TERDENGAR]
 
 1059
 00:45:34,860 --> 00:45:35,170
-PROFESSOR: That's right.
+PROFESOR: Benar.
 
 1060
 00:45:35,170 --> 00:45:35,390
-Yeah.
+Ya.
 
 1061
 00:45:35,390 --> 00:45:37,098
-So the certificate
-signs the domain name.
+Jadi sertifikat
+menandatangani nama domain.
 
 1062
 00:45:37,098 --> 00:45:38,430
-So this is like amazon.com.
+Jadi ini seperti amazon.com.
 
 1063
 00:45:42,040 --> 00:45:43,840
-So [INAUDIBLE].
+Jadi [TIDAK TERDENGAR].
 
 1064
 00:45:43,840 --> 00:45:47,776
-AUDIENCE: Say someone steals
-amazon.com's private key
+HADIRIN: Katakanlah seseorang mencuri
+private key amazon.com
 
 1065
 00:45:47,776 --> 00:45:51,220
-and [INAUDIBLE] another server
-with another IP address,
+dan [TIDAK TERDENGAR] server lain
+dengan alamat IP lain,
 
 1066
 00:45:51,220 --> 00:45:54,849
-and combines [INAUDIBLE]
-IP address [INAUDIBLE].
+dan menggabungkan [TIDAK TERDENGAR]
+alamat IP [TIDAK TERDENGAR].
 
 1067
 00:45:54,849 --> 00:45:56,640
-But then you already
-stole the private key.
+Tapi kemudian Anda telah
+mencuri private key-nya.
 
 1068
 00:45:56,640 --> 00:45:57,030
-PROFESSOR: That's right.
+PROFESOR: Benar.
 
 1069
 00:45:57,030 --> 00:45:57,530
-Yeah.
+Ya.
 
 1070
 00:45:57,530 --> 00:45:59,220
-So in fact, you're
-describing after both
+Jadi sebenarnya, Anda
+menjelaskan setelah keduanya
 
 1071
 00:45:59,220 --> 00:46:02,880
-steal the private key and
-redirect DNS to yourself.
+mencuri private key dan
+mengalihkan DNS ke diri Anda sendiri.
 
 1072
 00:46:02,880 --> 00:46:07,852
-So is DNS in itself sensitive
-enough for us to care about?
+Jadi apakah DNS itu sendiri cukup sensitif 
+untuk kita pedulikan?
 
 1073
 00:46:07,852 --> 00:46:09,310
-I guess in some
-sense you're right,
+Saya kira dalam beberapa
+hal Anda benar,
 
 1074
 00:46:09,310 --> 00:46:11,130
@@ -5182,135 +5182,134 @@ up a different certificate.
 
 1095
 00:46:53,190 --> 00:46:56,097
-jadi mungkin anda-- baik,
-satu kemungkinan adalah anda entah bagaimana
+So maybe you-- well, one
+possibility is you somehow
 
 1096
 00:46:56,097 --> 00:46:57,930
-mengkompromikan CA, di
-dalam hal ini baik-baik saja,
+compromised the CA, in
+which case all right,
 
 1097
 00:46:57,930 --> 00:46:59,470
-anda dalam bisnis.
+you're in business.
 
 1098
 00:46:59,470 --> 00:47:01,434
-Kemungkinan lain adalah
-mungkin anda hanya akan menandatangani  
+Another possibility is
+maybe you'll just sign
 
 1099
 00:47:01,434 --> 00:47:02,600
-sertifikat sendiri.
+the certificate by yourself.
 
 1100
 00:47:02,600 --> 00:47:04,725
-atau mungkin anda memiliki beberapa
-sertifikat lama untuk orang ini
+Or maybe you have some old
+certificate for this guy
 
 1101
 00:47:04,725 --> 00:47:08,240
-yang anda dapatkan
-kunci privatnya.
+that you gotten the
+private key for.
 
 1102
 00:47:08,240 --> 00:47:11,070
-Dan ternyata
-browser web,
+And it turns out
+that web browsers,
 
 1103
 00:47:11,070 --> 00:47:14,300
-sebagai HTTPS paksa semacam ini
-kertas yang sedang kita baca tersentuh,
+as this sort of forced HTTPS
+paper we're reading touched on,
 
 1104
 00:47:14,300 --> 00:47:18,570
-sebagian besar browser web benar-benar bertanya
-kepada pengguna apakah ada sesuatu yang tidak
+most web browsers actually ask
+the user if something doesn't
 
 1105
 00:47:18,570 --> 00:47:20,205
-beres dengan
-sertifikat, yang
+look right with the
+certificate, which
 
 1106
 00:47:20,205 --> 00:47:21,580
-sepertinya 
-hal yang cukup aneh
-
+seems like a fairly
+strange thing
 
 1107
 00:47:21,580 --> 00:47:23,850
-untuk dilakukan karena inilah peraturannya/
+to do because here's the rule.
 
 1108
 00:47:23,850 --> 00:47:26,300
-nama host harus cocok dengan
-nama sertifikat,
+The host name has to match
+the name of the certificate,
 
 1109
 00:47:26,300 --> 00:47:27,400
-dan harus valid.
+and it has to be valid.
 
 1110
 00:47:27,400 --> 00:47:30,450
-itu harus tidak kedaluwarsa,
-semua aturan yang sangat jelas ini.
+It has to be unexpired,
+all these very clear rules.
 
 1111
 00:47:30,450 --> 00:47:34,640
-Tetapi karena secara historis
-cara HTTPS digunakan, 
+But because of historically the
+way HTTPS has been deployed,
 
 1112
 00:47:34,640 --> 00:47:38,030
-sering kali
-operator server web
+it's often been the case
+that web server operators
 
 1113
 00:47:38,030 --> 00:47:40,270
-salah mengonfigurasi HTTPS.
+mis-configure HTTPS.
 
 1114
 00:47:40,270 --> 00:47:43,330
-Jadi mungkin mereka lupa
-untuk memperbarui sertifikat mereka.
+So maybe they just forget
+to renew their certificate.
 
 1115
 00:47:43,330 --> 00:47:45,380
-Segalanya akan berjalan
-dengan baik dan anda
+Things were going
+along great and you
 
 1116
 00:47:45,380 --> 00:47:47,697
-tidak menyadarinya bahwa 
-sertifikat telah kedaluwarsa
+didn't notice that your
+certificate was expired
 
 1117
 00:47:47,697 --> 00:47:49,030
-dan anda lupa memperbaruinya.
+and you just forgot to renew it.
 
 1118
 00:47:49,030 --> 00:47:51,368
-jadi bagi para
-pengembang browser web, 
+So it seems to web
+browser developers, that
 
 1119
 00:47:51,368 --> 00:47:52,576
-sepertinya agak mengecewakan.
+seems like a bit of a bummer.
 
 1120
 00:47:52,576 --> 00:47:53,076
-astaga.
+Oh, man.
 
 1121
 00:47:53,076 --> 00:47:54,020
-Itu baru saja kedaluwarsa
+It's just expired.
 
 1122
 00:47:54,020 --> 00:47:55,510
-Mari kita biarkan
-pengguna melanjutkan.
+Let's just let
+the user continue.
 
 1123
 00:47:55,510 --> 00:47:57,880
