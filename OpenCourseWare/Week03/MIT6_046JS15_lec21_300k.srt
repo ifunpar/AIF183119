@@ -6443,112 +6443,112 @@ Alice tidak seharusnya
 
 1373
 01:15:26,540 --> 01:15:37,760
-able to open this in
-multiple ways, right?
+bisa buka ini dengan
+berbagai cara bukan?
 
 1374
 01:15:37,760 --> 01:15:41,940
-And in this case it's
-not TCR in the sense
+Dan dalam kasus ini, bukan
+TCR maksudnya
 
 1375
 01:15:41,940 --> 01:15:45,350
-that Alice controls
-what her bids are.
+di mana Alice mengontrol
+apa itu tawarannya.
 
 1376
 01:15:45,350 --> 01:15:51,440
-And so she might find a pair
-of bids that collide, correct?
+Dan jadi dia dapan menemukan
+dua tawaran yang bertabrakan, benar?
 
 1377
 01:15:51,440 --> 01:15:55,840
-She might realize that in
-this particular hash function,
+Dia mungkin menyadari dalam
+hash function tertentu ini,
 
 1378
 01:15:55,840 --> 01:16:01,000
-you know $10,000 and a billion
-dollars collide, right?
+kamu tahu 10,000 dollar dan 
+1,000,000,000 dollar bertabrakan kan?
 
 1379
 01:16:01,000 --> 01:16:04,450
-And so she figures
-depending on what happens,
+Dan dia menemukannya
+berdasarkan apa yang terjadi
 
 1380
 01:16:04,450 --> 01:16:07,820
-she's a billionaire,
-let's assume.
+dia adalah seorang milyuner,
+mari kita anggap begitu.
 
 1381
 01:16:07,820 --> 01:16:09,320
-She's going to open
-the right thing.
+Dia akan membuka
+hal yang tepat.
 
 1382
 01:16:09,320 --> 01:16:11,320
-She's a billionaire, but
-she doesn't necessarily
+Dia adalah seorang milyuner,
+tapi dia belum tentu
 
 1383
 01:16:11,320 --> 01:16:13,390
-want to spend the billion, OK?
+ingin mengeluarkan uang miliaran, OK?
 
 1384
 01:16:13,390 --> 01:16:15,040
-So that's that, right?
+Jadi hanya itu saja, kan?
 
 1385
 01:16:15,040 --> 01:16:18,360
-But I want more.
+Tapi aku mau lebih.
 
 1386
 01:16:18,360 --> 01:16:19,115
-Go ahead.
+Silahkan
 
 1387
 01:16:19,115 --> 01:16:21,590
-AUDIENCE: You don't
-want it to be malleable.
+Penonton : kau tidak 
+menginginkan itu untuk menjadi lunak.
 
 1388
 01:16:21,590 --> 01:16:23,482
-Assuming that the
-auctioneer is not honest
+Dengan asumsi bahwa
+juru lelang tidak jujur
 
 1389
 01:16:23,482 --> 01:16:25,690
-because you don't want to
-accept a bribe from someone
+karena kamu tidak mau untuk
+menerima suap dari seseorang
 
 1390
 01:16:25,690 --> 01:16:27,200
-and then change
-everyone else's bid
+lalu mengubah
+tawaran orang lain
 
 1391
 01:16:27,200 --> 01:16:29,485
-to square root of
-whatever they bid.
+ke akar kuadrat dari
+apapun yang mereka tawar
 
 1392
 01:16:29,485 --> 01:16:31,110
-SRINIVAS DEVADAS:
-That's exactly right.
+SRINIVAS DEVADAS :
+itu betul sekali.
 
 1393
 01:16:31,110 --> 01:16:34,480
-Or plus 1, which is a
-great example, right?
+atau ditambah 1, yang merupakan
+contoh yang bagus, bukan?
 
 1394
 01:16:34,480 --> 01:16:37,050
-So there you go.
+Jadi seperti itulah.
 
 1395
 01:16:37,050 --> 01:16:38,000
-I ran out of Frisbees.
+Saya kehabisan Frisbee.
 
 1396
 01:16:38,000 --> 01:16:39,083
