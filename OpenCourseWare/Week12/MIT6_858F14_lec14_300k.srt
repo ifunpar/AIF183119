@@ -4886,105 +4886,105 @@ alamat ini campuran ini
 
 1031
 00:44:15,680 --> 00:44:19,910
-content or insecure
+konten atau tidak aman
 menanamkan jenis masalah.
 
 1032
 00:44:19,910 --> 00:44:22,290
-So sometimes, you will be fail
-to get a lock icon because
+Jadi kadang-kadang, kamu akan gagal
+untuk mendapatkan ikon kunci karena
 
 1033
 00:44:22,290 --> 00:44:23,950
-of that check.
+cek tersebut.
 
 1034
 00:44:23,950 --> 00:44:25,820
-Other times, maybe
-your certificate
+Di lain waktu, mungkin
+sertifikat kamu
 
 1035
 00:44:25,820 --> 00:44:26,820
-isn't quite good enough.
+tidak cukup baik.
 
 1036
 00:44:26,820 --> 00:44:29,700
-So for example, Chrome will
-not give you a lock icon
+Jadi misalnya, chrome tidak
+akan memberimu ikon kunci
 
 1037
 00:44:29,700 --> 00:44:34,430
-if it thinks your certificate
-uses weak cryptography.
+Jika menurutnya sertifikat anda
+menggunakan kriptografi yang lemah.
 
 1038
 00:44:34,430 --> 00:44:35,990
-But also, it varies
-with browsers.
+Tetapi juga, bervariasi
+dengan browsers.
 
 1039
 00:44:35,990 --> 00:44:38,280
-So maybe Chrome will not
-give you a lock icon,
+Jadi chrome mungkin tidak
+memberi anda ikon kunci,
 
 1040
 00:44:38,280 --> 00:44:39,470
-but Firefox will.
+tetapi Firefox akan.
 
 1041
 00:44:39,470 --> 00:44:43,000
-So it's, again,
-there's no clear spec
+Jadi sekali lagi,
+tidak ada spesifikasi yang jelas
 
 1042
 00:44:43,000 --> 00:44:44,920
-on what this lock icon means.
+tentang apa arti ikon kunci ini.
 
 1043
 00:44:44,920 --> 00:44:51,060
-Just people sweep stuff
-under this lock icon.
+Hanya orang yang menyapu barang
+dibawah ikon kunci ini.
 
 1044
 00:44:51,060 --> 00:44:54,114
-Other questions?
+Ada pertanyaan lain?
 
 1045
 00:44:54,114 --> 00:44:55,090
-All right.
+Baik lah.
 
 1046
 00:44:55,090 --> 00:44:58,830
-So let's look at h guess
-what kinds of problems
+Jadi mari kita menebak
+masalah seperti apa
 
 1047
 00:44:58,830 --> 00:45:01,082
-we run into with this plan.
+yang kita hadapi dalam kasus ini.
 
 1048
 00:45:01,082 --> 00:45:03,290
-So one thing I guess we
-should maybe first talk about
+Satu hal yang saya tebak
+pertama kita harus membicarakan tentang
 
 1049
 00:45:03,290 --> 00:45:07,540
-is, OK, so in
-regular HTTP, we used
+Oke, jadi di dalam
+HTTP biasa, kita 
 
 1050
 00:45:07,540 --> 00:45:11,010
-to rely on DNS to
-give us the correct IP
+mengandalkan DNS untuk
+memberi kita alamat IP yang benar
 
 1051
 00:45:11,010 --> 00:45:13,100
-address on the server.
+di server.
 
 1052
 00:45:13,100 --> 00:45:17,595
-So how much do we have to
-trust DNS for these HTTPS URLs?
+Jadi seberapa besar kita dapat 
+mempercayai DNS untuk HTTPS URLs ini?
 
 1053
 00:45:20,960 --> 00:45:24,049
