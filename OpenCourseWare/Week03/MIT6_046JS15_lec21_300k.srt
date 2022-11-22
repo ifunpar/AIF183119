@@ -6675,20 +6675,19 @@ now say OK, am I done?
 
 1423
 01:18:04,930 --> 01:18:06,930
-I want these three properties.
+saya mau ketiga properti ini.
 
 1424
 01:18:06,930 --> 01:18:10,350
-And I'm done, right?
+dan saya selesai ,benar?
 
 1425
 01:18:10,350 --> 01:18:13,060
-There's a little
-subtlety here which
+disini ada sedikit kesalahan dimana
 
 1426
 01:18:13,060 --> 01:18:15,750
-these properties don't capture.
+properti ini tidak menangkap.
 
 1427
 01:18:15,750 --> 01:18:18,290
@@ -6696,43 +6695,39 @@ So that's why there's more here.
 
 1428
 01:18:18,290 --> 01:18:21,770
-And I don't mean to
-titillate, because I'll
+dan saya tidak bermaksud bercanda,karena saya akan
 
 1429
 01:18:21,770 --> 01:18:24,000
-tell you what is missing here.
+memberitahu apa yang hilang disini.
 
 1430
 01:18:24,000 --> 01:18:29,370
-But let's say that I have a hash
-function that looks like this.
+tapi coba katakan saya mempunyai fungsi hash  yang seperti ini.
 
 1431
 01:18:33,600 --> 01:18:39,970
-And this here is non-malleable.
+dan yang ini tidak dapat dibentuk
 
 1432
 01:18:39,970 --> 01:18:41,690
-It is collision resistant.
+ini resisten akan tabrakan data.
 
 1433
 01:18:41,690 --> 01:18:43,290
-And it's one-way, all right?
+dan ini satu arah , ok?
 
 1434
 01:18:43,290 --> 01:18:46,730
-So h of x has all these
-wonderful properties,
+jadi h dari x mempunyai semua properti ini,
 
 1435
 01:18:46,730 --> 01:18:48,710
-all right?
+ok?
 
 1436
 01:18:48,710 --> 01:18:52,160
-I'm creating an h
-prime x that looks
+saya membuat h prima x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
