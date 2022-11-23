@@ -6443,42 +6443,42 @@ Alice tidak seharusnya
 
 1373
 01:15:26,540 --> 01:15:37,760
-bisa buka ini dengan
+bisa membuka ini dengan
 berbagai cara bukan?
 
 1374
 01:15:37,760 --> 01:15:41,940
 Dan dalam kasus ini, bukan
-TCR maksudnya
+TCR dalam arti
 
 1375
 01:15:41,940 --> 01:15:45,350
-di mana Alice mengontrol
-apa itu tawarannya.
+Alice mengontrol
+apa tawarannya.
 
 1376
 01:15:45,350 --> 01:15:51,440
-Dan jadi dia dapan menemukan
+Jadi dia dapan menemukan
 dua tawaran yang bertabrakan, benar?
 
 1377
 01:15:51,440 --> 01:15:55,840
 Dia mungkin menyadari dalam
-hash function tertentu ini,
+fungsi hash ini,
 
 1378
 01:15:55,840 --> 01:16:01,000
-kamu tahu 10,000 dollar dan 
-1,000,000,000 dollar bertabrakan kan?
+Anda tahu $10.000 dan satu
+miliar dolar bertabrakan, benar?
 
 1379
 01:16:01,000 --> 01:16:04,450
 Dan dia menemukannya
-berdasarkan apa yang terjadi
+berdasarkan apa yang terjadi,
 
 1380
 01:16:04,450 --> 01:16:07,820
-dia adalah seorang milyuner,
+dia adalah seorang miliader,
 mari kita anggap begitu.
 
 1381
@@ -6488,12 +6488,12 @@ hal yang tepat.
 
 1382
 01:16:09,320 --> 01:16:11,320
-Dia adalah seorang milyuner,
+Dia adalah seorang miliader,
 tapi dia belum tentu
 
 1383
 01:16:11,320 --> 01:16:13,390
-ingin mengeluarkan uang miliaran, OK?
+ingin menghabiskan uang satu miliar, OK?
 
 1384
 01:16:13,390 --> 01:16:15,040
@@ -6501,16 +6501,16 @@ Jadi hanya itu saja, kan?
 
 1385
 01:16:15,040 --> 01:16:18,360
-Tapi aku mau lebih.
+Tapi saya mau lebih.
 
 1386
 01:16:18,360 --> 01:16:19,115
-Silahkan
+Silakan.
 
 1387
 01:16:19,115 --> 01:16:21,590
-Penonton : kau tidak 
-menginginkan itu untuk menjadi lunak.
+AUDIENS: Anda tidak 
+menginginkan itu untuk menjadi bisa berubah.
 
 1388
 01:16:21,590 --> 01:16:23,482
@@ -6519,7 +6519,7 @@ juru lelang tidak jujur
 
 1389
 01:16:23,482 --> 01:16:25,690
-karena kamu tidak mau untuk
+karena Anda tidak mau untuk
 menerima suap dari seseorang
 
 1390
@@ -6534,12 +6534,12 @@ apapun yang mereka tawar
 
 1392
 01:16:29,485 --> 01:16:31,110
-SRINIVAS DEVADAS :
-itu betul sekali.
+SRINIVAS DEVADAS:
+Itu betul sekali.
 
 1393
 01:16:31,110 --> 01:16:34,480
-atau ditambah 1, yang merupakan
+Atau ditambah 1, yang merupakan
 contoh yang bagus, bukan?
 
 1394
@@ -6552,11 +6552,11 @@ Saya kehabisan Frisbee.
 
 1396
 01:16:38,000 --> 01:16:39,083
-anda bisa mendapatkannya lain kali.
+Anda bisa mendapatkannya lain kali.
 
 1397
 01:16:42,610 --> 01:16:45,640
-yah jadi, saya tidak
+Jadi yah, saya tidak
 membutuhkan ini lagi.
 
 1398
@@ -6566,33 +6566,33 @@ Anda benar sekali.
 1399
 01:16:47,020 --> 01:16:49,790
 Ada lagi-- ternyata
-itu bahkan lebih halus dari apa.
+itu bahkan lebih kompleks dari apa
 
 1400
 01:16:49,790 --> 01:16:51,070
-anda baru saja menjelaskan.
+yang baru saja Anda jelaskan.
 
 1401
 01:16:51,070 --> 01:16:54,470
-dan saya pikir saya mungkin bisa
-menunjukkan hal itu kepada anda.
+Dan saya pikir saya mungkin bisa
+menunjukkan hal itu kepada Anda.
 
 1402
 01:16:54,470 --> 01:16:59,730
-tapi biarkan saya dulu 
-menggambarkan jawaban ini, yang
+Tapi biarkan saya dulu 
+menjelaskan jawaban ini, yang
 
 1403
 01:16:59,730 --> 01:17:02,960
-memberikan kita non-malleability
+memberikan kita pertahanan terhadap perubahan
 
 1404
 01:17:02,960 --> 01:17:06,130
-jadi klaimnya adalah juga ingin non-malleability.
+jadi klaimnya adalah juga ingin tidak dapat diubah
 
 1405
 01:17:06,130 --> 01:17:08,000
-dalam fungsi hash anda.
+dalam fungsi hash Anda.
 
 1406
 01:17:08,000 --> 01:17:14,147
@@ -6605,11 +6605,12 @@ bahwa ini adalah publik.
 
 1408
 01:17:14,980 --> 01:17:16,646
-itu pasti publik kepada juru lelang.
+Itu pasti publik
+kepada juru lelang,
 
 1409
 01:17:16,646 --> 01:17:19,530
-dan itu bisa menjadi publik untuk
+dan itu bisa jadi publik untuk
 penawar lainnya juga.
 
 1410
@@ -6654,12 +6655,12 @@ C dari x ditambah 1.
 
 1419
 01:17:48,110 --> 01:17:49,250
-Anda tidak tahu x itu.
+Anda tidak tahu nilai dari x.
 
 1420
 01:17:49,250 --> 01:17:54,050
 Tetapi jika Anda dapat menghasilkan C
-dari x ditambah 1, kamu menang, oke?
+dari x ditambah 1, Anda menang, betul?
 
 1421
 01:17:54,050 --> 01:17:57,590
@@ -6667,8 +6668,8 @@ Dan itulah masalahnya.
 
 1422
 01:17:57,590 --> 01:18:04,930
-Sekarang ternyata kamu
-sekarang katakan OK, apakah saya sudah selesai?
+Sekarang ternyata Anda
+sekarang mengatakan OK, apakah saya sudah selesai?
 
 1423
 01:18:04,930 --> 01:18:06,930
@@ -6676,11 +6677,12 @@ saya mau ketiga properti ini.
 
 1424
 01:18:06,930 --> 01:18:10,350
-dan saya selesai ,benar?
+dan saya selesai,benar?
 
 1425
 01:18:10,350 --> 01:18:13,060
-disini ada sedikit kesalahan dimana
+Di sini ada sedikit
+detail di mana
 
 1426
 01:18:13,060 --> 01:18:15,750
@@ -6688,11 +6690,12 @@ properti ini tidak menangkap.
 
 1427
 01:18:15,750 --> 01:18:18,290
-maka karena itu ada beberapa disini.
+Karena itu ada beberapa hal lain di sini.
 
 1428
 01:18:18,290 --> 01:18:21,770
-dan saya tidak bermaksud bercanda,karena saya akan
+Dan saya tidak bermaksud
+bercanda, karena saya akan
 
 1429
 01:18:21,770 --> 01:18:24,000
@@ -6700,23 +6703,25 @@ memberitahu apa yang hilang disini.
 
 1430
 01:18:24,000 --> 01:18:29,370
-tapi coba katakan saya mempunyai fungsi hash  yang seperti ini.
+Tapi katakanlah saya mempunyai fungsi
+hash yang seperti ini.
 
 1431
 01:18:33,600 --> 01:18:39,970
-dan yang ini tidak dapat dibentuk
+Dan yang ini tidak dapat diubah.
 
 1432
 01:18:39,970 --> 01:18:41,690
-ini resisten akan tabrakan data.
+Ini resisten terhadap tabrakan data.
 
 1433
 01:18:41,690 --> 01:18:43,290
-dan ini satu arah , ok?
+Dan ini satu arah, ok?
 
 1434
 01:18:43,290 --> 01:18:46,730
-jadi h dari x mempunyai semua properti ini,
+Jadi h dari x mempunyai
+semua properti ini,
 
 1435
 01:18:46,730 --> 01:18:48,710
@@ -6724,7 +6729,8 @@ ok?
 
 1436
 01:18:48,710 --> 01:18:52,160
-saya membuat h prima x yang terlihat
+Saya membuat h aksen
+x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
