@@ -4787,7 +4787,7 @@ diketahui oleh server.
 
 1004
 00:41:14,900 --> 00:41:17,290
-Jadi ini memiliki 
+Jadi ini memiliki
 properti yang bagus di mana
 
 1005
@@ -4798,32 +4798,32 @@ jenis apapun,
 1006
 00:41:19,350 --> 00:41:24,147
 yang telah diidentifikasi oleh sebuah sumber
-dan tujuan pasangan port IP
+dan tujuan pasangan port IP,
 
 1007
 00:41:24,147 --> 00:41:25,980
-hal tersebut masih mempertahankan seluruh
+dia masih mempertahankan seluruh
 properti yang bagus
 
 1008
 00:41:25,980 --> 00:41:30,000
-dari algoritma urutan 
-angka tua ini.
+dari algoritme urutan
+nomor sebelumnya ini.
 
 1009
 00:41:30,000 --> 00:41:34,780
-Tapi jika anda memiliki koneksi dari
+Tapi jika Anda memiliki koneksi dari
 tupel sumber/tujuan berbeda,
 
 1010
 00:41:34,780 --> 00:41:37,230
 maka tidak akan ada hal
-yang bisa anda 
+yang bisa Anda
 
 1011
 00:41:37,230 --> 00:41:41,600
-ketahui mengenai nilai tepat
-dari angka urut
+ketahui mengenai nilai
+dari nomor urut
 
 1012
 00:41:41,600 --> 00:41:42,780
@@ -4831,12 +4831,12 @@ tupel koneksi lain.
 
 1013
 00:41:42,780 --> 00:41:45,450
-Dan bahkan, anda akan diharuskan
-untuk menebak kunci ini, dengan tujuan
+Dan bahkan, Anda akan diharuskan
+untuk menebak kunci ini untuk
 
 1014
 00:41:45,450 --> 00:41:47,680
-untuk menyimpulkan nilai tersebut.
+bisa menyimpulkan nilai tersebut.
 
 1015
 00:41:47,680 --> 00:41:50,580
@@ -4846,7 +4846,7 @@ kemungkinan kernel OS-nya,
 1016
 00:41:50,580 --> 00:41:52,290
 menyimpan kunci ini
-di suatu tempat dalam memory-nya
+di suatu tempat di dalam memori
 
 1017
 00:41:52,290 --> 00:41:54,670
@@ -4856,35 +4856,35 @@ kepada orang lain.
 1018
 00:41:54,670 --> 00:41:56,420
 Jadi kurang lebih inilah cara hampir
-seluruh tumpukan TCP (TCP stacks)
+semua stack TCP
 
 1019
 00:41:56,420 --> 00:41:58,365
-menangani
-masalah seperti pada
+menangani masalah
+masalah tersebut
 
 1020
 00:41:58,365 --> 00:42:02,896
-hari ini sejauh yang diizinkan
-oleh urutan 32-bit
+hari ini sejauh yang dimungkinkan
+dengan nomor urut berukuran
 
 1021
 00:42:02,896 --> 00:42:03,395
-angka.
+32-bit.
 
 1022
 00:42:03,395 --> 00:42:04,050
-Hal tersebut tidak bagus,
-tapi masih bisa dibilang bekerja.
+Hal tersebut tidak sempurna,
+tapi masih bisa bekerja.
 
 1023
 00:42:04,050 --> 00:42:04,543
-Ya.
+Yah.
 
 1024
 00:42:04,543 --> 00:42:06,126
-HADIRIN: Bisakah Anda
-ulangi itu lagi?
+AUDIENS: Bisakah Anda
+ulangi lagi?
 
 1025
 00:42:06,126 --> 00:42:09,480
@@ -4898,7 +4898,7 @@ mesin saya menyala,
 1027
 00:42:11,380 --> 00:42:13,780
 atau saat ada mesin yang menyala,
-itu menghasilkan kunci acak.
+dia menghasilkan kunci acak.
 
 1028
 00:42:13,780 --> 00:42:16,530
@@ -4908,21 +4908,21 @@ itu menghasilkan kunci baru.
 1029
 00:42:16,530 --> 00:42:20,565
 Dan ini berarti bahwa
-setiap kali itu
+untuk pasangan sumber/tujuan tertentu,
 
 1030
 00:42:20,565 --> 00:42:24,680
-untuk pasangan 
-sumber/tujuan tertentu.
+setiap kali nomor
+urut nya
 
 1031
 00:42:24,680 --> 00:42:26,830
-sequence numbers
-maju pada tingkat yang sama seperti
+maju pada tingkat
+yang sama seperti yang
 
 1032
 00:42:26,830 --> 00:42:27,820
-dikendalikan oleh ini.
+dikendalikan oleh hal ini.
 
 1033
 00:42:27,820 --> 00:42:29,444
@@ -4931,80 +4931,80 @@ tujuan yang diberikan,
 
 1034
 00:42:29,444 --> 00:42:30,850
-hal ini sudah diperbaiki
+hal ini sudah tetap.
 
 1035
 00:42:30,850 --> 00:42:32,889
-Jadi anda obervasi
-nomor urut anda
+Jadi Anda memperhatikan
+nomor urut Anda
 
 1036
 00:42:32,889 --> 00:42:34,680
-mengikuti berdasarkan 
-nomor
+berevolusi berdasarkan
+nomor urut awal Anda
 
 1037
 00:42:34,680 --> 00:42:36,596
-urut awal anda untuk membuat
-koneksi baru
+untuk koneksi baru
+berevolusi berdasarkan
 
 1038
 00:42:36,596 --> 00:42:39,480
-ke algoritma tertentu.
+algoritme tertentu.
 
 1039
 00:42:39,480 --> 00:42:43,915
-Sehingga masih disediakan semua
-pertahanan dari paket lama
+Sehingga masih menyediakan semua
+pertahanan terhadap paket lama
 
 1040
 00:42:43,915 --> 00:42:47,120
-dari koneksi sebelumnya yang di
-injeksi kepada koneksi baru
+dari koneksi sebelumnya yang
+disisipkan ke koneksi baru,
 
 1041
 00:42:47,120 --> 00:42:50,430
-seperti masalah pesan
+seperti masalah pengurutan
 ulang paket.
 
 1042
 00:42:50,430 --> 00:42:51,630
-Jadi itu masih berfungsi.
+Jadi dia masih bisa berfungsi.
 
 1043
 00:42:51,630 --> 00:42:53,490
 Dan itu adalah satu-satunya
-hal yang nyata yang
+hal yang nyata di mana
 
 1044
 00:42:53,490 --> 00:42:56,030
-kita perlukan algoritma
-pemilihan sequence number ini
+kita memerlukan algoritme
+pemilihan nomor urut ini
 
 1045
 00:42:56,030 --> 00:42:58,800
-untuk mencegah duplikasi
-paket yang dapat menyebabkan masalah.
+untuk mencegah paket ganda
+ini yang dapat menyebabkan masalah.
 
 1046
 00:42:58,800 --> 00:43:01,660
 Bagaimanapun juga, hal yang
-kita manfaatkan sebelumnya,
+kita eksploitasi sebelumnya,
 
 1047
 00:43:01,660 --> 00:43:04,095
-yaitu jika anda
-mendapatkan sequence
+yaitu jika Anda
+mendapatkan nomor
 
 1048
 00:43:04,095 --> 00:43:08,130
-number untuk satu koneksi
+urut untuk satu koneksi
 dari A ke S, maka
 
 1049
 00:43:08,130 --> 00:43:10,715
 dari situ anda dapat menyimpulkan
-sequence number
+nomor urut
 
 1050
 00:43:10,715 --> 00:43:12,360
@@ -5012,22 +5012,22 @@ untuk koneksi yang berbeda.
 
 1051
 00:43:12,360 --> 00:43:13,080
-Sekarang Sequence Number tersebut sudah hilang.
+Itu sekarang sudah hilang.
 
 1052
 00:43:13,080 --> 00:43:14,750
-Kerena untuk setiap koneksi tersebut 
-memiliki offset ruang 32-bit
+Kerena setiap koneksi
+memiliki offset berbeda
 
 1053
 00:43:14,750 --> 00:43:19,790
-yang berbeda, 
-yang diimplementasi oleh fungsi F.
+falam ruang 32-bit ini seperti
+diimplementasikan oleh fungsi F nya.
 
 1054
 00:43:19,790 --> 00:43:25,085
-Hal ini melepaskan hubungan antara
-Sequence Numbers awal
+Jadi hal ini melepaskan hubungan antara
+nomor urut awal
 
 1055
 00:43:25,085 --> 00:43:27,611
@@ -5035,26 +5035,26 @@ yang terlihat di setiap koneksi.
 
 1056
 00:43:27,611 --> 00:43:28,110
-Ya.
+Yah.
 
 1057
 00:43:28,110 --> 00:43:31,300
-PENONTON: Apa gunanya untuk 
+AUDIENS: Apa gunanya untuk 
 mengikutsertakan kuncinya?
 
 1058
 00:43:31,300 --> 00:43:33,300
-PROFESOR: Sebenarnya, jika anda
+PROFESOR: Sebenarnya, jika Anda
 tidak mengikutsertakan kuncinya,
 
 1059
 00:43:33,300 --> 00:43:35,050
-maka saya bisa terkoneksi kepada anda.
+maka saya bisa terkoneksi kepada Anda.
 
 1060
 00:43:35,050 --> 00:43:37,487
-Lalu saya menghitung fungsi yang sama tersebut yaitu F.
-Lalu saya tarik hasilnya.
+Saya akan menghitung fungsi yang sama yaitu F.
+Saya akan menguranginya.
 
 1061
 00:43:37,487 --> 00:43:38,070
