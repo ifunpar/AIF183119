@@ -6443,295 +6443,294 @@ Alice tidak seharusnya
 
 1373
 01:15:26,540 --> 01:15:37,760
-able to open this in
-multiple ways, right?
+bisa membuka ini dengan
+berbagai cara bukan?
 
 1374
 01:15:37,760 --> 01:15:41,940
-And in this case it's
-not TCR in the sense
+Dan dalam kasus ini, bukan
+TCR dalam arti
 
 1375
 01:15:41,940 --> 01:15:45,350
-that Alice controls
-what her bids are.
+Alice mengontrol
+apa tawarannya.
 
 1376
 01:15:45,350 --> 01:15:51,440
-And so she might find a pair
-of bids that collide, correct?
+Jadi dia dapan menemukan
+dua tawaran yang bertabrakan, benar?
 
 1377
 01:15:51,440 --> 01:15:55,840
-She might realize that in
-this particular hash function,
+Dia mungkin menyadari dalam
+fungsi hash ini,
 
 1378
 01:15:55,840 --> 01:16:01,000
-you know $10,000 and a billion
-dollars collide, right?
+Anda tahu $10.000 dan satu
+miliar dolar bertabrakan, benar?
 
 1379
 01:16:01,000 --> 01:16:04,450
-And so she figures
-depending on what happens,
+Dan dia menemukannya
+berdasarkan apa yang terjadi,
 
 1380
 01:16:04,450 --> 01:16:07,820
-she's a billionaire,
-let's assume.
+dia adalah seorang miliader,
+mari kita anggap begitu.
 
 1381
 01:16:07,820 --> 01:16:09,320
-She's going to open
-the right thing.
+Dia akan membuka
+hal yang tepat.
 
 1382
 01:16:09,320 --> 01:16:11,320
-She's a billionaire, but
-she doesn't necessarily
+Dia adalah seorang miliader,
+tapi dia belum tentu
 
 1383
 01:16:11,320 --> 01:16:13,390
-want to spend the billion, OK?
+ingin menghabiskan uang satu miliar, OK?
 
 1384
 01:16:13,390 --> 01:16:15,040
-So that's that, right?
+Jadi hanya itu saja, kan?
 
 1385
 01:16:15,040 --> 01:16:18,360
-But I want more.
+Tapi saya mau lebih.
 
 1386
 01:16:18,360 --> 01:16:19,115
-Go ahead.
+Silakan.
 
 1387
 01:16:19,115 --> 01:16:21,590
-AUDIENCE: You don't
-want it to be malleable.
+AUDIENS: Anda tidak 
+menginginkan itu untuk menjadi bisa berubah.
 
 1388
 01:16:21,590 --> 01:16:23,482
-Assuming that the
-auctioneer is not honest
+Dengan asumsi bahwa
+juru lelang tidak jujur
 
 1389
 01:16:23,482 --> 01:16:25,690
-because you don't want to
-accept a bribe from someone
+karena Anda tidak mau untuk
+menerima suap dari seseorang
 
 1390
 01:16:25,690 --> 01:16:27,200
-and then change
-everyone else's bid
+lalu mengubah
+tawaran orang lain
 
 1391
 01:16:27,200 --> 01:16:29,485
-to square root of
-whatever they bid.
+ke akar kuadrat dari
+apapun yang mereka tawar
 
 1392
 01:16:29,485 --> 01:16:31,110
 SRINIVAS DEVADAS:
-That's exactly right.
+Itu betul sekali.
 
 1393
 01:16:31,110 --> 01:16:34,480
-Or plus 1, which is a
-great example, right?
+Atau ditambah 1, yang merupakan
+contoh yang bagus, bukan?
 
 1394
 01:16:34,480 --> 01:16:37,050
-So there you go.
+Jadi seperti itulah.
 
 1395
 01:16:37,050 --> 01:16:38,000
-I ran out of Frisbees.
+Saya kehabisan Frisbee.
 
 1396
 01:16:38,000 --> 01:16:39,083
-You can get one next time.
+Anda bisa mendapatkannya lain kali.
 
 1397
 01:16:42,610 --> 01:16:45,640
-So yeah, I don't
-need this anymore.
+Jadi yah, saya tidak
+membutuhkan ini lagi.
 
 1398
 01:16:45,640 --> 01:16:47,020
-You're exactly right.
+Anda benar sekali.
 
 1399
 01:16:47,020 --> 01:16:49,790
-There's another-- it turns out
-it's even more subtle than what
+Ada lagi-- ternyata
+itu bahkan lebih kompleks dari apa
 
 1400
 01:16:49,790 --> 01:16:51,070
-you just described.
+yang baru saja Anda jelaskan.
 
 1401
 01:16:51,070 --> 01:16:54,470
-And I think I might be able
-to point that out to you.
+Dan saya pikir saya mungkin bisa
+menunjukkan hal itu kepada Anda.
 
 1402
 01:16:54,470 --> 01:16:59,730
-But let me just first
-describe this answer, which
+Tapi biarkan saya dulu 
+menjelaskan jawaban ini, yang
 
 1403
 01:16:59,730 --> 01:17:02,960
-gives us non-malleability.
+memberikan kita pertahanan terhadap perubahan
 
 1404
 01:17:02,960 --> 01:17:06,130
-So the claim is that you
-also want non-malleability
+jadi klaimnya adalah juga ingin tidak dapat diubah
 
 1405
 01:17:06,130 --> 01:17:08,000
-in your hash function.
+dalam fungsi hash Anda.
 
 1406
 01:17:08,000 --> 01:17:14,147
-And the simple reason is,
-given C of x-- and let's assume
+Dan alasan sederhananya adalah,
+diberikan C dari x-- dan mari kita asumsikan.
 
 1407
 01:17:14,147 --> 01:17:14,980
-that this is public.
+bahwa ini adalah publik.
 
 1408
 01:17:14,980 --> 01:17:16,646
-It's certainly public
-to the auctioneer,
+Itu pasti publik
+kepada juru lelang,
 
 1409
 01:17:16,646 --> 01:17:19,530
-and it could be public to
-the other bidders as well.
+dan itu bisa jadi publik untuk
+penawar lainnya juga.
 
 1410
 01:17:19,530 --> 01:17:23,370
-Because the notion of
-sealing is that you've
+Karena pengertian dari
+penyegelan adalah bahwa Anda sudah
 
 1411
 01:17:23,370 --> 01:17:24,372
-sealed it using C of x.
+menyegelnya menggunakan C dari x.
 
 1412
 01:17:24,372 --> 01:17:26,580
-But people can see the
-outside of the envelope, which
+Tapi orang bisa melihat
+di luar amplop, yang
 
 1413
 01:17:26,580 --> 01:17:27,990
-is C of x.
+adalah C dari x.
 
 1414
 01:17:27,990 --> 01:17:29,510
-So everyone can see C of x.
+Jadi semua orang bisa melihat C dari x.
 
 1415
 01:17:29,510 --> 01:17:32,250
-You still want this to work,
-even though all other bidders
+Anda masih ingin ini berhasil,
+meskipun semua penawar lainnya
 
 1416
 01:17:32,250 --> 01:17:33,650
-can see C of x.
+dapat melihat C dari x.
 
 1417
 01:17:33,650 --> 01:17:44,990
-So given C of x, should
-not be possible to produce
+Jadi diberikan C dari x, seharusnya
+tidak mungkin untuk menghasilkan
 
 1418
 01:17:44,990 --> 01:17:48,110
-C of x plus 1.
+C dari x ditambah 1.
 
 1419
 01:17:48,110 --> 01:17:49,250
-You don't know x is.
+Anda tidak tahu nilai dari x.
 
 1420
 01:17:49,250 --> 01:17:54,050
-But if you can produce C of
-x plus 1, you win, all right?
+Tetapi jika Anda dapat menghasilkan C
+dari x ditambah 1, Anda menang, betul?
 
 1421
 01:17:54,050 --> 01:17:57,590
-And so that's the problem.
+Dan itulah masalahnya.
 
 1422
 01:17:57,590 --> 01:18:04,930
-Now it turns out you
-now say OK, am I done?
+Sekarang ternyata Anda
+sekarang mengatakan OK, apakah saya sudah selesai?
 
 1423
 01:18:04,930 --> 01:18:06,930
-I want these three properties.
+saya mau ketiga properti ini.
 
 1424
 01:18:06,930 --> 01:18:10,350
-And I'm done, right?
+dan saya selesai,benar?
 
 1425
 01:18:10,350 --> 01:18:13,060
-There's a little
-subtlety here which
+Di sini ada sedikit
+detail di mana
 
 1426
 01:18:13,060 --> 01:18:15,750
-these properties don't capture.
+properti ini tidak menangkap.
 
 1427
 01:18:15,750 --> 01:18:18,290
-So that's why there's more here.
+Karena itu ada beberapa hal lain di sini.
 
 1428
 01:18:18,290 --> 01:18:21,770
-And I don't mean to
-titillate, because I'll
+Dan saya tidak bermaksud
+bercanda, karena saya akan
 
 1429
 01:18:21,770 --> 01:18:24,000
-tell you what is missing here.
+memberitahu apa yang hilang disini.
 
 1430
 01:18:24,000 --> 01:18:29,370
-But let's say that I have a hash
-function that looks like this.
+Tapi katakanlah saya mempunyai fungsi
+hash yang seperti ini.
 
 1431
 01:18:33,600 --> 01:18:39,970
-And this here is non-malleable.
+Dan yang ini tidak dapat diubah.
 
 1432
 01:18:39,970 --> 01:18:41,690
-It is collision resistant.
+Ini resisten terhadap tabrakan data.
 
 1433
 01:18:41,690 --> 01:18:43,290
-And it's one-way, all right?
+Dan ini satu arah, ok?
 
 1434
 01:18:43,290 --> 01:18:46,730
-So h of x has all these
-wonderful properties,
+Jadi h dari x mempunyai
+semua properti ini,
 
 1435
 01:18:46,730 --> 01:18:48,710
-all right?
+ok?
 
 1436
 01:18:48,710 --> 01:18:52,160
-I'm creating an h
-prime x that looks
+Saya membuat h aksen
+x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
