@@ -5855,22 +5855,22 @@ Itu sistem tanda tangan yang buruk.
 
 1271
 00:54:58,400 --> 00:55:02,420
-So the reason why this was
-used was the better system
+Jadi alasan mengapa ini terjadi
+digunakan adalah sistem yang lebih baik
 
 1272
 00:55:02,420 --> 00:55:04,490
-was patented.
+dipatenkan.
 
 1273
 00:55:04,490 --> 00:55:11,180
-And so there's a clearer, more
-obvious, cleaner, more powerful
+Jadi ada yang lebih jelas, lebih
+nyata, lebih bersih, lebih kuat
 
 1274
 00:55:11,180 --> 00:55:14,240
-signature system that was
-patented by this German guy,
+sistem tanda tangan yang
+dipatenkan oleh pria Jerman,
 
 1275
 00:55:14,240 --> 00:55:15,170
@@ -5878,28 +5878,28 @@ Claus Schnorr.
 
 1276
 00:55:15,170 --> 00:55:17,660
-And so no one used it, or
-maybe a few people used it.
+Jadi tidak ada yang menggunakannya, atau
+mungkin hanya sedikit orang yang menggunakannya.
 
 1277
 00:55:17,660 --> 00:55:21,860
-But in general, with open
-source things and web standards,
+Tapi secara umum, dengan terbuka
+hal-hal sumber dan standar web,
 
 1278
 00:55:21,860 --> 00:55:25,590
-patents are really
-hard to work with.
+paten benar benar
+sulit untuk bekerja sama.
 
 1279
 00:55:25,590 --> 00:55:27,140
-And so all the
-cryptographers said,
+Dan semua
+kriptografer berkata,
 
 1280
 00:55:27,140 --> 00:55:29,360
-well, we'll make
-this other system
+baiklah, kita akan membuat
+ini sistem lain
 
 1281
 00:55:29,360 --> 00:55:32,540
