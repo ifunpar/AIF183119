@@ -5903,52 +5903,52 @@ ini sistem lain
 
 1281
 00:55:29,360 --> 00:55:32,540
-that's different enough that it
-doesn't infringe on the patent.
+itu cukup berbeda sehingga
+tidak melanggar paten.
 
 1282
 00:55:32,540 --> 00:55:36,200
-And it's kind of ugly.
+Dan itu agak jelek.
 
 1283
 00:55:36,200 --> 00:55:38,720
-It does work as a
-signature scheme.
+Itu berfungsi sebagai
+skema tanda tangan.
 
 1284
 00:55:38,720 --> 00:55:40,760
-But actually, I'm
-going to explain
+Tapi sebenarnya, Saya
+akan menjelaskan
 
 1285
 00:55:40,760 --> 00:55:46,100
-the Schnorr signatures,
-which make a lot more sense,
+tanda tangan Schnorr,
+yang jauh lebih masuk akal,
 
 1286
 00:55:46,100 --> 00:55:48,410
-are easier to understand
-and manipulate,
+lebih mudah dimengerti
+dan dimanipulasi,
 
 1287
 00:55:48,410 --> 00:55:50,840
-and the patent has expired,
-so we can all use it.
+dan paten telah kadaluarsa,
+jadi kita semua bisa menggunakannya
 
 1288
 00:55:50,840 --> 00:55:53,780
-And it will probably
-be going into Bitcoin.
+Dan itu akan mungkin
+masuk ke Bitcoin.
 
 1289
 00:55:53,780 --> 00:55:56,490
-And some cryptocurrencies
-use Schnorr signatures.
+Dan beberapa cryptocurrencies
+menggunakan tanda tangan Schnorr.
 
 1290
 00:55:56,490 --> 00:56:02,180
-I think Monero uses a
-Schnorr-like signature.
+Saya pikir moreno menggunakan
+tanda tangan seperti Schnorr.
 
 1291
 00:56:02,180 --> 00:56:05,480
