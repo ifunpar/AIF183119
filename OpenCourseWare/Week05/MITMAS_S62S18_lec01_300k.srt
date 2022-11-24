@@ -4857,30 +4857,30 @@ nama atau referensi,
 
 1028
 00:44:14,870 --> 00:44:19,850
-Dimana kamu tidak akan memberi nama,
-kamu bisa biarkan saja
+Di mana alih-alih memberi nama
+sebuah file, Anda bisa cukup
 
 1029
 00:44:19,850 --> 00:44:21,620
-Ambil hash dari file.
+mengambil hash dari sebuah file.
 
 1030
 00:44:21,620 --> 00:44:27,770
-dan itu adalah representasi yang bagus,
-sehingga kamu dapat menunjukkan
+Dan itu adalah representasi yang ringkas dan bagus,
+sehingga Anda dapat menunjukkan
 
 1031
 00:44:27,770 --> 00:44:29,450
-dengan apa yang kamu bicarakan.
+ke apa yang Anda bicarakan.
 
 1032
 00:44:29,450 --> 00:44:32,660
 jadi hash dari file adalah
-representasi yang unik
+representasi yang unik.
 
 1033
 00:44:32,660 --> 00:44:35,360
-dan jika kamu merubah 
+Dan jika Anda mengubah 
 salah satu bit dalam file,
 
 1034
@@ -4889,56 +4889,56 @@ hashnya akan berubah.
 
 1035
 00:44:36,770 --> 00:44:41,180
-Jadi Anda tahu itu, oke, ini dia
-cara ini untuk menunjuk ke file.
+Jadi Anda tahu itu, OK, inilah
+cara untuk menunjuk ke file.
 
 1036
 00:44:41,180 --> 00:44:43,520
-kamu juga dapat menggunakannya sebagai 
-semacam referensi atau petunjuk
+Anda juga dapat menggunakannya sebagai
+semacam referensi atau penunjuk
 
 1037
 00:44:43,520 --> 00:44:46,320
-pada algoritma yang berbeda.
+dalam algoritme yang berbeda.
 
 1038
 00:44:46,320 --> 00:44:50,420
 Jadi bisa dibilang, apa saja
-Anda menggunakan petunjuk untuk,
+kegunaan pointer Anda,
 
 1039
 00:44:50,420 --> 00:44:53,760
-daftar tertaut atau peta dan
-hal-hal seperti itu, Anda dapat mengatakan,
+linked list atau map dan
+hal-hal seperti itu, Anda dapat katakan,
 
 1040
 00:44:53,760 --> 00:44:56,900
-baik, aku akan menggunakan
+baik, saya akan menggunakan
 hash sebagai penunjuk
 
 1041
 00:44:56,900 --> 00:45:00,540
-dan kemudian dapat mengurutkan
-melaluinya dengan cara itu.
+dan kemudian dapat menelusurinya
+dengan cara tersebut.
 
 1042
 00:45:00,540 --> 00:45:05,690
-Jadi, kapan pun Anda memikirkan petunjuk
-dan teori grafik dan sebagainya
+Jadi, kapan pun Anda berpikir tentang penunjuk
+dan teori graf dan sebagainya
 
 1043
 00:45:05,690 --> 00:45:08,330
-seperti itu di komputer
-sains, berpikir, baik,
+seperti itu di ilmu
+komputer, berpikirlah, baik,
 
 1044
 00:45:08,330 --> 00:45:11,170
 bisakah saya menggunakan fungsi hash
-di sini bukan hanya
+di sini alih-alih sekadar
 
 1045
 00:45:11,170 --> 00:45:12,740
-seperti penunjuk memori biasa?
+menggunakan penunjuk memori standar?
 
 1046
 00:45:12,740 --> 00:45:14,390
@@ -4955,7 +4955,7 @@ Jadi Anda tidak dapat memiliki siklus.
 1049
 00:45:17,920 --> 00:45:20,270
 Jadi idenya adalah Anda
-tidak dapat menemukan gambar awal,
+tidak dapat menemukan pragambar,
 
 1050
 00:45:20,270 --> 00:45:22,340
@@ -4963,12 +4963,12 @@ Anda tidak akan dapat menemukan a--
 
 1051
 00:45:22,340 --> 00:45:26,930
-sedangkan Anda bisa membuat siklus
-pointer di komputer,
+di mana Anda bisa membuat siklus
+penunjuk di komputer,
 
 1052
 00:45:26,930 --> 00:45:28,595
-dimana A menunjuk ke
+di mana A menunjuk ke
 B, B menunjuk ke C,
 
 1053
@@ -4978,7 +4978,7 @@ A. Anda seharusnya tidak
 
 1054
 00:45:31,460 --> 00:45:34,010
-mampu menghasilkan itu
+bisa menghasilkan hal yang sama
 dengan fungsi hash
 
 1055
@@ -4988,36 +4988,36 @@ berarti, OK, baik, entah bagaimana Anda
 
 1056
 00:45:37,130 --> 00:45:38,330
-menemukan gambar awal ini.
+menemukan pragambar ini.
 
 1057
 00:45:41,230 --> 00:45:43,350
 Namun dalam banyak kasus,
-kamu bisa melakukan ini.
+Anda bisa melakukan ini.
 
 1058
 00:45:43,350 --> 00:45:46,290
 Dan cara lain untuk melihatnya
-adalah hash adalah komitmen.
+adalah hash adalah sebuah komitmen.
 
 1059
 00:45:46,290 --> 00:45:48,960
 Anda bisa mengatakan, yah, saya tidak
-akan memberi tahu Anda apa itu x,
+akan memberi tahu Anda berapa nilai x,
 
 1060
 00:45:48,960 --> 00:45:53,400
-tapi aku akan memberitahumu apa itu y,
+tapi saya akan memberitahumu berapa nilai y,
 dan saya bisa mengungkapkan x nanti.
 
 1061
 00:45:53,400 --> 00:45:55,590
-Dan kemudian, sejak
-semua orang ingat y,
+Dan, karena semua
+orang mengingat y,
 
 1062
 00:45:55,590 --> 00:45:59,042
-mereka bisa yakin bahwa ya,
+mereka bisa yakin bahwa yah,
 dia mengungkapkan hal yang benar.
 
 1063
@@ -5033,22 +5033,22 @@ jika kita disajikan
 1065
 00:46:02,310 --> 00:46:06,680
 dengan x, bahwa ini adalah x
-yang berkomitmen untuk kemarin.
+yang dikomitmenkan saat itu.
 
 1066
 00:46:06,680 --> 00:46:11,280
 Jadi saya akan memberikan sedikit contoh
-itu, dari melakukan dan mengungkapkan.
+terkait hal tersebut, dari berkomitmen dan mengungkapkan.
 
 1067
 00:46:11,280 --> 00:46:13,640
-Jadi Anda dapat berkomitmen untuk beberapa
-semacam rahasia atau semacamnya
+Jadi Anda dapat berkomitmen pada
+beberapa jenis rahasia atau sesuatu
 
 1068
 00:46:13,640 --> 00:46:15,910
-kamu ingin mengungkapnya nanti
-dan mengungkapkan pra gambarnya.
+yang ingin Anda ungkapkan nanti
+dan mengungkapkan pragambarnya.
 
 1069
 00:46:15,910 --> 00:46:18,260
@@ -5056,7 +5056,7 @@ Jadi ini adalah komitmen saya.
 
 1070
 00:46:18,260 --> 00:46:21,950
-Ini adalah sebuah kode hasil enkripsi yang sebenarnya, Sha-256.
+Ini adalah hash yang benar ada, Sha-256.
 
 1071
 00:46:21,950 --> 00:46:23,780
@@ -5064,12 +5064,12 @@ Saya berhasil melakukannya di komputer saya.
 
 1072
 00:46:23,780 --> 00:46:25,220
-Dan ini ada sebuah String.
+Dan ini ada sebuah string.
 
 1073
 00:46:25,220 --> 00:46:28,550
 Ada sebuah string Ascii
-yang memetakan ini,
+yang terpetakan ke sini,
 
 1074
 00:46:28,550 --> 00:46:31,490
@@ -5078,37 +5078,37 @@ tentang cuaca,
 
 1075
 00:46:31,490 --> 00:46:32,510
-tetapi itu yang akan saya katakan.
+tetapi itu saja yang akan saya katakan.
 
 1076
 00:46:32,510 --> 00:46:35,330
-Dan diberikan informasi itu
-dan diberikan kode hasil enkripsi ini,
+Dan diketahui informasi tersebut
+dan diberikan kode hash ini,
 
 1077
 00:46:35,330 --> 00:46:38,060
-kamu sepertinya tidak 
-dapat menemukan prediksi saya.
+Anda mungkin tidak dapat
+mengetahui prediksi saya.
 
 1078
 00:46:38,060 --> 00:46:40,610
-kamu bisa mencoba untuk mencoba semua
+Anda bisa mencoba semua
 string Ascii yang berbeda
 
 1079
 00:46:40,610 --> 00:46:44,930
 tentang cuaca hari ini,
-tetapi aku akan mengungkapkannya.
+tetapi saya akan mengungkapkannya.
 
 1080
 00:46:44,930 --> 00:46:47,550
-Jadi saya pikir tidak
+Jadi saya rasa tidak
 akan bersalju di hari Rabu.
 
 1081
 00:46:47,550 --> 00:46:49,370
-Tetapi saya pikir itu
-sebenarnya-- omong-omong,
+Tetapi saya rasa itu
+sebenarnya-- ngomong-ngomong,
 
 1082
 00:46:49,370 --> 00:46:50,630
@@ -5116,8 +5116,8 @@ dan kemudian saya memasukkan nomor ini.
 
 1083
 00:46:50,630 --> 00:46:53,900
-Jadi jika anda meletakkannya di
-komputer anda di dalam Linux--
+Jadi jika anda memasukkannya di
+komputer Linux Anda--
 
 1084
 00:46:53,900 --> 00:46:56,450
@@ -5126,12 +5126,12 @@ perintah yang sedikit berbeda.
 
 1085
 00:46:56,450 --> 00:46:59,993
-itu seperti Sha-2 atau sesuatu.
+itu seperti Sha-2 atau semacamnya.
 
 1086
 00:46:59,993 --> 00:47:01,910
-Tetapi di Linux, ini akan
-bekerja, dan bisa anda katakan,
+Tetapi di Linux, ini bisa
+berjalan, dan Anda bisa mengatakan,
 
 1087
 00:47:01,910 --> 00:47:03,860
@@ -5140,51 +5140,51 @@ Saya pikir tidak akan bersalju di hari Rabu.
 1088
 00:47:03,860 --> 00:47:06,860
 Dan kemudian saya menaruh 
-beberapa nomor acak di sini
+beberapa angka acak di sini
 
 1089
 00:47:06,860 --> 00:47:10,100
 karena jika saya telah berkomitmen
-untuk sekedar kalimat,
+untuk frasenya saja,
 
 1090
 00:47:10,100 --> 00:47:12,380
-Saya pikir itu tidak akan 
-terjadi Rabu salju, kamu
+Saya rasa tidak akan
+bersalju di hari Rabu, Anda
 
 1091
 00:47:12,380 --> 00:47:14,330
 mungkin
-bisa menebak itu.
+bisa menebaknya.
 
 1092
 00:47:14,330 --> 00:47:16,580
-Bisa dibilang, yah, katanya
+Anda dapat berkata, yah, dia berkata
 itu tentang cuaca.
 
 1093
 00:47:16,580 --> 00:47:19,760
-Aku akan mengambil
-segala macam jutaan
+Saya akan mengambil
+jutaan
 
 1094
 00:47:19,760 --> 00:47:21,770
 string yang berbeda
-berhubungan dengan hari
+yang berkaitan dengan hari
 
 1095
 00:47:21,770 --> 00:47:23,725
-dan cuaca dan
-kata umum bahasa Inggris,
+dan cuaca dan kata-kata
+umum dalam Bahasa Inggris,
 
 1096
 00:47:23,725 --> 00:47:25,100
-dan aku akan
-coba hashing mereka
+dan saya akan mencoba
+menghitung hashnya
 
 1097
 00:47:25,100 --> 00:47:26,720
-dan lihat apakah saya menemukan tabrakan.
+dan melihat apakah saya menemukan tabrakan.
 
 1098
 00:47:26,720 --> 00:47:28,340
@@ -5192,13 +5192,13 @@ Dan Anda mungkin bisa.
 
 1099
 00:47:28,340 --> 00:47:30,920
-Tapi saya menambahkan 
+Tapi saya menambahkan
 empat byte acak ini
 
 1100
 00:47:30,920 --> 00:47:33,390
-pada akhirnya untuk membuat
-sesulit itu.
+di belakang untuk
+membuatnya sulit.
 
 1101
 00:47:33,390 --> 00:47:35,600
@@ -5208,12 +5208,12 @@ berkontribusi pada komitmen saya.
 1102
 00:47:35,600 --> 00:47:38,480
 Dan Anda tahu ini tidak
-benar-benar berarti apa-apa.
+benar-benar berarti sesuatu.
 
 1103
 00:47:38,480 --> 00:47:43,610
-Tapi itu membuat lebih sulit untuk
-tebak apa masukan saya
+Tapi itu membuatnya lebih sulit untuk
+menebak apa masukan saya
 
 1104
 00:47:43,610 --> 00:47:45,410
@@ -5222,31 +5222,31 @@ mengungkapkan bahwa itu bukan
 
 1105
 00:47:45,410 --> 00:47:46,910
-input yang sepenuhnya acak.
+masukan yang sepenuhnya acak.
 
 1106
 00:47:46,910 --> 00:47:48,920
 Jadi Anda mungkin bisa
-untuk menebak sesuatu.
+untuk menebak berbagai hal.
 
 1107
 00:47:48,920 --> 00:47:50,810
 Jadi saya bisa mengatakan, hei,
-Aku akan membuat
+Saya akan membuat
 
 1108
 00:47:50,810 --> 00:47:55,160
-prediksi tentang
-cuaca, berkomitmen untuk itu,
+prediksi tentang cuaca,
+berkomitmen terkait hal itu,
 
 1109
 00:47:55,160 --> 00:47:57,260
-dan kemudian mengungkapkan saya
-prediksi besok.
+dan kemudian mengungkapkan
+prediksi saya besok.
 
 1110
 00:47:57,260 --> 00:47:59,990
-Dan kita akan melihat apakah saya benar.
+Dan kita akan lihat apakah saya benar.
 
 1111
 00:47:59,990 --> 00:48:03,747
@@ -5266,17 +5266,17 @@ mempengaruhi peristiwa yang sebenarnya,
 1114
 00:48:10,130 --> 00:48:13,422
 ini akan menjadi cara yang bagus untuk
-berkomitmen untuk apa prediksi saya adalah
+berkomitmen pada apa yang saya prediksikan
 
 1115
 00:48:13,422 --> 00:48:15,380
-tanpa diketahui semua orang
-apa prediksinya
+tanpa semua orang mengetahui
+apa isi prediksinya
 
 1116
 00:48:15,380 --> 00:48:17,260
-dan kemudian mengungkapkan
-itu keesokan harinya.
+dan kemudian mengungkapkannya
+esok harinya.
 
 1117
 00:48:17,260 --> 00:48:17,760
@@ -5284,31 +5284,31 @@ Ya.
 
 1118
 00:48:17,760 --> 00:48:19,927
-AUDIENCE: Apa gunanya
-kasus untuk hashing ganda,
+AUDIENS: Apa contoh kegunaan
+menghitung hash dua kali,
 
 1119
 00:48:19,927 --> 00:48:22,000
 seperti di mana Anda akan
-hash hash itu?
+menghitung hash dari hash tersebut?
 
 1120
 00:48:22,000 --> 00:48:24,840
-TADGE DRYJA: Menghajar ini lagi?
+TADGE DRYJA: Menghitung hash ini lagi?
 
 1121
 00:48:24,840 --> 00:48:29,210
-Nah, jadi di bitcoin mereka
-hash semuanya dua kali.
+Yah, jadi di bitcoin mereka
+menghitung semua hash dua kali.
 
 1122
 00:48:33,330 --> 00:48:36,180
-Umumnya, Anda tidak perlu melakukannya.
+Biasanya, Anda tidak perlu melakukannya.
 
 1123
 00:48:36,180 --> 00:48:39,870
 Tidak ada penjelasan untuk
-mengapa mereka melakukan itu di bitcoin.
+mengapa mereka melakukannya di bitcoin.
 
 1124
 00:48:39,870 --> 00:48:40,950
@@ -5317,7 +5317,7 @@ Anda bisa.
 1125
 00:48:40,950 --> 00:48:42,780
 Tapi ada beberapa hal
-Anda dapat membangun
+di mana Anda dapat membangun
 
 1126
 00:48:42,780 --> 00:48:45,908
@@ -5326,12 +5326,12 @@ menambahkan beberapa data tambahan
 
 1127
 00:48:45,908 --> 00:48:46,950
-dan kemudian hash ini lagi.
+dan menghitung hash nya lagi.
 
 1128
 00:48:46,950 --> 00:48:51,180
-Jadi bisa dibilang, ini milik saya
-prediksi minggu depan.
+Jadi Anda dapat berkata, ini prediksi
+saya untuk minggu depan.
 
 1129
 00:48:51,180 --> 00:48:54,180
