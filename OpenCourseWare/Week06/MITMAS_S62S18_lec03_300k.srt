@@ -5944,30 +5944,30 @@ Schnorr-like signature.
 
 1291
 00:56:02,180 --> 00:56:05,480
-But Bitcoin will
-probably be putting it
+Tetapi bitcoin akan
+mungkin mengubahnya
 
 1292
 00:56:05,480 --> 00:56:08,130
-into Bitcoin in the
-next year or so.
+menjadi bitcoin pada
+tahun berikutnya dan seterusnya.
 
 1293
 00:56:08,130 --> 00:56:10,220
-So all these things will
-be much more applicable,
+Sehingga semua hal ini akan
+lebih mudah di aplikasikan,
 
 1294
 00:56:10,220 --> 00:56:11,310
-and you can use them.
+dan bisa kita pakai.
 
 1295
 00:56:11,310 --> 00:56:12,185
-And there's code out.
+Lalu mereka sudah dikodekan.
 
 1296
 00:56:12,185 --> 00:56:13,620
-You can use them now.
+Dan kita sudah bisa memakainya.
 
 1297
 00:56:13,620 --> 00:56:14,120
@@ -5975,16 +5975,16 @@ OK.
 
 1298
 00:56:14,120 --> 00:56:14,410
-Yeah.
+Iya.
 
 1299
 00:56:14,410 --> 00:56:15,008
-Sorry.
+Maaf.
 
 1300
 00:56:15,008 --> 00:56:16,800
 Patent has expired--
-free to use the better
+Bebas untuk menggunakan 
 
 1301
 00:56:16,800 --> 00:56:18,350
