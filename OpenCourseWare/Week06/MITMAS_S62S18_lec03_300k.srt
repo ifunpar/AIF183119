@@ -5996,48 +5996,48 @@ free to use the better
 
 1301
 00:56:16,800 --> 00:56:18,350
-algo that must not be named.
+algo yang tidak perlu diberi nama
 
 1302
 00:56:18,350 --> 00:56:20,352
-So yeah.
+jadi ya.
 
 1303
 00:56:20,352 --> 00:56:22,310
-People don't call it
-Schnorr signature as much.
+Orang-orang tidak memanggilnya
+Schnorr signature kebanyakan.
 
 1304
 00:56:22,310 --> 00:56:24,800
-Because it's like, well, this
-is the guy who prevented us
+Karena ini seperti, jadi, ini
+adalah orang yang mencegah kita
 
 1305
 00:56:24,800 --> 00:56:28,900
-from using this for 20 years.
+untuk menggunakannya selama 20 tahun.
 
 1306
 00:56:28,900 --> 00:56:31,300
-And there's modifications to it.
+Dan terdapat beberapa modifikasi padanya.
 
 1307
 00:56:31,300 --> 00:56:31,800
-OK.
+Oke.
 
 1308
 00:56:31,800 --> 00:56:36,350
-So the elliptic curve signature,
-for lack of a better name.
+Jadi tanda tangan kurva eliptik,
+karena tidak ada nama yang lebih baik.
 
 1309
 00:56:36,350 --> 00:56:38,360
-This is something
-of a simplification.
+Ini adalah sesuatu
+dari sebuah penyederhanaan.
 
 1310
 00:56:38,360 --> 00:56:41,000
-And there's reading
-about how you can really
+Dan ada bacaan 
+tentang bagaimana anda bisa
 
 1311
 00:56:41,000 --> 00:56:41,907
