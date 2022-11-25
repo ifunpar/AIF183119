@@ -5478,7 +5478,7 @@ Hm.
 
 1190
 00:51:37,790 --> 00:51:39,907
-Ya, Anda perlu menyandikan sebuah kemiringan--
+Yah, Anda perlu menyandikan sebuah kemiringan--
 
 1191
 00:51:39,907 --> 00:51:41,240
@@ -5486,7 +5486,7 @@ AUDIENS: Ya, [TIDAK TERDENGAR].
 
 1192
 00:51:41,240 --> 00:51:42,865
-TADGE DRYJA: Dan Anda mengatakan 
+TADGE DRYJA: Dan Anda mengatakan
 itu berpotongan,
 
 1193
@@ -5496,7 +5496,7 @@ sisi sumbu yang mana?
 
 1194
 00:51:44,960 --> 00:51:46,700
-AUDIENS: Ya, dan jika melintasi 
+AUDIENS: Ya, dan jika memotong
 beberapa kali,
 
 1195
@@ -5514,7 +5514,7 @@ berakhir dengan ukuran yang sama.
 
 1198
 00:51:50,170 --> 00:51:50,715
-Tapi ya.
+Tapi yah.
 
 1199
 00:51:50,715 --> 00:51:52,340
@@ -5533,11 +5533,11 @@ memiliki bilangan bulat pada akhirnya.
 
 1202
 00:51:57,990 --> 00:51:58,795
-TADGE DRYJA: Ya.
+TADGE DRYJA: Yah.
 
 1203
 00:51:58,795 --> 00:52:00,170
-Jadi mungkin anda tidak
+Jadi mungkin Anda tidak
 berada di lengkungan.
 
 1204
@@ -5552,55 +5552,55 @@ berada di lengkungan.
 
 1206
 00:52:03,320 --> 00:52:06,360
-Anda dapat pengkodean suatu titik
+Anda dapat mengkodekan suatu titik
 itu juga di luar lengkungan.
 
 1207
 00:52:06,360 --> 00:52:08,930
-And so when you actually
-get a public key,
+Dan ketika Anda sebenarnya
+menerima sebuah kunci publik,
 
 1208
 00:52:08,930 --> 00:52:11,515
-like over the wire
-in these systems,
+seperti melalui sebuah kabel
+pada sistem ini,
 
 1209
 00:52:11,515 --> 00:52:12,890
-the first thing
-you usually do is
+langkah pertama
+yang seharusnya kalian lakukan adalah
 
 1210
 00:52:12,890 --> 00:52:14,432
-make sure this is
-a valid public key,
+memastikan bahwa 
+kunci publiknya valid,
 
 1211
 00:52:14,432 --> 00:52:16,217
-and it's actually on the curve.
+dan itu seharusnya pada terletak pada kurva.
 
 1212
 00:52:16,217 --> 00:52:18,050
-Because there's a lot
-of points that aren't.
+Karena ada banyaknya
+titik-titik yang tidak.
 
 1213
 00:52:18,050 --> 00:52:20,690
-And sometimes you can screw
-around with the code that way.
+Dan terkadang kalian bisa bermain-
+main dengan kode yang seperti itu.
 
 1214
 00:52:20,690 --> 00:52:20,820
-Yeah?
+Yah?
 
 1215
 00:52:20,820 --> 00:52:23,240
-AUDIENCE: Can you define the
-scalar multiplication again?
+AUDIENS: Bisakah Anda menjelaskan tentang
+perkalian skalar lagi?
 
 1216
 00:52:23,240 --> 00:52:24,010
-how does it go?
+bagaimana hasilnya?
 
 1217
 00:52:24,010 --> 00:52:24,677
@@ -5608,58 +5608,62 @@ TADGE DRYJA: OK.
 
 1218
 00:52:24,677 --> 00:52:29,120
-So scalar multiplication--
-a times G is, basically,
+Jadi perkalian skalar--
+a kali G adalah, pada dasarnya,
 
 1219
 00:52:29,120 --> 00:52:32,960
-break it out as G plus G
-plus G plus G plus G a times.
+pemecahan dari G ditambah G
+tambah G tambah G tambah G sebanyak a kali.
 
 1220
 00:52:32,960 --> 00:52:36,890
-And G plus G is find
-the tangent of G
+Dan G tambah G adalah menemukan
+tangent G
 
 1221
 00:52:36,890 --> 00:52:39,980
-and then find the
-intersection, right?
+dan kemudian menemukan
+titik potongnya, benar?
 
 1222
 00:52:39,980 --> 00:52:44,870
-So this is G. This is 2G,
-right-- tangent, intersect,
+Jadi ini adalah G. Ini adalah 2G,
+betul-- tangent, titik potong,
 
 1223
 00:52:44,870 --> 00:52:46,940
-dan dapat nilai negasi atau ingkaran.
+dan negasinya.
 
 1224
 00:52:46,940 --> 00:52:50,810
-And so you just do
-Dan seperti itu, kita tinggal melakukannya beberapa kali.
+Dan Anda dapat melakukannya
+berjuta-juta kali.
 
 1225
 00:52:50,810 --> 00:52:53,900
-Bagaimanapun, karena kita bisa mencari nilai 2G, lalu 
+Bagaimanapun, karena Anda bisa
+mencari nilai 2G, lalu Anda
 
 1226
 00:52:53,900 --> 00:52:57,320
-kita bisa men-double kan nilainya menjadi 4G, dan men-double kan nilai 4G menjadi 8G
+bisa menggandakan 2G untuk mendapatkan 4G
+dan menggandakan 4G untuk mendapatkan 8G,
 
 1227
 00:52:57,320 --> 00:53:00,140
-you can come up with
-dan kita bisa mengasumsikan siatu nilai perpangkatan dua
+dan kita bisa mendapatkan nilai
+pangkat dua dari G
 
 1228
 00:53:00,140 --> 00:53:02,240
-dan menambahkannya perpangkatan 2 tersebut untuk
+dan menambahkan
+pangkat 2 tersebut untuk melakukan
 
 1229
 00:53:02,240 --> 00:53:06,650
-perhitungan yang lebih efisien sehingga kita bisa secara praktis
+perhitungan yang jauh lebih efisien
+sehingga kita bisa secara praktis
 
 1230
 00:53:06,650 --> 00:53:07,570
@@ -5667,31 +5671,35 @@ membuat--
 
 1231
 00:53:07,570 --> 00:53:12,890
-karena a kecil akan menjadi inilai desimal 50 digit yang besar
+karena a kecil akan menjadi
+bilangan desimal 50 digit yang sangat besar
 
 1232
 00:53:12,890 --> 00:53:14,290
-atau lain sebagainya.
+atau apapun itu.
 
 1233
 00:53:14,290 --> 00:53:17,450
-Maka kita akan memiliki dua, empat, enam,
+Maka Anda akan
+melakukan dua, empat, enam,
 
 1234
 00:53:17,450 --> 00:53:20,820
-delapan, ekspansi biner dan menambahkan semuanya.
+delapan, ekspansi biner 
+dan menambahkan semuanya.
 
 1235
 00:53:20,820 --> 00:53:22,220
-Ok.
+OK.
 
 1236
 00:53:22,220 --> 00:53:24,570
-iya?
+Yah?
 
 1237
 00:53:24,570 --> 00:53:29,860
-Audiens: Jadi anda membuang beberapa bagian menjadi ukuran bulir kecil
+AUDIENS: Jadi Anda membuang 
+beberapa bagian menjadi ukuran bulir kecil
 
 1238
 00:53:29,860 --> 00:53:30,800
@@ -5699,129 +5707,129 @@ untuk mendapatkan nilai ini.
 
 1239
 00:53:30,800 --> 00:53:32,642
-You're [INAUDIBLE]
-a continuous curve.
+Anda [TIDAK TERDENGAR]
+lengkungan yang kontinu.
 
 1240
 00:53:32,642 --> 00:53:33,350
-TADGE DRYJA: Yes.
+TADGE DRYJA: Iya
 
 1241
 00:53:33,350 --> 00:53:37,630
-AUDIENCE: It feels like if you
-have 306 bits in the original,
+AUDIENS: Itu bagaikan mempunyai
+306 bit pada bagian aslinya,
 
 1242
 00:53:37,630 --> 00:53:40,810
-you shouldn't be able to get all
-the way down to 32 bits, right?
+Anda seharusnya tidak bisa mendapatkan
+sampai 32 bit, betul?
 
 1243
 00:53:40,810 --> 00:53:42,830
-Because you just want
-to make sure that you--
+Karena Anda hanya ingin meyakinkan
+bahwa Anda--
 
 1244
 00:53:42,830 --> 00:53:43,707
-TADGE DRYJA: This?
+TADGE DRYJA: Ini?
 
 1245
 00:53:43,707 --> 00:53:44,332
-AUDIENCE: Yeah.
+AUDIENS: Yah.
 
 1246
 00:53:46,580 --> 00:53:49,150
-If you removed a
-byte of precision,
+Jika anda menghilangkan satu byte 
+presisi,
 
 1247
 00:53:49,150 --> 00:53:52,640
-would you actually
-be losing any power?
+apakah Anda akan kehilangan
+tenaga?
 
 1248
 00:53:52,640 --> 00:53:55,580
-TADGE DRYJA: What you can do
-a little-- what you can do
+TADGE DRYJA: Apa yang bisa sedikit Anda lakukan-- 
+apa yang bisa Anda lakukan
 
 1249
 00:53:55,580 --> 00:53:58,520
-is you can just
-say, look, I'm only
+adalah Anda hanya bisa mengatakan,
+lihat, saya hanya
 
 1250
 00:53:58,520 --> 00:54:06,140
-going to allow public keys
-that are on the top, positive y
+akan memperbolehkan akses kunci publik
+yang ada pada posisi atas, komponen
 
 1251
 00:54:06,140 --> 00:54:07,070
-component.
+y positif.
 
 1252
 00:54:07,070 --> 00:54:09,545
-And everything
-else is disallowed.
+Dan yang lain
+tidak diperbolehkan.
 
 1253
 00:54:09,545 --> 00:54:11,420
-You could have that as
-a rule of your system,
+Anda bisa memiliki hal tersebut sebagai
+aturan dalam sistem Anda,
 
 1254
 00:54:11,420 --> 00:54:14,810
-and then you can get
-rid of the y bit.
+kemudian anda dapat menyingkirkan
+bit y.
 
 1255
 00:54:14,810 --> 00:54:19,430
-But the thing is
-the y-coordinate
+Tapi masalahnya adalah
+koordinat y tersebut
 
 1256
 00:54:19,430 --> 00:54:23,103
-does affect some of the
-things like signatures, things
+mempengaruhi beberapa hal
+seperti tanda tangan, hal-hal
 
 1257
 00:54:23,103 --> 00:54:24,020
-that you'll later use.
+yang akan Anda gunakan nanti.
 
 1258
 00:54:24,020 --> 00:54:28,580
-So you can just say, OK, look,
-implicitly y bit is positive.
+Jadi anda bisa bilang, OK, lihat,
+secara implisit bit y positif.
 
 1259
 00:54:28,580 --> 00:54:32,240
-And you lose 1 bit of security.
+Dan Anda akan kehilangan keamanan 1 bit.
 
 1260
 00:54:32,240 --> 00:54:34,250
-Because there is a
-difference between
+Karena terdapat
+perbedaan antara
 
 1261
 00:54:34,250 --> 00:54:37,742
-the positive and negative
-thing if you're doing signing.
+hal positif dan negatif
+jika Anda melakukan penandatanganan.
 
 1262
 00:54:37,742 --> 00:54:38,460
-But yeah.
+Tapi yah.
 
 1263
 00:54:38,460 --> 00:54:40,950
-And so some systems do do that.
+Dan beberapa sistem melakukan itu.
 
 1264
 00:54:40,950 --> 00:54:42,340
-And it makes things easier.
+Dan itu membuat hal-hal menjadi lebih mudah.
 
 1265
 00:54:42,340 --> 00:54:44,180
-There's some signing
-systems that do that.
+Ada beberapa sistem
+tanda tangan yang melakukan itu.
 
 1266
 00:54:44,180 --> 00:54:44,680
@@ -5829,40 +5837,40 @@ OK.
 
 1267
 00:54:44,680 --> 00:54:46,990
-I'm going to go
-to the next part.
+Saya akan berpindah
+ke bagian selanjutnya.
 
 1268
 00:54:50,690 --> 00:54:52,610
-ECDSA is used in bitcoin.
+ECDSA digunakan pada bitcoin.
 
 1269
 00:54:52,610 --> 00:54:56,010
-I'm actually not
-going to explain it.
+Saya tidak
+akan menjelaskan itu.
 
 1270
 00:54:56,010 --> 00:54:58,400
-It's a worse signature system.
+Itu sistem tanda tangan yang buruk.
 
 1271
 00:54:58,400 --> 00:55:02,420
-So the reason why this was
-used was the better system
+Jadi alasan mengapa ini terjadi
+digunakan adalah sistem yang lebih baik
 
 1272
 00:55:02,420 --> 00:55:04,490
-was patented.
+dipatenkan.
 
 1273
 00:55:04,490 --> 00:55:11,180
-And so there's a clearer, more
-obvious, cleaner, more powerful
+Jadi ada yang lebih jelas, lebih
+nyata, lebih bersih, lebih kuat
 
 1274
 00:55:11,180 --> 00:55:14,240
-signature system that was
-patented by this German guy,
+sistem tanda tangan yang
+dipatenkan oleh pria Jerman,
 
 1275
 00:55:14,240 --> 00:55:15,170
@@ -5870,77 +5878,77 @@ Claus Schnorr.
 
 1276
 00:55:15,170 --> 00:55:17,660
-And so no one used it, or
-maybe a few people used it.
+Jadi tidak ada yang menggunakannya, atau
+mungkin hanya sedikit orang yang menggunakannya.
 
 1277
 00:55:17,660 --> 00:55:21,860
-But in general, with open
-source things and web standards,
+Tapi secara umum, dengan terbuka
+hal-hal sumber dan standar web,
 
 1278
 00:55:21,860 --> 00:55:25,590
-patents are really
-hard to work with.
+paten benar benar
+sulit untuk bekerja sama.
 
 1279
 00:55:25,590 --> 00:55:27,140
-And so all the
-cryptographers said,
+Dan semua
+kriptografer berkata,
 
 1280
 00:55:27,140 --> 00:55:29,360
-well, we'll make
-this other system
+baiklah, kita akan membuat
+ini sistem lain
 
 1281
 00:55:29,360 --> 00:55:32,540
-that's different enough that it
-doesn't infringe on the patent.
+itu cukup berbeda sehingga
+tidak melanggar paten.
 
 1282
 00:55:32,540 --> 00:55:36,200
-And it's kind of ugly.
+Dan itu agak jelek.
 
 1283
 00:55:36,200 --> 00:55:38,720
-It does work as a
-signature scheme.
+Itu berfungsi sebagai
+skema tanda tangan.
 
 1284
 00:55:38,720 --> 00:55:40,760
-But actually, I'm
-going to explain
+Tapi sebenarnya, Saya
+akan menjelaskan
 
 1285
 00:55:40,760 --> 00:55:46,100
-the Schnorr signatures,
-which make a lot more sense,
+tanda tangan Schnorr,
+yang jauh lebih masuk akal,
 
 1286
 00:55:46,100 --> 00:55:48,410
-are easier to understand
-and manipulate,
+lebih mudah dimengerti
+dan dimanipulasi,
 
 1287
 00:55:48,410 --> 00:55:50,840
-and the patent has expired,
-so we can all use it.
+dan paten telah kadaluarsa,
+jadi kita semua bisa menggunakannya
 
 1288
 00:55:50,840 --> 00:55:53,780
-And it will probably
-be going into Bitcoin.
+Dan itu akan mungkin
+masuk ke Bitcoin.
 
 1289
 00:55:53,780 --> 00:55:56,490
-And some cryptocurrencies
-use Schnorr signatures.
+Dan beberapa cryptocurrencies
+menggunakan tanda tangan Schnorr.
 
 1290
 00:55:56,490 --> 00:56:02,180
-I think Monero uses a
-Schnorr-like signature.
+Saya pikir moreno menggunakan
+tanda tangan seperti Schnorr.
 
 1291
 00:56:02,180 --> 00:56:05,480
@@ -5988,48 +5996,48 @@ Bebas untuk menggunakan
 
 1301
 00:56:16,800 --> 00:56:18,350
-algo that must not be named.
+algo yang tidak perlu diberi nama
 
 1302
 00:56:18,350 --> 00:56:20,352
-So yeah.
+jadi ya.
 
 1303
 00:56:20,352 --> 00:56:22,310
-People don't call it
-Schnorr signature as much.
+Orang-orang tidak memanggilnya
+Schnorr signature kebanyakan.
 
 1304
 00:56:22,310 --> 00:56:24,800
-Because it's like, well, this
-is the guy who prevented us
+Karena ini seperti, jadi, ini
+adalah orang yang mencegah kita
 
 1305
 00:56:24,800 --> 00:56:28,900
-from using this for 20 years.
+untuk menggunakannya selama 20 tahun.
 
 1306
 00:56:28,900 --> 00:56:31,300
-And there's modifications to it.
+Dan terdapat beberapa modifikasi padanya.
 
 1307
 00:56:31,300 --> 00:56:31,800
-OK.
+Oke.
 
 1308
 00:56:31,800 --> 00:56:36,350
-So the elliptic curve signature,
-for lack of a better name.
+Jadi tanda tangan kurva eliptik,
+karena tidak ada nama yang lebih baik.
 
 1309
 00:56:36,350 --> 00:56:38,360
-This is something
-of a simplification.
+Ini adalah sesuatu
+dari sebuah penyederhanaan.
 
 1310
 00:56:38,360 --> 00:56:41,000
-And there's reading
-about how you can really
+Dan ada bacaan 
+tentang bagaimana anda bisa
 
 1311
 00:56:41,000 --> 00:56:41,907
