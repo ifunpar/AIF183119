@@ -7856,60 +7856,60 @@ membalik gambarnya.
 
 1664
 01:09:22,410 --> 01:09:25,410
-So when you call redirect on
-this alternative architecture,
+Jadi ketika anda memanggil fungsi redirect pada
+arsitektur alternatif ini,
 
 1665
 01:09:25,410 --> 01:09:27,300
-what's going to happen
-is the return address
+apa yang akan terjadi
+adalah alamat yang dikembalikan
 
 1666
 01:09:27,300 --> 01:09:31,040
-is going to go
-here on the stack.
+akan pergi ke 
+sini pada stack.
 
 1667
 01:09:31,040 --> 01:09:34,076
-Then we'll have our i variable,
-or maybe the saved EBP.
+Kemudian kita akan memiliki variabel i kita,
+atau mungkin EBP yang tersimpan.
 
 1668
 01:09:36,930 --> 01:09:38,620
-Then we'll have our i variable.
+Kemudian kita akan memiliki variabel i kita.
 
 1669
 01:09:38,620 --> 01:09:39,670
-And then we'll have buff.
+Dan kemudian kita akan memiliki buff.
 
 1670
 01:09:39,670 --> 01:09:44,660
-So we'll have buff of zero,
-buff 127, and so on, right?
+Jadi kita akan memiliki buff nol,
+buff 127, dan seterusnya, benar?
 
 1671
 01:09:44,660 --> 01:09:48,229
-So then when we do the overflow,
-it overflows up there and maybe
+Jadi kemudian saat kita melakukan overflow,
+dia overflow ke atas sana dan mungkin
 
 1672
 01:09:48,229 --> 01:09:49,310
-doesn't hit anything bad.
+tidak menyebabkan apapun yang buruk.
 
 1673
 01:09:49,310 --> 01:09:50,768
-I guess what you're
-saying is that,
+Saya menebak apa yang anda
+bilang adalah,
 
 1674
 01:09:50,768 --> 01:09:52,595
-well, maybe we had
-a buffer down there.
+baik, mungkin kita memiliki
+sebuah buffer di bawah sana.
 
 1675
 01:09:52,595 --> 01:09:54,470
-And if we had a buffer
-down there, then yeah,
+Dan jika kita memiliki buffer
+di bawah sana, jadi yah,
 
 1676
 01:09:54,470 --> 01:09:55,761
