@@ -6041,52 +6041,52 @@ tentang bagaimana anda bisa
 
 1311
 00:56:41,000 --> 00:56:41,907
-do it the right way.
+melakukannya secara benar.
 
 1312
 00:56:41,907 --> 00:56:43,490
-But this does give
-you the right idea.
+Tapi ini memang memberi
+kamu ide yang tepat.
 
 1313
 00:56:43,490 --> 00:56:48,170
-And for a single signer,
-this is secure, and it works.
+Dan untuk satu penandatangan,
+ini aman, dan berhasil.
 
 1314
 00:56:48,170 --> 00:56:51,050
-But later things, you might want
-to actually add other stuff.
+Tapi selanjutnya, kamu mungkin ingin
+menambah hal lainnya
 
 1315
 00:56:51,050 --> 00:56:54,360
-So the idea is you've got
-your message m, right?
+Jadi idenya kamu punya
+pesan m, kan?
 
 1316
 00:56:54,360 --> 00:56:56,570
-Same as in lamport,
-same as in RSA, you've
+Sama seperti di lamport,
+sama juga seperti di RSA, kamu
 
 1317
 00:56:56,570 --> 00:56:59,620
-got a message m and a
-private key lowercase a.
+punya sebuah pesan m dan
+sebuah huruf kecil kunci pribadi a.
 
 1318
 00:56:59,620 --> 00:57:03,755
-And your public key is
-a times G, like we said.
+Dan kunci publik kamu adalah
+kali G seperti yang kita katakan
 
 1319
 00:57:03,755 --> 00:57:05,630
-And then, when you want
-to sign, you actually
+Kemudian ketika kamu ingin
+tanda tangan, kamu sebenarnya
 
 1320
 00:57:05,630 --> 00:57:10,490
-make a one-time use key
-pair for the signature only.
+membuat pasangan kunci sekali pakai
+untuk tanda tangan saja.
 
 1321
 00:57:10,490 --> 00:57:12,530
