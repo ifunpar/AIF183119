@@ -5058,59 +5058,59 @@ Saya akan menguranginya.
 
 1061
 00:43:37,487 --> 00:43:38,070
-I'll get this.
+Saya akan mengambil ini.
 
 1062
 00:43:38,070 --> 00:43:40,170
-I'll compute this function F
-for the connection I actually
+Saya akan menghitung fungsi F ini
+untuk koneksi yang sebenarnya saya
 
 1063
 00:43:40,170 --> 00:43:40,910
-want to fake.
+ingin palsukan.
 
 1064
 00:43:40,910 --> 00:43:42,615
-And I'll guess what the initial
-sequence number for that one
+Dan saya akan menebak 
+urutan angka awal yang itu
 
 1065
 00:43:42,615 --> 00:43:43,360
-is going to be.
+akan seperti apa.
 
 1066
 00:43:43,360 --> 00:43:46,230
-AUDIENCE: So can you--
-because machines now restart
+AUDIENS: Jadi bisakah anda--
+karena mesin sekarang mengulang
 
 1067
 00:43:46,230 --> 00:43:50,630
-infrequently, can you still
-[INAUDIBLE] by reversing--
+secara jarang, dapatkah anda masih
+[TIDAK TERDENGAR] dengan membalik--
 
 1068
 00:43:50,630 --> 00:43:53,569
-PROFESSOR: I think
-typically this function F
+PROFESOR: Menurut saya
+pada umumnya fungsi F ini
 
 1069
 00:43:53,569 --> 00:43:55,610
-is something like a
-cryptographically secure hash
+merupakan sesuatu seperti sebuah
+fungsi hash yang aman secara kriptografis,
 
 1070
 00:43:55,610 --> 00:44:01,557
-function, which has a
-semi-proved property that it's
+yang memiliki properti
+yang setengah terbukti bahwa itu
 
 1071
 00:44:01,557 --> 00:44:03,140
-very difficult. It's
-cryptographically
+adalah sangat sulit. Itu
+secara kriptografis 
 
 1072
 00:44:03,140 --> 00:44:04,480
-hard to invert it.
+sulit untuk dibalik.
 
 1073
 00:44:04,480 --> 00:44:07,160
