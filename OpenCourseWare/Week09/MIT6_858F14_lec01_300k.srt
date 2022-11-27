@@ -7967,59 +7967,59 @@ going to overwrite
 
 1688
 01:10:21,190 --> 01:10:21,360
-PROFESSOR: Yeah.
+PROFESSOR: Yah.
 
 1689
 01:10:21,360 --> 01:10:22,735
-So that's actually
-clever, right?
+Jadi itu sebenarnya
+pintar, benar?
 
 1690
 01:10:22,735 --> 01:10:29,040
-So this is the stack
-frame for redirect.
+Jadi ini adalah stack
+frame untuk pengalihan.
 
 1691
 01:10:29,040 --> 01:10:31,250
-I guess it actually spans
-all the way up here.
+Saya duga itu sebenarnya menjangkau
+semua jalan sampai di sini.
 
 1692
 01:10:31,250 --> 01:10:34,790
-But what actually happens
-when you call getS() is that
+Tapi apa yang sebenarnya terjadi
+ketika Anda memanggil getS yang
 
 1693
 01:10:34,790 --> 01:10:36,610
-redirect makes a function call.
+pengalihan membuat sebuah pemanggilan fungsi.
 
 1694
 01:10:36,610 --> 01:10:40,380
-It actually saves its return
-address up here on the stack.
+Itu sebenarnya menyimpan kembalian
+alamatnya di atas sini pada stack.
 
 1695
 01:10:40,380 --> 01:10:42,740
-And then getS() starts running.
+Dan kemudian getS() memulai berjalan.
 
 1696
 01:10:42,740 --> 01:10:45,490
-And getS() puts its
-own saved EBP up here.
+Dan getS() meletakkan
+penyimpanan EBP nya di atas sini.
 
 1697
 01:10:45,490 --> 01:10:50,240
-And getS() is going to post
-its own variables higher up.
+Dan getS() akan mengumumkan
+variabel-variabelnya lebih tinggi.
 
 1698
 01:10:50,240 --> 01:10:54,142
-And then getS() is going
-to fill in the buffer.
+Dan kemudian getS() akan
+mengisi buffer.
 
 1699
 01:10:54,142 --> 01:10:55,350
-So this is still problematic.
+Jadi ini masih bermasalah.
 
 1700
 01:10:55,350 --> 01:10:57,599
