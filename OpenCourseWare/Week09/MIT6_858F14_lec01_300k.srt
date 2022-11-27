@@ -8023,60 +8023,60 @@ Jadi ini masih bermasalah.
 
 1700
 01:10:55,350 --> 01:10:57,599
-Basically, the buffer is
-surrounded by return initials
+Pada dasarnya, buffer
+dikelilingi oleh inisial kembalian
 
 1701
 01:10:57,599 --> 01:10:59,430
-on all sides.
+pada semua sisi.
 
 1702
 01:10:59,430 --> 01:11:02,190
-Either way, you're going to
-be able to overflow something.
+Bagaimanapun juga, Anda akan
+membuat sesuatu overflow.
 
 1703
 01:11:02,190 --> 01:11:06,300
-So at what point-- suppose we
-had a stack growing up machine.
+Jadi pada titik mana-- anggap kita
+punya sebuah mesin stack yang bertumbuh
 
 1704
 01:11:06,300 --> 01:11:08,770
-At what point would
-you be able to take
+Pada titik mana
+Anda dapat mengambil
 
 1705
 01:11:08,770 --> 01:11:10,614
-control of the program's
-execution then?
+kendali dari eksekusi
+program?
 
 1706
 01:11:14,100 --> 01:11:16,424
-Yes, and that is actually
-even easier in some ways.
+Ya, dan sebenarnya itu
+lebih mudah dalam beberapa cara.
 
 1707
 01:11:16,424 --> 01:11:18,340
-You don't have to wait
-until redirect returns.
+Anda tidak perlu menunggu
+hingga pengalihan kembali.
 
 1708
 01:11:18,340 --> 01:11:20,200
-And maybe there was like, stuff
-that was going to mess you up
+Dan mungkin ada, hal
+yang akan membuat Anda gagal
 
 1709
 01:11:20,200 --> 01:11:21,210
-like this A to i.
+seperti A ke i ini.
 
 1710
 01:11:21,210 --> 01:11:21,710
-No.
+Tidak.
 
 1711
 01:11:21,710 --> 01:11:24,281
-It's actually easier, because
-getS() is going to overflow
+Ini sebenarnya lebih mudah, karena
+getS() akan membuat overflow
 
 1712
 01:11:24,281 --> 01:11:24,780
