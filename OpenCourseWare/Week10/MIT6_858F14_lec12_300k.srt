@@ -5114,60 +5114,60 @@ sulit untuk dibalik.
 
 1073
 00:44:04,480 --> 00:44:07,160
-So even if you were given the
-literal inputs and outputs
+Jadi bahkan jika Anda diberikan
+input dan output yang persis
 
 1074
 00:44:07,160 --> 00:44:14,059
-of this hash function
-except for this key part,
+dari fungsi hash ini
+kecuali untuk bagian kuncinya,
 
 1075
 00:44:14,059 --> 00:44:15,517
-it would be very
-hard for you guess
+itu akan menjadi sangat
+sulit untuk Anda tebak
 
 1076
 00:44:15,517 --> 00:44:17,490
-what this key is
-cryptographically,
+apa kunci ini
+secara kriptografis,
 
 1077
 00:44:17,490 --> 00:44:19,324
-even in an isolated setting.
+bahkan dalam pengaturan yang terisolasi
 
 1078
 00:44:19,324 --> 00:44:21,740
-So hopefully this will be at
-least as hard in this setting
+Jadi semoga ini setidaknya akan
+menjadi sesusah dalam pengaturan
 
 1079
 00:44:21,740 --> 00:44:24,324
-as well.
+juga.
 
 1080
 00:44:24,324 --> 00:44:26,615
-We'll talk a little bit more
-about what these functions
+Kita akan membahas sedikit lebih lanjut
+tentang fungsi ini
 
 1081
 00:44:26,615 --> 00:44:30,460
-F are a bit later on and how
-you to use them correctly.
+F akan dibahas nanti dan bagaimana
+Anda menggunakannya dengan benar.
 
 1082
 00:44:30,460 --> 00:44:31,650
-Make sense?
+Dapat dimengerti?
 
 1083
 00:44:31,650 --> 00:44:37,140
-Other questions of this
-problem and solution?
+Ada pertanyaan lain dari
+masalah dan solusi ini?
 
 1084
 00:44:37,140 --> 00:44:41,252
-All right, so in
-fact, this was mostly
+Baik, jadi sebenarnya,
+ini adalah mayoritas
 
 1085
 00:44:41,252 --> 00:44:44,255
