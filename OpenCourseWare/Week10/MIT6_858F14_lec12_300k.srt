@@ -5223,61 +5223,61 @@ sebenarnya berjalan diatas UDP.
 
 1096
 00:45:10,060 --> 00:45:13,100
-So UDP is a stateless
-protocol where you actually
+Jadi UDP adalah sebuah protokol
+stateless yang di mana Anda sebenarnya
 
 1097
 00:45:13,100 --> 00:45:16,340
-don't do any connection
-establishment where
+tidak perlu mendirikan koneksi
+apapunn di mana
 
 1098
 00:45:16,340 --> 00:45:18,140
-you exchange sequence numbers.
+Anda menukarkan nomor urut.
 
 1099
 00:45:18,140 --> 00:45:20,040
-In UDP, you simply
-send a request
+Di dalam UDP, Anda hanya
+mengirimkan sebuah permintaan
 
 1100
 00:45:20,040 --> 00:45:22,140
-from your source
-address to the server.
+dari alamat sumber
+Anda ke server.
 
 1101
 00:45:22,140 --> 00:45:24,950
-And the server figures out what
-the reply should be and sends
+Dan server akan mencari tahu balasan
+apa yang seharunya dan mengirimkan
 
 1102
 00:45:24,950 --> 00:45:28,780
-it back to whatever source
-address appeared in the packet.
+kembali ke alamat sumber manapun yang
+muncul di dalam paket.
 
 1103
 00:45:28,780 --> 00:45:32,850
-So it's a single
-round trip, so there's
+Jadi itu adalah sebuah
+perjalanan satu putaran, sehingga tidak
 
 1104
 00:45:32,850 --> 00:45:34,350
-no time to exchange
-sequence numbers
+ada waktu untuk bertukar
+nomor urut
 
 1105
 00:45:34,350 --> 00:45:36,349
-and to establish that,
-oh, yeah, you're actually
+dan untuk membangun itu,
+oh, iya, Anda sebenarnya
 
 1106
 00:45:36,349 --> 00:45:38,140
-talking to the right guy.
+berbicara ke orang yang tepat.
 
 1107
 00:45:38,140 --> 00:45:44,330
-So with DNS, as a
-result, for a while,
+Jadi dengan DNS, akibatnya,
+untuk sementara,
 
 1108
 00:45:44,330 --> 00:45:48,840
