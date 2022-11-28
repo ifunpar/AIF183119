@@ -5281,64 +5281,64 @@ untuk sementara,
 
 1108
 00:45:44,330 --> 00:45:48,840
-it was quite easy to fake
-responses from a DNS server.
+cukup mudah untuk memalsukan
+response dari DNS server.
 
 1109
 00:45:48,840 --> 00:45:51,464
-So how would a query look
-like in DNS, typically?
+Jadi bagaimana sebuah query pada umumnya terlihat
+di dalam DNS?
 
 1110
 00:45:51,464 --> 00:45:53,130
-Well, you send some
-queries-- so suppose
+Sebenarnya, anda mengirim beberapa
+query-- maka seharusnya
 
 1111
 00:45:53,130 --> 00:45:57,230
-a client sends a packet from
-client to some DNS server
+client, mengirim paket dari 
+client ke beberapa DNS server
 
 1112
 00:45:57,230 --> 00:46:00,210
-that knows the DNS server's
-IP address ahead of time,
+yang mengetahui IP address milik 
+DNS server sebelumnya,
 
 1113
 00:46:00,210 --> 00:46:04,260
-maybe preconfigured somewhere,
-say, well, here's my query.
+yang mungkin diatur sebelumnya,
+lalu anggaplah berikut adalah query saya.
 
 1114
 00:46:04,260 --> 00:46:07,336
-Maybe I'm looking for mit.edu.
+Mungkin saya ingin menuju mit.edu.
 
 1115
 00:46:07,336 --> 00:46:09,860
-And that's basically it.
+dan singkatnya hanya itu saja.
 
 1116
 00:46:09,860 --> 00:46:12,420
-And the server's
-destination port number
+Dan port number 
+milik server tujuan
 
 1117
 00:46:12,420 --> 00:46:14,600
-is always 53 for DNS.
+selalu 53 untuk DNS.
 
 1118
 00:46:14,600 --> 00:46:17,380
-And the clients used to also
-run on the same port number
+Dan client biasanya berjalan 
+dengan port number yang sama
 
 1119
 00:46:17,380 --> 00:46:20,720
-for ease of use or something.
+agar penggunaanya mudah atau lainnya.
 
 1120
 00:46:20,720 --> 00:46:23,003
-So you send this packet
-from the client on this port
+Jadi anda mengirim packet ini 
+dari client dengan port 53.
 
 1121
 00:46:23,003 --> 00:46:24,320
