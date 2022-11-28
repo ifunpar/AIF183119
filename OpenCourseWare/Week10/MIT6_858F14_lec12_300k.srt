@@ -5171,55 +5171,55 @@ ini adalah mayoritas
 
 1085
 00:44:41,252 --> 00:44:44,255
-sort of an example of these
-TCP sequence number attacks
+semacam contoh dari ini
+serangan nomor urut TCP
 
 1086
 00:44:44,255 --> 00:44:46,790
-that aren't as relevant anymore.
+itu tidak relevan lagi.
 
 1087
 00:44:46,790 --> 00:44:49,440
-Because every operating system
-basically implements this plan
+Karena setiap sistem operasi
+pada dasarnya mengimplementasikan rencana ini
 
 1088
 00:44:49,440 --> 00:44:50,080
-these days.
+hari-hari ini.
 
 1089
 00:44:50,080 --> 00:44:52,425
-So it's hard to infer
-what someone's sequence
+Jadi sulit untuk menyimpulkan
+apa yang akan menjadi
 
 1090
 00:44:52,425 --> 00:44:53,577
-number is going to be.
+nomor urut dari seseorang.
 
 1091
 00:44:53,577 --> 00:44:55,910
-On the other hand, people
-keep making the same mistakes.
+Dilain pihak, orang-orang
+terus membuat kesalahan yang sama.
 
 1092
 00:44:55,910 --> 00:44:59,755
-So even after this was
-implemented for TCP,
+Jadi bahkan setelah ini
+diimplementasikan untuk TCP,
 
 1093
 00:44:59,755 --> 00:45:01,490
-there was this other
-protocol called
+ada protokol lain
+yang disebut
 
 1094
 00:45:01,490 --> 00:45:05,830
-DNS that is hugely vulnerable
-to similar attacks.
+DNS yang sangat rentan
+terhadap serangan yang serupa.
 
 1095
 00:45:05,830 --> 00:45:10,060
-And the reason is that DNS
-actually runs over UDP.
+Dan alasannya adalah bahwa DNS
+sebenarnya berjalan diatas UDP.
 
 1096
 00:45:10,060 --> 00:45:13,100
