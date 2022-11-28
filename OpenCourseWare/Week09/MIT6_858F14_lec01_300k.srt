@@ -7913,57 +7913,58 @@ di bawah sana, jadi yah,
 
 1676
 01:09:54,470 --> 01:09:55,761
-that seems kind of unfortunate.
+sepertinya sedikit disayangkan.
 
 1677
 01:09:55,761 --> 01:09:58,930
-It could overrun
-this return address.
+Itu bisa memenuhi
+alamat kembalian ini.
 
 1678
 01:09:58,930 --> 01:09:59,690
-So you're right.
+Jadi anda benar.
 
 1679
 01:09:59,690 --> 01:10:01,420
-So you could still
-run into problems
+Jadi anda tetap bisa
+menemukan masalah
 
 1680
 01:10:01,420 --> 01:10:03,350
-on this stack growing up.
+pada tumpukan ini bertumbuh.
 
 1681
 01:10:03,350 --> 01:10:04,785
-But what about
-this exact program?
+lalu bagaimana dengan
+program yang ini?
 
 1682
 01:10:08,420 --> 01:10:11,119
-Is this particular
-program safe on machines
+Apakah
+program khusus ini aman pada mesin
 
 1683
 01:10:11,119 --> 01:10:12,160
-where the stack grows up?
+yang dimana tumpukannya bertumbuh?
 
 1684
 01:10:12,160 --> 01:10:15,670
-So just to recap what the
-program read is this guy.
+Jadi untuk menyimpulkan apa yang
+program baca adalah bend aini.
 
 1685
 01:10:18,391 --> 01:10:18,890
 Yeah?
+Yaa?
 
 1686
 01:10:18,890 --> 01:10:19,810
-AUDIENCE: Still
-going to overwrite
+AUDIENS: Tetap
+akan menimpa
 
 1687
 01:10:19,810 --> 01:10:21,190
-[INAUDIBLE] as a return value.
+[TIDAK TERDENGAR] sebagai nilai kembalian.
 
 1688
 01:10:21,190 --> 01:10:21,360
