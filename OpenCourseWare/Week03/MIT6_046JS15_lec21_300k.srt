@@ -6783,7 +6783,7 @@ Dan alasannya cukup sederhana.
 1447
 01:19:22,180 --> 01:19:30,000
 h prima x dapat dibilang
-NM, CR, dan OW.
+NM, CR, dan OW.it's not going to be invertible
 
 1448
 01:19:30,000 --> 01:19:32,660
@@ -6792,59 +6792,59 @@ setiap argumen tersebut.
 
 1449
 01:19:32,660 --> 01:19:36,630
-But you can think
-about it, right?
+Tapi kamu bisa memikirkan
+tentang itu, bukan?
 
 1450
 01:19:36,630 --> 01:19:40,030
-If I'm just giving you one
-bit, there's 159 others,
+Jika aku hanya memberi kamu satu
+bit, maka ada 159 lainnya,
 
 1451
 01:19:40,030 --> 01:19:42,140
-there's a couple of
-hundred others, whatever it
+ada beberapa 
+ratus lainnya, apapun itu
 
 1452
 01:19:42,140 --> 01:19:43,860
-is that I have in the domain.
+itu adalah yang aku punya di domain.
 
 1453
 01:19:43,860 --> 01:19:46,230
-It's not going to be invertible.
+itu tidak akan bisa terbalik.
 
 1454
 01:19:46,230 --> 01:19:49,420
-h prime x is not going to
-be invertible if h of x
+h prime x tidak akan bisa
+dibalik jika h dari x
 
 1455
 01:19:49,420 --> 01:19:51,080
-is not invertible.
+tidak dapat dibalik.
 
 1456
 01:19:51,080 --> 01:19:57,880
-h prime x is not going to be
-breakable in terms of collision
+h prime x tidak akan 
+pecah jika terjadi tabrakan
 
 1457
 01:19:57,880 --> 01:20:00,950
-resistance if h of
-x is not breakable,
+resistensi jika h dari 
+x tidak mudah pecah
 
 1458
 01:20:00,950 --> 01:20:02,450
-and so on and so forth.
+dan seterusnya secara terus menerus
 
 1459
 01:20:02,450 --> 01:20:04,740
-But if I had a hash
-function like that,
+Tetapi jika saya memiliki fungsi
+hash seperti itu,
 
 1460
 01:20:04,740 --> 01:20:09,340
-is it a good hash function
-for my commitment application?
+apakah itu fungsi hash yang baik
+untuk komitmen aplikasi saya ?
 
 1461
 01:20:09,340 --> 01:20:10,090
