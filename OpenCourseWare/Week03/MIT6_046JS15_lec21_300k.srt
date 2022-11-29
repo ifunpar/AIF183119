@@ -6734,60 +6734,61 @@ x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
-like this, which is
-a concatenation of h
+seperti ini, yaitu
+gabungan h
 
 1438
 01:18:54,660 --> 01:19:00,210
-of x, and giving away the most
-significant bit of x, which
+dari x, dan memberikan digit
+paling signifikan x, di mana
 
 1439
 01:19:00,210 --> 01:19:01,670
-is my bid, right?
+hal tersebut adalah tawaran saya kan?
 
 1440
 01:19:01,670 --> 01:19:03,780
-I'm just giving
-that away, right?
+saya hanya memberikan 
+itu kan?
 
 1441
 01:19:03,780 --> 01:19:08,190
-The problem here is
-that we haven't really
+Masalahnya di sini adalah
+kita belum benar-benar
 
 1442
 01:19:08,190 --> 01:19:11,660
-made our properties
-broad enough to solve
+membuat properti kita
+cukup luas untuk menyelesaikan
 
 1443
 01:19:11,660 --> 01:19:14,230
-this particular
-application to the extent
+aplikasi khusus ini
+sejauh itu
+
 
 1444
 01:19:14,230 --> 01:19:19,140
-that there's contrived cases
-where these properties aren't
+bahwa ada kasus yang dibuat-buat
+di mana properti ini tidak
 
 1445
 01:19:19,140 --> 01:19:20,420
-enough, OK?
+cukup, oke?
 
 1446
 01:19:20,420 --> 01:19:22,180
-And the reason is simple.
+Dan alasannya cukup sederhana.
 
 1447
 01:19:22,180 --> 01:19:30,000
-h prime x is arguably
-NM, CR, and OW.
+h prima x dapat dibilang
+NM, CR, dan OW.
 
 1448
 01:19:30,000 --> 01:19:32,660
-And I won't go into to
-each of those arguments.
+Dan saya tidak akan masuk ke dalam
+setiap argumen tersebut.
 
 1449
 01:19:32,660 --> 01:19:36,630
