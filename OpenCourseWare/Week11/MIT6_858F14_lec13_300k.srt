@@ -3799,51 +3799,51 @@ hal pada wire juga.
 
 800
 00:34:12,429 --> 00:34:16,780
-So I think this is sort of a bit
-of a stopgap measure-- improves
+Jadi saya berpikir ini agak sedikit
+dari ukuran sementara-- meningkat
 
 801
 00:34:16,780 --> 00:34:17,420
-security a bit.
+sedikit dari keamanan.
 
 802
 00:34:17,420 --> 00:34:21,002
-But certainly if you're
-watching someone else's network,
+Tapi tentu saja jika anda
+mengamati jaringan orang lain,
 
 803
 00:34:21,002 --> 00:34:23,460
-then you're going to see this
-packet coming back regardless
+maka anda dapat mengamati
+paket datang kembali terlepas
 
 804
 00:34:23,460 --> 00:34:25,546
-of what happened in this step.
+dari apa yang terjadi pada langkah ini.
 
 805
 00:34:25,546 --> 00:34:27,004
-So coming back,
-you'll see this guy
+Jadi kembali lagi,
+anda akan melihat orang tersebut
 
 806
 00:34:27,004 --> 00:34:28,817
-and you can then
-try to attack it.
+kemudian anda
+mencoba untuk menyerangnya.
 
 807
 00:34:28,817 --> 00:34:30,650
-There's probably some
-more elaborate schemes
+Mungkin ada beberapa
+skema yang lebih rumit
 
 808
 00:34:30,650 --> 00:34:32,500
-you could design
-but I didn't think
+anda dapat mendesain
+tapi aku tidak berpikir
 
 809
 00:34:32,500 --> 00:34:34,469
-Kerberos 5 even
-implements anything more
+Kerberos 5 bahkan
+menerapkan apa-apa lagi
 
 810
 00:34:34,469 --> 00:34:37,590
@@ -3898,7 +3898,7 @@ PROFESSOR: That's right, yeah.
 821
 00:34:55,300 --> 00:34:56,841
 jadi jika kamu ingin benar-benar
-melakukakn ini dengan benar,
+melakukan ini dengan benar,
 
 822
 00:34:56,841 --> 00:34:59,630
@@ -4006,7 +4006,7 @@ Anda untuk mengirim satu hal
 843
 00:35:48,365 --> 00:35:50,840
 sebagai otentikasi Anda
-[INAUDIBLE].
+[TIDAK TERDENGAR].
 
 844
 00:35:50,840 --> 00:35:52,820
@@ -4102,7 +4102,7 @@ karena mereka tidak mau
 
 863
 00:36:33,165 --> 00:36:35,028
-ingin berkali-kali [INAUDIBLE].
+ingin berkali-kali [TIDAK TERDENGAR].
 
 864
 00:36:35,028 --> 00:36:37,620
