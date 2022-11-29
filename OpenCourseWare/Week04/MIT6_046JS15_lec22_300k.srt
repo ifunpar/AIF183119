@@ -5879,64 +5879,64 @@ Suatu grafik 3 warna adalah NPC
 
 1251
 01:09:20,330 --> 01:09:25,800
-Anda bisa menggunakan cara tiga set
-sebagai cara untuk memeriksanya.
+You can use a three set
+as a way of showing that.
 
 1252
 01:09:25,800 --> 01:09:31,770
-Sehingga anda bisa bilang, oh, wow, mungkin Saya
-tidak perlu khawatir tentang RSA.
+So you can say, oh, wow, maybe I
+shouldn't be worried about RSA.
 
 1253
 01:09:31,770 --> 01:09:33,880
-Saya hanya perlu
-membuat sistem kripto
+I should just be
+building cryptosystems
 
 1254
 01:09:33,880 --> 01:09:35,210
-berdasarkan 3 warna.
+based on 3-colorability.
 
 1255
 01:09:35,210 --> 01:09:38,380
-Karena sepertinya masalah yang jauh
-lebih sederhana dari semua
+Because it seems like a much
+simpler problem than all
 
 1256
 01:09:38,380 --> 01:09:40,609
-peta kumuh yang anda
-miliki di luar sana– sebetulnya,
+these grungy map that you
+have out there-- actually,
 
 1257
 01:09:40,609 --> 01:09:42,490
-Itu adalah peta indah
-yang anda miliki.
+beautiful map that
+you have out there.
 
 1258
 01:09:42,490 --> 01:09:43,250
-OK
+OK.
 
 1259
 01:09:43,250 --> 01:09:47,550
-Jadi itu adalah pertanyaan
-yang sangat masuk akal
+So that's something that's a
+perfectly reasonable question
 
 1260
 01:09:47,550 --> 01:09:48,560
-untuk ditanyakan..
+to ask.
 
 1261
 01:09:48,560 --> 01:09:51,370
-Lalu kita memiliki Knapsack.
+And then we have Knapsack.
 
 1262
 01:09:51,370 --> 01:09:55,850
-Knapsack adalah ketika anda
-memiliki banyak benda
+Knapsack is simply you've
+got a bunch of items
 
 1263
 01:09:55,850 --> 01:09:59,290
-dan anda hanya ingin
-mencari tahu apakah anda
+and you just want to
+figure out whether you
 
 1264
 01:09:59,290 --> 01:10:06,940
