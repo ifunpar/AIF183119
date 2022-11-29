@@ -3714,11 +3714,11 @@ gumpalan terenkripsi ini.
 782
 00:33:26,240 --> 00:33:28,980
 Dan kemudian dapat mencoba mendekripsi
-hal tersebut secara offline sebanyak
+hal tersebut secara luring
 
 783
 00:33:28,980 --> 00:33:31,000
-seperti yang diinginkan dengan
+sebanyak-banyaknya dengan
 kata sandi yang berbeda
 
 784
@@ -3733,16 +3733,16 @@ titik yang termasuk
 786
 00:33:34,950 --> 00:33:36,840
 semacam
-tantangan hal respon
+challenge-response
 
 787
 00:33:36,840 --> 00:33:41,057
-seperti ini dalam partikel
+seperti ini dalam partikelnya
 adalah agar server akan--
 
 788
 00:33:41,057 --> 00:33:42,890
-anda harus benar-benar
+Anda harus benar-benar
 meminta kepada server lagi
 
 789
@@ -3752,8 +3752,8 @@ dengan kata sandi yang berbeda.
 
 790
 00:33:46,809 --> 00:33:48,600
-Dan kemudian Anda bisa mengukur
-batasan dari server
+Dan kemudian Anda dapat membatasi
+kecepatan percobaan
 
 791
 00:33:48,600 --> 00:33:50,700
@@ -3761,21 +3761,21 @@ dan mendapatkan pertahanan yang jauh lebih baik.
 
 792
 00:33:50,700 --> 00:33:51,640
-Iya.
+Yah.
 
 793
 00:33:51,640 --> 00:33:54,930
-STUDENT: [TIDAK TERDENGAR] Kerberos?
+MAHASISWA: [TIDAK TERDENGAR] Kerberos?
 
 794
 00:33:54,930 --> 00:34:00,210
-PROFESOR: Jadi saya pikir anda bisa
-pasti memutar ulang pesan tersebut
+PROFESOR: Jadi saya pikir Anda pasti
+bisa memutar ulang pesan tersebut
 
 795
 00:34:00,210 --> 00:34:03,330
-jadi jika saya mengirim pesan tersebut
-sekarang, anda mungkin bisa
+jadi jika saya mengirim pesan ini
+sekarang, Anda mungkin bisa
 
 796
 00:34:03,330 --> 00:34:05,420
@@ -3789,16 +3789,17 @@ dari Kerberos server.
 
 798
 00:34:07,535 --> 00:34:09,159
-Saya kira jika anda
+Saya kira jika Anda
 mengamati jaringan,
 
 799
 00:34:09,159 --> 00:34:12,429
-anda bisa mengamati
-hal pada wire juga.
+Anda bisa mengamati
+hal ini di jalurnya juga.
 
 800
 00:34:12,429 --> 00:34:16,780
+<<<<<<< HEAD
 Jadi saya berpikir ini agak sedikit
 dari ukuran sementara-- meningkat
 
@@ -3809,20 +3810,42 @@ sedikit dari keamanan.
 802
 00:34:17,420 --> 00:34:21,002
 Tapi tentu saja jika anda
+=======
+Jadi saya pikir ini adalah semacam
+tindakan sementara-- meningkatkan
+
+801
+00:34:16,780 --> 00:34:17,420
+keamanan sedikit.
+
+802
+00:34:17,420 --> 00:34:21,002
+Tapi pastinya jika Anda
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 mengamati jaringan orang lain,
 
 803
 00:34:21,002 --> 00:34:23,460
+<<<<<<< HEAD
 maka anda dapat mengamati
 paket datang kembali terlepas
 
 804
 00:34:23,460 --> 00:34:25,546
 dari apa yang terjadi pada langkah ini.
+=======
+maka Anda akan melihat paket
+ini kembali terlepas
+
+804
+00:34:23,460 --> 00:34:25,546
+dari apa yang terjadi di langkah ini.
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 805
 00:34:25,546 --> 00:34:27,004
 Jadi kembali lagi,
+<<<<<<< HEAD
 anda akan melihat orang tersebut
 
 806
@@ -3833,155 +3856,180 @@ mencoba untuk menyerangnya.
 807
 00:34:28,817 --> 00:34:30,650
 Mungkin ada beberapa
+=======
+Anda akan melihat orang ini
+
+806
+00:34:27,004 --> 00:34:28,817
+dan kemudian Anda bisa
+mencoba menyerangnya.
+
+807
+00:34:28,817 --> 00:34:30,650
+Ada kemungkinan beberapa
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 skema yang lebih rumit
 
 808
 00:34:30,650 --> 00:34:32,500
+<<<<<<< HEAD
 anda dapat mendesain
 tapi aku tidak berpikir
+=======
+yang Anda bisa rancang
+tapi saya tidak berpikir
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 809
 00:34:32,500 --> 00:34:34,469
 Kerberos 5 bahkan
+<<<<<<< HEAD
 menerapkan apa-apa lagi
+=======
+menerapkan sesuatu yang lebih
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 810
 00:34:34,469 --> 00:34:37,590
-elaborate than roughly this
-plan, which seems good enough
+rumit dari kurang lebih
+rencana ini, yang tampaknya cukup baik
 
 811
 00:34:37,590 --> 00:34:39,460
-to prevent arbitrary
-people from trying
+untuk mencegah sembarang
+orang untuk mencoba
 
 812
 00:34:39,460 --> 00:34:43,130
-to break anyone's or brute
-force anyone's password.
+membobol milik seseorang atau menebak-nebak
+kata sandi milik seseorang.
 
 813
 00:34:43,130 --> 00:34:44,326
-Make sense?
+Masuk akal?
 
 814
 00:34:44,326 --> 00:34:44,826
-Yeah.
+Yah.
 
 815
 00:34:44,826 --> 00:34:46,513
-STUDENT: So presume
-that you could
+MAHASISWA: Jadi anggaplah
+Anda dapat
 
 816
 00:34:46,513 --> 00:34:50,528
-do authenticated [INAUDIBLE]
-or something here
+melakukan autentikasi [TIDAK TERDENGAR]
+atau sesuatu di sini
 
 817
 00:34:50,528 --> 00:34:51,694
-to establish the shared key.
+untuk menetapkan kunci bersama nya.
 
 818
 00:34:51,694 --> 00:34:53,235
-And then you could
-encrypt this thing
+Dan kemudian anda bisa
+mengenkripsi benda ini
 
 819
 00:34:53,235 --> 00:34:54,474
-with KC and the shared key.
+dengan KC dan kunci bersama.
 
 820
 00:34:54,474 --> 00:34:55,300
-PROFESSOR: That's right, yeah.
+PROFESOR: Itu benar, yah.
 
 821
 00:34:55,300 --> 00:34:56,841
+<<<<<<< HEAD
 jadi jika kamu ingin benar-benar
+=======
+jadi jika Anda ingin benar-benar
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 melakukan ini dengan benar,
 
 822
 00:34:56,841 --> 00:34:59,630
-ada banyak macam yang bagus
-partikel diluar sana
+ada banyak macam partikel
+bagus di luar sana
 
 823
 00:34:59,630 --> 00:35:02,080
 yang biasanya disebut
-password kunci diautentikasi
+password authenticated key
 
 824
 00:35:02,080 --> 00:35:04,170
-pertukaran partikel, adalah
-apa yang benar-benar sedang terjadi disini.
+exchange particles, yang
+sebenarnya adalah yang terjadi di sini.
 
 825
 00:35:04,170 --> 00:35:05,836
-jadi jika kamu benar-benar
-membangun suatu sistem,
+Jadi jika Anda benar-benar
+membangun sebuah sistem,
 
 826
 00:35:05,836 --> 00:35:08,800
-anda seharusnya
-Google untuk SRP atau PAKE.
+Anda seharusnya
+mencari SRP atau PAKE di Google
 
 827
 00:35:08,800 --> 00:35:12,680
 dan protokol ini
-dan partikel yang berhubungan
+dan partikel yang berkaitan
 
 828
 00:35:12,680 --> 00:35:15,480
-akan melakukan ini didalam
-cara yang lebih baik dimana
+akan melakukan ini dengan
+cara yang lebih baik di mana
 
 829
 00:35:15,480 --> 00:35:18,760
-anda dapat membuktikan kedua
-pihak yang anda mapan
+Anda dapat membuktikan kepada kedua
+belah pihak bahwa Anda membuat
 
 830
 00:35:18,760 --> 00:35:20,850
-kunci yang baru dan kedua pihak
-diyakinkan bahwa
+sebuah kunci baru dan kedua pihak
+diyakinkan bahwa itu
 
 831
 00:35:20,850 --> 00:35:23,610
-pihak lain yang tepat
+adalah benar pihak yang dimaksud
 dan tidak mungkin
 
 832
 00:35:23,610 --> 00:35:26,240
-untuk memasang offline ini
-serangan menebak kata sandi
+untuk melakukan serangan
+menebak kata sandi secara luring
 
 833
 00:35:26,240 --> 00:35:29,682
-pada set paket jaringan
-yang Anda amati dan sebagainya.
+pada sekumpulan paket jaringan
+yang Anda amati dan seterusnya.
 
 834
 00:35:29,682 --> 00:35:31,140
-jadi itu adalah
+Jadi itu adalah
 semacam jenis protokol.
 
 835
 00:35:31,140 --> 00:35:33,220
-dan masih banyak lagi
-ketentuan penjelasan
+Dan itu lebih kompleks
+lagi dalam hal
 
 836
 00:35:33,220 --> 00:35:34,310
-pada crypto yang mereka andalkan.
+kripto yang mereka andalkan.
 
 837
 00:35:34,310 --> 00:35:36,690
 Jadi sulit untuk menjelaskan pada 
-papan persis mengapa mereka bekerja.
+papan tulis persis mengapa mereka bekerja.
 
 838
 00:35:36,690 --> 00:35:37,190
-Yeah.
+Yah.
 
 839
 00:35:37,190 --> 00:35:39,050
@@ -3995,8 +4043,8 @@ adalah karena mereka
 
 841
 00:35:40,938 --> 00:35:44,714
-ingin mempertahankan kemampuannya
-hanya mengirim kata sandi.
+ingin mempertahankan kemampuannya untuk
+hanya mengirimkan kata sandi.
 
 842
 00:35:44,714 --> 00:35:48,365
@@ -4005,28 +4053,33 @@ Anda untuk mengirim satu hal
 
 843
 00:35:48,365 --> 00:35:50,840
+<<<<<<< HEAD
 sebagai otentikasi Anda
 [TIDAK TERDENGAR].
+=======
+sebagai autentikasi Anda
+[INAUDIBLE].
+>>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 844
 00:35:50,840 --> 00:35:52,820
-PROFESOR: Nah,
+PROFESOR: Yah,
 ya, ada banyak
 
 845
 00:35:52,820 --> 00:35:56,950
 semacam persyaratan aneh
-bahwa orang-orang ini ada dalam pikiran.
+yang ada di dalam pikiran orang-orang ini
 
 846
 00:35:56,950 --> 00:36:01,540
 Saya pikir mereka-- yah,
-tentu dalam prakteknya,
+tentu dalam praktiknya,
 
 847
 00:36:01,540 --> 00:36:06,340
 server ini dapat menerima
-koneksi Kerberos dan 
+koneksi Kerberos dan
 
 848
 00:36:06,340 --> 00:36:06,866
@@ -4054,8 +4107,8 @@ mengirim kata sandi mereka.
 
 853
 00:36:13,180 --> 00:36:14,889
-Dan kemudian surat
-klien di sini, katakanlah,
+Dan kemudian klien
+email di sini, katakanlah,
 
 854
 00:36:14,889 --> 00:36:16,430
@@ -4064,7 +4117,7 @@ kata sandi Anda dan
 
 855
 00:36:16,430 --> 00:36:18,770
-akan mendapatkan tiket atas 
+akan mendapatkan tiket atas
 nama Anda hanya untuk memeriksanya.
 
 856
@@ -4079,17 +4132,17 @@ dari Kerberos dari kata sandi
 
 858
 00:36:22,531 --> 00:36:25,119
-untuk memeriksa lagi Kerberos.
+untuk pemeriksaan terhadap Kerberos.
 
 859
 00:36:25,119 --> 00:36:27,160
-Saya tidak berpikir ini menghalangi 
+Saya tidak berpikir ini menghalangi
 karena tentu saja
 
 860
 00:36:27,160 --> 00:36:30,833
 Kerberos 5 diterapkan meskipun
-hashes of timestamps,
+hash dari waktu ini,
 
 861
 00:36:30,833 --> 00:36:31,332
@@ -4097,7 +4150,7 @@ dll.
 
 862
 00:36:31,332 --> 00:36:33,165
-SISWA: Ya tapi itu
+MAHASISWA: Yah tapi itu
 karena mereka tidak mau
 
 863
@@ -4106,78 +4159,78 @@ ingin berkali-kali [TIDAK TERDENGAR].
 
 864
 00:36:35,028 --> 00:36:37,620
-PROFESSOR: Yeah, well,
-I think that probably
+PROFESSOR: Yah, baik,
+saya pikir itu mungkin
 
 865
 00:36:37,620 --> 00:36:38,967
-doesn't matter quite as much.
+tidak terlalu penting.
 
 866
 00:36:38,967 --> 00:36:41,300
-You could certainly have
-multiple rounds in the back end
+Anda pasti bisa memiliki
+beberapa ronde di belakang
 
 867
 00:36:41,300 --> 00:36:43,380
-behind your library.
+di pustaka Anda.
 
 868
 00:36:43,380 --> 00:36:46,670
-But there's some downsides
-to these particles--
+Tetapi ada beberapa kerugian
+dari partikel-partikel ini
 
 869
 00:36:46,670 --> 00:36:50,180
-probably not significant enough
-to stop you from using them.
+Mungkin tidak cukup signifikan 
+untuk menghentikanmu menggunakan mereka.
 
 870
 00:36:50,180 --> 00:36:53,040
-Other questions?
+Pertanyaan lain?
 
 871
 00:36:53,040 --> 00:36:54,880
-All right, I guess
-the other thing
+Baiklah, saya rasa 
+hal lain
 
 872
 00:36:54,880 --> 00:36:57,040
-I want to mention that
-you should watch out
+Saya ingin memperingatkan bahwa
+Anda harus hati-hati
 
 873
 00:36:57,040 --> 00:37:01,080
-for in the paper is that these
-guys, in designing Kerberos 4,
+Di kertas ini dinyatakan bahwa
+orang-orang ini, sedang mendesain Kerberos 4,
 
 874
 00:37:01,080 --> 00:37:03,550
-they picked a single
-encryption scheme.
+Mereka mengambil satu
+skema enkripsi.
 
 875
 00:37:03,550 --> 00:37:05,740
-And at the time,
-they basically picked
+Dan pada saat yang sama,
+mereka biasanya mengambil
 
 876
 00:37:05,740 --> 00:37:09,260
-DES, which was a popular
-encryption scheme of the time.
+DES, yang merupakan skema
+enkripsi yang populer waktu itu.
 
 877
 00:37:09,260 --> 00:37:11,590
-It's a symmetric block cypher.
+itu adalah enkripsi blok simetris.
 
 878
 00:37:11,590 --> 00:37:12,820
-It goes pretty fast.
+Itu berjalan sangat cepat.
 
 879
 00:37:12,820 --> 00:37:16,090
-It was reasonably secure,
-not necessarily the best,
+Itu cukup aman pada masanya,
+belum tentu yang terbaik
 
 880
 00:37:16,090 --> 00:37:18,392
@@ -4230,55 +4283,55 @@ some custom hardware that
 
 890
 00:37:39,140 --> 00:37:42,090
-iterates over all the possible
-2 to the 56 combinations
+mengiterasi semua kemungkinan
+2 sampai 56 kombinasi
 
 891
 00:37:42,090 --> 00:37:46,379
-and tries them all and figures
-out what someone's password is.
+dan mencoba semuanya lalu mencari
+tahu apa kata sandi seseorang.
 
 892
 00:37:46,379 --> 00:37:48,170
-So this is something
-also you want to avoid
+Jadi ini adalah sesuatu
+yang kamu juga ingin hindari
 
 893
 00:37:48,170 --> 00:37:49,710
-in any protocol you design now.
+di berbagai protokol yang kamu rancang sekarang.
 
 894
 00:37:49,710 --> 00:37:51,550
-Kerberos version 5
-actually supports
+Kerberos versi 5
+sebenarnya mendukung
 
 895
 00:37:51,550 --> 00:37:54,730
-multiple different
-encryption schemes including
+beragam skema enkripsi
+berbeda termasuk
 
 896
 00:37:54,730 --> 00:37:56,885
-AES and other things as well.
+AES dan hal lainnya juga.
 
 897
 00:37:56,885 --> 00:37:59,350
-So that seems like a
-much better way to do it.
+Jadi sepertinya itu
+cara yang jauh lebih baik untuk digunakan.
 
 898
 00:37:59,350 --> 00:38:02,320
-On the other hand, MIT
-actually kept supporting DES up
+Di sisi lain, MIT
+sebenarnya masih mendukung DES
 
 899
 00:38:02,320 --> 00:38:06,540
-until two years ago, which
-is a little unfortunate.
+sampai 2 tahun lalu, yang
+artinya sedikit disayangkan.
 
 900
 00:38:06,540 --> 00:38:07,560
-But now they don't.
+Tapi sekarang mereka tidak.
 
 901
 00:38:07,560 --> 00:38:08,530
