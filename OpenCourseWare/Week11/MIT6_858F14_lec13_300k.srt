@@ -4234,52 +4234,52 @@ belum tentu yang terbaik
 
 880
 00:37:16,090 --> 00:37:18,392
-but certainly good
-enough at the time.
+tapi tentu cukup baik
+pada saat itu.
 
 881
 00:37:18,392 --> 00:37:20,100
-And they just baked
-it into the protocol.
+Dan mereka baru saja mematangkan
+hal tersebut ke dalam protokol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Everything in Kerberos has
-to use single DES or at least
+Segala sesuatu yang ada di Kerberos memiliki
+kemampuan untuk menggunakan DES tunggal atau setidaknya
 
 883
 00:37:22,880 --> 00:37:24,890
-everything in
-Kerberos version 4.
+semuanya dalam
+Kerberos versi ke - 4.
 
 884
 00:37:24,890 --> 00:37:27,935
-And this was a bit problematic
-because 25 years later,
+Dan hal ini bermasalah
+karena 25 tahun kemudian,
 
 885
 00:37:27,935 --> 00:37:29,310
-30 years later
-now, it's actually
+30 tahun kemudian
+sekarang, hal itu sebenarnya
 
 886
 00:37:29,310 --> 00:37:32,820
-very cheap to brute
+sangat dengan mudah untuk melakukan brute
 force DES encryption
 
 887
 00:37:32,820 --> 00:37:34,690
-because the keys are
-actually very small.
+karena mayoritas kunci
+sebenarnya sangat kecil.
 
 888
 00:37:34,690 --> 00:37:36,570
-They're 56 bits.
+Mereka memiliki ukuran sebesar 56 bit.
 
 889
 00:37:36,570 --> 00:37:39,140
-So you could just search build
-some custom hardware that
+Jadi anda dapat mencari serta membuat
+beberapa perangkat keras khusus itu
 
 890
 00:37:39,140 --> 00:37:42,090
