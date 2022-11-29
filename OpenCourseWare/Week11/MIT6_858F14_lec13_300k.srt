@@ -4388,53 +4388,53 @@ berbicara dengannya sebagai
 
 912
 00:38:33,900 --> 00:38:37,910
-if you're speaking to any
-other Kerberos enabled service.
+seolah-olah Anda berbicara dengan 
+layanan lain yang mengaktifkan Kerberos.
 
 913
 00:38:37,910 --> 00:38:39,660
-So we'll see how you
-authenticate yourself
+Jadi kita akan melihat bagaimana Anda
+mengautentikasi diri Anda sendiri
 
 914
 00:38:39,660 --> 00:38:41,714
-with a ticket to some machine.
+dengan tiket ke beberapa mesin.
 
 915
 00:38:41,714 --> 00:38:43,630
-But then the response
-you're going to get back
+Tetapi tanggapan yang akan
+Anda dapatkan kembali
 
 916
 00:38:43,630 --> 00:38:46,071
-is just a ticket for
-some other principle
+hanyalah tiket untuk
+beberapa prinsip lain
 
 917
 00:38:46,071 --> 00:38:48,570
-that you're going to want to
-communicate with like your file
+yang ingin Anda
+komunikasikan seperti server
 
 918
 00:38:48,570 --> 00:38:50,230
-server.
+file Anda.
 
 919
 00:38:50,230 --> 00:38:54,210
-So the protocol level messages
-that show up here kind of
+Jadi tingkat protokol pesan
+yang muncul di sini
 
 920
 00:38:54,210 --> 00:38:54,910
-look like this.
+terlihat seperti ini.
 
 921
 00:38:54,910 --> 00:38:57,050
-So here's your TGS service.
+Jadi inilah layanan TGS Anda.
 
 922
 00:38:57,050 --> 00:38:59,230
-And here's a client.
+Dan inilah klien.
 
 923
 00:38:59,230 --> 00:39:02,750
