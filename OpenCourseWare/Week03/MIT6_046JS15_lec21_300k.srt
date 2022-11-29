@@ -6996,6 +6996,7 @@ akhirnya rusak, SHA-1 dan
 1492
 01:21:43,770 --> 01:21:44,700
 sebagainya.
+
 1493
 01:21:44,700 --> 01:21:49,580
 Dan Saya juga mendorong anda
