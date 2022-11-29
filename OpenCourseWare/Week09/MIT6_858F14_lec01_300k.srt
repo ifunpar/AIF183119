@@ -8081,59 +8081,59 @@ getS() akan membuat overflow
 
 1712
 01:11:24,281 --> 01:11:24,780
-the buffer.
+penyangga.
 
 1713
 01:11:24,780 --> 01:11:26,480
-It's going to change
-the return address
+Ini akan merubah
+alamat pengembalian
 
 1714
 01:11:26,480 --> 01:11:28,271
-and then immediately
-return and immediately
+dan kemudian segera
+mengembalikan dan segera
 
 1715
 01:11:28,271 --> 01:11:32,440
-jump to wherever you sort
-of tried to construct,
+melompat ke tempat anda mengurutkan
+dari mencoba untuk membangun,
 
 1716
 01:11:32,440 --> 01:11:34,780
-makes sense.
+masuk akal.
 
 1717
 01:11:34,780 --> 01:11:38,175
-So what happens if we
-have a program like this
+Jadi apa yang terjadi jika kita
+memiliki sebuah program seperti ini
 
 1718
 01:11:38,175 --> 01:11:39,050
-that's pretty boring?
+ini sedikit membosankan?
 
 1719
 01:11:39,050 --> 01:11:41,091
-There's like no real
-interesting code to jump to.
+Itu terlihat seperti tidak ada
+kode yang menarik untuk melompat kesana.
 
 1720
 01:11:41,091 --> 01:11:45,200
-All you can do is get it to
-print different x values here.
+Semua yang dapat Anda lakukan adalah mendapatkan
+pencetakan nilai x yang berbeda disini.
 
 1721
 01:11:45,200 --> 01:11:47,504
-What if you want to do
-something interesting that you
+Bagaimana jika Anda ingin melakukan
+sesuatu yang menarik bagi Anda
 
 1722
 01:11:47,504 --> 01:11:48,645
-didn't-- yeah?
+bukan begitu yah?
 
 1723
 01:11:48,645 --> 01:11:52,085
-AUDIENCE: I mean, if you
-have an extra cable stack,
+AUDIENCE: Maksud saya, jika anda
+memiliki sebuah tumpukkan kabel tambahan,
 
 1724
 01:11:52,085 --> 01:11:54,400
