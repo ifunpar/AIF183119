@@ -5461,7 +5461,7 @@ memberikan pengguna sewenang-wenang mengontrol
 
 1154
 00:49:15,978 --> 00:49:17,890
-nama DNS Anda [Tidak terdengar].
+nama DNS Anda [TIDAK TERDENGAR].
 
 1155
 00:49:17,890 --> 00:49:21,900
@@ -5475,63 +5475,63 @@ semoga tidak mempercayai DNS sama sekali.
 
 1157
 00:49:25,290 --> 00:49:27,940
-If everything works
-here correctly,
+Jika semuanya bekerja
+di sini dengan benar,
 
 1158
 00:49:27,940 --> 00:49:30,150
-then DNS shouldn't be trusted.
+maka DNS tidak boleh dipercaya.
 
 1159
 00:49:30,150 --> 00:49:31,794
-You can [INAUDIBLE].
+Anda bisa [TIDAK TERDENGAR].
 
 1160
 00:49:31,794 --> 00:49:33,710
-You should never be able
-to intercept any data
+Anda seharusnya tidak pernah bisa
+mencegat data apa pun
 
 1161
 00:49:33,710 --> 00:49:36,612
-or corrupt data, et cetera.
+atau data yang rusak, dan lain-lain.
 
 1162
 00:49:36,612 --> 00:49:37,847
-Make sense?
+Masuk akal?
 
 1163
 00:49:37,847 --> 00:49:39,430
-That's if everything
-works, of course.
+Itu kalau semuanya
+bekerja, tentu saja.
 
 1164
 00:49:39,430 --> 00:49:42,280
-It's a little bit
-messier than that.
+Ini sedikit lebih
+berantakan dari itu.
 
 1165
 00:49:42,280 --> 00:49:43,990
-All right.
+Baiklah.
 
 1166
 00:49:43,990 --> 00:49:49,230
-So I guess one interesting
-question to talk about
+Jadi saya kira satu pertanyaan yang menarik
+untuk dibicarakan
 
 1167
 00:49:49,230 --> 00:49:52,880
-is I guess how bad
-could an attack be
+adalah saya kira seberapa buruk
+serangan yang terjadi
 
 1168
 00:49:52,880 --> 00:49:57,290
-if the user mis-approves
-a certificate?
+jika pengguna salah menyetujui
+sebuah sertifikat?
 
 1169
 00:49:57,290 --> 00:49:59,150
-So as we were saying,
-if the user accepts
+Jadi seperti yang kita katakan,
+jika pengguna menerima
 
 1170
 00:49:59,150 --> 00:50:02,110
