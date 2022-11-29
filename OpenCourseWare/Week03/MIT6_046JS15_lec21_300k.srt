@@ -6900,56 +6900,56 @@ seperti itu, bukan?
 
 1472
 01:20:43,550 --> 01:20:46,950
-So it's not that there's
-anything profound here.
+Jadi bukan itu yang ada
+apa pun yang mendalam di sini.
 
 1473
 01:20:46,950 --> 01:20:48,540
-It's just that I
-want to make sure
+Hanya saja saya
+ingin memastikan
 
 1474
 01:20:48,540 --> 01:20:51,480
-that you understand the
-nuances of the properties
+bahwa Anda memahami
+nuansa properti
 
 1475
 01:20:51,480 --> 01:20:52,580
-that we're requiring.
+yang kami butuhkan.
 
 1476
 01:20:52,580 --> 01:20:55,560
-We had all the
-requirements corresponding
+Kami memiliki semua
+persyaratan yang sesuai
 
 1477
 01:20:55,560 --> 01:20:58,900
-to the definitions
-of NM and CR and OW.
+untuk definisi
+dari NM dan CR dan OW.
 
 1478
 01:20:58,900 --> 01:21:01,150
-And you need a little bit
-more for this example, where
+Dan Anda perlu sedikit
+lebih untuk contoh ini, di mana
 
 1479
 01:21:01,150 --> 01:21:04,300
-you have to say something,
-perhaps informally,
+Anda harus mengatakan sesuatu,
+mungkin secara informal,
 
 1480
 01:21:04,300 --> 01:21:10,870
-like the bits of your auction
-are scrambled in the final hash
+seperti bagian dari lelang Anda
+diacak di hash terakhir
 
 1481
 01:21:10,870 --> 01:21:14,010
-output, which most hash
-functions should do anyway,
+output, yang paling hash
+fungsi harus tetap dilakukan,
 
 1482
 01:21:14,010 --> 01:21:15,730
-and h of x will definitely do.
+dan h dari x pasti akan melakukannya.
 
 1483
 01:21:15,730 --> 01:21:19,290
@@ -7003,7 +7003,6 @@ untuk melihat SHA-3 dan juga
 
 1494
 01:21:49,580 --> 01:21:52,480
-
 melihat secara cepat dan apa
 kompleksitas dari SHA-3
 
