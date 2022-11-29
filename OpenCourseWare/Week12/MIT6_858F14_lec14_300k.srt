@@ -5535,59 +5535,59 @@ if the user accepts
 
 1170
 00:49:59,150 --> 00:50:02,110
-a certificate for the wrong
-host or accepts an expired
+sebuah sertifikat untuk host yang salah
+atau menerima sebuah sertifikat yang kadaluarsa
 
 1171
 00:50:02,110 --> 00:50:05,300
-certificate, what
-could go wrong?
+apakah 
+bisa salah?
 
 1172
 00:50:05,300 --> 00:50:09,870
-How much should we worry about
-this mistake from the user?
+Berapa yang seharusnya kita khawatirkan tentang
+kesalahan ini dari pengguna?
 
 1173
 00:50:09,870 --> 00:50:10,428
-Yeah.
+Yah.
 
 1174
 00:50:10,428 --> 00:50:11,594
-AUDIENCE: Well, [INAUDIBLE].
+AUDIENCE: Yah, [TIDAK TERDENGAR].
 
 1175
 00:50:14,870 --> 00:50:17,671
-But it could be,
-[? in example ?], not the site
+Tapi itu bisa saja,
+[? pada contoh ?], bukan situsnya
 
 1176
 00:50:17,671 --> 00:50:19,490
-the user wants to visit.
+penggunanya ingin berkunjung.
 
 1177
 00:50:19,490 --> 00:50:24,252
-So they could do things like
-pretend to be the user's name.
+Maka mereka bisa melakukan hal seperti 
+pretend to be the user's name. berpura-pura menjadi nama pengguna.
 
 1178
 00:50:24,252 --> 00:50:24,960
-PROFESSOR: Right.
+PROFESSOR: Right. PROFESSOR: Benar.
 
 1179
 00:50:24,960 --> 00:50:27,515
-So certainly, the user
-might then I guess
+Maka tentunya, pengguna
+mungkin kemudian saya kira
 
 1180
 00:50:27,515 --> 00:50:29,640
-be fooled into thinking,
-oh, I have all this money,
+tertipu ke dalam pemikiran,
+oh, Saya memiliki semua uang ini,
 
 1181
 00:50:29,640 --> 00:50:32,230
-or you have no money at all
-because the result page comes
+atau Anda tidak memiliki uang sama sekali 
+karena halaman hasilnya memunculkan
 
 1182
 00:50:32,230 --> 00:50:34,010
