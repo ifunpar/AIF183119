@@ -4438,56 +4438,56 @@ Dan inilah klien.
 
 923
 00:38:59,230 --> 00:39:02,750
-The client already
-got a ticket for TGS
+Pelanggan sudah
+mendapatkan tiket untuk TGS
 
 924
 00:39:02,750 --> 00:39:04,090
-using this protocol above.
+memakai protokol di atas
 
 925
 00:39:04,090 --> 00:39:06,580
-So what the client is
-actually going to send over
+Jadi hal yang pelanggan 
+akan kirim sebenarnya
 
 926
 00:39:06,580 --> 00:39:10,190
-is some combination
-of messages that
+adalah beberapa kombinasi
+dari pesan-pesan yang
 
 927
 00:39:10,190 --> 00:39:12,690
-prove that this is
-the right client
+membuktikan bahwa ini
+adalah pelanggan yang tepat
 
 928
 00:39:12,690 --> 00:39:16,900
-and they're issuing a request
-for some particular principle
+dan mereka menggosipkan permintaan
+untuk beberapa prinsip tertentu
 
 929
 00:39:16,900 --> 00:39:17,490
-through TGS.
+lewat TGS.
 
 930
 00:39:17,490 --> 00:39:20,414
-So what the client is going
-to send to TGS is this tuple.
+Jadi apa yang pelanggan akan 
+kirim ke TGS adalah tupel ini.
 
 931
 00:39:20,414 --> 00:39:21,830
-So first, it's
-going to say, well,
+Jadi pertama, akan
+dikatakan, bahwa, 
 
 932
 00:39:21,830 --> 00:39:24,000
-here's the service that
-I want to talk to next.
+ini pelayanan yang
+aku ingin bicarakan ke depannya.
 
 933
 00:39:24,000 --> 00:39:27,130
-So this might be your mail
-server or your file server.
+Jadi ini mungkin server surat
+kamu atau server berkas kamu.
 
 934
 00:39:27,130 --> 00:39:29,440
