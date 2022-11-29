@@ -7862,7 +7862,7 @@ arsitektur alternatif ini,
 1665
 01:09:25,410 --> 01:09:27,300
 apa yang akan terjadi
-adalah alamat yang dikembalikan
+adalah alamat kembali
 
 1666
 01:09:27,300 --> 01:09:31,040
@@ -7894,12 +7894,12 @@ dia overflow ke atas sana dan mungkin
 
 1672
 01:09:48,229 --> 01:09:49,310
-tidak menyebabkan apapun yang buruk.
+tidak menabrak sesuatu yang tidak semestinya.
 
 1673
 01:09:49,310 --> 01:09:50,768
-Saya menebak apa yang anda
-bilang adalah,
+Saya rasa apa yang Anda
+katakan adalah,
 
 1674
 01:09:50,768 --> 01:09:52,595
@@ -7917,44 +7917,44 @@ sepertinya sedikit disayangkan.
 
 1677
 01:09:55,761 --> 01:09:58,930
-Itu bisa memenuhi
+Itu bisa menabrak
 alamat kembalian ini.
 
 1678
 01:09:58,930 --> 01:09:59,690
-Jadi anda benar.
+Jadi Anda benar.
 
 1679
 01:09:59,690 --> 01:10:01,420
-Jadi anda tetap bisa
-menemukan masalah
+Jadi Anda tetap bisa
+menemui masalah
 
 1680
 01:10:01,420 --> 01:10:03,350
-pada tumpukan ini bertumbuh.
+pada stack yang bertumbuh ke atas ini.
 
 1681
 01:10:03,350 --> 01:10:04,785
-lalu bagaimana dengan
+Lalu bagaimana dengan
 program yang ini?
 
 1682
 01:10:08,420 --> 01:10:11,119
-Apakah
-program khusus ini aman pada mesin
+Apakah program spesifik
+ini aman pada mesin-mesin
 
 1683
 01:10:11,119 --> 01:10:12,160
-yang dimana tumpukannya bertumbuh?
+di mana tumpukannya bertumbuh ke atas?
 
 1684
 01:10:12,160 --> 01:10:15,670
 Jadi untuk menyimpulkan apa yang
-program baca adalah bend aini.
+program baca adalah benda ini.
 
 1685
 01:10:18,391 --> 01:10:18,890
-Yaa?
+Yah?
 
 1686
 01:10:18,890 --> 01:10:19,810
@@ -7977,35 +7977,35 @@ pintar, benar?
 1690
 01:10:22,735 --> 01:10:29,040
 Jadi ini adalah stack
-frame untuk pengalihan.
+frame untuk redirect.
 
 1691
 01:10:29,040 --> 01:10:31,250
-Saya duga itu sebenarnya menjangkau
-semua jalan sampai di sini.
+Saya rasa itu sebenarnya menjangkau
+seluruhnya sampai di sini.
 
 1692
 01:10:31,250 --> 01:10:34,790
 Tapi apa yang sebenarnya terjadi
-ketika Anda memanggil getS yang
+ketika Anda memanggil getS() adalah
 
 1693
 01:10:34,790 --> 01:10:36,610
-pengalihan membuat sebuah pemanggilan fungsi.
+redirect membuat sebuah pemanggilan fungsi.
 
 1694
 01:10:36,610 --> 01:10:40,380
-Itu sebenarnya menyimpan kembalian
-alamatnya di atas sini pada stack.
+Dia sebenarnya menyimpan alamat kembalian
+di atas sini pada stack.
 
 1695
 01:10:40,380 --> 01:10:42,740
-Dan kemudian getS() memulai berjalan.
+Dan kemudian getS() mulai berjalan.
 
 1696
 01:10:42,740 --> 01:10:45,490
 Dan getS() meletakkan
-penyimpanan EBP nya di atas sini.
+EBP yang disimpannya di atas sini.
 
 1697
 01:10:45,490 --> 01:10:50,240
@@ -8033,12 +8033,12 @@ pada semua sisi.
 1702
 01:10:59,430 --> 01:11:02,190
 Bagaimanapun juga, Anda akan
-membuat sesuatu overflow.
+dapat membuat sesuatu overflow.
 
 1703
 01:11:02,190 --> 01:11:06,300
-Jadi pada titik mana-- anggap kita
-punya sebuah mesin stack yang bertumbuh
+Jadi di titik manakah-- anggap kita
+punya sebuah mesin stack yang bertumbuh ke atas.
 
 1704
 01:11:06,300 --> 01:11:08,770
@@ -8058,12 +8058,12 @@ lebih mudah dalam beberapa cara.
 1707
 01:11:16,424 --> 01:11:18,340
 Anda tidak perlu menunggu
-hingga pengalihan kembali.
+hingga redirect kembali.
 
 1708
 01:11:18,340 --> 01:11:20,200
-Dan mungkin ada, hal
-yang akan membuat Anda gagal
+Dan mungkin ada seperti, hal
+yang akan membuat kacau Anda
 
 1709
 01:11:20,200 --> 01:11:21,210
@@ -8075,27 +8075,27 @@ Tidak.
 
 1711
 01:11:21,710 --> 01:11:24,281
-Ini sebenarnya lebih mudah, karena
+Itu sebenarnya lebih mudah, karena
 getS() akan membuat overflow
 
 1712
 01:11:24,281 --> 01:11:24,780
-penyangga.
+buffer nya.
 
 1713
 01:11:24,780 --> 01:11:26,480
-Ini akan merubah
-alamat pengembalian
+Itu akan merubah
+alamat kembali
 
 1714
 01:11:26,480 --> 01:11:28,271
 dan kemudian segera
-mengembalikan dan segera
+kembalo dan segera
 
 1715
 01:11:28,271 --> 01:11:32,440
-melompat ke tempat anda mengurutkan
-dari mencoba untuk membangung,
+melompat ke tempat di mana
+Anda coba untuk bangun,
 
 1716
 01:11:32,440 --> 01:11:34,780
@@ -8108,18 +8108,17 @@ memiliki sebuah program seperti ini
 
 1718
 01:11:38,175 --> 01:11:39,050
-ini sedikit membosankan?
+yang sedikit membosankan?
 
 1719
 01:11:39,050 --> 01:11:41,091
-Itu terlihat seperti tidak ada
-kode yang menarik untuk melompat kesana.
-
+Sepertinya tidak ada kode yang
+menarik untuk melompat kesana.
 
 1720
 01:11:41,091 --> 01:11:45,200
-Semua yang dapat Anda lakukan adalah mendapatkan
-pencetakan nilai x yang berbeda disini.
+Semua yang dapat Anda lakukan adalah
+mencetak nilai x yang berbeda di sini.
 
 1721
 01:11:45,200 --> 01:11:47,504
@@ -8128,11 +8127,11 @@ sesuatu yang menarik bagi Anda
 
 1722
 01:11:47,504 --> 01:11:48,645
-bukan begitu yah?
+bukan begitu-- yah?
 
 1723
 01:11:48,645 --> 01:11:52,085
-AUDIENCE: Maksud saya, jika anda
+AUDIENCE: Maksud saya, jika Anda
 memiliki sebuah tumpukkan kabel tambahan,
 
 1724
