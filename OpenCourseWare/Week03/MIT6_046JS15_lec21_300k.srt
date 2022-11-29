@@ -6841,56 +6841,56 @@ for my commitment application?
 
 1461
 01:20:09,340 --> 01:20:10,090
-No, obviously not.
+tidak, jelas tidak
 
 1462
 01:20:10,090 --> 01:20:12,298
-Because if I publicize this
-hash function-- remember,
+karena jika saya mempublikasikan fungsi
+hash ini-- ingatlah
 
 1463
 01:20:12,298 --> 01:20:13,890
-everything is public
-here with respect
+semuanya bersifat public
+disini dengan hormat
 
 1464
 01:20:13,890 --> 01:20:18,030
-to h and h prime-- you
-are giving away the most
+ke h dan h prime-- anda
+memberikan yang paling banyak
 
 1465
 01:20:18,030 --> 01:20:21,360
-significant that
-corresponds to your bid
+signifikan itu
+sesuai dengan tawaran anda
 
 1466
 01:20:21,360 --> 01:20:23,350
-in this particular
-hash function, right?
+khusus ini
+fungsi hash, kan?
 
 1467
 01:20:23,350 --> 01:20:33,170
-So you really need a little bit
-more than these for secrecy,
+Jadi anda benar-benar membutuhkan setidaknya sedikit
+lebih dari ini untuk kerahasiaan
 
 1468
 01:20:33,170 --> 01:20:34,200
-for true secrecy.
+untuk kerahasiaan yang sebenarnya.
 
 1469
 01:20:37,510 --> 01:20:39,890
-But in the context
-of this example,
+tapi dalam konteks
+dari contoh ini,
 
 1470
 01:20:39,890 --> 01:20:41,770
-I mean it's common
-sense that you would not
+maksudku, itu umum
+bahwa anda merasakan tidak akan
 
 1471
 01:20:41,770 --> 01:20:43,550
-use the hash function
-like that, right?
+gunakan fungsi hash
+seperti itu, bukan?
 
 1472
 01:20:43,550 --> 01:20:46,950
