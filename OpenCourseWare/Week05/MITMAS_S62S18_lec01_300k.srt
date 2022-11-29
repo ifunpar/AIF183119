@@ -5423,21 +5423,22 @@ it computationally
 
 1147
 00:49:40,308 --> 00:49:42,730
-difficult to run double hashes?
+sulit untuk menjalankan double hashes?
+
 
 1148
 00:49:42,730 --> 00:49:44,110
-TADGE DRYJA: So to evaluate--
+TADGE DRYJA: jadi untuk evaluasi--
 
 1149
 00:49:44,110 --> 00:49:46,720
-if you want to try this,
-it's imperceptible.
+jika kamu ingin mencoba ini,
+itu tidak terlihat.
 
 1150
 00:49:46,720 --> 00:49:50,798
-To perform one
-Sha-256 hash is, I
+untuk menampilkan 1
+hash Sha-256, aku
 
 1151
 00:49:50,798 --> 00:49:52,840
