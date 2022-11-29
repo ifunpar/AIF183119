@@ -4282,56 +4282,56 @@ But now they don't.
 
 901
 00:38:07,560 --> 00:38:08,530
-So that's good.
+Jadi itu bagus.
 
 902
 00:38:08,530 --> 00:38:12,860
-Your principal is secure at
-least from this kind of attack.
+Prinsipil anda aman
+setidaknya dari jenis serangan ini.
 
 903
 00:38:12,860 --> 00:38:14,680
-All right, so does
-that make sense?
+Baiklah, jadi apakah
+itu masuk akal?
 
 904
 00:38:14,680 --> 00:38:16,350
-This is the initial
-way you'd get
+Ini adalah cara
+awal yang anda dapatkan
 
 905
 00:38:16,350 --> 00:38:18,210
-any ticket at all in Kerberos.
+Tiket apa pun dari Kerberos.
 
 906
 00:38:18,210 --> 00:38:20,810
-And typically, you'd get this
-ticket from this TGS service.
+Dan khususnya, anda mendapatkan
+tiket ini dari TGS service.
 
 907
 00:38:20,810 --> 00:38:24,090
-So now let's look at what's
-going on in this TGS service.
+Jadi sekarang marilah melihat pada apa
+yang sedang terjadi dalam TGS service.
 
 908
 00:38:24,090 --> 00:38:27,700
-So here, the interaction
-with the TGS service
+Jadi ini, adalah interaksi
+dengan TGS service
 
 909
 00:38:27,700 --> 00:38:29,350
-is going to be a
-little different.
+akan menjadi 
+sedikit berbeda.
 
 910
 00:38:29,350 --> 00:38:32,150
-On one hand, you're
-going to-- as a client,
+Di satu sisi, anda 
+akan-- sebagai klien,
 
 911
 00:38:32,150 --> 00:38:33,900
-you're going to have
-to speak to it as
+Anda diharuskan untuk
+berbicara dengannya sebagai
 
 912
 00:38:33,900 --> 00:38:37,910
