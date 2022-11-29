@@ -5360,71 +5360,70 @@ hash lagi dan lagi,
 
 1134
 00:49:05,280 --> 00:49:09,190
-and start revealing
-it incrementally.
+dan mulai mengurutkannya
+secara bertahap.
 
 1135
 00:49:09,190 --> 00:49:10,390
-That might be useful.
+Itu bisa saja berguna.
 
 1136
 00:49:10,390 --> 00:49:12,350
-I actually have stuff
-like that in software.
+Saya sebenarnya memiliki hal
+seperti itu di perangkat lunak saya.
 
 1137
 00:49:12,350 --> 00:49:16,200
-I've written where you
-want to reveal secrets.
+Saya sudah menuliskan dimana kamu
+ingin mengungkapkan rahasia.
 
 1138
 00:49:16,200 --> 00:49:18,520
-But let's say I want
-to reveal secrets,
+Tetapi, katakan saya ingin
+mengungkapkan rahasia,
 
 1139
 00:49:18,520 --> 00:49:21,310
-but I don't want everyone to
-have to store all of them.
+tetapi saya tidak ingin semua orang 
+harus menyimpan semuanya.
 
 1140
 00:49:21,310 --> 00:49:26,080
-So I can make a chain of
-hashes, commit to the last one,
+Jadi saya bisa membuat sebuah rantai dari
+suatu kode hasil enskripsi,
 
 1141
 00:49:26,080 --> 00:49:28,870
-and then as I reveal
-successive preimages,
+dan kemudian, setelah saya mengungkapkan
+gambaran awal yang berurutan,
 
 1142
 00:49:28,870 --> 00:49:30,370
-you don't have to
-store all of them.
+kamu tidak perlu untuk 
+menyimpan semuanya.
 
 1143
 00:49:30,370 --> 00:49:34,210
-You can just store
-the latest preimage,
+Kamu bisa hanya menyimpan
+gambaran awal yang terbaru,
 
 1144
 00:49:34,210 --> 00:49:37,150
-and you can reconstruct
-all the hashes from that.
+dan kamu bisa mengkonstruksikan ulang 
+semua kode hasil enkripsi dari itu
 
 1145
 00:49:37,150 --> 00:49:38,850
-Yes.
+Ya.
 
 1146
 00:49:38,850 --> 00:49:40,308
-AUDIENCE: But is
-it computationally
+Hadirin : Tetapi apakah
+secara komputasional
 
 1147
 00:49:40,308 --> 00:49:42,730
 sulit untuk menjalankan double hashes?
-
 
 1148
 00:49:42,730 --> 00:49:44,110
@@ -5462,8 +5461,8 @@ pikir dia bertanya
 
 1155
 00:50:02,830 --> 00:50:05,830
-does it make it harder to find
-a preimage if you hash twice,
+apakah itu membuatnya lebih sulit untuk menemukan
+gambar awal jika kamu mengenkripsikannya dua kali,
 
 1156
 00:50:05,830 --> 00:50:06,838
