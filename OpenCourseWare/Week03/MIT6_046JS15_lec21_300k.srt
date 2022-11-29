@@ -6783,7 +6783,7 @@ Dan alasannya cukup sederhana.
 1447
 01:19:22,180 --> 01:19:30,000
 h prima x dapat dibilang
-NM, CR, dan OW.it's not going to be invertible
+NM, CR, dan OW.ini tidak akan dapat dikembalikan
 
 1448
 01:19:30,000 --> 01:19:32,660
