@@ -5855,22 +5855,22 @@ Itu sistem tanda tangan yang buruk.
 
 1271
 00:54:58,400 --> 00:55:02,420
-So the reason why this was
-used was the better system
+Jadi alasan mengapa ini terjadi
+digunakan adalah sistem yang lebih baik
 
 1272
 00:55:02,420 --> 00:55:04,490
-was patented.
+sudah dipatenkan.
 
 1273
 00:55:04,490 --> 00:55:11,180
-And so there's a clearer, more
-obvious, cleaner, more powerful
+Jadi ada sistem tanda tangan
+yang lebih jelas, lebih nyata
 
 1274
 00:55:11,180 --> 00:55:14,240
-signature system that was
-patented by this German guy,
+lebih bersih, dan lebih kuat yang
+dipatenkan oleh seorang Jerman ini,
 
 1275
 00:55:14,240 --> 00:55:15,170
@@ -5878,104 +5878,104 @@ Claus Schnorr.
 
 1276
 00:55:15,170 --> 00:55:17,660
-And so no one used it, or
-maybe a few people used it.
+Jadi tidak ada yang menggunakannya, atau
+mungkin hanya sedikit orang yang menggunakannya.
 
 1277
 00:55:17,660 --> 00:55:21,860
-But in general, with open
-source things and web standards,
+Tapi secara umum, dengan adanya open
+source dan standar-standar web,
 
 1278
 00:55:21,860 --> 00:55:25,590
-patents are really
-hard to work with.
+teknologi yang dipatenkan benar-benar
+menjadi sulit untuk berkembang.
 
 1279
 00:55:25,590 --> 00:55:27,140
-And so all the
-cryptographers said,
+Dan semua
+kriptografer berkata,
 
 1280
 00:55:27,140 --> 00:55:29,360
-well, we'll make
-this other system
+baiklah, kita akan membuat
+sistem lain ini
 
 1281
 00:55:29,360 --> 00:55:32,540
-that's different enough that it
-doesn't infringe on the patent.
+cukup berbeda sehingga
+tidak melanggar paten.
 
 1282
 00:55:32,540 --> 00:55:36,200
-And it's kind of ugly.
+Dan itu agak jelek.
 
 1283
 00:55:36,200 --> 00:55:38,720
-It does work as a
-signature scheme.
+Dia benar berfungsi sebagai
+skema tanda tangan.
 
 1284
 00:55:38,720 --> 00:55:40,760
-But actually, I'm
-going to explain
+Tapi sebenarnya, Saya
+akan menjelaskan
 
 1285
 00:55:40,760 --> 00:55:46,100
-the Schnorr signatures,
-which make a lot more sense,
+tanda tangan Schnorr,
+yang jauh lebih masuk akal,
 
 1286
 00:55:46,100 --> 00:55:48,410
-are easier to understand
-and manipulate,
+lebih mudah dimengerti
+dan dimanipulasi,
 
 1287
 00:55:48,410 --> 00:55:50,840
-and the patent has expired,
-so we can all use it.
+dan patennya telah kedaluwarsa,
+sehingga kita semua bisa menggunakannya
 
 1288
 00:55:50,840 --> 00:55:53,780
-And it will probably
-be going into Bitcoin.
+Dan itu mungkin akan
+masuk ke Bitcoin.
 
 1289
 00:55:53,780 --> 00:55:56,490
-And some cryptocurrencies
-use Schnorr signatures.
+Dan beberapa mata uang kripto
+menggunakan tanda tangan Schnorr.
 
 1290
 00:55:56,490 --> 00:56:02,180
-I think Monero uses a
-Schnorr-like signature.
+Saya pikir Monero menggunakan
+tanda tangan seperti Schnorr.
 
 1291
 00:56:02,180 --> 00:56:05,480
-But Bitcoin will
-probably be putting it
+Tetapi Bitcoin akan
+mungkin memasukkannya
 
 1292
 00:56:05,480 --> 00:56:08,130
-into Bitcoin in the
-next year or so.
+ke dalam Bitcoin pada
+tahun berikutnya dan seterusnya.
 
 1293
 00:56:08,130 --> 00:56:10,220
-So all these things will
-be much more applicable,
+Jadi hal-hal ini akan
+lebih mudah diaplikasikan,
 
 1294
 00:56:10,220 --> 00:56:11,310
-and you can use them.
+dan bisa kita pakai.
 
 1295
 00:56:11,310 --> 00:56:12,185
-And there's code out.
+Lalu ada kode keluar.
 
 1296
 00:56:12,185 --> 00:56:13,620
-You can use them now.
+Anda bisa menggunakannya sekarang.
 
 1297
 00:56:13,620 --> 00:56:14,120
@@ -5983,42 +5983,42 @@ OK.
 
 1298
 00:56:14,120 --> 00:56:14,410
-Yeah.
+Yah.
 
 1299
 00:56:14,410 --> 00:56:15,008
-Sorry.
+Maaf.
 
 1300
 00:56:15,008 --> 00:56:16,800
-Patent has expired--
-free to use the better
+Paten sudah kedaluwarsa--
+bebas untuk menggunakan 
 
 1301
 00:56:16,800 --> 00:56:18,350
-algo that must not be named.
+algo yang lebih baik namun tidak boleh disebutkan namanya
 
 1302
 00:56:18,350 --> 00:56:20,352
-So yeah.
+Jadi yah.
 
 1303
 00:56:20,352 --> 00:56:22,310
-People don't call it
-Schnorr signature as much.
+Orang-orang tidak menyebutnya
+tanda tangan Schnorr sesering itu.
 
 1304
 00:56:22,310 --> 00:56:24,800
-Because it's like, well, this
-is the guy who prevented us
+Karena ini jadi seperti, yah, ini
+adalah orang yang mencegah kita
 
 1305
 00:56:24,800 --> 00:56:28,900
-from using this for 20 years.
+untuk menggunakannya selama 20 tahun.
 
 1306
 00:56:28,900 --> 00:56:31,300
-And there's modifications to it.
+Dan terdapat beberapa modifikasi padanya.
 
 1307
 00:56:31,300 --> 00:56:31,800
@@ -6026,67 +6026,67 @@ OK.
 
 1308
 00:56:31,800 --> 00:56:36,350
-So the elliptic curve signature,
-for lack of a better name.
+Jadi tanda tangan kurva eliptik,
+karena tidak ada nama yang lebih baik.
 
 1309
 00:56:36,350 --> 00:56:38,360
-This is something
-of a simplification.
+Ini adalah sebuah
+penyederhanaan.
 
 1310
 00:56:38,360 --> 00:56:41,000
-And there's reading
-about how you can really
+Dan ada bacaan
+tentang bagaimana Anda bisa
 
 1311
 00:56:41,000 --> 00:56:41,907
-do it the right way.
+melakukannya secara benar.
 
 1312
 00:56:41,907 --> 00:56:43,490
-But this does give
-you the right idea.
+Tapi ini memang memberi
+Anda ide yang benar.
 
 1313
 00:56:43,490 --> 00:56:48,170
-And for a single signer,
-this is secure, and it works.
+Dan untuk satu penandatangan,
+ini aman, dan berhasil.
 
 1314
 00:56:48,170 --> 00:56:51,050
-But later things, you might want
-to actually add other stuff.
+Tapi setelahnya, Anda mungkin ingin
+menambah hal lainnya
 
 1315
 00:56:51,050 --> 00:56:54,360
-So the idea is you've got
-your message m, right?
+Jadi idenya adalah Anda punya
+pesan Anda m, betul?
 
 1316
 00:56:54,360 --> 00:56:56,570
-Same as in lamport,
-same as in RSA, you've
+Sama seperti di lamport,
+sama seperti di RSA, Anda
 
 1317
 00:56:56,570 --> 00:56:59,620
-got a message m and a
-private key lowercase a.
+punya sebuah pesan m dan
+kunci privat huruf kecil a.
 
 1318
 00:56:59,620 --> 00:57:03,755
-And your public key is
-a times G, like we said.
+Dan kunci publik Anda adalah
+a kali G seperti yang kita katakan.
 
 1319
 00:57:03,755 --> 00:57:05,630
-And then, when you want
-to sign, you actually
+Kemudian, ketika Anda ingin
+menandatangani, Anda sebenarnya
 
 1320
 00:57:05,630 --> 00:57:10,490
-make a one-time use key
-pair for the signature only.
+membuat pasangan kunci sekali pakai
+untuk tanda tangan saja.
 
 1321
 00:57:10,490 --> 00:57:12,530
