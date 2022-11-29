@@ -5360,32 +5360,32 @@ something again and again,
 
 1134
 00:49:05,280 --> 00:49:09,190
-and start revealing
-it incrementally.
+dan mulai mengurutkannya
+secara bertahap.
 
 1135
 00:49:09,190 --> 00:49:10,390
-That might be useful.
+Itu bisa saja berguna.
 
 1136
 00:49:10,390 --> 00:49:12,350
-I actually have stuff
-like that in software.
+Saya sebenarnya memiliki hal
+seperti itu di perangkat lunak saya.
 
 1137
 00:49:12,350 --> 00:49:16,200
-I've written where you
-want to reveal secrets.
+Saya sudah menuliskan dimana kamu
+ingin mengungkapkan rahasia.
 
 1138
 00:49:16,200 --> 00:49:18,520
-But let's say I want
-to reveal secrets,
+Tetapi, katakan saya ingin
+mengungkapkan rahasia,
 
 1139
 00:49:18,520 --> 00:49:21,310
-but I don't want everyone to
-have to store all of them.
+tetapi saya tidak ingin semua orang 
+harus menyimpan semuanya.
 
 1140
 00:49:21,310 --> 00:49:26,080
