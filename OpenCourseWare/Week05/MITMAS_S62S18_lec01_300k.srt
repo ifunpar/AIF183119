@@ -5441,23 +5441,23 @@ Sha-256 hash is, I
 
 1151
 00:49:50,798 --> 00:49:52,840
-don't know, a billionth
-of a second or something.
+tidak tahu, satu miliar
+detik atau berapa pun.
 
 1152
 00:49:52,840 --> 00:49:57,850
-You can generally do,
-like, 100 megabytes
+kamu bisa melakukannya,
+misalkan, 100 megabytes
 
 1153
 00:49:57,850 --> 00:50:01,455
-to a gigabyte of hash
-output on a regular CPU.
+sampai 1 gigabyte hash
+output pada CPU regular.
 
 1154
 00:50:01,455 --> 00:50:02,830
-NEHA NARULA: I
-think she's asking
+NEHA NARULA: saya
+pikir dia bertanya
 
 1155
 00:50:02,830 --> 00:50:05,830
