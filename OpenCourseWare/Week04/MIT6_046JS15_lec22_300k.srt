@@ -5940,122 +5940,121 @@ mencari tahu apakah anda
 
 1264
 01:09:59,290 --> 01:10:06,940
-bisa mendapatkan penjumlahan khusus
-S ini. Knapsack juga merupakan NPC.
+can get this particular sum
+S. Knapsack is NPC as well.
 
 1265
 01:10:11,620 --> 01:10:14,110
-Dan anda memiliki banyak
-bobot yang diberikan kepada anda.
+And you got a bunch of
+weights given to you.
 
 1266
 01:10:14,110 --> 01:10:17,350
-Dan BI akan
-wajib menjadi 0, 1.
+And the BI are going
+to have to be 0, 1.
 
 1267
 01:10:17,350 --> 01:10:20,740
-Jadi anda hanya ingin menemukan
-tugas tertentu
+So you just want to discover
+a particular assignment
 
 1268
 01:10:20,740 --> 01:10:24,770
-dari BI, sehingga anda memilih 
-barang yang sesuai untuk diletakkan
+of the BIs, such that you pick
+the appropriate items to put
 
 1269
 01:10:24,770 --> 01:10:26,350
-ke dalam knapsack, kan?
+into the knapsack, right?
 
 1270
 01:10:26,350 --> 01:10:27,110
-Itulah dia.
+That's it.
 
 1271
 01:10:27,110 --> 01:10:29,830
-Itu masalah
-yang sangat masuk akal
+That's a perfectly
+reasonable problem
 
 1272
 01:10:29,830 --> 01:10:33,760
-Untuk berpotensi digunakan sebagai dasar
-Untuk kekerasan komputasi
+to potentially use as a basis
+for computational hardness
 
 1273
 01:10:33,760 --> 01:10:36,060
-Untuk membangun kriptosistem
+to go build cryptosystems.
 
 1274
 01:10:36,060 --> 01:10:37,530
-Dan orang-orang melakukan itu.
+And people did that.
 
 1275
 01:10:37,530 --> 01:10:38,940
-Orang-orang melakukannya selama bertahun-tahun
+People did that for years.
 
 1276
 01:10:38,940 --> 01:10:40,670
-Mereka mencoba dan mencoba
+They tried and they tried.
 
 1277
 01:10:40,670 --> 01:10:43,770
-Dan mereka menghasilkan kriptosistem,
-Kriptosistem kunci publik,
+And they produced cryptosystems,
+public key cryptosystems,
 
 1278
 01:10:43,770 --> 01:10:48,350
-Berdasarkan knapsack 
-Yang terlihat fantastis
+based on Knapsack
+that look fantastic.
 
 1279
 01:10:48,350 --> 01:10:50,970
-Dan mereka bekerja dari 
-Sudut pandang fungsionalitas
+And they work from a
+functionality standpoint
 
 1280
 01:10:50,970 --> 01:10:53,609
-Dalam arti bahwa anda
-Akan menggunakan knapsack ini
+in the sense that you
+would use this Knapsack--
 
 1281
 01:10:53,609 --> 01:10:55,150
-Dan saya akan memberi anda
-Rasa bagaimana ini
-
+and I'll give you
+a sense of how this
 
 1282
 01:10:55,150 --> 01:11:01,390
-Selesai dalam satu menit–
-Masalah untuk mengenkripsi.
+is done in a minute--
+problem to encrypt.
 
 1283
 01:11:01,390 --> 01:11:03,830
-Dan kemudian anda akan menggunakan yang berbeda
-Jenis masalah knapsack
+And then you'd use a different
+kind of Knapsack problem
 
 1284
 01:11:03,830 --> 01:11:05,260
-Untuk mendeskripsi.
+to decrypt.
 
 1285
 01:11:05,260 --> 01:11:07,240
-Dan saat Anda mengenkripsi
-itu dan mendekripsinya,
+And when you encrypt
+it and decrypt it,
 
 1286
 01:11:07,240 --> 01:11:09,100
-kamu mengerti itu
-pesan yang sama kembali,
+you did get that
+same message back,
 
 1287
 01:11:09,100 --> 01:11:11,720
-kecuali seluruh dunia
-tahu apa pesannya.
+except the whole world
+knew what the message was.
 
 1288
 01:11:11,720 --> 01:11:15,810
-Karena masalah 
-terkait dengan knapsack
+Because the problem
+associated with the Knapsack
 
 1289
 01:11:15,810 --> 01:11:17,760
