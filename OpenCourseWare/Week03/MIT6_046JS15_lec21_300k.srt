@@ -6953,60 +6953,59 @@ and h of x will definitely do.
 
 1483
 01:21:15,730 --> 01:21:19,290
-But you kind of unscrambled
-it by adding this little thing
+tetapi jika anda sedikit berantakan
+dengan menambahkan hal kecil
 
 1484
 01:21:19,290 --> 01:21:22,210
-in here, corresponding to
-the most significant thing,
+disini,terhubung dengan
+hal yang paling penting.
 
 1485
 01:21:22,210 --> 01:21:23,050
-all right?
+ok?
 
 1486
 01:21:23,050 --> 01:21:25,480
-So I'll stop with that.
+jadi saya akan berhenti disana.
 
 1487
 01:21:25,480 --> 01:21:29,760
-Let me just say that the
-operation-- or sorry,
-
+bilang saja 
+operasinya-- atau maaf,
 1488
 01:21:29,760 --> 01:21:33,590
-the work involved in
-creating hash functions that
+pekerjaan yang terlibat dalam
+membuat fungsi hash yang
 
 1489
 01:21:33,590 --> 01:21:37,430
-are poly-time computable
-is research work.
+adalah komputasi yang memiliki kemungkinan banyak waktu
+adalah pekerjaan penelitian
 
 1490
 01:21:37,430 --> 01:21:40,290
-People put up hash functions
-and they get broken,
+orang orang menggunakan fungsi hash
+dan akhirnya pun rusak,
 
 1491
 01:21:40,290 --> 01:21:43,770
-like MD4 was put up in '92 and
-then got broken, SHA-1 and so
+seperti MD4 yang dimasukan di '92 dan
+akhirnya rusak, SHA-1 dan 
 
 1492
 01:21:43,770 --> 01:21:44,700
-on and so forth.
-
+sebagainya.
 1493
 01:21:44,700 --> 01:21:49,580
-And so I just encourage you
-to look up SHA-3 and just take
+Dan Saya juga mendorong anda
+untuk melihat SHA-3 dan juga 
 
 1494
 01:21:49,580 --> 01:21:52,480
-a quick scan and what
-the complexity of SHA-3
+
+melihat secara cepat dan apa
+kompleksitas dari SHA-3
 
 1495
 01:21:52,480 --> 01:21:56,820
