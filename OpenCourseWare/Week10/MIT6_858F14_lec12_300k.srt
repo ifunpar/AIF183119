@@ -5071,7 +5071,7 @@ ingin palsukan.
 
 1064
 00:43:40,910 --> 00:43:42,615
-Dan saya akan menebak 
+Dan saya akan menebak
 urutan angka awal yang itu
 
 1065
@@ -5080,12 +5080,12 @@ akan seperti apa.
 
 1066
 00:43:43,360 --> 00:43:46,230
-AUDIENS: Jadi bisakah anda--
-karena mesin sekarang mengulang
+AUDIENS: Jadi bisakah Anda--
+karena mesin sekarang jarang
 
 1067
 00:43:46,230 --> 00:43:50,630
-secara jarang, dapatkah anda masih
+restart, dapatkah Anda masih
 [TIDAK TERDENGAR] dengan membalik--
 
 1068
@@ -5101,12 +5101,12 @@ fungsi hash yang aman secara kriptografis,
 1070
 00:43:55,610 --> 00:44:01,557
 yang memiliki properti
-yang setengah terbukti bahwa itu
+yang semi-terbukti bahwa dia
 
 1071
 00:44:01,557 --> 00:44:03,140
-adalah sangat sulit. Itu
-secara kriptografis 
+sulit dibobol. Dia
+secara kriptografis
 
 1072
 00:44:03,140 --> 00:44:04,480
@@ -5115,17 +5115,17 @@ sulit untuk dibalik.
 1073
 00:44:04,480 --> 00:44:07,160
 Jadi bahkan jika Anda diberikan
-input dan output yang persis
+input dan output secara literal
 
 1074
 00:44:07,160 --> 00:44:14,059
 dari fungsi hash ini
-kecuali untuk bagian kuncinya,
+kecuali untuk bagian kuncinya ini,
 
 1075
 00:44:14,059 --> 00:44:15,517
-itu akan menjadi sangat
-sulit untuk Anda tebak
+akan sangat
+sulit untuk Anda menebak
 
 1076
 00:44:15,517 --> 00:44:17,490
@@ -5134,12 +5134,12 @@ secara kriptografis,
 
 1077
 00:44:17,490 --> 00:44:19,324
-bahkan dalam pengaturan yang terisolasi
+bahkan dalam pengaturan yang terisolasi.
 
 1078
 00:44:19,324 --> 00:44:21,740
 Jadi semoga ini setidaknya akan
-menjadi sesusah dalam pengaturan
+menjadi sesulit dalam konfigurasi ini
 
 1079
 00:44:21,740 --> 00:44:24,324
@@ -5148,7 +5148,7 @@ juga.
 1080
 00:44:24,324 --> 00:44:26,615
 Kita akan membahas sedikit lebih lanjut
-tentang fungsi ini
+tentang fungsi-fungsi ini
 
 1081
 00:44:26,615 --> 00:44:30,460
@@ -5157,7 +5157,7 @@ Anda menggunakannya dengan benar.
 
 1082
 00:44:30,460 --> 00:44:31,650
-Dapat dimengerti?
+Masuk akal?
 
 1083
 00:44:31,650 --> 00:44:37,140
@@ -5167,7 +5167,7 @@ masalah dan solusi ini?
 1084
 00:44:37,140 --> 00:44:41,252
 Baik, jadi sebenarnya,
-ini adalah mayoritas
+ini sebagian besar
 
 1085
 00:44:41,252 --> 00:44:44,255
@@ -5176,7 +5176,7 @@ serangan nomor urut TCP
 
 1086
 00:44:44,255 --> 00:44:46,790
-itu tidak relevan lagi.
+yang tidak relevan lagi.
 
 1087
 00:44:46,790 --> 00:44:49,440
@@ -5198,7 +5198,7 @@ nomor urut dari seseorang.
 
 1091
 00:44:53,577 --> 00:44:55,910
-Dilain pihak, orang-orang
+Di sisi lain, orang-orang
 terus membuat kesalahan yang sama.
 
 1092
@@ -5228,8 +5228,8 @@ stateless yang di mana Anda sebenarnya
 
 1097
 00:45:13,100 --> 00:45:16,340
-tidak perlu mendirikan koneksi
-apapunn di mana
+tidak perlu membangun koneksi
+apapun di mana
 
 1098
 00:45:16,340 --> 00:45:18,140
@@ -5252,7 +5252,7 @@ apa yang seharunya dan mengirimkan
 
 1102
 00:45:24,950 --> 00:45:28,780
-kembali ke alamat sumber manapun yang
+kembali ke alamat sumber apapun yang
 muncul di dalam paket.
 
 1103
@@ -5268,7 +5268,7 @@ nomor urut
 1105
 00:45:34,350 --> 00:45:36,349
 dan untuk membangun itu,
-oh, iya, Anda sebenarnya
+oh, yah, Anda sebenarnya
 
 1106
 00:45:36,349 --> 00:45:38,140
@@ -5277,49 +5277,49 @@ berbicara ke orang yang tepat.
 1107
 00:45:38,140 --> 00:45:44,330
 Jadi dengan DNS, akibatnya,
-untuk sementara,
+untuk sementara waktu,
 
 1108
 00:45:44,330 --> 00:45:48,840
 cukup mudah untuk memalsukan
-response dari DNS server.
+respon dari server DNS.
 
 1109
 00:45:48,840 --> 00:45:51,464
-Jadi bagaimana sebuah query pada umumnya terlihat
-di dalam DNS?
+Jadi bagaimana sebuah query pada
+umumnya terlihat di dalam DNS?
 
 1110
 00:45:51,464 --> 00:45:53,130
-Sebenarnya, anda mengirim beberapa
-query-- maka seharusnya
+Yah, Anda mengirim beberapa
+pertanyaan-- jadi misalkan
 
 1111
 00:45:53,130 --> 00:45:57,230
-client, mengirim paket dari 
-client ke beberapa DNS server
+sebuah client, mengirim paket dari
+client ke sebuah server DNS
 
 1112
 00:45:57,230 --> 00:46:00,210
 yang mengetahui IP address milik 
-DNS server sebelumnya,
+server DNS dari sebelumnya,
 
 1113
 00:46:00,210 --> 00:46:04,260
-yang mungkin diatur sebelumnya,
-lalu anggaplah berikut adalah query saya.
+mungkin sudah dikonfigurasi sebelumnya,
+berkata, yah, inilah pertanyaan saya.
 
 1114
 00:46:04,260 --> 00:46:07,336
-Mungkin saya ingin menuju mit.edu.
+Mungkin saya mencari mit.edu.
 
 1115
 00:46:07,336 --> 00:46:09,860
-dan singkatnya hanya itu saja.
+Dan pada dasarnya itu saja.
 
 1116
 00:46:09,860 --> 00:46:12,420
-Dan port number 
+Dan nomor port
 milik server tujuan
 
 1117
@@ -5329,7 +5329,7 @@ selalu 53 untuk DNS.
 1118
 00:46:14,600 --> 00:46:17,380
 Dan client biasanya berjalan 
-dengan port number yang sama
+di atas port number yang sama
 
 1119
 00:46:17,380 --> 00:46:20,720
@@ -5337,7 +5337,7 @@ agar penggunaanya mudah atau lainnya.
 
 1120
 00:46:20,720 --> 00:46:23,003
-Jadi anda mengirim packet ini 
+Jadi anda mengirim paket ini
 dari client dengan port 53.
 
 1121
