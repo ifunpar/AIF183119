@@ -8522,7 +8522,7 @@ semacam alasan historik.
 1805
 01:14:56,170 --> 01:14:59,610
 Tapi itu adalah cara untuk melewati
-prosedur kemanan.
+prosedur keamanan.
 
 1806
 01:14:59,610 --> 01:15:02,860
