@@ -5058,287 +5058,287 @@ Saya akan menguranginya.
 
 1061
 00:43:37,487 --> 00:43:38,070
-I'll get this.
+Saya akan mengambil ini.
 
 1062
 00:43:38,070 --> 00:43:40,170
-I'll compute this function F
-for the connection I actually
+Saya akan menghitung fungsi F ini
+untuk koneksi yang sebenarnya saya
 
 1063
 00:43:40,170 --> 00:43:40,910
-want to fake.
+ingin palsukan.
 
 1064
 00:43:40,910 --> 00:43:42,615
-And I'll guess what the initial
-sequence number for that one
+Dan saya akan menebak
+urutan angka awal yang itu
 
 1065
 00:43:42,615 --> 00:43:43,360
-is going to be.
+akan seperti apa.
 
 1066
 00:43:43,360 --> 00:43:46,230
-AUDIENCE: So can you--
-because machines now restart
+AUDIENS: Jadi bisakah Anda--
+karena mesin sekarang jarang
 
 1067
 00:43:46,230 --> 00:43:50,630
-infrequently, can you still
-[INAUDIBLE] by reversing--
+restart, dapatkah Anda masih
+[TIDAK TERDENGAR] dengan membalik--
 
 1068
 00:43:50,630 --> 00:43:53,569
-PROFESSOR: I think
-typically this function F
+PROFESOR: Menurut saya
+pada umumnya fungsi F ini
 
 1069
 00:43:53,569 --> 00:43:55,610
-is something like a
-cryptographically secure hash
+merupakan sesuatu seperti sebuah
+fungsi hash yang aman secara kriptografis,
 
 1070
 00:43:55,610 --> 00:44:01,557
-function, which has a
-semi-proved property that it's
+yang memiliki properti
+yang semi-terbukti bahwa dia
 
 1071
 00:44:01,557 --> 00:44:03,140
-very difficult. It's
-cryptographically
+sulit dibobol. Dia
+secara kriptografis
 
 1072
 00:44:03,140 --> 00:44:04,480
-hard to invert it.
+sulit untuk dibalik.
 
 1073
 00:44:04,480 --> 00:44:07,160
-So even if you were given the
-literal inputs and outputs
+Jadi bahkan jika Anda diberikan
+input dan output secara literal
 
 1074
 00:44:07,160 --> 00:44:14,059
-of this hash function
-except for this key part,
+dari fungsi hash ini
+kecuali untuk bagian kuncinya ini,
 
 1075
 00:44:14,059 --> 00:44:15,517
-it would be very
-hard for you guess
+akan sangat
+sulit untuk Anda menebak
 
 1076
 00:44:15,517 --> 00:44:17,490
-what this key is
-cryptographically,
+apa kunci ini
+secara kriptografis,
 
 1077
 00:44:17,490 --> 00:44:19,324
-even in an isolated setting.
+bahkan dalam pengaturan yang terisolasi.
 
 1078
 00:44:19,324 --> 00:44:21,740
-So hopefully this will be at
-least as hard in this setting
+Jadi semoga ini setidaknya akan
+menjadi sesulit dalam konfigurasi ini
 
 1079
 00:44:21,740 --> 00:44:24,324
-as well.
+juga.
 
 1080
 00:44:24,324 --> 00:44:26,615
-We'll talk a little bit more
-about what these functions
+Kita akan membahas sedikit lebih lanjut
+tentang fungsi-fungsi ini
 
 1081
 00:44:26,615 --> 00:44:30,460
-F are a bit later on and how
-you to use them correctly.
+F akan dibahas nanti dan bagaimana
+Anda menggunakannya dengan benar.
 
 1082
 00:44:30,460 --> 00:44:31,650
-Make sense?
+Masuk akal?
 
 1083
 00:44:31,650 --> 00:44:37,140
-Other questions of this
-problem and solution?
+Ada pertanyaan lain dari
+masalah dan solusi ini?
 
 1084
 00:44:37,140 --> 00:44:41,252
-All right, so in
-fact, this was mostly
+Baik, jadi sebenarnya,
+ini sebagian besar
 
 1085
 00:44:41,252 --> 00:44:44,255
-sort of an example of these
-TCP sequence number attacks
+semacam contoh dari ini
+serangan nomor urut TCP
 
 1086
 00:44:44,255 --> 00:44:46,790
-that aren't as relevant anymore.
+yang tidak relevan lagi.
 
 1087
 00:44:46,790 --> 00:44:49,440
-Because every operating system
-basically implements this plan
+Karena setiap sistem operasi
+pada dasarnya mengimplementasikan rencana ini
 
 1088
 00:44:49,440 --> 00:44:50,080
-these days.
+hari-hari ini.
 
 1089
 00:44:50,080 --> 00:44:52,425
-So it's hard to infer
-what someone's sequence
+Jadi sulit untuk menyimpulkan
+apa yang akan menjadi
 
 1090
 00:44:52,425 --> 00:44:53,577
-number is going to be.
+nomor urut dari seseorang.
 
 1091
 00:44:53,577 --> 00:44:55,910
-On the other hand, people
-keep making the same mistakes.
+Di sisi lain, orang-orang
+terus membuat kesalahan yang sama.
 
 1092
 00:44:55,910 --> 00:44:59,755
-So even after this was
-implemented for TCP,
+Jadi bahkan setelah ini
+diimplementasikan untuk TCP,
 
 1093
 00:44:59,755 --> 00:45:01,490
-there was this other
-protocol called
+ada protokol lain
+yang disebut
 
 1094
 00:45:01,490 --> 00:45:05,830
-DNS that is hugely vulnerable
-to similar attacks.
+DNS yang sangat rentan
+terhadap serangan yang serupa.
 
 1095
 00:45:05,830 --> 00:45:10,060
-And the reason is that DNS
-actually runs over UDP.
+Dan alasannya adalah bahwa DNS
+sebenarnya berjalan diatas UDP.
 
 1096
 00:45:10,060 --> 00:45:13,100
-So UDP is a stateless
-protocol where you actually
+Jadi UDP adalah sebuah protokol
+stateless yang di mana Anda sebenarnya
 
 1097
 00:45:13,100 --> 00:45:16,340
-don't do any connection
-establishment where
+tidak perlu membangun koneksi
+apapun di mana
 
 1098
 00:45:16,340 --> 00:45:18,140
-you exchange sequence numbers.
+Anda menukarkan nomor urut.
 
 1099
 00:45:18,140 --> 00:45:20,040
-In UDP, you simply
-send a request
+Di dalam UDP, Anda hanya
+mengirimkan sebuah permintaan
 
 1100
 00:45:20,040 --> 00:45:22,140
-from your source
-address to the server.
+dari alamat sumber
+Anda ke server.
 
 1101
 00:45:22,140 --> 00:45:24,950
-And the server figures out what
-the reply should be and sends
+Dan server akan mencari tahu balasan
+apa yang seharunya dan mengirimkan
 
 1102
 00:45:24,950 --> 00:45:28,780
-it back to whatever source
-address appeared in the packet.
+kembali ke alamat sumber apapun yang
+muncul di dalam paket.
 
 1103
 00:45:28,780 --> 00:45:32,850
-So it's a single
-round trip, so there's
+Jadi itu adalah sebuah
+perjalanan satu putaran, sehingga tidak
 
 1104
 00:45:32,850 --> 00:45:34,350
-no time to exchange
-sequence numbers
+ada waktu untuk bertukar
+nomor urut
 
 1105
 00:45:34,350 --> 00:45:36,349
-and to establish that,
-oh, yeah, you're actually
+dan untuk membangun itu,
+oh, yah, Anda sebenarnya
 
 1106
 00:45:36,349 --> 00:45:38,140
-talking to the right guy.
+berbicara ke orang yang tepat.
 
 1107
 00:45:38,140 --> 00:45:44,330
-So with DNS, as a
-result, for a while,
+Jadi dengan DNS, akibatnya,
+untuk sementara waktu,
 
 1108
 00:45:44,330 --> 00:45:48,840
-it was quite easy to fake
-responses from a DNS server.
+cukup mudah untuk memalsukan
+respon dari server DNS.
 
 1109
 00:45:48,840 --> 00:45:51,464
-So how would a query look
-like in DNS, typically?
+Jadi bagaimana sebuah query pada
+umumnya terlihat di dalam DNS?
 
 1110
 00:45:51,464 --> 00:45:53,130
-Well, you send some
-queries-- so suppose
+Yah, Anda mengirim beberapa
+pertanyaan-- jadi misalkan
 
 1111
 00:45:53,130 --> 00:45:57,230
-a client sends a packet from
-client to some DNS server
+sebuah client, mengirim paket dari
+client ke sebuah server DNS
 
 1112
 00:45:57,230 --> 00:46:00,210
-that knows the DNS server's
-IP address ahead of time,
+yang mengetahui IP address milik 
+server DNS dari sebelumnya,
 
 1113
 00:46:00,210 --> 00:46:04,260
-maybe preconfigured somewhere,
-say, well, here's my query.
+mungkin sudah dikonfigurasi sebelumnya,
+berkata, yah, inilah pertanyaan saya.
 
 1114
 00:46:04,260 --> 00:46:07,336
-Maybe I'm looking for mit.edu.
+Mungkin saya mencari mit.edu.
 
 1115
 00:46:07,336 --> 00:46:09,860
-And that's basically it.
+Dan pada dasarnya itu saja.
 
 1116
 00:46:09,860 --> 00:46:12,420
-And the server's
-destination port number
+Dan nomor port
+milik server tujuan
 
 1117
 00:46:12,420 --> 00:46:14,600
-is always 53 for DNS.
+selalu 53 untuk DNS.
 
 1118
 00:46:14,600 --> 00:46:17,380
-And the clients used to also
-run on the same port number
+Dan client biasanya berjalan 
+di atas port number yang sama
 
 1119
 00:46:17,380 --> 00:46:20,720
-for ease of use or something.
+agar penggunaanya mudah atau lainnya.
 
 1120
 00:46:20,720 --> 00:46:23,003
-So you send this packet
-from the client on this port
+Jadi anda mengirim paket ini
+dari client dengan port 53.
 
 1121
 00:46:23,003 --> 00:46:24,320
