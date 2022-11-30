@@ -5582,61 +5582,60 @@ Ya.
 
 1189
 01:05:45,630 --> 01:05:47,840
-Di situ ada cincin kriptografi
+Di situ ada cincin kriptografi.
 
 1190
 01:05:47,840 --> 01:05:49,980
 Dan ada banyak
-host dari protokol.
+protokol.
 
 1191
 01:05:49,980 --> 01:05:54,550
-Saya melakukan hal tersebut
-berbasis dari RSA, di mana anda bisa,
+Saya sebenarnya membuat beberapa dari mereka
+berbasis dari RSA, di mana Anda bisa,
 
 1192
 01:05:54,550 --> 01:05:59,170
-mengumpulkan beberapa 
-private keys bersama-sama,
+dengan mengumpulkan beberapa
+kunci privat bersama,
 
 1193
 01:05:59,170 --> 01:06:02,130
-lalu dilakukan pengaturan
-sehingga dapat diverifikasi
+dan secara esensial mengaturnya
+sehingga dia dapat diverifikasi
 
 1194
 01:06:02,130 --> 01:06:06,850
-Bahwa pesan tersebut datang dari
-beberapa orang
+bahwa pesan tersebut datang dari
+sekumpulan orang
 
 1195
 01:06:06,850 --> 01:06:10,680
-namun anda tidak dapat mengetahui
-darimana pesan tersebut berasal
+namun Anda tidak dapat mengetahui
+dari orang mana pesan tersebut berasal.
 
 1196
 01:06:10,680 --> 01:06:12,550
-jadi itulah semua hal
-tentang host.
+Jadi itu hanya
+berbagai hal.
 
 1197
 01:06:12,550 --> 01:06:14,400
-Ada ribuan kertas
+Ada ribuan paper
 yang ditulis.
 
 1198
 01:06:14,400 --> 01:06:15,740
-Di sana adalah bidang yang luar biasa.
+Itu adalah adalah bidang yang luar biasa.
 
 1199
 01:06:15,740 --> 01:06:19,850
-Saya mendorong anda untuk mempelajari hal ini
-apabila minat anda
+Saya mendorong Anda untuk
+melihatnya apabila minat Anda
 
 1200
 01:06:19,850 --> 01:06:21,110
-cenderung seperti ini
-
+mengarah ke sini.
 
 1201
 01:06:21,110 --> 01:06:22,860
@@ -5645,17 +5644,16 @@ Dan itu terus berlanjut
 1202
 01:06:22,860 --> 01:06:25,870
 Ini menjadi lebih penting
-dengan internet.
-
+dengan adanya internet.
 
 1203
 01:06:25,870 --> 01:06:29,970
-Perusahaan RSA, mungkin
-Didirikan pada tahun 70-an
+RSA, perusahaannya, mungkin
+Didirikan pada akhir tahun 70-an.
 
 1204
 01:06:29,970 --> 01:06:31,532
-Dan mereka berusaha untuk sementara waktu.
+Dan mereka sempat kesulitan pada satu masa.
 
 1205
 01:06:31,532 --> 01:06:32,990
@@ -5665,7 +5663,7 @@ mereka digunakan
 1206
 01:06:32,990 --> 01:06:35,720
 untuk Secure Sockets
-Layer di Netscape,
+Layer (SSL) di Netscape,
 
 1207
 01:06:35,720 --> 01:06:37,060
@@ -5674,32 +5672,32 @@ yang merupakan terobosan luar biasa milik mereka.
 1208
 01:06:37,060 --> 01:06:40,510
 Dan, tentu saja, Netscape
-berarti di mana internet telah ada.
+berarti internet telah ada.
 
 1209
 01:06:40,510 --> 01:06:44,140
-Sehingga, internet membuat
+Sehingga sebenanrya, internet membuat
 RSA seperti yang ada sekarang.
 
 1210
 01:06:44,140 --> 01:06:46,740
 Dan juga banyak sekali
-host dari 
+algoritma luar biasa
 
 1211
 01:06:46,740 --> 01:06:48,360
-algoritma yang baik di luar
-sana, di mana beberapa dari itu
+yang ada di luar
+sana, beberapa di antaranya
 
 1212
 01:06:48,360 --> 01:06:51,050
-berbasis dari RSA dan
-beberapanya sudah rusak.
+berbasis RSA dan beberapa
+di antaranya sudah bisa dibobol.
 
 1213
 01:06:51,050 --> 01:06:53,750
-Dan mari kita berbicara untuk
-beberapa menit terakhir.
+Dan mari kita membahas untuk
+beberapa menit terakhir
 
 1214
 01:06:53,750 --> 01:07:01,020
@@ -5709,12 +5707,12 @@ yang terjadi di dalam kriptografi.
 1215
 01:07:01,020 --> 01:07:04,440
 Dan tepatnya adalah
-yang Saya ingin fokuskan
+yang saya ingin fokuskan
 
 1216
 01:07:04,440 --> 01:07:07,640
 untuk sisa waktu yang kita
-miliki adalah kesusahan.
+miliki adalah tingkat kesulitan.
 
 1217
 01:07:07,640 --> 01:07:11,010
@@ -5723,13 +5721,13 @@ untuk membicarakan masalah yang sulit.
 
 1218
 01:07:11,010 --> 01:07:17,600
-Dan kita membicarakan tentang permasalahan
-NP-complete yang susah.
+Dan kita bicara tentang masalah
+NP-complete yang sulit.
 
 1219
 01:07:17,600 --> 01:07:20,760
 Namun mereka itu sulit
-dalam kasus terburuk.
+dalam kasus terburuknya.
 
 1220
 01:07:20,760 --> 01:07:30,250
@@ -5748,8 +5746,8 @@ NP-completeness dan kripto.
 
 1223
 01:07:44,030 --> 01:07:46,660
-Karena kita membuat
-asumsi tentang kesulitan.
+Karena kita telah membuat
+asumsi-asumsi tentang tingkat kesulitan.
 
 1224
 01:07:46,660 --> 01:07:53,000
@@ -5758,7 +5756,7 @@ adalah komposit N itu jelas-jelas
 
 1225
 01:07:53,000 --> 01:08:02,940
-berada di NP, namun tidak dapat diketahui
+berada di dalam NP, namun tidak dapat diketahui
 Apakah NP-complete atau bukan.
 
 1226
@@ -5772,13 +5770,13 @@ untuk enkripsi kunci publik
 
 1228
 01:08:08,290 --> 01:08:10,450
-tergantung pada
+bergantung pada
 asumsi komputasional
 
 1229
 01:08:10,450 --> 01:08:12,660
-di mana masalah tersebut berasosiasi
-dengan asumsi
+di mana masalah yang berasosiasi
+dengan asumsi tersebut
 
 1230
 01:08:12,660 --> 01:08:14,810
@@ -5802,8 +5800,8 @@ Atau mengapa ini bekerja?
 
 1235
 01:08:21,210 --> 01:08:25,854
-Sekarang, jikalau anda mengambil masalah lain,
-seperti, apakah grafik memiliki 3 warna?
+Sekarang, jikalau Anda mengambil masalah lain,
+seperti, apakah graf dapat diberi 3 warna?
 
 1236
 01:08:29,840 --> 01:08:31,790
@@ -5811,51 +5809,50 @@ Jadi apakah artinya itu?
 
 1237
 01:08:31,790 --> 01:08:33,810
-Jadi, anda memiliki 3 warna.
+Jadi, Anda memiliki 3 warna.
 
 1238
 01:08:33,810 --> 01:08:41,580
-Dan anda tidak diperbolehkan
+Dan Anda tidak diperbolehkan
 Untuk menggunakan warna yang sama
 
 1239
 01:08:41,580 --> 01:08:45,189
-Pada dua ujung tepi.
+Pada dua ujung simpul.
 
 1240
 01:08:45,189 --> 01:08:49,580
-Sehingga jika anda menaruh warna merah
-di sini, anda dapat menyimpan warna merah di sini.
+Sehingga jika Anda menaruh merah
+di sini, Anda dapat menaruh merah di sini,
 
 1241
 01:08:49,580 --> 01:08:51,800
-tapi kamu tidak bisa menempatkan
-warna merah di sini dan di sana.
-
+tapi Anda tidak bisa menempatkan
+merah di sini dan di sana.
 
 1242
 01:08:51,800 --> 01:08:53,890
-Sehingga grafik tersebut
-Memiliki 3 warna
+Sehingga graf tersebut
+"3-colorable" (bisa diberi 3 warna)
 
 1243
 01:08:53,890 --> 01:08:59,410
-Namun jika anda memiliki penghubung, maka
-Grafik ini tidak akan menjadi 3 warna.
+Namun jika Anda memiliki sebuah "clique", maka
+grafik ini tidak 3-colorable.
 
 1244
 01:08:59,410 --> 01:09:01,439
 Karena anda mempunyai
-seluruh edges ini
+seluruh simpul ini.
 
 1245
 01:09:01,439 --> 01:09:02,899
-Anda mempunyai tiga edges yang keluar
+Anda mempunyai tiga simpul yang keluar.
 
 1246
 01:09:02,899 --> 01:09:05,700
-Dan begitu jelas, itu 
-derajat dari sebuah vertex
+Sehingga jelas,
+derajat dari sebuah titik
 
 1247
 01:09:05,700 --> 01:09:07,420
@@ -5864,18 +5861,18 @@ anda apa yang Anda miliki.
 
 1248
 01:09:07,420 --> 01:09:09,270
-Namun jikalau anda memiliki
-4-klik di sana,
+Jadi jika Anda memiliki
+4-clique di sana,
 
 1249
 01:09:09,270 --> 01:09:11,020
-Segera itu 
-tidak 3 warna
+segera setelahnya dia
+tidak 3-colorable
 
 1250
 01:09:11,020 --> 01:09:14,890
 Namun untuk memeriksa apakah
-Suatu grafik 3 warna adalah NPC
+uatu graf 3-colorable adalah NPC.
 
 1251
 01:09:20,330 --> 01:09:25,800
