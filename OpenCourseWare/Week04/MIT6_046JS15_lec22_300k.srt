@@ -5582,297 +5582,297 @@ Ya.
 
 1189
 01:05:45,630 --> 01:05:47,840
-There's ring cryptography.
+Di situ ada cincin kriptografi.
 
 1190
 01:05:47,840 --> 01:05:49,980
-And there's a whole
-host of protocols.
+Dan ada banyak
+protokol.
 
 1191
 01:05:49,980 --> 01:05:54,550
-I actually did some of them
-based on RSA, where you can,
+Saya sebenarnya membuat beberapa dari mereka
+berbasis dari RSA, di mana Anda bisa,
 
 1192
 01:05:54,550 --> 01:05:59,170
-by collecting a bunch of
-private keys together,
+dengan mengumpulkan beberapa
+kunci privat bersama,
 
 1193
 01:05:59,170 --> 01:06:02,130
-essentially set it up
-so it can be verified
+dan secara esensial mengaturnya
+sehingga dia dapat diverifikasi
 
 1194
 01:06:02,130 --> 01:06:06,850
-that the message came from
-a collection of people,
+bahwa pesan tersebut datang dari
+sekumpulan orang
 
 1195
 01:06:06,850 --> 01:06:10,680
-but you can't tell which
-person the message came from.
+namun Anda tidak dapat mengetahui
+dari orang mana pesan tersebut berasal.
 
 1196
 01:06:10,680 --> 01:06:12,550
-So there's just a
-whole host of things.
+Jadi itu hanya
+berbagai hal.
 
 1197
 01:06:12,550 --> 01:06:14,400
-There's thousands
-of papers written.
+Ada ribuan paper
+yang ditulis.
 
 1198
 01:06:14,400 --> 01:06:15,740
-There's a wonderful field.
+Itu adalah adalah bidang yang luar biasa.
 
 1199
 01:06:15,740 --> 01:06:19,850
-I encourage you to look into
-it if your interests are
+Saya mendorong Anda untuk
+melihatnya apabila minat Anda
 
 1200
 01:06:19,850 --> 01:06:21,110
-inclined this way.
+mengarah ke sini.
 
 1201
 01:06:21,110 --> 01:06:22,860
-And it's just gone on and on.
+Dan itu terus berlanjut
 
 1202
 01:06:22,860 --> 01:06:25,870
-It's become more important
-with the internet.
+Ini menjadi lebih penting
+dengan adanya internet.
 
 1203
 01:06:25,870 --> 01:06:29,970
-RSA, the company, was probably
-founded in the late '70s.
+RSA, perusahaannya, mungkin
+Didirikan pada akhir tahun 70-an.
 
 1204
 01:06:29,970 --> 01:06:31,532
-And they struggled for a while.
+Dan mereka sempat kesulitan pada satu masa.
 
 1205
 01:06:31,532 --> 01:06:32,990
-And then eventually,
-they were used
+Dan pada akhirnya,
+mereka digunakan
 
 1206
 01:06:32,990 --> 01:06:35,720
-for Secure Sockets
-Layer in Netscape,
+untuk Secure Sockets
+Layer (SSL) di Netscape,
 
 1207
 01:06:35,720 --> 01:06:37,060
-which was their big break.
+yang merupakan terobosan luar biasa milik mereka.
 
 1208
 01:06:37,060 --> 01:06:40,510
-And then, of course, Netscape
-meant the internet was around.
+Dan, tentu saja, Netscape
+berarti internet telah ada.
 
 1209
 01:06:40,510 --> 01:06:44,140
-And so really, the internet
-made RSA what it is today.
+Sehingga sebenanrya, internet membuat
+RSA seperti yang ada sekarang.
 
 1210
 01:06:44,140 --> 01:06:46,740
-And so just a whole
-host of wonderful
+Dan juga banyak sekali
+algoritma luar biasa
 
 1211
 01:06:46,740 --> 01:06:48,360
-algorithms out
-there, some of which
+yang ada di luar
+sana, beberapa di antaranya
 
 1212
 01:06:48,360 --> 01:06:51,050
-are based in RSA and
-some that are broken.
+berbasis RSA dan beberapa
+di antaranya sudah bisa dibobol.
 
 1213
 01:06:51,050 --> 01:06:53,750
-And so let's talk for
-the last few minutes
+Dan mari kita membahas untuk
+beberapa menit terakhir
 
 1214
 01:06:53,750 --> 01:07:01,020
-about all of the fits and starts
-that occurred in cryptography.
+tentang semua kecocokan dan permulaan
+yang terjadi di dalam kriptografi.
 
 1215
 01:07:01,020 --> 01:07:04,440
-And precisely what
-I'd like to focus on
+Dan tepatnya adalah
+yang saya ingin fokuskan
 
 1216
 01:07:04,440 --> 01:07:07,640
-for the time we have
-left is hardness.
+untuk sisa waktu yang kita
+miliki adalah tingkat kesulitan.
 
 1217
 01:07:07,640 --> 01:07:11,010
-So we spent a lot of time
-talking about hard problems.
+Jadi kita menghabiskan banyak waktu
+untuk membicarakan masalah yang sulit.
 
 1218
 01:07:11,010 --> 01:07:17,600
-And we talked about NP-complete
-problems that are hard.
+Dan kita bicara tentang masalah
+NP-complete yang sulit.
 
 1219
 01:07:17,600 --> 01:07:20,760
-But they're hard
-in the worst case.
+Namun mereka itu sulit
+dalam kasus terburuknya.
 
 1220
 01:07:20,760 --> 01:07:30,250
-So you have a situation where
-you have NP-complete problems.
+Jadi anda memiliki situasi di mana
+Anda memiliki permasalahan NP-complete.
 
 1221
 01:07:39,396 --> 01:07:40,770
-And I'd like to
-talk a little bit
+Dan saya ingin
+berbicara sedikit
 
 1222
 01:07:40,770 --> 01:07:44,030
-about the relationship between
-NP-completeness and crypto.
+tentang hubungan antara
+NP-completeness dan kripto.
 
 1223
 01:07:44,030 --> 01:07:46,660
-Because we've made these
-assumptions about hardness.
+Karena kita telah membuat
+asumsi-asumsi tentang tingkat kesulitan.
 
 1224
 01:07:46,660 --> 01:07:53,000
-Now, what's interesting here
-is that N composite is clearly
+Sekarang, apa yang menarik di sini
+adalah komposit N itu jelas-jelas
 
 1225
 01:07:53,000 --> 01:08:02,940
-in NP, but unknown
-if NP-complete.
+berada di dalam NP, namun tidak dapat diketahui
+Apakah NP-complete atau bukan.
 
 1226
 01:08:02,940 --> 01:08:04,380
-So this is very interesting.
+Jadi ini sangat menarik.
 
 1227
 01:08:04,380 --> 01:08:08,290
-The tried and trusted algorithm
-for public key encryption
+Algoritma yang telah dicoba dan dipercaya
+untuk enkripsi kunci publik
 
 1228
 01:08:08,290 --> 01:08:10,450
-relies on a
-computational assumption
+bergantung pada
+asumsi komputasional
 
 1229
 01:08:10,450 --> 01:08:12,660
-where the problem associated
-with that assumption
+di mana masalah yang berasosiasi
+dengan asumsi tersebut
 
 1230
 01:08:12,660 --> 01:08:14,810
-is not even known to be NPC.
+bahkan tidak dikenal sebagai NPC.
 
 1231
 01:08:14,810 --> 01:08:15,930
-All right.
+Baiklah.
 
 1232
 01:08:15,930 --> 01:08:17,920
-So that's kind of wild.
+Jadi itu agak liar.
 
 1233
 01:08:17,920 --> 01:08:19,430
-So how does this work?
+Jadi bagaimana ini bekerja?
 
 1234
 01:08:19,430 --> 01:08:21,210
-Or why does this work?
+Atau mengapa ini bekerja?
 
 1235
 01:08:21,210 --> 01:08:25,854
-Now, if you take other problems,
-like, is a graph 3-colorable?
+Sekarang, jikalau Anda mengambil masalah lain,
+seperti, apakah graf dapat diberi 3 warna?
 
 1236
 01:08:29,840 --> 01:08:31,790
-And so what does that mean?
+Jadi apakah artinya itu?
 
 1237
 01:08:31,790 --> 01:08:33,810
-Well, you have three colors.
+Jadi, Anda memiliki 3 warna.
 
 1238
 01:08:33,810 --> 01:08:41,580
-And you're not allowed
-to reuse the same color
+Dan Anda tidak diperbolehkan
+Untuk menggunakan warna yang sama
 
 1239
 01:08:41,580 --> 01:08:45,189
-on two ends of an edge.
+Pada dua ujung simpul.
 
 1240
 01:08:45,189 --> 01:08:49,580
-So if you put red over
-here, you can put red here,
+Sehingga jika Anda menaruh merah
+di sini, Anda dapat menaruh merah di sini,
 
 1241
 01:08:49,580 --> 01:08:51,800
-but you can't put
-red here and there.
+tapi Anda tidak bisa menempatkan
+merah di sini dan di sana.
 
 1242
 01:08:51,800 --> 01:08:53,890
-And so that graph
-is 3-colorable.
+Sehingga graf tersebut
+"3-colorable" (bisa diberi 3 warna)
 
 1243
 01:08:53,890 --> 01:08:59,410
-But if you had a click, then
-this would not be 3-colorable.
+Namun jika Anda memiliki sebuah "clique", maka
+grafik ini tidak 3-colorable.
 
 1244
 01:08:59,410 --> 01:09:01,439
-Because you have
-all these edges.
+Karena anda mempunyai
+seluruh simpul ini.
 
 1245
 01:09:01,439 --> 01:09:02,899
-You have three edges coming out.
+Anda mempunyai tiga simpul yang keluar.
 
 1246
 01:09:02,899 --> 01:09:05,700
-And so clearly, the
-degree from a vertex
+Sehingga jelas,
+derajat dari sebuah titik
 
 1247
 01:09:05,700 --> 01:09:07,420
-is going to tell
-you what you have.
+akan memberitahu 
+anda apa yang Anda miliki.
 
 1248
 01:09:07,420 --> 01:09:09,270
-So if you have a
-4-click over there,
+Jadi jika Anda memiliki
+4-clique di sana,
 
 1249
 01:09:09,270 --> 01:09:11,020
-immediately it's
-not 3-colorable.
+segera setelahnya dia
+tidak 3-colorable
 
 1250
 01:09:11,020 --> 01:09:14,890
-But checking whether a
-graphic is 3-colorable is NPC.
+Namun untuk memeriksa apakah
+uatu graf 3-colorable adalah NPC.
 
 1251
 01:09:20,330 --> 01:09:25,800
