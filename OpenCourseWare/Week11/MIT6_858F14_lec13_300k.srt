@@ -3799,7 +3799,6 @@ hal ini di jalurnya juga.
 
 800
 00:34:12,429 --> 00:34:16,780
-<<<<<<< HEAD
 Jadi saya berpikir ini agak sedikit
 dari ukuran sementara-- meningkat
 
@@ -3809,43 +3808,21 @@ sedikit dari keamanan.
 
 802
 00:34:17,420 --> 00:34:21,002
-Tapi tentu saja jika anda
-=======
-Jadi saya pikir ini adalah semacam
-tindakan sementara-- meningkatkan
-
-801
-00:34:16,780 --> 00:34:17,420
-keamanan sedikit.
-
-802
-00:34:17,420 --> 00:34:21,002
 Tapi pastinya jika Anda
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 mengamati jaringan orang lain,
 
 803
 00:34:21,002 --> 00:34:23,460
-<<<<<<< HEAD
 maka anda dapat mengamati
 paket datang kembali terlepas
 
 804
 00:34:23,460 --> 00:34:25,546
-dari apa yang terjadi pada langkah ini.
-=======
-maka Anda akan melihat paket
-ini kembali terlepas
-
-804
-00:34:23,460 --> 00:34:25,546
 dari apa yang terjadi di langkah ini.
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 805
 00:34:25,546 --> 00:34:27,004
 Jadi kembali lagi,
-<<<<<<< HEAD
 anda akan melihat orang tersebut
 
 806
@@ -3855,39 +3832,18 @@ mencoba untuk menyerangnya.
 
 807
 00:34:28,817 --> 00:34:30,650
-Mungkin ada beberapa
-=======
-Anda akan melihat orang ini
-
-806
-00:34:27,004 --> 00:34:28,817
-dan kemudian Anda bisa
-mencoba menyerangnya.
-
-807
-00:34:28,817 --> 00:34:30,650
 Ada kemungkinan beberapa
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 skema yang lebih rumit
 
 808
 00:34:30,650 --> 00:34:32,500
-<<<<<<< HEAD
-anda dapat mendesain
-tapi aku tidak berpikir
-=======
 yang Anda bisa rancang
 tapi saya tidak berpikir
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 809
 00:34:32,500 --> 00:34:34,469
 Kerberos 5 bahkan
-<<<<<<< HEAD
-menerapkan apa-apa lagi
-=======
 menerapkan sesuatu yang lebih
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
 
 810
 00:34:34,469 --> 00:34:37,590
@@ -3941,11 +3897,7 @@ PROFESOR: Itu benar, yah.
 
 821
 00:34:55,300 --> 00:34:56,841
-<<<<<<< HEAD
-jadi jika kamu ingin benar-benar
-=======
-jadi jika Anda ingin benar-benar
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
+Jadi jika Anda ingin 
 melakukan ini dengan benar,
 
 822
@@ -4053,13 +4005,8 @@ Anda untuk mengirim satu hal
 
 843
 00:35:48,365 --> 00:35:50,840
-<<<<<<< HEAD
-sebagai otentikasi Anda
-[TIDAK TERDENGAR].
-=======
 sebagai autentikasi Anda
-[INAUDIBLE].
->>>>>>> d7e706577c5aa3aaba032d64dbc886b968b89697
+TIDAK TERDENGAR].
 
 844
 00:35:50,840 --> 00:35:52,820
