@@ -8450,109 +8450,109 @@ bypass this if you
 
 1790
 01:14:22,410 --> 01:14:24,985
-had this non-executable stack?
+memiliki stack yang tidak dapat dieksekusi ini?
 
 1791
 01:14:24,985 --> 01:14:26,860
-You actually saw this
-example earlier, right,
+Anda sebenarnya melihat contoh
+ini sebelumnya, betul,
 
 1792
 01:14:26,860 --> 01:14:30,050
-when I actually jumped
-to the middle of main.
+Saat saya sesungguhnya melompat
+ke tengah fungsi main.
 
 1793
 01:14:30,050 --> 01:14:34,180
-So that was a way of sort
-of exploiting this buffer
+Jadi itu adalah sebuah cara dari
+eksploitasi buffer ini
 
 1794
 01:14:34,180 --> 01:14:36,820
-overflow without having to
-inject new code of my own.
+overflow tanpa harus
+injeksi kode baru dari saya.
 
 1795
 01:14:36,820 --> 01:14:39,514
-So even if the stack
-was non-executable,
+Jadi walaupun jika stack
+tidak dapat dieksekusi,
 
 1796
 01:14:39,514 --> 01:14:41,680
-I would still be able to
-jump in the middle of main.
+Saya akan tetap mampu
+melompat ke tengah fungsi main.
 
 1797
 01:14:41,680 --> 01:14:43,554
-In this particular case,
-it's kind of boring.
+Di kasus tertentu ini,
+hal itu agak membosankan.
 
 1798
 01:14:43,554 --> 01:14:45,020
-It just prints x and crashes.
+Dia hanya mencetak x dan crash.
 
 1799
 01:14:45,020 --> 01:14:46,550
-But in other
-situations, you might
+Tapi di situasi
+lain, anda akan
 
 1800
 01:14:46,550 --> 01:14:48,090
-have other pieces of
-code in your program
+mempunyai potongan kode
+lain dalam program anda
 
 1801
 01:14:48,090 --> 01:14:50,089
-that are doing interesting
-stuff that you really
+yang melakukan hal 
+menarik yang anda sangat
 
 1802
 01:14:50,089 --> 01:14:51,320
-do want to execute.
+ingin untuk eksekusi.
 
 1803
 01:14:51,320 --> 01:14:54,520
-And that's sort of called return
-to libc attacks for, again,
+Dan itu semacam pemanggilan fungsi pengembalian
+ke libc yang diserang, dan lagi,
 
 1804
 01:14:54,520 --> 01:14:56,170
-somewhat historical reasons.
+semacam alasan historik.
 
 1805
 01:14:56,170 --> 01:14:59,610
-But it is a way to bypass
-the security measures.
+Tapi itu adalah cara untuk melewati
+prosedur kemanan.
 
 1806
 01:14:59,610 --> 01:15:02,860
-So in the context
-of buffer overflows,
+Jadi dalam konteks
+dari buffer yang overflow,
 
 1807
 01:15:02,860 --> 01:15:06,699
-there's not really
-a clear cut solution
+tidak ada benar-benar
+solusi pintas yang jelas
 
 1808
 01:15:06,699 --> 01:15:08,990
-that provides perfect protection
-against these mistakes
+yang menyediakan proteksi sempurna
+terhadap kesalahan ini
 
 1809
 01:15:08,990 --> 01:15:10,600
-because, at the end of the
-day, the programmer did
+karena, pada akhirnya,
+programmer telah
 
 1810
 01:15:10,600 --> 01:15:12,310
-make some mistake in
-writing this source code.
+membuat beberapa kesalahan dalam
+menulis source code ini.
 
 1811
 01:15:12,310 --> 01:15:14,540
-And the best way to fix it
-is probably just to change
+Dan cara terbaik untuk memperbaikinya
+adalah mungkin dengan hanya mengganti
 
 1812
 01:15:14,540 --> 01:15:17,100
