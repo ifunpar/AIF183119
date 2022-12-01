@@ -8562,7 +8562,7 @@ Anda tidak memanggil getS() terlalu
 1813
 01:15:17,100 --> 01:15:18,570
 sering, seperti yang
-compiler coba peringatkan pada Anda
+compiler coba peringatkan pada Anda.
 
 1814
 01:15:18,570 --> 01:15:20,000
@@ -8586,7 +8586,7 @@ pada praktiknya,
 1818
 01:15:26,570 --> 01:15:28,470
 untuk mengubah semua
-software di luar sana
+software di luar sana,
 
 1819
 01:15:28,470 --> 01:15:30,080
