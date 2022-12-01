@@ -6734,8 +6734,8 @@ x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
-seperti ini, yaitu
-gabungan h
+seperti ini, yang merupakan
+gabungan dari h
 
 1438
 01:18:54,660 --> 01:19:00,210
@@ -6744,12 +6744,12 @@ paling signifikan x, di mana
 
 1439
 01:19:00,210 --> 01:19:01,670
-hal tersebut adalah tawaran saya kan?
+itu adalah tawaran saya, betul?
 
 1440
 01:19:01,670 --> 01:19:03,780
-saya hanya memberikan 
-itu kan?
+Saya hanya memberikan
+itu, betul?
 
 1441
 01:19:03,780 --> 01:19:08,190
@@ -6764,12 +6764,11 @@ cukup luas untuk menyelesaikan
 1443
 01:19:11,660 --> 01:19:14,230
 aplikasi khusus ini
-sejauh itu
-
+dalam hal
 
 1444
 01:19:14,230 --> 01:19:19,140
-bahwa ada kasus yang dibuat-buat
+ada kasus yang dibuat-buat
 di mana properti ini tidak
 
 1445
@@ -6782,8 +6781,8 @@ Dan alasannya cukup sederhana.
 
 1447
 01:19:22,180 --> 01:19:30,000
-h prima x dapat dibilang
-NM, CR, dan OW.ini tidak akan dapat dikembalikan
+h aksen x dapat dibilang
+NM, CR, dan OW.
 
 1448
 01:19:30,000 --> 01:19:32,660
@@ -6792,12 +6791,12 @@ setiap argumen tersebut.
 
 1449
 01:19:32,660 --> 01:19:36,630
-Tapi kamu bisa memikirkan
-tentang itu, bukan?
+Tapi Anda bisa memikirkan
+tentang hal itu, benar?
 
 1450
 01:19:36,630 --> 01:19:40,030
-Jika aku hanya memberi kamu satu
+Jika saya hanya memberi Anda satu
 bit, maka ada 159 lainnya,
 
 1451
@@ -6807,15 +6806,15 @@ ratus lainnya, apapun itu
 
 1452
 01:19:42,140 --> 01:19:43,860
-itu adalah yang aku punya di domain.
+yang saya punya di dalam domain.
 
 1453
 01:19:43,860 --> 01:19:46,230
-itu tidak akan bisa terbalik.
+Dia tidak akan bisa dibalik.
 
 1454
 01:19:46,230 --> 01:19:49,420
-h prime x tidak akan bisa
+h aksen x tidak akan bisa
 dibalik jika h dari x
 
 1455
@@ -6824,17 +6823,17 @@ tidak dapat dibalik.
 
 1456
 01:19:51,080 --> 01:19:57,880
-h prime x tidak akan 
-pecah jika terjadi tabrakan
+h aksen x tidak akan 
+bisa dipecahkan dalam hal ketahanan terhadap
 
 1457
 01:19:57,880 --> 01:20:00,950
-resistensi jika h dari 
-x tidak mudah pecah
+tabrakan jika h dari
+x tidak bisa dipecahkan,
 
 1458
 01:20:00,950 --> 01:20:02,450
-dan seterusnya secara terus menerus
+dan seterusnya.
 
 1459
 01:20:02,450 --> 01:20:04,740
@@ -6844,65 +6843,65 @@ hash seperti itu,
 1460
 01:20:04,740 --> 01:20:09,340
 apakah itu fungsi hash yang baik
-untuk komitmen aplikasi saya ?
+untuk aplikasi komitmen saya?
 
 1461
 01:20:09,340 --> 01:20:10,090
-tidak, jelas tidak
+Tidak, jelas tidak.
 
 1462
 01:20:10,090 --> 01:20:12,298
 karena jika saya mempublikasikan fungsi
-hash ini-- ingatlah
+hash ini-- ingatlah,
 
 1463
 01:20:12,298 --> 01:20:13,890
-semuanya bersifat public
-disini dengan hormat
+semuanya bersifat publik
+di sini dalam kaitannya
 
 1464
 01:20:13,890 --> 01:20:18,030
-ke h dan h prime-- anda
-memberikan yang paling banyak
+dengan h dan h aksen-- Anda
+membuang hal yang paling
 
 1465
 01:20:18,030 --> 01:20:21,360
-signifikan itu
-sesuai dengan tawaran anda
+signifikan yang
+terkait dengan tawaran Anda
 
 1466
 01:20:21,360 --> 01:20:23,350
-khusus ini
-fungsi hash, kan?
+di dalam fungsi hash
+ini, kan?
 
 1467
 01:20:23,350 --> 01:20:33,170
-Jadi anda benar-benar membutuhkan setidaknya sedikit
-lebih dari ini untuk kerahasiaan
+Jadi Anda benar-benar membutuhkan setidaknya sedikit
+lebih dari ini untuk kerahasiaan,
 
 1468
 01:20:33,170 --> 01:20:34,200
-untuk kerahasiaan yang sebenarnya.
+untuk kerahasiaan yang sesungguhnya.
 
 1469
 01:20:37,510 --> 01:20:39,890
-tapi dalam konteks
+Tapi dalam konteks
 dari contoh ini,
 
 1470
 01:20:39,890 --> 01:20:41,770
-maksudku, itu umum
-bahwa anda merasakan tidak akan
+Maksud saya, wajar
+jika Anda tidak akan
 
 1471
 01:20:41,770 --> 01:20:43,550
-gunakan fungsi hash
-seperti itu, bukan?
+menggunakan fungsi hash
+seperti itu, betul?
 
 1472
 01:20:43,550 --> 01:20:46,950
-Jadi bukan itu yang ada
-apa pun yang mendalam di sini.
+Jadi bukannya tidak ada
+hal yang mendalam di sini.
 
 1473
 01:20:46,950 --> 01:20:48,540
@@ -6912,16 +6911,16 @@ ingin memastikan
 1474
 01:20:48,540 --> 01:20:51,480
 bahwa Anda memahami
-nuansa properti
+nuansa properti-properti
 
 1475
 01:20:51,480 --> 01:20:52,580
-yang kami butuhkan.
+yang kita butuhkan.
 
 1476
 01:20:52,580 --> 01:20:55,560
-Kami memiliki semua
-persyaratan yang sesuai
+Kita memiliki semua
+kebutuhan yang sesuai
 
 1477
 01:20:55,560 --> 01:20:58,900
@@ -6930,7 +6929,7 @@ dari NM dan CR dan OW.
 
 1478
 01:20:58,900 --> 01:21:01,150
-Dan Anda perlu sedikit
+Dan Anda perlu sedikit hal
 lebih untuk contoh ini, di mana
 
 1479
@@ -6941,12 +6940,12 @@ mungkin secara informal,
 1480
 01:21:04,300 --> 01:21:10,870
 seperti bagian dari lelang Anda
-diacak di hash terakhir
+diacak di keluaran hash
 
 1481
 01:21:10,870 --> 01:21:14,010
-output, yang paling hash
-fungsi harus tetap dilakukan,
+nya, di mana sebagian besar
+fungsi hash harus melakukannya,
 
 1482
 01:21:14,010 --> 01:21:15,730
@@ -6954,13 +6953,13 @@ dan h dari x pasti akan melakukannya.
 
 1483
 01:21:15,730 --> 01:21:19,290
-tetapi jika anda sedikit berantakan
-dengan menambahkan hal kecil
+Tetapi jika anda sedikit membongkarnya
+dengan menambahkan hal kecil ini
 
 1484
 01:21:19,290 --> 01:21:22,210
-disini,terhubung dengan
-hal yang paling penting.
+di sini, berkaitan dengan
+hal yang paling penting ini,
 
 1485
 01:21:22,210 --> 01:21:23,050
@@ -6968,12 +6967,13 @@ ok?
 
 1486
 01:21:23,050 --> 01:21:25,480
-jadi saya akan berhenti disana.
+Jadi saya akan berhenti di sana.
 
 1487
 01:21:25,480 --> 01:21:29,760
-bilang saja 
+Saya katakan saja bahwa
 operasinya-- atau maaf,
+
 1488
 01:21:29,760 --> 01:21:33,590
 pekerjaan yang terlibat dalam
@@ -6981,18 +6981,18 @@ membuat fungsi hash yang
 
 1489
 01:21:33,590 --> 01:21:37,430
-adalah komputasi yang memiliki kemungkinan banyak waktu
-adalah pekerjaan penelitian
+dapat dihitung secara polinomial
+adalah masih dalam penelitian.
 
 1490
 01:21:37,430 --> 01:21:40,290
-orang orang menggunakan fungsi hash
-dan akhirnya pun rusak,
+Orang orang mencetuskan fungsi hash
+dan akhirnya dapat dipecahkan,
 
 1491
 01:21:40,290 --> 01:21:43,770
-seperti MD4 yang dimasukan di '92 dan
-akhirnya rusak, SHA-1 dan 
+seperti MD4 yang dicetuskan di '92 dan
+akhirnya dapat dipecahkan, SHA-1 dan
 
 1492
 01:21:43,770 --> 01:21:44,700
@@ -7000,12 +7000,12 @@ sebagainya.
 
 1493
 01:21:44,700 --> 01:21:49,580
-Dan Saya juga mendorong anda
+Dan saya juga mendorong Anda
 untuk melihat SHA-3 dan juga 
 
 1494
 01:21:49,580 --> 01:21:52,480
-melihat secara cepat dan apa
+melihat sekilas dan apa
 kompleksitas dari SHA-3
 
 1495
