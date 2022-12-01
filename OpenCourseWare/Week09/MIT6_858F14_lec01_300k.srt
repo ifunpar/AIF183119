@@ -8556,118 +8556,119 @@ adalah mungkin dengan hanya mengganti
 
 1812
 01:15:14,540 --> 01:15:17,100
-the source code and make sure
-you don't call getS() very
+source code dan pastikan
+Anda tidak memanggil getS() terlalu
 
 1813
 01:15:17,100 --> 01:15:18,570
-much, like the
-compiler warned you.
+sering, seperti yang
+compiler coba peringatkan pada Anda
 
 1814
 01:15:18,570 --> 01:15:20,000
-And there's more subtle
-things that the compiler
+Dan ada hal-hal yang
+lebih tidak mudah disadari yang compiler
 
 1815
 01:15:20,000 --> 01:15:20,958
-doesn't warn you about.
+tidak peringatkan Anda.
 
 1816
 01:15:20,958 --> 01:15:23,490
-And you still have to
-avoid making those calls.
+Dan Anda harus tetap
+menghindari membuat pemanggilan-pemanggilan tersebut.
 
 1817
 01:15:23,490 --> 01:15:26,570
-But because it's
-hard, in practice,
+Karena itu susah,
+pada praktiknya,
 
 1818
 01:15:26,570 --> 01:15:28,470
-to change all the
-software out there,
+untuk mengubah semua
+software di luar sana
 
 1819
 01:15:28,470 --> 01:15:30,080
-many people try to
-devise techniques
+banyak orang mencoba untuk
+membuat teknik-teknik
 
 1820
 01:15:30,080 --> 01:15:33,100
-that make it more difficult
-to exploit these bugs.
+yang membuat eksploitasi 
+dari bug-bug ini lebih sulit.
 
 1821
 01:15:33,100 --> 01:15:35,590
-For example, making the
-stack non-executable,
+Contohnya, membuat
+stack tidak dapat dieksekusi,
 
 1822
 01:15:35,590 --> 01:15:39,135
-so you can't inject the
-shell code onto the stack,
+sehingga anda tidak bisa memasukkan
+kode shell pada stack,
 
 1823
 01:15:39,135 --> 01:15:41,930
-and you have to do something
-slightly more elaborate.
+dan Anda harus melakukan
+sedikit lebih banyak pengembangan.
 
 1824
 01:15:41,930 --> 01:15:45,690
-And next couple of
-lectures, next two lectures,
+Dan pada beberapa kuliah
+selanjutnya, dua kuliah selanjutnya
 
 1825
 01:15:45,690 --> 01:15:47,930
-actually, we'll look at
-these defense techniques.
+sebenarnya, kita akan melihat
+teknik-teknik pertahanan ini.
 
 1826
 01:15:47,930 --> 01:15:48,980
-They're not all perfect.
+Mereka tidak semua sempurna.
 
 1827
 01:15:48,980 --> 01:15:50,480
-But they do, in
-practice, make it
+Tapi mereka, pada
+prakteknya, membuat
 
 1828
 01:15:50,480 --> 01:15:52,780
-much more difficult for that
-hacker to exploit things.
+hacker lebih sulit untuk
+mengeksploitasi hal-hal.
 
 1829
 01:15:52,780 --> 01:15:53,065
-Question?
+Pertanyaan?
 
 1830
 01:15:53,065 --> 01:15:54,802
-AUDIENCE: I just have a general
-administrative question.
+AUDIENS: Saya hanya punya
+pertanyaan administratif umum.
+
 
 1831
 01:15:54,802 --> 01:15:55,286
-PROFESSOR: Yeah?
+PROFESOR: Ya?
 
 1832
 01:15:55,286 --> 01:15:56,738
-AUDIENCE: I was wondering
-if there was a final?
+AUDIENS: Saya penasaran
+apakah akan ada ujian akhir?
 
 1833
 01:15:56,738 --> 01:15:58,696
-And also if there are
-quizzes, and what dates--
+Dan juga apakah ada
+kuis, dan tanggal berapa--
 
 1834
 01:15:58,696 --> 01:16:00,200
-PROFESSOR: Oh yeah.
+PROFESOR: Oh ya.
 
 1835
 01:16:00,200 --> 01:16:02,630
-Yeah, I think if you go
-to the schedule page,
+Ya, saya pikir bila Anda
+membuka halaman jadwal,
 
 1836
 01:16:02,630 --> 01:16:03,960
