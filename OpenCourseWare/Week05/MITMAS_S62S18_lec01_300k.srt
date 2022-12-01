@@ -5336,31 +5336,31 @@ saya untuk minggu depan.
 1129
 00:48:51,180 --> 00:48:54,180
 Dan ini hashnya,
-dan kemudian hash kembali.
+dan kemudian di-hash kembali.
 
 1130
 00:48:54,180 --> 00:48:56,850
-Jadi kamu bisa membuat
+Jadi Anda bisa membuat
 rangkaian komitmen
 
 1131
 00:48:56,850 --> 00:49:00,150
-Lalu mengungkapkan
+lalu mengungkapkan
 iterasinya.
 
 1132
 00:49:00,150 --> 00:49:01,530
 Sebenarnya, saya punya
-beberapa slide dimana
+beberapa slide di mana
 
 1133
 00:49:01,530 --> 00:49:05,280
-Anda bisa menyortir sesuatu
-hash lagi dan lagi,
+Anda bisa semacam menghitung
+hash secara berlapis,
 
 1134
 00:49:05,280 --> 00:49:09,190
-dan mulai mgngungkapkan
+dan mengungkapkannya
 secara bertahap.
 
 1135
@@ -5370,11 +5370,11 @@ Itu bisa saja berguna.
 1136
 00:49:10,390 --> 00:49:12,350
 Saya sebenarnya memiliki hal
-seperti itu di software saya.
+seperti itu di perangkat lunak saya.
 
 1137
 00:49:12,350 --> 00:49:16,200
-Saya sudah menuliskan dimana Anda
+Saya sudah menuliskan di mana Anda
 ingin mengungkapkan rahasia.
 
 1138
@@ -5384,32 +5384,32 @@ mengungkapkan rahasia,
 
 1139
 00:49:18,520 --> 00:49:21,310
-tetapi saya tidak ingin semua orang 
+tetapi saya tidak ingin semua orang
 harus menyimpan semuanya.
 
 1140
 00:49:21,310 --> 00:49:26,080
-Jadi saya bisa membuat sebuah rantai 
-hash, ke komit yang terakhir
+Jadi saya bisa membuat sebuah rantai
+hash, ke commit yang terakhir
 
 1141
 00:49:26,080 --> 00:49:28,870
 dan kemudian, setelah saya mengungkapkan
-gambaran awal yang berurutan,
+pragambar yang berurutan,
 
 1142
 00:49:28,870 --> 00:49:30,370
-Anda tidak perlu untuk 
+Anda tidak perlu untuk
 menyimpan semuanya.
 
 1143
 00:49:30,370 --> 00:49:34,210
 Anda hanya bisa menyimpan
-pragambaran terbaru,
+pragambar terbaru,
 
 1144
 00:49:34,210 --> 00:49:37,150
-dan Anda bisa merekonstruksi  
+dan Anda bisa merekonstruksi
 semua hash dari itu.
 
 1145
@@ -5418,16 +5418,16 @@ Ya.
 
 1146
 00:49:38,850 --> 00:49:40,308
-AUDIENCE: Tapi itu
-secara komputasi
+AUDIENS: Tapi apakah
+secara komputasional
 
 1147
 00:49:40,308 --> 00:49:42,730
-sulit untuk menjalankan double hashes?
+sulit untuk menjalankan hash ganda?
 
 1148
 00:49:42,730 --> 00:49:44,110
-TADGE DRYJA: jadi untuk evaluasi--
+TADGE DRYJA: jadi untuk mengevaluasi--
 
 1149
 00:49:44,110 --> 00:49:46,720
@@ -5436,32 +5436,32 @@ itu tidak terlihat.
 
 1150
 00:49:46,720 --> 00:49:50,798
-untuk menampilkan 1
-hash Sha-256, aku
+untuk menjalankan satu
+hash Sha-256, saya
 
 1151
 00:49:50,798 --> 00:49:52,840
-tidak tahu, satu miliar
+tidak tahu, satu per satu miliar
 detik atau berapa pun.
 
 1152
 00:49:52,840 --> 00:49:57,850
 Anda bisa melakukannya,
-misalkan, 100 megabytes
+misalkan, 100 megabyte
 
 1153
 00:49:57,850 --> 00:50:01,455
 untuk 1 gigabyte hash
-output pada CPU regular.
+output pada CPU reguler.
 
 1154
 00:50:01,455 --> 00:50:02,830
-NEHA NARULA: saya
+NEHA NARULA: Saya
 pikir dia bertanya
 
 1155
 00:50:02,830 --> 00:50:05,830
-apakah itu membuatnya lebih sulit untuk menemukan
+apakah jadi lebih sulit untuk menemukan
 pragambar jika Anda lakukan hash dua kali,
 
 1156
