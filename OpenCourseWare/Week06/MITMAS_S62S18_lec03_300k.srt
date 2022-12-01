@@ -6090,48 +6090,48 @@ untuk tanda tangan saja.
 
 1321
 00:57:10,490 --> 00:57:12,530
-And they usually call that k.
+Dan mereka biasanya menyebutnya k.
 
 1322
 00:57:12,530 --> 00:57:15,650
-And k is a new random number.
+Dan k adalah bilangan acak baru.
 
 1323
 00:57:15,650 --> 00:57:17,150
-It's the private key.
+Itu adalah kunci pribadi.
 
 1324
 00:57:17,150 --> 00:57:20,308
-And you're going to
-multiply it by G.
+Dan Anda akan
+mengalikannya dengan G.
 
 1325
 00:57:20,308 --> 00:57:22,100
-And they call this R.
-I don't know why they
+Dan mereka menyebutnya R.
+Saya tidak tahu mengapa mereka
 
 1326
 00:57:22,100 --> 00:57:25,460
-use these letters, but anyway.
+menggunakan surat-surat ini, tapi bagaimanapun juga.
 
 1327
 00:57:25,460 --> 00:57:30,680
-K times G is R. R is the other
-public key you're using just
+K kali G adalah R. R adalah kunci publik
+lain yang Anda gunakan hanya
 
 1328
 00:57:30,680 --> 00:57:33,720
-for this signature.
+untuk tanda tangan ini.
 
 1329
 00:57:33,720 --> 00:57:37,170
-And then the signature itself
-is quite straightforward.
+Dan tanda tangannya sendiri
+cukup mudah.
 
 1330
 00:57:37,170 --> 00:57:40,590
-As the signer, you
-compute s, which is k--
+Sebagai penanda tangan, Anda
+menghitung s, yaitu k--
 
 1331
 00:57:40,590 --> 00:57:42,750
