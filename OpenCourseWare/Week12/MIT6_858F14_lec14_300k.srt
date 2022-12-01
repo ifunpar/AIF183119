@@ -5313,281 +5313,281 @@ pengguna melanjutkan.
 
 1123
 00:47:55,510 --> 00:47:57,880
-So they offer a dialogue
-box for the user saying,
+Jadi mereka menampilkan kotak dialog
+untuk pengguna yang mengatakan,
 
 1124
 00:47:57,880 --> 00:47:59,610
-well, I got a
-certificate, but it
+yah, saya mendapatkan
+sertifikat, tetapi itu
 
 1125
 00:47:59,610 --> 00:48:01,050
-doesn't look right in some way.
+sepertinya terlihat ada yang salah.
 
 1126
 00:48:01,050 --> 00:48:04,220
-[INAUDIBLE] go ahead
-anyway and continue.
+[TIDAK TERDENGAR] mengabaikannya
+dan tetap melanjutkan.
 
 1127
 00:48:04,220 --> 00:48:07,880
-So web browsers will allow
-users to sort of override
+Jadi browser web akan akan mengizinkan
+pengguna untuk semacam mengabaikan
 
 1128
 00:48:07,880 --> 00:48:10,785
-this decision on things like
-expiration of certificates.
+keputusan ini pada hal-hal seperti
+sertifikat yang kedaluwarsa.
 
 1129
 00:48:10,785 --> 00:48:13,287
-Also for host names,
-it might be the case
+Juga untuk nama host, 
+bisa jadi
 
 1130
 00:48:13,287 --> 00:48:14,620
-that your website has many name.
+saat situs web Anda memiliki banyak nama.
 
 1131
 00:48:14,620 --> 00:48:16,440
-Like for Amazon,
-you might connect
+Seperti untuk Amazon,
+Anda mungkin terhubung
 
 1132
 00:48:16,440 --> 00:48:21,430
-to amazon.com, or maybe
-www.amazon.com, or maybe
+ke amazon.com, atau mungkin
+www.amazon.com, atau mungkin
 
 1133
 00:48:21,430 --> 00:48:23,220
-other host names.
+nama host lainnya.
 
 1134
 00:48:23,220 --> 00:48:26,007
-And if you are not careful
-with the website operator,
+Dan jika Anda tidak berhati-hati
+dengan operator situs web,
 
 1135
 00:48:26,007 --> 00:48:27,590
-you might not know
-to get certificates
+Anda mungkin tidak tahu
+untuk mendapatkan serifikat
 
 1136
 00:48:27,590 --> 00:48:30,910
-for every possible name
-that your website has.
+untuk setiap kemungkinan nama
+yang dimiliki situs web Anda.
 
 1137
 00:48:30,910 --> 00:48:33,615
-And then a user is sort
-of stuck saying, well,
+Dan kemudian seorang pengguna
+bisa menemui jalan buntu dan berkata, yah,
 
 1138
 00:48:33,615 --> 00:48:35,240
-the host name doesn't
-look quite right,
+sepertinya ada yang salah
+dengan nama host itu,
 
 1139
 00:48:35,240 --> 00:48:37,020
-but maybe let's go anyway.
+tapi mungkin mari kita tetap lanjutkan saja.
 
 1140
 00:48:37,020 --> 00:48:39,070
-So this is the reason
-why web browsers allow
+Jadi inilah alasan
+mengapa browser web memungkinkan
 
 1141
 00:48:39,070 --> 00:48:44,560
-users to accept more
-broadly, or a broader range
+pengguna untuk menerima lebih
+luas, atau rentang
 
 1142
 00:48:44,560 --> 00:48:47,291
-of certificates, than these
-rules might otherwise dictate.
+sertifikat yang lebih luas, daripada yang
+ditentukan oleh aturan ini.
 
 1143
 00:48:47,291 --> 00:48:48,540
-So that's [INAUDIBLE] problem.
+Jadi itu [TIDAK TERDENGAR] masalah.
 
 1144
 00:48:48,540 --> 00:48:51,484
-And then if you
-hijack DNS, then you
+Dan kemudian jika Anda
+membajak DNS, kemudian Anda
 
 1145
 00:48:51,484 --> 00:48:52,900
-might be able to
-redirect the user
+mungkin dapat
+mengalihkan pengguna
 
 1146
 00:48:52,900 --> 00:48:54,695
-to one of these
-sites that serves up
+ke salah satu
+situs ini yang menyediakan
 
 1147
 00:48:54,695 --> 00:48:56,830
-a incorrect certificate.
+sertifikat yang salah.
 
 1148
 00:48:56,830 --> 00:48:59,270
-And if the user isn't
-careful, they're
+Dan jika pengguna tidak
+berhati-hati, mereka
 
 1149
 00:48:59,270 --> 00:49:03,230
-going to potentially approve
-the browser accepting
+berpotensi menyetujui
+browser menerima
 
 1150
 00:49:03,230 --> 00:49:07,102
-your certificate, and then
-you're in trouble then.
+sertifikat Anda, dan kemudian
+Anda dalam masalah.
 
 1151
 00:49:07,102 --> 00:49:12,354
-That's a bit of a gray area
-with respect to how much
+Itu adalah daerah abu-abu
+berkaitan dengan seberapa besar
 
 1152
 00:49:12,354 --> 00:49:13,520
-you should really trust DNS.
+Anda harus benar-benar mempercayai DNS.
 
 1153
 00:49:13,520 --> 00:49:15,978
-So you certainly don't want to
-give arbitrary users control
+Jadi Anda tentu tidak ingin
+memberikan pengguna acak mengontrol
 
 1154
 00:49:15,978 --> 00:49:17,890
-of your DNS name [INAUDIBLE].
+nama DNS Anda [TIDAK TERDENGAR].
 
 1155
 00:49:17,890 --> 00:49:21,900
-But certainly, the goal
-of SSL/TLS and HTTPS,
+Namun yang pasti, tujuan
+SSL/TLS dan HTTPS,
 
 1156
 00:49:21,900 --> 00:49:25,290
-all this stuff, is to
-hopefully not trust DNS at all.
+semua hal ini, adalah semoga untuk
+tidak mempercayai DNS sama sekali.
 
 1157
 00:49:25,290 --> 00:49:27,940
-If everything works
-here correctly,
+Jika semuanya di sini
+bekerja dengan benar,
 
 1158
 00:49:27,940 --> 00:49:30,150
-then DNS shouldn't be trusted.
+maka DNS tidak boleh dipercaya.
 
 1159
 00:49:30,150 --> 00:49:31,794
-You can [INAUDIBLE].
+Anda bisa [TIDAK TERDENGAR].
 
 1160
 00:49:31,794 --> 00:49:33,710
-You should never be able
-to intercept any data
+Anda seharusnya tidak pernah bisa
+mencegat data apapun
 
 1161
 00:49:33,710 --> 00:49:36,612
-or corrupt data, et cetera.
+atau data yang rusak, dan lain-lain.
 
 1162
 00:49:36,612 --> 00:49:37,847
-Make sense?
+Masuk akal?
 
 1163
 00:49:37,847 --> 00:49:39,430
-That's if everything
-works, of course.
+Itu kalau semuanya
+bekerja, tentu saja.
 
 1164
 00:49:39,430 --> 00:49:42,280
-It's a little bit
-messier than that.
+Kenyataannya sedikit lebih
+berantakan dari itu.
 
 1165
 00:49:42,280 --> 00:49:43,990
-All right.
+Baiklah.
 
 1166
 00:49:43,990 --> 00:49:49,230
-So I guess one interesting
-question to talk about
+Jadi saya kira satu pertanyaan yang menarik
+untuk dibicarakan
 
 1167
 00:49:49,230 --> 00:49:52,880
-is I guess how bad
-could an attack be
+adalah saya kira seberapa buruk
+serangan yang dapat terjadi
 
 1168
 00:49:52,880 --> 00:49:57,290
-if the user mis-approves
-a certificate?
+jika pengguna salah menyetujui
+sebuah sertifikat?
 
 1169
 00:49:57,290 --> 00:49:59,150
-So as we were saying,
-if the user accepts
+Jadi seperti yang kita bicarakan,
+jika pengguna menerima
 
 1170
 00:49:59,150 --> 00:50:02,110
-a certificate for the wrong
-host or accepts an expired
+sebuah sertifikat untuk host yang salah
+atau menerima sebuah sertifikat yang kedaluwarsa,
 
 1171
 00:50:02,110 --> 00:50:05,300
-certificate, what
-could go wrong?
+hal buruk apa
+yang bisa terjadi?
 
 1172
 00:50:05,300 --> 00:50:09,870
-How much should we worry about
-this mistake from the user?
+Seberapa besar kita harus khawatir terkait
+kesalahan ini dari pengguna?
 
 1173
 00:50:09,870 --> 00:50:10,428
-Yeah.
+Yah.
 
 1174
 00:50:10,428 --> 00:50:11,594
-AUDIENCE: Well, [INAUDIBLE].
+AUDIENCE: Yah, [TIDAK TERDENGAR].
 
 1175
 00:50:14,870 --> 00:50:17,671
-But it could be,
-[? in example ?], not the site
+Tapi itu bisa saja,
+[? pada contoh ?], bukan situs di mana
 
 1176
 00:50:17,671 --> 00:50:19,490
-the user wants to visit.
+penggunanya ingin berkunjung.
 
 1177
 00:50:19,490 --> 00:50:24,252
-So they could do things like
-pretend to be the user's name.
+Maka mereka bisa melakukan hal seperti
+berpura-pura menjadi nama pengguna.
 
 1178
 00:50:24,252 --> 00:50:24,960
-PROFESSOR: Right.
+PROFESSOR: Benar.
 
 1179
 00:50:24,960 --> 00:50:27,515
-So certainly, the user
-might then I guess
+Maka tentunya, saya rasa
+pengguna mungkin kemudian
 
 1180
 00:50:27,515 --> 00:50:29,640
-be fooled into thinking,
-oh, I have all this money,
+tertipu ke dalam pemikiran,
+oh, saya memiliki semua uang ini,
 
 1181
 00:50:29,640 --> 00:50:32,230
-or you have no money at all
-because the result page comes
+atau Anda tidak memiliki uang sama sekali
+karena halaman hasilnya menampilkan
 
 1182
 00:50:32,230 --> 00:50:34,010
