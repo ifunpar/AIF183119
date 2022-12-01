@@ -5335,134 +5335,134 @@ saya untuk minggu depan.
 
 1129
 00:48:51,180 --> 00:48:54,180
-And this is the hash,
-and then hash it again.
+Dan ini hashnya,
+dan kemudian di-hash kembali.
 
 1130
 00:48:54,180 --> 00:48:56,850
-So you can make
-chains of commitments
+Jadi Anda bisa membuat
+rangkaian komitmen
 
 1131
 00:48:56,850 --> 00:49:00,150
-and then reveal
-iterations of it.
+lalu mengungkapkan
+iterasinya.
 
 1132
 00:49:00,150 --> 00:49:01,530
-Actually, I had
-some slides where
+Sebenarnya, saya punya
+beberapa slide di mana
 
 1133
 00:49:01,530 --> 00:49:05,280
-you can sort of hash
-something again and again,
+Anda bisa semacam menghitung
+hash secara berlapis,
 
 1134
 00:49:05,280 --> 00:49:09,190
-and start revealing
-it incrementally.
+dan mengungkapkannya
+secara bertahap.
 
 1135
 00:49:09,190 --> 00:49:10,390
-That might be useful.
+Itu bisa saja berguna.
 
 1136
 00:49:10,390 --> 00:49:12,350
-I actually have stuff
-like that in software.
+Saya sebenarnya memiliki hal
+seperti itu di perangkat lunak saya.
 
 1137
 00:49:12,350 --> 00:49:16,200
-I've written where you
-want to reveal secrets.
+Saya sudah menuliskan di mana Anda
+ingin mengungkapkan rahasia.
 
 1138
 00:49:16,200 --> 00:49:18,520
-But let's say I want
-to reveal secrets,
+Tetapi, katakan saya ingin
+mengungkapkan rahasia,
 
 1139
 00:49:18,520 --> 00:49:21,310
-but I don't want everyone to
-have to store all of them.
+tetapi saya tidak ingin semua orang
+harus menyimpan semuanya.
 
 1140
 00:49:21,310 --> 00:49:26,080
-So I can make a chain of
-hashes, commit to the last one,
+Jadi saya bisa membuat sebuah rantai
+hash, ke commit yang terakhir
 
 1141
 00:49:26,080 --> 00:49:28,870
-and then as I reveal
-successive preimages,
+dan kemudian, setelah saya mengungkapkan
+pragambar yang berurutan,
 
 1142
 00:49:28,870 --> 00:49:30,370
-you don't have to
-store all of them.
+Anda tidak perlu untuk
+menyimpan semuanya.
 
 1143
 00:49:30,370 --> 00:49:34,210
-You can just store
-the latest preimage,
+Anda hanya bisa menyimpan
+pragambar terbaru,
 
 1144
 00:49:34,210 --> 00:49:37,150
-and you can reconstruct
-all the hashes from that.
+dan Anda bisa merekonstruksi
+semua hash dari itu.
 
 1145
 00:49:37,150 --> 00:49:38,850
-Yes.
+Ya.
 
 1146
 00:49:38,850 --> 00:49:40,308
-AUDIENCE: But is
-it computationally
+AUDIENS: Tapi apakah
+secara komputasional
 
 1147
 00:49:40,308 --> 00:49:42,730
-difficult to run double hashes?
+sulit untuk menjalankan hash ganda?
 
 1148
 00:49:42,730 --> 00:49:44,110
-TADGE DRYJA: So to evaluate--
+TADGE DRYJA: jadi untuk mengevaluasi--
 
 1149
 00:49:44,110 --> 00:49:46,720
-if you want to try this,
-it's imperceptible.
+jika Anda ingin mencoba ini,
+itu tidak terlihat.
 
 1150
 00:49:46,720 --> 00:49:50,798
-To perform one
-Sha-256 hash is, I
+untuk menjalankan satu
+hash Sha-256, saya
 
 1151
 00:49:50,798 --> 00:49:52,840
-don't know, a billionth
-of a second or something.
+tidak tahu, satu per satu miliar
+detik atau berapa pun.
 
 1152
 00:49:52,840 --> 00:49:57,850
-You can generally do,
-like, 100 megabytes
+Anda bisa melakukannya,
+misalkan, 100 megabyte
 
 1153
 00:49:57,850 --> 00:50:01,455
-to a gigabyte of hash
-output on a regular CPU.
+untuk 1 gigabyte hash
+output pada CPU reguler.
 
 1154
 00:50:01,455 --> 00:50:02,830
-NEHA NARULA: I
-think she's asking
+NEHA NARULA: Saya
+pikir dia bertanya
 
 1155
 00:50:02,830 --> 00:50:05,830
-does it make it harder to find
-a preimage if you hash twice,
+apakah jadi lebih sulit untuk menemukan
+pragambar jika Anda lakukan hash dua kali,
 
 1156
 00:50:05,830 --> 00:50:06,838
