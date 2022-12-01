@@ -5313,27 +5313,27 @@ pengguna melanjutkan.
 
 1123
 00:47:55,510 --> 00:47:57,880
-Jadi mereka menawarkan kotak dialog 
+Jadi mereka menampilkan kotak dialog
 untuk pengguna yang mengatakan,
 
 1124
 00:47:57,880 --> 00:47:59,610
-yah, Saya mendapatkan
-sertifikat, tetapi ini
+yah, saya mendapatkan
+sertifikat, tetapi itu
 
 1125
 00:47:59,610 --> 00:48:01,050
-sepertinya tidak beres.
+sepertinya terlihat ada yang salah.
 
 1126
 00:48:01,050 --> 00:48:04,220
-[TIDAK TERDENGAR] tetap teruskan
-dan lanjutkan.
+[TIDAK TERDENGAR] mengabaikannya
+dan tetap melanjutkan.
 
 1127
 00:48:04,220 --> 00:48:07,880
-Jadi browser web akan memungkinkan  
-pengguna untuk mengesampingkan bentuk
+Jadi browser web akan akan mengizinkan
+pengguna untuk semacam mengabaikan
 
 1128
 00:48:07,880 --> 00:48:10,785
@@ -5343,7 +5343,7 @@ sertifikat yang kedaluwarsa.
 1129
 00:48:10,785 --> 00:48:13,287
 Juga untuk nama host, 
-itu mungkin masalahnya
+bisa jadi
 
 1130
 00:48:13,287 --> 00:48:14,620
@@ -5370,7 +5370,7 @@ dengan operator situs web,
 
 1135
 00:48:26,007 --> 00:48:27,590
-Anda mungkin tidak tahu 
+Anda mungkin tidak tahu
 untuk mendapatkan serifikat
 
 1136
@@ -5380,21 +5380,21 @@ yang dimiliki situs web Anda.
 
 1137
 00:48:30,910 --> 00:48:33,615
-Dan kemudian seorang pengguna 
-tidak bisa berkata-kata, yah,
+Dan kemudian seorang pengguna
+bisa menemui jalan buntu dan berkata, yah,
 
 1138
 00:48:33,615 --> 00:48:35,240
-nama host tidak
-terlihat cukup benar,
+sepertinya ada yang salah
+dengan nama host itu,
 
 1139
 00:48:35,240 --> 00:48:37,020
-tapi mungkin mari kita tetap lanjutkan.
+tapi mungkin mari kita tetap lanjutkan saja.
 
 1140
 00:48:37,020 --> 00:48:39,070
-Jadi inilah alasan  
+Jadi inilah alasan
 mengapa browser web memungkinkan
 
 1141
@@ -5414,11 +5414,11 @@ Jadi itu [TIDAK TERDENGAR] masalah.
 1144
 00:48:48,540 --> 00:48:51,484
 Dan kemudian jika Anda
-membajak DNS, kemudian Anda 
+membajak DNS, kemudian Anda
 
 1145
 00:48:51,484 --> 00:48:52,900
-mungkin dapat 
+mungkin dapat
 mengalihkan pengguna
 
 1146
@@ -5433,7 +5433,7 @@ sertifikat yang salah.
 1148
 00:48:56,830 --> 00:48:59,270
 Dan jika pengguna tidak
-hati-hati, mereka
+berhati-hati, mereka
 
 1149
 00:48:59,270 --> 00:49:03,230
@@ -5447,8 +5447,8 @@ Anda dalam masalah.
 
 1151
 00:49:07,102 --> 00:49:12,354
-Itu sedikit area abu-abu
-sehubungan dengan seberapa besar
+Itu adalah daerah abu-abu
+berkaitan dengan seberapa besar
 
 1152
 00:49:12,354 --> 00:49:13,520
@@ -5457,7 +5457,7 @@ Anda harus benar-benar mempercayai DNS.
 1153
 00:49:13,520 --> 00:49:15,978
 Jadi Anda tentu tidak ingin
-memberikan pengguna sewenang-wenang mengontrol
+memberikan pengguna acak mengontrol
 
 1154
 00:49:15,978 --> 00:49:17,890
@@ -5470,13 +5470,13 @@ SSL/TLS dan HTTPS,
 
 1156
 00:49:21,900 --> 00:49:25,290
-semua hal ini, adalah
-semoga tidak mempercayai DNS sama sekali.
+semua hal ini, adalah semoga untuk
+tidak mempercayai DNS sama sekali.
 
 1157
 00:49:25,290 --> 00:49:27,940
-Jika semuanya bekerja
-di sini dengan benar,
+Jika semuanya di sini
+bekerja dengan benar,
 
 1158
 00:49:27,940 --> 00:49:30,150
@@ -5489,7 +5489,7 @@ Anda bisa [TIDAK TERDENGAR].
 1160
 00:49:31,794 --> 00:49:33,710
 Anda seharusnya tidak pernah bisa
-mencegat data apa pun
+mencegat data apapun
 
 1161
 00:49:33,710 --> 00:49:36,612
@@ -5506,7 +5506,7 @@ bekerja, tentu saja.
 
 1164
 00:49:39,430 --> 00:49:42,280
-Ini sedikit lebih
+Kenyataannya sedikit lebih
 berantakan dari itu.
 
 1165
@@ -5530,22 +5530,22 @@ sebuah sertifikat?
 
 1169
 00:49:57,290 --> 00:49:59,150
-Jadi seperti yang kita katakan,
+Jadi seperti yang kita bicarakan,
 jika pengguna menerima
 
 1170
 00:49:59,150 --> 00:50:02,110
 sebuah sertifikat untuk host yang salah
-atau menerima sebuah sertifikat yang kadaluarsa
+atau menerima sebuah sertifikat yang kedaluwarsa,
 
 1171
 00:50:02,110 --> 00:50:05,300
-apakah 
-bisa salah?
+hal buruk apa
+yang bisa terjadi?
 
 1172
 00:50:05,300 --> 00:50:09,870
-Berapa yang seharusnya kita khawatirkan tentang
+Seberapa besar kita harus khawatir terkait
 kesalahan ini dari pengguna?
 
 1173
@@ -5559,7 +5559,7 @@ AUDIENCE: Yah, [TIDAK TERDENGAR].
 1175
 00:50:14,870 --> 00:50:17,671
 Tapi itu bisa saja,
-[? pada contoh ?], bukan situsnya
+[? pada contoh ?], bukan situs di mana
 
 1176
 00:50:17,671 --> 00:50:19,490
@@ -5567,7 +5567,7 @@ penggunanya ingin berkunjung.
 
 1177
 00:50:19,490 --> 00:50:24,252
-Maka mereka bisa melakukan hal seperti 
+Maka mereka bisa melakukan hal seperti
 berpura-pura menjadi nama pengguna.
 
 1178
@@ -5576,18 +5576,18 @@ PROFESSOR: Benar.
 
 1179
 00:50:24,960 --> 00:50:27,515
-Maka tentunya, pengguna
-mungkin kemudian saya kira
+Maka tentunya, saya rasa
+pengguna mungkin kemudian
 
 1180
 00:50:27,515 --> 00:50:29,640
 tertipu ke dalam pemikiran,
-oh, Saya memiliki semua uang ini,
+oh, saya memiliki semua uang ini,
 
 1181
 00:50:29,640 --> 00:50:32,230
-atau Anda tidak memiliki uang sama sekali 
-karena halaman hasilnya memunculkan
+atau Anda tidak memiliki uang sama sekali
+karena halaman hasilnya menampilkan
 
 1182
 00:50:32,230 --> 00:50:34,010
