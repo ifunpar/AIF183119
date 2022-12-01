@@ -6734,279 +6734,279 @@ x yang terlihat
 
 1437
 01:18:52,160 --> 01:18:54,660
-like this, which is
-a concatenation of h
+seperti ini, yang merupakan
+gabungan dari h
 
 1438
 01:18:54,660 --> 01:19:00,210
-of x, and giving away the most
-significant bit of x, which
+dari x, dan memberikan digit
+paling signifikan x, di mana
 
 1439
 01:19:00,210 --> 01:19:01,670
-is my bid, right?
+itu adalah tawaran saya, betul?
 
 1440
 01:19:01,670 --> 01:19:03,780
-I'm just giving
-that away, right?
+Saya hanya memberikan
+itu, betul?
 
 1441
 01:19:03,780 --> 01:19:08,190
-The problem here is
-that we haven't really
+Masalahnya di sini adalah
+kita belum benar-benar
 
 1442
 01:19:08,190 --> 01:19:11,660
-made our properties
-broad enough to solve
+membuat properti kita
+cukup luas untuk menyelesaikan
 
 1443
 01:19:11,660 --> 01:19:14,230
-this particular
-application to the extent
+aplikasi khusus ini
+dalam hal
 
 1444
 01:19:14,230 --> 01:19:19,140
-that there's contrived cases
-where these properties aren't
+ada kasus yang dibuat-buat
+di mana properti ini tidak
 
 1445
 01:19:19,140 --> 01:19:20,420
-enough, OK?
+cukup, oke?
 
 1446
 01:19:20,420 --> 01:19:22,180
-And the reason is simple.
+Dan alasannya cukup sederhana.
 
 1447
 01:19:22,180 --> 01:19:30,000
-h prime x is arguably
-NM, CR, and OW.
+h aksen x dapat dibilang
+NM, CR, dan OW.
 
 1448
 01:19:30,000 --> 01:19:32,660
-And I won't go into to
-each of those arguments.
+Dan saya tidak akan masuk ke dalam
+setiap argumen tersebut.
 
 1449
 01:19:32,660 --> 01:19:36,630
-But you can think
-about it, right?
+Tapi Anda bisa memikirkan
+tentang hal itu, benar?
 
 1450
 01:19:36,630 --> 01:19:40,030
-If I'm just giving you one
-bit, there's 159 others,
+Jika saya hanya memberi Anda satu
+bit, maka ada 159 lainnya,
 
 1451
 01:19:40,030 --> 01:19:42,140
-there's a couple of
-hundred others, whatever it
+ada beberapa 
+ratus lainnya, apapun itu
 
 1452
 01:19:42,140 --> 01:19:43,860
-is that I have in the domain.
+yang saya punya di dalam domain.
 
 1453
 01:19:43,860 --> 01:19:46,230
-It's not going to be invertible.
+Dia tidak akan bisa dibalik.
 
 1454
 01:19:46,230 --> 01:19:49,420
-h prime x is not going to
-be invertible if h of x
+h aksen x tidak akan bisa
+dibalik jika h dari x
 
 1455
 01:19:49,420 --> 01:19:51,080
-is not invertible.
+tidak dapat dibalik.
 
 1456
 01:19:51,080 --> 01:19:57,880
-h prime x is not going to be
-breakable in terms of collision
+h aksen x tidak akan 
+bisa dipecahkan dalam hal ketahanan terhadap
 
 1457
 01:19:57,880 --> 01:20:00,950
-resistance if h of
-x is not breakable,
+tabrakan jika h dari
+x tidak bisa dipecahkan,
 
 1458
 01:20:00,950 --> 01:20:02,450
-and so on and so forth.
+dan seterusnya.
 
 1459
 01:20:02,450 --> 01:20:04,740
-But if I had a hash
-function like that,
+Tetapi jika saya memiliki fungsi
+hash seperti itu,
 
 1460
 01:20:04,740 --> 01:20:09,340
-is it a good hash function
-for my commitment application?
+apakah itu fungsi hash yang baik
+untuk aplikasi komitmen saya?
 
 1461
 01:20:09,340 --> 01:20:10,090
-No, obviously not.
+Tidak, jelas tidak.
 
 1462
 01:20:10,090 --> 01:20:12,298
-Because if I publicize this
-hash function-- remember,
+karena jika saya mempublikasikan fungsi
+hash ini-- ingatlah,
 
 1463
 01:20:12,298 --> 01:20:13,890
-everything is public
-here with respect
+semuanya bersifat publik
+di sini dalam kaitannya
 
 1464
 01:20:13,890 --> 01:20:18,030
-to h and h prime-- you
-are giving away the most
+dengan h dan h aksen-- Anda
+membuang hal yang paling
 
 1465
 01:20:18,030 --> 01:20:21,360
-significant that
-corresponds to your bid
+signifikan yang
+terkait dengan tawaran Anda
 
 1466
 01:20:21,360 --> 01:20:23,350
-in this particular
-hash function, right?
+di dalam fungsi hash
+ini, kan?
 
 1467
 01:20:23,350 --> 01:20:33,170
-So you really need a little bit
-more than these for secrecy,
+Jadi Anda benar-benar membutuhkan setidaknya sedikit
+lebih dari ini untuk kerahasiaan,
 
 1468
 01:20:33,170 --> 01:20:34,200
-for true secrecy.
+untuk kerahasiaan yang sesungguhnya.
 
 1469
 01:20:37,510 --> 01:20:39,890
-But in the context
-of this example,
+Tapi dalam konteks
+dari contoh ini,
 
 1470
 01:20:39,890 --> 01:20:41,770
-I mean it's common
-sense that you would not
+Maksud saya, wajar
+jika Anda tidak akan
 
 1471
 01:20:41,770 --> 01:20:43,550
-use the hash function
-like that, right?
+menggunakan fungsi hash
+seperti itu, betul?
 
 1472
 01:20:43,550 --> 01:20:46,950
-So it's not that there's
-anything profound here.
+Jadi bukannya tidak ada
+hal yang mendalam di sini.
 
 1473
 01:20:46,950 --> 01:20:48,540
-It's just that I
-want to make sure
+Hanya saja saya
+ingin memastikan
 
 1474
 01:20:48,540 --> 01:20:51,480
-that you understand the
-nuances of the properties
+bahwa Anda memahami
+nuansa properti-properti
 
 1475
 01:20:51,480 --> 01:20:52,580
-that we're requiring.
+yang kita butuhkan.
 
 1476
 01:20:52,580 --> 01:20:55,560
-We had all the
-requirements corresponding
+Kita memiliki semua
+kebutuhan yang sesuai
 
 1477
 01:20:55,560 --> 01:20:58,900
-to the definitions
-of NM and CR and OW.
+untuk definisi
+dari NM dan CR dan OW.
 
 1478
 01:20:58,900 --> 01:21:01,150
-And you need a little bit
-more for this example, where
+Dan Anda perlu sedikit hal
+lebih untuk contoh ini, di mana
 
 1479
 01:21:01,150 --> 01:21:04,300
-you have to say something,
-perhaps informally,
+Anda harus mengatakan sesuatu,
+mungkin secara informal,
 
 1480
 01:21:04,300 --> 01:21:10,870
-like the bits of your auction
-are scrambled in the final hash
+seperti bagian dari lelang Anda
+diacak di keluaran hash
 
 1481
 01:21:10,870 --> 01:21:14,010
-output, which most hash
-functions should do anyway,
+nya, di mana sebagian besar
+fungsi hash harus melakukannya,
 
 1482
 01:21:14,010 --> 01:21:15,730
-and h of x will definitely do.
+dan h dari x pasti akan melakukannya.
 
 1483
 01:21:15,730 --> 01:21:19,290
-But you kind of unscrambled
-it by adding this little thing
+Tetapi jika anda sedikit membongkarnya
+dengan menambahkan hal kecil ini
 
 1484
 01:21:19,290 --> 01:21:22,210
-in here, corresponding to
-the most significant thing,
+di sini, berkaitan dengan
+hal yang paling penting ini,
 
 1485
 01:21:22,210 --> 01:21:23,050
-all right?
+ok?
 
 1486
 01:21:23,050 --> 01:21:25,480
-So I'll stop with that.
+Jadi saya akan berhenti di sana.
 
 1487
 01:21:25,480 --> 01:21:29,760
-Let me just say that the
-operation-- or sorry,
+Saya katakan saja bahwa
+operasinya-- atau maaf,
 
 1488
 01:21:29,760 --> 01:21:33,590
-the work involved in
-creating hash functions that
+pekerjaan yang terlibat dalam
+membuat fungsi hash yang
 
 1489
 01:21:33,590 --> 01:21:37,430
-are poly-time computable
-is research work.
+dapat dihitung secara polinomial
+adalah masih dalam penelitian.
 
 1490
 01:21:37,430 --> 01:21:40,290
-People put up hash functions
-and they get broken,
+Orang orang mencetuskan fungsi hash
+dan akhirnya dapat dipecahkan,
 
 1491
 01:21:40,290 --> 01:21:43,770
-like MD4 was put up in '92 and
-then got broken, SHA-1 and so
+seperti MD4 yang dicetuskan di '92 dan
+akhirnya dapat dipecahkan, SHA-1 dan
 
 1492
 01:21:43,770 --> 01:21:44,700
-on and so forth.
+sebagainya.
 
 1493
 01:21:44,700 --> 01:21:49,580
-And so I just encourage you
-to look up SHA-3 and just take
+Dan saya juga mendorong Anda
+untuk melihat SHA-3 dan juga 
 
 1494
 01:21:49,580 --> 01:21:52,480
-a quick scan and what
-the complexity of SHA-3
+melihat sekilas dan apa
+kompleksitas dari SHA-3
 
 1495
 01:21:52,480 --> 01:21:56,820
