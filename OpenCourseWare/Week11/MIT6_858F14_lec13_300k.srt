@@ -3799,12 +3799,12 @@ hal ini di jalurnya juga.
 
 800
 00:34:12,429 --> 00:34:16,780
-Jadi saya berpikir ini agak sedikit
-dari ukuran sementara-- meningkat
+Jadi saya pikir ini adalah semacam
+tindakan sementara-- meningkatkan
 
 801
 00:34:16,780 --> 00:34:17,420
-sedikit dari keamanan.
+keamanan sedikit.
 
 802
 00:34:17,420 --> 00:34:21,002
@@ -3813,8 +3813,8 @@ mengamati jaringan orang lain,
 
 803
 00:34:21,002 --> 00:34:23,460
-maka anda dapat mengamati
-paket datang kembali terlepas
+maka Anda akan melihat paket
+ini kembali terlepas
 
 804
 00:34:23,460 --> 00:34:25,546
@@ -3823,12 +3823,12 @@ dari apa yang terjadi di langkah ini.
 805
 00:34:25,546 --> 00:34:27,004
 Jadi kembali lagi,
-anda akan melihat orang tersebut
+Anda akan melihat orang ini
 
 806
 00:34:27,004 --> 00:34:28,817
-kemudian anda
-mencoba untuk menyerangnya.
+dan kemudian Anda bisa
+mencoba menyerangnya.
 
 807
 00:34:28,817 --> 00:34:30,650
@@ -3897,7 +3897,7 @@ PROFESOR: Itu benar, yah.
 
 821
 00:34:55,300 --> 00:34:56,841
-Jadi jika Anda ingin 
+Jadi jika Anda ingin benar-benar
 melakukan ini dengan benar,
 
 822
@@ -4006,7 +4006,7 @@ Anda untuk mengirim satu hal
 843
 00:35:48,365 --> 00:35:50,840
 sebagai autentikasi Anda
-TIDAK TERDENGAR].
+[TIDAK TERDENGAR].
 
 844
 00:35:50,840 --> 00:35:52,820
@@ -4186,33 +4186,33 @@ pada saat itu.
 
 881
 00:37:18,392 --> 00:37:20,100
-Dan mereka baru saja mematangkan
+Dan mereka sekadar menanam
 hal tersebut ke dalam protokol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Segala sesuatu yang ada di Kerberos memiliki
-kemampuan untuk menggunakan DES tunggal atau setidaknya
+Segala sesuatu yang ada di Kerberos
+menggunakan DES sederhana atau setidaknya
 
 883
 00:37:22,880 --> 00:37:24,890
 semuanya dalam
-Kerberos versi ke - 4.
+Kerberos versi 4.
 
 884
 00:37:24,890 --> 00:37:27,935
-Dan hal ini bermasalah
+Dan hal ini menjadi masalah
 karena 25 tahun kemudian,
 
 885
 00:37:27,935 --> 00:37:29,310
 30 tahun kemudian
-sekarang, hal itu sebenarnya
+sekarang, sebenarnya
 
 886
 00:37:29,310 --> 00:37:32,820
-sangat dengan mudah untuk melakukan brute
-force DES encryption
+sangat mudah untuk melakukan
+brute force untuk DES encryption
 
 887
 00:37:32,820 --> 00:37:34,690
@@ -4221,31 +4221,31 @@ sebenarnya sangat kecil.
 
 888
 00:37:34,690 --> 00:37:36,570
-Mereka memiliki ukuran sebesar 56 bit.
+Mereka berukuran 56 bit.
 
 889
 00:37:36,570 --> 00:37:39,140
-Jadi anda dapat mencari serta membuat
-beberapa perangkat keras khusus itu
+Jadi Anda dapat mencari membuat
+perangkat keras yang secara khusus
 
 890
 00:37:39,140 --> 00:37:42,090
 mengiterasi semua kemungkinan
-2 sampai 56 kombinasi
+dari 2 pangkat 56 kombinasi
 
 891
 00:37:42,090 --> 00:37:46,379
 dan mencoba semuanya lalu mencari
-tahu apa kata sandi seseorang.
+tahu apa isi dari kata sandi seseorang.
 
 892
 00:37:46,379 --> 00:37:48,170
 Jadi ini adalah sesuatu
-yang kamu juga ingin hindari
+yang Anda juga ingin hindari
 
 893
 00:37:48,170 --> 00:37:49,710
-di berbagai protokol yang kamu rancang sekarang.
+di berbagai protokol yang Anda rancang sekarang.
 
 894
 00:37:49,710 --> 00:37:51,550
@@ -4286,7 +4286,7 @@ Jadi itu bagus.
 
 902
 00:38:08,530 --> 00:38:12,860
-Prinsipil anda aman
+Prinsipiel Anda aman
 setidaknya dari jenis serangan ini.
 
 903
@@ -4297,26 +4297,26 @@ itu masuk akal?
 904
 00:38:14,680 --> 00:38:16,350
 Ini adalah cara
-awal yang anda dapatkan
+awal untuk Anda mendapatkan
 
 905
 00:38:16,350 --> 00:38:18,210
-Tiket apa pun dari Kerberos.
+tiket apapun dalam Kerberos.
 
 906
 00:38:18,210 --> 00:38:20,810
-Dan khususnya, anda mendapatkan
-tiket ini dari TGS service.
+Dan khususnya, Anda mendapatkan
+tiket ini dari layanan TGS.
 
 907
 00:38:20,810 --> 00:38:24,090
-Jadi sekarang marilah melihat pada apa
-yang sedang terjadi dalam TGS service.
+Jadi sekarang marilah melihat apa
+yang sedang terjadi dalam layanan TGS.
 
 908
 00:38:24,090 --> 00:38:27,700
-Jadi ini, adalah interaksi
-dengan TGS service
+Jadi di sini, interaksi
+dengan layanan TGS
 
 909
 00:38:27,700 --> 00:38:29,350
@@ -4325,13 +4325,13 @@ sedikit berbeda.
 
 910
 00:38:29,350 --> 00:38:32,150
-Di satu sisi, anda 
+Di satu sisi, Anda 
 akan-- sebagai klien,
 
 911
 00:38:32,150 --> 00:38:33,900
 Anda diharuskan untuk
-berbicara dengannya sebagai
+berbicara dengannya
 
 912
 00:38:33,900 --> 00:38:37,910
@@ -4345,7 +4345,7 @@ mengautentikasi diri Anda sendiri
 
 914
 00:38:39,660 --> 00:38:41,714
-dengan tiket ke beberapa mesin.
+dengan tiket ke sebuah mesin.
 
 915
 00:38:41,714 --> 00:38:43,630
@@ -4355,7 +4355,7 @@ Anda dapatkan kembali
 916
 00:38:43,630 --> 00:38:46,071
 hanyalah tiket untuk
-beberapa prinsip lain
+beberapa prinsipiel lain
 
 917
 00:38:46,071 --> 00:38:48,570
@@ -4368,7 +4368,7 @@ file Anda.
 
 919
 00:38:50,230 --> 00:38:54,210
-Jadi tingkat protokol pesan
+Jadi pesan-pesan tingkat protokol
 yang muncul di sini
 
 920
@@ -4385,12 +4385,12 @@ Dan inilah klien.
 
 923
 00:38:59,230 --> 00:39:02,750
-Pelanggan sudah
+Klien sudah
 mendapatkan tiket untuk TGS
 
 924
 00:39:02,750 --> 00:39:04,090
-memakai protokol di atas
+menggunakan protokol di atas
 
 925
 00:39:04,090 --> 00:39:06,580
@@ -4399,7 +4399,7 @@ akan kirim sebenarnya
 
 926
 00:39:06,580 --> 00:39:10,190
-adalah beberapa kombinasi
+adalah sebuah kombinasi
 dari pesan-pesan yang
 
 927
@@ -4409,8 +4409,8 @@ adalah pelanggan yang tepat
 
 928
 00:39:12,690 --> 00:39:16,900
-dan mereka menggosipkan permintaan
-untuk beberapa prinsip tertentu
+dan mereka mengirimkan permintaan
+untuk beberapa prinsipiel tertentu
 
 929
 00:39:16,900 --> 00:39:17,490
@@ -4418,23 +4418,23 @@ lewat TGS.
 
 930
 00:39:17,490 --> 00:39:20,414
-Jadi apa yang pelanggan akan 
+Jadi apa yang klien akan
 kirim ke TGS adalah tupel ini.
 
 931
 00:39:20,414 --> 00:39:21,830
-Jadi pertama, akan
-dikatakan, bahwa, 
+Jadi pertama, dia akan
+berkata, yah,
 
 932
 00:39:21,830 --> 00:39:24,000
-ini pelayanan yang
-aku ingin bicarakan ke depannya.
+saya ingin berbicara
+pada layanan ini berikutnya.
 
 933
 00:39:24,000 --> 00:39:27,130
-Jadi ini mungkin server surat
-kamu atau server berkas kamu.
+Jadi ini mungkin server e-mail
+Anda atau server file kamu.
 
 934
 00:39:27,130 --> 00:39:29,440
