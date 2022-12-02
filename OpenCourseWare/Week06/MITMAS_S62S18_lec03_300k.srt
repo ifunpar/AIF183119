@@ -6135,50 +6135,50 @@ menghitung s, yaitu k--
 
 1331
 00:57:40,590 --> 00:57:42,750
-kunci privat baru ini
-yang baru saja Anda buat--
+this new private key
+you just made up--
 
 1332
 00:57:42,750 --> 00:57:47,160
-dikurang hashnya dari pesan
-Anda disambungkan dengan R,
+minus the hash of your
+message concatenated with R,
 
 1333
 00:57:47,160 --> 00:57:49,990
-kunci publik ini-- jadi Anda menyandikan
-kunci public di 33 byte
+this public key-- so you encode
+the public key in 33 bytes,
 
 1334
 00:57:49,990 --> 00:57:50,910
-menempelkannya di sana--
+stick it in there--
 
 1335
 00:57:50,910 --> 00:57:55,650
-dikalikan dengan a, kunci
-private biasa Anda.
+multiplied by a, your
+normal private key.
 
 1336
 00:57:55,650 --> 00:57:57,990
-Dan kemudian tanda
-tangan Anda adalah sepasang--
+And then your
+signature is the pair--
 
 1337
 00:57:57,990 --> 00:58:00,990
-titik R dan skalar s.
+the R point and the s scalar.
 
 1338
 00:58:00,990 --> 00:58:03,390
-Ini adalah sedikit
-dari serangkaian untuk memproses.
+This is a little bit
+of a bunch to process.
 
 1339
 00:58:03,390 --> 00:58:06,150
-Tapi itu sebenarnya
-tidak terlalu buruk,bukan?
+But it's actually
+not too bad, right?
 
 1340
 00:58:06,150 --> 00:58:07,110
-Ini adalah sebuah skalar--
+This is a scalar--
 
 1341
 00:58:07,110 --> 00:58:08,490
@@ -6228,51 +6228,51 @@ so it's very fast.
 
 1351
 00:58:33,840 --> 00:58:36,090
-So in terms of practical
-computer stuff,
+Jadi dalam hal praktikal
+komputer,
 
 1352
 00:58:36,090 --> 00:58:39,720
-doing these operations is a
-little bit on the slow side.
+melakukan operasi ini
+sedikit lambat pada sisi ini.
 
 1353
 00:58:39,720 --> 00:58:42,270
-Because you're doing those
-point additions quite a number
+Karena kalian melakukan
+penambahan poin itu lumayan memakan
 
 1354
 00:58:42,270 --> 00:58:44,160
-of times.
+waktu.
 
 1355
 00:58:44,160 --> 00:58:47,430
-So a decent code,
-a decent CPU, can
+Jadi kode yang baik,
+CPU yang baik, dapat
 
 1356
 00:58:47,430 --> 00:58:53,100
-do on the order of thousands
-of these types of operations
+melakukan beribu order
+dari operasi tipe ini
 
 1357
 00:58:53,100 --> 00:58:56,610
-per second, which is decent.
+per detik, dimana hal tersebut sangat baik.
 
 1358
 00:58:56,610 --> 00:58:59,190
-You can do a decent amount,
-but it is kind of slow.
+Kalian bisa melakukan dalam jumlah yang banyak,
+tapi itu lumayan lambat.
 
 1359
 00:58:59,190 --> 00:59:01,770
-And it's considerably
-slower than hash functions.
+Dan ini sangat
+lambat dibandingkan dengan hash function.
 
 1360
 00:59:01,770 --> 00:59:04,770
-You can do a million iterations
-of a hash function per second
+Kalian dapat melakukan jutaan iterasi
+dari sebuah hash function per detik
 
 1361
 00:59:04,770 --> 00:59:07,350
