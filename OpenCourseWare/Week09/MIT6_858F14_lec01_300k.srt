@@ -8136,108 +8136,108 @@ memiliki sebuah tumpukkan kabel tambahan,
 
 1724
 01:11:52,085 --> 01:11:54,400
-you could put
-arbitrary code that,
+Anda dapat meletakkan
+kode itu semaunya,
 
 1725
 01:11:54,400 --> 01:11:56,027
-for example, executes a shell?
+sebagai contoh, mengeksekusi sebuah shell?
 
 1726
 01:11:56,027 --> 01:11:57,110
-PROFESSOR: Yeah yeah yeah.
+PROFESSOR: Yah, yah yah.
 
 1727
 01:11:57,110 --> 01:11:59,810
-So that's kind of clever,
-right, because you actually
+Jadi itu adalah cerdas,
+benar, karena Anda sebenarnya
 
 1728
 01:11:59,810 --> 01:12:01,370
-can supply other inputs, right?
+dapat menyediakan input-input lain, benar?
 
 1729
 01:12:01,370 --> 01:12:04,520
-So at least, well-- there's
-some defenses against this.
+Jadi setidaknya, baik– disana ada
+beberapa keamanan melawan ini.
 
 1730
 01:12:04,520 --> 01:12:06,700
-And we'll go over these
-in subsequent lectures.
+Dan kita akan ke atas sini
+di kuliah-kuliah berikutnya.
 
 1731
 01:12:06,700 --> 01:12:10,270
-But in principle, you could
-have the return address here
+Tapi pada prinsipnya, Anda dapat
+memiliki alamat yang dikembalikan disini
 
 1732
 01:12:10,270 --> 01:12:13,380
-that you override on either the
-stack up or stack down machine.
+yang anda timpa pada salah satu
+mesin stack naik atau stack turun.
 
 1733
 01:12:13,380 --> 01:12:16,360
-And instead of pointing
-it to some existing code,
+Dan daripada menunjuk
+itu ke beberapa kode yang ada,
 
 1734
 01:12:16,360 --> 01:12:18,340
-like the printf
-inside of main, we
+seperti printf
+di dalam main, kita
 
 1735
 01:12:18,340 --> 01:12:22,486
-can actually have the return
-address point into the buffer.
+sebenarnya dapat memliki titik
+alamat yang dikembalikan ke dalam buffer.
 
 1736
 01:12:22,486 --> 01:12:24,610
-So it's previously just
-some location on the stack.
+Jadi itu sebelumnya hanya
+beberapa lokasi pada stack.
 
 1737
 01:12:24,610 --> 01:12:27,080
-But you could jump there
-and treat it as executable.
+Tapi Anda dapat loncat kesana
+dan memperlakukan itu seperti dapat di eksekusi.
 
 1738
 01:12:27,080 --> 01:12:29,270
-So as part of your
-request, you'll actually
+Jadi sebagai bagian dari permintaan
+Anda, Anda sebenarnya akan
 
 1739
 01:12:29,270 --> 01:12:32,160
-send some bytes of
-data to the server,
+mengirimkan beberapa bytes 
+dari data ke server,
 
 1740
 01:12:32,160 --> 01:12:35,690
-and then have the return address
-or the thing you overwrite here
+dan kemudian mempunyai alamat yang dikembalikkan
+atau sesuatu Anda timpa disini
 
 1741
 01:12:35,690 --> 01:12:37,720
-point to the base of the
-buffer, and you'll just
+titik ke dasar dari
+buffer, dan Anda hanya akan
 
 1742
 01:12:37,720 --> 01:12:39,240
-keep going from there.
+terus berlanjut dari sana.
 
 1743
 01:12:39,240 --> 01:12:41,429
-So then you'll be able
-to sort of provide
+Jadi kemudian Anda akan bisa
+untuk menyediakan
 
 1744
 01:12:41,429 --> 01:12:42,970
-the code you want
-to run, jump to it,
+kode yang Anda mau
+jalankan, loncat ke sana,
 
 1745
 01:12:42,970 --> 01:12:44,390
-and get the server to run it.
+dan mencapai server untuk menjalankan itu.
 
 1746
 01:12:44,390 --> 01:12:46,710
