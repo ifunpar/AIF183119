@@ -6276,32 +6276,32 @@ dari sebuah hash function per detik
 
 1361
 00:59:04,770 --> 00:59:07,350
-on a core, or you can
-do, maybe, 1,000 or 2,000
+pada bagian inti, atau Anda bisa
+lakukan, mungkin, 1.000 atau 2.000
 
 1362
 00:59:07,350 --> 00:59:11,980
-of this kind of thing, so
-still pretty fast but slower.
+hal semacam ini, jadi
+masih cukup cepat tapi lebih lambat.
 
 1363
 00:59:11,980 --> 00:59:16,585
-And so this signing procedure,
-this takes a bit of time.
+Jadi prosedur penandatanganan ini
+membutuhkan sedikit waktu.
 
 1364
 00:59:16,585 --> 00:59:18,210
-This takes, actually,
-very little time.
+Sebenarnya ini mengambil
+waktu yang sangat sedikit.
 
 1365
 00:59:18,210 --> 00:59:23,100
-Because you're just subtracting
-and multiplying 32 byte scalar
+Karena Anda hanya mengurangi
+dan mengalikan skalar 32 byte
 
 1366
 00:59:23,100 --> 00:59:25,810
-integers, which is much faster.
+bilangan bulat, yang jauh lebih cepat.
 
 1367
 00:59:25,810 --> 00:59:26,310
@@ -6309,12 +6309,12 @@ OK.
 
 1368
 00:59:26,310 --> 00:59:29,300
-So does this make sense?
+Jadi apakah ini masuk akal?
 
 1369
 00:59:29,300 --> 00:59:31,750
-We'll go a little bit of
-how you can't forge this.
+Kita akan masuk sedikit
+bagaimana Anda tidak bisa memalsukan ini.
 
 1370
 00:59:31,750 --> 00:59:32,250
