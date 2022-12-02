@@ -6135,50 +6135,50 @@ menghitung s, yaitu k--
 
 1331
 00:57:40,590 --> 00:57:42,750
-this new private key
-you just made up--
+kunci privat baru ini
+yang baru saja Anda buat--
 
 1332
 00:57:42,750 --> 00:57:47,160
-minus the hash of your
-message concatenated with R,
+dikurang hashnya dari pesan
+Anda disambungkan dengan R,
 
 1333
 00:57:47,160 --> 00:57:49,990
-this public key-- so you encode
-the public key in 33 bytes,
+kunci publik ini-- jadi Anda menyandikan
+kunci public di 33 byte
 
 1334
 00:57:49,990 --> 00:57:50,910
-stick it in there--
+menempelkannya di sana--
 
 1335
 00:57:50,910 --> 00:57:55,650
-multiplied by a, your
-normal private key.
+dikalikan dengan a, kunci
+private biasa Anda.
 
 1336
 00:57:55,650 --> 00:57:57,990
-And then your
-signature is the pair--
+Dan kemudian tanda
+tangan Anda adalah sepasang--
 
 1337
 00:57:57,990 --> 00:58:00,990
-the R point and the s scalar.
+titik R dan skalar s.
 
 1338
 00:58:00,990 --> 00:58:03,390
-This is a little bit
-of a bunch to process.
+Ini adalah sedikit
+dari serangkaian untuk memproses.
 
 1339
 00:58:03,390 --> 00:58:06,150
-But it's actually
-not too bad, right?
+Tapi itu sebenarnya
+tidak terlalu buruk,bukan?
 
 1340
 00:58:06,150 --> 00:58:07,110
-This is a scalar--
+Ini adalah sebuah skalar--
 
 1341
 00:58:07,110 --> 00:58:08,490
