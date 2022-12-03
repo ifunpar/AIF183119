@@ -5342,116 +5342,116 @@ dari client dengan port 53.
 
 1121
 00:46:23,003 --> 00:46:24,320
-to the server on this port.
+ke server pada port ini.
 
 1122
 00:46:24,320 --> 00:46:25,200
-Here's the query.
+Inilah query-nya.
 
 1123
 00:46:25,200 --> 00:46:30,460
-And the server eventually
-sends back a reply saying,
+Dan server pada akhirnya
+mengirim kembali sebuah balasan yang mengatakan,
 
 1124
 00:46:30,460 --> 00:46:38,580
-mit.edu has a particular IP
-address, 18.9 dot something.
+mit.edu memiliki sebuah IP
+address tertentu, 18.9 titik sesuatu.
 
 1125
 00:46:38,580 --> 00:46:41,860
-The problem is that some
-adversary could easily
+Masalahnya adalah beberapa
+penyerang dapat dengan mudah 
 
 1126
 00:46:41,860 --> 00:46:43,615
-send a similar response
-packet pretending
+mengirim sebuah paket respon yang mirip
+berpura-pura
 
 1127
 00:46:43,615 --> 00:46:45,408
-to be from the server.
+untuk berasal dari server.
 
 1128
 00:46:45,408 --> 00:46:47,366
-And there's not a whole
-lot of randomness here.
+Dan tidak ada sangat
+banyak keteracakan di sini.
 
 1129
 00:46:47,366 --> 00:46:50,180
-So if I know that you're
-trying to connect to mit.edu,
+Jadi jika saya tahu bahwa anda 
+sedang mencoba untuk terhubung ke mit.edu,
 
 1130
 00:46:50,180 --> 00:46:53,126
-I'll just send a lot of packets
-like this to your machine.
+saya akan hanya mengirimkan paket yang banyak
+seperti ini kepada mesin anda.
 
 1131
 00:46:53,126 --> 00:46:55,334
-I know exactly what DNS
-server you're going to query.
+Saya tahu dengan tepat DNS server
+apa yang anda akan query.
 
 1132
 00:46:55,334 --> 00:46:57,400
-I know exactly what
-your IP address is.
+Saya tahu dengan tepat 
+apa itu IP address anda.
 
 1133
 00:46:57,400 --> 00:46:58,703
-I know the port numbers.
+Saya tahu port numbers-nya.
 
 1134
 00:46:58,703 --> 00:47:00,036
-I know what you're querying for.
+Saya tahu apa yang anda sedang query.
 
 1135
 00:47:00,036 --> 00:47:02,530
-I can just supply my
-own IP address here.
+Saya bisa hanya menyediakan
+IP address milik saya sendiri di sini.
 
 1136
 00:47:02,530 --> 00:47:06,310
-And if my packet gets
-there after you send this
+Dan jika paket saya mencapai
+sana setelah anda mengirim ini
 
 1137
 00:47:06,310 --> 00:47:08,630
-but before you get
-the real response,
+tapi sebelum anda mendapatkan
+respon sebenarnya,
 
 1138
 00:47:08,630 --> 00:47:11,930
-your client machine is
-going to use my packet.
+mesin client anda akan
+menggunakan paket saya.
 
 1139
 00:47:11,930 --> 00:47:14,585
-So this is another example
-where insufficient randomness
+Jadi ini adalah contoh lain
+di mana keteracakan yang tidak cukup
 
 1140
 00:47:14,585 --> 00:47:17,470
-in this protocol makes it
-very easy to inject responses
+dari protokol ini menyebabkan
+sangat mudah untuk memasukan respon
 
 1141
 00:47:17,470 --> 00:47:20,027
-or inject packets in general.
+atau memasukan paket secara umum.
 
 1142
 00:47:20,027 --> 00:47:21,860
-And this is actually
-in some ways even worse
+Dan hal ini sebenarnya
+dalam beberapa cara lebih buruk
 
 1143
 00:47:21,860 --> 00:47:23,113
-than the previous attack.
+dari pada serangan sebelumnya.
 
 1144
 00:47:23,113 --> 00:47:25,220
-Because here you could
-convince a client
+Karena di sini anda bisa
+meyakinkan seorang client
 
 1145
 00:47:25,220 --> 00:47:28,150
