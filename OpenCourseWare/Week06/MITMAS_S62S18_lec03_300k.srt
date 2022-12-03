@@ -6182,49 +6182,49 @@ This is a scalar--
 
 1341
 00:58:07,110 --> 00:58:08,490
-32 bytes-- that you made up.
+atas 32 bytes-- yang anda buat
 
 1342
 00:58:08,490 --> 00:58:14,400
-The hash, this is a message,
-also going to be however long.
+Hash-nya, ini pesan-nya,
+bagaimanapun akan panjang.
 
 1343
 00:58:14,400 --> 00:58:15,348
-This is 33 bytes.
+Ini 33 byte..
 
 1344
 00:58:15,348 --> 00:58:16,890
-You concatenate them
-together-- hash.
+Lalu anda menggabungkannya
+menjadi satu-- hash.
 
 1345
 00:58:16,890 --> 00:58:20,550
-You end up with
-another 32 byte scalar.
+Anda akan mendapatkan
+32 byte skalar lainnya.
 
 1346
 00:58:20,550 --> 00:58:23,320
-You multiply those two scalars.
+Anda kalikan kedua skalar.
 
 1347
 00:58:23,320 --> 00:58:26,760
-So actually, the only
-elliptic curve operation
+Jadi sebenarnya, satu-satunya
+operasi kurva eliptis
 
 1348
 00:58:26,760 --> 00:58:29,160
-here is calculating what R is.
+disini adalah menghitung berapa nilai R.
 
 1349
 00:58:29,160 --> 00:58:30,810
-When you're actually
-calculating s,
+Disaat kita
+menghitung s,
 
 1350
 00:58:30,810 --> 00:58:33,840
-this is all just scalar,
-so it's very fast.
+semua hal ini hanyalah skalar,
+itu sebabnya Ini sangat cepat.
 
 1351
 00:58:33,840 --> 00:58:36,090
