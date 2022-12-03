@@ -4648,55 +4648,55 @@ if you omit an S,
 
 978
 00:41:33,910 --> 00:41:37,189
-you might be relying
-on the fact that, well,
+kamu mungkin mengandalkan
+pada fakta bahwa, ya,
 
 979
 00:41:37,189 --> 00:41:39,730
-if it's the wrong S that you're
-trying to use the ticket for,
+jika itu adalah S yang salah yang kamu
+coba gunakan sebagai tiket untuk,
 
 980
 00:41:39,730 --> 00:41:42,320
-then maybe you'll have a
-different key over here
+maka mungkin kamu akan memiliki
+kunci yang berbeda di sebelah sini
 
 981
 00:41:42,320 --> 00:41:44,490
-and then it wouldn't decrypt
-or something like this.
+dan itu tidak akan mendekripsi
+atau sesuatu seperti ini.
 
 982
 00:41:44,490 --> 00:41:46,823
-But it seems like a good idea
-to include it to make sure
+Tetapi itu sepertinya ide yang bagus
+untuk melibatkan itu untuk memastikan
 
 983
 00:41:46,823 --> 00:41:48,630
-that the server that
-receives this tickets
+bahwa server yang
+menerima tiket-tiket ini
 
 984
 00:41:48,630 --> 00:41:49,960
-decrypts and checks.
+mendekripsi dan memeriksa.
 
 985
 00:41:49,960 --> 00:41:52,470
-Is that a ticket for
-me or for someone else?
+Apakah itu tiket untuk 
+saya atau orang lain?
 
 986
 00:41:52,470 --> 00:41:52,970
-Yeah.
+Iya.
 
 987
 00:41:52,970 --> 00:41:55,522
-STUDENT: What does the
-client get KTGS on?
+MAHASISWA: Apakah klien
+mendapatkan KTGS?
 
 988
 00:41:55,522 --> 00:41:56,730
-PROFESSOR: Ah, good question.
+PROFESOR: Ah, pertanyaan bagus.
 
 989
 00:41:56,730 --> 00:41:58,230
