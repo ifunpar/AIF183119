@@ -5455,123 +5455,127 @@ meyakinkan seorang client
 
 1145
 00:47:25,220 --> 00:47:28,150
+untuk terkoneksi bersama
+dengan IP address lainnya.
 to connect to another
 IP address all together.
 
 1146
 00:47:28,150 --> 00:47:29,865
-And it'll probably
-cache this result,
+Dan itu mungkin akan
+meng-cache hasilnya,
 
 1147
 00:47:29,865 --> 00:47:31,246
-because DNS involves caching.
+karena DNS melakukan caching.
 
 1148
 00:47:31,246 --> 00:47:32,787
-Maybe you can supply
-a very long time
+Mungkin hal tersebut akan cukup
+untuk menyediakan
 
 1149
 00:47:32,787 --> 00:47:36,550
-to live in this response
-saying, this is valid for years.
+response cukup lama 
+hingga bertahun-tahun.
 
 1150
 00:47:36,550 --> 00:47:38,620
-And then your client,
-again till it reboots,
+Lalu hingga client
+melakukan reboot,
 
 1151
 00:47:38,620 --> 00:47:41,740
-is going to keep using this
-IP address for mit.edu.
+maka client akan terus menggunakan 
+IP address mit.edu.
 
 1152
 00:47:41,740 --> 00:47:42,240
-Yeah.
+ya.
 
 1153
 00:47:42,240 --> 00:47:44,980
-AUDIENCE: Could you fix this
-by having the client include
+AUDIENS: Apakah permasalahan ini bisa diselesaikan
+dengan menambahkan
 
 1154
 00:47:44,980 --> 00:47:48,130
-some random value in the
-query, and the server customer
+nilai random pada
+query dan server pengguna
 
 1155
 00:47:48,130 --> 00:47:48,630
-exactly?
+tepatnya?
 
 1156
 00:47:48,630 --> 00:47:50,755
-PROFESSOR: That's right,
-yeah, so this is typically
+PROFESOR: Benar,
+ini biasanya yang dilakukan
 
 1157
 00:47:50,755 --> 00:47:52,050
-what people have done now.
+orang-orang pada umumnya.
 
 1158
 00:47:52,050 --> 00:47:55,167
-The problem, as we were sort
-of talking about earlier,
+Masalahnya, seperti yang 
+dibicarakan sebelumnya,
 
 1159
 00:47:55,167 --> 00:47:56,250
-is backward compatibility.
+yaitu kemampuan untuk terhubung dengan versi sebelumnya.
 
 1160
 00:47:56,250 --> 00:47:58,870
-It's very hard to change
-the DNS server software
+Sangat susah untuk mengganti
+software DNS server
 
 1161
 00:47:58,870 --> 00:47:59,760
-that everyone runs.
+di komputer semua orang.
 
 1162
 00:47:59,760 --> 00:48:01,260
-So you basically
-have to figure out,
+Pada dasarnya anda 
+harus mengetahui
 
 1163
 00:48:01,260 --> 00:48:02,700
-where can you inject randomness?
+dimana tingkat randomness dimasukan?
 
 1164
 00:48:02,700 --> 00:48:04,450
+dan orang-orang
+menentukan dua tempat,
 And people have
 figured out two places.
 
 1165
 00:48:04,450 --> 00:48:05,860
-It's not great.
+tetapi tidak sempurna,
 
 1166
 00:48:05,860 --> 00:48:08,340
-But basically there's
-a source port number,
+tetapi pada dasarnya terdapat
+source port number,
 
 1167
 00:48:08,340 --> 00:48:11,050
-which is 16 bits of randomness.
+yang memiliki tingkat randomness 16 bit.
 
 1168
 00:48:11,050 --> 00:48:13,700
-So if you can choose the
-source port number randomly,
+Lalu jika anda memilih 
+source port secara random,
 
 1169
 00:48:13,700 --> 00:48:15,140
-then you get 16 bits.
+maka anda akan mendapatkan 16 bits.
 
 1170
 00:48:15,140 --> 00:48:19,470
-And there's also
-a query ID inside
+lalu terdapat juga 
+query ID inside
 
 1171
 00:48:19,470 --> 00:48:22,460
