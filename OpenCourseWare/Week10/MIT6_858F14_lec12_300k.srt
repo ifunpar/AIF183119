@@ -5759,6 +5759,7 @@ walaupun sebenarnya ada.
 00:50:07,420 --> 00:50:09,930
 Jadi bagaimana Anda menandai
 tanggapan yang beberapa nama tertentu
+
 1209
 00:50:09,930 --> 00:50:11,951
 tidak ada sebelumnya?
@@ -5766,7 +5767,7 @@ tidak ada sebelumnya?
 1210
 00:50:11,951 --> 00:50:13,450
 Saya mengira satu kemungkinannya
-adalah Anda dapat 
+adalah Anda dapat
 
 1211
 00:50:13,450 --> 00:50:17,950
