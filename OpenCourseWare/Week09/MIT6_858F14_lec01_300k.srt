@@ -8346,107 +8346,109 @@ the code pointer, instruction
 
 1768
 01:13:30,780 --> 01:13:32,510
-pointer is pointing.
+penunjuk adalah menunjuk.
 
 1769
 01:13:32,510 --> 01:13:35,000
-Modern machines try to
-provide some defenses
+Mesin modern mencoba untuk
+menyediakan beberapa pertahanan
 
 1770
 01:13:35,000 --> 01:13:36,660
-for these kinds of attacks.
+untuk jenis penyerangan ini.
 
 1771
 01:13:36,660 --> 01:13:39,140
-And what modern
-machines often do is,
+ADan apa yang mesin
+modern sering lakukan adalah,
 
 1772
 01:13:39,140 --> 01:13:40,810
 they actually
-associate permissions
+mereka biasanya
+mengasosiasikan izin-izin
 
 1773
 01:13:40,810 --> 01:13:42,320
-with various memory regions.
+dengan bermacam-macam wilayah memori..
 
 1774
 01:13:42,320 --> 01:13:44,280
-And one of the
-permissions is execute.
+Dan salah satu
+izin adalah eksekusi.
 
 1775
 01:13:44,280 --> 01:13:47,730
-So the part of your
-32-bit or 64-bit address
+Jadi bagian dari
+32-bit atau 64-bit ruang
 
 1776
 01:13:47,730 --> 01:13:51,180
-space that contains code
-has the execute permission.
+alamat anda mengandung kode
+yang memilki izin eksekusi.
 
 1777
 01:13:51,180 --> 01:13:53,450
-So if your instruction
-pointer points there,
+Jadi jika instruksi penunjuk
+anda menunjuk ke sana,
 
 1778
 01:13:53,450 --> 01:13:55,740
-the CPU will actually
-run those things.
+CPU akan segera
+menjalankan hal tersebut.
 
 1779
 01:13:55,740 --> 01:13:59,057
-And the stack and other data
-portions of your address space
+Dan stack dan porsi data
+lain dari ruang alamat anda
 
 1780
 01:13:59,057 --> 01:14:00,890
-typically don't have
-the execute permission.
+kemungkinan tidak memiliki
+izin eksekusi.
 
 1781
 01:14:00,890 --> 01:14:03,610
-So if you happen to somehow
-set your instruction pointer
+Jadi jika anda kebetulan
+mengatur intruksi penunjuk anda
 
 1782
 01:14:03,610 --> 01:14:07,570
-to some non-code memory
-location, you can set it,
+ke beberapa lokasi memori
+tanpa kode, anda dapat mengatur itu,
 
 1783
 01:14:07,570 --> 01:14:10,060
-but the CPU will
-refuse to execute it.
+tapi CPU akan
+menolak untuk mengeksekusi itu.
 
 1784
 01:14:10,060 --> 01:14:13,930
 So this is a reasonably
-nice way to defend
+Jadi ini adalah sebuah cara
+yang cukup bagus untuk bertahan
 
 1785
 01:14:13,930 --> 01:14:15,250
-against these kinds of attacks.
+dari serangan seperti ini.
 
 1786
 01:14:15,250 --> 01:14:18,680
-But it doesn't prevent
-quite everything.
+Tapi ini tidak cukup
+mencegah segalanya.
 
 1787
 01:14:18,680 --> 01:14:19,990
-So just a question.
+Jadi hanya sebuah pertanyaan.
 
 1788
 01:14:19,990 --> 01:14:20,490
-OK.
+Ok.
 
 1789
 01:14:20,490 --> 01:14:22,410
-So how would you
-bypass this if you
+Jadi bagaimana anda akan
+melewati ini jika anda
 
 1790
 01:14:22,410 --> 01:14:24,985
