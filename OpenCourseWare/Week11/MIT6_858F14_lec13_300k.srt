@@ -3897,7 +3897,7 @@ PROFESOR: Itu benar, yah.
 
 821
 00:34:55,300 --> 00:34:56,841
-jadi jika Anda ingin benar-benar
+Jadi jika Anda ingin benar-benar
 melakukan ini dengan benar,
 
 822
@@ -4006,7 +4006,7 @@ Anda untuk mengirim satu hal
 843
 00:35:48,365 --> 00:35:50,840
 sebagai autentikasi Anda
-[INAUDIBLE].
+[TIDAK TERDENGAR].
 
 844
 00:35:50,840 --> 00:35:52,820
@@ -4102,7 +4102,7 @@ karena mereka tidak mau
 
 863
 00:36:33,165 --> 00:36:35,028
-ingin berkali-kali [INAUDIBLE].
+ingin berkali-kali [TIDAK TERDENGAR].
 
 864
 00:36:35,028 --> 00:36:37,620
@@ -4181,71 +4181,71 @@ belum tentu yang terbaik
 
 880
 00:37:16,090 --> 00:37:18,392
-but certainly good
-enough at the time.
+tapi tentu cukup baik
+pada saat itu.
 
 881
 00:37:18,392 --> 00:37:20,100
-And they just baked
-it into the protocol.
+Dan mereka sekadar menanam
+hal tersebut ke dalam protokol.
 
 882
 00:37:20,100 --> 00:37:22,880
-Everything in Kerberos has
-to use single DES or at least
+Segala sesuatu yang ada di Kerberos
+menggunakan DES sederhana atau setidaknya
 
 883
 00:37:22,880 --> 00:37:24,890
-everything in
-Kerberos version 4.
+semuanya dalam
+Kerberos versi 4.
 
 884
 00:37:24,890 --> 00:37:27,935
-And this was a bit problematic
-because 25 years later,
+Dan hal ini menjadi masalah
+karena 25 tahun kemudian,
 
 885
 00:37:27,935 --> 00:37:29,310
-30 years later
-now, it's actually
+30 tahun kemudian
+sekarang, sebenarnya
 
 886
 00:37:29,310 --> 00:37:32,820
-very cheap to brute
-force DES encryption
+sangat mudah untuk melakukan
+brute force untuk DES encryption
 
 887
 00:37:32,820 --> 00:37:34,690
-because the keys are
-actually very small.
+karena mayoritas kunci
+sebenarnya sangat kecil.
 
 888
 00:37:34,690 --> 00:37:36,570
-They're 56 bits.
+Mereka berukuran 56 bit.
 
 889
 00:37:36,570 --> 00:37:39,140
-So you could just search build
-some custom hardware that
+Jadi Anda dapat mencari membuat
+perangkat keras yang secara khusus
 
 890
 00:37:39,140 --> 00:37:42,090
 mengiterasi semua kemungkinan
-2 sampai 56 kombinasi
+dari 2 pangkat 56 kombinasi
 
 891
 00:37:42,090 --> 00:37:46,379
 dan mencoba semuanya lalu mencari
-tahu apa kata sandi seseorang.
+tahu apa isi dari kata sandi seseorang.
 
 892
 00:37:46,379 --> 00:37:48,170
 Jadi ini adalah sesuatu
-yang kamu juga ingin hindari
+yang Anda juga ingin hindari
 
 893
 00:37:48,170 --> 00:37:49,710
-di berbagai protokol yang kamu rancang sekarang.
+di berbagai protokol yang Anda rancang sekarang.
 
 894
 00:37:49,710 --> 00:37:51,550
@@ -4282,159 +4282,159 @@ Tapi sekarang mereka tidak.
 
 901
 00:38:07,560 --> 00:38:08,530
-So that's good.
+Jadi itu bagus.
 
 902
 00:38:08,530 --> 00:38:12,860
-Your principal is secure at
-least from this kind of attack.
+Prinsipiel Anda aman
+setidaknya dari jenis serangan ini.
 
 903
 00:38:12,860 --> 00:38:14,680
-All right, so does
-that make sense?
+Baiklah, jadi apakah
+itu masuk akal?
 
 904
 00:38:14,680 --> 00:38:16,350
-This is the initial
-way you'd get
+Ini adalah cara
+awal untuk Anda mendapatkan
 
 905
 00:38:16,350 --> 00:38:18,210
-any ticket at all in Kerberos.
+tiket apapun dalam Kerberos.
 
 906
 00:38:18,210 --> 00:38:20,810
-And typically, you'd get this
-ticket from this TGS service.
+Dan khususnya, Anda mendapatkan
+tiket ini dari layanan TGS.
 
 907
 00:38:20,810 --> 00:38:24,090
-So now let's look at what's
-going on in this TGS service.
+Jadi sekarang marilah melihat apa
+yang sedang terjadi dalam layanan TGS.
 
 908
 00:38:24,090 --> 00:38:27,700
-So here, the interaction
-with the TGS service
+Jadi di sini, interaksi
+dengan layanan TGS
 
 909
 00:38:27,700 --> 00:38:29,350
-is going to be a
-little different.
+akan menjadi 
+sedikit berbeda.
 
 910
 00:38:29,350 --> 00:38:32,150
-On one hand, you're
-going to-- as a client,
+Di satu sisi, Anda 
+akan-- sebagai klien,
 
 911
 00:38:32,150 --> 00:38:33,900
-you're going to have
-to speak to it as
+Anda diharuskan untuk
+berbicara dengannya
 
 912
 00:38:33,900 --> 00:38:37,910
-if you're speaking to any
-other Kerberos enabled service.
+seolah-olah Anda berbicara dengan 
+layanan lain yang mengaktifkan Kerberos.
 
 913
 00:38:37,910 --> 00:38:39,660
-So we'll see how you
-authenticate yourself
+Jadi kita akan melihat bagaimana Anda
+mengautentikasi diri Anda sendiri
 
 914
 00:38:39,660 --> 00:38:41,714
-with a ticket to some machine.
+dengan tiket ke sebuah mesin.
 
 915
 00:38:41,714 --> 00:38:43,630
-But then the response
-you're going to get back
+Tetapi tanggapan yang akan
+Anda dapatkan kembali
 
 916
 00:38:43,630 --> 00:38:46,071
-is just a ticket for
-some other principle
+hanyalah tiket untuk
+beberapa prinsipiel lain
 
 917
 00:38:46,071 --> 00:38:48,570
-that you're going to want to
-communicate with like your file
+yang ingin Anda
+komunikasikan seperti server
 
 918
 00:38:48,570 --> 00:38:50,230
-server.
+file Anda.
 
 919
 00:38:50,230 --> 00:38:54,210
-So the protocol level messages
-that show up here kind of
+Jadi pesan-pesan tingkat protokol
+yang muncul di sini
 
 920
 00:38:54,210 --> 00:38:54,910
-look like this.
+terlihat seperti ini.
 
 921
 00:38:54,910 --> 00:38:57,050
-So here's your TGS service.
+Jadi inilah layanan TGS Anda.
 
 922
 00:38:57,050 --> 00:38:59,230
-And here's a client.
+Dan inilah klien.
 
 923
 00:38:59,230 --> 00:39:02,750
-The client already
-got a ticket for TGS
+Klien sudah
+mendapatkan tiket untuk TGS
 
 924
 00:39:02,750 --> 00:39:04,090
-using this protocol above.
+menggunakan protokol di atas
 
 925
 00:39:04,090 --> 00:39:06,580
-So what the client is
-actually going to send over
+Jadi hal yang pelanggan 
+akan kirim sebenarnya
 
 926
 00:39:06,580 --> 00:39:10,190
-is some combination
-of messages that
+adalah sebuah kombinasi
+dari pesan-pesan yang
 
 927
 00:39:10,190 --> 00:39:12,690
-prove that this is
-the right client
+membuktikan bahwa ini
+adalah pelanggan yang tepat
 
 928
 00:39:12,690 --> 00:39:16,900
-and they're issuing a request
-for some particular principle
+dan mereka mengirimkan permintaan
+untuk beberapa prinsipiel tertentu
 
 929
 00:39:16,900 --> 00:39:17,490
-through TGS.
+lewat TGS.
 
 930
 00:39:17,490 --> 00:39:20,414
-So what the client is going
-to send to TGS is this tuple.
+Jadi apa yang klien akan
+kirim ke TGS adalah tupel ini.
 
 931
 00:39:20,414 --> 00:39:21,830
-So first, it's
-going to say, well,
+Jadi pertama, dia akan
+berkata, yah,
 
 932
 00:39:21,830 --> 00:39:24,000
-here's the service that
-I want to talk to next.
+saya ingin berbicara
+pada layanan ini berikutnya.
 
 933
 00:39:24,000 --> 00:39:27,130
-So this might be your mail
-server or your file server.
+Jadi ini mungkin server e-mail
+Anda atau server file kamu.
 
 934
 00:39:27,130 --> 00:39:29,440
@@ -4491,53 +4491,53 @@ at this message,
 
 945
 00:40:00,399 --> 00:40:02,690
-do something with it that
-we'll talk about in a second,
+melakukan sesuatu dengan ini yang
+akan kita bicarakan sebentar ini,
 
 946
 00:40:02,690 --> 00:40:07,770
-and respond back with a
-ticket for this new service S.
+dan merespon balik dengan sebuah
+tiket untuk pelayanan S baru ini.
 
 947
 00:40:07,770 --> 00:40:10,700
-So the response here looks
-almost exactly like here.
+Jadi respon disini terlihat
+hampir tepat seperti disini.
 
 948
 00:40:10,700 --> 00:40:12,490
-In fact, it is exactly
-the same thing.
+Faktanya, ini tepat
+hal yang sama.
 
 949
 00:40:12,490 --> 00:40:14,610
-It's going to be a
-ticket between the client
+Ini akan menjadi
+tiket antara klien
 
 950
 00:40:14,610 --> 00:40:18,310
-and this new service
-S encrypted with KS
+dan pelayanan S
+baru yang terenkripsi oleh KS
 
 951
 00:40:18,310 --> 00:40:21,320
-and the shared key between the
-client and this new service
+dan kunci bersama yang di antara
+klien dan pelayanan S baru
 
 952
 00:40:21,320 --> 00:40:25,040
-S encrypted-- well, now,
-here's a little bit different.
+yang terenkripsi-- jadi, sekarang,
+disini ada sedikit perbedaan.
 
 953
 00:40:25,040 --> 00:40:27,550
-Instead of encrypting with KC,
-which the client has probably
+Alih-alih mengenkripsi dengan KC,
+yang mana klien punya kemungkinan
 
 954
 00:40:27,550 --> 00:40:29,280
-forgotten since
-then, now we're going
+lupa sejak
+saat itu, sekarang kita akan
 
 955
 00:40:29,280 --> 00:40:31,800
@@ -4648,55 +4648,55 @@ if you omit an S,
 
 978
 00:41:33,910 --> 00:41:37,189
-you might be relying
-on the fact that, well,
+kamu mungkin mengandalkan
+pada fakta bahwa, ya,
 
 979
 00:41:37,189 --> 00:41:39,730
-if it's the wrong S that you're
-trying to use the ticket for,
+jika itu adalah S yang salah yang kamu
+coba gunakan sebagai tiket untuk,
 
 980
 00:41:39,730 --> 00:41:42,320
-then maybe you'll have a
-different key over here
+maka mungkin kamu akan memiliki
+kunci yang berbeda di sebelah sini
 
 981
 00:41:42,320 --> 00:41:44,490
-and then it wouldn't decrypt
-or something like this.
+dan itu tidak akan mendekripsi
+atau sesuatu seperti ini.
 
 982
 00:41:44,490 --> 00:41:46,823
-But it seems like a good idea
-to include it to make sure
+Tetapi itu sepertinya ide yang bagus
+untuk melibatkan itu untuk memastikan
 
 983
 00:41:46,823 --> 00:41:48,630
-that the server that
-receives this tickets
+bahwa server yang
+menerima tiket-tiket ini
 
 984
 00:41:48,630 --> 00:41:49,960
-decrypts and checks.
+mendekripsi dan memeriksa.
 
 985
 00:41:49,960 --> 00:41:52,470
-Is that a ticket for
-me or for someone else?
+Apakah itu tiket untuk 
+saya atau orang lain?
 
 986
 00:41:52,470 --> 00:41:52,970
-Yeah.
+Iya.
 
 987
 00:41:52,970 --> 00:41:55,522
-STUDENT: What does the
-client get KTGS on?
+MAHASISWA: Apakah klien
+mendapatkan KTGS?
 
 988
 00:41:55,522 --> 00:41:56,730
-PROFESSOR: Ah, good question.
+PROFESOR: Ah, pertanyaan bagus.
 
 989
 00:41:56,730 --> 00:41:58,230
