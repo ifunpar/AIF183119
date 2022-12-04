@@ -5685,107 +5685,106 @@ tentang mencoba melakukan hal ini.
 
 1193
 00:49:28,070 --> 00:49:30,770
-So instead of relying on
-any network level security
+Jadi alih-alih mengandalkan
+properti keamanan apapun di tingkat
 
 1194
 00:49:30,770 --> 00:49:34,590
-properties, they require that
-all DNS names have signatures
+jaringan, mereka mengharuskan semua
+nama DNS memiliki tanda tangan
 
 1195
 00:49:34,590 --> 00:49:36,290
-attached to them.
+yang menyertainya.
 
 1196
 00:49:36,290 --> 00:49:37,820
-That seems like a sensible plan.
+Sepertinya itu rencana yang masuk akal.
 
 1197
 00:49:37,820 --> 00:49:39,695
-But it turns out that
-working out the details
+Tetapi ternyata
+Mengerjakan detailnya
 
 1198
 00:49:39,695 --> 00:49:42,300
-is actually quite
-difficult. So one example
+sebenarnya cukup
+sulit. Jadi salah satu contoh
 
 1199
 00:49:42,300 --> 00:49:47,100
-of a problem that showed
-up is name and origin.
+masalah yang muncul
+adalah nama dan asalnya.
 
 1200
 00:49:47,100 --> 00:49:51,130
-Because in DNS, you
-want to get responses.
+Karena di DNS, Anda
+ingin mendapatkan tanggapan.
 
 1201
 00:49:51,130 --> 00:49:52,680
-Well, this name has
-that IP address.
+Jadi, nama ini memiliki
+alamat IP itu.
 
 1202
 00:49:52,680 --> 00:49:54,721
-Or you could get a response
-saying, no, so sorry,
+Atau Anda dapat mendapatkan tanggapan
+mengatakan, tidak, maaf,
 
 1203
 00:49:54,721 --> 00:49:56,310
-this name doesn't exist.
+nama ini tidak ada.
 
 1204
 00:49:56,310 --> 00:50:00,186
-So you want to sign the it
-doesn't exist response as well.
+Jadi Anda ingin menandai juga
+tanggapan yang tidak ada tersebut.
 
 1205
 00:50:00,186 --> 00:50:01,560
-Because otherwise,
-that adversary
+Karena kalau tidak,
+musuh itu
 
 1206
 00:50:01,560 --> 00:50:04,760
-could send back a doesn't
-exist response and pretend
+dapat mengirim kembali tanggapan
+yang tidak ada dan berpura-pura
 
 1207
 00:50:04,760 --> 00:50:07,420
-that a name doesn't exist,
-even though it does.
+kalau nama tersebut tidak ada,
+walaupun sebenarnya ada.
 
 1208
 00:50:07,420 --> 00:50:09,930
-So how do you sign
-responses that certain names
-
+Jadi bagaimana Anda menandai
+tanggapan yang beberapa nama tertentu
 1209
 00:50:09,930 --> 00:50:11,951
-don't exist ahead of time?
+tidak ada sebelumnya?
 
 1210
 00:50:11,951 --> 00:50:13,450
-I guess one possibility
-is you could
+Saya mengira satu kemungkinannya
+adalah Anda dapat 
 
 1211
 00:50:13,450 --> 00:50:17,950
-give your DNS server the key
-that signs all your records.
+memberikan kunci server DNS Anda
+yang menandai semua catatan Anda.
 
 1212
 00:50:17,950 --> 00:50:19,082
-That seems like a bad plan.
+Sepertinya itu rencana yang buruk.
 
 1213
 00:50:19,082 --> 00:50:21,248
-Because then someone who
-compromises your DNS server
+Karena dengan begitu seseorang
+yang mengkompromikan server DNS Anda
 
 1214
 00:50:21,248 --> 00:50:22,680
-could walk away with this key.
+dapat pergi dengan kunci ini.
 
 1215
 00:50:22,680 --> 00:50:25,700
