@@ -5457,8 +5457,6 @@ meyakinkan seorang client
 00:47:25,220 --> 00:47:28,150
 untuk terkoneksi bersama
 dengan IP address lainnya.
-to connect to another
-IP address all together.
 
 1146
 00:47:28,150 --> 00:47:29,865
@@ -5547,8 +5545,6 @@ dimana tingkat randomness dimasukan?
 00:48:02,700 --> 00:48:04,450
 dan orang-orang
 menentukan dua tempat,
-And people have
-figured out two places.
 
 1165
 00:48:04,450 --> 00:48:05,860
