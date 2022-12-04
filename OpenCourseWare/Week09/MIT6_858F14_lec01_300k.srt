@@ -8359,12 +8359,11 @@ untuk jenis penyerangan ini.
 
 1771
 01:13:36,660 --> 01:13:39,140
-ADan apa yang mesin
+Dan apa yang mesin
 modern sering lakukan adalah,
 
 1772
 01:13:39,140 --> 01:13:40,810
-they actually
 mereka biasanya
 mengasosiasikan izin-izin
 
@@ -8424,7 +8423,6 @@ menolak untuk mengeksekusi itu.
 
 1784
 01:14:10,060 --> 01:14:13,930
-So this is a reasonably
 Jadi ini adalah sebuah cara
 yang cukup bagus untuk bertahan
 
