@@ -5579,109 +5579,109 @@ query ID inside
 
 1171
 00:48:19,470 --> 00:48:22,460
-of the packet, which
-is also 16 bits.
+di dalam paket, yang
+juga berisi 16 bit.
 
 1172
 00:48:22,460 --> 00:48:25,030
-And the server does
-echo back the query ID.
+Dan server juga mengembalikan
+ID kueri.
 
 1173
 00:48:25,030 --> 00:48:27,040
-So combining these
-two things together,
+Sehingga menggabungkan kedua
+benda ini bersama,
 
 1174
 00:48:27,040 --> 00:48:30,570
-most resolvers these days
-get 32 bits of randomness
+sebagian besar penyelesaian akhir-akhir ini
+mendapatkan keacakan dari 32 bit
 
 1175
 00:48:30,570 --> 00:48:31,940
-out of this protocol.
+dari protokol ini.
 
 1176
 00:48:31,940 --> 00:48:36,620
-And it, again, makes it
-noticeably harder, but still
+Dan, lagi, itu membuatnay terasa
+lebih susah, tetapi tetap saja
 
 1177
 00:48:36,620 --> 00:48:40,854
-not cryptographically perfect,
-to fake this kind of response
+tidak sempura secara kriptografi,
+untuk memalsukan tanggapan seperti ini
 
 1178
 00:48:40,854 --> 00:48:44,340
-and have it be
-accepted by the client.
+dan membuat itu
+diterima oleh klien.
 
 1179
 00:48:44,340 --> 00:48:47,450
-But these problems keep
-coming up, unfortunately.
+Sayangnya, masalah ini
+terus datang.
 
 1180
 00:48:47,450 --> 00:48:51,990
-So even though it was
-well understood for TCP,
+Sehingga meskipun itu
+dipahami dengan baik oleh TCP,
 
 1181
 00:48:51,990 --> 00:48:55,200
-some people I guess suggested
-that this might be a problem.
+beberapa orang saya tebak merekomendasikan
+bahwa ini adalah sebuah masalah.
 
 1182
 00:48:55,200 --> 00:48:59,350
-But it wasn't actually fixed
-until only a few years ago.
+Tetapi itu tidak sebenarnya diperbaiki
+sampai beberapa tahun lalu.
 
 1183
 00:49:01,970 --> 00:49:04,220
-Make sense?
+Masuk akal?
 
 1184
 00:49:04,220 --> 00:49:06,080
-All right, so I guess
-maybe as an aside,
+Baiklah, jadi saya kira
+sebagai tambahan,
 
 1185
 00:49:06,080 --> 00:49:08,910
-there are solutions
-to this DNS problem
+ada solusi 
+untuk masalah DNS ini
 
 1186
 00:49:08,910 --> 00:49:11,890
-as well by enforcing
-security for DNS
+juga dengan memperkuat
+keamanan untuk DNS
 
 1187
 00:49:11,890 --> 00:49:13,270
-at the application level.
+pada level aplikasi.
 
 1188
 00:49:13,270 --> 00:49:16,750
-So instead of relying on
-these randomness properties
+Sehingga daripada mengandalkan pada
+keacakan properti
 
 1189
 00:49:16,750 --> 00:49:19,611
-of small numbers of
-bits in the packet,
+dari angka kecil dari
+suatu bit pada paket,
 
 1190
 00:49:19,611 --> 00:49:23,680
-you could try to use encryption
-in the DNS protocols.
+Anda dapat mencoba menggunakan enkripsi
+pada protokol DNS.
 
 1191
 00:49:23,680 --> 00:49:26,040
-So protocols like DNS SEC
-that the paper briefly
+Sehingga protokol seperti DNS SEC
+yang dibicarakan secara singkat pada kertas
 
 1192
 00:49:26,040 --> 00:49:28,070
-talks about try to do this.
+tentang mencoba melakukan hal ini.
 
 1193
 00:49:28,070 --> 00:49:30,770
