@@ -5677,7 +5677,7 @@ pada protokol DNS.
 1191
 00:49:23,680 --> 00:49:26,040
 Sehingga protokol seperti DNS SEC
-yang dibicarakan secara singkat pada kertas
+yang disebutkan secara singkat pada kertas
 
 1192
 00:49:26,040 --> 00:49:28,070
