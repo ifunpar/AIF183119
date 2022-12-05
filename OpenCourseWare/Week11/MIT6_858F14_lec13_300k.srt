@@ -4438,56 +4438,56 @@ Anda atau server file kamu.
 
 934
 00:39:27,130 --> 00:39:29,440
-Then is going to
-include the ticket.
+Kemudian akan
+termasuk tiketnya.
 
 935
 00:39:29,440 --> 00:39:30,970
-It already got 4TGS.
+Itu sudah mendapat 4TGS.
 
 936
 00:39:30,970 --> 00:39:38,100
-So this is going to be TC
-of TGS encrypted with KTGS.
+Jadi ini akan menjadi TC
+dari TGS yang dienkripsi dengan KTGS.
 
 937
 00:39:38,100 --> 00:39:41,430
-So this is just this
-thing where S is TGS.
+Jadi hanya ini
+hal dimana S adalah TGS.
 
 938
 00:39:41,430 --> 00:39:43,890
-And then you're going to have
-to include this authenticator
+Dan kemudian anda harus
+menyertakan pengautentikasi ini.
 
 939
 00:39:43,890 --> 00:39:44,890
-blob.
+gumpal.
 
 940
 00:39:44,890 --> 00:39:48,155
-This is this AC
-thing from up there.
+Ini ACnya
+dari atas sana.
 
 941
 00:39:48,155 --> 00:39:49,780
-And this thing is
-going to be encrypted
+Dan benda ini
+akan dienkripsi
 
 942
 00:39:49,780 --> 00:39:54,892
-with a shared key between the
-client and the TGS service.
+dengan kunci bersama antara
+klien dan layanan TGS.
 
 943
 00:39:54,892 --> 00:39:58,360
-So this is the message that
-you're going to send to TGS.
+Jadi ini adalah pesan yang akan
+anda kirimkan kepada TGS.
 
 944
 00:39:58,360 --> 00:40:00,399
-It's going to look
-at this message,
+Ini akan terlihat
+pada pesan ini,
 
 945
 00:40:00,399 --> 00:40:02,690
