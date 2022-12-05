@@ -5876,8 +5876,8 @@ uatu graf 3-colorable adalah NPC.
 
 1251
 01:09:20,330 --> 01:09:25,800
-You can use a three set
-as a way of showing that.
+kamu bisa menggunakan tiga set
+sebagai cara menunjukkan itu.
 
 1252
 01:09:25,800 --> 01:09:31,770
