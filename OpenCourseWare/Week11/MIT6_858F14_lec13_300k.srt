@@ -4596,55 +4596,55 @@ So let's just double check.
 
 967
 00:41:04,400 --> 00:41:07,100
-Why do we need all those
-fields in the ticket?
+Mengapa kita membutuhkan semua
+bidang itu di tiket?
 
 968
 00:41:07,100 --> 00:41:12,687
-So is it important to have the
-server name S in the ticket?
+Jadi apakah penting untuk memiliki
+nama server S di tiket?
 
 969
 00:41:12,687 --> 00:41:14,770
-What would go wrong if you
-didn't have S in there?
+Apa yang salah jika Anda
+tidak memiliki S di sana?
 
 970
 00:41:17,722 --> 00:41:19,682
-Anything?
+Apa pun?
 
 971
 00:41:19,682 --> 00:41:20,182
-Yeah.
+Yah.
 
 972
 00:41:20,182 --> 00:41:21,640
-STUDENT: They could
-potentially get
+MAHASISWA: Mereka
+berpotensi mendapatkan
 
 973
 00:41:21,640 --> 00:41:24,610
-authorized to use any server.
+otorisasi untuk menggunakan server apa pun.
 
 974
 00:41:24,610 --> 00:41:27,370
-PROFESSOR: Yeah, so it's
-in general a good idea
+PROFESOR: Yah, jadi secara
+umum itu ide yang bagus
 
 975
 00:41:27,370 --> 00:41:29,300
-to be very explicit
-in network protocols
+untuk sangat eksplisit
+dalam protokol jaringan
 
 976
 00:41:29,300 --> 00:41:31,580
-and to say exactly
-what a message means.
+dan mengatakan dengan tepat
+apa arti sebuah pesan.
 
 977
 00:41:31,580 --> 00:41:33,910
-So in this case,
-if you omit an S,
+Jadi dalam hal ini,
+jika Anda menghilangkan huruf S,
 
 978
 00:41:33,910 --> 00:41:37,189
