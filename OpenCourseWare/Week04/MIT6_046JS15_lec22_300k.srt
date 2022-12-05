@@ -5872,7 +5872,7 @@ tidak 3-colorable
 1250
 01:09:11,020 --> 01:09:14,890
 Namun untuk memeriksa apakah
-uatu graf 3-colorable adalah NPC.
+suatu graf 3-colorable adalah NPC.
 
 1251
 01:09:20,330 --> 01:09:25,800
