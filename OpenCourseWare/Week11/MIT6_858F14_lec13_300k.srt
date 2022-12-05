@@ -4541,58 +4541,58 @@ saat itu, sekarang kita akan
 
 955
 00:40:29,280 --> 00:40:31,800
-to encrypt it with this
-shared key between the client
+mengenkripsi itu dengan
+kunci yang dibagi diantara klien
 
 956
 00:40:31,800 --> 00:40:35,510
-and the TGS service.
+dan TGS service.
 
 957
 00:40:35,510 --> 00:40:38,030
-Makes sense?
+Masuk akal?
 
 958
 00:40:38,030 --> 00:40:44,850
-All right, so in this-- how does
-the server actually figure out
+ok, jadi didalam-- bagaimana
+server benar-benar memahami
 
 959
 00:40:44,850 --> 00:40:46,590
-what the client wants to do?
+apa sang klien mau lakukan?
 
 960
 00:40:46,590 --> 00:40:49,120
-Or, how does server
-authenticate the client?
+atau, bagaimana server
+mengautentikasi sang klien?
 
 961
 00:40:49,120 --> 00:40:52,650
-Well, in this case, it's
-going to-- TGS server actually
+jadi, didalam kasus ini, itu
+akan-- sebenarnya TGS server
 
 962
 00:40:52,650 --> 00:40:54,840
-knows its own key, KTGS.
+tahu kuncinya sendiri, KTGS.
 
 963
 00:40:54,840 --> 00:40:57,390
-So it's going to first
-decrypt this blob
+Jadi pertama itu akan
+dekripsi blob ini
 
 964
 00:40:57,390 --> 00:41:00,090
-and look inside the ticket and
-figure out what's going on.
+dan lihat didalam tiket dan
+mencari tahu apa yang sedang terjadi.
 
 965
 00:41:00,090 --> 00:41:03,190
-And there's all those
-nice fields in the ticket.
+Dan semua itu adalah 
+bidang yang bagus didalam tiket.
 
 966
 00:41:03,190 --> 00:41:04,400
-So let's just double check.
+Jadi mari periksa ulang.
 
 967
 00:41:04,400 --> 00:41:07,100
