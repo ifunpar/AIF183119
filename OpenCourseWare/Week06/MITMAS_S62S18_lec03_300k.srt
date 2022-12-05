@@ -6098,7 +6098,7 @@ Dan k adalah bilangan acak baru.
 
 1323
 00:57:15,650 --> 00:57:17,150
-Itu adalah kunci pribadi.
+Itu adalah kunci privatnya.
 
 1324
 00:57:17,150 --> 00:57:20,308
@@ -6107,16 +6107,16 @@ mengalikannya dengan G.
 
 1325
 00:57:20,308 --> 00:57:22,100
-Dan mereka menyebutnya R.
+Dan mereka menyebut ini R.
 Saya tidak tahu mengapa mereka
 
 1326
 00:57:22,100 --> 00:57:25,460
-menggunakan surat-surat ini, tapi bagaimanapun juga.
+menggunakan huruf-huruf ini, tapi bagaimanapun juga.
 
 1327
 00:57:25,460 --> 00:57:30,680
-K kali G adalah R. R adalah kunci publik
+K dikalikan G adalah R. R adalah kunci publik
 lain yang Anda gunakan hanya
 
 1328
@@ -6135,67 +6135,67 @@ menghitung s, yaitu k--
 
 1331
 00:57:40,590 --> 00:57:42,750
-this new private key
-you just made up--
+kunci privat baru ini
+yang baru saja Anda buat--
 
 1332
 00:57:42,750 --> 00:57:47,160
-minus the hash of your
-message concatenated with R,
+dikurangi hash dari
+pesan Anda dipasangkan dengan R,
 
 1333
 00:57:47,160 --> 00:57:49,990
-this public key-- so you encode
-the public key in 33 bytes,
+kunci public ini-- sehingga Anda mengkodekan
+kunci publiknya dalam 33 byte,
 
 1334
 00:57:49,990 --> 00:57:50,910
-stick it in there--
+tempelkan di sini--
 
 1335
 00:57:50,910 --> 00:57:55,650
-multiplied by a, your
-normal private key.
+dikalikan dengan a, kunci
+privat normal Anda.
 
 1336
 00:57:55,650 --> 00:57:57,990
-And then your
-signature is the pair--
+Kemudian tanda tangan Anda
+adalah pasangan--
 
 1337
 00:57:57,990 --> 00:58:00,990
-the R point and the s scalar.
+poin R dan skalar s.
 
 1338
 00:58:00,990 --> 00:58:03,390
-This is a little bit
-of a bunch to process.
+Ini cukup banyak
+untuk diproses.
 
 1339
 00:58:03,390 --> 00:58:06,150
-But it's actually
-not too bad, right?
+Namun sebenarnya
+tidak terlalu buruk, bukan?
 
 1340
 00:58:06,150 --> 00:58:07,110
-This is a scalar--
+Ini adalah sebuah skalar--
 
 1341
 00:58:07,110 --> 00:58:08,490
-atas 32 bytes-- yang anda buat
+atas 32 bytes-- yang Anda buat
 
 1342
 00:58:08,490 --> 00:58:14,400
-Hash-nya, ini pesan-nya,
-bagaimanapun akan panjang.
+Hash-nya, ini adalah sebuah pesan,
+juga akan seberapa panjang.
 
 1343
 00:58:14,400 --> 00:58:15,348
-Ini 33 byte..
+Ini 33 byte.
 
 1344
 00:58:15,348 --> 00:58:16,890
-Lalu anda menggabungkannya
+Lalu Anda menggabungkannya
 menjadi satu-- hash.
 
 1345
@@ -6205,73 +6205,73 @@ Anda akan mendapatkan
 
 1346
 00:58:20,550 --> 00:58:23,320
-Anda kalikan kedua skalar.
+Anda kalikan kedua skalar tersebut.
 
 1347
 00:58:23,320 --> 00:58:26,760
 Jadi sebenarnya, satu-satunya
-operasi kurva eliptis
+operasi kurva eliptik
 
 1348
 00:58:26,760 --> 00:58:29,160
-disini adalah menghitung berapa nilai R.
+di sini adalah menghitung berapa nilai R.
 
 1349
 00:58:29,160 --> 00:58:30,810
-Disaat kita
+Saat Anda sebenarnya
 menghitung s,
 
 1350
 00:58:30,810 --> 00:58:33,840
 semua hal ini hanyalah skalar,
-itu sebabnya Ini sangat cepat.
+jadi itu sangat cepat.
 
 1351
 00:58:33,840 --> 00:58:36,090
-Jadi dalam hal praktikal
-komputer,
+Jadi dalam hal komputer
+praktis,
 
 1352
 00:58:36,090 --> 00:58:39,720
 melakukan operasi ini
-sedikit lambat pada sisi ini.
+sedikit lambat.
 
 1353
 00:58:39,720 --> 00:58:42,270
-Karena kalian melakukan
-penambahan poin itu lumayan memakan
+Karena Anda melakukan
+penambahan poin itu sebanyak
 
 1354
 00:58:42,270 --> 00:58:44,160
-waktu.
+berkali-kali.
 
 1355
 00:58:44,160 --> 00:58:47,430
-Jadi kode yang baik,
-CPU yang baik, dapat
+Jadi kode yang cukup baik,
+CPU yang cukup baik, dapat
 
 1356
 00:58:47,430 --> 00:58:53,100
-melakukan beribu order
-dari operasi tipe ini
+melakukan ribuan
+operasi seperti ini
 
 1357
 00:58:53,100 --> 00:58:56,610
-per detik, dimana hal tersebut sangat baik.
+per detik, di mana hal tersebut cukup baik.
 
 1358
 00:58:56,610 --> 00:58:59,190
-Kalian bisa melakukan dalam jumlah yang banyak,
+Anda bisa melakukan dalam jumlah yang banyak,
 tapi itu lumayan lambat.
 
 1359
 00:58:59,190 --> 00:59:01,770
-Dan ini sangat
-lambat dibandingkan dengan hash function.
+Dan itu lebih lambat
+dibandingkan dengan fungsi hash.
 
 1360
 00:59:01,770 --> 00:59:04,770
-Kalian dapat melakukan jutaan iterasi
+Anda dapat melakukan jutaan iterasi
 dari sebuah hash function per detik
 
 1361
@@ -6291,17 +6291,17 @@ membutuhkan sedikit waktu.
 
 1364
 00:59:16,585 --> 00:59:18,210
-Sebenarnya ini mengambil
+Sebenarnya ini membutuhkan
 waktu yang sangat sedikit.
 
 1365
 00:59:18,210 --> 00:59:23,100
 Karena Anda hanya mengurangi
-dan mengalikan skalar 32 byte
+dan mengalikan bilangan bulat
 
 1366
 00:59:23,100 --> 00:59:25,810
-bilangan bulat, yang jauh lebih cepat.
+skalar 32 byte, yang jauh lebih cepat.
 
 1367
 00:59:25,810 --> 00:59:26,310
@@ -6313,7 +6313,7 @@ Jadi apakah ini masuk akal?
 
 1369
 00:59:29,300 --> 00:59:31,750
-Kita akan masuk sedikit
+Kita akan masuk sedikit ke
 bagaimana Anda tidak bisa memalsukan ini.
 
 1370
