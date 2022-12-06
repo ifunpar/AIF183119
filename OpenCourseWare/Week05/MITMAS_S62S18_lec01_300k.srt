@@ -5466,59 +5466,59 @@ pragambar jika Anda lakukan hash dua kali,
 
 1156
 00:50:05,830 --> 00:50:06,838
-and the answer's no.
+dan jawabannya adalah tidak.
 
 1157
 00:50:06,838 --> 00:50:08,380
-TADGE DRYJA: The
-answer's sort of no.
+TADGE DRYJA: Jawabannya
+itu adalah tidak.
 
 1158
 00:50:08,380 --> 00:50:10,480
-It might.
+Itu mungkin.
 
 1159
 00:50:10,480 --> 00:50:14,410
-So I don't know, chained MD5,
-can you still find collisions?
+Jadi saya tidak tahu, chained MD5,
+apakah anda bisa menemukan tabrakannya?
 
 1160
 00:50:14,410 --> 00:50:15,640
-I'm not sure.
+Saya tidak yakin.
 
 1161
 00:50:15,640 --> 00:50:19,540
-But generally the thinking is,
-if the hash function is broken,
+Tapi umumnya berfikirnya adalah,
+jika fungsi hash rusak,
 
 1162
 00:50:19,540 --> 00:50:22,160
-and you can either find
-collisions or preimages, yeah,
+dan anda bisa menemukan
+tabrakannya atau pra-gambar, ya,
 
 1163
 00:50:22,160 --> 00:50:25,450
-maybe it gets a little
-harder by iterating it.
+mungkin akan sedikit
+lebih sulit dengan mengulanginya.
 
 1164
 00:50:25,450 --> 00:50:27,040
-But you should
-just stop using it
+tapi anda harus
+berhenti menggunakannya
 
 1165
 00:50:27,040 --> 00:50:29,640
-and use something that's secure.
+dan menggunakan sesuatu yang lebih aman.
 
 1166
 00:50:29,640 --> 00:50:32,937
-But yeah, it seems
-that finding preimages
+tapi ya, sepertinya
+untuk menemukan pra-gambar
 
 1167
 00:50:32,937 --> 00:50:35,020
-would be harder since it's
-essentially adding more
+akan lebih sulit karena pada
+dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
