@@ -8137,7 +8137,7 @@ memiliki sebuah tumpukkan kabel tambahan,
 1724
 01:11:52,085 --> 01:11:54,400
 Anda dapat meletakkan
-kode itu semaunya,
+kode sembarang yang,
 
 1725
 01:11:54,400 --> 01:11:56,027
@@ -8145,41 +8145,41 @@ sebagai contoh, mengeksekusi sebuah shell?
 
 1726
 01:11:56,027 --> 01:11:57,110
-PROFESSOR: Yah, yah yah.
+PROFESSOR: Yah yah yah.
 
 1727
 01:11:57,110 --> 01:11:59,810
-Jadi itu adalah cerdas,
+Jadi itu cukup cerdas,
 benar, karena Anda sebenarnya
 
 1728
 01:11:59,810 --> 01:12:01,370
-dapat menyediakan input-input lain, benar?
+dapat menyediakan masukan-masukan lain, benar?
 
 1729
 01:12:01,370 --> 01:12:04,520
-Jadi setidaknya, baik– disana ada
-beberapa keamanan melawan ini.
+Jadi setidaknya, yah-– di sana ada
+semacam keamanan melawan ini.
 
 1730
 01:12:04,520 --> 01:12:06,700
-Dan kita akan ke atas sini
+Dan kita akan ke sini
 di kuliah-kuliah berikutnya.
 
 1731
 01:12:06,700 --> 01:12:10,270
-Tapi pada prinsipnya, Anda dapat
-memiliki alamat yang dikembalikan disini
+Tapi pada prinsipnya, Anda bisa
+memiliki alamat kembali di sini
 
 1732
 01:12:10,270 --> 01:12:13,380
-yang anda timpa pada salah satu
-mesin stack naik atau stack turun.
+yang Anda timpa pada mesin
+stack yang menaik ataupun stack menurun.
 
 1733
 01:12:13,380 --> 01:12:16,360
-Dan daripada menunjuk
-itu ke beberapa kode yang ada,
+Dan alih-alih menunjuknya
+ke kode yang sudah ada,
 
 1734
 01:12:16,360 --> 01:12:18,340
@@ -8189,7 +8189,7 @@ di dalam main, kita
 1735
 01:12:18,340 --> 01:12:22,486
 sebenarnya dapat memliki titik
-alamat yang dikembalikan ke dalam buffer.
+alamat kembalian di dalam buffer.
 
 1736
 01:12:22,486 --> 01:12:24,610
@@ -8198,27 +8198,27 @@ beberapa lokasi pada stack.
 
 1737
 01:12:24,610 --> 01:12:27,080
-Tapi Anda dapat loncat kesana
-dan memperlakukan itu seperti dapat di eksekusi.
+Tapi Anda dapat melompat ke sana
+dan memperlakukannya seperti dapat dieksekusi.
 
 1738
 01:12:27,080 --> 01:12:29,270
-Jadi sebagai bagian dari permintaan
+Jadi sebagai bagian dari request
 Anda, Anda sebenarnya akan
 
 1739
 01:12:29,270 --> 01:12:32,160
-mengirimkan beberapa bytes 
-dari data ke server,
+mengirimkan beberapa byte
+data ke server,
 
 1740
 01:12:32,160 --> 01:12:35,690
-dan kemudian mempunyai alamat yang dikembalikkan
-atau sesuatu Anda timpa disini
+dan kemudian mempunyai alamat kembalian
+atau sesuatu yang Anda timpa di sini
 
 1741
 01:12:35,690 --> 01:12:37,720
-titik ke dasar dari
+menunjuk ke dasar dari
 buffer, dan Anda hanya akan
 
 1742
@@ -8233,11 +8233,11 @@ untuk menyediakan
 1744
 01:12:41,429 --> 01:12:42,970
 kode yang Anda mau
-jalankan, loncat ke sana,
+jalankan, melompat ke sana,
 
 1745
 01:12:42,970 --> 01:12:44,390
-dan mencapai server untuk menjalankan itu.
+dan membuat server untuk menjalankannya.
 
 1746
 01:12:44,390 --> 01:12:46,710
@@ -8247,41 +8247,41 @@ di sistem Unix,
 1747
 01:12:46,710 --> 01:12:49,230
 apa yang musuh sering lakukan
-adalah bertanya pada sistem
+adalah cukup meminta pada sistem
 
 1748
 01:12:49,230 --> 01:12:51,280
 operasi untuk mengeksekusi
-perintah sampah, yang dimana
+perintah /bin/sh, yang
 
 1749
 01:12:51,280 --> 01:12:53,390
-memungkinkan anda untuk mengetik
-perintah shell sewenang - wenang
+memungkinkan Anda untuk mengirimkan
+perintah shell secara acak
 
 1750
 01:12:53,390 --> 01:12:54,240
-setelah itu.
+setelahnya.
 
 1751
 01:12:54,240 --> 01:12:56,360
 Jadi hasilnya adalah, benda
-ini, bagian ini
+ini, bagian kode
 
 1752
 01:12:56,360 --> 01:12:57,910
-kode yang anda masukan
+ini yang Anda masukkan
 ke dalam buffer ini,
 
 1753
 01:12:57,910 --> 01:13:01,260
-sering disebut, seperti untuk
+sering disebut, kurang lebih untuk
 alasan historis, kode shell.
 
 1754
 01:13:01,260 --> 01:13:06,420
-Dan anda mencoba untuk membuat
-beberapa di laboratorium ini juga.
+Dan Anda akan mencoba untuk mengonstruksi
+beberapa di antaranya di lab satu juga.
 
 1755
 01:13:06,420 --> 01:13:07,380
@@ -8289,8 +8289,8 @@ Baiklah.
 
 1756
 01:13:07,380 --> 01:13:09,627
-Sudah jelas, apa
-yang anda dapat lakukan disini?
+Masuk akal, apa
+yang Anda dapat lakukan di sini?
 
 1757
 01:13:09,627 --> 01:13:10,210
@@ -8298,7 +8298,7 @@ Ada pertanyaan?
 
 1758
 01:13:10,210 --> 01:13:11,004
-Yaa?
+Yah?
 
 1759
 01:13:11,004 --> 01:13:13,492
@@ -8307,7 +8307,7 @@ antara kode dengan data?
 
 1760
 01:13:13,492 --> 01:13:14,200
-PROFESSOR: Baik.
+PROFESSOR: Betul.
 
 1761
 01:13:14,200 --> 01:13:17,270
@@ -8321,8 +8321,8 @@ secara historis, banyak mesin
 
 1763
 01:13:20,882 --> 01:13:22,840
-tidak menjalankan
-pemisahan kode dan data sedikitpun.
+tidak memaksakan pemisahan
+kode dengan data.
 
 1764
 01:13:22,840 --> 01:13:24,740
@@ -8331,21 +8331,22 @@ alamat memori yang datar.
 
 1765
 01:13:24,740 --> 01:13:26,290
-Penunjuk tumpukan
+Penunjuk stack
 menunjuk ke suatu tempat.
 
 1766
 01:13:26,290 --> 01:13:28,322
-Penunjuk kode
-menunjuk ke suatu tempat yang berbeda.
+Penunjuk kode menunjuk ke
+suatu tempat yang berbeda.
 
 1767
 01:13:28,322 --> 01:13:30,780
-Dan anda hanya mengeksekusi dimanapun
-penunjuk kode, instruksi
+Dan Anda hanya mengeksekusi apapun
+yang ditunjuk oleh
+
 1768
 01:13:30,780 --> 01:13:32,510
-penunjuk adalah menunjuk.
+penunjuk kode.
 
 1769
 01:13:32,510 --> 01:13:35,000
@@ -8368,7 +8369,7 @@ mengasosiasikan izin-izin
 
 1773
 01:13:40,810 --> 01:13:42,320
-dengan bermacam-macam wilayah memori..
+dengan bermacam-macam wilayah memori.
 
 1774
 01:13:42,320 --> 01:13:44,280
@@ -8378,17 +8379,17 @@ izin adalah eksekusi.
 1775
 01:13:44,280 --> 01:13:47,730
 Jadi bagian dari
-32-bit atau 64-bit ruang
+ruang 32-bit atau 64-bit alamat
 
 1776
 01:13:47,730 --> 01:13:51,180
-alamat anda mengandung kode
+Anda yang mengandung kode
 yang memilki izin eksekusi.
 
 1777
 01:13:51,180 --> 01:13:53,450
-Jadi jika instruksi penunjuk
-anda menunjuk ke sana,
+Jadi jika penunjuk instruksi
+Anda menunjuk ke sana,
 
 1778
 01:13:53,450 --> 01:13:55,740
@@ -8398,7 +8399,7 @@ menjalankan hal tersebut.
 1779
 01:13:55,740 --> 01:13:59,057
 Dan stack dan porsi data
-lain dari ruang alamat anda
+lain dari ruang alamat Anda
 
 1780
 01:13:59,057 --> 01:14:00,890
@@ -8407,13 +8408,13 @@ izin eksekusi.
 
 1781
 01:14:00,890 --> 01:14:03,610
-Jadi jika anda kebetulan
-mengatur intruksi penunjuk anda
+Jadi jika Anda kebetulan
+mengatur penunjuk instruksi Anda
 
 1782
 01:14:03,610 --> 01:14:07,570
 ke beberapa lokasi memori
-tanpa kode, anda dapat mengatur itu,
+bukan kode, Anda dapat mengaturnya,
 
 1783
 01:14:07,570 --> 01:14:10,060
@@ -8436,16 +8437,16 @@ mencegah segalanya.
 
 1787
 01:14:18,680 --> 01:14:19,990
-Jadi hanya sebuah pertanyaan.
+Jadi sebuah pertanyaan.
 
 1788
 01:14:19,990 --> 01:14:20,490
-Ok.
+OK.
 
 1789
 01:14:20,490 --> 01:14:22,410
 Jadi bagaimana anda akan
-melewati ini jika anda
+melewati ini jika Anda
 
 1790
 01:14:22,410 --> 01:14:24,985
@@ -8458,22 +8459,22 @@ ini sebelumnya, betul,
 
 1792
 01:14:26,860 --> 01:14:30,050
-Saat saya sesungguhnya melompat
+saat saya sesungguhnya melompat
 ke tengah fungsi main.
 
 1793
 01:14:30,050 --> 01:14:34,180
 Jadi itu adalah sebuah cara dari
-eksploitasi buffer ini
+eksploitasi buffer overflow
 
 1794
 01:14:34,180 --> 01:14:36,820
-overflow tanpa harus
+ini tanpa harus
 injeksi kode baru dari saya.
 
 1795
 01:14:36,820 --> 01:14:39,514
-Jadi walaupun jika stack
+Jadi bahkan jika stack
 tidak dapat dieksekusi,
 
 1796
@@ -8493,16 +8494,16 @@ Dia hanya mencetak x dan crash.
 1799
 01:14:45,020 --> 01:14:46,550
 Tapi di situasi
-lain, anda akan
+lain, Anda akan
 
 1800
 01:14:46,550 --> 01:14:48,090
-mempunyai potongan kode
-lain dalam program anda
+memiliki potongan kode
+lain dalam program Anda
 
 1801
 01:14:48,090 --> 01:14:50,089
-yang melakukan hal 
+yang melakukan hal
 menarik yang anda sangat
 
 1802
@@ -8511,27 +8512,27 @@ ingin untuk eksekusi.
 
 1803
 01:14:51,320 --> 01:14:54,520
-Dan itu semacam pemanggilan fungsi pengembalian
-ke libc yang diserang, dan lagi,
+Dan itu disebut sebagai serangan
+return to libc, sekali lagi,
 
 1804
 01:14:54,520 --> 01:14:56,170
-semacam alasan historik.
+karena alasan historis.
 
 1805
 01:14:56,170 --> 01:14:59,610
-Tapi itu adalah cara untuk melewati
-prosedur keamanan.
+Tetapi itu adalah sebuah cara untuk
+melewati pengamanan.
 
 1806
 01:14:59,610 --> 01:15:02,860
 Jadi dalam konteks
-dari buffer yang overflow,
+buffer overflow,
 
 1807
 01:15:02,860 --> 01:15:06,699
 tidak ada benar-benar
-solusi pintas yang jelas
+solusi yang jelas
 
 1808
 01:15:06,699 --> 01:15:08,990
@@ -8546,7 +8547,7 @@ programmer telah
 1810
 01:15:10,600 --> 01:15:12,310
 membuat beberapa kesalahan dalam
-menulis source code ini.
+menulis kode program ini.
 
 1811
 01:15:12,310 --> 01:15:14,540
@@ -8555,7 +8556,7 @@ adalah mungkin dengan hanya mengganti
 
 1812
 01:15:14,540 --> 01:15:17,100
-source code dan pastikan
+kode program dan pastikan
 Anda tidak memanggil getS() terlalu
 
 1813
@@ -8565,27 +8566,27 @@ compiler coba peringatkan pada Anda.
 
 1814
 01:15:18,570 --> 01:15:20,000
-Dan ada hal-hal yang
-lebih tidak mudah disadari yang compiler
+Dan ada hal-hal lebih kompleks
+di mana compiler
 
 1815
 01:15:20,000 --> 01:15:20,958
-tidak peringatkan Anda.
+tidak memperingatkan Anda.
 
 1816
 01:15:20,958 --> 01:15:23,490
-Dan Anda harus tetap
-menghindari membuat pemanggilan-pemanggilan tersebut.
+Dan Anda harus tetap menghindari
+membuat pemanggilan-pemanggilan tersebut.
 
 1817
 01:15:23,490 --> 01:15:26,570
-Karena itu susah,
+Tetapi karena itu sulit,
 pada praktiknya,
 
 1818
 01:15:26,570 --> 01:15:28,470
 untuk mengubah semua
-software di luar sana,
+perangkat lunak di luar sana,
 
 1819
 01:15:28,470 --> 01:15:30,080
@@ -8604,18 +8605,18 @@ stack tidak dapat dieksekusi,
 
 1822
 01:15:35,590 --> 01:15:39,135
-sehingga anda tidak bisa memasukkan
+sehingga Anda tidak bisa memasukkan
 kode shell pada stack,
 
 1823
 01:15:39,135 --> 01:15:41,930
-dan Anda harus melakukan
-sedikit lebih banyak pengembangan.
+dan Anda harus melakukan sesuatu
+yang lebih kompleks.
 
 1824
 01:15:41,930 --> 01:15:45,690
 Dan pada beberapa kuliah
-selanjutnya, dua kuliah selanjutnya
+selanjutnya, dua kuliah selanjutnya,
 
 1825
 01:15:45,690 --> 01:15:47,930
@@ -8624,17 +8625,17 @@ teknik-teknik pertahanan ini.
 
 1826
 01:15:47,930 --> 01:15:48,980
-Mereka tidak semua sempurna.
+Tidak semuanya sempurna.
 
 1827
 01:15:48,980 --> 01:15:50,480
 Tapi mereka, pada
-prakteknya, membuat
+praktiknya, jadi
 
 1828
 01:15:50,480 --> 01:15:52,780
-hacker lebih sulit untuk
-mengeksploitasi hal-hal.
+lebih sulit untuk hacker tersebut
+untuk mengeksploitasi berbagai hal.
 
 1829
 01:15:52,780 --> 01:15:53,065
@@ -8642,7 +8643,7 @@ Pertanyaan?
 
 1830
 01:15:53,065 --> 01:15:54,802
-AUDIENS: Saya hanya punya
+AUDIENS: Saya punya
 pertanyaan administratif umum.
 
 
@@ -8662,7 +8663,7 @@ kuis, dan tanggal berapa--
 
 1834
 01:15:58,696 --> 01:16:00,200
-PROFESOR: Oh ya.
+PROFESOR: Oh yah.
 
 1835
 01:16:00,200 --> 01:16:02,630
