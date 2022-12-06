@@ -5887,7 +5887,7 @@ tidak perlu khawatir tentang RSA.
 1253
 01:09:31,770 --> 01:09:33,880
 saya hanya harus perlu
-membangun cryptosystems
+membangun cryptosystems.
 
 1254
 01:09:33,880 --> 01:09:35,210
@@ -5896,7 +5896,7 @@ yang didasari 3-colorability.
 1255
 01:09:35,210 --> 01:09:38,380
 karena itu akan terlihat lebih
-simple dari seluruh masalah yang ada
+simple dari seluruh masalah yang ada.
 
 1256
 01:09:38,380 --> 01:09:40,609
