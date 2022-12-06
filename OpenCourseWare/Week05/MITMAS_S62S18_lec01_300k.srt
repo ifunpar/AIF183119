@@ -5522,104 +5522,104 @@ dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
-putaran dengan mengubah datanya dua kali.
+rounds by hashing it twice.
 
 1169
 00:50:38,290 --> 00:50:41,290
-Lalu ada beberapa serangan,
-jadi cukup di luar sana.
+And then there are some attacks,
+so it's fairly out there.
 
 1170
 00:50:41,290 --> 00:50:43,870
-Tapi itu disebut sebagai
-serangan ekstensi panjang
+But it's called length
+extension attacks
 
 1171
 00:50:43,870 --> 00:50:46,150
-dikarenakan bagaimana fungsi hash
-dibangun,
+due to how hash functions
+are constructed,
 
 1172
 00:50:46,150 --> 00:50:48,280
-dimana jika anda mengatakan, OK,
-Saya akan mengambil hash-nya.
+where if you do say, OK,
+I'm going to take the hash
 
 1173
 00:50:48,280 --> 00:50:50,410
-lalu ambil hash 
-dari itu, kamu
+and then take the
+hash of that, you
 
 1174
 00:50:50,410 --> 00:50:54,970
-lakukan pencegahan dari jenis
-serangan tertentu yang cukup khusus.
+do prevent certain types of
+attacks that are fairly niche.
 
 1175
 00:50:54,970 --> 00:50:57,150
-Tapi sebuah 
-serangan kepunahan dalam
+But a length
+extinction attack in
 
 1176
 00:50:57,150 --> 00:51:00,640
-Sebuah konstruksi Merkle=Damgard 
-akan dicegah dengan ini.
+a Merkle-Damgard construction
+will be prevented by this.
 
 1177
 00:51:00,640 --> 00:51:01,838
-Jadi  pada umumnya, tidak.
+So generally, no.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Umumnya, anda tidak
-perlu melakukan ini.
+Generally, you don't
+need to do this.
 
 1179
 00:51:03,380 --> 00:51:05,170
-Tapi ada construction 
-yang berbeda dimana anda
+But there are different
+constructions where you're
 
 1180
 00:51:05,170 --> 00:51:06,610
-harus melakukan hash beberapa kali.
+going to hash a bunch of times.
 
 1181
 00:51:06,610 --> 00:51:09,250
-Saya tidak memiliki slide nya
-namun, seperti pohom Merkle
+I don't have the slides
+here but, like a Merkle tree
 
 1182
 00:51:09,250 --> 00:51:11,745
-yaitu pohon biner dari
-hash dimana anda
+is a binary tree of
+hashes where you're
 
 1183
 00:51:11,745 --> 00:51:13,120
-mengambil hash 
-dari hal ini
+taking the hashes
+of these things
 
 1184
 00:51:13,120 --> 00:51:14,680
-dan kemudian melakukan hash kembali
-lagi dan lagi,
+and then hashing
+it again and again,
 
 1185
 00:51:14,680 --> 00:51:16,540
-dan itu benar-benar
-struktur data yang berguna,
+and that's a really
+useful data structure.
 
 1186
 00:51:16,540 --> 00:51:20,950
-dan blockchain
-pada dasarnya adalah rantai dari hashes.
+And a blockchain is
+essentially a chain of hashes.
 
 1187
 00:51:20,950 --> 00:51:24,460
-dan itu yang akan 
-kita bahas pekan depan.
+And that's what we'll
+talk about next week.
 
 1188
 00:51:24,460 --> 00:51:24,980
-TAPI YA.
+But yeah.
 
 1189
 00:51:24,980 --> 00:51:25,480
@@ -5627,8 +5627,8 @@ OK.
 
 1190
 00:51:25,480 --> 00:51:27,040
-Jadi saya akana melakukannya
-dengan lebih cepat.
+So I'm going to go
+a little faster.
 
 1191
 00:51:27,040 --> 00:51:28,810
