@@ -6168,8 +6168,8 @@ Graph acak di mana
 
 1313
 01:12:27,900 --> 01:12:31,300
-it takes exponential time
-to discover whether they're
+membutuhkan waktu eksponensial
+untuk menentukan apakah mereka
 
 1314
 01:12:31,300 --> 01:12:33,170
