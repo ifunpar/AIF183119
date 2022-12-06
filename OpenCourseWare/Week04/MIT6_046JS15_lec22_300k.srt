@@ -5886,8 +5886,8 @@ tidak perlu khawatir tentang RSA.
 
 1253
 01:09:31,770 --> 01:09:33,880
-I should just be
-building cryptosystems
+saya hanya harus perlu
+membangun cryptosystems
 
 1254
 01:09:33,880 --> 01:09:35,210
