@@ -5522,56 +5522,56 @@ essentially adding more
 
 1168
 00:50:35,020 --> 00:50:38,290
-rounds by hashing it twice.
+putaran dengan mengubah datanya dua kali.
 
 1169
 00:50:38,290 --> 00:50:41,290
-And then there are some attacks,
-so it's fairly out there.
+Lalu ada beberapa serangan,
+jadi cukup di luar sana.
 
 1170
 00:50:41,290 --> 00:50:43,870
-But it's called length
-extension attacks
+Tapi itu disebut sebagai
+serangan ekstensi panjang
 
 1171
 00:50:43,870 --> 00:50:46,150
-due to how hash functions
-are constructed,
+dikarenakan bagaimana fungsi hash
+dibangun,
 
 1172
 00:50:46,150 --> 00:50:48,280
-where if you do say, OK,
-I'm going to take the hash
+dimana jika anda mengatakan, OK,
+Saya akan mengambil hash-nya.
 
 1173
 00:50:48,280 --> 00:50:50,410
-and then take the
-hash of that, you
+lalu ambil hash 
+dari itu, kamu
 
 1174
 00:50:50,410 --> 00:50:54,970
-do prevent certain types of
-attacks that are fairly niche.
+lakukan pencegahan dari jenis
+serangan tertentu yang cukup khusus.
 
 1175
 00:50:54,970 --> 00:50:57,150
-But a length
-extinction attack in
+Tapi sebuah 
+serangan kepunahan dalam
 
 1176
 00:50:57,150 --> 00:51:00,640
-a Merkle-Damgard construction
-will be prevented by this.
+Sebuah konstruksi Merkle=Damgard 
+akan dicegah dengan ini.
 
 1177
 00:51:00,640 --> 00:51:01,838
-So generally, no.
+Jadi  pada umumnya, tidak.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Generally, you don't
-need to do this.
+Umumnya, anda tidak
+perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
