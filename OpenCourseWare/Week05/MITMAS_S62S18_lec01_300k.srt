@@ -5632,56 +5632,55 @@ a little faster.
 
 1191
 00:51:27,040 --> 00:51:28,810
-So that's an interesting
-use case where
+Jadi itu sebuah use case 
+yang menarik dimana
 
 1192
 00:51:28,810 --> 00:51:30,160
-you can commit and reveal.
+kamu dapat menyerahkan dan memperlihatkan.
 
 1193
 00:51:30,160 --> 00:51:34,950
-And yeah, adding randomness so
-you can't guess the preimage.
+Dan ya, menambahkan keacakan jadi
+kamu tidak bisa menebak gambar sebelumnya
 
 1194
 00:51:34,950 --> 00:51:38,880
-This is called a hash-based
-message authentication
+ini disebut otentikasi pesan berbasis hash
 
 1195
 00:51:38,880 --> 00:51:43,380
-code where part of it is
-secret and part of it is not.
+kode dimana bagian dari itu 
+rahasia dan sebagian lagi bukan
 
 1196
 00:51:43,380 --> 00:51:47,640
-And this is getting towards a
-signature, where I've committed
+Dan ini semakin mendekati ke sebuah 
+tanda, dimana saya sudah serahkan
 
 1197
 00:51:47,640 --> 00:51:49,350
-to something, and
-then I reveal it,
+untuk sesuatu, dan
+lalu saya memperlihatkannya,
 
 1198
 00:51:49,350 --> 00:51:51,270
-and everyone knows,
-yeah, that must be what
+dan semua orang tahu,
+ya, itu harus seperti apa
 
 1199
 00:51:51,270 --> 00:51:53,220
-he committed to the day before.
+dia menyereahkan ke hari sebelumnya .
 
 1200
 00:51:53,220 --> 00:51:57,760
-It's not quite a signature, but
-it's getting to that direction.
+ini tidak cukup tanda, tetapi
+ini semakin menuju kearah itu.
 
 1201
 00:51:57,760 --> 00:52:01,440
-And so next I'm going to
-talk about signatures.
+dan juga selanjutnya saya akan
+berbicara tentang tanda.
 
 1202
 00:52:01,440 --> 00:52:03,510
