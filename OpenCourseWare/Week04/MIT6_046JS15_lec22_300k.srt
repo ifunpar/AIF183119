@@ -5919,7 +5919,7 @@ yang sangat masuk akal
 
 1260
 01:09:47,550 --> 01:09:48,560
-untuk ditanyakan..
+untuk ditanyakan.
 
 1261
 01:09:48,560 --> 01:09:51,370
@@ -5962,182 +5962,183 @@ barang yang sesuai untuk diletakkan
 
 1269
 01:10:24,770 --> 01:10:26,350
-into the knapsack, right?
+ke dalam knapsack, kan?
 
 1270
 01:10:26,350 --> 01:10:27,110
-That's it.
+Itulah mengapa.
 
 1271
 01:10:27,110 --> 01:10:29,830
-That's a perfectly
-reasonable problem
+Itu bisa menjadi masalah
+yang sangat masuk akal.
 
 1272
 01:10:29,830 --> 01:10:33,760
-to potentially use as a basis
-for computational hardness
+Dimana hal itu berpotensi digunakan sebagai dasar
+Untuk komputasi yang sulit
 
 1273
 01:10:33,760 --> 01:10:36,060
-to go build cryptosystems.
+Untuk membangun kriptosistem
 
 1274
 01:10:36,060 --> 01:10:37,530
-And people did that.
+Dimana ketika orang-orang melakukan itu.
 
 1275
 01:10:37,530 --> 01:10:38,940
-People did that for years.
+Butuh sekiranya Orang-orang tersebut melakukannya selama bertahun-tahun
 
 1276
 01:10:38,940 --> 01:10:40,670
-They tried and they tried.
+Mereka mencoba dan mencoba
 
 1277
 01:10:40,670 --> 01:10:43,770
-And they produced cryptosystems,
-public key cryptosystems,
+Sehingga mereka menghasilkan kriptosistem,
+Kriptosistem kunci publik,
 
 1278
 01:10:43,770 --> 01:10:48,350
-based on Knapsack
-that look fantastic.
+Berdasarkan knapsack 
+Yang terlihat fantastis.
 
 1279
 01:10:48,350 --> 01:10:50,970
-And they work from a
-functionality standpoint
+Dan mereka bekerja dari 
+Sudut pandang fungsionalitas
 
 1280
 01:10:50,970 --> 01:10:53,609
-in the sense that you
-would use this Knapsack--
+Dalam arti bahwa ketika anda
+Akan menggunakan knapsack ini
 
 1281
 01:10:53,609 --> 01:10:55,150
-and I'll give you
-a sense of how this
+maka saya akan membuat anda
+merasakan bagaimana ini
+
 
 1282
 01:10:55,150 --> 01:11:01,390
-is done in a minute--
-problem to encrypt.
+Selesai hanya dalam satu menit–
+Untuk masalah mengenkripsi.
 
 1283
 01:11:01,390 --> 01:11:03,830
-And then you'd use a different
-kind of Knapsack problem
+Dan kemudian anda akan menggunakan yang berbeda
+Jenis masalah knapsack
 
 1284
 01:11:03,830 --> 01:11:05,260
-to decrypt.
+Untuk mendeskripsi.
 
 1285
 01:11:05,260 --> 01:11:07,240
-And when you encrypt
-it and decrypt it,
+Maka saat Anda mengenkripsi
+itu dan mendekripsinya,
 
 1286
 01:11:07,240 --> 01:11:09,100
-you did get that
-same message back,
+Kamu dapat mengerti itu
+merupakan pesan yang sama yang kembali,
 
 1287
 01:11:09,100 --> 01:11:11,720
-except the whole world
-knew what the message was.
+kecuali seluruh dunia
+tahu apa pesan tersebut.
 
 1288
 01:11:11,720 --> 01:11:15,810
-Because the problem
-associated with the Knapsack
+Karena hal ini merupakan masalah 
+yang terkait dengan knapsack
 
 1289
 01:11:15,810 --> 01:11:17,760
-wasn't hard enough.
+Tidak akan begitu sulit.
 
 1290
 01:11:17,760 --> 01:11:20,540
-So the computational
-hardness was what
+Jadi computational 
+Yang rumit  adalah apa
 
 1291
 01:11:20,540 --> 01:11:22,660
-broke the Knapsack schemes.
+Yang dapat memecahkan skema knapsack
 
 1292
 01:11:22,660 --> 01:11:25,680
-And then you come
-down to asking why
+Dan kemudian anda datang
+dan bertanya kenapa?
 
 1293
 01:11:25,680 --> 01:11:31,820
-is it that this problem
-that's not an NPC
+Apakah itu masalah ini
+Itu bukan termasuk NPC
 
 1294
 01:11:31,820 --> 01:11:34,310
-seems to have stood
-the test of time,
+Hal ini nyatanya telah teruji
+Oleh waktu
 
 1295
 01:11:34,310 --> 01:11:36,850
-but all these other
-problems, like Knapsack
+Tapi semua permasalahan
+Lain, seperti Knapsack
 
 1296
 01:11:36,850 --> 01:11:39,790
-and 3-colorability, which
-is even worse than Knapsack,
+Dan 3-colorability, yang mana
+Bahkan mungkin lebih buruk dari Knapsack,
 
 1297
 01:11:39,790 --> 01:11:42,540
-when people have built
-cryptosystems based on this,
+Ketika orang-orang membangun
+Kriptosistem berdasarkan hal ini,
 
 1298
 01:11:42,540 --> 01:11:45,220
-they've all been
-broken very quickly?
+Semua sistem itu 
+Rusak dengan sangat cepat?
 
 1299
 01:11:45,220 --> 01:11:47,210
-And so why is that?
+Dan mengapa hal itu bisa terjadi?
 
 1300
 01:11:47,210 --> 01:11:54,340
-What do you think the reason
-is, sort of at a high level?
+Menurut anda apa alasan hal itu 
+,apakah semacam tingkatan tinggi?
 
 1301
 01:11:54,340 --> 01:11:55,600
-What does NP-completenss say?
+Apa yang NP-completenss katakan? 
 
 1302
 01:11:59,740 --> 01:12:03,389
-When we talk about complexity,
-what are we worried about?
+Ketika kita berbicara tentang kompleksitas,
+Apa yang kita khawatirkan?
 
 1303
 01:12:03,389 --> 01:12:04,930
-Most of the time,
-what are we talking
+Dari waktu ke waktu,
+Apa yang kita bicarakan
 
 1304
 01:12:04,930 --> 01:12:07,940
-about when we talk about
-complexity of an algorithm?
+Mengenai kapan kita berbicara tentang
+Kompleksitas dari algoritma?
 
 1305
 01:12:07,940 --> 01:12:13,370
-Or in this case, in the case
-of a problem, what adjective
+Atau dalam kasus ini, merupakan kasus 
+Dari masalah, apa adjective
 
 1306
 01:12:13,370 --> 01:12:17,130
-do we put in front of
-runtime, for example,
+Ketika Kita meletakkan didepan
+Runtime, sebagai contoh,
 
 1307
 01:12:17,130 --> 01:12:18,627
