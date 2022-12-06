@@ -6090,218 +6090,218 @@ untuk tanda tangan saja.
 
 1321
 00:57:10,490 --> 00:57:12,530
-And they usually call that k.
+Dan mereka biasanya menyebutnya k.
 
 1322
 00:57:12,530 --> 00:57:15,650
-And k is a new random number.
+Dan k adalah bilangan acak baru.
 
 1323
 00:57:15,650 --> 00:57:17,150
-It's the private key.
+Itu adalah kunci privatnya.
 
 1324
 00:57:17,150 --> 00:57:20,308
-And you're going to
-multiply it by G.
+Dan Anda akan
+mengalikannya dengan G.
 
 1325
 00:57:20,308 --> 00:57:22,100
-And they call this R.
-I don't know why they
+Dan mereka menyebut ini R.
+Saya tidak tahu mengapa mereka
 
 1326
 00:57:22,100 --> 00:57:25,460
-use these letters, but anyway.
+menggunakan huruf-huruf ini, tapi bagaimanapun juga.
 
 1327
 00:57:25,460 --> 00:57:30,680
-K times G is R. R is the other
-public key you're using just
+K dikalikan G adalah R. R adalah kunci publik
+lain yang Anda gunakan hanya
 
 1328
 00:57:30,680 --> 00:57:33,720
-for this signature.
+untuk tanda tangan ini.
 
 1329
 00:57:33,720 --> 00:57:37,170
-And then the signature itself
-is quite straightforward.
+Dan tanda tangannya sendiri
+cukup mudah.
 
 1330
 00:57:37,170 --> 00:57:40,590
-As the signer, you
-compute s, which is k--
+Sebagai penanda tangan, Anda
+menghitung s, yaitu k--
 
 1331
 00:57:40,590 --> 00:57:42,750
-this new private key
-you just made up--
+kunci privat baru ini
+yang baru saja Anda buat--
 
 1332
 00:57:42,750 --> 00:57:47,160
-minus the hash of your
-message concatenated with R,
+dikurangi hash dari
+pesan Anda dipasangkan dengan R,
 
 1333
 00:57:47,160 --> 00:57:49,990
-this public key-- so you encode
-the public key in 33 bytes,
+kunci public ini-- sehingga Anda mengkodekan
+kunci publiknya dalam 33 byte,
 
 1334
 00:57:49,990 --> 00:57:50,910
-stick it in there--
+tempelkan di sini--
 
 1335
 00:57:50,910 --> 00:57:55,650
-multiplied by a, your
-normal private key.
+dikalikan dengan a, kunci
+privat normal Anda.
 
 1336
 00:57:55,650 --> 00:57:57,990
-And then your
-signature is the pair--
+Kemudian tanda tangan Anda
+adalah pasangan--
 
 1337
 00:57:57,990 --> 00:58:00,990
-the R point and the s scalar.
+poin R dan skalar s.
 
 1338
 00:58:00,990 --> 00:58:03,390
-This is a little bit
-of a bunch to process.
+Ini cukup banyak
+untuk diproses.
 
 1339
 00:58:03,390 --> 00:58:06,150
-But it's actually
-not too bad, right?
+Namun sebenarnya
+tidak terlalu buruk, bukan?
 
 1340
 00:58:06,150 --> 00:58:07,110
-This is a scalar--
+Ini adalah sebuah skalar--
 
 1341
 00:58:07,110 --> 00:58:08,490
-32 bytes-- that you made up.
+atas 32 bytes-- yang Anda buat
 
 1342
 00:58:08,490 --> 00:58:14,400
-The hash, this is a message,
-also going to be however long.
+Hash-nya, ini adalah sebuah pesan,
+juga akan seberapa panjang.
 
 1343
 00:58:14,400 --> 00:58:15,348
-This is 33 bytes.
+Ini 33 byte.
 
 1344
 00:58:15,348 --> 00:58:16,890
-You concatenate them
-together-- hash.
+Lalu Anda menggabungkannya
+menjadi satu-- hash.
 
 1345
 00:58:16,890 --> 00:58:20,550
-You end up with
-another 32 byte scalar.
+Anda akan mendapatkan
+32 byte skalar lainnya.
 
 1346
 00:58:20,550 --> 00:58:23,320
-You multiply those two scalars.
+Anda kalikan kedua skalar tersebut.
 
 1347
 00:58:23,320 --> 00:58:26,760
-So actually, the only
-elliptic curve operation
+Jadi sebenarnya, satu-satunya
+operasi kurva eliptik
 
 1348
 00:58:26,760 --> 00:58:29,160
-here is calculating what R is.
+di sini adalah menghitung berapa nilai R.
 
 1349
 00:58:29,160 --> 00:58:30,810
-When you're actually
-calculating s,
+Saat Anda sebenarnya
+menghitung s,
 
 1350
 00:58:30,810 --> 00:58:33,840
-this is all just scalar,
-so it's very fast.
+semua hal ini hanyalah skalar,
+jadi itu sangat cepat.
 
 1351
 00:58:33,840 --> 00:58:36,090
-So in terms of practical
-computer stuff,
+Jadi dalam hal komputer
+praktis,
 
 1352
 00:58:36,090 --> 00:58:39,720
-doing these operations is a
-little bit on the slow side.
+melakukan operasi ini
+sedikit lambat.
 
 1353
 00:58:39,720 --> 00:58:42,270
-Because you're doing those
-point additions quite a number
+Karena Anda melakukan
+penambahan poin itu sebanyak
 
 1354
 00:58:42,270 --> 00:58:44,160
-of times.
+berkali-kali.
 
 1355
 00:58:44,160 --> 00:58:47,430
-So a decent code,
-a decent CPU, can
+Jadi kode yang cukup baik,
+CPU yang cukup baik, dapat
 
 1356
 00:58:47,430 --> 00:58:53,100
-do on the order of thousands
-of these types of operations
+melakukan ribuan
+operasi seperti ini
 
 1357
 00:58:53,100 --> 00:58:56,610
-per second, which is decent.
+per detik, di mana hal tersebut cukup baik.
 
 1358
 00:58:56,610 --> 00:58:59,190
-You can do a decent amount,
-but it is kind of slow.
+Anda bisa melakukan dalam jumlah yang banyak,
+tapi itu lumayan lambat.
 
 1359
 00:58:59,190 --> 00:59:01,770
-And it's considerably
-slower than hash functions.
+Dan itu lebih lambat
+dibandingkan dengan fungsi hash.
 
 1360
 00:59:01,770 --> 00:59:04,770
-You can do a million iterations
-of a hash function per second
+Anda dapat melakukan jutaan iterasi
+dari sebuah hash function per detik
 
 1361
 00:59:04,770 --> 00:59:07,350
-on a core, or you can
-do, maybe, 1,000 or 2,000
+pada bagian inti, atau Anda bisa
+lakukan, mungkin, 1.000 atau 2.000
 
 1362
 00:59:07,350 --> 00:59:11,980
-of this kind of thing, so
-still pretty fast but slower.
+hal semacam ini, jadi
+masih cukup cepat tapi lebih lambat.
 
 1363
 00:59:11,980 --> 00:59:16,585
-And so this signing procedure,
-this takes a bit of time.
+Jadi prosedur penandatanganan ini
+membutuhkan sedikit waktu.
 
 1364
 00:59:16,585 --> 00:59:18,210
-This takes, actually,
-very little time.
+Sebenarnya ini membutuhkan
+waktu yang sangat sedikit.
 
 1365
 00:59:18,210 --> 00:59:23,100
-Because you're just subtracting
-and multiplying 32 byte scalar
+Karena Anda hanya mengurangi
+dan mengalikan bilangan bulat
 
 1366
 00:59:23,100 --> 00:59:25,810
-integers, which is much faster.
+skalar 32 byte, yang jauh lebih cepat.
 
 1367
 00:59:25,810 --> 00:59:26,310
@@ -6309,12 +6309,12 @@ OK.
 
 1368
 00:59:26,310 --> 00:59:29,300
-So does this make sense?
+Jadi apakah ini masuk akal?
 
 1369
 00:59:29,300 --> 00:59:31,750
-We'll go a little bit of
-how you can't forge this.
+Kita akan masuk sedikit ke
+bagaimana Anda tidak bisa memalsukan ini.
 
 1370
 00:59:31,750 --> 00:59:32,250
