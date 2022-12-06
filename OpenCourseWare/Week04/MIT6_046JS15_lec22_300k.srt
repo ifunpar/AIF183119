@@ -6163,8 +6163,8 @@ Anda akan menjadi
 
 1312
 01:12:25,790 --> 01:12:27,900
-able to create
-random graphs where
+Mampu membuat
+Graph acak di mana
 
 1313
 01:12:27,900 --> 01:12:31,300
