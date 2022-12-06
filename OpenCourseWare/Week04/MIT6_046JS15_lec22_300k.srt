@@ -5895,8 +5895,8 @@ yang didasari 3-colorability.
 
 1255
 01:09:35,210 --> 01:09:38,380
-Because it seems like a much
-simpler problem than all
+karena itu akan terlihat lebih
+simple dari seluruh masalah yang ada
 
 1256
 01:09:38,380 --> 01:09:40,609
