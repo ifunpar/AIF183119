@@ -5891,7 +5891,7 @@ membangun cryptosystems
 
 1254
 01:09:33,880 --> 01:09:35,210
-based on 3-colorability.
+yang didasari 3-colorability.
 
 1255
 01:09:35,210 --> 01:09:38,380
