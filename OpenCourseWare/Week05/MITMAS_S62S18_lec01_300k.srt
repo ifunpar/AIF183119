@@ -5733,11 +5733,11 @@ satu kunci publik yang merupakan
 1212
 00:52:28,720 --> 00:52:33,160
 identitas Anda, dan ada 
-satu kunci rahasia yang Anda
+satu kunci rahasia yang hanya Anda
 
 1213
 00:52:33,160 --> 00:52:33,700
-control.
+kontrol.
 
 1214
 00:52:33,700 --> 00:52:36,670
