@@ -5466,112 +5466,112 @@ pragambar jika Anda lakukan hash dua kali,
 
 1156
 00:50:05,830 --> 00:50:06,838
-and the answer's no.
+dan jawabannya adalah tidak.
 
 1157
 00:50:06,838 --> 00:50:08,380
-TADGE DRYJA: The
-answer's sort of no.
+TADGE DRYJA: Jawabannya
+itu adalah tidak.
 
 1158
 00:50:08,380 --> 00:50:10,480
-It might.
+Itu mungkin.
 
 1159
 00:50:10,480 --> 00:50:14,410
-So I don't know, chained MD5,
-can you still find collisions?
+Jadi saya tidak tahu, chained MD5,
+apakah anda bisa menemukan tabrakannya?
 
 1160
 00:50:14,410 --> 00:50:15,640
-I'm not sure.
+Saya tidak yakin.
 
 1161
 00:50:15,640 --> 00:50:19,540
-But generally the thinking is,
-if the hash function is broken,
+Tapi umumnya berfikirnya adalah,
+jika fungsi hash rusak,
 
 1162
 00:50:19,540 --> 00:50:22,160
-and you can either find
-collisions or preimages, yeah,
+dan anda bisa menemukan
+tabrakannya atau gambaran awalnya, ya,
 
 1163
 00:50:22,160 --> 00:50:25,450
-maybe it gets a little
-harder by iterating it.
+mungkin akan sedikit
+lebih sulit dengan mengulanginya.
 
 1164
 00:50:25,450 --> 00:50:27,040
-But you should
-just stop using it
+tapi anda harus
+berhenti menggunakannya
 
 1165
 00:50:27,040 --> 00:50:29,640
-and use something that's secure.
+dan menggunakan sesuatu yang lebih aman.
 
 1166
 00:50:29,640 --> 00:50:32,937
-But yeah, it seems
-that finding preimages
+tapi ya, sepertinya
+untuk menemukan gambaran awalnya
 
 1167
 00:50:32,937 --> 00:50:35,020
-would be harder since it's
-essentially adding more
+akan lebih sulit karena pada
+dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
-rounds by hashing it twice.
+putaran dengan mengubah datanya dua kali.
 
 1169
 00:50:38,290 --> 00:50:41,290
-And then there are some attacks,
-so it's fairly out there.
+Lalu ada beberapa serangan,
+jadi cukup di luar sana.
 
 1170
 00:50:41,290 --> 00:50:43,870
-But it's called length
-extension attacks
+Tapi itu disebut sebagai
+serangan ekstensi panjang
 
 1171
 00:50:43,870 --> 00:50:46,150
-due to how hash functions
-are constructed,
+dikarenakan bagaimana fungsi hash
+dibangun,
 
 1172
 00:50:46,150 --> 00:50:48,280
-where if you do say, OK,
-I'm going to take the hash
+dimana jika anda mengatakan, OK,
+Saya akan mengambil hash-nya.
 
 1173
 00:50:48,280 --> 00:50:50,410
-and then take the
-hash of that, you
+lalu ambil hash 
+dari itu, kamu
 
 1174
 00:50:50,410 --> 00:50:54,970
-do prevent certain types of
-attacks that are fairly niche.
+lakukan pencegahan dari jenis
+serangan tertentu yang cukup khusus.
 
 1175
 00:50:54,970 --> 00:50:57,150
-But a length
-extinction attack in
+Tapi sebuah 
+serangan kepunahan dalam
 
 1176
 00:50:57,150 --> 00:51:00,640
-a Merkle-Damgard construction
-will be prevented by this.
+Sebuah konstruksi Merkle=Damgard 
+akan dicegah dengan ini.
 
 1177
 00:51:00,640 --> 00:51:01,838
-So generally, no.
+Jadi  pada umumnya, tidak.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Generally, you don't
-need to do this.
+Umumnya, anda tidak
+perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
