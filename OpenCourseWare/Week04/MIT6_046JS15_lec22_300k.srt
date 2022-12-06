@@ -5957,8 +5957,8 @@ tugas tertentu
 
 1268
 01:10:20,740 --> 01:10:24,770
-of the BIs, such that you pick
-the appropriate items to put
+dari BI, dimana anda memilih 
+barang yang sesuai untuk diletakkan
 
 1269
 01:10:24,770 --> 01:10:26,350
