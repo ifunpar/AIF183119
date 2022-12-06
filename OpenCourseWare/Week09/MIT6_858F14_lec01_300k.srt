@@ -8241,109 +8241,108 @@ dan mencapai server untuk menjalankan itu.
 
 1746
 01:12:44,390 --> 01:12:46,710
-And in fact, traditionally,
-in Unix systems,
+Dan faktanya, secara tradisional,
+di sistem Unix,
 
 1747
 01:12:46,710 --> 01:12:49,230
-what adversaries would often
-do is just ask the operating
+apa yang musuh sering lakukan
+adalah bertanya pada sistem
 
 1748
 01:12:49,230 --> 01:12:51,280
-system to execute the
-binsh command, which
+operasi untuk mengeksekusi
+perintah sampah, yang dimana
 
 1749
 01:12:51,280 --> 01:12:53,390
-lets you sort of type in
-arbitrary shell commands
+memungkinkan anda untuk mengetik
+perintah shell sewenang - wenang
 
 1750
 01:12:53,390 --> 01:12:54,240
-after that.
+setelah itu.
 
 1751
 01:12:54,240 --> 01:12:56,360
-So as a result, this
-thing, this piece
+Jadi hasilnya adalah, benda
+ini, bagian ini
 
 1752
 01:12:56,360 --> 01:12:57,910
-of code you inject
-into this buffer,
+kode yang anda masukan
+ke dalam buffer ini,
 
 1753
 01:12:57,910 --> 01:13:01,260
-was often called, sort of for
-historical reasons, shell code.
+sering disebut, seperti untuk
+alasan historis, kode shell.
 
 1754
 01:13:01,260 --> 01:13:06,420
-And you'll try to construct
-some in this lab one as well.
+Dan anda mencoba untuk membuat
+beberapa di laboratorium ini juga.
 
 1755
 01:13:06,420 --> 01:13:07,380
-All right.
+Baiklah.
 
 1756
 01:13:07,380 --> 01:13:09,627
-Make sense, what
-you can do here?
+Sudah jelas, apa
+yang anda dapat lakukan disini?
 
 1757
 01:13:09,627 --> 01:13:10,210
-Any questions?
+Ada pertanyaan?
 
 1758
 01:13:10,210 --> 01:13:11,004
-Yeah?
+Yaa?
 
 1759
 01:13:11,004 --> 01:13:13,492
-AUDIENCE: Is there a separation
-between code and data?
+AUDIENS: Apakah ada pemisahan
+antara kode dengan data?
 
 1760
 01:13:13,492 --> 01:13:14,200
-PROFESSOR: Right.
+PROFESSOR: Baik.
 
 1761
 01:13:14,200 --> 01:13:17,270
-So is there a separation
-between code and data here?
+Jadi apakah ada pemisahan
+antara kode dengan data?
 
 1762
 01:13:17,270 --> 01:13:20,882
-At least, well,
-historically, many machines
+Paling tidak, baik,
+secara historis, banyak mesin
 
 1763
 01:13:20,882 --> 01:13:22,840
-didn't enforce any
-separation of code and data.
+tidak menjalankan
+pemisahan kode dan data sedikitpun.
 
 1764
 01:13:22,840 --> 01:13:24,740
-You'd just have a flat
-memory address space.
+Anda hanya memiliki ruang
+alamat memori yang datar.
 
 1765
 01:13:24,740 --> 01:13:26,290
-The stack pointer
-points somewhere.
+Penunjuk tumpukan
+menunjuk ke suatu tempat.
 
 1766
 01:13:26,290 --> 01:13:28,322
-The code pointer
-points somewhere else.
+Penunjuk kode
+menunjuk ke suatu tempat yang berbeda.
 
 1767
 01:13:28,322 --> 01:13:30,780
-And you just execute wherever
-the code pointer, instruction
-
+Dan anda hanya mengeksekusi dimanapun
+penunjuk kode, instruksi
 1768
 01:13:30,780 --> 01:13:32,510
 penunjuk adalah menunjuk.
