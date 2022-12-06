@@ -6141,7 +6141,7 @@ runtime, for example,
 
 1307
 01:12:17,130 --> 01:12:18,627
-then we compute complexity?
+ketika kita menghitung kompleksitas?
 
 1308
 01:12:18,627 --> 01:12:19,920
