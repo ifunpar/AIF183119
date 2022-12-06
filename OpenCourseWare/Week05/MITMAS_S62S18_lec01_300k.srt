@@ -5480,7 +5480,7 @@ Itu mungkin.
 1159
 00:50:10,480 --> 00:50:14,410
 Jadi saya tidak tahu, chained MD5,
-apakah anda bisa menemukan tabrakannya?
+apakah anda bisa menemukan collisionnya?
 
 1160
 00:50:14,410 --> 00:50:15,640
@@ -5494,7 +5494,7 @@ jika fungsi hash rusak,
 1162
 00:50:19,540 --> 00:50:22,160
 dan anda bisa menemukan
-tabrakannya atau pra-gambar, ya,
+collisionnya atau pra-gambar, ya,
 
 1163
 00:50:22,160 --> 00:50:25,450
@@ -5522,104 +5522,104 @@ dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
-rounds by hashing it twice.
+putaran dengan hashing dua kali.
 
 1169
 00:50:38,290 --> 00:50:41,290
-And then there are some attacks,
-so it's fairly out there.
+Dan kemudian ada beberapa serangan,
+jadi cukup di luar sana.
 
 1170
 00:50:41,290 --> 00:50:43,870
-But it's called length
-extension attacks
+Tapi itu disebut panjang
+serangan ekstensi
 
 1171
 00:50:43,870 --> 00:50:46,150
-due to how hash functions
-are constructed,
+dikarenakan bagaimana fungsi hash
+dibangun,
 
 1172
 00:50:46,150 --> 00:50:48,280
-where if you do say, OK,
-I'm going to take the hash
+di mana jika anda mengatakan, OK,
+Saya akan mengambil hash-nya.
 
 1173
 00:50:48,280 --> 00:50:50,410
-and then take the
-hash of that, you
+dan kemudian mengambil
+hash itu, Anda
 
 1174
 00:50:50,410 --> 00:50:54,970
-do prevent certain types of
-attacks that are fairly niche.
+melakukan pencegahan dari jenis
+serangan tertentu yang cukup khusus.
 
 1175
 00:50:54,970 --> 00:50:57,150
-But a length
-extinction attack in
+Tapi panjang
+serangan kepunahan dalam
 
 1176
 00:50:57,150 --> 00:51:00,640
-a Merkle-Damgard construction
-will be prevented by this.
+Sebuah konstruksi Merkle=Damgard 
+akan dicegah dengan ini.
 
 1177
 00:51:00,640 --> 00:51:01,838
-So generally, no.
+Jadi  pada umumnya, tidak.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Generally, you don't
-need to do this.
+Umumnya, anda tidak
+perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
-But there are different
-constructions where you're
+Tapi ada kontruksi 
+yang berbeda dimana anda
 
 1180
 00:51:05,170 --> 00:51:06,610
-going to hash a bunch of times.
+harus melakukan hash beberapa kali.
 
 1181
 00:51:06,610 --> 00:51:09,250
-I don't have the slides
-here but, like a Merkle tree
+Saya tidak memiliki slide nya
+namun, seperti pohom Merkle
 
 1182
 00:51:09,250 --> 00:51:11,745
-is a binary tree of
-hashes where you're
+yaitu pohon biner dari
+hash dimana anda
 
 1183
 00:51:11,745 --> 00:51:13,120
-taking the hashes
-of these things
+mengambil hash 
+dari hal ini
 
 1184
 00:51:13,120 --> 00:51:14,680
-and then hashing
-it again and again,
+dan kemudian melakukan hash kembali
+lagi dan lagi,
 
 1185
 00:51:14,680 --> 00:51:16,540
-and that's a really
-useful data structure.
+dan itu benar-benar
+struktur data yang berguna,
 
 1186
 00:51:16,540 --> 00:51:20,950
-And a blockchain is
-essentially a chain of hashes.
+dan blockchain
+pada dasarnya adalah rantai dari hashes.
 
 1187
 00:51:20,950 --> 00:51:24,460
-And that's what we'll
-talk about next week.
+dan itu yang akan 
+kita bahas pekan depan.
 
 1188
 00:51:24,460 --> 00:51:24,980
-But yeah.
+TAPI YA.
 
 1189
 00:51:24,980 --> 00:51:25,480
@@ -5627,26 +5627,27 @@ OK.
 
 1190
 00:51:25,480 --> 00:51:27,040
-So I'm going to go
-a little faster.
+Jadi saya akana melakukannya
+dengan lebih cepat.
 
 1191
 00:51:27,040 --> 00:51:28,810
-Jadi itu sebuah use case 
+Jadi itu sebuah use case
 yang menarik dimana
 
 1192
 00:51:28,810 --> 00:51:30,160
-kamu dapat menyerahkan dan memperlihatkan.
+Anda dapat menyerahkan dan memperlihatkan.
 
 1193
 00:51:30,160 --> 00:51:34,950
 Dan ya, menambahkan keacakan jadi
-kamu tidak bisa menebak gambar sebelumnya
+Anda tidak bisa menebak pragambar sebelumnya
 
 1194
 00:51:34,950 --> 00:51:38,880
-ini disebut otentikasi pesan berbasis hash
+ini disebut otentikasi 
+pesan berbasis hash
 
 1195
 00:51:38,880 --> 00:51:43,380
@@ -5656,12 +5657,12 @@ rahasia dan sebagian lagi bukan
 1196
 00:51:43,380 --> 00:51:47,640
 Dan ini semakin mendekati ke sebuah 
-tanda, dimana saya sudah serahkan
+tanda, dimana saya sudah berikan
 
 1197
 00:51:47,640 --> 00:51:49,350
 untuk sesuatu, dan
-lalu saya memperlihatkannya,
+kemudian saya memperlihatkannya,
 
 1198
 00:51:49,350 --> 00:51:51,270
@@ -5670,69 +5671,69 @@ ya, itu harus seperti apa
 
 1199
 00:51:51,270 --> 00:51:53,220
-dia menyereahkan ke hari sebelumnya .
+dia menyerahkan ke hari sebelumnya.
 
 1200
 00:51:53,220 --> 00:51:57,760
-ini tidak cukup tanda, tetapi
+ini tidak cukup dekat dengan tanda tangan, tetapi
 ini semakin menuju kearah itu.
 
 1201
 00:51:57,760 --> 00:52:01,440
 dan juga selanjutnya saya akan
-berbicara tentang tanda.
+berbicara tentang tanda tangan.
 
 1202
 00:52:01,440 --> 00:52:03,510
-What is a signature?
+Apa itu tanda tangan?
 
 1203
 00:52:03,510 --> 00:52:07,410
-It's useful, and it's a
-message signed by someone.
+ini berguna, dan ini adalah tanda pada pesan
+yang diberikan oleh seseorang.
 
 1204
 00:52:07,410 --> 00:52:09,370
-And so I'll define
-what a signature
+Jadi saya akan mendefinisikan
+apa tanda tangan sebenarnya
 
 1205
 00:52:09,370 --> 00:52:12,753
-is through the
-functions that it uses.
+dengan fungsi 
+yang digunakan.
 
 1206
 00:52:12,753 --> 00:52:14,170
-There's three
-functions will allow
+Ada tiga fungsi 
+yang memungkinkan
 
 1207
 00:52:14,170 --> 00:52:16,480
-you to create a
-signature scheme,
+Anda membuat
+skema tanda tangan,
 
 1208
 00:52:16,480 --> 00:52:20,050
-generate keys, sign, and verify.
+menghasilkan kunci, menandatangani, dan memverifikasi.
 
 1209
 00:52:20,050 --> 00:52:22,060
-And these different things.
+Dan ini merupakan hal-hal yang berbeda.
 
 1210
 00:52:22,060 --> 00:52:26,230
-Generate keys, you make a
-secret key and a public key.
+Menghasilkan kunci, Anda membuat 
+kunci rahasia dan kunci publik.
 
 1211
 00:52:26,230 --> 00:52:28,720
-And so the idea is there's
-some public key which is
+Jadi idenya adalah ada 
+satu kunci publik yang merupakan
 
 1212
 00:52:28,720 --> 00:52:33,160
-your identity , and there's
-some secret key which you only
+identitas Anda, dan ada 
+satu kunci rahasia yang Anda
 
 1213
 00:52:33,160 --> 00:52:33,700
