@@ -5575,51 +5575,51 @@ perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
-But there are different
-constructions where you're
+Tapi ada construction 
+yang berbeda dimana anda
 
 1180
 00:51:05,170 --> 00:51:06,610
-going to hash a bunch of times.
+harus melakukan hash beberapa kali.
 
 1181
 00:51:06,610 --> 00:51:09,250
-I don't have the slides
-here but, like a Merkle tree
+Saya tidak memiliki slide nya
+namun, seperti pohom Merkle
 
 1182
 00:51:09,250 --> 00:51:11,745
-is a binary tree of
-hashes where you're
+yaitu pohon biner dari
+hash dimana anda
 
 1183
 00:51:11,745 --> 00:51:13,120
-taking the hashes
-of these things
+mengambil hash 
+dari hal ini
 
 1184
 00:51:13,120 --> 00:51:14,680
-and then hashing
-it again and again,
+dan kemudian melakukan hash kembali
+lagi dan lagi,
 
 1185
 00:51:14,680 --> 00:51:16,540
-and that's a really
-useful data structure.
+dan itu benar-benar
+struktur data yang berguna,
 
 1186
 00:51:16,540 --> 00:51:20,950
-And a blockchain is
-essentially a chain of hashes.
+dan blockchain
+pada dasarnya adalah rantai dari hashes.
 
 1187
 00:51:20,950 --> 00:51:24,460
-And that's what we'll
-talk about next week.
+dan itu yang akan 
+kita bahas pekan depan.
 
 1188
 00:51:24,460 --> 00:51:24,980
-But yeah.
+TAPI YA.
 
 1189
 00:51:24,980 --> 00:51:25,480
@@ -5627,8 +5627,8 @@ OK.
 
 1190
 00:51:25,480 --> 00:51:27,040
-So I'm going to go
-a little faster.
+Jadi saya akana melakukannya
+dengan lebih cepat.
 
 1191
 00:51:27,040 --> 00:51:28,810
