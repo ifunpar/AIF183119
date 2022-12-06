@@ -5900,13 +5900,13 @@ simple dari seluruh masalah yang ada.
 
 1256
 01:09:38,380 --> 01:09:40,609
-these grungy map that you
-have out there-- actually,
+peta kumuh yang anda
+miliki di luar sana– sebenarnya,
 
 1257
 01:09:40,609 --> 01:09:42,490
-beautiful map that
-you have out there.
+Itu adalah sebuah peta indah
+yang anda miliki.
 
 1258
 01:09:42,490 --> 01:09:43,250
@@ -5914,46 +5914,46 @@ OK.
 
 1259
 01:09:43,250 --> 01:09:47,550
-So that's something that's a
-perfectly reasonable question
+Jadi mungkin itu adalah pertanyaan
+yang sangat masuk akal
 
 1260
 01:09:47,550 --> 01:09:48,560
-to ask.
+untuk ditanyakan..
 
 1261
 01:09:48,560 --> 01:09:51,370
-And then we have Knapsack.
+Lalu kita memiliki Knapsack.
 
 1262
 01:09:51,370 --> 01:09:55,850
-Knapsack is simply you've
-got a bunch of items
+Knapsack adalah ketika anda
+memiliki banyak benda
 
 1263
 01:09:55,850 --> 01:09:59,290
-and you just want to
-figure out whether you
+dan anda hanya ingin
+mencari tahu apakah anda
 
 1264
 01:09:59,290 --> 01:10:06,940
-can get this particular sum
-S. Knapsack is NPC as well.
+bisa mendapatkan penjumlahan
+S. Knapsack juga merupakan NPC.
 
 1265
 01:10:11,620 --> 01:10:14,110
-And you got a bunch of
-weights given to you.
+dimana anda memiliki banyak
+bobot yang diberikan kepada anda.
 
 1266
 01:10:14,110 --> 01:10:17,350
-And the BI are going
-to have to be 0, 1.
+Dan BI akan
+memiliki 0, 1.
 
 1267
 01:10:17,350 --> 01:10:20,740
-So you just want to discover
-a particular assignment
+Jadi anda dapat menemukan
+tugas tertentu
 
 1268
 01:10:20,740 --> 01:10:24,770
