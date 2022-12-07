@@ -4434,7 +4434,7 @@ pada layanan ini berikutnya.
 933
 00:39:24,000 --> 00:39:27,130
 Jadi ini mungkin server e-mail
-Anda atau server file kamu.
+Anda atau server file Anda.
 
 934
 00:39:27,130 --> 00:39:29,440
@@ -4443,7 +4443,7 @@ termasuk tiketnya.
 
 935
 00:39:29,440 --> 00:39:30,970
-Itu sudah mendapat 4TGS.
+Dia sudah mendapat 4TGS.
 
 936
 00:39:30,970 --> 00:39:38,100
@@ -4452,21 +4452,21 @@ dari TGS yang dienkripsi dengan KTGS.
 
 937
 00:39:38,100 --> 00:39:41,430
-Jadi hanya ini
-hal dimana S adalah TGS.
+Jadi ini hanyalah hal
+ini di mana S adalah TGS.
 
 938
 00:39:41,430 --> 00:39:43,890
-Dan kemudian anda harus
-menyertakan pengautentikasi ini.
+Dan kemudian Anda harus
+menyertakan otentikator
 
 939
 00:39:43,890 --> 00:39:44,890
-gumpal.
+ini.
 
 940
 00:39:44,890 --> 00:39:48,155
-Ini ACnya
+Ini adalah AC ini
 dari atas sana.
 
 941
@@ -4482,32 +4482,32 @@ klien dan layanan TGS.
 943
 00:39:54,892 --> 00:39:58,360
 Jadi ini adalah pesan yang akan
-anda kirimkan kepada TGS.
+Anda kirimkan kepada TGS.
 
 944
 00:39:58,360 --> 00:40:00,399
-Ini akan terlihat
+Dia akan terlihat
 pada pesan ini,
 
 945
 00:40:00,399 --> 00:40:02,690
-melakukan sesuatu dengan ini yang
-akan kita bicarakan sebentar ini,
+melakukan sesuatu dengannya yang
+akan kita bicarakan sebentar lagi,
 
 946
 00:40:02,690 --> 00:40:07,770
 dan merespon balik dengan sebuah
-tiket untuk pelayanan S baru ini.
+tiket untuk layanan baru S ini.
 
 947
 00:40:07,770 --> 00:40:10,700
-Jadi respon disini terlihat
-hampir tepat seperti disini.
+Jadi respon di sini terlihat
+hampir tepat seperti di sini.
 
 948
 00:40:10,700 --> 00:40:12,490
-Faktanya, ini tepat
-hal yang sama.
+Faktanya, ini hal yang
+yang tepat sama.
 
 949
 00:40:12,490 --> 00:40:14,610
@@ -4516,23 +4516,23 @@ tiket antara klien
 
 950
 00:40:14,610 --> 00:40:18,310
-dan pelayanan S
+dan layanan S
 baru yang terenkripsi oleh KS
 
 951
 00:40:18,310 --> 00:40:21,320
-dan kunci bersama yang di antara
-klien dan pelayanan S baru
+dan kunci bersama di antara
+klien dan layanan baru ini S
 
 952
 00:40:21,320 --> 00:40:25,040
-yang terenkripsi-- jadi, sekarang,
-disini ada sedikit perbedaan.
+terenkripsi-- jadi, sekarang,
+di sini sedikit berbeda.
 
 953
 00:40:25,040 --> 00:40:27,550
 Alih-alih mengenkripsi dengan KC,
-yang mana klien punya kemungkinan
+di mana klien mungkin sudah
 
 954
 00:40:27,550 --> 00:40:29,280
@@ -4541,12 +4541,12 @@ saat itu, sekarang kita akan
 
 955
 00:40:29,280 --> 00:40:31,800
-mengenkripsi itu dengan
-kunci yang dibagi diantara klien
+mengenkripsinya dengan
+kunci bersama antara klien
 
 956
 00:40:31,800 --> 00:40:35,510
-dan TGS service.
+dan layanan TGS.
 
 957
 00:40:35,510 --> 00:40:38,030
@@ -4554,22 +4554,22 @@ Masuk akal?
 
 958
 00:40:38,030 --> 00:40:44,850
-ok, jadi didalam-- bagaimana
+Baiklah, jadi di dalam sini-- bagaimana
 server benar-benar memahami
 
 959
 00:40:44,850 --> 00:40:46,590
-apa sang klien mau lakukan?
+apa yang klien ingin lakukan?
 
 960
 00:40:46,590 --> 00:40:49,120
-atau, bagaimana server
-mengautentikasi sang klien?
+Atau, bagaimana server
+mengotentikasi klien?
 
 961
 00:40:49,120 --> 00:40:52,650
-jadi, didalam kasus ini, itu
-akan-- sebenarnya TGS server
+jadi, di dalam kasus ini, dia
+akan-- sebenarnya server TGS
 
 962
 00:40:52,650 --> 00:40:54,840
@@ -4577,18 +4577,18 @@ tahu kuncinya sendiri, KTGS.
 
 963
 00:40:54,840 --> 00:40:57,390
-Jadi pertama itu akan
-dekripsi blob ini
+Jadi pertama dia akan
+mendekripsi blob ini
 
 964
 00:40:57,390 --> 00:41:00,090
-dan lihat didalam tiket dan
+dan melihat di dalam tiketnya dan
 mencari tahu apa yang sedang terjadi.
 
 965
 00:41:00,090 --> 00:41:03,190
-Dan semua itu adalah 
-bidang yang bagus didalam tiket.
+Dan ada semua nilai
+yang bagus itu di dalam tiket.
 
 966
 00:41:03,190 --> 00:41:04,400
@@ -4597,7 +4597,7 @@ Jadi mari periksa ulang.
 967
 00:41:04,400 --> 00:41:07,100
 Mengapa kita membutuhkan semua
-bidang itu di tiket?
+nilai itu di tiket?
 
 968
 00:41:07,100 --> 00:41:12,687
@@ -4611,7 +4611,7 @@ tidak memiliki S di sana?
 
 970
 00:41:17,722 --> 00:41:19,682
-Apa pun?
+Apapun?
 
 971
 00:41:19,682 --> 00:41:20,182
@@ -4644,32 +4644,32 @@ apa arti sebuah pesan.
 977
 00:41:31,580 --> 00:41:33,910
 Jadi dalam hal ini,
-jika Anda menghilangkan huruf S,
+jika Anda menghilangkan S,
 
 978
 00:41:33,910 --> 00:41:37,189
-kamu mungkin mengandalkan
-pada fakta bahwa, ya,
+Anda mungkin bergantung
+pada fakta bahwa, yah,
 
 979
 00:41:37,189 --> 00:41:39,730
-jika itu adalah S yang salah yang kamu
-coba gunakan sebagai tiket untuk,
+jika itu adalah S yang salah yang Anda
+coba gunakan sebagai tiket untuknya,
 
 980
 00:41:39,730 --> 00:41:42,320
-maka mungkin kamu akan memiliki
+maka mungkin Anda akan memiliki
 kunci yang berbeda di sebelah sini
 
 981
 00:41:42,320 --> 00:41:44,490
-dan itu tidak akan mendekripsi
+dan maka dia tidak akan mendekripsi
 atau sesuatu seperti ini.
 
 982
 00:41:44,490 --> 00:41:46,823
 Tetapi itu sepertinya ide yang bagus
-untuk melibatkan itu untuk memastikan
+untuk melibatkannya untuk memastikan
 
 983
 00:41:46,823 --> 00:41:48,630
@@ -4687,7 +4687,7 @@ saya atau orang lain?
 
 986
 00:41:52,470 --> 00:41:52,970
-Iya.
+Yah.
 
 987
 00:41:52,970 --> 00:41:55,522
