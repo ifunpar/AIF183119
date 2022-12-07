@@ -5355,22 +5355,22 @@ mengirim kembali sebuah balasan yang mengatakan,
 
 1124
 00:46:30,460 --> 00:46:38,580
-mit.edu memiliki sebuah IP
-address tertentu, 18.9 titik sesuatu.
+mit.edu memiliki sebuah alamat
+IP tertentu, 18.9 titik sesuatu.
 
 1125
 00:46:38,580 --> 00:46:41,860
 Masalahnya adalah beberapa
-penyerang dapat dengan mudah 
+penyerang dapat dengan mudah
 
 1126
 00:46:41,860 --> 00:46:43,615
-mengirim sebuah paket respon yang mirip
-berpura-pura
+mengirim sebuah paket respon serupa
+yang berpura-pura
 
 1127
 00:46:43,615 --> 00:46:45,408
-untuk berasal dari server.
+berasal dari server.
 
 1128
 00:46:45,408 --> 00:46:47,366
@@ -5379,13 +5379,13 @@ banyak keteracakan di sini.
 
 1129
 00:46:47,366 --> 00:46:50,180
-Jadi jika saya tahu bahwa anda 
+Jadi jika saya tahu bahwa Anda
 sedang mencoba untuk terhubung ke mit.edu,
 
 1130
 00:46:50,180 --> 00:46:53,126
 saya akan hanya mengirimkan paket yang banyak
-seperti ini kepada mesin anda.
+seperti ini kepada mesin Anda.
 
 1131
 00:46:53,126 --> 00:46:55,334
@@ -5395,34 +5395,34 @@ apa yang anda akan query.
 1132
 00:46:55,334 --> 00:46:57,400
 Saya tahu dengan tepat 
-apa itu IP address anda.
+apa alamat IP Anda.
 
 1133
 00:46:57,400 --> 00:46:58,703
-Saya tahu port numbers-nya.
+Saya tahu nomor port nya.
 
 1134
 00:46:58,703 --> 00:47:00,036
-Saya tahu apa yang anda sedang query.
+Saya tahu apa yang anda query kan.
 
 1135
 00:47:00,036 --> 00:47:02,530
-Saya bisa hanya menyediakan
-IP address milik saya sendiri di sini.
+Saya bisa sekadar menyediakan
+alamat IP milik saya sendiri di sini.
 
 1136
 00:47:02,530 --> 00:47:06,310
 Dan jika paket saya mencapai
-sana setelah anda mengirim ini
+sana setelah Anda mengirim ini
 
 1137
 00:47:06,310 --> 00:47:08,630
-tapi sebelum anda mendapatkan
+tapi sebelum Anda mendapatkan
 respon sebenarnya,
 
 1138
 00:47:08,630 --> 00:47:11,930
-mesin client anda akan
+mesin klient anda akan
 menggunakan paket saya.
 
 1139
@@ -5433,73 +5433,73 @@ di mana keteracakan yang tidak cukup
 1140
 00:47:14,585 --> 00:47:17,470
 dari protokol ini menyebabkan
-sangat mudah untuk memasukan respon
+sangat mudah untuk memasukkan respon
 
 1141
 00:47:17,470 --> 00:47:20,027
-atau memasukan paket secara umum.
+atau memasukkan paket secara umum.
 
 1142
 00:47:20,027 --> 00:47:21,860
 Dan hal ini sebenarnya
-dalam beberapa cara lebih buruk
+dalam beberapa kasus lebih buruk
 
 1143
 00:47:21,860 --> 00:47:23,113
-dari pada serangan sebelumnya.
+daripada serangan sebelumnya.
 
 1144
 00:47:23,113 --> 00:47:25,220
-Karena di sini anda bisa
-meyakinkan seorang client
+Karena di sini Anda bisa
+meyakinkan sebuah klien
 
 1145
 00:47:25,220 --> 00:47:28,150
-untuk terkoneksi bersama
-dengan IP address lainnya.
+untuk terkoneksi ke
+alamat IP lainnya.
 
 1146
 00:47:28,150 --> 00:47:29,865
-Dan itu mungkin akan
-meng-cache hasilnya,
+Dan dia mungkin akan
+memyimpan hasilnya dalam cache,
 
 1147
 00:47:29,865 --> 00:47:31,246
-karena DNS melakukan caching.
+karena DNS menyimpan cache.
 
 1148
 00:47:31,246 --> 00:47:32,787
-Mungkin hal tersebut akan cukup
-untuk menyediakan
+Mungkin Anda dapat menyediakan
+TTL (Time To Live)
 
 1149
 00:47:32,787 --> 00:47:36,550
-response cukup lama 
+yang cukup lama pada respon ini
 hingga bertahun-tahun.
 
 1150
 00:47:36,550 --> 00:47:38,620
-Lalu hingga client
-melakukan reboot,
+Dan maka klien Anda,
+sampai reboot berikutnya,
 
 1151
 00:47:38,620 --> 00:47:41,740
-maka client akan terus menggunakan 
-IP address mit.edu.
+akan terus menggunakan 
+alamat IP ini untuk mit.edu.
 
 1152
 00:47:41,740 --> 00:47:42,240
-ya.
+Yah.
 
 1153
 00:47:42,240 --> 00:47:44,980
-AUDIENS: Apakah permasalahan ini bisa diselesaikan
-dengan menambahkan
+AUDIENS: Apakah Anda bisa memperbaiki ini
+dengan kliennya mengikutsertakan
 
 1154
 00:47:44,980 --> 00:47:48,130
-nilai random pada
-query dan server pengguna
+sebuah nilai acak pada
+query, dan server kustomer
 
 1155
 00:47:48,130 --> 00:47:48,630
@@ -5508,11 +5508,11 @@ tepatnya?
 1156
 00:47:48,630 --> 00:47:50,755
 PROFESOR: Benar,
-ini biasanya yang dilakukan
+yah, jadi ini biasanya yang dilakukan
 
 1157
 00:47:50,755 --> 00:47:52,050
-orang-orang pada umumnya.
+orang-orang pada umumnya sekarang.
 
 1158
 00:47:52,050 --> 00:47:55,167
@@ -5521,67 +5521,67 @@ dibicarakan sebelumnya,
 
 1159
 00:47:55,167 --> 00:47:56,250
-yaitu kemampuan untuk terhubung dengan versi sebelumnya.
+yaitu kompatibilitas dengan versi sebelumnya.
 
 1160
 00:47:56,250 --> 00:47:58,870
-Sangat susah untuk mengganti
-software DNS server
+Sangat sulit untuk mengubah
+perangkat lunak server DNS
 
 1161
 00:47:58,870 --> 00:47:59,760
-di komputer semua orang.
+yang dijalankan semua orang.
 
 1162
 00:47:59,760 --> 00:48:01,260
-Pada dasarnya anda 
+Jadi pada dasarnya Anda
 harus mengetahui
 
 1163
 00:48:01,260 --> 00:48:02,700
-dimana tingkat randomness dimasukan?
+di mana anda menyisipkan keacakan?
 
 1164
 00:48:02,700 --> 00:48:04,450
-dan orang-orang
-menentukan dua tempat,
+Dan orang-orang telah
+menemukan dua tempat.
 
 1165
 00:48:04,450 --> 00:48:05,860
-tetapi tidak sempurna,
+Tetapi bukan yang terbaik.
 
 1166
 00:48:05,860 --> 00:48:08,340
-tetapi pada dasarnya terdapat
-source port number,
+Tetapi pada dasarnya ada
+sebuah nomor port asal,
 
 1167
 00:48:08,340 --> 00:48:11,050
-yang memiliki tingkat randomness 16 bit.
+yang memiliki tingkat keteracakan 16 bit.
 
 1168
 00:48:11,050 --> 00:48:13,700
-Lalu jika anda memilih 
-source port secara random,
+Lalu jika Anda dapat memilih
+port asal secara acak,
 
 1169
 00:48:13,700 --> 00:48:15,140
-maka anda akan mendapatkan 16 bits.
+maka Anda mendapatkan 16 bit.
 
 1170
 00:48:15,140 --> 00:48:19,470
-lalu terdapat juga 
-query ID inside
+Lalu terdapat juga
+sebuah ID query di dalam
 
 1171
 00:48:19,470 --> 00:48:22,460
-di dalam paket, yang
-juga berisi 16 bit.
+paket, yang
+juga 16 bit.
 
 1172
 00:48:22,460 --> 00:48:25,030
 Dan server juga mengembalikan
-ID kueri.
+ID query yang sama.
 
 1173
 00:48:25,030 --> 00:48:27,040
@@ -5590,8 +5590,8 @@ benda ini bersama,
 
 1174
 00:48:27,040 --> 00:48:30,570
-sebagian besar penyelesaian akhir-akhir ini
-mendapatkan keacakan dari 32 bit
+sebagian besar (DNS) resolver akhir-akhir ini
+mendapatkan keacakan 32 bit
 
 1175
 00:48:30,570 --> 00:48:31,940
@@ -5599,13 +5599,13 @@ dari protokol ini.
 
 1176
 00:48:31,940 --> 00:48:36,620
-Dan, lagi, itu membuatnay terasa
-lebih susah, tetapi tetap saja
+Dan itu, lagi-lagi, membuatnya terasa
+lebih sulit, tetapi tetap saja
 
 1177
 00:48:36,620 --> 00:48:40,854
-tidak sempura secara kriptografi,
-untuk memalsukan tanggapan seperti ini
+tidak sempurna secara kriptografi,
+untuk memalsukan respon seperti ini
 
 1178
 00:48:40,854 --> 00:48:44,340
@@ -5614,18 +5614,18 @@ diterima oleh klien.
 
 1179
 00:48:44,340 --> 00:48:47,450
-Sayangnya, masalah ini
-terus datang.
+Tetapi masalah ini
+terus datang, sayangnya.
 
 1180
 00:48:47,450 --> 00:48:51,990
-Sehingga meskipun itu
-dipahami dengan baik oleh TCP,
+Sehingga meskipun dia
+dipahami dengan baik untuk TCP,
 
 1181
 00:48:51,990 --> 00:48:55,200
-beberapa orang saya tebak merekomendasikan
-bahwa ini adalah sebuah masalah.
+saya rasa beberapa orang mengatakan
+bahwa ini mungkin adalah sebuah masalah.
 
 1182
 00:48:55,200 --> 00:48:59,350
@@ -5638,12 +5638,12 @@ Masuk akal?
 
 1184
 00:49:04,220 --> 00:49:06,080
-Baiklah, jadi saya kira
+Baiklah, jadi saya rasa
 sebagai tambahan,
 
 1185
 00:49:06,080 --> 00:49:08,910
-ada solusi 
+ada solusi
 untuk masalah DNS ini
 
 1186
@@ -5657,13 +5657,13 @@ pada level aplikasi.
 
 1188
 00:49:13,270 --> 00:49:16,750
-Sehingga daripada mengandalkan pada
-keacakan properti
+Jadi sehingga daripada mengandalkan pada
+properti keteracakan
 
 1189
 00:49:16,750 --> 00:49:19,611
-dari angka kecil dari
-suatu bit pada paket,
+dari sejumlah
+kecil bit di dalam paket,
 
 1190
 00:49:19,611 --> 00:49:23,680
@@ -5673,11 +5673,11 @@ pada protokol DNS.
 1191
 00:49:23,680 --> 00:49:26,040
 Sehingga protokol seperti DNS SEC
-yang disebutkan secara singkat pada kertas
+yang disebutkan secara singkat pada paper
 
 1192
 00:49:26,040 --> 00:49:28,070
-tentang mencoba melakukan hal ini.
+membahas tentang mencoba melakukan hal ini.
 
 1193
 00:49:28,070 --> 00:49:30,770
@@ -5715,16 +5715,16 @@ adalah nama dan asalnya.
 1200
 00:49:47,100 --> 00:49:51,130
 Karena di DNS, Anda
-ingin mendapatkan tanggapan.
+ingin mendapatkan respon.
 
 1201
 00:49:51,130 --> 00:49:52,680
-Jadi, nama ini memiliki
+Yah, nama ini memiliki
 alamat IP itu.
 
 1202
 00:49:52,680 --> 00:49:54,721
-Atau Anda dapat mendapatkan tanggapan
+Atau Anda dapat mendapatkan respon
 mengatakan, tidak, maaf,
 
 1203
@@ -5733,8 +5733,8 @@ nama ini tidak ada.
 
 1204
 00:49:56,310 --> 00:50:00,186
-Jadi Anda ingin menandai juga
-tanggapan yang tidak ada tersebut.
+Jadi Anda ingin menandatangani juga
+respon tidak ada tersebut.
 
 1205
 00:50:00,186 --> 00:50:01,560
@@ -5743,8 +5743,8 @@ musuh itu
 
 1206
 00:50:01,560 --> 00:50:04,760
-dapat mengirim kembali tanggapan
-yang tidak ada dan berpura-pura
+dapat mengirim kembali respon
+tidak ada dan berpura-pura
 
 1207
 00:50:04,760 --> 00:50:07,420
@@ -5754,7 +5754,7 @@ walaupun sebenarnya ada.
 1208
 00:50:07,420 --> 00:50:09,930
 Jadi bagaimana Anda menandai
-tanggapan yang beberapa nama tertentu
+respon di mana beberapa nama tertentu
 
 1209
 00:50:09,930 --> 00:50:11,951
@@ -5762,13 +5762,13 @@ tidak ada sebelumnya?
 
 1210
 00:50:11,951 --> 00:50:13,450
-Saya mengira satu kemungkinannya
+Saya rasa satu kemungkinannya
 adalah Anda dapat
 
 1211
 00:50:13,450 --> 00:50:17,950
 memberikan kunci server DNS Anda
-yang menandai semua catatan Anda.
+yang menandatangani semua catatan Anda.
 
 1212
 00:50:17,950 --> 00:50:19,082
@@ -5786,7 +5786,7 @@ dapat pergi dengan kunci ini.
 1215
 00:50:22,680 --> 00:50:25,700
 Jadi sebagai gantinya, model
-DNS SEC beroperasi di bawah
+DNS SEC beroperasi di atas fakta
 
 1216
 00:50:25,700 --> 00:50:29,440
@@ -5795,8 +5795,8 @@ di domain Anda sebelumnya,
 
 1217
 00:50:29,440 --> 00:50:32,315
-dan Anda memberikan yang sudah ditandatangani
-blob ke server DNS Anda.
+dan Anda memberikan data yang sudah ditandatangani
+ke server DNS Anda.
 
 1218
 00:50:32,315 --> 00:50:34,866
@@ -5806,7 +5806,7 @@ merespon pada setiap pertanyaan.
 1219
 00:50:34,866 --> 00:50:36,990
 Tetapi bahkan jika itu dikompromikan,
-hanya sedikit
+tidak banyak hal lain
 
 1220
 00:50:36,990 --> 00:50:37,480
@@ -5815,7 +5815,7 @@ yang penyerang itu dapat lakukan.
 1221
 00:50:37,480 --> 00:50:39,600
 Semua hal ini
-ditandatangani, dan kunci
+ditandatangani, dan kuncinya
 
 1222
 00:50:39,600 --> 00:50:43,340
@@ -5833,7 +5833,7 @@ untuk menandatangani catatan yang belum ada.
 
 1225
 00:50:52,230 --> 00:50:55,390
-Dan cara yang kamu akan lakukan
+Dan cara yang Anda akan lakukan
 ini adalah dengan menandatangani celah
 
 1226
@@ -5847,27 +5847,27 @@ mengatakan, yah, ada
 
 1228
 00:51:00,490 --> 00:51:06,550
-sebuah nama dipanggil dengan foo.mit.edu, dan
+sebuah nama foo.mit.edu, dan
 sebuah nama selanjutnya secara alfabet
 
 1229
 00:51:06,550 --> 00:51:10,492
-itu mungkin adalah goo.mit.edu.
+mungkin adalah goo.mit.edu.
 
 1230
 00:51:10,492 --> 00:51:13,680
-Dan tidak ada sesuatu yang mengandung alfabet
-diantara dua nama ini.
+Dan tidak ada apapun secara alfabet
+di antara dua nama ini.
 
 1231
 00:51:13,680 --> 00:51:16,380
-Jadi jika kamu mengantrikan untuk sebuah
-nama diantara dua
+Jadi jika Anda meng-query sebuah
+nama di antara dua
 
 1232
 00:51:16,380 --> 00:51:17,921
-nama-nama ini secara alfabet
-yang sudah tersusun, kemudian
+nama-nama ini yang secara alfabet
+sudah tersusun, kemudian
 
 1233
 00:51:17,921 --> 00:51:20,170
@@ -5877,17 +5877,17 @@ isi pesan yang sudah ditandatangani ini,
 1234
 00:51:20,170 --> 00:51:22,050
 oh, tidak ada sesuatu
-diantara dua nama ini.
+di antara dua nama ini.
 
 1235
 00:51:22,050 --> 00:51:24,460
-Anda bisa dengan selamat
-mengembalikan, itu tidak pernah ada.
+Anda bisa dengan aman
+mengembalikan, itu tidak ada.
 
 1236
 00:51:24,460 --> 00:51:26,060
 Tetapi kemudian ini
-memberi akses beberapa penyerang
+memungkinkan beberapa penyerang
 
 1237
 00:51:26,060 --> 00:51:27,768
