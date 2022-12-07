@@ -4434,269 +4434,269 @@ pada layanan ini berikutnya.
 933
 00:39:24,000 --> 00:39:27,130
 Jadi ini mungkin server e-mail
-Anda atau server file kamu.
+Anda atau server file Anda.
 
 934
 00:39:27,130 --> 00:39:29,440
-Then is going to
-include the ticket.
+Kemudian akan
+termasuk tiketnya.
 
 935
 00:39:29,440 --> 00:39:30,970
-It already got 4TGS.
+Dia sudah mendapat 4TGS.
 
 936
 00:39:30,970 --> 00:39:38,100
-So this is going to be TC
-of TGS encrypted with KTGS.
+Jadi ini akan menjadi TC
+dari TGS yang dienkripsi dengan KTGS.
 
 937
 00:39:38,100 --> 00:39:41,430
-So this is just this
-thing where S is TGS.
+Jadi ini hanyalah hal
+ini di mana S adalah TGS.
 
 938
 00:39:41,430 --> 00:39:43,890
-And then you're going to have
-to include this authenticator
+Dan kemudian Anda harus
+menyertakan otentikator
 
 939
 00:39:43,890 --> 00:39:44,890
-blob.
+ini.
 
 940
 00:39:44,890 --> 00:39:48,155
-This is this AC
-thing from up there.
+Ini adalah AC ini
+dari atas sana.
 
 941
 00:39:48,155 --> 00:39:49,780
-And this thing is
-going to be encrypted
+Dan benda ini
+akan dienkripsi
 
 942
 00:39:49,780 --> 00:39:54,892
-with a shared key between the
-client and the TGS service.
+dengan kunci bersama antara
+klien dan layanan TGS.
 
 943
 00:39:54,892 --> 00:39:58,360
-So this is the message that
-you're going to send to TGS.
+Jadi ini adalah pesan yang akan
+Anda kirimkan kepada TGS.
 
 944
 00:39:58,360 --> 00:40:00,399
-It's going to look
-at this message,
+Dia akan terlihat
+pada pesan ini,
 
 945
 00:40:00,399 --> 00:40:02,690
-do something with it that
-we'll talk about in a second,
+melakukan sesuatu dengannya yang
+akan kita bicarakan sebentar lagi,
 
 946
 00:40:02,690 --> 00:40:07,770
-and respond back with a
-ticket for this new service S.
+dan merespon balik dengan sebuah
+tiket untuk layanan baru S ini.
 
 947
 00:40:07,770 --> 00:40:10,700
-So the response here looks
-almost exactly like here.
+Jadi respon di sini terlihat
+hampir tepat seperti di sini.
 
 948
 00:40:10,700 --> 00:40:12,490
-In fact, it is exactly
-the same thing.
+Faktanya, ini hal yang
+yang tepat sama.
 
 949
 00:40:12,490 --> 00:40:14,610
-It's going to be a
-ticket between the client
+Ini akan menjadi
+tiket antara klien
 
 950
 00:40:14,610 --> 00:40:18,310
-and this new service
-S encrypted with KS
+dan layanan S
+baru yang terenkripsi oleh KS
 
 951
 00:40:18,310 --> 00:40:21,320
-and the shared key between the
-client and this new service
+dan kunci bersama di antara
+klien dan layanan baru ini S
 
 952
 00:40:21,320 --> 00:40:25,040
-S encrypted-- well, now,
-here's a little bit different.
+terenkripsi-- jadi, sekarang,
+di sini sedikit berbeda.
 
 953
 00:40:25,040 --> 00:40:27,550
-Instead of encrypting with KC,
-which the client has probably
+Alih-alih mengenkripsi dengan KC,
+di mana klien mungkin sudah
 
 954
 00:40:27,550 --> 00:40:29,280
-forgotten since
-then, now we're going
+lupa sejak
+saat itu, sekarang kita akan
 
 955
 00:40:29,280 --> 00:40:31,800
-to encrypt it with this
-shared key between the client
+mengenkripsinya dengan
+kunci bersama antara klien
 
 956
 00:40:31,800 --> 00:40:35,510
-and the TGS service.
+dan layanan TGS.
 
 957
 00:40:35,510 --> 00:40:38,030
-Makes sense?
+Masuk akal?
 
 958
 00:40:38,030 --> 00:40:44,850
-All right, so in this-- how does
-the server actually figure out
+Baiklah, jadi di dalam sini-- bagaimana
+server benar-benar memahami
 
 959
 00:40:44,850 --> 00:40:46,590
-what the client wants to do?
+apa yang klien ingin lakukan?
 
 960
 00:40:46,590 --> 00:40:49,120
-Or, how does server
-authenticate the client?
+Atau, bagaimana server
+mengotentikasi klien?
 
 961
 00:40:49,120 --> 00:40:52,650
-Well, in this case, it's
-going to-- TGS server actually
+jadi, di dalam kasus ini, dia
+akan-- sebenarnya server TGS
 
 962
 00:40:52,650 --> 00:40:54,840
-knows its own key, KTGS.
+tahu kuncinya sendiri, KTGS.
 
 963
 00:40:54,840 --> 00:40:57,390
-So it's going to first
-decrypt this blob
+Jadi pertama dia akan
+mendekripsi blob ini
 
 964
 00:40:57,390 --> 00:41:00,090
-and look inside the ticket and
-figure out what's going on.
+dan melihat di dalam tiketnya dan
+mencari tahu apa yang sedang terjadi.
 
 965
 00:41:00,090 --> 00:41:03,190
-And there's all those
-nice fields in the ticket.
+Dan ada semua nilai
+yang bagus itu di dalam tiket.
 
 966
 00:41:03,190 --> 00:41:04,400
-So let's just double check.
+Jadi mari periksa ulang.
 
 967
 00:41:04,400 --> 00:41:07,100
-Why do we need all those
-fields in the ticket?
+Mengapa kita membutuhkan semua
+nilai itu di tiket?
 
 968
 00:41:07,100 --> 00:41:12,687
-So is it important to have the
-server name S in the ticket?
+Jadi apakah penting untuk memiliki
+nama server S di tiket?
 
 969
 00:41:12,687 --> 00:41:14,770
-What would go wrong if you
-didn't have S in there?
+Apa yang salah jika Anda
+tidak memiliki S di sana?
 
 970
 00:41:17,722 --> 00:41:19,682
-Anything?
+Apapun?
 
 971
 00:41:19,682 --> 00:41:20,182
-Yeah.
+Yah.
 
 972
 00:41:20,182 --> 00:41:21,640
-STUDENT: They could
-potentially get
+MAHASISWA: Mereka
+berpotensi mendapatkan
 
 973
 00:41:21,640 --> 00:41:24,610
-authorized to use any server.
+otorisasi untuk menggunakan server apa pun.
 
 974
 00:41:24,610 --> 00:41:27,370
-PROFESSOR: Yeah, so it's
-in general a good idea
+PROFESOR: Yah, jadi secara
+umum itu ide yang bagus
 
 975
 00:41:27,370 --> 00:41:29,300
-to be very explicit
-in network protocols
+untuk sangat eksplisit
+dalam protokol jaringan
 
 976
 00:41:29,300 --> 00:41:31,580
-and to say exactly
-what a message means.
+dan mengatakan dengan tepat
+apa arti sebuah pesan.
 
 977
 00:41:31,580 --> 00:41:33,910
-So in this case,
-if you omit an S,
+Jadi dalam hal ini,
+jika Anda menghilangkan S,
 
 978
 00:41:33,910 --> 00:41:37,189
-you might be relying
-on the fact that, well,
+Anda mungkin bergantung
+pada fakta bahwa, yah,
 
 979
 00:41:37,189 --> 00:41:39,730
-if it's the wrong S that you're
-trying to use the ticket for,
+jika itu adalah S yang salah yang Anda
+coba gunakan sebagai tiket untuknya,
 
 980
 00:41:39,730 --> 00:41:42,320
-then maybe you'll have a
-different key over here
+maka mungkin Anda akan memiliki
+kunci yang berbeda di sebelah sini
 
 981
 00:41:42,320 --> 00:41:44,490
-and then it wouldn't decrypt
-or something like this.
+dan maka dia tidak akan mendekripsi
+atau sesuatu seperti ini.
 
 982
 00:41:44,490 --> 00:41:46,823
-But it seems like a good idea
-to include it to make sure
+Tetapi itu sepertinya ide yang bagus
+untuk melibatkannya untuk memastikan
 
 983
 00:41:46,823 --> 00:41:48,630
-that the server that
-receives this tickets
+bahwa server yang
+menerima tiket-tiket ini
 
 984
 00:41:48,630 --> 00:41:49,960
-decrypts and checks.
+mendekripsi dan memeriksa.
 
 985
 00:41:49,960 --> 00:41:52,470
-Is that a ticket for
-me or for someone else?
+Apakah itu tiket untuk 
+saya atau orang lain?
 
 986
 00:41:52,470 --> 00:41:52,970
-Yeah.
+Yah.
 
 987
 00:41:52,970 --> 00:41:55,522
-STUDENT: What does the
-client get KTGS on?
+MAHASISWA: Apakah klien
+mendapatkan KTGS?
 
 988
 00:41:55,522 --> 00:41:56,730
-PROFESSOR: Ah, good question.
+PROFESOR: Ah, pertanyaan bagus.
 
 989
 00:41:56,730 --> 00:41:58,230
