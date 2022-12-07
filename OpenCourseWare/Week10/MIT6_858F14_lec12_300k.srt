@@ -5342,552 +5342,552 @@ dari client dengan port 53.
 
 1121
 00:46:23,003 --> 00:46:24,320
-to the server on this port.
+ke server pada port ini.
 
 1122
 00:46:24,320 --> 00:46:25,200
-Here's the query.
+Inilah query-nya.
 
 1123
 00:46:25,200 --> 00:46:30,460
-And the server eventually
-sends back a reply saying,
+Dan server pada akhirnya
+mengirim kembali sebuah balasan yang mengatakan,
 
 1124
 00:46:30,460 --> 00:46:38,580
-mit.edu has a particular IP
-address, 18.9 dot something.
+mit.edu memiliki sebuah alamat
+IP tertentu, 18.9 titik sesuatu.
 
 1125
 00:46:38,580 --> 00:46:41,860
-The problem is that some
-adversary could easily
+Masalahnya adalah beberapa
+penyerang dapat dengan mudah
 
 1126
 00:46:41,860 --> 00:46:43,615
-send a similar response
-packet pretending
+mengirim sebuah paket respon serupa
+yang berpura-pura
 
 1127
 00:46:43,615 --> 00:46:45,408
-to be from the server.
+berasal dari server.
 
 1128
 00:46:45,408 --> 00:46:47,366
-And there's not a whole
-lot of randomness here.
+Dan tidak ada sangat
+banyak keteracakan di sini.
 
 1129
 00:46:47,366 --> 00:46:50,180
-So if I know that you're
-trying to connect to mit.edu,
+Jadi jika saya tahu bahwa Anda
+sedang mencoba untuk terhubung ke mit.edu,
 
 1130
 00:46:50,180 --> 00:46:53,126
-I'll just send a lot of packets
-like this to your machine.
+saya akan hanya mengirimkan paket yang banyak
+seperti ini kepada mesin Anda.
 
 1131
 00:46:53,126 --> 00:46:55,334
-I know exactly what DNS
-server you're going to query.
+Saya tahu dengan tepat DNS server
+apa yang anda akan query.
 
 1132
 00:46:55,334 --> 00:46:57,400
-I know exactly what
-your IP address is.
+Saya tahu dengan tepat 
+apa alamat IP Anda.
 
 1133
 00:46:57,400 --> 00:46:58,703
-I know the port numbers.
+Saya tahu nomor port nya.
 
 1134
 00:46:58,703 --> 00:47:00,036
-I know what you're querying for.
+Saya tahu apa yang anda query kan.
 
 1135
 00:47:00,036 --> 00:47:02,530
-I can just supply my
-own IP address here.
+Saya bisa sekadar menyediakan
+alamat IP milik saya sendiri di sini.
 
 1136
 00:47:02,530 --> 00:47:06,310
-And if my packet gets
-there after you send this
+Dan jika paket saya mencapai
+sana setelah Anda mengirim ini
 
 1137
 00:47:06,310 --> 00:47:08,630
-but before you get
-the real response,
+tapi sebelum Anda mendapatkan
+respon sebenarnya,
 
 1138
 00:47:08,630 --> 00:47:11,930
-your client machine is
-going to use my packet.
+mesin klient anda akan
+menggunakan paket saya.
 
 1139
 00:47:11,930 --> 00:47:14,585
-So this is another example
-where insufficient randomness
+Jadi ini adalah contoh lain
+di mana keteracakan yang tidak cukup
 
 1140
 00:47:14,585 --> 00:47:17,470
-in this protocol makes it
-very easy to inject responses
+dari protokol ini menyebabkan
+sangat mudah untuk memasukkan respon
 
 1141
 00:47:17,470 --> 00:47:20,027
-or inject packets in general.
+atau memasukkan paket secara umum.
 
 1142
 00:47:20,027 --> 00:47:21,860
-And this is actually
-in some ways even worse
+Dan hal ini sebenarnya
+dalam beberapa kasus lebih buruk
 
 1143
 00:47:21,860 --> 00:47:23,113
-than the previous attack.
+daripada serangan sebelumnya.
 
 1144
 00:47:23,113 --> 00:47:25,220
-Because here you could
-convince a client
+Karena di sini Anda bisa
+meyakinkan sebuah klien
 
 1145
 00:47:25,220 --> 00:47:28,150
-to connect to another
-IP address all together.
+untuk terkoneksi ke
+alamat IP lainnya.
 
 1146
 00:47:28,150 --> 00:47:29,865
-And it'll probably
-cache this result,
+Dan dia mungkin akan
+memyimpan hasilnya dalam cache,
 
 1147
 00:47:29,865 --> 00:47:31,246
-because DNS involves caching.
+karena DNS menyimpan cache.
 
 1148
 00:47:31,246 --> 00:47:32,787
-Maybe you can supply
-a very long time
+Mungkin Anda dapat menyediakan
+TTL (Time To Live)
 
 1149
 00:47:32,787 --> 00:47:36,550
-to live in this response
-saying, this is valid for years.
+yang cukup lama pada respon ini
+hingga bertahun-tahun.
 
 1150
 00:47:36,550 --> 00:47:38,620
-And then your client,
-again till it reboots,
+Dan maka klien Anda,
+sampai reboot berikutnya,
 
 1151
 00:47:38,620 --> 00:47:41,740
-is going to keep using this
-IP address for mit.edu.
+akan terus menggunakan 
+alamat IP ini untuk mit.edu.
 
 1152
 00:47:41,740 --> 00:47:42,240
-Yeah.
+Yah.
 
 1153
 00:47:42,240 --> 00:47:44,980
-AUDIENCE: Could you fix this
-by having the client include
+AUDIENS: Apakah Anda bisa memperbaiki ini
+dengan kliennya mengikutsertakan
 
 1154
 00:47:44,980 --> 00:47:48,130
-some random value in the
-query, and the server customer
+sebuah nilai acak pada
+query, dan server kustomer
 
 1155
 00:47:48,130 --> 00:47:48,630
-exactly?
+tepatnya?
 
 1156
 00:47:48,630 --> 00:47:50,755
-PROFESSOR: That's right,
-yeah, so this is typically
+PROFESOR: Benar,
+yah, jadi ini biasanya yang dilakukan
 
 1157
 00:47:50,755 --> 00:47:52,050
-what people have done now.
+orang-orang pada umumnya sekarang.
 
 1158
 00:47:52,050 --> 00:47:55,167
-The problem, as we were sort
-of talking about earlier,
+Masalahnya, seperti yang 
+dibicarakan sebelumnya,
 
 1159
 00:47:55,167 --> 00:47:56,250
-is backward compatibility.
+yaitu kompatibilitas dengan versi sebelumnya.
 
 1160
 00:47:56,250 --> 00:47:58,870
-It's very hard to change
-the DNS server software
+Sangat sulit untuk mengubah
+perangkat lunak server DNS
 
 1161
 00:47:58,870 --> 00:47:59,760
-that everyone runs.
+yang dijalankan semua orang.
 
 1162
 00:47:59,760 --> 00:48:01,260
-So you basically
-have to figure out,
+Jadi pada dasarnya Anda
+harus mengetahui
 
 1163
 00:48:01,260 --> 00:48:02,700
-where can you inject randomness?
+di mana anda menyisipkan keacakan?
 
 1164
 00:48:02,700 --> 00:48:04,450
-And people have
-figured out two places.
+Dan orang-orang telah
+menemukan dua tempat.
 
 1165
 00:48:04,450 --> 00:48:05,860
-It's not great.
+Tetapi bukan yang terbaik.
 
 1166
 00:48:05,860 --> 00:48:08,340
-But basically there's
-a source port number,
+Tetapi pada dasarnya ada
+sebuah nomor port asal,
 
 1167
 00:48:08,340 --> 00:48:11,050
-which is 16 bits of randomness.
+yang memiliki tingkat keteracakan 16 bit.
 
 1168
 00:48:11,050 --> 00:48:13,700
-So if you can choose the
-source port number randomly,
+Lalu jika Anda dapat memilih
+port asal secara acak,
 
 1169
 00:48:13,700 --> 00:48:15,140
-then you get 16 bits.
+maka Anda mendapatkan 16 bit.
 
 1170
 00:48:15,140 --> 00:48:19,470
-And there's also
-a query ID inside
+Lalu terdapat juga
+sebuah ID query di dalam
 
 1171
 00:48:19,470 --> 00:48:22,460
-of the packet, which
-is also 16 bits.
+paket, yang
+juga 16 bit.
 
 1172
 00:48:22,460 --> 00:48:25,030
-And the server does
-echo back the query ID.
+Dan server juga mengembalikan
+ID query yang sama.
 
 1173
 00:48:25,030 --> 00:48:27,040
-So combining these
-two things together,
+Sehingga menggabungkan kedua
+benda ini bersama,
 
 1174
 00:48:27,040 --> 00:48:30,570
-most resolvers these days
-get 32 bits of randomness
+sebagian besar (DNS) resolver akhir-akhir ini
+mendapatkan keacakan 32 bit
 
 1175
 00:48:30,570 --> 00:48:31,940
-out of this protocol.
+dari protokol ini.
 
 1176
 00:48:31,940 --> 00:48:36,620
-And it, again, makes it
-noticeably harder, but still
+Dan itu, lagi-lagi, membuatnya terasa
+lebih sulit, tetapi tetap saja
 
 1177
 00:48:36,620 --> 00:48:40,854
-not cryptographically perfect,
-to fake this kind of response
+tidak sempurna secara kriptografi,
+untuk memalsukan respon seperti ini
 
 1178
 00:48:40,854 --> 00:48:44,340
-and have it be
-accepted by the client.
+dan membuat itu
+diterima oleh klien.
 
 1179
 00:48:44,340 --> 00:48:47,450
-But these problems keep
-coming up, unfortunately.
+Tetapi masalah ini
+terus datang, sayangnya.
 
 1180
 00:48:47,450 --> 00:48:51,990
-So even though it was
-well understood for TCP,
+Sehingga meskipun dia
+dipahami dengan baik untuk TCP,
 
 1181
 00:48:51,990 --> 00:48:55,200
-some people I guess suggested
-that this might be a problem.
+saya rasa beberapa orang mengatakan
+bahwa ini mungkin adalah sebuah masalah.
 
 1182
 00:48:55,200 --> 00:48:59,350
-But it wasn't actually fixed
-until only a few years ago.
+Tetapi itu tidak sebenarnya diperbaiki
+sampai beberapa tahun lalu.
 
 1183
 00:49:01,970 --> 00:49:04,220
-Make sense?
+Masuk akal?
 
 1184
 00:49:04,220 --> 00:49:06,080
-All right, so I guess
-maybe as an aside,
+Baiklah, jadi saya rasa
+sebagai tambahan,
 
 1185
 00:49:06,080 --> 00:49:08,910
-there are solutions
-to this DNS problem
+ada solusi
+untuk masalah DNS ini
 
 1186
 00:49:08,910 --> 00:49:11,890
-as well by enforcing
-security for DNS
+juga dengan memperkuat
+keamanan untuk DNS
 
 1187
 00:49:11,890 --> 00:49:13,270
-at the application level.
+pada level aplikasi.
 
 1188
 00:49:13,270 --> 00:49:16,750
-So instead of relying on
-these randomness properties
+Jadi sehingga daripada mengandalkan pada
+properti keteracakan
 
 1189
 00:49:16,750 --> 00:49:19,611
-of small numbers of
-bits in the packet,
+dari sejumlah
+kecil bit di dalam paket,
 
 1190
 00:49:19,611 --> 00:49:23,680
-you could try to use encryption
-in the DNS protocols.
+Anda dapat mencoba menggunakan enkripsi
+pada protokol DNS.
 
 1191
 00:49:23,680 --> 00:49:26,040
-So protocols like DNS SEC
-that the paper briefly
+Sehingga protokol seperti DNS SEC
+yang disebutkan secara singkat pada paper
 
 1192
 00:49:26,040 --> 00:49:28,070
-talks about try to do this.
+membahas tentang mencoba melakukan hal ini.
 
 1193
 00:49:28,070 --> 00:49:30,770
-So instead of relying on
-any network level security
+Jadi alih-alih mengandalkan
+properti keamanan apapun di tingkat
 
 1194
 00:49:30,770 --> 00:49:34,590
-properties, they require that
-all DNS names have signatures
+jaringan, mereka mengharuskan semua
+nama DNS memiliki tanda tangan
 
 1195
 00:49:34,590 --> 00:49:36,290
-attached to them.
+yang menyertainya.
 
 1196
 00:49:36,290 --> 00:49:37,820
-That seems like a sensible plan.
+Sepertinya itu rencana yang masuk akal.
 
 1197
 00:49:37,820 --> 00:49:39,695
-But it turns out that
-working out the details
+Tetapi ternyata
+Mengerjakan detailnya
 
 1198
 00:49:39,695 --> 00:49:42,300
-is actually quite
-difficult. So one example
+sebenarnya cukup
+sulit. Jadi salah satu contoh
 
 1199
 00:49:42,300 --> 00:49:47,100
-of a problem that showed
-up is name and origin.
+masalah yang muncul
+adalah nama dan asalnya.
 
 1200
 00:49:47,100 --> 00:49:51,130
-Because in DNS, you
-want to get responses.
+Karena di DNS, Anda
+ingin mendapatkan respon.
 
 1201
 00:49:51,130 --> 00:49:52,680
-Well, this name has
-that IP address.
+Yah, nama ini memiliki
+alamat IP itu.
 
 1202
 00:49:52,680 --> 00:49:54,721
-Or you could get a response
-saying, no, so sorry,
+Atau Anda dapat mendapatkan respon
+mengatakan, tidak, maaf,
 
 1203
 00:49:54,721 --> 00:49:56,310
-this name doesn't exist.
+nama ini tidak ada.
 
 1204
 00:49:56,310 --> 00:50:00,186
-So you want to sign the it
-doesn't exist response as well.
+Jadi Anda ingin menandatangani juga
+respon tidak ada tersebut.
 
 1205
 00:50:00,186 --> 00:50:01,560
-Because otherwise,
-that adversary
+Karena kalau tidak,
+musuh itu
 
 1206
 00:50:01,560 --> 00:50:04,760
-could send back a doesn't
-exist response and pretend
+dapat mengirim kembali respon
+tidak ada dan berpura-pura
 
 1207
 00:50:04,760 --> 00:50:07,420
-that a name doesn't exist,
-even though it does.
+kalau nama tersebut tidak ada,
+walaupun sebenarnya ada.
 
 1208
 00:50:07,420 --> 00:50:09,930
-So how do you sign
-responses that certain names
+Jadi bagaimana Anda menandai
+respon di mana beberapa nama tertentu
 
 1209
 00:50:09,930 --> 00:50:11,951
-don't exist ahead of time?
+tidak ada sebelumnya?
 
 1210
 00:50:11,951 --> 00:50:13,450
-I guess one possibility
-is you could
+Saya rasa satu kemungkinannya
+adalah Anda dapat
 
 1211
 00:50:13,450 --> 00:50:17,950
-give your DNS server the key
-that signs all your records.
+memberikan kunci server DNS Anda
+yang menandatangani semua catatan Anda.
 
 1212
 00:50:17,950 --> 00:50:19,082
-That seems like a bad plan.
+Sepertinya itu rencana yang buruk.
 
 1213
 00:50:19,082 --> 00:50:21,248
-Because then someone who
-compromises your DNS server
+Karena dengan begitu seseorang
+yang mengkompromikan server DNS Anda
 
 1214
 00:50:21,248 --> 00:50:22,680
-could walk away with this key.
+dapat pergi dengan kunci ini.
 
 1215
 00:50:22,680 --> 00:50:25,700
-So instead, the model the
-DNS SEC operates under
+Jadi sebagai gantinya, model
+DNS SEC beroperasi di atas fakta
 
 1216
 00:50:25,700 --> 00:50:29,440
-is that you sign all your names
-in your domain ahead of time,
+bahwa Anda menandatangani semua nama Anda
+di domain Anda sebelumnya,
 
 1217
 00:50:29,440 --> 00:50:32,315
-and you give the signed
-blob to your DNS server.
+dan Anda memberikan data yang sudah ditandatangani
+ke server DNS Anda.
 
 1218
 00:50:32,315 --> 00:50:34,866
-And the DNS server can then
-respond to any queries.
+Dan server DNS kemudian bisa
+merespon pada setiap pertanyaan.
 
 1219
 00:50:34,866 --> 00:50:36,990
-But even if it's compromised,
-there's not much else
+Tetapi bahkan jika itu dikompromikan,
+tidak banyak hal lain
 
 1220
 00:50:36,990 --> 00:50:37,480
-that that attacker can do.
+yang penyerang itu dapat lakukan.
 
 1221
 00:50:37,480 --> 00:50:39,600
-All these things are
-signed, and the key
+Semua hal ini
+ditandatangani, dan kuncinya
 
 1222
 00:50:39,600 --> 00:50:43,340
-is not to be found on
-the DNS server itself.
+tidak ditemukan pada
+server DNS itu sendiri.
 
 1223
 00:50:43,340 --> 00:50:49,150
-So the DNS SEC protocol had this
-clever mechanism called NSEC
+Jadi protokol DNS SEC mempunyai
+mekanisme cerdas bernama NSEC
 
 1224
 00:50:49,150 --> 00:50:52,230
-for signing nonexistent records.
+untuk menandatangani catatan yang belum ada.
 
 1225
 00:50:52,230 --> 00:50:55,390
-And the way you would do
-this is by signing gaps
+Dan cara yang Anda akan lakukan
+ini adalah dengan menandatangani celah
 
 1226
 00:50:55,390 --> 00:50:56,650
-in the namespace.
+dalam sebuah namespace.
 
 1227
 00:50:56,650 --> 00:51:00,490
-So an NSEC record might
-say, well, there's
+Jadi sebuah catatan NSEC mungkin
+mengatakan, yah, ada
 
 1228
 00:51:00,490 --> 00:51:06,550
-a name called foo.mit.edu, and
-the next name alphabetically
+sebuah nama foo.mit.edu, dan
+sebuah nama selanjutnya secara alfabet
 
 1229
 00:51:06,550 --> 00:51:10,492
-is maybe goo.mit.edu.
+mungkin adalah goo.mit.edu.
 
 1230
 00:51:10,492 --> 00:51:13,680
-And there's nothing alphabetical
-in between these two names.
+Dan tidak ada apapun secara alfabet
+di antara dua nama ini.
 
 1231
 00:51:13,680 --> 00:51:16,380
-So if you query for a
-name between these two
+Jadi jika Anda meng-query sebuah
+nama di antara dua
 
 1232
 00:51:16,380 --> 00:51:17,921
-names alphabetically
-sorted, then
+nama-nama ini yang secara alfabet
+sudah tersusun, kemudian
 
 1233
 00:51:17,921 --> 00:51:20,170
-the server could send back
-this signed message saying,
+server dapat mengembalikan
+isi pesan yang sudah ditandatangani ini,
 
 1234
 00:51:20,170 --> 00:51:22,050
-oh, there's nothing
-between these two names.
+oh, tidak ada sesuatu
+di antara dua nama ini.
 
 1235
 00:51:22,050 --> 00:51:24,460
-You can safely
-return, doesn't exist.
+Anda bisa dengan aman
+mengembalikan, itu tidak ada.
 
 1236
 00:51:24,460 --> 00:51:26,060
-But then this
-allows some attacker
+Tetapi kemudian ini
+memungkinkan beberapa penyerang
 
 1237
 00:51:26,060 --> 00:51:27,768
