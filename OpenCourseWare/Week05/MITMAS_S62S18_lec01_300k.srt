@@ -6851,7 +6851,7 @@ saya juga tidak dapat memalsukan sebuah tanda tangan.
 1450
 01:03:17,130 --> 01:03:21,510
 Deretan bit yang saya tahu
-hanyalah bit yang kalian tunjukkan.
+hanyalah bit yang Anda tunjukkan.
 
 1451
 01:03:21,510 --> 01:03:24,270
