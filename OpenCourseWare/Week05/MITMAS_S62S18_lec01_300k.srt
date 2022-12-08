@@ -5741,8 +5741,8 @@ kontrol.
 
 1214
 00:52:33,700 --> 00:52:36,670
-Dan Anda menggunakannya untuk
-membuktikan identitas
+And you use that to
+prove your identity
 
 1215
 00:52:36,670 --> 00:52:40,480
