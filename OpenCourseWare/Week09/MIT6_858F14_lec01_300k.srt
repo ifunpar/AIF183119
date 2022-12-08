@@ -8781,69 +8781,69 @@ memaksa kebijakan keamanan Anda.
 
 1859
 01:16:45,790 --> 01:16:47,206
-The security policy
-is going to be
+Kebijakan keamanan
+akan
 
 1860
 01:16:47,206 --> 01:16:48,970
-enforced by a small
-number of components.
+ditegakan oleh sejumlah
+kecil komponen.
 
 1861
 01:16:48,970 --> 01:16:49,900
-And the rest of
-the stuff actually
+Dan sisanya
+sebenarnya
 
 1862
 01:16:49,900 --> 01:16:51,483
-doesn't matter, for
-security purposes,
+tidak penting, untuk
+keperluan keamanan,
 
 1863
 01:16:51,483 --> 01:16:52,740
-if it's right or wrong.
+jika itu adalah benar atau salah.
 
 1864
 01:16:52,740 --> 01:16:55,060
-It's not going to violate
-your security policy at all.
+Ini tidak akan melanggar
+kebijakan keamanan Anda sama sekali.
 
 1865
 01:16:55,060 --> 01:16:58,540
-So this, kind of minimizing
-your trusted computing base
+Jadi, semacam meminimalkan
+basis komputasi terpercaya Anda ini
 
 1866
 01:16:58,540 --> 01:17:01,820
-is a pretty powerful technique
-to get around these mechanism
+adalah sebuah teknik yang cukup kuat
+untuk mengatasi
 
 1867
 01:17:01,820 --> 01:17:04,410
-bugs and problems that we've
-looked at today, at least
+bug dan masalah mekanisme ini yang kita
+telah lihat hari ini, setidaknya
 
 1868
 01:17:04,410 --> 01:17:05,775
-in a little bit of detail.
+dalam detail yang sedikit.
 
 1869
 01:17:05,775 --> 01:17:06,370
-All right.
+Baiklah.
 
 1870
 01:17:06,370 --> 01:17:07,620
-So read the paper for Monday.
+adi bacalah materi untuk hari Senin.
 
 1871
 01:17:07,620 --> 01:17:08,828
-And come to Monday's lecture.
+Dan datang ke kelas hari senin.
 
 1872
 01:17:08,828 --> 01:17:10,770
-And submit the questions
-on the website.
+Dan kumpulkan pertanyaan
+di website.
 
 1873
 01:17:10,770 --> 01:17:12,920
-See you guys then.
+Sampai jumpa lagi semua.

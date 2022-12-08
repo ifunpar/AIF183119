@@ -6793,42 +6793,42 @@ what the message is just
 
 1438
 01:02:43,290 --> 01:02:46,932
-from the signature
-in the public key.
+dari tanda tangan
+di kunci publik.
 
 1439
 01:02:46,932 --> 01:02:48,390
-If you're given
-this and you're not
+Jika Anda diberikan
+ini dan Anda tidak akan
 
 1440
 01:02:48,390 --> 01:02:51,690
-told whether it's a one or
-a zero, well, just compare.
+memberitahu meskipun ini adalah satu atau
+nol, sebaiknya, lakukan perbandingan.
 
 1441
 01:02:51,690 --> 01:02:54,420
-Hash it and compare to
-these two green ones.
+Lakukan hash dan bandingkan dengan
+dua yang hijau ini.
 
 1442
 01:02:54,420 --> 01:02:57,270
-You'll be able to see.
+Anda akan bisa melihatnya.
 
 1443
 01:02:57,270 --> 01:03:01,840
-And that's a useful
-signature because no one
+Dan itu adalah tanda tangan
+yang berguna karena tidak ada
 
 1444
 01:03:01,840 --> 01:03:04,870
-can forge that
-because no one knows
+yang bisa mengingat itu
+karena tidak ada yang tahu
 
 1445
 01:03:04,870 --> 01:03:06,760
-these preimages except
-for the person who
+preimages ini kecuali
+untuk orang yang
 
 1446
 01:03:06,760 --> 01:03:09,120
