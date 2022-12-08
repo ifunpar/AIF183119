@@ -8672,35 +8672,35 @@ membuka halaman jadwal,
 
 1836
 01:16:02,630 --> 01:16:03,960
-there's two quizzes.
+disana ada 2 kuis.
 
 1837
 01:16:03,960 --> 01:16:05,780
-And there's no final
-during the final week,
+Dan disana tidak ada akhir 
+selama minggu akhir,
 
 1838
 01:16:05,780 --> 01:16:08,034
-but there's a quiz
-right before it.
+tetapi disana ada kuis
+tepat sebelum itu.
 
 1839
 01:16:08,034 --> 01:16:09,450
-So you're free for
-the final week,
+Jadi Anda bebas dari
+minggu akhir,
 
 1840
 01:16:09,450 --> 01:16:12,100
-but there's still something
-at the end of the class.
+tetapi disana masih ada sesuatu
+pada akhir kelas.
 
 1841
 01:16:12,100 --> 01:16:13,190
-Yeah.
+Yah.
 
 1842
 01:16:13,190 --> 01:16:14,470
-All right.
+Baiklah.
 
 1843
 01:16:14,470 --> 01:16:14,970
@@ -8708,76 +8708,76 @@ OK.
 
 1844
 01:16:14,970 --> 01:16:17,310
-So I think that's probably
-it for buffer overflows.
+Jadi saya pikir itu mungkin
+untuk buffer yang meluap.
 
 1845
 01:16:17,310 --> 01:16:19,600
-I guess the one
-question is, so what
+Saya duga satu
+pertanyaan adalah, jadi apakah
 
 1846
 01:16:19,600 --> 01:16:21,380
-do you do about
-mechanism problems?
+yang Anda lakukan terkait
+masalah mekanisme?
 
 1847
 01:16:21,380 --> 01:16:26,030
-And the general answer is to
-probably have fewer mechanisms.
+Dan jawaban umumnya adalah untuk
+memungkikan memiliki mekanisme yang lebih sedikit.
 
 1848
 01:16:26,030 --> 01:16:27,530
-So as we saw here,
-if you're relying
+Jadi seperti yang kita lihat disini,
+jika Anda sadar
 
 1849
 01:16:27,530 --> 01:16:29,850
-on every piece of software to
-enforce your security policy,
+pada setiap potongan software untuk
+memaksa kebijakan keamanan Anda,
 
 1850
 01:16:29,850 --> 01:16:31,349
-you'll inevitably
-have mistakes that
+Anda tidak akan menghindari
+mempunyai kesalahan yang
 
 1851
 01:16:31,349 --> 01:16:34,110
-allow an adversary to bypass
-your mechanism to exploit
+mengizinkan lawan untuk melangkai
+mekanisme Anda untuk memanfaatkan
 
 1852
 01:16:34,110 --> 01:16:35,829
-some bug in the web server.
+beberapa bug di server web.
 
 1853
 01:16:35,829 --> 01:16:37,370
-And a much better
-design, and one but
+Dan desain jauh lebih
+baik, dan satu tapi
 
 1854
 01:16:37,370 --> 01:16:39,300
-you will explore
-in lab two, is one
+Anda akan menjelajahi
+di lab kedua, adalah satu
 
 1855
 01:16:39,300 --> 01:16:41,030
-where you structure
-your whole system
+dimana struktur Anda
+seluruh sistem Anda
 
 1856
 01:16:41,030 --> 01:16:42,621
-so the security of
-the system doesn't
+jadi keamanan dari
+sistem tidak
 
 1857
 01:16:42,621 --> 01:16:44,120
-depend on all the
-pieces of software
+bergantung pada semua
+bagian dari software
 
 1858
 01:16:44,120 --> 01:16:45,790
-enforcing your security policy.
+memaksa kebijakan keamanan Anda.
 
 1859
 01:16:45,790 --> 01:16:47,206
