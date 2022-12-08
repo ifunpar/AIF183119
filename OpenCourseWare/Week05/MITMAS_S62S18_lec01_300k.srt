@@ -5471,16 +5471,16 @@ dan jawabannya adalah tidak.
 1157
 00:50:06,838 --> 00:50:08,380
 TADGE DRYJA: Jawabannya
-itu adalah tidak.
+adalah tidak.
 
 1158
 00:50:08,380 --> 00:50:10,480
-Itu mungkin.
+Itu mungkin saja.
 
 1159
 00:50:10,480 --> 00:50:14,410
-Jadi saya tidak tahu, chained MD5,
-apakah anda bisa menemukan collisionnya?
+Jadi saya tidak tahu, rantai MD5,
+apakah Anda tetap bisa menemukan collision?
 
 1160
 00:50:14,410 --> 00:50:15,640
@@ -5488,22 +5488,22 @@ Saya tidak yakin.
 
 1161
 00:50:15,640 --> 00:50:19,540
-Tapi umumnya berfikirnya adalah,
-jika fungsi hash rusak,
+Tapi umumnya cara berpikirnya adalah,
+jika fungsi hashnya rusak,
 
 1162
 00:50:19,540 --> 00:50:22,160
-dan anda bisa menemukan
-collisionnya atau pra-gambar, ya,
+dan Anda bisa menemukan
+collisionnya atau pragambar, yah,
 
 1163
 00:50:22,160 --> 00:50:25,450
-mungkin akan sedikit
-lebih sulit dengan mengulanginya.
+mungkin itu akan sedikit
+lebih sulit dengan menelusurinya.
 
 1164
 00:50:25,450 --> 00:50:27,040
-tapi anda harus
+tapi Anda harus
 berhenti menggunakannya
 
 1165
@@ -5512,8 +5512,8 @@ dan menggunakan sesuatu yang lebih aman.
 
 1166
 00:50:29,640 --> 00:50:32,937
-tapi ya, sepertinya
-untuk menemukan pra-gambar
+tapi yah, sepertinya
+untuk menemukan pragambar
 
 1167
 00:50:32,937 --> 00:50:35,020
@@ -5522,32 +5522,32 @@ dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
-putaran dengan hashing dua kali.
+putaran dengan melakukan hash dua kali.
 
 1169
 00:50:38,290 --> 00:50:41,290
 Dan kemudian ada beberapa serangan,
-jadi cukup di luar sana.
+jadi cukup nyata luar sana.
 
 1170
 00:50:41,290 --> 00:50:43,870
-Tapi itu disebut panjang
-serangan ekstensi
+Tapi itu disebut serangan
+ekstensi panjang
 
 1171
 00:50:43,870 --> 00:50:46,150
-dikarenakan bagaimana fungsi hash
-dibangun,
+dikarenakan bagaimana fungsi
+hash dibangun,
 
 1172
 00:50:46,150 --> 00:50:48,280
-di mana jika anda mengatakan, OK,
-Saya akan mengambil hash-nya.
+di mana jika Anda mengatakan, OK,
+saya akan mengambil hash-nya.
 
 1173
 00:50:48,280 --> 00:50:50,410
 dan kemudian mengambil
-hash itu, Anda
+hash nya, Anda
 
 1174
 00:50:50,410 --> 00:50:54,970
@@ -5556,27 +5556,27 @@ serangan tertentu yang cukup khusus.
 
 1175
 00:50:54,970 --> 00:50:57,150
-Tapi panjang
-serangan kepunahan dalam
+Tapi serangan ekstensi
+panjang dalam
 
 1176
 00:50:57,150 --> 00:51:00,640
-Sebuah konstruksi Merkle=Damgard 
-akan dicegah dengan ini.
+sebuah konstruksi Merkle-Damgard
+akan dapat dicegah dengan ini.
 
 1177
 00:51:00,640 --> 00:51:01,838
-Jadi  pada umumnya, tidak.
+Jadi pada umumnya, tidak.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Umumnya, anda tidak
+Umumnya, Anda tidak
 perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
-Tapi ada kontruksi 
-yang berbeda dimana anda
+Tapi ada kontruksi
+yang berbeda di mana Anda
 
 1180
 00:51:05,170 --> 00:51:06,610
@@ -5585,12 +5585,12 @@ harus melakukan hash beberapa kali.
 1181
 00:51:06,610 --> 00:51:09,250
 Saya tidak memiliki slide nya
-namun, seperti pohom Merkle
+namun, seperti pohon Merkle
 
 1182
 00:51:09,250 --> 00:51:11,745
 yaitu pohon biner dari
-hash dimana anda
+hash-hash di mana Anda
 
 1183
 00:51:11,745 --> 00:51:13,120
@@ -5599,17 +5599,17 @@ dari hal ini
 
 1184
 00:51:13,120 --> 00:51:14,680
-dan kemudian melakukan hash kembali
-lagi dan lagi,
+dan kemudian menghitung
+hash-nya lagi dan lagi,
 
 1185
 00:51:14,680 --> 00:51:16,540
-dan itu benar-benar
-struktur data yang berguna,
+dan itu struktur data
+yang benar-benar berguna,
 
 1186
 00:51:16,540 --> 00:51:20,950
-dan blockchain
+dan sebuah blockchain
 pada dasarnya adalah rantai dari hashes.
 
 1187
@@ -5619,7 +5619,7 @@ kita bahas pekan depan.
 
 1188
 00:51:24,460 --> 00:51:24,980
-TAPI YA.
+Tapi yah.
 
 1189
 00:51:24,980 --> 00:51:25,480
@@ -5627,37 +5627,37 @@ OK.
 
 1190
 00:51:25,480 --> 00:51:27,040
-Jadi saya akana melakukannya
-dengan lebih cepat.
+Jadi saya akan berjalan
+sedikit lebih cepat.
 
 1191
 00:51:27,040 --> 00:51:28,810
 Jadi itu sebuah use case
-yang menarik dimana
+yang menarik di mana
 
 1192
 00:51:28,810 --> 00:51:30,160
-Anda dapat menyerahkan dan memperlihatkan.
+Anda dapat berkomitmen dan memperlihatkan.
 
 1193
 00:51:30,160 --> 00:51:34,950
-Dan ya, menambahkan keacakan jadi
-Anda tidak bisa menebak pragambar sebelumnya
+Dan yah, menambahkan keacakan jadi
+Anda tidak bisa menebak pragambarnya.
 
 1194
 00:51:34,950 --> 00:51:38,880
-ini disebut otentikasi 
+Ini disebut kode otentikasi 
 pesan berbasis hash
 
 1195
 00:51:38,880 --> 00:51:43,380
-kode dimana bagian dari itu 
-rahasia dan sebagian lagi bukan
+di mana bagian dari itu
+rahasia dan sebagian lagi tidak.
 
 1196
 00:51:43,380 --> 00:51:47,640
-Dan ini semakin mendekati ke sebuah 
-tanda, dimana saya sudah berikan
+Dan ini semakin mendekati ke sebuah
+tanda tangan, di mana saya sudah berkomitmen
 
 1197
 00:51:47,640 --> 00:51:49,350
@@ -5667,16 +5667,16 @@ kemudian saya memperlihatkannya,
 1198
 00:51:49,350 --> 00:51:51,270
 dan semua orang tahu,
-ya, itu harus seperti apa
+yah, itu pasti seperti yang
 
 1199
 00:51:51,270 --> 00:51:53,220
-dia menyerahkan ke hari sebelumnya.
+dia komitmenkan di hari sebelumnya.
 
 1200
 00:51:53,220 --> 00:51:57,760
-ini tidak cukup dekat dengan tanda tangan, tetapi
-ini semakin menuju kearah itu.
+Ini tidak benar-benar sebuah tanda tangan, tetapi
+ini mengarah ke sana.
 
 1201
 00:51:57,760 --> 00:52:01,440
@@ -5689,32 +5689,32 @@ Apa itu tanda tangan?
 
 1203
 00:52:03,510 --> 00:52:07,410
-ini berguna, dan ini adalah tanda pada pesan
-yang diberikan oleh seseorang.
+Ini berguna, dan ini adalah pesan
+yang ditandatangani oleh seseorang.
 
 1204
 00:52:07,410 --> 00:52:09,370
 Jadi saya akan mendefinisikan
-apa tanda tangan sebenarnya
+apa sebenarnya tanda tangan itu
 
 1205
 00:52:09,370 --> 00:52:12,753
-dengan fungsi 
-yang digunakan.
+melalui fungsi-fungsi
+yang dia gunakan.
 
 1206
 00:52:12,753 --> 00:52:14,170
 Ada tiga fungsi 
-yang memungkinkan
+yang akan memungkinkan
 
 1207
 00:52:14,170 --> 00:52:16,480
-Anda membuat
+Anda untuk membuat
 skema tanda tangan,
 
 1208
 00:52:16,480 --> 00:52:20,050
-menghasilkan kunci, menandatangani, dan memverifikasi.
+Membangkitkan kunci, menandatangani, dan memverifikasi.
 
 1209
 00:52:20,050 --> 00:52:22,060
@@ -5722,7 +5722,7 @@ Dan ini merupakan hal-hal yang berbeda.
 
 1210
 00:52:22,060 --> 00:52:26,230
-Menghasilkan kunci, Anda membuat 
+Membangkitkan kunci, Anda membuat 
 kunci rahasia dan kunci publik.
 
 1211
