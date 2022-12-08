@@ -6832,107 +6832,107 @@ for the person who
 
 1446
 01:03:06,760 --> 01:03:09,120
-holds the secret key.
+memegang secret key.
 
 1447
 01:03:09,120 --> 01:03:12,180
-So given your public key,
-I can't forge a signature
+Jadi dengan mempertimbangkan public key Anda,
+saya tidak bisa memalsukan tanda tangan
 
 1448
 01:03:12,180 --> 01:03:13,560
-from you.
+dari Anda
 
 1449
 01:03:13,560 --> 01:03:17,130
-Once the signature is issued,
-I also can't forge a signature.
+Saat sebuah tanda tangan sudah dicetak,
+saya juga tidak dapat memalsukan sebuah tanda tangan.
 
 1450
 01:03:17,130 --> 01:03:21,510
-The only bit sequence I know
-is the one that you revealed.
+Deretan bit yang saya tahu
+hanyalah bit yang kalian tunjukkan.
 
 1451
 01:03:21,510 --> 01:03:24,270
-And so I know part
-of your private key.
+Dan jadi saya tahu bagian
+dari private key Anda.
 
 1452
 01:03:24,270 --> 01:03:25,650
-I know half of it.
+Saya tahu separuhnya.
 
 1453
 01:03:25,650 --> 01:03:31,170
-But that half only lets me sign
-the message you just signed.
+Tapi separuh bagian itu hanya mengizinkan saya menandatangani
+pesan yang baru Anda tandatangani.
 
 1454
 01:03:31,170 --> 01:03:34,110
-So I can't really do
-anything extra with this.
+Jadi saya tidak dapat melakukan
+hal lainnya dengan ini.
 
 1455
 01:03:34,110 --> 01:03:36,660
-So this is a usable
-signature scheme.
+Jadi ini adalah skema penandatanganan
+yang dapat digunakan.
 
 1456
 01:03:39,480 --> 01:03:40,830
-I think I just showed it.
+Sepertinya saya baru saja menujukkannya.
 
 1457
 01:03:40,830 --> 01:03:44,146
-But any downsides that you
-can think of with this?
+Tapi apa Anda dapat melihat kelemahan
+dari hal ini?
 
 1458
 01:03:44,146 --> 01:03:45,505
-AUDIENCE: You can only sign one.
+AUDIENS: Anda hanya bisa menandatangani satu.
 
 1459
 01:03:45,505 --> 01:03:46,080
-TADGE DRYJA: Yeah,
-you can only sign one.
+TADGE DRYJA: Ya,
+Anda hanya bisa menandatangani satu.
 
 1460
 01:03:46,080 --> 01:03:47,111
-Is that what you were--
+Apakah itu yang Anda coba--
 
 1461
 01:03:47,111 --> 01:03:49,028
-AUDIENCE: You could also
-send the same message
+AUDIENS: Anda juga dapat
+mengirim pesan yang sama
 
 1462
 01:03:49,028 --> 01:03:51,540
-on to someone else with
-different signatures.
+pada orang lain dengan
+tanda tangan yang berbeda.
 
 1463
 01:03:51,540 --> 01:03:54,350
-TADGE DRYJA: Yeah, but
-signatures are sort of public.
+TADGE DRYJA: Ya, tapi
+tanda tangan itu semacam public.
 
 1464
 01:03:54,350 --> 01:03:56,670
-So yes, you're
-saying that you can
+Jadi ya, Anda mencoba
+mengatakan bahwa Anda dapat
 
 1465
 01:03:56,670 --> 01:04:00,690
-sign a message once and give
-it to a bunch of people.
+menandatangani sebuah pesan sekali dan
+mengirimkannya pada beberapa orang.
 
 1466
 01:04:00,690 --> 01:04:02,880
-And that's sort of a
-feature, not a bug, I guess.
+Dan itu adalah sebuah
+fitur, bukan bug, sepertinya.
 
 1467
 01:04:02,880 --> 01:04:05,760
-There are different signature
-schemes where you want,
+Ada beberapa skema penandatanganan
+yang berbeda di mana Anda ingin,
 
 1468
 01:04:05,760 --> 01:04:09,785
