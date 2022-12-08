@@ -5876,18 +5876,18 @@ suatu graf 3-colorable adalah NPC.
 
 1251
 01:09:20,330 --> 01:09:25,800
-kamu bisa menggunakan tiga set
+Anda bisa menggunakan tiga set
 sebagai cara menunjukkan itu.
 
 1252
 01:09:25,800 --> 01:09:31,770
-jadi kamu dapat mengatakan, oh, wow, mungkin saya
+Jadi Anda dapat berkata, oh, wow, mungkin saya
 tidak perlu khawatir tentang RSA.
 
 1253
 01:09:31,770 --> 01:09:33,880
-saya hanya harus perlu untuk
-membangun cryptosystems.
+Saya hanya perlu
+membangun sistem kripto.
 
 1254
 01:09:33,880 --> 01:09:35,210
@@ -5895,18 +5895,18 @@ yang didasari 3-colorability.
 
 1255
 01:09:35,210 --> 01:09:38,380
-karena itu akan terlihat lebih
-simple dari seluruh masalah yang ada.
+Karena itu terlihat seperti masalah yang jauh
+lebih sederhana dari semua
 
 1256
 01:09:38,380 --> 01:09:40,609
-peta kumuh yang anda
-miliki di luar sana– sebenarnya,
+peta kumuh yang Anda
+miliki di luar sana-– sebenarnya,
 
 1257
 01:09:40,609 --> 01:09:42,490
-Itu adalah sebuah peta indah
-yang anda miliki.
+peta indah yang
+Anda miliki di luar sana.
 
 1258
 01:09:42,490 --> 01:09:43,250
@@ -5914,7 +5914,7 @@ OK.
 
 1259
 01:09:43,250 --> 01:09:47,550
-Jadi mungkin itu adalah pertanyaan
+Jadi itu adalah suatu pertanyaan
 yang sangat masuk akal
 
 1260
@@ -5927,23 +5927,23 @@ Lalu kita memiliki Knapsack.
 
 1262
 01:09:51,370 --> 01:09:55,850
-Knapsack adalah ketika anda
+Knapsack sederhananya adalah ketika Anda
 memiliki banyak benda
 
 1263
 01:09:55,850 --> 01:09:59,290
-dan anda hanya ingin
-mencari tahu apakah anda
+dan Anda hanya ingin
+mencari tahu apakah Anda
 
 1264
 01:09:59,290 --> 01:10:06,940
 bisa mendapatkan penjumlahan
-S. Knapsack juga merupakan NPC.
+S ini. Knapsack juga merupakan NPC.
 
 1265
 01:10:11,620 --> 01:10:14,110
-dimana anda memiliki banyak
-bobot yang diberikan kepada anda.
+Dan Anda memiliki sekumpulan
+bobot yang diberikan kepada Anda.
 
 1266
 01:10:14,110 --> 01:10:17,350
@@ -5952,12 +5952,12 @@ memiliki 0, 1.
 
 1267
 01:10:17,350 --> 01:10:20,740
-Jadi anda dapat menemukan
-tugas tertentu
+Jadi Anda hanya ingin untuk mengetahui
+penugasan tertentu
 
 1268
 01:10:20,740 --> 01:10:24,770
-dari BI, dimana anda memilih 
+dari BI, di mana Anda memilih
 barang yang sesuai untuk diletakkan
 
 1269
@@ -5966,43 +5966,43 @@ ke dalam knapsack, kan?
 
 1270
 01:10:26,350 --> 01:10:27,110
-Itulah mengapa.
+Itu saja.
 
 1271
 01:10:27,110 --> 01:10:29,830
 Itu bisa menjadi masalah
-yang sangat masuk akal.
+yang sangat masuk akal
 
 1272
 01:10:29,830 --> 01:10:33,760
-Dimana hal itu berpotensi digunakan sebagai dasar
-Untuk komputasi yang sulit
+untuk bisa digunakan sebagai dasar
+untuk kesulitan komputasi
 
 1273
 01:10:33,760 --> 01:10:36,060
-Untuk membangun kriptosistem
+Untuk membangun kriptosistem.
 
 1274
 01:10:36,060 --> 01:10:37,530
-Dimana ketika orang-orang melakukan itu.
+Dan orang-orang melakukan itu.
 
 1275
 01:10:37,530 --> 01:10:38,940
-Butuh sekiranya Orang-orang tersebut melakukannya selama bertahun-tahun
+Orang melakukannya selama bertahun-tahun.
 
 1276
 01:10:38,940 --> 01:10:40,670
-Mereka mencoba dan mencoba
+Mereka mencoba dan mencoba.
 
 1277
 01:10:40,670 --> 01:10:43,770
-Sehingga mereka menghasilkan kriptosistem,
-Kriptosistem kunci publik,
+Sehingga mereka menghasilkan sistem kripto,
+kriptosistem kunci publik,
 
 1278
 01:10:43,770 --> 01:10:48,350
-Berdasarkan knapsack 
-Yang terlihat fantastis.
+berdasarkan knapsack 
+yang terlihat fantastis.
 
 1279
 01:10:48,350 --> 01:10:50,970
@@ -6011,108 +6011,108 @@ Sudut pandang fungsionalitas
 
 1280
 01:10:50,970 --> 01:10:53,609
-Dalam arti bahwa ketika anda
-Akan menggunakan knapsack ini
+dalam arti bahwa ketika Anda
+akan menggunakan knapsack ini--
 
 1281
 01:10:53,609 --> 01:10:55,150
-maka saya akan membuat anda
-merasakan bagaimana ini
+maka saya akan memberikan Anda
+gambaran bagaimana ini
 
 1282
 01:10:55,150 --> 01:11:01,390
-Selesai hanya dalam satu menit–
-Untuk masalah mengenkripsi.
+selesai dikerjakan hanya dalam satu menit–-
+masalah untuk mengenkripsi.
 
 1283
 01:11:01,390 --> 01:11:03,830
-Dan kemudian anda akan menggunakan yang berbeda
-Jenis masalah knapsack
+Dan kemudian Anda akan menggunakan masalah
+knapsack yang berbeda
 
 1284
 01:11:03,830 --> 01:11:05,260
-Untuk mendeskripsi.
+untuk mendekripsi.
 
 1285
 01:11:05,260 --> 01:11:07,240
-Maka saat Anda mengenkripsi
-itu dan mendekripsinya,
+Dan saat Anda mengenkripsi
+dan mendekripsinya,
 
 1286
 01:11:07,240 --> 01:11:09,100
-Kamu dapat mengerti itu
-merupakan pesan yang sama yang kembali,
+Anda mendapat kembali
+pesan yang sama,
 
 1287
 01:11:09,100 --> 01:11:11,720
 kecuali seluruh dunia
-tahu apa pesan tersebut.
+tahu apa isi pesan tersebut.
 
 1288
 01:11:11,720 --> 01:11:15,810
-Karena hal ini merupakan masalah 
-yang terkait dengan knapsack
+Karena masalah yang
+terkait dengan Knapsack
 
 1289
 01:11:15,810 --> 01:11:17,760
-Tidak akan begitu sulit.
+tidak cukup sulit.
 
 1290
 01:11:17,760 --> 01:11:20,540
-Jadi computational 
-Yang rumit  adalah apa
+Jadi kesulitan komputasional 
+adalah apa
 
 1291
 01:11:20,540 --> 01:11:22,660
-Yang dapat memecahkan skema knapsack
+yang memecahkan skema knapsack.
 
 1292
 01:11:22,660 --> 01:11:25,680
-Dan kemudian anda datang
-dan bertanya kenapa?
+Dan kemudian Anda datang
+dan bertanya mengapa
 
 1293
 01:11:25,680 --> 01:11:31,820
-Apakah itu masalah ini
-Itu bukan termasuk NPC
+masalah ini
+yang bukan termasuk NPC
 
 1294
 01:11:31,820 --> 01:11:34,310
-Hal ini nyatanya telah teruji
-Oleh waktu
+dapat teruji
+oleh waktu,
 
 1295
 01:11:34,310 --> 01:11:36,850
-Tapi semua permasalahan
-Lain, seperti Knapsack
+tapi semua permasalahan
+lain, seperti Knapsack
 
 1296
 01:11:36,850 --> 01:11:39,790
 Dan 3-colorability, yang mana
-Bahkan mungkin lebih buruk dari Knapsack,
+bahkan mungkin lebih buruk dari Knapsack,
 
 1297
 01:11:39,790 --> 01:11:42,540
-Ketika orang-orang membangun
-Kriptosistem berdasarkan hal ini,
+ketika orang-orang membangun
+sistem kripto berdasarkan hal ini,
 
 1298
 01:11:42,540 --> 01:11:45,220
-Semua sistem itu 
-Rusak dengan sangat cepat?
+semua sistem itu
+telah dipecahkan dengan sangat cepat?
 
 1299
 01:11:45,220 --> 01:11:47,210
-Dan mengapa hal itu bisa terjadi?
+Dan mengapa seperti itu?
 
 1300
 01:11:47,210 --> 01:11:54,340
-Menurut anda apa alasan hal itu 
-,apakah semacam tingkatan tinggi?
+Menurut Anda apa alasannya,
+secara umum?
 
 1301
 01:11:54,340 --> 01:11:55,600
-Apa yang NP-completenss katakan? 
+Apa yang NP-completeness katakan? 
 
 1302
 01:11:59,740 --> 01:12:03,389
@@ -6121,23 +6121,23 @@ Apa yang kita khawatirkan?
 
 1303
 01:12:03,389 --> 01:12:04,930
-Dari waktu ke waktu,
-Apa yang kita bicarakan
+Pada sebagian besar waktu,
+apa yang kita bicarakan
 
 1304
 01:12:04,930 --> 01:12:07,940
-Mengenai kapan kita berbicara tentang
-Kompleksitas dari algoritma?
+saat kita berbicara tentang
+kompleksitas dari sebuah algoritma?
 
 1305
 01:12:07,940 --> 01:12:13,370
-Atau dalam kasus ini, merupakan kasus 
-Dari masalah, apa adjective
+Atau dalam kasus ini, dalam kasus
+sebuah masalah, apa kata sifat
 
 1306
 01:12:13,370 --> 01:12:17,130
-Ketika Kita meletakkan didepan
-Runtime, sebagai contoh,
+yang kita letakkan di depan
+runtime, sebagai contoh,
 
 1307
 01:12:17,130 --> 01:12:18,627
@@ -6145,16 +6145,16 @@ ketika kita menghitung kompleksitas?
 
 1308
 01:12:18,627 --> 01:12:19,920
-AUDIENCE: terburuk  [TIDAK TERDEGAR]
+AUDIENCE: Terburuk [TIDAK TERDEGAR]
 
 1309
 01:12:19,920 --> 01:12:21,420
 SRINIVAS DEVADAS:
-Kasus Terburuk., kan?
+Kasus terburuk, kan?
 
 1310
 01:12:21,420 --> 01:12:23,080
-Kasus Terburuk.
+Kasus terburuk.
 
 1311
 01:12:23,080 --> 01:12:25,790
@@ -6163,8 +6163,8 @@ Anda akan menjadi
 
 1312
 01:12:25,790 --> 01:12:27,900
-Mampu membuat
-Graph acak di mana
+mampu membuat
+graf acak di mana
 
 1313
 01:12:27,900 --> 01:12:31,300
