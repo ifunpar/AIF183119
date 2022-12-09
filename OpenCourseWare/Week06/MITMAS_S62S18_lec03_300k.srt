@@ -6368,27 +6368,27 @@ dengan cara ini.
 
 1381
 00:59:53,900 --> 00:59:57,020
-I can't verify this
-equation myself
+Saya tidak bisa memverifikasi 
+persamaan ini oleh saya sendiri
 
 1382
 00:59:57,020 --> 00:59:58,610
-because I don't know what k is.
+karena saya tidak tahu berapa nilai k.
 
 1383
 00:59:58,610 --> 01:00:00,560
-I don't know what
-little a is, right?
+Saya tidak tahu berapa nilai
+a kecil, benar?
 
 1384
 01:00:00,560 --> 01:00:09,470
-I'm just given R, s, m, and big
-A. So how would I verify this?
+Saya hanya diberikan nilai R,s,m, dan
+A besa. Lalu bagaimana cara kita memverifikasikannya?
 
 1385
 01:00:09,470 --> 01:00:13,510
-AUDIENCE: Can I, for example,
-take the hash of the message,
+Audiens: apakan saya boleh, contohnya
+menagmbil hash dari message,
 
 1386
 01:00:13,510 --> 01:00:21,124
