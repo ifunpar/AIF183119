@@ -6936,113 +6936,113 @@ yang berbeda di mana Anda ingin,
 
 1468
 01:04:05,760 --> 01:04:09,785
-I only want this signature
-to be valid to this person.
+Saya hanya ingin tanda tangan ini
+berlaku sah untuk orang ini.
 
 1469
 01:04:09,785 --> 01:04:11,160
-There's different
-ways to do that
+Terdapat cara-cara yang
+berbeda untuk melakukan hal itu
 
 1470
 01:04:11,160 --> 01:04:12,952
-with Diffie-Hellman
-key exchange and stuff.
+dengan pertukaran kunci
+Diffie-Hellman dan lainnya.
 
 1471
 01:04:12,952 --> 01:04:15,770
-But the signature scheme
-we've talked about here
+Tetapi skema tanda tangan
+yang kita bicarakan di sini
 
 1472
 01:04:15,770 --> 01:04:18,270
-with these three functions, the
-public key is really public,
+dengan tiga fungsi ini,
+kunci publik ini benar-benar publik,
 
 1473
 01:04:18,270 --> 01:04:19,740
-and anyone can verify.
+dan siapapun dapat verifikasinya.
 
 1474
 01:04:19,740 --> 01:04:21,810
-And that's something we want.
+Dan itu adalah hal yang kita inginkan.
 
 1475
 01:04:21,810 --> 01:04:24,360
-If you don't want that,
-there's other ways to do it.
+Jika anda tidak ingin hal itu,
+terdapat beberapa cara lain untuk melakukannya.
 
 1476
 01:04:24,360 --> 01:04:29,190
-But yeah, the big one is,
-wait, you can only sign once.
+Tapi yah, yang besar itu,
+tunggu, Anda hanya dapat menandatangani sekali.
 
 1477
 01:04:29,190 --> 01:04:32,070
-Once you generate a key
-pair, your private key,
+Sekali anda menghasilkan sebuah pasang
+kunci, kunci privat anda,
 
 1478
 01:04:32,070 --> 01:04:34,680
-your public key, and you tell
-everyone these green squares,
+kunci publik anda, dan anda memberitahu
+persegi-persegi hijau ini ke semua orang,
 
 1479
 01:04:34,680 --> 01:04:40,050
-if you're try to sign again,
-you will reveal more pieces
+jika anda mencoba untuk menandatangani lagi,
+anda akan mengungkap kepingan yang lebih banyak
 
 1480
 01:04:40,050 --> 01:04:42,060
-of your private key.
+dari kunci privat anda.
 
 1481
 01:04:42,060 --> 01:04:43,850
-So if I sign two
-different messages,
+Jadi jika saya menandatangani dua
+pesan yang berbeda,
 
 1482
 01:04:43,850 --> 01:04:45,960
-sometimes it's the same bit.
+terkadang itu pada bit yang sama.
 
 1483
 01:04:45,960 --> 01:04:47,340
-Sometimes it's different bits.
+Terkadang bit yang berbeda.
 
 1484
 01:04:47,340 --> 01:04:51,220
-And now I start revealing
-more pieces of my private key.
+Dan sekarang saya mulai mengungkapkan
+kepingan yang lebih banyak dari kunci privat saya.
 
 1485
 01:04:51,220 --> 01:04:53,430
-And now people can start
-to forge signatures
+Dan sekarang orang dapat mulai
+meniru tandatangan
 
 1486
-01:04:53,430 --> 01:04:58,500
-because I can say, OK,
-well, the first bit,
+01:04:53,430 --> 01:04:58,500 
+karena saya dapat bilang, OK,
+baik, bit pertama,
 
 1487
 01:04:58,500 --> 01:05:00,660
-I can sign anything
-on the first bit.
+Saya dapat menandatangani apapun
+pada bit pertama.
 
 1488
 01:05:00,660 --> 01:05:04,980
-I'm still constrained
-here and here and here.
+Saya masih terkendala di
+sini dan sini dan sini.
 
 1489
 01:05:04,980 --> 01:05:11,470
-But in several locations, I
-can sign whichever bit I want.
+Tapi di beberapa lokasi, saya
+dapat menandatangani bit manapun yang saya inginkan.
 
 1490
 01:05:11,470 --> 01:05:15,750
-And so the basic thing is,
-if there's one signature,
+Dan jadi hal yang mendasar adalah,
+jika terdapat satu tandatangan
 
 1491
 01:05:15,750 --> 01:05:16,920
