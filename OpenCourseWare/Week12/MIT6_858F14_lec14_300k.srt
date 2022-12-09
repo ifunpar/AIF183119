@@ -5591,144 +5591,144 @@ karena halaman hasilnya menampilkan
 
 1182
 00:50:32,230 --> 00:50:34,010
-back saying here's your balance.
+kembali dengan mengatakan inilah saldo Anda.
 
 1183
 00:50:34,010 --> 00:50:35,940
-So maybe the user
-will assume something
+Jadi mungkin pengguna
+akan berasumsi sesuatu
 
 1184
 00:50:35,940 --> 00:50:39,070
-about what that bank has
-or doesn't have based
+tentang apa yang dimiliki bank
+atau tidak dimiliki berdasarkan
 
 1185
 00:50:39,070 --> 00:50:41,830
-on the result. Well,
-it still seems bad,
+hasilnya. Yah,
+sepertinya masih buruk,
 
 1186
 00:50:41,830 --> 00:50:43,520
-but not necessarily
-so disastrous.
+tapi belum tentu
+jadi bencana.
 
 1187
 00:50:43,520 --> 00:50:44,460
-Yeah.
+Yah.
 
 1188
 00:50:44,460 --> 00:50:46,810
-AUDIENCE: I think
-that an [INAUDIBLE]
+AUDIENCE: Saya pikir
+bahwa sebuah [TIDAK TERDENGAR]
 
 1189
 00:50:46,810 --> 00:50:51,162
-get all the user's
-cookies and [INAUDIBLE].
+mendapatkan semua cookie
+pengguna dan [TIDAK TERDENGAR].
 
 1190
 00:50:51,162 --> 00:50:51,870
-PROFESSOR: Right.
+PROFESOR: Benar.
 
 1191
 00:50:51,870 --> 00:50:53,367
-So this is your fear, yeah.
+Jadi ini ketakutanmu, yah.
 
 1192
 00:50:53,367 --> 00:50:54,950
-This is much more
-worrisome, actually,
+Ini sebenarnya jauh lebih
+mengkhawatirkan, sebenarnya,
 
 1193
 00:50:54,950 --> 00:50:58,000
-or has a much more longer
-lasting impact on you.
+atau memiliki dampak yang jauh lebih
+tahan lama pada Anda.
 
 1194
 00:50:58,000 --> 00:51:01,536
-And the reason this works out
-is because the browser, when
+Dan alasan ini berhasil
+adalah karena browser, ketika
 
 1195
 00:51:01,536 --> 00:51:04,060
-it figures out [INAUDIBLE]
-makes a decision
+mengetahui [TIDAK TERDENGAR]
+membuat sebuah keputusan
 
 1196
 00:51:04,060 --> 00:51:06,610
-as to who is allowed to get
-a particular set of cookies
+tentang siapa yang diizinkan untuk mendapatkan
+kumpulan cookie tertentu
 
 1197
 00:51:06,610 --> 00:51:09,640
-or not just looks at
-the host name in the URL
+atau tidak hanya dengan melihat
+nama host di URL
 
 1198
 00:51:09,640 --> 00:51:11,390
-that you were supposed
-to be connected to.
+yang seharusnya
+terhubung dengan Anda.
 
 1199
 00:51:11,390 --> 00:51:14,305
-So if you connect to some
-attackers' web server,
+Jadi jika Anda terhubung ke beberapa
+server web penyerang,
 
 1200
 00:51:14,305 --> 00:51:18,130
-and then you just accept their
-certificate for amazon.com
+lalu Anda cukup menerima
+sertifikat mereka untuk amazon.com
 
 1201
 00:51:18,130 --> 00:51:20,175
-as the real thing,
-then the browser
+sebagai yang asli,
+lalu browser
 
 1202
 00:51:20,175 --> 00:51:22,785
-will think, yeah, the entity
-I'm talking to is amazon.com,
+akan berpikir, ya, entitas yang
+Saya ajak bicara adalah amazon.com,
 
 1203
 00:51:22,785 --> 00:51:25,810
-so I will treat them as I
-would a normal amazon.com
+jadi Saya akan memperlakukan mereka seperti Saya
+ke server amazon.com normal,
 
 1204
 00:51:25,810 --> 00:51:28,345
-server, which means that
-they should get access
+yang berarti
+mereka harus mendapatkan akses
 
 1205
 00:51:28,345 --> 00:51:31,120
-to all the cookies that
-you have for that host.
+ke semua cookie yang
+Anda miliki untuk host tersebut.
 
 1206
 00:51:31,120 --> 00:51:33,770
-And presumably they could
-run a JavaScript code
+Dan mungkin mereka dapat
+menjalankan kode JavaScript
 
 1207
 00:51:33,770 --> 00:51:37,880
-in your browser in that
-same origin principle.
+di browser Anda dengan
+prinsip asal yang sama.
 
 1208
 00:51:37,880 --> 00:51:40,780
-So if you have
-another site open that
+Jadi jika Anda
+membuka situs lain yang
 
 1209
 00:51:40,780 --> 00:51:45,080
-was connecting to the
-real website-- like maybe
+terhubung ke
+situs web asli-- seperti mungkin
 
 1210
 00:51:45,080 --> 00:51:46,650
-you had a tab open
-in your browser.
+Anda membuka tab
+di browser Anda.
 
 1211
 00:51:46,650 --> 00:51:48,400
