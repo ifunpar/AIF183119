@@ -6344,27 +6344,27 @@ memverifikasi ini, betul?
 
 1376
 00:59:43,010 --> 00:59:44,460
-I know their public key--
+Saya mengetahui kunci publiknya--
 
 1377
 00:59:44,460 --> 00:59:47,420
-capital A, which is
-little a times G--
+modal A, yaitu
+a kecil kali G--
 
 1378
 00:59:47,420 --> 00:59:49,340
-and then they're
-giving me a message m,
+dan kemudian Anda
+memberikan Saya sebuah pesan m,
 
 1379
 00:59:49,340 --> 00:59:51,800
-and they're giving me a
-signature, which is R and s.
+dan Anda memberikan Saya sebuah
+tandatangan, yaitu R dan s.
 
 1380
 00:59:51,800 --> 00:59:53,900
-And they've computed
-it this way.
+Dan Anda telah menghitung
+dengan cara ini.
 
 1381
 00:59:53,900 --> 00:59:57,020
