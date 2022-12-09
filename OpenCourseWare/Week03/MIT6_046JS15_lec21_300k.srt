@@ -7010,8 +7010,8 @@ kompleksitas dari SHA-3
 
 1495
 01:21:52,480 --> 01:21:56,820
-adalah sehubungan dengan komputasi
-hash diberikan string arbitrary,
+dalam hal menghitung hash
+jika diberikan sebuah string acak,
 
 1496
 01:21:56,820 --> 01:21:57,590
@@ -7019,4 +7019,4 @@ Ok?
 
 1497
 01:21:57,590 --> 01:21:59,575
-Saya akan tetap disini untuk pertanyaan.
+Saya akan tetap ada di sini untuk pertanyaan.
