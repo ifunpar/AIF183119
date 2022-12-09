@@ -6066,65 +6066,65 @@ that all content embedded
 
 1281
 00:55:02,180 --> 00:55:04,340
-in a secure page is also secure.
+di halaman yang aman juga aman.
 
 1282
 00:55:04,340 --> 00:55:07,055
-So this seems like a good
-guideline for many web
+Jadi, ini tampaknya seperti pedoman yang baik
+bagi banyak pengembang web 
 
 1283
 00:55:07,055 --> 00:55:07,930
-developers to follow.
+untuk diikuti.
 
 1284
 00:55:07,930 --> 00:55:12,435
-So maybe you should just
-do https colon jquery.com.
+Mungkin Anda sebaiknya hanya
+menuliskan https titik dua jquery.com.
 
 1285
 00:55:12,435 --> 00:55:17,410
-Or it turns out that URLs
-support these origin relative
+Atau ternyata URLs 
+mendukung URL relatif asal
 
 1286
 00:55:17,410 --> 00:55:21,345
-URLs, which means you could omit
-the HTTPS part and just say,
+yang berarti Anda bisa mengabaikan 
+bagian HTTPS dan hanya,
 
 1287
 00:55:21,345 --> 00:55:29,550
-[INAUDIBLE] script source
-equals //jquery.com/ something.
+[TIDAK TERDENGAR] menuliskan sumber
+sama dengan //jquery.com/ sesuatu.
 
 1288
 00:55:29,550 --> 00:55:33,900
-And what this means is to
-use whatever URL scheme
+Dan ini berarti
+menggunakan skema URL apapun
 
 1289
 00:55:33,900 --> 00:55:35,890
-your own URL came from.
+yang sesuai dengan URL halaman Anda sendiri.
 
 1290
 00:55:35,890 --> 00:55:39,300
-So this tag will translate
-to https jquery.com
+Jadi tag ini akan diterjemahkan
+menjadi https jquery.com
 
 1291
 00:55:39,300 --> 00:55:42,870
-if it's on an HTTPS page, and
-to regular http jquery.com
+Jika berada di halaman HTTPS, dan
+menjadi http jquery.com biasa
 
 1292
 00:55:42,870 --> 00:55:46,940
-if it's on a non-HTTPS,
-just regular HTTP URL.
+Jika berada di halaman non-HTTPS,
+hanya menggunakan URL HTTP biasa.
 
 1293
 00:55:46,940 --> 00:55:50,660
-So that's one way to
-avoid this problem.
+Jadi, itulah salah satu cara untuk
+menghindari masalah ini.
 
 1294
 00:55:50,660 --> 00:55:54,210
