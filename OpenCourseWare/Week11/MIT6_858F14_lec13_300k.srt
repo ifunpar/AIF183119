@@ -8956,104 +8956,104 @@ for all my tickets to expire.
 
 1892
 01:17:40,470 --> 01:17:42,380
-I wait for, like, a week.
+Saya menunggu, seperti, seminggu.
 
 1893
 01:17:42,380 --> 01:17:44,020
-And then no tickets
-are good anymore.
+Dan kemudian tidak ada tiket
+yang bagus lagi.
 
 1894
 01:17:44,020 --> 01:17:45,611
-Can I give out my
-old password now?
+Dapatkah saya memberikan
+kata sandi lama milik saya sekarang?
 
 1895
 01:17:45,611 --> 01:17:46,110
-Yeah.
+Ya.
 
 1896
 01:17:46,110 --> 01:17:48,389
-STUDENT: It might take
-a while to replicate.
+SISWA: Mungkin diperlukan
+beberapa saat untuk meniru.
 
 1897
 01:17:48,389 --> 01:17:49,930
-PROFESSOR: Yeah,
-suppose the replicas
+PROFESOR: Ya,
+misalkan replikanya
 
 1898
 01:17:49,930 --> 01:17:51,661
-are all updated,
-yeah, all the stuff.
+semua diperbarui,
+ya, semua barang.
 
 1899
 01:17:51,661 --> 01:17:52,160
-Yeah.
+Ya.
 
 1900
 01:17:52,160 --> 01:17:54,701
-STUDENT: [INAUDIBLE] if someone
-saves the initial transaction
+SISWA: [TIDAK TERDENGAR] jika seseorang
+menyimpan transaksi awal
 
 1901
 01:17:54,701 --> 01:17:56,579
-[INAUDIBLE] to get,
-like, your old password
+[TIDAK TERDENGAR] untuk mendapatkan,
+seperti, kata sandi lama Anda
 
 1902
 01:17:56,579 --> 01:17:57,570
-now that they have
-your new password.
+sekarang mereka memiliki
+kata sandi baru Anda.
 
 1903
 01:17:57,570 --> 01:17:58,310
-PROFESSOR: Yeah,
-so this is actually
+PROFESOR: Ya,
+jadi ini sebenarnya
 
 1904
 01:17:58,310 --> 01:17:59,850
-super worrisome
-in Kerberos, which
+sangat mengkhawatirkan
+di Kerberos, yang
 
 1905
 01:17:59,850 --> 01:18:01,560
-is that-- suppose
-some attacker was
+apakah itu-- misalkan
+beberapa penyerang
 
 1906
 01:18:01,560 --> 01:18:04,240
-watching all of my
-previous password changes.
+melihat semua 
+perubahan kata sandi saya sebelumnya.
 
 1907
 01:18:04,240 --> 01:18:07,690
-They didn't know what my
-password was or is or anything.
+Mereka tidak tahu apa kata sandi 
+saya atau apa itu.
 
 1908
 01:18:07,690 --> 01:18:10,460
-But they're just saving these
-packets very diligently.
+Tapi mereka hanya menyimpan 
+paket-paket ini dengan sangat rajin.
 
 1909
 01:18:10,460 --> 01:18:13,360
-And then a month later, I
-go and say, oh, my password
+Dan sebulan kemudian, saya
+pergi dan berkata, oh, kata sandi saya
 
 1910
 01:18:13,360 --> 01:18:15,820
-was poodle or something
-silly like this.
+adalah pudel atau sesuatu
+konyol seperti ini.
 
 1911
 01:18:15,820 --> 01:18:17,520
-And then they go say ah, ha, ha.
+Dan kemudian mereka mengatakan ah, ha, ha.
 
 1912
 01:18:17,520 --> 01:18:19,630
-I can now decrypt
-this initial thing
+Saya sekarang dapat mendekripsi
+hal awal ini
 
 1913
 01:18:19,630 --> 01:18:21,550
