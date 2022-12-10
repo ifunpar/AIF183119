@@ -9273,114 +9273,115 @@ including the new password.
 
 1958
 01:20:07,710 --> 01:20:11,263
-So you send the new password
-encrypted with this value G
+Jadi kamu mengirimkan password baru
+yang telah dienkripsi dengan nilai G
 
 1959
 01:20:11,263 --> 01:20:13,400
-to the XY, roughly speaking.
+ke XY, jika berbicara secara kasar.
 
 1960
 01:20:13,400 --> 01:20:14,830
-But for some
-mathematical reasons
+Tapi untuk beberapa
+alesan matematis
 
 1961
 01:20:14,830 --> 01:20:16,600
-that we're not going
-to cover right now,
+yang tidak akan kita
+bahas sekarang,
 
 1962
 01:20:16,600 --> 01:20:19,350
-it turns out to be super
-difficult for someone that just
+ternyata hal ini sangat 
+sulit untuk seseorang
 
 1963
 01:20:19,350 --> 01:20:23,350
-gets G to the X and G to the Y
-by examining your packets later
+mendapatkan G ke X dan G ke Y
+dengan melihat packet kalian nantinya
 
 1964
 01:20:23,350 --> 01:20:26,200
-from figuring out
-what was G to the XY.
+dari mencari tahu
+apa itu G bagi XY.
 
 1965
 01:20:26,200 --> 01:20:28,560
-So this is something called
-the discrete log problem.
+Jadi ini adalah sesuatu yang kita sebut
+masalah diskret log.
 
 1966
 01:20:28,560 --> 01:20:29,350
-Yeah, question?
+Ya, pertanyaan?
 
 1967
 01:20:29,350 --> 01:20:31,140
-STUDENT: But they have to
-[INAUDIBLE] G at some point.
+MAHASISWA: Tapi mereka harus
+[TIDAK TERDENGAR] G dalam beberapa kasus. 
 
 1968
 01:20:31,140 --> 01:20:31,570
-PROFESSOR: Yeah, yeah.
+PROFESSOR: Ya, ya.
 
 1969
 01:20:31,570 --> 01:20:33,535
-So G is some parameter
-you could sort of send
+Jadi G adalah beberapa parameter
+yang kamu dapat semacam mengirim
 
 1970
 01:20:33,535 --> 01:20:35,910
-at the beginning of a protocol
-or it could be just cooked
+di permulaan sebuah protocol
+atau itu dapat saja dimasak
 
 1971
 01:20:35,910 --> 01:20:36,640
-into Kerberos.
+menjadi Kerberos.
 
 1972
 01:20:36,640 --> 01:20:42,030
-It turns out to be
-relatively less important.
+Hal ini ternyata menjadi
+secara relatif kurang penting.
 
 1973
 01:20:42,030 --> 01:20:44,410
-All right, so anyway, use
-Diffie-Hellman because this
+Oke, jadi, kita menggunakan
+Diffie-Hellman karena ini
 
 1974
 01:20:44,410 --> 01:20:46,660
-is called-- well, what you
-should Google for if you're
+dipanggil-- jadi, apa yang kamu
+sebaiknya Google jika kamu
 
 1975
 01:20:46,660 --> 01:20:50,920
-building a protocol like this
-is this Diffie-Hellman key
+sedang membantun protocol seperti ini
+adalah kunci bertukar protocol
 
 1976
 01:20:50,920 --> 01:20:51,950
-exchange protocol.
+Diffie-Helman ini.
 
 1977
 01:20:51,950 --> 01:20:54,302
-And Kerberos 5 actually
-does this correctly.
+Dan Kerberos 5 betul-betul
+melakukan ini dengan benar.
 
 1978
 01:20:54,302 --> 01:20:56,010
-But this is something
-to really watch out
+Tapi ini adalah sesuatu
+yang harus kita waspadai
 
 1979
 01:20:56,010 --> 01:20:59,169
-for if you're designing any
-kind of new protocol yourself.
+jika kamu sedang mendesain
+protocol baru apapun sendiri.
+
 
 1980
 01:20:59,169 --> 01:21:00,710
-All right, so that's
-it for Kerberos.
+Oke, jadi itu saja
+untuk Kerberos.
 
 1981
 01:21:00,710 --> 01:21:03,160
-Let's talk about SSL on Monday.
+Mari berbicara mengenai SSL pada hari Senin
