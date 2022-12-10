@@ -5845,224 +5845,224 @@ agak khawatir tentang
 
 1235
 00:52:43,890 --> 00:52:50,760
-is this notion of insecure
-embedding, or mixed content.
+adalah gagasan penyematan 
+tidak aman, atau konten campuran.
 
 1236
 00:52:50,760 --> 00:52:54,940
-And the problem that
-this term refers to
+Dan masalah yang 
+mangacu pada istilah ini
 
 1237
 00:52:54,940 --> 00:53:00,880
-is that a secure site, or
-any website for that matter,
+adalah bahwa situs yang aman, atau
+situs web apapun dalam hal ini,
 
 1238
 00:53:00,880 --> 00:53:04,390
-can embed other pieces of
-content into a web page.
+dapat menyematkan potongan konten
+lainnya ke dalam halaman web.
 
 1239
 00:53:04,390 --> 00:53:14,020
-So if you have some sort of
-a site, foo.com/index.html,
+Jadi jika Anda memiliki semacam
+situs, foo.com/index.html,
 
 1240
 00:53:14,020 --> 00:53:17,870
-this site might be
-served from HTTPS,
+situs ini mungkin
+dilayani dari HTTPS,
 
 1241
 00:53:17,870 --> 00:53:21,420
-but inside of this HTML page,
-you could have many tags that
+tetapi di dalam halaman HTML ini,
+anda bisa memiliki banyak tag yang
 
 1242
 00:53:21,420 --> 00:53:24,860
-instruct the browser to go
-and fetch other stuff as part
+memerintahkan browser untuk pergi
+dan mengambil barang lain sebagai bagian
 
 1243
 00:53:24,860 --> 00:53:25,700
-of this page.
+dari halaman ini.
 
 1244
 00:53:25,700 --> 00:53:27,820
-So the easiest thing
-to sort of think about
+Jadi hal termudah 
+yang dapat dipikirkan
 
 1245
 00:53:27,820 --> 00:53:29,772
-is probably script
-tags where you
+adalah mungkin skrip
+tag dimana anda.
 
 1246
 00:53:29,772 --> 00:53:36,230
-can say script source
-equals http jquery.com.
+dapat mengatakan sumber skrip
+sama dengan http jquery.com.
 
 1247
 00:53:36,230 --> 00:53:38,620
-So this is a popular
-JavaScript library
+Jadi ini adalah library
+JavaScript yang populer
 
 1248
 00:53:38,620 --> 00:53:41,330
-that makes it easier to
-interact with lots of stuff
+yang membuatnya lebih mudah untuk
+berinteraksi dengan banyak hal
 
 1249
 00:53:41,330 --> 00:53:42,250
-in your browser.
+di browser anda.
 
 1250
 00:53:42,250 --> 00:53:47,150
-But many web developers
-just reference a URL
+Tetapi banyak pengembang web
+hanya merujuk sebuah URL
 
 1251
 00:53:47,150 --> 00:53:49,385
-on another site like this.
+di situs lain seperti ini.
 
 1252
 00:53:49,385 --> 00:53:51,010
-So we should be fairly
-straightforward,
+Jadi kita harus adil
+berterus-terang,
 
 1253
 00:53:51,010 --> 00:53:53,790
-but what's the problem
-with this kind of set up?
+tapi apa masalahnya
+dengan pengaturan seperti ini?
 
 1254
 00:53:53,790 --> 00:53:58,170
-Suppose you have a secure
-site and you just load jQuery.
+Misalkan anda memiliki sebuah situs yang
+aman dan anda hanya memuat jQuery.
 
 1255
 00:53:58,170 --> 00:53:58,896
-Yeah.
+Ya.
 
 1256
 00:53:58,896 --> 00:54:00,624
-AUDIENCE: It could
-be fake jQuery.
+AUDIENCE: Itu bisa 
+saja jQuery palsu.
 
 1257
 00:54:00,624 --> 00:54:01,290
-PROFESSOR: Yeah.
+PROFESSOR: Ya.
 
 1258
 00:54:01,290 --> 00:54:03,300
-So there are actually
-two ways that you
+Jadi sebenarnya ada
+dua cara yang Anda
 
 1259
 00:54:03,300 --> 00:54:06,380
-could get the wrong thing
-that you're not expecting.
+bisa mendapatkan hal yang salah
+bahwa Anda tidak duga.
 
 1260
 00:54:06,380 --> 00:54:09,630
-One possibility is that
-jQuery itself is compromised.
+Satu kemungkinan adalah
+jQuery itu sendiri dikompromikan.
 
 1261
 00:54:09,630 --> 00:54:12,470
-So that seems like, well,
-you get what you asked for.
+Jadi sepertinya, yah,
+Anda mendapatkan apa yang Anda minta.
 
 1262
 00:54:12,470 --> 00:54:14,830
-You asked for this
-site from jquery.com
+Anda meminta ini
+situs dari jquery.com
 
 1263
 00:54:14,830 --> 00:54:16,140
-and that's what you get.
+dan itulah yang Anda dapatkan.
 
 1264
 00:54:16,140 --> 00:54:19,070
-If jQuery is compromised,
-that's too bad.
+Jika jQuery disusupi,
+itu terlalu buruk.
 
 1265
 00:54:19,070 --> 00:54:21,220
-Another problem is
-that this request
+Masalah lain adalah
+bahwa permintaan ini
 
 1266
 00:54:21,220 --> 00:54:23,960
-is going to be sent without any
-encryption or authentication
+akan dikirim tanpa
+enkripsi atau otentikasi apapun.
 
 1267
 00:54:23,960 --> 00:54:24,980
-over the network.
+melalui jaringan.
 
 1268
 00:54:24,980 --> 00:54:29,150
-So if an adversary is in control
-over your network connection,
+Jadi jika musuh memegang kendali
+melalui koneksi jaringan Anda,
 
 1269
 00:54:29,150 --> 00:54:30,890
-then they could
-intercept this request
+maka mereka bisa
+mencegat permintaan ini
 
 1270
 00:54:30,890 --> 00:54:34,404
-and serve back some other
-JavaScript code in response.
+dan melayani kembali beberapa
+kode JavaScript lainnya sebagai tanggapan.
 
 1271
 00:54:34,404 --> 00:54:35,820
-Now, this JavaScript
-code is going
+Sekarang, JavaScript ini
+kode sedang berjalan
 
 1272
 00:54:35,820 --> 00:54:38,480
-to run as part of this page.
+untuk dijalankan sebagai bagian dari halaman ini.
 
 1273
 00:54:38,480 --> 00:54:42,560
-And now, because it's running
-in this HTTPS foo.com domain,
+Dan sekarang, karena sedang berjalan
+di domain foo.com HTTPS ini,
 
 1274
 00:54:42,560 --> 00:54:45,630
-it has access to your
-secure cookies for foo.com
+itu memiliki akses ke 
+cookie anda yang aman untuk foo.com
 
 1275
 00:54:45,630 --> 00:54:48,740
-and any other stuff you have
-in that page, et cetera.
+dan hal-hal lain yang Anda miliki
+di halaman itu, dan lain-lain.
 
 1276
 00:54:48,740 --> 00:54:50,920
-So it seems like a
-really bad thing.
+Jadi sepertinya suatu
+hal yang sangat buruk.
 
 1277
 00:54:50,920 --> 00:54:52,482
-So you should be careful not to.
+Jadi, Anda harus berhati-hati untuk tidak melakukannya.
 
 1278
 00:54:52,482 --> 00:54:53,940
-Or a web developer
-certainly should
+Atau pengembang web
+tentu harus
 
 1279
 00:54:53,940 --> 00:54:57,470
-be careful not to make
-this kind of a mistake.
+berhati-hati untuk tidak membuat
+kesalahan semacam ini.
 
 1280
 00:54:57,470 --> 00:55:02,180
-So one solution is to ensure
-that all content embedded
+Jadi salah satu solusinya adalah memastikan
+bahwa semua konten tertanam
 
 1281
 00:55:02,180 --> 00:55:04,340
