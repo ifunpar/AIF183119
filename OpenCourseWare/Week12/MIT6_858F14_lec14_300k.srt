@@ -5732,116 +5732,116 @@ di browser Anda.
 
 1211
 00:51:46,650 --> 00:51:48,400
-You closed your laptop,
-then you opened it
+Anda menutup laptop anda,
+lalu anda membukanya
 
 1212
 00:51:48,400 --> 00:51:51,190
-on a different network, all of
-a sudden, someone intercepted
+pada jaringan yang berbeda, tiba tiba,
+seseorang memotong
 
 1213
 00:51:51,190 --> 00:51:53,480
-your connection to
-amazon.com and injected
+koneksi anda ke
+amazon.com dan menginjeksi
 
 1214
 00:51:53,480 --> 00:51:54,614
-their own response.
+respon milik mereka.
 
 1215
 00:51:54,614 --> 00:51:56,030
-If you approve it,
-then they'll be
+jika anda menyetujuinya,
+maka mereka akan 
 
 1216
 00:51:56,030 --> 00:51:58,975
-able to access
-the old amazon.com
+bisa mengakses
+halaman lama amazon.com
 
 1217
 00:51:58,975 --> 00:52:01,100
-page you have open because
-as far as the browser is
+yang sudah anda buka karena 
+sejauh  browsernya terhubung, 
 
 1218
 00:52:01,100 --> 00:52:02,599
-concerned, these
-are the same origin
+hal ini 
+memiliki asal yang sama
 
 1219
 00:52:02,599 --> 00:52:04,656
-because they have
-the same host name.
+karena mereka memiliki
+nama host yang sama.
 
 1220
 00:52:04,656 --> 00:52:06,150
-That's going to be troublesome.
+Hal itu akan menjadi masalah. 
 
 1221
 00:52:06,150 --> 00:52:09,670
-So this is potentially
-quite a unfortunate attack
+Maka hal ini berpotensi
+menjadi serangan yang cukup disayangkan
 
 1222
 00:52:09,670 --> 00:52:11,720
-if the user makes
-the wrong choice
+jika pengguna mengambil 
+keputusan yang salah
 
 1223
 00:52:11,720 --> 00:52:13,560
-on approving that certificate.
+pada saat menyetujui sertifikat tersebut.
 
 1224
 00:52:13,560 --> 00:52:15,430
-Make sense?
+Masuk akal?
 
 1225
 00:52:15,430 --> 00:52:18,430
-Any questions about that?
+Adakah pertanyaan tentang hal itu?
 
 1226
 00:52:18,430 --> 00:52:19,780
-All right.
+Baiklah.
 
 1227
 00:52:19,780 --> 00:52:22,480
-So that's one sort of, I guess,
-issue that this forced HTTPS
+Jadi itulah satu jenis, Saya rasa,
+masalah yang memaksa peraturan HTTPS
 
 1228
 00:52:22,480 --> 00:52:25,190
-paper is worried
-about is users making
+yang dikhawatirkan 
+tentang pengguna melakukan
 
 1229
 00:52:25,190 --> 00:52:28,870
-a mistake in the decision,
-users having too much leeway
+sebuah kesalahan dalam mengambil keputusan, 
+pengguna memiliki banyak kebebasan
 
 1230
 00:52:28,870 --> 00:52:31,850
-in accepting certificates.
+dalam menyetujui sertifikat.
 
 1231
 00:52:31,850 --> 00:52:35,910
-Another problem that
-shows up in practice
+Masalah lain yang 
+muncul dalam praktiknya
 
 1232
 00:52:35,910 --> 00:52:39,010
-is that-- we sort of
-briefly talked about this--
+adalah bahwa-- kita semacam
+membincarakan tentang ini dengan singkat--
 
 1233
 00:52:39,010 --> 00:52:41,690
-but this is one of the
-things that also forced
+tapi ini merupakan salah satu
+hal yang juga memaksa
 
 1234
 00:52:41,690 --> 00:52:43,890
-HTTPS, I think, is
-somewhat concerned about
+HTTPS, Saya pikir, 
+agak khawatir tentang
 
 1235
 00:52:43,890 --> 00:52:50,760
