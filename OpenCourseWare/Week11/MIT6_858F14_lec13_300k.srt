@@ -4700,59 +4700,59 @@ PROFESOR: Ah, pertanyaan bagus.
 
 989
 00:41:56,730 --> 00:41:58,230
-The client has no
-idea what this is.
+Klien tidak mengetahui
+ida apa ini.
 
 990
 00:41:58,230 --> 00:42:00,060
-Because this is like
-a super secret key.
+Karena ini seperti
+sebuah kunci rahasia super.
 
 991
 00:42:00,060 --> 00:42:01,770
-If you knew this,
-you'd probably be
+Jika anda mengetahu ini,
+anda mungkin akan
 
 992
 00:42:01,770 --> 00:42:03,480
-able to break all of Kerberos.
+mampu menghancurkan semua Kerberos.
 
 993
 00:42:03,480 --> 00:42:06,461
-So the client has no
-idea what KTGS is.
+Jadi klien tidak
+mengetahui apa itu KTGS.
 
 994
 00:42:06,461 --> 00:42:07,294
-STUDENT: [INAUDIBLE]
+STUDENT: [TIDAK TERDENGAR]
 
 995
 00:42:07,294 --> 00:42:08,110
-PROFESSOR: Ah, yeah, yeah.
+PROFESSOR: Ah, iya, iya.
 
 996
 00:42:08,110 --> 00:42:09,335
-And then the where
-you get it from
+Dan kemudian dimana
+anda mendapatkannya dari
 
 997
 00:42:09,335 --> 00:42:11,209
-is actually-- it's the
-Kerberos server itself
+sebenarnya-- itu adalah
+Server Kerberos itu sendiri
 
 998
 00:42:11,209 --> 00:42:14,830
-that generates this whole blob
-for you where this is actually
+yang menghasilkan seluruh blob ini
+untuk anda dimana ini sebenarnya
 
 999
 00:42:14,830 --> 00:42:18,780
-TGS and this is KTGS over here.
+TGS dan ini KTGS disini.
 
 1000
 00:42:18,780 --> 00:42:20,450
-So you don't construct
-this yourself.
+Jadi anda tidak membangun
+ini sendiri.
 
 1001
 00:42:20,450 --> 00:42:22,830
