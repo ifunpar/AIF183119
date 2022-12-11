@@ -4701,7 +4701,7 @@ PROFESOR: Ah, pertanyaan bagus.
 989
 00:41:56,730 --> 00:41:58,230
 Klien tidak mengetahui
-ida apa ini.
+tentang ini.
 
 990
 00:41:58,230 --> 00:42:00,060
@@ -4710,7 +4710,7 @@ sebuah kunci rahasia super.
 
 991
 00:42:00,060 --> 00:42:01,770
-Jika anda mengetahu ini,
+Jika anda mengetahui ini,
 anda mungkin akan
 
 992
