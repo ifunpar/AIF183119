@@ -4578,7 +4578,7 @@ tahu kuncinya sendiri, KTGS.
 963
 00:40:54,840 --> 00:40:57,390
 Jadi pertama itu akan
-dekripsi blob ini
+dekripsi gumpalan ini
 
 964
 00:40:57,390 --> 00:41:00,090
@@ -4808,59 +4808,59 @@ with the other fields?
 
 1012
 00:42:44,470 --> 00:42:46,625
-Why do these guys stick
-an address in the ticket?
+Kenapa mereka menempelkan
+sebuah alamat didalam tiket?
 
 1013
 00:42:49,190 --> 00:42:51,475
-This is the client's IP address.
+Ini adalah alamat IP sang klien.
 
 1014
 00:42:51,475 --> 00:42:53,741
-Does it matter?
+Apakah itu penting?
 
 1015
 00:42:53,741 --> 00:42:54,240
-Yeah.
+Ya.
 
 1016
 00:42:54,240 --> 00:42:56,632
-STUDENT: Can they
-use that address
+Mahasiswa: Bisakah mereka
+menggunakan alamat itu
 
 1017
 00:42:56,632 --> 00:42:59,899
-with the ticket to verify
-against the [INAUDIBLE]?
+dengan tiket untuk membuktikan
+menghadapi si[TIDAK TERDENGAR]?
 
 1018
 00:42:59,899 --> 00:43:00,690
-PROFESSOR: Sort of.
+PROFESOR: Semacamnya.
 
 1019
 00:43:00,690 --> 00:43:02,322
-Well, so I think
-the general plan
+Baik, jadi saya pikir
+rencana umumnya
 
 1020
 00:43:02,322 --> 00:43:03,780
-for why there's
-addresses appearing
+untuk mengapa terdapat
+alamat yang muncul
 
 1021
 00:43:03,780 --> 00:43:05,290
-everywhere here,
-these IP addresses,
+dimana-mana disini,
+alamat-alamat IP ini,
 
 1022
 00:43:05,290 --> 00:43:08,220
-is that these guys at the
-time were still slightly
+bahwa mereka pada
+saat itu masih sedikit
 
 1023
 00:43:08,220 --> 00:43:11,402
-confused and--
-well, in some ways--
+bingung dan--
+ya, dalam beberapa hal--
 
 1024
 00:43:11,402 --> 00:43:12,860
