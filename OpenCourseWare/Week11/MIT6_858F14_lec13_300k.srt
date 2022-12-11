@@ -4913,59 +4913,60 @@ same IP address.
 
 1034
 00:43:34,280 --> 00:43:36,405
-Otherwise, the server should
-reject your connection
+Jika tidak, server akan 
+menolak jaringanmu
 
 1035
 00:43:36,405 --> 00:43:39,570
-as being stolen by-- or
-someone stole your ticket.
+karena dicuri oleh-- atau
+seseorang mencuri tiketmu.
 
 1036
 00:43:39,570 --> 00:43:41,500
-So we're thinking,
-OK, well, maybe we'll
+Jadi kita berasumsi,
+OK, jadi, mungkin kita akan
 
 1037
 00:43:41,500 --> 00:43:43,350
-defend against ticket
-theft this way.
+bertahan melawan pencuri
+tiket dengan cara ini.
 
 1038
 00:43:43,350 --> 00:43:45,010
-If you still a ticket,
-well, but you're
+Jika kamu tetap sebuah tiket,
+akan tetapi kamu
 
 1039
 00:43:45,010 --> 00:43:46,260
-not using the same IP address.
+tidak menggunakan alamat IP yang sama.
 
 1040
 00:43:46,260 --> 00:43:47,685
-So it won't work.
+Jadi hal itu tidak akan berjalan.
 
 1041
 00:43:47,685 --> 00:43:49,830
-It's probably a little bit
-misguided at this point
+Itu mungkin ada sedikit 
+kesalahan pada poin ini
 
 1042
 00:43:49,830 --> 00:43:52,980
-but-- that sort of gets in the
-way And Kerberos 5 still has it
+Tetapi-- jalan pintas memasuki jalan
+tersebut dan Kerberos 5 masih memiliki itu
 
 1043
 00:43:52,980 --> 00:43:54,350
-but it's largely optional.
+Tetapi itu sebagian besar pilihan.
+
 
 1044
 00:43:54,350 --> 00:43:58,410
-Really, you should just rely on
-cryptography instead of any IP
+Sungguh, kamu seharusnya hanya bergantung
+pada kriptografi daripada 
 
 1045
 00:43:58,410 --> 00:44:00,430
-address security.
+keamanan alamat IP manapun.
 
 1046
 00:44:00,430 --> 00:44:02,890
