@@ -4864,52 +4864,52 @@ well, in some ways--
 
 1024
 00:43:11,402 --> 00:43:12,860
-they were still
-thinking, OK, well,
+mereka masih berpikir
+oke, yah,
 
 1025
 00:43:12,860 --> 00:43:14,318
-we're going to rely
-on IP addresses
+kita akan mengandalkan
+alamat IP
 
 1026
 00:43:14,318 --> 00:43:15,800
-for a little bit of security.
+untuk sedikit keamanan.
 
 1027
 00:43:15,800 --> 00:43:19,350
-So they wanted to make sure
-that if the client logged in
+Jadi mereka ingin memastikan
+bahwa jika klien masuk
 
 1028
 00:43:19,350 --> 00:43:21,830
-from some IP address, then
-everything else going on
+dari beberapa alamat IP, maka
+segala sesuatu yang terjadi
 
 1029
 00:43:21,830 --> 00:43:24,300
-with that ticket happen
-from that same IP address.
+dengan tiket itu terjadi
+dari alamat IP yang sama.
 
 1030
 00:43:24,300 --> 00:43:27,070
-So if you logged in
-from some IP address
+Jadi jika Anda masuk
+dari beberapa alamat IP
 
 1031
 00:43:27,070 --> 00:43:31,066
-on 18.26.4.9 or something,
-then every connection
+pada 18.26.4.9 atau sesuatu,
+maka setiap koneksi
 
 1032
 00:43:31,066 --> 00:43:32,940
-you make to a file server
-or to a mail server
+yang Anda buat ke server file
+atau ke server email
 
 1033
 00:43:32,940 --> 00:43:34,280
-has to be from the
-same IP address.
+harus dari alamat
+IP yang sama.
 
 1034
 00:43:34,280 --> 00:43:36,405
