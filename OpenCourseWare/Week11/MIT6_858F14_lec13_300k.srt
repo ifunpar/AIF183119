@@ -9176,104 +9176,104 @@ di mana anda ingin menghentikan
 unzipping ini sebelum terjadi.
 1937
 01:19:11,630 --> 01:19:13,730
-So what happens in
-the Kerberos version
+jadi apa yang terjadi pada
+versi kerberos
 
 1938
 01:19:13,730 --> 01:19:16,910
-5 password changing protocol
-is that actually you
+5 protokol penggubahan kata sandi 
+sebenarnya adalah kamu
 
 1939
 01:19:16,910 --> 01:19:20,370
-want to establish a new secret
-that will not be apparent
+ingin membangun rahasia baru
+yang tidak akan tampak
 
 1940
 01:19:20,370 --> 01:19:23,360
-if you happen to decrypt all
-the messages on the wire.
+jika kamu melakukan dekripsi semua
+pesan di jaringan.
 
 1941
 01:19:23,360 --> 01:19:25,620
-And the way this works
-is-- this is like some math
+dan cara kerjanya 
+adalah-- seperti matematika
 
 1942
 01:19:25,620 --> 01:19:27,286
-that you don't have
-to fully understand.
+sesuatu yang anda tidak perlu
+memahami secara keseluruhan.
 
 1943
 01:19:27,286 --> 01:19:33,590
-But the client some random value
-X. And the kpassword server is
+Tetapi klien beberapa nilai acak
+X. Dan dan kpassword server
 
 1944
 01:19:33,590 --> 01:19:35,630
-going to pick some
-other random value Y.
+akan mengambil beberapa
+nilai acak lainnya yaitu Y.
 
 1945
 01:19:35,630 --> 01:19:37,820
-And what they send to each
-other are exponentiations
+Dan apa yang mereka kirim kepada
+masing masing adalah eksponensial
 
 1946
 01:19:37,820 --> 01:19:39,050
-of these values.
+dari nilai-nilai ini.
 
 1947
 01:19:39,050 --> 01:19:41,500
-So the client sends
-G to the power X
+Jadi klien perlu mengirimkan
+G ke pangkat X
 
 1948
 01:19:41,500 --> 01:19:45,810
-to the server and the server
-sends G to the power Y
+ke server dan server
+mengirimkan G ke pangkat Y
 
 1949
 01:19:45,810 --> 01:19:47,260
-back to the client.
+kembali ke klien.
 
 1950
 01:19:47,260 --> 01:19:48,890
-And it turns out
-that mathematically,
+Dan ternyata bahwa
+secara mamematis,
 
 1951
 01:19:48,890 --> 01:19:52,110
-what we can do now is the
-client can take G to the Y,
+apa yang kita bisa lakukan sekarang 
+adalah klien dapat membawa G kepada Y,
 
 1952
 01:19:52,110 --> 01:19:55,270
-raise it to X, and get
-this value G to the XY.
+menaikan itu ke X, dan mendapatkan
+nilai G ke XY.
 
 1953
 01:19:55,270 --> 01:19:58,680
-The server can take G to the
-X, raise it to the power Y,
+Server bisa membawa G ke 
+X, menaikan itu ke pangkat Y,
 
 1954
 01:19:58,680 --> 01:20:00,650
-and get G to the XY as well.
+dan mendapatkan G ke XY juga.
 
 1955
 01:20:00,650 --> 01:20:03,670
-They can now use this
-secret value G to the XY
+Mereka sekarang bisa menggunakan 
+nilai rahasia G ke XY
 
 1956
 01:20:03,670 --> 01:20:05,440
-to encrypt their
-subsequent messages,
+untuk mengenkripsi 
+pesan berikutnya,
 
 1957
 01:20:05,440 --> 01:20:07,710
-including the new password.
+termasuk dengan kata sandi baru.
 
 1958
 01:20:07,710 --> 01:20:11,263
