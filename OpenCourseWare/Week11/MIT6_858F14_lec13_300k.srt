@@ -4434,7 +4434,7 @@ pada layanan ini berikutnya.
 933
 00:39:24,000 --> 00:39:27,130
 Jadi ini mungkin server e-mail
-Anda atau server file kamu.
+Anda atau server file Anda.
 
 934
 00:39:27,130 --> 00:39:29,440
@@ -4443,7 +4443,7 @@ termasuk tiketnya.
 
 935
 00:39:29,440 --> 00:39:30,970
-Itu sudah mendapat 4TGS.
+Dia sudah mendapat 4TGS.
 
 936
 00:39:30,970 --> 00:39:38,100
@@ -4452,21 +4452,21 @@ dari TGS yang dienkripsi dengan KTGS.
 
 937
 00:39:38,100 --> 00:39:41,430
-Jadi hanya ini
-hal dimana S adalah TGS.
+Jadi ini hanyalah hal
+ini di mana S adalah TGS.
 
 938
 00:39:41,430 --> 00:39:43,890
-Dan kemudian anda harus
-menyertakan pengautentikasi ini.
+Dan kemudian Anda harus
+menyertakan otentikator
 
 939
 00:39:43,890 --> 00:39:44,890
-gumpal.
+ini.
 
 940
 00:39:44,890 --> 00:39:48,155
-Ini ACnya
+Ini adalah AC ini
 dari atas sana.
 
 941
@@ -4482,32 +4482,32 @@ klien dan layanan TGS.
 943
 00:39:54,892 --> 00:39:58,360
 Jadi ini adalah pesan yang akan
-anda kirimkan kepada TGS.
+Anda kirimkan kepada TGS.
 
 944
 00:39:58,360 --> 00:40:00,399
-Ini akan terlihat
+Dia akan terlihat
 pada pesan ini,
 
 945
 00:40:00,399 --> 00:40:02,690
-melakukan sesuatu dengan ini yang
-akan kita bicarakan sebentar ini,
+melakukan sesuatu dengannya yang
+akan kita bicarakan sebentar lagi,
 
 946
 00:40:02,690 --> 00:40:07,770
 dan merespon balik dengan sebuah
-tiket untuk pelayanan S baru ini.
+tiket untuk layanan baru S ini.
 
 947
 00:40:07,770 --> 00:40:10,700
-Jadi respon disini terlihat
-hampir tepat seperti disini.
+Jadi respon di sini terlihat
+hampir tepat seperti di sini.
 
 948
 00:40:10,700 --> 00:40:12,490
-Faktanya, ini tepat
-hal yang sama.
+Faktanya, ini hal yang
+yang tepat sama.
 
 949
 00:40:12,490 --> 00:40:14,610
@@ -4516,23 +4516,23 @@ tiket antara klien
 
 950
 00:40:14,610 --> 00:40:18,310
-dan pelayanan S
+dan layanan S
 baru yang terenkripsi oleh KS
 
 951
 00:40:18,310 --> 00:40:21,320
-dan kunci bersama yang di antara
-klien dan pelayanan S baru
+dan kunci bersama di antara
+klien dan layanan baru ini S
 
 952
 00:40:21,320 --> 00:40:25,040
-yang terenkripsi-- jadi, sekarang,
-disini ada sedikit perbedaan.
+terenkripsi-- jadi, sekarang,
+di sini sedikit berbeda.
 
 953
 00:40:25,040 --> 00:40:27,550
 Alih-alih mengenkripsi dengan KC,
-yang mana klien punya kemungkinan
+di mana klien mungkin sudah
 
 954
 00:40:27,550 --> 00:40:29,280
@@ -4541,12 +4541,12 @@ saat itu, sekarang kita akan
 
 955
 00:40:29,280 --> 00:40:31,800
-mengenkripsi itu dengan
-kunci yang dibagi diantara klien
+mengenkripsinya dengan
+kunci bersama antara klien
 
 956
 00:40:31,800 --> 00:40:35,510
-dan TGS service.
+dan layanan TGS.
 
 957
 00:40:35,510 --> 00:40:38,030
@@ -4554,22 +4554,22 @@ Masuk akal?
 
 958
 00:40:38,030 --> 00:40:44,850
-ok, jadi didalam-- bagaimana
+Baiklah, jadi di dalam sini-- bagaimana
 server benar-benar memahami
 
 959
 00:40:44,850 --> 00:40:46,590
-apa sang klien mau lakukan?
+apa yang klien ingin lakukan?
 
 960
 00:40:46,590 --> 00:40:49,120
-atau, bagaimana server
-mengautentikasi sang klien?
+Atau, bagaimana server
+mengotentikasi klien?
 
 961
 00:40:49,120 --> 00:40:52,650
-jadi, didalam kasus ini, itu
-akan-- sebenarnya TGS server
+jadi, di dalam kasus ini, dia
+akan-- sebenarnya server TGS
 
 962
 00:40:52,650 --> 00:40:54,840
@@ -4582,13 +4582,13 @@ dekripsi gumpalan ini
 
 964
 00:40:57,390 --> 00:41:00,090
-dan lihat didalam tiket dan
+dan melihat di dalam tiketnya dan
 mencari tahu apa yang sedang terjadi.
 
 965
 00:41:00,090 --> 00:41:03,190
-Dan semua itu adalah 
-bidang yang bagus didalam tiket.
+Dan ada semua nilai
+yang bagus itu di dalam tiket.
 
 966
 00:41:03,190 --> 00:41:04,400
@@ -4597,7 +4597,7 @@ Jadi mari periksa ulang.
 967
 00:41:04,400 --> 00:41:07,100
 Mengapa kita membutuhkan semua
-bidang itu di tiket?
+nilai itu di tiket?
 
 968
 00:41:07,100 --> 00:41:12,687
@@ -4611,7 +4611,7 @@ tidak memiliki S di sana?
 
 970
 00:41:17,722 --> 00:41:19,682
-Apa pun?
+Apapun?
 
 971
 00:41:19,682 --> 00:41:20,182
@@ -4644,32 +4644,32 @@ apa arti sebuah pesan.
 977
 00:41:31,580 --> 00:41:33,910
 Jadi dalam hal ini,
-jika Anda menghilangkan huruf S,
+jika Anda menghilangkan S,
 
 978
 00:41:33,910 --> 00:41:37,189
-kamu mungkin mengandalkan
-pada fakta bahwa, ya,
+Anda mungkin bergantung
+pada fakta bahwa, yah,
 
 979
 00:41:37,189 --> 00:41:39,730
-jika itu adalah S yang salah yang kamu
-coba gunakan sebagai tiket untuk,
+jika itu adalah S yang salah yang Anda
+coba gunakan sebagai tiket untuknya,
 
 980
 00:41:39,730 --> 00:41:42,320
-maka mungkin kamu akan memiliki
+maka mungkin Anda akan memiliki
 kunci yang berbeda di sebelah sini
 
 981
 00:41:42,320 --> 00:41:44,490
-dan itu tidak akan mendekripsi
+dan maka dia tidak akan mendekripsi
 atau sesuatu seperti ini.
 
 982
 00:41:44,490 --> 00:41:46,823
 Tetapi itu sepertinya ide yang bagus
-untuk melibatkan itu untuk memastikan
+untuk melibatkannya untuk memastikan
 
 983
 00:41:46,823 --> 00:41:48,630
@@ -4687,7 +4687,7 @@ saya atau orang lain?
 
 986
 00:41:52,470 --> 00:41:52,970
-Iya.
+Yah.
 
 987
 00:41:52,970 --> 00:41:55,522
@@ -4700,63 +4700,63 @@ PROFESOR: Ah, pertanyaan bagus.
 
 989
 00:41:56,730 --> 00:41:58,230
-The client has no
-idea what this is.
+Klien tidak mengetahui
+tentang ini.
 
 990
 00:41:58,230 --> 00:42:00,060
-Because this is like
-a super secret key.
+Karena ini seperti
+sebuah kunci rahasia super.
 
 991
 00:42:00,060 --> 00:42:01,770
-If you knew this,
-you'd probably be
+Jika anda mengetahui ini,
+anda mungkin akan
 
 992
 00:42:01,770 --> 00:42:03,480
-able to break all of Kerberos.
+mampu menghancurkan semua Kerberos.
 
 993
 00:42:03,480 --> 00:42:06,461
-So the client has no
-idea what KTGS is.
+Jadi klien tidak
+mengetahui apa itu KTGS.
 
 994
 00:42:06,461 --> 00:42:07,294
-STUDENT: [INAUDIBLE]
+STUDENT: [TIDAK TERDENGAR]
 
 995
 00:42:07,294 --> 00:42:08,110
-PROFESSOR: Ah, yeah, yeah.
+PROFESSOR: Ah, iya, iya.
 
 996
 00:42:08,110 --> 00:42:09,335
-And then the where
-you get it from
+Dan kemudian dimana
+anda mendapatkannya dari
 
 997
 00:42:09,335 --> 00:42:11,209
-is actually-- it's the
-Kerberos server itself
+sebenarnya-- itu adalah
+Server Kerberos itu sendiri
 
 998
 00:42:11,209 --> 00:42:14,830
-that generates this whole blob
-for you where this is actually
+yang menghasilkan seluruh blob ini
+untuk anda dimana ini sebenarnya
 
 999
 00:42:14,830 --> 00:42:18,780
-TGS and this is KTGS over here.
+TGS dan ini KTGS disini.
 
 1000
 00:42:18,780 --> 00:42:20,450
-So you don't construct
-this yourself.
+Jadi anda tidak membangun
+ini sendiri.
 
 1001
 00:42:20,450 --> 00:42:22,830
-You just copy it over.
+Anda tinggal menyalinnya.
 
 1002
 00:42:22,830 --> 00:42:23,660
@@ -4764,47 +4764,47 @@ OK
 
 1003
 00:42:23,660 --> 00:42:27,154
-So what is the client
-name there important for?
+Jadi, untuk apa nama klien
+penting di sana?
 
 1004
 00:42:27,154 --> 00:42:28,570
-That should be
-fairly easy, right?
+Itu seharusnya
+cukup mudah, bukan?
 
 1005
 00:42:28,570 --> 00:42:30,020
-If you don't put the
-client name in the ticket,
+Jika Anda tidak memasukkan
+nama klien di tiket,
 
 1006
 00:42:30,020 --> 00:42:31,830
-then the server
-gets this nice blob
+maka server
+mendapatkan gumpalan yang bagus ini
 
 1007
 00:42:31,830 --> 00:42:34,382
-but it has no idea who
-it's trying to talk to.
+tetapi tidak tahu dengan siapa
+yang mencoba untuk berbicara.
 
 1008
 00:42:34,382 --> 00:42:35,840
-So it has no idea
-whether it should
+Jadi, tidak tahu
+apakah harus
 
 1009
 00:42:35,840 --> 00:42:38,890
-issue a ticket for my
-principal or for someone else's
+mengeluarkan tiket untuk
+prinsipal saya atau untuk prinsipal
 
 1010
 00:42:38,890 --> 00:42:41,250
-principle, et cetera.
+orang lain, dan lain-lain.
 
 1011
 00:42:41,250 --> 00:42:44,470
-So what's the deal
-with the other fields?
+Jadi apa masalahnya
+dengan bidang lainnya?
 
 1012
 00:42:44,470 --> 00:42:46,625
@@ -4864,108 +4864,109 @@ ya, dalam beberapa hal--
 
 1024
 00:43:11,402 --> 00:43:12,860
-they were still
-thinking, OK, well,
+mereka masih berpikir
+oke, yah,
 
 1025
 00:43:12,860 --> 00:43:14,318
-we're going to rely
-on IP addresses
+kita akan mengandalkan
+alamat IP
 
 1026
 00:43:14,318 --> 00:43:15,800
-for a little bit of security.
+untuk sedikit keamanan.
 
 1027
 00:43:15,800 --> 00:43:19,350
-So they wanted to make sure
-that if the client logged in
+Jadi mereka ingin memastikan
+bahwa jika klien masuk
 
 1028
 00:43:19,350 --> 00:43:21,830
-from some IP address, then
-everything else going on
+dari beberapa alamat IP, maka
+segala sesuatu yang terjadi
 
 1029
 00:43:21,830 --> 00:43:24,300
-with that ticket happen
-from that same IP address.
+dengan tiket itu terjadi
+dari alamat IP yang sama.
 
 1030
 00:43:24,300 --> 00:43:27,070
-So if you logged in
-from some IP address
+Jadi jika Anda masuk
+dari beberapa alamat IP
 
 1031
 00:43:27,070 --> 00:43:31,066
-on 18.26.4.9 or something,
-then every connection
+pada 18.26.4.9 atau sesuatu,
+maka setiap koneksi
 
 1032
 00:43:31,066 --> 00:43:32,940
-you make to a file server
-or to a mail server
+yang Anda buat ke server file
+atau ke server email
 
 1033
 00:43:32,940 --> 00:43:34,280
-has to be from the
-same IP address.
+harus dari alamat
+IP yang sama.
 
 1034
 00:43:34,280 --> 00:43:36,405
-Otherwise, the server should
-reject your connection
+Jika tidak, server akan 
+menolak jaringanmu
 
 1035
 00:43:36,405 --> 00:43:39,570
-as being stolen by-- or
-someone stole your ticket.
+karena dicuri oleh-- atau
+seseorang mencuri tiketmu.
 
 1036
 00:43:39,570 --> 00:43:41,500
-So we're thinking,
-OK, well, maybe we'll
+Jadi kita berasumsi,
+OK, jadi, mungkin kita akan
 
 1037
 00:43:41,500 --> 00:43:43,350
-defend against ticket
-theft this way.
+bertahan melawan pencuri
+tiket dengan cara ini.
 
 1038
 00:43:43,350 --> 00:43:45,010
-If you still a ticket,
-well, but you're
+Jika kamu tetap sebuah tiket,
+akan tetapi kamu
 
 1039
 00:43:45,010 --> 00:43:46,260
-not using the same IP address.
+tidak menggunakan alamat IP yang sama.
 
 1040
 00:43:46,260 --> 00:43:47,685
-So it won't work.
+Jadi hal itu tidak akan berjalan.
 
 1041
 00:43:47,685 --> 00:43:49,830
-It's probably a little bit
-misguided at this point
+Itu mungkin ada sedikit 
+kesalahan pada poin ini
 
 1042
 00:43:49,830 --> 00:43:52,980
-but-- that sort of gets in the
-way And Kerberos 5 still has it
+Tetapi-- jalan pintas memasuki jalan
+tersebut dan Kerberos 5 masih memiliki itu
 
 1043
 00:43:52,980 --> 00:43:54,350
-but it's largely optional.
+Tetapi itu sebagian besar pilihan.
+
 
 1044
 00:43:54,350 --> 00:43:58,410
-Really, you should just rely on
-cryptography instead of any IP
+Sungguh, kamu seharusnya hanya bergantung
+pada kriptografi daripada 
 
 1045
 00:43:58,410 --> 00:44:00,430
-address security.
+keamanan alamat IP manapun.
 
 1046
 00:44:00,430 --> 00:44:02,890
