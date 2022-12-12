@@ -9063,119 +9063,117 @@ hal awal ini
 
 1913
 01:18:19,630 --> 01:18:21,550
-because it was encrypted
-with your old KC.
+karena telah di enkripsi
+dengan KC lama anda
 
 1914
 01:18:21,550 --> 01:18:25,230
-And I can get this KC
-with pass that you shared.
+dan saya bisa mendapatkan KC ini
+dengan lewat yang anda telah bagikan
 
 1915
 01:18:25,230 --> 01:18:27,270
-Then I can use this to
-decrypt the new password
+maka saya bisa menggunakan ini untuk
+dekripsi dengan password baru
 
 1916
 01:18:27,270 --> 01:18:28,160
-you sent to the KDC.
+yang anda kirim ke KDC.
 
 1917
 01:18:28,160 --> 01:18:29,910
-And even if you change
-the password again,
+dan bila anda melakukan perubahan
+kata sandi lagi,
 
 1918
 01:18:29,910 --> 01:18:31,500
-I can decrypt the
-next round as well.
+saya bisa dekripsi 
+putaran berikutnya juga.
 
 1919
 01:18:31,500 --> 01:18:33,833
-And you can just keep going
-and get the newest password.
+dan anda juga bisa melakukan terus menerus 
+dan mendapatkan passowrd terbaru
 
 1920
 01:18:33,833 --> 01:18:38,000
-So in this particular password,
-changing protocol, if you ever
+jadi pada kata sandi khusus ini,
+mengganti protokol, bila anda pernah
 
 1921
 01:18:38,000 --> 01:18:40,040
-disclose an old
-password, then someone
+mengungkapkan kata sandi yang lama
+lalu seseorang
 
 1922
 01:18:40,040 --> 01:18:43,330
-could sort of unzip this whole
-chain of encrypted messages
+bisa melakukan unzip keseluruhan 
+rantai pesan yang terenkripsi
 
 1923
 01:18:43,330 --> 01:18:45,860
-and get your newest
-password as well.
+dan mendapatkan yang terbaru
+kata sandinya.
 
 1924
 01:18:45,860 --> 01:18:47,860
-This is actually very
-troublesome in the design.
+ini sebenarnya sangat
+menyusahkan dalam design.
 
 1925
 01:18:47,860 --> 01:18:48,360
-Yeah.
+yahh.
 
 1926
 01:18:48,360 --> 01:18:51,115
-STUDENT: Doesn't the later
-version of Kerberos [INAUDIBLE]
+Mahasiswa : bukankah nanti 
+versi Kerberos [TIDAK TERDENGAR]
 
 1927
 01:18:51,115 --> 01:18:52,240
-PROFESSOR: Absolutely, yes.
+PROFESSOR: pastinya, ya.
 
 1928
 01:18:52,240 --> 01:18:53,380
-So there's actually
-a solution to this
+maka sebenarnya ada
+solusi untuk ini
 
 1929
 01:18:53,380 --> 01:18:54,490
-that's not sort of fundamental.
+itu bukan semacam yang mendasar
 
 1930
 01:18:54,490 --> 01:18:55,865
-And this is
-something they didn't
+dan ini sesuatu tidak mereka lakukan
 
 1931
 01:18:55,865 --> 01:18:57,160
-realize in Kerberos version 4.
+realisasikan dalam Kerberos versi 4.
 
 1932
 01:18:57,160 --> 01:19:00,610
-There's actually this nice
-mechanism called Diffie-Hellman
+sebenarnya ada yang bagus 
+mekanisme yang disebut Diffie-Hellman
 
 1933
 01:19:00,610 --> 01:19:03,800
-that I'll just sketch
-out in like one minute
+bahwa saya hanya membuat sketsa
+keluar dalam waktu satu menit
 
 1934
 01:19:03,800 --> 01:19:06,420
-just so that you guys know
-when to use it or et cetera.
+hanya untuk agar kalian tahu
+kapan menggunakan atau dan sebagainya.
 
 1935
 01:19:06,420 --> 01:19:08,920
-But it's basically a solution
-for this kind of a problem
+tapi itu dasarnya solusi
+untuk masalah seperti ini
 
 1936
 01:19:08,920 --> 01:19:11,630
-where you want to stop this
-unzipping from happening.
-
+di mana anda ingin menghentikan 
+unzipping ini sebelum terjadi.
 1937
 01:19:11,630 --> 01:19:13,730
 So what happens in
