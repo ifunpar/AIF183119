@@ -8852,107 +8852,113 @@ authentication in the protocol.
 
 1870
 01:16:52,325 --> 01:16:54,200
-There's actually an even
-bigger problem here.
+Sebeneranya disini ada 
+masalah yang lebih besar.
+
 
 1871
 01:16:54,200 --> 01:16:55,080
-But actually, yeah, question?
+Tapi sebenarnya, ya, pertanyaan?
 
 1872
 01:16:55,080 --> 01:16:56,947
-STUDENT: What's the
-point of having a one way
+MURID: Apa 
+tujuan memiliki fungsi satu arah
 
 1873
 01:16:56,947 --> 01:16:59,196
-function to [INAUDIBLE] your
-password in KC if they're
+fungsi untuk[TIDAK TERDENGAR]
+password anda dalam KC jika mereka
 
 1874
 01:16:59,196 --> 01:17:01,350
-essentially [INAUDIBLE]?
+secara essetien [TIDAK TERDENGAR]?
 
 1875
 01:17:01,350 --> 01:17:05,060
 PROFESSOR: Basically because
 KC is a 56-bit ds key
+PROFESSOR: Pada dasarnya karena
+KC adalah 56-bit kunci ds
 
 1876
 01:17:05,060 --> 01:17:07,060
-and your password might
-be of different lengths.
+dan pasword anda mungkin
+memiliki panjang yang berbeda.
 
 1877
 01:17:07,060 --> 01:17:09,430
-And even if it's longer
-than 56 bits, which
+dan mungkin lebih panjang
+dari 56 bits,yaitu
 
 1878
 01:17:09,430 --> 01:17:11,360
-is seven bites or
-seven characters,
+tujuh bites atau 
+tujuh karakter,
 
 1879
 01:17:11,360 --> 01:17:13,630
-you want to use all
-those extra bytes too.
+anda ingin menggunakan semua 
+extra bytes itu juga.
 
 1880
 01:17:13,630 --> 01:17:17,900
 So it's mostly just to condense
 it down to a fixed width blob,
+Jadi sebagian besar hanya untuk memadatkan
+itu untuk ke lebar blob yang tetap.
 
 1881
 01:17:17,900 --> 01:17:18,996
-yeah.
+ya.
 
 1882
 01:17:18,996 --> 01:17:21,412
-But there's actually a much
-more interesting problem here,
+Tetapi sebenarnya ada lebih banyak
+masalah yang lebih menarik disini,
 
 1883
 01:17:21,412 --> 01:17:23,990
-which is that suppose
-that I change my password
+yaitu apakah  harus 
+untuk mengganti password saya
 
 1884
 01:17:23,990 --> 01:17:27,820
-and then I decide, OK,
-well, I change my password.
+dan saya memutuskan,OK,
+baiklah ,saya akan mengganti paswword saya.
 
 1885
 01:17:27,820 --> 01:17:29,930
-A day goes by and I'm
-thinking, oh yeah, sure.
+Hari pun berlalu dan saya 
+berpikir,oh ya ,tentu.
 
 1886
 01:17:29,930 --> 01:17:32,370
-I'll tell everyone what my
-stupid old password was.
+Saya akan memberi tahukan kepada semua apa 
+password lama saya.
 
 1887
 01:17:32,370 --> 01:17:35,200
-Is this a good idea in Kerberos?
+Apakah ini ide yang bagus di Kerberos?
 
 1888
 01:17:35,200 --> 01:17:35,700
-Yeah.
+Ya.
 
 1889
 01:17:35,700 --> 01:17:38,346
-STUDENT: [INAUDIBLE]
+MURID: [TIDAK TERDENGAR]
 immediately expire until the--
+segera berakhir sampai --
 
 1890
 01:17:38,346 --> 01:17:39,230
-PROFESSOR: Yeah, OK.
+PROFESSOR: ya, OK.
 
 1891
 01:17:39,230 --> 01:17:40,470
-But someone's got to wait
-for all my tickets to expire.
+Tetapi seseorang harus menunggu
+untuk semua tiket saya berakhir.
 
 1892
 01:17:40,470 --> 01:17:42,380
