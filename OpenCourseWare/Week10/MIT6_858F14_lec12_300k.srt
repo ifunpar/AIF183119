@@ -5891,113 +5891,113 @@ memungkinkan beberapa penyerang
 
 1237
 00:51:26,060 --> 00:51:27,768
-to completely enumerate
-your domain name.
+untuk benar-benar menghitung
+nama domain Anda.
 
 1238
 00:51:27,768 --> 00:51:31,410
-You can just ask for some
-domain name and find this record
+Anda bisa saja menanyakan beberapa
+nama domain dan menemukan catatannya
 
 1239
 00:51:31,410 --> 00:51:32,710
-and say, oh, yeah, great.
+dan berkata, oh, yah, bagus.
 
 1240
 00:51:32,710 --> 00:51:34,330
-So these two things exist.
+Jadi kedua hal ini ada.
 
 1241
 00:51:34,330 --> 00:51:36,520
-Let me query for gooa.mit.edu.
+Biarkan saya kueri untuk gooa.mit.edu.
 
 1242
 00:51:36,520 --> 00:51:38,200
-That'll give me a
-response saying,
+Itu akan memberika saya sebuah
+respon yang berkata,
 
 1243
 00:51:38,200 --> 00:51:40,820
-what's the next name in
-your domain, et cetera.
+apa nama selanjutnya pada
+domain Anda, dan lain-lain.
 
 1244
 00:51:40,820 --> 00:51:42,290
-So it's actually
-a little bit hard
+Jadi sebenarnya itu
+sedikit lebih susah
 
 1245
 00:51:42,290 --> 00:51:43,950
-to come up with
-the right protocol
+untuk muncul dengan
+protokol yang benar
 
 1246
 00:51:43,950 --> 00:51:46,790
-that both preserves all
-the nice properties of DNS
+yang keduanya menjaga semua
+properti yang bagus dari DNS
 
 1247
 00:51:46,790 --> 00:51:50,420
-and prevents name enumeration
-and other problems.
+dan mencegah pencacahan nama
+dan masalah lainnya.
 
 1248
 00:51:50,420 --> 00:51:52,020
-There's actually
-a nice thing now
+Sebenarnya sekarang
+ada hal baik
 
 1249
 00:51:52,020 --> 00:51:55,950
-called NSEC3 that tries to solve
-this problem partially-- sort
+bernama NSEC3 yang mencoba untuk menyelesaikan
+masalah ini sebagian-- setengah
 
 1250
 00:51:55,950 --> 00:51:56,875
-of works, sort of not.
+berjalan, setengah tidak.
 
 1251
 00:51:56,875 --> 00:51:59,110
-We'll see, I guess, what
-gets it [INAUDIBLE].
+Kita akan melihat, saya kira, apa
+yang mendapatkannya [TIDAK TERDENGAR].
 
 1252
 00:51:59,110 --> 00:51:59,880
-Yeah.
+Yah.
 
 1253
 00:51:59,880 --> 00:52:01,550
-AUDIENCE: Is there
-any kind of signing
+AUDIENS: Apakah ada
+segala bentuk tanda
 
 1254
 00:52:01,550 --> 00:52:03,915
-of nonexistent
-top level domains?
+dari ketidakadaan
+domain level atas?
 
 1255
 00:52:03,915 --> 00:52:05,540
-PROFESSOR: Yeah, I
-think actually yeah.
+PROFESOR: Yah, saya
+pikir sebenarnya yah.
 
 1256
 00:52:05,540 --> 00:52:07,600
-The dot domain is
-just another domain.
+Domain dot hanyalah
+domain lainnya.
 
 1257
 00:52:07,600 --> 00:52:10,250
-And they similarly have this
-mechanism implemented as well.
+Dan mereka juga memiliki
+mekanisme yang diterapkan juga.
 
 1258
 00:52:10,250 --> 00:52:13,120
-So actually dot and dot
-com now implement DNS SEC,
+Jadi sebenarnya dot dan dot
+com sekarang mengimplementasi DNS SEC,
 
 1259
 00:52:13,120 --> 00:52:15,842
-and there's all these
-records there that say, well,
+dan ada semua catatan
+ini yang mengatakan, sebenarnya,
 
 1260
 00:52:15,842 --> 00:52:18,540
