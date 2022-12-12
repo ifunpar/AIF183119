@@ -5595,8 +5595,8 @@ kembali dengan mengatakan inilah saldo Anda.
 
 1183
 00:50:34,010 --> 00:50:35,940
-Jadi mungkin pengguna
-akan berasumsi sesuatu
+Jadi mungkin penggunanya
+akan mengasumsikan sesuatu
 
 1184
 00:50:35,940 --> 00:50:39,070
@@ -5610,8 +5610,8 @@ sepertinya masih buruk,
 
 1186
 00:50:41,830 --> 00:50:43,520
-tapi belum tentu
-jadi bencana.
+tapi tidak
+separah itu.
 
 1187
 00:50:43,520 --> 00:50:44,460
@@ -5619,8 +5619,8 @@ Yah.
 
 1188
 00:50:44,460 --> 00:50:46,810
-AUDIENCE: Saya pikir
-bahwa sebuah [TIDAK TERDENGAR]
+AUDIENCE: Saya rasa
+sebuah [TIDAK TERDENGAR]
 
 1189
 00:50:46,810 --> 00:50:51,162
@@ -5633,7 +5633,7 @@ PROFESOR: Benar.
 
 1191
 00:50:51,870 --> 00:50:53,367
-Jadi ini ketakutanmu, yah.
+Jadi ini ketakutan Anda, yah.
 
 1192
 00:50:53,367 --> 00:50:54,950
@@ -5643,11 +5643,11 @@ mengkhawatirkan, sebenarnya,
 1193
 00:50:54,950 --> 00:50:58,000
 atau memiliki dampak yang jauh lebih
-tahan lama pada Anda.
+permanen pada Anda.
 
 1194
 00:50:58,000 --> 00:51:01,536
-Dan alasan ini berhasil
+Dan alasan ini bisa dilakukan
 adalah karena browser, ketika
 
 1195
@@ -5658,7 +5658,7 @@ membuat sebuah keputusan
 1196
 00:51:04,060 --> 00:51:06,610
 tentang siapa yang diizinkan untuk mendapatkan
-kumpulan cookie tertentu
+sekumpulan cookie tertentu
 
 1197
 00:51:06,610 --> 00:51:09,640
@@ -5672,12 +5672,12 @@ terhubung dengan Anda.
 
 1199
 00:51:11,390 --> 00:51:14,305
-Jadi jika Anda terhubung ke beberapa
+Jadi jika Anda terhubung ke
 server web penyerang,
 
 1200
 00:51:14,305 --> 00:51:18,130
-lalu Anda cukup menerima
+lalu Anda menerima saja
 sertifikat mereka untuk amazon.com
 
 1201
@@ -5687,18 +5687,18 @@ lalu browser
 
 1202
 00:51:20,175 --> 00:51:22,785
-akan berpikir, ya, entitas yang
-Saya ajak bicara adalah amazon.com,
+akan berpikir, yah, entitas yang
+saya ajak bicara adalah amazon.com,
 
 1203
 00:51:22,785 --> 00:51:25,810
-jadi Saya akan memperlakukan mereka seperti Saya
-ke server amazon.com normal,
+jadi saya akan menganggap mereka seperti
+server amazon.com normal,
 
 1204
 00:51:25,810 --> 00:51:28,345
 yang berarti
-mereka harus mendapatkan akses
+mereka perlu diberikan akses
 
 1205
 00:51:28,345 --> 00:51:31,120
@@ -5712,17 +5712,17 @@ menjalankan kode JavaScript
 
 1207
 00:51:33,770 --> 00:51:37,880
-di browser Anda dengan
-prinsip asal yang sama.
+di browser dengan prinsip
+asal yang sama tersebut.
 
 1208
 00:51:37,880 --> 00:51:40,780
-Jadi jika Anda
-membuka situs lain yang
+Jadi jika Anda memiliki
+situs lain yang
 
 1209
 00:51:40,780 --> 00:51:45,080
-terhubung ke
+terkoneksi ke
 situs web asli-- seperti mungkin
 
 1210
@@ -5737,22 +5737,22 @@ lalu anda membukanya
 
 1212
 00:51:48,400 --> 00:51:51,190
-pada jaringan yang berbeda, tiba tiba,
-seseorang memotong
+pada jaringan yang berbeda, tibatiba,
+seseorang mencegat
 
 1213
 00:51:51,190 --> 00:51:53,480
-koneksi anda ke
+koneksi Anda ke
 amazon.com dan menginjeksi
 
 1214
 00:51:53,480 --> 00:51:54,614
-respon milik mereka.
+respon milik mereka sendiri.
 
 1215
 00:51:54,614 --> 00:51:56,030
-jika anda menyetujuinya,
-maka mereka akan 
+jika Anda menyetujuinya,
+maka mereka akan
 
 1216
 00:51:56,030 --> 00:51:58,975
@@ -5761,13 +5761,13 @@ halaman lama amazon.com
 
 1217
 00:51:58,975 --> 00:52:01,100
-yang sudah anda buka karena 
-sejauh  browsernya terhubung, 
+yang sudah Anda buka karena
+dalam hal browsernya,
 
 1218
 00:52:01,100 --> 00:52:02,599
-hal ini 
-memiliki asal yang sama
+keduanya berasal
+dari sumber yang sama
 
 1219
 00:52:02,599 --> 00:52:04,656
@@ -5776,7 +5776,7 @@ nama host yang sama.
 
 1220
 00:52:04,656 --> 00:52:06,150
-Hal itu akan menjadi masalah. 
+Hal itu akan menjadi masalah.
 
 1221
 00:52:06,150 --> 00:52:09,670
@@ -5807,16 +5807,16 @@ Baiklah.
 1227
 00:52:19,780 --> 00:52:22,480
 Jadi itulah satu jenis, Saya rasa,
-masalah yang memaksa peraturan HTTPS
+masalah yang memaksa HTTPS
 
 1228
 00:52:22,480 --> 00:52:25,190
-yang dikhawatirkan 
+yang dikhawatirkan paper ini
 tentang pengguna melakukan
 
 1229
 00:52:25,190 --> 00:52:28,870
-sebuah kesalahan dalam mengambil keputusan, 
+sebuah kesalahan dalam mengambil keputusan,
 pengguna memiliki banyak kebebasan
 
 1230
@@ -5830,8 +5830,8 @@ muncul dalam praktiknya
 
 1232
 00:52:35,910 --> 00:52:39,010
-adalah bahwa-- kita semacam
-membincarakan tentang ini dengan singkat--
+adalah bahwa-- kita telah
+berbicara tentang ini dengan singkat--
 
 1233
 00:52:39,010 --> 00:52:41,690
@@ -5840,18 +5840,18 @@ hal yang juga memaksa
 
 1234
 00:52:41,690 --> 00:52:43,890
-HTTPS, Saya pikir, 
+HTTPS, Saya rasa,
 agak khawatir tentang
 
 1235
 00:52:43,890 --> 00:52:50,760
-adalah gagasan penyematan 
+adalah gagasan tentang penyematan
 tidak aman, atau konten campuran.
 
 1236
 00:52:50,760 --> 00:52:54,940
-Dan masalah yang 
-mangacu pada istilah ini
+Dan masalah yang
+diacu oleh istilah ini
 
 1237
 00:52:54,940 --> 00:53:00,880
@@ -5894,17 +5894,17 @@ yang dapat dipikirkan
 
 1245
 00:53:27,820 --> 00:53:29,772
-adalah mungkin skrip
-tag dimana anda.
+adalah mungkin tag
+script di mana Anda.
 
 1246
 00:53:29,772 --> 00:53:36,230
-dapat mengatakan sumber skrip
+dapat mengatakan sumber script
 sama dengan http jquery.com.
 
 1247
 00:53:36,230 --> 00:53:38,620
-Jadi ini adalah library
+Jadi ini adalah pustaka
 JavaScript yang populer
 
 1248
@@ -5927,8 +5927,8 @@ di situs lain seperti ini.
 
 1252
 00:53:49,385 --> 00:53:51,010
-Jadi kita harus adil
-berterus-terang,
+Jadi ini
+cukup jelas,
 
 1253
 00:53:51,010 --> 00:53:53,790
@@ -5942,26 +5942,26 @@ aman dan anda hanya memuat jQuery.
 
 1255
 00:53:58,170 --> 00:53:58,896
-Ya.
+Yah.
 
 1256
 00:53:58,896 --> 00:54:00,624
-AUDIENCE: Itu bisa 
+AUDIENCE: Itu bisa
 saja jQuery palsu.
 
 1257
 00:54:00,624 --> 00:54:01,290
-PROFESSOR: Ya.
+PROFESSOR: Yah.
 
 1258
 00:54:01,290 --> 00:54:03,300
 Jadi sebenarnya ada
-dua cara yang Anda
+dua cara di mana Anda
 
 1259
 00:54:03,300 --> 00:54:06,380
 bisa mendapatkan hal yang salah
-bahwa Anda tidak duga.
+dan tidak Anda duga sebelumnya.
 
 1260
 00:54:06,380 --> 00:54:09,630
@@ -5970,13 +5970,13 @@ jQuery itu sendiri dikompromikan.
 
 1261
 00:54:09,630 --> 00:54:12,470
-Jadi sepertinya, yah,
+Jadi itu sepertinya, yah,
 Anda mendapatkan apa yang Anda minta.
 
 1262
 00:54:12,470 --> 00:54:14,830
-Anda meminta ini
-situs dari jquery.com
+Anda meminta
+situs ini jquery.com
 
 1263
 00:54:14,830 --> 00:54:16,140
@@ -5984,8 +5984,8 @@ dan itulah yang Anda dapatkan.
 
 1264
 00:54:16,140 --> 00:54:19,070
-Jika jQuery disusupi,
-itu terlalu buruk.
+Jika jQuery disusupi kode merusak,
+itu akan jadi buruk.
 
 1265
 00:54:19,070 --> 00:54:21,220
@@ -5995,7 +5995,7 @@ bahwa permintaan ini
 1266
 00:54:21,220 --> 00:54:23,960
 akan dikirim tanpa
-enkripsi atau otentikasi apapun.
+enkripsi atau otentikasi apapun
 
 1267
 00:54:23,960 --> 00:54:24,980
@@ -6013,27 +6013,27 @@ mencegat permintaan ini
 
 1270
 00:54:30,890 --> 00:54:34,404
-dan melayani kembali beberapa
-kode JavaScript lainnya sebagai tanggapan.
+dan mengembalikan kembali
+kode JavaScript lainnya sebagai responnya.
 
 1271
 00:54:34,404 --> 00:54:35,820
-Sekarang, JavaScript ini
-kode sedang berjalan
+Sekarang, kode JavaScript
+ini akan berjalan
 
 1272
 00:54:35,820 --> 00:54:38,480
-untuk dijalankan sebagai bagian dari halaman ini.
+sebagai bagian dari halaman ini.
 
 1273
 00:54:38,480 --> 00:54:42,560
-Dan sekarang, karena sedang berjalan
-di domain foo.com HTTPS ini,
+Dan sekarang, karena dia berjalan
+di domain HTTPS foo.com ini,
 
 1274
 00:54:42,560 --> 00:54:45,630
-itu memiliki akses ke 
-cookie anda yang aman untuk foo.com
+dia memiliki akses ke 
+cookie aman Anda untuk foo.com
 
 1275
 00:54:45,630 --> 00:54:48,740
@@ -6062,7 +6062,7 @@ kesalahan semacam ini.
 1280
 00:54:57,470 --> 00:55:02,180
 Jadi salah satu solusinya adalah memastikan
-bahwa semua konten tertanam
+bahwa semua konten yang tertanam
 
 1281
 00:55:02,180 --> 00:55:04,340
@@ -6071,7 +6071,7 @@ di halaman yang aman juga aman.
 1282
 00:55:04,340 --> 00:55:07,055
 Jadi, ini tampaknya seperti pedoman yang baik
-bagi banyak pengembang web 
+bagi banyak pengembang web
 
 1283
 00:55:07,055 --> 00:55:07,930
@@ -6079,22 +6079,22 @@ untuk diikuti.
 
 1284
 00:55:07,930 --> 00:55:12,435
-Mungkin Anda sebaiknya hanya
+Jadi mungkin Anda sebaiknya cukup
 menuliskan https titik dua jquery.com.
 
 1285
 00:55:12,435 --> 00:55:17,410
-Atau ternyata URLs 
-mendukung URL relatif asal
+Atau ternyata URL tersebut
+mendukung URL-URL relatif asal ini,
 
 1286
 00:55:17,410 --> 00:55:21,345
-yang berarti Anda bisa mengabaikan 
-bagian HTTPS dan hanya,
+yang berarti Anda bisa mengabaikan
+bagian HTTPS dan cukup mengatkan,
 
 1287
 00:55:21,345 --> 00:55:29,550
-[TIDAK TERDENGAR] menuliskan sumber
+[TIDAK TERDENGAR] sumber skrip
 sama dengan //jquery.com/ sesuatu.
 
 1288
@@ -6113,13 +6113,13 @@ menjadi https jquery.com
 
 1291
 00:55:39,300 --> 00:55:42,870
-Jika berada di halaman HTTPS, dan
+jika berada di halaman HTTPS, dan
 menjadi http jquery.com biasa
 
 1292
 00:55:42,870 --> 00:55:46,940
 Jika berada di halaman non-HTTPS,
-hanya menggunakan URL HTTP biasa.
+dan menggunakan URL HTTP biasa.
 
 1293
 00:55:46,940 --> 00:55:50,660
