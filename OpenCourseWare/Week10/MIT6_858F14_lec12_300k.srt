@@ -6217,118 +6217,118 @@ mempertahankan beberapa struktur data
 
 1305
 00:54:13,060 --> 00:54:16,960
-on the side that says,
-for this connection,
+pada sisi yang mengatakan,
+untuk koneksi ini,
 
 1306
 00:54:16,960 --> 00:54:18,850
-here's the sequence number.
+berikut adalah sequence number-nya.
 
 1307
 00:54:18,850 --> 00:54:21,140
-And it's going to say, well,
-my connection from C to S
+Dan hal tersebut akan mengatakan, ya,
+koneksi saya dari C ke S
 
 1308
 00:54:21,140 --> 00:54:23,740
-has the sequence number SNC.
+memiliki sequence number SNC.
 
 1309
 00:54:26,250 --> 00:54:28,510
-And the reason the server
-has to store this table
+Dan alasan server
+harus menyimpan tabel ini
 
 1310
 00:54:28,510 --> 00:54:33,545
-is because the server
-needs to figure out what
+adalah karena server
+perlu untuk mencari tahu
 
 1311
 00:54:33,545 --> 00:54:37,340
-SNC value to accept here later.
+nilai SNC apa untuk diterima di sini nanti.
 
 1312
 00:54:37,340 --> 00:54:38,660
-Does this make sense?
+Apakah ini masuk akal?
 
 1313
 00:54:38,660 --> 00:54:41,562
-AUDIENCE: [INAUDIBLE] SNS?
+AUDIENCE: [TIDAK TERDENGAR] SNS?
 
 1314
 00:54:41,562 --> 00:54:43,936
-PROFESSOR: Yeah, the server
-also needs SNS I guess, yeah.
+PROFESOR: Ya, saya kira
+servernya juga membutuhkan SNS, ya.
 
 1315
 00:54:48,120 --> 00:54:51,770
-But it turns out that--
-well, yeah, you're right.
+Namun ternyata--
+ya, anda benar.
 
 1316
 00:54:51,770 --> 00:54:57,445
-And the problem is that--
-actually, yeah, you're right.
+Dan permasalahannya adalah--
+sebenarnya, ya, anda benar.
 
 1317
 00:54:57,445 --> 00:54:58,945
-SNS is actually
-much more important.
+SNS sebenarnya
+sangat lebih penting.
 
 1318
 00:54:58,945 --> 00:55:00,235
-Sorry, yeah.
+Maaf, ya.
 
 1319
 00:55:00,235 --> 00:55:02,746
-[INAUDIBLE] SNS is actually
-much more important.
+[TIDAK TERDENGAR] SNS itu sebenarnya
+sangat jauh lebih penting.
 
 1320
 00:55:02,746 --> 00:55:04,371
-Because SNS is how
-you know that you're
+Karena SNS adalah cara bagaimana
+anda dapat mengetahui bahwa anda
 
 1321
 00:55:04,371 --> 00:55:05,412
-talking to the right guy.
+sedang berbicara kepada orang yang benar.
 
 1322
 00:55:08,790 --> 00:55:12,075
-The problem is that
-there's no real bound
+Permasalahannya adalah
+tidak ada batasan nyata
 
 1323
 00:55:12,075 --> 00:55:13,710
-on the size of this table.
+pada ukuran dari tabel ini.
 
 1324
 00:55:13,710 --> 00:55:16,317
-So you might get packets
-from some machine.
+Jadi anda mungkin mendapatkan paket
+dari mesin lain.
 
 1325
 00:55:16,317 --> 00:55:17,650
-You don't even know who sent it.
+Anda bahkan tidak tahu siapa yang mengirimnya.
 
 1326
 00:55:17,650 --> 00:55:19,983
-You just get a packet that
-looks like this with a source
+Anda hanya mendapatkan paket yang
+terlihat seperti ini dengan sumber
 
 1327
 00:55:19,983 --> 00:55:21,610
-address that claims to be C.
+alamat yang mengaku sebagai C.
 
 1328
 00:55:21,610 --> 00:55:24,730
-And in order to potentially
-accept a connection later
+Dan agar dapat berpotensi
+menerima koneksi nanti
 
 1329
 00:55:24,730 --> 00:55:28,435
-from this IP address, you have
-to create this table entry.
+dari IP address ini, anda harus
+membuat tabel entry ini.
 
 1330
 00:55:28,435 --> 00:55:31,012
