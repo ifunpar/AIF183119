@@ -6335,7 +6335,7 @@ Maaf.
 1374
 00:59:34,280 --> 00:59:39,140
 Jadi bagaimana Anda, jika
-ada yang mengetaui atau bisa berpikir,
+ada yang mengetahui atau bisa berpikir,
 
 1375
 00:59:39,140 --> 00:59:43,010
@@ -6348,7 +6348,7 @@ Saya mengetahui kunci publiknya--
 
 1377
 00:59:44,460 --> 00:59:47,420
-modal A, yaitu
+A kapital, yaitu
 a kecil kali G--
 
 1378
@@ -6358,18 +6358,18 @@ memberikan Saya sebuah pesan m,
 
 1379
 00:59:49,340 --> 00:59:51,800
-dan Anda memberikan Saya sebuah
+dan Anda memberikan saya sebuah
 tandatangan, yaitu R dan s.
 
 1380
 00:59:51,800 --> 00:59:53,900
-Dan Anda telah menghitung
+Dan mereka telah menghitungnya
 dengan cara ini.
 
 1381
 00:59:53,900 --> 00:59:57,020
-Saya tidak bisa memverifikasi 
-persamaan ini oleh saya sendiri
+Saya tidak bisa memverifikasi
+persamaan ini sendirian
 
 1382
 00:59:57,020 --> 00:59:58,610
@@ -6382,40 +6382,40 @@ a kecil, benar?
 
 1384
 01:00:00,560 --> 01:00:09,470
-Saya hanya diberikan nilai R,s,m, dan
-A besa. Lalu bagaimana cara kita memverifikasikannya?
+Saya hanya diberikan nilai R, s, m, dan
+A besar. Lalu bagaimana cara kita memverifikasi ini?
 
 1385
 01:00:09,470 --> 01:00:13,510
-Audiens: apakan saya boleh, contohnya
-menagmbil hash dari message,
+AUDIENS: apakan saya boleh, contohnya,
+mengambil hash dari pesan,
 
 1386
 01:00:13,510 --> 01:00:21,124
-gunakan R, lalu coba menggunakan
-random a dan itu--
+menggunakan R, lalu mencoba
+a acak dan itu--
 
 1387
 01:00:21,124 --> 01:00:22,250
-hidup, maaf.
+pada, maaf.
 
 1388
 01:00:22,250 --> 01:00:23,000
-TADGE DRYJA: Iya.
+TADGE DRYJA: Yah.
 
 1389
 01:00:23,000 --> 01:00:24,350
-Apakah kamu mempunyai satu diantaranya?
+Apakah Anda mempunyai salah satunya?
 
 1390
 01:00:24,350 --> 01:00:26,850
-AUDIENCE: Jadi mencoba secara random
-mungkin [INAUDIBLE] karena--
+AUDIENS: Jadi mencoba secara acak
+mungkin [TIDAK TERDENGAR] karena--
 
 1391
 01:00:26,850 --> 01:00:27,685
 TADGE DRYJA:
-Ada banyak ya.
+Ada banyak, yah.
 
 1392
 01:00:27,685 --> 01:00:28,893
@@ -6424,12 +6424,12 @@ AUDIENCE: --ada terlalu banyak.
 1393
 01:00:28,893 --> 01:00:30,550
 Yang lama yang
-tidak anda ketahui.
+tidak Anda ketahui.
 
 1394
 01:00:30,550 --> 01:00:33,910
 Tapi saya pikir ada satu hal lagi
-yang anda bisa lakukan adalah dengan mengambil sedikit s
+yang Anda bisa lakukan adalah dengan mengambil sedikit s
 
 1395
 01:00:33,910 --> 01:00:35,872
