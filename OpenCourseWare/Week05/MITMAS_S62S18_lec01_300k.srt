@@ -5471,16 +5471,16 @@ dan jawabannya adalah tidak.
 1157
 00:50:06,838 --> 00:50:08,380
 TADGE DRYJA: Jawabannya
-itu adalah tidak.
+adalah tidak.
 
 1158
 00:50:08,380 --> 00:50:10,480
-Itu mungkin.
+Itu mungkin saja.
 
 1159
 00:50:10,480 --> 00:50:14,410
-Jadi saya tidak tahu, chained MD5,
-apakah anda bisa menemukan tabrakannya?
+Jadi saya tidak tahu, rantai MD5,
+apakah Anda tetap bisa menemukan collision?
 
 1160
 00:50:14,410 --> 00:50:15,640
@@ -5488,22 +5488,22 @@ Saya tidak yakin.
 
 1161
 00:50:15,640 --> 00:50:19,540
-Tapi umumnya berfikirnya adalah,
-jika fungsi hash rusak,
+Tapi umumnya cara berpikirnya adalah,
+jika fungsi hashnya rusak,
 
 1162
 00:50:19,540 --> 00:50:22,160
-dan anda bisa menemukan
-tabrakannya atau pra-gambar, ya,
+dan Anda bisa menemukan
+collisionnya atau pragambar, yah,
 
 1163
 00:50:22,160 --> 00:50:25,450
-mungkin akan sedikit
-lebih sulit dengan mengulanginya.
+mungkin itu akan sedikit
+lebih sulit dengan menelusurinya.
 
 1164
 00:50:25,450 --> 00:50:27,040
-tapi anda harus
+tapi Anda harus
 berhenti menggunakannya
 
 1165
@@ -5512,8 +5512,8 @@ dan menggunakan sesuatu yang lebih aman.
 
 1166
 00:50:29,640 --> 00:50:32,937
-tapi ya, sepertinya
-untuk menemukan pra-gambar
+tapi yah, sepertinya
+untuk menemukan pragambar
 
 1167
 00:50:32,937 --> 00:50:35,020
@@ -5522,104 +5522,104 @@ dasarnya menambahkan lebih banyak
 
 1168
 00:50:35,020 --> 00:50:38,290
-rounds by hashing it twice.
+putaran dengan melakukan hash dua kali.
 
 1169
 00:50:38,290 --> 00:50:41,290
-And then there are some attacks,
-so it's fairly out there.
+Dan kemudian ada beberapa serangan,
+jadi cukup nyata luar sana.
 
 1170
 00:50:41,290 --> 00:50:43,870
-But it's called length
-extension attacks
+Tapi itu disebut serangan
+ekstensi panjang
 
 1171
 00:50:43,870 --> 00:50:46,150
-due to how hash functions
-are constructed,
+dikarenakan bagaimana fungsi
+hash dibangun,
 
 1172
 00:50:46,150 --> 00:50:48,280
-where if you do say, OK,
-I'm going to take the hash
+di mana jika Anda mengatakan, OK,
+saya akan mengambil hash-nya.
 
 1173
 00:50:48,280 --> 00:50:50,410
-and then take the
-hash of that, you
+dan kemudian mengambil
+hash nya, Anda
 
 1174
 00:50:50,410 --> 00:50:54,970
-do prevent certain types of
-attacks that are fairly niche.
+melakukan pencegahan dari jenis
+serangan tertentu yang cukup khusus.
 
 1175
 00:50:54,970 --> 00:50:57,150
-But a length
-extinction attack in
+Tapi serangan ekstensi
+panjang dalam
 
 1176
 00:50:57,150 --> 00:51:00,640
-a Merkle-Damgard construction
-will be prevented by this.
+sebuah konstruksi Merkle-Damgard
+akan dapat dicegah dengan ini.
 
 1177
 00:51:00,640 --> 00:51:01,838
-So generally, no.
+Jadi pada umumnya, tidak.
 
 1178
 00:51:01,838 --> 00:51:03,380
-Generally, you don't
-need to do this.
+Umumnya, Anda tidak
+perlu melakukan ini.
 
 1179
 00:51:03,380 --> 00:51:05,170
-But there are different
-constructions where you're
+Tapi ada kontruksi
+yang berbeda di mana Anda
 
 1180
 00:51:05,170 --> 00:51:06,610
-going to hash a bunch of times.
+harus melakukan hash beberapa kali.
 
 1181
 00:51:06,610 --> 00:51:09,250
-I don't have the slides
-here but, like a Merkle tree
+Saya tidak memiliki slide nya
+namun, seperti pohon Merkle
 
 1182
 00:51:09,250 --> 00:51:11,745
-is a binary tree of
-hashes where you're
+yaitu pohon biner dari
+hash-hash di mana Anda
 
 1183
 00:51:11,745 --> 00:51:13,120
-taking the hashes
-of these things
+mengambil hash 
+dari hal ini
 
 1184
 00:51:13,120 --> 00:51:14,680
-and then hashing
-it again and again,
+dan kemudian menghitung
+hash-nya lagi dan lagi,
 
 1185
 00:51:14,680 --> 00:51:16,540
-and that's a really
-useful data structure.
+dan itu struktur data
+yang benar-benar berguna,
 
 1186
 00:51:16,540 --> 00:51:20,950
-And a blockchain is
-essentially a chain of hashes.
+dan sebuah blockchain
+pada dasarnya adalah rantai dari hashes.
 
 1187
 00:51:20,950 --> 00:51:24,460
-And that's what we'll
-talk about next week.
+dan itu yang akan 
+kita bahas pekan depan.
 
 1188
 00:51:24,460 --> 00:51:24,980
-But yeah.
+Tapi yah.
 
 1189
 00:51:24,980 --> 00:51:25,480
@@ -5627,117 +5627,117 @@ OK.
 
 1190
 00:51:25,480 --> 00:51:27,040
-So I'm going to go
-a little faster.
+Jadi saya akan berjalan
+sedikit lebih cepat.
 
 1191
 00:51:27,040 --> 00:51:28,810
-So that's an interesting
-use case where
+Jadi itu sebuah use case
+yang menarik di mana
 
 1192
 00:51:28,810 --> 00:51:30,160
-you can commit and reveal.
+Anda dapat berkomitmen dan memperlihatkan.
 
 1193
 00:51:30,160 --> 00:51:34,950
-And yeah, adding randomness so
-you can't guess the preimage.
+Dan yah, menambahkan keacakan jadi
+Anda tidak bisa menebak pragambarnya.
 
 1194
 00:51:34,950 --> 00:51:38,880
-This is called a hash-based
-message authentication
+Ini disebut kode otentikasi 
+pesan berbasis hash
 
 1195
 00:51:38,880 --> 00:51:43,380
-code where part of it is
-secret and part of it is not.
+di mana bagian dari itu
+rahasia dan sebagian lagi tidak.
 
 1196
 00:51:43,380 --> 00:51:47,640
-And this is getting towards a
-signature, where I've committed
+Dan ini semakin mendekati ke sebuah
+tanda tangan, di mana saya sudah berkomitmen
 
 1197
 00:51:47,640 --> 00:51:49,350
-to something, and
-then I reveal it,
+untuk sesuatu, dan
+kemudian saya memperlihatkannya,
 
 1198
 00:51:49,350 --> 00:51:51,270
-and everyone knows,
-yeah, that must be what
+dan semua orang tahu,
+yah, itu pasti seperti yang
 
 1199
 00:51:51,270 --> 00:51:53,220
-he committed to the day before.
+dia komitmenkan di hari sebelumnya.
 
 1200
 00:51:53,220 --> 00:51:57,760
-It's not quite a signature, but
-it's getting to that direction.
+Ini tidak benar-benar sebuah tanda tangan, tetapi
+ini mengarah ke sana.
 
 1201
 00:51:57,760 --> 00:52:01,440
-And so next I'm going to
-talk about signatures.
+dan juga selanjutnya saya akan
+berbicara tentang tanda tangan.
 
 1202
 00:52:01,440 --> 00:52:03,510
-What is a signature?
+Apa itu tanda tangan?
 
 1203
 00:52:03,510 --> 00:52:07,410
-It's useful, and it's a
-message signed by someone.
+Ini berguna, dan ini adalah pesan
+yang ditandatangani oleh seseorang.
 
 1204
 00:52:07,410 --> 00:52:09,370
-And so I'll define
-what a signature
+Jadi saya akan mendefinisikan
+apa sebenarnya tanda tangan itu
 
 1205
 00:52:09,370 --> 00:52:12,753
-is through the
-functions that it uses.
+melalui fungsi-fungsi
+yang dia gunakan.
 
 1206
 00:52:12,753 --> 00:52:14,170
-There's three
-functions will allow
+Ada tiga fungsi 
+yang akan memungkinkan
 
 1207
 00:52:14,170 --> 00:52:16,480
-you to create a
-signature scheme,
+Anda untuk membuat
+skema tanda tangan,
 
 1208
 00:52:16,480 --> 00:52:20,050
-generate keys, sign, and verify.
+Membangkitkan kunci, menandatangani, dan memverifikasi.
 
 1209
 00:52:20,050 --> 00:52:22,060
-And these different things.
+Dan ini merupakan hal-hal yang berbeda.
 
 1210
 00:52:22,060 --> 00:52:26,230
-Generate keys, you make a
-secret key and a public key.
+Membangkitkan kunci, Anda membuat 
+kunci rahasia dan kunci publik.
 
 1211
 00:52:26,230 --> 00:52:28,720
-And so the idea is there's
-some public key which is
+Jadi idenya adalah ada 
+satu kunci publik yang merupakan
 
 1212
 00:52:28,720 --> 00:52:33,160
-your identity , and there's
-some secret key which you only
+identitas Anda, dan ada 
+satu kunci rahasia yang hanya Anda
 
 1213
 00:52:33,160 --> 00:52:33,700
-control.
+kontrol.
 
 1214
 00:52:33,700 --> 00:52:36,670
@@ -5756,7 +5756,7 @@ Membangkitkan sebuah pasangan kunci.
 
 1217
 00:52:43,210 --> 00:52:46,960
-Pemegang dari kunci rahasia
+Pemegang kunci rahasia 
 dapat menandatangani pesan.
 
 1218
@@ -5795,22 +5795,22 @@ tanda tangan kurva eliptik.
 
 1225
 00:53:11,860 --> 00:53:16,120
-There's tons of different
-cool math systems that
+Ada banyak sistem matematika
+keren yang berbeda yang
 
 1226
 00:53:16,120 --> 00:53:19,450
-allow these kinds of functions.
+memungkinkan fungsi-fungsi semacam ini.
 
 1227
 00:53:19,450 --> 00:53:20,950
-And I'll talk
-about in some ways,
+Dan saya akan membicarakannya
+dalam beberapa cara,
 
 1228
 00:53:20,950 --> 00:53:23,445
-this is one of
-the simplest ones.
+ini adalah salah satu
+cara yang paling sederhana.
 
 1229
 00:53:23,445 --> 00:53:25,070
@@ -5827,8 +5827,8 @@ pasangan kunci publik privat.
 
 1232
 00:53:29,860 --> 00:53:32,500
-And it generally doesn't
-take any arguments,
+Dan itu biasanya tidak 
+mengambil argumen apapun,
 
 1233
 00:53:32,500 --> 00:53:34,030
@@ -5845,29 +5845,29 @@ antara bit satu dan nol.
 
 1236
 00:53:38,200 --> 00:53:40,300
-And it has to be long
-enough that no one else can
+Dan itu harus cukup panjang
+sehingga seorangpun tidak bisa
 
 1237
 00:53:40,300 --> 00:53:42,040
-guess what your private key is.
+tebak apa kunci pribadi kamu.
 
 1238
 00:53:44,737 --> 00:53:46,320
-So you have a private
-key, public key.
+jadi kamu mempunyai kunci
+pribadi, kunci publik.
 
 1239
 00:53:46,320 --> 00:53:47,220
-Public key is public.
+kunci publik adalah publik.
 
 1240
 00:53:47,220 --> 00:53:48,080
-You tell everyone.
+kamu memberitahukan semua orang.
 
 1241
 00:53:48,080 --> 00:53:50,868
-Private key is more secret key.
+kunci pribadi adalah kunci lebih rahasia.
 
 1242
 00:53:50,868 --> 00:53:53,160
@@ -5876,28 +5876,27 @@ kode, saya selalu mengatakan kunci rahasia.
 
 1243
 00:53:53,160 --> 00:53:55,290
-It's usually better to say
-secret key because at least it
+itu biasanya lebih baik mengatakan
+kunci rahasia karena setidaknya itu
 
 1244
 00:53:55,290 --> 00:53:56,707
-starts with a
-letter that's not p.
+dimulai dengan
+huruf yang bukan huruf p.
 
 1245
 00:53:59,200 --> 00:53:59,700
-OK.
+Oke.
 
 1246
 00:53:59,700 --> 00:54:01,440
-And then the signing
-function, where
+dan lalu menandatangani
+fungsi, dimana
 
 1247
 00:54:01,440 --> 00:54:03,360
 Anda mengambil kunci 
 rahasia dan pesan Anda,
-
 
 1248
 00:54:03,360 --> 00:54:08,160
@@ -5907,58 +5906,58 @@ dan mengembalikan tanda tangan.
 
 1249
 00:54:08,160 --> 00:54:10,890
-All these things are just
-strings of ones and zeros.
+semua hal ini hanyalah tentang
+string satu dan nol.
 
 1250
 00:54:10,890 --> 00:54:12,720
-It's just a bunch of bytes.
+Ini hanyalah sekumpulan byte.
 
 1251
 00:54:12,720 --> 00:54:15,780
-Public key, a private key,
-a signature, a message.
+Kunci publik, kunci rahasia,
+tandatangan dan sebuah pesan.
 
 1252
 00:54:15,780 --> 00:54:17,950
-These are all just bytes.
+Itu semua hanyalah sebuah byte.
 
 1253
 00:54:17,950 --> 00:54:20,780
-And then the verify function,
-which is the most complex.
+kemudian fungsi akan di verifikasi,
+fungsi mana yang paling kompleks.
 
 1254
 00:54:20,780 --> 00:54:24,550
-A verify function takes a
-public key that you've seen,
+Fungsi yang ter-verifikasi akan mengambil
+public key yang telah kita lihat,
 
 1255
 00:54:24,550 --> 00:54:26,920
-a message, and a signature.
+Pesan, dan tandatangan.
 
 1256
 00:54:26,920 --> 00:54:31,000
-And it returns a Boolean
-whether this was valid or not.
+dan kan mengembalikan sebuah boolean
+yang menandai ini valid atau tidak.
 
 1257
 00:54:31,000 --> 00:54:32,455
-So it returns a single bit.
+Jadi ini akan mengemnalikan sebuah single bit.
 
 1258
 00:54:32,455 --> 00:54:34,330
-If it's zero, it says,
-yeah, these two things
+Jika nol, ya
+dua hal ini berarti
 
 1259
 00:54:34,330 --> 00:54:36,820
-don't match up.
+tidak cocok.
 
 1260
 00:54:36,820 --> 00:54:39,300
-Maybe the message just
-changed, or maybe the signature
+mungkin pesannya yang telah diubah
+atau mungkin tandatangannya
 
 1261
 00:54:39,300 --> 00:54:41,550
