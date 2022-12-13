@@ -5814,7 +5814,7 @@ cara yang paling sederhana.
 
 1229
 00:53:23,445 --> 00:53:25,070
-Jadi yeah, ada 3 fungsi ini.
+Jadi ya, ada tiga fungsi ini.
 
 1230
 00:53:25,070 --> 00:53:26,690
@@ -5832,7 +5832,7 @@ mengambil argumen apapun,
 
 1233
 00:53:32,500 --> 00:53:34,030
-tetapi dibutuhkan secara acak.
+tetapi itu dilakukan secara acak.
 
 1234
 00:53:34,030 --> 00:53:35,020
@@ -5841,7 +5841,7 @@ Anda butuh untuk melempar koin.
 1235
 00:53:35,020 --> 00:53:38,200
 Anda butuh mencari secara acak
-dari bit satu dan nol.
+antara bit satu dan nol.
 
 1236
 00:53:38,200 --> 00:53:40,300
