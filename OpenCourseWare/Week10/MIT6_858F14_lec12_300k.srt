@@ -6001,113 +6001,113 @@ ini yang mengatakan, sebenarnya,
 
 1260
 00:52:15,842 --> 00:52:18,540
-.in is a domain
-name that exists,
+.in adalah sebuah nama
+domain yang ada,
 
 1261
 00:52:18,540 --> 00:52:21,915
-and dot something else exists,
-and there's nothing in between.
+dan titik apapun itu ada,
+dan tidak ada apapun diantaranya.
 
 1262
 00:52:21,915 --> 00:52:23,186
-So there's all these things.
+Jadi ada semua hal ini.
 
 1263
 00:52:23,186 --> 00:52:25,118
-AUDIENCE: So other
-than denial of service,
+AUDIENS: Jadi selain
+penolakan layanan,
 
 1264
 00:52:25,118 --> 00:52:27,533
-why do we care so
-much about repeating
+mengapa kita sangat peduli
+dengan pengulangan
 
 1265
 00:52:27,533 --> 00:52:29,442
-domain names within mit.edu?
+nama domain dengan mit.edu?
 
 1266
 00:52:29,442 --> 00:52:30,900
-PROFESSOR: Well,
-probably we don't.
+PROFESOR: Yah,
+mungkin tidak.
 
 1267
 00:52:30,900 --> 00:52:33,200
-Actually, there's
-a text file in AFS
+Sebenarnya, ada
+file teks di AFS
 
 1268
 00:52:33,200 --> 00:52:35,210
-that lists all these
-domain names at MIT anyway.
+yang mencantumkan semua
+nama domain ini di MIT.
 
 1269
 00:52:35,210 --> 00:52:36,930
-But I think in
-general, some companies
+Tetapi Saya pikir secara
+umum, beberapa perusahaan
 
 1270
 00:52:36,930 --> 00:52:39,530
-feel a little uneasy
-about revealing this.
+merasa sedikit tidak nyaman
+untuk mengungkapkan ini.
 
 1271
 00:52:39,530 --> 00:52:41,735
-They often have
-internal names that
+Mereka biasanya memiliki
+nama internal yang
 
 1272
 00:52:41,735 --> 00:52:46,245
-sit in DNS that should never
-be exposed to the outside.
+berada di DNS yang tidak boleh
+dibuka ke luar.
 
 1273
 00:52:46,245 --> 00:52:49,730
-I think it's actually this
-fuzzy area where it was never
+Saya pikir ini sebenarnya
+area kabur di mana tidak pernah
 
 1274
 00:52:49,730 --> 00:52:51,910
-really formalized what
-guarantees DNS was providing
+benar-benar diformalkan jaminan
+apa yang diberikan
 
 1275
 00:52:51,910 --> 00:52:52,774
-to you or was not.
+kepada Anda atau tidak.
 
 1276
 00:52:52,774 --> 00:52:54,690
-And people started
-assuming things like, well,
+Dan orang-orang mulai
+berasumsi hal-hal seperti, yah,
 
 1277
 00:52:54,690 --> 00:52:57,390
-if we stick some name, and it's
-not really publicized anywhere,
+jika kita mencantumkan beberapa nama, dan itu
+tidak benar-benar dipublikasikan di mana pun,
 
 1278
 00:52:57,390 --> 00:52:59,760
-then it's probably secure here.
+maka mungkin aman disini.
 
 1279
 00:52:59,760 --> 00:53:02,740
-I think this is another place
-where this system doesn't have
+Saya pikir ini adalah tempat lain
+di mana sistem ini tidak memiliki
 
 1280
 00:53:02,740 --> 00:53:04,740
-a clear spec in terms of
-what it has and doesn't
+spesifikasi yang jelas dalam hal
+apa yang dimilikinya
 
 1281
 00:53:04,740 --> 00:53:05,930
-have to provide.
+dan tidak harus disediakannya.
 
 1282
 00:53:05,930 --> 00:53:08,224
-And when you make some
-changes like this, then people
+Dan ketika Anda membuat beberapa
+perubahan seperti ini, maka orang-orang
 
 1283
 00:53:08,224 --> 00:53:11,214
