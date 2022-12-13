@@ -6273,37 +6273,37 @@ dalam kasus rata-rata.
 
 1335
 01:13:22,590 --> 01:13:26,540
-And the wonderful
-thing about factoring
+Dan hal yang luar biasa
+mengenai pemfaktoran
 
 1336
 01:13:26,540 --> 01:13:29,390
-is as long as the
-numbers are large,
+adalah selama
+angkanya besar,
 
 1337
 01:13:29,390 --> 01:13:30,940
-doesn't matter what
-the numbers are,
+tidak masalah apa pun
+angka-angkanya,
 
 1338
 01:13:30,940 --> 01:13:33,822
-it's hard to factor
-in the average case.
+sulit untuk melakukan faktor
+dalam kasus rata-rata.
 
 1339
 01:13:33,822 --> 01:13:35,030
-So that's the big difference.
+Jadi itulah perbedaan besarnya.
 
 1340
 01:13:35,030 --> 01:13:37,530
-If you're going to take anything
-away from the rest of this,
+Jika Anda akan mengambil sesuatu
+dari sisa ini,
 
 1341
 01:13:37,530 --> 01:13:39,270
-it's the difference
-between problems
+itu adalah perbedaan
+diantara masalah-masalah
 
 1342
 01:13:39,270 --> 01:13:44,070
