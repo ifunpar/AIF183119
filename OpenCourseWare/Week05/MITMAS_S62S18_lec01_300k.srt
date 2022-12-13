@@ -5960,56 +5960,55 @@ atau mungkin tandatangannya
 
 1261
 00:54:39,300 --> 00:54:41,550
-has changed, or maybe it's
-from a different public key
+telah berubah, atau mungkin 
+dari kunci publik yang berbeda
 
 1262
 00:54:41,550 --> 00:54:42,100
-or something.
+atau semacamnya.
 
 1263
 00:54:42,100 --> 00:54:44,830
-But if all three of
-these are correct,
+Tapi jika
+ketiganya benar,
 
 1264
 00:54:44,830 --> 00:54:47,780
-and the signing function
-was the private key--
+dan fungsi tandatangannya
+adalah kunci privat-
 
 1265
 00:54:47,780 --> 00:54:50,050
-the secret key associated
-with this public key--
+kunci rahasia yang berkaitan
+dengan kunci public--
 
 1266
 00:54:50,050 --> 00:54:52,860
-was signed to this message
-and produce this signature,
+ditandatangani untuk pesan ini
+dan menghasilkan tandatangan ini,
 
 1267
 00:54:52,860 --> 00:54:55,810
-then it will return true.
+maka akan menghasilkan true.
 
 1268
 00:54:55,810 --> 00:54:58,120
-And so you get into
-the math properties
+Jadi Anda sampai ke sifat matematika
 
 1269
 00:54:58,120 --> 00:55:01,090
-of what does it mean
-to forge a signature,
+dari apa artinya
+memalsukan tanda tangan,
 
 1270
 00:55:01,090 --> 00:55:04,480
-and can they be forgeable
-computationally?
+dan bisakah orang memalsukan
+secara komputasi?
 
 1271
 00:55:04,480 --> 00:55:07,330
-Eventually a lot of these
-things, since it's bits,
+Akhirnya banyak dari 
+hal-hal ini,mulai dari sedikit,
 
 1272
 00:55:07,330 --> 00:55:09,190
