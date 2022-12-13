@@ -6173,51 +6173,51 @@ untuk menentukan apakah mereka
 
 1314
 01:12:31,300 --> 01:12:33,170
-3-colorable or not.
+3-colorable atau tidak.
 
 1315
 01:12:33,170 --> 01:12:35,370
-But in the average
-case, all you do
+Tetapi dalam rata-rata
+kasus, semua yang Anda lakukan
 
 1316
 01:12:35,370 --> 01:12:38,010
-is if you have a large
-graph, if there's
+adalah jika Anda memiliki grafik
+besar, jika ada
 
 1317
 01:12:38,010 --> 01:12:41,440
-one little 4-click in the
-graph and you can find it,
+satu klik kecil di dalam
+grafik dan Anda dapat menemukannya,
 
 1318
 01:12:41,440 --> 01:12:44,500
-instantly you know that
-it's not 3-colorable, right?
+seketika Anda tahu bahwa
+itu tidak 3-colorable, bukan?
 
 1319
 01:12:44,500 --> 01:12:46,360
-So it turns out that's
-3-colorability is
+Jadi kenyataannya itu adalah
+3-colorability adalah
 
 1320
 01:12:46,360 --> 01:12:49,740
-just the worst thing ever
-when it comes to cryptography.
+hanya hal terburuk yang pernah ada
+ketika menyangkut kriptografi.
 
 1321
 01:12:49,740 --> 01:12:51,770
-Because the larger
-the graph-- and you
+Karena semakin besar
+grafik - dan Anda
 
 1322
 01:12:51,770 --> 01:12:53,020
-need this graph to be large.
+membutuhkan grafik ini menjadi besar.
 
 1323
 01:12:53,020 --> 01:12:55,871
-Because anything that's small,
-is constant time, right?
+Karena apapun yang kecil,
+berarti waktu yang konstan, benar?
 
 1324
 01:12:55,871 --> 01:12:57,370
