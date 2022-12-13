@@ -5818,12 +5818,12 @@ Jadi yeah, ada 3 fungsi ini.
 
 1230
 00:53:25,070 --> 00:53:26,690
-Yang pertama adalah menghasilkan kunci.
+Yang pertama adalah Membangkitkan kunci.
 
 1231
 00:53:26,690 --> 00:53:29,860
 Dan itu mengembalikan sebuah 
-pasangan kunci public private.
+pasangan kunci publik privat.
 
 1232
 00:53:29,860 --> 00:53:32,500
@@ -5836,12 +5836,12 @@ tetapi dibutuhkan secara acak.
 
 1234
 00:53:34,030 --> 00:53:35,020
-Anda butuh untuk membalikkan koin-koin.
+Anda butuh untuk melempar koin.
 
 1235
 00:53:35,020 --> 00:53:38,200
-Anda butuh untuk menemukan 
-yang acak dan bit nol.
+Anda butuh mencari secara acak
+dari bit satu dan nol.
 
 1236
 00:53:38,200 --> 00:53:40,300
@@ -5871,7 +5871,7 @@ kunci pribadi adalah kunci lebih rahasia.
 
 1242
 00:53:50,868 --> 00:53:53,160
-Sebenernya, aku pikir di
+Sebenernya, Saya pikir di
 kode, saya selalu mengatakan kunci rahasia.
 
 1243
@@ -5895,13 +5895,14 @@ fungsi, dimana
 
 1247
 00:54:01,440 --> 00:54:03,360
-kamu mengambil rahasia kamu
-kunci dan pesan kamu,
+Anda mengambil kunci 
+rahasia dan pesan Anda,
 
 1248
 00:54:03,360 --> 00:54:08,160
-and it signs a message
-and returns a signature.
+
+dan itu menandatangani pesan 
+dan mengembalikan tanda tangan.
 
 1249
 00:54:08,160 --> 00:54:10,890
