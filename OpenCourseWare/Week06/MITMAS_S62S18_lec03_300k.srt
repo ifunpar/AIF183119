@@ -6322,122 +6322,122 @@ OK.
 
 1371
 00:59:32,250 --> 00:59:32,750
-Sorry.
+Maaf.
 
 1372
 00:59:32,750 --> 00:59:33,680
-So first verification.
+Jadi pertama verifikasi.
 
 1373
 00:59:33,680 --> 00:59:34,280
-Sorry.
+Maaf.
 
 1374
 00:59:34,280 --> 00:59:39,140
-So how would you, if
-anyone knows or can think,
+Jadi bagaimana Anda, jika
+ada yang mengetahui atau bisa berpikir,
 
 1375
 00:59:39,140 --> 00:59:43,010
-how would you
-verify this, right?
+bagaimana Anda
+memverifikasi ini, betul?
 
 1376
 00:59:43,010 --> 00:59:44,460
-I know their public key--
+Saya mengetahui kunci publiknya--
 
 1377
 00:59:44,460 --> 00:59:47,420
-capital A, which is
-little a times G--
+A kapital, yaitu
+a kecil kali G--
 
 1378
 00:59:47,420 --> 00:59:49,340
-and then they're
-giving me a message m,
+dan kemudian Anda
+memberikan Saya sebuah pesan m,
 
 1379
 00:59:49,340 --> 00:59:51,800
-and they're giving me a
-signature, which is R and s.
+dan Anda memberikan saya sebuah
+tandatangan, yaitu R dan s.
 
 1380
 00:59:51,800 --> 00:59:53,900
-And they've computed
-it this way.
+Dan mereka telah menghitungnya
+dengan cara ini.
 
 1381
 00:59:53,900 --> 00:59:57,020
-I can't verify this
-equation myself
+Saya tidak bisa memverifikasi
+persamaan ini sendirian
 
 1382
 00:59:57,020 --> 00:59:58,610
-because I don't know what k is.
+karena saya tidak tahu berapa nilai k.
 
 1383
 00:59:58,610 --> 01:00:00,560
-I don't know what
-little a is, right?
+Saya tidak tahu berapa nilai
+a kecil, benar?
 
 1384
 01:00:00,560 --> 01:00:09,470
-I'm just given R, s, m, and big
-A. So how would I verify this?
+Saya hanya diberikan nilai R, s, m, dan
+A besar. Lalu bagaimana cara kita memverifikasi ini?
 
 1385
 01:00:09,470 --> 01:00:13,510
-AUDIENCE: Can I, for example,
-take the hash of the message,
+AUDIENS: apakan saya boleh, contohnya,
+mengambil hash dari pesan,
 
 1386
 01:00:13,510 --> 01:00:21,124
-use R, and then try
-random a's and that--
+menggunakan R, lalu mencoba
+a acak dan itu--
 
 1387
 01:00:21,124 --> 01:00:22,250
-on, sorry.
+pada, maaf.
 
 1388
 01:00:22,250 --> 01:00:23,000
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Yah.
 
 1389
 01:00:23,000 --> 01:00:24,350
-Do you have one?
+Apakah Anda mempunyai salah satunya?
 
 1390
 01:00:24,350 --> 01:00:26,850
-AUDIENCE: So trying random is
-probably [INAUDIBLE] because--
+AUDIENS: Jadi mencoba secara acak
+mungkin [TIDAK TERDENGAR] karena--
 
 1391
 01:00:26,850 --> 01:00:27,685
 TADGE DRYJA:
-There's a lot, yeah.
+Ada banyak, yah.
 
 1392
 01:00:27,685 --> 01:00:28,893
-AUDIENCE: --there's too many.
+AUDIENCE: --ada terlalu banyak.
 
 1393
 01:00:28,893 --> 01:00:30,550
-The old one that
-you don't know it.
+Yang lama yang
+tidak Anda ketahui.
 
 1394
 01:00:30,550 --> 01:00:33,910
-But I think one more thing
-you could do is take little s
+Tapi saya pikir ada satu hal lagi
+yang Anda bisa lakukan adalah dengan mengambil sedikit s
 
 1395
 01:00:33,910 --> 01:00:35,872
-and multiply it by big G.
+dan mengalikannya dengan G besar.
 
 1396
 01:00:35,872 --> 01:00:36,580
-TADGE DRYJA: Yes.
+TADGE DRYJA: Ya.
 
 1397
 01:00:36,580 --> 01:00:37,650
