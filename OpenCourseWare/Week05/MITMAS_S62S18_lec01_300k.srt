@@ -5756,8 +5756,8 @@ Membangkitkan sebuah pasangan kunci.
 
 1217
 00:52:43,210 --> 00:52:46,960
-The holder of the secret
-key can sign a message.
+Pemegang kunci rahasia 
+dapat menandatangani pesan.
 
 1218
 00:52:46,960 --> 00:52:49,930
