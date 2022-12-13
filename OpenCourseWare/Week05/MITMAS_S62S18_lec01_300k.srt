@@ -5741,18 +5741,18 @@ kontrol.
 
 1214
 00:52:33,700 --> 00:52:36,670
-And you use that to
-prove your identity
+Dan anda menggunakan itu untuk
+membuktikan identitas anda.
 
 1215
 00:52:36,670 --> 00:52:40,480
-and prove that these
-messages are signed by you.
+Dan membuktikan bahwa pesan ini
+ditandatangani oleh anda.
 
 1216
 00:52:40,480 --> 00:52:43,210
-So yeah, you
-generate a key pair.
+Jadi, Anda
+Membangkitkan sebuah pasangan kunci.
 
 1217
 00:52:43,210 --> 00:52:46,960
@@ -5761,37 +5761,37 @@ key can sign a message.
 
 1218
 00:52:46,960 --> 00:52:49,930
-And then anyone
-possessing a public key
+Lalu, siapapun
+yang memiliki kunci publik
 
 1219
 00:52:49,930 --> 00:52:53,230
-can verify a message
-signature pair.
+dapat memverifikasi pesan
+pasangan tanda tangan.
 
 1220
 00:52:53,230 --> 00:52:57,500
-So I'll go into detail
-on these three functions.
+Jadi saya akan menjelaskan secara
+detail tentang ketiga fungsi ini.
 
 1221
 00:52:57,500 --> 00:52:58,930
-And this applies generally.
+Dan ini berlaku secara umum.
 
 1222
 00:52:58,930 --> 00:53:03,160
-So I'm going to talk about a
-hash-based signature in detail,
+Jadi saya akan berbicara tentang
+tanda tangan berbasis hash secara detail,
 
 1223
 00:53:03,160 --> 00:53:05,980
-but there are many
-different signature schemes.
+tetapi ada banyak
+skema tanda tangan yang berbeda.
 
 1224
 00:53:05,980 --> 00:53:11,860
-DSA, ElGamal, RSA signatures,
-elliptic curve signatures.
+DSA, ElGamal, tanda tangan RSA,
+tanda tangan kurva eliptik.
 
 1225
 00:53:11,860 --> 00:53:16,120
