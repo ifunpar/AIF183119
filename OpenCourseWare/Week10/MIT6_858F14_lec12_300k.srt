@@ -6332,124 +6332,124 @@ membuat tabel entry ini.
 
 1330
 00:55:28,435 --> 00:55:31,012
-And these table entries
-are somewhat long lived.
+Dan tabel entry ini
+akan bertahan cukup lama.
 
 1331
 00:55:31,012 --> 00:55:33,345
-Because maybe someone is
-connecting to you from a really
+Karena mungkin seseorang sedang
+terkoneksi kepada anda
 
 1332
 00:55:33,345 --> 00:55:34,346
-far away place.
+dari tempat yang sangat jauh.
 
 1333
 00:55:34,346 --> 00:55:35,690
-There's lots of packet loss.
+Terdapat banyak packet loss.
 
 1334
 00:55:35,690 --> 00:55:40,090
-It might be not for maybe
-a minute until someone
+Mungkin tidak akan sampai
+1 menit hingga seseorang
 
 1335
 00:55:40,090 --> 00:55:42,730
-finishes this TCP handshake
-in the worst case.
+menyelesaikan worst case 
+dari TCP handshake.
 
 1336
 00:55:42,730 --> 00:55:45,710
-So you have to store this
-state in your TCP stack
+Membuat anda harus menyimpan
+state ini dalam TCP stack
 
 1337
 00:55:45,710 --> 00:55:47,980
-for a relatively long time.
+dalam jangka waktu yang lama.
 
 1338
 00:55:47,980 --> 00:55:50,230
-And there's no way
-to guess whether this
+Dan tidak bisa 
+ditebak apakah 
 
 1339
 00:55:50,230 --> 00:55:52,640
-is a valid connection or not.
+ini adalah koneksi yang valid atau tidak.
 
 1340
 00:55:52,640 --> 00:55:55,710
-So one denial of service
-attack that people discovered
+Lalu penyerangan yang 
+umumnya diketahui 
 
 1341
 00:55:55,710 --> 00:55:58,690
-against most TCP stacks
-is to simply send
+yaitu menyerang terhadap TCP stack
+dengan hanya mengirim
 
 1342
 00:55:58,690 --> 00:56:01,670
-lots of packets like this.
+packet seperti ini.
 
 1343
 00:56:01,670 --> 00:56:04,980
-So if I'm an attacker, then I'll
-just send lots of SYN packets
+Jika saya adalah penyerang, maka saya 
+hanya perlu mengirim banyak paket SYN
 
 1344
 00:56:04,980 --> 00:56:08,930
-to a particular server and
-get it to fill up its table.
+ke server tertentu dan
+dapat mengisi tabel hingga penuh.
 
 1345
 00:56:08,930 --> 00:56:12,810
-And the problem is
-that in the best case,
+Masalahnya adalah ketika 
+dalam best case,
 
 1346
 00:56:12,810 --> 00:56:15,410
-maybe the attacker just
-always uses the same source IP
+mungkin penyerang hanya perlu menggunakan 
+sumber IP addres
 
 1347
 00:56:15,410 --> 00:56:16,720
-address.
+yang sama.
 
 1348
 00:56:16,720 --> 00:56:18,800
-In that case, you
-can just say, well,
+Dalam kasus 
+ini sebenarnya
 
 1349
 00:56:18,800 --> 00:56:21,710
-every client machine is allowed
-two entries in my table,
+setiap komputer client mengizinkan 
+2 entries pada tabel,
 
 1350
 00:56:21,710 --> 00:56:23,340
-or something like this.
+seperti itu.
 
 1351
 00:56:23,340 --> 00:56:25,870
-And then the attacker can use
-up two table entries but not
+Lalu penyerang dapat menggunakan 
+hingga 2 tabel entries
 
 1352
 00:56:25,870 --> 00:56:26,745
-much more.
+dan tidak lebih.
 
 1353
 00:56:26,745 --> 00:56:28,667
-The problem, of course,
-is that the attacker
+Masalahnya, tentu saja
+penyerang
 
 1354
 00:56:28,667 --> 00:56:30,125
-can fake these
-client IP addresses,
+dan memalsukan IP 
+address milik client,
 
 1355
 00:56:30,125 --> 00:56:31,832
-make them look random.
+untuk membuat terlihat seperti acak.
 
 1356
 00:56:31,832 --> 00:56:33,290
