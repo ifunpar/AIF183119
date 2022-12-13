@@ -7046,114 +7046,114 @@ jika terdapat satu tandatangan
 
 1491
 01:05:15,750 --> 01:05:16,920
-I can't forge anything.
+Saya tidak bisa menempa sesuatu.
 
 1492
 01:05:16,920 --> 01:05:20,400
-If you give me two signatures,
-since it's generally random,
+Jika anda bisa memberi saya dua tanda tangan,
+karena pada umumnya acak,
 
 1493
 01:05:20,400 --> 01:05:22,860
-on average, half of the
-bits of the signature
+rata - rata, setengah dari
+bit - bit tersebut adalah tanda tangan
 
 1494
 01:05:22,860 --> 01:05:23,700
-will be constrained.
+akan dibatasi.
 
 1495
 01:05:23,700 --> 01:05:27,240
-So in this case, if it's 256
-bits long and you sign twice,
+Jadi dalam kasus ini, jika 
+panjang bit 256 dan anda menandatangani dua kali,
 
 1496
 01:05:27,240 --> 01:05:32,670
-I probably still can't forge
-anything because 128 bits,
+Kemungkinan besar saya tetap tidak bisa menempa
+apa - apa karena itu 128 bit,
 
 1497
 01:05:32,670 --> 01:05:34,510
-I have the freedom
-to pick either.
+Saya punya kebebasan
+untuk memilih yang mana saja.
 
 1498
 01:05:34,510 --> 01:05:39,810
-And the other 128 bits, I'm
-stuck with the one or the zero
+Dan 128 bit yang lainnya, saya
+terjebak dengan satu atau nol
 
 1499
 01:05:39,810 --> 01:05:41,160
-and I don't get to choose.
+dan saya tidak dapat memilih.
 
 1500
 01:05:41,160 --> 01:05:45,060
-So that means most
-messages I want to sign,
+Jadi itu berarti sebagian besar
+pesan yang saya ingin tanda tangani,
 
 1501
 01:05:45,060 --> 01:05:50,100
-I won't be able to because if I
-tried two to the 128 attempts,
+Saya tidak akan bisa karena jika saya
+mencoba 2 dari 128 percobaan,
 
 1502
 01:05:50,100 --> 01:05:52,480
-I'll be able to find
-a forged signature.
+Saya akan bisa menemukan
+tanda tangan yang ditempa.
 
 1503
 01:05:52,480 --> 01:05:53,550
-But that's a lot.
+Tapi itu sangat banyak.
 
 1504
 01:05:53,550 --> 01:05:55,830
-And so maybe you can sign twice.
+Dan mungkin anda bisa menandatangani 2 kali.
 
 1505
 01:05:55,830 --> 01:05:57,450
-But again, it's probabilistic.
+Tapi lagi - lagi, itu problematik.
 
 1506
 01:05:57,450 --> 01:06:00,390
-You might get unlucky
-and reveal quite a bit
+Anda mungkin tidak beruntung
+dan membuka sedikit bit
 
 1507
 01:06:00,390 --> 01:06:05,010
-more than 128 bits,
-where you get both.
+lebih dari 128 bit,
+dimana anda mendapatkan keduanya.
 
 1508
 01:06:05,010 --> 01:06:08,790
-But on average-- and then once
-you have three signatures, OK,
+Tapi secara rata - rata-- dan sekali lagi
+anda memiliki tiga tanda tangan, OK,
 
 1509
 01:06:08,790 --> 01:06:14,320
-now I've probably revealed
-3/4 of the locations
+sekarang saya kira - kira sudah mengungkap
+3/4 dari lokasi
 
 1510
 01:06:14,320 --> 01:06:16,540
-you're going to have both
-the one and zero row.
+anda akan memiliki keduanya
+baris satu dan nol.
 
 1511
 01:06:16,540 --> 01:06:18,250
-And you can start--
-and this starts
+Dan anda dapat memulai--
+dan ini akan
 
 1512
 01:06:18,250 --> 01:06:23,140
-to be practical
-because in this case,
+menjadi praktis
+karena dalam kasus ini,
 
 1513
 01:06:23,140 --> 01:06:27,280
-you'd need a 2 two the 64
-attempts to forge a signature.
+anda memerlukan sebuah 2 dua 64
+oercobaan untuk menempa sebuah tanda tangan.
 
 1514
 01:06:27,280 --> 01:06:31,250
-And that's doable on
-today's computers.
+Dan itu dapat dilakukan di
+komputer jaman sekarang.
