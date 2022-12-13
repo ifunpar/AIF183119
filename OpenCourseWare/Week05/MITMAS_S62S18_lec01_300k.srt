@@ -5900,7 +5900,6 @@ rahasia dan pesan Anda,
 
 1248
 00:54:03,360 --> 00:54:08,160
-
 dan itu menandatangani pesan 
 dan mengembalikan tanda tangan.
 
