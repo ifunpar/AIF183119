@@ -6111,100 +6111,100 @@ perubahan seperti ini, maka orang-orang
 
 1283
 00:53:08,224 --> 00:53:11,214
-say, oh, yeah, I was
-sort of relying on that.
+katakan, oh, ya, Saya pernah
+semacam mengandalkan itu.
 
 1284
 00:53:11,214 --> 00:53:12,116
-Yeah.
+Ya.
 
 1285
 00:53:12,116 --> 00:53:13,574
-AUDIENCE: [INAUDIBLE]
-replay attack
+AUDIENCE: [TIDAK TERDENGAR]
+serangan ulang
 
 1286
 00:53:13,574 --> 00:53:16,595
-where you could send
-in bold gap signature?
+dimana anda bisa mengirim where you could send
+dalam bold gap signature?
 
 1287
 00:53:16,595 --> 00:53:17,970
-PROFESSOR: Yeah,
-there's actually
+PROFESSOR: Ya,
+sebenarnya ada
 
 1288
 00:53:17,970 --> 00:53:19,053
-time outs on these things.
+waktu habis untuk hal-hal ini.
 
 1289
 00:53:19,053 --> 00:53:22,480
-So when you sign this,
-you actually sign and say,
+Jadi saat anda menandatangani hal ini,
+anda benar-benar menandatangani dan mengatakan,
 
 1290
 00:53:22,480 --> 00:53:25,370
-I'm signing that
-this set of names
+Saya menandatangani itu
+kumpulan nama ini
 
 1291
 00:53:25,370 --> 00:53:27,710
-is valid for, I
-don't know, a week.
+dan hal ini berlaku, Saya
+tidak tahu, mungkin satu minggu.
 
 1292
 00:53:27,710 --> 00:53:30,790
-And then the clients, if they
-have a synchronized clock,
+Dan kemudian klien, jika mereka
+mempunyai jam yang telah disinkronkan,
 
 1293
 00:53:30,790 --> 00:53:33,436
-they can reject old
-signed messages.
+mereka bisa menolak
+pesan bertanda tangan yang sudah lama.
 
 1294
 00:53:33,436 --> 00:53:36,770
-Make sense?
+Masuk akal?
 
 1295
 00:53:36,770 --> 00:53:43,290
-All right, so this is on the
+Baiklah, jadi hal ini ada pada
 TCP SYN guessing attacks.
 
 1296
 00:53:43,290 --> 00:53:47,850
-Another interesting problem that
-also comes up in the TCP case
+Masalah menarik lainnya yang
+juga muncul dalam kasus TCP
 
 1297
 00:53:47,850 --> 00:53:50,490
-is a denial of
-service attack that
+yaitu penyangkalan dari
+service attack yang
 
 1298
 00:53:50,490 --> 00:53:54,160
-exploits the fact that the
-server has to store some state.
+mengeksploitasi fakta bahwa
+server harus menyimpan beberapa status.
 
 1299
 00:53:54,160 --> 00:53:57,460
-So if you look at
-this handshake that we
+Jadi jika anda melihat pada
+handshake ini bahwa kita
 
 1300
 00:53:57,460 --> 00:54:00,450
-had on the board
-before, we'll see
+ada di papan tulis
+sebelumnya, kita akan melihat
 
 1301
 00:54:00,450 --> 00:54:04,230
-that when a client establishes
-a connection to the server,
+bahwa saat sebuah klien menetapkan
+sebuah koneksi ke server,
 
 1302
 00:54:04,230 --> 00:54:08,720
-the server has to actually
-remember the sequence number
+server sebenarnya harus
+mengingat nomor-nomor yang terurut
 
 1303
 00:54:08,720 --> 00:54:10,440
@@ -6212,8 +6212,8 @@ SNC.
 
 1304
 00:54:10,440 --> 00:54:13,060
-So the server has to
-maintain some data structure
+Jadi server harus
+mempertahankan beberapa struktur data
 
 1305
 00:54:13,060 --> 00:54:16,960
