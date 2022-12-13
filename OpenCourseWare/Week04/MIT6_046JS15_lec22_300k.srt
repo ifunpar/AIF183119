@@ -6221,55 +6221,55 @@ is constant time, right?
 
 1324
 01:12:55,871 --> 01:12:57,370
-Because so what if
-it's exponential?
+Karena bagaimana jika
+itu eksponensial?
 
 1325
 01:12:57,370 --> 01:12:58,450
-It's constant time.
+Ini adalah waktu yang konstan.
 
 1326
 01:12:58,450 --> 01:13:00,620
-So you need the
-graph to be large.
+Jadi, Anda memerlukan
+grafik menjadi lebih besar.
 
 1327
 01:13:00,620 --> 01:13:03,340
-When you have a random
-graph that's large,
+Ketika Anda memiliki sebuah graf
+acak yang besar,
 
 1328
 01:13:03,340 --> 01:13:06,680
-the chances you're going to
-find a 4-click in a 2,000 vertex
+kemungkinan Anda untuk
+menemukan sebuah klik dalam 2.000 vertex
 
 1329
 01:13:06,680 --> 01:13:09,120
-graph is pretty high.
+cukup tinggi.
 
 1330
 01:13:09,120 --> 01:13:11,770
-And so if you just go scan
-and look for a 4-click,
+Dan jika Anda hanya memeriksa
+dan mencari untuk klik,
 
 1331
 01:13:11,770 --> 01:13:14,330
-instantly you know that this
-graph is not 3-colorable,
+Anda langsung tahu bahwa
+grafik ini tidak 3-colorable,
 
 1332
 01:13:14,330 --> 01:13:14,830
-right?
+Benar?
 
 1333
 01:13:14,830 --> 01:13:19,640
-So in the average case,
-3-colorability is easy.
+Jadi dalam kasus rata-rata,
+3-colorability itu mudah.
 
 1334
 01:13:19,640 --> 01:13:22,590
-It's easy to solve
-in the average case.
+Sangat mudah untuk dipecahkan
+dalam kasus rata-rata.
 
 1335
 01:13:22,590 --> 01:13:26,540
