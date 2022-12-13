@@ -5836,7 +5836,7 @@ tetapi dibutuhkan secara acak.
 
 1234
 00:53:34,030 --> 00:53:35,020
-Anda butuh untuk membalikkan koin-koin
+Anda butuh untuk membalikkan koin-koin.
 
 1235
 00:53:35,020 --> 00:53:38,200
