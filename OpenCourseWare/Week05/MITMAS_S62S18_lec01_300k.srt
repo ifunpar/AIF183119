@@ -5905,58 +5905,58 @@ and returns a signature.
 
 1249
 00:54:08,160 --> 00:54:10,890
-All these things are just
-strings of ones and zeros.
+semua hal ini hanyalah tentang
+string satu dan nol.
 
 1250
 00:54:10,890 --> 00:54:12,720
-It's just a bunch of bytes.
+Ini hanyalah sekumpulan byte.
 
 1251
 00:54:12,720 --> 00:54:15,780
-Public key, a private key,
-a signature, a message.
+Kunci publik, kunci rahasia,
+tandatangan dan sebuah pesan.
 
 1252
 00:54:15,780 --> 00:54:17,950
-These are all just bytes.
+Itu semua hanyalah sebuah byte.
 
 1253
 00:54:17,950 --> 00:54:20,780
-And then the verify function,
-which is the most complex.
+kemudian fungsi akan di verifikasi,
+fungsi mana yang paling kompleks.
 
 1254
 00:54:20,780 --> 00:54:24,550
-A verify function takes a
-public key that you've seen,
+Fungsi yang ter-verifikasi akan mengambil
+public key yang telah kita lihat,
 
 1255
 00:54:24,550 --> 00:54:26,920
-a message, and a signature.
+Pesan, dan tandatangan.
 
 1256
 00:54:26,920 --> 00:54:31,000
-And it returns a Boolean
-whether this was valid or not.
+dan kan mengembalikan sebuah boolean
+yang menandai ini valid atau tidak.
 
 1257
 00:54:31,000 --> 00:54:32,455
-So it returns a single bit.
+Jadi ini akan mengemnalikan sebuah single bit.
 
 1258
 00:54:32,455 --> 00:54:34,330
-If it's zero, it says,
-yeah, these two things
+Jika nol, ya
+dua hal ini berarti
 
 1259
 00:54:34,330 --> 00:54:36,820
-don't match up.
+tidak cocok.
 
 1260
 00:54:36,820 --> 00:54:39,300
-Maybe the message just
-changed, or maybe the signature
+mungkin pesannya yang telah diubah
+atau mungkin tandatangannya
 
 1261
 00:54:39,300 --> 00:54:41,550
