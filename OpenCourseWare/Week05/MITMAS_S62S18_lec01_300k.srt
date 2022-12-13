@@ -5850,53 +5850,53 @@ sehingga seorangpun tidak bisa
 
 1237
 00:53:40,300 --> 00:53:42,040
-guess what your private key is.
+tebak apa kunci pribadi kamu.
 
 1238
 00:53:44,737 --> 00:53:46,320
-So you have a private
-key, public key.
+jadi kamu mempunyai kunci
+pribadi, kunci publik.
 
 1239
 00:53:46,320 --> 00:53:47,220
-Public key is public.
+kunci publik adalah publik.
 
 1240
 00:53:47,220 --> 00:53:48,080
-You tell everyone.
+kamu memberitahukan semua orang.
 
 1241
 00:53:48,080 --> 00:53:50,868
-Private key is more secret key.
+kunci pribadi adalah kunci lebih rahasia.
 
 1242
 00:53:50,868 --> 00:53:53,160
-Actually, I think in the
-code, I always say secret key.
+Sebenernya, aku pikir di
+kode, saya selalu mengatakan kunci rahasia.
 
 1243
 00:53:53,160 --> 00:53:55,290
-It's usually better to say
-secret key because at least it
+itu biasanya lebih baik mengatakan
+kunci rahasia karena setidaknya itu
 
 1244
 00:53:55,290 --> 00:53:56,707
-starts with a
-letter that's not p.
+dimulai dengan
+huruf yang bukan huruf p.
 
 1245
 00:53:59,200 --> 00:53:59,700
-OK.
+Oke.
 
 1246
 00:53:59,700 --> 00:54:01,440
-And then the signing
-function, where
+dan lalu menandatangani
+fungsi, dimana
 
 1247
 00:54:01,440 --> 00:54:03,360
-you take your secret
-key and your message,
+kamu mengambil rahasia kamu
+kunci dan pesan kamu,
 
 1248
 00:54:03,360 --> 00:54:08,160
