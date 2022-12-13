@@ -8876,8 +8876,6 @@ secara essetien [TIDAK TERDENGAR]?
 
 1875
 01:17:01,350 --> 01:17:05,060
-PROFESSOR: Basically because
-KC is a 56-bit ds key
 PROFESSOR: Pada dasarnya karena
 KC adalah 56-bit kunci ds
 
@@ -8903,8 +8901,6 @@ extra bytes itu juga.
 
 1880
 01:17:13,630 --> 01:17:17,900
-So it's mostly just to condense
-it down to a fixed width blob,
 Jadi sebagian besar hanya untuk memadatkan
 itu untuk ke lebar blob yang tetap.
 
@@ -8948,7 +8944,6 @@ Ya.
 1889
 01:17:35,700 --> 01:17:38,346
 MURID: [TIDAK TERDENGAR]
-immediately expire until the--
 segera berakhir sampai --
 
 1890
