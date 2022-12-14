@@ -8672,26 +8672,26 @@ membuka halaman jadwal,
 
 1836
 01:16:02,630 --> 01:16:03,960
-disana ada 2 kuis.
+di sana ada dua kuis.
 
 1837
 01:16:03,960 --> 01:16:05,780
-Dan disana tidak ada akhir 
-selama minggu akhir,
+Dan tidak ada ujian akhir 
+selama minggu ujian akhir,
 
 1838
 01:16:05,780 --> 01:16:08,034
-tetapi disana ada kuis
+tetapi ada kuis
 tepat sebelum itu.
 
 1839
 01:16:08,034 --> 01:16:09,450
-Jadi Anda bebas dari
-minggu akhir,
+Jadi Anda bebas di
+minggu ujian akhir,
 
 1840
 01:16:09,450 --> 01:16:12,100
-tetapi disana masih ada sesuatu
+tetapi masih ada sesuatu
 pada akhir kelas.
 
 1841
@@ -8708,12 +8708,12 @@ OK.
 
 1844
 01:16:14,970 --> 01:16:17,310
-Jadi saya pikir itu mungkin
-untuk buffer yang meluap.
+Jadi saya pikir itu semuanya
+terkait buffer overflow.
 
 1845
 01:16:17,310 --> 01:16:19,600
-Saya duga satu
+Saya rasa satu
 pertanyaan adalah, jadi apakah
 
 1846
@@ -8724,56 +8724,56 @@ masalah mekanisme?
 1847
 01:16:21,380 --> 01:16:26,030
 Dan jawaban umumnya adalah untuk
-memungkikan memiliki mekanisme yang lebih sedikit.
+mungkin memiliki mekanisme yang lebih sedikit.
 
 1848
 01:16:26,030 --> 01:16:27,530
-Jadi seperti yang kita lihat disini,
-jika Anda sadar
+Jadi seperti yang kita lihat di sini,
+jika Anda bergantung
 
 1849
 01:16:27,530 --> 01:16:29,850
-pada setiap potongan software untuk
-memaksa kebijakan keamanan Anda,
+pada setiap potongan perangkat lunak untuk
+memaksakan kebijakan keamanan Anda,
 
 1850
 01:16:29,850 --> 01:16:31,349
-Anda tidak akan menghindari
-mempunyai kesalahan yang
+Anda tidak bisa menghindari
+menemui kesalahan yang
 
 1851
 01:16:31,349 --> 01:16:34,110
-mengizinkan lawan untuk melangkai
-mekanisme Anda untuk memanfaatkan
+mengizinkan lawan untuk melangkahi
+mekanisme Anda untuk mengeksploitasi
 
 1852
 01:16:34,110 --> 01:16:35,829
-beberapa bug di server web.
+bug di server web.
 
 1853
 01:16:35,829 --> 01:16:37,370
-Dan desain jauh lebih
+Dan desain yang jauh lebih
 baik, dan satu tapi
 
 1854
 01:16:37,370 --> 01:16:39,300
-Anda akan menjelajahi
-di lab kedua, adalah satu
+Anda akan mengeksplorasinya
+di lab dua, adalah satu
 
 1855
 01:16:39,300 --> 01:16:41,030
-dimana struktur Anda
+di mana Anda menstruktur
 seluruh sistem Anda
 
 1856
 01:16:41,030 --> 01:16:42,621
-jadi keamanan dari
+sehingga keamanan dari
 sistem tidak
 
 1857
 01:16:42,621 --> 01:16:44,120
 bergantung pada semua
-bagian dari software
+bagian dari perangkat lunak
 
 1858
 01:16:44,120 --> 01:16:45,790
@@ -8786,7 +8786,7 @@ akan
 
 1860
 01:16:47,206 --> 01:16:48,970
-ditegakan oleh sejumlah
+dipaksakan oleh sejumlah
 kecil komponen.
 
 1861
@@ -8825,7 +8825,7 @@ telah lihat hari ini, setidaknya
 
 1868
 01:17:04,410 --> 01:17:05,775
-dalam detail yang sedikit.
+dalam detail yang sedikit lebih dalam.
 
 1869
 01:17:05,775 --> 01:17:06,370
@@ -8833,16 +8833,16 @@ Baiklah.
 
 1870
 01:17:06,370 --> 01:17:07,620
-adi bacalah materi untuk hari Senin.
+Jadi bacalah papernya untuk hari Senin.
 
 1871
 01:17:07,620 --> 01:17:08,828
-Dan datang ke kelas hari senin.
+Dan datang ke kelas hari Senin.
 
 1872
 01:17:08,828 --> 01:17:10,770
 Dan kumpulkan pertanyaan
-di website.
+di situs web.
 
 1873
 01:17:10,770 --> 01:17:12,920
