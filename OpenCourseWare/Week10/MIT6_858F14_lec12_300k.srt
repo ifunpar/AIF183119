@@ -5891,320 +5891,320 @@ memungkinkan beberapa penyerang
 
 1237
 00:51:26,060 --> 00:51:27,768
-to completely enumerate
-your domain name.
+untuk benar-benar mengenumerasi
+nama domain Anda.
 
 1238
 00:51:27,768 --> 00:51:31,410
-You can just ask for some
-domain name and find this record
+Anda bisa saja menanyakan sebbuah
+nama domain dan menemukan catatan ini
 
 1239
 00:51:31,410 --> 00:51:32,710
-and say, oh, yeah, great.
+dan berkata, oh, yah, bagus.
 
 1240
 00:51:32,710 --> 00:51:34,330
-So these two things exist.
+Jadi kedua hal ini ada.
 
 1241
 00:51:34,330 --> 00:51:36,520
-Let me query for gooa.mit.edu.
+Biarkan saya bertanya untuk untuk gooa.mit.edu.
 
 1242
 00:51:36,520 --> 00:51:38,200
-That'll give me a
-response saying,
+Dia akan memberikan saya sebuah
+respon yang berkata,
 
 1243
 00:51:38,200 --> 00:51:40,820
-what's the next name in
-your domain, et cetera.
+apa nama selanjutnya pada
+domain Anda, dan lain-lain.
 
 1244
 00:51:40,820 --> 00:51:42,290
-So it's actually
-a little bit hard
+Jadi sebenarnya
+sedikit lebih susah
 
 1245
 00:51:42,290 --> 00:51:43,950
-to come up with
-the right protocol
+untuk membuat
+protokol yang benar
 
 1246
 00:51:43,950 --> 00:51:46,790
-that both preserves all
-the nice properties of DNS
+yang menjaga semua
+properti yang bagus dari DNS
 
 1247
 00:51:46,790 --> 00:51:50,420
-and prevents name enumeration
-and other problems.
+dan mencegah pengenumerasian nama
+dan masalah lainnya.
 
 1248
 00:51:50,420 --> 00:51:52,020
-There's actually
-a nice thing now
+Sebenarnya sekarang
+ada hal baik yang
 
 1249
 00:51:52,020 --> 00:51:55,950
-called NSEC3 that tries to solve
-this problem partially-- sort
+bernama NSEC3 yang mencoba untuk menyelesaikan
+masalah ini sebagian-- setengah
 
 1250
 00:51:55,950 --> 00:51:56,875
-of works, sort of not.
+berjalan, setengah tidak.
 
 1251
 00:51:56,875 --> 00:51:59,110
-We'll see, I guess, what
-gets it [INAUDIBLE].
+Kita akan melihat, saya rasa, apa
+yang membuatnya [TIDAK TERDENGAR].
 
 1252
 00:51:59,110 --> 00:51:59,880
-Yeah.
+Yah.
 
 1253
 00:51:59,880 --> 00:52:01,550
-AUDIENCE: Is there
-any kind of signing
+AUDIENS: Apakah ada
+bentuk tanda
 
 1254
 00:52:01,550 --> 00:52:03,915
-of nonexistent
-top level domains?
+dari domain level
+atas yang tidak ada?
 
 1255
 00:52:03,915 --> 00:52:05,540
-PROFESSOR: Yeah, I
-think actually yeah.
+PROFESOR: Yah, saya
+rasa sebenarnya yah.
 
 1256
 00:52:05,540 --> 00:52:07,600
-The dot domain is
-just another domain.
+Domain dot hanyalah
+sebuah domain.
 
 1257
 00:52:07,600 --> 00:52:10,250
-And they similarly have this
-mechanism implemented as well.
+Dan mereka juga memiliki
+mekanisme yang diterapkan juga.
 
 1258
 00:52:10,250 --> 00:52:13,120
-So actually dot and dot
-com now implement DNS SEC,
+Jadi sebenarnya dot dan dot
+com sekarang mengimplementasi DNS SEC,
 
 1259
 00:52:13,120 --> 00:52:15,842
-and there's all these
-records there that say, well,
+dan ada semua catatan
+ini yang mengatakan, yah,
 
 1260
 00:52:15,842 --> 00:52:18,540
-.in is a domain
-name that exists,
+.in adalah sebuah nama
+domain yang ada,
 
 1261
 00:52:18,540 --> 00:52:21,915
-and dot something else exists,
-and there's nothing in between.
+dan dot sesuatu yang lain ada,
+dan tidak ada apapun diantaranya.
 
 1262
 00:52:21,915 --> 00:52:23,186
-So there's all these things.
+Jadi ada semua hal ini.
 
 1263
 00:52:23,186 --> 00:52:25,118
-AUDIENCE: So other
-than denial of service,
+AUDIENS: Jadi selain
+penolakan layanan,
 
 1264
 00:52:25,118 --> 00:52:27,533
-why do we care so
-much about repeating
+mengapa kita sangat peduli
+dengan pengulangan
 
 1265
 00:52:27,533 --> 00:52:29,442
-domain names within mit.edu?
+nama domain dengan mit.edu?
 
 1266
 00:52:29,442 --> 00:52:30,900
-PROFESSOR: Well,
-probably we don't.
+PROFESOR: Yah,
+mungkin kita tidak.
 
 1267
 00:52:30,900 --> 00:52:33,200
-Actually, there's
-a text file in AFS
+Sebenarnya, ada
+file teks di AFS
 
 1268
 00:52:33,200 --> 00:52:35,210
-that lists all these
-domain names at MIT anyway.
+yang mencantumkan semua
+nama domain ini di MIT.
 
 1269
 00:52:35,210 --> 00:52:36,930
-But I think in
-general, some companies
+Tetapi saya rasa secara
+umum, beberapa perusahaan
 
 1270
 00:52:36,930 --> 00:52:39,530
-feel a little uneasy
-about revealing this.
+merasa sedikit tidak nyaman
+untuk mengungkapkan ini.
 
 1271
 00:52:39,530 --> 00:52:41,735
-They often have
-internal names that
+Mereka biasanya memiliki
+nama internal yang
 
 1272
 00:52:41,735 --> 00:52:46,245
-sit in DNS that should never
-be exposed to the outside.
+berada di DNS yang tidak boleh
+diketahui pihak luar.
 
 1273
 00:52:46,245 --> 00:52:49,730
-I think it's actually this
-fuzzy area where it was never
+Saya rasa ini sebenarnya
+area abu-abu di mana tidak pernah
 
 1274
 00:52:49,730 --> 00:52:51,910
-really formalized what
-guarantees DNS was providing
+benar-benar diformalkan jaminan
+apa yang diberikan oleh DNS
 
 1275
 00:52:51,910 --> 00:52:52,774
-to you or was not.
+kepada Anda atau tidak.
 
 1276
 00:52:52,774 --> 00:52:54,690
-And people started
-assuming things like, well,
+Dan orang-orang mulai
+berasumsi hal-hal seperti, yah,
 
 1277
 00:52:54,690 --> 00:52:57,390
-if we stick some name, and it's
-not really publicized anywhere,
+jika kita mencantumkan sebuah nama, dan itu
+tidak benar-benar dipublikasikan di mana pun,
 
 1278
 00:52:57,390 --> 00:52:59,760
-then it's probably secure here.
+maka mungkin aman di sini.
 
 1279
 00:52:59,760 --> 00:53:02,740
-I think this is another place
-where this system doesn't have
+Saya pikir ini adalah tempat lain
+di mana sistem ini tidak memiliki
 
 1280
 00:53:02,740 --> 00:53:04,740
-a clear spec in terms of
-what it has and doesn't
+spesifikasi yang jelas dalam hal
+apa yang dimilikinya
 
 1281
 00:53:04,740 --> 00:53:05,930
-have to provide.
+dan tidak perlu disediakannya.
 
 1282
 00:53:05,930 --> 00:53:08,224
-And when you make some
-changes like this, then people
+Dan ketika Anda membuat beberapa
+perubahan seperti ini, maka orang-orang
 
 1283
 00:53:08,224 --> 00:53:11,214
-say, oh, yeah, I was
-sort of relying on that.
+mengatakan, oh, yah, saya pernah
+mengandalkan itu.
 
 1284
 00:53:11,214 --> 00:53:12,116
-Yeah.
+Ya.
 
 1285
 00:53:12,116 --> 00:53:13,574
-AUDIENCE: [INAUDIBLE]
-replay attack
+AUDIENCE: [TIDAK TERDENGAR]
+serangan replay
 
 1286
 00:53:13,574 --> 00:53:16,595
-where you could send
-in bold gap signature?
+di mana Anda bisa mengirim
+dengan percaya diri tanda tangan celah?
 
 1287
 00:53:16,595 --> 00:53:17,970
-PROFESSOR: Yeah,
-there's actually
+PROFESOR: Yah,
+sebenarnya ada
 
 1288
 00:53:17,970 --> 00:53:19,053
-time outs on these things.
+waktu kedaluwarsa untuk hal-hal ini.
 
 1289
 00:53:19,053 --> 00:53:22,480
-So when you sign this,
-you actually sign and say,
+Jadi jika Anda menandatangani hal ini,
+Anda sebenarnya menandatangani dan mengatakan,
 
 1290
 00:53:22,480 --> 00:53:25,370
-I'm signing that
-this set of names
+Saya menandatangani bahwa
+kumpulan nama ini
 
 1291
 00:53:25,370 --> 00:53:27,710
-is valid for, I
-don't know, a week.
+adalah valid untuk, saya
+tidak tahu, mungkin satu minggu.
 
 1292
 00:53:27,710 --> 00:53:30,790
-And then the clients, if they
-have a synchronized clock,
+Dan kemudian kliennya, jika mereka
+mempunyai jam yang sinkron,
 
 1293
 00:53:30,790 --> 00:53:33,436
-they can reject old
-signed messages.
+mereka bisa menolak
+pesan bertanda tangan yang sudah lama.
 
 1294
 00:53:33,436 --> 00:53:36,770
-Make sense?
+Masuk akal?
 
 1295
 00:53:36,770 --> 00:53:43,290
-All right, so this is on the
-TCP SYN guessing attacks.
+Baiklah, jadi hal ini ada pada
+serangan tebakan TCP SYN.
 
 1296
 00:53:43,290 --> 00:53:47,850
-Another interesting problem that
-also comes up in the TCP case
+Masalah menarik lainnya yang
+juga muncul dalam kasus TCP
 
 1297
 00:53:47,850 --> 00:53:50,490
-is a denial of
-service attack that
+yaitu serangan denial
+of service yang
 
 1298
 00:53:50,490 --> 00:53:54,160
-exploits the fact that the
-server has to store some state.
+mengeksploitasi fakta bahwa
+server harus menyimpan beberapa keadaan.
 
 1299
 00:53:54,160 --> 00:53:57,460
-So if you look at
-this handshake that we
+Jadi jika Anda melihat pada
+handshake ini yang kita
 
 1300
 00:53:57,460 --> 00:54:00,450
-had on the board
-before, we'll see
+punya di papan tulis
+sebelumnya, kita akan melihat
 
 1301
 00:54:00,450 --> 00:54:04,230
-that when a client establishes
-a connection to the server,
+bahwa saat sebuah klien membangun
+sebuah koneksi ke server,
 
 1302
 00:54:04,230 --> 00:54:08,720
-the server has to actually
-remember the sequence number
+server sebenarnya harus
+mengingat nomor-nomor rurut
 
 1303
 00:54:08,720 --> 00:54:10,440
@@ -6212,244 +6212,244 @@ SNC.
 
 1304
 00:54:10,440 --> 00:54:13,060
-So the server has to
-maintain some data structure
+Jadi server harus
+mempertahankan sebuah struktur data
 
 1305
 00:54:13,060 --> 00:54:16,960
-on the side that says,
-for this connection,
+pada sisi yang mengatakan,
+untuk koneksi ini,
 
 1306
 00:54:16,960 --> 00:54:18,850
-here's the sequence number.
+inilah adalah nomor urut nya.
 
 1307
 00:54:18,850 --> 00:54:21,140
-And it's going to say, well,
-my connection from C to S
+Dan dia akan mengatakan, yah,
+koneksi saya dari C ke S
 
 1308
 00:54:21,140 --> 00:54:23,740
-has the sequence number SNC.
+memiliki nomor urut SNC.
 
 1309
 00:54:26,250 --> 00:54:28,510
-And the reason the server
-has to store this table
+Dan alasan kenapa server
+harus menyimpan tabel ini
 
 1310
 00:54:28,510 --> 00:54:33,545
-is because the server
-needs to figure out what
+adalah karena server
+perlu untuk mencari tahu
 
 1311
 00:54:33,545 --> 00:54:37,340
-SNC value to accept here later.
+nilai SNC apa untuk diterima di sini nantinya.
 
 1312
 00:54:37,340 --> 00:54:38,660
-Does this make sense?
+Apakah ini masuk akal?
 
 1313
 00:54:38,660 --> 00:54:41,562
-AUDIENCE: [INAUDIBLE] SNS?
+AUDIENCE: [TIDAK TERDENGAR] SNS?
 
 1314
 00:54:41,562 --> 00:54:43,936
-PROFESSOR: Yeah, the server
-also needs SNS I guess, yeah.
+PROFESOR: Ya, saya kira
+servernya juga membutuhkan SNS, yah.
 
 1315
 00:54:48,120 --> 00:54:51,770
-But it turns out that--
-well, yeah, you're right.
+Namun ternyata--
+yah, Anda benar.
 
 1316
 00:54:51,770 --> 00:54:57,445
-And the problem is that--
-actually, yeah, you're right.
+Dan permasalahannya adalah--
+sebenarnya, yah, anda benar.
 
 1317
 00:54:57,445 --> 00:54:58,945
-SNS is actually
-much more important.
+SNS sebenarnya
+jauh lebih penting.
 
 1318
 00:54:58,945 --> 00:55:00,235
-Sorry, yeah.
+Maaf, yah.
 
 1319
 00:55:00,235 --> 00:55:02,746
-[INAUDIBLE] SNS is actually
-much more important.
+[TIDAK TERDENGAR] SNS itu sebenarnya
+jauh lebih penting.
 
 1320
 00:55:02,746 --> 00:55:04,371
-Because SNS is how
-you know that you're
+Karena SNS adalah cara bagaimana
+Anda dapat mengetahui bahwa Anda
 
 1321
 00:55:04,371 --> 00:55:05,412
-talking to the right guy.
+sedang berbicara kepada orang yang benar.
 
 1322
 00:55:08,790 --> 00:55:12,075
-The problem is that
-there's no real bound
+Permasalahannya adalah
+tidak ada batasan nyata
 
 1323
 00:55:12,075 --> 00:55:13,710
-on the size of this table.
+pada ukuran dari tabel ini.
 
 1324
 00:55:13,710 --> 00:55:16,317
-So you might get packets
-from some machine.
+Jadi Anda mungkin mendapatkan paket
+dari mesin lain.
 
 1325
 00:55:16,317 --> 00:55:17,650
-You don't even know who sent it.
+Anda bahkan tidak tahu siapa yang mengirimnya.
 
 1326
 00:55:17,650 --> 00:55:19,983
-You just get a packet that
-looks like this with a source
+Anda hanya mendapatkan paket yang
+terlihat seperti ini dengan sumber
 
 1327
 00:55:19,983 --> 00:55:21,610
-address that claims to be C.
+alamat yang mengaku sebagai C.
 
 1328
 00:55:21,610 --> 00:55:24,730
-And in order to potentially
-accept a connection later
+Dan agar dapat nantinya dapat
+menerima koneksi
 
 1329
 00:55:24,730 --> 00:55:28,435
-from this IP address, you have
-to create this table entry.
+dari alamat IP ini, Anda harus
+membuat tabel entri ini.
 
 1330
 00:55:28,435 --> 00:55:31,012
-And these table entries
-are somewhat long lived.
+Dan tabel entri ini
+akan bertahan cukup lama.
 
 1331
 00:55:31,012 --> 00:55:33,345
-Because maybe someone is
-connecting to you from a really
+Karena mungkin seseorang sedang
+terkoneksi kepada Anda
 
 1332
 00:55:33,345 --> 00:55:34,346
-far away place.
+dari tempat yang sangat jauh.
 
 1333
 00:55:34,346 --> 00:55:35,690
-There's lots of packet loss.
+Terdapat banyak paket hilang.
 
 1334
 00:55:35,690 --> 00:55:40,090
-It might be not for maybe
-a minute until someone
+Mungkin tidak akan sampai
+1 menit hingga seseorang
 
 1335
 00:55:40,090 --> 00:55:42,730
-finishes this TCP handshake
-in the worst case.
+menyelesaikan TCP handshake
+di kasus terburuknya.
 
 1336
 00:55:42,730 --> 00:55:45,710
-So you have to store this
-state in your TCP stack
+Jadi Anda harus menyimpan
+keadaan ini dalam TCP stack
 
 1337
 00:55:45,710 --> 00:55:47,980
-for a relatively long time.
+dalam jangka waktu yang lama.
 
 1338
 00:55:47,980 --> 00:55:50,230
-And there's no way
-to guess whether this
+Dan tidak bisa cara untuk
+menebak apakah ini
 
 1339
 00:55:50,230 --> 00:55:52,640
-is a valid connection or not.
+ini adalah koneksi yang valid atau tidak.
 
 1340
 00:55:52,640 --> 00:55:55,710
-So one denial of service
-attack that people discovered
+Jadi satu serangan denial
+of service yang ditemukan orang 
 
 1341
 00:55:55,710 --> 00:55:58,690
-against most TCP stacks
-is to simply send
+terhadap sebagian besar TCP stack
+adalah dengan hanya mengirim
 
 1342
 00:55:58,690 --> 00:56:01,670
-lots of packets like this.
+banyak paket seperti ini.
 
 1343
 00:56:01,670 --> 00:56:04,980
-So if I'm an attacker, then I'll
-just send lots of SYN packets
+Jadi jika saya adalah penyerang, maka saya 
+hanya perlu mengirim banyak paket SYN
 
 1344
 00:56:04,980 --> 00:56:08,930
-to a particular server and
-get it to fill up its table.
+ke server tertentu dan
+dapat mengisi tabel hingga penuh.
 
 1345
 00:56:08,930 --> 00:56:12,810
-And the problem is
-that in the best case,
+Masalahnya adalah ketika 
+dalam kasus terbaik,
 
 1346
 00:56:12,810 --> 00:56:15,410
-maybe the attacker just
-always uses the same source IP
+mungkin penyerang hanya perlu selalu 
+menggunakan alamat IP sumber
 
 1347
 00:56:15,410 --> 00:56:16,720
-address.
+yang sama.
 
 1348
 00:56:16,720 --> 00:56:18,800
-In that case, you
-can just say, well,
+Dalam kasus tersebut, Anda 
+dapat cukup berkata, yah,
 
 1349
 00:56:18,800 --> 00:56:21,710
-every client machine is allowed
-two entries in my table,
+setiap komputer client diizinkan
+2 entri pada tabel,
 
 1350
 00:56:21,710 --> 00:56:23,340
-or something like this.
+atau seperti itu.
 
 1351
 00:56:23,340 --> 00:56:25,870
-And then the attacker can use
-up two table entries but not
+Lalu penyerang dapat menggunakan 
+hingga 2 entri tabel tetapi
 
 1352
 00:56:25,870 --> 00:56:26,745
-much more.
+tidak lebih.
 
 1353
 00:56:26,745 --> 00:56:28,667
-The problem, of course,
-is that the attacker
+Masalahnya, tentu saja,
+adalah penyerang
 
 1354
 00:56:28,667 --> 00:56:30,125
-can fake these
-client IP addresses,
+dan memalsukan alamat IP 
+milik client,
 
 1355
 00:56:30,125 --> 00:56:31,832
-make them look random.
+untuk membuatnya terlihat seperti acak.
 
 1356
 00:56:31,832 --> 00:56:33,290
