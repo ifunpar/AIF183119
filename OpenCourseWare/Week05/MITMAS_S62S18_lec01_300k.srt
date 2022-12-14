@@ -5741,149 +5741,149 @@ kontrol.
 
 1214
 00:52:33,700 --> 00:52:36,670
-And you use that to
-prove your identity
+Dan anda menggunakan itu untuk
+membuktikan identitas anda.
 
 1215
 00:52:36,670 --> 00:52:40,480
-and prove that these
-messages are signed by you.
+Dan membuktikan bahwa pesan ini
+ditandatangani oleh anda.
 
 1216
 00:52:40,480 --> 00:52:43,210
-So yeah, you
-generate a key pair.
+Jadi, Anda
+Membangkitkan sebuah pasangan kunci.
 
 1217
 00:52:43,210 --> 00:52:46,960
-The holder of the secret
-key can sign a message.
+Pemegang kunci rahasia 
+dapat menandatangani pesan.
 
 1218
 00:52:46,960 --> 00:52:49,930
-And then anyone
-possessing a public key
+Lalu, siapapun
+yang memiliki kunci publik
 
 1219
 00:52:49,930 --> 00:52:53,230
-can verify a message
-signature pair.
+dapat memverifikasi pesan
+pasangan tanda tangan.
 
 1220
 00:52:53,230 --> 00:52:57,500
-So I'll go into detail
-on these three functions.
+Jadi saya akan menjelaskan secara
+detail tentang ketiga fungsi ini.
 
 1221
 00:52:57,500 --> 00:52:58,930
-And this applies generally.
+Dan ini berlaku secara umum.
 
 1222
 00:52:58,930 --> 00:53:03,160
-So I'm going to talk about a
-hash-based signature in detail,
+Jadi saya akan berbicara tentang
+tanda tangan berbasis hash secara detail,
 
 1223
 00:53:03,160 --> 00:53:05,980
-but there are many
-different signature schemes.
+tetapi ada banyak
+skema tanda tangan yang berbeda.
 
 1224
 00:53:05,980 --> 00:53:11,860
-DSA, ElGamal, RSA signatures,
-elliptic curve signatures.
+DSA, ElGamal, tanda tangan RSA,
+tanda tangan kurva eliptik.
 
 1225
 00:53:11,860 --> 00:53:16,120
-There's tons of different
-cool math systems that
+Ada banyak sistem matematika
+keren yang berbeda yang
 
 1226
 00:53:16,120 --> 00:53:19,450
-allow these kinds of functions.
+memungkinkan fungsi-fungsi semacam ini.
 
 1227
 00:53:19,450 --> 00:53:20,950
-And I'll talk
-about in some ways,
+Dan saya akan membicarakannya
+dalam beberapa cara,
 
 1228
 00:53:20,950 --> 00:53:23,445
-this is one of
-the simplest ones.
+ini adalah salah satu
+cara yang paling sederhana.
 
 1229
 00:53:23,445 --> 00:53:25,070
-So yeah, there's
-these three functions.
+Jadi yah, ada
+tiga fungsi ini.
 
 1230
 00:53:25,070 --> 00:53:26,690
-The first one is generate keys.
+Yang pertama adalah membangkitkan kunci.
 
 1231
 00:53:26,690 --> 00:53:29,860
-And it returns a private
-key public key pair.
+Dan itu mengembalikan sebuah 
+pasangan kunci publik kunci privat.
 
 1232
 00:53:29,860 --> 00:53:32,500
-And it generally doesn't
-take any arguments,
+Dan dia biasanya tidak 
+mengambil argumen apapun,
 
 1233
 00:53:32,500 --> 00:53:34,030
-but it takes in randomness.
+tetapi dia memiliki faktor acak.
 
 1234
 00:53:34,030 --> 00:53:35,020
-You need to flip coins.
+Anda perlu melempar koin.
 
 1235
 00:53:35,020 --> 00:53:38,200
-You need to find random
-one and zero bits.
+Anda perlu mencari secara acak
+antara bit satu dan nol.
 
 1236
 00:53:38,200 --> 00:53:40,300
-And it has to be long
-enough that no one else can
+Dan itu harus cukup panjang
+sehingga seorangpun tidak bisa
 
 1237
 00:53:40,300 --> 00:53:42,040
-guess what your private key is.
+menebak apa kunci privat kamu.
 
 1238
 00:53:44,737 --> 00:53:46,320
-So you have a private
-key, public key.
+Jadi Anda mempunyai kunci
+privat, kunci publik.
 
 1239
 00:53:46,320 --> 00:53:47,220
-Public key is public.
+Kunci publik sifatnya publik.
 
 1240
 00:53:47,220 --> 00:53:48,080
-You tell everyone.
+Anda memberitahukan ke semua orang.
 
 1241
 00:53:48,080 --> 00:53:50,868
-Private key is more secret key.
+kunci privat adalah kunci yang lebih rahasia.
 
 1242
 00:53:50,868 --> 00:53:53,160
-Actually, I think in the
-code, I always say secret key.
+Sebenarnya, Saya rasa di
+kode, saya selalu mengatakan kunci rahasia.
 
 1243
 00:53:53,160 --> 00:53:55,290
-It's usually better to say
-secret key because at least it
+Biasanya lebih baik mengatakan
+kunci rahasia karena setidaknya itu
 
 1244
 00:53:55,290 --> 00:53:56,707
-starts with a
-letter that's not p.
+dimulai dengan
+huruf yang bukan huruf p.
 
 1245
 00:53:59,200 --> 00:53:59,700
@@ -5891,126 +5891,125 @@ OK.
 
 1246
 00:53:59,700 --> 00:54:01,440
-And then the signing
-function, where
+Dan lalu fungsi
+penandatanganan, di mana
 
 1247
 00:54:01,440 --> 00:54:03,360
-you take your secret
-key and your message,
+Anda mengambil kunci
+rahasia dan pesan Anda,
 
 1248
 00:54:03,360 --> 00:54:08,160
-and it signs a message
-and returns a signature.
+dan dia menandatangani pesan 
+dan mengembalikan sebuah tanda tangan.
 
 1249
 00:54:08,160 --> 00:54:10,890
-All these things are just
-strings of ones and zeros.
+Semua hal ini hanyalah tentang
+string satu dan nol.
 
 1250
 00:54:10,890 --> 00:54:12,720
-It's just a bunch of bytes.
+Ini hanyalah sekumpulan byte.
 
 1251
 00:54:12,720 --> 00:54:15,780
-Public key, a private key,
-a signature, a message.
+Kunci publik, kunci privat,
+tanda tangan dan sebuah pesan.
 
 1252
 00:54:15,780 --> 00:54:17,950
-These are all just bytes.
+Ini semua hanyalah sekumpulan byte.
 
 1253
 00:54:17,950 --> 00:54:20,780
-And then the verify function,
-which is the most complex.
+Dan kemudian fungsi verifikasi,
+di mana merupakan fungsi yang paling kompleks.
 
 1254
 00:54:20,780 --> 00:54:24,550
-A verify function takes a
-public key that you've seen,
+Sebuah fungsi verifikasi akan mengambil
+public key yang telah Anda lihat,
 
 1255
 00:54:24,550 --> 00:54:26,920
-a message, and a signature.
+pesan, dan sebuah tandatangan.
 
 1256
 00:54:26,920 --> 00:54:31,000
-And it returns a Boolean
-whether this was valid or not.
+dan dia kan mengembalikan sebuah boolean
+yang menandai ini valid atau tidak.
 
 1257
 00:54:31,000 --> 00:54:32,455
-So it returns a single bit.
+Jadi dia mengembalikan sebuah bit.
 
 1258
 00:54:32,455 --> 00:54:34,330
-If it's zero, it says,
-yeah, these two things
+Jika itu nol, dia berkata,
+yah, dua hal ini
 
 1259
 00:54:34,330 --> 00:54:36,820
-don't match up.
+tidak cocok.
 
 1260
 00:54:36,820 --> 00:54:39,300
-Maybe the message just
-changed, or maybe the signature
+Mungkin pesannya telah berubah,
+atau mungkin tandatangannya
 
 1261
 00:54:39,300 --> 00:54:41,550
-has changed, or maybe it's
-from a different public key
+telah berubah, atau mungkin 
+dari kunci publik yang berbeda
 
 1262
 00:54:41,550 --> 00:54:42,100
-or something.
+atau semacamnya.
 
 1263
 00:54:42,100 --> 00:54:44,830
-But if all three of
-these are correct,
+Tapi jika
+ketiganya benar,
 
 1264
 00:54:44,830 --> 00:54:47,780
-and the signing function
-was the private key--
+dan fungsi tandatangannya
+adalah kunci privat--
 
 1265
 00:54:47,780 --> 00:54:50,050
-the secret key associated
-with this public key--
+kunci rahasia yang berkaitan
+dengan kunci publik ini--
 
 1266
 00:54:50,050 --> 00:54:52,860
-was signed to this message
-and produce this signature,
+ditandatangani untuk pesan ini
+dan menghasilkan tandatangan ini,
 
 1267
 00:54:52,860 --> 00:54:55,810
-then it will return true.
+maka akan menghasilkan true.
 
 1268
 00:54:55,810 --> 00:54:58,120
-And so you get into
-the math properties
+Jadi Anda sampai ke sifat matematika
 
 1269
 00:54:58,120 --> 00:55:01,090
-of what does it mean
-to forge a signature,
+dari apa artinya
+memalsukan tanda tangan,
 
 1270
 00:55:01,090 --> 00:55:04,480
-and can they be forgeable
-computationally?
+dan bisakah orang memalsukan
+secara komputasi?
 
 1271
 00:55:04,480 --> 00:55:07,330
-Eventually a lot of these
-things, since it's bits,
+Pada akhirnya banyak dari 
+hal-hal ini, karena itu adalah bit,
 
 1272
 00:55:07,330 --> 00:55:09,190
