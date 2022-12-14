@@ -6453,8 +6453,8 @@ untuk membuatnya terlihat seperti acak.
 
 1356
 00:56:31,832 --> 00:56:33,290
-And then for the
-server, it's going
+Dan kemudian untuk
+server, akan berjalan
 
 1357
 00:56:33,290 --> 00:56:34,885
