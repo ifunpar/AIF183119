@@ -6168,7 +6168,7 @@ memuat semua itu dari HTTPS.
 1302
 00:56:14,890 --> 00:56:17,740
 Anda sebenarnya tidak peduli siapa
-syang melayani hal itu kepada anda, selama hal itu
+yang melayani hal itu kepada anda, selama hal itu
 
 1303
 00:56:17,740 --> 00:56:19,560
@@ -6181,56 +6181,56 @@ sebuah spesifikasi baru di luar sana
 
 1305
 00:56:22,890 --> 00:56:26,430
-for being able to
-specify basically
+yang dapat  
+mengenali pada dasarnya
 
 1306
 00:56:26,430 --> 00:56:30,310
-hashes in these kinds of tags.
+hash pada jenis tag ini.
 
 1307
 00:56:30,310 --> 00:56:34,305
-So instead of having to refer
-to jquery.com with an HTTPS URL,
+Jadi daripada harus merujuk
+ke jquery.com dengan sebuah HTTPS URL,
 
 1308
 00:56:34,305 --> 00:56:35,800
-maybe what you
-could do is just say
+mungkin apa 
+yang bisa anda lakukan adalah katakan saja
 
 1309
 00:56:35,800 --> 00:56:41,020
-script source equals
-jquery.com, maybe even HTTP.
+sumber skrip sama dengan
+jquery.com, bahkan mungkin HTTP. 
 
 1310
 00:56:41,020 --> 00:56:43,890
-But here, you're going to
-include some sort of a tag
+Tapi disini, anda akan
+menyertakan semacam sebuah tag
 
 1311
 00:56:43,890 --> 00:56:47,752
-attribute, like
-hash equals here,
+atribut, seperti
+hash sama dengan disini,
 
 1312
 00:56:47,752 --> 00:56:49,960
-you're going to put in a--
-let's say a shell one hash
+anda akan memasukan sebuah--
+katakanlah sebuah cangkang suatu hash
 
 1313
 00:56:49,960 --> 00:56:52,800
-or a shell two
-hash of the content
+atau dua buah cangkang
+hash dari kontennya
 
 1314
 00:56:52,800 --> 00:56:55,020
-that you're expecting to
-get back from the server.
+yang anda harapkan untuk
+kembali dari servernya.
 
 1315
 00:56:55,020 --> 00:56:55,475
-AUDIENCE: [INAUDIBLE].
+AUDIENCE: [TIDAK TERDENGAR].
 
 1316
 00:56:55,475 --> 00:56:56,308
