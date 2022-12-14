@@ -6234,116 +6234,116 @@ AUDIENCE: [TIDAK TERDENGAR].
 
 1316
 00:56:55,475 --> 00:56:56,308
-PROFESSOR: Question?
+PROFESSOR: Ada pertanyaan?
 
 1317
 00:56:56,308 --> 00:56:57,920
-AUDIENCE: [INAUDIBLE].
+AUDIENCE: [TIDAK TERDENGAR].
 
 1318
 00:56:57,920 --> 00:56:59,220
-PROFESSOR: Ah, man.
+PROFESSOR: Ah, bung.
 
 1319
 00:56:59,220 --> 00:57:01,160
-There's some
-complicated name for it.
+Ada beberapa
+nama yang rumit untuk itu.
 
 1320
 00:57:01,160 --> 00:57:04,070
-I have the URL, actually, in the
-lecture notes, so [INAUDIBLE].
+Saya memiliki URL, Sebenarnya, di dalam
+cacatan kuliah, jadi [TIDAK TERDENGAR].
 
 1321
 00:57:07,480 --> 00:57:11,590
-Subresource integrity
-or something like this.
+Integrasi sum-sumber daya
+atau sesuatu seperti ini.
 
 1322
 00:57:11,590 --> 00:57:14,280
-I can actually slowly
-be-- well, hopefully
+Saya sebenarnya bisa pelan-pelan
+-- baik, semoga
 
 1323
 00:57:14,280 --> 00:57:18,380
-will be deployed probably
-soon in various browsers.
+mungkin akan segera dikerahkan
+di berbagai browser.
 
 1324
 00:57:18,380 --> 00:57:21,840
-Feels like another way to
-actually authenticate content
+Rasanya seperti cara lain untuk
+benar-benar mengautentikasi konten
 
 1325
 00:57:21,840 --> 00:57:26,980
-without relying on data, or data
-encryption of the [INAUDIBLE].
+tanpa bergantung pada data, atau data
+enkripsi dari [TIDAK TERDENGAR].
 
 1326
 00:57:26,980 --> 00:57:29,170
-So here, we have this
-very generic plan
+Jadi di ini, kita memiliki
+rencana yang sangat umum
 
 1327
 00:57:29,170 --> 00:57:31,970
-using SSL and TLS to
-authenticate connections
+menggunakan SSL dan TLS untuk
+mengotentikasi koneksi
 
 1328
 00:57:31,970 --> 00:57:33,317
-to particular servers.
+ke server tententu.
 
 1329
 00:57:33,317 --> 00:57:34,900
-This is almost like
-an alternative way
+Ini hampir seperti
+cara alternatif
 
 1330
 00:57:34,900 --> 00:57:39,160
-of thinking of sort of securing
-your network communication.
+untuk memikirkan semacam mengamanan
+komunikasi jaringan Anda.
 
 1331
 00:57:39,160 --> 00:57:41,530
-If the thing you just
-care about is integrity,
+Jika hal yang Anda
+pedulikan adalah integritas,
 
 1332
 00:57:41,530 --> 00:57:43,890
-then maybe you don't need
-a secure, encrypted channel
+maka mungkin Anda tidak perlu
+saluran aman, terenkripsi
 
 1333
 00:57:43,890 --> 00:57:44,630
-over the network.
+di dalam jaringan.
 
 1334
 00:57:44,630 --> 00:57:47,048
-All you need is to
-specify exactly what you
+Semuanya yang Anda butuhkan untuk
+menentukan apa yang sebenarnya Anda
 
 1335
 00:57:47,048 --> 00:57:48,173
-want at the end of the day.
+inginkan di penghujung hari.
 
 1336
 00:57:48,173 --> 00:57:48,672
-Yeah.
+Yah.
 
 1337
 00:57:48,672 --> 00:57:51,280
-AUDIENCE: So doesn't
-this [INAUDIBLE]?
+AUDIENCE: Jadi tidakkah
+ini [TIDAK TERDENGAR]?
 
 1338
 00:57:51,280 --> 00:57:53,620
-PROFESSOR: Doesn't this
-code sit at the client?
+PROFESSOR: Bukankan ini
+kode yang ada di klien?
 
 1339
 00:57:53,620 --> 00:57:57,030
-Well, it runs at the client,
-but the client fetches this code
+Yah, itu berjalan pada klien,
+tetapi klien mengambil kode ini
 
 1340
 00:57:57,030 --> 00:57:58,450
