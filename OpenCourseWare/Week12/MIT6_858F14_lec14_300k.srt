@@ -6128,56 +6128,56 @@ menghindari masalah ini.
 
 1294
 00:55:50,660 --> 00:55:54,210
-Another thing that actually
-recently got introduced.
+Hal lain yang sebenarnya
+baru diperkenalkan.
 
 1295
 00:55:54,210 --> 00:55:57,280
-So this field is
-somewhat active.
+Jadi bidang ini agak
+aktif.
 
 1296
 00:55:57,280 --> 00:56:00,280
-People are trying to
-make things better.
+Orang-orang mencoba untuk
+membuat hal ini lebih baik.
 
 1297
 00:56:00,280 --> 00:56:04,340
-One alternative way of
-dealing with this problem
+Salah satu cara alternatif untuk
+menangani masalah ini
 
 1298
 00:56:04,340 --> 00:56:07,560
-is perhaps to include a hash or
-some sort of an [? indicator ?]
+adalah mungkin memasukan sebuah hash atau 
+semacam sebuah [? indikator ?]
 
 1299
 00:56:07,560 --> 00:56:10,720
-right here in the tag, because
-if you know exactly what
+disini di tag, karena
+jika anda tau persis konten apa
 
 1300
 00:56:10,720 --> 00:56:13,260
-content you want to load,
-maybe you don't actually
+yang ingin anda muat, 
+mungkin anda sebenarnya tidak perlu
 
 1301
 00:56:13,260 --> 00:56:14,890
-have to load it all over HTTPS.
+memuat semua itu dari HTTPS. 
 
 1302
 00:56:14,890 --> 00:56:17,740
-You don't actually care who
-serves it to you, as long as it
+Anda sebenarnya tidak peduli siapa
+syang melayani hal itu kepada anda, selama hal itu
 
 1303
 00:56:17,740 --> 00:56:19,560
-matches a particular hash.
+cocok dengan hash tertentu.
 
 1304
 00:56:19,560 --> 00:56:22,890
-So there's actually
-a new spec out there
+Jadi sebenarnya ada 
+sebuah spesifikasi baru di luar sana
 
 1305
 00:56:22,890 --> 00:56:26,430
