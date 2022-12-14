@@ -6173,137 +6173,137 @@ untuk menentukan apakah mereka
 
 1314
 01:12:31,300 --> 01:12:33,170
-3-colorable or not.
+3-colorable atau tidak.
 
 1315
 01:12:33,170 --> 01:12:35,370
-But in the average
-case, all you do
+Tetapi dalam kasus
+normal, semua yang Anda lakukan
 
 1316
 01:12:35,370 --> 01:12:38,010
-is if you have a large
-graph, if there's
+adalah jika Anda memiliki graf
+besar, jika ada
 
 1317
 01:12:38,010 --> 01:12:41,440
-one little 4-click in the
-graph and you can find it,
+satu 4-clique di dalam
+grafik dan Anda dapat menemukannya,
 
 1318
 01:12:41,440 --> 01:12:44,500
-instantly you know that
-it's not 3-colorable, right?
+seketika Anda tahu bahwa
+itu tidak 3-colorable, betul?
 
 1319
 01:12:44,500 --> 01:12:46,360
-So it turns out that's
-3-colorability is
+Jadi ternyata
+3-colorability adalah
 
 1320
 01:12:46,360 --> 01:12:49,740
-just the worst thing ever
-when it comes to cryptography.
+hanya hal terburuk yang pernah ada
+ketika menyangkut kriptografi.
 
 1321
 01:12:49,740 --> 01:12:51,770
-Because the larger
-the graph-- and you
+Karena semakin besar
+graf-- dan Anda
 
 1322
 01:12:51,770 --> 01:12:53,020
-need this graph to be large.
+membutuhkan graf berukuran besar.
 
 1323
 01:12:53,020 --> 01:12:55,871
-Because anything that's small,
-is constant time, right?
+Karena apapun yang kecil,
+berarti waktu yang konstan, benar?
 
 1324
 01:12:55,871 --> 01:12:57,370
-Because so what if
-it's exponential?
+Karena bagaimana jika
+itu eksponensial?
 
 1325
 01:12:57,370 --> 01:12:58,450
-It's constant time.
+Waktunya konstan.
 
 1326
 01:12:58,450 --> 01:13:00,620
-So you need the
-graph to be large.
+Anda memerlukan
+grafnya besar.
 
 1327
 01:13:00,620 --> 01:13:03,340
-When you have a random
-graph that's large,
+Ketika Anda memiliki sebuah graf
+acak yang besar,
 
 1328
 01:13:03,340 --> 01:13:06,680
-the chances you're going to
-find a 4-click in a 2,000 vertex
+kemungkinan Anda untuk
+menemukan sebuah klik dalam 2.000 simpul
 
 1329
 01:13:06,680 --> 01:13:09,120
-graph is pretty high.
+cukup tinggi.
 
 1330
 01:13:09,120 --> 01:13:11,770
-And so if you just go scan
-and look for a 4-click,
+Dan jika Anda hanya memeriksa
+dan mencari untuk 4-clique,
 
 1331
 01:13:11,770 --> 01:13:14,330
-instantly you know that this
-graph is not 3-colorable,
+Anda langsung tahu bahwa
+grafik ini tidak 3-colorable,
 
 1332
 01:13:14,330 --> 01:13:14,830
-right?
+benar?
 
 1333
 01:13:14,830 --> 01:13:19,640
-So in the average case,
-3-colorability is easy.
+Jadi dalam kasus normal,
+3-colorability itu mudah.
 
 1334
 01:13:19,640 --> 01:13:22,590
-It's easy to solve
-in the average case.
+Sangat mudah untuk dipecahkan
+dalam kasus normal.
 
 1335
 01:13:22,590 --> 01:13:26,540
-And the wonderful
-thing about factoring
+Dan hal luar biasa
+mengenai pemfaktoran
 
 1336
 01:13:26,540 --> 01:13:29,390
-is as long as the
-numbers are large,
+adalah selama
+angkanya besar,
 
 1337
 01:13:29,390 --> 01:13:30,940
-doesn't matter what
-the numbers are,
+tidak peduli berapa
+angka-angkanya,
 
 1338
 01:13:30,940 --> 01:13:33,822
-it's hard to factor
-in the average case.
+sulit untuk memfaktorkan
+dalam kasus normal.
 
 1339
 01:13:33,822 --> 01:13:35,030
-So that's the big difference.
+Jadi itulah perbedaan besarnya.
 
 1340
 01:13:35,030 --> 01:13:37,530
-If you're going to take anything
-away from the rest of this,
+Jika Anda akan mengambil sesuatu
+dari sisa ini,
 
 1341
 01:13:37,530 --> 01:13:39,270
-it's the difference
-between problems
+itu adalah perbedaan
+di antara masalah-masalah
 
 1342
 01:13:39,270 --> 01:13:44,070
