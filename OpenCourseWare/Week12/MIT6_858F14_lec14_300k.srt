@@ -6468,116 +6468,116 @@ origins comes into play.
 
 1367
 00:59:15,410 --> 00:59:17,860
-So one thing, of course,
-the developer could screw up
+Jadi satu hal, tentu saja,
+sang pengembang bisa mengacaukan
 
 1368
 00:59:17,860 --> 00:59:20,430
-is maybe they just forget
-to set the secure flag
+atau mungkin mereka hanya lupa
+untuk mengatur bendera aman
 
 1369
 00:59:20,430 --> 00:59:23,150
-on a cookie in the first place.
+pada cookie di tempat pertama.
 
 1370
 00:59:23,150 --> 00:59:24,170
-This happens.
+Ini terjadi.
 
 1371
 00:59:24,170 --> 00:59:29,950
-Maybe you're thinking my users
-only ever go to the HTTPS URL.
+Mungkin Anda memikirkan pengguna saya
+hanya pergi ke URL HTTPS.
 
 1372
 00:59:29,950 --> 00:59:31,350
-My cookies are
-never [INAUDIBLE].
+Cookie saya adalah
+tidak pernah [TIDAK TERDENGAR].
 
 1373
 00:59:31,350 --> 00:59:32,950
-Why should I set the
-secure flag on the cookie?
+Mengapa saya harus mengatur
+bendera aman pada cookie?
 
 1374
 00:59:32,950 --> 00:59:33,880
-And they might
-[? also have the ?]
+Dan mereka mungkin
+[? juga punya?]
 
 1375
 00:59:33,880 --> 00:59:35,970
-secure flag, or maybe
-they just forget about it.
+bendera aman, atau mungkin
+mereka hanya melupakannya.
 
 1376
 00:59:35,970 --> 00:59:38,837
-Is this a problem?
+Apakah ini masalah?
 
 1377
 00:59:38,837 --> 00:59:40,420
-What if your users
-are super diligent?
+Bagaimana jika pengguna Anda
+super rajin?
 
 1378
 00:59:40,420 --> 00:59:43,260
-They always visit the
-HTTPS URL, and you don't
+Mereka selalu mengunjungi
+URL HTTPS, dan Anda tidak
 
 1379
 00:59:43,260 --> 00:59:44,655
-have any problems like this.
+punya masalah seperti ini.
 
 1380
 00:59:44,655 --> 00:59:47,540
-Do you still leave the
-secure flag on your cookies?
+Apakah Anda masih meninggalkan
+bendera aman di cookie Anda?
 
 1381
 00:59:47,540 --> 00:59:48,040
-[INAUDIBLE]
+[TIDAK TERDENGAR]
 
 1382
 00:59:51,180 --> 00:59:52,140
-Yeah.
+Iya.
 
 1383
 00:59:52,140 --> 00:59:53,580
-AUDIENCE: Could the
-attacker connect to your URL
+HADIRIN: Bisakah
+penyerang terhubung ke URL Anda
 
 1384
 00:59:53,580 --> 00:59:55,020
-and redirect you
-to a [INAUDIBLE]?
+dan mengarahkan Anda
+ke [TIDAK TERDENGAR]?
 
 1385
 00:59:55,020 --> 00:59:55,686
-PROFESSOR: Yeah.
+PROFESSOR: Iya.
 
 1386
 00:59:55,686 --> 00:59:59,110
-So even if the user doesn't
-explicitly, manually
+Jadi meskipun pengguna tidak
+secara eksplisit, secara manual
 
 1387
 00:59:59,110 --> 01:00:02,620
-go to some plain text URL, the
-attacker could give you a link,
+pergi ke beberapa URL teks biasa, itu
+penyerang bisa memberi Anda tautan,
 
 1388
 01:00:02,620 --> 01:00:06,834
-or maybe ask you to load an
-image from a non-HTTPS URL.
+atau mungkin meminta Anda untuk memuat file
+gambar dari URL non-HTTPS.
 
 1389
 01:00:06,834 --> 01:00:08,250
-And then non-secure
-cookie is just
+Dan kemudian tidak aman
+cookie hanya
 
 1390
 01:00:08,250 --> 01:00:10,250
-going to be sent along
-with the network request.
+akan dikirim bersama
+dengan permintaan jaringan.
 
 1391
 01:00:10,250 --> 01:00:11,833
