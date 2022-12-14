@@ -6440,17 +6440,17 @@ Baiklah.
 
 1361
 00:58:46,770 --> 00:58:51,450
-Jadi inilah yang 
+Jadi inilah yang menurut saya
 harus diwaspadai oleh para pengembang
 
 1362
 00:58:51,450 --> 00:58:58,680
 saat menulis halaman, atau
-menyertakan konten di halaman HTML
+menyertakan konten di halaman HTML mereka
 
 1363
 00:58:58,680 --> 00:59:01,330
-mereka di URL HTTPS.
+di URL HTTPS.
 
 1364
 00:59:01,330 --> 00:59:05,230
