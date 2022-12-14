@@ -6177,27 +6177,27 @@ untuk menentukan apakah mereka
 
 1315
 01:12:33,170 --> 01:12:35,370
-Tetapi dalam rata-rata
-kasus, semua yang Anda lakukan
+Tetapi dalam kasus
+normal, semua yang Anda lakukan
 
 1316
 01:12:35,370 --> 01:12:38,010
-adalah jika Anda memiliki grafik
+adalah jika Anda memiliki graf
 besar, jika ada
 
 1317
 01:12:38,010 --> 01:12:41,440
-satu klik kecil di dalam
+satu 4-clique di dalam
 grafik dan Anda dapat menemukannya,
 
 1318
 01:12:41,440 --> 01:12:44,500
 seketika Anda tahu bahwa
-itu tidak 3-colorable, bukan?
+itu tidak 3-colorable, betul?
 
 1319
 01:12:44,500 --> 01:12:46,360
-Jadi kenyataannya itu adalah
+Jadi ternyata
 3-colorability adalah
 
 1320
@@ -6208,11 +6208,11 @@ ketika menyangkut kriptografi.
 1321
 01:12:49,740 --> 01:12:51,770
 Karena semakin besar
-grafik - dan Anda
+graf-- dan Anda
 
 1322
 01:12:51,770 --> 01:12:53,020
-membutuhkan grafik ini menjadi besar.
+membutuhkan graf berukuran besar.
 
 1323
 01:12:53,020 --> 01:12:55,871
@@ -6226,12 +6226,12 @@ itu eksponensial?
 
 1325
 01:12:57,370 --> 01:12:58,450
-Ini adalah waktu yang konstan.
+Waktunya konstan.
 
 1326
 01:12:58,450 --> 01:13:00,620
-Jadi, Anda memerlukan
-grafik menjadi lebih besar.
+Anda memerlukan
+grafnya besar.
 
 1327
 01:13:00,620 --> 01:13:03,340
@@ -6241,7 +6241,7 @@ acak yang besar,
 1328
 01:13:03,340 --> 01:13:06,680
 kemungkinan Anda untuk
-menemukan sebuah klik dalam 2.000 vertex
+menemukan sebuah klik dalam 2.000 simpul
 
 1329
 01:13:06,680 --> 01:13:09,120
@@ -6250,7 +6250,7 @@ cukup tinggi.
 1330
 01:13:09,120 --> 01:13:11,770
 Dan jika Anda hanya memeriksa
-dan mencari untuk klik,
+dan mencari untuk 4-clique,
 
 1331
 01:13:11,770 --> 01:13:14,330
@@ -6259,21 +6259,21 @@ grafik ini tidak 3-colorable,
 
 1332
 01:13:14,330 --> 01:13:14,830
-Benar?
+benar?
 
 1333
 01:13:14,830 --> 01:13:19,640
-Jadi dalam kasus rata-rata,
+Jadi dalam kasus normal,
 3-colorability itu mudah.
 
 1334
 01:13:19,640 --> 01:13:22,590
 Sangat mudah untuk dipecahkan
-dalam kasus rata-rata.
+dalam kasus normal.
 
 1335
 01:13:22,590 --> 01:13:26,540
-Dan hal yang luar biasa
+Dan hal luar biasa
 mengenai pemfaktoran
 
 1336
@@ -6283,13 +6283,13 @@ angkanya besar,
 
 1337
 01:13:29,390 --> 01:13:30,940
-tidak masalah apa pun
+tidak peduli berapa
 angka-angkanya,
 
 1338
 01:13:30,940 --> 01:13:33,822
-sulit untuk melakukan faktor
-dalam kasus rata-rata.
+sulit untuk memfaktorkan
+dalam kasus normal.
 
 1339
 01:13:33,822 --> 01:13:35,030
@@ -6303,7 +6303,7 @@ dari sisa ini,
 1341
 01:13:37,530 --> 01:13:39,270
 itu adalah perbedaan
-diantara masalah-masalah
+di antara masalah-masalah
 
 1342
 01:13:39,270 --> 01:13:44,070
