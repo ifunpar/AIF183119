@@ -6347,124 +6347,124 @@ but the client fetches this code
 
 1340
 00:57:57,030 --> 00:57:58,450
-from some server.
+dari beberapa server.
 
 1341
 00:57:58,450 --> 00:57:59,390
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR].
 
 1342
 00:57:59,390 --> 00:58:02,384
-Can't anybody just [INAUDIBLE]?
+Tidak ada yang [TIDAK TERDENGAR]?
 
 1343
 00:58:02,384 --> 00:58:03,050
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1344
 00:58:03,050 --> 00:58:06,280
-So I think the
-point of the hash is
+Jadi saya pikir
+tujuan hash adalah
 
 1345
 00:58:06,280 --> 00:58:13,060
-to protect the containing page
-from attackers that injected
+untuk melindungi halaman yang berisi
+dari penyerang yang menyuntikkan
 
 1346
 00:58:13,060 --> 00:58:14,930
-different JavaScript code here.
+kode JavaScript yang berbeda di sini.
 
 1347
 00:58:14,930 --> 00:58:16,690
-So for jQuery, this
-makes a lot of sense
+Jadi untuk jQuery, ini 
+sangat masuk akal
 
 1348
 00:58:16,690 --> 00:58:18,310
-because jQuery is well known.
+karena jQuery sudah terkenal.
 
 1349
 00:58:18,310 --> 00:58:20,819
-You're not trying to hide
-what jQuery source code is.
+Anda tidak mencoba untuk menyembunyikan
+kode sumber jQuery.
 
 1350
 00:58:20,819 --> 00:58:23,110
-Well, what you do want to
-make sure is that the network
+Yah, yang ingin Anda
+pastikan adalah bahwa
 
 1351
 00:58:23,110 --> 00:58:25,880
-attacker cannot intercept
-your connection and supply
+penyerang jaringan tidak dapat menangkap
+koneksi Anda dan menyediakan
 
 1352
 00:58:25,880 --> 00:58:28,244
-a malicious version of
-jQuery that's going to leak
+versi berbahaya dari
+jQuery yang akan mengungkapkan
 
 1353
 00:58:28,244 --> 00:58:28,785
-your cookies.
+cookie anda.
 
 1354
 00:58:28,785 --> 00:58:30,690
-AUDIENCE: [? Oh, ?] OK.
+AUDIENS: [? Oh, ?] OK.
 
 1355
 00:58:30,690 --> 00:58:32,150
-PROFESSOR: That make sense?
+PROFESOR: Itu masuk akal?
 
 1356
 00:58:32,150 --> 00:58:33,820
-It's absolutely true that
-anyone can compute the hash
+Benar sekali bahwa 
+siapa pun dapat menghitung hash
 
 1357
 00:58:33,820 --> 00:58:35,111
-of these things for themselves.
+dari hal-hal ini untuk diri mereka sendiri.
 
 1358
 00:58:38,240 --> 00:58:41,026
-So this is a solution
-for integrity problems,
+Jadi ini adalah solusi 
+untuk masalah integritas,
 
 1359
 00:58:41,026 --> 00:58:42,025
-not for confidentiality.
+bukan untuk kerahasiaan
 
 1360
 00:58:45,340 --> 00:58:46,770
-All right.
+Baiklah.
 
 1361
 00:58:46,770 --> 00:58:51,450
-So this is sort of what I guess
-developers have to watch out
+Jadi inilah yang 
+harus diwaspadai oleh para pengembang
 
 1362
 00:58:51,450 --> 00:58:58,680
-for when writing pages, or
-including content in their HTML
+saat menulis halaman, atau
+menyertakan konten di halaman HTML
 
 1363
 00:58:58,680 --> 00:59:01,330
-pages on a HTTPS URL.
+mereka di URL HTTPS.
 
 1364
 00:59:01,330 --> 00:59:05,230
-Another worrisome problem
-is dealing with cookies.
+Masalah lain yang mengkhawatirkan
+adalah menangani cookie.
 
 1365
 00:59:05,230 --> 00:59:12,130
-And here's where this difference
-between secure flags and just
+Dan inilah perbedaan 
+antara bendera keamanan dan hanya
 
 1366
 00:59:12,130 --> 00:59:15,410
-origins comes into play.
+asal masuk ke dalam peran.
 
 1367
 00:59:15,410 --> 00:59:17,860
@@ -6542,7 +6542,7 @@ Iya.
 
 1383
 00:59:52,140 --> 00:59:53,580
-HADIRIN: Bisakah
+AUDIENS: Bisakah
 penyerang terhubung ke URL Anda
 
 1384
@@ -6552,7 +6552,7 @@ ke [TIDAK TERDENGAR]?
 
 1385
 00:59:55,020 --> 00:59:55,686
-PROFESSOR: Iya.
+PROFESOR: Iya.
 
 1386
 00:59:55,686 --> 00:59:59,110
