@@ -5814,33 +5814,34 @@ cara yang paling sederhana.
 
 1229
 00:53:23,445 --> 00:53:25,070
-Jadi ya, ada tiga fungsi ini.
+Jadi yah, ada
+tiga fungsi ini.
 
 1230
 00:53:25,070 --> 00:53:26,690
-Yang pertama adalah Membangkitkan kunci.
+Yang pertama adalah membangkitkan kunci.
 
 1231
 00:53:26,690 --> 00:53:29,860
 Dan itu mengembalikan sebuah 
-pasangan kunci publik privat.
+pasangan kunci publik kunci privat.
 
 1232
 00:53:29,860 --> 00:53:32,500
-Dan itu biasanya tidak 
+Dan dia biasanya tidak 
 mengambil argumen apapun,
 
 1233
 00:53:32,500 --> 00:53:34,030
-tetapi itu dilakukan secara acak.
+tetapi dia memiliki faktor acak.
 
 1234
 00:53:34,030 --> 00:53:35,020
-Anda butuh untuk melempar koin.
+Anda perlu melempar koin.
 
 1235
 00:53:35,020 --> 00:53:38,200
-Anda butuh mencari secara acak
+Anda perlu mencari secara acak
 antara bit satu dan nol.
 
 1236
@@ -5850,33 +5851,33 @@ sehingga seorangpun tidak bisa
 
 1237
 00:53:40,300 --> 00:53:42,040
-tebak apa kunci pribadi kamu.
+menebak apa kunci privat kamu.
 
 1238
 00:53:44,737 --> 00:53:46,320
-jadi kamu mempunyai kunci
-pribadi, kunci publik.
+Jadi Anda mempunyai kunci
+privat, kunci publik.
 
 1239
 00:53:46,320 --> 00:53:47,220
-kunci publik adalah publik.
+Kunci publik sifatnya publik.
 
 1240
 00:53:47,220 --> 00:53:48,080
-kamu memberitahukan semua orang.
+Anda memberitahukan ke semua orang.
 
 1241
 00:53:48,080 --> 00:53:50,868
-kunci pribadi adalah kunci lebih rahasia.
+kunci privat adalah kunci yang lebih rahasia.
 
 1242
 00:53:50,868 --> 00:53:53,160
-Sebenernya, Saya pikir di
+Sebenarnya, Saya rasa di
 kode, saya selalu mengatakan kunci rahasia.
 
 1243
 00:53:53,160 --> 00:53:55,290
-itu biasanya lebih baik mengatakan
+Biasanya lebih baik mengatakan
 kunci rahasia karena setidaknya itu
 
 1244
@@ -5886,26 +5887,26 @@ huruf yang bukan huruf p.
 
 1245
 00:53:59,200 --> 00:53:59,700
-Oke.
+OK.
 
 1246
 00:53:59,700 --> 00:54:01,440
-dan lalu menandatangani
-fungsi, dimana
+Dan lalu fungsi
+penandatanganan, di mana
 
 1247
 00:54:01,440 --> 00:54:03,360
-Anda mengambil kunci 
+Anda mengambil kunci
 rahasia dan pesan Anda,
 
 1248
 00:54:03,360 --> 00:54:08,160
-dan itu menandatangani pesan 
-dan mengembalikan tanda tangan.
+dan dia menandatangani pesan 
+dan mengembalikan sebuah tanda tangan.
 
 1249
 00:54:08,160 --> 00:54:10,890
-semua hal ini hanyalah tentang
+Semua hal ini hanyalah tentang
 string satu dan nol.
 
 1250
@@ -5914,40 +5915,40 @@ Ini hanyalah sekumpulan byte.
 
 1251
 00:54:12,720 --> 00:54:15,780
-Kunci publik, kunci rahasia,
-tandatangan dan sebuah pesan.
+Kunci publik, kunci privat,
+tanda tangan dan sebuah pesan.
 
 1252
 00:54:15,780 --> 00:54:17,950
-Itu semua hanyalah sebuah byte.
+Ini semua hanyalah sekumpulan byte.
 
 1253
 00:54:17,950 --> 00:54:20,780
-kemudian fungsi akan di verifikasi,
-fungsi mana yang paling kompleks.
+Dan kemudian fungsi verifikasi,
+di mana merupakan fungsi yang paling kompleks.
 
 1254
 00:54:20,780 --> 00:54:24,550
-Fungsi yang ter-verifikasi akan mengambil
-public key yang telah kita lihat,
+Sebuah fungsi verifikasi akan mengambil
+public key yang telah Anda lihat,
 
 1255
 00:54:24,550 --> 00:54:26,920
-Pesan, dan tandatangan.
+pesan, dan sebuah tandatangan.
 
 1256
 00:54:26,920 --> 00:54:31,000
-dan kan mengembalikan sebuah boolean
+dan dia kan mengembalikan sebuah boolean
 yang menandai ini valid atau tidak.
 
 1257
 00:54:31,000 --> 00:54:32,455
-Jadi ini akan mengemnalikan sebuah single bit.
+Jadi dia mengembalikan sebuah bit.
 
 1258
 00:54:32,455 --> 00:54:34,330
-Jika nol, ya
-dua hal ini berarti
+Jika itu nol, dia berkata,
+yah, dua hal ini
 
 1259
 00:54:34,330 --> 00:54:36,820
@@ -5955,7 +5956,7 @@ tidak cocok.
 
 1260
 00:54:36,820 --> 00:54:39,300
-mungkin pesannya yang telah diubah
+Mungkin pesannya telah berubah,
 atau mungkin tandatangannya
 
 1261
@@ -5975,12 +5976,12 @@ ketiganya benar,
 1264
 00:54:44,830 --> 00:54:47,780
 dan fungsi tandatangannya
-adalah kunci privat-
+adalah kunci privat--
 
 1265
 00:54:47,780 --> 00:54:50,050
 kunci rahasia yang berkaitan
-dengan kunci public--
+dengan kunci publik ini--
 
 1266
 00:54:50,050 --> 00:54:52,860
@@ -6007,8 +6008,8 @@ secara komputasi?
 
 1271
 00:55:04,480 --> 00:55:07,330
-Akhirnya banyak dari 
-hal-hal ini,mulai dari sedikit,
+Pada akhirnya banyak dari 
+hal-hal ini, karena itu adalah bit,
 
 1272
 00:55:07,330 --> 00:55:09,190
