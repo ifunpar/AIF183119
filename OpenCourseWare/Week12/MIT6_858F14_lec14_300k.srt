@@ -6128,560 +6128,560 @@ menghindari masalah ini.
 
 1294
 00:55:50,660 --> 00:55:54,210
-Another thing that actually
-recently got introduced.
+Hal lain yang sebenarnya
+baru diperkenalkan.
 
 1295
 00:55:54,210 --> 00:55:57,280
-So this field is
-somewhat active.
+Jadi bidang ini
+cukup aktif.
 
 1296
 00:55:57,280 --> 00:56:00,280
-People are trying to
-make things better.
+Orang-orang mencoba untuk
+membuat berbagai hal lebih baik.
 
 1297
 00:56:00,280 --> 00:56:04,340
-One alternative way of
-dealing with this problem
+Salah satu cara alternatif untuk
+menangani masalah ini
 
 1298
 00:56:04,340 --> 00:56:07,560
-is perhaps to include a hash or
-some sort of an [? indicator ?]
+adalah mungkin memasukan sebuah hash atau
+semacam sebuah [? indikator ?]
 
 1299
 00:56:07,560 --> 00:56:10,720
-right here in the tag, because
-if you know exactly what
+di sini di dalam tag, karena
+jika Anda tau persis konten apa
 
 1300
 00:56:10,720 --> 00:56:13,260
-content you want to load,
-maybe you don't actually
+yang ingin Anda muat, 
+mungkin Anda sebenarnya tidak perlu
 
 1301
 00:56:13,260 --> 00:56:14,890
-have to load it all over HTTPS.
+memuat semua itu dari HTTPS.
 
 1302
 00:56:14,890 --> 00:56:17,740
-You don't actually care who
-serves it to you, as long as it
+Anda sebenarnya tidak peduli siapa
+yang melayaninya untuk Anda, selama hal itu
 
 1303
 00:56:17,740 --> 00:56:19,560
-matches a particular hash.
+cocok dengan hash tertentu.
 
 1304
 00:56:19,560 --> 00:56:22,890
-So there's actually
-a new spec out there
+Jadi sebenarnya ada
+sebuah spesifikasi baru di luar sana
 
 1305
 00:56:22,890 --> 00:56:26,430
-for being able to
-specify basically
+yang dapat
+menyebutkan pada dasarnya
 
 1306
 00:56:26,430 --> 00:56:30,310
-hashes in these kinds of tags.
+hash pada jenis tag ini.
 
 1307
 00:56:30,310 --> 00:56:34,305
-So instead of having to refer
-to jquery.com with an HTTPS URL,
+Jadi daripada harus merujuk
+ke jquery.com dengan sebuah URL HTTPS,
 
 1308
 00:56:34,305 --> 00:56:35,800
-maybe what you
-could do is just say
+mungkin apa yang bisa
+Anda lakukan adalah cukup mengatakan
 
 1309
 00:56:35,800 --> 00:56:41,020
-script source equals
-jquery.com, maybe even HTTP.
+sumber skrip sama dengan
+jquery.com, bahkan mungkin HTTP. 
 
 1310
 00:56:41,020 --> 00:56:43,890
-But here, you're going to
-include some sort of a tag
+Tapi di sini, Anda akan
+menyertakan semacam sebuah atribut
 
 1311
 00:56:43,890 --> 00:56:47,752
-attribute, like
-hash equals here,
+tag, seperti
+hash sama dengan ini,
 
 1312
 00:56:47,752 --> 00:56:49,960
-you're going to put in a--
-let's say a shell one hash
+Anda akan memasukan sebuah--
+katakanlah sebuah hash SHA-1
 
 1313
 00:56:49,960 --> 00:56:52,800
-or a shell two
-hash of the content
+atau hash SHA-2
+dari kontennya
 
 1314
 00:56:52,800 --> 00:56:55,020
-that you're expecting to
-get back from the server.
+yang Anda harapkan untuk
+dikembalikan oleh servernya.
 
 1315
 00:56:55,020 --> 00:56:55,475
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR].
 
 1316
 00:56:55,475 --> 00:56:56,308
-PROFESSOR: Question?
+PROFESOR: Ada pertanyaan?
 
 1317
 00:56:56,308 --> 00:56:57,920
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR].
 
 1318
 00:56:57,920 --> 00:56:59,220
-PROFESSOR: Ah, man.
+PROFESOR: Ah, bung.
 
 1319
 00:56:59,220 --> 00:57:01,160
-There's some
-complicated name for it.
+Ada nama yang
+rumit untuk itu.
 
 1320
 00:57:01,160 --> 00:57:04,070
-I have the URL, actually, in the
-lecture notes, so [INAUDIBLE].
+Saya memiliki URL, sebenarnya, di dalam
+cacatan kuliah, jadi [TIDAK TERDENGAR].
 
 1321
 00:57:07,480 --> 00:57:11,590
-Subresource integrity
-or something like this.
+Integritas subresource
+atau sesuatu seperti ini.
 
 1322
 00:57:11,590 --> 00:57:14,280
-I can actually slowly
-be-- well, hopefully
+Saya sebenarnya bisa
+pelan-pelan-- baik, semoga
 
 1323
 00:57:14,280 --> 00:57:18,380
-will be deployed probably
-soon in various browsers.
+akan diimplementasikan segera
+di berbagai browser.
 
 1324
 00:57:18,380 --> 00:57:21,840
-Feels like another way to
-actually authenticate content
+Rasanya seperti cara lain untuk
+benar-benar mengotentikasi konten
 
 1325
 00:57:21,840 --> 00:57:26,980
-without relying on data, or data
-encryption of the [INAUDIBLE].
+tanpa bergantung pada data, atau enkripsi
+data dari [TIDAK TERDENGAR].
 
 1326
 00:57:26,980 --> 00:57:29,170
-So here, we have this
-very generic plan
+Jadi di ini, kita memiliki
+rencana yang sangat umum
 
 1327
 00:57:29,170 --> 00:57:31,970
-using SSL and TLS to
-authenticate connections
+menggunakan SSL dan TLS untuk
+mengotentikasi koneksi
 
 1328
 00:57:31,970 --> 00:57:33,317
-to particular servers.
+ke server tententu.
 
 1329
 00:57:33,317 --> 00:57:34,900
-This is almost like
-an alternative way
+Ini hampir seperti
+sebuah cara alternatif
 
 1330
 00:57:34,900 --> 00:57:39,160
-of thinking of sort of securing
-your network communication.
+untuk berpikir tentang mengamankan
+komunikasi jaringan Anda.
 
 1331
 00:57:39,160 --> 00:57:41,530
-If the thing you just
-care about is integrity,
+Jika hal yang Anda
+pedulikan adalah integritas,
 
 1332
 00:57:41,530 --> 00:57:43,890
-then maybe you don't need
-a secure, encrypted channel
+maka mungkin Anda tidak perlu
+saluran aman yang terenkripsi
 
 1333
 00:57:43,890 --> 00:57:44,630
-over the network.
+di dalam jaringan.
 
 1334
 00:57:44,630 --> 00:57:47,048
-All you need is to
-specify exactly what you
+Semua yang Anda butuhkan untuk
+menentukan apa yang sebenarnya Anda
 
 1335
 00:57:47,048 --> 00:57:48,173
-want at the end of the day.
+inginkan di penghujung hari.
 
 1336
 00:57:48,173 --> 00:57:48,672
-Yeah.
+Yah.
 
 1337
 00:57:48,672 --> 00:57:51,280
-AUDIENCE: So doesn't
-this [INAUDIBLE]?
+AUDIENS: Jadi tidakkah
+ini [TIDAK TERDENGAR]?
 
 1338
 00:57:51,280 --> 00:57:53,620
-PROFESSOR: Doesn't this
-code sit at the client?
+PROFESOR: Bukankan kode
+ini ada di klien?
 
 1339
 00:57:53,620 --> 00:57:57,030
-Well, it runs at the client,
-but the client fetches this code
+Yah, dia berjalan pada klien,
+tetapi klien mengambil kode ini
 
 1340
 00:57:57,030 --> 00:57:58,450
-from some server.
+dari sebuah server.
 
 1341
 00:57:58,450 --> 00:57:59,390
-AUDIENCE: [INAUDIBLE].
+AUDIENS: [TIDAK TERDENGAR].
 
 1342
 00:57:59,390 --> 00:58:02,384
-Can't anybody just [INAUDIBLE]?
+Tidak bisakah seseorang cukup [TIDAK TERDENGAR]?
 
 1343
 00:58:02,384 --> 00:58:03,050
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1344
 00:58:03,050 --> 00:58:06,280
-So I think the
-point of the hash is
+Jadi saya pikir
+tujuan hash adalah
 
 1345
 00:58:06,280 --> 00:58:13,060
-to protect the containing page
-from attackers that injected
+untuk melindungi halaman penampungnya
+dari penyerang yang menyuntikkan
 
 1346
 00:58:13,060 --> 00:58:14,930
-different JavaScript code here.
+kode JavaScript yang berbeda di sini.
 
 1347
 00:58:14,930 --> 00:58:16,690
-So for jQuery, this
-makes a lot of sense
+Jadi untuk jQuery, ini
+sangat masuk akal
 
 1348
 00:58:16,690 --> 00:58:18,310
-because jQuery is well known.
+karena jQuery sudah terkenal.
 
 1349
 00:58:18,310 --> 00:58:20,819
-You're not trying to hide
-what jQuery source code is.
+Anda tidak mencoba untuk menyembunyikan
+kode sumber jQuery.
 
 1350
 00:58:20,819 --> 00:58:23,110
-Well, what you do want to
-make sure is that the network
+Yah, yang ingin Anda
+pastikan adalah bahwa
 
 1351
 00:58:23,110 --> 00:58:25,880
-attacker cannot intercept
-your connection and supply
+penyerang di jaringan tidak dapat mencegat
+koneksi Anda dan memberikan
 
 1352
 00:58:25,880 --> 00:58:28,244
-a malicious version of
-jQuery that's going to leak
+versi berbahaya dari
+jQuery yang akan membocorkan
 
 1353
 00:58:28,244 --> 00:58:28,785
-your cookies.
+cookie anda.
 
 1354
 00:58:28,785 --> 00:58:30,690
-AUDIENCE: [? Oh, ?] OK.
+AUDIENS: [? Oh, ?] OK.
 
 1355
 00:58:30,690 --> 00:58:32,150
-PROFESSOR: That make sense?
+PROFESOR: Itu masuk akal?
 
 1356
 00:58:32,150 --> 00:58:33,820
-It's absolutely true that
-anyone can compute the hash
+Benar sekali bahwa 
+siapapun dapat menghitung hash
 
 1357
 00:58:33,820 --> 00:58:35,111
-of these things for themselves.
+dari hal-hal ini untuk diri mereka sendiri.
 
 1358
 00:58:38,240 --> 00:58:41,026
-So this is a solution
-for integrity problems,
+Jadi ini adalah solusi 
+untuk masalah integritas,
 
 1359
 00:58:41,026 --> 00:58:42,025
-not for confidentiality.
+bukan untuk kerahasiaan.
 
 1360
 00:58:45,340 --> 00:58:46,770
-All right.
+Baiklah.
 
 1361
 00:58:46,770 --> 00:58:51,450
-So this is sort of what I guess
-developers have to watch out
+Jadi inilah yang menurut saya
+harus diwaspadai oleh para pengembang
 
 1362
 00:58:51,450 --> 00:58:58,680
-for when writing pages, or
-including content in their HTML
+saat menulis halaman, atau
+menyertakan konten di halaman HTML mereka
 
 1363
 00:58:58,680 --> 00:59:01,330
-pages on a HTTPS URL.
+di URL HTTPS.
 
 1364
 00:59:01,330 --> 00:59:05,230
-Another worrisome problem
-is dealing with cookies.
+Masalah lain yang mengkhawatirkan
+adalah menangani cookie.
 
 1365
 00:59:05,230 --> 00:59:12,130
-And here's where this difference
-between secure flags and just
+Dan inilah perbedaan 
+antara penanda keamanan dan hanya
 
 1366
 00:59:12,130 --> 00:59:15,410
-origins comes into play.
+sumbernya saja.
 
 1367
 00:59:15,410 --> 00:59:17,860
-So one thing, of course,
-the developer could screw up
+Jadi satu hal, tentu saja,
+sang pengembang bisa mengacaukan
 
 1368
 00:59:17,860 --> 00:59:20,430
-is maybe they just forget
-to set the secure flag
+atau mungkin mereka hanya lupa
+untuk menyalakan penanda aman
 
 1369
 00:59:20,430 --> 00:59:23,150
-on a cookie in the first place.
+pada cookie.
 
 1370
 00:59:23,150 --> 00:59:24,170
-This happens.
+Ini terjadi.
 
 1371
 00:59:24,170 --> 00:59:29,950
-Maybe you're thinking my users
-only ever go to the HTTPS URL.
+Mungkin Anda memikirkan pengguna saya
+akan selalu mengakses URL HTTPS.
 
 1372
 00:59:29,950 --> 00:59:31,350
-My cookies are
-never [INAUDIBLE].
+Cookie saya
+tidak pernah [TIDAK TERDENGAR].
 
 1373
 00:59:31,350 --> 00:59:32,950
-Why should I set the
-secure flag on the cookie?
+Mengapa saya harus mengatur
+penanda aman pada cookie?
 
 1374
 00:59:32,950 --> 00:59:33,880
-And they might
-[? also have the ?]
+Dan mereka mungkin
+[? juga punya?]
 
 1375
 00:59:33,880 --> 00:59:35,970
-secure flag, or maybe
-they just forget about it.
+penanda aman, atau mungkin
+mereka hanya melupakannya.
 
 1376
 00:59:35,970 --> 00:59:38,837
-Is this a problem?
+Apakah ini sebuah masalah?
 
 1377
 00:59:38,837 --> 00:59:40,420
-What if your users
-are super diligent?
+Bagaimana jika pengguna Anda
+sangat rajin?
 
 1378
 00:59:40,420 --> 00:59:43,260
-They always visit the
-HTTPS URL, and you don't
+Mereka selalu mengunjungi
+URL HTTPS, dan Anda tidak
 
 1379
 00:59:43,260 --> 00:59:44,655
-have any problems like this.
+punya masalah seperti ini.
 
 1380
 00:59:44,655 --> 00:59:47,540
-Do you still leave the
-secure flag on your cookies?
+Apakah Anda masih meninggalkan
+penanda aman di cookie Anda?
 
 1381
 00:59:47,540 --> 00:59:48,040
-[INAUDIBLE]
+[TIDAK TERDENGAR]
 
 1382
 00:59:51,180 --> 00:59:52,140
-Yeah.
+Yah.
 
 1383
 00:59:52,140 --> 00:59:53,580
-AUDIENCE: Could the
-attacker connect to your URL
+AUDIENS: Bisakah
+penyerang terhubung ke URL Anda
 
 1384
 00:59:53,580 --> 00:59:55,020
-and redirect you
-to a [INAUDIBLE]?
+dan mengarahkan Anda
+ke sebuah [TIDAK TERDENGAR]?
 
 1385
 00:59:55,020 --> 00:59:55,686
-PROFESSOR: Yeah.
+PROFESOR: Iya.
 
 1386
 00:59:55,686 --> 00:59:59,110
-So even if the user doesn't
-explicitly, manually
+Jadi meskipun pengguna tidak
+secara eksplisit, secara manual
 
 1387
 00:59:59,110 --> 01:00:02,620
-go to some plain text URL, the
-attacker could give you a link,
+pergi ke sebuah URL teks biasa,
+penyerang bisa memberi Anda tautan,
 
 1388
 01:00:02,620 --> 01:00:06,834
-or maybe ask you to load an
-image from a non-HTTPS URL.
+atau mungkin meminta Anda untuk memuat
+gambar dari URL non-HTTPS.
 
 1389
 01:00:06,834 --> 01:00:08,250
-And then non-secure
-cookie is just
+Dan kemudian cookie
+yang tidak aman
 
 1390
 01:00:08,250 --> 01:00:10,250
-going to be sent along
-with the network request.
+akan dikirim bersama
+dengan permintaannya.
 
 1391
 01:00:10,250 --> 01:00:11,833
-So that seems like
-a bit of a problem.
+Jadi sepertinya itu
+sedikit menjadi masalah.
 
 1392
 01:00:11,833 --> 01:00:13,560
-So you really do
-need the secure flag,
+Jadi Anda benar-benar
+membutuhkan penanda aman,
 
 1393
 01:00:13,560 --> 01:00:15,934
-even if your users and your
-application is super careful.
+meskipun pengguna dan aplikasi
+Anda sangat berhati-hati.
 
 1394
 01:00:15,934 --> 01:00:17,967
-AUDIENCE: But I'm
-assuming there's
+AUDIENCE: Tapi saya
+berasumsi ada
 
 1395
 01:00:17,967 --> 01:00:19,668
-an HTTP URL [INAUDIBLE].
+sebuah URL HTTP [TIDAK TERDENGAR].
 
 1396
 01:00:23,070 --> 01:00:24,320
-PROFESSOR: That's right, yeah.
+PROFESOR: Itu benar, yah.
 
 1397
 01:00:24,320 --> 01:00:26,319
-So again, so how could
-this [? break? ?] Suppose
+Jadi sekali lagi, jadi bagaimana
+ini bisa [? merusak? ?] Misalkan
 
 1398
 01:00:26,319 --> 01:00:27,150
-I have a site.
+saya punya situs.
 
 1399
 01:00:27,150 --> 01:00:28,810
-It doesn't even
-listen on port 80.
+Dia bahkan tidak
+mendengarkan pada port 80.
 
 1400
 01:00:28,810 --> 01:00:31,560
-There's no way to
-connect to me on port 80,
+Tidak ada cara untuk
+terhubung ke saya di port 80,
 
 1401
 01:00:31,560 --> 01:00:34,218
-so why is it a problem if
-I have a non-secure cookie?
+jadi mengapa menjadi masalah jika
+Saya memiliki cookie yang tidak aman?
 
 1402
 01:00:34,218 --> 01:00:36,009
-AUDIENCE: Because the
-browser wouldn't have
+AUDIENCE: Karena
+browser tidak memiliki
 
 1403
 01:00:36,009 --> 01:00:38,000
-cookies for another domain.
+cookie untuk domain lain.
 
 1404
 01:00:38,000 --> 01:00:39,000
-PROFESSOR: That's right.
+PROFESOR: Benar.
 
 1405
 01:00:39,000 --> 01:00:40,666
-So the browser wouldn't
-send your cookie
+Jadi browser tidak akan
+mengirimkan cookie Anda
 
 1406
 01:00:40,666 --> 01:00:43,660
-to a different domain,
-but yet it still
+ke domain lain,
+namun tampaknya masih
 
 1407
 01:00:43,660 --> 01:00:46,740
-seems worrisome that an
-attacker might load a URL.
+mengkhawatirkan bahwa
+penyerang mungkin memuat URL.
 
 1408
 01:00:46,740 --> 01:00:50,842
-So suppose that amazon.com only
-ever served stuff over SSL.
+Jadi misalkan amazon.com hanya
+menyajikan hal-hal melalui SSL.
 
 1409
 01:00:50,842 --> 01:00:52,300
-It's not even
-listening on port 80.
+Dia bahkan tidak
+mendengarkan pada port 80.
 
 1410
 01:00:52,300 --> 01:00:54,060
-There's no way to connect it.
+Tidak ada cara untuk menghubungkannya.
 
 1411
 01:00:54,060 --> 01:00:57,080
-So in this case,
-and as a result,
+Jadi dalam hal ini,
+dan sebagai hasilnya,
 
 1412
 01:00:57,080 --> 01:00:59,666
-they don't set their
-secure flag on a cookie.
+mereka tidak menetapkan
+penanda aman mereka pada cookie.
 
 1413
 01:00:59,666 --> 01:01:01,540
