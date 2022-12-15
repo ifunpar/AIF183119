@@ -6133,13 +6133,13 @@ baru diperkenalkan.
 
 1295
 00:55:54,210 --> 00:55:57,280
-Jadi bidang ini agak
-aktif.
+Jadi bidang ini
+cukup aktif.
 
 1296
 00:55:57,280 --> 00:56:00,280
 Orang-orang mencoba untuk
-membuat hal ini lebih baik.
+membuat berbagai hal lebih baik.
 
 1297
 00:56:00,280 --> 00:56:04,340
@@ -6148,27 +6148,27 @@ menangani masalah ini
 
 1298
 00:56:04,340 --> 00:56:07,560
-adalah mungkin memasukan sebuah hash atau 
+adalah mungkin memasukan sebuah hash atau
 semacam sebuah [? indikator ?]
 
 1299
 00:56:07,560 --> 00:56:10,720
-disini di tag, karena
-jika anda tau persis konten apa
+di sini di dalam tag, karena
+jika Anda tau persis konten apa
 
 1300
 00:56:10,720 --> 00:56:13,260
-yang ingin anda muat, 
-mungkin anda sebenarnya tidak perlu
+yang ingin Anda muat, 
+mungkin Anda sebenarnya tidak perlu
 
 1301
 00:56:13,260 --> 00:56:14,890
-memuat semua itu dari HTTPS. 
+memuat semua itu dari HTTPS.
 
 1302
 00:56:14,890 --> 00:56:17,740
 Anda sebenarnya tidak peduli siapa
-yang melayani hal itu kepada anda, selama hal itu
+yang melayaninya untuk Anda, selama hal itu
 
 1303
 00:56:17,740 --> 00:56:19,560
@@ -6176,13 +6176,13 @@ cocok dengan hash tertentu.
 
 1304
 00:56:19,560 --> 00:56:22,890
-Jadi sebenarnya ada 
+Jadi sebenarnya ada
 sebuah spesifikasi baru di luar sana
 
 1305
 00:56:22,890 --> 00:56:26,430
-yang dapat  
-mengenali pada dasarnya
+yang dapat
+menyebutkan pada dasarnya
 
 1306
 00:56:26,430 --> 00:56:30,310
@@ -6191,12 +6191,12 @@ hash pada jenis tag ini.
 1307
 00:56:30,310 --> 00:56:34,305
 Jadi daripada harus merujuk
-ke jquery.com dengan sebuah HTTPS URL,
+ke jquery.com dengan sebuah URL HTTPS,
 
 1308
 00:56:34,305 --> 00:56:35,800
-mungkin apa 
-yang bisa anda lakukan adalah katakan saja
+mungkin apa yang bisa
+Anda lakukan adalah cukup mengatakan
 
 1309
 00:56:35,800 --> 00:56:41,020
@@ -6205,79 +6205,79 @@ jquery.com, bahkan mungkin HTTP.
 
 1310
 00:56:41,020 --> 00:56:43,890
-Tapi disini, anda akan
-menyertakan semacam sebuah tag
+Tapi di sini, Anda akan
+menyertakan semacam sebuah atribut
 
 1311
 00:56:43,890 --> 00:56:47,752
-atribut, seperti
-hash sama dengan disini,
+tag, seperti
+hash sama dengan ini,
 
 1312
 00:56:47,752 --> 00:56:49,960
-anda akan memasukan sebuah--
-katakanlah sebuah cangkang suatu hash
+Anda akan memasukan sebuah--
+katakanlah sebuah hash SHA-1
 
 1313
 00:56:49,960 --> 00:56:52,800
-atau dua buah cangkang
-hash dari kontennya
+atau hash SHA-2
+dari kontennya
 
 1314
 00:56:52,800 --> 00:56:55,020
-yang anda harapkan untuk
-kembali dari servernya.
+yang Anda harapkan untuk
+dikembalikan oleh servernya.
 
 1315
 00:56:55,020 --> 00:56:55,475
-AUDIENCE: [TIDAK TERDENGAR].
+AUDIENS: [TIDAK TERDENGAR].
 
 1316
 00:56:55,475 --> 00:56:56,308
-PROFESSOR: Ada pertanyaan?
+PROFESOR: Ada pertanyaan?
 
 1317
 00:56:56,308 --> 00:56:57,920
-AUDIENCE: [TIDAK TERDENGAR].
+AUDIENS: [TIDAK TERDENGAR].
 
 1318
 00:56:57,920 --> 00:56:59,220
-PROFESSOR: Ah, bung.
+PROFESOR: Ah, bung.
 
 1319
 00:56:59,220 --> 00:57:01,160
-Ada beberapa
-nama yang rumit untuk itu.
+Ada nama yang
+rumit untuk itu.
 
 1320
 00:57:01,160 --> 00:57:04,070
-Saya memiliki URL, Sebenarnya, di dalam
+Saya memiliki URL, sebenarnya, di dalam
 cacatan kuliah, jadi [TIDAK TERDENGAR].
 
 1321
 00:57:07,480 --> 00:57:11,590
-Integrasi sum-sumber daya
+Integritas subresource
 atau sesuatu seperti ini.
 
 1322
 00:57:11,590 --> 00:57:14,280
-Saya sebenarnya bisa pelan-pelan
--- baik, semoga
+Saya sebenarnya bisa
+pelan-pelan-- baik, semoga
 
 1323
 00:57:14,280 --> 00:57:18,380
-mungkin akan segera dikerahkan
+akan diimplementasikan segera
 di berbagai browser.
 
 1324
 00:57:18,380 --> 00:57:21,840
 Rasanya seperti cara lain untuk
-benar-benar mengautentikasi konten
+benar-benar mengotentikasi konten
 
 1325
 00:57:21,840 --> 00:57:26,980
-tanpa bergantung pada data, atau data
-enkripsi dari [TIDAK TERDENGAR].
+tanpa bergantung pada data, atau enkripsi
+data dari [TIDAK TERDENGAR].
 
 1326
 00:57:26,980 --> 00:57:29,170
@@ -6296,11 +6296,11 @@ ke server tententu.
 1329
 00:57:33,317 --> 00:57:34,900
 Ini hampir seperti
-cara alternatif
+sebuah cara alternatif
 
 1330
 00:57:34,900 --> 00:57:39,160
-untuk memikirkan semacam mengamanan
+untuk berpikir tentang mengamankan
 komunikasi jaringan Anda.
 
 1331
@@ -6311,7 +6311,7 @@ pedulikan adalah integritas,
 1332
 00:57:41,530 --> 00:57:43,890
 maka mungkin Anda tidak perlu
-saluran aman, terenkripsi
+saluran aman yang terenkripsi
 
 1333
 00:57:43,890 --> 00:57:44,630
@@ -6319,7 +6319,7 @@ di dalam jaringan.
 
 1334
 00:57:44,630 --> 00:57:47,048
-Semuanya yang Anda butuhkan untuk
+Semua yang Anda butuhkan untuk
 menentukan apa yang sebenarnya Anda
 
 1335
@@ -6332,22 +6332,22 @@ Yah.
 
 1337
 00:57:48,672 --> 00:57:51,280
-AUDIENCE: Jadi tidakkah
+AUDIENS: Jadi tidakkah
 ini [TIDAK TERDENGAR]?
 
 1338
 00:57:51,280 --> 00:57:53,620
-PROFESSOR: Bukankan ini
-kode yang ada di klien?
+PROFESOR: Bukankan kode
+ini ada di klien?
 
 1339
 00:57:53,620 --> 00:57:57,030
-Yah, itu berjalan pada klien,
+Yah, dia berjalan pada klien,
 tetapi klien mengambil kode ini
 
 1340
 00:57:57,030 --> 00:57:58,450
-dari beberapa server.
+dari sebuah server.
 
 1341
 00:57:58,450 --> 00:57:59,390
@@ -6355,7 +6355,7 @@ AUDIENS: [TIDAK TERDENGAR].
 
 1342
 00:57:59,390 --> 00:58:02,384
-Tidak ada yang [TIDAK TERDENGAR]?
+Tidak bisakah seseorang cukup [TIDAK TERDENGAR]?
 
 1343
 00:58:02,384 --> 00:58:03,050
@@ -6368,7 +6368,7 @@ tujuan hash adalah
 
 1345
 00:58:06,280 --> 00:58:13,060
-untuk melindungi halaman yang berisi
+untuk melindungi halaman penampungnya
 dari penyerang yang menyuntikkan
 
 1346
@@ -6377,7 +6377,7 @@ kode JavaScript yang berbeda di sini.
 
 1347
 00:58:14,930 --> 00:58:16,690
-Jadi untuk jQuery, ini 
+Jadi untuk jQuery, ini
 sangat masuk akal
 
 1348
@@ -6396,13 +6396,13 @@ pastikan adalah bahwa
 
 1351
 00:58:23,110 --> 00:58:25,880
-penyerang jaringan tidak dapat menangkap
-koneksi Anda dan menyediakan
+penyerang di jaringan tidak dapat mencegat
+koneksi Anda dan memberikan
 
 1352
 00:58:25,880 --> 00:58:28,244
 versi berbahaya dari
-jQuery yang akan mengungkapkan
+jQuery yang akan membocorkan
 
 1353
 00:58:28,244 --> 00:58:28,785
@@ -6419,7 +6419,7 @@ PROFESOR: Itu masuk akal?
 1356
 00:58:32,150 --> 00:58:33,820
 Benar sekali bahwa 
-siapa pun dapat menghitung hash
+siapapun dapat menghitung hash
 
 1357
 00:58:33,820 --> 00:58:35,111
@@ -6432,7 +6432,7 @@ untuk masalah integritas,
 
 1359
 00:58:41,026 --> 00:58:42,025
-bukan untuk kerahasiaan
+bukan untuk kerahasiaan.
 
 1360
 00:58:45,340 --> 00:58:46,770
@@ -6460,11 +6460,11 @@ adalah menangani cookie.
 1365
 00:59:05,230 --> 00:59:12,130
 Dan inilah perbedaan 
-antara bendera keamanan dan hanya
+antara penanda keamanan dan hanya
 
 1366
 00:59:12,130 --> 00:59:15,410
-asal masuk ke dalam peran.
+sumbernya saja.
 
 1367
 00:59:15,410 --> 00:59:17,860
@@ -6474,11 +6474,11 @@ sang pengembang bisa mengacaukan
 1368
 00:59:17,860 --> 00:59:20,430
 atau mungkin mereka hanya lupa
-untuk mengatur bendera aman
+untuk menyalakan penanda aman
 
 1369
 00:59:20,430 --> 00:59:23,150
-pada cookie di tempat pertama.
+pada cookie.
 
 1370
 00:59:23,150 --> 00:59:24,170
@@ -6487,17 +6487,17 @@ Ini terjadi.
 1371
 00:59:24,170 --> 00:59:29,950
 Mungkin Anda memikirkan pengguna saya
-hanya pergi ke URL HTTPS.
+akan selalu mengakses URL HTTPS.
 
 1372
 00:59:29,950 --> 00:59:31,350
-Cookie saya adalah
+Cookie saya
 tidak pernah [TIDAK TERDENGAR].
 
 1373
 00:59:31,350 --> 00:59:32,950
 Mengapa saya harus mengatur
-bendera aman pada cookie?
+penanda aman pada cookie?
 
 1374
 00:59:32,950 --> 00:59:33,880
@@ -6506,17 +6506,17 @@ Dan mereka mungkin
 
 1375
 00:59:33,880 --> 00:59:35,970
-bendera aman, atau mungkin
+penanda aman, atau mungkin
 mereka hanya melupakannya.
 
 1376
 00:59:35,970 --> 00:59:38,837
-Apakah ini masalah?
+Apakah ini sebuah masalah?
 
 1377
 00:59:38,837 --> 00:59:40,420
 Bagaimana jika pengguna Anda
-super rajin?
+sangat rajin?
 
 1378
 00:59:40,420 --> 00:59:43,260
@@ -6530,7 +6530,7 @@ punya masalah seperti ini.
 1380
 00:59:44,655 --> 00:59:47,540
 Apakah Anda masih meninggalkan
-bendera aman di cookie Anda?
+penanda aman di cookie Anda?
 
 1381
 00:59:47,540 --> 00:59:48,040
@@ -6538,7 +6538,7 @@ bendera aman di cookie Anda?
 
 1382
 00:59:51,180 --> 00:59:52,140
-Iya.
+Yah.
 
 1383
 00:59:52,140 --> 00:59:53,580
@@ -6548,7 +6548,7 @@ penyerang terhubung ke URL Anda
 1384
 00:59:53,580 --> 00:59:55,020
 dan mengarahkan Anda
-ke [TIDAK TERDENGAR]?
+ke sebuah [TIDAK TERDENGAR]?
 
 1385
 00:59:55,020 --> 00:59:55,686
@@ -6561,33 +6561,33 @@ secara eksplisit, secara manual
 
 1387
 00:59:59,110 --> 01:00:02,620
-pergi ke beberapa URL teks biasa, itu
+pergi ke sebuah URL teks biasa,
 penyerang bisa memberi Anda tautan,
 
 1388
 01:00:02,620 --> 01:00:06,834
-atau mungkin meminta Anda untuk memuat file
+atau mungkin meminta Anda untuk memuat
 gambar dari URL non-HTTPS.
 
 1389
 01:00:06,834 --> 01:00:08,250
-Dan kemudian tidak aman
-cookie hanya
+Dan kemudian cookie
+yang tidak aman
 
 1390
 01:00:08,250 --> 01:00:10,250
 akan dikirim bersama
-dengan permintaan jaringan.
+dengan permintaannya.
 
 1391
 01:00:10,250 --> 01:00:11,833
 Jadi sepertinya itu
-sedikit masalah.
+sedikit menjadi masalah.
 
 1392
 01:00:11,833 --> 01:00:13,560
 Jadi Anda benar-benar
-membutuhkan tanda aman,
+membutuhkan penanda aman,
 
 1393
 01:00:13,560 --> 01:00:15,934
@@ -6605,7 +6605,7 @@ sebuah URL HTTP [TIDAK TERDENGAR].
 
 1396
 01:00:23,070 --> 01:00:24,320
-PROFESOR: Benar, yah.
+PROFESOR: Itu benar, yah.
 
 1397
 01:00:24,320 --> 01:00:26,319
@@ -6614,17 +6614,17 @@ ini bisa [? merusak? ?] Misalkan
 
 1398
 01:00:26,319 --> 01:00:27,150
-Saya punya situs.
+saya punya situs.
 
 1399
 01:00:27,150 --> 01:00:28,810
-Itu bahkan tidak
+Dia bahkan tidak
 mendengarkan pada port 80.
 
 1400
 01:00:28,810 --> 01:00:31,560
 Tidak ada cara untuk
-terhubung ke Saya di port 80,
+terhubung ke saya di port 80,
 
 1401
 01:00:31,560 --> 01:00:34,218
@@ -6662,11 +6662,11 @@ penyerang mungkin memuat URL.
 1408
 01:00:46,740 --> 01:00:50,842
 Jadi misalkan amazon.com hanya
-menyajikan barang melalui SSL.
+menyajikan hal-hal melalui SSL.
 
 1409
 01:00:50,842 --> 01:00:52,300
-Itu bahkan tidak
+Dia bahkan tidak
 mendengarkan pada port 80.
 
 1410
@@ -6681,7 +6681,7 @@ dan sebagai hasilnya,
 1412
 01:00:57,080 --> 01:00:59,666
 mereka tidak menetapkan
-tanda aman mereka pada cookie.
+penanda aman mereka pada cookie.
 
 1413
 01:00:59,666 --> 01:01:01,540
