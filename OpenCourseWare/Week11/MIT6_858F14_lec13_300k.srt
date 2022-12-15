@@ -8852,61 +8852,60 @@ authentication in the protocol.
 
 1870
 01:16:52,325 --> 01:16:54,200
-Sebeneranya disini ada 
+Sebenarnya di sini ada 
 masalah yang lebih besar.
-
 
 1871
 01:16:54,200 --> 01:16:55,080
-Tapi sebenarnya, ya, pertanyaan?
+Tapi sebenarnya, yah, pertanyaan?
 
 1872
 01:16:55,080 --> 01:16:56,947
-MURID: Apa 
+MAHASISWA: Apa 
 tujuan memiliki fungsi satu arah
 
 1873
 01:16:56,947 --> 01:16:59,196
-fungsi untuk[TIDAK TERDENGAR]
-password anda dalam KC jika mereka
+untuk [TIDAK TERDENGAR]
+password Anda dalam KC jika mereka
 
 1874
 01:16:59,196 --> 01:17:01,350
-secara essetien [TIDAK TERDENGAR]?
+secara sesensial [TIDAK TERDENGAR]?
 
 1875
 01:17:01,350 --> 01:17:05,060
-PROFESSOR: Pada dasarnya karena
-KC adalah 56-bit kunci ds
+PROFESOR: Pada dasarnya karena
+KC adalah kunci ds 56-bit
 
 1876
 01:17:05,060 --> 01:17:07,060
-dan pasword anda mungkin
+dan pasword Anda mungkin
 memiliki panjang yang berbeda.
 
 1877
 01:17:07,060 --> 01:17:09,430
-dan mungkin lebih panjang
-dari 56 bits,yaitu
+dan bahkan jika dia lebih panjang
+dari 56 bit, di mana
 
 1878
 01:17:09,430 --> 01:17:11,360
-tujuh bites atau 
+tujuh bit atau
 tujuh karakter,
 
 1879
 01:17:11,360 --> 01:17:13,630
-anda ingin menggunakan semua 
-extra bytes itu juga.
+Anda ingin menggunakan semua 
+byte ekstra itu juga.
 
 1880
 01:17:13,630 --> 01:17:17,900
-Jadi sebagian besar hanya untuk memadatkan
-itu untuk ke lebar blob yang tetap.
+Jadi sebagian besar hanya untuk memadatkannya
+ke lebar blob yang tetap.
 
 1881
 01:17:17,900 --> 01:17:18,996
-ya.
+yah.
 
 1882
 01:17:18,996 --> 01:17:21,412
@@ -8915,23 +8914,23 @@ masalah yang lebih menarik disini,
 
 1883
 01:17:21,412 --> 01:17:23,990
-yaitu apakah  harus 
-untuk mengganti password saya
+yaitu jika saya
+mengganti password saya
 
 1884
 01:17:23,990 --> 01:17:27,820
-dan saya memutuskan,OK,
-baiklah ,saya akan mengganti paswword saya.
+dan saya memutuskan, OK,
+baiklah, saya akan mengganti paswword saya.
 
 1885
 01:17:27,820 --> 01:17:29,930
-Hari pun berlalu dan saya 
-berpikir,oh ya ,tentu.
+Hari-hari berlalu dan saya 
+berpikir, oh yah, tentu.
 
 1886
 01:17:29,930 --> 01:17:32,370
-Saya akan memberi tahukan kepada semua apa 
-password lama saya.
+Saya akan memberitahukan kepada semua orang
+apa password lama saya yang bodoh itu.
 
 1887
 01:17:32,370 --> 01:17:35,200
@@ -8944,11 +8943,11 @@ Ya.
 1889
 01:17:35,700 --> 01:17:38,346
 MURID: [TIDAK TERDENGAR]
-segera berakhir sampai --
+segera berakhir sampai--
 
 1890
 01:17:38,346 --> 01:17:39,230
-PROFESSOR: ya, OK.
+PROFESSOR: Yah, OK.
 
 1891
 01:17:39,230 --> 01:17:40,470
@@ -8957,17 +8956,17 @@ untuk semua tiket saya berakhir.
 
 1892
 01:17:40,470 --> 01:17:42,380
-Saya menunggu, seperti, seminggu.
+Saya menunggu, misalnya, seminggu.
 
 1893
 01:17:42,380 --> 01:17:44,020
 Dan kemudian tidak ada tiket
-yang bagus lagi.
+yang valid lagi.
 
 1894
 01:17:44,020 --> 01:17:45,611
 Dapatkah saya memberikan
-kata sandi lama milik saya sekarang?
+kata sandi lama saya sekarang?
 
 1895
 01:17:45,611 --> 01:17:46,110
@@ -8975,18 +8974,18 @@ Ya.
 
 1896
 01:17:46,110 --> 01:17:48,389
-SISWA: Mungkin diperlukan
-beberapa saat untuk meniru.
+MAHASISWA: Mungkin diperlukan
+beberapa saat untuk replikasi.
 
 1897
 01:17:48,389 --> 01:17:49,930
-PROFESOR: Ya,
+PROFESOR: Yah,
 misalkan replikanya
 
 1898
 01:17:49,930 --> 01:17:51,661
-semua diperbarui,
-ya, semua barang.
+sudah diperbarui semua,
+ya, semuanya.
 
 1899
 01:17:51,661 --> 01:17:52,160
@@ -8994,7 +8993,7 @@ Ya.
 
 1900
 01:17:52,160 --> 01:17:54,701
-SISWA: [TIDAK TERDENGAR] jika seseorang
+MAHASISWA: [TIDAK TERDENGAR] jika seseorang
 menyimpan transaksi awal
 
 1901
@@ -9019,18 +9018,18 @@ di Kerberos, yang
 
 1905
 01:17:59,850 --> 01:18:01,560
-apakah itu-- misalkan
-beberapa penyerang
+mana-- misalkan
+seorang penyerang
 
 1906
 01:18:01,560 --> 01:18:04,240
-melihat semua 
+mengamati semua 
 perubahan kata sandi saya sebelumnya.
 
 1907
 01:18:04,240 --> 01:18:07,690
 Mereka tidak tahu apa kata sandi 
-saya atau apa itu.
+saya atau apapun pada saat itu.
 
 1908
 01:18:07,690 --> 01:18:10,460
@@ -9040,11 +9039,11 @@ paket-paket ini dengan sangat rajin.
 1909
 01:18:10,460 --> 01:18:13,360
 Dan sebulan kemudian, saya
-pergi dan berkata, oh, kata sandi saya
+berkata, oh, kata sandi saya
 
 1910
 01:18:13,360 --> 01:18:15,820
-adalah pudel atau sesuatu
+adalah poodle atau sesuatu yang
 konyol seperti ini.
 
 1911
@@ -9059,41 +9058,41 @@ hal awal ini
 1913
 01:18:19,630 --> 01:18:21,550
 karena telah di enkripsi
-dengan KC lama anda
+dengan KC lama Anda.
 
 1914
 01:18:21,550 --> 01:18:25,230
-dan saya bisa mendapatkan KC ini
-dengan lewat yang anda telah bagikan
+Dan saya bisa mendapatkan KC ini
+dengan password yang Anda telah bagikan.
 
 1915
 01:18:25,230 --> 01:18:27,270
-maka saya bisa menggunakan ini untuk
-dekripsi dengan password baru
+Maka saya bisa menggunakan ini untuk
+mendekripsi password baru
 
 1916
 01:18:27,270 --> 01:18:28,160
-yang anda kirim ke KDC.
+yang Anda kirim ke KDC.
 
 1917
 01:18:28,160 --> 01:18:29,910
-dan bila anda melakukan perubahan
+Dan bahkan jika Anda melakukan perubahan
 kata sandi lagi,
 
 1918
 01:18:29,910 --> 01:18:31,500
-saya bisa dekripsi 
+saya bisa mendekripsi 
 putaran berikutnya juga.
 
 1919
 01:18:31,500 --> 01:18:33,833
-dan anda juga bisa melakukan terus menerus 
-dan mendapatkan passowrd terbaru
+Dan Anda juga bisa melakukannya terus menerus 
+dan mendapatkan passowrd terbaru.
 
 1920
 01:18:33,833 --> 01:18:38,000
-jadi pada kata sandi khusus ini,
-mengganti protokol, bila anda pernah
+Jadi pada kata sandi ini,
+protokol perubahan kata sandi, bila Anda pernah
 
 1921
 01:18:38,000 --> 01:18:40,040
@@ -9102,82 +9101,85 @@ lalu seseorang
 
 1922
 01:18:40,040 --> 01:18:43,330
-bisa melakukan unzip keseluruhan 
-rantai pesan yang terenkripsi
+bisa membuka keseluruhan 
+rantai pesan yang terenkripsi ini
 
 1923
 01:18:43,330 --> 01:18:45,860
-dan mendapatkan yang terbaru
-kata sandinya.
+dan mendapatkan kata sandi
+yang terbaru.
 
 1924
 01:18:45,860 --> 01:18:47,860
-ini sebenarnya sangat
-menyusahkan dalam design.
+Ini sebenarnya sangat
+menyusahkan dalam rancangannya.
 
 1925
 01:18:47,860 --> 01:18:48,360
-yahh.
+Yah.
 
 1926
 01:18:48,360 --> 01:18:51,115
-Mahasiswa : bukankah nanti 
-versi Kerberos [TIDAK TERDENGAR]
+MAHASISWA: Bukankah versi Kerberos 
+yang lebih baru [TIDAK TERDENGAR]
 
 1927
 01:18:51,115 --> 01:18:52,240
-PROFESSOR: pastinya, ya.
+PROFESOR: Pastinya, ya.
 
 1928
 01:18:52,240 --> 01:18:53,380
-maka sebenarnya ada
+Jadi sebenarnya ada
 solusi untuk ini
 
 1929
 01:18:53,380 --> 01:18:54,490
-itu bukan semacam yang mendasar
+yang bukan sesuatu yang mendasar.
 
 1930
 01:18:54,490 --> 01:18:55,865
-dan ini sesuatu tidak mereka lakukan
+Dan ini adalah sesuatu
+yang tidak mereka
 
 1931
 01:18:55,865 --> 01:18:57,160
-realisasikan dalam Kerberos versi 4.
+sadari dalam Kerberos versi 4.
 
 1932
 01:18:57,160 --> 01:19:00,610
-sebenarnya ada yang bagus 
-mekanisme yang disebut Diffie-Hellman
+Sebenarnya ada yang mekanisme
+yang bagus ini yang disebut Diffie-Hellman
 
 1933
 01:19:00,610 --> 01:19:03,800
-bahwa saya hanya membuat sketsa
-keluar dalam waktu satu menit
+yang akan saya jelaskan
+sebentar
 
 1934
 01:19:03,800 --> 01:19:06,420
-hanya untuk agar kalian tahu
-kapan menggunakan atau dan sebagainya.
+hanya supaya kalian tahu
+kapan menggunakannya dan sebagainya.
 
 1935
 01:19:06,420 --> 01:19:08,920
-tapi itu dasarnya solusi
+Tapi itu dasarnya solusi
 untuk masalah seperti ini
 
 1936
 01:19:08,920 --> 01:19:11,630
-di mana anda ingin menghentikan 
-unzipping ini sebelum terjadi.
+
+di mana Anda ingin menghentikan 
+hal ini sebelum terjadi.
+
 1937
 01:19:11,630 --> 01:19:13,730
-jadi apa yang terjadi pada
-versi kerberos
+Jadi yang terjadi pada
+protokol penggantian kata sandi
 
 1938
 01:19:13,730 --> 01:19:16,910
-5 protokol penggubahan kata sandi 
-sebenarnya adalah kamu
+pada Kerberos versi 5  adalah
+sebenarnya Anda
 
 1939
 01:19:16,910 --> 01:19:20,370
@@ -9186,23 +9188,23 @@ yang tidak akan tampak
 
 1940
 01:19:20,370 --> 01:19:23,360
-jika kamu melakukan dekripsi semua
+jika Anda melakukan dekripsi semua
 pesan di jaringan.
 
 1941
 01:19:23,360 --> 01:19:25,620
-dan cara kerjanya 
-adalah-- seperti matematika
+Dan cara kerjanya 
+adalah-- ini seperti matematika
 
 1942
 01:19:25,620 --> 01:19:27,286
-sesuatu yang anda tidak perlu
-memahami secara keseluruhan.
+yang tidak perlu Anda
+pahami secara keseluruhan.
 
 1943
 01:19:27,286 --> 01:19:33,590
-Tetapi klien beberapa nilai acak
-X. Dan dan kpassword server
+Tetapi kliennya sebuah nilai acak
+X. Dan dan server kpassword
 
 1944
 01:19:33,590 --> 01:19:35,630
@@ -9211,8 +9213,8 @@ nilai acak lainnya yaitu Y.
 
 1945
 01:19:35,630 --> 01:19:37,820
-Dan apa yang mereka kirim kepada
-masing masing adalah eksponensial
+Dan apa yang mereka kirim satu sama lain
+adalah masing masing adalah pangkat
 
 1946
 01:19:37,820 --> 01:19:39,050
@@ -9220,13 +9222,13 @@ dari nilai-nilai ini.
 
 1947
 01:19:39,050 --> 01:19:41,500
-Jadi klien perlu mengirimkan
-G ke pangkat X
+Jadi klien mengirimkan
+G pangkat X
 
 1948
 01:19:41,500 --> 01:19:45,810
 ke server dan server
-mengirimkan G ke pangkat Y
+mengirimkan G pangkat Y
 
 1949
 01:19:45,810 --> 01:19:47,260
@@ -9235,31 +9237,31 @@ kembali ke klien.
 1950
 01:19:47,260 --> 01:19:48,890
 Dan ternyata bahwa
-secara mamematis,
+secara matematis,
 
 1951
 01:19:48,890 --> 01:19:52,110
-apa yang kita bisa lakukan sekarang 
-adalah klien dapat membawa G kepada Y,
+apa yang kita bisa lakukan sekarang
+adalah klien dapat mengambil G pangkat Y,
 
 1952
 01:19:52,110 --> 01:19:55,270
-menaikan itu ke X, dan mendapatkan
-nilai G ke XY.
+dipangkatkan lagi dengan X, dan mendapatkan
+nilai G pangkat XY.
 
 1953
 01:19:55,270 --> 01:19:58,680
-Server bisa membawa G ke 
-X, menaikan itu ke pangkat Y,
+Server bisa mengambil G pangkat 
+X, dipangkatkan lagi dengan Y,
 
 1954
 01:19:58,680 --> 01:20:00,650
-dan mendapatkan G ke XY juga.
+dan mendapatkan G pangkat XY juga.
 
 1955
 01:20:00,650 --> 01:20:03,670
 Mereka sekarang bisa menggunakan 
-nilai rahasia G ke XY
+nilai rahasia G pangkat XY
 
 1956
 01:20:03,670 --> 01:20:05,440
@@ -9268,21 +9270,21 @@ pesan berikutnya,
 
 1957
 01:20:05,440 --> 01:20:07,710
-termasuk dengan kata sandi baru.
+termasuk kata sandi baru.
 
 1958
 01:20:07,710 --> 01:20:11,263
-Jadi kamu mengirimkan password baru
+Jadi Anda mengirimkan password baru
 yang telah dienkripsi dengan nilai G
 
 1959
 01:20:11,263 --> 01:20:13,400
-ke XY, jika berbicara secara kasar.
+pangkat XY ini, kurang lebih.
 
 1960
 01:20:13,400 --> 01:20:14,830
 Tapi untuk beberapa
-alesan matematis
+alasan matematis
 
 1961
 01:20:14,830 --> 01:20:16,600
@@ -9291,23 +9293,23 @@ bahas sekarang,
 
 1962
 01:20:16,600 --> 01:20:19,350
-ternyata hal ini sangat 
+ternyata sangat
 sulit untuk seseorang
 
 1963
 01:20:19,350 --> 01:20:23,350
-mendapatkan G ke X dan G ke Y
-dengan melihat packet kalian nantinya
+mendapatkan G pangkat X dan G pangkat Y
+dengan melihat paket-paket Anda nantinya
 
 1964
 01:20:23,350 --> 01:20:26,200
 dari mencari tahu
-apa itu G bagi XY.
+apa itu G pangkat XY.
 
 1965
 01:20:26,200 --> 01:20:28,560
 Jadi ini adalah sesuatu yang kita sebut
-masalah diskret log.
+masalah log diskret.
 
 1966
 01:20:28,560 --> 01:20:29,350
@@ -9316,7 +9318,7 @@ Ya, pertanyaan?
 1967
 01:20:29,350 --> 01:20:31,140
 MAHASISWA: Tapi mereka harus
-[TIDAK TERDENGAR] G dalam beberapa kasus. 
+[TIDAK TERDENGAR] G pada titik tertentu.
 
 1968
 01:20:31,140 --> 01:20:31,570
@@ -9324,37 +9326,37 @@ PROFESSOR: Ya, ya.
 
 1969
 01:20:31,570 --> 01:20:33,535
-Jadi G adalah beberapa parameter
-yang kamu dapat semacam mengirim
+Jadi G adalah sebuah parameter
+yang Anda dapat kirimkan
 
 1970
 01:20:33,535 --> 01:20:35,910
-di permulaan sebuah protocol
-atau itu dapat saja dimasak
+di permulaan sebuah protokol
+atau itu dapat saja di-hardcode
 
 1971
 01:20:35,910 --> 01:20:36,640
-menjadi Kerberos.
+di dalam Kerberos.
 
 1972
 01:20:36,640 --> 01:20:42,030
-Hal ini ternyata menjadi
-secara relatif kurang penting.
+Hal ini tidak
+terlalu penting.
 
 1973
 01:20:42,030 --> 01:20:44,410
-Oke, jadi, kita menggunakan
+Baiklah, jadi, gunakan
 Diffie-Hellman karena ini
 
 1974
 01:20:44,410 --> 01:20:46,660
-dipanggil-- jadi, apa yang kamu
-sebaiknya Google jika kamu
+dipanggil-- yah, apa yang sebaiknya Anda
+cari di Google jika Anda
 
 1975
 01:20:46,660 --> 01:20:50,920
-sedang membantun protocol seperti ini
-adalah kunci bertukar protocol
+membangun protokol seperti ini
+adalah protokol pertukaran kunci
 
 1976
 01:20:50,920 --> 01:20:51,950
@@ -9368,13 +9370,12 @@ melakukan ini dengan benar.
 1978
 01:20:54,302 --> 01:20:56,010
 Tapi ini adalah sesuatu
-yang harus kita waspadai
+yang harus benar-benar kita waspadai
 
 1979
 01:20:56,010 --> 01:20:59,169
-jika kamu sedang mendesain
-protocol baru apapun sendiri.
-
+jika anda sedang mendesain
+protokol baru sendiri.
 
 1980
 01:20:59,169 --> 01:21:00,710
@@ -9383,4 +9384,4 @@ untuk Kerberos.
 
 1981
 01:21:00,710 --> 01:21:03,160
-Mari berbicara mengenai SSL pada hari Senin
+Mari bicara tentang SSL pada hari Senin.
