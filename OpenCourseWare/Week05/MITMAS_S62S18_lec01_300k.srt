@@ -6245,42 +6245,42 @@ hash functions
 
 1321
 00:57:19,870 --> 00:57:21,590
-are generally seen to
-be quantum-resistance.
+umumnya terlihat
+sebagai quantum-resistance.
 
 1322
 00:57:21,590 --> 00:57:23,230
-So if you have a
-signature scheme that
+Jadi jika Anda mempunyai sebuah
+skema tandatangan yang
 
 1323
 00:57:23,230 --> 00:57:25,120
-only uses hash
-functions, well, it still
+hanya menggunakan fungsi
+hash, baik, itu masih
 
 1324
 00:57:25,120 --> 00:57:27,238
-works, even if someone
-invents a quantum computer
+bekerja, bahkan jika seseorang
+menciptakan sebuah komputer kuantum
 
 1325
 00:57:27,238 --> 00:57:28,780
-and can break all
-these other things,
+dan dapat merusak semua
+hal-hal lain ini,
 
 1326
 00:57:28,780 --> 00:57:31,690
-like RSA and elliptic curves.
+seperti RSA dan kurva elliptic.
 
 1327
 00:57:31,690 --> 00:57:33,250
-So there's actually
-renewed interest
+Jadi disana sebenarnya
+memperbaharui minat
 
 1328
 00:57:33,250 --> 00:57:36,200
-in these kinds of
-systems recently.
+pada jenis sistem
+terbaru ini.
 
 1329
 00:57:36,200 --> 00:57:36,700
@@ -6288,68 +6288,68 @@ OK.
 
 1330
 00:57:36,700 --> 00:57:41,570
-So how do you make a signature
-scene with just hash functions?
+Jadi bagaimana Anda membuat sebuah
+tandatangan hanya dengan fungsi hash?
 
 1331
 00:57:41,570 --> 00:57:43,960
-So how do you generate
-a key, in this case?
+Jadi bagaimana Anda membangkitkan
+sebuah kunci, pada kasus ini?
 
 1332
 00:57:43,960 --> 00:57:47,740
-So a public key and a private
-key you want to generate.
+Jadi sebuah kunci publik dan sebuah kunci
+privat Anda mau dibangkitkan.
 
 1333
 00:57:47,740 --> 00:57:49,390
-So first we generate
-our private key.
+Jadi pertama kita membangkitkan
+kunci privat kita.
 
 1334
 00:57:49,390 --> 00:57:55,910
-Now these squares
-are 32 bytes each,
+Sekarang kotak-kotak ini
+masing-masing adalah 32 byte,
 
 1335
 00:57:55,910 --> 00:57:59,130
-and you generate 256
-of them on this row,
+dan Anda membangkitkan 256
+kotak-kotak tersebut di baris ini,
 
 1336
 00:57:59,130 --> 00:58:00,990
-256 of them on that row.
+256 kotak-kotak pada baris itu.
 
 1337
 00:58:00,990 --> 00:58:08,220
-So you're generating 256 times
-two, or 512 32-byte blocks.
+Jadi Anda membangkitkan 256 kali
+dua, atau 512 32-byte blok.
 
 1338
 00:58:08,220 --> 00:58:11,550
-And these blocks are each
-256 bits or 32 bytes.
+Dan blok-blok ini masing-masing adalah
+256 bit atau 32 byte.
 
 1339
 00:58:11,550 --> 00:58:13,890
-So in total, that's what, 8K?
+Jadi totalnya, apa itu, 8K?
 
 1340
 00:58:13,890 --> 00:58:15,480
-Eight kilobytes, I think.
+Delapan kilobyte, Saya pikir.
 
 1341
 00:58:15,480 --> 00:58:16,400
-Pretty big.
+Cukup besar.
 
 1342
 00:58:16,400 --> 00:58:18,810
-But anyway, you're saying,
-OK, here's my private key.
+Tapi bagaimanapun, Anda berkata,
+OK, ini adalah kunci private Saya.
 
 1343
 00:58:18,810 --> 00:58:20,310
-It's all completely random.
+Itu semua benar-benar random.
 
 1344
 00:58:20,310 --> 00:58:24,060
