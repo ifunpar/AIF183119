@@ -6579,131 +6579,131 @@ membuat sebuah keputusan,
 
 1382
 00:57:32,290 --> 00:57:34,515
-well, every client is
-allowed to only connect
+yah, setiap klien hanya
+diperbolehkan untuk terhubung
 
 1383
 00:57:34,515 --> 00:57:35,920
-once, or something.
+sekali, atau sesuatu.
 
 1384
 00:57:35,920 --> 00:57:37,780
-And then I'm not going
-to keep more state.
+Dan kemudian saya tidak akan
+menyimpan lebih banyak status.
 
 1385
 00:57:37,780 --> 00:57:40,240
-Here, the problem is
-you're guaranteeing
+Di sini, masalahnya adalah
+Anda akan menjamin
 
 1386
 00:57:40,240 --> 00:57:42,938
-that you're storing state
-before you have any idea who it
+bahwa Anda menyimpan status
+sebelum Anda tahu siapa
 
 1387
 00:57:42,938 --> 00:57:44,146
-is that is connecting to you.
+yang terhubung dengan Anda.
 
 1388
 00:57:46,670 --> 00:57:48,330
-So let's look at
-how you can actually
+Jadi mari lihat
+bagaimana Anda benar-benar dapat
 
 1389
 00:57:48,330 --> 00:57:53,070
-solve this SYN flooding attack
-where the server accumulates
+mengatasi serangan banjir SYN ini
+di mana server mengakumulasi
 
 1390
 00:57:53,070 --> 00:57:54,850
-lots of state.
+banyak status.
 
 1391
 00:57:54,850 --> 00:57:57,530
-So of course, if you
-could change TCP again,
+Jadi tentu saja, jika Anda
+dapat mengubah TCP lagi,
 
 1392
 00:57:57,530 --> 00:58:00,810
-you could fix this pretty
-easily by using cryptography
+Anda dapat memperbaikinya dengan sangat
+mudah dengan menggunakan kriptografi
 
 1393
 00:58:00,810 --> 00:58:04,490
-or something or changing exactly
-who's responsible for storing
+atau sesuatu atau mengubah dengan tepat
+siapa yang bertanggung jawab untuk menyimpan
 
 1394
 00:58:04,490 --> 00:58:05,130
-what state.
+status apa.
 
 1395
 00:58:05,130 --> 00:58:07,100
-The problem is we
-have TCP as is.
+Masalahnya adalah kita
+memiliki TCP apa adanya.
 
 1396
 00:58:07,100 --> 00:58:11,310
-And could we fix this problem
-without changing the TCP wire
+Dan bisakah kita memperbaiki masalah
+tanpa mengubah protokol kabel
 
 1397
 00:58:11,310 --> 00:58:12,860
-protocol?
+TCP?
 
 1398
 00:58:12,860 --> 00:58:15,657
-So this is, again, an exercise
-in trying to figure out, well,
+Jadi ini, sekali lagi, latihan untuk
+mencoba mencari tahu, yah, 
 
 1399
 00:58:15,657 --> 00:58:17,930
-what exactly tricks
-we could play
+trik apa yang sebenarnya
+bisa kita mainkan
 
 1400
 00:58:17,930 --> 00:58:21,470
-or exactly what assumptions
-we could relax and still
+atau lebih tepatnya asumsi apa
+yang bisa kita gunakan yang santai dan
 
 1401
 00:58:21,470 --> 00:58:24,715
-stick to the TCP header
-format and other things.
+tetap berpegang pada format header
+TCP dan hal lainnya.
 
 1402
 00:58:24,715 --> 00:58:28,900
-And the trick is to in fact
-figure out a clever way
+Dan triknya adalah untuk
+menemukan cara yang cerdas
 
 1403
 00:58:28,900 --> 00:58:31,500
-to make the server
-stateless without having
+untuk membuat server
+tanpa status tanpa harus
 
 1404
 00:58:31,500 --> 00:58:33,842
-to-- so the server isn't
-going to have to keep
+membuatnya-- sehingga server tidak
+perlu menyimpan
 
 1405
 00:58:33,842 --> 00:58:36,424
-this table around in memory.
+tabel ini di memori.
 
 1406
 00:58:36,424 --> 00:58:37,840
-And the way we're
-going to do this
+Dan cara kita
+melakukannya adalah
 
 1407
 00:58:37,840 --> 00:58:42,140
-is by carefully choosing SMS.
+dengan memilih SMS dengan hati-hati.
 
 1408
 00:58:42,140 --> 00:58:44,840
-Instead of using this formula
-we were looking at before, where
+Alih-alih menggunakan rumus ini
+yang kita lihat sebelumnya, di mana
 
 1409
 00:58:44,840 --> 00:58:47,650
