@@ -6464,26 +6464,26 @@ other side by G, right?
 
 1402
 01:00:46,330 --> 01:00:50,170
-So you say, OK, well,
-as the verifier--
+Begitu katamu, OK, baiklah,
+sebagai verifikator--
 
 1403
 01:00:50,170 --> 01:00:51,732
-I've got R, I've got s--
+Saya punya R, Saya punya s--
 
 1404
 01:00:51,732 --> 01:00:53,590
-I multiply s by
-G, and now I have
+Saya mengalikan s dengan
+G, dan sekarang Saya punya
 
 1405
 01:00:53,590 --> 01:00:57,800
-to multiply this side by G.
-And what'll that look like?
+untuk mengalikan sisi ini dengan G.
+Dan seperti apa bentuknya?
 
 1406
 01:00:57,800 --> 01:00:59,764
-Well, what's k times G?
+Baik, berapa k kali G?
 
 1407
 01:00:59,764 --> 01:01:00,264
