@@ -6533,24 +6533,24 @@ ini memiliki verifikator, bukan?
 
 1417
 01:01:29,490 --> 01:01:30,552
-I know what s time G is.
+Saya tahu apa itu s kali G.
 
 1418
 01:01:30,552 --> 01:01:31,260
-I know what R is.
+Saya tahu apa itu R.
 
 1419
 01:01:31,260 --> 01:01:32,490
-I know what big A is.
+Saya tahu apa itu A besar.
 
 1420
 01:01:32,490 --> 01:01:35,593
-I know what's going
-into this hash function.
+Saya tahu apa yang masuk
+pada fungsi hash ini.
 
 1421
 01:01:35,593 --> 01:01:36,510
-And so I just say, OK.
+Jadi saya hanya mengatakan, OK. 
 
 1422
 01:01:36,510 --> 01:01:44,130
