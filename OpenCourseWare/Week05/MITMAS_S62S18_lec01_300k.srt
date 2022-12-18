@@ -6353,113 +6353,113 @@ It's all completely random.
 
 1344
 00:58:20,310 --> 00:58:24,060
-I just take slash dev
-slash urandom or whatever,
+Saya tinggal mengambil garis miring dev
+garis miring urandom atau apa pun,
 
 1345
 00:58:24,060 --> 00:58:29,610
-just flip coins 8,000 times,
-or however many this is total,
+tinggal melempar koin sebanyak 8000 kali,
+atau berapa pun jumlahnya,
 
 1346
 00:58:29,610 --> 00:58:31,320
-and generate all
-these different blocks
+dan membangkitkan semua
+blok-blok yang berbeda ini
 
 1347
 00:58:31,320 --> 00:58:34,460
-and store them on my hard
-drive and keep it secret.
+dan menyimpannya pada hard drive
+dan saya rahasiakan.
 
 1348
 00:58:34,460 --> 00:58:37,150
-Then I want to generate
-the public key.
+Kemudian saya ingin membangkitkan
+kunci publiknya.
 
 1349
 00:58:37,150 --> 00:58:39,810
-So for each of these
-32-byte blocks,
+Jadi untuk tiap
+blok 32-byte ini,
 
 1350
 00:58:39,810 --> 00:58:42,290
-I take the hash of it,
-which will also be 32 bytes.
+Akan saya ambil hashnya,
+yang mana merupakan 32-byte juga.
 
 1351
 00:58:45,570 --> 00:58:52,020
-So there's now 512 hashes, 256
-on this row, 256 on this row.
+Jadi sekarang ada 512 hash, 256
+di baris ini, 256 di baris ini.
 
 1352
 00:58:52,020 --> 00:58:55,740
-The green will be my public key.
+Yang hijau akan menjadi kunci publik saya.
 
 1353
 00:58:55,740 --> 00:58:58,410
-And the gray one
-is my secret key.
+Dan yang abu-abu
+adalah kunci rahasia saya.
 
 1354
 00:58:58,410 --> 00:58:59,910
-So they all look the same.
+Semuanya terlihat sama.
 
 1355
 00:58:59,910 --> 00:59:03,000
-They all look like just a
-bunch of random ones and zeros.
+Semuanya hanya terlihat seperti
+kumpulan nol dan satu yang acak.
 
 1356
 00:59:03,000 --> 00:59:06,300
-The gray ones actually are a
-bunch of random ones and zeros.
+Yang abu-abu sebenarnya adalah
+sekumpulan nol dan satu yang acak.
 
 1357
 00:59:06,300 --> 00:59:08,700
-The green ones are
-actually hashes, though,
+Dan, yang hijau sebenarnya
+adalah hash-hash
 
 1358
 00:59:08,700 --> 00:59:10,260
-of all the gray ones.
+dari antara yang abu-abu.
 
 1359
 00:59:10,260 --> 00:59:12,830
-And I publish the green ones.
+Dan yang saya publikasikan adalah yang hijau.
 
 1360
 00:59:12,830 --> 00:59:15,270
-Just to serialize it,
-I just put in a row.
+Hanya untuk menserialisasikannya,
+saya coba taruh ke dalam sebuah baris.
 
 1361
 00:59:15,270 --> 00:59:18,210
-I say, OK, here's this first
-32-bit, second, third, fourth,
+Saya bilang, OK, jadi ini 32-bit pertama,
+kedua, ketiga, keempat,
 
 1362
 00:59:18,210 --> 00:59:22,660
-and then go to this row or
-whatever scheme you want.
+dan kemudian pergi ke baris ini atau
+skema apa pun yang Anda inginkan.
 
 1363
 00:59:22,660 --> 00:59:24,190
-So how is this useful?
+Jadi bagaimana ini akan berguna?
 
 1364
 00:59:24,190 --> 00:59:27,670
-Now everyone knows
-a bunch of hashes,
+Sekarang semua orang tahu
+sekumpulan hash,
 
 1365
 00:59:27,670 --> 00:59:31,480
-and I know a bunch
-of the preimages.
+dan saya tahu sekumpulan
+preimage-nya.
 
 1366
 00:59:31,480 --> 00:59:34,120
-So now it's sort of this
-commit reveal thing, where
+Jadi sekarang ini menjadi
+seperti "commmit reveal", di mana
 
 1367
 00:59:34,120 --> 00:59:38,590
