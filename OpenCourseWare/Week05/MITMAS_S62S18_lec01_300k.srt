@@ -6677,120 +6677,120 @@ So I go in sequence.
 
 1413
 01:01:42,340 --> 01:01:44,997
-I say, OK, here's the first
-32 bytes of my signature.
+Saya berkata, baik, ini 32
+bytes pertama dari tanda tangan saya.
 
 1414
 01:01:44,997 --> 01:01:47,080
-Here's the next, here's
-the next, here's the next.
+Ini lanjutannya, ini lanjutannya,
+ini lanjutannya.
 
 1415
 01:01:47,080 --> 01:01:51,970
-And so my signature ends
-up being 256 blocks long,
+Dan jadi tanda tangan saya berakhir
+menjadi sepanjang 256 blok,
 
 1416
 01:01:51,970 --> 01:01:54,580
-each of which are 256 bits.
+masing-masing nya 256 bits.
 
 1417
 01:01:54,580 --> 01:01:56,850
-So it's like 8K.
+Jadi sepertinya 8K.
 
 1418
 01:01:56,850 --> 01:01:59,520
-The keys are 16K and
-this is 8K or something.
+Kuncinya ada 16K dan
+ini 8k atau sesuatu.
 
 1419
 01:01:59,520 --> 01:02:02,580
-Fairly big but totally
-doable on a computer today.
+Cukup besar tapi benar-benar
+dapat dilakukan pada komputer hari ini.
 
 1420
 01:02:02,580 --> 01:02:05,300
-Eight kilobytes is no big deal.
+Delapan kilobytes bukan masalah besar.
 
 1421
 01:02:05,300 --> 01:02:05,800
-OK.
+Baik.
 
 1422
 01:02:05,800 --> 01:02:10,500
-Now to verify,
-take the signature,
+Sekarang untuk verifikasi,
+ambil tandatangannya,
 
 1423
 01:02:10,500 --> 01:02:13,140
-hash each block
-of the signature,
+hash setiap blok
+dari tandatangannya,
 
 1424
 01:02:13,140 --> 01:02:16,290
-and see that it maps into
-that part of the public key.
+dan melihat bahwa itu memetakan ke
+bagian dari kunci publik.
 
 1425
 01:02:16,290 --> 01:02:18,327
-So the people who are
-verifying the signature,
+Jadi orang yang
+verifikasi tandatangan tersebut,
 
 1426
 01:02:18,327 --> 01:02:19,410
-they have your public key.
+mereka memiliki kunci publik anda.
 
 1427
 01:02:19,410 --> 01:02:21,450
-They have all the green squares.
+Mereka memiliki semua persegi hijau.
 
 1428
 01:02:21,450 --> 01:02:23,730
-And now they have been
-given a signature, which
+Dan sekarang mereka sudah
+diberikan sebuah tandatangan, yang
 
 1429
 01:02:23,730 --> 01:02:25,470
-is these gray squares,
-and they say, OK,
+merupakan persegi abu ini,
+dan mereka berkata, OK,
 
 1430
 01:02:25,470 --> 01:02:26,595
-well, let me hash this one.
+baik, biar saya hash yang ini.
 
 1431
 01:02:26,595 --> 01:02:29,338
-Oh, it maps to that,
-so it maps to a zero.
+Oh, dia memetakan dengan itu,
+sehingga dia memetakan ke nol.
 
 1432
 01:02:29,338 --> 01:02:31,130
-Oh, this maps to a one,
-this maps to a one,
+Oh, ini memetaka ke satu,
+sehingga dia mememtakan ke satu,
 
 1433
 01:02:31,130 --> 01:02:32,430
-this maps to a zero.
+ini memetakan ke nol.
 
 1434
 01:02:32,430 --> 01:02:34,020
-And they can go
-through and say yeah,
+Dan mereka dapat melewati
+dan berkata yah,
 
 1435
 01:02:34,020 --> 01:02:38,513
-this is a signature
-on that message.
+ini adalah tandatangan
+pada pesan itu.
 
 1436
 01:02:38,513 --> 01:02:39,930
-In the case of
-Lamport signatures,
+Pada kasus
+tandatangan Lamport,
 
 1437
 01:02:39,930 --> 01:02:43,290
-you can actually determine
-what the message is just
+anda sebenarnya dapat menentukan
+apa pesan itu
 
 1438
 01:02:43,290 --> 01:02:46,932
