@@ -6245,42 +6245,42 @@ hash functions
 
 1321
 00:57:19,870 --> 00:57:21,590
-umumnya terlihat
-sebagai quantum-resistance.
+are generally seen to
+be quantum-resistance.
 
 1322
 00:57:21,590 --> 00:57:23,230
-Jadi jika Anda mempunyai sebuah
-skema tandatangan yang
+So if you have a
+signature scheme that
 
 1323
 00:57:23,230 --> 00:57:25,120
-hanya menggunakan fungsi
-hash, baik, itu masih
+only uses hash
+functions, well, it still
 
 1324
 00:57:25,120 --> 00:57:27,238
-bekerja, bahkan jika seseorang
-menciptakan sebuah komputer kuantum
+works, even if someone
+invents a quantum computer
 
 1325
 00:57:27,238 --> 00:57:28,780
-dan dapat merusak semua
-hal-hal lain ini,
+and can break all
+these other things,
 
 1326
 00:57:28,780 --> 00:57:31,690
-seperti RSA dan kurva elliptic.
+like RSA and elliptic curves.
 
 1327
 00:57:31,690 --> 00:57:33,250
-Jadi disana sebenarnya
-memperbaharui minat
+So there's actually
+renewed interest
 
 1328
 00:57:33,250 --> 00:57:36,200
-pada jenis sistem
-terbaru ini.
+in these kinds of
+systems recently.
 
 1329
 00:57:36,200 --> 00:57:36,700
@@ -6288,68 +6288,68 @@ OK.
 
 1330
 00:57:36,700 --> 00:57:41,570
-Jadi bagaimana Anda membuat sebuah
-tandatangan hanya dengan fungsi hash?
+So how do you make a signature
+scene with just hash functions?
 
 1331
 00:57:41,570 --> 00:57:43,960
-Jadi bagaimana Anda membangkitkan
-sebuah kunci, pada kasus ini?
+So how do you generate
+a key, in this case?
 
 1332
 00:57:43,960 --> 00:57:47,740
-Jadi sebuah kunci publik dan sebuah kunci
-privat Anda mau dibangkitkan.
+So a public key and a private
+key you want to generate.
 
 1333
 00:57:47,740 --> 00:57:49,390
-Jadi pertama kita membangkitkan
-kunci privat kita.
+So first we generate
+our private key.
 
 1334
 00:57:49,390 --> 00:57:55,910
-Sekarang kotak-kotak ini
-masing-masing adalah 32 byte,
+Now these squares
+are 32 bytes each,
 
 1335
 00:57:55,910 --> 00:57:59,130
-dan Anda membangkitkan 256
-kotak-kotak tersebut di baris ini,
+and you generate 256
+of them on this row,
 
 1336
 00:57:59,130 --> 00:58:00,990
-256 kotak-kotak pada baris itu.
+256 of them on that row.
 
 1337
 00:58:00,990 --> 00:58:08,220
-Jadi Anda membangkitkan 256 kali
-dua, atau 512 32-byte blok.
+So you're generating 256 times
+two, or 512 32-byte blocks.
 
 1338
 00:58:08,220 --> 00:58:11,550
-Dan blok-blok ini masing-masing adalah
-256 bit atau 32 byte.
+And these blocks are each
+256 bits or 32 bytes.
 
 1339
 00:58:11,550 --> 00:58:13,890
-Jadi totalnya, apa itu, 8K?
+So in total, that's what, 8K?
 
 1340
 00:58:13,890 --> 00:58:15,480
-Delapan kilobyte, Saya pikir.
+Eight kilobytes, I think.
 
 1341
 00:58:15,480 --> 00:58:16,400
-Cukup besar.
+Pretty big.
 
 1342
 00:58:16,400 --> 00:58:18,810
-Tapi bagaimanapun, Anda berkata,
-OK, ini adalah kunci private Saya.
+But anyway, you're saying,
+OK, here's my private key.
 
 1343
 00:58:18,810 --> 00:58:20,310
-Itu semua benar-benar random.
+It's all completely random.
 
 1344
 00:58:20,310 --> 00:58:24,060
@@ -6463,23 +6463,23 @@ commit reveal thing, where
 
 1367
 00:59:34,120 --> 00:59:38,590
-if I reveal to you this,
-you can verify that, oh,
+jika saya membuka ini terhadap anda,
+anda akan bisa memverifikasi, oh,
 
 1368
 00:59:38,590 --> 00:59:43,450
-yeah, that mapped to
-this one later on.
+yaa, yang dipetakan ke
+sini nantinnya.
 
 1369
 00:59:43,450 --> 00:59:46,910
-Any questions so far
-about this process?
+Apakah ada pertanyaan
+terkait proses ini?
 
 1370
 00:59:46,910 --> 00:59:49,550
-Seems sort of useless but
-fairly straightforward.
+Terlihat seperti tidak berguna tetapi
+cukup tegas.
 
 1371
 00:59:49,550 --> 00:59:50,100
@@ -6488,85 +6488,86 @@ OK.
 1372
 00:59:50,100 --> 00:59:51,390
 Then I want to sign.
+Setelah itu saya ingin menandatangani.
 
 1373
 00:59:51,390 --> 00:59:54,830
-So first, to sign a
-message, I'm going
+Jadi pertama - tama, untuk menandatangani sebuah
+pesan, saya akan
 
 1374
 00:59:54,830 --> 00:59:57,220
-to take the hash of
-the message to sign.
+untuk mengambil hash dari
+pesan yang akan ditandatangani.
 
 1375
 00:59:57,220 --> 00:59:58,940
-And this is often done.
+Dan ini sering dilakukan.
 
 1376
 00:59:58,940 --> 00:59:59,870
-It's done in bitcoin.
+Itu diselesaikan di sebuah bitcoin.
 
 1377
 00:59:59,870 --> 01:00:02,870
-It's done in most signature
-schemes, where I want
+Itu diselesaikan di hampir semua skema
+tanda tangan, dimana saya ingin
 
 1378
 01:00:02,870 --> 01:00:05,780
-a fixed length number to sign.
+sebuah angka yang memiliki panjang yang pasti untuk ditandatangani.
 
 1379
 01:00:05,780 --> 01:00:07,410
-It's annoying to
-have to say, well,
+Itu sangat mengganggu
+saya harus katakan, jadi,
 
 1380
 01:00:07,410 --> 01:00:09,380
-what if I want to sign
-a megabyte long file,
+bagaimana jika saya ingin menandatangani
+1 megabyte dokumen,
 
 1381
 01:00:09,380 --> 01:00:13,145
-or what if I want to sign
-of 10-byte long string?
+atau bagaimana jika saya ingin menandatangani
+sebuah string dengan panjang 10- bit?
 
 1382
 01:00:13,145 --> 01:00:14,270
-You want to standardize it.
+Anda ingin menstandarkan itu.
 
 1383
 01:00:14,270 --> 01:00:18,950
-So whatever I'm signing,
-it's always 256 bits long.
+Jadi apa saja yang saya tandatangani,
+itu selalu memiliki panjang 256 bit.
 
 1384
 01:00:18,950 --> 01:00:22,100
-So if I want to just sign
-the message hi, first
+Jadi jika saya ingin menandatangani
+sebuah pesan hai saja, pertama
 
 1385
 01:00:22,100 --> 01:00:25,460
-I take the hash of the message
-hi, which in Sha-256, this
+Saya mengambil hash dari pesan
+hai, dimana di sha-256, ini
 
 1386
 01:00:25,460 --> 01:00:29,180
-is the hash of hi.
+merupakan hash dari hai.
 
 1387
 01:00:29,180 --> 01:00:32,630
-And so I look at this
-as 256 bits, and I say,
+Dan jadi saya melihat ini
+sebagai 256 bit, dan saya katakan,
 
 1388
 01:00:32,630 --> 01:00:35,510
-OK, I'm going to pick the
-private key blocks to reveal
+OK, Saya akan mengambil
+kunci privat dari blok untuk membuka
 
 1389
 01:00:35,510 --> 01:00:37,740
-based on the bits here.
+berdasarkan dari bit yang ada disini.
 
 1390
 01:00:37,740 --> 01:00:44,550
@@ -6803,8 +6804,8 @@ ini dan Anda tidak akan
 
 1440
 01:02:48,390 --> 01:02:51,690
-diberitahu meskipun ini adalah satu atau
-nol, yah, bandingkan saja.
+memberitahu meskipun ini adalah satu atau
+nol, sebaiknya, lakukan perbandingan.
 
 1441
 01:02:51,690 --> 01:02:54,420
@@ -6822,41 +6823,41 @@ yang berguna karena tidak ada
 
 1444
 01:03:01,840 --> 01:03:04,870
-yang bisa membuatnya
+yang bisa mengingat itu
 karena tidak ada yang tahu
 
 1445
 01:03:04,870 --> 01:03:06,760
-pragambar ini kecuali
+preimages ini kecuali
 untuk orang yang
 
 1446
 01:03:06,760 --> 01:03:09,120
-memiliki kunci rahasia.
+memegang secret key.
 
 1447
 01:03:09,120 --> 01:03:12,180
-Jadi diberikan kunci publik Anda,
+Jadi dengan mempertimbangkan public key Anda,
 saya tidak bisa memalsukan tanda tangan
 
 1448
 01:03:12,180 --> 01:03:13,560
-dari Anda.
+dari Anda
 
 1449
 01:03:13,560 --> 01:03:17,130
-Saat sebuah tanda tangan sudah dibuat,
-saya juga tidak dapat membuat sebuah tanda tangan.
+Saat sebuah tanda tangan sudah dicetak,
+saya juga tidak dapat memalsukan sebuah tanda tangan.
 
 1450
 01:03:17,130 --> 01:03:21,510
 Deretan bit yang saya tahu
-hanyalah yang Anda tunjukkan.
+hanyalah bit yang Anda tunjukkan.
 
 1451
 01:03:21,510 --> 01:03:24,270
 Dan jadi saya tahu bagian
-dari kunci privat Anda.
+dari private key Anda.
 
 1452
 01:03:24,270 --> 01:03:25,650
@@ -6864,8 +6865,8 @@ Saya tahu separuhnya.
 
 1453
 01:03:25,650 --> 01:03:31,170
-Tapi separuh bagian itu hanya memungkinkan saya menandatangani
-pesan yang baru saja Anda tandatangani.
+Tapi separuh bagian itu hanya mengizinkan saya menandatangani
+pesan yang baru Anda tandatangani.
 
 1454
 01:03:31,170 --> 01:03:34,110
@@ -6879,7 +6880,7 @@ yang dapat digunakan.
 
 1456
 01:03:39,480 --> 01:03:40,830
-Saya rasa saya baru saja menujukkannya.
+Sepertinya saya baru saja menujukkannya.
 
 1457
 01:03:40,830 --> 01:03:44,146
@@ -6897,7 +6898,7 @@ Anda hanya bisa menandatangani satu.
 
 1460
 01:03:46,080 --> 01:03:47,111
-Apakah itu yang Anda--
+Apakah itu yang Anda coba--
 
 1461
 01:03:47,111 --> 01:03:49,028
@@ -6906,13 +6907,13 @@ mengirim pesan yang sama
 
 1462
 01:03:49,028 --> 01:03:51,540
-kepada orang lain dengan
+pada orang lain dengan
 tanda tangan yang berbeda.
 
 1463
 01:03:51,540 --> 01:03:54,350
-TADGE DRYJA: Yah, tapi
-tanda tangan itu sifatnya publik.
+TADGE DRYJA: Ya, tapi
+tanda tangan itu semacam public.
 
 1464
 01:03:54,350 --> 01:03:56,670
@@ -6927,7 +6928,7 @@ mengirimkannya pada beberapa orang.
 1466
 01:04:00,690 --> 01:04:02,880
 Dan itu adalah sebuah
-fitur, bukan bug, saya rasa.
+fitur, bukan bug, sepertinya.
 
 1467
 01:04:02,880 --> 01:04:05,760
@@ -6941,7 +6942,7 @@ berlaku sah untuk orang ini.
 
 1469
 01:04:09,785 --> 01:04:11,160
-Terdapat cara-cara
+Terdapat cara-cara yang
 berbeda untuk melakukan hal itu
 
 1470
@@ -6957,11 +6958,11 @@ yang kita bicarakan di sini
 1472
 01:04:15,770 --> 01:04:18,270
 dengan tiga fungsi ini,
-kunci publiknya benar-benar publik,
+kunci publik ini benar-benar publik,
 
 1473
 01:04:18,270 --> 01:04:19,740
-dan siapapun dapat memverifikasinya.
+dan siapapun dapat verifikasinya.
 
 1474
 01:04:19,740 --> 01:04:21,810
@@ -6969,32 +6970,32 @@ Dan itu adalah hal yang kita inginkan.
 
 1475
 01:04:21,810 --> 01:04:24,360
-Jika Anda tidak menginginkannya,
+Jika anda tidak ingin hal itu,
 terdapat beberapa cara lain untuk melakukannya.
 
 1476
 01:04:24,360 --> 01:04:29,190
-Tapi yah, yang paling utama adalah,
+Tapi yah, yang besar itu,
 tunggu, Anda hanya dapat menandatangani sekali.
 
 1477
 01:04:29,190 --> 01:04:32,070
-Sekali anda menghasilkan pasangan
-kunci, kunci privat Anda,
+Sekali anda menghasilkan sebuah pasang
+kunci, kunci privat anda,
 
 1478
 01:04:32,070 --> 01:04:34,680
-kunci publik Anda, dan Anda memberitahu
-kotak-kotak hijau ini ke semua orang,
+kunci publik anda, dan anda memberitahu
+persegi-persegi hijau ini ke semua orang,
 
 1479
 01:04:34,680 --> 01:04:40,050
 jika anda mencoba untuk menandatangani lagi,
-Anda akan mengungkap kepingan yang lebih banyak
+anda akan mengungkap kepingan yang lebih banyak
 
 1480
 01:04:40,050 --> 01:04:42,060
-dari kunci privat Anda.
+dari kunci privat anda.
 
 1481
 01:04:42,060 --> 01:04:43,850
@@ -7021,12 +7022,12 @@ meniru tandatangan
 
 1486
 01:04:53,430 --> 01:04:58,500 
-karena saya dapat berkata, OK,
-yah, bit pertama,
+karena saya dapat bilang, OK,
+baik, bit pertama,
 
 1487
 01:04:58,500 --> 01:05:00,660
-saya dapat menandatangani apapun
+Saya dapat menandatangani apapun
 pada bit pertama.
 
 1488
@@ -7042,21 +7043,21 @@ dapat menandatangani bit manapun yang saya inginkan.
 1490
 01:05:11,470 --> 01:05:15,750
 Dan jadi hal yang mendasar adalah,
-jika terdapat satu tandatangan,
+jika terdapat satu tandatangan
 
 1491
 01:05:15,750 --> 01:05:16,920
-Saya tidak bisa membuat sesuatu.
+Saya tidak bisa menempa sesuatu.
 
 1492
 01:05:16,920 --> 01:05:20,400
-Jika Anda bisa memberi saya dua tanda tangan,
-karena itu pada umumnya acak,
+Jika anda bisa memberi saya dua tanda tangan,
+karena pada umumnya acak,
 
 1493
 01:05:20,400 --> 01:05:22,860
-secara rata-rata, setengah dari
-bit-bit dari tanda tangan
+rata - rata, setengah dari
+bit - bit tersebut adalah tanda tangan
 
 1494
 01:05:22,860 --> 01:05:23,700
@@ -7069,17 +7070,17 @@ panjang bit 256 dan anda menandatangani dua kali,
 
 1496
 01:05:27,240 --> 01:05:32,670
-Mungkin saya tetap tidak bisa membuat
-apa-apa karena 128 bit,
+Kemungkinan besar saya tetap tidak bisa menempa
+apa - apa karena itu 128 bit,
 
 1497
 01:05:32,670 --> 01:05:34,510
-saya punya kebebasan
+Saya punya kebebasan
 untuk memilih yang mana saja.
 
 1498
 01:05:34,510 --> 01:05:39,810
-Dan 128 bit lainnya, saya
+Dan 128 bit yang lainnya, saya
 terjebak dengan satu atau nol
 
 1499
@@ -7093,13 +7094,13 @@ pesan yang saya ingin tanda tangani,
 
 1501
 01:05:45,060 --> 01:05:50,100
-saya tidak akan bisa karena jika saya
-mencoba 2 pangkat 128 kali,
+Saya tidak akan bisa karena jika saya
+mencoba 2 dari 128 percobaan,
 
 1502
 01:05:50,100 --> 01:05:52,480
-saya akan bisa menemukan
-tanda tangan yang dibuat.
+Saya akan bisa menemukan
+tanda tangan yang ditempa.
 
 1503
 01:05:52,480 --> 01:05:53,550
@@ -7107,11 +7108,11 @@ Tapi itu sangat banyak.
 
 1504
 01:05:53,550 --> 01:05:55,830
-Dan Anda mungkin bisa menandatangani dua kali.
+Dan mungkin anda bisa menandatangani 2 kali.
 
 1505
 01:05:55,830 --> 01:05:57,450
-Tapi lagi-lagi, itu probabilistika.
+Tapi lagi - lagi, itu problematik.
 
 1506
 01:05:57,450 --> 01:06:00,390
@@ -7121,27 +7122,27 @@ dan membuka sedikit bit
 1507
 01:06:00,390 --> 01:06:05,010
 lebih dari 128 bit,
-di mana Anda mendapatkan keduanya.
+dimana anda mendapatkan keduanya.
 
 1508
 01:06:05,010 --> 01:06:08,790
-Tapi secara rata-rata-- dan sekali
-Anda memiliki tiga tanda tangan, OK,
+Tapi secara rata - rata-- dan sekali lagi
+anda memiliki tiga tanda tangan, OK,
 
 1509
 01:06:08,790 --> 01:06:14,320
-sekarang saya mungkin sudah mengungkap
-3/4 dari lokasi yang
+sekarang saya kira - kira sudah mengungkap
+3/4 dari lokasi
 
 1510
 01:06:14,320 --> 01:06:16,540
-akan Anda miliki baik
+anda akan memiliki keduanya
 baris satu dan nol.
 
 1511
 01:06:16,540 --> 01:06:18,250
-Dan Anda dapat memulai--
-dan ini mulai
+Dan anda dapat memulai--
+dan ini akan
 
 1512
 01:06:18,250 --> 01:06:23,140
@@ -7150,10 +7151,10 @@ karena dalam kasus ini,
 
 1513
 01:06:23,140 --> 01:06:27,280
-Anda memerlukan 2 pangkat 64
-percobaan untuk menempa sebuah tanda tangan.
+anda memerlukan sebuah 2 dua 64
+oercobaan untuk menempa sebuah tanda tangan.
 
 1514
 01:06:27,280 --> 01:06:31,250
 Dan itu dapat dilakukan di
-komputer zaman sekarang.
+komputer jaman sekarang.
