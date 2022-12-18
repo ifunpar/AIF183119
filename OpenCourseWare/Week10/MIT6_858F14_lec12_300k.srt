@@ -6707,112 +6707,112 @@ yang kita lihat sebelumnya, di mana
 
 1409
 00:58:44,840 --> 00:58:47,650
-we were to add this
-function, we're
+kita harus menambahkan
+fungsi ini, kita
 
 1410
 00:58:47,650 --> 00:58:51,170
-instead going to
-choose this sequence
+daripada pergi untuk
+memilih urutan angka
 
 1411
 00:58:51,170 --> 00:58:52,710
-number in a different way.
+ini dalam cara yang lain.
 
 1412
 00:58:52,710 --> 00:58:55,094
-And I'll give you
-exactly the formula.
+Dan Saya akan memberikan Anda
+persis rumusnya.
 
 1413
 00:58:55,094 --> 00:58:57,510
-And then we'll talk about why
-this is actually interesting
+Dan kemudian kita akan membicarakan mengapa
+hal ini begitu menarik
 
 1414
 00:58:57,510 --> 00:58:59,530
-and what nice properties it has.
+dan properti bagus apa yang dimilikinya.
 
 1415
 00:58:59,530 --> 00:59:02,192
-So if the server detects that
-it's under this kind of attack,
+Jadi apabila server mendeteksi itu
+di bawah serangan semacam ini,
 
 1416
 00:59:02,192 --> 00:59:03,650
-it's going to switch
-into this mode
+itu akan beralih
+ke dalam mode ini
 
 1417
 00:59:03,650 --> 00:59:12,510
-where it chooses SNS using
-this formula of applying
+di mana hal tersebut akan memilih SNS menggunakan
+rumus penerapan ini
 
 1418
 00:59:12,510 --> 00:59:14,900
-basically the same or
-similar kind of function F
+pada dasarnya sama atau
+jenis fungsi serupa F
 
 1419
 00:59:14,900 --> 00:59:15,490
-we saw before.
+yang kita lihat sebelumnya.
 
 1420
 00:59:18,470 --> 00:59:20,100
-And what it's going
-to apply it to
+Dan apa yang terjadinya
+untuk menerapkannya pada
 
 1421
 00:59:20,100 --> 00:59:25,652
-is the source IP, destination
-IP, the same things as before,
+IP sumber, tujuan
+IP, hal yang sama seperti sebelumnya,
 
 1422
 00:59:25,652 --> 00:59:35,920
-source port, destination
-port, and also timestamp,
+port sumber, tujuan
+port, dan juga penanda waktu,
 
 1423
 00:59:35,920 --> 00:59:39,420
-and also a key in here as well.
+dan ada juga sebuahg kunci di dalam sini.
 
 1424
 00:59:39,420 --> 00:59:45,374
-And we're going to concatenate
-it with a timestamp as well.
+Dan kita akan menggabungkan
+itu dengan penanda waktu juga.
 
 1425
 00:59:45,374 --> 00:59:47,665
-So this timestamp is going
-to be fairly coarse grained.
+Jadi penanda waktu ini akan
+menjadi cukup kasar.
 
 1426
 00:59:47,665 --> 00:59:49,206
-It's going to go in
-order of minutes.
+Hal tersebut akan pergi masuk
+menit-menit yang terurut.
 
 1427
 00:59:49,206 --> 00:59:52,290
-So every minute, the
-timestamp ticks off by one.
+Jadi setiap menit,
+penanda waktu dicentang satu persatu.
 
 1428
 00:59:52,290 --> 00:59:54,560
-It's a very coarse grained time.
+Ini waktu yang sangat kasar.
 
 1429
 00:59:54,560 --> 00:59:59,920
-And there's probably some split
-between this part of the header
+Dan disana mungkin ada beberapa pemisahan
+diantara part dari judul ini
 
 1430
 00:59:59,920 --> 01:00:01,270
-and this part of the header.
+dan bagian dari judul ini.
 
 1431
 01:00:01,270 --> 01:00:03,270
-This timestamp doesn't
-need a whole lot of bits.
+Penanda waktu ini This timestamp tidak
+membutuhkan banyak bit.
 
 1432
 01:00:03,270 --> 01:00:07,000
