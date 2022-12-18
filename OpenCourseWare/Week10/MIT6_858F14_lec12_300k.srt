@@ -6816,112 +6816,112 @@ membutuhkan banyak bit.
 
 1432
 01:00:03,270 --> 01:00:07,000
-So I forget exactly what this
-protocol does in real machines.
+Jadi saya lupa secara tepat apa yang
+protokol ini lakukan dalam mesin sebenarnya.
 
 1433
 01:00:07,000 --> 01:00:09,730
-But you could easily
-imagine maybe using 8 bits.
+Tapi anda dapat dengan mudah
+membayangkan mungkin dengan menggunakan 8 bit.
 
 1434
 01:00:09,730 --> 01:00:11,158
-For the timestamp,
-I'm going to be
+Untuk timestamp-nya,
+saya akan
 
 1435
 01:00:11,158 --> 01:00:15,920
-using 24 bits for this chunk
-of the sequence number.
+menggunakan 24 bit untuk bagian ini
+dari sequence number.
 
 1436
 01:00:15,920 --> 01:00:18,830
-All right, so why
-is this a good plan?
+Baik, jadi mengapa
+ini merupakan rencana yang baik?
 
 1437
 01:00:18,830 --> 01:00:19,850
-What's going on here?
+Apa yang terjadi di sini?
 
 1438
 01:00:19,850 --> 01:00:21,990
-Why this weird formula?
+Mengapa rumus aneh ini?
 
 1439
 01:00:21,990 --> 01:00:24,210
-So I think you have to
-remember, one was the property
+Jadi saya pikir anda harus
+mengingat, satu properti
 
 1440
 01:00:24,210 --> 01:00:26,920
-that we were trying to achieve
-of the sequence number.
+yang kita coba untuk capai
+pada sequence number.
 
 1441
 01:00:26,920 --> 01:00:28,580
-So there's two things going on.
+Jadi ada dua hal yang terjadi.
 
 1442
 01:00:28,580 --> 01:00:31,844
-One is there's this defense
-against duplicated packets
+Satu adalah adanya pertahanan ini
+terhadap paket yang terduplikat
 
 1443
 01:00:31,844 --> 01:00:35,041
-that we were trying to achieve
-by-- maybe the formula is still
+yang kita coba untuk capai 
+dengan-- mungkin rumusnya masih
 
 1444
 01:00:35,041 --> 01:00:35,541
-here.
+di sini.
 
 1445
 01:00:35,541 --> 01:00:37,030
-Nope-- oh, yeah, yeah, here.
+Tidak-- oh, ya, ya, di sini.
 
 1446
 01:00:37,030 --> 01:00:39,210
-Right, so just to
-compare these guys-- so
+Baik, jadi hanya untuk 
+membandingkan beberapa hal ini-- jadi
 
 1447
 01:00:39,210 --> 01:00:42,100
-when we're not under
-attack, we were previously
+saat kita sedang tidak dalam
+serangan, kita sebelumnya
 
 1448
 01:00:42,100 --> 01:00:45,148
-maintaining this old style
-sequence number scheme
+mempertahankan gaya tua
+skema sequence number ini
 
 1449
 01:00:45,148 --> 01:00:47,606
-to prevent duplicate packets
-from previous connections, all
+untuk mencegah paket duplikat
+dari koneksi-koneksi sebelumnya, seluruh
 
 1450
 01:00:47,606 --> 01:00:49,495
-this good stuff.
+hal baik ini.
 
 1451
 01:00:49,495 --> 01:00:51,120
-It turns out people
-couldn't figure out
+Ternyata orang-orang
+tidak bisa mencari tahu
 
 1452
 01:00:51,120 --> 01:00:53,800
-a way to defend against these
-kinds of SYN flooding attacks
+sebuah cara untuk bertahan melawan
+serangan SYN flooding seperti ini
 
 1453
 01:00:53,800 --> 01:00:55,990
-without giving up
-on this property,
+tanpa mengorbankan
+properti ini,
 
 1454
 01:00:55,990 --> 01:00:57,370
-so basically
-saying, well, here's
+jadi pada dasarnya
+berkata, inilah
 
 1455
 01:00:57,370 --> 01:00:59,670
