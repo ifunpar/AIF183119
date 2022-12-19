@@ -6925,110 +6925,110 @@ berkata, inilah
 
 1455
 01:00:57,370 --> 01:00:59,670
-one plan that works
-well in some situations.
+satu cara yang mungkin bisa berhasil
+dalam kasus tertentu.
 
 1456
 01:00:59,670 --> 01:01:02,330
-Here's a different plan where
-we'll give up on that ISN
+Terdapat suatu cara dimana
+kita tidak perlu memikirkan tentang ISN
 
 1457
 01:01:02,330 --> 01:01:03,760
-old style component.
+tua itu.
 
 1458
 01:01:03,760 --> 01:01:06,890
-And instead, we'll
-focus on just ensuring
+alih-alih kita
+fokus kepada memastikan
 
 1459
 01:01:06,890 --> 01:01:12,305
-that if someone presents us this
-sequence number S in response
+jika terdapat 
+sequence number S dalam respon
 
 1460
 01:01:12,305 --> 01:01:15,900
-to a packet, like
-here, then we know it
+ke paket, seperti disini
+maka kita tahu itu
 
 1461
 01:01:15,900 --> 01:01:18,150
-must've been the right client.
+pasti clien yang benar.
 
 1462
 01:01:18,150 --> 01:01:22,434
-So remember that in order to
-prevent IP spoofing attacks,
+Maka ingat ketika dalam
+mencegah penyerangan IP spoofing,
 
 1463
 01:01:22,434 --> 01:01:23,850
+kita bergantung pada SNS value.
 we sort of rely
 on this SNS value.
 
 1464
 01:01:23,850 --> 01:01:28,310
-So if the server sends this
-SNS value to some client, then
+Maka jika server mengirim 
+SNS value ini, maka
 
 1465
 01:01:28,310 --> 01:01:30,800
-hopefully only that client can
-send us back the correct SNS
+seharusnya hanya client yang dapat 
+mengirim SNS value yang benar kembali ke 
 
 1466
 01:01:30,800 --> 01:01:32,985
-value, finish establishing
-the connection.
+kita, dan selesai  finish mendirikan
+koneksinya.
 
 1467
 01:01:32,985 --> 01:01:36,220
-And this is why you had to store
-it in this table over here.
+Dan ini adalah alasan mengapa anda harus menyimpannya 
+didalam tabel ini.
 
 1468
 01:01:36,220 --> 01:01:37,730
-Because otherwise,
-how do you know
+Karena antara lain,
+bagaimana anda tahu
 
 1469
 01:01:37,730 --> 01:01:40,610
-if this is a real response
-or a fake response?
+bahwa ini adalah respon 
+asli atau palsu?
 
 1470
 01:01:40,610 --> 01:01:42,660
-And the reason for using
-this function F here
+Dan alasan mengapa memakai 
+fungsi F disini
 
 1471
 01:01:42,660 --> 01:01:47,670
-is that now we can maybe not
-store this table in memory.
+adalah bahwa kita mungkin tidak dapat 
+menyimpan tabel ini di memory.
 
 1472
 01:01:47,670 --> 01:01:51,760
-And instead, when a connection
-attempt arrives here,
+Dan alih-alih, ketika koneksi 
+mencoba sampai disini,
 
 1473
 01:01:51,760 --> 01:01:53,480
-we're going to
-compute SNS according
-
+kita akan menghitung SNS
+sesuai dengan
 1474
 01:01:53,480 --> 01:01:55,440
-to this formula
-over here and just
+rumus disini
+dan hanya
 
 1475
 01:01:55,440 --> 01:01:58,058
-send it back to whatever client
-pretends to have connected
+mengirimnya kembali ke client manapun 
+yang berpura-pura terkoneksi
 
 1476
 01:01:58,058 --> 01:01:59,250
-to us.
+kepada kita.
 
 1477
 01:01:59,250 --> 01:02:01,960
