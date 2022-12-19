@@ -7026,8 +7026,8 @@ kesalahan semacam ini.
 
 1486
 01:03:24,720 --> 01:03:28,380
-So I guess one thing
-that forced HTTP does
+Jadi saya kira satu hal
+yang memaksa HTTP lakukan
 
 1487
 01:03:28,380 --> 01:03:31,760
