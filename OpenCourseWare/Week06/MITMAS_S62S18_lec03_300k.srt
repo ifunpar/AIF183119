@@ -6554,22 +6554,22 @@ Jadi saya hanya mengatakan, OK.
 
 1422
 01:01:36,510 --> 01:01:44,130
-Well, I rearrange it a little,
-and I say, is R equal to this?
+Baik, saya sususn ulang kembali,
+dan saya katakan, R sama dengan ini?
 
 1423
 01:01:44,130 --> 01:01:46,350
-And if it is, that's
-a good signature.
+dan jika iya, maka itu
+adalah signature yang bagus.
 
 1424
 01:01:46,350 --> 01:01:50,620
-If it's not, it's
-not a good signature.
+Jika tidak, maka itu 
+bukan signature yang bagus.
 
 1425
 01:01:50,620 --> 01:01:51,900
-Any questions about this?
+Aada pertanyaan tentang ini?
 
 1426
 01:01:51,900 --> 01:01:56,850
