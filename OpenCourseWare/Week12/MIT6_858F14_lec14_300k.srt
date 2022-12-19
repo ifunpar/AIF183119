@@ -7031,8 +7031,8 @@ yang memaksa HTTP lakukan
 
 1487
 01:03:28,380 --> 01:03:31,760
-is they worry about
-such mistakes.
+adalah mereka khawatir tentang
+kesalahan seperti itu.
 
 1488
 01:03:31,760 --> 01:03:36,410
