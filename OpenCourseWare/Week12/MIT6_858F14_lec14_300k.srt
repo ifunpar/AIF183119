@@ -7046,8 +7046,8 @@ dilakukan browser untuk Anda
 
 1490
 01:03:39,560 --> 01:03:43,270
-is prevent any HTTPS
-connections to that host
+mencegah koneksi HTTPS apa pun
+ke host tersebut
 
 1491
 01:03:43,270 --> 01:03:44,560
