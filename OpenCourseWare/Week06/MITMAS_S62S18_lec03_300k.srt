@@ -6487,25 +6487,25 @@ Baik, berapa k kali G?
 
 1407
 01:00:59,764 --> 01:01:00,264
-AUDIENCE: R.
+AUDIENS: R.
 
 1408
 01:01:00,264 --> 01:01:03,490
-TADGE DRYJA: R. What's
-little a times G?
+TADGE DRYJA: R. Berapa
+a kecil dikalikan dengan G?
 
 1409
 01:01:03,490 --> 01:01:07,140
-Big A. So yeah.
+A besar. Maka, iya
 
 1410
 01:01:07,140 --> 01:01:09,090
-I want to verify.
+Saya mau memastikan.
 
 1411
 01:01:09,090 --> 01:01:11,490
-I want to verify that
-this equation was used,
+Saya mau memastikkan bahwa
+persamaan ini digunakan.
 
 1412
 01:01:11,490 --> 01:01:15,120
