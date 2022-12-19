@@ -6515,7 +6515,7 @@ ini waktu hash a kecil.
 1413
 01:01:15,120 --> 01:01:17,490
 Mengkalikan dua sisi
-dengan G, Aku mendapatkan s kali G,
+dengan G, Saya mendapatkan s kali G,
 
 1414
 01:01:17,490 --> 01:01:21,660
