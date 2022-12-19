@@ -6963,9 +6963,8 @@ mencegah penyerangan IP spoofing,
 
 1463
 01:01:22,434 --> 01:01:23,850
-kita bergantung pada SNS value.
-we sort of rely
-on this SNS value.
+kita bergantung 
+pada SNS value.
 
 1464
 01:01:23,850 --> 01:01:28,310
@@ -7016,6 +7015,7 @@ mencoba sampai disini,
 01:01:51,760 --> 01:01:53,480
 kita akan menghitung SNS
 sesuai dengan
+
 1474
 01:01:53,480 --> 01:01:55,440
 rumus disini
