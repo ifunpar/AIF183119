@@ -6571,109 +6571,109 @@ berdasarkan dari bit yang ada disini.
 
 1390
 01:00:37,740 --> 01:00:44,550
-So the first bit here is
-a one, because it's an 8.
+Jadi bit pertama di sini adalah
+sebuah satu, karena ini adalah sebuah 8.
 
 1391
 01:00:44,550 --> 01:00:46,380
-And so I'll reveal.
+Dan saya akan buka..
 
 1392
 01:00:46,380 --> 01:00:49,170
-And I indicated
-before that there's
+Dan saya menunjukkan
+sebelum itu ada
 
 1393
 01:00:49,170 --> 01:00:52,080
-this zero row and this one row.
+baris nol ini dan baris satu ini.
 
 1394
 01:00:52,080 --> 01:00:54,990
-And now what that means
-is, well, the first bit
+Dan sekarang apa yang dimaksud
+ini, baik, bit pertama
 
 1395
 01:00:54,990 --> 01:00:57,520
-of my message to sign is a one.
+dari pesan saya untuk mendakan adalah satu.
 
 1396
 01:00:57,520 --> 01:01:00,750
-So I'm going to reveal
-this gray square.
+Jadi saya akan membuka
+kotak abu-abu ini.
 
 1397
 01:01:00,750 --> 01:01:03,970
-And the next bit, the
-next four bits, actually,
+Dan bit selanjutnya,
+4 bit selanjutnya, sebenarnya,
 
 1398
 01:01:03,970 --> 01:01:05,720
-since it's an eight,
-are going to be zero.
+semenjak ini adalah 8,
+akan mejadi nol.
 
 1399
 01:01:05,720 --> 01:01:07,760
-So I'll reveal
-this and then I'll
+Jadi saya akan membuka
+ini dan sata akan
 
 1400
 01:01:07,760 --> 01:01:11,030
-reveal this, this, and this.
+membuka ini, ini, dan ini.
 
 1401
 01:01:11,030 --> 01:01:12,090
-And I just made it up.
+Dan saya berhasil.
 
 1402
 01:01:12,090 --> 01:01:13,100
-But yeah.
+Tapi yah.
 
 1403
 01:01:13,100 --> 01:01:18,650
-So for example, if I'm signing,
-and it starts with 01101110,
+Jadi untuk contoh, jika saya menandai,
+dan ini mulai dengan 01101110,
 
 1404
 01:01:18,650 --> 01:01:21,200
-I reveal this preimage, this
-preimage, this preimage,
+Saya membuka preimage ini, 
+preimage ini, preimage ini,
 
 1405
 01:01:21,200 --> 01:01:23,060
-this preimage, these
-three, this one.
+preimage ini, ketiga
+ini, satu ini.
 
 1406
 01:01:23,060 --> 01:01:27,710
-And so I reveal preimages
-based on the bit representation
+Dan saya membuka preimage
+berdasarkan pada representasi bit
 
 1407
 01:01:27,710 --> 01:01:32,230
-of the message I'm
-trying to sign, and then
+dari pesan yang saya
+coba tandai, dan kemudian
 
 1408
 01:01:32,230 --> 01:01:34,060
-give everyone these.
+memberikan semuanya ini.
 
 1409
 01:01:34,060 --> 01:01:38,030
-So my signature will
-just be this sequence.
+Jadi tanda tangan saya akan
+hanya menjadi urutan ini.
 
 1410
 01:01:38,030 --> 01:01:40,125
-I can go in row order here.
+Saya dapat menuju urutan baris ini.
 
 1411
 01:01:40,125 --> 01:01:41,500
-Yeah, it's probably
-a lot easier.
+Yah, ini terlihat
+lebih mudah.
 
 1412
 01:01:41,500 --> 01:01:42,340
-So I go in sequence.
+Jadi saya menuju urutan
 
 1413
 01:01:42,340 --> 01:01:44,997
