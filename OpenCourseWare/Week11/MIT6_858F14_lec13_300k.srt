@@ -5087,62 +5087,62 @@ too early or too late,
 
 1072
 00:44:51,050 --> 00:44:54,100
-then every server should
-reject such a ticket
+kemudian setiap server haruslah
+menolak tiket seperti itu
 
 1073
 00:44:54,100 --> 00:44:56,040
-in the Kerberos protocol.
+didalam protokol Kerberos.
 
 1074
 00:44:56,040 --> 00:44:58,180
-So this kind of means
-that every server
+Jadi sarana semacam ini
+bahwa setiap server
 
 1075
 00:44:58,180 --> 00:45:02,859
-has to have a loosely
-synchronized, clock which
+harus mempunyai kelonggaran
+sinkronisasi, jam yang
 
 1076
 00:45:02,859 --> 00:45:04,900
-is a bit of a-- well,
-maybe you've run into this.
+sedikit dari-- ya,
+mungkin anda mengalami ini.
 
 1077
 00:45:04,900 --> 00:45:07,483
-Like, your laptop clock is off
-and you can't log into Kerberos
+seperti, jam laptop anda mati
+dan anda tidak bisa akses kedalam Kerberos
 
 1078
 00:45:07,483 --> 00:45:08,121
-anymore.
+lagi.
 
 1079
 00:45:08,121 --> 00:45:08,620
-Question?
+Pertanyaan?
 
 1080
 00:45:08,620 --> 00:45:09,190
-Yeah.
+Ya.
 
 1081
 00:45:09,190 --> 00:45:11,980
-STUDENT: You said before
-that the client discards KC
+MAHASISWA: Sebelumnya anda bilang
+bahwa klien membuang KC
 
 1082
 00:45:11,980 --> 00:45:14,780
-but they're still
-keeping KCS [INAUDIBLE]
+tapi mereka masih
+menyimpan KCS [TIDAK TERDENGAR]
 
 1083
 00:45:14,780 --> 00:45:16,305
-the TGS. [INAUDIBLE]
+si TGS. [TIDAK TERDENGAR]
 
 1084
 00:45:16,305 --> 00:45:17,555
-PROFESSOR: That's right, yeah.
+PROFESSOR: Iya itu benar, ya.
 
 1085
 00:45:17,555 --> 00:45:20,310
