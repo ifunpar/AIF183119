@@ -7036,8 +7036,8 @@ kesalahan seperti itu.
 
 1488
 01:03:31,760 --> 01:03:36,410
-And when you sort of opted a
-site into this forced HTTPS
+Dan saat Anda mengikutsertakan sebuah
+situs ke dalam paket HTTPS paksa ini
 
 1489
 01:03:36,410 --> 01:03:39,560
