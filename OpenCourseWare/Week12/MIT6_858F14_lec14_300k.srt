@@ -7021,8 +7021,8 @@ forced HTTPS in some ways,
 
 1485
 01:03:20,040 --> 01:03:24,720
-and it tries to prevent
-these kinds of mistakes.
+dan mencoba mencegah
+kesalahan semacam ini.
 
 1486
 01:03:24,720 --> 01:03:28,380
