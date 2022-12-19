@@ -7041,8 +7041,8 @@ situs ke dalam paket HTTPS paksa ini
 
 1489
 01:03:36,410 --> 01:03:39,560
-plan, one thing that the
-browser will do for you
+, satu hal yang akan
+dilakukan browser untuk Anda
 
 1490
 01:03:39,560 --> 01:03:43,270
