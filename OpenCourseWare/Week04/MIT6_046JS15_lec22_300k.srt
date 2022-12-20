@@ -6692,7 +6692,7 @@ kunci publik.
 
 1425
 01:18:25,500 --> 01:18:27,860
-Jadi apa yang Anda lakukan adalah
+Jadi apa yang anda lakukan adalah
 Anda tidak akan benar-benar melakukannya
 
 1426
