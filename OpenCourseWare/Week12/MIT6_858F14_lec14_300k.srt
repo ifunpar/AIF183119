@@ -6685,115 +6685,115 @@ penanda aman mereka pada cookie.
 
 1413
 01:00:59,666 --> 01:01:01,540
-So how could a hacker
-then steal their cookie
+Jadi bagaimana bisa seorang peretas
+mencuri cookie mereka
 
 1414
 01:01:01,540 --> 01:01:04,546
-if Amazon isn't even
-listening at port 80?
+jika Amazon bahkan tidak
+terhubung ke port 80?
 
 1415
 01:01:04,546 --> 01:01:05,426
-Yeah.
+Yah.
 
 1416
 01:01:05,426 --> 01:01:07,050
-AUDIENCE: Can't the
-browser still think
+AUDIENS: Tidak bisakah
+browser tetap berpikir
 
 1417
 01:01:07,050 --> 01:01:09,340
-it's an HTTP connection?
+itu adalah sebuah koneksi HTTP?
 
 1418
 01:01:09,340 --> 01:01:11,100
-PROFESSOR: Well, so
-if you connect to port
+PROFESOR: Yah, jadi
+jika Anda terhubung ke port
 
 1419
 01:01:11,100 --> 01:01:14,424
-443 and you speak SSL
-or GLS, then it's always
+443 dan Anda berbicara SSL
+atau GLS, maka hal itu selalu
 
 1420
 01:01:14,424 --> 01:01:15,340
-going to be encrypted.
+akan dienkripsi.
 
 1421
 01:01:15,340 --> 01:01:16,697
-So that's not a problem.
+Jadi hal itu bukan sebuah masalah.
 
 1422
 01:01:16,697 --> 01:01:17,671
-Yeah.
+Yah.
 
 1423
 01:01:17,671 --> 01:01:20,964
-AUDIENCE: The attacker can
-[INAUDIBLE] their network.
+AUDIENS: penyerang bisa
+[TIDAK TERDENGAR] jaringan mereka.
 
 1424
 01:01:20,964 --> 01:01:21,630
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1425
 01:01:21,630 --> 01:01:24,350
-So the attacker can actually
-intercept your packets
+Jadi penyerang sebenarnya bisa 
+mencegat paket Anda
 
 1426
 01:01:24,350 --> 01:01:26,960
-that are trying to connect
-to Amazon on port 80
+yang sedang mencoba untuk terhubung
+ke Amazon pada port 80
 
 1427
 01:01:26,960 --> 01:01:28,960
-and then appear, and make
-it appear, like you've
+dan kemudian muncul, dan membuat
+hal itu muncul, seperti Anda sudah
 
 1428
 01:01:28,960 --> 01:01:30,720
-connected successfully.
+sukses terhubung.
 
 1429
 01:01:30,720 --> 01:01:33,510
-So if the attacker has
-control over your network,
+Jadi jika penyerang memiliki
+kontrol atas jaringan Anda,
 
 1430
 01:01:33,510 --> 01:01:35,760
-they could redirect
-your packets trying
+mereka bisa mengarahkan ulang
+paket Anda mencoba
 
 1431
 01:01:35,760 --> 01:01:37,970
-to get to Amazon to their
-own machine on port 80.
+untuk menuju Amazon ke
+mesin mereka sendiri pada port 80.
 
 1432
 01:01:37,970 --> 01:01:39,290
-They're going to
-accept the connection,
+Mereka akan
+menerima koneksinya,
 
 1433
 01:01:39,290 --> 01:01:41,831
-and the client isn't going to
-be able to know the difference.
+dan kliennya tidak akan
+bisa mengetahui perbedaannya.
 
 1434
 01:01:41,831 --> 01:01:44,030
-It will be as if Amazon
-is listening on port 80,
+Hal itu akan seperti seolah-olah Amazon
+sedang listening pada port 80,
 
 1435
 01:01:44,030 --> 01:01:46,931
-and then your cookies will be
-sent to this adversary's web
+lalu cookies Anda akan
+dikirim ke
 
 1436
 01:01:46,931 --> 01:01:47,430
-server.
+server web musuh.
 
 1437
 01:01:47,430 --> 01:01:49,246
