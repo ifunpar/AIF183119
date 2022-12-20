@@ -6611,7 +6611,7 @@ yang sayangnya hal tersebut tidak berjalan dengan baik,
 
 1407
 01:17:05,670 --> 01:17:09,920
-Anda bisa melihat dan berkata, ah,
+Anda bisa melihat dan berkata, ah ,
 Saya ingin enkripsi menjadi
 
 1408
