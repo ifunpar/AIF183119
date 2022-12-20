@@ -6450,12 +6450,12 @@ TADGE DRYJA: Ya.
 1399
 01:00:38,430 --> 01:00:41,320
 Jadi ide dasarnya--
-ya, kamu benar.
+ya, Anda benar.
 
 1400
 01:00:41,320 --> 01:00:43,630
 Kalikan sisi ini
-dengan G. Lalu kamu juga
+dengan G. Lalu Anda juga
 
 1401
 01:00:43,630 --> 01:00:46,330
@@ -6464,26 +6464,26 @@ sisi lain dengan G, benar?
 
 1402
 01:00:46,330 --> 01:00:50,170
-Begitu katamu, OK, baiklah,
+Jadi Anda katakan, OK, baiklah,
 sebagai verifikator--
 
 1403
 01:00:50,170 --> 01:00:51,732
-Saya punya R, Saya punya s--
+saya punya R, Saya punya s--
 
 1404
 01:00:51,732 --> 01:00:53,590
 Saya mengalikan s dengan
-G, dan sekarang Saya punya
+G, dan sekarang saya harus
 
 1405
 01:00:53,590 --> 01:00:57,800
-untuk mengalikan sisi ini dengan G.
+mengalikan sisi ini dengan G.
 Dan seperti apa bentuknya?
 
 1406
 01:00:57,800 --> 01:00:59,764
-Baik, berapa k kali G?
+Baik, apakah k kali G?
 
 1407
 01:00:59,764 --> 01:01:00,264
@@ -6496,7 +6496,7 @@ a kecil dikalikan dengan G?
 
 1409
 01:01:03,490 --> 01:01:07,140
-A besar. Maka, iya
+A besar. Maka, yah.
 
 1410
 01:01:07,140 --> 01:01:09,090
@@ -6504,13 +6504,13 @@ Saya mau memastikan.
 
 1411
 01:01:09,090 --> 01:01:11,490
-Saya mau memastikkan bahwa
-persamaan ini digunakan.
+Saya mau memastikan bahwa
+persamaan ini digunakan,
 
 1412
 01:01:11,490 --> 01:01:15,120
 benar-- s sama dengan k minus
-ini waktu hash a kecil.
+hash ini dikalikan a kecil.
 
 1413
 01:01:15,120 --> 01:01:17,490
@@ -6520,7 +6520,7 @@ dengan G, Saya mendapatkan s kali G,
 1414
 01:01:17,490 --> 01:01:21,660
 sama dengan k dikali G minus 
-bagian hash dikali a kecil dikali
+hash dikali a kecil dikali
 
 1415
 01:01:21,660 --> 01:01:26,070
@@ -6529,19 +6529,19 @@ G. Ini adalah A besar. Ini R.
 1416
 01:01:26,070 --> 01:01:29,490
 Hei, sekarang saya tau semuanya
-ini memiliki verifikator, bukan?
+di sini sebagai verifikator, benar?
 
 1417
 01:01:29,490 --> 01:01:30,552
-Saya tahu apa itu s kali G.
+Saya tahu berapa nilai s kali G.
 
 1418
 01:01:30,552 --> 01:01:31,260
-Saya tahu apa itu R.
+Saya tahu berapa nilai R.
 
 1419
 01:01:31,260 --> 01:01:32,490
-Saya tahu apa itu A besar.
+Saya tahu berapa nilai A besar.
 
 1420
 01:01:32,490 --> 01:01:35,593
@@ -6554,22 +6554,22 @@ Jadi saya hanya mengatakan, OK.
 
 1422
 01:01:36,510 --> 01:01:44,130
-Baik, saya sususn ulang kembali,
+Baik, saya susun ulang sedikit,
 dan saya katakan, R sama dengan ini?
 
 1423
 01:01:44,130 --> 01:01:46,350
-dan jika iya, maka itu
-adalah signature yang bagus.
+Dan jika iya, maka itu
+adalah tanda tangan yang valid.
 
 1424
 01:01:46,350 --> 01:01:50,620
 Jika tidak, maka itu 
-bukan signature yang bagus.
+bukan tanda tangan yang valid.
 
 1425
 01:01:50,620 --> 01:01:51,900
-Aada pertanyaan tentang ini?
+Ada pertanyaan tentang ini?
 
 1426
 01:01:51,900 --> 01:01:56,850
