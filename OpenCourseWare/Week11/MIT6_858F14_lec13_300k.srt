@@ -5146,58 +5146,58 @@ PROFESSOR: Iya itu benar, ya.
 
 1085
 00:45:17,555 --> 00:45:20,310
-So the client discards
-KC after logging in.
+Jadi klien membuang
+KC setelah masuk.
 
 1086
 00:45:20,310 --> 00:45:21,600
-But it still keeps KCS.
+Tapi itu masih menyimpan KCS.
 
 1087
 00:45:21,600 --> 00:45:22,997
-You're exactly right.
+Anda benar sekali.
 
 1088
 00:45:22,997 --> 00:45:24,580
-STUDENT: So if someone
-steals the KCS,
+MAHASISWA: Jadi jika seseorang
+mencuri KCS,
 
 1089
 00:45:24,580 --> 00:45:27,487
-then they have access
-to [INAUDIBLE].
+maka mereka memiliki akses
+ke [TIDAK TERDENGAR].
 
 1090
 00:45:27,487 --> 00:45:28,320
-PROFESSOR: Yeah, OK.
+PROFESOR: Yah, OK.
 
 1091
 00:45:28,320 --> 00:45:29,111
-So how bad is that?
+Jadi seberapa buruk itu?
 
 1092
 00:45:29,111 --> 00:45:32,892
-Like, why is it better
-to disclose this KCS
+Seperti, mengapa lebih baik
+mengungkapkan KCS ini
 
 1093
 00:45:32,892 --> 00:45:34,600
-fof-- actually, well,
-this is TGS, right?
+untuk-- sebenarnya, yah,
+ini TGS, kan?
 
 1094
 00:45:34,600 --> 00:45:37,235
-Why is it better to
-disclose KCTGS than KC?
+Mengapa lebih baik
+mengungkapkan KCTGS daripada KC?
 
 1095
 00:45:39,980 --> 00:45:40,918
-Yeah.
+Yah.
 
 1096
 00:45:40,918 --> 00:45:43,205
-STUDENT: Someone [INAUDIBLE]
-somewhere [INAUDIBLE].
+MAHASISWA: Seseorang [TIDAK TERDENGAR]
+di suatu tempat [TIDAK TERDENGAR].
 
 1097
 00:45:43,205 --> 00:45:44,580
