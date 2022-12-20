@@ -7127,109 +7127,109 @@ ketika server mendapatkan
 
 1507
 01:04:19,819 --> 01:04:21,360
-a cookie from the
-client, all it gets
+Sebuah cookie dari
+klien, semua yang didapat
 
 1508
 01:04:21,360 --> 01:04:24,200
-is the key value
-pair for a cookie.
+adalah nilai kunci
+berpasangan untuk cookie.
 
 1509
 01:04:24,200 --> 01:04:28,650
-And as we sort of look at here,
-the plan for the [INAUDIBLE]
+Dan seperti yang kita lihat di sini,
+rencana untuk [TIDAK TERDENGAR]
 
 1510
 01:04:28,650 --> 01:04:31,530
-follows is that it'll include
-both secure and insecure
+berikut adalah bahwa itu akan mencakup
+aman dan tidak aman
 
 1511
 01:04:31,530 --> 01:04:35,050
-cookies when it's sending a
-request to a secure server,
+cookie saat mengirim 
+permintaan ke server yang aman,
 
 1512
 01:04:35,050 --> 01:04:36,850
-because the browser
-here was just
+karena browsernya
+di sini hanya
 
 1513
 01:04:36,850 --> 01:04:39,650
-concerned about the
-confidentiality of cookies.
+prihatin tentang
+kerahasiaan cookie.
 
 1514
 01:04:39,650 --> 01:04:42,030
-But on the server
-side, you now don't
+Tapi di server
+sisi, Anda sekarang tidak
 
 1515
 01:04:42,030 --> 01:04:43,280
-have any integrity guarantees.
+memiliki integritas jaminan apapun.
 
 1516
 01:04:43,280 --> 01:04:44,762
-When you get a
-cookie from a user,
+Ketika Anda mendapatkan
+cookie dari pengguna,
 
 1517
 01:04:44,762 --> 01:04:46,970
-it might have been sent over
-an encrypted connection,
+itu mungkin telah dikirim
+koneksi yang terenkripsi,
 
 1518
 01:04:46,970 --> 01:04:50,370
-but it also might have been sent
-over a plain text connection.
+tapi itu juga mungkin telah dikirim
+melalui koneksi teks biasa.
 
 1519
 01:04:50,370 --> 01:04:53,390
-So this leads to somewhat
-more subtle attacks,
+Jadi ini mengarah ke
+serangan yang lebih halus,
 
 1520
 01:04:53,390 --> 01:04:55,670
-but the flavor of
-these attacks tend
+tapi rasa dari
+serangan ini cenderung
 
 1521
 01:04:55,670 --> 01:04:57,370
-to be things like
-session fixation.
+menjadi hal-hal seperti
+sesi fiksasi.
 
 1522
 01:04:57,370 --> 01:05:01,840
-What it means is that suppose I
-want to see what emails you're
+Artinya adalah misalkan saya
+ingin melihat apa email yang
 
 1523
 01:05:01,840 --> 01:05:02,490
-sending.
+anda kirim
 
 1524
 01:05:02,490 --> 01:05:05,130
-Or maybe I'll set a
-cookie for you that
+Atau mungkin saya akan menetapkan
+sebuah cookie untukmu itu
 
 1525
 01:05:05,130 --> 01:05:06,850
-is a copy of my Gmail, cookie.
+adalah salinan cookie gmail saya.
 
 1526
 01:05:06,850 --> 01:05:08,760
-So when you go to compose
-a message in Gmail,
+Jadi ketika Anda pergi untuk menulis
+pesan di Gmail,
 
 1527
 01:05:08,760 --> 01:05:11,700
-it'll actually be saved in
-my sent folder inside of your
+Ini benar-benar akan disimpan
+di folder terkirim saya di dalam folder Anda
 
 1528
 01:05:11,700 --> 01:05:12,531
-sent folder.
+folder terkirim.
 
 1529
 01:05:12,531 --> 01:05:14,155
