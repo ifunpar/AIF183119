@@ -5201,62 +5201,62 @@ somewhere [INAUDIBLE].
 
 1097
 00:45:43,205 --> 00:45:44,580
-PROFESSOR: It's
-the kind of thing
+PROFESOR:  Hal itu
+menyatakan bahwa
 
 1098
 00:45:44,580 --> 00:45:45,390
-that they're both keys, though.
+mereka adalah kedua kunci, ya.
 
 1099
 00:45:45,390 --> 00:45:47,181
-So neither of them are
-really hashed, yeah.
+Jadi tidak satupun dari mereka
+yang benar-benar telah dihash, ya.
 
 1100
 00:45:47,181 --> 00:45:49,533
-STUDENT: You would take
-KCS and you'd just steal
+MAHASISWA: Anda bisa mengambil
+KCS dan hanya mencuri
 
 1101
 00:45:49,533 --> 00:45:51,238
-that session between those two.
+sesi tersebut diantara keduanya.
 
 1102
 00:45:51,238 --> 00:45:53,740
-But if you steal KC, you
-can impersonate the client.
+Tetapi jika Anda mencuri KC, ANda
+bisa menirukan klien.
 
 1103
 00:45:53,740 --> 00:45:54,740
-PROFESSOR: That's right.
+PROFESOR: Itu betul.
 
 1104
 00:45:54,740 --> 00:45:55,240
-Yeah.
+Ya.
 
 1105
 00:45:55,240 --> 00:45:56,730
-So I guess one
-way to answer this
+Jadi Saya rasa jalan
+untuk menjawab ini
 
 1106
 00:45:56,730 --> 00:46:00,820
-is that KCTGS, this is actually
-a new key generated every time
+adalah bahwa KCTGS, kunci ini benar-benar
+merupakan kunci baru yang diperbaharui setiap kali
 
 1107
 00:46:00,820 --> 00:46:02,820
-you log in initially.
+Anda masuk di awal.
 
 1108
 00:46:02,820 --> 00:46:06,550
-And this thing is only good
-because you have this ticket
+Dan hal ini merupakan hal yang bagus
+karena Anda mempunyai tiket ini
 
 1109
 00:46:06,550 --> 00:46:08,620
-that goes along with it.
+yang sejalan dengan KCTGS.
 
 1110
 00:46:08,620 --> 00:46:11,550
