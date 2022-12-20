@@ -6797,118 +6797,118 @@ server.
 
 1437
 01:01:47,430 --> 01:01:49,246
-AUDIENCE: Because the
-client is unknown.
+AUDIENS: Karena
+klien tidak diketahui.
 
 1438
 01:01:49,246 --> 01:01:49,810
-PROFESSOR: That's right.
+PROFESOR: Betul sekali.
 
 1439
 01:01:49,810 --> 01:01:51,380
-Yeah, so for HTTP,
-there's no way
+Yah, jadi untuk HTTP,
+tidak ada cara lain
 
 1440
 01:01:51,380 --> 01:01:53,420
-to authenticate the host
-you're connected to.
+untuk mengotentikasionally host
+yang terhubung dengan Anda.
 
 1441
 01:01:53,420 --> 01:01:54,950
-This is exactly what's going on.
+Inilah tepatnya yang sedang terjadi.
 
 1442
 01:01:54,950 --> 01:01:57,980
-HTTP has no authentication,
-and as a result,
+HTTP tidak memiliki otentikasi,
+dan sebagai hasilnya,
 
 1443
 01:01:57,980 --> 01:01:59,950
-you have to prevent
-the cookies from being
+Anda harus mencegah
+cookie
 
 1444
 01:01:59,950 --> 01:02:01,730
-sent over HTTP in
-the first place
+terkirim melalui HTTP
+sejak awal
 
 1445
 01:02:01,730 --> 01:02:05,320
-because you have no idea
-who that HTTP connection is
+karena Anda tidak tahu
+koneksi HTTP siapa yang
 
 1446
 01:02:05,320 --> 01:02:08,066
-going to go to if you're
-assuming a network adversary.
+akan pergi jika Anda
+mengasumsikan lawan jaringan.
 
 1447
 01:02:08,066 --> 01:02:10,624
-AUDIENCE: So you need
-network control to do this.
+AUDIENS: Jadi Anda membutuhkan
+kontrol jaringan untuk melakukan ini.
 
 1448
 01:02:10,624 --> 01:02:11,540
-PROFESSOR: Well, yeah.
+PROFESOR: Yah, baik.
 
 1449
 01:02:11,540 --> 01:02:13,560
-So either you have full
-control over your network
+Jadi saat Anda sudah memiliki
+kontrol penuh atas jaringan Anda
 
 1450
 01:02:13,560 --> 01:02:15,518
-so you know that adversaries
-aren't going to be
+sehingga Anda tahu bahwa ancaman
+tidak akan
 
 1451
 01:02:15,518 --> 01:02:16,860
-able to intercept your packets.
+dapat mencegat paket Anda.
 
 1452
 01:02:16,860 --> 01:02:18,610
-But even then, it's
-actually not so great.
+Tapi meskipun begitu, itu
+sebenarnya tidak begitu bagus.
 
 1453
 01:02:18,610 --> 01:02:20,580
-Like look at the TCP lecture.
+Seperti dalam kuliah TCP.
 
 1454
 01:02:20,580 --> 01:02:23,716
-You can do all kinds of sequence
-number of attacks and so on.
+Anda dapat melakukan semua jenis urutan
+jumlah serangan dan sebagainya.
 
 1455
 01:02:23,716 --> 01:02:25,700
-[? That's going to be ?]
-troublesome.
+[? Itu akan terjadi ?]
+sulit.
 
 1456
 01:02:25,700 --> 01:02:26,450
-All right.
+Baiklah.
 
 1457
 01:02:26,450 --> 01:02:28,233
-Any more questions about that?
+Ada pertanyaan lagi tentang itu?
 
 1458
 01:02:28,233 --> 01:02:28,732
-Yeah.
+Yah.
 
 1459
 01:02:28,732 --> 01:02:30,130
-AUDIENCE: I'm sorry, but
-isn't the attack intercepted
+AUDIENS: Maaf, tapi
+bukankah serangan itu dicegat
 
 1460
 01:02:30,130 --> 01:02:30,671
-in that case?
+dalam kasus ini?
 
 1461
 01:02:30,671 --> 01:02:31,917
-Is there like a redirect?
+Apakah ada semacam pegalihan?
 
 1462
 01:02:31,917 --> 01:02:33,750
