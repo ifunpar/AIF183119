@@ -6393,7 +6393,7 @@ mendapatkan sebuah sistem kunci asimetris,
 1360
 01:14:33,170 --> 01:14:35,657
 sistem kunci publik,
-melalui masalah knapsack?
+melalui masalah knapsack ?
 
 1361
 01:14:35,657 --> 01:14:37,240
