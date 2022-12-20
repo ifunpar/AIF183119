@@ -8797,59 +8797,60 @@ doesn't do authentication
 
 1858
 01:16:34,392 --> 01:16:35,850
-properly of messages--
-it just does
+dengan baik pada pesan--
+dia hanya melakukan
 
 1859
 01:16:35,850 --> 01:16:38,270
-encryption-- you could
-totally corrupt this blob.
+enkripsi-- kamu bisa
+membuat blob tersebut korup.
+
 
 1860
 01:16:38,270 --> 01:16:38,770
-And--
+Dan--
 
 1861
 01:16:38,770 --> 01:16:39,870
-STUDENT: [INAUDIBLE]
+MAHASISWA: [TIDAK TERDENGAR]
 
 1862
 01:16:39,870 --> 01:16:40,924
-PROFESSOR: Yeah, you
-could flip it around
+PROFESSOR: Ya, kamu
+dapat menukarnya juga
 
 1863
 01:16:40,924 --> 01:16:42,770
-and it'll decrypt
-to something else.
+dan dia akan mendekripsikan
+menjadi hal yang lain.
 
 1864
 01:16:42,770 --> 01:16:44,260
-The service was like, oh
-yeah, that's the new password,
+Layanannya seperti, oh ya,
+itu adalah kata sandi yang baru,
 
 1865
 01:16:44,260 --> 01:16:44,882
-and set it.
+dan memasangnya.
 
 1866
 01:16:44,882 --> 01:16:46,340
-And then you're
-sort of locked out.
+Dan kemudian kamu akan
+semacam terkunci.
 
 1867
 01:16:46,340 --> 01:16:47,631
-So it seems really unfortunate.
+Hal tersebut sangatlah sial.
 
 1868
 01:16:47,631 --> 01:16:49,130
-And this is yet
-another reason why
+Dan ini juga alasan
+lain mengapa
 
 1869
 01:16:49,130 --> 01:16:52,325
-you want separate encryption and
-authentication in the protocol.
+kamu butuh enkripsi terpisah
+dan otentikasi dalam protokolnya.
 
 1870
 01:16:52,325 --> 01:16:54,200
