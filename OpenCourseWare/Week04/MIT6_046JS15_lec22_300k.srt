@@ -6531,7 +6531,7 @@ Yap.
 
 1390
 01:16:26,893 --> 01:16:29,258
-HADIRIN: [TIDAK TERDENGAR]
+HADIRIN: [TIDAK TERDENGAR].
 dari yang terbesar
 
 1391
@@ -6583,7 +6583,7 @@ Anda mendapatkan 13.
 1401
 01:16:50,170 --> 01:16:52,580
 Tidak ada gunanya
-menempatkan 2 dan 3 dan 6,
+menempatkan 2 dan 3 dan 6 ,
 
 1402
 01:16:52,580 --> 01:16:56,400
