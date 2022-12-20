@@ -7021,33 +7021,33 @@ forced HTTPS in some ways,
 
 1485
 01:03:20,040 --> 01:03:24,720
-and it tries to prevent
-these kinds of mistakes.
+dan mencoba mencegah
+kesalahan semacam ini.
 
 1486
 01:03:24,720 --> 01:03:28,380
-So I guess one thing
-that forced HTTP does
+Jadi saya kira satu hal
+yang memaksa HTTP lakukan
 
 1487
 01:03:28,380 --> 01:03:31,760
-is they worry about
-such mistakes.
+adalah mereka khawatir tentang
+kesalahan seperti itu.
 
 1488
 01:03:31,760 --> 01:03:36,410
-And when you sort of opted a
-site into this forced HTTPS
+Dan saat Anda mengikutsertakan sebuah
+situs ke dalam paket HTTPS paksa ini
 
 1489
 01:03:36,410 --> 01:03:39,560
-plan, one thing that the
-browser will do for you
+, satu hal yang akan
+dilakukan browser untuk Anda
 
 1490
 01:03:39,560 --> 01:03:43,270
-is prevent any HTTPS
-connections to that host
+mencegah koneksi HTTPS apa pun
+ke host tersebut
 
 1491
 01:03:43,270 --> 01:03:44,560
