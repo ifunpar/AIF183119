@@ -7051,79 +7051,79 @@ ke host tersebut
 
 1491
 01:03:43,270 --> 01:03:44,560
-in the first place.
+sejak awal.
 
 1492
 01:03:44,560 --> 01:03:47,250
-So there's no way to make
-this kind of mistakes
+Jadi tidak ada cara untuk membuat
+kesalahan seperti ini
 
 1493
 01:03:47,250 --> 01:03:50,580
-of not flagging your
-cookie as secure,
+dengan tidak menandai cookie
+Anda sebagai aman,
 
 1494
 01:03:50,580 --> 01:03:54,340
-or having other sort of kinds
-of cookie problems as well.
+atau juga mengalami jenis
+masalah cookie lainnya.
 
 1495
 01:03:54,340 --> 01:03:57,430
-Another more subtle
-problem-- so this,
+Masalah lain yang lebih tidak
+kentara-- jadi ini,
 
 1496
 01:03:57,430 --> 01:03:58,930
-the problem we
-talked about just now
+masalah yang
+baru saja kita bicarakan
 
 1497
 01:03:58,930 --> 01:04:00,430
-is the developer
-forgetting to set
+adalah pengembang
+lupa menyetel
 
 1498
 01:04:00,430 --> 01:04:01,974
-the secure flag on a cookie.
+tanda aman pada cookie.
 
 1499
 01:04:01,974 --> 01:04:02,890
-So that seems fixable.
+Jadi sepertinya itu bisa diperbaiki.
 
 1500
 01:04:02,890 --> 01:04:04,639
-OK, maybe the developer
-should just do it.
+Oke, mungkin pengembang
+harus melakukannya.
 
 1501
 01:04:04,639 --> 01:04:05,690
-OK, fix that problem.
+Oke, perbaiki masalah itu.
 
 1502
 01:04:05,690 --> 01:04:07,270
-The thing that's
-much more subtle
+Hal yang
+jauh lebih halus
 
 1503
 01:04:07,270 --> 01:04:11,030
-is that when a secure web
-server gets a cookie back
+adalah ketika server web
+yang aman mendapatkan cookie kembali
 
 1504
 01:04:11,030 --> 01:04:13,990
-from the client, it actually has
-no idea whether this cookie was
+dari klien, sebenarnya
+tidak tahu apakah cookie ini
 
 1505
 01:04:13,990 --> 01:04:17,020
-sent through an encrypted
-connection or a plain text
+dikirim melalui koneksi terenkripsi
+atau koneksi teks
 
 1506
 01:04:17,020 --> 01:04:19,819
-connection because
-when the server gets
+biasa karena
+ketika server mendapatkan
 
 1507
 01:04:19,819 --> 01:04:21,360
