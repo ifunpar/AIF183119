@@ -8573,7 +8573,8 @@ memory, the ticket remains.
 
 1811
 01:14:49,420 --> 01:14:51,370
-
+Anda bisa, dalam prinsip,
+menggunakan tiketnya.
 
 1812
 01:14:51,370 --> 01:14:54,916
