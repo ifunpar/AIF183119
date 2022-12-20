@@ -8740,60 +8740,60 @@ the client actually
 
 1846
 01:15:58,080 --> 01:16:00,350
-knows exactly what service
-it wants to talk to.
+tau dengan tepat layanan apa
+yang akan digunakan untuk berbicara.
 
 1847
 01:16:00,350 --> 01:16:07,120
-So if it-- it's going
-to make sure, well,
+Jadi jika seperti itu-- itu akan
+memastikan, ya,
 
 1848
 01:16:07,120 --> 01:16:09,620
-there are some messages, some
-parts of this protocol I'm not
+ada beberapa pesan, beberapa
+bagian dari protokol yang saya tidak
 
 1849
 01:16:09,620 --> 01:16:11,810
-showing that allow the
-client to make sure
+tunjukan yang memperbolehkan
+klien untuk memastikan
 
 1850
 01:16:11,810 --> 01:16:14,330
-they actually got the
-ticket for the right thing.
+mereka akan mendapatkan
+tiket untuk hal yang tepat. 
 
 1851
 01:16:14,330 --> 01:16:17,200
-But yeah, so the-- sorry.
+Tapi ya, jadi-- maaf.
 
 1852
 01:16:17,200 --> 01:16:17,700
-Question?
+Pertanyaan?
 
 1853
 01:16:17,700 --> 01:16:20,941
-STUDENT: [INAUDIBLE] very easy
-to denial of service attack
+Murid: [tidak bisa terdengar] sangat mudah
+untuk menolak serangan layanan
 
 1854
 01:16:20,941 --> 01:16:25,207
-when an attacker [INAUDIBLE]
-modifying the encrypted version
+ketika seorang penyerang [tidak bisa didengar]
+memodifikasi versi yang sudah dienkripsi
 
 1855
 01:16:25,207 --> 01:16:26,926
-of the new password.
+dari pasword baru.
 
 1856
 01:16:26,926 --> 01:16:29,340
-PROFESSOR: Yeah, so there's
-actually lot of things.
+PROFESOR: ya, jadi 
+sebenarnya ada banyak hal.
 
 1857
 01:16:29,340 --> 01:16:34,392
-Because, for example, Kerberos
-doesn't do authentication
+Karena, sebagai contoh, kerberos
+tidak melakukan autentikasi
 
 1858
 01:16:34,392 --> 01:16:35,850
