@@ -6441,135 +6441,135 @@ TADGE DRYJA: Ya.
 
 1397
 01:00:36,580 --> 01:00:37,650
-AUDIENCE: And then do some--
+AUDIENS: Dan kemudian lakukan beberapa--
 
 1398
 01:00:37,650 --> 01:00:38,430
-TADGE DRYJA: Yeah.
+TADGE DRYJA: Ya.
 
 1399
 01:00:38,430 --> 01:00:41,320
-So the basic idea--
-yeah, you're right.
+Jadi ide dasarnya--
+ya, Anda benar.
 
 1400
 01:00:41,320 --> 01:00:43,630
-Multiply this side
-by G. Then you also
+Kalikan sisi ini
+dengan G. Lalu Anda juga
 
 1401
 01:00:43,630 --> 01:00:46,330
-have to multiply the
-other side by G, right?
+harus mengalikan
+sisi lain dengan G, benar?
 
 1402
 01:00:46,330 --> 01:00:50,170
-So you say, OK, well,
-as the verifier--
+Jadi Anda katakan, OK, baiklah,
+sebagai verifikator--
 
 1403
 01:00:50,170 --> 01:00:51,732
-I've got R, I've got s--
+saya punya R, Saya punya s--
 
 1404
 01:00:51,732 --> 01:00:53,590
-I multiply s by
-G, and now I have
+Saya mengalikan s dengan
+G, dan sekarang saya harus
 
 1405
 01:00:53,590 --> 01:00:57,800
-to multiply this side by G.
-And what'll that look like?
+mengalikan sisi ini dengan G.
+Dan seperti apa bentuknya?
 
 1406
 01:00:57,800 --> 01:00:59,764
-Well, what's k times G?
+Baik, apakah k kali G?
 
 1407
 01:00:59,764 --> 01:01:00,264
-AUDIENCE: R.
+AUDIENS: R.
 
 1408
 01:01:00,264 --> 01:01:03,490
-TADGE DRYJA: R. What's
-little a times G?
+TADGE DRYJA: R. Berapa
+a kecil dikalikan dengan G?
 
 1409
 01:01:03,490 --> 01:01:07,140
-Big A. So yeah.
+A besar. Maka, yah.
 
 1410
 01:01:07,140 --> 01:01:09,090
-I want to verify.
+Saya mau memastikan.
 
 1411
 01:01:09,090 --> 01:01:11,490
-I want to verify that
-this equation was used,
+Saya mau memastikan bahwa
+persamaan ini digunakan,
 
 1412
 01:01:11,490 --> 01:01:15,120
-right-- s equals k minus
-this hash times little a.
+benar-- s sama dengan k minus
+hash ini dikalikan a kecil.
 
 1413
 01:01:15,120 --> 01:01:17,490
-Multiply both sides
-by G, I get s times G
+Mengkalikan dua sisi
+dengan G, Saya mendapatkan s kali G,
 
 1414
 01:01:17,490 --> 01:01:21,660
-equals k times G minus the
-hash thing times little a times
+sama dengan k dikali G minus 
+hash dikali a kecil dikali
 
 1415
 01:01:21,660 --> 01:01:26,070
-G. This is big A. This is R.
+G. Ini adalah A besar. Ini R.
 
 1416
 01:01:26,070 --> 01:01:29,490
-Hey, now I know everything
-here as the verifier, right?
+Hei, sekarang saya tau semuanya
+di sini sebagai verifikator, benar?
 
 1417
 01:01:29,490 --> 01:01:30,552
-I know what s time G is.
+Saya tahu berapa nilai s kali G.
 
 1418
 01:01:30,552 --> 01:01:31,260
-I know what R is.
+Saya tahu berapa nilai R.
 
 1419
 01:01:31,260 --> 01:01:32,490
-I know what big A is.
+Saya tahu berapa nilai A besar.
 
 1420
 01:01:32,490 --> 01:01:35,593
-I know what's going
-into this hash function.
+Saya tahu apa yang masuk
+pada fungsi hash ini.
 
 1421
 01:01:35,593 --> 01:01:36,510
-And so I just say, OK.
+Jadi saya hanya mengatakan, OK. 
 
 1422
 01:01:36,510 --> 01:01:44,130
-Well, I rearrange it a little,
-and I say, is R equal to this?
+Baik, saya susun ulang sedikit,
+dan saya katakan, R sama dengan ini?
 
 1423
 01:01:44,130 --> 01:01:46,350
-And if it is, that's
-a good signature.
+Dan jika iya, maka itu
+adalah tanda tangan yang valid.
 
 1424
 01:01:46,350 --> 01:01:50,620
-If it's not, it's
-not a good signature.
+Jika tidak, maka itu 
+bukan tanda tangan yang valid.
 
 1425
 01:01:50,620 --> 01:01:51,900
-Any questions about this?
+Ada pertanyaan tentang ini?
 
 1426
 01:01:51,900 --> 01:01:56,850
