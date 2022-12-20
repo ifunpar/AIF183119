@@ -6912,112 +6912,112 @@ Apakah ada semacam pegalihan?
 
 1462
 01:02:31,917 --> 01:02:33,750
-PROFESSOR: Well, what
-that hacker presumably
+PROFESOR: Nah, yang akan
+dicegat oleh hacker yang
 
 1463
 01:02:33,750 --> 01:02:36,860
-would intercept is an HTTP
-request from the client going
+kemungkinan terjadi adalah
+permintaan HTTP dari client yang menuju
 
 1464
 01:02:36,860 --> 01:02:40,939
-to http amazon.com, and
-that request includes
+ke http amazon.com, dan
+permintaan tersebut mencakup
 
 1465
 01:02:40,939 --> 01:02:43,397
-all your amazon.com cookies,
-or cookies for whatever domain
+semua cookie amazon.com Anda
+atau cookie untuk domain apa pun
 
 1466
 01:02:43,397 --> 01:02:45,210
-it is that you're
-sending your request to.
+yang Anda
+kirimkan permintaan Anda.
 
 1467
 01:02:45,210 --> 01:02:47,084
-So if you don't mark
-those cookies as secure,
+Jadi jika Anda tidak menandai
+cookie-cookie tersebut sebagai aman,
 
 1468
 01:02:47,084 --> 01:02:49,240
-there will be set of both
-encrypted and unencrypted
+akan ada serangkaian koneksi yang
+terenkripsi dan tidak terenkripsi.
 
 1469
 01:02:49,240 --> 01:02:49,740
-connections.
+koneksi.
 
 1470
 01:02:49,740 --> 01:02:51,810
-AUDIENCE: So how does that
-request get initiated?
+AUDIENS: Bagaimana
+permintaan tersebut dimulai?
 
 1471
 01:02:51,810 --> 01:02:52,600
-PROFESSOR: Ah, OK.
+PROFESOR: Ah, OK.
 
 1472
 01:02:52,600 --> 01:02:53,100
-Yeah.
+Yah.
 
 1473
 01:02:53,100 --> 01:02:55,360
-So maybe you get the user
-to visit newyorktimes.com
+Jadi mungkin Anda membuat pengguna
+mengunjungi newyorktimes.com
 
 1474
 01:02:55,360 --> 01:02:58,260
-and you pay for an advertisement
-that loads an image
+dan Anda membayar iklan
+yang memuat gambar
 
 1475
 01:02:58,260 --> 01:03:01,194
-from http colon amazon.com.
+dari http colon amazon.com.
 
 1476
 01:03:01,194 --> 01:03:02,980
-And there's nothing
-preventing you
+Dan tidak ada yang
+mencegah Anda
 
 1477
 01:03:02,980 --> 01:03:05,120
-from saying, please load
-an image from this URL.
+mengatakan, tolong muat
+gambar dari URL ini.
 
 1478
 01:03:05,120 --> 01:03:06,950
-But when a browser
-tries to connect there,
+Tetapi ketika browser
+mencoba untuk terhubung ke sana,
 
 1479
 01:03:06,950 --> 01:03:09,858
-it'll send the cookies if
-the connection succeeds.
+ia akan mengirimkan cookie jika 
+jika koneksi berhasil.
 
 1480
 01:03:09,858 --> 01:03:10,854
-Question back there.
+Pertanyaan kembali di sana.
 
 1481
 01:03:10,854 --> 01:03:14,174
-AUDIENCE: Will it ask
-for a change [INAUDIBLE]?
+AUDIENS: Apakah akan meminta
+perubahan [TIDAK TERDENGAR]?
 
 1482
 01:03:14,174 --> 01:03:14,840
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1483
 01:03:14,840 --> 01:03:16,890
-So HTTPS everywhere
-is an extension
+Jadi HTTPS di mana-mana
+adalah ekstensi
 
 1484
 01:03:16,890 --> 01:03:20,040
-that is very similar to
-forced HTTPS in some ways,
+yang sangat mirip dengan
+HTTPS yang dipaksa dalam beberapa hal,
 
 1485
 01:03:20,040 --> 01:03:24,720
