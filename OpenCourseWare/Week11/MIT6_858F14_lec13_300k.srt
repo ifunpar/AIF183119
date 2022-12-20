@@ -4969,20 +4969,20 @@ berbasis alamat IP.
 
 1046
 00:44:00,430 --> 00:44:02,890
-So what's the point of the
-time stamp and lifetime things
+Jadi apa tujuannya dari
+stempel waktu dan hal seumur hidup
 
 1047
 00:44:02,890 --> 00:44:04,760
-in the ticket up there?
+pada tiket disana?
 
 1048
 00:44:04,760 --> 00:44:06,445
-One are those guys good for?
+Salah satu yang baik untuk orang-orang itu?
 
 1049
 00:44:06,445 --> 00:44:08,595
-Are they useful?
+Apakah mereka berguna?
 
 1050
 00:44:08,595 --> 00:44:09,095
@@ -4990,41 +4990,41 @@ Yeah.
 
 1051
 00:44:09,095 --> 00:44:11,270
-STUDENT: Preventing
-replay attacks.
+SISWA: Mencegah
+serangan ulang.
 
 1052
 00:44:11,270 --> 00:44:12,687
-PROFESSOR: Well,
-so the syndicator
+PROFESOR: Baik,
+jadi sindikator
 
 1053
 00:44:12,687 --> 00:44:14,520
-is the thing that's
-going to help us prevent
+adalah hal yang
+akan membantu kita mencegah
 
 1054
 00:44:14,520 --> 00:44:16,080
-replay attacks in a second.
+memutar ulang serangan dalam sedetik.
 
 1055
 00:44:16,080 --> 00:44:18,470
-Because that thing gets
-generated every time
+Karena hal tersebut dapat
+diciptakan kapan saja
 
 1056
 00:44:18,470 --> 00:44:20,370
-you do a new request.
+anda melakukan sebuah permintaan baru.
 
 1057
 00:44:20,370 --> 00:44:22,490
-On the other hand, the
-ticket just stays the same.
+Di sisi lain,
+tiket tetap sama.
 
 1058
 00:44:22,490 --> 00:44:24,739
-So it's certainly not
-preventing replay attacks there.
+Jadi tentu saja tidak akan
+mencegah serangan ulang di sana.
 
 1059
 00:44:24,739 --> 00:44:25,304
