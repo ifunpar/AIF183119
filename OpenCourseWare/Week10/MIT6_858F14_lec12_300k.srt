@@ -6453,582 +6453,582 @@ untuk membuatnya terlihat seperti acak.
 
 1356
 00:56:31,832 --> 00:56:33,290
-And then for the
-server, it's going
+Dan kemudian untuk
+servernya, akan
 
 1357
 00:56:33,290 --> 00:56:34,885
-to be very difficult to
-distinguish whether this
+menjadi sangat sulit
+untuk membedakan apakah ini
 
 1358
 00:56:34,885 --> 00:56:37,385
-is an attacker trying to
-connect to me or some client
+adalah penyerang yang berusaha
+tersambung dengan kita atau seorang klien
 
 1359
 00:56:37,385 --> 00:56:38,510
-I've never heard of before.
+yang saya belum pernah dengar sebelumnya.
 
 1360
 00:56:38,510 --> 00:56:41,320
-So if you're some website that's
-supposed to accept connections
+Sehingga jika Anda adalah situs web yang
+seharusnya menerima koneksi
 
 1361
 00:56:41,320 --> 00:56:44,275
-from anywhere in the world, this
-is going to be a big problem.
+dari mana pun di dunia, hal ini
+akan menjadi masalah besar.
 
 1362
 00:56:44,275 --> 00:56:46,870
-Because either you deny
-access to everyone,
+Karena antara Anda menolak
+akses kepada semua orang,
 
 1363
 00:56:46,870 --> 00:56:51,080
-or you have a store state
-for all these mostly fake
+atau Anda memiliki tempat penyimpanan
+status untuk hampir semua koneksi
 
 1364
 00:56:51,080 --> 00:56:52,716
-connection attempts.
+palsu yang mencoba.
 
 1365
 00:56:52,716 --> 00:56:55,020
-Does that make sense?
+Apakah itu masuk akal?
 
 1366
 00:56:55,020 --> 00:56:57,480
-So this is a bit of a
-problem for TCP, and in fact
+Jadi ini adalah sedikit
+masalah untuk TCP, dan faktanya
 
 1367
 00:56:57,480 --> 00:57:01,990
-for most protocols that
-allow some sort of connection
+untuk hampir semua protokol yang
+mengizinkan beberapa inisiasi
 
 1368
 00:57:01,990 --> 00:57:04,970
-initiation, and the
-server has to store state.
+koneksi, dan server
+harus menyimpan status.
 
 1369
 00:57:04,970 --> 00:57:05,890
-So there's some fixes.
+Jadi ada beberapa perbaikan.
 
 1370
 00:57:05,890 --> 00:57:07,490
-We'll talk about
-in a second what
+Kita akan membahasnya
+sebentar lagi apa
 
 1371
 00:57:07,490 --> 00:57:10,285
-workaround TCP implements to
-try to deal with this problem.
+solusi yang diimplementasikan TCP untuk
+mencoba mengatasi masalah ini.
 
 1372
 00:57:10,285 --> 00:57:13,788
-This is called SYN
-flooding in TCP.
+Ini disebut SYN
+flooding pada TCP.
 
 1373
 00:57:13,788 --> 00:57:15,162
-But in general,
-this is a problem
+Tetapi secara umum,
+ini adalah sebuah masalah
 
 1374
 00:57:15,162 --> 00:57:17,030
-that's worth knowing
-about and trying
+yang pantas diketahui
+dan coba
 
 1375
 00:57:17,030 --> 00:57:19,975
-to avoid in any protocol
-you design on top as well.
+untuk dihindari di protokol apa pun
+yang Anda rancang yang berjalan di atasnya.
 
 1376
 00:57:19,975 --> 00:57:22,120
-So you want to make sure
-that the server doesn't
+Jadi Anda ingin memastikan
+bahwa server tidak
 
 1377
 00:57:22,120 --> 00:57:24,830
-have to keep state
-until it can actually
+harus menyimpan keadaan
+sampai benar-benar bisa bisa
 
 1378
 00:57:24,830 --> 00:57:27,204
-authenticate and identify,
-who is the client?
+mengotentikasi dan mengidentifikasi,
+siapakah kliennya?
 
 1379
 00:57:27,204 --> 00:57:29,745
-Because by that time, if you've
-identified who the client is,
+Karena pada saat itu, jika Anda
+sudah mengidentifikasi siapa itu kliennya,
 
 1380
 00:57:29,745 --> 00:57:31,340
-you've authenticated
-them somehow,
+Anda sudah mengotentikasi
+mereka entah bagaimana,
 
 1381
 00:57:31,340 --> 00:57:32,290
-then you can actually
-make a decision,
+lalu Anda bisa benar-benar
+membuat sebuah keputusan,
 
 1382
 00:57:32,290 --> 00:57:34,515
-well, every client is
-allowed to only connect
+yah, setiap klien hanya
+diperbolehkan untuk terhubung
 
 1383
 00:57:34,515 --> 00:57:35,920
-once, or something.
+sekali, atau sesuatu.
 
 1384
 00:57:35,920 --> 00:57:37,780
-And then I'm not going
-to keep more state.
+Dan kemudian saya tidak akan
+menyimpan lebih banyak status.
 
 1385
 00:57:37,780 --> 00:57:40,240
-Here, the problem is
-you're guaranteeing
+Di sini, masalahnya adalah
+Anda menjamin
 
 1386
 00:57:40,240 --> 00:57:42,938
-that you're storing state
-before you have any idea who it
+bahwa Anda menyimpan status
+sebelum Anda tahu siapa
 
 1387
 00:57:42,938 --> 00:57:44,146
-is that is connecting to you.
+yang terhubung dengan Anda.
 
 1388
 00:57:46,670 --> 00:57:48,330
-So let's look at
-how you can actually
+Jadi mari lihat
+bagaimana Anda dapat
 
 1389
 00:57:48,330 --> 00:57:53,070
-solve this SYN flooding attack
-where the server accumulates
+mengatasi serangan SYN flooding ini
+di mana server mengakumulasi
 
 1390
 00:57:53,070 --> 00:57:54,850
-lots of state.
+banyak keadaan.
 
 1391
 00:57:54,850 --> 00:57:57,530
-So of course, if you
-could change TCP again,
+Jadi tentu saja, jika Anda
+dapat mengubah TCP lagi,
 
 1392
 00:57:57,530 --> 00:58:00,810
-you could fix this pretty
-easily by using cryptography
+Anda dapat memperbaikinya dengan sangat
+mudah dengan menggunakan kriptografi
 
 1393
 00:58:00,810 --> 00:58:04,490
-or something or changing exactly
-who's responsible for storing
+atau sesuatu atau mengubah dengan tepat
+siapa yang bertanggung jawab untuk menyimpan
 
 1394
 00:58:04,490 --> 00:58:05,130
-what state.
+keadaan tertentu.
 
 1395
 00:58:05,130 --> 00:58:07,100
-The problem is we
-have TCP as is.
+Masalahnya adalah kita
+memiliki TCP apa adanya.
 
 1396
 00:58:07,100 --> 00:58:11,310
-And could we fix this problem
-without changing the TCP wire
+Dan bisakah kita memperbaiki masalah
+tanpa mengubah protokol
 
 1397
 00:58:11,310 --> 00:58:12,860
-protocol?
+TCP?
 
 1398
 00:58:12,860 --> 00:58:15,657
-So this is, again, an exercise
-in trying to figure out, well,
+Jadi ini, sekali lagi, latihan untuk
+mencoba mencari tahu, yah,
 
 1399
 00:58:15,657 --> 00:58:17,930
-what exactly tricks
-we could play
+trik apa yang sebenarnya
+bisa kita gunakan
 
 1400
 00:58:17,930 --> 00:58:21,470
-or exactly what assumptions
-we could relax and still
+atau lebih tepatnya asumsi apa
+yang bisa kita perlunak dan tetap
 
 1401
 00:58:21,470 --> 00:58:24,715
-stick to the TCP header
-format and other things.
+tetap mengikuti format header
+TCP dan hal-hal lainnya.
 
 1402
 00:58:24,715 --> 00:58:28,900
-And the trick is to in fact
-figure out a clever way
+Dan triknya adalah sebenarnya untuk
+menemukan cara yang cerdas
 
 1403
 00:58:28,900 --> 00:58:31,500
-to make the server
-stateless without having
+untuk membuat server
+tidak menyimpan keadaan tanpa harus
 
 1404
 00:58:31,500 --> 00:58:33,842
-to-- so the server isn't
-going to have to keep
+membuatnya-- sehingga server tidak
+perlu menyimpan
 
 1405
 00:58:33,842 --> 00:58:36,424
-this table around in memory.
+tabel ini di memori.
 
 1406
 00:58:36,424 --> 00:58:37,840
-And the way we're
-going to do this
+Dan cara kita
+melakukannya adalah
 
 1407
 00:58:37,840 --> 00:58:42,140
-is by carefully choosing SMS.
+dengan memilih SMS dengan hati-hati.
 
 1408
 00:58:42,140 --> 00:58:44,840
-Instead of using this formula
-we were looking at before, where
+Alih-alih menggunakan formula ini
+yang kita lihat sebelumnya, di mana
 
 1409
 00:58:44,840 --> 00:58:47,650
-we were to add this
-function, we're
+kita harus menambahkan
+fungsi ini, kita
 
 1410
 00:58:47,650 --> 00:58:51,170
-instead going to
-choose this sequence
+akan memilih
+urutan angka
 
 1411
 00:58:51,170 --> 00:58:52,710
-number in a different way.
+ini dalam cara yang lain.
 
 1412
 00:58:52,710 --> 00:58:55,094
-And I'll give you
-exactly the formula.
+Dan saya akan memberikan Anda
+persis rumusnya.
 
 1413
 00:58:55,094 --> 00:58:57,510
-And then we'll talk about why
-this is actually interesting
+Dan kita akan membahas mengapa
+hal ini menarik
 
 1414
 00:58:57,510 --> 00:58:59,530
-and what nice properties it has.
+dan properti bagus apa yang dimilikinya.
 
 1415
 00:58:59,530 --> 00:59:02,192
-So if the server detects that
-it's under this kind of attack,
+Jadi apabila server mendeteksi dirinya berada
+di bawah serangan semacam ini,
 
 1416
 00:59:02,192 --> 00:59:03,650
-it's going to switch
-into this mode
+dia akan beralih
+ke dalam mode ini
 
 1417
 00:59:03,650 --> 00:59:12,510
-where it chooses SNS using
-this formula of applying
+di mana hal tersebut akan memilih SNS menggunakan
+rumus ini penerapan yang menerapkan
 
 1418
 00:59:12,510 --> 00:59:14,900
-basically the same or
-similar kind of function F
+pada dasarnya sama atau
+serupa dengan fungsi F
 
 1419
 00:59:14,900 --> 00:59:15,490
-we saw before.
+yang kita lihat sebelumnya.
 
 1420
 00:59:18,470 --> 00:59:20,100
-And what it's going
-to apply it to
+Dan apa yang akan diterapkan
+olehnya adalah
 
 1421
 00:59:20,100 --> 00:59:25,652
-is the source IP, destination
-IP, the same things as before,
+IP sumber, IP tujuan
+IP, hal yang sama seperti sebelumnya,
 
 1422
 00:59:25,652 --> 00:59:35,920
-source port, destination
-port, and also timestamp,
+port sumber, port tujuan,
+dan juga penanda waktu,
 
 1423
 00:59:35,920 --> 00:59:39,420
-and also a key in here as well.
+dan juga sebuah kunci di dalam sini.
 
 1424
 00:59:39,420 --> 00:59:45,374
-And we're going to concatenate
-it with a timestamp as well.
+Dan kita akan menggabungkannya
+dengan penanda waktu juga.
 
 1425
 00:59:45,374 --> 00:59:47,665
-So this timestamp is going
-to be fairly coarse grained.
+Jadi penanda waktu ini akan
+menjadi cukup kasar.
 
 1426
 00:59:47,665 --> 00:59:49,206
-It's going to go in
-order of minutes.
+Hal tersebut akan berada pada
+orde menit.
 
 1427
 00:59:49,206 --> 00:59:52,290
-So every minute, the
-timestamp ticks off by one.
+Jadi setiap menit,
+penanda waktu ditandai satu persatu.
 
 1428
 00:59:52,290 --> 00:59:54,560
-It's a very coarse grained time.
+Ini waktu yang sangat kasar.
 
 1429
 00:59:54,560 --> 00:59:59,920
-And there's probably some split
-between this part of the header
+Dan di sana mungkin ada beberapa pemisahan
+di antara bagian dari header ini
 
 1430
 00:59:59,920 --> 01:00:01,270
-and this part of the header.
+dan bagian dari header ini.
 
 1431
 01:00:01,270 --> 01:00:03,270
-This timestamp doesn't
-need a whole lot of bits.
+Penanda waktu ini
+membutuhkan banyak bit.
 
 1432
 01:00:03,270 --> 01:00:07,000
-So I forget exactly what this
-protocol does in real machines.
+Jadi saya lupa secara tepat apa yang
+protokol ini lakukan dalam mesin sebenarnya.
 
 1433
 01:00:07,000 --> 01:00:09,730
-But you could easily
-imagine maybe using 8 bits.
+Tapi Anda dapat dengan mudah
+membayangkan mungkin dengan menggunakan 8 bit.
 
 1434
 01:00:09,730 --> 01:00:11,158
-For the timestamp,
-I'm going to be
+Untuk timestamp-nya,
+saya akan
 
 1435
 01:00:11,158 --> 01:00:15,920
-using 24 bits for this chunk
-of the sequence number.
+menggunakan 24 bit untuk bagian ini
+dari nomor urut.
 
 1436
 01:00:15,920 --> 01:00:18,830
-All right, so why
-is this a good plan?
+Baiklah, jadi mengapa
+ini merupakan rencana yang baik?
 
 1437
 01:00:18,830 --> 01:00:19,850
-What's going on here?
+Apa yang terjadi di sini?
 
 1438
 01:00:19,850 --> 01:00:21,990
-Why this weird formula?
+Mengapa rumus aneh ini?
 
 1439
 01:00:21,990 --> 01:00:24,210
-So I think you have to
-remember, one was the property
+Jadi saya pikir Anda harus
+mengingat, satu properti
 
 1440
 01:00:24,210 --> 01:00:26,920
-that we were trying to achieve
-of the sequence number.
+yang kita coba untuk capai
+pada nomor urut.
 
 1441
 01:00:26,920 --> 01:00:28,580
-So there's two things going on.
+Jadi ada dua hal yang terjadi.
 
 1442
 01:00:28,580 --> 01:00:31,844
-One is there's this defense
-against duplicated packets
+Satu adalah adanya pertahanan ini
+terhadap paket yang terduplikat
 
 1443
 01:00:31,844 --> 01:00:35,041
-that we were trying to achieve
-by-- maybe the formula is still
+yang kita coba untuk capai
+dengan-- mungkin rumusnya masih
 
 1444
 01:00:35,041 --> 01:00:35,541
-here.
+di sini.
 
 1445
 01:00:35,541 --> 01:00:37,030
-Nope-- oh, yeah, yeah, here.
+Tidak-- oh, ya, ya, di sini.
 
 1446
 01:00:37,030 --> 01:00:39,210
-Right, so just to
-compare these guys-- so
+Baik, jadi hanya untuk 
+membandingkan beberapa hal ini-- jadi
 
 1447
 01:00:39,210 --> 01:00:42,100
-when we're not under
-attack, we were previously
+saat kita sedang tidak dalam
+serangan, kita sebelumnya
 
 1448
 01:00:42,100 --> 01:00:45,148
-maintaining this old style
-sequence number scheme
+mempertahankan skema
+nomor urut gaya lama ini
 
 1449
 01:00:45,148 --> 01:00:47,606
-to prevent duplicate packets
-from previous connections, all
+untuk mencegah paket duplikat
+dari koneksi-koneksi sebelumnya, seluruh
 
 1450
 01:00:47,606 --> 01:00:49,495
-this good stuff.
+hal baik ini.
 
 1451
 01:00:49,495 --> 01:00:51,120
-It turns out people
-couldn't figure out
+Ternyata orang-orang
+tidak bisa mencari tahu
 
 1452
 01:00:51,120 --> 01:00:53,800
-a way to defend against these
-kinds of SYN flooding attacks
+sebuah cara untuk bertahan melawan
+serangan SYN flooding jenis ini
 
 1453
 01:00:53,800 --> 01:00:55,990
-without giving up
-on this property,
+tanpa mengorbankan
+properti ini,
 
 1454
 01:00:55,990 --> 01:00:57,370
-so basically
-saying, well, here's
+jadi pada dasarnya
+berkata, yah, inilah
 
 1455
 01:00:57,370 --> 01:00:59,670
-one plan that works
-well in some situations.
+satu rencana yang mungkin bisa berhasil
+dalam kasus tertentu.
 
 1456
 01:00:59,670 --> 01:01:02,330
-Here's a different plan where
-we'll give up on that ISN
+Ini adalah sebuah rencana di mana
+kita tidak perlu memikirkan tentang
 
 1457
 01:01:02,330 --> 01:01:03,760
-old style component.
+komponen ISN lama itu.
 
 1458
 01:01:03,760 --> 01:01:06,890
-And instead, we'll
-focus on just ensuring
+Dah alih-alih, kita
+fokus untuk sekadar memastikan
 
 1459
 01:01:06,890 --> 01:01:12,305
-that if someone presents us this
-sequence number S in response
+jika terdapat 
+nomor urut S dalam respon
 
 1460
 01:01:12,305 --> 01:01:15,900
-to a packet, like
-here, then we know it
+ke sebuah paket, seperti di sini,
+maka kita tahu itu
 
 1461
 01:01:15,900 --> 01:01:18,150
-must've been the right client.
+pasti klien yang benar.
 
 1462
 01:01:18,150 --> 01:01:22,434
-So remember that in order to
-prevent IP spoofing attacks,
+Maka ingatlah bahwa untuk
+mencegah serangan IP spoofing,
 
 1463
 01:01:22,434 --> 01:01:23,850
-we sort of rely
-on this SNS value.
+kita bergantung
+pada nilai SNS ini.
 
 1464
 01:01:23,850 --> 01:01:28,310
-So if the server sends this
-SNS value to some client, then
+Maka jika server mengirim
+nilai SNS ini,
 
 1465
 01:01:28,310 --> 01:01:30,800
-hopefully only that client can
-send us back the correct SNS
+kita berharap hanya klien yang dapat 
+mengirim nilai SNS yang benar kembali ke
 
 1466
 01:01:30,800 --> 01:01:32,985
-value, finish establishing
-the connection.
+kita, dan selesai membangun
+koneksinya.
 
 1467
 01:01:32,985 --> 01:01:36,220
-And this is why you had to store
-it in this table over here.
+Dan ini adalah alasan mengapa Anda harus menyimpannya
+di dalam tabel sebelah sini.
 
 1468
 01:01:36,220 --> 01:01:37,730
-Because otherwise,
-how do you know
+Karena jika tidak,
+bagaimana Anda tahu
 
 1469
 01:01:37,730 --> 01:01:40,610
-if this is a real response
-or a fake response?
+bahwa ini adalah respon 
+asli atau palsu?
 
 1470
 01:01:40,610 --> 01:01:42,660
-And the reason for using
-this function F here
+Dan alasan mengapa memakai 
+fungsi F di sini
 
 1471
 01:01:42,660 --> 01:01:47,670
-is that now we can maybe not
-store this table in memory.
+adalah bahwa kita mungkin tidak dapat
+menyimpan tabel ini di memori.
 
 1472
 01:01:47,670 --> 01:01:51,760
-And instead, when a connection
-attempt arrives here,
+Dan alih-alih, ketika percobaan koneksi
+sampai di sini,
 
 1473
 01:01:51,760 --> 01:01:53,480
-we're going to
-compute SNS according
+kita akan menghitung SNS
+sesuai dengan
 
 1474
 01:01:53,480 --> 01:01:55,440
-to this formula
-over here and just
+rumus di sini
+dan cukup
 
 1475
 01:01:55,440 --> 01:01:58,058
-send it back to whatever client
-pretends to have connected
+mengirimnya kembali ke klien manapun 
+yang berpura-pura terkoneksi
 
 1476
 01:01:58,058 --> 01:01:59,250
-to us.
+kepada kita.
 
 1477
 01:01:59,250 --> 01:02:01,960
