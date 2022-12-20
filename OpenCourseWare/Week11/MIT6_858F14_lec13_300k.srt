@@ -8623,59 +8623,59 @@ service using KC.
 
 1821
 01:15:11,260 --> 01:15:11,761
-Makes sense?
+Masuk akal?
 
 1822
 01:15:11,761 --> 01:15:12,260
-Question.
+Pertanyaan.
 
 1823
 01:15:12,260 --> 01:15:14,794
-STUDENT: So if you [INAUDIBLE]
-password with the [INAUDIBLE]
+SISWA: Jadi jika Anda [TIDAK TERDENGAR]
+kata sandi dengan [TIDAK TERDENGAR]
 
 1824
 01:15:14,794 --> 01:15:15,454
-Athena, right?
+Athena, benar?
 
 1825
 01:15:15,454 --> 01:15:16,120
-PROFESSOR: Yeah.
+PROFESOR: Ya.
 
 1826
 01:15:16,120 --> 01:15:18,375
-STUDENT: So if I would
-steal your private key--
+SISWA: Jadi jika saya mau
+mencuri kunci pribadi Anda--
 
 1827
 01:15:18,375 --> 01:15:20,590
-PROFESSOR: Yeah,
-so actually, KC is
+PROFESOR: Ya,
+jadi sebenarnya, KC adalah
 
 1828
 01:15:20,590 --> 01:15:22,896
-basically equivalent
-to your password here.
+pada dasarnya setara
+dengan kata sandi Anda di sini.
 
 1829
 01:15:22,896 --> 01:15:24,770
-As far as the Kerberos
-protocol is concerned,
+Sejauh Kerberos
+protokol yang bersangkutan,
 
 1830
 01:15:24,770 --> 01:15:26,728
-that don't even think
-that you have a password.
+yang bahkan tidak berpikir
+bahwa Anda memiliki kata sandi.
 
 1831
 01:15:26,728 --> 01:15:28,510
-It thinks you have
-a private key KC.
+Ia berpikir Anda memiliki
+kunci pribadi KC.
 
 1832
 01:15:28,510 --> 01:15:31,000
-If someone knows KC, that's
-basically your password.
+Jika seseorang tahu KC, itu
+pada dasarnya kata sandi Anda.
 
 1833
 01:15:31,000 --> 01:15:32,678
