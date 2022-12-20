@@ -8573,53 +8573,53 @@ memory, the ticket remains.
 
 1811
 01:14:49,420 --> 01:14:51,370
-You could, in principle,
-use the ticket
+Anda bisa, dalam prinsip,
+menggunakan tiketnya.
 
 1812
 01:14:51,370 --> 01:14:54,916
-to obtain more tickets for
-the password changing service.
+untuk mendapatkan lebih banyak tiket untuk
+layanan mengubah password.
 
 1813
 01:14:54,916 --> 01:14:56,290
-But the password
-changing service
+Tetapi layanan 
+mengubah password
 
 1814
 01:14:56,290 --> 01:14:57,270
-says that's not going
-to be good enough.
+mengatakan bahwa itu tidak akan menjadi
+lebih baik.
 
 1815
 01:14:57,270 --> 01:14:58,645
-It's going to look
-at this ticket
+Itu akan terlihat
+di tiket ini
 
 1816
 01:14:58,645 --> 01:15:01,950
-here-- ticket between the
-client and the password service.
+disini-- tiket antara 
+client dan layanan password.
 
 1817
 01:15:01,950 --> 01:15:04,764
-And if that was
-updated through TGS,
+Dan jika itu 
+di update melalui TGS,
 
 1818
 01:15:04,764 --> 01:15:06,180
-it's going to
-reject your request.
+itu akan 
+menolak permintaan anda.
 
 1819
 01:15:06,180 --> 01:15:08,513
-It's only going to accept it
-if it was obtained directly
+Itu hanya akan menerima 
+jika itu didapat langsung
 
 1820
 01:15:08,513 --> 01:15:11,260
-from the Kerberos
-service using KC.
+dari layanan 
+Kerberos menggunakan KC.
 
 1821
 01:15:11,260 --> 01:15:11,761
