@@ -6686,12 +6686,12 @@ penanda aman mereka pada cookie.
 1413
 01:00:59,666 --> 01:01:01,540
 Jadi bagaimana bisa seorang peretas
-mencuri cookie mereka
+bisa mencuri cookie mereka
 
 1414
 01:01:01,540 --> 01:01:04,546
 jika Amazon bahkan tidak
-terhubung ke port 80?
+mendengarkan port 80?
 
 1415
 01:01:04,546 --> 01:01:05,426
@@ -6730,7 +6730,7 @@ Yah.
 
 1423
 01:01:17,671 --> 01:01:20,964
-AUDIENS: penyerang bisa
+AUDIENS: Penyerang bisa
 [TIDAK TERDENGAR] jaringan mereka.
 
 1424
@@ -6739,7 +6739,7 @@ PROFESOR: Yah.
 
 1425
 01:01:21,630 --> 01:01:24,350
-Jadi penyerang sebenarnya bisa 
+Jadi penyerang sebenarnya bisa
 mencegat paket Anda
 
 1426
@@ -6749,8 +6749,8 @@ ke Amazon pada port 80
 
 1427
 01:01:26,960 --> 01:01:28,960
-dan kemudian muncul, dan membuat
-hal itu muncul, seperti Anda sudah
+dan kemudian nampak, dan membuat
+hal itu nampak, seperti Anda sudah
 
 1428
 01:01:28,960 --> 01:01:30,720
@@ -6764,11 +6764,11 @@ kontrol atas jaringan Anda,
 1430
 01:01:33,510 --> 01:01:35,760
 mereka bisa mengarahkan ulang
-paket Anda mencoba
+paket Anda yang mencoba
 
 1431
 01:01:35,760 --> 01:01:37,970
-untuk menuju Amazon ke
+untuk menuju Amazon, ke
 mesin mereka sendiri pada port 80.
 
 1432
@@ -6784,16 +6784,16 @@ bisa mengetahui perbedaannya.
 1434
 01:01:41,831 --> 01:01:44,030
 Hal itu akan seperti seolah-olah Amazon
-sedang listening pada port 80,
+sedang mendengarkan pada port 80,
 
 1435
 01:01:44,030 --> 01:01:46,931
-lalu cookies Anda akan
+lalu cookie Anda akan
 dikirim ke
 
 1436
 01:01:46,931 --> 01:01:47,430
-server web musuh.
+server web penyerang.
 
 1437
 01:01:47,430 --> 01:01:49,246
@@ -6811,7 +6811,7 @@ tidak ada cara lain
 
 1440
 01:01:51,380 --> 01:01:53,420
-untuk mengotentikasionally host
+untuk mengotentikasi host
 yang terhubung dengan Anda.
 
 1441
@@ -6836,12 +6836,12 @@ sejak awal
 1445
 01:02:01,730 --> 01:02:05,320
 karena Anda tidak tahu
-koneksi HTTP siapa yang
+ke mana koneksi HTTP itu
 
 1446
 01:02:05,320 --> 01:02:08,066
 akan pergi jika Anda
-mengasumsikan lawan jaringan.
+mengasumsikan penyerang jaringan.
 
 1447
 01:02:08,066 --> 01:02:10,624
@@ -6854,12 +6854,12 @@ PROFESOR: Yah, baik.
 
 1449
 01:02:11,540 --> 01:02:13,560
-Jadi saat Anda sudah memiliki
+Jadi antara Anda memiliki
 kontrol penuh atas jaringan Anda
 
 1450
 01:02:13,560 --> 01:02:15,518
-sehingga Anda tahu bahwa ancaman
+sehingga Anda tahu bahwa penyerang
 tidak akan
 
 1451
@@ -6877,12 +6877,12 @@ Seperti dalam kuliah TCP.
 
 1454
 01:02:20,580 --> 01:02:23,716
-Anda dapat melakukan semua jenis urutan
-jumlah serangan dan sebagainya.
+Anda dapat melakukan semua jenis
+serangan dan sebagainya.
 
 1455
 01:02:23,716 --> 01:02:25,700
-[? Itu akan terjadi ?]
+[? Itu akan menjadi ?]
 sulit.
 
 1456
@@ -6912,13 +6912,13 @@ Apakah ada semacam pegalihan?
 
 1462
 01:02:31,917 --> 01:02:33,750
-PROFESOR: Nah, yang akan
-dicegat oleh hacker yang
+PROFESOR: Yah, yang akan
+dicegat oleh hacker diasumsikan
 
 1463
 01:02:33,750 --> 01:02:36,860
-kemungkinan terjadi adalah
-permintaan HTTP dari client yang menuju
+adalah permintaan HTTP
+dari client yang menuju
 
 1464
 01:02:36,860 --> 01:02:40,939
@@ -6932,22 +6932,22 @@ atau cookie untuk domain apa pun
 
 1466
 01:02:43,397 --> 01:02:45,210
-yang Anda
-kirimkan permintaan Anda.
+yang Anda kirimkan ke
+tujuan permintaan Anda.
 
 1467
 01:02:45,210 --> 01:02:47,084
 Jadi jika Anda tidak menandai
-cookie-cookie tersebut sebagai aman,
+cookie-cookie tersebut sebagai secure,
 
 1468
 01:02:47,084 --> 01:02:49,240
 akan ada serangkaian koneksi yang
-terenkripsi dan tidak terenkripsi.
+terenkripsi dan tidak.
 
 1469
 01:02:49,240 --> 01:02:49,740
-koneksi.
+terenkripsi.
 
 1470
 01:02:49,740 --> 01:02:51,810
@@ -6974,12 +6974,12 @@ yang memuat gambar
 
 1475
 01:02:58,260 --> 01:03:01,194
-dari http colon amazon.com.
+dari http titik dua amazon.com.
 
 1476
 01:03:01,194 --> 01:03:02,980
 Dan tidak ada yang
-mencegah Anda
+mencegah Anda untuk
 
 1477
 01:03:02,980 --> 01:03:05,120
@@ -6993,16 +6993,16 @@ mencoba untuk terhubung ke sana,
 
 1479
 01:03:06,950 --> 01:03:09,858
-ia akan mengirimkan cookie jika 
+dia akan mengirimkan cookie jika 
 jika koneksi berhasil.
 
 1480
 01:03:09,858 --> 01:03:10,854
-Pertanyaan kembali di sana.
+Pertanyaan di belakang sana.
 
 1481
 01:03:10,854 --> 01:03:14,174
-AUDIENS: Apakah akan meminta
+AUDIENS: Apakah dia akan meminta
 perubahan [TIDAK TERDENGAR]?
 
 1482
@@ -7011,13 +7011,13 @@ PROFESOR: Yah.
 
 1483
 01:03:14,840 --> 01:03:16,890
-Jadi HTTPS di mana-mana
+Jadi HTTPS di berbagai tempat
 adalah ekstensi
 
 1484
 01:03:16,890 --> 01:03:20,040
 yang sangat mirip dengan
-HTTPS yang dipaksa dalam beberapa hal,
+HTTPS paksaan dalam beberapa hal,
 
 1485
 01:03:20,040 --> 01:03:24,720
@@ -7027,7 +7027,7 @@ kesalahan semacam ini.
 1486
 01:03:24,720 --> 01:03:28,380
 Jadi saya kira satu hal
-yang memaksa HTTP lakukan
+yang dilakukan HTTP paksaan
 
 1487
 01:03:28,380 --> 01:03:31,760
@@ -7037,16 +7037,16 @@ kesalahan seperti itu.
 1488
 01:03:31,760 --> 01:03:36,410
 Dan saat Anda mengikutsertakan sebuah
-situs ke dalam paket HTTPS paksa ini
+situs ke dalam rencana HTTPS paksaan ini,
 
 1489
 01:03:36,410 --> 01:03:39,560
-, satu hal yang akan
-dilakukan browser untuk Anda
+satu hal yang akan
+browser akan lakukan untuk Anda adalah
 
 1490
 01:03:39,560 --> 01:03:43,270
-mencegah koneksi HTTPS apa pun
+mencegah koneksi HTTPS apapun
 ke host tersebut
 
 1491
@@ -7103,7 +7103,7 @@ Oke, perbaiki masalah itu.
 1502
 01:04:05,690 --> 01:04:07,270
 Hal yang
-jauh lebih halus
+jauh lebih tidak terlihat
 
 1503
 01:04:07,270 --> 01:04:11,030
@@ -7112,7 +7112,7 @@ yang aman mendapatkan cookie kembali
 
 1504
 01:04:11,030 --> 01:04:13,990
-dari klien, sebenarnya
+dari klien, dia sebenarnya
 tidak tahu apakah cookie ini
 
 1505
@@ -7128,26 +7128,26 @@ ketika server mendapatkan
 1507
 01:04:19,819 --> 01:04:21,360
 Sebuah cookie dari
-klien, semua yang didapat
+klien, yang didapatkan hanyalah
 
 1508
 01:04:21,360 --> 01:04:24,200
-adalah nilai kunci
-berpasangan untuk cookie.
+pasangan kunci nilai
+untuk sebuah cookie.
 
 1509
 01:04:24,200 --> 01:04:28,650
-Dan seperti yang kita lihat di sini,
+Dan kita kurangl lebih lihat di sini,
 rencana untuk [TIDAK TERDENGAR]
 
 1510
 01:04:28,650 --> 01:04:31,530
-berikut adalah bahwa itu akan mencakup
-aman dan tidak aman
+berikut adalah bahwa dia akan mencakup
+cookie aman dan tidak aman
 
 1511
 01:04:31,530 --> 01:04:35,050
-cookie saat mengirim 
+saat mengirim 
 permintaan ke server yang aman,
 
 1512
@@ -7157,26 +7157,26 @@ di sini hanya
 
 1513
 01:04:36,850 --> 01:04:39,650
-prihatin tentang
+peduli terhadap
 kerahasiaan cookie.
 
 1514
 01:04:39,650 --> 01:04:42,030
-Tapi di server
-sisi, Anda sekarang tidak
+Tapi di sisi server,
+Anda sekarang tidak
 
 1515
 01:04:42,030 --> 01:04:43,280
-memiliki integritas jaminan apapun.
+memiliki jaminan integritas apapun.
 
 1516
 01:04:43,280 --> 01:04:44,762
 Ketika Anda mendapatkan
-cookie dari pengguna,
+cookie dari seorang pengguna,
 
 1517
 01:04:44,762 --> 01:04:46,970
-itu mungkin telah dikirim
+dia mungkin telah dikirim melalui
 koneksi yang terenkripsi,
 
 1518
@@ -7187,35 +7187,35 @@ melalui koneksi teks biasa.
 1519
 01:04:50,370 --> 01:04:53,390
 Jadi ini mengarah ke
-serangan yang lebih halus,
+serangan yang lebih tidak terlihat,
 
 1520
 01:04:53,390 --> 01:04:55,670
-tapi rasa dari
+tapi jenis dari
 serangan ini cenderung
 
 1521
 01:04:55,670 --> 01:04:57,370
 menjadi hal-hal seperti
-sesi fiksasi.
+perbaikan sesi.
 
 1522
 01:04:57,370 --> 01:05:01,840
 Artinya adalah misalkan saya
-ingin melihat apa email yang
+ingin melihat email apa yang
 
 1523
 01:05:01,840 --> 01:05:02,490
-anda kirim
+Anda kirimkan.
 
 1524
 01:05:02,490 --> 01:05:05,130
 Atau mungkin saya akan menetapkan
-sebuah cookie untukmu itu
+sebuah cookie untuk Anda yang
 
 1525
 01:05:05,130 --> 01:05:06,850
-adalah salinan cookie gmail saya.
+merupakan salinan cookie Gmail saya.
 
 1526
 01:05:06,850 --> 01:05:08,760
@@ -7225,11 +7225,11 @@ pesan di Gmail,
 1527
 01:05:08,760 --> 01:05:11,700
 Ini benar-benar akan disimpan
-di folder terkirim saya di dalam folder Anda
+di folder terkirim di dalam folder
 
 1528
 01:05:11,700 --> 01:05:12,531
-folder terkirim.
+terkirim Anda.
 
 1529
 01:05:12,531 --> 01:05:14,155
