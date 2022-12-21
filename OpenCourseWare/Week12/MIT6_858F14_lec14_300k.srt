@@ -6685,551 +6685,551 @@ penanda aman mereka pada cookie.
 
 1413
 01:00:59,666 --> 01:01:01,540
-So how could a hacker
-then steal their cookie
+Jadi bagaimana bisa seorang peretas
+bisa mencuri cookie mereka
 
 1414
 01:01:01,540 --> 01:01:04,546
-if Amazon isn't even
-listening at port 80?
+jika Amazon bahkan tidak
+mendengarkan port 80?
 
 1415
 01:01:04,546 --> 01:01:05,426
-Yeah.
+Yah.
 
 1416
 01:01:05,426 --> 01:01:07,050
-AUDIENCE: Can't the
-browser still think
+AUDIENS: Tidak bisakah
+browser tetap berpikir
 
 1417
 01:01:07,050 --> 01:01:09,340
-it's an HTTP connection?
+itu adalah sebuah koneksi HTTP?
 
 1418
 01:01:09,340 --> 01:01:11,100
-PROFESSOR: Well, so
-if you connect to port
+PROFESOR: Yah, jadi
+jika Anda terhubung ke port
 
 1419
 01:01:11,100 --> 01:01:14,424
-443 and you speak SSL
-or GLS, then it's always
+443 dan Anda berbicara SSL
+atau GLS, maka hal itu selalu
 
 1420
 01:01:14,424 --> 01:01:15,340
-going to be encrypted.
+akan dienkripsi.
 
 1421
 01:01:15,340 --> 01:01:16,697
-So that's not a problem.
+Jadi hal itu bukan sebuah masalah.
 
 1422
 01:01:16,697 --> 01:01:17,671
-Yeah.
+Yah.
 
 1423
 01:01:17,671 --> 01:01:20,964
-AUDIENCE: The attacker can
-[INAUDIBLE] their network.
+AUDIENS: Penyerang bisa
+[TIDAK TERDENGAR] jaringan mereka.
 
 1424
 01:01:20,964 --> 01:01:21,630
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1425
 01:01:21,630 --> 01:01:24,350
-So the attacker can actually
-intercept your packets
+Jadi penyerang sebenarnya bisa
+mencegat paket Anda
 
 1426
 01:01:24,350 --> 01:01:26,960
-that are trying to connect
-to Amazon on port 80
+yang sedang mencoba untuk terhubung
+ke Amazon pada port 80
 
 1427
 01:01:26,960 --> 01:01:28,960
-and then appear, and make
-it appear, like you've
+dan kemudian nampak, dan membuat
+hal itu nampak, seperti Anda sudah
 
 1428
 01:01:28,960 --> 01:01:30,720
-connected successfully.
+sukses terhubung.
 
 1429
 01:01:30,720 --> 01:01:33,510
-So if the attacker has
-control over your network,
+Jadi jika penyerang memiliki
+kontrol atas jaringan Anda,
 
 1430
 01:01:33,510 --> 01:01:35,760
-they could redirect
-your packets trying
+mereka bisa mengarahkan ulang
+paket Anda yang mencoba
 
 1431
 01:01:35,760 --> 01:01:37,970
-to get to Amazon to their
-own machine on port 80.
+untuk menuju Amazon, ke
+mesin mereka sendiri pada port 80.
 
 1432
 01:01:37,970 --> 01:01:39,290
-They're going to
-accept the connection,
+Mereka akan
+menerima koneksinya,
 
 1433
 01:01:39,290 --> 01:01:41,831
-and the client isn't going to
-be able to know the difference.
+dan kliennya tidak akan
+bisa mengetahui perbedaannya.
 
 1434
 01:01:41,831 --> 01:01:44,030
-It will be as if Amazon
-is listening on port 80,
+Hal itu akan seperti seolah-olah Amazon
+sedang mendengarkan pada port 80,
 
 1435
 01:01:44,030 --> 01:01:46,931
-and then your cookies will be
-sent to this adversary's web
+lalu cookie Anda akan
+dikirim ke
 
 1436
 01:01:46,931 --> 01:01:47,430
-server.
+server web penyerang.
 
 1437
 01:01:47,430 --> 01:01:49,246
-AUDIENCE: Because the
-client is unknown.
+AUDIENS: Karena
+klien tidak diketahui.
 
 1438
 01:01:49,246 --> 01:01:49,810
-PROFESSOR: That's right.
+PROFESOR: Betul sekali.
 
 1439
 01:01:49,810 --> 01:01:51,380
-Yeah, so for HTTP,
-there's no way
+Yah, jadi untuk HTTP,
+tidak ada cara lain
 
 1440
 01:01:51,380 --> 01:01:53,420
-to authenticate the host
-you're connected to.
+untuk mengotentikasi host
+yang terhubung dengan Anda.
 
 1441
 01:01:53,420 --> 01:01:54,950
-This is exactly what's going on.
+Inilah tepatnya yang sedang terjadi.
 
 1442
 01:01:54,950 --> 01:01:57,980
-HTTP has no authentication,
-and as a result,
+HTTP tidak memiliki otentikasi,
+dan sebagai hasilnya,
 
 1443
 01:01:57,980 --> 01:01:59,950
-you have to prevent
-the cookies from being
+Anda harus mencegah
+cookie
 
 1444
 01:01:59,950 --> 01:02:01,730
-sent over HTTP in
-the first place
+terkirim melalui HTTP
+sejak awal
 
 1445
 01:02:01,730 --> 01:02:05,320
-because you have no idea
-who that HTTP connection is
+karena Anda tidak tahu
+ke mana koneksi HTTP itu
 
 1446
 01:02:05,320 --> 01:02:08,066
-going to go to if you're
-assuming a network adversary.
+akan pergi jika Anda
+mengasumsikan penyerang jaringan.
 
 1447
 01:02:08,066 --> 01:02:10,624
-AUDIENCE: So you need
-network control to do this.
+AUDIENS: Jadi Anda membutuhkan
+kontrol jaringan untuk melakukan ini.
 
 1448
 01:02:10,624 --> 01:02:11,540
-PROFESSOR: Well, yeah.
+PROFESOR: Yah, baik.
 
 1449
 01:02:11,540 --> 01:02:13,560
-So either you have full
-control over your network
+Jadi antara Anda memiliki
+kontrol penuh atas jaringan Anda
 
 1450
 01:02:13,560 --> 01:02:15,518
-so you know that adversaries
-aren't going to be
+sehingga Anda tahu bahwa penyerang
+tidak akan
 
 1451
 01:02:15,518 --> 01:02:16,860
-able to intercept your packets.
+dapat mencegat paket Anda.
 
 1452
 01:02:16,860 --> 01:02:18,610
-But even then, it's
-actually not so great.
+Tapi meskipun begitu, itu
+sebenarnya tidak begitu bagus.
 
 1453
 01:02:18,610 --> 01:02:20,580
-Like look at the TCP lecture.
+Seperti dalam kuliah TCP.
 
 1454
 01:02:20,580 --> 01:02:23,716
-You can do all kinds of sequence
-number of attacks and so on.
+Anda dapat melakukan semua jenis
+serangan dan sebagainya.
 
 1455
 01:02:23,716 --> 01:02:25,700
-[? That's going to be ?]
-troublesome.
+[? Itu akan menjadi ?]
+sulit.
 
 1456
 01:02:25,700 --> 01:02:26,450
-All right.
+Baiklah.
 
 1457
 01:02:26,450 --> 01:02:28,233
-Any more questions about that?
+Ada pertanyaan lagi tentang itu?
 
 1458
 01:02:28,233 --> 01:02:28,732
-Yeah.
+Yah.
 
 1459
 01:02:28,732 --> 01:02:30,130
-AUDIENCE: I'm sorry, but
-isn't the attack intercepted
+AUDIENS: Maaf, tapi
+bukankah serangan itu dicegat
 
 1460
 01:02:30,130 --> 01:02:30,671
-in that case?
+dalam kasus ini?
 
 1461
 01:02:30,671 --> 01:02:31,917
-Is there like a redirect?
+Apakah ada semacam pegalihan?
 
 1462
 01:02:31,917 --> 01:02:33,750
-PROFESSOR: Well, what
-that hacker presumably
+PROFESOR: Yah, yang akan
+dicegat oleh hacker diasumsikan
 
 1463
 01:02:33,750 --> 01:02:36,860
-would intercept is an HTTP
-request from the client going
+adalah permintaan HTTP
+dari client yang menuju
 
 1464
 01:02:36,860 --> 01:02:40,939
-to http amazon.com, and
-that request includes
+ke http amazon.com, dan
+permintaan tersebut mencakup
 
 1465
 01:02:40,939 --> 01:02:43,397
-all your amazon.com cookies,
-or cookies for whatever domain
+semua cookie amazon.com Anda
+atau cookie untuk domain apa pun
 
 1466
 01:02:43,397 --> 01:02:45,210
-it is that you're
-sending your request to.
+yang Anda kirimkan ke
+tujuan permintaan Anda.
 
 1467
 01:02:45,210 --> 01:02:47,084
-So if you don't mark
-those cookies as secure,
+Jadi jika Anda tidak menandai
+cookie-cookie tersebut sebagai secure,
 
 1468
 01:02:47,084 --> 01:02:49,240
-there will be set of both
-encrypted and unencrypted
+akan ada serangkaian koneksi yang
+terenkripsi dan tidak.
 
 1469
 01:02:49,240 --> 01:02:49,740
-connections.
+terenkripsi.
 
 1470
 01:02:49,740 --> 01:02:51,810
-AUDIENCE: So how does that
-request get initiated?
+AUDIENS: Bagaimana
+permintaan tersebut dimulai?
 
 1471
 01:02:51,810 --> 01:02:52,600
-PROFESSOR: Ah, OK.
+PROFESOR: Ah, OK.
 
 1472
 01:02:52,600 --> 01:02:53,100
-Yeah.
+Yah.
 
 1473
 01:02:53,100 --> 01:02:55,360
-So maybe you get the user
-to visit newyorktimes.com
+Jadi mungkin Anda membuat pengguna
+mengunjungi newyorktimes.com
 
 1474
 01:02:55,360 --> 01:02:58,260
-and you pay for an advertisement
-that loads an image
+dan Anda membayar iklan
+yang memuat gambar
 
 1475
 01:02:58,260 --> 01:03:01,194
-from http colon amazon.com.
+dari http titik dua amazon.com.
 
 1476
 01:03:01,194 --> 01:03:02,980
-And there's nothing
-preventing you
+Dan tidak ada yang
+mencegah Anda untuk
 
 1477
 01:03:02,980 --> 01:03:05,120
-from saying, please load
-an image from this URL.
+mengatakan, tolong muat
+gambar dari URL ini.
 
 1478
 01:03:05,120 --> 01:03:06,950
-But when a browser
-tries to connect there,
+Tetapi ketika browser
+mencoba untuk terhubung ke sana,
 
 1479
 01:03:06,950 --> 01:03:09,858
-it'll send the cookies if
-the connection succeeds.
+dia akan mengirimkan cookie jika 
+jika koneksi berhasil.
 
 1480
 01:03:09,858 --> 01:03:10,854
-Question back there.
+Pertanyaan di belakang sana.
 
 1481
 01:03:10,854 --> 01:03:14,174
-AUDIENCE: Will it ask
-for a change [INAUDIBLE]?
+AUDIENS: Apakah dia akan meminta
+perubahan [TIDAK TERDENGAR]?
 
 1482
 01:03:14,174 --> 01:03:14,840
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1483
 01:03:14,840 --> 01:03:16,890
-So HTTPS everywhere
-is an extension
+Jadi HTTPS di berbagai tempat
+adalah ekstensi
 
 1484
 01:03:16,890 --> 01:03:20,040
-that is very similar to
-forced HTTPS in some ways,
+yang sangat mirip dengan
+HTTPS paksaan dalam beberapa hal,
 
 1485
 01:03:20,040 --> 01:03:24,720
-and it tries to prevent
-these kinds of mistakes.
+dan mencoba mencegah
+kesalahan semacam ini.
 
 1486
 01:03:24,720 --> 01:03:28,380
-So I guess one thing
-that forced HTTP does
+Jadi saya kira satu hal
+yang dilakukan HTTP paksaan
 
 1487
 01:03:28,380 --> 01:03:31,760
-is they worry about
-such mistakes.
+adalah mereka khawatir tentang
+kesalahan seperti itu.
 
 1488
 01:03:31,760 --> 01:03:36,410
-And when you sort of opted a
-site into this forced HTTPS
+Dan saat Anda mengikutsertakan sebuah
+situs ke dalam rencana HTTPS paksaan ini,
 
 1489
 01:03:36,410 --> 01:03:39,560
-plan, one thing that the
-browser will do for you
+satu hal yang akan
+browser akan lakukan untuk Anda adalah
 
 1490
 01:03:39,560 --> 01:03:43,270
-is prevent any HTTPS
-connections to that host
+mencegah koneksi HTTPS apapun
+ke host tersebut
 
 1491
 01:03:43,270 --> 01:03:44,560
-in the first place.
+sejak awal.
 
 1492
 01:03:44,560 --> 01:03:47,250
-So there's no way to make
-this kind of mistakes
+Jadi tidak ada cara untuk membuat
+kesalahan seperti ini
 
 1493
 01:03:47,250 --> 01:03:50,580
-of not flagging your
-cookie as secure,
+dengan tidak menandai cookie
+Anda sebagai aman,
 
 1494
 01:03:50,580 --> 01:03:54,340
-or having other sort of kinds
-of cookie problems as well.
+atau juga mengalami jenis
+masalah cookie lainnya.
 
 1495
 01:03:54,340 --> 01:03:57,430
-Another more subtle
-problem-- so this,
+Masalah lain yang lebih tidak
+kentara-- jadi ini,
 
 1496
 01:03:57,430 --> 01:03:58,930
-the problem we
-talked about just now
+masalah yang
+baru saja kita bicarakan
 
 1497
 01:03:58,930 --> 01:04:00,430
-is the developer
-forgetting to set
+adalah pengembang
+lupa menyetel
 
 1498
 01:04:00,430 --> 01:04:01,974
-the secure flag on a cookie.
+tanda aman pada cookie.
 
 1499
 01:04:01,974 --> 01:04:02,890
-So that seems fixable.
+Jadi sepertinya itu bisa diperbaiki.
 
 1500
 01:04:02,890 --> 01:04:04,639
-OK, maybe the developer
-should just do it.
+Oke, mungkin pengembang
+harus melakukannya.
 
 1501
 01:04:04,639 --> 01:04:05,690
-OK, fix that problem.
+Oke, perbaiki masalah itu.
 
 1502
 01:04:05,690 --> 01:04:07,270
-The thing that's
-much more subtle
+Hal yang
+jauh lebih tidak terlihat
 
 1503
 01:04:07,270 --> 01:04:11,030
-is that when a secure web
-server gets a cookie back
+adalah ketika server web
+yang aman mendapatkan cookie kembali
 
 1504
 01:04:11,030 --> 01:04:13,990
-from the client, it actually has
-no idea whether this cookie was
+dari klien, dia sebenarnya
+tidak tahu apakah cookie ini
 
 1505
 01:04:13,990 --> 01:04:17,020
-sent through an encrypted
-connection or a plain text
+dikirim melalui koneksi terenkripsi
+atau koneksi teks
 
 1506
 01:04:17,020 --> 01:04:19,819
-connection because
-when the server gets
+biasa karena
+ketika server mendapatkan
 
 1507
 01:04:19,819 --> 01:04:21,360
-a cookie from the
-client, all it gets
+Sebuah cookie dari
+klien, yang didapatkan hanyalah
 
 1508
 01:04:21,360 --> 01:04:24,200
-is the key value
-pair for a cookie.
+pasangan kunci nilai
+untuk sebuah cookie.
 
 1509
 01:04:24,200 --> 01:04:28,650
-And as we sort of look at here,
-the plan for the [INAUDIBLE]
+Dan kita kurangl lebih lihat di sini,
+rencana untuk [TIDAK TERDENGAR]
 
 1510
 01:04:28,650 --> 01:04:31,530
-follows is that it'll include
-both secure and insecure
+berikut adalah bahwa dia akan mencakup
+cookie aman dan tidak aman
 
 1511
 01:04:31,530 --> 01:04:35,050
-cookies when it's sending a
-request to a secure server,
+saat mengirim 
+permintaan ke server yang aman,
 
 1512
 01:04:35,050 --> 01:04:36,850
-because the browser
-here was just
+karena browsernya
+di sini hanya
 
 1513
 01:04:36,850 --> 01:04:39,650
-concerned about the
-confidentiality of cookies.
+peduli terhadap
+kerahasiaan cookie.
 
 1514
 01:04:39,650 --> 01:04:42,030
-But on the server
-side, you now don't
+Tapi di sisi server,
+Anda sekarang tidak
 
 1515
 01:04:42,030 --> 01:04:43,280
-have any integrity guarantees.
+memiliki jaminan integritas apapun.
 
 1516
 01:04:43,280 --> 01:04:44,762
-When you get a
-cookie from a user,
+Ketika Anda mendapatkan
+cookie dari seorang pengguna,
 
 1517
 01:04:44,762 --> 01:04:46,970
-it might have been sent over
-an encrypted connection,
+dia mungkin telah dikirim melalui
+koneksi yang terenkripsi,
 
 1518
 01:04:46,970 --> 01:04:50,370
-but it also might have been sent
-over a plain text connection.
+tapi itu juga mungkin telah dikirim
+melalui koneksi teks biasa.
 
 1519
 01:04:50,370 --> 01:04:53,390
-So this leads to somewhat
-more subtle attacks,
+Jadi ini mengarah ke
+serangan yang lebih tidak terlihat,
 
 1520
 01:04:53,390 --> 01:04:55,670
-but the flavor of
-these attacks tend
+tapi jenis dari
+serangan ini cenderung
 
 1521
 01:04:55,670 --> 01:04:57,370
-to be things like
-session fixation.
+menjadi hal-hal seperti
+perbaikan sesi.
 
 1522
 01:04:57,370 --> 01:05:01,840
-What it means is that suppose I
-want to see what emails you're
+Artinya adalah misalkan saya
+ingin melihat email apa yang
 
 1523
 01:05:01,840 --> 01:05:02,490
-sending.
+Anda kirimkan.
 
 1524
 01:05:02,490 --> 01:05:05,130
-Or maybe I'll set a
-cookie for you that
+Atau mungkin saya akan menetapkan
+sebuah cookie untuk Anda yang
 
 1525
 01:05:05,130 --> 01:05:06,850
-is a copy of my Gmail, cookie.
+merupakan salinan cookie Gmail saya.
 
 1526
 01:05:06,850 --> 01:05:08,760
-So when you go to compose
-a message in Gmail,
+Jadi ketika Anda pergi untuk menulis
+pesan di Gmail,
 
 1527
 01:05:08,760 --> 01:05:11,700
-it'll actually be saved in
-my sent folder inside of your
+Ini benar-benar akan disimpan
+di folder terkirim di dalam folder
 
 1528
 01:05:11,700 --> 01:05:12,531
-sent folder.
+terkirim Anda.
 
 1529
 01:05:12,531 --> 01:05:14,155
