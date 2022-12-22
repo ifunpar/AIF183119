@@ -6745,7 +6745,7 @@ masalah knapsack umum
 
 1435
 01:19:00,050 --> 01:19:03,920
-untuk benar-benar mematahkan skema
+untuk benar benar mematahkan skema
 atau untuk mendapatkan dekripsi.
 
 1436
