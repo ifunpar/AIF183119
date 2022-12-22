@@ -6307,479 +6307,479 @@ di antara masalah-masalah
 
 1342
 01:13:39,270 --> 01:13:44,070
-that cryptographics
-systems are based on.
+yang terkait
+sistem kriptografi.
 
 1343
 01:13:44,070 --> 01:13:46,270
-The systems that have
-stood the test of time,
+Sistem yang telah teruji
+dalam jangka waktu lama,
 
 1344
 01:13:46,270 --> 01:13:49,320
-they're based on problems
-that are hard on the average.
+mereka umumnya berdasar pada
+permasalahan yang sulit.
 
 1345
 01:13:49,320 --> 01:13:53,720
-And the NP-complete problems,
-like the simple ones
+dan masalah NP-Complete,
+seperti yang sederhana
 
 1346
 01:13:53,720 --> 01:13:57,600
-here, are hard in
-the worst case.
+di sini, sulit pada
+kasus terburuknya.
 
 1347
 01:13:57,600 --> 01:14:02,290
-And this is also
-true for Knapsack.
+dan hal ini juga
+sama untuk Knapsack.
 
 1348
 01:14:02,290 --> 01:14:05,000
-So that's the essence of it.
+Hal tersebut merupakan intinya.
 
 1349
 01:14:05,000 --> 01:14:07,450
-I'll just give you a sense.
+Saya hanya akan memberikan Anda pemahaman.
 
 1350
 01:14:07,450 --> 01:14:09,650
-You can read the notes.
+Anda dapat membaca catatannya.
 
 1351
 01:14:09,650 --> 01:14:14,140
-There's a way of
-generating secret keys
+Terdapat cara untuk
+membangkitkan kunci rahasia
 
 1352
 01:14:14,140 --> 01:14:17,250
-and public keys using
-Knapsack that I think
+dan kunci publik menggunakan
+Knapsack yang saya pikir
 
 1353
 01:14:17,250 --> 01:14:20,800
-is kind of interesting
-that is worth looking at,
+hal tersebut menarik
+dan bermanfaat untuk dilihat,
 
 1354
 01:14:20,800 --> 01:14:23,090
-even though all of these
-systems are broken.
+meskipun semua sistem
+ini sudah dirusak.
 
 1355
 01:14:23,090 --> 01:14:24,380
-It's just kind of cool.
+Tapi itu keren.
 
 1356
 01:14:24,380 --> 01:14:26,980
-You know, how would you get
-encryption out of a knapsack?
+Anda tahu, bagaimana cara mendapatkan
+enrkripsi dari knapsack?
 
 1357
 01:14:26,980 --> 01:14:28,200
-I mean, you're putting
-things in a knapsack
+Maksud saya, Anda menyimpan
+sesuatu di knapsack
 
 1358
 01:14:28,200 --> 01:14:29,320
-and taking things out.
+dan mengeluarkan sesuatu dari dalamnya.
 
 1359
 01:14:29,320 --> 01:14:33,170
-How can you set it up so you
-get an asymmetric key system,
+Bagaimana Anda bisa mengaturnya
+sehingga mendapatkan sebuah sistem kunci asimetris,
 
 1360
 01:14:33,170 --> 01:14:35,657
-a public key system,
-through a Knapsack problem?
+sistem kunci publik,
+melalui masalah knapsack?
 
 1361
 01:14:35,657 --> 01:14:37,240
-So I'll just give
-you a sense of that.
+Jadi saya hanya akan memberi Anda
+sedikit penjelasan terkait hal itu.
 
 1362
 01:14:37,240 --> 01:14:38,090
-And you can read.
+Dan Anda dapat membaca.
 
 1363
 01:14:38,090 --> 01:14:39,150
-I won't finish.
+Saya tidak akan selesaikan.
 
 1364
 01:14:39,150 --> 01:14:44,840
-But I'd like to do what we
-did here for RSA in the time
+Tapi saya akan melakukan apa yang kita
+kita lakukan di RSA selama ini
 
 1365
 01:14:44,840 --> 01:14:47,490
-that I have left for Knapsack.
+yang saya tinggalkan untuk Knapsack.
 
 1366
 01:14:47,490 --> 01:14:49,140
-That is kind of cool.
+Itu keren.
 
 1367
 01:14:49,140 --> 01:14:51,530
-You get a sense of the variety
-of different public key
+Anda dapat pemahaman sebuah keragaman
+dari perbedaan sistem kripto
 
 1368
 01:14:51,530 --> 01:14:54,760
-cryptosystems that are out there
-by looking at something that
+kunci publik yang ada
+dengan melihat sesuatu yang
 
 1369
 01:14:54,760 --> 01:14:57,180
-is very different from RSA.
+sangat berbeda dengan RSA.
 
 1370
 01:14:59,940 --> 01:15:12,140
-So in the Knapsack problem,
-the general Knapsack problem,
+Jadi dalam masalah Knapsack,
+masalah Knapsack yang umum,
 
 1371
 01:15:12,140 --> 01:15:14,720
-what's hard is NPC.
+yang sulit adalah NPC.
 
 1372
 01:15:14,720 --> 01:15:24,250
-There's a super increasing
-Knapsack problem that's easy,
+Terdapat peningkatan pesat
+masalah Knapsack yang mudah,
 
 1373
 01:15:24,250 --> 01:15:29,290
-that can be solved
-in linear time.
+yang dapat dipecahkan
+dalam waktu linier.
 
 1374
 01:15:29,290 --> 01:15:31,960
-What is a super
-increasing knapsack?
+Apa itu peningkatan 
+super Knapsack?
 
 1375
 01:15:31,960 --> 01:15:34,140
-Well, a super
-increasing knapsack
+Yah, peningkatan 
+super knapsack
 
 1376
 01:15:34,140 --> 01:15:45,460
-is something where I
-Wj has this property.
+adalah sesuatu di mana saya
+Wj memiliki properti ini.
 
 1377
 01:15:45,460 --> 01:15:55,074
-So an example of that
-is 2, 3, 6, 13, 27, 52.
+Contohnya adalah:
+2, 3, 6, 13, 27, 52.
 
 1378
 01:15:55,074 --> 01:15:56,490
-So the rates are
-super increasing.
+Jadi angkanya
+meningkat pesat.
 
 1379
 01:15:56,490 --> 01:15:58,100
-2 plus 3 is less than 6.
+2 ditambah 3 hasilnya kurang dari 6.
 
 1380
 01:15:58,100 --> 01:16:02,150
-2 plus 3 plus 6 is less than
-13 and so on and so forth.
+2 tambah 3 tambah 6 kurang dari
+13 dan seterusnya dan seterusnya.
 
 1381
 01:16:02,150 --> 01:16:07,330
-Do you see why super increasing
-knapsack is easily solvable?
+Apakah anda melihat mengapa peningkatan super
+knapsack dapat dipecahkan dengan mudah?
 
 1382
 01:16:07,330 --> 01:16:08,560
-I mean, what is a knapsack?
+Maksud saya, apa itu knapsack?
 
 1383
 01:16:08,560 --> 01:16:10,960
-I got a limit on
-the amount of stuff
+Saya memiliki batasan
+dalam jumlah barang
 
 1384
 01:16:10,960 --> 01:16:12,500
-I can put into the knapsack.
+yang dapat saya taruh di knapsack.
 
 1385
 01:16:12,500 --> 01:16:16,470
-And I want to make to be able
-to say yes or no in terms
+Dan saya ingin membuat untuk bisa
+untuk mengatakan ya atau tidak dalam
 
 1386
 01:16:16,470 --> 01:16:19,120
-of whether it fits
-exactly or not, just
+hal apakah itu tepat
+cocok atau tidak, hanya
 
 1387
 01:16:19,120 --> 01:16:20,900
-in terms of our definition.
+dalam definisi kita.
 
 1388
 01:16:20,900 --> 01:16:25,650
-So what I do here in
-super increasing knapsack?
+Jadi apa yang saya lakukan pada
+peningkatan super knapsack?
 
 1389
 01:16:25,650 --> 01:16:26,893
-Yep.
+Yap.
 
 1390
 01:16:26,893 --> 01:16:29,258
-AUDIENCE: [INAUDIBLE]
-from the biggest
+AUDIENS: [TIDAK TERDENGAR].
+dari yang terbesar
 
 1391
 01:16:29,258 --> 01:16:30,857
-to the smallest [INAUDIBLE].
+ke yang terkecil [TIDAK TERDENGAR].
 
 1392
 01:16:30,857 --> 01:16:31,940
-SRINIVAS DEVADAS: Exactly.
+SRINIVAS DEVADAS: Tepat sekali.
 
 1393
 01:16:31,940 --> 01:16:33,880
-That means that there's a
-linear time algorithm that
+Artinya terdapat
+algoritma waktu linier yang
 
 1394
 01:16:33,880 --> 01:16:35,300
-basically solves the problem.
+pada dasarnya memecahkan masalah.
 
 1395
 01:16:35,300 --> 01:16:38,730
-And you know that
-you can do that,
+Dan Anda tahu
+Anda dapat melakukannya,
 
 1396
 01:16:38,730 --> 01:16:40,850
-and you would get
-the correct answer.
+dan Anda akan mendapat
+jawaban yang benar.
 
 1397
 01:16:40,850 --> 01:16:42,840
-So that's pretty
-much what you've got.
+Jadi itu kurang lebih
+yang Anda dapatkan.
 
 1398
 01:16:42,840 --> 01:16:45,710
-That'll give you
-the highest weight.
+yang akan memberikanmu
+bobot tertinggi.
 
 1399
 01:16:45,710 --> 01:16:49,100
-If you have 13 exactly, you
-know you can't put 52 and 27.
+Jika Anda memiliki tepat 13, Anda
+tahu Anda tidak bisa menempatkan 52 dan 27.
 
 1400
 01:16:49,100 --> 01:16:50,170
-You get 13.
+Anda mendapatkan 13.
 
 1401
 01:16:50,170 --> 01:16:52,580
-There's no point in
-putting 2 and 3 and 6,
+Tidak ada gunanya
+menempatkan 2 dan 3 dan 6 ,
 
 1402
 01:16:52,580 --> 01:16:56,400
-because that's not
-going to give you 13.
+karena hal tersebut tidak
+akan memberimu 13.
 
 1403
 01:16:56,400 --> 01:16:57,920
-So that's clearly easy.
+Jadi hal tersebut jelas mudah.
 
 1404
 01:16:57,920 --> 01:17:00,827
-So we've got an
-interesting case here,
+Jadi kita mendapatkan sebuah
+kasus yang menarik di sini,
 
 1405
 01:17:00,827 --> 01:17:02,410
-assuming this is all
-going to work out
+dengan asumsi bahwa semua ini
+akan berjalan dengan baik
 
 1406
 01:17:02,410 --> 01:17:05,670
-from an adversarial standpoint,
-which unfortunately it doesn't,
+dari sudut pandang penyerang,
+yang sayangnya tidak,
 
 1407
 01:17:05,670 --> 01:17:09,920
-you can look and say, ah,
-I want encryption to be
+Anda bisa melihat dan berkata, ah,
+Saya ingin enkripsi menjadi
 
 1408
 01:17:09,920 --> 01:17:12,070
-the super increasing knapsack.
+peningkatan super knapsack.
 
 1409
 01:17:12,070 --> 01:17:14,730
-Because that should
-be easy to do.
+Karena itu seharusnya
+menjadi mudah dilakukan.
 
 1410
 01:17:14,730 --> 01:17:21,630
-And I want the decryption,
-not knowing the private key,
+Dan saya ingin dekripsi,
+tidak mengetahui kunci privatnya,
 
 1411
 01:17:21,630 --> 01:17:23,580
-to be as hard as knapsack.
+agar sama sulitnya seperti knapsack.
 
 1412
 01:17:23,580 --> 01:17:24,250
-OK.
+Oke.
 
 1413
 01:17:24,250 --> 01:17:25,999
-So that's the kind of
-thing that you could
+Jadi itulah hal
+yang dapat Anda 
 
 1414
 01:17:25,999 --> 01:17:29,550
-do if you built a cryptosystem.
+lakukan jika ingin membangun sistem kripto.
 
 1415
 01:17:29,550 --> 01:17:31,550
-And people did,
-Merkle and Hellman.
+Dan orang orang melakukan itu,
+Merkle dan Hellman.
 
 1416
 01:17:31,550 --> 01:17:34,600
-Hellman is the same guy, the
-second name, in Diffie-Hellman.
+Hellman merupakan orang yang sama, nama kedua,
+dalam Diffie-Hellman.
 
 1417
 01:17:34,600 --> 01:17:38,970
-They proposed this particular
-system that ended up
+Mereka menyusun sistem
+ini yang pada akhirnya
 
 1418
 01:17:38,970 --> 01:17:40,830
-being broken soon after.
+dirusak segera setelah itu.
 
 1419
 01:17:40,830 --> 01:17:43,410
-But the idea is that you
-create a private key.
+Tapi intinya adalah anda
+membuat kunci privat.
 
 1420
 01:17:46,150 --> 01:17:48,645
-And the private key is a
-super increasing knapsack.
+Dan kunci privat merupakan
+peningkatan super knapsack.
 
 1421
 01:17:54,980 --> 01:18:03,570
-And then you use a
-private transform in order
+Dan kemudian Anda menggunakan
+transformasi privat
 
 1422
 01:18:03,570 --> 01:18:08,270
-to get a-- and this is
-really I put it in quotes,
+untuk mendapatkan sebuah-- dan ini
+dalam tanda kutip,
 
 1423
 01:18:08,270 --> 01:18:14,725
-because this was the bug--
-"hard" Knapsack problem.
+karena ini adalah bug-- 
+masalah Knapsack "sulit".
 
 1424
 01:18:17,650 --> 01:18:21,010
-And this corresponded
-to the public key.
+Dan ini sesuai dengan
+kunci publiknya.
 
 1425
 01:18:25,500 --> 01:18:27,860
-And so what you do
-is you won't actually
+Dan jadi apa yang Anda lakukan adalah
+Anda tidak akan benar-benar harus
 
 1426
 01:18:27,860 --> 01:18:32,459
-have to solve Knapsack for
-encryption, the hard problem.
+memecahkan knapsack untuk
+enkripsi, masalah yang sulit.
 
 1427
 01:18:32,459 --> 01:18:34,000
-The encryption would
-just simply take
+Enkripsinya hanya
+akan secara sederhana mengambil
 
 1428
 01:18:34,000 --> 01:18:36,810
-the public key, which
-is completely public,
+kunci publiknya, 
+yang sepenuhnya publik,
 
 1429
 01:18:36,810 --> 01:18:41,120
-and you would create
-the encryption
+dan Anda akan membuat
+enkripsi dari
 
 1430
 01:18:41,120 --> 01:18:45,450
-of a message using this
-particular public key
+sebuah pesan menggunakan
+kunci publik ini
 
 1431
 01:18:45,450 --> 01:18:49,680
-in a polynomial time.
+dalam waktu polinomial.
 
 1432
 01:18:49,680 --> 01:18:54,830
-But the inversion, not
-knowing the private key,
+Tapi inversenya,
+tanpa mengetahui kunci privatnya,
 
 1433
 01:18:54,830 --> 01:18:57,820
-you would force the
-adversary to solve
+Anda akan memaksa lawan
+untuk menyelesaikan
 
 1434
 01:18:57,820 --> 01:19:00,050
-what you think was hard
-general Knapsack problem
+apa yang Anda pikir
+masalah knapsack umum yang sulit
 
 1435
 01:19:00,050 --> 01:19:03,920
-to actually break the scheme
-or to get the decryption.
+untuk benar benar mematahkan skema
+atau untuk mendapatkan dekripsinya.
 
 1436
 01:19:03,920 --> 01:19:07,210
-And so let me show you
-really quickly how this
+Akan saya tunjukkan kepada Anda
+bagaimana cepatnya hal ini
 
 1437
 01:19:07,210 --> 01:19:08,230
-works with numbers.
+bekerja dengan angka-angka.
 
 1438
 01:19:08,230 --> 01:19:11,850
-And we won't have you worry
-about symbols and things
+Dan kita tidak perlu mengkhawatirkan
+tentang simbol dan hal-hal
 
 1439
 01:19:11,850 --> 01:19:12,820
-like that.
+seperti itu.
 
 1440
 01:19:12,820 --> 01:19:16,924
-So just give me a couple
-of extra minutes here.
+Jadi berikan saya 
+beberapa menit tambahan.
 
 1441
 01:19:16,924 --> 01:19:18,340
-So let's say that
-I had a message.
+Katakanlah bahwa
+saya mendapat pesan.
 
 1442
 01:19:22,310 --> 01:19:26,960
-Oh, before I do that, let
-me look at-- let's say,
+Oh, sebelum saya melakukannya,
+izinkan saya melihat-- katakanlah,
 
 1443
 01:19:26,960 --> 01:19:31,200
