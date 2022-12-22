@@ -4961,7 +4961,7 @@ Tetapi itu secara umum opsional.
 1044
 00:43:54,350 --> 00:43:58,410
 Sungguh, Anda seharusnya hanya bergantung
-pada kriptografi alih-alih kemaman
+pada kriptografi alih-alih keamanan
 
 1045
 00:43:58,410 --> 00:44:00,430
@@ -4969,294 +4969,294 @@ berbasis alamat IP.
 
 1046
 00:44:00,430 --> 00:44:02,890
-So what's the point of the
-time stamp and lifetime things
+Jadi apa tujuannya dari
+waktu dan masa berlaku
 
 1047
 00:44:02,890 --> 00:44:04,760
-in the ticket up there?
+pada tiket di atas sana?
 
 1048
 00:44:04,760 --> 00:44:06,445
-One are those guys good for?
+Apa fungsi dari hal-hal itu?
 
 1049
 00:44:06,445 --> 00:44:08,595
-Are they useful?
+Apakah mereka berguna?
 
 1050
 00:44:08,595 --> 00:44:09,095
-Yeah.
+Yah.
 
 1051
 00:44:09,095 --> 00:44:11,270
-STUDENT: Preventing
-replay attacks.
+MAHASISWA: Mencegah
+serangan replay.
 
 1052
 00:44:11,270 --> 00:44:12,687
-PROFESSOR: Well,
-so the syndicator
+PROFESOR: Baik,
+jadi sindikatornya
 
 1053
 00:44:12,687 --> 00:44:14,520
-is the thing that's
-going to help us prevent
+adalah hal yang
+akan membantu kita mencegah
 
 1054
 00:44:14,520 --> 00:44:16,080
-replay attacks in a second.
+serangan replay dalam satu detik.
 
 1055
 00:44:16,080 --> 00:44:18,470
-Because that thing gets
-generated every time
+Karena hal tersebut dapat
+diciptakan setiap kali
 
 1056
 00:44:18,470 --> 00:44:20,370
-you do a new request.
+Anda melakukan sebuah permintaan baru.
 
 1057
 00:44:20,370 --> 00:44:22,490
-On the other hand, the
-ticket just stays the same.
+Di sisi lain,
+tiket tetap sama.
 
 1058
 00:44:22,490 --> 00:44:24,739
-So it's certainly not
-preventing replay attacks there.
+Jadi tentu saja tidak akan
+mencegah serangan replay di sana.
 
 1059
 00:44:24,739 --> 00:44:25,304
-Yeah.
+Yah.
 
 1060
 00:44:25,304 --> 00:44:27,804
-STUDENT: It prevents somebody
-from stealing your ticket then
+MAHASISWA: Ini mencegah seseorang
+mencuri tiket Anda kemudian
 
 1061
 00:44:27,804 --> 00:44:28,638
-using it [INAUDIBLE]
+menggunakannya [TIDAK TERDENGAR]
 
 1062
 00:44:28,638 --> 00:44:29,720
-PROFESSOR: Oh, sorry, yes.
+PROFESSOR: Oh, maaf, ya.
 
 1063
 00:44:29,720 --> 00:44:32,050
-This just bounds the time
-for which a ticket is valid,
+Ini hanya membatasi waktu
+berlakunya tiket,
 
 1064
 00:44:32,050 --> 00:44:34,630
-meaning that the damage
-from disclosing it
+yang berarti kerusakan 
+akibat pengungkapannya
 
 1065
 00:44:34,630 --> 00:44:37,110
-is hopefully reduced.
+diharapkan berkurang.
 
 1066
 00:44:37,110 --> 00:44:39,900
-So the plan is the timestamp
-is roughly the time when
+Jadi rencananya adalah waktu
+adalah kira-kira waktu saat
 
 1067
 00:44:39,900 --> 00:44:41,370
-you initially got the ticket.
+ketika Anda awalnya mendapatkan tiket.
 
 1068
 00:44:41,370 --> 00:44:44,070
-And a lifetime in
-the ticket represents
+Dan masa berlaku
+tiket mewakili
 
 1069
 00:44:44,070 --> 00:44:47,030
-how many hours,
-let's say, it's valid
+berapa jam,
+katakanlah, dia berlaku
 
 1070
 00:44:47,030 --> 00:44:48,900
-from that initial timestamp.
+dari timestamp awal itu.
 
 1071
 00:44:48,900 --> 00:44:51,050
-So if you try to use it
-too early or too late,
+Jadi jika Anda mencoba menggunakannya
+terlalu dini atau terlambat,
 
 1072
 00:44:51,050 --> 00:44:54,100
-then every server should
-reject such a ticket
+kemudian setiap server haruslah
+menolak tiket seperti itu
 
 1073
 00:44:54,100 --> 00:44:56,040
-in the Kerberos protocol.
+di dalam protokol Kerberos.
 
 1074
 00:44:56,040 --> 00:44:58,180
-So this kind of means
-that every server
+Jadi cara semacam ini
+berarti setiap server
 
 1075
 00:44:58,180 --> 00:45:02,859
-has to have a loosely
-synchronized, clock which
+harus memiliki jam yang
+kurang lebih tersinkronisasi,
 
 1076
 00:45:02,859 --> 00:45:04,900
-is a bit of a-- well,
-maybe you've run into this.
+yang sedikit-- yah,
+mungkin Anda pernah mengalami ini.
 
 1077
 00:45:04,900 --> 00:45:07,483
-Like, your laptop clock is off
-and you can't log into Kerberos
+seperti, jam laptop anda mati
+dan Anda tidak bisa mengakses Kerberos
 
 1078
 00:45:07,483 --> 00:45:08,121
-anymore.
+lagi.
 
 1079
 00:45:08,121 --> 00:45:08,620
-Question?
+Pertanyaan?
 
 1080
 00:45:08,620 --> 00:45:09,190
-Yeah.
+Yah.
 
 1081
 00:45:09,190 --> 00:45:11,980
-STUDENT: You said before
-that the client discards KC
+MAHASISWA: Sebelumnya Anda mengatakan
+bahwa klien membuang KC
 
 1082
 00:45:11,980 --> 00:45:14,780
-but they're still
-keeping KCS [INAUDIBLE]
+tapi mereka masih
+menyimpan KCS [TIDAK TERDENGAR]
 
 1083
 00:45:14,780 --> 00:45:16,305
-the TGS. [INAUDIBLE]
+si TGS. [TIDAK TERDENGAR]
 
 1084
 00:45:16,305 --> 00:45:17,555
-PROFESSOR: That's right, yeah.
+PROFESSOR: Iya itu benar, ya.
 
 1085
 00:45:17,555 --> 00:45:20,310
-So the client discards
-KC after logging in.
+Jadi klien membuang
+KC setelah masuk.
 
 1086
 00:45:20,310 --> 00:45:21,600
-But it still keeps KCS.
+Tapi dia masih menyimpan KCS.
 
 1087
 00:45:21,600 --> 00:45:22,997
-You're exactly right.
+Anda benar sekali.
 
 1088
 00:45:22,997 --> 00:45:24,580
-STUDENT: So if someone
-steals the KCS,
+MAHASISWA: Jadi jika seseorang
+mencuri KCS,
 
 1089
 00:45:24,580 --> 00:45:27,487
-then they have access
-to [INAUDIBLE].
+maka mereka memiliki akses
+ke [TIDAK TERDENGAR].
 
 1090
 00:45:27,487 --> 00:45:28,320
-PROFESSOR: Yeah, OK.
+PROFESOR: Yah, OK.
 
 1091
 00:45:28,320 --> 00:45:29,111
-So how bad is that?
+Jadi seberapa buruk itu?
 
 1092
 00:45:29,111 --> 00:45:32,892
-Like, why is it better
-to disclose this KCS
+Seperti, mengapa lebih baik
+mengungkapkan KCS ini
 
 1093
 00:45:32,892 --> 00:45:34,600
-fof-- actually, well,
-this is TGS, right?
+untuk-- sebenarnya, yah,
+ini TGS, kan?
 
 1094
 00:45:34,600 --> 00:45:37,235
-Why is it better to
-disclose KCTGS than KC?
+Mengapa lebih baik
+mengungkapkan KCTGS daripada KC?
 
 1095
 00:45:39,980 --> 00:45:40,918
-Yeah.
+Yah.
 
 1096
 00:45:40,918 --> 00:45:43,205
-STUDENT: Someone [INAUDIBLE]
-somewhere [INAUDIBLE].
+MAHASISWA: Seseorang [TIDAK TERDENGAR]
+di suatu tempat [TIDAK TERDENGAR].
 
 1097
 00:45:43,205 --> 00:45:44,580
-PROFESSOR: It's
-the kind of thing
+PROFESOR: Itu
+hal yang terkait dengan
 
 1098
 00:45:44,580 --> 00:45:45,390
-that they're both keys, though.
+keduanya adalah kunci, sebenarnya.
 
 1099
 00:45:45,390 --> 00:45:47,181
-So neither of them are
-really hashed, yeah.
+Jadi tidak satupun dari mereka
+yang benar-benar telah dihash, ya.
 
 1100
 00:45:47,181 --> 00:45:49,533
-STUDENT: You would take
-KCS and you'd just steal
+MAHASISWA: Anda bisa mengambil
+KCS dan cukup mencuri
 
 1101
 00:45:49,533 --> 00:45:51,238
-that session between those two.
+sesi tersebut di antara keduanya.
 
 1102
 00:45:51,238 --> 00:45:53,740
-But if you steal KC, you
-can impersonate the client.
+Tetapi jika Anda mencuri KC, ANda
+bisa berpura-pura sebagai klien.
 
 1103
 00:45:53,740 --> 00:45:54,740
-PROFESSOR: That's right.
+PROFESOR: Itu betul.
 
 1104
 00:45:54,740 --> 00:45:55,240
-Yeah.
+Yah.
 
 1105
 00:45:55,240 --> 00:45:56,730
-So I guess one
-way to answer this
+Jadi Saya rasa satu cara
+untuk menjawab ini
 
 1106
 00:45:56,730 --> 00:46:00,820
-is that KCTGS, this is actually
-a new key generated every time
+adalah bahwa KCTGS, kunci ini benar-benar
+merupakan kunci baru yang dibangkitkan setiap kali
 
 1107
 00:46:00,820 --> 00:46:02,820
-you log in initially.
+Anda masuk di awal.
 
 1108
 00:46:02,820 --> 00:46:06,550
-And this thing is only good
-because you have this ticket
+Dan hal ini hanya berlaku
+karena Anda mempunyai tiket ini
 
 1109
 00:46:06,550 --> 00:46:08,620
-that goes along with it.
+yang berada bersama dengan KCTGS.
 
 1110
 00:46:08,620 --> 00:46:11,550
