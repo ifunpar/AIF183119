@@ -4961,7 +4961,7 @@ Tetapi itu secara umum opsional.
 1044
 00:43:54,350 --> 00:43:58,410
 Sungguh, Anda seharusnya hanya bergantung
-pada kriptografi alih-alih kemaman
+pada kriptografi alih-alih keamanan
 
 1045
 00:43:58,410 --> 00:44:00,430
@@ -4970,15 +4970,15 @@ berbasis alamat IP.
 1046
 00:44:00,430 --> 00:44:02,890
 Jadi apa tujuannya dari
-stempel waktu dan hal seumur hidup
+waktu dan masa berlaku
 
 1047
 00:44:02,890 --> 00:44:04,760
-pada tiket disana?
+pada tiket di atas sana?
 
 1048
 00:44:04,760 --> 00:44:06,445
-Salah satu yang baik untuk orang-orang itu?
+Apa fungsi dari hal-hal itu?
 
 1049
 00:44:06,445 --> 00:44:08,595
@@ -4986,17 +4986,17 @@ Apakah mereka berguna?
 
 1050
 00:44:08,595 --> 00:44:09,095
-Yeah.
+Yah.
 
 1051
 00:44:09,095 --> 00:44:11,270
-SISWA: Mencegah
-serangan ulang.
+MAHASISWA: Mencegah
+serangan replay.
 
 1052
 00:44:11,270 --> 00:44:12,687
 PROFESOR: Baik,
-jadi sindikator
+jadi sindikatornya
 
 1053
 00:44:12,687 --> 00:44:14,520
@@ -5005,16 +5005,16 @@ akan membantu kita mencegah
 
 1054
 00:44:14,520 --> 00:44:16,080
-memutar ulang serangan dalam sedetik.
+serangan replay dalam satu detik.
 
 1055
 00:44:16,080 --> 00:44:18,470
 Karena hal tersebut dapat
-diciptakan kapan saja
+diciptakan setiap kali
 
 1056
 00:44:18,470 --> 00:44:20,370
-anda melakukan sebuah permintaan baru.
+Anda melakukan sebuah permintaan baru.
 
 1057
 00:44:20,370 --> 00:44:22,490
@@ -5024,15 +5024,15 @@ tiket tetap sama.
 1058
 00:44:22,490 --> 00:44:24,739
 Jadi tentu saja tidak akan
-mencegah serangan ulang di sana.
+mencegah serangan replay di sana.
 
 1059
 00:44:24,739 --> 00:44:25,304
-Yeah.
+Yah.
 
 1060
 00:44:25,304 --> 00:44:27,804
-MAHASISWA: Ini dapat mencegah seseorang
+MAHASISWA: Ini mencegah seseorang
 mencuri tiket Anda kemudian
 
 1061
@@ -5059,8 +5059,8 @@ diharapkan berkurang.
 
 1066
 00:44:37,110 --> 00:44:39,900
-Jadi rencananya adalah timestamp
-yang kira-kira waktunya
+Jadi rencananya adalah waktu
+adalah kira-kira waktu saat
 
 1067
 00:44:39,900 --> 00:44:41,370
@@ -5074,7 +5074,7 @@ tiket mewakili
 1069
 00:44:44,070 --> 00:44:47,030
 berapa jam,
-katakanlah, itu berlaku
+katakanlah, dia berlaku
 
 1070
 00:44:47,030 --> 00:44:48,900
@@ -5092,27 +5092,27 @@ menolak tiket seperti itu
 
 1073
 00:44:54,100 --> 00:44:56,040
-didalam protokol Kerberos.
+di dalam protokol Kerberos.
 
 1074
 00:44:56,040 --> 00:44:58,180
-Jadi sarana semacam ini
-bahwa setiap server
+Jadi cara semacam ini
+berarti setiap server
 
 1075
 00:44:58,180 --> 00:45:02,859
-harus mempunyai kelonggaran
-sinkronisasi, jam yang
+harus memiliki jam yang
+kurang lebih tersinkronisasi,
 
 1076
 00:45:02,859 --> 00:45:04,900
-sedikit dari-- ya,
-mungkin anda mengalami ini.
+yang sedikit-- yah,
+mungkin Anda pernah mengalami ini.
 
 1077
 00:45:04,900 --> 00:45:07,483
 seperti, jam laptop anda mati
-dan anda tidak bisa akses kedalam Kerberos
+dan Anda tidak bisa mengakses Kerberos
 
 1078
 00:45:07,483 --> 00:45:08,121
@@ -5124,11 +5124,11 @@ Pertanyaan?
 
 1080
 00:45:08,620 --> 00:45:09,190
-Ya.
+Yah.
 
 1081
 00:45:09,190 --> 00:45:11,980
-MAHASISWA: Sebelumnya anda bilang
+MAHASISWA: Sebelumnya Anda mengatakan
 bahwa klien membuang KC
 
 1082
@@ -5151,7 +5151,7 @@ KC setelah masuk.
 
 1086
 00:45:20,310 --> 00:45:21,600
-Tapi itu masih menyimpan KCS.
+Tapi dia masih menyimpan KCS.
 
 1087
 00:45:21,600 --> 00:45:22,997
@@ -5201,12 +5201,12 @@ di suatu tempat [TIDAK TERDENGAR].
 
 1097
 00:45:43,205 --> 00:45:44,580
-PROFESOR:  Hal itu
-dinyatakan bahwa
+PROFESOR: Itu
+hal yang terkait dengan
 
 1098
 00:45:44,580 --> 00:45:45,390
-mereka adalah kedua kunci, ya.
+keduanya adalah kunci, sebenarnya.
 
 1099
 00:45:45,390 --> 00:45:47,181
@@ -5216,16 +5216,16 @@ yang benar-benar telah dihash, ya.
 1100
 00:45:47,181 --> 00:45:49,533
 MAHASISWA: Anda bisa mengambil
-KCS dan hanya mencuri
+KCS dan cukup mencuri
 
 1101
 00:45:49,533 --> 00:45:51,238
-sesi tersebut diantara keduanya.
+sesi tersebut di antara keduanya.
 
 1102
 00:45:51,238 --> 00:45:53,740
 Tetapi jika Anda mencuri KC, ANda
-bisa menirukan klien.
+bisa berpura-pura sebagai klien.
 
 1103
 00:45:53,740 --> 00:45:54,740
@@ -5233,17 +5233,17 @@ PROFESOR: Itu betul.
 
 1104
 00:45:54,740 --> 00:45:55,240
-Ya.
+Yah.
 
 1105
 00:45:55,240 --> 00:45:56,730
-Jadi Saya rasa jalan
+Jadi Saya rasa satu cara
 untuk menjawab ini
 
 1106
 00:45:56,730 --> 00:46:00,820
 adalah bahwa KCTGS, kunci ini benar-benar
-merupakan kunci baru yang diperbaharui setiap kali
+merupakan kunci baru yang dibangkitkan setiap kali
 
 1107
 00:46:00,820 --> 00:46:02,820
@@ -5251,12 +5251,12 @@ Anda masuk di awal.
 
 1108
 00:46:02,820 --> 00:46:06,550
-Dan hal ini merupakan hal yang bagus
+Dan hal ini hanya berlaku
 karena Anda mempunyai tiket ini
 
 1109
 00:46:06,550 --> 00:46:08,620
-yang sejalan dengan KCTGS.
+yang berada bersama dengan KCTGS.
 
 1110
 00:46:08,620 --> 00:46:11,550
