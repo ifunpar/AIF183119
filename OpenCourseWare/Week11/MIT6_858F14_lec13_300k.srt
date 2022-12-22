@@ -8573,282 +8573,282 @@ memory, the ticket remains.
 
 1811
 01:14:49,420 --> 01:14:51,370
-You could, in principle,
-use the ticket
+Anda bisa, dalam prinsipnya,
+menggunakan tiketnya
 
 1812
 01:14:51,370 --> 01:14:54,916
-to obtain more tickets for
-the password changing service.
+untuk mendapatkan lebih banyak tiket untuk
+layanan mengubah password.
 
 1813
 01:14:54,916 --> 01:14:56,290
-But the password
-changing service
+Tetapi layanan
+mengubah password
 
 1814
 01:14:56,290 --> 01:14:57,270
-says that's not going
-to be good enough.
+mengatakan bahwa itu
+tidak cukup.
 
 1815
 01:14:57,270 --> 01:14:58,645
-It's going to look
-at this ticket
+Dia akan terlihat
+di tiket ini
 
 1816
 01:14:58,645 --> 01:15:01,950
-here-- ticket between the
-client and the password service.
+di sini-- tiket antara 
+client dan layanan password.
 
 1817
 01:15:01,950 --> 01:15:04,764
-And if that was
-updated through TGS,
+Dan jika itu
+diperbarui melalui TGS,
 
 1818
 01:15:04,764 --> 01:15:06,180
-it's going to
-reject your request.
+dia akan 
+menolak permintaan anda.
 
 1819
 01:15:06,180 --> 01:15:08,513
-It's only going to accept it
-if it was obtained directly
+Dia hanya akan menerimanya
+jika itu didapat langsung
 
 1820
 01:15:08,513 --> 01:15:11,260
-from the Kerberos
-service using KC.
+dari layanan 
+Kerberos menggunakan KC.
 
 1821
 01:15:11,260 --> 01:15:11,761
-Makes sense?
+Masuk akal?
 
 1822
 01:15:11,761 --> 01:15:12,260
-Question.
+Pertanyaan.
 
 1823
 01:15:12,260 --> 01:15:14,794
-STUDENT: So if you [INAUDIBLE]
-password with the [INAUDIBLE]
+SISWA: Jadi jika Anda [TIDAK TERDENGAR]
+kata sandi dengan [TIDAK TERDENGAR]
 
 1824
 01:15:14,794 --> 01:15:15,454
-Athena, right?
+Athena, benar?
 
 1825
 01:15:15,454 --> 01:15:16,120
-PROFESSOR: Yeah.
+PROFESOR: Yah.
 
 1826
 01:15:16,120 --> 01:15:18,375
-STUDENT: So if I would
-steal your private key--
+SISWA: Jadi jika saya mau
+mencuri kunci privat Anda--
 
 1827
 01:15:18,375 --> 01:15:20,590
-PROFESSOR: Yeah,
-so actually, KC is
+PROFESOR: Ya,
+jadi sebenarnya, KC adalah
 
 1828
 01:15:20,590 --> 01:15:22,896
-basically equivalent
-to your password here.
+pada dasarnya setara
+dengan kata sandi Anda di sini.
 
 1829
 01:15:22,896 --> 01:15:24,770
-As far as the Kerberos
-protocol is concerned,
+Sejauh kaitannya dengan
+protokol Kerberos,
 
 1830
 01:15:24,770 --> 01:15:26,728
-that don't even think
-that you have a password.
+yang bahkan tidak berpikir
+bahwa Anda memiliki kata sandi.
 
 1831
 01:15:26,728 --> 01:15:28,510
-It thinks you have
-a private key KC.
+Ia berpikir Anda memiliki
+kunci privat KC.
 
 1832
 01:15:28,510 --> 01:15:31,000
-If someone knows KC, that's
-basically your password.
+Jika seseorang tahu KC, itu
+pada dasarnya kata sandi Anda.
 
 1833
 01:15:31,000 --> 01:15:32,678
-So you can change
-your key from KC
+Jadi anda dapat mengganti
+kunci anda dari KC
 
 1834
 01:15:32,678 --> 01:15:34,886
-to something else so you
-don't lose this thing, yeah.
+menjadi sesuatu yang lain jadi Anda
+tidak boleh kehilangan ini, yah.
 
 1835
 01:15:34,886 --> 01:15:36,690
-Uh, yeah, question?
+Oh, yah, pertanyaan?
 
 1836
 01:15:36,690 --> 01:15:41,926
-STUDENT: [INAUDIBLE]
-initial message [INAUDIBLE]
+MAHASISWA: [TIDAK TERDENGAR]
+pesan awal [TIDAK TERDENGAR]
 
 1837
 01:15:41,926 --> 01:15:44,410
-from changing the [INAUDIBLE]
+dari mengubah [TIDAK TERDENGAR] nya
 
 1838
 01:15:44,410 --> 01:15:45,910
-PROFESSOR: Oh, you
-can certainly get
+PROFESSOR: Oh, Anda
+pasti bisa mendapatkan
 
 1839
 01:15:45,910 --> 01:15:48,725
-a ticket for some other
-service or an attacker
+sebuah tiket untuk beberapa 
+layanan atau seorang penyerang
 
 1840
 01:15:48,725 --> 01:15:50,600
-could drop this message
-altogether or corrupt
+dapat memberikan pesan ini
+sekaligus atau merusak
 
 1841
 01:15:50,600 --> 01:15:51,480
-this exchange.
+pertukaran ini.
 
 1842
 01:15:51,480 --> 01:15:52,790
-And then you're not going
-to successfully change
+Dan kemudian Anda tidak dapat
+dapat mengganti
 
 1843
 01:15:52,790 --> 01:15:53,255
-your password.
+password Anda dengan sukses.
 
 1844
 01:15:53,255 --> 01:15:54,088
-STUDENT: [INAUDIBLE]
+MAHASISWA: [TIDAK TERDENGAR]
 
 1845
 01:15:56,456 --> 01:15:58,080
-PROFESSOR: Yeah, so
-the client actually
+PROFESOR: Ya,sebenarnya 
+client
 
 1846
 01:15:58,080 --> 01:16:00,350
-knows exactly what service
-it wants to talk to.
+tahu tepatnya layanan apa
+yang ingin dia ajak bicara.
 
 1847
 01:16:00,350 --> 01:16:07,120
-So if it-- it's going
-to make sure, well,
+Jadi jika dia-- dia akan
+memastikan, yah,
 
 1848
 01:16:07,120 --> 01:16:09,620
-there are some messages, some
-parts of this protocol I'm not
+ada beberapa pesan, beberapa
+bagian dari protokol ini yang saya tidak
 
 1849
 01:16:09,620 --> 01:16:11,810
-showing that allow the
-client to make sure
+tunjukkan yang memungkinkan
+klien untuk memastikan
 
 1850
 01:16:11,810 --> 01:16:14,330
-they actually got the
-ticket for the right thing.
+mereka sebenarnya mendapatkan
+tiket untuk hal yang tepat. 
 
 1851
 01:16:14,330 --> 01:16:17,200
-But yeah, so the-- sorry.
+Tapi yah, jadi-- maaf.
 
 1852
 01:16:17,200 --> 01:16:17,700
-Question?
+Pertanyaan?
 
 1853
 01:16:17,700 --> 01:16:20,941
-STUDENT: [INAUDIBLE] very easy
-to denial of service attack
+MAHASISWA: [TIDAK TERDENGAR] sangat mudah
+untuk melakukan serangan denial of service
 
 1854
 01:16:20,941 --> 01:16:25,207
-when an attacker [INAUDIBLE]
-modifying the encrypted version
+ketika seorang penyerang [TIDAK TERDENGAR]
+memodifikasi versi yang sudah dienkripsi
 
 1855
 01:16:25,207 --> 01:16:26,926
-of the new password.
+dari pasword baru.
 
 1856
 01:16:26,926 --> 01:16:29,340
-PROFESSOR: Yeah, so there's
-actually lot of things.
+PROFESOR: ya, jadi 
+sebenarnya ada banyak hal.
 
 1857
 01:16:29,340 --> 01:16:34,392
-Because, for example, Kerberos
-doesn't do authentication
+Karena, sebagai contoh, Kerberos
+tidak melakukan autentikasi
 
 1858
 01:16:34,392 --> 01:16:35,850
-properly of messages--
-it just does
+dengan baik pada pesan--
+dia hanya melakukan
 
 1859
 01:16:35,850 --> 01:16:38,270
-encryption-- you could
-totally corrupt this blob.
+enkripsi-- Anda bisa
+merusak gumpalan ini.
 
 1860
 01:16:38,270 --> 01:16:38,770
-And--
+Dan--
 
 1861
 01:16:38,770 --> 01:16:39,870
-STUDENT: [INAUDIBLE]
+MAHASISWA: [TIDAK TERDENGAR]
 
 1862
 01:16:39,870 --> 01:16:40,924
-PROFESSOR: Yeah, you
-could flip it around
+PROFESOR: Ya, Anda
+bisa membaliknya juga
 
 1863
 01:16:40,924 --> 01:16:42,770
-and it'll decrypt
-to something else.
+dan dia akan didekripsikan
+menjadi hal yang lain.
 
 1864
 01:16:42,770 --> 01:16:44,260
-The service was like, oh
-yeah, that's the new password,
+Layanannya seperti, oh yah,
+itu adalah kata sandi yang baru,
 
 1865
 01:16:44,260 --> 01:16:44,882
-and set it.
+dan mengaturnya.
 
 1866
 01:16:44,882 --> 01:16:46,340
-And then you're
-sort of locked out.
+Dan kemudian kamu akan
+semacam terkunci.
 
 1867
 01:16:46,340 --> 01:16:47,631
-So it seems really unfortunate.
+Jadi itu sangat disayangkan.
 
 1868
 01:16:47,631 --> 01:16:49,130
-And this is yet
-another reason why
+Dan ini juga alasan
+lain mengapa
 
 1869
 01:16:49,130 --> 01:16:52,325
-you want separate encryption and
-authentication in the protocol.
+Anda butuh enkripsi terpisah
+dan otentikasi di dalam protokolnya.
 
 1870
 01:16:52,325 --> 01:16:54,200
