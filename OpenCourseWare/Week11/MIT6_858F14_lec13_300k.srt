@@ -8712,7 +8712,7 @@ layanan atau seorang penyerang
 
 1840
 01:15:48,725 --> 01:15:50,600
-dapat memberikan pesan ini
+dapat memberikan pesan inii
 sekaligus atau merusak
 
 1841
