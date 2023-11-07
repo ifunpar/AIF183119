@@ -8568,8 +8568,8 @@ workstation after you log in,
 
 1810
 01:14:46,170 --> 01:14:49,420
-your password is gone from
-memory, the ticket remains.
+password anda telah hilang dari
+memori, tersisa tiket.
 
 1811
 01:14:49,420 --> 01:14:51,370
@@ -8712,7 +8712,7 @@ layanan atau seorang penyerang
 
 1840
 01:15:48,725 --> 01:15:50,600
-dapat memberikan pesan ini
+dapat memberikan pesan inii
 sekaligus atau merusak
 
 1841
